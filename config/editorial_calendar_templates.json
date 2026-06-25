@@ -1,0 +1,107 @@
+{
+  "evergreen_clusters": [
+    {
+      "id": "fomc_guide",
+      "keyword": "fomc 뜻",
+      "related_keywords": ["fomc", "cpi", "pce", "jobs", "treasury_yields", "dollar"],
+      "post_type": "evergreen_explainer",
+      "search_intent": "FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자",
+      "working_title": "FOMC 뜻부터 시장 영향까지 한 번에 정리",
+      "angle": "연준 회의가 왜 주식과 코인에 동시에 영향을 주는지 쉽게 설명하는 기본서형 글",
+      "monetization_path": "광고 친화적인 초보 투자자 검색 유입, 연관 거시 글 내부링크 강화",
+      "internal_link_targets": ["cpi_guide", "treasury_guide", "dollar_guide"]
+    },
+    {
+      "id": "cpi_guide",
+      "keyword": "미국 cpi 뜻",
+      "related_keywords": ["cpi", "pce", "fomc", "dollar", "oil"],
+      "post_type": "evergreen_explainer",
+      "search_intent": "미국 CPI 발표가 왜 시장을 흔드는지 이해하려는 검색자",
+      "working_title": "미국 CPI 뜻, 발표 일정, 주식과 코인 영향 정리",
+      "angle": "인플레이션 지표가 금리 기대와 위험자산 흐름에 연결되는 구조 설명",
+      "monetization_path": "지속 검색형 경제 키워드 유입, 거시 카테고리 체류 시간 확대",
+      "internal_link_targets": ["fomc_guide", "dollar_guide"]
+    },
+    {
+      "id": "bitcoin_etf_guide",
+      "keyword": "비트코인 etf 뜻",
+      "related_keywords": ["bitcoin", "ethereum", "crypto_etf"],
+      "post_type": "evergreen_explainer",
+      "search_intent": "현물 ETF가 비트코인 가격과 수급에 어떤 영향을 주는지 알고 싶은 독자",
+      "working_title": "비트코인 ETF 뜻과 시장 영향 쉽게 정리",
+      "angle": "ETF 자금 흐름이 비트코인 가격에 미치는 구조를 뉴스보다 쉽게 설명",
+      "monetization_path": "코인 초보 검색 유입, 코인 일일 해설과 내부링크 연결",
+      "internal_link_targets": ["ethereum_guide", "liquidity_guide"]
+    },
+    {
+      "id": "dollar_guide",
+      "keyword": "달러 인덱스 보는법",
+      "related_keywords": ["dollar", "treasury_yields", "fomc", "oil", "china"],
+      "post_type": "evergreen_explainer",
+      "search_intent": "달러 강세와 약세를 어떻게 해석해야 하는지 알고 싶은 독자",
+      "working_title": "달러 인덱스 보는 법과 주식·코인 영향 정리",
+      "angle": "달러 강세가 한국 투자자와 미국 주식·코인에 어떤 의미인지 해설",
+      "monetization_path": "거시 입문 검색 유입, 환율/금리/미국증시 내부링크 허브",
+      "internal_link_targets": ["fomc_guide", "cpi_guide", "treasury_guide"]
+    },
+    {
+      "id": "treasury_guide",
+      "keyword": "미국채 금리 보는법",
+      "related_keywords": ["treasury_yields", "fomc", "jobs", "dollar"],
+      "post_type": "evergreen_explainer",
+      "search_intent": "2년물과 10년물 금리가 왜 중요한지 궁금한 투자자",
+      "working_title": "미국채 금리 보는 법, 왜 나스닥과 코인이 흔들릴까",
+      "angle": "금리와 밸류에이션의 연결을 투자자 관점에서 이해시키는 글",
+      "monetization_path": "검색형 거시 콘텐츠 축적, 미국증시/반도체 해설로 내부링크 이동",
+      "internal_link_targets": ["fomc_guide", "dollar_guide"]
+    },
+    {
+      "id": "ai_chip_guide",
+      "keyword": "ai 반도체 투자 포인트",
+      "related_keywords": ["ai_semiconductors", "china", "tariffs_trade"],
+      "post_type": "evergreen_sector_guide",
+      "search_intent": "AI 반도체 섹터의 핵심 기업과 체크포인트를 이해하려는 독자",
+      "working_title": "AI 반도체 투자 포인트: 엔비디아만 보면 안 되는 이유",
+      "angle": "대표 종목 나열보다 공급망과 실적 변수 중심으로 읽는 섹터 입문 글",
+      "monetization_path": "섹터 관심 독자 유입, 개별 종목/실적 포스트로 연결",
+      "internal_link_targets": ["china_supply_chain", "earnings_calendar"]
+    }
+  ],
+  "cadence_templates": [
+    {
+      "slot": 1,
+      "role": "breaking_primary",
+      "description": "가장 점수가 높은 당일 이슈를 해설형 글로 먼저 발행"
+    },
+    {
+      "slot": 2,
+      "role": "breaking_secondary",
+      "description": "두 번째 강한 이슈를 보강하거나 시장 연결 글로 확장"
+    },
+    {
+      "slot": 3,
+      "role": "evergreen_seo",
+      "description": "검색 유입용 설명형 글 발행"
+    },
+    {
+      "slot": 4,
+      "role": "follow_up",
+      "description": "1위 이슈의 후속 변수나 다음 이벤트 연결 글"
+    },
+    {
+      "slot": 5,
+      "role": "evergreen_seo",
+      "description": "두 번째 설명형 검색 글 발행"
+    },
+    {
+      "slot": 6,
+      "role": "sector_or_crypto",
+      "description": "섹터나 코인 독자층을 위한 별도 해설"
+    },
+    {
+      "slot": 7,
+      "role": "weekly_recap",
+      "description": "이번 주 핵심 흐름을 묶는 회고형 글"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "ready_for_first_live_run": false,
+  "monetization_score": 33.3,
+  "repo_connected": false,
+  "credentials_missing": [
+    "OPENAI_API_KEY",
+    "GOOGLE_CLIENT_ID",
+    "GOOGLE_CLIENT_SECRET",
+    "GOOGLE_REFRESH_TOKEN"
+  ],
+  "growth_keys_missing": [
+    "SEARCH_CONSOLE_SITE_URL",
+    "SEARCH_CONSOLE_CLIENT_ID",
+    "SEARCH_CONSOLE_CLIENT_SECRET",
+    "SEARCH_CONSOLE_REFRESH_TOKEN",
+    "GA4_MEASUREMENT_ID",
+    "ADSENSE_PUBLISHER_ID",
+    "ADSENSE_SITE_VERIFICATION",
+    "NEWSLETTER_SUBSCRIBE_URL"
+  ],
+  "top_post_keywords": [
+    "fomc",
+    "ai_semiconductors",
+    "bitcoin"
+  ],
+  "top_page_sequence": [
+    "about",
+    "disclosure",
+    "privacy-policy",
+    "editorial-policy",
+    "contact"
+  ],
+  "login_pages_count": 8,
+  "oauth_client_candidate_count": 0,
+  "publish_queue_ready_count": 3,
+  "publish_inventory_ready_count": 9,
+  "next_commands": [
+    "python3 scripts/open_login_setup_pages.py --open",
+    "python3 scripts/bootstrap_google_oauth_credentials.py",
+    "bash scripts/prepare_initial_commit.sh"
+  ],
+  "first_live_run_status": "awaiting_credentials",
+  "github_launch_status": "needs_initial_commit",
+  "first_queue_actions": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장 해설",
+      "cta_target": "환율·금리·미국증시 evergreen 글로 연결"
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "title": "AI·반도체 섹터 흐름 해설",
+      "cta_target": "실적·공급망·대표 종목 글로 연결"
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 핵심 흐름 해설",
+      "cta_target": "ETF·규제·초보 가이드 글로 연결"
+    }
+  ],
+  "top_follow_up_targets": [
+    {
+      "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
+      "source_keyword": "fomc",
+      "priority_score": 134.66
+    },
+    {
+      "title": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지",
+      "source_keyword": "fomc",
+      "priority_score": 131.66
+    },
+    {
+      "title": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지",
+      "source_keyword": "fomc",
+      "priority_score": 128.66
+    }
+  ],
+  "daily_keyword_opportunities": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장 해설",
+      "urgency": "publish_now"
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "title": "AI·반도체 섹터 흐름 해설",
+      "urgency": "prep_today"
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 핵심 흐름 해설",
+      "urgency": "watch"
+    }
+  ]
+}

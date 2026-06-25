@@ -1,0 +1,52 @@
+{
+  "ready_for_first_live_run": false,
+  "live_prerequisites": {
+    "site_pages_html_ready": true,
+    "blog_posts_ready": true,
+    "blogger_connection_ready": false,
+    "draft_engine_ready": true,
+    "git_remote_ready": false
+  },
+  "site_pages": {
+    "required_count": 9,
+    "ready_count": 9,
+    "top_sequence": [
+      "about",
+      "disclosure",
+      "privacy-policy",
+      "editorial-policy",
+      "contact"
+    ]
+  },
+  "posts": {
+    "ready_count": 3,
+    "top_keywords": [
+      "fomc",
+      "bitcoin",
+      "cpi"
+    ]
+  },
+  "required_credentials": [
+    "OPENAI_API_KEY",
+    "GOOGLE_CLIENT_ID",
+    "GOOGLE_CLIENT_SECRET",
+    "GOOGLE_REFRESH_TOKEN"
+  ],
+  "optional_growth_keys": [
+    "SEARCH_CONSOLE_SITE_URL",
+    "SEARCH_CONSOLE_CLIENT_ID",
+    "SEARCH_CONSOLE_CLIENT_SECRET",
+    "SEARCH_CONSOLE_REFRESH_TOKEN",
+    "GA4_MEASUREMENT_ID",
+    "ADSENSE_PUBLISHER_ID",
+    "ADSENSE_SITE_VERIFICATION",
+    "NEWSLETTER_SUBSCRIBE_URL"
+  ],
+  "monetization_score": 33.3,
+  "next_steps": [
+    "Blogger와 Google OAuth 값을 연결합니다.",
+    "신뢰 페이지를 먼저 Blogger Pages로 동기화합니다.",
+    "publish queue 상위 글을 Blogger draft로 업로드합니다.",
+    "GitHub 원격 저장소와 Actions Secrets/Variables를 연결합니다."
+  ]
+}

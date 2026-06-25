@@ -1,0 +1,44 @@
+{
+  "base_labels": ["투자", "경제", "시장해설"],
+  "keyword_labels": {
+    "fomc": ["FOMC", "연준", "거시경제", "미국증시"],
+    "cpi": ["CPI", "인플레이션", "거시경제", "미국증시"],
+    "pce": ["PCE", "인플레이션", "거시경제"],
+    "jobs": ["고용지표", "거시경제", "미국증시"],
+    "treasury_yields": ["미국채금리", "거시경제", "금리"],
+    "dollar": ["달러", "환율", "거시경제"],
+    "oil": ["유가", "원자재", "거시경제"],
+    "bitcoin": ["비트코인", "코인", "암호화폐"],
+    "ethereum": ["이더리움", "코인", "암호화폐"],
+    "crypto_etf": ["비트코인ETF", "이더리움ETF", "코인"],
+    "china": ["중국", "세계흐름", "거시경제"],
+    "tariffs_trade": ["관세", "무역", "세계흐름"],
+    "ai_semiconductors": ["AI", "반도체", "섹터분석", "미국증시"]
+  },
+  "category_by_keyword": {
+    "fomc": "macro",
+    "cpi": "macro",
+    "pce": "macro",
+    "jobs": "macro",
+    "treasury_yields": "macro",
+    "dollar": "macro",
+    "oil": "macro",
+    "bitcoin": "crypto",
+    "ethereum": "crypto",
+    "crypto_etf": "crypto",
+    "china": "global-sector",
+    "tariffs_trade": "global-sector",
+    "ai_semiconductors": "global-sector"
+  },
+  "category_hub_paths": {
+    "macro": "site-foundation/hub-macro.md",
+    "crypto": "site-foundation/hub-crypto.md",
+    "global-sector": "site-foundation/hub-global-sector.md"
+  },
+  "meta_description_templates": {
+    "macro": "{title} 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.",
+    "crypto": "{title} 이슈를 가격보다 수급, ETF, 달러, 규제 구조 중심으로 차분하게 해설합니다.",
+    "global-sector": "{title} 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다."
+  },
+  "trust_footer_note": "이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다."
+}

@@ -1,0 +1,76 @@
+{
+  "steps": [
+    {
+      "label": "Setup check",
+      "command": "python3 scripts/check_setup.py",
+      "returncode": 0,
+      "stdout": "Investment Blog Cloud Sync setup check\n\n- project: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync\n- .env present: yes\n- git branch: main\n- git origin: (not configured)\n- outputs/latest present: yes\n\nLocal .env values\n- ADSENSE_PUBLISHER_ID: missing\n- ADSENSE_SITE_VERIFICATION: missing\n- BLOGGER_AUTO_PUBLISH_POSTS: set (*****)\n- BLOGGER_BLOG_ID: set (691***88)\n- BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES: set (*****)\n- BLOGGER_MAX_POSTS_PER_RUN: set (*)\n- BLOGGER_PUBLISH_ONLY_DUE_POSTS: set (****)\n- BLOGGER_SITE_PAGES_PUBLISH: set (*****)\n- BLOGGER_SYNC_SITE_PAGES: set (*****)\n- BLOG_BASE_URL: missing\n- GA4_MEASUREMENT_ID: missing\n- GOOGLE_ACCESS_TOKEN: missing\n- GOOGLE_CLIENT_ID: missing\n- GOOGLE_CLIENT_SECRET: missing\n- GOOGLE_OAUTH_OPEN_BROWSER: set (*****)\n- GOOGLE_OAUTH_PRESET: set (com***ed)\n- GOOGLE_REDIRECT_URI: set (htt***ck)\n- GOOGLE_REFRESH_TOKEN: missing\n- NAVER_CLIENT_ID: missing\n- NAVER_CLIENT_SECRET: missing\n- NEWSLETTER_SUBSCRIBE_URL: missing\n- OPENAI_API_KEY: missing\n- OPENAI_MODEL: set (gpt***ni)\n- SEARCH_CONSOLE_ACCESS_TOKEN: missing\n- SEARCH_CONSOLE_CLIENT_ID: missing\n- SEARCH_CONSOLE_CLIENT_SECRET: missing\n- SEARCH_CONSOLE_LAG_DAYS: set (*)\n- SEARCH_CONSOLE_REFRESH_TOKEN: missing\n- SEARCH_CONSOLE_SITE_URL: missing\n- SEARCH_CONSOLE_WINDOW_DAYS: set (*)\n\nIntegration readiness\n- naver_datalab: missing NAVER_CLIENT_ID, NAVER_CLIENT_SECRET\n- search_console: missing SEARCH_CONSOLE_SITE_URL, SEARCH_CONSOLE_CLIENT_ID, SEARCH_CONSOLE_CLIENT_SECRET, SEARCH_CONSOLE_REFRESH_TOKEN\n- openai_drafts: missing OPENAI_API_KEY\n- blogger_upload: missing GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN\n\nPublish-ready status\n- report exists: yes\n- items: 3\n- ready html items: 3\n\nSite-page status\n- plan exists: yes\n- items: 10\n- required rendered pages: 9 / 9\n\nGo-live report\n- report exists: yes\n\nGitHub Actions notes\n- Local .env values do not automatically sync to GitHub Secrets.\n- Add the same keys manually in GitHub -> Settings -> Secrets and variables -> Actions.\n- Public repositories are usually the safest free option for this lightweight schedule.\n\nJSON report written to: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/setup-check-report.json",
+      "stderr": ""
+    },
+    {
+      "label": "OAuth bootstrap",
+      "command": "python3 scripts/bootstrap_google_oauth_credentials.py",
+      "returncode": 0,
+      "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/google-oauth-bootstrap-report.md",
+      "stderr": ""
+    },
+    {
+      "label": "Setup check refresh",
+      "command": "python3 scripts/check_setup.py",
+      "returncode": 0,
+      "stdout": "Investment Blog Cloud Sync setup check\n\n- project: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync\n- .env present: yes\n- git branch: main\n- git origin: (not configured)\n- outputs/latest present: yes\n\nLocal .env values\n- ADSENSE_PUBLISHER_ID: missing\n- ADSENSE_SITE_VERIFICATION: missing\n- BLOGGER_AUTO_PUBLISH_POSTS: set (*****)\n- BLOGGER_BLOG_ID: set (691***88)\n- BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES: set (*****)\n- BLOGGER_MAX_POSTS_PER_RUN: set (*)\n- BLOGGER_PUBLISH_ONLY_DUE_POSTS: set (****)\n- BLOGGER_SITE_PAGES_PUBLISH: set (*****)\n- BLOGGER_SYNC_SITE_PAGES: set (*****)\n- BLOG_BASE_URL: missing\n- GA4_MEASUREMENT_ID: missing\n- GOOGLE_ACCESS_TOKEN: missing\n- GOOGLE_CLIENT_ID: missing\n- GOOGLE_CLIENT_SECRET: missing\n- GOOGLE_OAUTH_OPEN_BROWSER: set (*****)\n- GOOGLE_OAUTH_PRESET: set (com***ed)\n- GOOGLE_REDIRECT_URI: set (htt***ck)\n- GOOGLE_REFRESH_TOKEN: missing\n- NAVER_CLIENT_ID: missing\n- NAVER_CLIENT_SECRET: missing\n- NEWSLETTER_SUBSCRIBE_URL: missing\n- OPENAI_API_KEY: missing\n- OPENAI_MODEL: set (gpt***ni)\n- SEARCH_CONSOLE_ACCESS_TOKEN: missing\n- SEARCH_CONSOLE_CLIENT_ID: missing\n- SEARCH_CONSOLE_CLIENT_SECRET: missing\n- SEARCH_CONSOLE_LAG_DAYS: set (*)\n- SEARCH_CONSOLE_REFRESH_TOKEN: missing\n- SEARCH_CONSOLE_SITE_URL: missing\n- SEARCH_CONSOLE_WINDOW_DAYS: set (*)\n\nIntegration readiness\n- naver_datalab: missing NAVER_CLIENT_ID, NAVER_CLIENT_SECRET\n- search_console: missing SEARCH_CONSOLE_SITE_URL, SEARCH_CONSOLE_CLIENT_ID, SEARCH_CONSOLE_CLIENT_SECRET, SEARCH_CONSOLE_REFRESH_TOKEN\n- openai_drafts: missing OPENAI_API_KEY\n- blogger_upload: missing GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN\n\nPublish-ready status\n- report exists: yes\n- items: 3\n- ready html items: 3\n\nSite-page status\n- plan exists: yes\n- items: 10\n- required rendered pages: 9 / 9\n\nGo-live report\n- report exists: yes\n\nGitHub Actions notes\n- Local .env values do not automatically sync to GitHub Secrets.\n- Add the same keys manually in GitHub -> Settings -> Secrets and variables -> Actions.\n- Public repositories are usually the safest free option for this lightweight schedule.\n\nJSON report written to: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/setup-check-report.json",
+      "stderr": ""
+    },
+    {
+      "label": "GitHub sync guide refresh",
+      "command": "python3 scripts/export_github_actions_sync_commands.py",
+      "returncode": 0,
+      "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-actions-sync.md",
+      "stderr": ""
+    },
+    {
+      "label": "Go-live readiness refresh",
+      "command": "python3 scripts/build_go_live_readiness_report.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "label": "First live run plan refresh",
+      "command": "python3 scripts/prepare_first_live_run_plan.py",
+      "returncode": 0,
+      "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/first-live-run-plan.md",
+      "stderr": ""
+    },
+    {
+      "label": "GitHub launch plan refresh",
+      "command": "python3 scripts/prepare_github_launch_plan.py",
+      "returncode": 0,
+      "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-launch-plan.md",
+      "stderr": ""
+    },
+    {
+      "label": "Go-live dashboard refresh",
+      "command": "python3 scripts/prepare_go_live_dashboard.py",
+      "returncode": 0,
+      "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/go-live-dashboard.md",
+      "stderr": ""
+    },
+    {
+      "label": "Operator handoff refresh",
+      "command": "python3 scripts/generate_operator_handoff.py",
+      "returncode": 0,
+      "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/operator-handoff.md",
+      "stderr": ""
+    },
+    {
+      "label": "Start here refresh",
+      "command": "python3 scripts/prepare_start_here_runbook.py",
+      "returncode": 0,
+      "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/start-here-runbook.md",
+      "stderr": ""
+    }
+  ],
+  "next_action": "python3 scripts/open_login_setup_pages.py --open",
+  "token_json_present": false
+}

@@ -1,0 +1,59 @@
+{
+  "daily_execution_targets": {
+    "minimum_posts_per_day": 1,
+    "ideal_posts_per_day": 2,
+    "review_window_days": 7
+  },
+  "content_mix_targets": {
+    "breaking_explainer": 0.4,
+    "evergreen_explainer": 0.35,
+    "follow_up_or_recap": 0.25
+  },
+  "category_value_weights": {
+    "macro": 1.0,
+    "crypto": 1.1,
+    "global-sector": 1.05
+  },
+  "monetization_ladders": {
+    "macro": "속보형 거시 글 -> 달러/금리/미국증시 evergreen 글 -> 주간 회고 허브",
+    "crypto": "당일 코인 해설 -> ETF/규제 구조 글 -> 비트코인 초보 가이드 묶음",
+    "global-sector": "섹터 속보 -> 공급망/실적 해설 -> 대표 종목 체크포인트 글"
+  },
+  "trust_requirements": [
+    "작성자 또는 운영 주체를 보이게 표기",
+    "발행일 또는 업데이트 일시를 본문 상단에 노출",
+    "핵심 수치와 규제 이슈는 공식 출처 또는 신뢰 가능한 원문으로 재확인",
+    "AI 또는 자동화가 개입된 경우 운영 원칙 또는 점검 과정을 공개",
+    "투자 권유가 아니라 해설이라는 점을 분명하게 표기"
+  ],
+  "human_tone_score_target": 75,
+  "human_style_checkpoints": [
+    "도입부에서 독자가 왜 지금 읽어야 하는지 먼저 설명",
+    "숫자 뒤에는 반드시 의미 해석 문장 추가",
+    "한 글 안에 직접 말 거는 문장 2회 이상",
+    "같은 문장 어미 반복 줄이기",
+    "교과서체보다 설명형 리듬 우선"
+  ],
+  "official_guidance_links": [
+    {
+      "label": "Google people-first content",
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+    },
+    {
+      "label": "Google AI content guidance",
+      "url": "https://developers.google.com/search/blog/2023/02/google-search-and-ai-content"
+    },
+    {
+      "label": "Google Search Essentials",
+      "url": "https://developers.google.com/search/docs/essentials"
+    },
+    {
+      "label": "Google byline date guidance",
+      "url": "https://developers.google.com/search/docs/appearance/publication-dates"
+    },
+    {
+      "label": "Google Trends getting started",
+      "url": "https://developers.google.com/search/docs/monitor-debug/trends-start"
+    }
+  ]
+}

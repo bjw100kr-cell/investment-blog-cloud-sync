@@ -1,0 +1,189 @@
+{
+  "sources": [
+    {
+      "id": "google_trends_kr",
+      "name": "Google Trends KR",
+      "type": "rss",
+      "url": "https://trends.google.com/trending/rss?geo=KR",
+      "category": "keyword_trends",
+      "region": "KR",
+      "weight": 5,
+      "enabled": true
+    },
+    {
+      "id": "google_trends_us",
+      "name": "Google Trends US",
+      "type": "rss",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "category": "keyword_trends",
+      "region": "US",
+      "weight": 5,
+      "enabled": true
+    },
+    {
+      "id": "fed_monetary_press",
+      "name": "Federal Reserve Monetary Policy Press",
+      "type": "rss",
+      "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+      "category": "macro_official",
+      "weight": 5,
+      "enabled": true
+    },
+    {
+      "id": "coindesk_rss",
+      "name": "CoinDesk RSS",
+      "type": "rss",
+      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "category": "crypto_media",
+      "weight": 4,
+      "enabled": true
+    },
+    {
+      "id": "coinness_rss",
+      "name": "CoinNess RSS",
+      "type": "manual",
+      "url": "https://coinness.com/feed",
+      "category": "crypto_media",
+      "weight": 3,
+      "enabled": false,
+      "notes": "RSS가 공개되어 있어 수동 파싱도 가능. 안정화 후 수집 시도."
+    },
+    {
+      "id": "cointelegraph_rss",
+      "name": "Cointelegraph",
+      "type": "rss",
+      "url": "https://cointelegraph.com/rss",
+      "category": "crypto_media",
+      "weight": 3,
+      "enabled": true
+    },
+    {
+      "id": "cnbc_top_news",
+      "name": "CNBC Top News",
+      "type": "rss",
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "category": "global_media",
+      "weight": 3,
+      "enabled": true
+    },
+    {
+      "id": "investing_news",
+      "name": "Investing.com Crypto News",
+      "type": "rss",
+      "url": "https://www.investing.com/rss/news_301.rss",
+      "category": "global_media",
+      "weight": 3,
+      "enabled": true
+    },
+    {
+      "id": "ft_home",
+      "name": "Financial Times Home",
+      "type": "rss",
+      "url": "https://www.ft.com/rss/home",
+      "category": "global_media",
+      "weight": 3,
+      "enabled": true
+    },
+    {
+      "id": "reuters_markets_google_news",
+      "name": "Reuters Markets via Google News RSS",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=site%3Areuters.com+markets&hl=en-US&gl=US&ceid=US%3Aen",
+      "category": "global_media",
+      "weight": 3,
+      "enabled": true
+    },
+    {
+      "id": "trade_king_youtube",
+      "name": "무역킹 Trade King YouTube",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@tradekingkang/videos",
+      "category": "youtube_macro",
+      "weight": 3,
+      "enabled": true
+    },
+    {
+      "id": "marketwatch_breaking_news",
+      "name": "MarketWatch Breaking News",
+      "type": "rss",
+      "url": "https://www.marketwatch.com/rss/topstories",
+      "category": "global_media",
+      "weight": 2,
+      "enabled": true
+    },
+    {
+      "id": "financial_times_youtube",
+      "name": "Financial Times YouTube",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@FinancialTimes/videos",
+      "category": "youtube_global_media",
+      "weight": 2,
+      "enabled": true
+    },
+    {
+      "id": "coinness_manual",
+      "name": "CoinNess",
+      "type": "manual",
+      "url": "https://coinness.com/en/",
+      "category": "crypto_media",
+      "weight": 3,
+      "enabled": false,
+      "notes": "Server-side feed not confirmed. Keep as a manual or future reverse-engineering target."
+    }
+  ],
+  "keyword_aliases": {
+    "fomc": ["fomc", "federal reserve", "fed", "파월", "연준"],
+    "cpi": ["cpi", "inflation", "consumer price index", "물가", "인플레이션"],
+    "pce": ["pce", "personal consumption expenditures"],
+    "jobs": ["nonfarm payrolls", "payrolls", "jobless", "실업", "고용"],
+    "treasury_yields": ["treasury", "yield", "bond yield", "mortgage rate", "mortgage rates", "국채", "금리"],
+    "dollar": ["dollar", "usd", "dxy", "환율", "달러"],
+    "oil": ["oil", "crude", "wti", "brent", "tanker", "유조선", "원유"],
+    "bitcoin": ["bitcoin", "btc", "crypto", "cryptocurrency", "비트코인"],
+    "ethereum": ["ethereum", "eth", "이더리움"],
+    "crypto_etf": ["etf", "spot etf", "bitcoin etf", "ethereum etf"],
+    "tariffs_trade": ["tariff", "trade war", "관세", "무역"],
+    "china": ["china", "중국"],
+    "ai_semiconductors": ["semiconductor", "chip", "chips", "nvidia", "amd", "tsmc", "anthropic", "반도체", "엔비디아", "칩"]
+  },
+  "trend_market_terms": [
+    "stock",
+    "stocks",
+    "stock market",
+    "market",
+    "mortgage",
+    "rate",
+    "rates",
+    "oil",
+    "crude",
+    "bitcoin",
+    "ethereum",
+    "crypto",
+    "coin",
+    "fed",
+    "federal reserve",
+    "jpmorgan",
+    "jp모건",
+    "anthropic",
+    "trade",
+    "tariff",
+    "china",
+    "semiconductor",
+    "chip",
+    "ai",
+    "유조선",
+    "원유",
+    "달러",
+    "환율",
+    "금리",
+    "비트코인",
+    "이더리움",
+    "반도체",
+    "엔비디아",
+    "중국",
+    "관세",
+    "무역",
+    "증시",
+    "주식"
+  ]
+}

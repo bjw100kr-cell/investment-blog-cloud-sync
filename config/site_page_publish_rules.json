@@ -1,0 +1,43 @@
+{
+  "priority_by_slug": {
+    "about": 100,
+    "disclosure": 95,
+    "privacy-policy": 94,
+    "editorial-policy": 93,
+    "contact": 92,
+    "fact-check-policy": 90,
+    "hub-macro": 80,
+    "hub-crypto": 79,
+    "hub-global-sector": 78,
+    "home-structure": 20
+  },
+  "recommended_page_kind": {
+    "about": "trust_page",
+    "disclosure": "trust_page",
+    "privacy-policy": "trust_page",
+    "editorial-policy": "trust_page",
+    "contact": "trust_page",
+    "fact-check-policy": "trust_page",
+    "hub-macro": "hub_page",
+    "hub-crypto": "hub_page",
+    "hub-global-sector": "hub_page",
+    "home-structure": "internal_reference"
+  },
+  "purpose_by_slug": {
+    "about": "운영 주체와 블로그 목적 설명",
+    "disclosure": "이해관계와 면책 공개",
+    "privacy-policy": "개인정보/분석/광고 처리 기준 공개",
+    "editorial-policy": "콘텐츠 작성/수정 원칙 공개",
+    "contact": "정정 요청 및 제휴 문의 동선 제공",
+    "fact-check-policy": "팩트체크 기준 안내",
+    "hub-macro": "거시경제 카테고리 허브",
+    "hub-crypto": "코인 카테고리 허브",
+    "hub-global-sector": "세계 흐름·섹터 카테고리 허브",
+    "home-structure": "운영자 내부 참고용 홈 구조 제안"
+  },
+  "visibility_by_kind": {
+    "trust_page": "public_required",
+    "hub_page": "public_required",
+    "internal_reference": "optional"
+  }
+}

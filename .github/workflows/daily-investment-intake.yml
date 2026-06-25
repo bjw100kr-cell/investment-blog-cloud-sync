@@ -1,0 +1,128 @@
+name: Daily Investment Intake
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+    - cron: "0 12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run collector
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: python scripts/collect_investment_sources.py
+
+      - name: Build search demand report
+        run: python scripts/build_search_demand_report.py
+
+      - name: Fetch Search Console queries
+        env:
+          SEARCH_CONSOLE_SITE_URL: ${{ secrets.SEARCH_CONSOLE_SITE_URL }}
+          SEARCH_CONSOLE_CLIENT_ID: ${{ secrets.SEARCH_CONSOLE_CLIENT_ID }}
+          SEARCH_CONSOLE_CLIENT_SECRET: ${{ secrets.SEARCH_CONSOLE_CLIENT_SECRET }}
+          SEARCH_CONSOLE_REFRESH_TOKEN: ${{ secrets.SEARCH_CONSOLE_REFRESH_TOKEN }}
+          SEARCH_CONSOLE_LAG_DAYS: ${{ vars.SEARCH_CONSOLE_LAG_DAYS || '3' }}
+          SEARCH_CONSOLE_WINDOW_DAYS: ${{ vars.SEARCH_CONSOLE_WINDOW_DAYS || '7' }}
+        run: python scripts/fetch_search_console_queries.py
+
+      - name: Convert Search Console rows to performance feedback signals
+        run: python scripts/search_console_to_feedback.py
+
+      - name: Compile performance feedback
+        run: python scripts/compile_performance_feedback.py
+
+      - name: Score daily topics
+        run: python scripts/score_daily_topics.py
+
+      - name: Build draft packets
+        run: python scripts/build_draft_packets.py
+
+      - name: Build editorial calendar
+        run: python scripts/build_editorial_calendar.py
+
+      - name: Generate site foundation
+        run: python scripts/generate_site_foundation.py
+
+      - name: Render site foundation pages
+        run: python scripts/render_site_foundation_pages.py
+
+      - name: Build site page publish plan
+        run: python scripts/build_site_page_publish_plan.py
+
+      - name: Generate publishing assets
+        run: python scripts/generate_publishing_assets.py
+
+      - name: Generate blog drafts (fallback-ready)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4o-mini' }}
+        run: python scripts/generate_blog_drafts.py
+
+      - name: Review human tone
+        run: python scripts/review_human_tone.py
+
+      - name: Render publish-ready posts
+        run: python scripts/render_publish_ready_posts.py
+
+      - name: Generate growth report
+        run: python scripts/generate_growth_report.py
+
+      - name: Build publish queue
+        run: python scripts/build_publish_queue.py
+
+      - name: Build monetization readiness report
+        run: python scripts/build_monetization_readiness_report.py
+
+      - name: Build go-live readiness report
+        run: python scripts/build_go_live_readiness_report.py
+
+      - name: Sync Blogger site pages (optional)
+        if: ${{ secrets.BLOGGER_BLOG_ID != '' && secrets.GOOGLE_CLIENT_ID != '' && secrets.GOOGLE_CLIENT_SECRET != '' && secrets.GOOGLE_REFRESH_TOKEN != '' && vars.BLOGGER_SYNC_SITE_PAGES == 'true' }}
+        env:
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          BLOGGER_SYNC_SITE_PAGES: ${{ vars.BLOGGER_SYNC_SITE_PAGES || 'false' }}
+          BLOGGER_SITE_PAGES_PUBLISH: ${{ vars.BLOGGER_SITE_PAGES_PUBLISH || 'false' }}
+          BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES: ${{ vars.BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES || 'false' }}
+        run: python scripts/sync_blogger_site_pages.py
+
+      - name: Upload Blogger drafts (optional)
+        if: ${{ secrets.BLOGGER_BLOG_ID != '' && secrets.GOOGLE_CLIENT_ID != '' && secrets.GOOGLE_CLIENT_SECRET != '' && secrets.GOOGLE_REFRESH_TOKEN != '' }}
+        env:
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          BLOGGER_AUTO_PUBLISH_POSTS: ${{ vars.BLOGGER_AUTO_PUBLISH_POSTS || 'false' }}
+          BLOGGER_PUBLISH_ONLY_DUE_POSTS: ${{ vars.BLOGGER_PUBLISH_ONLY_DUE_POSTS || 'true' }}
+          BLOGGER_MAX_POSTS_PER_RUN: ${{ vars.BLOGGER_MAX_POSTS_PER_RUN || '1' }}
+        run: python scripts/upload_blogger_drafts.py
+
+      - name: Commit latest snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add outputs/latest
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: daily investment intake snapshot"
+          git push

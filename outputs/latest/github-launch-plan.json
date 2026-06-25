@@ -1,0 +1,64 @@
+{
+  "status": "needs_initial_commit",
+  "repo_connected": false,
+  "repo_slug": "",
+  "current_branch": "main",
+  "has_commit": false,
+  "gh_installed": false,
+  "sync_ready_keys": [
+    "BLOGGER_BLOG_ID"
+  ],
+  "sync_optional_keys": [],
+  "sync_guide_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-actions-sync.md",
+  "steps": [
+    {
+      "title": "초기 커밋 생성",
+      "done": false,
+      "details": [
+        "bash scripts/prepare_initial_commit.sh",
+        ".env 는 .gitignore에 포함되어 커밋 대상에서 제외됩니다."
+      ]
+    },
+    {
+      "title": "GitHub 저장소 생성",
+      "done": false,
+      "details": [
+        "https://github.com/new 에서 새 public repository 생성",
+        "추천 이름: investment-blog-cloud-sync"
+      ]
+    },
+    {
+      "title": "원격 저장소 연결",
+      "done": false,
+      "details": [
+        "현재 브랜치: main",
+        "bash scripts/bootstrap_github_remote.sh <YOUR_GITHUB_REPO_URL>"
+      ]
+    },
+    {
+      "title": "GitHub CLI 로그인",
+      "done": false,
+      "details": [
+        "gh auth login",
+        "gh 설치 여부: no",
+        "gh가 없으면 GitHub 웹 UI에서 Secrets and variables를 수동 입력해도 됩니다."
+      ]
+    },
+    {
+      "title": "Actions Secrets/Variables 동기화",
+      "done": false,
+      "details": [
+        "bash outputs/latest/github-actions-sync.sh OWNER/REPO",
+        "현재 로컬에서 즉시 동기화 가능한 핵심 키 수: 1"
+      ]
+    },
+    {
+      "title": "Actions 첫 실행",
+      "done": false,
+      "details": [
+        "GitHub -> Actions -> Daily Investment Intake -> Run workflow",
+        "첫 실행은 안전모드 max_posts_per_run=1 유지"
+      ]
+    }
+  ]
+}

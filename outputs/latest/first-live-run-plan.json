@@ -1,0 +1,147 @@
+{
+  "status": "awaiting_credentials",
+  "required_credentials_missing": [
+    "GOOGLE_CLIENT_ID",
+    "GOOGLE_CLIENT_SECRET",
+    "GOOGLE_REFRESH_TOKEN"
+  ],
+  "optional_credentials_missing": [
+    "OPENAI_API_KEY"
+  ],
+  "safe_mode_env": {
+    "BLOGGER_SYNC_SITE_PAGES": "true",
+    "BLOGGER_SITE_PAGES_PUBLISH": "false",
+    "BLOGGER_AUTO_PUBLISH_POSTS": "false",
+    "BLOGGER_PUBLISH_ONLY_DUE_POSTS": "true",
+    "BLOGGER_MAX_POSTS_PER_RUN": "1"
+  },
+  "dry_run_summary": {
+    "reason": "GOOGLE_CLIENT_ID is not set",
+    "manifest_candidate_count": 9,
+    "processed_count": 0,
+    "max_posts_per_run": 1,
+    "first_item_reason": "credentials_missing_dry_run"
+  },
+  "first_post_candidate": {
+    "inventory_type": "main_post",
+    "keyword": "fomc",
+    "source_keyword": "fomc",
+    "title": "FOMC 이후 시장 해설",
+    "role": "breaking_primary",
+    "post_type": "breaking_explainer",
+    "ready_to_upload": true,
+    "recommended_publish_date": "2026-06-25",
+    "publish_bucket": "today_or_overdue",
+    "priority_score": 136.0,
+    "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+    "revenue_objective": "당일 검색/소셜 유입 최대화",
+    "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+    "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
+    "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.json",
+    "upload_sequence_hint": 1,
+    "inventory_sequence": 1
+  },
+  "next_post_candidates": [
+    {
+      "inventory_type": "main_post",
+      "keyword": "bitcoin",
+      "source_keyword": "bitcoin",
+      "title": "비트코인 핵심 흐름 해설",
+      "role": "breaking_secondary",
+      "post_type": "breaking_explainer",
+      "ready_to_upload": true,
+      "recommended_publish_date": "2026-06-26",
+      "publish_bucket": "tomorrow",
+      "priority_score": 131.0,
+      "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "revenue_objective": "메인 이슈 보완 유입 확보",
+      "cta_focus": "ETF·규제·초보 가이드 글로 연결",
+      "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+      "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
+      "upload_sequence_hint": 2,
+      "inventory_sequence": 2
+    },
+    {
+      "inventory_type": "main_post",
+      "keyword": "cpi",
+      "source_keyword": "cpi",
+      "title": "CPI 발표 이후 시장 해설",
+      "role": "evergreen_seo",
+      "post_type": "evergreen_explainer",
+      "ready_to_upload": true,
+      "recommended_publish_date": "2026-06-27",
+      "publish_bucket": "this_week",
+      "priority_score": 104.0,
+      "search_intent": "FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자",
+      "revenue_objective": "누적 검색 유입과 장기 페이지뷰 확보",
+      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+      "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/03-cpi-발표-이후-시장-해설.html",
+      "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/03-cpi-발표-이후-시장-해설.json",
+      "upload_sequence_hint": 3,
+      "inventory_sequence": 3
+    },
+    {
+      "inventory_type": "seo_followup",
+      "keyword": "seo_fomc_1",
+      "source_keyword": "fomc",
+      "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
+      "role": "evergreen_seo",
+      "post_type": "evergreen_explainer",
+      "ready_to_upload": true,
+      "recommended_publish_date": "2026-06-25",
+      "publish_bucket": "seo_backlog",
+      "priority_score": 134.66,
+      "search_intent": "뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자",
+      "revenue_objective": "검색 유입 누적과 첫 방문 독자 확보",
+      "cta_focus": "거시 허브와 당일 해설 글로 연결",
+      "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-fomc-이후-시장이-주식과-코인에-미치는-영향.html",
+      "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-fomc-이후-시장이-주식과-코인에-미치는-영향.json",
+      "upload_sequence_hint": 101,
+      "inventory_sequence": 4
+    }
+  ],
+  "steps": [
+    {
+      "phase": "credentials",
+      "title": "필수 계정 연결",
+      "done": false,
+      "details": [
+        "GOOGLE_CLIENT_ID",
+        "GOOGLE_CLIENT_SECRET",
+        "GOOGLE_REFRESH_TOKEN"
+      ]
+    },
+    {
+      "phase": "safe_mode",
+      "title": "안전모드 유지",
+      "done": true,
+      "details": [
+        "BLOGGER_SYNC_SITE_PAGES=true",
+        "BLOGGER_SITE_PAGES_PUBLISH=false",
+        "BLOGGER_AUTO_PUBLISH_POSTS=false",
+        "BLOGGER_PUBLISH_ONLY_DUE_POSTS=true",
+        "BLOGGER_MAX_POSTS_PER_RUN=1"
+      ]
+    },
+    {
+      "phase": "first_upload",
+      "title": "첫 테스트 업로드",
+      "done": false,
+      "details": [
+        "대상 글: FOMC 이후 시장 해설",
+        "업로드 유형: main_post",
+        "권장 액션: Blogger 초안으로 1개만 업로드 후 화면 검수"
+      ]
+    },
+    {
+      "phase": "review",
+      "title": "Blogger 화면 검수",
+      "done": false,
+      "details": [
+        "제목/본문/라벨/내부링크가 정상인지 확인",
+        "고정 페이지가 draft 상태로 잘 들어가는지 확인",
+        "문제 없으면 다음날부터 max_posts_per_run을 2~3으로 점진 확대"
+      ]
+    }
+  ]
+}
