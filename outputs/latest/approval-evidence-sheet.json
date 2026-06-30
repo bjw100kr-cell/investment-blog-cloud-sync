@@ -1,7 +1,79 @@
 {
-  "generated_at": "2026-06-30T21:17:44.580812+00:00",
+  "generated_at": "2026-06-30T21:22:44.272930+00:00",
   "item_count": 3,
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장 해설",
+      "publish_date": "2026-06-30",
+      "priority_score": 140.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "format": "macro_explainer",
+      "source_names": [
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times World",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_headlines": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+        "Minutes of the Federal Open Market Committee, March 17–18, 2026"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 5700,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 4,
+      "search_score": 29,
+      "timeliness_score": 25,
+      "monetization_score": 15,
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
+          "published_iso": "2026-04-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 18 Mar 2026 18:00:00 GMT",
+          "published_iso": "2026-03-18T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 20 May 2026 18:00:00 GMT",
+          "published_iso": "2026-05-20T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 핵심 흐름 해설",
@@ -145,60 +217,6 @@
           "published": "Tue, 30 Jun 2026 18:46:29 +0000",
           "published_iso": "2026-06-30T18:46:29+00:00",
           "link": "https://cointelegraph.com/news/nasdaq-brings-proprietary-market-data-onchain-through-pyth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향 해설",
-      "publish_date": "2026-07-03",
-      "priority_score": 90.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
-      "format": "macro_explainer",
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "무역킹 Trade King YouTube"
-      ],
-      "sample_headlines": [
-        "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
-        "World Bank to phase out China lending",
-        "1. The Grand Design to Pressure China"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 0,
-      "fallback_source": "mapped_candidate",
-      "source_count": 3,
-      "search_score": 13,
-      "timeliness_score": 12,
-      "monetization_score": 14,
-      "recent_evidence": [
-        {
-          "title": "1. The Grand Design to Pressure China",
-          "source_name": "무역킹 Trade King YouTube",
-          "published": "87K views",
-          "published_iso": "87K views",
-          "link": "https://www.youtube.com/watch?v=Vdc0wK_9ASQ",
-          "source_type": "youtube_channel"
-        },
-        {
-          "title": "World Bank to phase out China lending",
-          "source_name": "Financial Times Home",
-          "published": "Tue, 30 Jun 2026 20:47:12 GMT",
-          "published_iso": "2026-06-30T20:47:12+00:00",
-          "link": "https://www.ft.com/content/32b664e1-d2d2-4292-b0b3-0056808acf26",
-          "source_type": "rss"
-        },
-        {
-          "title": "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
-          "source_name": "CNBC Top News",
-          "published": "Tue, 30 Jun 2026 20:46:57 GMT",
-          "published_iso": "2026-06-30T20:46:57+00:00",
-          "link": "https://www.cnbc.com/2026/06/30/nike-nke-q4-2026-earnings.html",
           "source_type": "rss"
         }
       ]

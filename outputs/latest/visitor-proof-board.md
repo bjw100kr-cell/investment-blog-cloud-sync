@@ -14,9 +14,9 @@
 
 - source: `Google Search Console query clicks`
 - site_url: `https://gimu-economy-insight.blogspot.com/`
-- site_url_source: `BLOG_BASE_URL`
-- start_date: `2026-06-22`
-- end_date: `2026-06-28`
+- site_url_source: `blogger_upload_state`
+- start_date: `2026-06-21`
+- end_date: `2026-06-27`
 
 ## Projection Is Not Proof
 

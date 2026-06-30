@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T21:17:44.580812+00:00",
+  "generated_at": "2026-06-30T21:22:44.272930+00:00",
   "lane_order": [
     "macro",
     "crypto",
@@ -44,9 +44,9 @@
     {
       "lane": "macro",
       "target_share": 0.3,
-      "selected_keyword": "seo_fomc_1",
-      "selected_mode": "recovery",
-      "freshness_status": "stale"
+      "selected_keyword": "fomc",
+      "selected_mode": "direct",
+      "freshness_status": "unknown"
     },
     {
       "lane": "crypto",
@@ -67,7 +67,7 @@
       "target_share": 0.2,
       "selected_keyword": "china",
       "selected_mode": "direct",
-      "freshness_status": "unknown"
+      "freshness_status": "fresh"
     }
   ],
   "schedule": [
@@ -76,21 +76,27 @@
       "slot": 1,
       "role": "lane_focus_macro",
       "post_type": "breaking_explainer",
-      "target_keyword": "seo_fomc_1",
-      "working_title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
-      "angle": "뉴스형 본문 대신 evergreen 후속 글로 전환하는 편이 더 안전하고 검색형 수익화에도 유리합니다.",
-      "search_intent": "당일 이슈를 따라가되 날짜가 지난 뉴스보다 구조를 이해하고 싶은 독자",
-      "monetization_path": "검색형 후속 글로 전환해 시의성 하락 리스크를 줄이고 누적 유입 확보",
+      "target_keyword": "fomc",
+      "working_title": "FOMC 이후 시장 해설",
+      "angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
-        "fomc"
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times World",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "source_basis": [
-        "fomc"
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times World",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
-      "publish_note": "직접 뉴스 발행 대신 evergreen salvage 경로로 전환",
+      "publish_note": "당일 이슈 해설형 글",
       "brand_lane": "macro",
-      "freshness_status": "stale",
-      "planning_mode": "recovery"
+      "freshness_status": "unknown",
+      "planning_mode": "direct"
     },
     {
       "date": "2026-07-01",
@@ -168,9 +174,9 @@
         "Financial Times Home",
         "무역킹 Trade King YouTube"
       ],
-      "publish_note": "당일 이슈 해설형 글",
+      "publish_note": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "brand_lane": "world-flow",
-      "freshness_status": "unknown",
+      "freshness_status": "fresh",
       "planning_mode": "direct"
     },
     {
@@ -233,18 +239,18 @@
       "slot": 7,
       "role": "weekly_recap",
       "post_type": "weekly_macro_recap",
-      "target_keyword": "seo_fomc_1, bitcoin, us_index_flow",
+      "target_keyword": "fomc, bitcoin, us_index_flow",
       "working_title": "이번 주 주식·코인·거시 흐름 한 번에 정리",
       "angle": "상위 이슈 3개를 한 글에서 연결해 재방문 독자와 체류 시간을 늘리는 회고형 글",
       "search_intent": "이번 주 시장 흐름을 짧게 복기하고 다음 주 포인트를 잡고 싶은 독자",
       "monetization_path": "주간 회고형 콘텐츠로 페이지뷰 누적과 내부 링크 허브 역할",
       "internal_link_targets": [
-        "seo_fomc_1",
+        "fomc",
         "bitcoin",
         "us_index_flow"
       ],
       "source_basis": [
-        "seo_fomc_1",
+        "fomc",
         "bitcoin",
         "us_index_flow"
       ],
