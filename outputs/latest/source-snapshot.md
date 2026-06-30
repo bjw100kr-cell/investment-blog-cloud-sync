@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-06-30T22:06:12.537534+00:00`
+- 생성 시각: `2026-06-30T22:16:21.825584+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -109,7 +109,7 @@ If you are sure that the described cause is not responsible for this error and t
 - `bitcoin`: score 47, source_count 5, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
 - `fomc`: score 42, source_count 3, sources Federal Reserve Monetary Policy Press, NYT Business, Reuters Markets via Google News RSS
 - `us_index_flow`: score 22, source_count 5, sources Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `crypto_etf`: score 18, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
+- `crypto_etf`: score 20, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
 - `ai_semiconductors`: score 17, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
 - `dollar`: score 16, source_count 3, sources CoinDesk RSS, Cointelegraph, NYT Business
 - `china`: score 14, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, 무역킹 Trade King YouTube
@@ -131,7 +131,7 @@ If you are sure that the described cause is not responsible for this error and t
   - Nasdaq brings proprietary market data onchain through Pyth
   - US stocks chalk up biggest quarterly gain in six years
   - S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters
-- `crypto_etf`: score 18, headlines 6
+- `crypto_etf`: score 20, headlines 7
   - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
   - Bitmine Ether buys eclipsed by $345M ETH ETF $345M outflows: Is sub $1.5K next?
   - SEC seeks public comment on regulating next generation of ETFs

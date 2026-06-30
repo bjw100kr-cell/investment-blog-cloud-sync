@@ -189,7 +189,7 @@
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
     "secondary": [
       "site-foundation/hub-macro.md",
       "site-foundation/about.md",

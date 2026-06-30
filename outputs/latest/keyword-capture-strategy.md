@@ -2,7 +2,7 @@
 
 현재 잡힌 키워드를 어떤 글 타입과 내부링크 경로로 받아먹을지 정리한 운영 카드입니다.
 
-- generated_at: `2026-06-30T22:06:12.537534+00:00`
+- generated_at: `2026-06-30T22:16:21.825584+00:00`
 
 ## 1. fomc
 
@@ -112,7 +112,7 @@
 - pattern_name: `news_what_it_means`
 - capture_route: `search_entry_to_internal_links`
 - route_description: 검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.
-- demand_signal_score: `3000`
+- demand_signal_score: `3200`
 - search_intent_angle: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - pattern_must_have:
   - 무슨 일이 있었는지 1문단 요약

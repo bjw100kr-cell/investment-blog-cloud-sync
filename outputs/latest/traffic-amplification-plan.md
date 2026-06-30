@@ -19,7 +19,7 @@
 ## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 - keyword: `fomc`
-- public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
+- public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html
 - base_search_estimate: `95`
 - amplification_expected_before_execution: `0`
 - amplification_potential_if_executed: `75`
@@ -30,7 +30,7 @@
 - task: 본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출
 
 ```text
-FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 읽은 뒤 바로 이어볼 글: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지, FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지가 주식과 코인에 미치는 영향
+FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 읽은 뒤 바로 이어볼 글: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지, FOMC 이후 시장이 주식과 코인에 미치는 영향
 ```
 
 ### publish_plus_10m / x_threads_or_short_social / potential `10`
@@ -41,12 +41,12 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 오늘 시장을 볼 때 핵심은 이것입니다.
-- 독자 관점: 당일 이슈를 따라가되 날짜가 지난 뉴스보다 구조를 이해하고 싶은 독자
+- 독자 관점: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 한 줄 포인트: 환율·금리·미국증시 evergreen 글로 연결
 
 짧고 이해하기 쉽게 정리했습니다.
 
-https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
+https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html
 ```
 
 ### publish_plus_30m / telegram_kakao_or_personal_channel / potential `10`
@@ -58,7 +58,7 @@ https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.
 핵심 포인트: 환율·금리·미국증시 evergreen 글로 연결
 
-https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
+https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html
 ```
 
 ### publish_plus_2h / finance_community / potential `15`
@@ -68,10 +68,10 @@ https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 ```text
 FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-이번 글은 '당일 이슈를 따라가되 날짜가 지난 뉴스보다 구조를 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 환율·금리·미국증시 evergreen 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
+이번 글은 '당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 환율·금리·미국증시 evergreen 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
 
 질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?
-https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
+https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html
 ```
 
 ### publish_plus_24h / followup_post / potential `20`
@@ -79,7 +79,7 @@ https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 - task: 후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크
 
 ```text
-fomc 후속 글 후보: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지가 주식과 코인에 미치는 영향, FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지에서 다음으로 봐야 할 체크포인트 5가지
+fomc 후속 글 후보: FOMC 이후 시장이 주식과 코인에 미치는 영향, FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지
 ```
 
 ## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
@@ -96,7 +96,7 @@ fomc 후속 글 후보: FOMC 이후 시장, 주식과 코인이 같이 흔들리
 - task: 본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출
 
 ```text
-비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 읽은 뒤 바로 이어볼 글: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트, 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 초보자 가이드: 지금 꼭 알아야 할 핵심 구조
+비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 읽은 뒤 바로 이어볼 글: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트, 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조
 ```
 
 ### publish_plus_10m / x_threads_or_short_social / potential `10`
@@ -145,7 +145,7 @@ https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
 - task: 후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크
 
 ```text
-bitcoin 후속 글 후보: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 초보자 가이드: 지금 꼭 알아야 할 핵심 구조, 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 ETF·규제 이슈 정리
+bitcoin 후속 글 후보: 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조, 비트코인 핵심 흐름 ETF·규제 이슈 정리
 ```
 
 ## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
@@ -162,7 +162,7 @@ bitcoin 후속 글 후보: 비트코인 가격보다 먼저 봐야 할 것: ETF 
 - task: 본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출
 
 ```text
-미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 읽은 뒤 바로 이어볼 글: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유, 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 관련 대표 종목 한눈에 보기
+미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 읽은 뒤 바로 이어볼 글: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유, 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기
 ```
 
 ### publish_plus_10m / x_threads_or_short_social / potential `10`
@@ -211,7 +211,7 @@ https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
 - task: 후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크
 
 ```text
-us_index_flow 후속 글 후보: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 관련 대표 종목 한눈에 보기, 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 공급망 정리: 누가 수혜를 보나
+us_index_flow 후속 글 후보: 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기, 미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나
 ```
 
 ## 4. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유

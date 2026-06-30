@@ -1,6 +1,6 @@
 # Cross-Platform Publish Pack
 
-- generated_at: `2026-06-30T22:06:16.051982+00:00`
+- generated_at: `2026-06-30T22:16:25.184422+00:00`
 - selected_count: `4`
 - manual_selected_count: `4`
 - automation_policy: `automation-first`
@@ -18,13 +18,13 @@
 
 #### 후보 글
 - [2] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 | keyword=bitcoin | score=129.0 | quality=unknown | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트.html`
-- [8] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 | keyword=seo_bitcoin_4 | score=128.5 | quality=unknown | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
-- [9] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 ETF·규제 이슈 정리 | keyword=seo_bitcoin_5 | score=125.5 | quality=unknown | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트-etf-규제-이슈-정리.html`
-- [10] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_6 | score=122.5 | quality=unknown | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트-faq-10개-많이-헷갈리는-질문-정리.html`
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
+- [8] 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 | keyword=seo_bitcoin_4 | score=128.5 | quality=unknown | date=2026-07-01
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
+- [9] 비트코인 핵심 흐름 ETF·규제 이슈 정리 | keyword=seo_bitcoin_5 | score=125.5 | quality=unknown | date=2026-07-01
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html`
+- [10] 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_6 | score=122.5 | quality=unknown | date=2026-07-01
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html`
 
 ### WordPress (자동)
 - mode: `auto`
@@ -35,13 +35,13 @@
 
 #### 후보 글
 - [2] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 | keyword=bitcoin | score=129.0 | quality=unknown | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트.html`
-- [8] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 | keyword=seo_bitcoin_4 | score=128.5 | quality=unknown | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
-- [9] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 ETF·규제 이슈 정리 | keyword=seo_bitcoin_5 | score=125.5 | quality=unknown | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트-etf-규제-이슈-정리.html`
-- [10] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_6 | score=122.5 | quality=unknown | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트-faq-10개-많이-헷갈리는-질문-정리.html`
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
+- [8] 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 | keyword=seo_bitcoin_4 | score=128.5 | quality=unknown | date=2026-07-01
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
+- [9] 비트코인 핵심 흐름 ETF·규제 이슈 정리 | keyword=seo_bitcoin_5 | score=125.5 | quality=unknown | date=2026-07-01
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html`
+- [10] 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_6 | score=122.5 | quality=unknown | date=2026-07-01
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html`
 
 ## 수동 채널
 
@@ -67,13 +67,13 @@
 
 #### 후보 글 (복사 대상)
 - [2] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 | keyword=bitcoin | score=129.0 | quality=pass | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트.html`
-- [8] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 | keyword=seo_bitcoin_4 | score=128.5 | quality=pass | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
-- [9] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 ETF·규제 이슈 정리 | keyword=seo_bitcoin_5 | score=125.5 | quality=pass | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트-etf-규제-이슈-정리.html`
-- [10] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_6 | score=122.5 | quality=pass | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트-faq-10개-많이-헷갈리는-질문-정리.html`
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
+- [8] 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 | keyword=seo_bitcoin_4 | score=128.5 | quality=pass | date=2026-07-01
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
+- [9] 비트코인 핵심 흐름 ETF·규제 이슈 정리 | keyword=seo_bitcoin_5 | score=125.5 | quality=pass | date=2026-07-01
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html`
+- [10] 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_6 | score=122.5 | quality=pass | date=2026-07-01
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html`
 
 ### 티스토리 (수동)
 - reason: 운영 정책상 수동 운영 채널로 분리
@@ -95,10 +95,10 @@
 
 #### 후보 글 (복사 대상)
 - [2] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 | keyword=bitcoin | score=129.0 | quality=pass | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트.html`
-- [8] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 | keyword=seo_bitcoin_4 | score=128.5 | quality=pass | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
-- [9] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 ETF·규제 이슈 정리 | keyword=seo_bitcoin_5 | score=125.5 | quality=pass | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트-etf-규제-이슈-정리.html`
-- [10] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_6 | score=122.5 | quality=pass | date=2026-07-01
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트-faq-10개-많이-헷갈리는-질문-정리.html`
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
+- [8] 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 | keyword=seo_bitcoin_4 | score=128.5 | quality=pass | date=2026-07-01
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
+- [9] 비트코인 핵심 흐름 ETF·규제 이슈 정리 | keyword=seo_bitcoin_5 | score=125.5 | quality=pass | date=2026-07-01
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html`
+- [10] 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_6 | score=122.5 | quality=pass | date=2026-07-01
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html`

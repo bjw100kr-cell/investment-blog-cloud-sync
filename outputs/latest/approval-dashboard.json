@@ -38,7 +38,7 @@
           "quality_status": "pass",
           "hero_image_selected": true,
           "ready_now": true,
-          "freshness_status": "stale"
+          "freshness_status": ""
         }
       ],
       "approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
@@ -67,8 +67,20 @@
       ],
       "items": [
         {
+          "keyword": "fomc",
+          "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+          "publish_date": "2026-06-30",
+          "priority": 140.0,
+          "inventory_type": "main_post",
+          "role": "lane_focus_macro",
+          "quality_status": "pass",
+          "hero_image_selected": true,
+          "ready_now": true,
+          "freshness_status": ""
+        },
+        {
           "keyword": "seo_fomc_1",
-          "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지가 주식과 코인에 미치는 영향",
+          "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
           "publish_date": "2026-06-30",
           "priority": 139.5,
           "inventory_type": "seo_followup",
@@ -80,7 +92,7 @@
         },
         {
           "keyword": "seo_fomc_2",
-          "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지에서 다음으로 봐야 할 체크포인트 5가지",
+          "title": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지",
           "publish_date": "2026-06-30",
           "priority": 136.5,
           "inventory_type": "seo_followup",
@@ -92,7 +104,7 @@
         },
         {
           "keyword": "seo_fomc_3",
-          "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 초보자 가이드: 용어부터 시장 반응까지",
+          "title": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지",
           "publish_date": "2026-06-30",
           "priority": 133.5,
           "inventory_type": "seo_followup",
@@ -101,18 +113,6 @@
           "hero_image_selected": true,
           "ready_now": true,
           "freshness_status": ""
-        },
-        {
-          "keyword": "fomc",
-          "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-          "publish_date": "2026-06-30",
-          "priority": 140.0,
-          "inventory_type": "main_post",
-          "role": "lane_focus_macro",
-          "quality_status": "pass",
-          "hero_image_selected": true,
-          "ready_now": true,
-          "freshness_status": "stale"
         }
       ],
       "approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc seo_fomc_1 seo_fomc_2 seo_fomc_3",
@@ -144,7 +144,7 @@
         },
         {
           "keyword": "seo_bitcoin_4",
-          "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+          "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
           "publish_date": "2026-07-01",
           "priority": 128.5,
           "inventory_type": "seo_followup",
@@ -156,7 +156,7 @@
         },
         {
           "keyword": "seo_bitcoin_5",
-          "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 ETF·규제 이슈 정리",
+          "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
           "publish_date": "2026-07-01",
           "priority": 125.5,
           "inventory_type": "seo_followup",
@@ -168,7 +168,7 @@
         },
         {
           "keyword": "seo_bitcoin_6",
-          "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 FAQ 10개: 많이 헷갈리는 질문 정리",
+          "title": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리",
           "publish_date": "2026-07-01",
           "priority": 122.5,
           "inventory_type": "seo_followup",

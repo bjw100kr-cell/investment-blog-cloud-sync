@@ -36,4 +36,4 @@
 - `us_index_flow` lane `us-stocks` / 예상 `92`명 / ready `True` / quality `pass`
 - `china` lane `world-flow` / 예상 `58`명 / ready `True` / quality `pass`
 - `crypto_etf` lane `crypto` / 예상 `0`명 / ready `False` / quality `unknown`
-  - crypto signal: SOLUSDT 24h change -2.57%; XRPUSDT 24h change -2.03%
+  - crypto signal: SOLUSDT 24h change -2.62%; DOGEUSDT 24h change -2.29%
