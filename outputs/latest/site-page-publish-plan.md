@@ -9,8 +9,8 @@
 - 종류: trust_page
 - 공개 수준: public_required
 - 목적: 운영 주체와 블로그 목적 설명
-- canonical: https://gimu-economy-insight.blogspot.com/p/about.html
-- html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/about.html
+- canonical: /p/about.html
+- html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/about.html
 
 ## 2. disclosure
 
@@ -18,8 +18,8 @@
 - 종류: trust_page
 - 공개 수준: public_required
 - 목적: 이해관계와 면책 공개
-- canonical: https://gimu-economy-insight.blogspot.com/p/disclosure.html
-- html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/disclosure.html
+- canonical: /p/disclosure.html
+- html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/disclosure.html
 
 ## 3. privacy-policy
 
@@ -27,8 +27,8 @@
 - 종류: trust_page
 - 공개 수준: public_required
 - 목적: 개인정보/분석/광고 처리 기준 공개
-- canonical: https://gimu-economy-insight.blogspot.com/p/privacy-policy.html
-- html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/privacy-policy.html
+- canonical: /p/privacy-policy.html
+- html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/privacy-policy.html
 
 ## 4. editorial-policy
 
@@ -36,8 +36,8 @@
 - 종류: trust_page
 - 공개 수준: public_required
 - 목적: 콘텐츠 작성/수정 원칙 공개
-- canonical: https://gimu-economy-insight.blogspot.com/p/editorial-policy.html
-- html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/editorial-policy.html
+- canonical: /p/editorial-policy.html
+- html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/editorial-policy.html
 
 ## 5. contact
 
@@ -45,8 +45,8 @@
 - 종류: trust_page
 - 공개 수준: public_required
 - 목적: 정정 요청 및 제휴 문의 동선 제공
-- canonical: https://gimu-economy-insight.blogspot.com/p/contact.html
-- html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/contact.html
+- canonical: /p/contact.html
+- html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/contact.html
 
 ## 6. fact-check-policy
 
@@ -54,8 +54,8 @@
 - 종류: trust_page
 - 공개 수준: public_required
 - 목적: 팩트체크 기준 안내
-- canonical: https://gimu-economy-insight.blogspot.com/p/fact-check-policy.html
-- html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/fact-check-policy.html
+- canonical: /p/fact-check-policy.html
+- html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/fact-check-policy.html
 
 ## 7. hub-macro
 
@@ -63,8 +63,8 @@
 - 종류: hub_page
 - 공개 수준: public_required
 - 목적: 거시경제 카테고리 허브
-- canonical: https://gimu-economy-insight.blogspot.com/p/hub-macro.html
-- html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/hub-macro.html
+- canonical: /p/hub-macro.html
+- html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/hub-macro.html
 
 ## 8. hub-crypto
 
@@ -72,8 +72,8 @@
 - 종류: hub_page
 - 공개 수준: public_required
 - 목적: 코인 카테고리 허브
-- canonical: https://gimu-economy-insight.blogspot.com/p/hub-crypto.html
-- html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/hub-crypto.html
+- canonical: /p/hub-crypto.html
+- html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/hub-crypto.html
 
 ## 9. hub-global-sector
 
@@ -81,8 +81,8 @@
 - 종류: hub_page
 - 공개 수준: public_required
 - 목적: 세계 흐름·섹터 카테고리 허브
-- canonical: https://gimu-economy-insight.blogspot.com/p/hub-global-sector.html
-- html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/hub-global-sector.html
+- canonical: /p/hub-global-sector.html
+- html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/hub-global-sector.html
 
 ## 10. home-structure
 
@@ -90,5 +90,5 @@
 - 종류: internal_reference
 - 공개 수준: optional
 - 목적: 운영자 내부 참고용 홈 구조 제안
-- canonical: https://gimu-economy-insight.blogspot.com/p/home-structure.html
-- html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/home-structure.html
+- canonical: /p/home-structure.html
+- html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/home-structure.html

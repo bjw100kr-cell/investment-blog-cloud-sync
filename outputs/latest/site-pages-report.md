@@ -1,32 +1,32 @@
 # Site Foundation Pages
 
 - `about`: 돈의흐름노트 소개
-  - html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/about.html
-  - canonical: https://gimu-economy-insight.blogspot.com/p/about.html
+  - html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/about.html
+  - canonical: /p/about.html
 - `contact`: 문의 및 운영 안내
-  - html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/contact.html
-  - canonical: https://gimu-economy-insight.blogspot.com/p/contact.html
+  - html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/contact.html
+  - canonical: /p/contact.html
 - `disclosure`: 운영 원칙과 이해관계 공개
-  - html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/disclosure.html
-  - canonical: https://gimu-economy-insight.blogspot.com/p/disclosure.html
+  - html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/disclosure.html
+  - canonical: /p/disclosure.html
 - `editorial-policy`: 편집 원칙
-  - html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/editorial-policy.html
-  - canonical: https://gimu-economy-insight.blogspot.com/p/editorial-policy.html
+  - html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/editorial-policy.html
+  - canonical: /p/editorial-policy.html
 - `fact-check-policy`: 팩트체크와 출처 원칙
-  - html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/fact-check-policy.html
-  - canonical: https://gimu-economy-insight.blogspot.com/p/fact-check-policy.html
+  - html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/fact-check-policy.html
+  - canonical: /p/fact-check-policy.html
 - `home-structure`: 홈/메뉴 구조 제안
-  - html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/home-structure.html
-  - canonical: https://gimu-economy-insight.blogspot.com/p/home-structure.html
+  - html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/home-structure.html
+  - canonical: /p/home-structure.html
 - `hub-crypto`: 코인 허브
-  - html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/hub-crypto.html
-  - canonical: https://gimu-economy-insight.blogspot.com/p/hub-crypto.html
+  - html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/hub-crypto.html
+  - canonical: /p/hub-crypto.html
 - `hub-global-sector`: 세계 흐름·섹터 허브
-  - html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/hub-global-sector.html
-  - canonical: https://gimu-economy-insight.blogspot.com/p/hub-global-sector.html
+  - html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/hub-global-sector.html
+  - canonical: /p/hub-global-sector.html
 - `hub-macro`: 거시경제 허브
-  - html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/hub-macro.html
-  - canonical: https://gimu-economy-insight.blogspot.com/p/hub-macro.html
+  - html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/hub-macro.html
+  - canonical: /p/hub-macro.html
 - `privacy-policy`: 개인정보처리방침
-  - html: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/site-pages/privacy-policy.html
-  - canonical: https://gimu-economy-insight.blogspot.com/p/privacy-policy.html
+  - html: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/site-pages/privacy-policy.html
+  - canonical: /p/privacy-policy.html

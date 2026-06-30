@@ -174,15 +174,15 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 133.5,
-    "search_score": 133.5,
+    "total_score": 122.5,
+    "search_score": 122.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
     "secondary": [
       "site-foundation/hub-macro.md",
       "site-foundation/about.md",

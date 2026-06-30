@@ -106,9 +106,9 @@
   "reference_headlines": [
     "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
     "Bitcoin’s quiet $59,000-$60,000 range is starting to look dangerous",
-    "Bitcoin $4.4 billion supply overhang emerges as institutional demand wilts",
     "Here’s what happened in crypto today",
-    "Strategy's new plan divides industry observers even as MSTR, STRC climb"
+    "Strategy's new plan divides industry observers even as MSTR, STRC climb",
+    "Theo becomes first crypto-native investor in Fidelity tokenized fund"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -171,8 +171,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 82.0,
-    "search_score": 29,
+    "total_score": 81.0,
+    "search_score": 28,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,

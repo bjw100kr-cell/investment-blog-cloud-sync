@@ -1,18 +1,18 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-06-30T16:04:26.272859+00:00`
+- 생성 시각: `2026-06-30T16:33:19.441680+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
 - `fomc`: FOMC 이후 시장 해설 / 점수 97.0 / 수익화 15
   - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
   - 근거 소스: CNBC Top News, Federal Reserve Monetary Policy Press, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: 비트코인 핵심 흐름 해설 / 점수 82.0 / 수익화 15
+- `bitcoin`: 비트코인 핵심 흐름 해설 / 점수 81.0 / 수익화 15
   - 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성
   - 근거 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `us_index_flow`: 미국 증시 지수 흐름 해설 / 점수 65.0 / 수익화 15
-  - 이유: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-  - 근거 소스: CoinDesk RSS, Reuters Markets via Google News RSS
+- `us_index_flow`: 미국 증시 지수 흐름 해설 / 점수 74.0 / 수익화 15
+  - 이유: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+  - 근거 소스: CoinDesk RSS, Financial Times World, Reuters Markets via Google News RSS
 
 ## 브랜드 레인 우선순위
 

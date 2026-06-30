@@ -172,15 +172,15 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 114.5,
-    "search_score": 114.5,
+    "total_score": 113.5,
+    "search_score": 113.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
     "secondary": [
       "site-foundation/hub-crypto.md",
       "site-foundation/about.md",

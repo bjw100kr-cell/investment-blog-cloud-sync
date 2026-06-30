@@ -8,11 +8,11 @@
 
 - `1. bitcoin 승인`
   - why: 이 1건만 승인되면 Blogger draft loop 실검증으로 바로 넘어갈 수 있습니다.
-  - command: python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin
+  - command: python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin
 - `2. GitHub repo 연결`
   - why: 이 단계가 끝나야 컴퓨터가 꺼져 있어도 무료 클라우드 자동화가 돌아갑니다.
   - repo_create_link: https://github.com/bjw100kr-cell/investment-blog-cloud-sync
-  - web_checklist_md: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-web-launch-checklist.md
+  - web_checklist_md: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/github-web-launch-checklist.md
 
 ## 나중에 해도 되는 것
 
@@ -29,7 +29,7 @@
 
 ## References
 
-- `automation_progress_board_md`: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/automation-progress-board.md`
-- `first_approval_path_md`: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/first-approval-path.md`
-- `github_minimum_launch_card_md`: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-minimum-launch-card.md`
-- `minimum_unblock_flow_md`: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/minimum-unblock-flow.md`
+- `automation_progress_board_md`: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/automation-progress-board.md`
+- `first_approval_path_md`: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/first-approval-path.md`
+- `github_minimum_launch_card_md`: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/github-minimum-launch-card.md`
+- `minimum_unblock_flow_md`: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/minimum-unblock-flow.md`

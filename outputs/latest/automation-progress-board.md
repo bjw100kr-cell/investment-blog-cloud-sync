@@ -50,10 +50,10 @@
 
 ## References
 
-- `first_approval_path_md`: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/first-approval-path.md`
-- `daily_revenue_focus_md`: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/daily-revenue-focus.md`
-- `editorial_calendar_md`: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/editorial-calendar.md`
-- `github_launch_plan_md`: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-launch-plan.md`
+- `first_approval_path_md`: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/first-approval-path.md`
+- `daily_revenue_focus_md`: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/daily-revenue-focus.md`
+- `editorial_calendar_md`: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/editorial-calendar.md`
+- `github_launch_plan_md`: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/github-launch-plan.md`
 
 ## Operator Notes
 

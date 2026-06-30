@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-06-30T16:04:26.272859+00:00`
+- 생성 시각: `2026-06-30T16:33:19.441680+00:00`
 
 ## 1. fomc
 
@@ -76,7 +76,7 @@
 
 - 추천 제목: 비트코인 핵심 흐름 해설
 - 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성
-- 점수: 82.0
+- 점수: 81.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -138,15 +138,15 @@
 - 참고 헤드라인:
   - Jefferies warns of crypto market volatility as Clarity Act faces Senate test
   - Bitcoin’s quiet $59,000-$60,000 range is starting to look dangerous
-  - Bitcoin $4.4 billion supply overhang emerges as institutional demand wilts
   - Here’s what happened in crypto today
   - Strategy's new plan divides industry observers even as MSTR, STRC climb
+  - Theo becomes first crypto-native investor in Fidelity tokenized fund
 
 ## 3. us_index_flow
 
 - 추천 제목: 미국 증시 지수 흐름 해설
-- 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 65.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 74.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -207,8 +207,9 @@
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
   - Nasdaq expands distribution of its market data into blockchain infrastructure
-  - Tech selloff stirs bubble fears in US stock market - Reuters
   - AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters
+  - Tech selloff stirs bubble fears in US stock market - Reuters
+  - German leftwing terrorism on the rise, spy agency warns
 
 ## 4. china
 
@@ -274,5 +275,5 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - White House AI crackdown opens door for China to close gap
-  - 1. 대중국 압박의 큰 설계
+  - 1. The Grand Design to Pressure China
+  - Starmer’s £15bn defence plan leaves short-term gaps, say former officers

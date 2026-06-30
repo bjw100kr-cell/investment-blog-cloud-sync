@@ -59,7 +59,7 @@
 
 ## 출처 체크
 
-- 주요 참고 소스: CoinDesk RSS, Reuters Markets via Google News RSS
+- 주요 참고 소스: CoinDesk RSS, Financial Times World, Reuters Markets via Google News RSS
 - 발행 전 재확인: 대표 기업명과 티커 재확인
 - 발행 전 재확인: 실적/가이던스/공급망 숫자 출처 점검
 - 발행 전 재확인: 섹터 전체 일반화 표현 과장 여부 점검

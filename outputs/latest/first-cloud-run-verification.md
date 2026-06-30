@@ -1,6 +1,6 @@
 # First Cloud Run Verification
 
-- all_core_checks_passed: `True`
+- all_core_checks_passed: `False`
 
 ## Core Checks
 
@@ -10,12 +10,12 @@
   - success_condition: approval-dashboard.json 이 생성되어 있어야 함
 - `platform_publish_plan_generated`: True
   - success_condition: platform-publish-plan.json 이 생성되어 있어야 함
-- `review_approval_state_is_safe`: True
-  - success_condition: 게시 후 검증 모드에서는 승인 상태가 차단되지 않아도 허용합니다.
+- `review_approval_state_is_safe`: False
+  - success_condition: 첫 클라우드 런 전에는 review-approvals.json 의 사용자 최종 확인 목록이 비어 있어야 함
 - `blogger_report_matches_current_approval_file`: True
   - success_condition: blogger-upload-report summary 가 현재 사용자 최종 확인 상태와 일치해야 함
-- `blogger_safely_blocked_without_approval`: True
-  - success_condition: 게시 후 검증 모드에서는 awaiting_user_review_approval가 없어도 허용합니다.
+- `blogger_safely_blocked_without_approval`: False
+  - success_condition: 사용자 최종 확인 전에는 Blogger 업로드가 awaiting_user_review_approval 로 차단되어야 함
 - `wordpress_not_accidentally_publishing`: True
   - success_condition: WordPress 미연결 상태에서는 credentials_missing_dry_run 이거나 업로드 시도가 없어야 함
 - `repo_prereq_still_visible`: True

@@ -105,6 +105,7 @@
   "cta": "대표 종목, 실적 일정, 공급망 글까지 이어서 보면 섹터 흐름이 더 잘 보입니다.",
   "source_names": [
     "CoinDesk RSS",
+    "Financial Times World",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
@@ -171,15 +172,15 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 91.5,
-    "search_score": 91.5,
+    "total_score": 100.5,
+    "search_score": 100.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html",
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html",
     "secondary": [
       "site-foundation/hub-global-sector.md",
       "site-foundation/about.md",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T16:04:26.272859+00:00",
+  "generated_at": "2026-06-30T16:33:19.441680+00:00",
   "summary": {
     "ok_sources": 14,
     "item_count": 112
@@ -153,7 +153,7 @@
   "ranked_keywords": [
     {
       "keyword": "fomc",
-      "score": 48,
+      "score": 45,
       "source_count": 5,
       "sources": [
         "CNBC Top News",
@@ -165,7 +165,7 @@
     },
     {
       "keyword": "bitcoin",
-      "score": 45,
+      "score": 41,
       "source_count": 3,
       "sources": [
         "CoinDesk RSS",
@@ -197,10 +197,11 @@
     },
     {
       "keyword": "us_index_flow",
-      "score": 10,
-      "source_count": 2,
+      "score": 13,
+      "source_count": 3,
       "sources": [
         "CoinDesk RSS",
+        "Financial Times World",
         "Reuters Markets via Google News RSS"
       ]
     },
@@ -225,20 +226,20 @@
       ]
     },
     {
-      "keyword": "china",
-      "score": 6,
-      "source_count": 2,
-      "sources": [
-        "CNBC Top News",
-        "무역킹 Trade King YouTube"
-      ]
-    },
-    {
       "keyword": "crypto_etf",
       "score": 6,
       "source_count": 1,
       "sources": [
         "Investing.com Crypto News"
+      ]
+    },
+    {
+      "keyword": "china",
+      "score": 6,
+      "source_count": 2,
+      "sources": [
+        "Financial Times World",
+        "무역킹 Trade King YouTube"
       ]
     },
     {
@@ -251,28 +252,27 @@
       ]
     },
     {
-      "keyword": "ai_semiconductors",
-      "score": 5,
-      "source_count": 2,
-      "sources": [
-        "CNBC Top News",
-        "MarketWatch Breaking News"
-      ]
-    },
-    {
       "keyword": "cpi",
       "score": 3,
       "source_count": 1,
       "sources": [
         "CNBC Top News"
       ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "score": 2,
+      "source_count": 1,
+      "sources": [
+        "MarketWatch Breaking News"
+      ]
     }
   ],
   "topic_candidates": [
     {
       "keyword": "fomc",
-      "score": 48,
-      "headline_count": 13,
+      "score": 45,
+      "headline_count": 12,
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
@@ -281,12 +281,12 @@
     },
     {
       "keyword": "bitcoin",
-      "score": 45,
-      "headline_count": 14,
+      "score": 41,
+      "headline_count": 13,
       "sample_titles": [
         "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
         "Bitcoin’s quiet $59,000-$60,000 range is starting to look dangerous",
-        "Bitcoin $4.4 billion supply overhang emerges as institutional demand wilts"
+        "Here’s what happened in crypto today"
       ]
     },
     {
@@ -310,6 +310,16 @@
       ]
     },
     {
+      "keyword": "us_index_flow",
+      "score": 13,
+      "headline_count": 4,
+      "sample_titles": [
+        "Nasdaq expands distribution of its market data into blockchain infrastructure",
+        "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters",
+        "Tech selloff stirs bubble fears in US stock market - Reuters"
+      ]
+    },
+    {
       "keyword": "oil",
       "score": 10,
       "headline_count": 4,
@@ -317,16 +327,6 @@
         "Oil prices set for steep monthly drop as Trump, Iran issue mixed messages on talks in Qatar",
         "Ukraine argues it can legally attack Russia’s shadow fleet",
         "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "score": 10,
-      "headline_count": 3,
-      "sample_titles": [
-        "Nasdaq expands distribution of its market data into blockchain infrastructure",
-        "Tech selloff stirs bubble fears in US stock market - Reuters",
-        "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters"
       ]
     },
     {
@@ -343,8 +343,8 @@
       "score": 6,
       "headline_count": 2,
       "sample_titles": [
-        "White House AI crackdown opens door for China to close gap",
-        "1. 대중국 압박의 큰 설계"
+        "1. The Grand Design to Pressure China",
+        "Starmer’s £15bn defence plan leaves short-term gaps, say former officers"
       ]
     },
     {
@@ -354,15 +354,6 @@
       "sample_titles": [
         "Bitcoin weak below $60k as rate jitters, ETF outflows persist",
         "Bitcoin ticks up above $60k, but heads for quarterly loss as ETF outflows persist"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "score": 5,
-      "headline_count": 2,
-      "sample_titles": [
-        "White House AI crackdown opens door for China to close gap",
-        "Alphabet’s stock slump is a ‘tactical buying opportunity,’ according to one analyst"
       ]
     },
     {
@@ -380,6 +371,14 @@
       "headline_count": 1,
       "sample_titles": [
         "Cleveland Fed President Hammack sees AI fueling inflation, says rate hikes may be necessary"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "score": 2,
+      "headline_count": 1,
+      "sample_titles": [
+        "Alphabet’s stock slump is a ‘tactical buying opportunity,’ according to one analyst"
       ]
     }
   ],
@@ -482,95 +481,95 @@
       "source_weight": 5
     },
     {
+      "title": "lebron james news",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 09:10:00 -0700",
+      "description": "",
+      "approx_traffic": "2000+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "lebron leaving lakers",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 09:10:00 -0700",
+      "description": "",
+      "approx_traffic": "1000+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "shams",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 09:10:00 -0700",
+      "description": "",
+      "approx_traffic": "5000+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "bronny james contract",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 09:10:00 -0700",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "costa de marfil - noruega",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 09:00:00 -0700",
+      "description": "",
+      "approx_traffic": "5000+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "alexander zverev",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 09:00:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "caroline flack",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 09:00:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
       "title": "tom kean",
       "link": "https://trends.google.com/trending/rss?geo=US",
       "published": "Tue, 30 Jun 2026 08:50:00 -0700",
       "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "virtanen tennis",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 08:50:00 -0700",
-      "description": "",
-      "approx_traffic": "100+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "neil gorsuch",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 08:30:00 -0700",
-      "description": "",
-      "approx_traffic": "10000+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "alito",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 08:10:00 -0700",
-      "description": "",
-      "approx_traffic": "10000+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "marcus sasser",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 08:10:00 -0700",
-      "description": "",
       "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "shawn eichorst",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 08:10:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "ap",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 08:10:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "amy coney barrett",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 08:00:00 -0700",
-      "description": "",
-      "approx_traffic": "5000+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -674,6 +673,18 @@
       "source_weight": 5
     },
     {
+      "title": "Chinese exile once linked to Trump strategist gets 30-year sentence in $1 billion fraud",
+      "link": "https://www.coindesk.com/policy/2026/06/30/chinese-exile-once-linked-to-trump-strategist-gets-30-year-sentence-in-usd1-billion-fraud",
+      "published": "Tue, 30 Jun 2026 16:31:46 +0000",
+      "description": "The businessman known as Miles Guo, who pushed the fraudulent H-Coin project and had close ties to Steve Bannon, was finally sentenced after his 2024 conviction.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
       "title": "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
       "link": "https://www.coindesk.com/policy/2026/06/30/jefferies-warns-of-crypto-market-volatility-as-clarity-act-faces-senate-test",
       "published": "Tue, 30 Jun 2026 14:41:59 +0000",
@@ -750,18 +761,6 @@
       "link": "https://www.coindesk.com/business/2026/06/29/new-york-life-makes-tokenization-debut-with-onchain-high-yield-bond-fund-with-centrifuge",
       "published": "Tue, 30 Jun 2026 11:20:30 +0000",
       "description": "The $807 billion asset manager is bringing a high-yield corporate bond strategy onto blockchain with Centrifuge as Wall Street expands beyond tokenized Treasury funds.",
-      "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 4
-    },
-    {
-      "title": "Bitcoin $4.4 billion supply overhang emerges as institutional demand wilts",
-      "link": "https://www.coindesk.com/daybook-us/2026/06/30/bitcoin-usd4-4-billion-supply-overhang-emerges-as-institutional-demand-wilts",
-      "published": "Tue, 30 Jun 2026 11:18:34 +0000",
-      "description": "Your day-ahead look for June 30, 2026",
       "approx_traffic": "",
       "source_id": "coindesk_rss",
       "source_name": "CoinDesk RSS",
@@ -866,10 +865,22 @@
       "source_weight": 3
     },
     {
-      "title": "Small-cap stocks enjoy their best first half in 35 years. Here's what's driving it",
-      "link": "https://www.cnbc.com/2026/06/30/small-cap-stocks-enjoy-best-first-half-since-1991-as-ai-trade-expands.html",
-      "published": "Tue, 30 Jun 2026 13:04:02 GMT",
-      "description": "The advance marks a sharp turnaround after years of underperformance versus large-cap peers.",
+      "title": "AWS puts $1 billion into new AI unit to embed engineers with customers, joining growing wave",
+      "link": "https://www.cnbc.com/2026/06/30/aws-amazon-ai-forward-deployed-engineers.html",
+      "published": "Tue, 30 Jun 2026 15:00:01 GMT",
+      "description": "AWS FDEs will look to leave behind self-sufficient teams with new AI solutions and capabilities in a matter of weeks, the company said.",
+      "approx_traffic": "",
+      "source_id": "cnbc_top_news",
+      "source_name": "CNBC Top News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Nike is set to report earnings after the bell. Here's what to expect",
+      "link": "https://www.cnbc.com/2026/06/30/nike-nke-q4-2026-earnings.html",
+      "published": "Tue, 30 Jun 2026 16:00:01 GMT",
+      "description": "Nike is expected to report another quarter of declining sales as the sneaker giant struggles to regain strength under its turnaround strategy.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -880,20 +891,8 @@
     {
       "title": "Supreme Court upholds birthright citizenship, blocks Trump order",
       "link": "https://www.cnbc.com/2026/06/30/supreme-court-birthright-citizenship-ruling.html",
-      "published": "Tue, 30 Jun 2026 15:17:03 GMT",
+      "published": "Tue, 30 Jun 2026 16:27:59 GMT",
       "description": "President Donald Trump attended oral arguments in the case, underscoring his staunch opposition to granting automatic citizenship to many immigrants' babies.",
-      "approx_traffic": "",
-      "source_id": "cnbc_top_news",
-      "source_name": "CNBC Top News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "AWS puts $1 billion into new AI unit to embed engineers with customers, joining growing wave",
-      "link": "https://www.cnbc.com/2026/06/30/aws-amazon-ai-forward-deployed-engineers.html",
-      "published": "Tue, 30 Jun 2026 15:00:01 GMT",
-      "description": "AWS FDEs will look to leave behind self-sufficient teams with new AI solutions and capabilities in a matter of weeks, the company said.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -914,9 +913,21 @@
       "source_weight": 3
     },
     {
+      "title": "Small-cap stocks enjoy their best first half in 35 years. Here's what's driving it",
+      "link": "https://www.cnbc.com/2026/06/30/small-cap-stocks-enjoy-best-first-half-since-1991-as-ai-trade-expands.html",
+      "published": "Tue, 30 Jun 2026 16:15:55 GMT",
+      "description": "The advance marks a sharp turnaround after years of underperformance versus large-cap peers.",
+      "approx_traffic": "",
+      "source_id": "cnbc_top_news",
+      "source_name": "CNBC Top News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
       "title": "Oil prices set for steep monthly drop as Trump, Iran issue mixed messages on talks in Qatar",
       "link": "https://www.cnbc.com/2026/06/30/oil-prices-brent-wti-crude-trump-iran.html",
-      "published": "Tue, 30 Jun 2026 15:56:45 GMT",
+      "published": "Tue, 30 Jun 2026 16:28:02 GMT",
       "description": "The moves come as oil traders monitor the prospect of U.S.-Iran talks in Doha on Tuesday.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
@@ -938,22 +949,10 @@
       "source_weight": 3
     },
     {
-      "title": "Trump administration expands list of graduate degrees subject to higher borrowing limits",
-      "link": "https://www.cnbc.com/2026/06/30/student-loan-borrowers-subject-to-higher-borrowing-caps-than-expected.html",
-      "published": "Tue, 30 Jun 2026 15:59:24 GMT",
-      "description": "Many graduate students will be subject to higher federal student loan caps than previously expected, after a court ruling last week. Here's what to know.",
-      "approx_traffic": "",
-      "source_id": "cnbc_top_news",
-      "source_name": "CNBC Top News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "White House AI crackdown opens door for China to close gap",
-      "link": "https://www.cnbc.com/2026/06/30/white-house-ai-china-crackdown.html",
-      "published": "Tue, 30 Jun 2026 14:27:53 GMT",
-      "description": "The Trump administration's crackdown on Anthropic's leading artificial intelligence models is looking like a gift to China.",
+      "title": "Do you really, really love your job? Then you're not alone, according to surprising results from this survey",
+      "link": "https://www.cnbc.com/2026/06/30/surprising-survey-of-american-job-satisfaction-.html",
+      "published": "Tue, 30 Jun 2026 11:08:24 GMT",
+      "description": "Those surveyed showed a 78.9% rate of workers who \"reported feeling positive at the end of their shifts.\"",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -1060,7 +1059,7 @@
     {
       "title": "US Supreme Court rejects Trump’s bid to end birthright citizenship",
       "link": "https://www.ft.com/content/8ee00f84-762c-48a5-ac21-774e216977fa",
-      "published": "Tue, 30 Jun 2026 14:51:08 GMT",
+      "published": "Tue, 30 Jun 2026 16:09:06 GMT",
       "description": "Ruling is major blow to president’s immigration agenda",
       "approx_traffic": "",
       "source_id": "ft_home",
@@ -1166,6 +1165,18 @@
       "source_weight": 3
     },
     {
+      "title": "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONF8zVkNrYlBoa0VwcThGYkQ1Z3RJRUctVmxSLUpaLUhrUmp4dGZ5dGFJMDIwUVRMemtwb25BZ2h0TGRsTlFhOEoySkxDTno5SUkzZzJ1ZG9ONWJPZGliUFIzQVlrYS13dVRMSUlYS2tMZUZJb3dJbnZGTWRfMVpHb2RRdllSeVVEdEphOVQ5MTBBZ3J5dFN1SkZJVkdxWWt5aHpaT01Ba2hOU0VRNUxTUm9RSDI?oc=5",
+      "published": "Tue, 30 Jun 2026 10:25:32 GMT",
+      "description": "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
       "title": "Tech selloff stirs bubble fears in US stock market - Reuters",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFlQXU0QUQ2d3NhY2hNU1llc2ZCOUdyZW5IRlhzYVdYcjZ0eTkxU25fa3A3WjlZTDRRQ0FoRVFxNXF5OC1oRHI1clNXazZic0liOGhxeGVBZDNzbUx4cHpuS2JoWEZSMzE2RVhJSlNWZXotWHZwSnh2UFVjN1EtYVpuaXF5RWlUd19jZjBYWHNUNHJMTDN1bHVENXE1bGRzZ203dTJR?oc=5",
       "published": "Tue, 30 Jun 2026 09:04:09 GMT",
@@ -1182,18 +1193,6 @@
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcjduVjdCODItMUdUUzUzUV90Z1JWX0RmV2xRcDZMcjMzWUo4Q25qYVdSM3RsdklDTm9LNUVuOVlGam15R01JTTdTeXRkRDI1bVdrVVVNN1FwdlNmQ1BiVnhxS3VHRjBSbG5DeUh4c3dtYU9DYkNiWGRvanF4czlzbF9TS0hwUTIyR05meG1zRVlWTlRnbjFr?oc=5",
       "published": "Tue, 30 Jun 2026 11:00:40 GMT",
       "description": "Morning Bid: Doubled by halftime &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONF8zVkNrYlBoa0VwcThGYkQ1Z3RJRUctVmxSLUpaLUhrUmp4dGZ5dGFJMDIwUVRMemtwb25BZ2h0TGRsTlFhOEoySkxDTno5SUkzZzJ1ZG9ONWJPZGliUFIzQVlrYS13dVRMSUlYS2tMZUZJb3dJbnZGTWRfMVpHb2RRdllSeVVEdEphOVQ5MTBBZ3J5dFN1SkZJVkdxWWt5aHpaT01Ba2hOU0VRNUxTUm9RSDI?oc=5",
-      "published": "Tue, 30 Jun 2026 10:25:32 GMT",
-      "description": "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1226,18 +1225,6 @@
       "source_weight": 3
     },
     {
-      "title": "Yen stumbles to 40-year low as clock ticks on intervention - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUXZ6T3FUR1VKRXVTa05UdkplVkhySmRiWGhZaGpFV1VPYVBEeGpMMDlMM1RTT0E2SFdEc0REN3NReGc5ZkNvNmxWbHJjSVFtdTFFaVU1WXJFRWVqZlNyRWpjWVZEOFNXRUdqdEktRW9ZQnc1Zy1EMTRPZHdWdFlyZC1PUzdlY3JsMEJNS2ZFU0RUMWNoX0Z3emF2czV1MEZNOVE?oc=5",
-      "published": "Tue, 30 Jun 2026 01:01:00 GMT",
-      "description": "Yen stumbles to 40-year low as clock ticks on intervention &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
       "title": "Volkswagen's crisis in five charts - Reuters",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN2t5QmRtYzNGSGExdlVJbVJVU25XLVBMYlNwOW5obW1YVGxodENTdDE0bEV3c0JlVWEtSEI1cUdQNEZOMWVXOGZXNEFpRGEwME5DOUJySlpkanpvZHpkeFJ3R1UycUg3bVdpbUJiQXR1UDdLYjlZT09KdjZjVVEzNGVTdGllVDdxcTJUQmFJOWh6WTZaZGpvYUs2bXc?oc=5",
       "published": "Tue, 30 Jun 2026 13:27:02 GMT",
@@ -1250,14 +1237,26 @@
       "source_weight": 3
     },
     {
-      "title": "비자 가격이 5배 폭등한 이유",
+      "title": "Yen stumbles to 40-year low as clock ticks on intervention - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUXZ6T3FUR1VKRXVTa05UdkplVkhySmRiWGhZaGpFV1VPYVBEeGpMMDlMM1RTT0E2SFdEc0REN3NReGc5ZkNvNmxWbHJjSVFtdTFFaVU1WXJFRWVqZlNyRWpjWVZEOFNXRUdqdEktRW9ZQnc1Zy1EMTRPZHdWdFlyZC1PUzdlY3JsMEJNS2ZFU0RUMWNoX0Z3emF2czV1MEZNOVE?oc=5",
+      "published": "Tue, 30 Jun 2026 14:40:05 GMT",
+      "description": "Yen stumbles to 40-year low as clock ticks on intervention &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Why Visa Prices Have Skyrocketed 5 Times",
       "link": "https://www.youtube.com/watch?v=Wf5bKnlOpd0",
-      "published": "조회수 2.2만회",
+      "published": "23K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "Wf5bKnlOpd0",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=Wf5bKnlOpd0! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=Wf5bKnlOpd0! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1271,14 +1270,14 @@
       "source_weight": 3
     },
     {
-      "title": "일본의 돈이 움직이기 시작했다",
+      "title": "Japan's Money Has Started to Move",
       "link": "https://www.youtube.com/watch?v=DesDK3yCBXw",
-      "published": "조회수 5.8만회",
+      "published": "59K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "DesDK3yCBXw",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=DesDK3yCBXw! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=DesDK3yCBXw! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1292,14 +1291,14 @@
       "source_weight": 3
     },
     {
-      "title": "기독교가 자유에 목숨을 거는 이유 (몰아보기)",
+      "title": "Why Christianity is Obsessed with Freedom (Binge Watch)",
       "link": "https://www.youtube.com/watch?v=9UaggrRbYCM",
-      "published": "조회수 1.4만회",
+      "published": "14K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "9UaggrRbYCM",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=9UaggrRbYCM! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=9UaggrRbYCM! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1313,14 +1312,14 @@
       "source_weight": 3
     },
     {
-      "title": "2. 월드컵 끝나면..",
+      "title": "2. After the World Cup...",
       "link": "https://www.youtube.com/watch?v=WCvbjS9B36g",
-      "published": "조회수 11만회",
+      "published": "111K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "WCvbjS9B36g",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=WCvbjS9B36g! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=WCvbjS9B36g! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1334,14 +1333,14 @@
       "source_weight": 3
     },
     {
-      "title": "1. 대중국 압박의 큰 설계",
+      "title": "1. The Grand Design to Pressure China",
       "link": "https://www.youtube.com/watch?v=Vdc0wK_9ASQ",
-      "published": "조회수 8.6만회",
+      "published": "86K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "Vdc0wK_9ASQ",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=Vdc0wK_9ASQ! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=Vdc0wK_9ASQ! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1355,14 +1354,14 @@
       "source_weight": 3
     },
     {
-      "title": "이 기술 잡으면 끝난다",
+      "title": "Master this technique and you're set",
       "link": "https://www.youtube.com/watch?v=OSVv6F6cVZA",
-      "published": "조회수 4만회",
+      "published": "40K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "OSVv6F6cVZA",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=OSVv6F6cVZA! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=OSVv6F6cVZA! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1376,14 +1375,14 @@
       "source_weight": 3
     },
     {
-      "title": "이탈리아 너 잘 걸렸다ㅋ",
+      "title": "Italy, I’ve got you now lol",
       "link": "https://www.youtube.com/watch?v=xSjZ15OfWg8",
-      "published": "조회수 3.6만회",
+      "published": "36K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "xSjZ15OfWg8",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=xSjZ15OfWg8! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=xSjZ15OfWg8! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1397,14 +1396,14 @@
       "source_weight": 3
     },
     {
-      "title": "문 닫은 EU, 불법이민 추방전쟁",
+      "title": "EU Shuts Its Doors: The War on Illegal Immigration Deportations",
       "link": "https://www.youtube.com/watch?v=SNFAp8BPhdI",
-      "published": "조회수 4.3만회",
+      "published": "43K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "SNFAp8BPhdI",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=SNFAp8BPhdI! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=SNFAp8BPhdI! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1416,6 +1415,18 @@
       "source_category": "youtube_macro",
       "source_type": "youtube_channel",
       "source_weight": 3
+    },
+    {
+      "title": "Sandisk’s stock could follow record-breaking quarter with another big jump, analysts say",
+      "link": "https://www.marketwatch.com/story/sandisks-stock-could-follow-record-breaking-quarter-with-another-big-jump-analysts-say-433bbbef?mod=mw_rss_topstories",
+      "published": "Tue, 30 Jun 2026 16:16:00 GMT",
+      "description": "As investors get more discerning in separating potential artificial-intelligence winners from losers, memory stocks have become a standout trade.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
     },
     {
       "title": "‘She is retired’: Do I dip into my 401(k) to pay my mother’s $30,000 credit-card debt?",
@@ -1502,26 +1513,14 @@
       "source_weight": 2
     },
     {
-      "title": "Your Fourth of July hamburger meat was likely imported — and you’re right to have a beef with that",
-      "link": "https://www.marketwatch.com/story/your-fourth-of-july-hamburger-meat-was-likely-imported-and-youre-right-to-have-a-beef-with-that-c25d7c31?mod=mw_rss_topstories",
-      "published": "Tue, 30 Jun 2026 15:07:00 GMT",
-      "description": "The real reason your backyard BBQ is expensive has nothing to do with the supermarket.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
       "title": "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film",
       "link": "https://www.youtube.com/watch?v=ds1K-lN_U0g",
-      "published": "조회수 1.6만회",
+      "published": "17K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "ds1K-lN_U0g",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=ds1K-lN_U0g! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=ds1K-lN_U0g! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1537,12 +1536,12 @@
     {
       "title": "A renewable energy revolution? | FT Rethink",
       "link": "https://www.youtube.com/watch?v=l0tWlr5gwIE",
-      "published": "조회수 1.1만회",
+      "published": "11K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "l0tWlr5gwIE",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=l0tWlr5gwIE! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=l0tWlr5gwIE! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1558,12 +1557,12 @@
     {
       "title": "Ten years after Brexit | Political Fix",
       "link": "https://www.youtube.com/watch?v=8QnBqRG8G9w",
-      "published": "조회수 1.4만회",
+      "published": "14K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "8QnBqRG8G9w",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=8QnBqRG8G9w! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=8QnBqRG8G9w! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1579,12 +1578,12 @@
     {
       "title": "The AI factory: the rewiring of India's tech industry | FT Film",
       "link": "https://www.youtube.com/watch?v=UfyxN46tCz8",
-      "published": "조회수 26만회",
+      "published": "269K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "UfyxN46tCz8",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=UfyxN46tCz8! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=UfyxN46tCz8! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1600,12 +1599,12 @@
     {
       "title": "How Uzbekistan could liberalise its economy with a push into green energy | FT Film",
       "link": "https://www.youtube.com/watch?v=tWB3Xu3kzg8",
-      "published": "조회수 12만회",
+      "published": "127K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "tWB3Xu3kzg8",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=tWB3Xu3kzg8! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=tWB3Xu3kzg8! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1621,12 +1620,12 @@
     {
       "title": "Arson attacks targeting Keir Starmer properties originated in Russia | FT",
       "link": "https://www.youtube.com/watch?v=B5fVfx4IONo",
-      "published": "조회수 1.4만회",
+      "published": "14K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "B5fVfx4IONo",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=B5fVfx4IONo! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=B5fVfx4IONo! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1642,12 +1641,12 @@
     {
       "title": "Why birth rates are falling everywhere all at once | FT",
       "link": "https://www.youtube.com/watch?v=6lFXmDk-tps",
-      "published": "조회수 65만회",
+      "published": "651K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "6lFXmDk-tps",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=6lFXmDk-tps! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=6lFXmDk-tps! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1663,12 +1662,12 @@
     {
       "title": "The Porto Santo model: a small island’s renewable energy journey | FT Energy Source",
       "link": "https://www.youtube.com/watch?v=kmp8yQCPTBI",
-      "published": "조회수 10만회",
+      "published": "104K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "kmp8yQCPTBI",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=kmp8yQCPTBI! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=kmp8yQCPTBI! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1684,8 +1683,68 @@
     {
       "title": "US Supreme Court rejects Trump’s bid to end birthright citizenship",
       "link": "https://www.ft.com/content/8ee00f84-762c-48a5-ac21-774e216977fa",
-      "published": "Tue, 30 Jun 2026 14:51:08 GMT",
+      "published": "Tue, 30 Jun 2026 16:09:06 GMT",
       "description": "Ruling is major blow to president’s immigration agenda",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Starmer’s £15bn defence plan leaves short-term gaps, say former officers",
+      "link": "https://www.ft.com/content/de59198a-767c-436c-a5af-48c3b3c0c1ec",
+      "published": "Tue, 30 Jun 2026 15:58:01 GMT",
+      "description": "UK’s large military investments are aimed at countering China, but questions remain about ability to withstand Russian threat",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Shetland Islands to be connected by tunnels to try to boost growth",
+      "link": "https://www.ft.com/content/fb72b806-b681-47fa-8432-b9e3ea178af2",
+      "published": "Tue, 30 Jun 2026 15:40:08 GMT",
+      "description": "The four road links will eventually replace ageing ferry fleets",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "UK weighs intervention in Paramount’s $111bn Warner Bros takeover",
+      "link": "https://www.ft.com/content/a3956609-e4e3-4734-a1b4-76b484656299",
+      "published": "Tue, 30 Jun 2026 15:34:42 GMT",
+      "description": "Any regulatory referral on plurality grounds could delay or halt proceedings",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "US labour demand remained firm in May",
+      "link": "https://www.ft.com/content/c0992852-b7f1-4f09-aef7-b630cd0dc61d",
+      "published": "Tue, 30 Jun 2026 15:13:22 GMT",
+      "description": "Latest Jolts survey reinforces narratives of robust labour market",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "German leftwing terrorism on the rise, spy agency warns",
+      "link": "https://www.ft.com/content/889dc40d-3a70-469e-a7f5-cacb43854eeb",
+      "published": "Tue, 30 Jun 2026 14:53:33 GMT",
+      "description": "Increase in violent incidents comes in response to far-right extremism and Israeli actions in Middle East",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1718,69 +1777,9 @@
       "source_weight": 3
     },
     {
-      "title": "Witkoff and Kushner arrive in Doha for talks over US-Iran deal",
-      "link": "https://www.ft.com/content/f35be117-8a25-4a22-871d-0e29cafc8494",
-      "published": "Tue, 30 Jun 2026 13:27:56 GMT",
-      "description": "Mediator Qatar says there are no plans for American delegation to meet Iranian officials",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Ten years after Brexit: can the UK deliver change?",
-      "link": "https://www.ft.com/content/080cffe5-7b53-47f6-96fc-851a50107790",
-      "published": "Tue, 30 Jun 2026 13:22:55 GMT",
-      "description": "FT journalists answered subscribers’ questions at a webinar on June 25 2026",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Trump ally seeks to emulate Putin to stay in power in Serbia",
-      "link": "https://www.ft.com/content/c13f64f7-8715-48ad-8a0a-9031a924e6ee",
-      "published": "Tue, 30 Jun 2026 13:17:04 GMT",
-      "description": "Aleksandar Vučić says he plans to step down as president and return as premier after snap elections this autumn",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Judges dismiss appeal to block mass claims over UK motor finance scandal",
-      "link": "https://www.ft.com/content/38d42d46-0bb5-4526-bc8c-32601072d637",
-      "published": "Tue, 30 Jun 2026 13:09:58 GMT",
-      "description": "Lenders had sought to prevent lawyers from bringing cases on behalf of thousands of motorists",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Trump touts Supreme Court win after day of mixed rulings",
-      "link": "https://www.ft.com/content/e6731bd8-4359-437a-b7a1-723debf9ba4f",
-      "published": "Tue, 30 Jun 2026 13:00:03 GMT",
-      "description": "Also in today’s newsletter, US and Iran will ‘stand down’ and halt reciprocal attacks in Strait of Hormuz",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "NPR Retracts Article Falsely Suggesting Justice Alito Retired",
+      "title": "NPR Retracts Article That Mistakenly Said Justice Alito Would Retire",
       "link": "https://www.nytimes.com/2026/06/30/business/media/npr-samuel-alito-nina-totenberg.html",
-      "published": "Tue, 30 Jun 2026 15:27:49 +0000",
+      "published": "Tue, 30 Jun 2026 16:14:55 +0000",
       "description": "The news outlet quickly removed the article, which was written by NPR’s seasoned Supreme Court reporter, Nina Totenberg, from its website.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",

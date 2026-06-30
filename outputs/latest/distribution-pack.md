@@ -2,45 +2,11 @@
 
 - item_count: `13`
 
-## 1. FOMC 이후 시장 해설
-
-- inventory_type: `main_post`
-- publish_bucket: `today_or_overdue`
-- priority_score: `140.0`
-- hook_line: FOMC 이후 시장 해설 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-
-### X / Threads
-
-FOMC 이후 시장 해설
-
-오늘 시장을 볼 때 핵심은 이것입니다.
-- 독자 관점: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- 한 줄 포인트: 환율·금리·미국증시 evergreen 글로 연결
-
-짧고 이해하기 쉽게 정리했습니다.
-
-### Telegram / Kakao Channel
-
-[lane_focus_macro] FOMC 이후 시장 해설
-오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.
-핵심 포인트: 환율·금리·미국증시 evergreen 글로 연결
-
-### Community
-
-FOMC 이후 시장 해설
-
-이번 글은 '당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 환율·금리·미국증시 evergreen 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
-
-### Newsletter
-
-- subject: [오늘의 투자 브리핑] FOMC 이후 시장 해설
-- preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
-
-## 2. 비트코인 핵심 흐름 해설
+## 1. 비트코인 핵심 흐름 해설
 
 - inventory_type: `main_post`
 - publish_bucket: `tomorrow`
-- priority_score: `121.0`
+- priority_score: `120.0`
 - hook_line: 비트코인 핵심 흐름 해설 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -70,11 +36,11 @@ FOMC 이후 시장 해설
 - subject: [오늘의 투자 브리핑] 비트코인 핵심 흐름 해설
 - preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 
-## 3. 미국 증시 지수 흐름 해설
+## 2. 미국 증시 지수 흐름 해설
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
-- priority_score: `92.0`
+- priority_score: `101.0`
 - hook_line: 미국 증시 지수 흐름 해설 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -104,7 +70,7 @@ FOMC 이후 시장 해설
 - subject: [오늘의 투자 브리핑] 미국 증시 지수 흐름 해설
 - preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 
-## 4. 중국 변수와 시장 영향 해설
+## 3. 중국 변수와 시장 영향 해설
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
@@ -138,11 +104,45 @@ FOMC 이후 시장 해설
 - subject: [오늘의 투자 브리핑] 중국 변수와 시장 영향 해설
 - preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 
+## 4. FOMC 이후 시장 해설
+
+- inventory_type: `main_post`
+- publish_bucket: `later`
+- priority_score: `129.0`
+- hook_line: FOMC 이후 시장 해설 | FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
+
+### X / Threads
+
+FOMC 이후 시장 해설
+
+오늘 시장을 볼 때 핵심은 이것입니다.
+- 독자 관점: FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
+- 한 줄 포인트: 환율·금리·미국증시 evergreen 글로 연결
+
+짧고 이해하기 쉽게 정리했습니다.
+
+### Telegram / Kakao Channel
+
+[evergreen_support] FOMC 이후 시장 해설
+오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.
+핵심 포인트: 환율·금리·미국증시 evergreen 글로 연결
+
+### Community
+
+FOMC 이후 시장 해설
+
+이번 글은 'FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자'에 맞춰 정리한 해설입니다. 읽고 나면 환율·금리·미국증시 evergreen 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
+
+### Newsletter
+
+- subject: [오늘의 투자 브리핑] FOMC 이후 시장 해설
+- preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
+
 ## 5. FOMC 이후 시장이 주식과 코인에 미치는 영향
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `139.5`
+- priority_score: `128.5`
 - hook_line: FOMC 이후 시장이 주식과 코인에 미치는 영향 | 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자
 
 ### X / Threads
@@ -176,7 +176,7 @@ FOMC 이후 시장이 주식과 코인에 미치는 영향
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `136.5`
+- priority_score: `125.5`
 - hook_line: FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지 | 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자
 
 ### X / Threads
@@ -210,7 +210,7 @@ FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `133.5`
+- priority_score: `122.5`
 - hook_line: FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지 | 기초 개념을 처음부터 이해하고 싶은 초보 독자
 
 ### X / Threads
@@ -244,7 +244,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `120.5`
+- priority_score: `119.5`
 - hook_line: 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 | 가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자
 
 ### X / Threads
@@ -278,7 +278,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `117.5`
+- priority_score: `116.5`
 - hook_line: 비트코인 핵심 흐름 ETF·규제 이슈 정리 | 뉴스가 복잡해서 규제와 ETF 이슈만 따로 정리해 보고 싶은 독자
 
 ### X / Threads
@@ -312,7 +312,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `114.5`
+- priority_score: `113.5`
 - hook_line: 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 | 짧은 질문 단위로 빠르게 답을 찾고 싶은 독자
 
 ### X / Threads
@@ -346,7 +346,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `91.5`
+- priority_score: `100.5`
 - hook_line: 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기 | 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 
 ### X / Threads
@@ -380,7 +380,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `88.5`
+- priority_score: `97.5`
 - hook_line: 미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나 | 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 
 ### X / Threads
@@ -414,7 +414,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `85.5`
+- priority_score: `94.5`
 - hook_line: 미국 증시 지수 흐름 ETF·지수·대표 기업 정리 | 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 
 ### X / Threads

@@ -1,62 +1,40 @@
 {
-  "generated_at": "2026-06-30T16:17:31.201915+00:00",
-  "snapshot_generated_at": "2026-06-30T16:04:26.272859+00:00",
+  "generated_at": "2026-06-30T16:33:22.035225+00:00",
+  "snapshot_generated_at": "2026-06-30T16:33:19.441680+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
     "fresh": 2,
     "aging": 0,
-    "stale": 1,
-    "unknown": 0
+    "stale": 0,
+    "unknown": 1
   },
   "items": [
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장 해설",
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향 해설",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-07-01",
-      "freshness_status": "stale",
-      "newest_evidence_iso": "2026-06-17T18:00:00+00:00",
-      "oldest_evidence_iso": "2026-03-18T18:00:00+00:00",
-      "newest_evidence_age_days": 12.9,
-      "source_count": 5,
-      "demand_signal_score": 6000,
-      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
-      "recovery_mode": "evergreen_salvage",
-      "recovery_summary": "뉴스형 본문 대신 evergreen 후속 글로 전환하는 편이 더 안전하고 검색형 수익화에도 유리합니다.",
-      "recovery_keyword": "seo_fomc_1",
-      "recovery_title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
-      "recovery_confirm_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords seo_fomc_1",
-      "recovery_image_apply_helper": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_fomc_1 --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
-      "recovery_image_search_url": "https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline",
-      "recovery_image_search_query": "central bank meeting finance city skyline",
+      "publish_date": "2026-07-03",
+      "freshness_status": "unknown",
+      "newest_evidence_iso": "",
+      "oldest_evidence_iso": "",
+      "newest_evidence_age_days": null,
+      "source_count": 2,
+      "demand_signal_score": 0,
+      "summary_line": "대표 근거 시각을 읽지 못해 판단이 보류되었습니다.",
+      "recommendation": "최근 근거 시각을 다시 수집해 신선도를 먼저 확인하세요.",
+      "recovery_mode": "manual_check",
+      "recovery_summary": "최근 근거 시각을 먼저 다시 확인한 뒤 다음 액션을 결정하세요.",
       "recent_evidence": [
         {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-          "source_type": "rss"
+          "title": "1. The Grand Design to Pressure China",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "86K views",
+          "published_iso": "86K views",
+          "link": "https://www.youtube.com/watch?v=Vdc0wK_9ASQ",
+          "source_type": "youtube_channel"
         }
       ]
     },
@@ -65,13 +43,13 @@
       "title": "비트코인 핵심 흐름 해설",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-07-02",
+      "publish_date": "2026-07-01",
       "freshness_status": "fresh",
       "newest_evidence_iso": "2026-06-30T14:07:35+00:00",
-      "oldest_evidence_iso": "2026-06-30T07:05:01+00:00",
+      "oldest_evidence_iso": "2026-06-29T21:34:36+00:00",
       "newest_evidence_age_days": 0.1,
       "source_count": 3,
-      "demand_signal_score": 5700,
+      "demand_signal_score": 5300,
       "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Swan's Cory Klippsten sees record Bitcoin holder supply revealing early bottom",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
@@ -94,11 +72,11 @@
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin $4.4 billion supply overhang emerges as institutional demand wilts",
-          "source_name": "CoinDesk RSS",
-          "published": "Tue, 30 Jun 2026 11:18:34 +0000",
-          "published_iso": "2026-06-30T11:18:34+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/06/30/bitcoin-usd4-4-billion-supply-overhang-emerges-as-institutional-demand-wilts",
+          "title": "Bitcoin weak below $60k as rate jitters, ETF outflows persist",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-06-30 14:07:35",
+          "published_iso": "2026-06-30 14:07:35",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-60k-as-rate-jitters-etf-outflows-persist-4766872",
           "source_type": "rss"
         }
       ]
@@ -108,18 +86,26 @@
       "title": "미국 증시 지수 흐름 해설",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-07-03",
+      "publish_date": "2026-07-02",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-06-30T13:00:00+00:00",
+      "newest_evidence_iso": "2026-06-30T14:53:33+00:00",
       "oldest_evidence_iso": "2026-06-30T09:04:09+00:00",
       "newest_evidence_age_days": 0.1,
-      "source_count": 2,
+      "source_count": 3,
       "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Nasdaq expands distribution of its market data into blockchain infrastructure",
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: German leftwing terrorism on the rise, spy agency warns",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
+        {
+          "title": "German leftwing terrorism on the rise, spy agency warns",
+          "source_name": "Financial Times World",
+          "published": "Tue, 30 Jun 2026 14:53:33 GMT",
+          "published_iso": "2026-06-30T14:53:33+00:00",
+          "link": "https://www.ft.com/content/889dc40d-3a70-469e-a7f5-cacb43854eeb",
+          "source_type": "rss"
+        },
         {
           "title": "Nasdaq expands distribution of its market data into blockchain infrastructure",
           "source_name": "CoinDesk RSS",
@@ -134,14 +120,6 @@
           "published": "Tue, 30 Jun 2026 10:25:32 GMT",
           "published_iso": "2026-06-30T10:25:32+00:00",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONF8zVkNrYlBoa0VwcThGYkQ1Z3RJRUctVmxSLUpaLUhrUmp4dGZ5dGFJMDIwUVRMemtwb25BZ2h0TGRsTlFhOEoySkxDTno5SUkzZzJ1ZG9ONWJPZGliUFIzQVlrYS13dVRMSUlYS2tMZUZJb3dJbnZGTWRfMVpHb2RRdllSeVVEdEphOVQ5MTBBZ3J5dFN1SkZJVkdxWWt5aHpaT01Ba2hOU0VRNUxTUm9RSDI?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "Tech selloff stirs bubble fears in US stock market - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Tue, 30 Jun 2026 09:04:09 GMT",
-          "published_iso": "2026-06-30T09:04:09+00:00",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFlQXU0QUQ2d3NhY2hNU1llc2ZCOUdyZW5IRlhzYVdYcjZ0eTkxU25fa3A3WjlZTDRRQ0FoRVFxNXF5OC1oRHI1clNXazZic0liOGhxeGVBZDNzbUx4cHpuS2JoWEZSMzE2RVhJSlNWZXotWHZwSnh2UFVjN1EtYVpuaXF5RWlUd19jZjBYWHNUNHJMTDN1bHVENXE1bGRzZ203dTJR?oc=5",
           "source_type": "rss"
         }
       ]
