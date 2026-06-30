@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T20:45:27.041650+00:00",
+  "generated_at": "2026-06-30T20:56:50.613809+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -94,7 +94,7 @@
         "비트코인 핵심 흐름 해설: 지금 시장이 반응하는 이유",
         "비트코인 핵심 흐름 해설로 보는 주식·코인 흐름"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -111,6 +111,7 @@
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News"
@@ -118,18 +119,17 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 5300,
-      "search_score": 28,
-      "timeliness_score": 18,
+      "demand_signal_score": 5600,
+      "search_score": 29,
+      "timeliness_score": 20,
       "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 3,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 2,
-      "crypto_market_signal_bonus": 5,
+      "search_demand_bonus": 3,
+      "crypto_market_signal_bonus": 2,
       "crypto_market_sentiment": "extreme_fear",
       "crypto_market_signal_notes": [
-        "BTCUSDT 24h change -2.64%",
         "Fear/Greed 15: Extreme Fear zone"
       ],
       "total_score": 86.0,
@@ -185,13 +185,13 @@
       "format": "sector_analysis"
     },
     {
-      "keyword": "china",
+      "keyword": "tariffs_trade",
       "category": "global-sector",
       "brand_lane": "world-flow",
       "title_candidates": [
-        "중국 변수와 시장 영향 해설",
-        "중국 변수와 시장 영향 해설: 지금 시장이 반응하는 이유",
-        "중국 변수와 시장 영향 해설로 보는 주식·코인 흐름"
+        "관세와 무역 이슈 해설",
+        "관세와 무역 이슈 해설: 지금 시장이 반응하는 이유",
+        "관세와 무역 이슈 해설로 보는 주식·코인 흐름"
       ],
       "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
@@ -202,29 +202,29 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "Nike earnings, revenue top estimates even as China sales drop 12%",
-        "1. The Grand Design to Pressure China"
+        "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
+        "Nike earnings crushed Wall Street’s estimates, but there’s a catch"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
-        "무역킹 Trade King YouTube"
+        "MarketWatch Breaking News"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
       "search_score": 8,
-      "timeliness_score": 7,
+      "timeliness_score": 10,
       "explanatory_score": 18,
-      "monetization_score": 13,
+      "monetization_score": 14,
       "risk_score": 7,
       "performance_bonus": 0.0,
       "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 53.0,
+      "total_score": 57.0,
       "format": "macro_explainer"
     },
     {
@@ -236,7 +236,7 @@
         "달러 흐름 해설: 지금 시장이 반응하는 이유",
         "달러 흐름 해설로 보는 주식·코인 흐름"
       ],
-      "reason": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -249,31 +249,30 @@
         "Circle craters 17% as Stripe, Coinbase and BlackRock back rival stablecoin network",
         "Financial companies join forces for US dollar stablecoin, keeping reserve earnings",
         "Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen",
-        "MetaMask launches stablecoin yield account with card spending"
+        "The great wealth transfer rattling Wall Street"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
         "Financial Times Home",
-        "MarketWatch Breaking News",
         "NYT Business"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3600,
-      "search_score": 26,
-      "timeliness_score": 21,
+      "demand_signal_score": 3100,
+      "search_score": 22,
+      "timeliness_score": 20,
       "explanatory_score": 17,
       "monetization_score": 13,
       "risk_score": 6,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 2,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 83.0,
+      "total_score": 78.0,
       "format": "macro_explainer"
     }
   ]

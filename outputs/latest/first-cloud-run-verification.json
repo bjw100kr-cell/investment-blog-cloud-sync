@@ -55,12 +55,12 @@
       {
         "name": "blogger",
         "ready": true,
-        "ready_item_count": 1
+        "ready_item_count": 0
       },
       {
         "name": "wordpress",
         "ready": false,
-        "ready_item_count": 1
+        "ready_item_count": 0
       }
     ],
     "blogger_summary": {
@@ -80,7 +80,13 @@
       "approved_keywords": [
         "bitcoin"
       ],
-      "quality_gate_blocked": []
+      "quality_gate_blocked": [
+        "pre_publish_quality_gate_review",
+        "pre_publish_quality_gate_review",
+        "pre_publish_quality_gate_review",
+        "pre_publish_quality_gate_review",
+        "pre_publish_quality_gate_review"
+      ]
     },
     "wordpress_summary": {
       "processed_count": 0,

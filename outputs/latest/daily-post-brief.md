@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-06-30T20:45:27.041650+00:00`
+- 생성 시각: `2026-06-30T20:56:50.613809+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -34,10 +34,10 @@
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
 - 총점: `86.0`
-- 점수 구성: 검색성 28 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 5
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 코인 시장 신호: BTCUSDT 24h change -2.64%; Fear/Greed 15: Extreme Fear zone
-- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 점수 구성: 검색성 29 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 2
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- 코인 시장 신호: Fear/Greed 15: Extreme Fear zone
+- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 핵심 흐름 해설
   - 비트코인 핵심 흐름 해설: 지금 시장이 반응하는 이유
@@ -80,18 +80,18 @@
   - Tech selloff stirs bubble fears in US stock market - Reuters
   - AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters
 
-## 4. china
+## 4. tariffs_trade
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `53.0`
-- 점수 구성: 검색성 8 / 시의성 7 / 설명가치 18 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 총점: `57.0`
+- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 18 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, 무역킹 Trade King YouTube
+- 소스: CNBC Top News, MarketWatch Breaking News
 - 제목 후보:
-  - 중국 변수와 시장 영향 해설
-  - 중국 변수와 시장 영향 해설: 지금 시장이 반응하는 이유
-  - 중국 변수와 시장 영향 해설로 보는 주식·코인 흐름
+  - 관세와 무역 이슈 해설
+  - 관세와 무역 이슈 해설: 지금 시장이 반응하는 이유
+  - 관세와 무역 이슈 해설로 보는 주식·코인 흐름
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -99,17 +99,17 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Nike earnings, revenue top estimates even as China sales drop 12%
-  - 1. The Grand Design to Pressure China
+  - Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund
+  - Nike earnings crushed Wall Street’s estimates, but there’s a catch
 
 ## 5. dollar
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `83.0`
-- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 17 / 수익성 13 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- 소스: CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business
+- 총점: `78.0`
+- 점수 구성: 검색성 22 / 시의성 20 / 설명가치 17 / 수익성 13 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 소스: CoinDesk RSS, Cointelegraph, Financial Times Home, NYT Business
 - 제목 후보:
   - 달러 흐름 해설
   - 달러 흐름 해설: 지금 시장이 반응하는 이유
@@ -125,4 +125,4 @@
   - Circle craters 17% as Stripe, Coinbase and BlackRock back rival stablecoin network
   - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
   - Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen
-  - MetaMask launches stablecoin yield account with card spending
+  - The great wealth transfer rattling Wall Street

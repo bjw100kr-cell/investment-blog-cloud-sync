@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-30T20:54:19+00:00",
-  "status": "ok",
+  "generated_at": "2026-06-30T20:56:51+00:00",
+  "status": "degraded",
   "providers": {
     "binance_plugin": false,
-    "binance_public_api": true,
+    "binance_public_api": false,
     "alternative_fear_greed": true
   },
   "market": {
     "sentiment": "extreme_fear",
-    "average_change_percent_24h": -2.45,
-    "tracked_quote_volume_24h": 1877221096.37,
-    "signal_strength": 6
+    "average_change_percent_24h": 0,
+    "tracked_quote_volume_24h": 0,
+    "signal_strength": 3
   },
   "fear_greed": {
     "value": 15,
@@ -20,52 +20,16 @@
   },
   "tickers": [
     {
-      "symbol": "BTCUSDT",
-      "keyword": "bitcoin",
-      "last_price": 58718.0,
-      "price_change_percent_24h": -2.638,
-      "quote_volume_24h": 1132011567.668352,
-      "trade_count_24h": 3767082
-    },
-    {
-      "symbol": "ETHUSDT",
-      "keyword": "ethereum",
-      "last_price": 1575.56,
-      "price_change_percent_24h": -2.732,
-      "quote_volume_24h": 363291219.551726,
-      "trade_count_24h": 2072603
-    },
-    {
-      "symbol": "SOLUSDT",
-      "keyword": "crypto_etf",
-      "last_price": 73.64,
-      "price_change_percent_24h": -2.334,
-      "quote_volume_24h": 202903005.15848,
-      "trade_count_24h": 1009434
-    },
-    {
-      "symbol": "XRPUSDT",
-      "keyword": "crypto_etf",
-      "last_price": 1.0427,
-      "price_change_percent_24h": -2.011,
-      "quote_volume_24h": 70411430.30762,
-      "trade_count_24h": 457681
-    },
-    {
-      "symbol": "BNBUSDT",
-      "keyword": "crypto_etf",
-      "last_price": 545.42,
-      "price_change_percent_24h": -2.638,
-      "quote_volume_24h": 56604511.95595,
-      "trade_count_24h": 581371
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "keyword": "crypto_etf",
-      "last_price": 0.07204,
-      "price_change_percent_24h": -2.358,
-      "quote_volume_24h": 51999361.72609,
-      "trade_count_24h": 515521
+      "error": "HTTP Error 451: ",
+      "fallback_errors": [
+        "BTCUSDT: HTTP Error 451: ",
+        "ETHUSDT: HTTP Error 451: ",
+        "BNBUSDT: HTTP Error 451: ",
+        "SOLUSDT: HTTP Error 451: ",
+        "XRPUSDT: HTTP Error 451: ",
+        "DOGEUSDT: HTTP Error 451: "
+      ],
+      "provider": "binance_public_api"
     }
   ],
   "plugin_overview": {
@@ -82,42 +46,27 @@
   },
   "keyword_signals": {
     "bitcoin": {
-      "signal_score_bonus": 5,
+      "signal_score_bonus": 2,
       "market_signal_notes": [
-        "BTCUSDT 24h change -2.64%",
         "Fear/Greed 15: Extreme Fear zone"
       ],
-      "tracked_symbols": [
-        "BTCUSDT"
-      ],
+      "tracked_symbols": [],
       "market_sentiment": "extreme_fear"
     },
     "ethereum": {
-      "signal_score_bonus": 5,
+      "signal_score_bonus": 2,
       "market_signal_notes": [
-        "ETHUSDT 24h change -2.73%",
         "Fear/Greed 15: Extreme Fear zone"
       ],
-      "tracked_symbols": [
-        "ETHUSDT"
-      ],
+      "tracked_symbols": [],
       "market_sentiment": "extreme_fear"
     },
     "crypto_etf": {
-      "signal_score_bonus": 8,
+      "signal_score_bonus": 2,
       "market_signal_notes": [
-        "SOLUSDT 24h change -2.33%",
-        "XRPUSDT 24h change -2.01%",
-        "BNBUSDT 24h change -2.64%",
-        "DOGEUSDT 24h change -2.36%",
         "Fear/Greed 15: Extreme Fear zone"
       ],
-      "tracked_symbols": [
-        "SOLUSDT",
-        "XRPUSDT",
-        "BNBUSDT",
-        "DOGEUSDT"
-      ],
+      "tracked_symbols": [],
       "market_sentiment": "extreme_fear"
     }
   }

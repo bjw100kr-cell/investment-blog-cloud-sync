@@ -85,7 +85,7 @@
 
 ```json
 {
-  "keyword": "seo_us_index_flow_5",
+  "keyword": "seo_us_index_flow_7",
   "source_keyword": "us_index_flow",
   "recommended_title": "미국 증시 지수 흐름 관련 대표 종목 한눈에 보기",
   "alternate_titles": [

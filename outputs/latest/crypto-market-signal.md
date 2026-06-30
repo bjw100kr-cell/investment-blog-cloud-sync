@@ -1,32 +1,23 @@
 # Crypto Market Signal
 
-- 생성 시각: `2026-06-30T20:54:19+00:00`
-- 상태: `ok`
+- 생성 시각: `2026-06-30T20:56:51+00:00`
+- 상태: `degraded`
 - 시장 분위기: `extreme_fear`
-- 추적 코인 평균 24h 변동률: `-2.45%`
+- 추적 코인 평균 24h 변동률: `0%`
 - Fear/Greed: `15` (Extreme Fear)
 
 ## Tracked Tickers
 
-- `BTCUSDT`: 24h `-2.64%`, quote volume `1132011568`
-- `ETHUSDT`: 24h `-2.73%`, quote volume `363291220`
-- `SOLUSDT`: 24h `-2.33%`, quote volume `202903005`
-- `XRPUSDT`: 24h `-2.01%`, quote volume `70411430`
-- `BNBUSDT`: 24h `-2.64%`, quote volume `56604512`
-- `DOGEUSDT`: 24h `-2.36%`, quote volume `51999362`
+- Binance public API error: HTTP Error 451: 
 
 ## Keyword Signals
 
-- `bitcoin`: bonus `5`, sentiment `extreme_fear`, symbols `BTCUSDT`
-  - BTCUSDT 24h change -2.64%
+- `bitcoin`: bonus `2`, sentiment `extreme_fear`, symbols ``
   - Fear/Greed 15: Extreme Fear zone
-- `ethereum`: bonus `5`, sentiment `extreme_fear`, symbols `ETHUSDT`
-  - ETHUSDT 24h change -2.73%
+- `ethereum`: bonus `2`, sentiment `extreme_fear`, symbols ``
   - Fear/Greed 15: Extreme Fear zone
-- `crypto_etf`: bonus `8`, sentiment `extreme_fear`, symbols `SOLUSDT, XRPUSDT, BNBUSDT, DOGEUSDT`
-  - SOLUSDT 24h change -2.33%
-  - XRPUSDT 24h change -2.01%
-  - BNBUSDT 24h change -2.64%
+- `crypto_etf`: bonus `2`, sentiment `extreme_fear`, symbols ``
+  - Fear/Greed 15: Extreme Fear zone
 
 ## Editorial Rule
 

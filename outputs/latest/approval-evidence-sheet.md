@@ -2,34 +2,33 @@
 
 사용자가 초안을 최종 확인하기 전에, 왜 이 글이 오늘 올라올 가치가 있는지 근거를 빠르게 보는 시트입니다.
 - 원칙: 초안 내용과 함께 근거 소스, 검색 수요, 시의성을 같이 보고 최종 확인합니다.
-- generated_at: `2026-06-30T20:45:27.041650+00:00`
+- generated_at: `2026-06-30T20:56:50.613809+00:00`
 - item_count: `3`
 
-## 1. 비트코인 핵심 흐름 해설
+## 1. FOMC 이후 시장 해설
 
-- keyword: `bitcoin`
-- publish_date: `2026-07-01`
-- priority_score: `120.0`
+- keyword: `fomc`
+- publish_date: `2026-06-30`
+- priority_score: `140.0`
 - ready_now: `True` / quality_status `pass`
-- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성
-- format: `crypto_analysis`
-- demand_signal_score: `5300`
+- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
+- format: `macro_explainer`
+- demand_signal_score: `5900`
 - fallback_source: `source_snapshot_rank`
-- source_count: `3`
-- score_breakdown: search `28` / timeliness `18` / monetization `15`
-- source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- source_count: `5`
+- score_breakdown: search `29` / timeliness `25` / monetization `15`
+- source_names: Federal Reserve Monetary Policy Press, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - sample_headlines:
-  - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
-  - Jefferies warns of crypto market volatility as Clarity Act faces Senate test
-  - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
-  - Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen
-  - AI’s power crunch turns Bitcoin miners’ grid access into an asset
+  - Federal Reserve issues FOMC statement
+  - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+  - Minutes of the Federal Open Market Committee, April 28-29, 2026
+  - Minutes of the Federal Open Market Committee, March 17–18, 2026
 - recent_evidence:
-  - Cointelegraph | 2026-06-30T18:17:56+00:00 | Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen | https://cointelegraph.com/markets/bitcoin-price-slumps-to-near-58k-as-us-dollar-hits-40-year-high-against-yen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  - Cointelegraph | 2026-06-30T17:44:31+00:00 | AI’s power crunch turns Bitcoin miners’ grid access into an asset | https://cointelegraph.com/features/bitcoin-miners-ai-data-centers-power-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  - Investing.com Crypto News | 2026-06-30 19:07:57 | Bitcoin holds $58,131 support after 2.9% drop: Live levels | https://www.investing.com/news/cryptocurrency-news/bitcoin-in-bear-flag-near-annual-low-live-levels-93CH-4764319
-  - Investing.com Crypto News | 2026-06-30 14:07:35 | Bitcoin weak below $60k as rate jitters, ETF outflows persist | https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-60k-as-rate-jitters-etf-outflows-persist-4766872
-  - Investing.com Crypto News | 2026-06-29 21:34:36 | Bitcoin ticks up above $60k, but heads for quarterly loss as ETF outflows persist | https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-below-60k-heads-for-qtrly-loss-as-etf-outflows-persist-4764220
+  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve issues FOMC statement | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm
+  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm
+  - Federal Reserve Monetary Policy Press | 2026-04-29T18:00:00+00:00 | Federal Reserve issues FOMC statement | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm
+  - Federal Reserve Monetary Policy Press | 2026-03-18T18:00:00+00:00 | Federal Reserve issues FOMC statement | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm
+  - Federal Reserve Monetary Policy Press | 2026-05-20T18:00:00+00:00 | Minutes of the Federal Open Market Committee, April 28-29, 2026 | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm
 
 ## 2. 미국 증시 지수 흐름 해설
 
@@ -57,22 +56,28 @@
   - Reuters Markets via Google News RSS | 2026-06-30T17:01:15+00:00 | Tech selloff stirs bubble fears in US stock market - Reuters | https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFlQXU0QUQ2d3NhY2hNU1llc2ZCOUdyZW5IRlhzYVdYcjZ0eTkxU25fa3A3WjlZTDRRQ0FoRVFxNXF5OC1oRHI1clNXazZic0liOGhxeGVBZDNzbUx4cHpuS2JoWEZSMzE2RVhJSlNWZXotWHZwSnh2UFVjN1EtYVpuaXF5RWlUd19jZjBYWHNUNHJMTDN1bHVENXE1bGRzZ203dTJR?oc=5
   - Reuters Markets via Google News RSS | 2026-06-30T10:25:32+00:00 | AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters | https://news.google.com/rss/articles/CBMitAFBVV95cUxONF8zVkNrYlBoa0VwcThGYkQ1Z3RJRUctVmxSLUpaLUhrUmp4dGZ5dGFJMDIwUVRMemtwb25BZ2h0TGRsTlFhOEoySkxDTno5SUkzZzJ1ZG9ONWJPZGliUFIzQVlrYS13dVRMSUlYS2tMZUZJb3dJbnZGTWRfMVpHb2RRdllSeVVEdEphOVQ5MTBBZ3J5dFN1SkZJVkdxWWt5aHpaT01Ba2hOU0VRNUxTUm9RSDI?oc=5
 
-## 3. 중국 변수와 시장 영향 해설
+## 3. 비트코인 핵심 흐름 해설
 
-- keyword: `china`
-- publish_date: `2026-07-03`
-- priority_score: `78.0`
-- ready_now: `True` / quality_status `pass`
-- reason: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- format: `macro_explainer`
-- demand_signal_score: `0`
-- fallback_source: `mapped_candidate`
-- source_count: `2`
-- score_breakdown: search `8` / timeliness `7` / monetization `13`
-- source_names: CNBC Top News, 무역킹 Trade King YouTube
+- keyword: `bitcoin`
+- publish_date: `2026-07-01`
+- priority_score: `125.0`
+- ready_now: `False` / quality_status `review_before_publish`
+- reason: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- format: `crypto_analysis`
+- demand_signal_score: `5600`
+- fallback_source: `source_snapshot_rank`
+- source_count: `4`
+- score_breakdown: search `29` / timeliness `20` / monetization `15`
+- source_names: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - sample_headlines:
-  - Nike earnings, revenue top estimates even as China sales drop 12%
-  - 1. The Grand Design to Pressure China
+  - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
+  - Jefferies warns of crypto market volatility as Clarity Act faces Senate test
+  - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
+  - Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen
+  - AI’s power crunch turns Bitcoin miners’ grid access into an asset
 - recent_evidence:
-  - 무역킹 Trade King YouTube | 87K views | 1. The Grand Design to Pressure China | https://www.youtube.com/watch?v=Vdc0wK_9ASQ
-  - CNBC Top News | 2026-06-30T20:27:01+00:00 | Nike earnings, revenue top estimates even as China sales drop 12% | https://www.cnbc.com/2026/06/30/nike-nke-q4-2026-earnings.html
+  - Cointelegraph | 2026-06-30T18:17:56+00:00 | Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen | https://cointelegraph.com/markets/bitcoin-price-slumps-to-near-58k-as-us-dollar-hits-40-year-high-against-yen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  - Cointelegraph | 2026-06-30T17:44:31+00:00 | AI’s power crunch turns Bitcoin miners’ grid access into an asset | https://cointelegraph.com/features/bitcoin-miners-ai-data-centers-power-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  - Investing.com Crypto News | 2026-06-30 19:07:57 | Bitcoin holds $58,131 support after 2.9% drop: Live levels | https://www.investing.com/news/cryptocurrency-news/bitcoin-in-bear-flag-near-annual-low-live-levels-93CH-4764319
+  - Investing.com Crypto News | 2026-06-30 14:07:35 | Bitcoin weak below $60k as rate jitters, ETF outflows persist | https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-60k-as-rate-jitters-etf-outflows-persist-4766872
+  - Investing.com Crypto News | 2026-06-29 21:34:36 | Bitcoin ticks up above $60k, but heads for quarterly loss as ETF outflows persist | https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-below-60k-heads-for-qtrly-loss-as-etf-outflows-persist-4764220
