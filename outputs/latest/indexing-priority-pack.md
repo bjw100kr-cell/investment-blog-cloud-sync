@@ -13,14 +13,14 @@
 
 ## Priority URLs
 
+- `high` / `fomc` / 예상 `95`명: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+  - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
+  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
+  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
 - `high` / `bitcoin` / 예상 `95`명: 비트코인 핵심 흐름 해설
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post.html
-- `high` / `fomc` / 예상 `95`명: FOMC 이후 시장 해설
-  - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
-  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
-  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
 - `high` / `us_index_flow` / 예상 `92`명: 미국 증시 지수 흐름 해설
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_30.html
@@ -69,6 +69,6 @@
 ## Internal Link Actions
 
 - `fomc` -> `seo_fomc_1` / anchor `FOMC 이후 시장이 주식과 코인에 미치는 영향` / FOMC 메인 글에서 후속 검색형 글로 연결
-- `bitcoin` -> `fomc` / anchor `FOMC 이후 시장 해설` / 비트코인 글에서 금리/FOMC 영향 설명으로 연결
-- `us_index_flow` -> `fomc` / anchor `FOMC 이후 시장 해설` / 미국 지수 글에서 금리 이벤트 해설로 연결
+- `bitcoin` -> `fomc` / anchor `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / 비트코인 글에서 금리/FOMC 영향 설명으로 연결
+- `us_index_flow` -> `fomc` / anchor `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / 미국 지수 글에서 금리 이벤트 해설로 연결
 - `china` -> `us_index_flow` / anchor `미국 증시 지수 흐름 해설` / 중국 변수 글에서 미국 지수/세계 흐름 비교로 연결

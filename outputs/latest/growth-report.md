@@ -1,6 +1,6 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-06-30T21:51:39.687780+00:00`
+- 생성 시각: `2026-06-30T21:54:01.988871+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
@@ -27,6 +27,7 @@
 
 ## 무료 트렌드 수요 신호
 
+- `us_big_tech`: trend_count 1, traffic_sum 500, regions US / 쿼리 jacob widell zetterström
 - `bitcoin`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 - `fomc`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 - `us_index_flow`: trend_count 0, traffic_sum 0, regions  / 쿼리 

@@ -1,9 +1,9 @@
 # 오늘의 키워드 기회판
 
-- 생성 시각: `2026-06-30T21:51:39.687780+00:00`
+- 생성 시각: `2026-06-30T21:54:01.988871+00:00`
 - 당일 브레이킹 후보: `5`
 - SEO 후속 후보: `6`
-- 검색어 워치리스트: `4`
+- 검색어 워치리스트: `5`
 
 ## 오늘 바로 볼 브레이킹 후보
 
@@ -126,4 +126,7 @@
   - note: 기존 핵심 키워드와 연결되어 있어 검색형 후속 글로 전환하기 좋습니다.
 - `dollar`: type mapped_keyword_demand / mapped dollar / demand 2800 / regions unknown
   - suggested_title: dollar 왜 검색이 급증했나: 투자자 관점 핵심 정리
+  - note: 기존 핵심 키워드와 연결되어 있어 검색형 후속 글로 전환하기 좋습니다.
+- `jacob widell zetterström`: type mapped_keyword_demand / mapped us_big_tech / demand 700 / regions US
+  - suggested_title: jacob widell zetterström 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결되어 있어 검색형 후속 글로 전환하기 좋습니다.

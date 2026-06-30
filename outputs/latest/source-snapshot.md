@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-06-30T21:51:39.687780+00:00`
+- 생성 시각: `2026-06-30T21:54:01.988871+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -109,13 +109,13 @@ If you are sure that the described cause is not responsible for this error and t
 - `bitcoin`: score 45, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `fomc`: score 42, source_count 3, sources Federal Reserve Monetary Policy Press, NYT Business, Reuters Markets via Google News RSS
 - `us_index_flow`: score 22, source_count 5, sources Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_big_tech`: score 16, source_count 3, sources CoinDesk RSS, Google Trends US, NYT Business
 - `dollar`: score 16, source_count 3, sources CoinDesk RSS, Cointelegraph, NYT Business
 - `crypto_etf`: score 16, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `china`: score 14, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, 무역킹 Trade King YouTube
 - `ai_semiconductors`: score 14, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
 - `ethereum`: score 12, source_count 3, sources CoinDesk RSS, Cointelegraph, Financial Times YouTube
 - `treasury_yields`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
-- `oil`: score 7, source_count 3, sources Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
@@ -139,6 +139,10 @@ If you are sure that the described cause is not responsible for this error and t
   - Why OpenUSD's 'real threat' that tanked Circle stock still faces a steep uphill battle for adoption
   - Circle craters 17% as Stripe, Coinbase and BlackRock back rival stablecoin network
   - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
+- `us_big_tech`: score 16, headlines 3
+  - jacob widell zetterström
+  - MetaMask launches Money Account with stablecoin yield and spending in one wallet
+  - Neon Buys ‘Artificial,’ a Film About OpenAI, After Amazon Dropped It
 - `ai_semiconductors`: score 14, headlines 5
   - Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter
   - Anthropic launches AI drug discovery program, joining tech giants in betting on healthcare
@@ -155,6 +159,3 @@ If you are sure that the described cause is not responsible for this error and t
   - Stocks end quarter with big gains as oil tumbles the most in years; gold, yen also fall - Reuters
   - Oil posts largest quarterly price drop in 6 years as historic supply crunch eases
   - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-- `treasury_yields`: score 7, headlines 2
-  - MetaMask launches Money Account with stablecoin yield and spending in one wallet
-  - Solidion Technology plans to buy SpaceX shares as treasury asset

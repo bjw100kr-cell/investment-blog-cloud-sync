@@ -1,6 +1,6 @@
 # 수익화 준비도 리포트
 
-- 생성 시각: `2026-06-30T21:51:39.687780+00:00`
+- 생성 시각: `2026-06-30T21:54:01.988871+00:00`
 - 준비도 점수: `50.0`
 
 ## 단계별 상태
@@ -16,7 +16,7 @@
   - evidence: automated channel count=1
   - next: Blogger draft 업로드를 먼저 자동 검증하고, 안정화 뒤 WordPress를 두 번째 자동 채널로 확장합니다.
 - `search_demand_engine`: ready
-  - evidence: trend watchlist 4개
+  - evidence: trend watchlist 5개
   - evidence: search console watchlist 0개
   - evidence: daily opportunity breaking candidates 5개
   - evidence: daily opportunity query watchlist 4개
