@@ -288,6 +288,12 @@ jobs:
           WORDPRESS_MAX_POSTS_PER_RUN: ${{ vars.WORDPRESS_MAX_POSTS_PER_RUN || '1' }}
         run: python scripts/upload_wordpress_drafts.py
 
+      - name: Verify approved cloud run
+        run: python scripts/prepare_first_cloud_run_verification.py --allow-approved-state
+
+      - name: Rebuild cloud launch preflight after uploads
+        run: python scripts/build_cloud_launch_preflight.py
+
       - name: Commit latest snapshot
         run: |
           git config user.name "github-actions[bot]"
