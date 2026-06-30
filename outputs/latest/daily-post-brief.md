@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-06-30T21:39:27.687974+00:00`
+- 생성 시각: `2026-06-30T21:44:28.305630+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -36,7 +36,7 @@
 - 총점: `89.0`
 - 점수 구성: 검색성 29 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 5
 - 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 코인 시장 신호: BTCUSDT 24h change -2.97%; Fear/Greed 15: Extreme Fear zone
+- 코인 시장 신호: BTCUSDT 24h change -3.00%; Fear/Greed 15: Extreme Fear zone
 - 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 핵심 흐름 해설
@@ -112,7 +112,7 @@
 - 총점: `78.0`
 - 점수 구성: 검색성 18 / 시의성 15 / 설명가치 18 / 수익성 15 / 리스크역점수 4 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 8
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 코인 시장 신호: SOLUSDT 24h change -2.99%; XRPUSDT 24h change -2.08%; DOGEUSDT 24h change -2.58%
+- 코인 시장 신호: SOLUSDT 24h change -2.96%; XRPUSDT 24h change -2.08%; DOGEUSDT 24h change -2.57%
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 크립토 ETF 이슈 해설

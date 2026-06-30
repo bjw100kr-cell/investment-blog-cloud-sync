@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-06-30T21:39:27.687974+00:00`
+- 생성 시각: `2026-06-30T21:44:28.305630+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -114,8 +114,8 @@ If you are sure that the described cause is not responsible for this error and t
 - `china`: score 14, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, 무역킹 Trade King YouTube
 - `ai_semiconductors`: score 14, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
 - `ethereum`: score 12, source_count 3, sources CoinDesk RSS, Cointelegraph, Financial Times YouTube
-- `tariffs_trade`: score 8, source_count 3, sources CNBC Top News, Financial Times World, MarketWatch Breaking News
 - `treasury_yields`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
+- `oil`: score 7, source_count 3, sources Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
@@ -151,11 +151,10 @@ If you are sure that the described cause is not responsible for this error and t
   - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
   - Bitmine Ether buys eclipsed by $345M ETH ETF $345M outflows: Is sub $1.5K next?
   - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
-- `tariffs_trade`: score 8, headlines 3
-  - Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund
-  - Nike earnings crushed Wall Street’s estimates, but there’s a catch
-  - Nike earnings helped by tariff refund but performance still shows strains
 - `oil`: score 7, headlines 3
   - Stocks end quarter with big gains as oil tumbles the most in years; gold, yen also fall - Reuters
   - Oil posts largest quarterly price drop in 6 years as historic supply crunch eases
   - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+- `treasury_yields`: score 7, headlines 2
+  - MetaMask launches Money Account with stablecoin yield and spending in one wallet
+  - Solidion Technology plans to buy SpaceX shares as treasury asset
