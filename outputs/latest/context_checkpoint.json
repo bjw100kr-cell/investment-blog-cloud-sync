@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-30T21:50:16.805843+00:00",
+  "generated_at_utc": "2026-06-30T21:58:50.439862+00:00",
   "goal": "주식/코인/세계경제 투자 블로그 자동화 운영 지속 및 수익화",
   "blogger": {
     "report_summary": {
@@ -7,8 +7,9 @@
       "processed_count": 1,
       "reason_counts": {
         "source_freshness_stale": 1,
+        "already_synced_same_content": 2,
         "": 1,
-        "BLOGGER_MAX_POSTS_PER_RUN reached": 11
+        "BLOGGER_MAX_POSTS_PER_RUN reached": 9
       },
       "last_reason": "source_freshness_stale",
       "top_item_slug": null
@@ -16,7 +17,7 @@
     "state_summary": {
       "item_count": 13,
       "published_count": 13,
-      "latest_synced_at": "2026-06-30T21:44:35.163395+00:00"
+      "latest_synced_at": "2026-06-30T21:57:58.574284+00:00"
     }
   },
   "inventory": {
@@ -51,5 +52,5 @@
     "Variable: `OPENAI_MODEL`, `BLOGGER_SYNC_SITE_PAGES`, `BLOGGER_SITE_PAGES_PUBLISH`, `BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES`, `BLOGGER_REQUIRE_REVIEW_APPROVAL`, `BLOGGER_AUTO_PUBLISH_POSTS`, `BLOGGER_PUBLISH_ONLY_DUE_POSTS`, `BLOGGER_MAX_POSTS_PER_RUN`"
   ],
   "source_notes": [],
-  "note": "click title sync added"
+  "note": "all four public main post titles synced"
 }
