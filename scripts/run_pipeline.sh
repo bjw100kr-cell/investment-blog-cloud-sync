@@ -172,6 +172,8 @@ run_step "30.367/34" "Build Search Console setup card" python3 scripts/build_sea
 
 run_step "30.368/34" "Build indexing priority pack" python3 scripts/build_indexing_priority_pack.py
 
+run_step "30.369/34" "Apply internal link blocks" python3 scripts/apply_internal_link_blocks.py
+
 run_step "30.37/34" "Build retention CTA board" python3 scripts/build_retention_cta_board.py
 
 run_step "30.4/34" "Build first publish operator run preview" python3 scripts/first_publish_operator_run.py

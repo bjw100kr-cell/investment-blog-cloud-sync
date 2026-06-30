@@ -109,6 +109,7 @@
 | SP-093 | Spark | completed | none | Search Console fetch가 로컬 `.env`와 GitHub Actions의 기존 `GOOGLE_*` secrets를 fallback으로 사용하도록 보강하고, 접근 가능한 Search Console 사이트 목록 진단을 추가 |
 | SP-094 | Spark | completed | none | `search-console-setup-card`와 `indexing-priority-pack`을 추가해 Search Console 검증 후 제출할 sitemap/URL 검사/내부링크 우선순위를 자동 생성 |
 | SP-095 | Spark | pending | Search Console property verified | Search Console 속성 검증 후 `visitor-proof-board`에서 실제 클릭/노출과 200명 목표 달성 여부 재검증 |
+| SP-096 | Spark | completed | none | `apply_internal_link_blocks`를 추가해 공개 URL 기반 내부링크 박스를 실제 발행 HTML에 삽입하고, 체류시간/페이지뷰 증가용 연결을 Blogger 업데이트 후보에 반영 |
 | HQ-001 | High | pending | none | public repo 공개 범위와 비공개 전환 기준 결정 |
 | HQ-002 | High | pending | none | OpenAI 유료 초안 생성 활성화 시점과 비용 한도 정책 결정 |
 | HQ-003 | High | pending | none | Search Console, GA4, AdSense, 뉴스레터 연결 우선순위 재정렬 |

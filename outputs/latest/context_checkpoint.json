@@ -1,23 +1,22 @@
 {
-  "generated_at_utc": "2026-06-30T21:27:44.243652+00:00",
+  "generated_at_utc": "2026-06-30T21:33:56.215873+00:00",
   "goal": "주식/코인/세계경제 투자 블로그 자동화 운영 지속 및 수익화",
   "blogger": {
     "report_summary": {
       "manifest_candidate_count": null,
       "processed_count": 1,
       "reason_counts": {
-        "source_freshness_stale": 1,
-        "already_synced_same_content": 3,
+        "already_synced_same_content": 5,
         "": 1,
-        "BLOGGER_MAX_POSTS_PER_RUN reached": 8
+        "BLOGGER_MAX_POSTS_PER_RUN reached": 7
       },
-      "last_reason": "source_freshness_stale",
-      "top_item_slug": null
+      "last_reason": "already_synced_same_content",
+      "top_item_slug": "fomc-이후-시장-해설"
     },
     "state_summary": {
       "item_count": 13,
       "published_count": 13,
-      "latest_synced_at": "2026-06-30T21:22:51.535988+00:00"
+      "latest_synced_at": "2026-06-30T21:28:48.021473+00:00"
     }
   },
   "inventory": {
@@ -51,5 +50,5 @@
     "`outputs/latest/first-cloud-run-verification.json`"
   ],
   "source_notes": [],
-  "note": "search console setup and indexing pack added"
+  "note": "internal link blocks applied"
 }

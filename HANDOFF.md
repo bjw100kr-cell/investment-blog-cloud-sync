@@ -27,6 +27,7 @@
 - `scripts/fetch_search_console_queries.py`는 로컬 단독 실행 시 `.env`를 읽고, GitHub Actions에서는 Search Console 전용 secrets가 없어도 기존 `GOOGLE_CLIENT_ID/GOOGLE_CLIENT_SECRET/GOOGLE_REFRESH_TOKEN`을 fallback으로 사용합니다.
 - `scripts/build_search_console_setup_card.py`와 `outputs/latest/search-console-setup-card.md`를 추가했습니다. Search Console에 등록할 URL-prefix 속성, sitemap URL, 첫 URL 검사 링크를 자동 정리합니다.
 - `scripts/build_indexing_priority_pack.py`와 `outputs/latest/indexing-priority-pack.md`를 추가했습니다. 공개 Blogger URL을 예상 유입순으로 정렬하고 URL 검사 링크, site 검색 링크, 내부링크 액션을 자동 생성합니다.
+- `scripts/apply_internal_link_blocks.py`와 `outputs/latest/internal-link-application-report.md`를 추가했습니다. `indexing-priority-pack`의 내부링크 액션을 실제 publish-ready HTML에 `함께 읽으면 흐름이 이어지는 글` 박스로 삽입해 체류시간/페이지뷰 상승을 노립니다.
 - `go-live-readiness` 기준 1차 실전(초안 테스트) 준비는 됨.
 - `git remote`는 `https://github.com/bjw100kr-cell/investment-blog-cloud-sync`로 연결됐고, `repo_connected=true`, `repo_accessible=true` 상태입니다.
 - 자동화 우선 채널은 `blogger`(1순위), `wordpress`(확장)로 고정.
@@ -46,6 +47,7 @@
 - `2026-07-01`: `session_memos`에 중복 저장된 동일 노트 1건을 정리하고, `CONVERSATION_SUMMARY.md`/`context_checkpoint`/`session_memos` 압축 저장을 갱신했습니다.
 - `2026-07-01`: Search Console 측정 보강 결과, OAuth 자격증명은 `.env`에서 읽히고 사이트 URL도 `https://gimu-economy-insight.blogspot.com/`로 추론됩니다. 현재 실제 병목은 `403 Forbidden`이며 `accessible_sites=[]`라서, 같은 Google 계정의 Search Console에 블로그 속성 등록/검증 또는 권한 연결이 필요합니다.
 - `2026-07-01`: Search Console 검증 직후 사용할 `sitemap.xml`, `feeds/posts/default?orderby=UPDATED`, 우선 URL 검사 목록, 내부링크 액션이 자동 생성되도록 연결했습니다.
+- `2026-07-01`: 내부링크 적용 검증 결과, 실제 `publish-inventory.json`의 4개 메인 글(`fomc`, `bitcoin`, `us_index_flow`, `china`)에 공개 URL 기반 내부링크 박스가 적용됐고 품질 게이트는 13/13 pass입니다.
 
 ## 이번 세션에서 완료한 변경
 - 모델 효율 규칙 + 작업 큐 문서화(`MODEL_EFFICIENCY_POLICY.md`, `TASK_QUEUE.md`) 유지.
