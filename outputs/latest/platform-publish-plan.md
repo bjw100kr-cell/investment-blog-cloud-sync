@@ -18,7 +18,7 @@
 - first_item: `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트`
 - first_keyword: `bitcoin`
 
-- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / score 128.0 / quality=True / freshness=`fresh` / user_confirmed=True
+- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / score 129.0 / quality=True / freshness=`fresh` / user_confirmed=True
 
 ## wordpress
 
@@ -28,4 +28,4 @@
 - first_item: `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트`
 - first_keyword: `bitcoin`
 
-- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / score 128.0 / quality=True / freshness=`fresh` / user_confirmed=True
+- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / score 129.0 / quality=True / freshness=`fresh` / user_confirmed=True

@@ -87,12 +87,12 @@
 {
   "keyword": "seo_fomc_3",
   "source_keyword": "fomc",
-  "recommended_title": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지",
+  "recommended_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 초보자 가이드: 용어부터 시장 반응까지",
   "alternate_titles": [
-    "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지: 초보 투자자 기준으로 다시 보기",
-    "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지: 지금 읽어야 하는 이유"
+    "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 초보자 가이드: 용어부터 시장 반응까지: 초보 투자자 기준으로 다시 보기",
+    "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 초보자 가이드: 용어부터 시장 반응까지: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "FOMC 이후 시장 해설에서 이어지는 후속 글로, 기초 개념을 처음부터 이해하고 싶은 초보 독자",
+  "summary_angle": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지에서 이어지는 후속 글로, 기초 개념을 처음부터 이해하고 싶은 초보 독자",
   "outline": [
     "먼저 이 개념을 왜 알아야 하나",
     "핵심 구조를 가장 쉽게 풀어보기",
@@ -101,7 +101,7 @@
     "다음에 이어서 볼 글"
   ],
   "reference_takeaways": [
-    "메인 연결 글: FOMC 이후 시장 해설",
+    "메인 연결 글: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
     "검색 의도: 기초 개념을 처음부터 이해하고 싶은 초보 독자",
     "수익화 목표: 광범위한 초보 검색 수요 흡수"
   ],
@@ -118,7 +118,7 @@
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지"
+    "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 초보자 가이드: 용어부터 시장 반응까지"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -189,7 +189,7 @@
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-주식과-코인이-같이-흔들리는-이유와-확인할-3가지.html",
     "secondary": [
       "site-foundation/hub-macro.md",
       "site-foundation/about.md",

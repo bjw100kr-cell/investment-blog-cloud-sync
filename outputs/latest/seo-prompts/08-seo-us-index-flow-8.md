@@ -87,12 +87,12 @@
 {
   "keyword": "seo_us_index_flow_8",
   "source_keyword": "us_index_flow",
-  "recommended_title": "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나",
+  "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 공급망 정리: 누가 수혜를 보나",
   "alternate_titles": [
-    "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나: 초보 투자자 기준으로 다시 보기",
-    "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나: 지금 읽어야 하는 이유"
+    "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 공급망 정리: 누가 수혜를 보나: 초보 투자자 기준으로 다시 보기",
+    "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 공급망 정리: 누가 수혜를 보나: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "미국 증시 지수 흐름 해설에서 이어지는 후속 글로, 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
+  "summary_angle": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유에서 이어지는 후속 글로, 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
   "outline": [
     "이전 메인 글에서 이어지는 핵심 질문",
     "이번에 추가로 확인된 내용",
@@ -101,7 +101,7 @@
     "다음 후속 글 연결"
   ],
   "reference_takeaways": [
-    "메인 연결 글: 미국 증시 지수 흐름 해설",
+    "메인 연결 글: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
     "검색 의도: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
     "수익화 목표: 체류시간과 페이지뷰 확대"
   ],
@@ -120,7 +120,7 @@
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나"
+    "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 공급망 정리: 누가 수혜를 보나"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -191,7 +191,7 @@
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html",
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-나스닥-금리-빅테크-실적을-같이-봐야-하는-이유.html",
     "secondary": [
       "site-foundation/hub-global-sector.md",
       "site-foundation/about.md",

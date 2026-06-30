@@ -68,7 +68,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
 - 발행 전 재확인: BTC 가격 기준 시각 재확인
 - 발행 전 재확인: ETF 자금 유입 여부 공식/신뢰 소스 재확인
 - 발행 전 재확인: 단정적 가격 전망 문장 제거

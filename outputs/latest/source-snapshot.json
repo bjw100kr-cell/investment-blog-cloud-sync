@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T21:57:50.683486+00:00",
+  "generated_at": "2026-06-30T22:06:12.537534+00:00",
   "summary": {
     "ok_sources": 14,
     "item_count": 112
@@ -153,13 +153,14 @@
   "ranked_keywords": [
     {
       "keyword": "bitcoin",
-      "score": 45,
-      "source_count": 4,
+      "score": 47,
+      "source_count": 5,
       "sources": [
         "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ]
     },
     {
@@ -185,13 +186,25 @@
       ]
     },
     {
-      "keyword": "us_big_tech",
-      "score": 16,
-      "source_count": 3,
+      "keyword": "crypto_etf",
+      "score": 18,
+      "source_count": 4,
       "sources": [
         "CoinDesk RSS",
-        "Google Trends US",
-        "NYT Business"
+        "Cointelegraph",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "score": 17,
+      "source_count": 4,
+      "sources": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "MarketWatch Breaking News"
       ]
     },
     {
@@ -205,16 +218,6 @@
       ]
     },
     {
-      "keyword": "crypto_etf",
-      "score": 16,
-      "source_count": 3,
-      "sources": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
-      ]
-    },
-    {
       "keyword": "china",
       "score": 14,
       "source_count": 5,
@@ -224,17 +227,6 @@
         "Financial Times World",
         "MarketWatch Breaking News",
         "무역킹 Trade King YouTube"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "score": 14,
-      "source_count": 4,
-      "sources": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News"
       ]
     },
     {
@@ -267,6 +259,15 @@
       ]
     },
     {
+      "keyword": "us_big_tech",
+      "score": 6,
+      "source_count": 2,
+      "sources": [
+        "CoinDesk RSS",
+        "NYT Business"
+      ]
+    },
+    {
       "keyword": "tariffs_trade",
       "score": 6,
       "source_count": 2,
@@ -287,8 +288,8 @@
   "topic_candidates": [
     {
       "keyword": "bitcoin",
-      "score": 45,
-      "headline_count": 14,
+      "score": 47,
+      "headline_count": 15,
       "sample_titles": [
         "Phantom doubles down on perpetual futures with hire of Hyperliquid market builders",
         "SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules",
@@ -312,17 +313,27 @@
       "sample_titles": [
         "Nasdaq brings proprietary market data onchain through Pyth",
         "US stocks chalk up biggest quarterly gain in six years",
-        "Tech selloff stirs bubble fears in US stock market - Reuters"
+        "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters"
       ]
     },
     {
       "keyword": "crypto_etf",
-      "score": 16,
-      "headline_count": 5,
+      "score": 18,
+      "headline_count": 6,
       "sample_titles": [
         "SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules",
         "Bitmine Ether buys eclipsed by $345M ETH ETF $345M outflows: Is sub $1.5K next?",
         "SEC seeks public comment on regulating next generation of ETFs"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "score": 17,
+      "headline_count": 6,
+      "sample_titles": [
+        "Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter",
+        "Anthropic launches AI drug discovery program, joining tech giants in betting on healthcare",
+        "Anthropic launches Claude Science in push for pharma revenue"
       ]
     },
     {
@@ -333,26 +344,6 @@
         "Why OpenUSD's 'real threat' that tanked Circle stock still faces a steep uphill battle for adoption",
         "Circle craters 17% as Stripe, Coinbase and BlackRock back rival stablecoin network",
         "Financial companies join forces for US dollar stablecoin, keeping reserve earnings"
-      ]
-    },
-    {
-      "keyword": "us_big_tech",
-      "score": 16,
-      "headline_count": 3,
-      "sample_titles": [
-        "jacob widell zetterström",
-        "MetaMask launches Money Account with stablecoin yield and spending in one wallet",
-        "Neon Buys ‘Artificial,’ a Film About OpenAI, After Amazon Dropped It"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "score": 14,
-      "headline_count": 5,
-      "sample_titles": [
-        "Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter",
-        "Anthropic launches AI drug discovery program, joining tech giants in betting on healthcare",
-        "US stocks chalk up biggest quarterly gain in six years"
       ]
     },
     {
@@ -404,6 +395,15 @@
       ]
     },
     {
+      "keyword": "us_big_tech",
+      "score": 6,
+      "headline_count": 2,
+      "sample_titles": [
+        "MetaMask launches Money Account with stablecoin yield and spending in one wallet",
+        "Neon Buys ‘Artificial,’ a Film About OpenAI, After Amazon Dropped It"
+      ]
+    },
+    {
       "keyword": "cpi",
       "score": 3,
       "headline_count": 1,
@@ -414,6 +414,30 @@
   ],
   "naver_datalab": null,
   "items": [
+    {
+      "title": "잠수함",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Tue, 30 Jun 2026 14:00:00 -0700",
+      "description": "",
+      "approx_traffic": "2000+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "석유",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Tue, 30 Jun 2026 14:00:00 -0700",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
     {
       "title": "교황청",
       "link": "https://trends.google.com/trending/rss?geo=KR",
@@ -487,119 +511,95 @@
       "source_weight": 5
     },
     {
-      "title": "스테이 블코 인",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Tue, 30 Jun 2026 13:20:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "프랑스 대 스웨덴",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Tue, 30 Jun 2026 13:10:00 -0700",
-      "description": "",
-      "approx_traffic": "2000+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "lucas bergvall",
+      "title": "mbappe age",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 14:40:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "jacob widell zetterström",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 14:40:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "michael olise",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 14:40:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "metlife stadium",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 14:40:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "disney settlement",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 14:40:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "rabiot",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 14:40:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "mbappe girlfriend",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 14:40:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "didier deschamps",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 14:20:00 -0700",
+      "published": "Tue, 30 Jun 2026 14:50:00 -0700",
       "description": "",
       "approx_traffic": "1000+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "william saliba",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 14:50:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "john cena hair transplant procedure",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 14:50:00 -0700",
+      "description": "",
+      "approx_traffic": "1000+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "victor lindelöf",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 14:50:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "isak",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 14:50:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "jules koundé",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 14:50:00 -0700",
+      "description": "",
+      "approx_traffic": "100+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "jussie smollett",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 14:50:00 -0700",
+      "description": "",
+      "approx_traffic": "100+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "congressman tom kean jr",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 14:40:00 -0700",
+      "description": "",
+      "approx_traffic": "5000+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -933,7 +933,7 @@
     {
       "title": "Michael Burry says he's shorting Caterpillar for the first time after it nearly doubled in the AI-driven rally of 2026",
       "link": "https://www.cnbc.com/2026/06/30/burry-shorts-caterpillar-after-it-nearly-doubled-in-ai-rally-of-2026.html",
-      "published": "Tue, 30 Jun 2026 20:41:21 GMT",
+      "published": "Tue, 30 Jun 2026 22:03:46 GMT",
       "description": "\"Caterpillar jumped out at me,\" Burry said. \"I have never shorted Caterpillar. It has always done great for me on the long side in the past.\"",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
@@ -1135,10 +1135,10 @@
       "source_weight": 3
     },
     {
-      "title": "US Supreme Court rejects Trump’s bid to end birthright citizenship",
-      "link": "https://www.ft.com/content/8ee00f84-762c-48a5-ac21-774e216977fa",
-      "published": "Tue, 30 Jun 2026 21:34:46 GMT",
-      "description": "Ruling is major blow to president’s immigration agenda",
+      "title": "Anthropic launches Claude Science in push for pharma revenue",
+      "link": "https://www.ft.com/content/50c10721-bda6-439e-a6c3-755311e4b505",
+      "published": "Tue, 30 Jun 2026 18:49:56 GMT",
+      "description": "New AI product has use cases in rendering 3D protein structures and drug discovery",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1147,10 +1147,10 @@
       "source_weight": 3
     },
     {
-      "title": "Supreme Court reminds America (and Trump) what citizenship is",
-      "link": "https://www.ft.com/content/829adc4c-f5a4-4af3-950f-78213cc74002",
-      "published": "Tue, 30 Jun 2026 16:57:50 GMT",
-      "description": "The United States has always been based on the notion of welcoming newcomers from every country",
+      "title": "Heavy corporate AI spenders add staff faster than peers",
+      "link": "https://www.ft.com/content/8026eac6-16ad-467d-b8c3-c48c5af684e6",
+      "published": "Tue, 30 Jun 2026 04:00:18 GMT",
+      "description": "Study of 22,000 US companies challenges fears that generative AI will trigger broad job losses",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1195,10 +1195,10 @@
       "source_weight": 3
     },
     {
-      "title": "Tech selloff stirs bubble fears in US stock market - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFlQXU0QUQ2d3NhY2hNU1llc2ZCOUdyZW5IRlhzYVdYcjZ0eTkxU25fa3A3WjlZTDRRQ0FoRVFxNXF5OC1oRHI1clNXazZic0liOGhxeGVBZDNzbUx4cHpuS2JoWEZSMzE2RVhJSlNWZXotWHZwSnh2UFVjN1EtYVpuaXF5RWlUd19jZjBYWHNUNHJMTDN1bHVENXE1bGRzZ203dTJR?oc=5",
-      "published": "Tue, 30 Jun 2026 17:01:15 GMT",
-      "description": "Tech selloff stirs bubble fears in US stock market &nbsp;&nbsp; Reuters",
+      "title": "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFRDcUUwRFFNVjBGV3pwVVVHRU12NjdzSGVuY29pWHRGamc3NTAxSkExaThvUFdFLUVnUUx0VkJ2NWszanJCTmhVVjViUzlIUlVVTkVsOVdOanFITWF6Z0J2Ql9fSTBLX1p2TDdEakN3TUU5elV0NnNLNTRvajV6UjJzR2tPTzEtaGNPRUVlbVhJdmNMMXZUMmEzYU5DQm1qM1JB?oc=5",
+      "published": "Tue, 30 Jun 2026 20:55:04 GMT",
+      "description": "S&P 500, Nasdaq register best quarter since 2020 despite Iran war &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1207,10 +1207,10 @@
       "source_weight": 3
     },
     {
-      "title": "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFRDcUUwRFFNVjBGV3pwVVVHRU12NjdzSGVuY29pWHRGamc3NTAxSkExaThvUFdFLUVnUUx0VkJ2NWszanJCTmhVVjViUzlIUlVVTkVsOVdOanFITWF6Z0J2Ql9fSTBLX1p2TDdEakN3TUU5elV0NnNLNTRvajV6UjJzR2tPTzEtaGNPRUVlbVhJdmNMMXZUMmEzYU5DQm1qM1JB?oc=5",
-      "published": "Tue, 30 Jun 2026 20:55:04 GMT",
-      "description": "S&P 500, Nasdaq register best quarter since 2020 despite Iran war &nbsp;&nbsp; Reuters",
+      "title": "Tech selloff stirs bubble fears in US stock market - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFlQXU0QUQ2d3NhY2hNU1llc2ZCOUdyZW5IRlhzYVdYcjZ0eTkxU25fa3A3WjlZTDRRQ0FoRVFxNXF5OC1oRHI1clNXazZic0liOGhxeGVBZDNzbUx4cHpuS2JoWEZSMzE2RVhJSlNWZXotWHZwSnh2UFVjN1EtYVpuaXF5RWlUd19jZjBYWHNUNHJMTDN1bHVENXE1bGRzZ203dTJR?oc=5",
+      "published": "Tue, 30 Jun 2026 17:01:15 GMT",
+      "description": "Tech selloff stirs bubble fears in US stock market &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1281,7 +1281,7 @@
     {
       "title": "Why Visa Prices Have Skyrocketed 5 Times",
       "link": "https://www.youtube.com/watch?v=Wf5bKnlOpd0",
-      "published": "30K",
+      "published": "30K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "Wf5bKnlOpd0",
@@ -1302,7 +1302,7 @@
     {
       "title": "Japan's Money Has Started to Move",
       "link": "https://www.youtube.com/watch?v=DesDK3yCBXw",
-      "published": "60K",
+      "published": "60K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "DesDK3yCBXw",
@@ -1323,7 +1323,7 @@
     {
       "title": "Why Christianity is Obsessed with Freedom (Binge Watch)",
       "link": "https://www.youtube.com/watch?v=9UaggrRbYCM",
-      "published": "14K",
+      "published": "14K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "9UaggrRbYCM",
@@ -1344,7 +1344,7 @@
     {
       "title": "2. After the World Cup...",
       "link": "https://www.youtube.com/watch?v=WCvbjS9B36g",
-      "published": "113K",
+      "published": "113K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "WCvbjS9B36g",
@@ -1365,7 +1365,7 @@
     {
       "title": "1. The Grand Design to Pressure China",
       "link": "https://www.youtube.com/watch?v=Vdc0wK_9ASQ",
-      "published": "87K",
+      "published": "87K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "Vdc0wK_9ASQ",
@@ -1386,7 +1386,7 @@
     {
       "title": "Master this technique and you're set",
       "link": "https://www.youtube.com/watch?v=OSVv6F6cVZA",
-      "published": "40K",
+      "published": "40K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "OSVv6F6cVZA",
@@ -1407,7 +1407,7 @@
     {
       "title": "Italy, I’ve got you now lol",
       "link": "https://www.youtube.com/watch?v=xSjZ15OfWg8",
-      "published": "36K",
+      "published": "36K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "xSjZ15OfWg8",
@@ -1428,7 +1428,7 @@
     {
       "title": "EU Shuts Its Doors: The War on Illegal Immigration Deportations",
       "link": "https://www.youtube.com/watch?v=SNFAp8BPhdI",
-      "published": "43K",
+      "published": "43K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "SNFAp8BPhdI",
@@ -1445,6 +1445,18 @@
       "source_category": "youtube_macro",
       "source_type": "youtube_channel",
       "source_weight": 3
+    },
+    {
+      "title": "Bitcoin ETFs were supposed to make selloffs less painful. That theory is being put to the test.",
+      "link": "https://www.marketwatch.com/story/bitcoin-etfs-were-supposed-to-make-selloffs-less-painful-that-theory-is-being-put-to-the-test-f70ba3c6?mod=mw_rss_topstories",
+      "published": "Tue, 30 Jun 2026 21:57:00 GMT",
+      "description": "Crypto investors had hoped that increased institutional adoption and a crypto-friendly administration could help the largest cryptocurrency avoid the painful cycles it once experienced.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
     },
     {
       "title": "Trump’s energy secretary says global warming is ‘no big deal.’ Meanwhile, a heat emergency is striking the U.S.",
@@ -1531,18 +1543,6 @@
       "source_weight": 2
     },
     {
-      "title": "Small-cap stocks just had their best start to a year since 1991. The rest of 2026 could look very different.",
-      "link": "https://www.marketwatch.com/story/small-cap-stocks-just-had-their-best-start-to-a-year-since-1991-the-rest-of-2026-could-look-very-different-5118a156?mod=mw_rss_topstories",
-      "published": "Tue, 30 Jun 2026 20:57:00 GMT",
-      "description": "Small-cap stocks are coming off a historic run. On Tuesday, they clinched their best performance during the first six months of a year since 1991.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
       "title": "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film",
       "link": "https://www.youtube.com/watch?v=ds1K-lN_U0g",
       "published": "23K views",
@@ -1608,7 +1608,7 @@
     {
       "title": "The AI factory: the rewiring of India's tech industry | FT Film",
       "link": "https://www.youtube.com/watch?v=UfyxN46tCz8",
-      "published": "273K views",
+      "published": "274K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "UfyxN46tCz8",

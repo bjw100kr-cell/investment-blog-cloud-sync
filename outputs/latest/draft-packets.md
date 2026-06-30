@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-06-30T21:57:50.683486+00:00`
+- 생성 시각: `2026-06-30T22:06:12.537534+00:00`
 
 ## 1. fomc
 
@@ -75,8 +75,8 @@
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 점수: 89.0
+- 각도: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- 점수: 90.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -208,8 +208,8 @@
 - 참고 헤드라인:
   - Nasdaq brings proprietary market data onchain through Pyth
   - US stocks chalk up biggest quarterly gain in six years
-  - Tech selloff stirs bubble fears in US stock market - Reuters
   - S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters
+  - Tech selloff stirs bubble fears in US stock market - Reuters
   - AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters
 
 ## 4. china

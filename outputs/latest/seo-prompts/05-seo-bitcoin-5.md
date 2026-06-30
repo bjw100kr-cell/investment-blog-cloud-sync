@@ -87,12 +87,12 @@
 {
   "keyword": "seo_bitcoin_5",
   "source_keyword": "bitcoin",
-  "recommended_title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
+  "recommended_title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 ETF·규제 이슈 정리",
   "alternate_titles": [
-    "비트코인 핵심 흐름 ETF·규제 이슈 정리: 초보 투자자 기준으로 다시 보기",
-    "비트코인 핵심 흐름 ETF·규제 이슈 정리: 지금 읽어야 하는 이유"
+    "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 ETF·규제 이슈 정리: 초보 투자자 기준으로 다시 보기",
+    "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 ETF·규제 이슈 정리: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "비트코인 핵심 흐름 해설에서 이어지는 후속 글로, 뉴스가 복잡해서 규제와 ETF 이슈만 따로 정리해 보고 싶은 독자",
+  "summary_angle": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트에서 이어지는 후속 글로, 뉴스가 복잡해서 규제와 ETF 이슈만 따로 정리해 보고 싶은 독자",
   "outline": [
     "이전 메인 글에서 이어지는 핵심 질문",
     "이번에 추가로 확인된 내용",
@@ -101,7 +101,7 @@
     "다음 후속 글 연결"
   ],
   "reference_takeaways": [
-    "메인 연결 글: 비트코인 핵심 흐름 해설",
+    "메인 연결 글: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
     "검색 의도: 뉴스가 복잡해서 규제와 ETF 이슈만 따로 정리해 보고 싶은 독자",
     "수익화 목표: 반복 방문과 뉴스형 검색 유입"
   ],
@@ -116,10 +116,11 @@
     "CNBC Top News",
     "CoinDesk RSS",
     "Cointelegraph",
-    "Investing.com Crypto News"
+    "Investing.com Crypto News",
+    "MarketWatch Breaking News"
   ],
   "reference_headlines": [
-    "비트코인 핵심 흐름 ETF·규제 이슈 정리"
+    "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 ETF·규제 이슈 정리"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -182,15 +183,15 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 124.5,
-    "search_score": 124.5,
+    "total_score": 125.5,
+    "search_score": 125.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-가격보다-먼저-봐야-할-것-etf-자금-달러-규제-체크포인트.html",
     "secondary": [
       "site-foundation/hub-crypto.md",
       "site-foundation/about.md",

@@ -2,11 +2,11 @@
 
 현재 잡힌 키워드를 어떤 글 타입과 내부링크 경로로 받아먹을지 정리한 운영 카드입니다.
 
-- generated_at: `2026-06-30T21:57:50.683486+00:00`
+- generated_at: `2026-06-30T22:06:12.537534+00:00`
 
 ## 1. fomc
 
-- recommended_title: FOMC 이후 시장 해설
+- recommended_title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - pattern_name: `news_what_it_means`
 - capture_route: `breaking_to_evergreen`
 - route_description: 당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.
@@ -30,12 +30,12 @@
 
 ## 2. bitcoin
 
-- recommended_title: 비트코인 핵심 흐름 해설
+- recommended_title: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - pattern_name: `news_what_it_means`
 - capture_route: `breaking_to_evergreen`
 - route_description: 당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.
-- demand_signal_score: `5700`
-- search_intent_angle: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- demand_signal_score: `5900`
+- search_intent_angle: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - pattern_must_have:
   - 무슨 일이 있었는지 1문단 요약
   - 왜 시장이 반응하는지 해석
@@ -52,10 +52,11 @@
   - CoinDesk RSS
   - Cointelegraph
   - Investing.com Crypto News
+  - MarketWatch Breaking News
 
 ## 3. us_index_flow
 
-- recommended_title: 미국 증시 지수 흐름 해설
+- recommended_title: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - pattern_name: `search_explainer`
 - capture_route: `search_entry_to_internal_links`
 - route_description: 검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.
@@ -81,7 +82,7 @@
 
 ## 4. china
 
-- recommended_title: 중국 변수와 시장 영향 해설
+- recommended_title: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - pattern_name: `search_explainer`
 - capture_route: `search_entry_to_internal_links`
 - route_description: 검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.
@@ -107,12 +108,12 @@
 
 ## 5. crypto_etf
 
-- recommended_title: 크립토 ETF 이슈 해설
+- recommended_title: 코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리
 - pattern_name: `news_what_it_means`
 - capture_route: `search_entry_to_internal_links`
 - route_description: 검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.
-- demand_signal_score: `0`
-- search_intent_angle: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- demand_signal_score: `3000`
+- search_intent_angle: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - pattern_must_have:
   - 무슨 일이 있었는지 1문단 요약
   - 왜 시장이 반응하는지 해석
@@ -128,3 +129,4 @@
   - CoinDesk RSS
   - Cointelegraph
   - Investing.com Crypto News
+  - MarketWatch Breaking News

@@ -9,7 +9,7 @@
 
 1. `fomc` FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 예상 `95`명 / 수요 `5400` / 품질 `pass`
    - action: 금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결
-2. `bitcoin` 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 예상 `95`명 / 수요 `5700` / 품질 `pass`
+2. `bitcoin` 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 예상 `95`명 / 수요 `5900` / 품질 `pass`
    - action: 코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행
 3. `us_index_flow` 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 / 예상 `92`명 / 수요 `3400` / 품질 `pass`
    - action: 대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장
@@ -32,8 +32,8 @@
 
 - `fomc` lane `macro` / 예상 `95`명 / ready `True` / quality `pass`
 - `bitcoin` lane `crypto` / 예상 `95`명 / ready `True` / quality `pass`
-  - crypto signal: BTCUSDT 24h change -3.07%; Fear/Greed 15: Extreme Fear zone
+  - crypto signal: BTCUSDT 24h change -2.86%; Fear/Greed 15: Extreme Fear zone
 - `us_index_flow` lane `us-stocks` / 예상 `92`명 / ready `True` / quality `pass`
 - `china` lane `world-flow` / 예상 `58`명 / ready `True` / quality `pass`
 - `crypto_etf` lane `crypto` / 예상 `0`명 / ready `False` / quality `unknown`
-  - crypto signal: SOLUSDT 24h change -2.95%; XRPUSDT 24h change -2.31%
+  - crypto signal: SOLUSDT 24h change -2.57%; XRPUSDT 24h change -2.03%
