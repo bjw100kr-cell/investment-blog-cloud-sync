@@ -1,6 +1,6 @@
 # 검색 수요 신호 리포트
 
-- 생성 시각: `2026-06-30T21:03:13.740410+00:00`
+- 생성 시각: `2026-06-30T21:10:07.428280+00:00`
 - 트렌드 아이템 수: `16`
 - 매칭된 키워드 수: `4`
 - 약한 트렌드 fallback 수: `4`
@@ -9,8 +9,8 @@
 
 - `bitcoin`: demand 6000 / trend_count 0 / traffic_sum 0 / regions 
   - fallback: source snapshot score 48 / sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: demand 5900 / trend_count 0 / traffic_sum 0 / regions 
-  - fallback: source snapshot score 47 / sources Federal Reserve Monetary Policy Press, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: demand 5700 / trend_count 0 / traffic_sum 0 / regions 
+  - fallback: source snapshot score 45 / sources Federal Reserve Monetary Policy Press, Financial Times World, NYT Business, Reuters Markets via Google News RSS
 - `us_index_flow`: demand 3200 / trend_count 0 / traffic_sum 0 / regions 
   - fallback: source snapshot score 20 / sources Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - `dollar`: demand 2800 / trend_count 0 / traffic_sum 0 / regions 

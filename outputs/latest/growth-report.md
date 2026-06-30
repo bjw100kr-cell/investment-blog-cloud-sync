@@ -1,12 +1,12 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-06-30T21:03:13.740410+00:00`
+- 생성 시각: `2026-06-30T21:10:07.428280+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
 - `fomc`: FOMC 이후 시장 해설 / 점수 97.0 / 수익화 15
-  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-  - 근거 소스: Federal Reserve Monetary Policy Press, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+  - 근거 소스: Federal Reserve Monetary Policy Press, Financial Times World, NYT Business, Reuters Markets via Google News RSS
 - `bitcoin`: 비트코인 핵심 흐름 해설 / 점수 89.0 / 수익화 15
   - 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
   - 근거 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News

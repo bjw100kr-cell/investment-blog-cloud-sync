@@ -7,6 +7,71 @@
   },
   "items": [
     {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장 해설",
+      "inventory_type": "main_post",
+      "role": "lane_focus_macro",
+      "recommended_publish_date": "2026-06-30",
+      "priority_score": 140.0,
+      "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.json",
+      "review_preview": [
+        "한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 FOMC 이후 시장 해설이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다. - 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다. - 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다."
+      ],
+      "review_score": 100,
+      "review_verdict": "approve",
+      "review_warnings": [],
+      "paragraph_count": 32,
+      "sentence_count": 79,
+      "queue_bucket": "today_or_overdue",
+      "retention_cta_enabled": true,
+      "retention_cta": {
+        "cluster_name": "거시 이벤트 해설 클러스터",
+        "source_keyword": "fomc",
+        "main_title": "FOMC 이후 시장 해설",
+        "main_ready_to_upload": true,
+        "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+        "inline_cta_now": "FOMC 흐름이 여기서 끝이 아닙니다. 아래 체크포인트 글과 초보자 가이드까지 같이 보면 다음 일정에서 뭘 봐야 할지 훨씬 선명해집니다.",
+        "telegram_cta_later": "거시 이벤트를 놓치지 않으려면 다음 체크포인트 글까지 같이 보고, 이후에는 텔레그램/구독 채널로 이어 받아보세요.",
+        "newsletter_cta_later": "거시 이벤트 해설을 한 번에 받고 싶다면 뉴스레터 구독 동선으로 이어 붙입니다.",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] FOMC 이후 시장 해설",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
+        "followup_titles": [
+          "FOMC 이후 시장이 주식과 코인에 미치는 영향",
+          "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지"
+        ],
+        "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
+        "blockers": []
+      },
+      "image_manual_review_required": true,
+      "image_slots": [
+        {
+          "slot": "hero",
+          "slot_label": "대표 이미지",
+          "provider_name": "Unsplash",
+          "search_query": "central bank meeting finance city skyline",
+          "search_url": "https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline",
+          "license_label": "Unsplash License",
+          "license_url": "https://unsplash.com/license",
+          "alt_text": "FOMC 이후 시장 내용을 설명하는 대표 금융 분위기 이미지"
+        },
+        {
+          "slot": "inline",
+          "slot_label": "본문 보조 이미지",
+          "provider_name": "Pexels",
+          "search_query": "interest rate macro economy abstract",
+          "search_url": "https://www.pexels.com/search/interest+rate+macro+economy+abstract/",
+          "license_label": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "alt_text": "FOMC 이후 시장 설명을 보조하는 데이터 또는 산업 분위기 이미지"
+        }
+      ]
+    },
+    {
       "keyword": "bitcoin",
       "title": "비트코인 핵심 흐름 해설",
       "inventory_type": "main_post",
@@ -33,7 +98,7 @@
         "cluster_name": "코인 해설 클러스터",
         "source_keyword": "bitcoin",
         "main_title": "비트코인 핵심 흐름 해설",
-        "main_ready_to_upload": false,
+        "main_ready_to_upload": true,
         "cta_focus": "ETF·규제·초보 가이드 글로 연결",
         "inline_cta_now": "비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.",
         "telegram_cta_later": "코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
@@ -44,13 +109,8 @@
           "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
           "비트코인 핵심 흐름 ETF·규제 이슈 정리"
         ],
-        "next_action": "사용자 검토 후 승인 대기",
-        "blockers": [
-          "main_quality=review_before_publish",
-          "crypto_market_signal_present",
-          "canonical_url_present",
-          "newsletter_ready"
-        ]
+        "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
+        "blockers": []
       },
       "image_manual_review_required": true,
       "image_slots": [
@@ -163,8 +223,27 @@
       "paragraph_count": 32,
       "sentence_count": 78,
       "queue_bucket": "this_week",
-      "retention_cta_enabled": false,
-      "retention_cta": {},
+      "retention_cta_enabled": true,
+      "retention_cta": {
+        "cluster_name": "china 클러스터",
+        "source_keyword": "china",
+        "main_title": "중국 변수와 시장 영향 해설",
+        "main_ready_to_upload": false,
+        "cta_focus": "실적·공급망·대표 종목 글로 연결",
+        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
+        "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
+        "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] 중국 변수와 시장 영향 해설",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
+        "followup_titles": [],
+        "next_action": "사용자 검토 후 승인 대기",
+        "blockers": [
+          "main_quality=review_before_publish",
+          "follow_up_posts_present",
+          "canonical_url_present",
+          "newsletter_ready"
+        ]
+      },
       "image_manual_review_required": true,
       "image_slots": [
         {
@@ -190,77 +269,12 @@
       ]
     },
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장 해설",
-      "inventory_type": "main_post",
-      "role": "evergreen_support",
-      "recommended_publish_date": "2026-07-04",
-      "priority_score": 129.0,
-      "search_intent": "FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자",
-      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.json",
-      "review_preview": [
-        "한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 FOMC 이후 시장 해설이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다. - 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다. - 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다."
-      ],
-      "review_score": 100,
-      "review_verdict": "approve",
-      "review_warnings": [],
-      "paragraph_count": 32,
-      "sentence_count": 79,
-      "queue_bucket": "later",
-      "retention_cta_enabled": true,
-      "retention_cta": {
-        "cluster_name": "거시 이벤트 해설 클러스터",
-        "source_keyword": "fomc",
-        "main_title": "FOMC 이후 시장 해설",
-        "main_ready_to_upload": true,
-        "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-        "inline_cta_now": "FOMC 흐름이 여기서 끝이 아닙니다. 아래 체크포인트 글과 초보자 가이드까지 같이 보면 다음 일정에서 뭘 봐야 할지 훨씬 선명해집니다.",
-        "telegram_cta_later": "거시 이벤트를 놓치지 않으려면 다음 체크포인트 글까지 같이 보고, 이후에는 텔레그램/구독 채널로 이어 받아보세요.",
-        "newsletter_cta_later": "거시 이벤트 해설을 한 번에 받고 싶다면 뉴스레터 구독 동선으로 이어 붙입니다.",
-        "newsletter_subject_seed": "[오늘의 투자 브리핑] FOMC 이후 시장 해설",
-        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
-        "followup_titles": [
-          "FOMC 이후 시장이 주식과 코인에 미치는 영향",
-          "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지"
-        ],
-        "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
-        "blockers": []
-      },
-      "image_manual_review_required": true,
-      "image_slots": [
-        {
-          "slot": "hero",
-          "slot_label": "대표 이미지",
-          "provider_name": "Unsplash",
-          "search_query": "central bank meeting finance city skyline",
-          "search_url": "https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline",
-          "license_label": "Unsplash License",
-          "license_url": "https://unsplash.com/license",
-          "alt_text": "FOMC 이후 시장 내용을 설명하는 대표 금융 분위기 이미지"
-        },
-        {
-          "slot": "inline",
-          "slot_label": "본문 보조 이미지",
-          "provider_name": "Pexels",
-          "search_query": "interest rate macro economy abstract",
-          "search_url": "https://www.pexels.com/search/interest+rate+macro+economy+abstract/",
-          "license_label": "Pexels License",
-          "license_url": "https://www.pexels.com/license/",
-          "alt_text": "FOMC 이후 시장 설명을 보조하는 데이터 또는 산업 분위기 이미지"
-        }
-      ]
-    },
-    {
       "keyword": "seo_fomc_1",
       "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
       "inventory_type": "seo_followup",
       "role": "evergreen_seo",
-      "recommended_publish_date": "2026-07-04",
-      "priority_score": 128.5,
+      "recommended_publish_date": "2026-06-30",
+      "priority_score": 139.5,
       "search_intent": "뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자",
       "cta_focus": "거시 허브와 당일 해설 글로 연결",
       "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/01-seo-fomc-1.md",
@@ -275,7 +289,7 @@
       "review_warnings": [],
       "paragraph_count": 33,
       "sentence_count": 81,
-      "queue_bucket": "later",
+      "queue_bucket": "today_or_overdue",
       "retention_cta_enabled": true,
       "retention_cta": {
         "cluster_name": "거시 이벤트 해설 클러스터",
@@ -320,85 +334,15 @@
       ]
     },
     {
-      "keyword": "seo_bitcoin_2",
-      "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
-      "inventory_type": "seo_followup",
-      "role": "evergreen_seo",
-      "recommended_publish_date": "2026-07-01",
-      "priority_score": 127.5,
-      "search_intent": "가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자",
-      "cta_focus": "코인 허브와 규제/ETF 글 연결",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/04-seo-bitcoin-2.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.json",
-      "review_preview": [
-        "한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다."
-      ],
-      "review_score": 100,
-      "review_verdict": "approve",
-      "review_warnings": [],
-      "paragraph_count": 33,
-      "sentence_count": 80,
-      "queue_bucket": "tomorrow",
-      "retention_cta_enabled": true,
-      "retention_cta": {
-        "cluster_name": "코인 해설 클러스터",
-        "source_keyword": "bitcoin",
-        "main_title": "비트코인 핵심 흐름 해설",
-        "main_ready_to_upload": false,
-        "cta_focus": "ETF·규제·초보 가이드 글로 연결",
-        "inline_cta_now": "비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.",
-        "telegram_cta_later": "코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
-        "newsletter_cta_later": "비트코인과 주요 코인 흐름을 주간 브리핑으로 다시 받게 만드는 뉴스레터 CTA 후보입니다.",
-        "newsletter_subject_seed": "[오늘의 투자 브리핑] 비트코인 핵심 흐름 해설",
-        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
-        "followup_titles": [
-          "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
-          "비트코인 핵심 흐름 ETF·규제 이슈 정리"
-        ],
-        "next_action": "사용자 검토 후 승인 대기",
-        "blockers": [
-          "main_quality=review_before_publish",
-          "crypto_market_signal_present",
-          "canonical_url_present",
-          "newsletter_ready"
-        ]
-      },
-      "image_manual_review_required": true,
-      "image_slots": [
-        {
-          "slot": "hero",
-          "slot_label": "대표 이미지",
-          "provider_name": "Pexels",
-          "search_query": "bitcoin blockchain abstract blue finance",
-          "search_url": "https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/",
-          "license_label": "Pexels License",
-          "license_url": "https://www.pexels.com/license/",
-          "alt_text": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 내용을 설명하는 대표 금융 분위기 이미지"
-        },
-        {
-          "slot": "inline",
-          "slot_label": "본문 보조 이미지",
-          "provider_name": "Unsplash",
-          "search_query": "crypto market data abstract",
-          "search_url": "https://unsplash.com/s/photos/crypto+market+data+abstract",
-          "license_label": "Unsplash License",
-          "license_url": "https://unsplash.com/license",
-          "alt_text": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 설명을 보조하는 데이터 또는 산업 분위기 이미지"
-        }
-      ]
-    },
-    {
-      "keyword": "seo_fomc_3",
+      "keyword": "seo_fomc_2",
       "title": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지",
       "inventory_type": "seo_followup",
       "role": "follow_up",
-      "recommended_publish_date": "2026-07-04",
-      "priority_score": 125.5,
+      "recommended_publish_date": "2026-06-30",
+      "priority_score": 136.5,
       "search_intent": "발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자",
       "cta_focus": "다음 이벤트 캘린더와 관련 거시 글로 연결",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/02-seo-fomc-3.md",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/02-seo-fomc-2.md",
       "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-fomc-이후-시장에서-다음으로-봐야-할-체크포인트-5가지.html",
       "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-fomc-이후-시장에서-다음으로-봐야-할-체크포인트-5가지.json",
       "review_preview": [
@@ -410,7 +354,7 @@
       "review_warnings": [],
       "paragraph_count": 33,
       "sentence_count": 81,
-      "queue_bucket": "later",
+      "queue_bucket": "today_or_overdue",
       "retention_cta_enabled": true,
       "retention_cta": {
         "cluster_name": "거시 이벤트 해설 클러스터",
@@ -455,85 +399,15 @@
       ]
     },
     {
-      "keyword": "seo_bitcoin_4",
-      "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
-      "inventory_type": "seo_followup",
-      "role": "follow_up",
-      "recommended_publish_date": "2026-07-01",
-      "priority_score": 124.5,
-      "search_intent": "뉴스가 복잡해서 규제와 ETF 이슈만 따로 정리해 보고 싶은 독자",
-      "cta_focus": "당일 코인 해설 글과 초보 가이드 연결",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/05-seo-bitcoin-4.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.json",
-      "review_preview": [
-        "한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 비트코인 핵심 흐름 ETF·규제 이슈 정리이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다."
-      ],
-      "review_score": 100,
-      "review_verdict": "approve",
-      "review_warnings": [],
-      "paragraph_count": 33,
-      "sentence_count": 80,
-      "queue_bucket": "tomorrow",
-      "retention_cta_enabled": true,
-      "retention_cta": {
-        "cluster_name": "코인 해설 클러스터",
-        "source_keyword": "bitcoin",
-        "main_title": "비트코인 핵심 흐름 해설",
-        "main_ready_to_upload": false,
-        "cta_focus": "ETF·규제·초보 가이드 글로 연결",
-        "inline_cta_now": "비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.",
-        "telegram_cta_later": "코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
-        "newsletter_cta_later": "비트코인과 주요 코인 흐름을 주간 브리핑으로 다시 받게 만드는 뉴스레터 CTA 후보입니다.",
-        "newsletter_subject_seed": "[오늘의 투자 브리핑] 비트코인 핵심 흐름 해설",
-        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
-        "followup_titles": [
-          "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
-          "비트코인 핵심 흐름 ETF·규제 이슈 정리"
-        ],
-        "next_action": "사용자 검토 후 승인 대기",
-        "blockers": [
-          "main_quality=review_before_publish",
-          "crypto_market_signal_present",
-          "canonical_url_present",
-          "newsletter_ready"
-        ]
-      },
-      "image_manual_review_required": true,
-      "image_slots": [
-        {
-          "slot": "hero",
-          "slot_label": "대표 이미지",
-          "provider_name": "Pexels",
-          "search_query": "bitcoin blockchain abstract blue finance",
-          "search_url": "https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/",
-          "license_label": "Pexels License",
-          "license_url": "https://www.pexels.com/license/",
-          "alt_text": "비트코인 핵심 흐름 ETF·규제 이슈 내용을 설명하는 대표 금융 분위기 이미지"
-        },
-        {
-          "slot": "inline",
-          "slot_label": "본문 보조 이미지",
-          "provider_name": "Unsplash",
-          "search_query": "crypto market data abstract",
-          "search_url": "https://unsplash.com/s/photos/crypto+market+data+abstract",
-          "license_label": "Unsplash License",
-          "license_url": "https://unsplash.com/license",
-          "alt_text": "비트코인 핵심 흐름 ETF·규제 이슈 설명을 보조하는 데이터 또는 산업 분위기 이미지"
-        }
-      ]
-    },
-    {
-      "keyword": "seo_fomc_5",
+      "keyword": "seo_fomc_3",
       "title": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지",
       "inventory_type": "seo_followup",
       "role": "evergreen_seo",
-      "recommended_publish_date": "2026-07-04",
-      "priority_score": 122.5,
+      "recommended_publish_date": "2026-06-30",
+      "priority_score": 133.5,
       "search_intent": "기초 개념을 처음부터 이해하고 싶은 초보 독자",
       "cta_focus": "About, 허브 글, 후속 해설 글로 연결",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/03-seo-fomc-5.md",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/03-seo-fomc-3.md",
       "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-fomc-이후-시장-초보자-가이드-용어부터-시장-반응까지.html",
       "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-fomc-이후-시장-초보자-가이드-용어부터-시장-반응까지.json",
       "review_preview": [
@@ -545,7 +419,7 @@
       "review_warnings": [],
       "paragraph_count": 33,
       "sentence_count": 81,
-      "queue_bucket": "later",
+      "queue_bucket": "today_or_overdue",
       "retention_cta_enabled": true,
       "retention_cta": {
         "cluster_name": "거시 이벤트 해설 클러스터",
@@ -590,6 +464,136 @@
       ]
     },
     {
+      "keyword": "seo_bitcoin_4",
+      "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+      "inventory_type": "seo_followup",
+      "role": "evergreen_seo",
+      "recommended_publish_date": "2026-07-01",
+      "priority_score": 127.5,
+      "search_intent": "가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자",
+      "cta_focus": "코인 허브와 규제/ETF 글 연결",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/04-seo-bitcoin-4.md",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.json",
+      "review_preview": [
+        "한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다."
+      ],
+      "review_score": 100,
+      "review_verdict": "approve",
+      "review_warnings": [],
+      "paragraph_count": 33,
+      "sentence_count": 80,
+      "queue_bucket": "tomorrow",
+      "retention_cta_enabled": true,
+      "retention_cta": {
+        "cluster_name": "코인 해설 클러스터",
+        "source_keyword": "bitcoin",
+        "main_title": "비트코인 핵심 흐름 해설",
+        "main_ready_to_upload": true,
+        "cta_focus": "ETF·규제·초보 가이드 글로 연결",
+        "inline_cta_now": "비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.",
+        "telegram_cta_later": "코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
+        "newsletter_cta_later": "비트코인과 주요 코인 흐름을 주간 브리핑으로 다시 받게 만드는 뉴스레터 CTA 후보입니다.",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] 비트코인 핵심 흐름 해설",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
+        "followup_titles": [
+          "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+          "비트코인 핵심 흐름 ETF·규제 이슈 정리"
+        ],
+        "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
+        "blockers": []
+      },
+      "image_manual_review_required": true,
+      "image_slots": [
+        {
+          "slot": "hero",
+          "slot_label": "대표 이미지",
+          "provider_name": "Pexels",
+          "search_query": "bitcoin blockchain abstract blue finance",
+          "search_url": "https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/",
+          "license_label": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "alt_text": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 내용을 설명하는 대표 금융 분위기 이미지"
+        },
+        {
+          "slot": "inline",
+          "slot_label": "본문 보조 이미지",
+          "provider_name": "Unsplash",
+          "search_query": "crypto market data abstract",
+          "search_url": "https://unsplash.com/s/photos/crypto+market+data+abstract",
+          "license_label": "Unsplash License",
+          "license_url": "https://unsplash.com/license",
+          "alt_text": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 설명을 보조하는 데이터 또는 산업 분위기 이미지"
+        }
+      ]
+    },
+    {
+      "keyword": "seo_bitcoin_5",
+      "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
+      "inventory_type": "seo_followup",
+      "role": "follow_up",
+      "recommended_publish_date": "2026-07-01",
+      "priority_score": 124.5,
+      "search_intent": "뉴스가 복잡해서 규제와 ETF 이슈만 따로 정리해 보고 싶은 독자",
+      "cta_focus": "당일 코인 해설 글과 초보 가이드 연결",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/05-seo-bitcoin-5.md",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.json",
+      "review_preview": [
+        "한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 비트코인 핵심 흐름 ETF·규제 이슈 정리이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다."
+      ],
+      "review_score": 100,
+      "review_verdict": "approve",
+      "review_warnings": [],
+      "paragraph_count": 33,
+      "sentence_count": 80,
+      "queue_bucket": "tomorrow",
+      "retention_cta_enabled": true,
+      "retention_cta": {
+        "cluster_name": "코인 해설 클러스터",
+        "source_keyword": "bitcoin",
+        "main_title": "비트코인 핵심 흐름 해설",
+        "main_ready_to_upload": true,
+        "cta_focus": "ETF·규제·초보 가이드 글로 연결",
+        "inline_cta_now": "비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.",
+        "telegram_cta_later": "코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
+        "newsletter_cta_later": "비트코인과 주요 코인 흐름을 주간 브리핑으로 다시 받게 만드는 뉴스레터 CTA 후보입니다.",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] 비트코인 핵심 흐름 해설",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
+        "followup_titles": [
+          "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+          "비트코인 핵심 흐름 ETF·규제 이슈 정리"
+        ],
+        "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
+        "blockers": []
+      },
+      "image_manual_review_required": true,
+      "image_slots": [
+        {
+          "slot": "hero",
+          "slot_label": "대표 이미지",
+          "provider_name": "Pexels",
+          "search_query": "bitcoin blockchain abstract blue finance",
+          "search_url": "https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/",
+          "license_label": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "alt_text": "비트코인 핵심 흐름 ETF·규제 이슈 내용을 설명하는 대표 금융 분위기 이미지"
+        },
+        {
+          "slot": "inline",
+          "slot_label": "본문 보조 이미지",
+          "provider_name": "Unsplash",
+          "search_query": "crypto market data abstract",
+          "search_url": "https://unsplash.com/s/photos/crypto+market+data+abstract",
+          "license_label": "Unsplash License",
+          "license_url": "https://unsplash.com/license",
+          "alt_text": "비트코인 핵심 흐름 ETF·규제 이슈 설명을 보조하는 데이터 또는 산업 분위기 이미지"
+        }
+      ]
+    },
+    {
       "keyword": "seo_bitcoin_6",
       "title": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리",
       "inventory_type": "seo_followup",
@@ -616,7 +620,7 @@
         "cluster_name": "코인 해설 클러스터",
         "source_keyword": "bitcoin",
         "main_title": "비트코인 핵심 흐름 해설",
-        "main_ready_to_upload": false,
+        "main_ready_to_upload": true,
         "cta_focus": "ETF·규제·초보 가이드 글로 연결",
         "inline_cta_now": "비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.",
         "telegram_cta_later": "코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
@@ -627,13 +631,8 @@
           "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
           "비트코인 핵심 흐름 ETF·규제 이슈 정리"
         ],
-        "next_action": "사용자 검토 후 승인 대기",
-        "blockers": [
-          "main_quality=review_before_publish",
-          "crypto_market_signal_present",
-          "canonical_url_present",
-          "newsletter_ready"
-        ]
+        "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
+        "blockers": []
       },
       "image_manual_review_required": true,
       "image_slots": [

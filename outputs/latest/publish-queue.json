@@ -1,10 +1,52 @@
 {
-  "generated_at": "2026-06-30T21:03:13.740410+00:00",
+  "generated_at": "2026-06-30T21:10:07.428280+00:00",
   "summary": {
     "queue_count": 4,
     "ready_count": 4
   },
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장 해설",
+      "slug": "fomc-이후-시장-해설",
+      "category": "macro",
+      "recommended_publish_date": "2026-06-30",
+      "publish_bucket": "today_or_overdue",
+      "role": "lane_focus_macro",
+      "post_type": "breaking_explainer",
+      "ready_to_upload": true,
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.json",
+      "revenue_objective": "페이지뷰와 체류시간 균형 확보",
+      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+      "ad_slot_recommendations": [
+        "after_intro",
+        "mid_article",
+        "before_related_links"
+      ],
+      "internal_link_targets": [
+        "site-foundation/hub-macro.md",
+        "site-foundation/about.md",
+        "site-foundation/disclosure.md",
+        "site-foundation/privacy-policy.md",
+        "site-foundation/editorial-policy.md"
+      ],
+      "trend_queries": [],
+      "demand_signal_score": 5700,
+      "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "publish_note": "당일 이슈 해설형 글",
+      "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
+      "readiness_checklist": [
+        "제목과 메타 설명이 검색 의도와 맞는지 점검",
+        "첫 문단에서 왜 지금 읽어야 하는지 말했는지 점검",
+        "핵심 숫자와 날짜를 발행 직전 다시 확인",
+        "관련 허브/evergreen 글 내부링크 최소 2개 연결",
+        "광고를 넣더라도 첫 화면 과밀 배치 피하기",
+        "면책문구와 운영 주체 표시 확인"
+      ],
+      "publish_priority_score": 140.0,
+      "upload_sequence": 1
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 핵심 흐름 해설",
@@ -34,7 +76,7 @@
       "trend_queries": [],
       "demand_signal_score": 6000,
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "publish_note": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
+      "publish_note": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "readiness_checklist": [
         "제목과 메타 설명이 검색 의도와 맞는지 점검",
@@ -45,7 +87,7 @@
         "면책문구와 운영 주체 표시 확인"
       ],
       "publish_priority_score": 128.0,
-      "upload_sequence": 1
+      "upload_sequence": 2
     },
     {
       "keyword": "us_index_flow",
@@ -87,7 +129,7 @@
         "면책문구와 운영 주체 표시 확인"
       ],
       "publish_priority_score": 119.0,
-      "upload_sequence": 2
+      "upload_sequence": 3
     },
     {
       "keyword": "china",
@@ -118,7 +160,7 @@
       "trend_queries": [],
       "demand_signal_score": 0,
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "publish_note": "당일 이슈 해설형 글",
+      "publish_note": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "readiness_checklist": [
         "제목과 메타 설명이 검색 의도와 맞는지 점검",
@@ -129,49 +171,6 @@
         "면책문구와 운영 주체 표시 확인"
       ],
       "publish_priority_score": 90.0,
-      "upload_sequence": 3
-    },
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장 해설",
-      "slug": "fomc-이후-시장-해설",
-      "category": "macro",
-      "recommended_publish_date": "2026-07-04",
-      "publish_bucket": "later",
-      "role": "evergreen_support",
-      "post_type": "evergreen_explainer",
-      "ready_to_upload": true,
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.json",
-      "revenue_objective": "페이지뷰와 체류시간 균형 확보",
-      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-      "ad_slot_recommendations": [
-        "after_intro",
-        "after_first_h2",
-        "before_faq",
-        "before_related_links"
-      ],
-      "internal_link_targets": [
-        "site-foundation/hub-macro.md",
-        "site-foundation/about.md",
-        "site-foundation/disclosure.md",
-        "site-foundation/privacy-policy.md",
-        "site-foundation/editorial-policy.md"
-      ],
-      "trend_queries": [],
-      "demand_signal_score": 5900,
-      "search_intent": "FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자",
-      "publish_note": "검색 저변을 넓히는 설명형 글",
-      "monetization_path": "광고 친화적인 초보 투자자 검색 유입, 연관 거시 글 내부링크 강화",
-      "readiness_checklist": [
-        "제목과 메타 설명이 검색 의도와 맞는지 점검",
-        "첫 문단에서 왜 지금 읽어야 하는지 말했는지 점검",
-        "핵심 숫자와 날짜를 발행 직전 다시 확인",
-        "관련 허브/evergreen 글 내부링크 최소 2개 연결",
-        "광고를 넣더라도 첫 화면 과밀 배치 피하기",
-        "면책문구와 운영 주체 표시 확인"
-      ],
-      "publish_priority_score": 129.0,
       "upload_sequence": 4
     }
   ]

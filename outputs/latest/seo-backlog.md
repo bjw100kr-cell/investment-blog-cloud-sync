@@ -7,7 +7,7 @@
 - 출발 글: fomc / FOMC 이후 시장 해설
 - 카테고리: macro
 - 역할: evergreen_seo / 타입: evergreen_explainer
-- 우선순위 점수: 128.5
+- 우선순위 점수: 139.5
 - 검색 의도: 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자
 - 수익화 목표: 검색 유입 누적과 첫 방문 독자 확보
 - CTA 초점: 거시 허브와 당일 해설 글로 연결
@@ -15,7 +15,33 @@
 - 보조 내부링크: site-foundation/hub-macro.md, site-foundation/about.md, site-foundation/disclosure.md
 - 추천 라벨: 투자, 경제, 시장해설, FOMC, 연준, 거시경제
 
-## 2. 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조
+## 2. FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지
+
+- 출발 글: fomc / FOMC 이후 시장 해설
+- 카테고리: macro
+- 역할: follow_up / 타입: follow_up_analysis
+- 우선순위 점수: 136.5
+- 검색 의도: 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자
+- 수익화 목표: 재방문과 내부링크 순환 강화
+- CTA 초점: 다음 이벤트 캘린더와 관련 거시 글로 연결
+- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html
+- 보조 내부링크: site-foundation/hub-macro.md, site-foundation/about.md, site-foundation/disclosure.md
+- 추천 라벨: 투자, 경제, 시장해설, FOMC, 연준, 거시경제
+
+## 3. FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
+
+- 출발 글: fomc / FOMC 이후 시장 해설
+- 카테고리: macro
+- 역할: evergreen_seo / 타입: evergreen_explainer
+- 우선순위 점수: 133.5
+- 검색 의도: 기초 개념을 처음부터 이해하고 싶은 초보 독자
+- 수익화 목표: 광범위한 초보 검색 수요 흡수
+- CTA 초점: About, 허브 글, 후속 해설 글로 연결
+- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html
+- 보조 내부링크: site-foundation/hub-macro.md, site-foundation/about.md, site-foundation/disclosure.md
+- 추천 라벨: 투자, 경제, 시장해설, FOMC, 연준, 거시경제
+
+## 4. 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조
 
 - 출발 글: bitcoin / 비트코인 핵심 흐름 해설
 - 카테고리: crypto
@@ -28,20 +54,7 @@
 - 보조 내부링크: site-foundation/hub-crypto.md, site-foundation/about.md, site-foundation/disclosure.md
 - 추천 라벨: 투자, 경제, 시장해설, 비트코인, 코인, 암호화폐
 
-## 3. FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지
-
-- 출발 글: fomc / FOMC 이후 시장 해설
-- 카테고리: macro
-- 역할: follow_up / 타입: follow_up_analysis
-- 우선순위 점수: 125.5
-- 검색 의도: 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자
-- 수익화 목표: 재방문과 내부링크 순환 강화
-- CTA 초점: 다음 이벤트 캘린더와 관련 거시 글로 연결
-- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html
-- 보조 내부링크: site-foundation/hub-macro.md, site-foundation/about.md, site-foundation/disclosure.md
-- 추천 라벨: 투자, 경제, 시장해설, FOMC, 연준, 거시경제
-
-## 4. 비트코인 핵심 흐름 ETF·규제 이슈 정리
+## 5. 비트코인 핵심 흐름 ETF·규제 이슈 정리
 
 - 출발 글: bitcoin / 비트코인 핵심 흐름 해설
 - 카테고리: crypto
@@ -53,19 +66,6 @@
 - 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html
 - 보조 내부링크: site-foundation/hub-crypto.md, site-foundation/about.md, site-foundation/disclosure.md
 - 추천 라벨: 투자, 경제, 시장해설, 비트코인, 코인, 암호화폐
-
-## 5. FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
-
-- 출발 글: fomc / FOMC 이후 시장 해설
-- 카테고리: macro
-- 역할: evergreen_seo / 타입: evergreen_explainer
-- 우선순위 점수: 122.5
-- 검색 의도: 기초 개념을 처음부터 이해하고 싶은 초보 독자
-- 수익화 목표: 광범위한 초보 검색 수요 흡수
-- CTA 초점: About, 허브 글, 후속 해설 글로 연결
-- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html
-- 보조 내부링크: site-foundation/hub-macro.md, site-foundation/about.md, site-foundation/disclosure.md
-- 추천 라벨: 투자, 경제, 시장해설, FOMC, 연준, 거시경제
 
 ## 6. 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리
 

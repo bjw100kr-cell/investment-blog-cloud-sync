@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-06-30T21:03:15.510293+00:00`
+- generated_at: `2026-06-30T21:10:09.758977+00:00`
 
 ## fomc
 
@@ -36,4 +36,4 @@
 - html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html
 - meta_title: 중국 변수와 시장 영향 해설
 - meta_description: 중국 변수와 시장 영향 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
-- follow_up_post_count: 0
+- follow_up_post_count: 3

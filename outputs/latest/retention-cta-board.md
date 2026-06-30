@@ -6,37 +6,7 @@
 - retention_next_step: 뉴스레터나 텔레그램 같은 재방문 수단 URL을 연결해 한 번 들어온 독자를 쌓습니다.
 - group_count: `4`
 
-## 1. 코인 해설 클러스터
-
-- source_keyword: `bitcoin`
-- main_title: `비트코인 핵심 흐름 해설`
-- main_ready_to_upload: `True`
-- cta_focus: ETF·규제·초보 가이드 글로 연결
-- inline_cta_now: 비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.
-- telegram_cta_later: 코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- newsletter_cta_later: 비트코인과 주요 코인 흐름을 주간 브리핑으로 다시 받게 만드는 뉴스레터 CTA 후보입니다.
-- newsletter_subject_seed: [오늘의 투자 브리핑] 비트코인 핵심 흐름 해설
-- newsletter_preview_seed: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
-- followup_title: 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조
-- followup_title: 비트코인 핵심 흐름 ETF·규제 이슈 정리
-- next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
-
-## 2. us_index_flow 클러스터
-
-- source_keyword: `us_index_flow`
-- main_title: `미국 증시 지수 흐름 해설`
-- main_ready_to_upload: `True`
-- cta_focus: 실적·공급망·대표 종목 글로 연결
-- inline_cta_now: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
-- telegram_cta_later: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- newsletter_cta_later: 다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.
-- newsletter_subject_seed: [오늘의 투자 브리핑] 미국 증시 지수 흐름 해설
-- newsletter_preview_seed: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
-- followup_title: 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기
-- followup_title: 미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나
-- next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
-
-## 3. 거시 이벤트 해설 클러스터
+## 1. 거시 이벤트 해설 클러스터
 
 - source_keyword: `fomc`
 - main_title: `FOMC 이후 시장 해설`
@@ -51,19 +21,45 @@
 - followup_title: FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지
 - next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
 
+## 2. 코인 해설 클러스터
+
+- source_keyword: `bitcoin`
+- main_title: `비트코인 핵심 흐름 해설`
+- main_ready_to_upload: `True`
+- cta_focus: ETF·규제·초보 가이드 글로 연결
+- inline_cta_now: 비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.
+- telegram_cta_later: 코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
+- newsletter_cta_later: 비트코인과 주요 코인 흐름을 주간 브리핑으로 다시 받게 만드는 뉴스레터 CTA 후보입니다.
+- newsletter_subject_seed: [오늘의 투자 브리핑] 비트코인 핵심 흐름 해설
+- newsletter_preview_seed: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
+- followup_title: 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조
+- followup_title: 비트코인 핵심 흐름 ETF·규제 이슈 정리
+- next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
+
+## 3. us_index_flow 클러스터
+
+- source_keyword: `us_index_flow`
+- main_title: `미국 증시 지수 흐름 해설`
+- main_ready_to_upload: `True`
+- cta_focus: 실적·공급망·대표 종목 글로 연결
+- inline_cta_now: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- telegram_cta_later: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
+- newsletter_cta_later: 다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.
+- newsletter_subject_seed: [오늘의 투자 브리핑] 미국 증시 지수 흐름 해설
+- newsletter_preview_seed: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
+- followup_title: 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기
+- followup_title: 미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나
+- next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
+
 ## 4. china 클러스터
 
 - source_keyword: `china`
 - main_title: `중국 변수와 시장 영향 해설`
-- main_ready_to_upload: `False`
+- main_ready_to_upload: `True`
 - cta_focus: 실적·공급망·대표 종목 글로 연결
 - inline_cta_now: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
 - telegram_cta_later: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
 - newsletter_cta_later: 다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.
 - newsletter_subject_seed: [오늘의 투자 브리핑] 중국 변수와 시장 영향 해설
 - newsletter_preview_seed: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
-- next_action: 사용자 검토 후 승인 대기
-- blocker: main_quality=review_before_publish
-- blocker: follow_up_posts_present
-- blocker: canonical_url_present
-- blocker: newsletter_ready
+- next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비

@@ -85,7 +85,7 @@
 
 ```json
 {
-  "keyword": "seo_bitcoin_4",
+  "keyword": "seo_bitcoin_5",
   "source_keyword": "bitcoin",
   "recommended_title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
   "alternate_titles": [

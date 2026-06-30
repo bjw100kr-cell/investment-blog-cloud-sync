@@ -81,7 +81,7 @@
 ## FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지
 
 - source_group: `seo`
-- keyword: `seo_fomc_3`
+- keyword: `seo_fomc_2`
 - category: `macro`
 - 대표 이미지: Unsplash / query `central bank meeting finance city skyline` / search https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline
 - license: Unsplash License / https://unsplash.com/license
@@ -95,7 +95,7 @@
 ## FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - source_group: `seo`
-- keyword: `seo_fomc_5`
+- keyword: `seo_fomc_3`
 - category: `macro`
 - 대표 이미지: Unsplash / query `central bank meeting finance city skyline` / search https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline
 - license: Unsplash License / https://unsplash.com/license
@@ -109,7 +109,7 @@
 ## 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조
 
 - source_group: `seo`
-- keyword: `seo_bitcoin_2`
+- keyword: `seo_bitcoin_4`
 - category: `crypto`
 - 대표 이미지: Pexels / query `bitcoin blockchain abstract blue finance` / search https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/
 - license: Pexels License / https://www.pexels.com/license/
@@ -123,7 +123,7 @@
 ## 비트코인 핵심 흐름 ETF·규제 이슈 정리
 
 - source_group: `seo`
-- keyword: `seo_bitcoin_4`
+- keyword: `seo_bitcoin_5`
 - category: `crypto`
 - 대표 이미지: Pexels / query `bitcoin blockchain abstract blue finance` / search https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/
 - license: Pexels License / https://www.pexels.com/license/

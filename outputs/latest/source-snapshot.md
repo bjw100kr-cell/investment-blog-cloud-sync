@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-06-30T21:03:13.740410+00:00`
+- 생성 시각: `2026-06-30T21:10:07.428280+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -107,7 +107,7 @@ If you are sure that the described cause is not responsible for this error and t
 ## 상위 키워드
 
 - `bitcoin`: score 48, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 47, source_count 5, sources Federal Reserve Monetary Policy Press, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 45, source_count 4, sources Federal Reserve Monetary Policy Press, Financial Times World, NYT Business, Reuters Markets via Google News RSS
 - `us_index_flow`: score 20, source_count 5, sources Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - `dollar`: score 16, source_count 3, sources CoinDesk RSS, Cointelegraph, NYT Business
 - `crypto_etf`: score 13, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
@@ -123,7 +123,7 @@ If you are sure that the described cause is not responsible for this error and t
   - Phantom doubles down on perpetual futures with hire of Hyperliquid market builders
   - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
   - Jefferies warns of crypto market volatility as Clarity Act faces Senate test
-- `fomc`: score 47, headlines 13
+- `fomc`: score 45, headlines 12
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Minutes of the Federal Open Market Committee, April 28-29, 2026

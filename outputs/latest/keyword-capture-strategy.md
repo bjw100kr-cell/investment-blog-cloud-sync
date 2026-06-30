@@ -2,7 +2,7 @@
 
 현재 잡힌 키워드를 어떤 글 타입과 내부링크 경로로 받아먹을지 정리한 운영 카드입니다.
 
-- generated_at: `2026-06-30T21:03:13.740410+00:00`
+- generated_at: `2026-06-30T21:10:07.428280+00:00`
 
 ## 1. fomc
 
@@ -10,8 +10,8 @@
 - pattern_name: `news_what_it_means`
 - capture_route: `breaking_to_evergreen`
 - route_description: 당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.
-- demand_signal_score: `5900`
-- search_intent_angle: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
+- demand_signal_score: `5700`
+- search_intent_angle: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
 - pattern_must_have:
   - 무슨 일이 있었는지 1문단 요약
   - 왜 시장이 반응하는지 해석
@@ -26,7 +26,6 @@
 - sources:
   - Federal Reserve Monetary Policy Press
   - Financial Times World
-  - MarketWatch Breaking News
   - NYT Business
   - Reuters Markets via Google News RSS
 
