@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-06-30T21:56:10.111703+00:00`
+- 생성 시각: `2026-06-30T21:57:50.683486+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -78,10 +78,18 @@ There are two things you can do to work around this:
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / 1. The Grand Design to Pressure China
-  - transcript: ko, generated=False
-  - 무역킹 월드컵 봤어요
-  - 그래서 미국이 어떻게 세계 패권 도전국 중국과 그와 연관된 나라들을 다루게 될지 제가 그 계획을 이제 제가 설명을 좀 해드릴게요
-  - 그냥 당황하지 마십시오 말씀드린 대로 갈 거니까 무슨 일이 펼쳐지든 당황 안 하실 거야 이거 들으면 아 맞아 그때 무역 행위 그 얘기했잖아 그러네 이렇게 그냥 자연스럽게 넘기시면 됩니다
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Vdc0wK_9ASQ! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / Master this technique and you're set
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=OSVv6F6cVZA! This is most likely caused by:
@@ -107,7 +115,7 @@ If you are sure that the described cause is not responsible for this error and t
 - `china`: score 14, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, 무역킹 Trade King YouTube
 - `ai_semiconductors`: score 14, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
 - `ethereum`: score 12, source_count 3, sources CoinDesk RSS, Cointelegraph, Financial Times YouTube
-- `tariffs_trade`: score 9, source_count 3, sources CNBC Top News, Financial Times World, 무역킹 Trade King YouTube
+- `treasury_yields`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
 
 ## 오늘의 글감 후보
 
@@ -122,7 +130,7 @@ If you are sure that the described cause is not responsible for this error and t
 - `us_index_flow`: score 22, headlines 8
   - Nasdaq brings proprietary market data onchain through Pyth
   - US stocks chalk up biggest quarterly gain in six years
-  - S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters
+  - Tech selloff stirs bubble fears in US stock market - Reuters
 - `crypto_etf`: score 16, headlines 5
   - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
   - Bitmine Ether buys eclipsed by $345M ETH ETF $345M outflows: Is sub $1.5K next?
@@ -147,7 +155,7 @@ If you are sure that the described cause is not responsible for this error and t
   - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
   - Bitmine Ether buys eclipsed by $345M ETH ETF $345M outflows: Is sub $1.5K next?
   - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
-- `tariffs_trade`: score 9, headlines 3
-  - Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund
-  - 1. The Grand Design to Pressure China
-  - Nike earnings helped by tariff refund but performance still shows strains
+- `oil`: score 7, headlines 3
+  - Stocks end quarter with big gains as oil tumbles the most in years; gold, yen also fall - Reuters
+  - Oil posts largest quarterly price drop in 6 years as historic supply crunch eases
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film

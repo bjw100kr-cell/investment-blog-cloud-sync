@@ -117,8 +117,8 @@
     "Phantom doubles down on perpetual futures with hire of Hyperliquid market builders",
     "SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules",
     "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
-    "Financial companies join forces for US dollar stablecoin, keeping reserve earnings",
-    "Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen"
+    "Bitcoin just $5K away from ‘best investment opportunity’ of bear market",
+    "Financial companies join forces for US dollar stablecoin, keeping reserve earnings"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-06-30T21:56:10.111703+00:00`
+- 생성 시각: `2026-06-30T21:57:50.683486+00:00`
 
 ## 1. fomc
 
@@ -139,8 +139,8 @@
   - Phantom doubles down on perpetual futures with hire of Hyperliquid market builders
   - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
   - Jefferies warns of crypto market volatility as Clarity Act faces Senate test
+  - Bitcoin just $5K away from ‘best investment opportunity’ of bear market
   - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
-  - Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen
 
 ## 3. us_index_flow
 
@@ -208,14 +208,14 @@
 - 참고 헤드라인:
   - Nasdaq brings proprietary market data onchain through Pyth
   - US stocks chalk up biggest quarterly gain in six years
-  - S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters
   - Tech selloff stirs bubble fears in US stock market - Reuters
+  - S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters
   - AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향 해설
-- 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능, 유튜브 해설 맥락까지 확보 가능
+- 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
 - 점수: 77.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
@@ -228,8 +228,6 @@
   - 주식·코인·달러·금리에 주는 영향
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
-- 유튜브/해설 참고 포인트:
-  - 그냥 당황하지 마십시오 말씀드린 대로 갈 거니까 무슨 일이 펼쳐지든 당황 안 하실 거야 이거 들으면 아 맞아 그때 무역 행위 그 얘기했잖아 그러네 이렇게 그냥 자연스럽게 넘기시면 됩니다
 - 사람 느낌 규칙:
   - 도입부 첫 3문장 안에 독자 관점 문장 1개를 넣는다.
   - 본문 어딘가에 '왜 이게 중요한지'를 말로 풀어주는 문장을 넣는다.
