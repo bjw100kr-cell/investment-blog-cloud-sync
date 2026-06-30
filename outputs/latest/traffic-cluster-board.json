@@ -3,57 +3,11 @@
   "cluster_count": 4,
   "clusters": [
     {
-      "source_keyword": "fomc",
-      "cluster_name": "거시 이벤트 해설 클러스터",
-      "revenue_priority_rank": 2,
-      "cluster_priority_score": 549.5,
-      "main_title": "FOMC 이후 시장 해설",
-      "main_keyword": "fomc",
-      "main_priority_score": 140.0,
-      "main_quality_status": "pass",
-      "main_ready_to_upload": true,
-      "followup_count": 3,
-      "ready_followup_count": 3,
-      "revenue_objective": "페이지뷰와 체류시간 균형 확보",
-      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-      "capture_route": "breaking_to_evergreen",
-      "route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
-      "blockers": [],
-      "main_html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
-      "followups": [
-        {
-          "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
-          "keyword": "seo_fomc_1",
-          "priority_score": 139.5,
-          "post_type": "evergreen_explainer",
-          "revenue_objective": "검색 유입 누적과 첫 방문 독자 확보",
-          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-fomc-이후-시장이-주식과-코인에-미치는-영향.html"
-        },
-        {
-          "title": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지",
-          "keyword": "seo_fomc_2",
-          "priority_score": 136.5,
-          "post_type": "follow_up_analysis",
-          "revenue_objective": "재방문과 내부링크 순환 강화",
-          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-fomc-이후-시장에서-다음으로-봐야-할-체크포인트-5가지.html"
-        },
-        {
-          "title": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지",
-          "keyword": "seo_fomc_3",
-          "priority_score": 133.5,
-          "post_type": "evergreen_explainer",
-          "revenue_objective": "광범위한 초보 검색 수요 흡수",
-          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-fomc-이후-시장-초보자-가이드-용어부터-시장-반응까지.html"
-        }
-      ]
-    },
-    {
       "source_keyword": "bitcoin",
       "cluster_name": "코인 해설 클러스터",
-      "revenue_priority_rank": 3,
+      "revenue_priority_rank": 2,
       "cluster_priority_score": 501.5,
-      "main_title": "비트코인 핵심 흐름 해설",
+      "main_title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "main_keyword": "bitcoin",
       "main_priority_score": 128.0,
       "main_quality_status": "pass",
@@ -97,9 +51,9 @@
     {
       "source_keyword": "us_index_flow",
       "cluster_name": "us_index_flow 클러스터",
-      "revenue_priority_rank": 99,
+      "revenue_priority_rank": 3,
       "cluster_priority_score": 469.5,
-      "main_title": "미국 증시 지수 흐름 해설",
+      "main_title": "미국 증시 지수 흐름 해설: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
       "main_keyword": "us_index_flow",
       "main_priority_score": 120.0,
       "main_quality_status": "pass",
@@ -141,11 +95,57 @@
       ]
     },
     {
+      "source_keyword": "fomc",
+      "cluster_name": "거시 이벤트 해설 클러스터",
+      "revenue_priority_rank": 99,
+      "cluster_priority_score": 549.5,
+      "main_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "main_keyword": "fomc",
+      "main_priority_score": 140.0,
+      "main_quality_status": "pass",
+      "main_ready_to_upload": true,
+      "followup_count": 3,
+      "ready_followup_count": 3,
+      "revenue_objective": "페이지뷰와 체류시간 균형 확보",
+      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+      "capture_route": "breaking_to_evergreen",
+      "route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
+      "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
+      "blockers": [],
+      "main_html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
+      "followups": [
+        {
+          "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
+          "keyword": "seo_fomc_1",
+          "priority_score": 139.5,
+          "post_type": "evergreen_explainer",
+          "revenue_objective": "검색 유입 누적과 첫 방문 독자 확보",
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-fomc-이후-시장이-주식과-코인에-미치는-영향.html"
+        },
+        {
+          "title": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지",
+          "keyword": "seo_fomc_2",
+          "priority_score": 136.5,
+          "post_type": "follow_up_analysis",
+          "revenue_objective": "재방문과 내부링크 순환 강화",
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-fomc-이후-시장에서-다음으로-봐야-할-체크포인트-5가지.html"
+        },
+        {
+          "title": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지",
+          "keyword": "seo_fomc_3",
+          "priority_score": 133.5,
+          "post_type": "evergreen_explainer",
+          "revenue_objective": "광범위한 초보 검색 수요 흡수",
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-fomc-이후-시장-초보자-가이드-용어부터-시장-반응까지.html"
+        }
+      ]
+    },
+    {
       "source_keyword": "china",
       "cluster_name": "china 클러스터",
       "revenue_priority_rank": 99,
       "cluster_priority_score": 103.0,
-      "main_title": "중국 변수와 시장 영향 해설",
+      "main_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
       "main_keyword": "china",
       "main_priority_score": 103.0,
       "main_quality_status": "pass",

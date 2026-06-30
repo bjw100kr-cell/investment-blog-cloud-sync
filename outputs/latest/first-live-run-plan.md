@@ -25,7 +25,7 @@
 
 ## First Upload Candidate
 
-- title: `비트코인 핵심 흐름 해설`
+- title: `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트`
 - inventory_type: `main_post`
 - publish_date: ``
 - priority_score: `128.0`
@@ -38,7 +38,7 @@
 ## Dry Run Snapshot
 
 - blogger_reason: ``
-- blogger_first_item_reason: ``
+- blogger_first_item_reason: `source_freshness_stale`
 - wordpress_reason: `WORDPRESS_SITE_URL is not set`
 - wordpress_first_item_reason: `credentials_missing_dry_run`
 
@@ -57,7 +57,7 @@
    - WORDPRESS_PUBLISH_ONLY_DUE_POSTS=true
    - WORDPRESS_MAX_POSTS_PER_RUN=1
 3. 첫 테스트 업로드 [pending]
-   - 대상 글: 비트코인 핵심 흐름 해설
+   - 대상 글: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
    - 업로드 유형: main_post
    - 권장 채널: blogger
    - 권장 액션: Blogger에서 초안 1개만 업로드 후 화면 검수
