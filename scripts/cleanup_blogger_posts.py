@@ -6,15 +6,7 @@ from pathlib import Path
 from typing import Any, Optional
 
 from env_loader import load_env_file
-from upload_blogger_drafts import (
-    BLOGGER_POST_URL,
-    ROOT,
-    api_request_with_retry,
-    ensure_env,
-    env_float,
-    env_int,
-    refresh_access_token,
-)
+from upload_blogger_drafts import BLOGGER_POST_URL, ROOT, ensure_env, refresh_access_token
 
 
 REPORT_PATH = ROOT / "outputs/latest/blogger-cleanup-report.json"
@@ -43,16 +35,23 @@ def save_json(path: Path, payload: dict[str, Any]) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2))
 
 
-def delete_post(blog_id: str, access_token: str, post_id: str) -> tuple[bool, Optional[object], str]:
-    return api_request_with_retry(
-        "DELETE",
+def delete_post(blog_id: str, access_token: str, post_id: str) -> tuple[bool, Optional[object], str, str]:
+    import requests
+
+    response = requests.delete(
         BLOGGER_POST_URL.format(blog_id=blog_id, post_id=post_id),
-        max_attempts=env_int("BLOGGER_API_MAX_ATTEMPTS", default=4),
-        backoff_base=env_float("BLOGGER_API_BACKOFF_BASE_SECONDS", default=1.5),
-        backoff_max=env_float("BLOGGER_API_BACKOFF_MAX_SECONDS", default=20.0),
         headers={"Authorization": f"Bearer {access_token}"},
         timeout=60,
     )
+    if response.status_code in {200, 204}:
+        return True, None, "", "deleted"
+    if response.status_code == 404:
+        return True, None, "already_not_found", "not_found_treated_as_deleted"
+    try:
+        payload = response.json()
+    except ValueError:
+        payload = None
+    return False, payload, response.text[:500], "delete_failed"
 
 
 def remove_deleted_from_state(post_ids: list[str]) -> int:
@@ -93,13 +92,14 @@ def main() -> int:
     deleted_ids: list[str] = []
 
     for post_id in post_ids:
-        success, payload, error = delete_post(blog_id, access_token, post_id)
+        success, payload, error, action = delete_post(blog_id, access_token, post_id)
         if success:
             deleted_ids.append(post_id)
         results.append(
             {
                 "post_id": post_id,
                 "deleted": success,
+                "action": action,
                 "error": error,
                 "payload": payload,
             }

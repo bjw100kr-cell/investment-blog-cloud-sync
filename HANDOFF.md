@@ -115,7 +115,7 @@
    - 중복 발행 방지: 메인 글은 keyword별 안정 slug를 사용하고, 업로더는 기본적으로 `publish-inventory.json` 후보만 사용.
    - 최신 클라우드 검증: GitHub Actions run `28479394787`이 commit `a19b01c`에서 `success`로 완료됨. 새 중복은 만들지 않았고 비트코인 글은 기존 URL `https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html`에 반영됨.
    - 주의: `2026-06-30T22:06Z` 클라우드 실행에서 FOMC 중복 글 `https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html`이 생성됨. 기존 원본 `https://gimu-economy-insight.blogspot.com/2026/06/fomc.html`은 유지됨.
-   - 중복 정리 도구: `scripts/cleanup_blogger_posts.py`와 workflow input `cleanup_duplicate_post_ids` 추가. 수동 실행 때 post_id `1530213910086239357`만 입력하면 GitHub Actions의 Blogger secret으로 중복 글을 삭제하고 state에서도 제거할 수 있음.
+   - 중복 정리 도구: `scripts/cleanup_blogger_posts.py`와 workflow input `cleanup_duplicate_post_ids` 추가. 수동 실행 때 post_id `1530213910086239357`만 입력하면 GitHub Actions의 Blogger secret으로 중복 글을 삭제하고 state에서도 제거할 수 있음. 공개 URL은 이미 404로 확인됐으므로 API 404도 삭제 완료로 처리해야 함.
 1. 신규 중복 정리 도구 커밋 및 푸시.
 2. Actions에서 `Daily Investment Intake`를 수동 실행하면서 `cleanup_duplicate_post_ids=1530213910086239357` 입력.
 3. 실행 완료 후 즉시 확인:
