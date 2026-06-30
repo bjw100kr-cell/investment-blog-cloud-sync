@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-06-30T22:20:17.233798+00:00",
+  "generated_at": "2026-06-30T22:22:31.217462+00:00",
   "requested_post_ids": [
     "1530213910086239357"
   ],
-  "deleted_count": 0,
-  "removed_from_state_count": 0,
+  "deleted_count": 1,
+  "removed_from_state_count": 1,
   "items": [
     {
       "post_id": "1530213910086239357",
-      "deleted": false,
-      "error": "404 Client Error: Not Found for url: https://www.googleapis.com/blogger/v3/blogs/6916836934814427288/posts/1530213910086239357",
+      "deleted": true,
+      "action": "not_found_treated_as_deleted",
+      "error": "already_not_found",
       "payload": null
     }
   ]

@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-06-30T22:20:39.874777+00:00`
+- 생성 시각: `2026-06-30T22:22:55.604504+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -36,7 +36,7 @@
 - 총점: `90.0`
 - 점수 구성: 검색성 29 / 시의성 21 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 5
 - 추천 이유: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 코인 시장 신호: BTCUSDT 24h change -2.81%; Fear/Greed 15: Extreme Fear zone
+- 코인 시장 신호: BTCUSDT 24h change -2.87%; Fear/Greed 15: Extreme Fear zone
 - 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
@@ -112,7 +112,7 @@
 - 총점: `88.0`
 - 점수 구성: 검색성 23 / 시의성 20 / 설명가치 18 / 수익성 15 / 리스크역점수 4 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 8
 - 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 코인 시장 신호: SOLUSDT 24h change -2.42%; DOGEUSDT 24h change -2.29%; BNBUSDT 24h change -2.79%
+- 코인 시장 신호: SOLUSDT 24h change -2.29%; DOGEUSDT 24h change -2.24%; BNBUSDT 24h change -2.80%
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
 - 제목 후보:
   - 코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리

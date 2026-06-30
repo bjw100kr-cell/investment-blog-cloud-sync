@@ -19,7 +19,7 @@
 ## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 - keyword: `fomc`
-- public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html
+- public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 - base_search_estimate: `95`
 - amplification_expected_before_execution: `0`
 - amplification_potential_if_executed: `75`
@@ -41,12 +41,12 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 오늘 시장을 볼 때 핵심은 이것입니다.
-- 독자 관점: 당일 이슈를 따라가되 날짜가 지난 뉴스보다 구조를 이해하고 싶은 독자
+- 독자 관점: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 한 줄 포인트: 환율·금리·미국증시 evergreen 글로 연결
 
 짧고 이해하기 쉽게 정리했습니다.
 
-https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html
+https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 ```
 
 ### publish_plus_30m / telegram_kakao_or_personal_channel / potential `10`
@@ -58,7 +58,7 @@ https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html
 오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.
 핵심 포인트: 환율·금리·미국증시 evergreen 글로 연결
 
-https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html
+https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 ```
 
 ### publish_plus_2h / finance_community / potential `15`
@@ -68,10 +68,10 @@ https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html
 ```text
 FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-이번 글은 '당일 이슈를 따라가되 날짜가 지난 뉴스보다 구조를 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 환율·금리·미국증시 evergreen 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
+이번 글은 '당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 환율·금리·미국증시 evergreen 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
 
 질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?
-https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html
+https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 ```
 
 ### publish_plus_24h / followup_post / potential `20`
