@@ -4,128 +4,10 @@
 - 원칙: 여기서 읽고 확인한 글만 사용자 최종 확인 대상으로 넘깁니다.
 - 상태: 사용자 최종 확인 전에는 실제 업로드가 차단됩니다.
 - item_count: `3`
-- single confirmation: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- batch confirmation: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin`
+- single confirmation: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
+- batch confirmation: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 
-## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-
-- keyword `fomc` / publish `2026-06-30` / priority `140.0`
-- review `approve` score `100` / quality `pass` / ready_now `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- CTA focus: 환율·금리·미국증시 evergreen 글로 연결
-- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- evidence score: demand `5400` / fallback `source_snapshot_rank` / format `macro_explainer`
-- source_names: Federal Reserve Monetary Policy Press, NYT Business, Reuters Markets via Google News RSS
-- sample_headlines:
-  - Federal Reserve issues FOMC statement
-  - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Minutes of the Federal Open Market Committee, April 28-29, 2026
-  - Minutes of the Federal Open Market Committee, March 17–18, 2026
-- recent_evidence:
-  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve issues FOMC statement
-  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Federal Reserve Monetary Policy Press | 2026-04-29T18:00:00+00:00 | Federal Reserve issues FOMC statement
-  - Federal Reserve Monetary Policy Press | 2026-03-18T18:00:00+00:00 | Federal Reserve issues FOMC statement
-- image_slots:
-  - 대표 이미지 / Unsplash / `central bank meeting finance city skyline` / Unsplash License
-  - 본문 보조 이미지 / Pexels / `interest rate macro economy abstract` / Pexels License
-
-### Draft Body
-
-```md
-# FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-
-한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 FOMC 이후 시장 해설이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-
-## 오늘 핵심 3줄
-
-- FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다.
-- 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다.
-- 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다.
-
-## 도입부
-
-2026년 6월 30일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
-미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
-개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 공식 발표 자료, 해외 주요 매체 보도를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Federal Reserve issues FOMC statement` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
-
-## 본문
-
-## 1. 지금 무슨 일이 있었나
-
-이번 글의 출발점은 `Federal Reserve issues FOMC statement`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
-여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `달러 인덱스`, 다른 하나는 `미국채 2년물/10년물 금리`입니다.
-쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
-
-## 2. 왜 시장이 반응했나
-
-금리 경로가 바뀌면 돈값이 달라지고, 돈값이 달라지면 성장주와 코인처럼 미래 기대를 크게 반영하는 자산의 할인율도 함께 흔들립니다.
-이 대목을 투자자 언어로 바꾸면, 금리 자체보다 연준이 앞으로 얼마나 빨리 방향을 바꿀 수 있는지에 대한 기대가 먼저 가격을 흔들고 있다는 뜻에 가깝습니다.
-특히 `달러 인덱스` 쪽 변화가 먼저 나오고 `미국채 2년물/10년물 금리` 흐름이 따라오는지, 아니면 가격만 먼저 튀는지를 나눠 보면 뉴스의 질이 달라 보입니다.
-
-## 3. 개인 투자자가 바로 확인할 지표
-
-첫째로 볼 것은 `달러 인덱스`입니다. 이 지표가 같은 방향으로 며칠 이어지면 단순 반응보다 흐름일 가능성이 커집니다.
-둘째는 `미국채 2년물/10년물 금리`입니다. 거시 환경이 받쳐주지 않으면 좋은 뉴스도 오래 버티기 어렵습니다.
-셋째는 `나스닥과 비트코인 동시 반응`입니다. 한 자산만 움직이는지, 관련 자산으로 확산되는지에 따라 해석이 완전히 달라집니다.
-추가로 `다음 CPI/PCE/고용지표`까지 확인하면 다음 글감과 투자 판단의 기준선이 더 선명해집니다.
-
-## 4. 내 포트폴리오와 연결해서 보는 법
-
-이걸 내 돈 관점에서 보면 FOMC는 매수·매도 신호라기보다 포트폴리오의 위험 노출을 점검하는 날에 가깝습니다.
-예를 들어 이미 관련 자산 비중이 높다면 새로 맞히는 것보다 변동성이 커질 때 어느 구간에서 흔들릴지 먼저 생각해야 합니다.
-반대로 아직 관망 중이라면 지금 당장 따라가기보다 다음 확인 지표가 같은 방향으로 쌓이는지 보는 편이 더 실전적입니다.
-
-## 상승 시나리오와 리스크
-
-- 상승 시나리오: 달러와 단기금리가 안정되고 나스닥, 비트코인, 반도체 같은 위험자산이 같은 방향으로 반응하면 시장은 완화 기대를 더 강하게 읽을 수 있습니다.
-- 리스크 시나리오: 반대로 연준 발언이 물가 경계 쪽으로 기울거나 다음 물가 지표가 다시 강하게 나오면, 발표 직후 반등은 빠르게 되돌려질 수 있습니다.
-
-## 자주 하는 오해
-
-금리 동결을 곧바로 호재로만 해석하는 것입니다. 시장은 동결 여부보다 앞으로 몇 번, 언제, 어떤 속도로 움직일지를 더 크게 봅니다.
-
-## 체크포인트 3개
-
-1. `달러 인덱스`: 발표 직후뿐 아니라 다음 거래일에도 같은 방향인지 확인하기
-2. `미국채 2년물/10년물 금리`와 `나스닥과 비트코인 동시 반응`: 서로 엇갈리는지, 같이 움직이는지 비교하기
-3. `다음 CPI/PCE/고용지표` 전까지 상승 시나리오와 리스크 시나리오를 따로 메모해두기
-
-## FAQ 2개
-
-### FOMC가 왜 주식과 코인에 동시에 영향을 주나요?
-금리 방향이 달러와 유동성 기대를 바꾸기 때문입니다. 그래서 성장주와 코인처럼 유동성에 민감한 자산이 함께 반응하는 경우가 많습니다.
-
-### 이번 발표에서 개인 투자자가 가장 먼저 볼 것은 무엇인가요?
-성명서 문구 자체보다 점도표, 기자회견 톤, 그리고 이후 금리 인하 기대가 얼마나 바뀌는지를 함께 보는 편이 더 중요합니다.
-
-## 출처 체크
-
-- 주요 참고 소스: Federal Reserve Monetary Policy Press, NYT Business, Reuters Markets via Google News RSS
-- 발행 전 재확인: FOMC 성명서 원문 날짜와 발표 시각 확인
-- 발행 전 재확인: 점도표/경제전망 최신 버전 확인
-- 발행 전 재확인: 달러, 미국채 금리, 나스닥 관련 수치 재확인
-
-## 이 글에서 같이 봐야 할 관점
-
-- 왜 지금 이 이슈가 개인 투자자에게 중요한지 한 문장 설명
-- 달러, 금리, 주식, 코인 중 최소 2개와 연결한 해석
-- 다만/반면 같은 균형 문장
-
-
-## CTA
-
-이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
-다음 글에서는 FOMC 이후 달러, 미국채 금리, 나스닥 가운데 무엇을 먼저 보면 되는지 더 실전적으로 풀어보겠습니다.
-
-## 면책문구
-
-이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
-```
-
-## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword `bitcoin` / publish `2026-07-01` / priority `128.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
@@ -243,7 +125,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 ```
 
-## 3. 미국 증시 지수 흐름 해설: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+## 2. 미국 증시 지수 흐름 해설: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
 - keyword `us_index_flow` / publish `2026-07-02` / priority `120.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
@@ -355,6 +237,126 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 다음 글에서는 미국 증시 지수 흐름 해설: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
+
+## 면책문구
+
+이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
+```
+
+## 3. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+
+- keyword `china` / publish `2026-07-03` / priority `103.0`
+- review `approve` score `100` / quality `pass` / ready_now `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- CTA focus: 실적·공급망·대표 종목 글로 연결
+- reason: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능, 유튜브 해설 맥락까지 확보 가능
+- evidence score: demand `0` / fallback `mapped_candidate` / format `macro_explainer`
+- source_names: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, 무역킹 Trade King YouTube
+- sample_headlines:
+  - Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund
+  - World Bank to phase out China lending
+  - 1. The Grand Design to Pressure China
+  - Oil posts largest quarterly price drop in 6 years as historic supply crunch eases
+- recent_evidence:
+  - 무역킹 Trade King YouTube | 87K | 1. The Grand Design to Pressure China
+  - CNBC Top News | 2026-06-30T21:20:06+00:00 | Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund
+  - Financial Times Home | 2026-06-30T20:47:12+00:00 | World Bank to phase out China lending
+- image_slots:
+  - 대표 이미지 / Unsplash / `technology stocks office finance abstract` / Unsplash License
+  - 본문 보조 이미지 / Pexels / `semiconductor data center abstract` / Pexels License
+
+### Draft Body
+
+```md
+# 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+
+한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 중국 변수와 시장 영향 해설이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+
+## 오늘 핵심 3줄
+
+- 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다.
+- 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다.
+- 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다.
+
+## 도입부
+
+2026년 6월 30일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
+개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
+쉽게 말해 해외 주요 매체 보도, 유튜브 해설를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+
+## 본문
+
+## 1. 지금 무슨 일이 있었나
+
+이번 글의 출발점은 `Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `달러/위안 환율`, 다른 하나는 `중국 부동산·소비 지표`입니다.
+쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
+
+참고로 영상·해설 자료에서 반복된 관찰 포인트는 이런 쪽이었습니다:
+- 그냥 당황하지 마십시오 말씀드린 대로 갈 거니까 무슨 일이 펼쳐지든 당황 안 하실 거야 이거 들으면 아 맞아 그때 무역 행위 그 얘기했잖아 그러네 이렇게 그냥 자연스럽게 넘기시면 됩니다
+
+## 2. 왜 시장이 반응했나
+
+중국은 글로벌 수요의 큰 축이기 때문에 경기 기대가 바뀌면 원자재와 아시아 증시, 달러 흐름까지 같이 움직일 수 있습니다.
+투자자 언어로 다시 풀면, 결국 중요한 건 이 숫자가 시장 기대를 얼마나 바꾸는지 쪽이 실제 자산 가격에 얼마나 빨리 반영되는지입니다.
+특히 `달러/위안 환율` 쪽 변화가 먼저 나오고 `중국 부동산·소비 지표` 흐름이 따라오는지, 아니면 가격만 먼저 튀는지를 나눠 보면 뉴스의 질이 달라 보입니다.
+
+## 3. 개인 투자자가 바로 확인할 지표
+
+첫째로 볼 것은 `달러/위안 환율`입니다. 이 지표가 같은 방향으로 며칠 이어지면 단순 반응보다 흐름일 가능성이 커집니다.
+둘째는 `중국 부동산·소비 지표`입니다. 거시 환경이 받쳐주지 않으면 좋은 뉴스도 오래 버티기 어렵습니다.
+셋째는 `구리와 유가`입니다. 한 자산만 움직이는지, 관련 자산으로 확산되는지에 따라 해석이 완전히 달라집니다.
+추가로 `한국 수출주와 소재·산업재 반응`까지 확인하면 다음 글감과 투자 판단의 기준선이 더 선명해집니다.
+
+## 4. 내 포트폴리오와 연결해서 보는 법
+
+독자 입장에서 중요한 건 중국 뉴스 자체보다 그 뉴스가 실제 수요 회복으로 이어지는지 확인하는 일입니다.
+예를 들어 이미 관련 자산 비중이 높다면 새로 맞히는 것보다 변동성이 커질 때 어느 구간에서 흔들릴지 먼저 생각해야 합니다.
+반대로 아직 관망 중이라면 지금 당장 따라가기보다 다음 확인 지표가 같은 방향으로 쌓이는지 보는 편이 더 실전적입니다.
+
+## 상승 시나리오와 리스크
+
+- 상승 시나리오: 부양책과 소비 지표가 같은 방향으로 개선되고 위안화가 안정되면 중국 관련 자산의 해석이 좋아질 수 있습니다.
+- 리스크 시나리오: 정책 기대만 앞서고 부동산·소비 지표가 따라오지 않으면 시장은 다시 실망 쪽으로 기울 수 있습니다.
+
+## 자주 하는 오해
+
+부양책 발표를 곧바로 경기 회복으로 보는 것입니다. 시장은 발표보다 집행 속도와 실제 지표를 더 냉정하게 봅니다.
+
+## 체크포인트 3개
+
+1. `달러/위안 환율`: 발표 직후뿐 아니라 다음 거래일에도 같은 방향인지 확인하기
+2. `중국 부동산·소비 지표`와 `구리와 유가`: 서로 엇갈리는지, 같이 움직이는지 비교하기
+3. `한국 수출주와 소재·산업재 반응` 전까지 상승 시나리오와 리스크 시나리오를 따로 메모해두기
+
+## FAQ 2개
+
+### 이 이슈를 볼 때 가장 먼저 확인할 것은 무엇인가요?
+핵심 숫자와 발표 시점, 그리고 시장이 그 숫자를 어떻게 해석하는지까지 함께 보는 편이 좋습니다.
+
+### 개인 투자자는 어떤 식으로 접근해야 하나요?
+단정적으로 결론 내리기보다 시나리오를 나눠 보고, 다음 확인 포인트를 정해 두는 방식이 더 현실적입니다.
+
+## 출처 체크
+
+- 주요 참고 소스: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, 무역킹 Trade King YouTube
+- 발행 전 재확인: 정책 발표 또는 인터뷰 원문 여부 확인
+- 발행 전 재확인: 중국 관련 2차 해설을 사실처럼 단정하지 않기
+- 발행 전 재확인: 한국/미국 시장 영향은 시나리오형으로 서술
+
+## 이 글에서 같이 봐야 할 관점
+
+- 왜 지금 이 이슈가 개인 투자자에게 중요한지 한 문장 설명
+- 달러, 금리, 주식, 코인 중 최소 2개와 연결한 해석
+- 다만/반면 같은 균형 문장
+
+
+## CTA
+
+이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
+다음 글에서는 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
 
 ## 면책문구
 

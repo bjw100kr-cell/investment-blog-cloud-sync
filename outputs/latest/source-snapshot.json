@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T21:54:01.988871+00:00",
+  "generated_at": "2026-06-30T21:56:10.111703+00:00",
   "summary": {
     "ok_sources": 14,
     "item_count": 112
@@ -248,6 +248,16 @@
       ]
     },
     {
+      "keyword": "tariffs_trade",
+      "score": 9,
+      "source_count": 3,
+      "sources": [
+        "CNBC Top News",
+        "Financial Times World",
+        "무역킹 Trade King YouTube"
+      ]
+    },
+    {
       "keyword": "treasury_yields",
       "score": 7,
       "source_count": 2,
@@ -264,15 +274,6 @@
         "Financial Times YouTube",
         "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
-      ]
-    },
-    {
-      "keyword": "tariffs_trade",
-      "score": 6,
-      "source_count": 2,
-      "sources": [
-        "CNBC Top News",
-        "Financial Times World"
       ]
     },
     {
@@ -376,6 +377,16 @@
       ]
     },
     {
+      "keyword": "tariffs_trade",
+      "score": 9,
+      "headline_count": 3,
+      "sample_titles": [
+        "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
+        "1. The Grand Design to Pressure China",
+        "Nike earnings helped by tariff refund but performance still shows strains"
+      ]
+    },
+    {
       "keyword": "oil",
       "score": 7,
       "headline_count": 3,
@@ -392,15 +403,6 @@
       "sample_titles": [
         "MetaMask launches Money Account with stablecoin yield and spending in one wallet",
         "Solidion Technology plans to buy SpaceX shares as treasury asset"
-      ]
-    },
-    {
-      "keyword": "tariffs_trade",
-      "score": 6,
-      "headline_count": 2,
-      "sample_titles": [
-        "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
-        "Nike earnings helped by tariff refund but performance still shows strains"
       ]
     },
     {
@@ -487,9 +489,9 @@
       "source_weight": 5
     },
     {
-      "title": "노란봉투법",
+      "title": "스테이 블코 인",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Tue, 30 Jun 2026 13:40:00 -0700",
+      "published": "Tue, 30 Jun 2026 13:20:00 -0700",
       "description": "",
       "approx_traffic": "500+",
       "source_id": "google_trends_kr",
@@ -499,11 +501,11 @@
       "source_weight": 5
     },
     {
-      "title": "스테이 블코 인",
+      "title": "프랑스 대 스웨덴",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Tue, 30 Jun 2026 13:20:00 -0700",
+      "published": "Tue, 30 Jun 2026 13:10:00 -0700",
       "description": "",
-      "approx_traffic": "500+",
+      "approx_traffic": "2000+",
       "source_id": "google_trends_kr",
       "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
@@ -909,8 +911,8 @@
     {
       "title": "Trump's annual financial disclosure shows more than $580M in crypto-related income",
       "link": "https://www.cnbc.com/2026/06/30/trump-financial-disclosure-released.html",
-      "published": "Tue, 30 Jun 2026 21:46:48 GMT",
-      "description": "Trump's 2025 financial disclosure report totals more than 900 pages detailing holdings in cryptocurrency and stocks.",
+      "published": "Tue, 30 Jun 2026 21:54:22 GMT",
+      "description": "Trump's 927-page financial disclosure report for 2025 totals more than 900 pages detailing holdings in cryptocurrency and stocks.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -1281,7 +1283,7 @@
     {
       "title": "Why Visa Prices Have Skyrocketed 5 Times",
       "link": "https://www.youtube.com/watch?v=Wf5bKnlOpd0",
-      "published": "30K views",
+      "published": "30K",
       "description": "",
       "approx_traffic": "",
       "video_id": "Wf5bKnlOpd0",
@@ -1302,7 +1304,7 @@
     {
       "title": "Japan's Money Has Started to Move",
       "link": "https://www.youtube.com/watch?v=DesDK3yCBXw",
-      "published": "60K views",
+      "published": "60K",
       "description": "",
       "approx_traffic": "",
       "video_id": "DesDK3yCBXw",
@@ -1323,7 +1325,7 @@
     {
       "title": "Why Christianity is Obsessed with Freedom (Binge Watch)",
       "link": "https://www.youtube.com/watch?v=9UaggrRbYCM",
-      "published": "14K views",
+      "published": "14K",
       "description": "",
       "approx_traffic": "",
       "video_id": "9UaggrRbYCM",
@@ -1344,7 +1346,7 @@
     {
       "title": "2. After the World Cup...",
       "link": "https://www.youtube.com/watch?v=WCvbjS9B36g",
-      "published": "113K views",
+      "published": "113K",
       "description": "",
       "approx_traffic": "",
       "video_id": "WCvbjS9B36g",
@@ -1365,18 +1367,22 @@
     {
       "title": "1. The Grand Design to Pressure China",
       "link": "https://www.youtube.com/watch?v=Vdc0wK_9ASQ",
-      "published": "87K views",
+      "published": "87K",
       "description": "",
       "approx_traffic": "",
       "video_id": "Vdc0wK_9ASQ",
-      "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=Vdc0wK_9ASQ! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
-      "transcript_language": "",
-      "transcript_language_code": "",
+      "transcript_available": true,
+      "transcript_reason": "",
+      "transcript_language": "Korean",
+      "transcript_language_code": "ko",
       "transcript_is_generated": false,
-      "transcript_mode": "",
-      "transcript_excerpt": "",
-      "transcript_digest_points": [],
+      "transcript_mode": "preferred",
+      "transcript_excerpt": "무역킹 월드컵 봤어요 월드컵 봤죠 이거 중요한 경기인데 봐야지 라이브로요 어 켜놓고 일했지 한 PD 봤어 당연히 봤죠 어떻게 전후반 다 봤어 2시간 다 봤죠 봤어 알았어 월급에서 까는 걸로 전기 썼을 거 아니야 여기 그 월급에서 2시간 까고 그다음에 10% 더 얹어서 전기세 자 사람들은 미래를 궁금해합니다 한 피디가 월드컵 봤다고 이렇게 받는 돈이 깎일 거라고 생각을 했겠어요 이걸 알았으면 안 봤다고 그랬겠지 근데 아까 막 이러는 거 내가 들었기 때문에 사람들은 미래를 궁금해하는데 저는 어느 정도 알고 있습니다 미래에 대해서 근데 좋아하는 노래는 내일이든 난 몰라요 정작 내일 일은 투모로가 아니라 내일은 남 몰라요 뭐 이런 건데 원래 인생이란 게 그런 거야 원래 그래 이 신접하는 사람들이 자기 인생은 못 맞추잖아 신접했어요 신접한 사람들은 그렇다 저는 압니다 무슨 일이 일어날지 저는 다 들었어요 얘기해 준 사람이 있어요 그래서 미국이 어떻게 세계 패권 도전국 중국과 그와 연관된 나라들을 다루게 될지 제가 그 계획을 이제 제가 설명을 좀 해드릴게요 편하게 어디서 들었어요 그냥 당황하지 마십시오 말씀드린 대로 갈 거니까 무슨 일이 펼쳐지든 당황 안 하실 거야 이거 들으면 아 맞아 그때 무역 행위 그 얘기했잖아 그러네 이렇게 그냥 자연스럽게 넘기시면 됩니다 근데 알아두면 좋죠 조직이 클수록 거시적인 흐름을 이해하고 이제 소소한 사건들을 더 보려고 노력을 해야 돼요 국가가 가장 큰 단위 아닙니까 그렇죠 이 지구에서 가장 큰 단위가 뭐야 국제 기구이지만 그래도 나라잖아요 나라 그래서 이 거시적인 흐름을 알아야 된다 이겁니다 자 작전을 할 때 전쟁을 해요 전체 지도를 가지고 작전을 하는 거랑 이 눈앞에 보이는 것만 보고 작전을 하는 거랑 완전히 다르겠죠 월드컵 올림픽 생중계하려고 위성 띄운 게 아니잖아요 다 보려고 하는 거지 전체를 그러려고 위성을 띄우잖아요 그중에 하나가 월드컵이 있더라 이런 거겠죠 근데 내가 월드컵 보면서 좀 느낀 건데 이거 일부러 3등 한 것 같아 ",
+      "transcript_digest_points": [
+        "무역킹 월드컵 봤어요",
+        "그래서 미국이 어떻게 세계 패권 도전국 중국과 그와 연관된 나라들을 다루게 될지 제가 그 계획을 이제 제가 설명을 좀 해드릴게요",
+        "그냥 당황하지 마십시오 말씀드린 대로 갈 거니까 무슨 일이 펼쳐지든 당황 안 하실 거야 이거 들으면 아 맞아 그때 무역 행위 그 얘기했잖아 그러네 이렇게 그냥 자연스럽게 넘기시면 됩니다"
+      ],
       "source_id": "trade_king_youtube",
       "source_name": "무역킹 Trade King YouTube",
       "source_category": "youtube_macro",
@@ -1386,7 +1392,7 @@
     {
       "title": "Master this technique and you're set",
       "link": "https://www.youtube.com/watch?v=OSVv6F6cVZA",
-      "published": "40K views",
+      "published": "40K",
       "description": "",
       "approx_traffic": "",
       "video_id": "OSVv6F6cVZA",
@@ -1407,7 +1413,7 @@
     {
       "title": "Italy, I’ve got you now lol",
       "link": "https://www.youtube.com/watch?v=xSjZ15OfWg8",
-      "published": "36K views",
+      "published": "36K",
       "description": "",
       "approx_traffic": "",
       "video_id": "xSjZ15OfWg8",
@@ -1428,7 +1434,7 @@
     {
       "title": "EU Shuts Its Doors: The War on Illegal Immigration Deportations",
       "link": "https://www.youtube.com/watch?v=SNFAp8BPhdI",
-      "published": "43K views",
+      "published": "43K",
       "description": "",
       "approx_traffic": "",
       "video_id": "SNFAp8BPhdI",
@@ -1570,14 +1576,18 @@
       "description": "",
       "approx_traffic": "",
       "video_id": "l0tWlr5gwIE",
-      "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=l0tWlr5gwIE! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
-      "transcript_language": "",
-      "transcript_language_code": "",
-      "transcript_is_generated": false,
-      "transcript_mode": "",
-      "transcript_excerpt": "",
-      "transcript_digest_points": [],
+      "transcript_available": true,
+      "transcript_reason": "",
+      "transcript_language": "English (auto-generated)",
+      "transcript_language_code": "en",
+      "transcript_is_generated": true,
+      "transcript_mode": "preferred",
+      "transcript_excerpt": "So, Layla, what's the electrifying issue we're talking about today? >> As the cost of fossil fuels hits unaffordable levels, domestic solar power, storage batteries, heat pumps, and electric [music] vehicles offer compelling alternatives. Generating your own electricity from solar panels can cut energy bills and relieve power supply anxiety in turbulent times. Connecting your panels to a battery system enables you to save energy for later use or to sell it back to the grid. A heat pump can supply central heating and hot water in the home, while an EV can free you from soaring gasoline prices. But, there are some challenges. The first is cost. Most households can't afford the upfront capital investment. And while some countries, such as Ireland, provide extensive financial support for domestic retrofit, not all governments can afford that level of subsidy. Also, most banks are only just getting to grips with so-called green mortgages, lending to buy a home with the hardware that can red",
+      "transcript_digest_points": [
+        "So, Layla, what's the electrifying issue we're talking about today?",
+        ">> As the cost of fossil fuels hits unaffordable levels, domestic solar power, storage batteries, heat pumps, and electric [music] vehicles offer compelling alternatives.",
+        "Generating your own electricity from solar panels can cut energy bills and relieve power supply anxiety in turbulent times."
+      ],
       "source_id": "financial_times_youtube",
       "source_name": "Financial Times YouTube",
       "source_category": "youtube_global_media",
@@ -1711,6 +1721,18 @@
       "source_weight": 2
     },
     {
+      "title": "Satellite TV group Dish files for bankruptcy to cut $9bn debt load",
+      "link": "https://www.ft.com/content/89ba20c4-ac83-4cb2-887c-22e9018ce619",
+      "published": "Tue, 30 Jun 2026 21:46:12 GMT",
+      "description": "Parent company EchoStar has surged to $30bn market capitalisation from windfall on SpaceX holding",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
       "title": "US Supreme Court rejects Trump’s bid to end birthright citizenship",
       "link": "https://www.ft.com/content/8ee00f84-762c-48a5-ac21-774e216977fa",
       "published": "Tue, 30 Jun 2026 21:34:46 GMT",
@@ -1787,18 +1809,6 @@
       "link": "https://www.ft.com/content/b1fae3cd-5507-4aed-968a-a18ee884e1e2",
       "published": "Tue, 30 Jun 2026 18:36:04 GMT",
       "description": "Fatal flight of a light aircraft into Chinese capital’s tallest building raises questions about its defences",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Space entrepreneurs borrow some surprisingly terrestrial tactics",
-      "link": "https://www.ft.com/content/79da150f-5a84-44bb-8e97-b46b958c9699",
-      "published": "Tue, 30 Jun 2026 18:14:39 GMT",
-      "description": "Vertical integration helps to bridge the gap between today’s investments and returns that won’t come until later",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
