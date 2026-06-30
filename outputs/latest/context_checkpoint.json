@@ -1,21 +1,22 @@
 {
-  "generated_at_utc": "2026-06-30T22:13:25.537231+00:00",
+  "generated_at_utc": "2026-06-30T22:19:28.375960+00:00",
   "goal": "주식/코인/세계경제 투자 블로그 자동화 운영 지속 및 수익화",
   "blogger": {
     "report_summary": {
       "manifest_candidate_count": null,
       "processed_count": 1,
       "reason_counts": {
+        "source_freshness_stale": 1,
         "": 1,
-        "BLOGGER_MAX_POSTS_PER_RUN reached": 12
+        "BLOGGER_MAX_POSTS_PER_RUN reached": 11
       },
-      "last_reason": null,
-      "top_item_slug": "fomc-이후-시장-주식과-코인이-같이-흔들리는-이유와-확인할-3가지"
+      "last_reason": "source_freshness_stale",
+      "top_item_slug": null
     },
     "state_summary": {
       "item_count": 14,
       "published_count": 14,
-      "latest_synced_at": "2026-06-30T22:06:20.649965+00:00"
+      "latest_synced_at": "2026-06-30T22:16:29.385587+00:00"
     }
   },
   "inventory": {
@@ -50,5 +51,5 @@
     "`daily-traffic-goal.json`은 이제 실제 발행 인벤토리 제목과 코인 시장 신호(`extreme_fear`, BTC 변동, Fear/Greed)를 같이 보여줌."
   ],
   "source_notes": [],
-  "note": "stable slugs and orphan manifest upload guard added"
+  "note": "blogger duplicate cleanup workflow added"
 }

@@ -113,17 +113,18 @@
    - 신규 개선: `score_daily_topics.py` 기본 제목도 클릭형으로 교체했고, `generate_blog_drafts.py`의 미국 증시 제목 부제 중복 버그를 제거.
    - `daily-traffic-goal.json`은 이제 실제 발행 인벤토리 제목과 코인 시장 신호(`extreme_fear`, BTC 변동, Fear/Greed)를 같이 보여줌.
    - 중복 발행 방지: 메인 글은 keyword별 안정 slug를 사용하고, 업로더는 기본적으로 `publish-inventory.json` 후보만 사용.
-   - 주의: `2026-06-30T22:06Z` 클라우드 실행에서 FOMC 중복 글 `https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html`이 생성됨. 로컬 Google/Blogger 자격 증명이 없어 삭제는 아직 못 했고, 기존 원본 `https://gimu-economy-insight.blogspot.com/2026/06/fomc.html`은 유지됨.
-1. 로컬 변경사항 커밋 및 `https://github.com/bjw100kr-cell/investment-blog-cloud-sync`로 푸시.
-2. GitHub UI에서 `https://github.com/bjw100kr-cell/investment-blog-cloud-sync/settings/secrets/actions` 열고 아래 값 1회 붙여넣기:
-   - Secret: `BLOGGER_BLOG_ID`, `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN`
-   - Variable: `OPENAI_MODEL`, `BLOGGER_SYNC_SITE_PAGES`, `BLOGGER_SITE_PAGES_PUBLISH`, `BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES`, `BLOGGER_REQUIRE_REVIEW_APPROVAL`, `BLOGGER_AUTO_PUBLISH_POSTS`, `BLOGGER_PUBLISH_ONLY_DUE_POSTS`, `BLOGGER_MAX_POSTS_PER_RUN`
-3. Actions에서 `Daily Investment Intake`를 `Run workflow`로 1회 실행.
-4. 즉시 확인:
-   - `python3 scripts/prepare_github_launch_plan.py`(repo_connected=true 재확인)
-   - `outputs/latest/blogger-upload-report.json`
-   - `outputs/latest/first-cloud-run-verification.json`
-5. 통과되면 `SP-003`로 전환해 일일 자동 루프 모니터링.
+   - 최신 클라우드 검증: GitHub Actions run `28479394787`이 commit `a19b01c`에서 `success`로 완료됨. 새 중복은 만들지 않았고 비트코인 글은 기존 URL `https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html`에 반영됨.
+   - 주의: `2026-06-30T22:06Z` 클라우드 실행에서 FOMC 중복 글 `https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html`이 생성됨. 기존 원본 `https://gimu-economy-insight.blogspot.com/2026/06/fomc.html`은 유지됨.
+   - 중복 정리 도구: `scripts/cleanup_blogger_posts.py`와 workflow input `cleanup_duplicate_post_ids` 추가. 수동 실행 때 post_id `1530213910086239357`만 입력하면 GitHub Actions의 Blogger secret으로 중복 글을 삭제하고 state에서도 제거할 수 있음.
+1. 신규 중복 정리 도구 커밋 및 푸시.
+2. Actions에서 `Daily Investment Intake`를 수동 실행하면서 `cleanup_duplicate_post_ids=1530213910086239357` 입력.
+3. 실행 완료 후 즉시 확인:
+   - `outputs/latest/blogger-cleanup-report.json`의 `deleted_count=1`
+   - `outputs/latest/blogger-upload-state.json`에서 post_id `1530213910086239357` 항목 제거
+   - Blogger 공개 URL `https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html` 접근 불가 또는 삭제 상태
+4. 그 다음 병목은 방문자 측정 연결:
+   - `outputs/latest/visitor-proof-board.json`는 아직 `measurement_missing`, `actual_verified_visitors=0`
+   - Search Console/GA4 연결 전까지 200명 목표 달성은 증명 불가
 
 ## 지금 당장 필요한 사용자 입력 (한 곳만 처리하면 됨)
 - 먼저 GitHub Actions Secrets/Variables 입력이 선행입니다. 현재 리포지토리 주소는 `bjw100kr-cell/investment-blog-cloud-sync`입니다.

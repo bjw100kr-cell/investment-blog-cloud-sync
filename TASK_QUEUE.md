@@ -394,6 +394,16 @@ python3 scripts/build_go_live_readiness_report.py
   - `upload_blogger_drafts.py`는 기본적으로 `publish-inventory.json` 후보만 업로드하고, orphan manifest는 `BLOGGER_INCLUDE_ORPHAN_MANIFESTS=true`일 때만 포함함
   - 업로드 후보 13개의 slug 충돌이 0개이고, publish-ready/seo-publish-ready의 stale 파일이 0개로 정리됨
 
+### SP-046
+
+- 상태: 완료
+- 목적: 실수로 생성된 Blogger 중복 글을 로컬 자격증명 없이도 GitHub Actions에서 안전하게 정리할 수 있게 만들기
+- 완료 기준:
+  - `scripts/cleanup_blogger_posts.py`가 `BLOGGER_CLEANUP_POST_IDS`에 지정된 post_id만 삭제함
+  - `.github/workflows/daily-investment-intake.yml`의 수동 실행 입력 `cleanup_duplicate_post_ids`가 비어 있으면 평소 자동 실행에는 아무 삭제도 하지 않음
+  - 빈 입력 로컬 검증에서 `deleted_count=0`으로 종료됨
+  - 다음 수동 실행에서 FOMC 중복 post_id `1530213910086239357`만 지정해 정리 가능
+
 ## Backlog For Later
 
 - Spark가 로컬 실행 결과를 모아 간단한 `verification summary`만 갱신하는 자동 보고 루틴 추가

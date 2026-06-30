@@ -1,8 +1,6 @@
 # Session Memory Log
 
 # ... truncated - recent entries kept
-- [2026-07-01 00:53:36 KST] step-10-7.3/30-Build keyword capture strategy
- - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:37 KST] step-15-12/30-Generate publishing assets
  - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:37 KST] step-20-16/30-Generate growth report
@@ -160,4 +158,6 @@
 - [2026-07-01 06:58:50 KST] all four public main post titles synced
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 07:13:25 KST] stable slugs and orphan manifest upload guard added
+ - published=14 / processed=1 / inventory=13 / all_core_checks_passed=True
+- [2026-07-01 07:19:28 KST] blogger duplicate cleanup workflow added
  - published=14 / processed=1 / inventory=13 / all_core_checks_passed=True
