@@ -32,8 +32,8 @@
 
 - `fomc` lane `macro` / 예상 `95`명 / ready `True` / quality `pass`
 - `bitcoin` lane `crypto` / 예상 `95`명 / ready `True` / quality `pass`
-  - crypto signal: BTCUSDT 24h change -2.86%; Fear/Greed 15: Extreme Fear zone
+  - crypto signal: BTCUSDT 24h change -2.81%; Fear/Greed 15: Extreme Fear zone
 - `us_index_flow` lane `us-stocks` / 예상 `92`명 / ready `True` / quality `pass`
 - `china` lane `world-flow` / 예상 `58`명 / ready `True` / quality `pass`
 - `crypto_etf` lane `crypto` / 예상 `0`명 / ready `False` / quality `unknown`
-  - crypto signal: SOLUSDT 24h change -2.62%; DOGEUSDT 24h change -2.29%
+  - crypto signal: SOLUSDT 24h change -2.42%; DOGEUSDT 24h change -2.29%

@@ -1,10 +1,12 @@
 {
   "pipeline_script_count": 85,
-  "workflow_script_count": 86,
+  "workflow_script_count": 87,
   "missing_in_workflow": [],
-  "missing_in_pipeline": [],
+  "missing_in_pipeline": [
+    "scripts/cleanup_blogger_posts.py"
+  ],
   "order_mismatches": [],
-  "all_core_scripts_present": true,
+  "all_core_scripts_present": false,
   "order_aligned": true,
   "pipeline_scripts": [
     "scripts/collect_investment_sources.py",
@@ -94,6 +96,7 @@
     "scripts/upload_wordpress_drafts.py"
   ],
   "workflow_scripts": [
+    "scripts/cleanup_blogger_posts.py",
     "scripts/collect_investment_sources.py",
     "scripts/build_search_demand_report.py",
     "scripts/build_crypto_market_signal.py",
