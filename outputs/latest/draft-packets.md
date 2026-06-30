@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-06-30T16:38:35.669092+00:00`
+- 생성 시각: `2026-06-30T20:45:27.041650+00:00`
 
 ## 1. fomc
 
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
   - Jefferies warns of crypto market volatility as Clarity Act faces Senate test
-  - Bitcoin’s quiet $59,000-$60,000 range is starting to look dangerous
-  - Here’s what happened in crypto today
-  - Strategy's new plan divides industry observers even as MSTR, STRC climb
-  - Theo becomes first crypto-native investor in Fidelity tokenized fund
+  - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
+  - Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen
+  - AI’s power crunch turns Bitcoin miners’ grid access into an asset
 
 ## 3. us_index_flow
 
 - 추천 제목: 미국 증시 지수 흐름 해설
-- 각도: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 74.0
+- 각도: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 84.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,16 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Nasdaq expands distribution of its market data into blockchain infrastructure
-  - Friday's Russell rebalance may stoke more volatility in nervous stock market - Reuters
-  - Investors dig into India's stock market as China flounders, discount risks - Reuters
-  - German leftwing terrorism on the rise, spy agency warns
+  - Nasdaq brings proprietary market data onchain through Pyth
+  - US stocks chalk up biggest quarterly gain in six years
+  - S&P 500, Nasdaq post best quarter since 2020 despite Iran war - Reuters
+  - Tech selloff stirs bubble fears in US stock market - Reuters
+  - AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향 해설
-- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 64.0
+- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 53.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -275,6 +276,5 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Investors dig into India's stock market as China flounders, discount risks - Reuters
+  - Nike earnings, revenue top estimates even as China sales drop 12%
   - 1. The Grand Design to Pressure China
-  - Starmer’s £15bn defence plan leaves short-term gaps, say former officers

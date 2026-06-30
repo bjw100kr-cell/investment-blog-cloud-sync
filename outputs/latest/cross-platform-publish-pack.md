@@ -1,6 +1,6 @@
 # Cross-Platform Publish Pack
 
-- generated_at: `2026-06-30T20:36:19.995238+00:00`
+- generated_at: `2026-06-30T20:45:28.955315+00:00`
 - selected_count: `4`
 - manual_selected_count: `4`
 - automation_policy: `automation-first`
@@ -17,13 +17,13 @@
 - status: `ready_to_publish_candidates`
 
 #### 후보 글
-- [2] 비트코인 핵심 흐름 해설 | keyword=bitcoin | score=120.0 | quality=unknown | date=2026-07-01
+- [1] 비트코인 핵심 흐름 해설 | keyword=bitcoin | score=120.0 | quality=unknown | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
 - [8] 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 | keyword=seo_bitcoin_4 | score=119.5 | quality=unknown | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
-- [9] 비트코인 핵심 흐름 ETF·규제 이슈 정리 | keyword=seo_bitcoin_5 | score=116.5 | quality=unknown | date=2026-07-01
+- [10] 비트코인 핵심 흐름 ETF·규제 이슈 정리 | keyword=seo_bitcoin_6 | score=116.5 | quality=unknown | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html`
-- [10] 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_6 | score=113.5 | quality=unknown | date=2026-07-01
+- [12] 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_8 | score=113.5 | quality=unknown | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html`
 
 ### WordPress (자동)
@@ -34,13 +34,13 @@
 - status: `waiting_for_credentials`
 
 #### 후보 글
-- [2] 비트코인 핵심 흐름 해설 | keyword=bitcoin | score=120.0 | quality=unknown | date=2026-07-01
+- [1] 비트코인 핵심 흐름 해설 | keyword=bitcoin | score=120.0 | quality=unknown | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
 - [8] 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 | keyword=seo_bitcoin_4 | score=119.5 | quality=unknown | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
-- [9] 비트코인 핵심 흐름 ETF·규제 이슈 정리 | keyword=seo_bitcoin_5 | score=116.5 | quality=unknown | date=2026-07-01
+- [10] 비트코인 핵심 흐름 ETF·규제 이슈 정리 | keyword=seo_bitcoin_6 | score=116.5 | quality=unknown | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html`
-- [10] 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_6 | score=113.5 | quality=unknown | date=2026-07-01
+- [12] 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_8 | score=113.5 | quality=unknown | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html`
 
 ## 수동 채널
@@ -66,13 +66,13 @@
   - 업로드 대상이 여러 개면 `1번 후보 -> 발행 -> 다음 후보`로 순서 유지가 효율적입니다.
 
 #### 후보 글 (복사 대상)
-- [2] 비트코인 핵심 흐름 해설 | keyword=bitcoin | score=120.0 | quality=pass | date=2026-07-01
+- [1] 비트코인 핵심 흐름 해설 | keyword=bitcoin | score=120.0 | quality=pass | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
 - [8] 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 | keyword=seo_bitcoin_4 | score=119.5 | quality=pass | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
-- [9] 비트코인 핵심 흐름 ETF·규제 이슈 정리 | keyword=seo_bitcoin_5 | score=116.5 | quality=pass | date=2026-07-01
+- [10] 비트코인 핵심 흐름 ETF·규제 이슈 정리 | keyword=seo_bitcoin_6 | score=116.5 | quality=pass | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html`
-- [10] 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_6 | score=113.5 | quality=pass | date=2026-07-01
+- [12] 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_8 | score=113.5 | quality=pass | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html`
 
 ### 티스토리 (수동)
@@ -94,11 +94,11 @@
   - SEO 글이면 `해시태그`에 핵심 키워드 2~3개만 짧게 넣어 검색 유입을 확보하세요.
 
 #### 후보 글 (복사 대상)
-- [2] 비트코인 핵심 흐름 해설 | keyword=bitcoin | score=120.0 | quality=pass | date=2026-07-01
+- [1] 비트코인 핵심 흐름 해설 | keyword=bitcoin | score=120.0 | quality=pass | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
 - [8] 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 | keyword=seo_bitcoin_4 | score=119.5 | quality=pass | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
-- [9] 비트코인 핵심 흐름 ETF·규제 이슈 정리 | keyword=seo_bitcoin_5 | score=116.5 | quality=pass | date=2026-07-01
+- [10] 비트코인 핵심 흐름 ETF·규제 이슈 정리 | keyword=seo_bitcoin_6 | score=116.5 | quality=pass | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html`
-- [10] 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_6 | score=113.5 | quality=pass | date=2026-07-01
+- [12] 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 | keyword=seo_bitcoin_8 | score=113.5 | quality=pass | date=2026-07-01
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html`

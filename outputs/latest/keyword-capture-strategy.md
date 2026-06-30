@@ -2,7 +2,7 @@
 
 현재 잡힌 키워드를 어떤 글 타입과 내부링크 경로로 받아먹을지 정리한 운영 카드입니다.
 
-- generated_at: `2026-06-30T16:38:35.669092+00:00`
+- generated_at: `2026-06-30T20:45:27.041650+00:00`
 
 ## 1. fomc
 
@@ -10,7 +10,7 @@
 - pattern_name: `news_what_it_means`
 - capture_route: `breaking_to_evergreen`
 - route_description: 당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.
-- demand_signal_score: `5400`
+- demand_signal_score: `5900`
 - search_intent_angle: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
 - pattern_must_have:
   - 무슨 일이 있었는지 1문단 요약
@@ -24,8 +24,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - sources:
-  - CNBC Top News
   - Federal Reserve Monetary Policy Press
+  - Financial Times World
   - MarketWatch Breaking News
   - NYT Business
   - Reuters Markets via Google News RSS
@@ -60,8 +60,8 @@
 - pattern_name: `search_explainer`
 - capture_route: `search_entry_to_internal_links`
 - route_description: 검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.
-- demand_signal_score: `0`
-- search_intent_angle: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- demand_signal_score: `3200`
+- search_intent_angle: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - pattern_must_have:
   - 제목에서 핵심 키워드와 독자 질문을 함께 드러낼 것
   - 도입 3문장 안에 왜 지금 읽어야 하는지 답할 것
@@ -74,8 +74,10 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - sources:
-  - CoinDesk RSS
+  - Cointelegraph
+  - Financial Times Home
   - Financial Times World
+  - MarketWatch Breaking News
   - Reuters Markets via Google News RSS
 
 ## 4. china
@@ -85,7 +87,7 @@
 - capture_route: `search_entry_to_internal_links`
 - route_description: 검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.
 - demand_signal_score: `0`
-- search_intent_angle: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- search_intent_angle: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
 - pattern_must_have:
   - 제목에서 핵심 키워드와 독자 질문을 함께 드러낼 것
   - 도입 3문장 안에 왜 지금 읽어야 하는지 답할 것
@@ -98,18 +100,17 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - sources:
-  - Financial Times World
-  - Reuters Markets via Google News RSS
+  - CNBC Top News
   - 무역킹 Trade King YouTube
 
-## 5. treasury_yields
+## 5. dollar
 
-- recommended_title: 미국채 금리 변화 해설
+- recommended_title: 달러 흐름 해설
 - pattern_name: `search_explainer`
 - capture_route: `search_entry_to_internal_links`
 - route_description: 검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.
-- demand_signal_score: `3500`
-- search_intent_angle: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- demand_signal_score: `3600`
+- search_intent_angle: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
 - pattern_must_have:
   - 제목에서 핵심 키워드와 독자 질문을 함께 드러낼 것
   - 도입 3문장 안에 왜 지금 읽어야 하는지 답할 것
@@ -124,5 +125,6 @@
 - sources:
   - CoinDesk RSS
   - Cointelegraph
-  - Investing.com Crypto News
-  - Reuters Markets via Google News RSS
+  - Financial Times Home
+  - MarketWatch Breaking News
+  - NYT Business

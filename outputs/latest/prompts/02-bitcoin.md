@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules",
     "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
-    "Bitcoin’s quiet $59,000-$60,000 range is starting to look dangerous",
-    "Here’s what happened in crypto today",
-    "Strategy's new plan divides industry observers even as MSTR, STRC climb",
-    "Theo becomes first crypto-native investor in Fidelity tokenized fund"
+    "Financial companies join forces for US dollar stablecoin, keeping reserve earnings",
+    "Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen",
+    "AI’s power crunch turns Bitcoin miners’ grid access into an asset"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

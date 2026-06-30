@@ -14,13 +14,13 @@
 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Nasdaq expands distribution of its market data into blockchain infrastructure` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+예를 들어 `Nasdaq brings proprietary market data onchain through Pyth` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Nasdaq expands distribution of its market data into blockchain infrastructure`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Nasdaq brings proprietary market data onchain through Pyth`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `나스닥과 S&P500 상대 강도`, 다른 하나는 `미국채 10년물 금리`입니다.
 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -68,7 +68,7 @@
 
 ## 출처 체크
 
-- 주요 참고 소스: CoinDesk RSS, Financial Times World, Reuters Markets via Google News RSS
+- 주요 참고 소스: Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 발행 전 재확인: 나스닥/S&P/미국 증시 수치와 기준 시각 재확인
 - 발행 전 재확인: 지수 하락/상승 원인을 한 문장으로 단정하지 않기
 - 발행 전 재확인: 채권·달러·빅테크와의 연결 문장 교차 점검

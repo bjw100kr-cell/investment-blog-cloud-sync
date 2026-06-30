@@ -113,8 +113,8 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
   "source_names": [
-    "CNBC Top News",
     "Federal Reserve Monetary Policy Press",
+    "Financial Times World",
     "MarketWatch Breaking News",
     "NYT Business",
     "Reuters Markets via Google News RSS"
@@ -183,8 +183,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 136.5,
-    "search_score": 136.5,
+    "total_score": 125.5,
+    "search_score": 125.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,

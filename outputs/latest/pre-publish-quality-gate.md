@@ -21,7 +21,7 @@
 - keyword: `fomc`
 - source_group: `main`
 - status: `pass`
-- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -46,7 +46,7 @@
 - keyword: `bitcoin`
 - source_group: `main`
 - status: `pass`
-- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -71,7 +71,7 @@
 - keyword: `us_index_flow`
 - source_group: `main`
 - status: `pass`
-- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -96,7 +96,7 @@
 - keyword: `china`
 - source_group: `main`
 - status: `pass`
-- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -121,7 +121,7 @@
 - keyword: `seo_fomc_1`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-fomc-이후-시장이-주식과-코인에-미치는-영향.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-fomc-이후-시장이-주식과-코인에-미치는-영향.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -146,7 +146,7 @@
 - keyword: `seo_fomc_2`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-fomc-이후-시장에서-다음으로-봐야-할-체크포인트-5가지.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-fomc-이후-시장에서-다음으로-봐야-할-체크포인트-5가지.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -171,7 +171,7 @@
 - keyword: `seo_fomc_3`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-fomc-이후-시장-초보자-가이드-용어부터-시장-반응까지.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-fomc-이후-시장-초보자-가이드-용어부터-시장-반응까지.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -196,7 +196,7 @@
 - keyword: `seo_bitcoin_4`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -218,10 +218,10 @@
 
 ## 비트코인 핵심 흐름 ETF·규제 이슈 정리
 
-- keyword: `seo_bitcoin_5`
+- keyword: `seo_bitcoin_6`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -243,10 +243,10 @@
 
 ## 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리
 
-- keyword: `seo_bitcoin_6`
+- keyword: `seo_bitcoin_8`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -268,10 +268,10 @@
 
 ## 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_us_index_flow_7`
+- keyword: `seo_us_index_flow_5`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/07-미국-증시-지수-흐름-관련-대표-종목-한눈에-보기.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/07-미국-증시-지수-흐름-관련-대표-종목-한눈에-보기.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -293,10 +293,10 @@
 
 ## 미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나
 
-- keyword: `seo_us_index_flow_8`
+- keyword: `seo_us_index_flow_7`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/08-미국-증시-지수-흐름-공급망-정리-누가-수혜를-보나.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/08-미국-증시-지수-흐름-공급망-정리-누가-수혜를-보나.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -321,7 +321,7 @@
 - keyword: `seo_us_index_flow_9`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/09-미국-증시-지수-흐름-etf-지수-대표-기업-정리.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/09-미국-증시-지수-흐름-etf-지수-대표-기업-정리.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.

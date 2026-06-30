@@ -85,7 +85,7 @@
 
 ```json
 {
-  "keyword": "seo_bitcoin_6",
+  "keyword": "seo_bitcoin_8",
   "source_keyword": "bitcoin",
   "recommended_title": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리",
   "alternate_titles": [

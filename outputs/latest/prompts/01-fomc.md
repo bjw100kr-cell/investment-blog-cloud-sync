@@ -108,8 +108,8 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
-    "CNBC Top News",
     "Federal Reserve Monetary Policy Press",
+    "Financial Times World",
     "MarketWatch Breaking News",
     "NYT Business",
     "Reuters Markets via Google News RSS"

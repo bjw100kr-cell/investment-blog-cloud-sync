@@ -123,7 +123,7 @@
 ## 비트코인 핵심 흐름 ETF·규제 이슈 정리
 
 - source_group: `seo`
-- keyword: `seo_bitcoin_5`
+- keyword: `seo_bitcoin_6`
 - category: `crypto`
 - 대표 이미지: Pexels / query `bitcoin blockchain abstract blue finance` / search https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/
 - license: Pexels License / https://www.pexels.com/license/
@@ -137,7 +137,7 @@
 ## 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리
 
 - source_group: `seo`
-- keyword: `seo_bitcoin_6`
+- keyword: `seo_bitcoin_8`
 - category: `crypto`
 - 대표 이미지: Pexels / query `bitcoin blockchain abstract blue finance` / search https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/
 - license: Pexels License / https://www.pexels.com/license/
@@ -151,7 +151,7 @@
 ## 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기
 
 - source_group: `seo`
-- keyword: `seo_us_index_flow_7`
+- keyword: `seo_us_index_flow_5`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `technology stocks office finance abstract` / search https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - license: Unsplash License / https://unsplash.com/license
@@ -165,7 +165,7 @@
 ## 미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나
 
 - source_group: `seo`
-- keyword: `seo_us_index_flow_8`
+- keyword: `seo_us_index_flow_7`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `technology stocks office finance abstract` / search https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - license: Unsplash License / https://unsplash.com/license

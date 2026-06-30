@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-06-30T16:38:35.669092+00:00`
+- 생성 시각: `2026-06-30T20:45:27.041650+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,53 +106,54 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `fomc`: score 42, source_count 5, sources CNBC Top News, Federal Reserve Monetary Policy Press, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 47, source_count 5, sources Federal Reserve Monetary Policy Press, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - `bitcoin`: score 41, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `treasury_yields`: score 23, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `dollar`: score 15, source_count 4, sources CoinDesk RSS, Cointelegraph, Financial Times Home, NYT Business
-- `us_index_flow`: score 13, source_count 3, sources CoinDesk RSS, Financial Times World, Reuters Markets via Google News RSS
-- `oil`: score 13, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
-- `china`: score 9, source_count 3, sources Financial Times World, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
+- `dollar`: score 24, source_count 5, sources CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business
+- `us_index_flow`: score 20, source_count 5, sources Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
+- `crypto_etf`: score 10, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
+- `treasury_yields`: score 10, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `ethereum`: score 9, source_count 3, sources CoinDesk RSS, Cointelegraph, Financial Times YouTube
 - `us_big_tech`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `crypto_etf`: score 6, source_count 1, sources Investing.com Crypto News
-- `ethereum`: score 5, source_count 2, sources CNBC Top News, Financial Times YouTube
+- `china`: score 6, source_count 2, sources CNBC Top News, 무역킹 Trade King YouTube
 
 ## 오늘의 글감 후보
 
-- `fomc`: score 42, headlines 11
+- `fomc`: score 47, headlines 13
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Minutes of the Federal Open Market Committee, April 28-29, 2026
 - `bitcoin`: score 41, headlines 13
+  - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
   - Jefferies warns of crypto market volatility as Clarity Act faces Senate test
-  - Bitcoin’s quiet $59,000-$60,000 range is starting to look dangerous
-  - Here’s what happened in crypto today
-- `treasury_yields`: score 23, headlines 7
+  - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
+- `dollar`: score 24, headlines 8
+  - Why OpenUSD's 'real threat' that tanked Circle stock still faces a steep uphill battle for adoption
+  - Circle craters 17% as Stripe, Coinbase and BlackRock back rival stablecoin network
+  - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
+- `us_index_flow`: score 20, headlines 7
+  - Nasdaq brings proprietary market data onchain through Pyth
+  - US stocks chalk up biggest quarterly gain in six years
+  - S&P 500, Nasdaq post best quarter since 2020 despite Iran war - Reuters
+- `ai_semiconductors`: score 11, headlines 4
+  - Anthropic launches AI drug discovery program, joining tech giants in betting on healthcare
+  - US stocks chalk up biggest quarterly gain in six years
+  - The chip rally has a dark side — and a rare market risk is at its highest level since 2015
+- `crypto_etf`: score 10, headlines 3
+  - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
+  - Bitcoin weak below $60k as rate jitters, ETF outflows persist
+  - Bitcoin ticks up above $60k, but heads for quarterly loss as ETF outflows persist
+- `treasury_yields`: score 10, headlines 3
   - MetaMask launches Money Account with stablecoin yield and spending in one wallet
-  - New York Life's $800 billion asset manager makes tokenization debut with Centrifuge fund
   - MetaMask launches stablecoin yield account with card spending
-- `dollar`: score 15, headlines 5
-  - Circle slides 13% as Stripe, Coinbase and BlackRock back rival stablecoin network
-  - MetaMask launches stablecoin yield account with card spending
-  - Spiko links EU regulated T-bill funds to Coinbase stablecoin rails
-- `oil`: score 13, headlines 5
-  - Oil prices set for steep monthly drop as Trump, Iran issue mixed messages on talks in Qatar
-  - Ukraine argues it can legally attack Russia’s shadow fleet
-  - Oil market blind spots give traders a nasty headache - Reuters
-- `us_index_flow`: score 13, headlines 4
-  - Nasdaq expands distribution of its market data into blockchain infrastructure
-  - Friday's Russell rebalance may stoke more volatility in nervous stock market - Reuters
-  - Investors dig into India's stock market as China flounders, discount risks - Reuters
-- `china`: score 9, headlines 3
-  - Investors dig into India's stock market as China flounders, discount risks - Reuters
-  - 1. The Grand Design to Pressure China
-  - Starmer’s £15bn defence plan leaves short-term gaps, say former officers
+  - Solidion Technology plans to buy SpaceX shares as treasury asset
+- `ethereum`: score 9, headlines 3
+  - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
+  - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
+  - A renewable energy revolution? | FT Rethink
 - `us_big_tech`: score 7, headlines 2
   - MetaMask launches Money Account with stablecoin yield and spending in one wallet
   - MetaMask launches stablecoin yield account with card spending
-- `crypto_etf`: score 6, headlines 2
-  - Bitcoin weak below $60k as rate jitters, ETF outflows persist
-  - Bitcoin ticks up above $60k, but heads for quarterly loss as ETF outflows persist
-- `ethereum`: score 5, headlines 2
-  - Cleveland Fed President Hammack sees AI fueling inflation, says rate hikes may be necessary
-  - A renewable energy revolution? | FT Rethink
+- `china`: score 6, headlines 2
+  - Nike earnings, revenue top estimates even as China sales drop 12%
+  - 1. The Grand Design to Pressure China

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T16:38:35.669092+00:00",
+  "generated_at": "2026-06-30T20:45:27.041650+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -18,8 +18,8 @@
       "total_score": 97.0,
       "monetization_score": 15,
       "source_names": [
-        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
+        "Financial Times World",
         "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
@@ -40,12 +40,14 @@
     {
       "keyword": "us_index_flow",
       "recommended_title": "미국 증시 지수 흐름 해설",
-      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
-      "total_score": 74.0,
+      "reason": "복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "total_score": 84.0,
       "monetization_score": 15,
       "source_names": [
-        "CoinDesk RSS",
+        "Cointelegraph",
+        "Financial Times Home",
         "Financial Times World",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ]
     }
@@ -61,16 +63,6 @@
       "weighted_priority_score": 16.5
     },
     {
-      "category": "global-sector",
-      "post_count": 2,
-      "keywords": [
-        "us_index_flow",
-        "china"
-      ],
-      "avg_monetization_score": 14.5,
-      "weighted_priority_score": 15.23
-    },
-    {
       "category": "macro",
       "post_count": 1,
       "keywords": [
@@ -78,6 +70,16 @@
       ],
       "avg_monetization_score": 15.0,
       "weighted_priority_score": 15.0
+    },
+    {
+      "category": "global-sector",
+      "post_count": 2,
+      "keywords": [
+        "us_index_flow",
+        "china"
+      ],
+      "avg_monetization_score": 14.0,
+      "weighted_priority_score": 14.7
     }
   ],
   "brand_lane_summary": [
@@ -115,7 +117,7 @@
       "keywords": [
         "china"
       ],
-      "avg_monetization_score": 14.0
+      "avg_monetization_score": 13.0
     }
   ],
   "query_watchlist": [],
@@ -137,7 +139,7 @@
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "dollar",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -145,7 +147,7 @@
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "dollar",
+      "keyword": "us_index_flow",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -171,7 +173,7 @@
     "days_scheduled": 7
   },
   "tone_review": {
-    "average_score": 100.0,
+    "average_score": 92.0,
     "target_score": 75,
     "evaluated_count": 4,
     "skipped_count": 0,
@@ -179,41 +181,39 @@
       {
         "keyword": "fomc",
         "recommended_title": "FOMC 이후 시장 해설",
-        "score": 100,
+        "score": 92,
         "robotic_phrase_hits": [],
         "reader_bridge_hits": [
           "쉽게 말해",
-          "투자자 입장에서 보면",
-          "여기서 진짜 봐야 할 건"
+          "투자자 입장에서 보면"
         ],
         "direct_address_hits": [
           "개인 투자자 입장에서는",
-          "여기서 먼저 봐야 할 건"
+          "이걸 내 돈 관점에서 보면"
         ],
         "interpretation_hits": [
-          "포인트를 한 줄로 줄이면",
-          "투자자 언어로 바꾸면",
-          "그럼 개인 투자자는 뭘 먼저 봐야 할까"
+          "투자자 언어로 바꾸면"
         ],
         "uncertainty_hits": [
           "가능성",
           "시나리오",
           "다만",
-          "반면",
-          "변수"
+          "반면"
         ],
-        "warnings": [],
-        "paragraph_count": 28,
-        "short_paragraphs": 21,
+        "warnings": [
+          "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
+        ],
+        "paragraph_count": 32,
+        "short_paragraphs": 23,
         "long_paragraphs": 2,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
-        "dominant_sentence_ending_ratio": 0.102
+        "dominant_sentence_ending_ratio": 0.106
       },
       {
         "keyword": "bitcoin",
         "recommended_title": "비트코인 핵심 흐름 해설",
-        "score": 100,
+        "score": 92,
         "robotic_phrase_hits": [],
         "reader_bridge_hits": [
           "쉽게 말해",
@@ -221,32 +221,30 @@
         ],
         "direct_address_hits": [
           "개인 투자자 입장에서는",
-          "여기서 먼저 봐야 할 건"
+          "독자 입장에서 중요한 건"
         ],
         "interpretation_hits": [
-          "포인트를 한 줄로 줄이면",
-          "이걸 가격이 아니라 구조로 보면",
-          "그럼 여기서 먼저 확인할 건 뭘까"
+          "이걸 가격이 아니라 구조로 보면"
         ],
         "uncertainty_hits": [
           "가능성",
           "시나리오",
-          "다만",
-          "반면",
-          "변수"
+          "다만"
         ],
-        "warnings": [],
-        "paragraph_count": 28,
-        "short_paragraphs": 21,
+        "warnings": [
+          "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
+        ],
+        "paragraph_count": 32,
+        "short_paragraphs": 23,
         "long_paragraphs": 3,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
-        "dominant_sentence_ending_ratio": 0.053
+        "dominant_sentence_ending_ratio": 0.094
       },
       {
         "keyword": "us_index_flow",
         "recommended_title": "미국 증시 지수 흐름 해설",
-        "score": 100,
+        "score": 92,
         "robotic_phrase_hits": [],
         "reader_bridge_hits": [
           "쉽게 말해",
@@ -255,59 +253,59 @@
         ],
         "direct_address_hits": [
           "개인 투자자 입장에서는",
-          "여기서 먼저 봐야 할 건"
+          "이걸 내 돈 관점에서 보면"
         ],
         "interpretation_hits": [
-          "포인트를 한 줄로 줄이면",
           "투자자 언어로 다시 풀면"
         ],
         "uncertainty_hits": [
           "가능성",
           "시나리오",
           "다만",
-          "반면",
           "변수"
         ],
-        "warnings": [],
-        "paragraph_count": 28,
-        "short_paragraphs": 21,
-        "long_paragraphs": 4,
-        "intro_direct_address": true,
-        "dominant_sentence_ending": "있습니다",
-        "dominant_sentence_ending_ratio": 0.07
-      },
-      {
-        "keyword": "china",
-        "recommended_title": "중국 변수와 시장 영향 해설",
-        "score": 100,
-        "robotic_phrase_hits": [],
-        "reader_bridge_hits": [
-          "쉽게 말해",
-          "투자자 입장에서 보면",
-          "여기서 진짜 봐야 할 건"
+        "warnings": [
+          "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
         ],
-        "direct_address_hits": [
-          "개인 투자자 입장에서는",
-          "여기서 먼저 봐야 할 건"
-        ],
-        "interpretation_hits": [
-          "포인트를 한 줄로 줄이면",
-          "투자자 언어로 다시 풀면"
-        ],
-        "uncertainty_hits": [
-          "가능성",
-          "시나리오",
-          "다만",
-          "반면",
-          "변수"
-        ],
-        "warnings": [],
-        "paragraph_count": 28,
+        "paragraph_count": 32,
         "short_paragraphs": 21,
         "long_paragraphs": 3,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
-        "dominant_sentence_ending_ratio": 0.103
+        "dominant_sentence_ending_ratio": 0.094
+      },
+      {
+        "keyword": "china",
+        "recommended_title": "중국 변수와 시장 영향 해설",
+        "score": 92,
+        "robotic_phrase_hits": [],
+        "reader_bridge_hits": [
+          "쉽게 말해",
+          "투자자 입장에서 보면"
+        ],
+        "direct_address_hits": [
+          "개인 투자자 입장에서는",
+          "독자 입장에서 중요한 건"
+        ],
+        "interpretation_hits": [
+          "투자자 언어로 다시 풀면"
+        ],
+        "uncertainty_hits": [
+          "가능성",
+          "시나리오",
+          "다만",
+          "반면",
+          "변수"
+        ],
+        "warnings": [
+          "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
+        ],
+        "paragraph_count": 32,
+        "short_paragraphs": 22,
+        "long_paragraphs": 2,
+        "intro_direct_address": true,
+        "dominant_sentence_ending": "있습니다",
+        "dominant_sentence_ending_ratio": 0.138
       }
     ]
   },
@@ -315,7 +313,7 @@
   "next_actions": [
     "다음 7일은 `거시경제` 레인을 메인 허브로 밀고, 다른 레인은 보조 내부링크와 후속 글로 연결합니다.",
     "Search Console 데이터가 아직 약하니, Google Trends와 당일 헤드라인으로 1차 주제 발굴을 이어갑니다.",
-    "문체 평균 점수 `100.0`로 기준 이상이므로, 이제는 제목 클릭률과 내부링크 동선을 더 키웁니다.",
+    "문체 평균 점수 `92.0`로 기준 이상이므로, 이제는 제목 클릭률과 내부링크 동선을 더 키웁니다.",
     "당일 속보 1개와 검색형 evergreen 1개를 짝으로 묶어, 트래픽과 누적 검색 유입을 동시에 노립니다."
   ],
   "monetization_ladders": {

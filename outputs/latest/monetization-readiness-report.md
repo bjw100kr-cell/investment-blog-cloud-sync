@@ -1,13 +1,13 @@
 # 수익화 준비도 리포트
 
-- 생성 시각: `2026-06-30T16:38:35.669092+00:00`
+- 생성 시각: `2026-06-30T20:45:27.041650+00:00`
 - 준비도 점수: `50.0`
 
 ## 단계별 상태
 
 - `content_engine`: ready
   - evidence: publish queue ready items 4개
-  - evidence: human tone average 100.0
+  - evidence: human tone average 92.0
   - next: 발행 가능한 글을 최소 1개 이상 유지하고, 매일 속보 1개 + evergreen 1개 조합을 계속 굴립니다.
 - `publishing_engine`: ready
   - evidence: publish-ready html items 4개
@@ -38,9 +38,9 @@
 
 ## 지금 바로 올릴 우선 글
 
-- `1` `fomc`: FOMC 이후 시장 해설 / 목표 페이지뷰와 체류시간 균형 확보 / CTA 환율·금리·미국증시 evergreen 글로 연결
-- `2` `bitcoin`: 비트코인 핵심 흐름 해설 / 목표 페이지뷰와 체류시간 균형 확보 / CTA ETF·규제·초보 가이드 글로 연결
-- `3` `us_index_flow`: 미국 증시 지수 흐름 해설 / 목표 페이지뷰와 체류시간 균형 확보 / CTA 실적·공급망·대표 종목 글로 연결
+- `1` `bitcoin`: 비트코인 핵심 흐름 해설 / 목표 페이지뷰와 체류시간 균형 확보 / CTA ETF·규제·초보 가이드 글로 연결
+- `2` `us_index_flow`: 미국 증시 지수 흐름 해설 / 목표 페이지뷰와 체류시간 균형 확보 / CTA 실적·공급망·대표 종목 글로 연결
+- `3` `china`: 중국 변수와 시장 영향 해설 / 목표 페이지뷰와 체류시간 균형 확보 / CTA 실적·공급망·대표 종목 글로 연결
 
 ## 다음 액션
 
