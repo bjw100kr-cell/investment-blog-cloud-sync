@@ -28,7 +28,7 @@ DEFAULT_FIRST_RUN_VARIABLES = [
     ("BLOGGER_REQUIRE_REVIEW_APPROVAL", "false", "자동 모드면 승인 단계 생략"),
     ("BLOGGER_AUTO_PUBLISH_POSTS", "true", "드래프트 업로드 후 즉시 공개"),
     ("BLOGGER_PUBLISH_ONLY_DUE_POSTS", "false", "발행일 제한 없이 동작"),
-    ("BLOGGER_MAX_POSTS_PER_RUN", "3", "처음부터 3건씩 처리(필요 시 조정)"),
+    ("BLOGGER_MAX_POSTS_PER_RUN", "1", "정기 실행은 하루 1건씩 처리"),
 ]
 
 WORDPRESS_LATER_SECRETS = [
@@ -107,6 +107,8 @@ def build_report() -> dict:
     links = repo_links(repo_slug if repo_slug != "OWNER/REPO 필요" else "")
 
     def env_value(key: str, fallback: str) -> str:
+        if key == "BLOGGER_MAX_POSTS_PER_RUN":
+            return fallback
         return env_values.get(key, fallback).strip() or fallback
 
     first_run_secret_rows = [

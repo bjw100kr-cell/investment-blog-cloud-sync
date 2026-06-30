@@ -273,7 +273,7 @@ jobs:
           BLOGGER_REQUIRE_REVIEW_APPROVAL: ${{ vars.BLOGGER_REQUIRE_REVIEW_APPROVAL || 'false' }}
           BLOGGER_AUTO_PUBLISH_POSTS: ${{ vars.BLOGGER_AUTO_PUBLISH_POSTS || 'true' }}
           BLOGGER_PUBLISH_ONLY_DUE_POSTS: ${{ vars.BLOGGER_PUBLISH_ONLY_DUE_POSTS || 'false' }}
-          BLOGGER_MAX_POSTS_PER_RUN: ${{ vars.BLOGGER_MAX_POSTS_PER_RUN || '3' }}
+          BLOGGER_MAX_POSTS_PER_RUN: "1"
           BLOGGER_ALLOW_REUPLOAD_SAME_CONTENT: ${{ vars.BLOGGER_ALLOW_REUPLOAD_SAME_CONTENT || 'false' }}
         run: python scripts/upload_blogger_drafts.py
 
