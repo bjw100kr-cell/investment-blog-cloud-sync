@@ -42,6 +42,9 @@ jobs:
           SEARCH_CONSOLE_CLIENT_ID: ${{ secrets.SEARCH_CONSOLE_CLIENT_ID }}
           SEARCH_CONSOLE_CLIENT_SECRET: ${{ secrets.SEARCH_CONSOLE_CLIENT_SECRET }}
           SEARCH_CONSOLE_REFRESH_TOKEN: ${{ secrets.SEARCH_CONSOLE_REFRESH_TOKEN }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
           SEARCH_CONSOLE_LAG_DAYS: ${{ vars.SEARCH_CONSOLE_LAG_DAYS || '3' }}
           SEARCH_CONSOLE_WINDOW_DAYS: ${{ vars.SEARCH_CONSOLE_WINDOW_DAYS || '7' }}
         run: python scripts/fetch_search_console_queries.py

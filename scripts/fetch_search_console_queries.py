@@ -13,8 +13,23 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_CSV = ROOT / "data/search_console_queries.csv"
 OUTPUT_JSON = ROOT / "outputs/latest/search-console-fetch-report.json"
 BLOGGER_STATE_JSON = ROOT / "outputs/latest/blogger-upload-state.json"
+ENV_PATH = ROOT / ".env"
 SEARCH_CONSOLE_URL = "https://www.googleapis.com/webmasters/v3/sites/{site_url}/searchAnalytics/query"
+SEARCH_CONSOLE_SITES_URL = "https://www.googleapis.com/webmasters/v3/sites"
 GOOGLE_TOKEN_URL = "https://oauth2.googleapis.com/token"
+
+
+def load_env_file() -> None:
+    if not ENV_PATH.exists():
+        return
+    for raw_line in ENV_PATH.read_text().splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        if key and key not in os.environ:
+            os.environ[key] = value.strip().strip("'").strip('"')
 
 
 def getenv_any(*names: str) -> str:
@@ -66,6 +81,20 @@ def infer_site_url() -> tuple[str, str]:
     return "", ""
 
 
+def origin_without_trailing_slash(value: str) -> str:
+    return normalize_site_url(value).rstrip("/")
+
+
+def site_url_matches(candidate: str, inferred: str) -> bool:
+    candidate_norm = origin_without_trailing_slash(candidate)
+    inferred_norm = origin_without_trailing_slash(inferred)
+    if not candidate_norm or not inferred_norm:
+        return False
+    if candidate_norm == inferred_norm:
+        return True
+    return candidate_norm.startswith("sc-domain:") and inferred_norm.endswith(candidate_norm.removeprefix("sc-domain:"))
+
+
 def refresh_access_token() -> str:
     existing = getenv_any("SEARCH_CONSOLE_ACCESS_TOKEN", "GOOGLE_ACCESS_TOKEN")
     if existing:
@@ -94,6 +123,24 @@ def refresh_access_token() -> str:
     if not token:
         raise RuntimeError("Failed to obtain Search Console access token")
     return token
+
+
+def list_accessible_sites(access_token: str) -> list[dict]:
+    response = requests.get(
+        SEARCH_CONSOLE_SITES_URL,
+        timeout=30,
+        headers={"Authorization": f"Bearer {access_token}"},
+    )
+    response.raise_for_status()
+    return response.json().get("siteEntry", [])
+
+
+def choose_accessible_site_url(inferred_site_url: str, accessible_sites: list[dict]) -> tuple[str, str]:
+    for site in accessible_sites:
+        candidate = site.get("siteUrl", "")
+        if site_url_matches(candidate, inferred_site_url):
+            return candidate, "search_console_sites_match"
+    return inferred_site_url, ""
 
 
 def query_rows(site_url: str, access_token: str, start_date: str, end_date: str) -> list:
@@ -130,6 +177,7 @@ def query_rows(site_url: str, access_token: str, start_date: str, end_date: str)
 
 
 def main() -> int:
+    load_env_file()
     site_url, site_url_source = infer_site_url()
     if not site_url:
         write_report(
@@ -148,6 +196,18 @@ def main() -> int:
         write_report({"available": False, "reason": str(exc), "rows_written": 0, "site_url": site_url, "site_url_source": site_url_source})
         return 0
 
+    accessible_sites = []
+    accessible_sites_error = ""
+    try:
+        accessible_sites = list_accessible_sites(access_token)
+    except Exception as exc:  # noqa: BLE001
+        accessible_sites_error = str(exc)
+    else:
+        selected_site_url, selected_source = choose_accessible_site_url(site_url, accessible_sites)
+        if selected_source:
+            site_url = selected_site_url
+            site_url_source = selected_source
+
     lag_days = int(os.getenv("SEARCH_CONSOLE_LAG_DAYS", "3"))
     window_days = int(os.getenv("SEARCH_CONSOLE_WINDOW_DAYS", "7"))
     end = date.today() - timedelta(days=lag_days)
@@ -165,6 +225,8 @@ def main() -> int:
                 "site_url_source": site_url_source,
                 "start_date": start.isoformat(),
                 "end_date": end.isoformat(),
+                "accessible_sites": accessible_sites,
+                "accessible_sites_error": accessible_sites_error,
             }
         )
         return 0
@@ -193,6 +255,8 @@ def main() -> int:
             "site_url_source": site_url_source,
             "start_date": start.isoformat(),
             "end_date": end.isoformat(),
+            "accessible_sites": accessible_sites,
+            "accessible_sites_error": accessible_sites_error,
         }
     )
     return 0

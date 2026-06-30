@@ -76,6 +76,32 @@ def mask(value: str) -> str:
 def integration_status(env_values: dict[str, str]) -> list[dict]:
     items = []
     for name, required_keys in INTEGRATIONS.items():
+        if name == "search_console":
+            site_ready = bool(
+                env_values.get("SEARCH_CONSOLE_SITE_URL")
+                or env_values.get("BLOG_BASE_URL")
+                or env_values.get("BLOGGER_PUBLIC_URL")
+            )
+            client_ready = bool(env_values.get("SEARCH_CONSOLE_CLIENT_ID") or env_values.get("GOOGLE_CLIENT_ID"))
+            secret_ready = bool(env_values.get("SEARCH_CONSOLE_CLIENT_SECRET") or env_values.get("GOOGLE_CLIENT_SECRET"))
+            refresh_ready = bool(env_values.get("SEARCH_CONSOLE_REFRESH_TOKEN") or env_values.get("GOOGLE_REFRESH_TOKEN"))
+            missing = []
+            if not site_ready:
+                missing.append("SEARCH_CONSOLE_SITE_URL or BLOG_BASE_URL")
+            if not client_ready:
+                missing.append("SEARCH_CONSOLE_CLIENT_ID or GOOGLE_CLIENT_ID")
+            if not secret_ready:
+                missing.append("SEARCH_CONSOLE_CLIENT_SECRET or GOOGLE_CLIENT_SECRET")
+            if not refresh_ready:
+                missing.append("SEARCH_CONSOLE_REFRESH_TOKEN or GOOGLE_REFRESH_TOKEN")
+            items.append(
+                {
+                    "name": name,
+                    "ready": not missing,
+                    "missing": missing,
+                }
+            )
+            continue
         missing = [key for key in required_keys if not env_values.get(key)]
         items.append(
             {

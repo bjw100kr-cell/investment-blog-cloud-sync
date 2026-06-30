@@ -24,6 +24,7 @@
 - `scripts/build_traffic_amplification_plan.py`와 `outputs/latest/traffic-amplification-plan.md`를 추가했습니다. 공개 Blogger URL, distribution snippets, traffic cluster, popular reads를 묶어 X/Threads, 텔레그램/카카오, 커뮤니티, 후속글 배포 순서와 예상 유입을 만듭니다.
 - `scripts/build_visitor_proof_board.py`와 `outputs/latest/visitor-proof-board.md`를 추가했습니다. `예상 방문자`와 `실측 방문자(Search Console 클릭)`를 분리하며, `proof_status=verified_achieved`가 되기 전까지 하루 200명 목표를 달성으로 처리하지 않습니다.
 - `scripts/fetch_search_console_queries.py`는 `SEARCH_CONSOLE_SITE_URL`이 없어도 `BLOG_BASE_URL` 또는 `blogger-upload-state.json`의 공개 Blogger URL에서 사이트 URL을 추론합니다.
+- `scripts/fetch_search_console_queries.py`는 로컬 단독 실행 시 `.env`를 읽고, GitHub Actions에서는 Search Console 전용 secrets가 없어도 기존 `GOOGLE_CLIENT_ID/GOOGLE_CLIENT_SECRET/GOOGLE_REFRESH_TOKEN`을 fallback으로 사용합니다.
 - `go-live-readiness` 기준 1차 실전(초안 테스트) 준비는 됨.
 - `git remote`는 `https://github.com/bjw100kr-cell/investment-blog-cloud-sync`로 연결됐고, `repo_connected=true`, `repo_accessible=true` 상태입니다.
 - 자동화 우선 채널은 `blogger`(1순위), `wordpress`(확장)로 고정.
@@ -41,7 +42,7 @@
   - `outputs/latest/user-review-shortlist.md`
   - `outputs/latest/review-preview-board.html`
 - `2026-07-01`: `session_memos`에 중복 저장된 동일 노트 1건을 정리하고, `CONVERSATION_SUMMARY.md`/`context_checkpoint`/`session_memos` 압축 저장을 갱신했습니다.
-- `2026-07-01`: Search Console 측정 보강 중 로컬 셸에서는 OAuth 환경값이 없어 `Search Console OAuth credentials are not set` 상태입니다. 단, 사이트 URL은 `https://gimu-economy-insight.blogspot.com/`로 자동 추론됨을 확인했습니다.
+- `2026-07-01`: Search Console 측정 보강 결과, OAuth 자격증명은 `.env`에서 읽히고 사이트 URL도 `https://gimu-economy-insight.blogspot.com/`로 추론됩니다. 현재 실제 병목은 `403 Forbidden`이며 `accessible_sites=[]`라서, 같은 Google 계정의 Search Console에 블로그 속성 등록/검증 또는 권한 연결이 필요합니다.
 
 ## 이번 세션에서 완료한 변경
 - 모델 효율 규칙 + 작업 큐 문서화(`MODEL_EFFICIENCY_POLICY.md`, `TASK_QUEUE.md`) 유지.

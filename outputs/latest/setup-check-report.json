@@ -129,10 +129,8 @@
     },
     {
       "name": "search_console",
-      "ready": false,
-      "missing": [
-        "SEARCH_CONSOLE_SITE_URL"
-      ]
+      "ready": true,
+      "missing": []
     },
     {
       "name": "openai_drafts",
@@ -359,6 +357,8 @@
     "outputs/latest/user-review-checkpoint.md",
     "outputs/latest/user-review-shortlist.json",
     "outputs/latest/user-review-shortlist.md",
+    "outputs/latest/visitor-proof-board.json",
+    "outputs/latest/visitor-proof-board.md",
     "outputs/latest/window-recovery-rollup-2026-07-01.md",
     "outputs/latest/window-recovery-rollup-latest.md",
     "outputs/latest/wordpress-upload-report.json"

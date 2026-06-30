@@ -106,6 +106,8 @@
 | SP-090 | Spark | completed | none | 하루 200명 방문 목표 기준 `daily-traffic-goal` 산출물을 만들고 운영 홈/콘솔/워크플로우에 연결 |
 | SP-091 | Spark | completed | none | 공개 URL 기반 `traffic-amplification-plan`을 추가해 발행 후 X/Threads, 텔레그램/카카오, 커뮤니티, 후속글 배포 문구와 예상 유입을 자동 생성 |
 | SP-092 | Spark | completed | none | `visitor-proof-board`를 추가해 하루 200명 목표의 예상치와 Search Console 실측 증거를 분리하고 운영 홈/콘솔/워크플로우에 연결 |
+| SP-093 | Spark | completed | none | Search Console fetch가 로컬 `.env`와 GitHub Actions의 기존 `GOOGLE_*` secrets를 fallback으로 사용하도록 보강하고, 접근 가능한 Search Console 사이트 목록 진단을 추가 |
+| SP-094 | Spark | pending | Search Console property verified | Search Console 속성 검증 후 `visitor-proof-board`에서 실제 클릭/노출과 200명 목표 달성 여부 재검증 |
 | HQ-001 | High | pending | none | public repo 공개 범위와 비공개 전환 기준 결정 |
 | HQ-002 | High | pending | none | OpenAI 유료 초안 생성 활성화 시점과 비용 한도 정책 결정 |
 | HQ-003 | High | pending | none | Search Console, GA4, AdSense, 뉴스레터 연결 우선순위 재정렬 |

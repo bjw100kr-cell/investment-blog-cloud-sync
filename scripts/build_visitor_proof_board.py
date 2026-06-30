@@ -62,6 +62,10 @@ def build_measurement_blockers(fetch_report: dict, setup: dict) -> list[str]:
     if not fetch_report.get("available", False):
         reason = fetch_report.get("reason", "Search Console 데이터를 가져오지 못했습니다.")
         blockers.append(f"Search Console 실측 데이터 없음: {reason}")
+        if fetch_report.get("accessible_sites") == [] and not fetch_report.get("accessible_sites_error"):
+            blockers.append("Search Console 접근 가능 사이트가 0개입니다. 블로그 속성 등록/검증 또는 계정 권한 연결이 필요합니다.")
+        if fetch_report.get("accessible_sites_error"):
+            blockers.append(f"Search Console 사이트 목록 조회 실패: {fetch_report.get('accessible_sites_error')}")
 
     integrations = integration_lookup(setup)
     if not integrations.get("search_console", {}).get("ready", False):
@@ -88,6 +92,7 @@ def build_next_actions(proof_status: str, blockers: list[str]) -> list[str]:
         ]
     actions = [
         "GitHub Actions secrets에 Search Console OAuth 값과 사이트 속성 URL을 연결해 실측 클릭을 가져옵니다.",
+        "Search Console에서 `https://gimu-economy-insight.blogspot.com/` 속성을 같은 Google 계정으로 등록/검증합니다.",
         "GA4 측정 ID를 연결해 검색 외 직접/재방문 트래픽까지 확인합니다.",
         "그 전까지는 projected 값과 Blogger 공개 URL 기준 확산 계획을 참고하되, 목표 달성 증거로 보지는 않습니다.",
     ]
