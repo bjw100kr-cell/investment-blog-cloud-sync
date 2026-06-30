@@ -26,6 +26,7 @@ FULL_DRAFT_REVIEW_SHEET_MD = ROOT / "outputs/latest/full-draft-review-sheet.md"
 DRAFT_POLISH_BOARD_MD = ROOT / "outputs/latest/draft-polish-board.md"
 DAILY_TRAFFIC_GOAL_MD = ROOT / "outputs/latest/daily-traffic-goal.md"
 TRAFFIC_CLUSTER_BOARD_MD = ROOT / "outputs/latest/traffic-cluster-board.md"
+TRAFFIC_AMPLIFICATION_PLAN_MD = ROOT / "outputs/latest/traffic-amplification-plan.md"
 POPULAR_READS_BOARD_MD = ROOT / "outputs/latest/popular-reads-board.md"
 RETENTION_CTA_BOARD_MD = ROOT / "outputs/latest/retention-cta-board.md"
 EDITORIAL_CALENDAR_MD = ROOT / "outputs/latest/editorial-calendar.md"
@@ -94,6 +95,7 @@ def build_report() -> dict:
             "draft_polish_board_md": str(DRAFT_POLISH_BOARD_MD),
             "daily_traffic_goal_md": str(DAILY_TRAFFIC_GOAL_MD),
             "traffic_cluster_board_md": str(TRAFFIC_CLUSTER_BOARD_MD),
+            "traffic_amplification_plan_md": str(TRAFFIC_AMPLIFICATION_PLAN_MD),
             "popular_reads_board_md": str(POPULAR_READS_BOARD_MD),
             "retention_cta_board_md": str(RETENTION_CTA_BOARD_MD),
             "editorial_calendar_md": str(EDITORIAL_CALENDAR_MD),
@@ -164,6 +166,7 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- draft polish board: `{report.get('review_paths', {}).get('draft_polish_board_md', '')}`")
     lines.append(f"- daily traffic goal: `{report.get('review_paths', {}).get('daily_traffic_goal_md', '')}`")
     lines.append(f"- traffic cluster board: `{report.get('review_paths', {}).get('traffic_cluster_board_md', '')}`")
+    lines.append(f"- traffic amplification plan: `{report.get('review_paths', {}).get('traffic_amplification_plan_md', '')}`")
     lines.append(f"- popular reads board: `{report.get('review_paths', {}).get('popular_reads_board_md', '')}`")
     lines.append(f"- retention cta board: `{report.get('review_paths', {}).get('retention_cta_board_md', '')}`")
     lines.append(f"- editorial calendar: `{report.get('review_paths', {}).get('editorial_calendar_md', '')}`")

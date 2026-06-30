@@ -24,6 +24,7 @@ FULL_DRAFT_REVIEW_SHEET_MD = ROOT / "outputs/latest/full-draft-review-sheet.md"
 DRAFT_POLISH_BOARD_MD = ROOT / "outputs/latest/draft-polish-board.md"
 DAILY_TRAFFIC_GOAL_MD = ROOT / "outputs/latest/daily-traffic-goal.md"
 TRAFFIC_CLUSTER_BOARD_MD = ROOT / "outputs/latest/traffic-cluster-board.md"
+TRAFFIC_AMPLIFICATION_PLAN_MD = ROOT / "outputs/latest/traffic-amplification-plan.md"
 POPULAR_READS_BOARD_MD = ROOT / "outputs/latest/popular-reads-board.md"
 RETENTION_CTA_BOARD_MD = ROOT / "outputs/latest/retention-cta-board.md"
 EDITORIAL_CALENDAR_MD = ROOT / "outputs/latest/editorial-calendar.md"
@@ -214,6 +215,8 @@ def build_report() -> dict:
         "daily_traffic_goal_uri": to_uri(DAILY_TRAFFIC_GOAL_MD),
         "traffic_cluster_board_md": str(TRAFFIC_CLUSTER_BOARD_MD),
         "traffic_cluster_board_uri": to_uri(TRAFFIC_CLUSTER_BOARD_MD),
+        "traffic_amplification_plan_md": str(TRAFFIC_AMPLIFICATION_PLAN_MD),
+        "traffic_amplification_plan_uri": to_uri(TRAFFIC_AMPLIFICATION_PLAN_MD),
         "popular_reads_board_md": str(POPULAR_READS_BOARD_MD),
         "popular_reads_board_uri": to_uri(POPULAR_READS_BOARD_MD),
         "retention_cta_board_md": str(RETENTION_CTA_BOARD_MD),
@@ -332,6 +335,7 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- draft polish board: `{report.get('draft_polish_board_md', '')}`")
     lines.append(f"- daily traffic goal: `{report.get('daily_traffic_goal_md', '')}`")
     lines.append(f"- traffic cluster board: `{report.get('traffic_cluster_board_md', '')}`")
+    lines.append(f"- traffic amplification plan: `{report.get('traffic_amplification_plan_md', '')}`")
     lines.append(f"- popular reads board: `{report.get('popular_reads_board_md', '')}`")
     lines.append(f"- retention cta board: `{report.get('retention_cta_board_md', '')}`")
     lines.append(f"- editorial calendar: `{report.get('editorial_calendar_md', '')}`")
@@ -483,6 +487,7 @@ def write_html(report: dict) -> None:
     draft_polish_board_uri = html.escape(report.get("draft_polish_board_uri", ""))
     daily_traffic_goal_uri = html.escape(report.get("daily_traffic_goal_uri", ""))
     traffic_cluster_board_uri = html.escape(report.get("traffic_cluster_board_uri", ""))
+    traffic_amplification_plan_uri = html.escape(report.get("traffic_amplification_plan_uri", ""))
     popular_reads_board_uri = html.escape(report.get("popular_reads_board_uri", ""))
     retention_cta_board_uri = html.escape(report.get("retention_cta_board_uri", ""))
     editorial_calendar_uri = html.escape(report.get("editorial_calendar_uri", ""))
@@ -761,6 +766,7 @@ def write_html(report: dict) -> None:
           <a class="main-link" href="{draft_polish_board_uri}" target="_blank" rel="noreferrer"><strong>Draft Polish Board</strong>사람이 쓴 느낌을 더 살리기 위한 문장 보정 보드</a>
           <a class="main-link" href="{daily_traffic_goal_uri}" target="_blank" rel="noreferrer"><strong>Daily Traffic Goal</strong>하루 200명 목표 기준 예상 방문자와 부족분을 보는 보드</a>
           <a class="main-link" href="{traffic_cluster_board_uri}" target="_blank" rel="noreferrer"><strong>Traffic Cluster Board</strong>메인 글과 후속 글 묶음으로 페이지뷰와 재방문을 키우는 우선순위 보드</a>
+          <a class="main-link" href="{traffic_amplification_plan_uri}" target="_blank" rel="noreferrer"><strong>Traffic Amplification Plan</strong>공개 URL을 어디에 어떤 문구로 공유할지 정리한 200명 목표 배포 플랜</a>
           <a class="main-link" href="{popular_reads_board_uri}" target="_blank" rel="noreferrer"><strong>Popular Reads Board</strong>메인 글 아래와 허브에 붙일 대표 읽을거리 후보 묶음</a>
           <a class="main-link" href="{retention_cta_board_uri}" target="_blank" rel="noreferrer"><strong>Retention CTA Board</strong>재방문과 나중 구독 전환까지 고려한 글 하단 CTA 운영 카드</a>
           <a class="main-link" href="{editorial_calendar_uri}" target="_blank" rel="noreferrer"><strong>Editorial Calendar</strong>이번 주 레인 균형과 stale 회피까지 반영한 7일 운영 캘린더</a>

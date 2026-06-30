@@ -175,6 +175,9 @@ jobs:
       - name: Build popular reads board
         run: python scripts/build_popular_reads_board.py
 
+      - name: Build traffic amplification plan
+        run: python scripts/build_traffic_amplification_plan.py
+
       - name: Build retention CTA board
         run: python scripts/build_retention_cta_board.py
 

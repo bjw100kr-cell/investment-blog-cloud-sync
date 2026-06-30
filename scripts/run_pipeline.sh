@@ -164,6 +164,8 @@ run_step "30.35/34" "Build traffic cluster board" python3 scripts/build_traffic_
 
 run_step "30.36/34" "Build popular reads board" python3 scripts/build_popular_reads_board.py
 
+run_step "30.365/34" "Build traffic amplification plan" python3 scripts/build_traffic_amplification_plan.py
+
 run_step "30.37/34" "Build retention CTA board" python3 scripts/build_retention_cta_board.py
 
 run_step "30.4/34" "Build first publish operator run preview" python3 scripts/first_publish_operator_run.py

@@ -21,6 +21,7 @@
 - 플러그인 사용 원칙은 `outputs/latest/plugin-signal-usage.md`에 저장했습니다.
 - `scripts/build_crypto_market_signal.py`가 `outputs/latest/crypto-market-signal.json/.md`를 만들고, `score_daily_topics.py`와 `build_pre_publish_quality_gate.py`가 이 신호를 반영합니다. GitHub Actions에도 포함되어 컴퓨터가 꺼져도 공개 API 기반 코인 시장 신호가 갱신됩니다.
 - 목표가 `하루 최소 200명 방문`으로 구체화되어 `scripts/build_daily_traffic_goal.py`와 `outputs/latest/daily-traffic-goal.md`를 추가했습니다. 이 보드는 상위 글 조합의 예상 방문자, 목표 부족분, GA4/Search Console/재방문 병목을 매일 보여줍니다.
+- `scripts/build_traffic_amplification_plan.py`와 `outputs/latest/traffic-amplification-plan.md`를 추가했습니다. 공개 Blogger URL, distribution snippets, traffic cluster, popular reads를 묶어 X/Threads, 텔레그램/카카오, 커뮤니티, 후속글 배포 순서와 예상 유입을 만듭니다.
 - `go-live-readiness` 기준 1차 실전(초안 테스트) 준비는 됨.
 - `git remote`는 `https://github.com/bjw100kr-cell/investment-blog-cloud-sync`로 연결됐고, `repo_connected=true`, `repo_accessible=true` 상태입니다.
 - 자동화 우선 채널은 `blogger`(1순위), `wordpress`(확장)로 고정.
