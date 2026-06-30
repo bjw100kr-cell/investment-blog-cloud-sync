@@ -184,6 +184,12 @@ jobs:
       - name: Build visitor proof board
         run: python scripts/build_visitor_proof_board.py
 
+      - name: Build Search Console setup card
+        run: python scripts/build_search_console_setup_card.py
+
+      - name: Build indexing priority pack
+        run: python scripts/build_indexing_priority_pack.py
+
       - name: Build retention CTA board
         run: python scripts/build_retention_cta_board.py
 

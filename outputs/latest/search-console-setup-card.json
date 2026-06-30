@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-06-30T21:26:53.465093+00:00",
+  "blog_url": "https://gimu-economy-insight.blogspot.com/",
+  "proof_status": "measurement_missing",
+  "search_console_available": false,
+  "accessible_site_count": 0,
+  "blockers": [
+    "Search Console 실측 데이터 없음: 403 Client Error: Forbidden for url: https://www.googleapis.com/webmasters/v3/sites/https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F/searchAnalytics/query",
+    "Search Console 접근 가능 사이트가 0개입니다. 블로그 속성 등록/검증 또는 계정 권한 연결이 필요합니다."
+  ],
+  "recommended_property": {
+    "type": "URL-prefix",
+    "value": "https://gimu-economy-insight.blogspot.com/",
+    "why": "Blogger 하위 도메인은 URL-prefix 속성으로 먼저 검증하는 것이 가장 단순합니다."
+  },
+  "open_links": {
+    "add_property": "https://search.google.com/search-console/welcome",
+    "settings": "https://search.google.com/search-console/settings",
+    "sitemaps": "https://search.google.com/search-console/sitemaps",
+    "url_inspection_latest_post": "https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc_074069453.html",
+    "search_preview": "https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F"
+  },
+  "sitemap_urls": [
+    "https://gimu-economy-insight.blogspot.com/sitemap.xml",
+    "https://gimu-economy-insight.blogspot.com/feeds/posts/default?orderby=UPDATED"
+  ],
+  "submit_first_urls": [
+    {
+      "keyword": "seo_fomc_1",
+      "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
+      "url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html",
+      "last_synced_at": "2026-06-30T21:22:51.535988+00:00"
+    },
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장 해설",
+      "url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc.html",
+      "last_synced_at": "2026-06-30T21:17:51.265969+00:00"
+    },
+    {
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향 해설",
+      "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html",
+      "last_synced_at": "2026-06-30T21:10:14.509777+00:00"
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 핵심 흐름 해설",
+      "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
+      "last_synced_at": "2026-06-30T21:03:21.108351+00:00"
+    },
+    {
+      "keyword": "us_index_flow",
+      "title": "미국 증시 지수 흐름 해설",
+      "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html",
+      "last_synced_at": "2026-06-30T20:56:56.802598+00:00"
+    },
+    {
+      "keyword": "seo_fomc_2",
+      "title": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지",
+      "url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html",
+      "last_synced_at": "2026-06-30T16:38:45.399571+00:00"
+    },
+    {
+      "keyword": "seo_fomc_3",
+      "title": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지",
+      "url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html",
+      "last_synced_at": "2026-06-30T16:04:44.044127+00:00"
+    },
+    {
+      "keyword": "seo_us_index_flow_9",
+      "title": "미국 증시 지수 흐름 ETF·지수·대표 기업 정리",
+      "url": "https://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html",
+      "last_synced_at": "2026-06-30T15:55:15.174934+00:00"
+    },
+    {
+      "keyword": "seo_us_index_flow_8",
+      "title": "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나",
+      "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html",
+      "last_synced_at": "2026-06-30T15:50:56.937044+00:00"
+    },
+    {
+      "keyword": "seo_us_index_flow_7",
+      "title": "미국 증시 지수 흐름 관련 대표 종목 한눈에 보기",
+      "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html",
+      "last_synced_at": "2026-06-30T15:50:54.013282+00:00"
+    }
+  ],
+  "verification_check_command": "python3 scripts/fetch_search_console_queries.py && python3 scripts/build_visitor_proof_board.py",
+  "success_condition": "Search Console API에서 accessible_sites가 1개 이상이고 visitor-proof-board가 실제 clicks/impressions를 표시"
+}

@@ -168,6 +168,10 @@ run_step "30.365/34" "Build traffic amplification plan" python3 scripts/build_tr
 
 run_step "30.366/34" "Build visitor proof board" python3 scripts/build_visitor_proof_board.py
 
+run_step "30.367/34" "Build Search Console setup card" python3 scripts/build_search_console_setup_card.py
+
+run_step "30.368/34" "Build indexing priority pack" python3 scripts/build_indexing_priority_pack.py
+
 run_step "30.37/34" "Build retention CTA board" python3 scripts/build_retention_cta_board.py
 
 run_step "30.4/34" "Build first publish operator run preview" python3 scripts/first_publish_operator_run.py

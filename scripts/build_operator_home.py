@@ -27,6 +27,8 @@ TRAFFIC_CLUSTER_BOARD_MD = ROOT / "outputs/latest/traffic-cluster-board.md"
 TRAFFIC_AMPLIFICATION_PLAN_MD = ROOT / "outputs/latest/traffic-amplification-plan.md"
 VISITOR_PROOF_BOARD_JSON = ROOT / "outputs/latest/visitor-proof-board.json"
 VISITOR_PROOF_BOARD_MD = ROOT / "outputs/latest/visitor-proof-board.md"
+SEARCH_CONSOLE_SETUP_CARD_MD = ROOT / "outputs/latest/search-console-setup-card.md"
+INDEXING_PRIORITY_PACK_MD = ROOT / "outputs/latest/indexing-priority-pack.md"
 POPULAR_READS_BOARD_MD = ROOT / "outputs/latest/popular-reads-board.md"
 RETENTION_CTA_BOARD_MD = ROOT / "outputs/latest/retention-cta-board.md"
 EDITORIAL_CALENDAR_MD = ROOT / "outputs/latest/editorial-calendar.md"
@@ -222,6 +224,10 @@ def build_report() -> dict:
         "traffic_amplification_plan_uri": to_uri(TRAFFIC_AMPLIFICATION_PLAN_MD),
         "visitor_proof_board_md": str(VISITOR_PROOF_BOARD_MD),
         "visitor_proof_board_uri": to_uri(VISITOR_PROOF_BOARD_MD),
+        "search_console_setup_card_md": str(SEARCH_CONSOLE_SETUP_CARD_MD),
+        "search_console_setup_card_uri": to_uri(SEARCH_CONSOLE_SETUP_CARD_MD),
+        "indexing_priority_pack_md": str(INDEXING_PRIORITY_PACK_MD),
+        "indexing_priority_pack_uri": to_uri(INDEXING_PRIORITY_PACK_MD),
         "popular_reads_board_md": str(POPULAR_READS_BOARD_MD),
         "popular_reads_board_uri": to_uri(POPULAR_READS_BOARD_MD),
         "retention_cta_board_md": str(RETENTION_CTA_BOARD_MD),
@@ -348,6 +354,8 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- traffic cluster board: `{report.get('traffic_cluster_board_md', '')}`")
     lines.append(f"- traffic amplification plan: `{report.get('traffic_amplification_plan_md', '')}`")
     lines.append(f"- visitor proof board: `{report.get('visitor_proof_board_md', '')}`")
+    lines.append(f"- search console setup card: `{report.get('search_console_setup_card_md', '')}`")
+    lines.append(f"- indexing priority pack: `{report.get('indexing_priority_pack_md', '')}`")
     lines.append(f"- popular reads board: `{report.get('popular_reads_board_md', '')}`")
     lines.append(f"- retention cta board: `{report.get('retention_cta_board_md', '')}`")
     lines.append(f"- editorial calendar: `{report.get('editorial_calendar_md', '')}`")
