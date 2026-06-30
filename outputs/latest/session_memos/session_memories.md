@@ -1,8 +1,6 @@
 # Session Memory Log
 
 # ... truncated - recent entries kept
-- [2026-07-01 00:50:22 KST] step-60-30.4553/39-Build minimum unblock flow
- - published=13 / processed=0 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:50:22 KST] step-65-30.458/39-Build top image action card
  - published=13 / processed=0 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:50:23 KST] step-70-30.7/39-Build pipeline workflow parity
@@ -160,4 +158,6 @@
 - [2026-07-01 06:09:11 KST] traffic amplification plan added
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 06:16:36 KST] visitor proof board added
+ - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
+- [2026-07-01 06:21:53 KST] search console fallback and verified-site diagnostic
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
