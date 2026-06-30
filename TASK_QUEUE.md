@@ -105,6 +105,7 @@
 | SP-089 | Spark | pending | none | Google Drive 플러그인으로 주간 검토 리포트 또는 키워드 보드를 내보내는 선택형 export 흐름 설계 |
 | SP-090 | Spark | completed | none | 하루 200명 방문 목표 기준 `daily-traffic-goal` 산출물을 만들고 운영 홈/콘솔/워크플로우에 연결 |
 | SP-091 | Spark | completed | none | 공개 URL 기반 `traffic-amplification-plan`을 추가해 발행 후 X/Threads, 텔레그램/카카오, 커뮤니티, 후속글 배포 문구와 예상 유입을 자동 생성 |
+| SP-092 | Spark | completed | none | `visitor-proof-board`를 추가해 하루 200명 목표의 예상치와 Search Console 실측 증거를 분리하고 운영 홈/콘솔/워크플로우에 연결 |
 | HQ-001 | High | pending | none | public repo 공개 범위와 비공개 전환 기준 결정 |
 | HQ-002 | High | pending | none | OpenAI 유료 초안 생성 활성화 시점과 비용 한도 정책 결정 |
 | HQ-003 | High | pending | none | Search Console, GA4, AdSense, 뉴스레터 연결 우선순위 재정렬 |

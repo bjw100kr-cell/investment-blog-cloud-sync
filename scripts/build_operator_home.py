@@ -25,6 +25,8 @@ DRAFT_POLISH_BOARD_MD = ROOT / "outputs/latest/draft-polish-board.md"
 DAILY_TRAFFIC_GOAL_MD = ROOT / "outputs/latest/daily-traffic-goal.md"
 TRAFFIC_CLUSTER_BOARD_MD = ROOT / "outputs/latest/traffic-cluster-board.md"
 TRAFFIC_AMPLIFICATION_PLAN_MD = ROOT / "outputs/latest/traffic-amplification-plan.md"
+VISITOR_PROOF_BOARD_JSON = ROOT / "outputs/latest/visitor-proof-board.json"
+VISITOR_PROOF_BOARD_MD = ROOT / "outputs/latest/visitor-proof-board.md"
 POPULAR_READS_BOARD_MD = ROOT / "outputs/latest/popular-reads-board.md"
 RETENTION_CTA_BOARD_MD = ROOT / "outputs/latest/retention-cta-board.md"
 EDITORIAL_CALENDAR_MD = ROOT / "outputs/latest/editorial-calendar.md"
@@ -174,6 +176,7 @@ def build_report() -> dict:
     publish_plan = load_json(PLATFORM_PUBLISH_PLAN_JSON)
     cloud = load_json(FIRST_CLOUD_RUN_VERIFICATION_JSON)
     quality_gate = load_json(PRE_PUBLISH_QUALITY_GATE_JSON)
+    visitor_proof = load_json(VISITOR_PROOF_BOARD_JSON)
     image_upgrade_queue = load_json(IMAGE_UPGRADE_QUEUE_JSON)
     image_leverage_board = load_json(IMAGE_LEVERAGE_BOARD_JSON)
     setup = load_json(SETUP_JSON)
@@ -217,6 +220,8 @@ def build_report() -> dict:
         "traffic_cluster_board_uri": to_uri(TRAFFIC_CLUSTER_BOARD_MD),
         "traffic_amplification_plan_md": str(TRAFFIC_AMPLIFICATION_PLAN_MD),
         "traffic_amplification_plan_uri": to_uri(TRAFFIC_AMPLIFICATION_PLAN_MD),
+        "visitor_proof_board_md": str(VISITOR_PROOF_BOARD_MD),
+        "visitor_proof_board_uri": to_uri(VISITOR_PROOF_BOARD_MD),
         "popular_reads_board_md": str(POPULAR_READS_BOARD_MD),
         "popular_reads_board_uri": to_uri(POPULAR_READS_BOARD_MD),
         "retention_cta_board_md": str(RETENTION_CTA_BOARD_MD),
@@ -270,6 +275,7 @@ def build_report() -> dict:
         "cross_platform_publish_pack_data": load_json(CROSS_PLATFORM_PUBLISH_PACK_JSON),
         "cloud_verification_ok": cloud.get("all_core_checks_passed", False),
         "quality_gate_summary": quality_gate.get("summary", {}),
+        "visitor_proof": visitor_proof,
         "image_upgrade_queue": image_upgrade_queue.get("items", [])[:4],
         "image_leverage_lanes": image_leverage_board.get("lanes", [])[:3],
         "channels": channels,
@@ -297,6 +303,11 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- cloud_verification_ok: `{report.get('cloud_verification_ok', False)}`")
     lines.append(f"- quality_needs_fix_count: `{report.get('quality_gate_summary', {}).get('needs_fix_count', 0)}`")
     lines.append(f"- quality_review_count: `{report.get('quality_gate_summary', {}).get('review_before_publish_count', 0)}`")
+    visitor_proof = report.get("visitor_proof", {})
+    if visitor_proof:
+        lines.append(f"- visitor_proof_status: `{visitor_proof.get('proof_status', '')}`")
+        lines.append(f"- actual_verified_visitors: `{visitor_proof.get('actual_verified_visitors', 0)}`")
+        lines.append(f"- visitor_proof_gap: `{visitor_proof.get('gap_to_verified_target', 0)}`")
     lines.append("")
     lines.append("## Single Next Action")
     lines.append("")
@@ -336,6 +347,7 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- daily traffic goal: `{report.get('daily_traffic_goal_md', '')}`")
     lines.append(f"- traffic cluster board: `{report.get('traffic_cluster_board_md', '')}`")
     lines.append(f"- traffic amplification plan: `{report.get('traffic_amplification_plan_md', '')}`")
+    lines.append(f"- visitor proof board: `{report.get('visitor_proof_board_md', '')}`")
     lines.append(f"- popular reads board: `{report.get('popular_reads_board_md', '')}`")
     lines.append(f"- retention cta board: `{report.get('retention_cta_board_md', '')}`")
     lines.append(f"- editorial calendar: `{report.get('editorial_calendar_md', '')}`")

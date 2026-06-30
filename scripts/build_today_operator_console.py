@@ -27,6 +27,8 @@ DRAFT_POLISH_BOARD_MD = ROOT / "outputs/latest/draft-polish-board.md"
 DAILY_TRAFFIC_GOAL_MD = ROOT / "outputs/latest/daily-traffic-goal.md"
 TRAFFIC_CLUSTER_BOARD_MD = ROOT / "outputs/latest/traffic-cluster-board.md"
 TRAFFIC_AMPLIFICATION_PLAN_MD = ROOT / "outputs/latest/traffic-amplification-plan.md"
+VISITOR_PROOF_BOARD_JSON = ROOT / "outputs/latest/visitor-proof-board.json"
+VISITOR_PROOF_BOARD_MD = ROOT / "outputs/latest/visitor-proof-board.md"
 POPULAR_READS_BOARD_MD = ROOT / "outputs/latest/popular-reads-board.md"
 RETENTION_CTA_BOARD_MD = ROOT / "outputs/latest/retention-cta-board.md"
 EDITORIAL_CALENDAR_MD = ROOT / "outputs/latest/editorial-calendar.md"
@@ -62,6 +64,7 @@ def build_report() -> dict:
     operator_run = load_json(FIRST_PUBLISH_OPERATOR_RUN_JSON)
     revenue_focus = load_json(DAILY_REVENUE_FOCUS_JSON)
     traffic_goal = load_json(DAILY_TRAFFIC_GOAL_JSON)
+    visitor_proof = load_json(VISITOR_PROOF_BOARD_JSON)
     roadmap = load_json(MONETIZATION_ROADMAP_JSON)
     image_upgrade_queue = load_json(IMAGE_UPGRADE_QUEUE_JSON)
     image_leverage_board = load_json(IMAGE_LEVERAGE_BOARD_JSON)
@@ -96,6 +99,7 @@ def build_report() -> dict:
             "daily_traffic_goal_md": str(DAILY_TRAFFIC_GOAL_MD),
             "traffic_cluster_board_md": str(TRAFFIC_CLUSTER_BOARD_MD),
             "traffic_amplification_plan_md": str(TRAFFIC_AMPLIFICATION_PLAN_MD),
+            "visitor_proof_board_md": str(VISITOR_PROOF_BOARD_MD),
             "popular_reads_board_md": str(POPULAR_READS_BOARD_MD),
             "retention_cta_board_md": str(RETENTION_CTA_BOARD_MD),
             "editorial_calendar_md": str(EDITORIAL_CALENDAR_MD),
@@ -125,6 +129,7 @@ def build_report() -> dict:
         },
         "revenue_path": revenue_focus.get("today_path", [])[:3],
         "traffic_goal": traffic_goal,
+        "visitor_proof": visitor_proof,
         "roadmap_phases": roadmap.get("phases", [])[:3],
         "image_upgrade_queue": image_upgrade_queue.get("items", [])[:3],
         "image_leverage_lanes": image_leverage_board.get("lanes", [])[:3],
@@ -167,6 +172,7 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- daily traffic goal: `{report.get('review_paths', {}).get('daily_traffic_goal_md', '')}`")
     lines.append(f"- traffic cluster board: `{report.get('review_paths', {}).get('traffic_cluster_board_md', '')}`")
     lines.append(f"- traffic amplification plan: `{report.get('review_paths', {}).get('traffic_amplification_plan_md', '')}`")
+    lines.append(f"- visitor proof board: `{report.get('review_paths', {}).get('visitor_proof_board_md', '')}`")
     lines.append(f"- popular reads board: `{report.get('review_paths', {}).get('popular_reads_board_md', '')}`")
     lines.append(f"- retention cta board: `{report.get('review_paths', {}).get('retention_cta_board_md', '')}`")
     lines.append(f"- editorial calendar: `{report.get('review_paths', {}).get('editorial_calendar_md', '')}`")
@@ -209,6 +215,11 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- status: `{traffic_goal.get('status', '')}`")
     for item in traffic_goal.get("top_path", [])[:4]:
         lines.append(f"- `{item.get('keyword', '')}` 예상 `{item.get('estimated_daily_visitors', 0)}`명: {item.get('title', '')}")
+    visitor_proof = report.get("visitor_proof", {})
+    if visitor_proof:
+        lines.append(f"- actual_verified: `{visitor_proof.get('actual_verified_visitors', 0)}`")
+        lines.append(f"- proof_status: `{visitor_proof.get('proof_status', '')}`")
+        lines.append(f"- proof_gap: `{visitor_proof.get('gap_to_verified_target', 0)}`")
     lines.append("")
     lines.append("## 2. 사용자 확인 명령")
     lines.append("")

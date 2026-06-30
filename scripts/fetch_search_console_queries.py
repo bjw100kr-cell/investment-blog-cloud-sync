@@ -12,6 +12,7 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_CSV = ROOT / "data/search_console_queries.csv"
 OUTPUT_JSON = ROOT / "outputs/latest/search-console-fetch-report.json"
+BLOGGER_STATE_JSON = ROOT / "outputs/latest/blogger-upload-state.json"
 SEARCH_CONSOLE_URL = "https://www.googleapis.com/webmasters/v3/sites/{site_url}/searchAnalytics/query"
 GOOGLE_TOKEN_URL = "https://oauth2.googleapis.com/token"
 
@@ -26,6 +27,43 @@ def getenv_any(*names: str) -> str:
 
 def write_report(payload: dict) -> None:
     OUTPUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2))
+
+
+def load_json(path: Path) -> dict:
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text())
+
+
+def normalize_site_url(value: str) -> str:
+    value = (value or "").strip()
+    if not value:
+        return ""
+    if not value.endswith("/"):
+        value += "/"
+    return value
+
+
+def infer_site_url() -> tuple[str, str]:
+    explicit = getenv_any("SEARCH_CONSOLE_SITE_URL")
+    if explicit:
+        return normalize_site_url(explicit), "SEARCH_CONSOLE_SITE_URL"
+
+    blog_base_url = getenv_any("BLOG_BASE_URL", "BLOGGER_PUBLIC_URL")
+    if blog_base_url:
+        return normalize_site_url(blog_base_url), "BLOG_BASE_URL"
+
+    state = load_json(BLOGGER_STATE_JSON)
+    items = state.get("items", {})
+    rows = items.values() if isinstance(items, dict) else items if isinstance(items, list) else []
+    for item in rows:
+        url = item.get("url", "")
+        if not url.startswith("http"):
+            continue
+        parts = url.split("/")
+        if len(parts) >= 3:
+            return normalize_site_url("/".join(parts[:3])), "blogger_upload_state"
+    return "", ""
 
 
 def refresh_access_token() -> str:
@@ -92,15 +130,22 @@ def query_rows(site_url: str, access_token: str, start_date: str, end_date: str)
 
 
 def main() -> int:
-    site_url = getenv_any("SEARCH_CONSOLE_SITE_URL")
+    site_url, site_url_source = infer_site_url()
     if not site_url:
-        write_report({"available": False, "reason": "SEARCH_CONSOLE_SITE_URL is not set", "rows_written": 0})
+        write_report(
+            {
+                "available": False,
+                "reason": "Search Console site URL is not set and could not be inferred",
+                "rows_written": 0,
+                "site_url_source": "",
+            }
+        )
         return 0
 
     try:
         access_token = refresh_access_token()
     except Exception as exc:  # noqa: BLE001
-        write_report({"available": False, "reason": str(exc), "rows_written": 0})
+        write_report({"available": False, "reason": str(exc), "rows_written": 0, "site_url": site_url, "site_url_source": site_url_source})
         return 0
 
     lag_days = int(os.getenv("SEARCH_CONSOLE_LAG_DAYS", "3"))
@@ -111,7 +156,17 @@ def main() -> int:
     try:
         rows = query_rows(site_url, access_token, start.isoformat(), end.isoformat())
     except Exception as exc:  # noqa: BLE001
-        write_report({"available": False, "reason": str(exc), "rows_written": 0})
+        write_report(
+            {
+                "available": False,
+                "reason": str(exc),
+                "rows_written": 0,
+                "site_url": site_url,
+                "site_url_source": site_url_source,
+                "start_date": start.isoformat(),
+                "end_date": end.isoformat(),
+            }
+        )
         return 0
 
     OUTPUT_CSV.parent.mkdir(parents=True, exist_ok=True)
@@ -135,6 +190,7 @@ def main() -> int:
             "available": True,
             "rows_written": len(rows),
             "site_url": site_url,
+            "site_url_source": site_url_source,
             "start_date": start.isoformat(),
             "end_date": end.isoformat(),
         }
