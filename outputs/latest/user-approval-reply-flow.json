@@ -1,0 +1,58 @@
+{
+  "reply": "bitcoin 글 먼저 진행",
+  "apply_mode": true,
+  "clear_enough_to_apply": true,
+  "approved_keywords": [
+    "bitcoin"
+  ],
+  "held_keywords": [],
+  "ambiguous_keywords": [],
+  "safety_note": "이 flow는 preview 에서는 멈추고, apply 일 때만 approval 반영 -> 게시 후보 재계산 -> Blogger draft 업로드 -> 검증 리포트 생성까지 이어집니다.",
+  "command_chain": [
+    "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/apply_user_approval_reply.py --reply \"bitcoin 글 먼저 진행\"",
+    "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/apply_user_approval_reply.py --reply \"bitcoin 글 먼저 진행\" --apply",
+    "python3 scripts/build_platform_publish_plan.py",
+    "python3 scripts/upload_blogger_drafts.py",
+    "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+  ],
+  "apply_chain_preview": [
+    "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/apply_user_approval_reply.py --reply \"bitcoin 글 먼저 진행\"",
+    "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/apply_user_approval_reply.py --reply \"bitcoin 글 먼저 진행\" --apply",
+    "python3 scripts/build_platform_publish_plan.py",
+    "python3 scripts/upload_blogger_drafts.py",
+    "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+  ],
+  "preview_result": {
+    "command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/apply_user_approval_reply.py --reply \"bitcoin 글 먼저 진행\"",
+    "returncode": 0,
+    "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/user-approval-reply-plan.md",
+    "stderr": ""
+  },
+  "execution_results": [
+    {
+      "command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/apply_user_approval_reply.py --reply \"bitcoin 글 먼저 진행\" --apply",
+      "returncode": 0,
+      "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/user-approval-reply-plan.md",
+      "stderr": ""
+    },
+    {
+      "command": "python3 scripts/build_platform_publish_plan.py",
+      "returncode": 0,
+      "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/platform-publish-plan.md",
+      "stderr": ""
+    },
+    {
+      "command": "python3 scripts/upload_blogger_drafts.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "/Users/bjw100kr/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020\n  warnings.warn("
+    },
+    {
+      "command": "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state",
+      "returncode": 0,
+      "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/first-cloud-run-verification.md",
+      "stderr": ""
+    }
+  ],
+  "success": true
+}

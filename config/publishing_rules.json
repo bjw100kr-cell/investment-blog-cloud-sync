@@ -13,7 +13,10 @@
     "crypto_etf": ["비트코인ETF", "이더리움ETF", "코인"],
     "china": ["중국", "세계흐름", "거시경제"],
     "tariffs_trade": ["관세", "무역", "세계흐름"],
-    "ai_semiconductors": ["AI", "반도체", "섹터분석", "미국증시"]
+    "ai_semiconductors": ["AI", "반도체", "섹터분석", "미국증시"],
+    "us_index_flow": ["미국증시", "나스닥", "S&P500", "지수해설"],
+    "us_big_tech": ["미국증시", "빅테크", "애플", "실적", "섹터분석"],
+    "ai_growth_stocks": ["미국증시", "AI주식", "팔란티어", "성장주", "섹터분석"]
   },
   "category_by_keyword": {
     "fomc": "macro",
@@ -28,7 +31,10 @@
     "crypto_etf": "crypto",
     "china": "global-sector",
     "tariffs_trade": "global-sector",
-    "ai_semiconductors": "global-sector"
+    "ai_semiconductors": "global-sector",
+    "us_index_flow": "global-sector",
+    "us_big_tech": "global-sector",
+    "ai_growth_stocks": "global-sector"
   },
   "category_hub_paths": {
     "macro": "site-foundation/hub-macro.md",

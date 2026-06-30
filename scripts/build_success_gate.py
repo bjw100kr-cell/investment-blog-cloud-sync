@@ -27,7 +27,10 @@ def build_gate() -> dict:
     env_filled = set(setup.get("env_keys_filled", []))
     git_info = setup.get("git") or {}
     has_commit = bool(git_info.get("has_commit", False))
-    repo_connected = (git_info.get("origin") or "") not in {"", "(not configured)"}
+    git_repo_connected = (git_info.get("origin") or "") not in {"", "(not configured)"}
+    github_repo_connected = bool(github_launch.get("repo_connected", False))
+    github_repo_accessible = bool(github_launch.get("repo_accessible", False))
+    repo_connected = bool(git_repo_connected and github_repo_connected)
 
     checks = [
         {
@@ -56,8 +59,8 @@ def build_gate() -> dict:
         },
         {
             "name": "github_repo_connected",
-            "ready": repo_connected,
-            "next_action": "bash scripts/bootstrap_github_remote.sh <YOUR_GITHUB_REPO_URL>",
+            "ready": repo_connected and github_repo_accessible,
+            "next_action": "bash scripts/bootstrap_github_remote.sh <OWNER/REPO>",
             "required": True,
         },
         {

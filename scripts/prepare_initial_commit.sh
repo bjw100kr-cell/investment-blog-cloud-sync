@@ -37,7 +37,7 @@ Initial commit created.
 Next steps:
 1. Create a GitHub repository, preferably named investment-blog-cloud-sync
 2. Connect and push in one step:
-   bash scripts/bootstrap_github_remote.sh <YOUR_GITHUB_REPO_URL>
+   bash scripts/bootstrap_github_remote.sh <OWNER/REPO>
 3. Check local readiness:
    python3 scripts/check_setup.py
 4. Add GitHub Actions secrets and run the workflow once

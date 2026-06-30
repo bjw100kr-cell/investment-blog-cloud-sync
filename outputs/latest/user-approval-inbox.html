@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>User Approval Inbox</title>
+  <style>
+    :root {
+      --bg: #f5efe7;
+      --panel: rgba(255, 252, 246, 0.95);
+      --ink: #171714;
+      --muted: #636158;
+      --line: #ddd4c6;
+      --accent: #8a362f;
+      --accent-soft: #f6e2dd;
+      --accent-alt: #285e58;
+      --accent-alt-soft: #e2f0ed;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Avenir Next", "Pretendard", "Apple SD Gothic Neo", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(138, 54, 47, 0.08), transparent 28%),
+        radial-gradient(circle at bottom right, rgba(40, 94, 88, 0.08), transparent 24%),
+        linear-gradient(180deg, #fbf8f2 0%, var(--bg) 100%);
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 18px 54px;
+    }
+    .hero, .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: 0 18px 40px rgba(32, 24, 12, 0.07);
+    }
+    .hero {
+      padding: 24px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      line-height: 0.96;
+      letter-spacing: -0.05em;
+    }
+    .muted, .meta {
+      color: var(--muted);
+    }
+    .reply-list {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .reply-item {
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fcf8f2;
+      font-weight: 600;
+    }
+    .grid {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .card {
+      padding: 20px;
+    }
+    .top {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 10px;
+      border-radius: 999px;
+      font-size: 0.76rem;
+      font-weight: 700;
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+    .badge.alt {
+      background: var(--accent-alt-soft);
+      color: var(--accent-alt);
+    }
+    .decision {
+      font-weight: 700;
+    }
+    h2 {
+      margin: 12px 0 8px;
+      font-size: 1.35rem;
+      line-height: 1.15;
+    }
+    h3 {
+      margin: 18px 0 10px;
+      font-size: 0.98rem;
+    }
+    p {
+      line-height: 1.62;
+    }
+    ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    code {
+      display: block;
+      margin-top: 10px;
+      padding: 12px 14px;
+      border-radius: 14px;
+      background: #171915;
+      color: #f8f3ea;
+      overflow-wrap: anywhere;
+      font-family: "SFMono-Regular", Consolas, monospace;
+    }
+    @media (max-width: 920px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <h1>User Approval Inbox</h1>
+      <p class="muted">이 화면은 사용자가 글을 읽고 승인 여부만 빠르게 답할 수 있도록 만든 확인 전용 인박스입니다.</p>
+      <p><strong>안전 원칙:</strong> 제가 먼저 이 화면으로 초안을 보여드리고, 사용자 최종 확인 전에는 실제 업로드가 계속 차단됩니다.</p>
+      <div class="reply-list">
+        <div class='reply-item'>`fomc` 글 먼저 진행</div><div class='reply-item'>`bitcoin` 먼저 검토, 이미지 보완 후 업로드 준비</div><div class='reply-item'>`FOMC 메인 말고 SEO 후속 글로 전환`</div><div class='reply-item'>둘 다 보류, 제목 톤만 조금 더 부드럽게 수정</div>
+      </div>
+      <div class="reply-list">
+        <div class='reply-item'><code>python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/apply_user_approval_reply.py --reply &quot;fomc 글 먼저 진행&quot;</code></div><div class='reply-item'><code>python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/apply_user_approval_reply.py --reply &quot;bitcoin 먼저 검토, 이미지 보완 후 업로드 준비&quot;</code></div><div class='reply-item'><code>python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/apply_user_approval_reply.py --reply &quot;fomc 글 먼저 진행&quot; --apply</code></div>
+      </div>
+      <div class="reply-list">
+        <div class='reply-item'><code>python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply &quot;fomc 글 먼저 진행&quot;</code></div><div class='reply-item'><code>python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply &quot;fomc 글 먼저 진행&quot; --apply</code></div>
+      </div>
+      <p class="muted">current review focus: file:///Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/current-review-focus.html</p>
+    </section>
+    <section class="grid">
+      
+            <article class="card">
+              <div class="top">
+                <span class="badge">fomc</span>
+                <span class="badge alt">ready now</span>
+              </div>
+              <h2>FOMC 이후 시장 해설</h2>
+              <p class="decision">이 글은 내용만 괜찮으면 바로 승인 후보입니다.</p>
+              <p class="meta">quality `pass`</p>
+              <p class='meta'>freshness `stale`</p>
+              <p class='meta'>지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.</p>
+              <p class='meta'>next action · 사용자 최종 확인 후 Blogger draft 업로드</p>
+              <h3>이 글을 읽는 사람</h3>
+              <p>당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
+              <h3>최종 CTA</h3><p>FOMC 흐름이 여기서 끝이 아닙니다. 아래 체크포인트 글과 초보자 가이드까지 같이 보면 다음 일정에서 뭘 봐야 할지 훨씬 선명해집니다.</p>
+              <h3>초안 핵심</h3>
+              <p>한 줄 요약: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.</p><p>2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 FOMC 이후 시장 해설입니다.</p><p>미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.</p>
+              <h3>읽기 전 체크</h3>
+              <p>한 줄 요약: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.</p><p>2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 FOMC 이후 시장 해설입니다. 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다. 쉽게 말해 이 이슈는 멀어 보여도 공식 발표 자료, 해외 주요 매체 보도까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `Federal Reserve issues FOMC statement` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다.</p>
+              <h3>최근 근거</h3>
+              <ul><li><strong>Federal Reserve Monetary Policy Press</strong> · 2026-06-17T18:00:00+00:00<br>Federal Reserve issues FOMC statement</li><li><strong>Federal Reserve Monetary Policy Press</strong> · 2026-06-17T18:00:00+00:00<br>Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting</li></ul>
+              <code>python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc</code>
+              
+              
+              <code>python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot hero --selected-url &lt;IMAGE_URL&gt; --selected-credit &quot;Photo by ...&quot; --approve</code>
+            </article>
+            
+            <article class="card">
+              <div class="top">
+                <span class="badge">bitcoin</span>
+                <span class="badge alt">ready now</span>
+              </div>
+              <h2>비트코인 핵심 흐름 해설</h2>
+              <p class="decision">이 글은 내용만 괜찮으면 바로 승인 후보입니다.</p>
+              <p class="meta">quality `pass`</p>
+              <p class='meta'>freshness `fresh`</p>
+              <p class='meta'>사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.</p>
+              <p class='meta'>next action · 사용자 최종 확인 후 Blogger draft 업로드</p>
+              <h3>이 글을 읽는 사람</h3>
+              <p>당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
+              <h3>최종 CTA</h3><p>비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.</p>
+              <h3>초안 핵심</h3>
+              <p>한 줄 요약: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.</p><p>2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 비트코인 핵심 흐름 해설입니다.</p><p>비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.</p>
+              <h3>읽기 전 체크</h3>
+              <p>한 줄 요약: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.</p><p>2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 비트코인 핵심 흐름 해설입니다. 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다. 쉽게 말해 이 이슈는 멀어 보여도 코인 전문 매체 기사까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `Jefferies warns of crypto market volatility as Clarity Act faces Senate test` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다.</p>
+              <h3>최근 근거</h3>
+              <ul><li><strong>Cointelegraph</strong> · 2026-06-30T12:44:21+00:00<br>Swan&#x27;s Cory Klippsten sees record Bitcoin holder supply revealing early bottom</li><li><strong>CoinDesk RSS</strong> · 2026-06-30T11:55:34+00:00<br>Bitcoin’s quiet $59,000-$60,000 range is starting to look dangerous</li></ul>
+              <code>python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin</code>
+              
+              
+              <code>python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword bitcoin --slot hero --selected-url &lt;IMAGE_URL&gt; --selected-credit &quot;Photo by ...&quot; --approve</code>
+            </article>
+            
+    </section>
+  </main>
+</body>
+</html>

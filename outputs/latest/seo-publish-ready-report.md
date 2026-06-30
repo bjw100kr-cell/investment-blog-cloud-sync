@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-06-25T14:55:04.348783+00:00`
+- generated_at: `2026-06-30T16:04:29.439872+00:00`
 
 ## seo_fomc_1
 
@@ -20,22 +20,22 @@
 - meta_description: FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
 - follow_up_post_count: 2
 
-## seo_bitcoin_3
+## seo_fomc_3
 
 - ready: True
 - reason: ok
-- html_path: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html
-- meta_title: 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조
-- meta_description: 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 이슈를 가격보다 수급, ETF, 달러, 규제 구조 중심으로 차분하게 해설합니다.
-- follow_up_post_count: 2
-
-## seo_fomc_4
-
-- ready: True
-- reason: ok
-- html_path: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-fomc-이후-시장-초보자-가이드-용어부터-시장-반응까지.html
+- html_path: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-fomc-이후-시장-초보자-가이드-용어부터-시장-반응까지.html
 - meta_title: FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 - meta_description: FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
+- follow_up_post_count: 2
+
+## seo_bitcoin_4
+
+- ready: True
+- reason: ok
+- html_path: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html
+- meta_title: 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조
+- meta_description: 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 이슈를 가격보다 수급, ETF, 달러, 규제 구조 중심으로 차분하게 해설합니다.
 - follow_up_post_count: 2
 
 ## seo_bitcoin_5
@@ -54,4 +54,31 @@
 - html_path: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html
 - meta_title: 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리
 - meta_description: 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 이슈를 가격보다 수급, ETF, 달러, 규제 구조 중심으로 차분하게 해설합니다.
+- follow_up_post_count: 2
+
+## seo_us_index_flow_7
+
+- ready: True
+- reason: ok
+- html_path: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/07-미국-증시-지수-흐름-관련-대표-종목-한눈에-보기.html
+- meta_title: 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기
+- meta_description: 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
+- follow_up_post_count: 2
+
+## seo_us_index_flow_8
+
+- ready: True
+- reason: ok
+- html_path: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/08-미국-증시-지수-흐름-공급망-정리-누가-수혜를-보나.html
+- meta_title: 미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나
+- meta_description: 미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
+- follow_up_post_count: 2
+
+## seo_us_index_flow_9
+
+- ready: True
+- reason: ok
+- html_path: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/09-미국-증시-지수-흐름-etf-지수-대표-기업-정리.html
+- meta_title: 미국 증시 지수 흐름 ETF·지수·대표 기업 정리
+- meta_description: 미국 증시 지수 흐름 ETF·지수·대표 기업 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 2

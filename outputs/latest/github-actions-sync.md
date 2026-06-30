@@ -1,8 +1,8 @@
 # GitHub Actions Sync Guide
 
 - script: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-actions-sync.sh`
-- repo_connected: `False`
-- repo_slug: `OWNER/REPO 필요`
+- repo_connected: `True`
+- repo_slug: `bjw100kr-cell/investment-blog-cloud-sync`
 
 ## What It Does
 
@@ -13,19 +13,27 @@
 ## Usage
 
 ```bash
-bash outputs/latest/github-actions-sync.sh OWNER/REPO
+bash outputs/latest/github-actions-sync.sh bjw100kr-cell/investment-blog-cloud-sync
 ```
 
 ## Keys With Local Values That Will Sync
 
 - `OPENAI_MODEL` (variable)
 - `BLOGGER_BLOG_ID` (secret)
+- `GOOGLE_CLIENT_ID` (secret)
+- `GOOGLE_CLIENT_SECRET` (secret)
+- `GOOGLE_REFRESH_TOKEN` (secret)
 - `BLOGGER_SYNC_SITE_PAGES` (variable)
 - `BLOGGER_SITE_PAGES_PUBLISH` (variable)
 - `BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES` (variable)
 - `BLOGGER_AUTO_PUBLISH_POSTS` (variable)
 - `BLOGGER_PUBLISH_ONLY_DUE_POSTS` (variable)
 - `BLOGGER_MAX_POSTS_PER_RUN` (variable)
+- `BLOGGER_REQUIRE_REVIEW_APPROVAL` (variable)
+- `BLOG_BASE_URL` (variable)
+- `SEARCH_CONSOLE_CLIENT_ID` (secret)
+- `SEARCH_CONSOLE_CLIENT_SECRET` (secret)
+- `SEARCH_CONSOLE_REFRESH_TOKEN` (secret)
 - `SEARCH_CONSOLE_LAG_DAYS` (variable)
 - `SEARCH_CONSOLE_WINDOW_DAYS` (variable)
 

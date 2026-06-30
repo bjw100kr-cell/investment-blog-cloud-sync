@@ -1,7 +1,7 @@
 # Google OAuth Client Import Report
 
-- env_file: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/.tmp_test/client.env`
-- client_json: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/.tmp_test/client_secret.json`
+- env_file: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/.env`
+- client_json: `/tmp/investment-blog-oauth-temp.json`
 
 ## Applied
 
@@ -14,4 +14,3 @@
 ## Redirect URIs In Source JSON
 
 - `http://127.0.0.1:8765/oauth2callback`
-- `http://localhost:8765/oauth2callback`

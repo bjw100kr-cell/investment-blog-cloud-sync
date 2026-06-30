@@ -1,17 +1,17 @@
 {
   "all_green": false,
-  "first_live_status": "awaiting_credentials",
-  "github_launch_status": "needs_initial_commit",
+  "first_live_status": "needs_preflight_review",
+  "github_launch_status": "needs_repo_creation",
   "checks": [
     {
       "name": "google_client_connected",
-      "ready": false,
+      "ready": true,
       "next_action": "python3 scripts/bootstrap_google_oauth_credentials.py",
       "required": true
     },
     {
       "name": "google_refresh_token_connected",
-      "ready": false,
+      "ready": true,
       "next_action": "GOOGLE_OAUTH_OPEN_BROWSER=true python3 scripts/get_google_refresh_token.py",
       "required": true
     },
@@ -23,14 +23,14 @@
     },
     {
       "name": "initial_commit_created",
-      "ready": false,
+      "ready": true,
       "next_action": "bash scripts/prepare_initial_commit.sh",
       "required": true
     },
     {
       "name": "github_repo_connected",
       "ready": false,
-      "next_action": "bash scripts/bootstrap_github_remote.sh <YOUR_GITHUB_REPO_URL>",
+      "next_action": "bash scripts/bootstrap_github_remote.sh <OWNER/REPO>",
       "required": true
     },
     {
@@ -41,8 +41,7 @@
     }
   ],
   "next_actions": [
-    "python3 scripts/bootstrap_google_oauth_credentials.py",
-    "GOOGLE_OAUTH_OPEN_BROWSER=true python3 scripts/get_google_refresh_token.py",
-    "bash scripts/prepare_initial_commit.sh"
+    "bash scripts/bootstrap_github_remote.sh <OWNER/REPO>",
+    "bash scripts/run_pipeline.sh"
   ]
 }

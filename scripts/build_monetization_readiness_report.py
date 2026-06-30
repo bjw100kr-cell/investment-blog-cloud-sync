@@ -64,9 +64,12 @@ def build_report() -> dict:
     board_breaking = keyword_board.get("breaking_candidates", [])
     board_watchlist = keyword_board.get("query_watchlist", [])
     seo_followups = seo_backlog.get("items", [])
+    blogger_ready = integrations.get("blogger_upload", {}).get("ready", False)
+    wordpress_ready = integrations.get("wordpress_upload", {}).get("ready", False)
+    auto_channel_count = sum(1 for ready in [blogger_ready, wordpress_ready] if ready)
 
     content_engine_ready = bool(ready_queue_items)
-    publishing_engine_ready = bool(ready_queue_items) and integrations.get("blogger_upload", {}).get("ready", False)
+    publishing_engine_ready = bool(ready_queue_items) and auto_channel_count > 0
     search_engine_ready = bool(trend_watchlist or query_watchlist or board_breaking or board_watchlist or seo_followups)
     analytics_ready = bool(env_values.get("GA4_MEASUREMENT_ID"))
     adsense_ready = bool(env_values.get("ADSENSE_PUBLISHER_ID"))
@@ -88,10 +91,17 @@ def build_report() -> dict:
             publishing_engine_ready,
             [
                 f"publish-ready html items {setup.get('publish_ready', {}).get('ready_count', 0)}개",
-                f"blogger integration ready={integrations.get('blogger_upload', {}).get('ready', False)}",
+                f"blogger integration ready={blogger_ready}",
+                f"wordpress integration ready={wordpress_ready}",
+                f"automated channel count={auto_channel_count}",
             ],
-            integrations.get("blogger_upload", {}).get("missing", []) if not publishing_engine_ready else [],
-            "Blogger 업로드 자격값을 연결해서 draft 업로드를 자동 검증합니다.",
+            (
+                integrations.get("blogger_upload", {}).get("missing", [])
+                + integrations.get("wordpress_upload", {}).get("missing", [])
+            )
+            if not publishing_engine_ready
+            else [],
+            "Blogger draft 업로드를 먼저 자동 검증하고, 안정화 뒤 WordPress를 두 번째 자동 채널로 확장합니다.",
         ),
         build_stage(
             "search_demand_engine",

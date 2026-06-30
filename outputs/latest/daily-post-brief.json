@@ -1,14 +1,51 @@
 {
-  "generated_at": "2026-06-25T14:55:02.670727+00:00",
+  "generated_at": "2026-06-30T16:04:26.272859+00:00",
+  "topic_mix_policy": {
+    "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
+    "top_brief_diversity_key": "brand_lane",
+    "top_brief_diversity_order": [
+      "macro",
+      "crypto",
+      "us-stocks",
+      "world-flow"
+    ],
+    "top_brief_lane_caps": {
+      "macro": 2,
+      "crypto": 2,
+      "us-stocks": 2,
+      "world-flow": 2
+    },
+    "top_brief_max_items": 5,
+    "weekly_mix_targets": {
+      "macro": 0.3,
+      "crypto": 0.3,
+      "us-stocks": 0.2,
+      "world-flow": 0.2
+    },
+    "brand_lane_labels": {
+      "macro": "거시경제",
+      "crypto": "코인",
+      "us-stocks": "미국주식",
+      "world-flow": "세계 흐름"
+    },
+    "selection_rules": [
+      "당일 속보 점수가 높아도 top_briefs 상단은 macro, crypto, us-stocks, world-flow가 가능한 범위에서 한 번씩 보이도록 우선 배치한다.",
+      "단일 카테고리가 연속으로 상단을 독점하면 다음 후보 선택에서 다른 카테고리를 우선 검토한다.",
+      "내부 발행 카테고리가 같더라도 사용자에게 보이는 운영 레인은 거시경제, 코인, 미국주식, 세계 흐름으로 분리해서 보여준다.",
+      "미국 빅테크, AI 성장주, 미국 지수 흐름은 미국주식 레인으로 우선 노출하고, 중국·관세·무역 이슈는 세계 흐름 레인으로 우선 노출한다."
+    ]
+  },
   "top_briefs": [
     {
       "keyword": "fomc",
+      "category": "macro",
+      "brand_lane": "macro",
       "title_candidates": [
         "FOMC 이후 시장 해설",
         "FOMC 이후 시장 해설: 지금 시장이 반응하는 이유",
-        "FOMC 이후 시장 해설와 주식·코인 흐름 함께 보기"
+        "FOMC 이후 시장 해설로 보는 주식·코인 흐름"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -27,30 +64,34 @@
       "source_names": [
         "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
+        "MarketWatch Breaking News",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 24,
+      "demand_signal_score": 6000,
+      "search_score": 29,
       "timeliness_score": 25,
       "explanatory_score": 20,
       "monetization_score": 15,
       "risk_score": 8,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
-      "total_score": 92.0,
+      "search_demand_bonus": 3,
+      "total_score": 97.0,
       "format": "macro_explainer"
     },
     {
       "keyword": "bitcoin",
+      "category": "crypto",
+      "brand_lane": "crypto",
       "title_candidates": [
         "비트코인 핵심 흐름 해설",
         "비트코인 핵심 흐름 해설: 지금 시장이 반응하는 이유",
-        "비트코인 핵심 흐름 해설와 주식·코인 흐름 함께 보기"
+        "비트코인 핵심 흐름 해설로 보는 주식·코인 흐름"
       ],
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 실제 급상승 검색어 반영 (btc)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -59,129 +100,42 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "btc",
-        "Bitcoin likely to fall another 30% to $44,000 by year-end, prominent BTC miner says",
-        "Kraken sues crypto derivatives firm PowerTrade over 'misappropriated' funds claim",
-        "CoinDesk 20 performance update: AAVE gains 10.1% as index rises",
-        "Post-prison CZ says time behind bars didn't hurt the billionaire's business after Binance"
+        "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
+        "Bitcoin’s quiet $59,000-$60,000 range is starting to look dangerous",
+        "Bitcoin $4.4 billion supply overhang emerges as institutional demand wilts",
+        "Here’s what happened in crypto today",
+        "Strategy's new plan divides industry observers even as MSTR, STRC climb"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Google Trends US",
         "Investing.com Crypto News"
       ],
-      "trend_queries": [
-        "btc"
-      ],
-      "trend_regions": [
-        "US"
-      ],
+      "trend_queries": [],
+      "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 20200,
-      "search_score": 30,
-      "timeliness_score": 20,
-      "explanatory_score": 18,
+      "demand_signal_score": 5700,
+      "search_score": 29,
+      "timeliness_score": 18,
+      "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 3,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 8,
-      "total_score": 86.0,
+      "search_demand_bonus": 3,
+      "total_score": 82.0,
       "format": "crypto_analysis"
     },
     {
-      "keyword": "cpi",
+      "keyword": "us_index_flow",
+      "category": "global-sector",
+      "brand_lane": "us-stocks",
       "title_candidates": [
-        "CPI 발표 이후 시장 해설",
-        "CPI 발표 이후 시장 해설: 지금 시장이 반응하는 이유",
-        "CPI 발표 이후 시장 해설와 주식·코인 흐름 함께 보기"
+        "미국 증시 지수 흐름 해설",
+        "미국 증시 지수 흐름 해설: 지금 시장이 반응하는 이유",
+        "미국 증시 지수 흐름 해설로 보는 주식·코인 흐름"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
-      "outline": [
-        "왜 지금 이 이슈가 중요한가",
-        "실제로 발표되거나 벌어진 일",
-        "주식·코인·달러·금리에 주는 영향",
-        "앞으로 체크할 변수",
-        "개인 투자자가 볼 포인트"
-      ],
-      "sample_headlines": [
-        "Core inflation rate hit 3.4% in May, highest since October 2023, Fed’s preferred gauge shows",
-        "Bitcoin slumps below $60k after PCE inflation gauge hits highest level since 2023",
-        "US PCE inflation measure tops 4.0% in May; consumer spending strong - Reuters",
-        "Consumer spending rises again — and now cheaper gas is on the way"
-      ],
-      "reference_takeaways": [],
-      "source_names": [
-        "CNBC Top News",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 14,
-      "timeliness_score": 17,
-      "explanatory_score": 18,
-      "monetization_score": 15,
-      "risk_score": 8,
-      "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
-      "total_score": 72.0,
-      "format": "macro_explainer"
-    },
-    {
-      "keyword": "pce",
-      "title_candidates": [
-        "PCE 발표 이후 시장 해설",
-        "PCE 발표 이후 시장 해설: 지금 시장이 반응하는 이유",
-        "PCE 발표 이후 시장 해설와 주식·코인 흐름 함께 보기"
-      ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
-      "outline": [
-        "왜 지금 이 이슈가 중요한가",
-        "실제로 발표되거나 벌어진 일",
-        "주식·코인·달러·금리에 주는 영향",
-        "앞으로 체크할 변수",
-        "개인 투자자가 볼 포인트"
-      ],
-      "sample_headlines": [
-        "Bitcoin derivatives signal panic. A weak core PCE reading could trigger snapback.",
-        "Core inflation rate hit 3.4% in May, highest since October 2023, Fed’s preferred gauge shows",
-        "Bitcoin slumps below $60k after PCE inflation gauge hits highest level since 2023",
-        "US PCE inflation measure tops 4.0% in May; consumer spending strong - Reuters"
-      ],
-      "reference_takeaways": [],
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Investing.com Crypto News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 16,
-      "timeliness_score": 17,
-      "explanatory_score": 18,
-      "monetization_score": 14,
-      "risk_score": 6,
-      "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
-      "total_score": 71.0,
-      "format": "macro_explainer"
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "title_candidates": [
-        "AI·반도체 섹터 흐름 해설",
-        "AI·반도체 섹터 흐름 해설: 지금 시장이 반응하는 이유",
-        "AI·반도체 섹터 흐름 해설와 주식·코인 흐름 함께 보기"
-      ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -190,28 +144,112 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Anthropic has hired an economist with . . . interesting views on human survival",
-        "Apple increases MacBook and iPad prices by 20%",
-        "Morning Bid: Micron puts chips back on the table - Reuters"
+        "Nasdaq expands distribution of its market data into blockchain infrastructure",
+        "Tech selloff stirs bubble fears in US stock market - Reuters",
+        "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Financial Times Home",
+        "CoinDesk RSS",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 11,
+      "search_score": 12,
       "timeliness_score": 13,
-      "explanatory_score": 17,
+      "explanatory_score": 19,
       "monetization_score": 15,
+      "risk_score": 6,
+      "performance_bonus": 0.0,
+      "search_demand_bonus": 0,
+      "total_score": 65.0,
+      "format": "sector_analysis"
+    },
+    {
+      "keyword": "china",
+      "category": "global-sector",
+      "brand_lane": "world-flow",
+      "title_candidates": [
+        "중국 변수와 시장 영향 해설",
+        "중국 변수와 시장 영향 해설: 지금 시장이 반응하는 이유",
+        "중국 변수와 시장 영향 해설로 보는 주식·코인 흐름"
+      ],
+      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "outline": [
+        "왜 지금 이 이슈가 중요한가",
+        "실제로 발표되거나 벌어진 일",
+        "주식·코인·달러·금리에 주는 영향",
+        "앞으로 체크할 변수",
+        "개인 투자자가 볼 포인트"
+      ],
+      "sample_headlines": [
+        "White House AI crackdown opens door for China to close gap",
+        "1. 대중국 압박의 큰 설계"
+      ],
+      "reference_takeaways": [],
+      "source_names": [
+        "CNBC Top News",
+        "무역킹 Trade King YouTube"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "fallback_source": "mapped_candidate",
+      "demand_signal_score": 0,
+      "search_score": 8,
+      "timeliness_score": 7,
+      "explanatory_score": 18,
+      "monetization_score": 13,
       "risk_score": 7,
       "performance_bonus": 0.0,
       "search_demand_bonus": 0,
-      "total_score": 63.0,
-      "format": "sector_analysis"
+      "total_score": 53.0,
+      "format": "macro_explainer"
+    },
+    {
+      "keyword": "treasury_yields",
+      "category": "macro",
+      "brand_lane": "macro",
+      "title_candidates": [
+        "미국채 금리 변화 해설",
+        "미국채 금리 변화 해설: 지금 시장이 반응하는 이유",
+        "미국채 금리 변화 해설로 보는 주식·코인 흐름"
+      ],
+      "reason": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "outline": [
+        "왜 지금 이 이슈가 중요한가",
+        "실제로 발표되거나 벌어진 일",
+        "주식·코인·달러·금리에 주는 영향",
+        "앞으로 체크할 변수",
+        "개인 투자자가 볼 포인트"
+      ],
+      "sample_headlines": [
+        "MetaMask launches Money Account with stablecoin yield and spending in one wallet",
+        "New York Life's $800 billion asset manager makes tokenization debut with Centrifuge fund",
+        "MetaMask launches stablecoin yield account with card spending",
+        "Theo becomes first crypto-native investor in Fidelity tokenized fund",
+        "Spiko links EU regulated T-bill funds to Coinbase stablecoin rails"
+      ],
+      "reference_takeaways": [],
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "fallback_source": "mapped_candidate",
+      "demand_signal_score": 3200,
+      "search_score": 23,
+      "timeliness_score": 18,
+      "explanatory_score": 19,
+      "monetization_score": 15,
+      "risk_score": 6,
+      "performance_bonus": 0.0,
+      "search_demand_bonus": 1,
+      "total_score": 81.0,
+      "format": "macro_explainer"
     }
   ]
 }

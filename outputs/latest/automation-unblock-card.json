@@ -1,0 +1,51 @@
+{
+  "headline": "지금 자동화를 더 앞으로 밀기 위해 사용자 쪽에서 필요한 건 사실 2개입니다.",
+  "main_candidate": {
+    "keyword": "fomc",
+    "title": "FOMC 이후 시장 해설",
+    "approval_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc"
+  },
+  "primary_actions": [
+    {
+      "id": "approve_fomc",
+      "label": "1. fomc 승인",
+      "why": "이 1건만 승인되면 Blogger draft loop 실검증으로 바로 넘어갈 수 있습니다.",
+      "command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "owner": "user"
+    },
+    {
+      "id": "connect_github_repo",
+      "label": "2. GitHub repo 연결",
+      "why": "이 단계가 끝나야 컴퓨터가 꺼져 있어도 무료 클라우드 자동화가 돌아갑니다.",
+      "command": "`bash scripts/bootstrap_github_remote.sh <OWNER/REPO>`",
+      "owner": "user",
+      "links": {
+        "repo_create_link": "https://github.com/jhyang1117/investment-blog-cloud-sync",
+        "web_checklist_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-web-launch-checklist.md"
+      }
+    }
+  ],
+  "later_actions": [
+    {
+      "label": "WordPress 연결",
+      "why": "Blogger 루프 검증 뒤 붙여도 늦지 않습니다.",
+      "status": "blocked"
+    },
+    {
+      "label": "Search Console / GA4 / AdSense",
+      "why": "수익화 측정 고도화 단계이며 지금 당장 첫 자동화 검증의 선행조건은 아닙니다.",
+      "status": "later"
+    }
+  ],
+  "shortcut_flow": {
+    "preview": "python3 scripts/run_minimum_unblock_flow.py",
+    "preview_with_repo": "python3 scripts/run_minimum_unblock_flow.py --repo OWNER/REPO",
+    "apply_with_repo": "python3 scripts/run_minimum_unblock_flow.py --repo OWNER/REPO --apply"
+  },
+  "references": {
+    "automation_progress_board_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/automation-progress-board.md",
+    "first_approval_path_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/first-approval-path.md",
+    "github_minimum_launch_card_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-minimum-launch-card.md",
+    "minimum_unblock_flow_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/minimum-unblock-flow.md"
+  }
+}

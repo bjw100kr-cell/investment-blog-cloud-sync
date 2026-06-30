@@ -1,0 +1,55 @@
+{
+  "generated_at_utc": "2026-06-30T16:04:44.236735+00:00",
+  "goal": "주식/코인/세계경제 투자 블로그 자동화 운영 지속 및 수익화",
+  "blogger": {
+    "report_summary": {
+      "manifest_candidate_count": null,
+      "processed_count": 3,
+      "reason_counts": {
+        "source_freshness_stale": 1,
+        "already_synced_same_content": 3,
+        "": 3,
+        "BLOGGER_MAX_POSTS_PER_RUN reached": 6
+      },
+      "last_reason": "source_freshness_stale",
+      "top_item_slug": null
+    },
+    "state_summary": {
+      "item_count": 13,
+      "published_count": 13,
+      "latest_synced_at": "2026-06-30T16:04:44.044127+00:00"
+    }
+  },
+  "inventory": {
+    "inventory_summary": {
+      "inventory_count": 13,
+      "ready_count": 13,
+      "main_post_count": 4,
+      "seo_followup_count": 9
+    },
+    "queue_summary": {
+      "queue_count": 4,
+      "ready_count": 4
+    }
+  },
+  "verification": {
+    "all_core_checks_passed": true,
+    "review_approval_state_is_safe": null,
+    "approval_mode": null
+  },
+  "approvals": {
+    "approved_all": false,
+    "approved_keywords": [
+      "bitcoin"
+    ]
+  },
+  "next_actions": [
+    "Secret: `BLOGGER_BLOG_ID`, `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN`",
+    "Variable: `OPENAI_MODEL`, `BLOGGER_SYNC_SITE_PAGES`, `BLOGGER_SITE_PAGES_PUBLISH`, `BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES`, `BLOGGER_REQUIRE_REVIEW_APPROVAL`, `BLOGGER_AUTO_PUBLISH_POSTS`, `BLOGGER_PUBLISH_ONLY_DUE_POSTS`, `BLOGGER_MAX_POSTS_PER_RUN`",
+    "`python3 scripts/prepare_github_launch_plan.py`(repo_connected=true 재확인)",
+    "`outputs/latest/blogger-upload-report.json`",
+    "`outputs/latest/first-cloud-run-verification.json`"
+  ],
+  "source_notes": [],
+  "note": "completed-35/39-Emit context checkpoint"
+}

@@ -55,6 +55,15 @@ jobs:
       - name: Build draft packets
         run: python scripts/build_draft_packets.py
 
+      - name: Build current reference strategy
+        run: python scripts/build_current_reference_strategy.py
+
+      - name: Build reference strength benchmark
+        run: python scripts/build_reference_strength_benchmark.py
+
+      - name: Build keyword capture strategy
+        run: python scripts/build_keyword_capture_strategy.py
+
       - name: Build editorial calendar
         run: python scripts/build_editorial_calendar.py
 
@@ -79,6 +88,9 @@ jobs:
       - name: Review human tone
         run: python scripts/review_human_tone.py
 
+      - name: Build draft polish board
+        run: python scripts/build_draft_polish_board.py
+
       - name: Render publish-ready posts
         run: python scripts/render_publish_ready_posts.py
 
@@ -91,8 +103,155 @@ jobs:
       - name: Build monetization readiness report
         run: python scripts/build_monetization_readiness_report.py
 
+      - name: Build monetization roadmap
+        run: python scripts/build_monetization_roadmap.py
+
       - name: Build go-live readiness report
         run: python scripts/build_go_live_readiness_report.py
+
+      - name: Build SEO backlog
+        run: python scripts/build_seo_backlog.py
+
+      - name: Build SEO draft packets
+        run: python scripts/build_seo_draft_packets.py
+
+      - name: Generate SEO blog drafts
+        run: python scripts/generate_seo_blog_drafts.py
+
+      - name: Build keyword opportunity board
+        run: python scripts/build_keyword_opportunity_board.py
+
+      - name: Generate SEO publishing assets
+        run: python scripts/generate_seo_publishing_assets.py
+
+      - name: Build safe image suggestions
+        run: python scripts/build_safe_image_suggestions.py
+
+      - name: Render SEO publish-ready posts
+        run: python scripts/render_seo_publish_ready_posts.py
+
+      - name: Build publish inventory
+        run: python scripts/build_publish_inventory.py
+
+      - name: Build distribution pack
+        run: python scripts/build_distribution_pack.py
+
+      - name: Build pre-publish quality gate
+        run: python scripts/build_pre_publish_quality_gate.py
+
+      - name: Build cross-platform publish pack
+        run: python scripts/build_cross_platform_publish_pack.py
+
+      - name: Prepare first live run plan
+        run: python scripts/prepare_first_live_run_plan.py
+
+      - name: Build automation scope
+        run: python scripts/build_automation_scope.py
+
+      - name: Build platform publish plan
+        run: python scripts/build_platform_publish_plan.py
+
+      - name: Build review packet
+        run: python scripts/build_review_packet.py
+
+      - name: Build approval dashboard
+        run: python scripts/build_approval_dashboard.py
+
+      - name: Build first approval path
+        run: python scripts/build_first_approval_path.py
+
+      - name: Build daily revenue focus
+        run: python scripts/build_daily_revenue_focus.py
+
+      - name: Build traffic cluster board
+        run: python scripts/build_traffic_cluster_board.py
+
+      - name: Build popular reads board
+        run: python scripts/build_popular_reads_board.py
+
+      - name: Build retention CTA board
+        run: python scripts/build_retention_cta_board.py
+
+      - name: Build first publish operator run preview
+        run: python scripts/first_publish_operator_run.py
+
+      - name: Build user review shortlist
+        run: python scripts/build_user_review_shortlist.py
+
+      - name: Build full draft review sheet
+        run: python scripts/build_full_draft_review_sheet.py
+
+      - name: Build approval evidence sheet
+        run: python scripts/build_approval_evidence_sheet.py
+
+      - name: Build approval briefing board
+        run: python scripts/build_approval_briefing_board.py
+
+      - name: Build shortlist publish action board
+        run: python scripts/build_shortlist_publish_action_board.py
+
+      - name: Build shortlist launchpad
+        run: python scripts/build_shortlist_launchpad.py
+
+      - name: Build source freshness board
+        run: python scripts/build_source_freshness_board.py
+
+      - name: Build current review focus
+        run: python scripts/build_current_review_focus.py
+
+      - name: Build user approval inbox
+        run: python scripts/build_user_approval_inbox.py
+
+      - name: Build user review checkpoint
+        run: python scripts/build_user_review_checkpoint.py
+
+      - name: Build GitHub minimum launch card
+        run: python scripts/build_github_minimum_launch_card.py
+
+      - name: Build automation progress board
+        run: python scripts/build_automation_progress_board.py
+
+      - name: Build automation unblock card
+        run: python scripts/build_automation_unblock_card.py
+
+      - name: Build minimum unblock flow
+        run: python scripts/run_minimum_unblock_flow.py
+
+      - name: Build first Blogger verify card
+        run: python scripts/build_first_blogger_verify_card.py
+
+      - name: Build first Blogger verify flow
+        run: python scripts/run_first_blogger_verify_flow.py
+
+      - name: Build image upgrade queue
+        run: python scripts/build_image_upgrade_queue.py
+
+      - name: Build image leverage board
+        run: python scripts/build_image_leverage_board.py
+
+      - name: Build top image action card
+        run: python scripts/build_top_image_action_card.py
+
+      - name: Build review preview board
+        run: python scripts/build_review_preview_board.py
+
+      - name: Build today operator console
+        run: python scripts/build_today_operator_console.py
+
+      - name: Build operator home
+        run: python scripts/build_operator_home.py
+
+      - name: Prepare first cloud run verification
+        run: python scripts/prepare_first_cloud_run_verification.py
+
+      - name: Prepare first run values card
+        run: python scripts/prepare_first_run_values_card.py
+
+      - name: Build pipeline workflow parity
+        run: python scripts/build_pipeline_workflow_parity.py
+
+      - name: Build cloud launch preflight
+        run: python scripts/build_cloud_launch_preflight.py
 
       - name: Sync Blogger site pages (optional)
         if: ${{ secrets.BLOGGER_BLOG_ID != '' && secrets.GOOGLE_CLIENT_ID != '' && secrets.GOOGLE_CLIENT_SECRET != '' && secrets.GOOGLE_REFRESH_TOKEN != '' && vars.BLOGGER_SYNC_SITE_PAGES == 'true' }}
@@ -113,10 +272,24 @@ jobs:
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
-          BLOGGER_AUTO_PUBLISH_POSTS: ${{ vars.BLOGGER_AUTO_PUBLISH_POSTS || 'false' }}
-          BLOGGER_PUBLISH_ONLY_DUE_POSTS: ${{ vars.BLOGGER_PUBLISH_ONLY_DUE_POSTS || 'true' }}
-          BLOGGER_MAX_POSTS_PER_RUN: ${{ vars.BLOGGER_MAX_POSTS_PER_RUN || '1' }}
+          BLOGGER_REQUIRE_REVIEW_APPROVAL: ${{ vars.BLOGGER_REQUIRE_REVIEW_APPROVAL || 'false' }}
+          BLOGGER_AUTO_PUBLISH_POSTS: ${{ vars.BLOGGER_AUTO_PUBLISH_POSTS || 'true' }}
+          BLOGGER_PUBLISH_ONLY_DUE_POSTS: ${{ vars.BLOGGER_PUBLISH_ONLY_DUE_POSTS || 'false' }}
+          BLOGGER_MAX_POSTS_PER_RUN: ${{ vars.BLOGGER_MAX_POSTS_PER_RUN || '3' }}
+          BLOGGER_ALLOW_REUPLOAD_SAME_CONTENT: ${{ vars.BLOGGER_ALLOW_REUPLOAD_SAME_CONTENT || 'false' }}
         run: python scripts/upload_blogger_drafts.py
+
+      - name: Upload WordPress drafts (optional)
+        if: ${{ secrets.WORDPRESS_SITE_URL != '' && secrets.WORDPRESS_USERNAME != '' && secrets.WORDPRESS_APPLICATION_PASSWORD != '' }}
+        env:
+          WORDPRESS_SITE_URL: ${{ secrets.WORDPRESS_SITE_URL }}
+          WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
+          WORDPRESS_APPLICATION_PASSWORD: ${{ secrets.WORDPRESS_APPLICATION_PASSWORD }}
+          WORDPRESS_REQUIRE_REVIEW_APPROVAL: "true"
+          WORDPRESS_AUTO_PUBLISH_POSTS: ${{ vars.WORDPRESS_AUTO_PUBLISH_POSTS || 'false' }}
+          WORDPRESS_PUBLISH_ONLY_DUE_POSTS: ${{ vars.WORDPRESS_PUBLISH_ONLY_DUE_POSTS || 'true' }}
+          WORDPRESS_MAX_POSTS_PER_RUN: ${{ vars.WORDPRESS_MAX_POSTS_PER_RUN || '1' }}
+        run: python scripts/upload_wordpress_drafts.py
 
       - name: Commit latest snapshot
         run: |

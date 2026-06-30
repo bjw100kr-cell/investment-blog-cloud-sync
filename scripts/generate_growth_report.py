@@ -29,6 +29,17 @@ def average(values: list[float]) -> float:
     return round(sum(values) / len(values), 2)
 
 
+def detect_brand_lane(keyword: str, title: str = "") -> str:
+    text = f"{keyword} {title}".lower()
+    if any(token in text for token in ["bitcoin", "ethereum", "crypto", "비트코인", "이더리움", "코인"]):
+        return "crypto"
+    if any(token in text for token in ["us_big_tech", "us_index_flow", "ai_growth_stocks", "ai_semiconductors", "나스닥", "빅테크", "반도체", "미국 증시"]):
+        return "us-stocks"
+    if any(token in text for token in ["china", "tariffs_trade", "중국", "관세", "무역", "유럽", "중동"]):
+        return "world-flow"
+    return "macro"
+
+
 def build_category_summary(publishing_items: list[dict], top_briefs: list[dict], rules: dict) -> list[dict]:
     category_weights = rules.get("category_value_weights", {})
     brief_by_keyword = {item.get("keyword"): item for item in top_briefs}
@@ -56,6 +67,35 @@ def build_category_summary(publishing_items: list[dict], top_briefs: list[dict],
         )
 
     return sorted(summary, key=lambda item: item["weighted_priority_score"], reverse=True)
+
+
+def build_brand_lane_summary(publishing_items: list[dict], top_briefs: list[dict], rules: dict) -> list[dict]:
+    lane_labels = ((rules.get("topic_mix_policy") or {}).get("brand_lane_labels") or {})
+    brief_by_keyword = {item.get("keyword"): item for item in top_briefs}
+    grouped = defaultdict(lambda: {"count": 0, "keywords": [], "score_sum": 0.0})
+
+    for item in publishing_items:
+        keyword = item.get("keyword", "")
+        brief = brief_by_keyword.get(keyword, {})
+        lane = brief.get("brand_lane") or detect_brand_lane(keyword, brief.get("recommended_title", ""))
+        grouped[lane]["count"] += 1
+        grouped[lane]["keywords"].append(keyword)
+        grouped[lane]["score_sum"] += float(brief.get("monetization_score", 0))
+
+    summary = []
+    for lane, info in grouped.items():
+        base_score = info["score_sum"] / max(info["count"], 1)
+        summary.append(
+            {
+                "brand_lane": lane,
+                "label": lane_labels.get(lane, lane),
+                "post_count": info["count"],
+                "keywords": info["keywords"],
+                "avg_monetization_score": round(base_score, 2),
+            }
+        )
+
+    return sorted(summary, key=lambda item: (item["avg_monetization_score"], item["post_count"]), reverse=True)
 
 
 def build_query_watchlist(search_console: dict) -> list[dict]:
@@ -114,7 +154,7 @@ def build_schedule_mix(schedule: list[dict]) -> dict:
 
 
 def infer_next_actions(
-    category_summary: list[dict],
+    brand_lane_summary: list[dict],
     query_watchlist: list[dict],
     tone_items: list[dict],
     rules: dict,
@@ -124,9 +164,9 @@ def infer_next_actions(
     evaluated_tone_items = [item for item in tone_items if item.get("score", 0) > 0]
     avg_tone = average([float(item.get("score", 0)) for item in evaluated_tone_items])
 
-    if category_summary:
-        top_category = category_summary[0]["category"]
-        actions.append(f"다음 7일은 `{top_category}` 카테고리를 메인 허브로 밀고, 나머지는 보조 내부링크로 묶습니다.")
+    if brand_lane_summary:
+        top_lane = brand_lane_summary[0]["label"]
+        actions.append(f"다음 7일은 `{top_lane}` 레인을 메인 허브로 밀고, 다른 레인은 보조 내부링크와 후속 글로 연결합니다.")
 
     if query_watchlist:
         top_query = query_watchlist[0]
@@ -163,6 +203,7 @@ def build_report() -> dict:
     evaluated_tone_items = [item for item in tone_items if item.get("score", 0) > 0]
 
     category_summary = build_category_summary(publishing_items, top_briefs, rules)
+    brand_lane_summary = build_brand_lane_summary(publishing_items, top_briefs, rules)
     query_watchlist = build_query_watchlist(search_console)
     trend_watchlist = build_trend_watchlist(search_demand)
     schedule_mix = build_schedule_mix(schedule)
@@ -187,6 +228,7 @@ def build_report() -> dict:
         "content_mix_targets": rules.get("content_mix_targets", {}),
         "top_opportunities": top_opportunities,
         "category_summary": category_summary,
+        "brand_lane_summary": brand_lane_summary,
         "query_watchlist": query_watchlist[:5],
         "trend_watchlist": trend_watchlist[:5],
         "schedule_mix": schedule_mix,
@@ -198,7 +240,7 @@ def build_report() -> dict:
             "items": tone_items,
         },
         "performance_feedback_available": performance.get("available", False),
-        "next_actions": infer_next_actions(category_summary, query_watchlist, tone_items, rules),
+        "next_actions": infer_next_actions(brand_lane_summary, query_watchlist, tone_items, rules),
         "monetization_ladders": rules.get("monetization_ladders", {}),
         "trust_stack": rules.get("trust_requirements", []),
         "human_style_checkpoints": rules.get("human_style_checkpoints", []),
@@ -219,11 +261,11 @@ def write_markdown(report: dict) -> None:
         lines.append(f"  - 이유: {item['reason']}")
         lines.append(f"  - 근거 소스: {', '.join(item.get('source_names', []))}")
     lines.append("")
-    lines.append("## 카테고리 우선순위")
+    lines.append("## 브랜드 레인 우선순위")
     lines.append("")
-    for item in report.get("category_summary", []):
+    for item in report.get("brand_lane_summary", []):
         lines.append(
-            f"- `{item['category']}`: 우선순위 {item['weighted_priority_score']} / 게시 예정 {item['post_count']}개 / 키워드 {', '.join(item['keywords'])}"
+            f"- `{item['label']}`: 평균 수익화 {item['avg_monetization_score']} / 게시 예정 {item['post_count']}개 / 키워드 {', '.join(item['keywords'])}"
         )
     lines.append("")
     lines.append("## 검색 수요 감지 키워드")

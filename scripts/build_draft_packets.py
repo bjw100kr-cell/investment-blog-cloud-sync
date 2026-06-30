@@ -7,8 +7,10 @@ ROOT = Path(__file__).resolve().parents[1]
 BRIEF_JSON = ROOT / "outputs/latest/daily-post-brief.json"
 PACKET_JSON = ROOT / "outputs/latest/draft-packets.json"
 PACKET_MD = ROOT / "outputs/latest/draft-packets.md"
+GROWTH_RULES_JSON = ROOT / "config/growth_rules.json"
 VOICE_RULES_JSON = ROOT / "config/human_voice_rules.json"
 VOICE_EXAMPLES_JSON = ROOT / "config/human_voice_examples.json"
+REFERENCE_PATTERNS_JSON = ROOT / "config/current_editorial_reference_patterns.json"
 
 
 DISCLAIMER = (
@@ -83,6 +85,21 @@ FACT_CHECK_MAP = {
         "반도체 섹터 전반 일반화 과장 여부 점검",
         "대표 종목 티커와 실적 날짜 재확인",
     ],
+    "us_index_flow": [
+        "나스닥/S&P/미국 증시 수치와 기준 시각 재확인",
+        "지수 하락/상승 원인을 한 문장으로 단정하지 않기",
+        "채권·달러·빅테크와의 연결 문장 교차 점검",
+    ],
+    "us_big_tech": [
+        "대표 종목 가격 변동률과 기준 시각 재확인",
+        "실적/가격 인상/공급망 뉴스 원문 링크 확인",
+        "개별 종목 이슈를 시장 전체 흐름처럼 과장하지 않기",
+    ],
+    "ai_growth_stocks": [
+        "팔란티어/AI 성장주 관련 수치와 날짜 재확인",
+        "단기 검색 급증과 중장기 펀더멘털을 구분해 서술",
+        "섹터 자금 흐름 연결 문장 과장 여부 점검",
+    ],
 }
 
 
@@ -141,11 +158,32 @@ def build_packet(brief: dict, voice_rules: dict, voice_examples: dict) -> dict:
     return packet
 
 
+def choose_editorial_pattern(keyword: str, fmt: str) -> str:
+    if fmt == "macro_explainer":
+        return "news_what_it_means"
+    if fmt == "crypto_analysis":
+        return "news_what_it_means" if keyword in {"bitcoin", "ethereum", "crypto_etf"} else "followup_checklist"
+    if fmt == "sector_analysis":
+        return "search_explainer"
+    return "search_explainer"
+
+
 def main() -> int:
     brief_data = load_json(BRIEF_JSON)
+    growth_rules = load_json(GROWTH_RULES_JSON)
     voice_rules = load_json(VOICE_RULES_JSON)
     voice_examples = load_json(VOICE_EXAMPLES_JSON)
-    packets = [build_packet(brief, voice_rules, voice_examples) for brief in brief_data.get("top_briefs", [])[:3]]
+    reference_patterns = load_json(REFERENCE_PATTERNS_JSON)
+    packet_limit = int(growth_rules.get("daily_execution_targets", {}).get("ideal_posts_per_day", 2)) + 2
+    packets = []
+    for brief in brief_data.get("top_briefs", [])[:packet_limit]:
+        packet = build_packet(brief, voice_rules, voice_examples)
+        editorial_pattern_name = choose_editorial_pattern(brief["keyword"], brief.get("format", "analysis"))
+        packet["reference_editorial_pattern_name"] = editorial_pattern_name
+        packet["reference_editorial_pattern"] = (reference_patterns.get("operating_patterns") or {}).get(editorial_pattern_name, {})
+        packet["reference_editorial_sources"] = reference_patterns.get("sources", [])
+        packet["style_translation_rules"] = reference_patterns.get("style_translation_rules", [])
+        packets.append(packet)
 
     payload = {
         "generated_at": brief_data.get("generated_at"),
@@ -165,6 +203,7 @@ def main() -> int:
         lines.append(f"- 각도: {packet['summary_angle']}")
         lines.append(f"- 점수: {packet['score_breakdown']['total_score']}")
         lines.append(f"- 톤 목표: {packet['voice_profile']}")
+        lines.append(f"- 편집 패턴: {packet.get('reference_editorial_pattern_name', '')}")
         lines.append("- 대체 제목:")
         for title in packet["alternate_titles"]:
             lines.append(f"  - {title}")
@@ -187,6 +226,12 @@ def main() -> int:
         lines.append("- 반드시 살릴 말투 포인트:")
         for item in packet["must_include_style_points"]:
             lines.append(f"  - {item}")
+        lines.append("- 현재 레퍼런스 기반 구조 규칙:")
+        for item in packet.get("reference_editorial_pattern", {}).get("must_have", []):
+            lines.append(f"  - {item}")
+        lines.append("- 구조 참고 소스:")
+        for source in packet.get("reference_editorial_sources", [])[:3]:
+            lines.append(f"  - {source.get('name', '')}: {source.get('focus', '')}")
         lines.append("- 피해야 할 어색한 톤:")
         for item in packet["tone_penalties"]:
             lines.append(f"  - {item}")

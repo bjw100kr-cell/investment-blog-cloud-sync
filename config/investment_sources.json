@@ -129,22 +129,159 @@
       "weight": 3,
       "enabled": false,
       "notes": "Server-side feed not confirmed. Keep as a manual or future reverse-engineering target."
+    },
+    {
+      "id": "ft_world_rss",
+      "name": "Financial Times World",
+      "type": "rss",
+      "url": "https://www.ft.com/rss/world",
+      "category": "global_media",
+      "weight": 3,
+      "enabled": true
+    },
+    {
+      "id": "nyt_business_rss",
+      "name": "NYT Business",
+      "type": "rss",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "global_media",
+      "weight": 2,
+      "enabled": true
     }
   ],
   "keyword_aliases": {
-    "fomc": ["fomc", "federal reserve", "fed", "파월", "연준"],
-    "cpi": ["cpi", "inflation", "consumer price index", "물가", "인플레이션"],
-    "pce": ["pce", "personal consumption expenditures"],
-    "jobs": ["nonfarm payrolls", "payrolls", "jobless", "실업", "고용"],
-    "treasury_yields": ["treasury", "yield", "bond yield", "mortgage rate", "mortgage rates", "국채", "금리"],
-    "dollar": ["dollar", "usd", "dxy", "환율", "달러"],
-    "oil": ["oil", "crude", "wti", "brent", "tanker", "유조선", "원유"],
-    "bitcoin": ["bitcoin", "btc", "crypto", "cryptocurrency", "비트코인"],
-    "ethereum": ["ethereum", "eth", "이더리움"],
-    "crypto_etf": ["etf", "spot etf", "bitcoin etf", "ethereum etf"],
-    "tariffs_trade": ["tariff", "trade war", "관세", "무역"],
-    "china": ["china", "중국"],
-    "ai_semiconductors": ["semiconductor", "chip", "chips", "nvidia", "amd", "tsmc", "anthropic", "반도체", "엔비디아", "칩"]
+    "fomc": [
+      "fomc",
+      "federal reserve",
+      "fed",
+      "파월",
+      "연준"
+    ],
+    "cpi": [
+      "cpi",
+      "inflation",
+      "consumer price index",
+      "물가",
+      "인플레이션"
+    ],
+    "pce": [
+      "pce",
+      "personal consumption expenditures"
+    ],
+    "jobs": [
+      "nonfarm payrolls",
+      "payrolls",
+      "jobless",
+      "실업",
+      "고용"
+    ],
+    "treasury_yields": [
+      "treasury",
+      "yield",
+      "bond",
+      "bond yield",
+      "mortgage rate",
+      "mortgage rates",
+      "국채",
+      "채권",
+      "금리"
+    ],
+    "dollar": [
+      "dollar",
+      "usd",
+      "dxy",
+      "환율",
+      "달러"
+    ],
+    "oil": [
+      "oil",
+      "crude",
+      "wti",
+      "brent",
+      "tanker",
+      "유조선",
+      "원유"
+    ],
+    "bitcoin": [
+      "bitcoin",
+      "btc",
+      "crypto",
+      "cryptocurrency",
+      "비트코인",
+      "빗썸"
+    ],
+    "ethereum": [
+      "ethereum",
+      "eth",
+      "이더리움"
+    ],
+    "crypto_etf": [
+      "etf",
+      "spot etf",
+      "bitcoin etf",
+      "ethereum etf"
+    ],
+    "tariffs_trade": [
+      "tariff",
+      "trade war",
+      "관세",
+      "무역"
+    ],
+    "china": [
+      "china",
+      "중국"
+    ],
+    "ai_semiconductors": [
+      "semiconductor",
+      "chip",
+      "chips",
+      "nvidia",
+      "amd",
+      "tsmc",
+      "anthropic",
+      "반도체",
+      "엔비디아",
+      "칩"
+    ],
+    "us_index_flow": [
+      "nasdaq",
+      "nasdaq today",
+      "spy",
+      "spy stock",
+      "qqq",
+      "s&p",
+      "s&p 500",
+      "stock market",
+      "us stocks",
+      "미국 증시",
+      "나스닥"
+    ],
+    "us_big_tech": [
+      "apple",
+      "apple stock",
+      "애플",
+      "aapl",
+      "microsoft",
+      "microsoft stock",
+      "msft",
+      "amazon",
+      "amazon stock",
+      "amzn",
+      "meta",
+      "meta stock",
+      "tesla",
+      "tesla stock",
+      "dell",
+      "dell stock"
+    ],
+    "ai_growth_stocks": [
+      "palantir",
+      "palantir stock",
+      "팔란티어",
+      "pltr",
+      "ai stock",
+      "growth stock"
+    ]
   },
   "trend_market_terms": [
     "stock",
@@ -185,5 +322,65 @@
     "무역",
     "증시",
     "주식"
-  ]
+  ],
+  "brand_identity_guardrails": {
+    "minimum_unmatched_market_relevance": 1,
+    "minimum_unmatched_traffic_score": 1000,
+    "primary_focus_terms": [
+      "fed",
+      "fomc",
+      "cpi",
+      "pce",
+      "inflation",
+      "rates",
+      "treasury",
+      "bond",
+      "dollar",
+      "oil",
+      "bitcoin",
+      "btc",
+      "ethereum",
+      "eth",
+      "crypto",
+      "etf",
+      "stock",
+      "stocks",
+      "spy",
+      "nasdaq",
+      "s&p",
+      "semiconductor",
+      "chip",
+      "ai",
+      "trade",
+      "tariff",
+      "china",
+      "금리",
+      "달러",
+      "원유",
+      "비트코인",
+      "이더리움",
+      "코인",
+      "반도체",
+      "관세",
+      "무역",
+      "중국",
+      "증시",
+      "주식"
+    ],
+    "preferred_equity_queries": [
+      "apple",
+      "nvidia",
+      "amd",
+      "tsmc",
+      "tesla",
+      "palantir",
+      "microsoft",
+      "amazon",
+      "meta",
+      "spy",
+      "qqq",
+      "nasdaq",
+      "s&p"
+    ]
+  }
 }

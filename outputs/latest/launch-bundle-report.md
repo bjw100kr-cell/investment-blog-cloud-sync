@@ -1,99 +1,100 @@
 # Launch Bundle Report
 
-- `ok` Setup check: `python3 scripts/check_setup.py`
-  - stdout: Investment Blog Cloud Sync setup check
+## Automation Snapshot
+- primary channel now: `blogger`
+- secondary channel later: `wordpress`
+- manual-only channels: `naver_blog, tistory`
+- ready for first live run: `no`
+- repo connected: `no`
+- first live status: `needs_preflight_review`
+- GitHub launch status: `needs_repo_creation`
+- approved upload candidates right now: `1`
+- review gate still blocking uploads: `no`
 
-- project: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync
-- .env present: yes
-- git branch: main
-- git origin: (not configured)
-- outputs/latest present: yes
+## Integration Status
+Ready integrations
+- `blogger_upload`
 
-Local .env values
-- ADSENSE_PUBLISHER_ID: missing
-- ADSENSE_SITE_VERIFICATION: missing
-- BLOGGER_AUTO_PUBLISH_POSTS: set (*****)
-- BLOGGER_BLOG_ID: set (691***88)
-- BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES: set (*****)
-- BLOGGER_MAX_POSTS_PER_RUN: set (*)
-- BLOGGER_PUBLISH_ONLY_DUE_POSTS: set (****)
-- BLOGGER_SITE_PAGES_PUBLISH: set (*****)
-- BLOGGER_SYNC_SITE_PAGES: set (*****)
-- BLOG_BASE_URL: missing
-- GA4_MEASUREMENT_ID: missing
-- GOOGLE_ACCESS_TOKEN: missing
-- GOOGLE_CLIENT_ID: missing
-- GOOGLE_CLIENT_SECRET: missing
-- GOOGLE_OAUTH_OPEN_BROWSER: set (*****)
-- GOOGLE_OAUTH_PRESET: set (com***ed)
-- GOOGLE_REDIRECT_URI: set (htt***ck)
-- GOOGLE_REFRESH_TOKEN: missing
-- NAVER_CLIENT_ID: missing
-- NAVER_CLIENT_SECRET: missing
-- NEWSLETTER_SUBSCRIBE_URL: missing
-- OPENAI_API_KEY: missing
-- OPENAI_MODEL: set (gpt***ni)
-- SEARCH_CONSOLE_ACCESS_TOKEN: missing
-- SEARCH_CONSOLE_CLIENT_ID: missing
-- SEARCH_CONSOLE_CLIENT_SECRET: missing
-- SEARCH_CONSOLE_LAG_DAYS: set (*)
-- SEARCH_CONSOLE_REFRESH_TOKEN: missing
-- SEARCH_CONSOLE_SITE_URL: missing
-- SEARCH_CONSOLE_WINDOW_DAYS: set (*)
+Blocked integrations
+- `naver_datalab (NAVER_CLIENT_ID, NAVER_CLIENT_SECRET)`
+- `search_console (SEARCH_CONSOLE_SITE_URL)`
+- `openai_drafts (OPENAI_API_KEY)`
+- `wordpress_upload (WORDPRESS_SITE_URL, WORDPRESS_USERNAME, WORDPRESS_APPLICATION_PASSWORD)`
 
-Integration readiness
-- naver_datalab: missing NAVER_CLIENT_ID, NAVER_CLIENT_SECRET
-- search_console: missing SEARCH_CONSOLE_SITE_URL, SEARCH_CONSOLE_CLIENT_ID, SEARCH_CONSOLE_CLIENT_SECRET, SEARCH_CONSOLE_REFRESH_TOKEN
-- openai_drafts: missing OPENAI_API_KEY
-- blogger_upload: missing GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN
+## Pipeline Parity
+- all_core_scripts_present: `yes`
+- order_aligned: `yes`
+- missing_in_workflow: `none`
+- missing_in_pipeline: `none`
+- parity report: `outputs/latest/pipeline-workflow-parity.md`
 
-Publish-ready status
-- report exists: yes
-- items: 3
-- ready html items: 3
+## Today Approval Focus
+- top single approval: `bitcoin` -> `비트코인 핵심 흐름 해설`
+- top batch approval: `bitcoin`
+- user review shortlist:
+- `비트코인 핵심 흐름 해설` | keyword `bitcoin` | verdict `approve`
+- `중국 변수와 시장 영향 해설` | keyword `china` | verdict `approve`
+- `FOMC 이후 시장 해설` | keyword `fomc` | verdict `approve`
 
-Site-page status
-- plan exists: yes
-- items: 10
-- required rendered pages: 9 / 9
+## Revenue Path
+- `main_post`: `비트코인 핵심 흐름 해설` | `페이지뷰와 체류시간 균형 확보`
+- `seo_followup`: `비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조` | `초보 검색 유입과 긴 체류시간 확보`
+- `next_slot`: `중국 변수와 시장 영향 해설` | `페이지뷰와 체류시간 균형 확보`
 
-Go-live report
-- report exists: yes
+## Next Commands After Approval
+- `python3 scripts/set_review_approvals.py --keywords bitcoin`
+- `python3 scripts/build_platform_publish_plan.py`
+- `python3 scripts/upload_blogger_drafts.py`
+- `python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state`
 
-GitHub Actions notes
-- Local .env values do not automatically sync to GitHub Secrets.
-- Add the same keys manually in GitHub -> Settings -> Secrets and variables -> Actions.
-- Public repositories are usually the safest free option for this lightweight schedule.
+## Current Blockers
+- GitHub repo is not connected yet, so cloud automation cannot continue after local preparation.
+- Search Console site URL is still missing, so keyword refinement is still using fallback signals.
+- OpenAI API key is missing, so paid human-tone draft expansion remains disabled.
 
-JSON report written to: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/setup-check-report.json
-- `ok` GitHub secrets checklist: `python3 scripts/export_secrets_checklist.py`
-  - stdout: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-secrets-checklist.md
-- `ok` Login launch checklist: `python3 scripts/open_login_setup_pages.py`
-  - stdout: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/login-launch-checklist.md
-- `ok` OAuth client discovery: `python3 scripts/find_google_oauth_client.py`
-  - stdout: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/google-oauth-client-discovery.md
-- `ok` GitHub Actions sync guide: `python3 scripts/export_github_actions_sync_commands.py`
-  - stdout: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-actions-sync.md
-- `ok` Go-live readiness report: `python3 scripts/build_go_live_readiness_report.py`
-- `ok` SEO backlog: `python3 scripts/build_seo_backlog.py`
-- `ok` SEO draft packets: `python3 scripts/build_seo_draft_packets.py`
-- `ok` SEO draft generation: `python3 scripts/generate_seo_blog_drafts.py`
-- `ok` SEO publishing assets: `python3 scripts/generate_seo_publishing_assets.py`
-- `ok` SEO publish-ready render: `python3 scripts/render_seo_publish_ready_posts.py`
-- `ok` Publish inventory: `python3 scripts/build_publish_inventory.py`
-- `ok` Distribution pack: `python3 scripts/build_distribution_pack.py`
-  - stdout: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/distribution-pack.md
-- `ok` Keyword opportunity board: `python3 scripts/build_keyword_opportunity_board.py`
-- `ok` Monetization readiness report: `python3 scripts/build_monetization_readiness_report.py`
-- `ok` First live run plan: `python3 scripts/prepare_first_live_run_plan.py`
-  - stdout: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/first-live-run-plan.md
-- `ok` GitHub launch plan: `python3 scripts/prepare_github_launch_plan.py`
-  - stdout: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-launch-plan.md
-- `ok` Go-live dashboard: `python3 scripts/prepare_go_live_dashboard.py`
-  - stdout: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/go-live-dashboard.md
-- `ok` Success gate: `python3 scripts/build_success_gate.py`
-  - stdout: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/success-gate.md
-- `ok` Operator handoff: `python3 scripts/generate_operator_handoff.py`
-  - stdout: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/operator-handoff.md
-- `ok` Start here runbook: `python3 scripts/prepare_start_here_runbook.py`
-  - stdout: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/start-here-runbook.md
+## Roadmap
+- `phase_1_validate_blogger`: `게시 파이프라인이 실제로 하루 1건씩 안전하게 돌아가는지 확인`
+- `phase_2_repeatable_content_loop`: `검색 유입용 메인 글과 후속 SEO 글이 반복 루프로 굴러가는지 확인`
+- `phase_3_measurement_stack`: `어떤 글이 실제 체류시간과 재방문을 만드는지 측정`
+- `phase_4_retention_stack`: `유입을 재방문으로 바꾸는 장치 추가`
+
+## Refresh Result
+- all automation-focused refresh steps completed successfully
+
+## Refreshed Files
+- `outputs/latest/automation-scope.md`
+- `outputs/latest/current-reference-strategy.md`
+- `outputs/latest/reference-strength-benchmark.md`
+- `outputs/latest/keyword-capture-strategy.md`
+- `outputs/latest/review-packet.md`
+- `outputs/latest/approval-dashboard.md`
+- `outputs/latest/source-freshness-board.md`
+- `outputs/latest/first-approval-path.md`
+- `outputs/latest/daily-revenue-focus.md`
+- `outputs/latest/traffic-cluster-board.md`
+- `outputs/latest/popular-reads-board.md`
+- `outputs/latest/retention-cta-board.md`
+- `outputs/latest/monetization-roadmap.md`
+- `outputs/latest/draft-polish-board.md`
+- `outputs/latest/first-publish-operator-run.md`
+- `outputs/latest/user-review-shortlist.md`
+- `outputs/latest/current-review-focus.html`
+- `outputs/latest/user-approval-inbox.html`
+- `outputs/latest/user-review-checkpoint.html`
+- `outputs/latest/github-minimum-launch-card.md`
+- `outputs/latest/automation-progress-board.md`
+- `outputs/latest/automation-unblock-card.md`
+- `outputs/latest/minimum-unblock-flow.md`
+- `outputs/latest/first-blogger-verify-card.md`
+- `outputs/latest/first-blogger-verify-flow.md`
+- `outputs/latest/review-preview-board.html`
+- `outputs/latest/operator-home.html`
+- `outputs/latest/platform-publish-plan.md`
+- `outputs/latest/cross-platform-publish-pack.md`
+- `outputs/latest/pre-publish-quality-gate.md`
+- `outputs/latest/first-cloud-run-verification.md`
+- `outputs/latest/go-live-dashboard.md`
+- `outputs/latest/pipeline-workflow-parity.md`
+- `outputs/latest/cloud-launch-preflight.md`
+- `outputs/latest/start-here-runbook.md`
+- `outputs/latest/today-operator-console.md`

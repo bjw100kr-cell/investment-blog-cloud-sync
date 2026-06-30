@@ -65,6 +65,39 @@
       "angle": "대표 종목 나열보다 공급망과 실적 변수 중심으로 읽는 섹터 입문 글",
       "monetization_path": "섹터 관심 독자 유입, 개별 종목/실적 포스트로 연결",
       "internal_link_targets": ["china_supply_chain", "earnings_calendar"]
+    },
+    {
+      "id": "big_tech_guide",
+      "keyword": "미국 빅테크 투자 포인트",
+      "related_keywords": ["us_big_tech", "us_index_flow", "ai_growth_stocks"],
+      "post_type": "evergreen_sector_guide",
+      "search_intent": "애플, 마이크로소프트, 아마존 같은 미국 빅테크 흐름을 한 번에 이해하고 싶은 독자",
+      "working_title": "미국 빅테크 투자 포인트: 애플만 보면 부족한 이유",
+      "angle": "대표 종목, 실적, 지수 흐름을 함께 묶어 읽는 미국 빅테크 입문 글",
+      "monetization_path": "미국 주식 검색 유입 확보, 대표 종목/ETF/실적 후속 글로 내부링크 연결",
+      "internal_link_targets": ["us_index_guide", "ai_growth_guide", "earnings_calendar"]
+    },
+    {
+      "id": "us_index_guide",
+      "keyword": "미국 증시 지수 보는법",
+      "related_keywords": ["us_index_flow", "us_big_tech", "treasury_yields", "dollar"],
+      "post_type": "evergreen_explainer",
+      "search_intent": "나스닥, S&P500, 미국채 금리를 함께 어떻게 읽어야 하는지 알고 싶은 독자",
+      "working_title": "미국 증시 지수 보는 법: 나스닥과 S&P500을 같이 읽는 기준",
+      "angle": "지수 자체보다 금리와 빅테크 자금 흐름을 같이 보는 법을 해설하는 글",
+      "monetization_path": "미국 증시 입문 검색 유입 확보, 빅테크/채권/달러 글로 내부링크 확장",
+      "internal_link_targets": ["treasury_guide", "dollar_guide", "big_tech_guide"]
+    },
+    {
+      "id": "ai_growth_guide",
+      "keyword": "AI 성장주 투자 포인트",
+      "related_keywords": ["ai_growth_stocks", "us_big_tech", "ai_semiconductors"],
+      "post_type": "evergreen_sector_guide",
+      "search_intent": "팔란티어 같은 AI 성장주를 어떻게 봐야 하는지 알고 싶은 독자",
+      "working_title": "AI 성장주 투자 포인트: 팔란티어를 볼 때 같이 봐야 할 것",
+      "angle": "테마성 급등보다 실적, 밸류에이션, 빅테크 수요 연결로 읽는 AI 성장주 글",
+      "monetization_path": "성장주 검색 유입 확보, 빅테크/반도체/실적 글로 순환",
+      "internal_link_targets": ["big_tech_guide", "ai_chip_guide", "earnings_calendar"]
     }
   ],
   "cadence_templates": [

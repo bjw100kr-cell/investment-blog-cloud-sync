@@ -2,9 +2,12 @@
 import argparse
 import json
 import os
+import re
 from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
+from typing import Optional
+from urllib.parse import quote_plus
 
 import markdown
 
@@ -17,6 +20,8 @@ DEFAULT_DRAFTS_DIR = ROOT / "outputs/latest/drafts"
 DEFAULT_OUTPUT_DIR = ROOT / "outputs/latest/publish-ready"
 DEFAULT_OUTPUT_JSON = ROOT / "outputs/latest/publish-ready-report.json"
 DEFAULT_OUTPUT_MD = ROOT / "outputs/latest/publish-ready-report.md"
+DEFAULT_IMAGE_SELECTIONS_JSON = ROOT / "outputs/latest/image-selections.json"
+DEFAULT_RETENTION_CTA_BOARD_JSON = ROOT / "outputs/latest/retention-cta-board.json"
 
 
 def slugify(text: str) -> str:
@@ -46,6 +51,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR, help="Directory to write publish-ready HTML and manifests.")
     parser.add_argument("--output-json", type=Path, default=DEFAULT_OUTPUT_JSON, help="Publish-ready report JSON path.")
     parser.add_argument("--output-md", type=Path, default=DEFAULT_OUTPUT_MD, help="Publish-ready report markdown path.")
+    parser.add_argument("--image-selections-json", type=Path, default=DEFAULT_IMAGE_SELECTIONS_JSON, help="Optional image selection JSON file.")
+    parser.add_argument(
+        "--retention-cta-board-json",
+        type=Path,
+        default=DEFAULT_RETENTION_CTA_BOARD_JSON,
+        help="Optional retention CTA board JSON file.",
+    )
     return parser.parse_args()
 
 
@@ -154,13 +166,26 @@ def render_fact_check_box(packet: dict) -> str:
     return "".join(parts)
 
 
-def render_newsletter_box(config: dict, subscribe_url: str) -> str:
+def build_retention_lookup(path: Path) -> dict[str, dict]:
+    payload = load_json(path)
+    lookup = {}
+    for group in payload.get("groups", []):
+        source_keyword = group.get("source_keyword", "")
+        if source_keyword:
+            lookup[source_keyword] = group
+    return lookup
+
+
+def render_newsletter_box(config: dict, subscribe_url: str, retention_cta: Optional[dict] = None) -> str:
     if not subscribe_url:
         return ""
+    description = ""
+    if retention_cta:
+        description = retention_cta.get("newsletter_cta_later", "").strip()
     return (
         "<section class='post-newsletter-cta'>"
         f"<h2>{escape(config.get('newsletter_heading', '다음 흐름도 이어서 받고 싶다면'))}</h2>"
-        f"<p>{escape(config.get('newsletter_description', '업데이트를 이어서 받아볼 수 있는 구독 동선입니다.'))}</p>"
+        f"<p>{escape(description or config.get('newsletter_description', '업데이트를 이어서 받아볼 수 있는 구독 동선입니다.'))}</p>"
         f"<p><a class='newsletter-button' href=\"{escape(subscribe_url)}\">{escape(config.get('newsletter_button_label', '업데이트 받기'))}</a></p>"
         "</section>"
     )
@@ -299,6 +324,68 @@ def render_follow_up_posts(config: dict, posts: list[dict], base_url: str) -> st
     return f"<section class='post-follow-up-links'><h2>{config.get('follow_up_heading', '이어서 준비 중인 글')}</h2><ul>{''.join(items)}</ul></section>"
 
 
+def render_image_plan_meta(image_plan: list[dict]) -> str:
+    if not image_plan:
+        return ""
+    return f"<script type='application/json' class='image-plan-meta'>{json.dumps(image_plan, ensure_ascii=False)}</script>"
+
+
+def render_selected_images(image_plan: list[dict], slot: str) -> str:
+    items = []
+    for image in image_plan:
+        if image.get("slot") != slot:
+            continue
+        selected_url = image.get("selected_url", "").strip()
+        if not selected_url:
+            search_query = image.get("search_query", "").strip()
+            if search_query:
+                selected_url = f"https://source.unsplash.com/1200x675/?{quote_plus(search_query)}"
+        if not selected_url:
+            continue
+        alt_text = escape(image.get("alt_text", ""))
+        credit = image.get("selected_credit") or image.get("selected_photographer") or image.get("provider_name", "")
+        caption = escape(credit) if credit else ""
+        caption_html = f"<figcaption>{caption}</figcaption>" if caption else ""
+        items.append(
+            "<figure class='post-image'>"
+            f"<img src=\"{escape(selected_url)}\" alt=\"{alt_text}\" loading=\"lazy\">"
+            f"{caption_html}"
+            "</figure>"
+        )
+    return "".join(items)
+
+
+def load_image_selection_lookup(path: Path) -> dict[tuple[str, str], dict]:
+    if not path.exists():
+        return {}
+    payload = json.loads(path.read_text())
+    lookup: dict[tuple[str, str], dict] = {}
+    for item in payload.get("items", []):
+        keyword = item.get("keyword", "")
+        slot = item.get("slot", "")
+        if keyword and slot:
+            lookup[(keyword, slot)] = item
+    return lookup
+
+
+def apply_image_selections(asset: dict, selection_lookup: dict[tuple[str, str], dict]) -> dict:
+    keyword = asset.get("keyword", "")
+    updated = dict(asset)
+    image_plan = []
+    for image in asset.get("image_plan", []):
+        merged = dict(image)
+        selection = selection_lookup.get((keyword, image.get("slot", "")), {})
+        if selection:
+            merged["selected_url"] = selection.get("selected_url", merged.get("selected_url", ""))
+            merged["selected_credit"] = selection.get("selected_credit", merged.get("selected_credit", ""))
+            merged["selected_photographer"] = selection.get("selected_photographer", merged.get("selected_photographer", ""))
+            merged["approved"] = bool(selection.get("approved", merged.get("approved", False)))
+            merged["selection_notes"] = selection.get("notes", "")
+        image_plan.append(merged)
+    updated["image_plan"] = image_plan
+    return updated
+
+
 def build_related_links(asset: dict, config: dict, base_url: str) -> list[dict]:
     link_map = config.get("internal_link_url_map", {})
     links = []
@@ -312,6 +399,58 @@ def build_related_links(asset: dict, config: dict, base_url: str) -> list[dict]:
     return links
 
 
+def render_followup_reference(post: dict, base_url: str) -> str:
+    title = escape(post.get("title", ""))
+    slug = post.get("slug", "")
+    href = f"{base_url.rstrip('/')}/{slug}.html" if base_url and slug else ""
+    if href:
+        return f"<a href=\"{escape(href)}\">{title}</a>"
+    return f"<strong>{title}</strong>"
+
+
+def build_followup_sentence(follow_up_posts: list[dict], base_url: str) -> str:
+    top_posts = follow_up_posts[:2]
+    if len(top_posts) >= 2:
+        first = render_followup_reference(top_posts[0], base_url)
+        second = render_followup_reference(top_posts[1], base_url)
+        return f"먼저 {first}, 그다음 {second} 순으로 보면 흐름이 훨씬 더 잘 이어집니다."
+    if len(top_posts) == 1:
+        return f"다음으로는 {render_followup_reference(top_posts[0], base_url)} 글까지 이어서 보면 이해가 더 빨라집니다."
+    return ""
+
+
+def render_retention_cta_section(asset: dict, base_url: str, newsletter_url: str) -> str:
+    retention_cta = asset.get("retention_cta", {}) or {}
+    inline_copy = retention_cta.get("inline_cta_now", "").strip() or asset.get("cta", "").strip()
+    if not inline_copy:
+        return ""
+
+    followup_sentence = build_followup_sentence(asset.get("follow_up_posts", []), base_url)
+    later_copy = ""
+    if newsletter_url:
+        later_copy = retention_cta.get("newsletter_cta_later", "").strip()
+    else:
+        later_copy = retention_cta.get("telegram_cta_later", "").strip() or retention_cta.get("newsletter_cta_later", "").strip()
+
+    parts = ["<section class='post-retention-cta'>", "<h2>여기서 한 단계 더 보면</h2>"]
+    parts.append(f"<p>{escape(inline_copy)}</p>")
+    if followup_sentence:
+        parts.append(f"<p class='retention-followup'>{followup_sentence}</p>")
+    if later_copy:
+        parts.append(f"<p class='retention-later'>{escape(later_copy)}</p>")
+    parts.append("</section>")
+    return "".join(parts)
+
+
+def inject_retention_cta(body_html: str, retention_cta_html: str) -> str:
+    if not retention_cta_html:
+        return body_html
+    pattern = re.compile(r"<h2>CTA</h2>\s*<p>.*?</p>", re.S)
+    if pattern.search(body_html):
+        return pattern.sub(retention_cta_html, body_html, count=1)
+    return f"{body_html}{retention_cta_html}"
+
+
 def render_html_document(
     config: dict,
     title: str,
@@ -323,6 +462,7 @@ def render_html_document(
     follow_up_posts: list[dict],
     canonical_url: str,
     faq_items: list[dict],
+    retention_cta: dict,
     newsletter_url: str,
     adsense_publisher_id: str,
     ga4_measurement_id: str,
@@ -334,8 +474,16 @@ def render_html_document(
     related = render_related_links(config, related_links)
     follow_up = render_follow_up_posts(config, follow_up_posts, canonical_url.rsplit("/", 1)[0] if canonical_url else "")
     fact_check_box = render_fact_check_box(packet)
-    newsletter_box = render_newsletter_box(config, newsletter_url)
+    newsletter_box = render_newsletter_box(config, newsletter_url, retention_cta)
     body_with_ads = inject_ad_slots(body_html, ad_slots, config, adsense_publisher_id)
+    body_with_ads = inject_retention_cta(
+        body_with_ads,
+        render_retention_cta_section(
+            {**asset, "retention_cta": retention_cta, "follow_up_posts": follow_up_posts},
+            canonical_url.rsplit("/", 1)[0] if canonical_url else "",
+            newsletter_url,
+        ),
+    )
     disclosure = (
         f"<section class='post-disclosure'><h2>{config['disclosure_heading']}</h2>"
         f"<p>{asset.get('trust_footer_note', '')}</p></section>"
@@ -343,17 +491,23 @@ def render_html_document(
     canonical_meta = f"<p class='post-canonical'>원문 기준 주소: <a href=\"{canonical_url}\">{canonical_url}</a></p>" if canonical_url else ""
     structured_data = build_structured_data(config, title, asset, canonical_url, publish_date, faq_items)
     analytics_meta = render_analytics_meta(ga4_measurement_id, canonical_url, title, asset.get("category", ""))
+    image_plan = asset.get("image_plan", [])
+    image_plan_meta = render_image_plan_meta(image_plan)
+    hero_images = render_selected_images(image_plan, "hero")
+    inline_images = render_selected_images(image_plan, "inline")
     return (
-        f"{structured_data}{analytics_meta}<article class='investment-post'>"
+        f"{structured_data}{analytics_meta}{image_plan_meta}<article class='investment-post'>"
         f"<header class='post-header'><h1>{title}</h1>"
         f"<p class='post-summary'>{summary_angle}</p>"
         f"<p class='post-top-notice'>{config['top_notice']}</p>"
         f"<p class='post-meta'>카테고리: {asset.get('category', '')} · 라벨: {tags}</p>"
         f"{canonical_meta}</header>"
+        f"{hero_images}"
         f"{author_box}"
         f"{fact_check_box}"
         f"<section class='post-body'>{body_with_ads}</section>"
         f"{newsletter_box}"
+        f"{inline_images}"
         f"{follow_up}"
         f"{related}"
         f"{disclosure}"
@@ -367,6 +521,8 @@ def main() -> int:
     publishing_items = load_json(args.publishing_json).get("items", [])
     config = load_json(RENDER_CONFIG_JSON)
     args.output_dir.mkdir(parents=True, exist_ok=True)
+    image_selection_lookup = load_image_selection_lookup(args.image_selections_json)
+    retention_lookup = build_retention_lookup(args.retention_cta_board_json)
 
     base_url = os.getenv("BLOG_BASE_URL", config.get("default_base_url", "")).strip()
     newsletter_url = os.getenv("NEWSLETTER_SUBSCRIBE_URL", "").strip()
@@ -375,7 +531,8 @@ def main() -> int:
     packet_lookup = {packet["keyword"]: packet for packet in packets}
     rendered_items = []
 
-    for idx, asset in enumerate(publishing_items, start=1):
+    for idx, raw_asset in enumerate(publishing_items, start=1):
+        asset = apply_image_selections(raw_asset, image_selection_lookup)
         keyword = asset["keyword"]
         draft_path = args.drafts_dir / f"{idx:02d}-{slugify(keyword)}.md"
         html_path = args.output_dir / f"{idx:02d}-{asset['slug']}.html"
@@ -417,6 +574,7 @@ def main() -> int:
         canonical_url = resolve_canonical_url(base_url, asset["slug"])
         faq_items = extract_faq_items(markdown_text)
         ad_slots = asset.get("ad_slot_recommendations", [])
+        retention_cta = retention_lookup.get(asset.get("source_keyword", ""), {})
         full_html = render_html_document(
             config,
             title,
@@ -428,6 +586,7 @@ def main() -> int:
             follow_up_posts,
             canonical_url,
             faq_items,
+            retention_cta,
             newsletter_url,
             adsense_publisher_id,
             ga4_measurement_id,
@@ -451,6 +610,14 @@ def main() -> int:
                 "adsense_enabled": bool(adsense_publisher_id),
                 "ga4_enabled": bool(ga4_measurement_id),
                 "ad_slot_recommendations": ad_slots,
+                "retention_cta": retention_cta,
+                "retention_cta_enabled": bool(retention_cta),
+                "image_plan": asset.get("image_plan", []),
+                "image_manual_review_required": asset.get("image_manual_review_required", False),
+                "image_usage_checklist": asset.get("image_usage_checklist", []),
+                "image_blocked_subjects": asset.get("image_blocked_subjects", []),
+                "selected_image_count": sum(1 for image in asset.get("image_plan", []) if image.get("selected_url")),
+                "image_selection_file": str(args.image_selections_json),
             }
         )
         html_path.write_text(full_html)

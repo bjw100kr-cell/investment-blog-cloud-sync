@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 import json
+import subprocess
 from pathlib import Path
+from urllib import error, request
 
 
 ROOT = Path(__file__).resolve().parents[1]
 ENV_EXAMPLE = ROOT / ".env.example"
 ENV_PATH = ROOT / ".env"
-SETUP_REPORT = ROOT / "outputs/latest/setup-check-report.json"
 OUTPUT_SH = ROOT / "outputs/latest/github-actions-sync.sh"
 OUTPUT_MD = ROOT / "outputs/latest/github-actions-sync.md"
 
@@ -24,6 +25,9 @@ SECRET_KEYS = [
     "GOOGLE_REFRESH_TOKEN",
     "GOOGLE_ACCESS_TOKEN",
     "SEARCH_CONSOLE_ACCESS_TOKEN",
+    "WORDPRESS_SITE_URL",
+    "WORDPRESS_USERNAME",
+    "WORDPRESS_APPLICATION_PASSWORD",
 ]
 
 VARIABLE_KEYS = [
@@ -34,14 +38,27 @@ VARIABLE_KEYS = [
     "BLOGGER_SYNC_SITE_PAGES",
     "BLOGGER_SITE_PAGES_PUBLISH",
     "BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES",
+    "BLOGGER_REQUIRE_REVIEW_APPROVAL",
     "BLOGGER_AUTO_PUBLISH_POSTS",
     "BLOGGER_PUBLISH_ONLY_DUE_POSTS",
     "BLOGGER_MAX_POSTS_PER_RUN",
+    "WORDPRESS_AUTO_PUBLISH_POSTS",
+    "WORDPRESS_PUBLISH_ONLY_DUE_POSTS",
+    "WORDPRESS_MAX_POSTS_PER_RUN",
     "GA4_MEASUREMENT_ID",
     "ADSENSE_PUBLISHER_ID",
     "ADSENSE_SITE_VERIFICATION",
     "NEWSLETTER_SUBSCRIBE_URL",
 ]
+
+
+def normalize_github_origin(origin: str) -> str:
+    if not origin:
+        return ""
+    origin = origin.strip()
+    if origin.startswith("https://") and "@github.com/" in origin:
+        origin = "https://" + origin.split("@", 1)[1]
+    return origin
 
 
 def parse_env(path: Path) -> dict[str, str]:
@@ -70,11 +87,39 @@ def load_setup_report(path: Path) -> dict:
 def repo_slug_from_origin(origin: str) -> str:
     if not origin:
         return ""
+    origin = normalize_github_origin(origin)
     if origin.startswith("git@github.com:"):
         return origin.replace("git@github.com:", "", 1).removesuffix(".git")
     if origin.startswith("https://github.com/"):
         return origin.replace("https://github.com/", "", 1).removesuffix(".git")
     return ""
+
+
+def get_repo_origin_from_git() -> str:
+    try:
+        completed = subprocess.run(
+            ["git", "remote", "get-url", "origin"],
+            check=True,
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+        )
+    except Exception:
+        return ""
+    return completed.stdout.strip()
+
+
+def is_github_repo_accessible(repo_slug: str) -> bool:
+    if not repo_slug:
+        return False
+    url = f"https://github.com/{repo_slug}"
+    try:
+        response = request.urlopen(url, timeout=8)
+        return 200 <= response.status < 400
+    except error.HTTPError as exc:
+        return exc.code in {200, 302, 307, 308}
+    except Exception:
+        return False
 
 
 def shell_quote_list(items: list[str]) -> str:
@@ -86,7 +131,7 @@ def build_script(repo_slug: str) -> str:
     return f"""#!/usr/bin/env bash
 set -euo pipefail
 
-ROOT_DIR="$(cd "$(dirname "$0")/../.." && pwd)"
+ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT_DIR"
 
 if ! command -v gh >/dev/null 2>&1; then
@@ -140,9 +185,9 @@ echo "Next: GitHub Actions -> Daily Investment Intake -> Run workflow"
 def main() -> int:
     env_values = parse_env(ENV_PATH)
     expected_keys = parse_expected_keys(ENV_EXAMPLE)
-    report = load_setup_report(SETUP_REPORT)
-    origin = ((report.get("git") or {}).get("origin") or "").strip()
+    origin = get_repo_origin_from_git()
     repo_slug = repo_slug_from_origin(origin if origin != "(not configured)" else "")
+    repo_connected = bool(repo_slug) and is_github_repo_accessible(repo_slug)
 
     OUTPUT_SH.write_text(build_script(repo_slug))
     OUTPUT_SH.chmod(0o755)
@@ -151,7 +196,9 @@ def main() -> int:
     lines.append("# GitHub Actions Sync Guide")
     lines.append("")
     lines.append(f"- script: `{OUTPUT_SH}`")
-    lines.append(f"- repo_connected: `{bool(repo_slug)}`")
+    lines.append(f"- repo_connected: `{repo_connected}`")
+    if repo_slug and not repo_connected:
+        lines.append("- repo_connected_note: `원격 URL은 있으나 GitHub에서 404/접근 불가 상태입니다.`")
     lines.append(f"- repo_slug: `{repo_slug or 'OWNER/REPO 필요'}`")
     lines.append("")
     lines.append("## What It Does")

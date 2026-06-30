@@ -2,6 +2,21 @@
 
 컴퓨터가 꺼져 있어도 돌 수 있게 만든 무료 클라우드 자동화 뼈대입니다.
 
+## 모델 효율 운영 규칙
+
+이 프로젝트는 가능한 적은 크레딧으로 많은 작업을 처리하는 것을 목표로 합니다.
+
+- 상위 모델(`GPT-5.5`, `GPT-5.4`급)은 설계, 아키텍처, 복잡한 디버깅, 중요한 의사결정, `Task Queue` 생성에 집중합니다.
+- Spark(`GPT-5.3 Spark`)는 `TASK_QUEUE.md`에 정의된 TODO, 단순 구현, 문서 작성, 테스트, 반복 작업을 수행합니다.
+- Spark 크레딧이 없으면 `GPT-5.4`가 Spark 역할을 대신 수행하되, 이때도 새 설계 결정 없이 `TASK_QUEUE.md`에 있는 작업만 처리합니다.
+- 모든 세션은 종료 전에 다음 상위 모델 세션용 `HANDOFF.md`를 갱신합니다.
+
+운영 기준 파일:
+
+- `MODEL_EFFICIENCY_POLICY.md`
+- `TASK_QUEUE.md`
+- `HANDOFF.md`
+
 ## 무엇을 하나
 
 - Google Trends KR/US 수집
@@ -17,8 +32,10 @@
 - 7일 편집 캘린더 자동 생성
 - 선택적으로 OpenAI API 기반 Markdown 초안 생성
 - 선택적으로 Blogger draft 업로드
+- 선택적으로 WordPress draft 업로드
 - 결과를 `outputs/latest/`에 저장
 - GitHub Actions가 실행 후 결과를 자동 커밋
+- GitHub Actions에서도 review approval이 비어 있으면 실제 업로드는 자동으로 보류
 
 ## 왜 GitHub Actions인가
 
@@ -150,6 +167,14 @@ python3 scripts/analyze_seed_youtube_videos.py
 
 ## 바로 실행하는 방법
 
+### 0. 자동화 전용 시작 경로(권장)
+
+1. `python3 scripts/check_setup.py`  
+2. 값 보완 후 `bash scripts/run_pipeline.sh`  
+3. `outputs/latest/operator-home.html` 또는 `outputs/latest/start-here-runbook.md`에서 blocker와 다음 단일 액션만 확인  
+
+이 경로는 하루 자동 스케줄 동작과 같은 단계라, 컴퓨터를 켜 두지 않아도 운영 상태를 일관되게 유지하기 위해 우선순위를 맞춰둔 순서입니다.
+
 ### 1. 이 폴더를 별도 GitHub 리포지토리로 올리기
 
 권장 리포지토리 이름 예시:
@@ -162,7 +187,20 @@ python3 scripts/analyze_seed_youtube_videos.py
 
 원격 연결과 첫 푸시는:
 
-- `bash scripts/bootstrap_github_remote.sh <YOUR_GITHUB_REPO_URL>`
+- `bash scripts/bootstrap_github_repo.py <OWNER/REPO>`
+
+이 명령은 `GITHUB_TOKEN`, `GH_TOKEN`, `GITHUB_PAT` 중 하나가 있으면
+레포 생성 + 원격 연결 + 첫 푸시까지 한번에 시도합니다. 토큰이 없으면 
+`https://github.com/new` 에서 레포만 먼저 만든 뒤 기존 방식으로 등록하세요.
+
+기존 방식(토큰/브라우저 직접):
+
+```bash
+export GITHUB_TOKEN=ghp_...
+bash scripts/bootstrap_github_remote.sh yourname/investment-blog-cloud-sync
+```
+
+`GITHUB_TOKEN` 대신 `GH_TOKEN` 또는 `GITHUB_PAT`도 사용 가능합니다.
 
 배포 전 로컬 점검은:
 
@@ -183,6 +221,9 @@ GitHub Secrets 체크리스트 생성:
 `.env` 값을 GitHub Actions Secrets / Variables로 옮기는 `gh` CLI 스크립트 생성:
 
 - `python3 scripts/export_github_actions_sync_commands.py`
+
+`gh`가 설치돼 있지 않으면 `outputs/latest/github-web-launch-checklist.md`에 있는
+GitHub UI 입력 가이드를 그대로 사용해 Secrets/Variables를 복붙으로 등록하세요.
 
 GitHub 저장소 연결부터 Actions 첫 실행까지 실행계획서 생성:
 
@@ -257,6 +298,29 @@ SEO 후속 글도 메타 정보와 발행 직전 HTML까지 미리 생성:
 
 ```bash
 bash scripts/run_pipeline.sh
+```
+
+검토 후에만 업로드하려면:
+
+```bash
+python3 scripts/build_review_packet.py
+python3 scripts/set_review_approvals.py --keywords fomc bitcoin
+python3 scripts/upload_blogger_drafts.py
+```
+
+WordPress 초안 채널까지 같이 쓰려면:
+
+```bash
+python3 scripts/build_review_packet.py
+python3 scripts/set_review_approvals.py --keywords us_big_tech seo_us_big_tech_7
+python3 scripts/upload_wordpress_drafts.py
+```
+
+전체 승인으로 한 번에 올리려면:
+
+```bash
+python3 scripts/set_review_approvals.py --all
+python3 scripts/upload_blogger_drafts.py
 ```
 
 키가 없어도:
@@ -414,6 +478,18 @@ python3 scripts/open_login_setup_pages.py
 
 ```bash
 python3 scripts/open_login_setup_pages.py --open
+```
+
+`--open`은 최소 경로만 열고, 한 번에 여러 탭이 필요하면 `--open-all`을 사용하세요.
+
+```bash
+python3 scripts/open_login_setup_pages.py --open-all
+```
+
+한 개씩 순차적으로 열고 싶다면:
+
+```bash
+python3 scripts/open_login_setup_pages.py --open-next
 ```
 
 로그인 화면을 바로 띄우려면:
@@ -745,6 +821,23 @@ python3 scripts/build_go_live_readiness_report.py
 - 하루에 한 번 최대 1개 글만 공개되도록 제한 가능
 - 추천 발행일이 아직 안 된 글은 draft 상태로만 유지 가능
 
+### 5-6. 운영 자동 모드 (확인 자동화)
+
+원할 때는 초기 안전 장치를 끄고 매일 자동 업로드/공개가 되게 운영 모드로 바꿀 수 있습니다.
+
+- `BLOGGER_REQUIRE_REVIEW_APPROVAL=false`
+- `BLOGGER_AUTO_PUBLISH_POSTS=true`
+- `BLOGGER_PUBLISH_ONLY_DUE_POSTS=false`
+- `BLOGGER_MAX_POSTS_PER_RUN=3` (원하면 5/10으로 조정)
+- `BLOGGER_ALLOW_REUPLOAD_SAME_CONTENT=false` (안정 운영은 `false`, 동일 본문까지 강제 재동기화가 필요하면 `true`)
+
+운영 모드에서는 GitHub Actions가 실행될 때마다 리뷰 승인 대기 없이 바로 게시되고,
+같은 글은 `outputs/latest/blogger-upload-state.json`의 `content_hash` 기준으로 중복 업로드를 방지합니다.
+
+동일 본문으로 인해 모든 글이 `already_synced_same_content`로 스킵될 때는 새 원고 반영이 없는 상태입니다.
+그래도 강제로 최신 상태를 다시 반영하고 싶다면 위 플래그를 `true`로 두고 실행하면
+기존 게시글을 content_hash 변경 여부와 무관하게 `update_post`로 재동기화합니다.
+
 관련 산출물:
 
 - `outputs/latest/blogger-upload-report.json`
@@ -831,7 +924,7 @@ python3 scripts/check_setup.py
 ## 추천 런칭 순서
 
 1. `bash scripts/prepare_initial_commit.sh`
-2. `bash scripts/bootstrap_github_remote.sh <YOUR_GITHUB_REPO_URL>`
+2. `bash scripts/bootstrap_github_remote.sh <OWNER/REPO>`
 3. `python3 scripts/check_setup.py`
 4. GitHub Secrets 입력
 5. GitHub Actions 수동 1회 실행

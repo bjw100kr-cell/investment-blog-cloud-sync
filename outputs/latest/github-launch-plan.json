@@ -1,19 +1,23 @@
 {
-  "status": "needs_initial_commit",
-  "repo_connected": false,
-  "repo_slug": "",
+  "status": "needs_gh_cli",
+  "repo_connected": true,
+  "repo_accessible": true,
+  "repo_slug": "bjw100kr-cell/investment-blog-cloud-sync",
   "current_branch": "main",
-  "has_commit": false,
+  "has_commit": true,
   "gh_installed": false,
   "sync_ready_keys": [
-    "BLOGGER_BLOG_ID"
+    "BLOGGER_BLOG_ID",
+    "GOOGLE_CLIENT_ID",
+    "GOOGLE_CLIENT_SECRET",
+    "GOOGLE_REFRESH_TOKEN"
   ],
   "sync_optional_keys": [],
   "sync_guide_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-actions-sync.md",
   "steps": [
     {
       "title": "초기 커밋 생성",
-      "done": false,
+      "done": true,
       "details": [
         "bash scripts/prepare_initial_commit.sh",
         ".env 는 .gitignore에 포함되어 커밋 대상에서 제외됩니다."
@@ -21,7 +25,7 @@
     },
     {
       "title": "GitHub 저장소 생성",
-      "done": false,
+      "done": true,
       "details": [
         "https://github.com/new 에서 새 public repository 생성",
         "추천 이름: investment-blog-cloud-sync"
@@ -29,14 +33,15 @@
     },
     {
       "title": "원격 저장소 연결",
-      "done": false,
+      "done": true,
       "details": [
         "현재 브랜치: main",
-        "bash scripts/bootstrap_github_remote.sh <YOUR_GITHUB_REPO_URL>"
+        "bash scripts/bootstrap_github_repo.py <OWNER/REPO> (토큰 있으면 생성+연결+푸시 한 번에)",
+        "토큰이 없으면: https://github.com/new 에서 생성 후 `bash scripts/bootstrap_github_remote.sh <OWNER/REPO>`"
       ]
     },
     {
-      "title": "GitHub CLI 로그인",
+      "title": "GitHub CLI 로그인 (선택)",
       "done": false,
       "details": [
         "gh auth login",
@@ -45,11 +50,12 @@
       ]
     },
     {
-      "title": "Actions Secrets/Variables 동기화",
+      "title": "Actions Secrets/Variables 입력",
       "done": false,
       "details": [
-        "bash outputs/latest/github-actions-sync.sh OWNER/REPO",
-        "현재 로컬에서 즉시 동기화 가능한 핵심 키 수: 1"
+        "웹 UI 수동 입력: github-web-launch-checklist.md",
+        "현재 로컬에서 즉시 동기화 가능한 핵심 키 수: 4",
+        "WordPress를 쓸 경우 WORDPRESS_SITE_URL / WORDPRESS_USERNAME / WORDPRESS_APPLICATION_PASSWORD도 함께 동기화"
       ]
     },
     {
@@ -57,7 +63,7 @@
       "done": false,
       "details": [
         "GitHub -> Actions -> Daily Investment Intake -> Run workflow",
-        "첫 실행은 안전모드 max_posts_per_run=1 유지"
+        "첫 실행은 Blogger/WordPress 모두 안전모드 max_posts_per_run=1 유지"
       ]
     }
   ]

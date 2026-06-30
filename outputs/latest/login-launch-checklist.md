@@ -1,14 +1,25 @@
 # Login Launch Checklist
 
-- repo_connected: `False`
-- blogger_ready: `False`
+- repo_connected: `True`
+- repo_url: `https://github.com/bjw100kr-cell/investment-blog-cloud-sync`
+- repo_accessible: `True`
+- blogger_ready: `True`
+- wordpress_ready: `False`
 - search_console_ready: `False`
-- openai_ready: `True`
+- openai_ready: `False`
+- openai_optional: `True`
+- openai_note: `현재는 OpenAI 키가 없더라도 무료 템플릿/기반 워크플로는 동작합니다.`
+- next_page: [GitHub Actions secrets](https://github.com/bjw100kr-cell/investment-blog-cloud-sync/settings/secrets/actions)
+
+## Minimum Go-Live Path
+
+- [GitHub Actions secrets](https://github.com/bjw100kr-cell/investment-blog-cloud-sync/settings/secrets/actions): Add Actions secrets and variables for cloud runs
 
 ## Missing Keys
 
-- `blogger_upload`: GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN
-- `search_console`: SEARCH_CONSOLE_SITE_URL, SEARCH_CONSOLE_CLIENT_ID, SEARCH_CONSOLE_CLIENT_SECRET, SEARCH_CONSOLE_REFRESH_TOKEN
+- `blogger_upload`: none
+- `wordpress_upload`: WORDPRESS_SITE_URL, WORDPRESS_USERNAME, WORDPRESS_APPLICATION_PASSWORD
+- `search_console`: SEARCH_CONSOLE_SITE_URL
 - `openai_drafts`: none
 - `github_actions`: none
 
@@ -17,18 +28,14 @@
 - [Google Cloud Console](https://console.cloud.google.com/): OAuth client, API activation, consent screen setup
 - [Google OAuth consent screen](https://console.cloud.google.com/apis/credentials/consent): App name, email, and consent screen publishing
 - [Google OAuth client credentials](https://console.cloud.google.com/apis/credentials): Create or copy GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET
-- [Blogger API activation page](https://console.cloud.google.com/apis/library/blogger.googleapis.com): Enable Blogger API
 - [Search Console API activation page](https://console.cloud.google.com/apis/library/searchconsole.googleapis.com): Enable Search Console API
-- [Blogger dashboard](https://www.blogger.com/blog/posts/6916836934814427288): Check blog access and confirm BLOGGER_BLOG_ID target
 - [Google Search Console](https://search.google.com/search-console): Verify property access and confirm SEARCH_CONSOLE_SITE_URL
-- [GitHub repository or new repo](https://github.com/new): Connect the repo before enabling cloud automation
+- [GitHub repository or new repo](https://github.com/bjw100kr-cell/investment-blog-cloud-sync): Connect the repo before enabling cloud automation
+- [GitHub Actions secrets](https://github.com/bjw100kr-cell/investment-blog-cloud-sync/settings/secrets/actions): Add Actions secrets and variables for cloud runs
 
 ## Suggested Order
 
-1. Google Cloud Console에서 Blogger API와 Search Console API를 켭니다.
-2. OAuth 동의 화면과 OAuth Client를 만든 뒤 GOOGLE_CLIENT_ID / GOOGLE_CLIENT_SECRET을 확보합니다.
-3. 로컬에서 get_google_refresh_token.py를 실행해 GOOGLE_REFRESH_TOKEN을 발급합니다.
-4. Blogger 대시보드에서 대상 블로그가 맞는지 확인합니다.
-5. Search Console에서 사이트 속성 접근 권한과 SEARCH_CONSOLE_SITE_URL을 확인합니다.
-6. GitHub 저장소를 먼저 연결한 뒤 Actions Secrets/Variables에 같은 값을 입력합니다.
-7. OPENAI_API_KEY를 넣어 사람 같은 초안 생성 품질을 높입니다.
+1. Blogger 필수값은 준비되어 있으니 GitHub Actions Secrets/Variables만 반영하면 됩니다.
+2. Search Console은 첫 가동 뒤 붙여도 됩니다. 지금은 SEARCH_CONSOLE_SITE_URL 없이도 시작 가능합니다.
+3. WordPress는 지금 열지 않고 Blogger 자동화 검증이 끝난 뒤 두 번째 채널로 붙입니다.
+4. OpenAI 키도 후순위입니다. 나중에 넣으면 사람 같은 초안 품질을 더 끌어올릴 수 있습니다.

@@ -1,18 +1,10 @@
 {
-  "ready_for_first_live_run": false,
-  "monetization_score": 33.3,
-  "repo_connected": false,
-  "credentials_missing": [
-    "OPENAI_API_KEY",
-    "GOOGLE_CLIENT_ID",
-    "GOOGLE_CLIENT_SECRET",
-    "GOOGLE_REFRESH_TOKEN"
-  ],
+  "ready_for_first_live_run": true,
+  "monetization_score": 50.0,
+  "repo_connected": true,
+  "credentials_missing": [],
   "growth_keys_missing": [
     "SEARCH_CONSOLE_SITE_URL",
-    "SEARCH_CONSOLE_CLIENT_ID",
-    "SEARCH_CONSOLE_CLIENT_SECRET",
-    "SEARCH_CONSOLE_REFRESH_TOKEN",
     "GA4_MEASUREMENT_ID",
     "ADSENSE_PUBLISHER_ID",
     "ADSENSE_SITE_VERIFICATION",
@@ -20,8 +12,8 @@
   ],
   "top_post_keywords": [
     "fomc",
-    "ai_semiconductors",
-    "bitcoin"
+    "bitcoin",
+    "us_index_flow"
   ],
   "top_page_sequence": [
     "about",
@@ -30,17 +22,20 @@
     "editorial-policy",
     "contact"
   ],
-  "login_pages_count": 8,
+  "login_pages_count": 7,
   "oauth_client_candidate_count": 0,
-  "publish_queue_ready_count": 3,
-  "publish_inventory_ready_count": 9,
+  "publish_queue_ready_count": 4,
+  "publish_inventory_ready_count": 13,
+  "auto_channel_ready_count": 1,
+  "automation_policy": "automation-first",
+  "active_channel_now": "blogger",
+  "expand_channel_later": "wordpress",
   "next_commands": [
-    "python3 scripts/open_login_setup_pages.py --open",
-    "python3 scripts/bootstrap_google_oauth_credentials.py",
-    "bash scripts/prepare_initial_commit.sh"
+    "python3 scripts/export_github_actions_sync_commands.py",
+    "bash scripts/run_pipeline.sh"
   ],
-  "first_live_run_status": "awaiting_credentials",
-  "github_launch_status": "needs_initial_commit",
+  "first_live_run_status": "ready_for_draft_test",
+  "github_launch_status": "needs_gh_cli",
   "first_queue_actions": [
     {
       "keyword": "fomc",
@@ -48,31 +43,31 @@
       "cta_target": "환율·금리·미국증시 evergreen 글로 연결"
     },
     {
-      "keyword": "ai_semiconductors",
-      "title": "AI·반도체 섹터 흐름 해설",
-      "cta_target": "실적·공급망·대표 종목 글로 연결"
-    },
-    {
       "keyword": "bitcoin",
       "title": "비트코인 핵심 흐름 해설",
       "cta_target": "ETF·규제·초보 가이드 글로 연결"
+    },
+    {
+      "keyword": "us_index_flow",
+      "title": "미국 증시 지수 흐름 해설",
+      "cta_target": "실적·공급망·대표 종목 글로 연결"
     }
   ],
   "top_follow_up_targets": [
     {
       "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
       "source_keyword": "fomc",
-      "priority_score": 134.66
+      "priority_score": 139.5
     },
     {
       "title": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지",
       "source_keyword": "fomc",
-      "priority_score": 131.66
+      "priority_score": 136.5
     },
     {
       "title": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지",
       "source_keyword": "fomc",
-      "priority_score": 128.66
+      "priority_score": 133.5
     }
   ],
   "daily_keyword_opportunities": [
@@ -82,14 +77,1113 @@
       "urgency": "publish_now"
     },
     {
-      "keyword": "ai_semiconductors",
-      "title": "AI·반도체 섹터 흐름 해설",
+      "keyword": "bitcoin",
+      "title": "비트코인 핵심 흐름 해설",
       "urgency": "prep_today"
     },
     {
-      "keyword": "bitcoin",
-      "title": "비트코인 핵심 흐름 해설",
+      "keyword": "us_index_flow",
+      "title": "미국 증시 지수 흐름 해설",
       "urgency": "watch"
     }
-  ]
+  ],
+  "platform_channels": [
+    {
+      "name": "blogger",
+      "ready": true,
+      "command": "python3 scripts/upload_blogger_drafts.py",
+      "ready_item_count": 1,
+      "first_item": {
+        "inventory_type": "main_post",
+        "keyword": "bitcoin",
+        "source_keyword": "bitcoin",
+        "title": "비트코인 핵심 흐름 해설",
+        "role": "lane_focus_crypto",
+        "post_type": "breaking_explainer",
+        "ready_to_upload": true,
+        "recommended_publish_date": "2026-07-02",
+        "publish_bucket": "tomorrow",
+        "priority_score": 121.0,
+        "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+        "revenue_objective": "페이지뷰와 체류시간 균형 확보",
+        "cta_focus": "ETF·규제·초보 가이드 글로 연결",
+        "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+        "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
+        "upload_sequence_hint": 2,
+        "inventory_sequence": 2,
+        "approved_for_upload": true,
+        "quality_pass": true,
+        "freshness_status": "fresh",
+        "freshness_pass": true
+      },
+      "items": [
+        {
+          "inventory_type": "main_post",
+          "keyword": "bitcoin",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 해설",
+          "role": "lane_focus_crypto",
+          "post_type": "breaking_explainer",
+          "ready_to_upload": true,
+          "recommended_publish_date": "2026-07-02",
+          "publish_bucket": "tomorrow",
+          "priority_score": 121.0,
+          "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+          "revenue_objective": "페이지뷰와 체류시간 균형 확보",
+          "cta_focus": "ETF·규제·초보 가이드 글로 연결",
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
+          "upload_sequence_hint": 2,
+          "inventory_sequence": 2,
+          "approved_for_upload": true,
+          "quality_pass": true,
+          "freshness_status": "fresh",
+          "freshness_pass": true
+        }
+      ]
+    },
+    {
+      "name": "wordpress",
+      "ready": false,
+      "command": "python3 scripts/upload_wordpress_drafts.py",
+      "ready_item_count": 1,
+      "first_item": {
+        "inventory_type": "main_post",
+        "keyword": "bitcoin",
+        "source_keyword": "bitcoin",
+        "title": "비트코인 핵심 흐름 해설",
+        "role": "lane_focus_crypto",
+        "post_type": "breaking_explainer",
+        "ready_to_upload": true,
+        "recommended_publish_date": "2026-07-02",
+        "publish_bucket": "tomorrow",
+        "priority_score": 121.0,
+        "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+        "revenue_objective": "페이지뷰와 체류시간 균형 확보",
+        "cta_focus": "ETF·규제·초보 가이드 글로 연결",
+        "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+        "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
+        "upload_sequence_hint": 2,
+        "inventory_sequence": 2,
+        "approved_for_upload": true,
+        "quality_pass": true,
+        "freshness_status": "fresh",
+        "freshness_pass": true
+      },
+      "items": [
+        {
+          "inventory_type": "main_post",
+          "keyword": "bitcoin",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 해설",
+          "role": "lane_focus_crypto",
+          "post_type": "breaking_explainer",
+          "ready_to_upload": true,
+          "recommended_publish_date": "2026-07-02",
+          "publish_bucket": "tomorrow",
+          "priority_score": 121.0,
+          "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+          "revenue_objective": "페이지뷰와 체류시간 균형 확보",
+          "cta_focus": "ETF·규제·초보 가이드 글로 연결",
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
+          "upload_sequence_hint": 2,
+          "inventory_sequence": 2,
+          "approved_for_upload": true,
+          "quality_pass": true,
+          "freshness_status": "fresh",
+          "freshness_pass": true
+        }
+      ]
+    }
+  ],
+  "first_approval_path": {
+    "blogger_ready": true,
+    "platform_primary_channel": "blogger",
+    "recommended_batch": {
+      "id": "due_soon_main",
+      "label": "가장 먼저 볼 메인 글",
+      "reason": "발행일이 오늘 또는 내일인 메인 글이며, 품질/이미지 준비가 된 글을 위로 올렸습니다.",
+      "keywords": [
+        "fomc",
+        "bitcoin"
+      ],
+      "approval_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
+      "item_count": 2,
+      "ready_now_count": 2,
+      "items": [
+        {
+          "keyword": "fomc",
+          "title": "FOMC 이후 시장 해설",
+          "publish_date": "2026-07-01",
+          "priority": 140.0,
+          "inventory_type": "main_post",
+          "role": "lane_focus_macro",
+          "quality_status": "pass",
+          "hero_image_selected": true,
+          "ready_now": true,
+          "freshness_status": "",
+          "brand_lane": "macro"
+        },
+        {
+          "keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 해설",
+          "publish_date": "2026-07-02",
+          "priority": 121.0,
+          "inventory_type": "main_post",
+          "role": "lane_focus_crypto",
+          "quality_status": "pass",
+          "hero_image_selected": true,
+          "ready_now": true,
+          "freshness_status": "fresh",
+          "brand_lane": "crypto"
+        }
+      ],
+      "deferred_items": []
+    },
+    "recommended_single": {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장 해설",
+      "publish_date": "2026-07-01",
+      "priority_score": 140.0,
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "freshness_status": "",
+      "freshness_recommendation": "",
+      "hero_image_selected": true,
+      "hero_image_search_url": "https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline",
+      "hero_image_search_query": "central bank meeting finance city skyline",
+      "hero_image_provider": "Unsplash",
+      "hero_image_license_label": "Unsplash License",
+      "hero_image_license_url": "https://unsplash.com/license",
+      "hero_image_apply_helper": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
+      "brand_lane": "macro",
+      "brand_lane_label": "거시경제",
+      "selection_summary": "`fomc`이 오늘 직접 발행 가능한 후보 중 가장 안전한 1순위입니다. 현재 브랜드 레인은 `macro` (거시경제)이고 freshness는 `unknown`입니다. 품질 게이트가 통과 상태라 승인 후 업로드 경로가 가장 짧습니다. 대표 이미지도 이미 선택되어 있어 추가 준비가 거의 없습니다. 오늘 1순위 후보는 레인 우선순위 `macro > crypto > us-stocks > world-flow` 기준에서 freshness와 검수 상태를 함께 반영해 고릅니다.",
+      "comparison_notes": [
+        "`seo_fomc_1`도 같은 `macro` 레인이지만 현재 점수와 발행 준비도 기준에서는 `fomc`가 앞섭니다.",
+        "`seo_fomc_2`도 같은 `macro` 레인이지만 현재 점수와 발행 준비도 기준에서는 `fomc`가 앞섭니다.",
+        "`seo_fomc_3`도 같은 `macro` 레인이지만 현재 점수와 발행 준비도 기준에서는 `fomc`가 앞섭니다."
+      ],
+      "approval_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc"
+    },
+    "after_approval_commands": [
+      "python3 scripts/build_platform_publish_plan.py",
+      "python3 scripts/upload_blogger_drafts.py",
+      "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+    ]
+  },
+  "daily_revenue_focus": {
+    "generated_at": "2026-06-30T16:04:26.272859+00:00",
+    "today_path": [
+      {
+        "step": "main_post",
+        "keyword": "fomc",
+        "title": "FOMC 이후 시장 해설",
+        "why_revenue": "페이지뷰와 체류시간 균형 확보",
+        "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+        "urgency": "publish_now",
+        "brand_lane": "macro",
+        "brand_lane_label": "거시경제"
+      },
+      {
+        "step": "seo_followup",
+        "keyword": "fomc",
+        "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
+        "why_revenue": "검색 유입 누적과 첫 방문 독자 확보",
+        "cta_focus": "거시 허브와 당일 해설 글로 연결",
+        "urgency": "follow_after_main",
+        "brand_lane": "macro",
+        "brand_lane_label": "거시경제"
+      },
+      {
+        "step": "next_slot",
+        "keyword": "bitcoin",
+        "title": "비트코인 핵심 흐름 해설",
+        "why_revenue": "페이지뷰와 체류시간 균형 확보",
+        "cta_focus": "ETF·규제·초보 가이드 글로 연결",
+        "urgency": "prep_today",
+        "brand_lane": "crypto",
+        "brand_lane_label": "코인",
+        "selection_mode": "direct",
+        "freshness_status": "fresh"
+      }
+    ],
+    "approval_commands": {
+      "batch": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
+      "single": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc"
+    },
+    "monetization_gaps": [
+      "analytics_stack",
+      "adsense_stack",
+      "retention_stack"
+    ],
+    "operator_summary": {
+      "main_post_first": "FOMC 이후 시장 해설",
+      "seo_followup_after": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
+      "next_slot_title": "비트코인 핵심 흐름 해설"
+    },
+    "path_policy": "main post는 현재 최적 단건 후보를 유지하고, next slot은 가능하면 다른 브랜드 레인에서 선택"
+  },
+  "monetization_roadmap": {
+    "generated_at": "2026-06-30T16:04:26.272859+00:00",
+    "monetization_score": 50.0,
+    "first_live_run_ready": false,
+    "phases": [
+      {
+        "phase": "phase_1_validate_blogger",
+        "gate": "GitHub repo 연결 전후 첫 Blogger draft 검증",
+        "focus": "게시 파이프라인이 실제로 하루 1건씩 안전하게 돌아가는지 확인",
+        "tasks": [
+          "`비트코인 핵심 흐름 해설` 단건 승인 후 Blogger draft 업로드",
+          "`platform-publish-plan`과 `first-cloud-run-verification` 결과 확인",
+          "Blogger draft 화면에서 제목, 본문, 링크, 라벨 수동 검수"
+        ],
+        "success_signal": "Blogger draft 1건이 승인 범위대로 생성되고 추가 오작동 업로드가 없어야 함"
+      },
+      {
+        "phase": "phase_2_repeatable_content_loop",
+        "gate": "첫 draft 검증 성공 후 3~7일 운영",
+        "focus": "검색 유입용 메인 글과 후속 SEO 글이 반복 루프로 굴러가는지 확인",
+        "tasks": [
+          "`비트코인 핵심 흐름 해설` -> SEO 후속 글 -> `중국 변수와 시장 영향 해설` 흐름 반복",
+          "daily-revenue-focus 기준으로 매일 1순위 글과 후속 글 연결",
+          "승인 keyword 운영이 과도하게 번거롭지 않은지 체크"
+        ],
+        "success_signal": "3일 이상 연속으로 메인 글과 후속 글 경로가 유지되고 승인/업로드 루틴이 안정적이어야 함"
+      },
+      {
+        "phase": "phase_3_measurement_stack",
+        "gate": "반복 발행 루프 확인 후",
+        "focus": "어떤 글이 실제 체류시간과 재방문을 만드는지 측정",
+        "tasks": [
+          "`GA4_MEASUREMENT_ID` 연결",
+          "상위 3개 글의 체류시간, 진입, 내부링크 클릭 흐름 추적",
+          "daily-revenue-focus와 실제 성과가 얼마나 맞는지 비교"
+        ],
+        "success_signal": "상위 글별 진입/체류/재방문 데이터를 확인할 수 있어야 함"
+      },
+      {
+        "phase": "phase_4_retention_stack",
+        "gate": "측정 데이터 확인 후",
+        "focus": "유입을 재방문으로 바꾸는 장치 추가",
+        "tasks": [
+          "`NEWSLETTER_SUBSCRIBE_URL` 또는 텔레그램/구독 채널 연결",
+          "메인 글과 SEO 글 하단 CTA에 재방문 유도 문구 삽입",
+          "다음 주제 예고형 내부링크와 구독 유도 문구 점검"
+        ],
+        "success_signal": "구독/재방문 경로가 글 하단 CTA와 연결되고 운영자가 누적 전환을 추적할 수 있어야 함"
+      },
+      {
+        "phase": "phase_5_adsense_stack",
+        "gate": "체류와 재방문 흐름 확인 후",
+        "focus": "광고 수익화를 붙여도 UX가 망가지지 않는 상태 만들기",
+        "tasks": [
+          "`ADSENSE_PUBLISHER_ID`, `ADSENSE_SITE_VERIFICATION` 연결",
+          "광고 위치가 글 흐름과 CTA를 방해하지 않는지 검수",
+          "광고 노출형 글과 신뢰형 글 비율 조정"
+        ],
+        "success_signal": "광고가 붙어도 읽기 흐름이 무너지지 않고 광고 노출/체류 간 균형이 유지되어야 함"
+      },
+      {
+        "phase": "phase_6_expand_wordpress",
+        "gate": "Blogger 운영과 수익화 루프가 안정화된 뒤",
+        "focus": "두 번째 채널로 WordPress 확장",
+        "tasks": [
+          "`WORDPRESS_SITE_URL`, `WORDPRESS_USERNAME`, `WORDPRESS_APPLICATION_PASSWORD` 연결",
+          "Blogger 승인 경로를 WordPress draft 채널에도 동일 적용",
+          "중복 게시 정책과 canonical/내부링크 정책 결정"
+        ],
+        "success_signal": "WordPress가 Blogger를 흔들지 않는 보조 채널로 동작하고 중복/운영 리스크가 통제되어야 함"
+      }
+    ]
+  },
+  "first_publish_operator_run": {
+    "apply_mode": false,
+    "approval_mode": "auto_single",
+    "current_user_confirmed_all": false,
+    "current_user_confirmed_keywords": [
+      "bitcoin"
+    ],
+    "target_user_confirmed_keywords": [
+      "fomc"
+    ],
+    "approved_keywords": [
+      "fomc"
+    ],
+    "notes": "",
+    "planned_commands": [
+      "python3 scripts/set_review_approvals.py --keywords fomc",
+      "python3 scripts/build_platform_publish_plan.py",
+      "python3 scripts/upload_blogger_drafts.py",
+      "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+    ],
+    "results": [],
+    "success": null
+  },
+  "user_review_shortlist": {
+    "selected_keywords": [
+      "fomc",
+      "bitcoin",
+      "us_index_flow"
+    ],
+    "shortlist_policy": "ready_now 우선, 같은 브랜드 레인 중복 최소화, 높은 priority_score 우선",
+    "shortlist": [
+      {
+        "keyword": "fomc",
+        "title": "FOMC 이후 시장 해설",
+        "publish_date": "2026-07-01",
+        "priority_score": 140.0,
+        "review_verdict": "approve",
+        "quality_status": "pass",
+        "hero_image_selected": true,
+        "ready_now": true,
+        "brand_lane": "macro",
+        "brand_lane_label": "거시경제",
+        "freshness_status": "",
+        "freshness_recommendation": "",
+        "hero_image_provider": "Unsplash",
+        "hero_image_search_query": "central bank meeting finance city skyline",
+        "hero_image_search_url": "https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline",
+        "hero_image_license_label": "Unsplash License",
+        "hero_image_license_url": "https://unsplash.com/license",
+        "hero_image_apply_helper": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
+        "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+        "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+        "preview": [
+          "한 줄 요약: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.",
+          "2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 FOMC 이후 시장 해설입니다. 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다. 쉽게 말해 이 이슈는 멀어 보여도 공식 발표 자료, 해외 주요 매체 보도까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `Federal Reserve issues FOMC statement` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다."
+        ]
+      },
+      {
+        "keyword": "bitcoin",
+        "title": "비트코인 핵심 흐름 해설",
+        "publish_date": "2026-07-02",
+        "priority_score": 121.0,
+        "review_verdict": "approve",
+        "quality_status": "pass",
+        "hero_image_selected": true,
+        "ready_now": true,
+        "brand_lane": "crypto",
+        "brand_lane_label": "코인",
+        "freshness_status": "fresh",
+        "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+        "hero_image_provider": "Pexels",
+        "hero_image_search_query": "bitcoin blockchain abstract blue finance",
+        "hero_image_search_url": "https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/",
+        "hero_image_license_label": "Pexels License",
+        "hero_image_license_url": "https://www.pexels.com/license/",
+        "hero_image_apply_helper": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword bitcoin --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
+        "cta_focus": "ETF·규제·초보 가이드 글로 연결",
+        "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+        "preview": [
+          "한 줄 요약: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.",
+          "2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 비트코인 핵심 흐름 해설입니다. 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다. 쉽게 말해 이 이슈는 멀어 보여도 코인 전문 매체 기사까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `Jefferies warns of crypto market volatility as Clarity Act faces Senate test` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다."
+        ]
+      },
+      {
+        "keyword": "us_index_flow",
+        "title": "미국 증시 지수 흐름 해설",
+        "publish_date": "2026-07-03",
+        "priority_score": 92.0,
+        "review_verdict": "approve",
+        "quality_status": "pass",
+        "hero_image_selected": true,
+        "ready_now": true,
+        "brand_lane": "us-stocks",
+        "brand_lane_label": "미국주식",
+        "freshness_status": "fresh",
+        "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+        "hero_image_provider": "Unsplash",
+        "hero_image_search_query": "technology stocks office finance abstract",
+        "hero_image_search_url": "https://unsplash.com/s/photos/technology+stocks+office+finance+abstract",
+        "hero_image_license_label": "Unsplash License",
+        "hero_image_license_url": "https://unsplash.com/license",
+        "hero_image_apply_helper": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_index_flow --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
+        "cta_focus": "실적·공급망·대표 종목 글로 연결",
+        "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+        "preview": [
+          "한 줄 요약: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.",
+          "2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 미국 증시 지수 흐름 해설입니다. 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다. 쉽게 말해 이 이슈는 멀어 보여도 해외 주요 매체 보도, 코인 전문 매체 기사까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `Nasdaq expands distribution of its market data into blockchain infrastructure` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다."
+        ]
+      }
+    ],
+    "review_board_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/review-preview-board.md",
+    "review_packet_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/review-packet.md",
+    "single_approval_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+    "batch_approval_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin"
+  },
+  "today_operator_console": {
+    "top_state": {
+      "ready_for_first_live_run": false,
+      "repo_connected": false,
+      "first_live_run_status": "needs_preflight_review",
+      "github_launch_status": "needs_repo_creation"
+    },
+    "review_shortlist": [
+      {
+        "keyword": "fomc",
+        "title": "FOMC 이후 시장 해설",
+        "publish_date": "2026-07-01",
+        "priority_score": 140.0,
+        "review_verdict": "approve",
+        "quality_status": "pass",
+        "hero_image_selected": true,
+        "ready_now": true,
+        "brand_lane": "macro",
+        "brand_lane_label": "거시경제",
+        "freshness_status": "",
+        "freshness_recommendation": "",
+        "hero_image_provider": "Unsplash",
+        "hero_image_search_query": "central bank meeting finance city skyline",
+        "hero_image_search_url": "https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline",
+        "hero_image_license_label": "Unsplash License",
+        "hero_image_license_url": "https://unsplash.com/license",
+        "hero_image_apply_helper": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
+        "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+        "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+        "preview": [
+          "한 줄 요약: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.",
+          "2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 FOMC 이후 시장 해설입니다. 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다. 쉽게 말해 이 이슈는 멀어 보여도 공식 발표 자료, 해외 주요 매체 보도까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `Federal Reserve issues FOMC statement` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다."
+        ]
+      },
+      {
+        "keyword": "bitcoin",
+        "title": "비트코인 핵심 흐름 해설",
+        "publish_date": "2026-07-02",
+        "priority_score": 121.0,
+        "review_verdict": "approve",
+        "quality_status": "pass",
+        "hero_image_selected": true,
+        "ready_now": true,
+        "brand_lane": "crypto",
+        "brand_lane_label": "코인",
+        "freshness_status": "fresh",
+        "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+        "hero_image_provider": "Pexels",
+        "hero_image_search_query": "bitcoin blockchain abstract blue finance",
+        "hero_image_search_url": "https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/",
+        "hero_image_license_label": "Pexels License",
+        "hero_image_license_url": "https://www.pexels.com/license/",
+        "hero_image_apply_helper": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword bitcoin --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
+        "cta_focus": "ETF·규제·초보 가이드 글로 연결",
+        "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+        "preview": [
+          "한 줄 요약: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.",
+          "2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 비트코인 핵심 흐름 해설입니다. 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다. 쉽게 말해 이 이슈는 멀어 보여도 코인 전문 매체 기사까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `Jefferies warns of crypto market volatility as Clarity Act faces Senate test` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다."
+        ]
+      },
+      {
+        "keyword": "us_index_flow",
+        "title": "미국 증시 지수 흐름 해설",
+        "publish_date": "2026-07-03",
+        "priority_score": 92.0,
+        "review_verdict": "approve",
+        "quality_status": "pass",
+        "hero_image_selected": true,
+        "ready_now": true,
+        "brand_lane": "us-stocks",
+        "brand_lane_label": "미국주식",
+        "freshness_status": "fresh",
+        "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+        "hero_image_provider": "Unsplash",
+        "hero_image_search_query": "technology stocks office finance abstract",
+        "hero_image_search_url": "https://unsplash.com/s/photos/technology+stocks+office+finance+abstract",
+        "hero_image_license_label": "Unsplash License",
+        "hero_image_license_url": "https://unsplash.com/license",
+        "hero_image_apply_helper": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_index_flow --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
+        "cta_focus": "실적·공급망·대표 종목 글로 연결",
+        "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+        "preview": [
+          "한 줄 요약: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.",
+          "2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 미국 증시 지수 흐름 해설입니다. 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다. 쉽게 말해 이 이슈는 멀어 보여도 해외 주요 매체 보도, 코인 전문 매체 기사까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `Nasdaq expands distribution of its market data into blockchain infrastructure` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다."
+        ]
+      }
+    ],
+    "approval": {
+      "single_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "batch_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin"
+    },
+    "review_board": {
+      "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/review-preview-board.html",
+      "exists": true
+    },
+    "review_paths": {
+      "shortlist_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/user-review-shortlist.md",
+      "reference_strength_benchmark_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/reference-strength-benchmark.md",
+      "review_packet_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/review-packet.md",
+      "image_upgrade_queue_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/image-upgrade-queue.md",
+      "image_leverage_board_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/image-leverage-board.md",
+      "top_image_action_card_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/top-image-action-card.md",
+      "full_draft_review_sheet_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/full-draft-review-sheet.md",
+      "draft_polish_board_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/draft-polish-board.md",
+      "traffic_cluster_board_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/traffic-cluster-board.md",
+      "popular_reads_board_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/popular-reads-board.md",
+      "retention_cta_board_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/retention-cta-board.md",
+      "editorial_calendar_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/editorial-calendar.md",
+      "approval_evidence_sheet_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/approval-evidence-sheet.md",
+      "approval_briefing_board_html": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/approval-briefing-board.html",
+      "shortlist_publish_action_board_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/shortlist-publish-action-board.md",
+      "shortlist_launchpad_html": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/shortlist-launchpad.html",
+      "current_review_focus_html": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/current-review-focus.html",
+      "user_approval_inbox_html": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/user-approval-inbox.html",
+      "user_review_checkpoint_html": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/user-review-checkpoint.html",
+      "source_freshness_board_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/source-freshness-board.md",
+      "github_minimum_launch_card_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-minimum-launch-card.md",
+      "pipeline_workflow_parity_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/pipeline-workflow-parity.md",
+      "cloud_launch_preflight_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/cloud-launch-preflight.md",
+      "automation_progress_board_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/automation-progress-board.md",
+      "automation_unblock_card_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/automation-unblock-card.md",
+      "minimum_unblock_flow_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/minimum-unblock-flow.md",
+      "first_blogger_verify_card_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/first-blogger-verify-card.md"
+    },
+    "operator_run": {
+      "approval_mode": "auto_single",
+      "planned_commands": [
+        "python3 scripts/set_review_approvals.py --keywords fomc",
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ]
+    },
+    "reply_flow": {
+      "preview_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply \"fomc 글 먼저 진행\"",
+      "apply_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply \"fomc 글 먼저 진행\" --apply"
+    },
+    "revenue_path": [
+      {
+        "step": "main_post",
+        "keyword": "fomc",
+        "title": "FOMC 이후 시장 해설",
+        "why_revenue": "페이지뷰와 체류시간 균형 확보",
+        "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+        "urgency": "publish_now",
+        "brand_lane": "macro",
+        "brand_lane_label": "거시경제"
+      },
+      {
+        "step": "seo_followup",
+        "keyword": "fomc",
+        "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
+        "why_revenue": "검색 유입 누적과 첫 방문 독자 확보",
+        "cta_focus": "거시 허브와 당일 해설 글로 연결",
+        "urgency": "follow_after_main",
+        "brand_lane": "macro",
+        "brand_lane_label": "거시경제"
+      },
+      {
+        "step": "next_slot",
+        "keyword": "bitcoin",
+        "title": "비트코인 핵심 흐름 해설",
+        "why_revenue": "페이지뷰와 체류시간 균형 확보",
+        "cta_focus": "ETF·규제·초보 가이드 글로 연결",
+        "urgency": "prep_today",
+        "brand_lane": "crypto",
+        "brand_lane_label": "코인",
+        "selection_mode": "direct",
+        "freshness_status": "fresh"
+      }
+    ],
+    "roadmap_phases": [
+      {
+        "phase": "phase_1_validate_blogger",
+        "gate": "GitHub repo 연결 전후 첫 Blogger draft 검증",
+        "focus": "게시 파이프라인이 실제로 하루 1건씩 안전하게 돌아가는지 확인",
+        "tasks": [
+          "`비트코인 핵심 흐름 해설` 단건 승인 후 Blogger draft 업로드",
+          "`platform-publish-plan`과 `first-cloud-run-verification` 결과 확인",
+          "Blogger draft 화면에서 제목, 본문, 링크, 라벨 수동 검수"
+        ],
+        "success_signal": "Blogger draft 1건이 승인 범위대로 생성되고 추가 오작동 업로드가 없어야 함"
+      },
+      {
+        "phase": "phase_2_repeatable_content_loop",
+        "gate": "첫 draft 검증 성공 후 3~7일 운영",
+        "focus": "검색 유입용 메인 글과 후속 SEO 글이 반복 루프로 굴러가는지 확인",
+        "tasks": [
+          "`비트코인 핵심 흐름 해설` -> SEO 후속 글 -> `중국 변수와 시장 영향 해설` 흐름 반복",
+          "daily-revenue-focus 기준으로 매일 1순위 글과 후속 글 연결",
+          "승인 keyword 운영이 과도하게 번거롭지 않은지 체크"
+        ],
+        "success_signal": "3일 이상 연속으로 메인 글과 후속 글 경로가 유지되고 승인/업로드 루틴이 안정적이어야 함"
+      },
+      {
+        "phase": "phase_3_measurement_stack",
+        "gate": "반복 발행 루프 확인 후",
+        "focus": "어떤 글이 실제 체류시간과 재방문을 만드는지 측정",
+        "tasks": [
+          "`GA4_MEASUREMENT_ID` 연결",
+          "상위 3개 글의 체류시간, 진입, 내부링크 클릭 흐름 추적",
+          "daily-revenue-focus와 실제 성과가 얼마나 맞는지 비교"
+        ],
+        "success_signal": "상위 글별 진입/체류/재방문 데이터를 확인할 수 있어야 함"
+      }
+    ],
+    "image_upgrade_queue": [],
+    "image_leverage_lanes": [],
+    "cross_platform_publish_pack": {
+      "generated_at": "2026-06-30T16:04:29.780387+00:00",
+      "automation_policy": "automation-first",
+      "primary_channel": "blogger",
+      "secondary_channel": "wordpress",
+      "selected_count": 4,
+      "manual_selected_count": 4,
+      "manual_channels": [
+        {
+          "name": "naver_blog",
+          "label": "네이버 블로그 (수동)",
+          "ready": true,
+          "mode": "manual",
+          "reason": "운영 정책상 수동 운영 채널로 분리",
+          "editor_url": "https://blog.naver.com",
+          "recommended_steps": [
+            "1) `html_path`에 적힌 파일을 열어 전체 본문을 복사",
+            "2) 네이버 블로그 글쓰기 에디터에서 새 글 작성으로 붙여넣기",
+            "3) 카테고리/태그: `경제`, `투자`, `주식`, `코인` 중심으로 정리",
+            "공개 범위를 확인하고 발행",
+            "발행한 뒤 링크에 `출처`를 한 줄 넣고, 수익화 성과 트래킹 시트에 URL 기록",
+            "발행 URL을 추후 수동 성과 추적용으로 기록",
+            "중복/오타 검수 후 바로 다음 글로 이동"
+          ],
+          "execution_notes": [
+            "네이버는 현재 수동 채널입니다. 동일 후보 글이 여러 개면 한 번에 하나씩 발행하세요.",
+            "업로드 대상이 여러 개면 `1번 후보 -> 발행 -> 다음 후보`로 순서 유지가 효율적입니다."
+          ],
+          "ready_item_count": 4,
+          "ready_command": "open https://blog.naver.com and paste html_path content",
+          "quality_note": "수동 채널은 품질 게이트 상태와 상관없이 수동 발행 후보로 노출됩니다.",
+          "items": [
+            {
+              "inventory_sequence": 2,
+              "inventory_type": "main_post",
+              "keyword": "bitcoin",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 해설",
+              "publish_bucket": "tomorrow",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 121.0,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
+              "quality_status": "pass"
+            },
+            {
+              "inventory_sequence": 8,
+              "inventory_type": "seo_followup",
+              "keyword": "seo_bitcoin_4",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+              "publish_bucket": "seo_backlog",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 120.5,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.json",
+              "quality_status": "pass"
+            },
+            {
+              "inventory_sequence": 9,
+              "inventory_type": "seo_followup",
+              "keyword": "seo_bitcoin_5",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
+              "publish_bucket": "seo_backlog",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 117.5,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.json",
+              "quality_status": "pass"
+            },
+            {
+              "inventory_sequence": 10,
+              "inventory_type": "seo_followup",
+              "keyword": "seo_bitcoin_6",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리",
+              "publish_bucket": "seo_backlog",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 114.5,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.json",
+              "quality_status": "pass"
+            }
+          ]
+        },
+        {
+          "name": "tistory",
+          "label": "티스토리 (수동)",
+          "ready": true,
+          "mode": "manual",
+          "reason": "운영 정책상 수동 운영 채널로 분리",
+          "editor_url": "https://www.tistory.com/manage",
+          "recommended_steps": [
+            "1) `html_path`에 적힌 파일을 열어 본문을 복사",
+            "2) 티스토리 새 글 작성으로 붙여넣기",
+            "3) 썸네일/태그/카테고리를 시장 흐름 중심으로 정렬",
+            "발행 후 상단 고정 링크와 관련 글 이동 경로를 점검",
+            "문단 구분이 깨지면 HTML 보기에서 한 번 더 줄 바꿈 정리",
+            "발행 URL과 대표 키워드를 수기 스프레드시트나 텍스트로 저장"
+          ],
+          "execution_notes": [
+            "티스토리는 수동 채널이라 자동 업로드가 없고, 발행은 사용자가 직접 확인해야 합니다.",
+            "SEO 글이면 `해시태그`에 핵심 키워드 2~3개만 짧게 넣어 검색 유입을 확보하세요."
+          ],
+          "ready_command": "open https://www.tistory.com/manage and create a new post with copied html_path content",
+          "ready_item_count": 4,
+          "items": [
+            {
+              "inventory_sequence": 2,
+              "inventory_type": "main_post",
+              "keyword": "bitcoin",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 해설",
+              "publish_bucket": "tomorrow",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 121.0,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
+              "quality_status": "pass"
+            },
+            {
+              "inventory_sequence": 8,
+              "inventory_type": "seo_followup",
+              "keyword": "seo_bitcoin_4",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+              "publish_bucket": "seo_backlog",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 120.5,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.json",
+              "quality_status": "pass"
+            },
+            {
+              "inventory_sequence": 9,
+              "inventory_type": "seo_followup",
+              "keyword": "seo_bitcoin_5",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
+              "publish_bucket": "seo_backlog",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 117.5,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.json",
+              "quality_status": "pass"
+            },
+            {
+              "inventory_sequence": 10,
+              "inventory_type": "seo_followup",
+              "keyword": "seo_bitcoin_6",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리",
+              "publish_bucket": "seo_backlog",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 114.5,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.json",
+              "quality_status": "pass"
+            }
+          ]
+        }
+      ],
+      "auto_channels": [
+        {
+          "name": "blogger",
+          "label": "Blogger (자동)",
+          "ready": true,
+          "mode": "auto",
+          "command": "python3 scripts/upload_blogger_drafts.py",
+          "ready_item_count": 4,
+          "items": [
+            {
+              "inventory_sequence": 2,
+              "inventory_type": "main_post",
+              "keyword": "bitcoin",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 해설",
+              "publish_bucket": "tomorrow",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 121.0,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
+              "quality_status": "unknown"
+            },
+            {
+              "inventory_sequence": 8,
+              "inventory_type": "seo_followup",
+              "keyword": "seo_bitcoin_4",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+              "publish_bucket": "seo_backlog",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 120.5,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.json",
+              "quality_status": "unknown"
+            },
+            {
+              "inventory_sequence": 9,
+              "inventory_type": "seo_followup",
+              "keyword": "seo_bitcoin_5",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
+              "publish_bucket": "seo_backlog",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 117.5,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.json",
+              "quality_status": "unknown"
+            },
+            {
+              "inventory_sequence": 10,
+              "inventory_type": "seo_followup",
+              "keyword": "seo_bitcoin_6",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리",
+              "publish_bucket": "seo_backlog",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 114.5,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.json",
+              "quality_status": "unknown"
+            }
+          ]
+        },
+        {
+          "name": "wordpress",
+          "label": "WordPress (자동)",
+          "ready": false,
+          "mode": "auto",
+          "command": "python3 scripts/upload_wordpress_drafts.py",
+          "ready_item_count": 4,
+          "items": [
+            {
+              "inventory_sequence": 2,
+              "inventory_type": "main_post",
+              "keyword": "bitcoin",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 해설",
+              "publish_bucket": "tomorrow",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 121.0,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
+              "quality_status": "unknown"
+            },
+            {
+              "inventory_sequence": 8,
+              "inventory_type": "seo_followup",
+              "keyword": "seo_bitcoin_4",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+              "publish_bucket": "seo_backlog",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 120.5,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.json",
+              "quality_status": "unknown"
+            },
+            {
+              "inventory_sequence": 9,
+              "inventory_type": "seo_followup",
+              "keyword": "seo_bitcoin_5",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
+              "publish_bucket": "seo_backlog",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 117.5,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.json",
+              "quality_status": "unknown"
+            },
+            {
+              "inventory_sequence": 10,
+              "inventory_type": "seo_followup",
+              "keyword": "seo_bitcoin_6",
+              "source_keyword": "bitcoin",
+              "title": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리",
+              "publish_bucket": "seo_backlog",
+              "recommended_publish_date": "2026-07-02",
+              "priority_score": 114.5,
+              "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html",
+              "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.json",
+              "quality_status": "unknown"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "github_minimum_launch_card_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-minimum-launch-card.md",
+  "pipeline_workflow_parity_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/pipeline-workflow-parity.md",
+  "user_review_checkpoint_html": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/user-review-checkpoint.html",
+  "cloud_launch_preflight_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/cloud-launch-preflight.md",
+  "minimum_cloud_blocker_summary": {
+    "repo_connected": true,
+    "required_secrets_count": 4,
+    "required_variables_count": 7,
+    "wordpress_required_now": false,
+    "openai_required_now": false
+  },
+  "pipeline_workflow_parity": {
+    "pipeline_script_count": 75,
+    "workflow_script_count": 75,
+    "missing_in_workflow": [],
+    "missing_in_pipeline": [],
+    "order_mismatches": [],
+    "all_core_scripts_present": true,
+    "order_aligned": true,
+    "pipeline_scripts": [
+      "scripts/collect_investment_sources.py",
+      "scripts/build_search_demand_report.py",
+      "scripts/fetch_search_console_queries.py",
+      "scripts/search_console_to_feedback.py",
+      "scripts/compile_performance_feedback.py",
+      "scripts/score_daily_topics.py",
+      "scripts/build_draft_packets.py",
+      "scripts/build_current_reference_strategy.py",
+      "scripts/build_reference_strength_benchmark.py",
+      "scripts/build_keyword_capture_strategy.py",
+      "scripts/build_editorial_calendar.py",
+      "scripts/generate_site_foundation.py",
+      "scripts/render_site_foundation_pages.py",
+      "scripts/build_site_page_publish_plan.py",
+      "scripts/generate_publishing_assets.py",
+      "scripts/generate_blog_drafts.py",
+      "scripts/review_human_tone.py",
+      "scripts/build_draft_polish_board.py",
+      "scripts/render_publish_ready_posts.py",
+      "scripts/generate_growth_report.py",
+      "scripts/build_publish_queue.py",
+      "scripts/build_monetization_readiness_report.py",
+      "scripts/build_monetization_roadmap.py",
+      "scripts/build_go_live_readiness_report.py",
+      "scripts/build_seo_backlog.py",
+      "scripts/build_seo_draft_packets.py",
+      "scripts/generate_seo_blog_drafts.py",
+      "scripts/build_keyword_opportunity_board.py",
+      "scripts/generate_seo_publishing_assets.py",
+      "scripts/build_safe_image_suggestions.py",
+      "scripts/render_seo_publish_ready_posts.py",
+      "scripts/build_publish_inventory.py",
+      "scripts/build_distribution_pack.py",
+      "scripts/build_pre_publish_quality_gate.py",
+      "scripts/build_cross_platform_publish_pack.py",
+      "scripts/prepare_first_live_run_plan.py",
+      "scripts/build_automation_scope.py",
+      "scripts/build_platform_publish_plan.py",
+      "scripts/build_review_packet.py",
+      "scripts/build_approval_dashboard.py",
+      "scripts/build_first_approval_path.py",
+      "scripts/build_daily_revenue_focus.py",
+      "scripts/build_traffic_cluster_board.py",
+      "scripts/build_popular_reads_board.py",
+      "scripts/build_retention_cta_board.py",
+      "scripts/first_publish_operator_run.py",
+      "scripts/build_user_review_shortlist.py",
+      "scripts/build_full_draft_review_sheet.py",
+      "scripts/build_approval_evidence_sheet.py",
+      "scripts/build_approval_briefing_board.py",
+      "scripts/build_shortlist_publish_action_board.py",
+      "scripts/build_shortlist_launchpad.py",
+      "scripts/build_source_freshness_board.py",
+      "scripts/build_current_review_focus.py",
+      "scripts/build_user_approval_inbox.py",
+      "scripts/build_user_review_checkpoint.py",
+      "scripts/build_github_minimum_launch_card.py",
+      "scripts/build_automation_progress_board.py",
+      "scripts/build_automation_unblock_card.py",
+      "scripts/run_minimum_unblock_flow.py",
+      "scripts/build_first_blogger_verify_card.py",
+      "scripts/run_first_blogger_verify_flow.py",
+      "scripts/build_image_upgrade_queue.py",
+      "scripts/build_image_leverage_board.py",
+      "scripts/build_top_image_action_card.py",
+      "scripts/build_review_preview_board.py",
+      "scripts/build_today_operator_console.py",
+      "scripts/build_operator_home.py",
+      "scripts/prepare_first_cloud_run_verification.py",
+      "scripts/prepare_first_run_values_card.py",
+      "scripts/build_pipeline_workflow_parity.py",
+      "scripts/build_cloud_launch_preflight.py",
+      "scripts/sync_blogger_site_pages.py",
+      "scripts/upload_blogger_drafts.py",
+      "scripts/upload_wordpress_drafts.py"
+    ],
+    "workflow_scripts": [
+      "scripts/collect_investment_sources.py",
+      "scripts/build_search_demand_report.py",
+      "scripts/fetch_search_console_queries.py",
+      "scripts/search_console_to_feedback.py",
+      "scripts/compile_performance_feedback.py",
+      "scripts/score_daily_topics.py",
+      "scripts/build_draft_packets.py",
+      "scripts/build_current_reference_strategy.py",
+      "scripts/build_reference_strength_benchmark.py",
+      "scripts/build_keyword_capture_strategy.py",
+      "scripts/build_editorial_calendar.py",
+      "scripts/generate_site_foundation.py",
+      "scripts/render_site_foundation_pages.py",
+      "scripts/build_site_page_publish_plan.py",
+      "scripts/generate_publishing_assets.py",
+      "scripts/generate_blog_drafts.py",
+      "scripts/review_human_tone.py",
+      "scripts/build_draft_polish_board.py",
+      "scripts/render_publish_ready_posts.py",
+      "scripts/generate_growth_report.py",
+      "scripts/build_publish_queue.py",
+      "scripts/build_monetization_readiness_report.py",
+      "scripts/build_monetization_roadmap.py",
+      "scripts/build_go_live_readiness_report.py",
+      "scripts/build_seo_backlog.py",
+      "scripts/build_seo_draft_packets.py",
+      "scripts/generate_seo_blog_drafts.py",
+      "scripts/build_keyword_opportunity_board.py",
+      "scripts/generate_seo_publishing_assets.py",
+      "scripts/build_safe_image_suggestions.py",
+      "scripts/render_seo_publish_ready_posts.py",
+      "scripts/build_publish_inventory.py",
+      "scripts/build_distribution_pack.py",
+      "scripts/build_pre_publish_quality_gate.py",
+      "scripts/build_cross_platform_publish_pack.py",
+      "scripts/prepare_first_live_run_plan.py",
+      "scripts/build_automation_scope.py",
+      "scripts/build_platform_publish_plan.py",
+      "scripts/build_review_packet.py",
+      "scripts/build_approval_dashboard.py",
+      "scripts/build_first_approval_path.py",
+      "scripts/build_daily_revenue_focus.py",
+      "scripts/build_traffic_cluster_board.py",
+      "scripts/build_popular_reads_board.py",
+      "scripts/build_retention_cta_board.py",
+      "scripts/first_publish_operator_run.py",
+      "scripts/build_user_review_shortlist.py",
+      "scripts/build_full_draft_review_sheet.py",
+      "scripts/build_approval_evidence_sheet.py",
+      "scripts/build_approval_briefing_board.py",
+      "scripts/build_shortlist_publish_action_board.py",
+      "scripts/build_shortlist_launchpad.py",
+      "scripts/build_source_freshness_board.py",
+      "scripts/build_current_review_focus.py",
+      "scripts/build_user_approval_inbox.py",
+      "scripts/build_user_review_checkpoint.py",
+      "scripts/build_github_minimum_launch_card.py",
+      "scripts/build_automation_progress_board.py",
+      "scripts/build_automation_unblock_card.py",
+      "scripts/run_minimum_unblock_flow.py",
+      "scripts/build_first_blogger_verify_card.py",
+      "scripts/run_first_blogger_verify_flow.py",
+      "scripts/build_image_upgrade_queue.py",
+      "scripts/build_image_leverage_board.py",
+      "scripts/build_top_image_action_card.py",
+      "scripts/build_review_preview_board.py",
+      "scripts/build_today_operator_console.py",
+      "scripts/build_operator_home.py",
+      "scripts/prepare_first_cloud_run_verification.py",
+      "scripts/prepare_first_run_values_card.py",
+      "scripts/build_pipeline_workflow_parity.py",
+      "scripts/build_cloud_launch_preflight.py",
+      "scripts/sync_blogger_site_pages.py",
+      "scripts/upload_blogger_drafts.py",
+      "scripts/upload_wordpress_drafts.py"
+    ]
+  }
 }

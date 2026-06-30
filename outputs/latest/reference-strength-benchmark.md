@@ -1,0 +1,87 @@
+# Reference Strength Benchmark
+
+현재 잘 읽히는 투자·경제·코인 레퍼런스의 강점을 트래픽 구조와 콘텐츠 구조 관점에서 번역한 벤치마크 카드입니다.
+- snapshot_date: `2026-06-29`
+- goal: 현재 잘 읽히는 투자/경제/코인 레퍼런스의 강점을 우리 자동 블로그 운영 규칙으로 번역
+
+## 1. Investopedia
+
+- role: 검색형 투자/경제 설명글의 교과서
+- visibility_snapshot: Similarweb May 2026 snapshot: Investing category rank #23 in the US, top traffic source Organic Search 59.88%, total visits last 3 months 12.6M.
+- strength: 용어형·초보형 검색 수요를 아주 넓게 받는 구조
+- strength: 한 이슈를 정의, 예시, FAQ 성격으로 쪼개 검색 유입을 늘리는 구조
+- strength: 검색형 제목과 내부 링크 허브가 강해 재방문보다도 검색 점유가 먼저 잘 잡힘
+- apply_next: 메인 뉴스 해설 외에 `초보자 가이드`, `핵심 구조`, `FAQ` 후속 글을 기본 묶음으로 고정
+- apply_next: 글 제목에 `무엇인가`, `왜 중요한가`, `어떻게 봐야 하나` 의도를 더 직접 반영
+- source: https://www.similarweb.com/website/investopedia.com/
+
+## 2. CoinDesk
+
+- role: 실시간 코인 뉴스와 해설의 대표 레퍼런스
+- visibility_snapshot: Similarweb May 2026 snapshot: Finance - Other category rank #137 in the US, total visits last 3 months 3.4M, Direct 54.33%, Organic Search 2nd.
+- strength: 속보, 분석, 가격 관심사를 같은 브랜드 안에서 함께 소비하게 만드는 구조
+- strength: Direct 비중이 높아 브랜드 자체를 찾는 습관이 만들어져 있음
+- strength: 주요 키워드가 `bitcoin`, `bitcoin price`, `btc`처럼 수요가 큰 검색어와 바로 연결됨
+- apply_next: 메인 글에 `가격/ETF/규제/온체인` 후속 읽기 링크를 항상 같이 배치
+- apply_next: 코인 글은 제목 첫 줄에서 자산명과 시장 반응을 바로 잡는 방식 유지
+- source: https://www.similarweb.com/website/coindesk.com/
+- source: https://www.coindesk.com/
+
+## 3. CoinNess
+
+- role: 짧고 빠른 코인 브리핑의 한국형 레퍼런스
+- visibility_snapshot: Official site positions itself as fast and accurate crypto news; public Similarweb comparison pages show very high Direct share and strong Korea focus.
+- strength: 짧은 브리프를 매우 빠르게 많이 공급해 체류보다 빈도와 습관을 잡는 구조
+- strength: 앱과 웹을 함께 두고, 가격 화면과 뉴스 화면을 가깝게 붙이는 구조
+- strength: 한국 투자자가 바로 반응하는 거래소·가격·속보 포맷에 강함
+- apply_next: 블로그 메인 포스팅 외에 `오늘 코인 3줄 브리프` 같은 짧은 보조 포맷을 운영 카드에 추가 검토
+- apply_next: 비트코인 글은 본문 상단에서 `지금 무엇이 움직였는지`를 2~3줄로 먼저 잘라 보여주기
+- source: https://coinness.com/en/
+- source: https://www.similarweb.com/website/coinness.com/vs/bithumb.com/
+
+## 4. A Wealth of Common Sense
+
+- role: 사람 냄새 나는 시장 해설과 브랜드 신뢰 레퍼런스
+- visibility_snapshot: Official homepage foregrounds fresh market commentary and a strong author identity centered on Ben Carlson.
+- strength: 뉴스를 차갑게 요약하지 않고 독자에게 말 걸듯 풀어주는 문체
+- strength: 운영자 캐릭터가 선명해 글 자체가 브랜드 자산이 되는 구조
+- strength: 시장 얘기와 투자 심리, 일상적 비유를 섞어 재방문 이유를 만듦
+- apply_next: 우리 글 도입부에 `왜 지금 내 돈 관점에서 중요한가` 문장을 더 자주 넣기
+- apply_next: 딱딱한 설명만 쓰지 말고 독자가 바로 떠올릴 상황 비유 한 줄을 더하기
+- source: https://awealthofcommonsense.com/
+
+## 5. Of Dollars and Data
+
+- role: 데이터 해석형 투자 블로그 레퍼런스
+- visibility_snapshot: Official site emphasizes data-based personal finance; newsletter promises a new post, a visualization, and three curated links every Tuesday.
+- strength: 숫자를 다시 설명해주는 해석 문장이 강함
+- strength: 인기 글 모음과 뉴스레터를 통해 오래 읽히는 글을 자산화함
+- strength: 복잡한 시장 얘기를 `그래서 어떻게 이해하면 되는가`로 번역하는 데 강함
+- apply_next: 현재 만든 draft polish board처럼 `숫자의 의미`를 풀어주는 문장을 본문 중간에 의무적으로 넣기
+- apply_next: 장기적으로 `popular reads` 묶음과 주간 뉴스레터형 큐레이션을 붙이기
+- source: https://ofdollarsanddata.com/
+- source: https://ofdollarsanddata.com/newsletter/
+- source: https://ofdollarsanddata.com/popular-posts/
+
+## 6. J.P. Morgan Insights
+
+- role: 거시와 시장을 한 프레임으로 묶는 기관형 레퍼런스
+- visibility_snapshot: Official insights page centers on what is shaping the global economy and how it impacts markets.
+- strength: 거시 변수와 시장 영향을 분리하지 않고 한 흐름으로 묶어 설명
+- strength: 기관형 신뢰감을 주는 분류 체계와 시각자료 중심 톤
+- strength: 시장 움직임을 단기 뉴스가 아니라 프레임으로 이해하게 만듦
+- apply_next: 주식과 코인 글도 가능하면 `거시 -> 자금흐름 -> 자산영향` 순서로 정리
+- apply_next: 세계 흐름 글은 단순 국제뉴스가 아니라 시장 영향 프레임으로 고정
+- source: https://www.jpmorgan.com/insights/markets-and-economy
+
+## Synthesis
+
+- 검색 유입을 잡는 글과 재방문을 만드는 글을 분리해서 운영해야 합니다.
+- 코인 쪽은 속도와 키워드 정면승부가 중요하고, 경제/투자 쪽은 신뢰와 해석력이 더 중요합니다.
+- 우리 블로그의 가장 유리한 포지션은 `속보를 투자자 언어로 다시 번역해주는 친근한 해설형 블로그`입니다.
+
+## Next Moves
+
+- 메인 글 1개 + 검색형 FAQ/가이드 1개 + 짧은 브리프 1개 조합을 운영 기본 단위로 검토
+- operator-home에 있는 review 흐름 뒤에 `popular reads` 후보 묶음 산출물도 다음 단계에서 추가
+- 현재 초안 보정 시 `숫자의 의미`, `내 돈 관점`, `다음 체크포인트` 3문장을 필수 패턴으로 고정

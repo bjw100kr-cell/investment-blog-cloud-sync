@@ -1,0 +1,66 @@
+{
+  "title": "First Run Values Card",
+  "where": [
+    "GitHub repo > Settings > Secrets and variables > Actions",
+    "Secrets 탭에서 아래 4개 추가",
+    "Variables 탭에서 아래 항목 추가"
+  ],
+  "secrets": [
+    "BLOGGER_BLOG_ID",
+    "GOOGLE_CLIENT_ID",
+    "GOOGLE_CLIENT_SECRET",
+    "GOOGLE_REFRESH_TOKEN"
+  ],
+  "variables": [
+    {
+      "key": "OPENAI_MODEL",
+      "value": "gpt-4o-mini"
+    },
+    {
+      "key": "BLOGGER_SYNC_SITE_PAGES",
+      "value": "false"
+    },
+    {
+      "key": "BLOGGER_SITE_PAGES_PUBLISH",
+      "value": "false"
+    },
+    {
+      "key": "BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES",
+      "value": "false"
+    },
+    {
+      "key": "BLOGGER_REQUIRE_REVIEW_APPROVAL",
+      "value": "false"
+    },
+    {
+      "key": "BLOGGER_AUTO_PUBLISH_POSTS",
+      "value": "true"
+    },
+    {
+      "key": "BLOGGER_PUBLISH_ONLY_DUE_POSTS",
+      "value": "false"
+    },
+    {
+      "key": "BLOGGER_MAX_POSTS_PER_RUN",
+      "value": "3"
+    }
+  ],
+  "later": [
+    "WORDPRESS_SITE_URL",
+    "WORDPRESS_USERNAME",
+    "WORDPRESS_APPLICATION_PASSWORD",
+    "SEARCH_CONSOLE_SITE_URL",
+    "OPENAI_API_KEY"
+  ],
+  "copy_block": [
+    "OPENAI_MODEL=gpt-4o-mini",
+    "BLOGGER_SYNC_SITE_PAGES=false",
+    "BLOGGER_SITE_PAGES_PUBLISH=false",
+    "BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES=false",
+    "BLOGGER_REQUIRE_REVIEW_APPROVAL=false",
+    "BLOGGER_AUTO_PUBLISH_POSTS=true",
+    "BLOGGER_PUBLISH_ONLY_DUE_POSTS=false",
+    "BLOGGER_MAX_POSTS_PER_RUN=3"
+  ],
+  "next_action": "GitHub repo 생성 후 OWNER/REPO 형태로 bootstrap_github_remote.sh 실행"
+}

@@ -1,0 +1,122 @@
+{
+  "updated_at": "2026-06-26",
+  "sources": [
+    {
+      "name": "Investopedia",
+      "source_type": "official_site_plus_similarweb",
+      "focus": "검색 유입형 투자 설명글과 용어 해설",
+      "evidence": [
+        "Investopedia mission page",
+        "Similarweb May 2026: Organic Search 59.88 percent, Investing category rank #23"
+      ],
+      "transferable_strengths": [
+        "검색 의도를 바로 만족하는 제목",
+        "용어 정의 후 바로 실전 해석으로 연결",
+        "초보 독자도 이해할 수 있는 설명형 문단 구조"
+      ]
+    },
+    {
+      "name": "CoinDesk",
+      "source_type": "official_site_plus_similarweb",
+      "focus": "코인 뉴스와 거시/정책 해설의 결합",
+      "evidence": [
+        "CoinDesk homepage promise: crypto news, analysis, video and price data",
+        "Similarweb May 2026: Direct 54.33 percent, US audience 45.09 percent"
+      ],
+      "transferable_strengths": [
+        "속보를 바로 해설형 글로 연결",
+        "가격 자체보다 정책, 자금 흐름, 시장 구조를 같이 설명",
+        "브랜드 신뢰를 만드는 차분한 톤"
+      ]
+    },
+    {
+      "name": "Cointelegraph",
+      "source_type": "similarweb_comparison",
+      "focus": "체류시간이 긴 코인 스토리텔링형 기사",
+      "evidence": [
+        "Similarweb comparison May 2026: Avg Visit Duration 00:03:28, Pages per Visit 2.71"
+      ],
+      "transferable_strengths": [
+        "한 기사 안에서 후속 질문까지 같이 풀어주는 구조",
+        "본문 흐름이 길어도 끊기지 않도록 섹션을 촘촘히 나누는 방식",
+        "독자가 다음 섹션을 계속 읽게 만드는 서브헤드 구성"
+      ]
+    },
+    {
+      "name": "MarketWatch",
+      "source_type": "official_site",
+      "focus": "시장 속보를 개인 투자자 관점으로 빠르게 번역",
+      "evidence": [
+        "MarketWatch homepage current market-news framing"
+      ],
+      "transferable_strengths": [
+        "헤드라인에서 바로 왜 중요한지 드러냄",
+        "당일 시장 변화와 개인 자산에 미치는 영향을 짧게 연결",
+        "숫자보다 의미를 먼저 이해시키는 짧은 문단"
+      ]
+    },
+    {
+      "name": "CoinNess",
+      "source_type": "official_site",
+      "focus": "빠른 속보성과 모바일 친화형 코인 정보 소비",
+      "evidence": [
+        "CoinNess official site: fast and accurate crypto investment news platform"
+      ],
+      "transferable_strengths": [
+        "짧은 핵심 요약을 먼저 제시",
+        "속보형 키워드와 투자자 반응 포인트를 빠르게 연결",
+        "반복 방문을 만드는 체크포인트 중심 구성"
+      ]
+    }
+  ],
+  "operating_patterns": {
+    "search_explainer": {
+      "when_to_use": [
+        "FOMC",
+        "CPI",
+        "미국 빅테크",
+        "비트코인 구조 설명",
+        "ETF와 규제 설명"
+      ],
+      "must_have": [
+        "제목에서 핵심 키워드와 독자 질문을 함께 드러낼 것",
+        "도입 3문장 안에 왜 지금 읽어야 하는지 답할 것",
+        "본문 중간에 초보자용 정의 또는 기준점 1개 포함",
+        "끝부분에 다음 체크포인트와 내부링크 연결"
+      ]
+    },
+    "news_what_it_means": {
+      "when_to_use": [
+        "당일 발표 직후",
+        "시장 급변",
+        "정책 발언",
+        "코인 규제 헤드라인"
+      ],
+      "must_have": [
+        "무슨 일이 있었는지 1문단 요약",
+        "왜 시장이 반응하는지 해석",
+        "주식, 달러, 금리, 코인 중 최소 2개와 연결",
+        "지금 단정할 수 없는 변수도 함께 표기"
+      ]
+    },
+    "followup_checklist": {
+      "when_to_use": [
+        "메인 글 다음 SEO 후속 글",
+        "재방문 유도 글",
+        "FAQ형 후속 글"
+      ],
+      "must_have": [
+        "숫자보다 체크리스트형 소제목",
+        "짧은 답변과 다음 링크를 함께 제공",
+        "상위 메인 글로 되돌리는 내부 링크",
+        "검색자가 바로 답을 찾게 하는 명확한 서브헤드"
+      ]
+    }
+  },
+  "style_translation_rules": [
+    "특정 사이트의 표현이나 문장 구조를 복사하지 않는다.",
+    "전달력과 구조만 참고하고, 한국어 개인 투자자 독자에게 맞게 다시 쓴다.",
+    "검색형 설명글과 재방문형 해설글을 함께 설계한다.",
+    "뉴스 요약만 하지 말고 항상 '그래서 내 돈 관점에서 왜 중요한가'를 답한다."
+  ]
+}

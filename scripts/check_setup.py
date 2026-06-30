@@ -29,6 +29,11 @@ INTEGRATIONS = {
         "GOOGLE_CLIENT_SECRET",
         "GOOGLE_REFRESH_TOKEN",
     ],
+    "wordpress_upload": [
+        "WORDPRESS_SITE_URL",
+        "WORDPRESS_USERNAME",
+        "WORDPRESS_APPLICATION_PASSWORD",
+    ],
 }
 
 
@@ -186,6 +191,7 @@ def main() -> int:
     print("- Local .env values do not automatically sync to GitHub Secrets.")
     print("- Add the same keys manually in GitHub -> Settings -> Secrets and variables -> Actions.")
     print("- Public repositories are usually the safest free option for this lightweight schedule.")
+    print("- Automation-first 운영 기준에서 현재 1차 채널은 Blogger, WordPress는 나중 확장입니다.")
     print()
     print(f"JSON report written to: {REPORT_PATH}")
     return 0

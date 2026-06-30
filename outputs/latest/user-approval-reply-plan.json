@@ -1,0 +1,37 @@
+{
+  "reply": "bitcoin 글 먼저 진행",
+  "clear_enough_to_apply": true,
+  "approved_keywords": [
+    "bitcoin"
+  ],
+  "held_keywords": [],
+  "mentioned_but_ambiguous_keywords": [],
+  "item_states": [
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 핵심 흐름 해설",
+      "ready_now": true,
+      "state": "approve",
+      "effective_keyword": "bitcoin",
+      "effective_title": "비트코인 핵심 흐름 해설",
+      "selection_mode": "direct"
+    },
+    {
+      "keyword": "us_index_flow",
+      "title": "미국 증시 지수 흐름 해설",
+      "ready_now": true,
+      "state": "unmentioned",
+      "effective_keyword": "us_index_flow",
+      "effective_title": "미국 증시 지수 흐름 해설",
+      "selection_mode": "direct"
+    }
+  ],
+  "set_review_approvals_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin --notes \"bitcoin 글 먼저 진행\"",
+  "safety_note": "애매한 답변이면 apply 하지 않고 preview 로 멈춥니다.",
+  "apply_result": {
+    "applied": true,
+    "returncode": 0,
+    "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/review-approvals.json",
+    "stderr": ""
+  }
+}

@@ -3,21 +3,21 @@
     {
       "keyword": "fomc",
       "recommended_title": "FOMC 이후 시장 해설",
-      "score": 68,
-      "robotic_phrase_hits": [
-        "지금부터 알아보겠습니다",
-        "살펴보도록 하겠습니다"
-      ],
+      "score": 100,
+      "robotic_phrase_hits": [],
       "reader_bridge_hits": [
         "쉽게 말해",
-        "한마디로 보면"
+        "투자자 입장에서 보면",
+        "여기서 진짜 봐야 할 건"
       ],
       "direct_address_hits": [
         "개인 투자자 입장에서는",
         "여기서 먼저 봐야 할 건"
       ],
       "interpretation_hits": [
-        "포인트를 한 줄로 줄이면"
+        "포인트를 한 줄로 줄이면",
+        "투자자 언어로 바꾸면",
+        "그럼 개인 투자자는 뭘 먼저 봐야 할까"
       ],
       "uncertainty_hits": [
         "가능성",
@@ -26,25 +26,19 @@
         "반면",
         "변수"
       ],
-      "warnings": [
-        "AI스러운 관용 문구 감지: 지금부터 알아보겠습니다, 살펴보도록 하겠습니다",
-        "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
-      ],
-      "paragraph_count": 30,
-      "short_paragraphs": 26,
-      "long_paragraphs": 1,
+      "warnings": [],
+      "paragraph_count": 28,
+      "short_paragraphs": 21,
+      "long_paragraphs": 2,
       "intro_direct_address": true,
-      "dominant_sentence_ending": "해설",
-      "dominant_sentence_ending_ratio": 0.041
+      "dominant_sentence_ending": "있습니다",
+      "dominant_sentence_ending_ratio": 0.102
     },
     {
       "keyword": "bitcoin",
       "recommended_title": "비트코인 핵심 흐름 해설",
-      "score": 68,
-      "robotic_phrase_hits": [
-        "지금부터 알아보겠습니다",
-        "살펴보도록 하겠습니다"
-      ],
+      "score": 100,
+      "robotic_phrase_hits": [],
       "reader_bridge_hits": [
         "쉽게 말해",
         "한마디로 보면"
@@ -54,41 +48,9 @@
         "여기서 먼저 봐야 할 건"
       ],
       "interpretation_hits": [
-        "포인트를 한 줄로 줄이면"
-      ],
-      "uncertainty_hits": [
-        "가능성",
-        "시나리오"
-      ],
-      "warnings": [
-        "AI스러운 관용 문구 감지: 지금부터 알아보겠습니다, 살펴보도록 하겠습니다",
-        "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
-      ],
-      "paragraph_count": 30,
-      "short_paragraphs": 27,
-      "long_paragraphs": 1,
-      "intro_direct_address": true,
-      "dominant_sentence_ending": "해설",
-      "dominant_sentence_ending_ratio": 0.041
-    },
-    {
-      "keyword": "cpi",
-      "recommended_title": "CPI 발표 이후 시장 해설",
-      "score": 68,
-      "robotic_phrase_hits": [
-        "지금부터 알아보겠습니다",
-        "살펴보도록 하겠습니다"
-      ],
-      "reader_bridge_hits": [
-        "쉽게 말해",
-        "한마디로 보면"
-      ],
-      "direct_address_hits": [
-        "개인 투자자 입장에서는",
-        "여기서 먼저 봐야 할 건"
-      ],
-      "interpretation_hits": [
-        "포인트를 한 줄로 줄이면"
+        "포인트를 한 줄로 줄이면",
+        "이걸 가격이 아니라 구조로 보면",
+        "그럼 여기서 먼저 확인할 건 뭘까"
       ],
       "uncertainty_hits": [
         "가능성",
@@ -97,16 +59,79 @@
         "반면",
         "변수"
       ],
-      "warnings": [
-        "AI스러운 관용 문구 감지: 지금부터 알아보겠습니다, 살펴보도록 하겠습니다",
-        "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
-      ],
-      "paragraph_count": 30,
-      "short_paragraphs": 26,
-      "long_paragraphs": 1,
+      "warnings": [],
+      "paragraph_count": 28,
+      "short_paragraphs": 21,
+      "long_paragraphs": 3,
       "intro_direct_address": true,
-      "dominant_sentence_ending": "해설",
-      "dominant_sentence_ending_ratio": 0.042
+      "dominant_sentence_ending": "있습니다",
+      "dominant_sentence_ending_ratio": 0.053
+    },
+    {
+      "keyword": "us_index_flow",
+      "recommended_title": "미국 증시 지수 흐름 해설",
+      "score": 100,
+      "robotic_phrase_hits": [],
+      "reader_bridge_hits": [
+        "쉽게 말해",
+        "이 부분이 중요한 이유는",
+        "생각보다 중요한 포인트는"
+      ],
+      "direct_address_hits": [
+        "개인 투자자 입장에서는",
+        "여기서 먼저 봐야 할 건"
+      ],
+      "interpretation_hits": [
+        "포인트를 한 줄로 줄이면",
+        "투자자 언어로 다시 풀면"
+      ],
+      "uncertainty_hits": [
+        "가능성",
+        "시나리오",
+        "다만",
+        "반면",
+        "변수"
+      ],
+      "warnings": [],
+      "paragraph_count": 28,
+      "short_paragraphs": 21,
+      "long_paragraphs": 4,
+      "intro_direct_address": true,
+      "dominant_sentence_ending": "있습니다",
+      "dominant_sentence_ending_ratio": 0.07
+    },
+    {
+      "keyword": "china",
+      "recommended_title": "중국 변수와 시장 영향 해설",
+      "score": 100,
+      "robotic_phrase_hits": [],
+      "reader_bridge_hits": [
+        "쉽게 말해",
+        "투자자 입장에서 보면",
+        "여기서 진짜 봐야 할 건"
+      ],
+      "direct_address_hits": [
+        "개인 투자자 입장에서는",
+        "여기서 먼저 봐야 할 건"
+      ],
+      "interpretation_hits": [
+        "포인트를 한 줄로 줄이면",
+        "투자자 언어로 다시 풀면"
+      ],
+      "uncertainty_hits": [
+        "가능성",
+        "시나리오",
+        "다만",
+        "반면",
+        "변수"
+      ],
+      "warnings": [],
+      "paragraph_count": 28,
+      "short_paragraphs": 21,
+      "long_paragraphs": 3,
+      "intro_direct_address": true,
+      "dominant_sentence_ending": "있습니다",
+      "dominant_sentence_ending_ratio": 0.103
     }
   ]
 }

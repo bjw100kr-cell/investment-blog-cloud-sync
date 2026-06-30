@@ -19,6 +19,15 @@ UNCERTAINTY_MARKERS = [
     "변수",
 ]
 
+EXTRA_INTERPRETATION_MARKERS = [
+    "투자자 언어로 바꾸면",
+    "투자자 언어로 다시 풀면",
+    "이걸 가격이 아니라 구조로 보면",
+    "생각보다 중요한 건",
+    "그럼 개인 투자자는 뭘 먼저 봐야 할까",
+    "그럼 여기서 먼저 확인할 건 뭘까",
+]
+
 
 def slugify(text: str) -> str:
     out = []
@@ -80,7 +89,7 @@ def analyze_draft(text: str, packet: dict, voice_rules: dict) -> dict:
     robotic_phrases = voice_rules.get("avoid_phrases", [])
     bridge_phrases = voice_rules.get("reader_bridge_phrases", [])
     direct_address_phrases = voice_rules.get("direct_address_phrases", [])
-    interpretation_markers = voice_rules.get("interpretation_markers", [])
+    interpretation_markers = voice_rules.get("interpretation_markers", []) + EXTRA_INTERPRETATION_MARKERS
     rhythm_targets = voice_rules.get("sentence_rhythm_targets", {})
 
     robotic_hits = [phrase for phrase in robotic_phrases if phrase in text]

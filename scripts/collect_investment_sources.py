@@ -7,7 +7,7 @@ import sys
 import time
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -393,9 +393,11 @@ def fetch_naver_datalab(candidates: list, aliases: dict) -> Optional[dict]:
     if not keyword_groups:
         return None
 
+    end_date = datetime.now(timezone.utc).date()
+    start_date = end_date - timedelta(days=7)
     body = {
-        "startDate": "2026-06-18",
-        "endDate": "2026-06-25",
+        "startDate": start_date.isoformat(),
+        "endDate": end_date.isoformat(),
         "timeUnit": "date",
         "keywordGroups": keyword_groups,
     }

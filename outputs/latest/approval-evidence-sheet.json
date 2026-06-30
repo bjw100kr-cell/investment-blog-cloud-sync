@@ -1,0 +1,204 @@
+{
+  "generated_at": "2026-06-30T16:04:26.272859+00:00",
+  "item_count": 3,
+  "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장 해설",
+      "publish_date": "2026-07-01",
+      "priority_score": 140.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "format": "macro_explainer",
+      "source_names": [
+        "CNBC Top News",
+        "Federal Reserve Monetary Policy Press",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_headlines": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+        "Minutes of the Federal Open Market Committee, March 17–18, 2026"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 6000,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 5,
+      "search_score": 29,
+      "timeliness_score": 25,
+      "monetization_score": 15,
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
+          "published_iso": "2026-04-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 18 Mar 2026 18:00:00 GMT",
+          "published_iso": "2026-03-18T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 20 May 2026 18:00:00 GMT",
+          "published_iso": "2026-05-20T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 핵심 흐름 해설",
+      "publish_date": "2026-07-02",
+      "priority_score": 121.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성",
+      "format": "crypto_analysis",
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
+      ],
+      "sample_headlines": [
+        "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
+        "Bitcoin’s quiet $59,000-$60,000 range is starting to look dangerous",
+        "Bitcoin $4.4 billion supply overhang emerges as institutional demand wilts",
+        "Here’s what happened in crypto today",
+        "Strategy's new plan divides industry observers even as MSTR, STRC climb"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 5700,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 3,
+      "search_score": 29,
+      "timeliness_score": 18,
+      "monetization_score": 15,
+      "recent_evidence": [
+        {
+          "title": "Swan's Cory Klippsten sees record Bitcoin holder supply revealing early bottom",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 30 Jun 2026 12:44:21 +0000",
+          "published_iso": "2026-06-30T12:44:21+00:00",
+          "link": "https://cointelegraph.com/news/record-bitcoin-holder-supply-early-bottom-swan-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin’s quiet $59,000-$60,000 range is starting to look dangerous",
+          "source_name": "CoinDesk RSS",
+          "published": "Tue, 30 Jun 2026 11:55:34 +0000",
+          "published_iso": "2026-06-30T11:55:34+00:00",
+          "link": "https://www.coindesk.com/markets/2026/06/30/bitcoin-s-quiet-usd59-000-usd60-000-range-is-starting-to-look-dangerous",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin $4.4 billion supply overhang emerges as institutional demand wilts",
+          "source_name": "CoinDesk RSS",
+          "published": "Tue, 30 Jun 2026 11:18:34 +0000",
+          "published_iso": "2026-06-30T11:18:34+00:00",
+          "link": "https://www.coindesk.com/daybook-us/2026/06/30/bitcoin-usd4-4-billion-supply-overhang-emerges-as-institutional-demand-wilts",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin weak below $60k as rate jitters, ETF outflows persist",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-06-30 14:07:35",
+          "published_iso": "2026-06-30 14:07:35",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-60k-as-rate-jitters-etf-outflows-persist-4766872",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin near 52-week low in bear flag setup: Live levels",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-06-30 07:05:01",
+          "published_iso": "2026-06-30 07:05:01",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-in-bear-flag-near-annual-low-live-levels-93CH-4764319",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "title": "미국 증시 지수 흐름 해설",
+      "publish_date": "2026-07-03",
+      "priority_score": 92.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "format": "sector_analysis",
+      "source_names": [
+        "CoinDesk RSS",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_headlines": [
+        "Nasdaq expands distribution of its market data into blockchain infrastructure",
+        "Tech selloff stirs bubble fears in US stock market - Reuters",
+        "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 0,
+      "fallback_source": "mapped_candidate",
+      "source_count": 2,
+      "search_score": 12,
+      "timeliness_score": 13,
+      "monetization_score": 15,
+      "recent_evidence": [
+        {
+          "title": "Nasdaq expands distribution of its market data into blockchain infrastructure",
+          "source_name": "CoinDesk RSS",
+          "published": "Tue, 30 Jun 2026 13:00:00 +0000",
+          "published_iso": "2026-06-30T13:00:00+00:00",
+          "link": "https://www.coindesk.com/markets/2026/06/30/nasdaq-expands-distribution-of-its-market-data-into-blockchain-infrastructure",
+          "source_type": "rss"
+        },
+        {
+          "title": "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Tue, 30 Jun 2026 10:25:32 GMT",
+          "published_iso": "2026-06-30T10:25:32+00:00",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONF8zVkNrYlBoa0VwcThGYkQ1Z3RJRUctVmxSLUpaLUhrUmp4dGZ5dGFJMDIwUVRMemtwb25BZ2h0TGRsTlFhOEoySkxDTno5SUkzZzJ1ZG9ONWJPZGliUFIzQVlrYS13dVRMSUlYS2tMZUZJb3dJbnZGTWRfMVpHb2RRdllSeVVEdEphOVQ5MTBBZ3J5dFN1SkZJVkdxWWt5aHpaT01Ba2hOU0VRNUxTUm9RSDI?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "Tech selloff stirs bubble fears in US stock market - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Tue, 30 Jun 2026 09:04:09 GMT",
+          "published_iso": "2026-06-30T09:04:09+00:00",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFlQXU0QUQ2d3NhY2hNU1llc2ZCOUdyZW5IRlhzYVdYcjZ0eTkxU25fa3A3WjlZTDRRQ0FoRVFxNXF5OC1oRHI1clNXazZic0liOGhxeGVBZDNzbUx4cHpuS2JoWEZSMzE2RVhJSlNWZXotWHZwSnh2UFVjN1EtYVpuaXF5RWlUd19jZjBYWHNUNHJMTDN1bHVENXE1bGRzZ203dTJR?oc=5",
+          "source_type": "rss"
+        }
+      ]
+    }
+  ]
+}

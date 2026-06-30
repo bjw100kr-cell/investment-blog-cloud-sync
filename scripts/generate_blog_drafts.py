@@ -134,17 +134,99 @@ def _normalize_interpretation_focus(text: str) -> str:
     return phrase
 
 
+def _compact_text(text: str) -> str:
+    return " ".join(str(text).split()).strip()
+
+
+def _voice_example(packet: dict, key: str, fallback: str) -> str:
+    examples = packet.get("voice_examples", {}) or {}
+    value = _compact_text(examples.get(key, ""))
+    return value or fallback
+
+
+def _takeaway_lines(packet: dict) -> list[str]:
+    takeaways = [_compact_text(item) for item in packet.get("reference_takeaways", []) if _compact_text(item)]
+    return takeaways[:2]
+
+
+def _human_interpretation_line(keyword: str, interpretation_focus: str) -> str:
+    if keyword == "fomc":
+        return "이 대목을 투자자 언어로 바꾸면, 금리 자체보다 연준이 앞으로 얼마나 빨리 방향을 바꿀 수 있는지에 대한 기대가 먼저 가격을 흔들고 있다는 뜻에 가깝습니다."
+    if keyword == "bitcoin":
+        return "이걸 가격이 아니라 구조로 보면, 비트코인만의 힘으로 움직인다기보다 유동성과 위험선호가 같이 살아나는지 여부를 먼저 확인해야 한다는 쪽에 가깝습니다."
+    if keyword == "us_big_tech":
+        return "투자자 언어로 다시 풀면, headline보다 실제 자금이 대형주에 몰리는지 아니면 공급망 전반으로 퍼지는지를 보는 게 더 중요하다는 뜻입니다."
+    return f"투자자 언어로 다시 풀면, 결국 중요한 건 {interpretation_focus} 쪽이 실제 자산 가격에 얼마나 빨리 반영되는지입니다."
+
+
+def _question_mix_line(keyword: str) -> str:
+    if keyword == "fomc":
+        return "그럼 개인 투자자는 뭘 먼저 봐야 할까. 달러와 미국채 금리, 그리고 나스닥 반응 순서를 같이 놓고 보면 생각보다 그림이 빨리 잡힙니다."
+    if keyword == "bitcoin":
+        return "그럼 여기서 먼저 확인할 건 뭘까. ETF 자금과 달러 흐름, 그리고 알트코인 반응이 같은 방향으로 가는지부터 보는 편이 훨씬 현실적입니다."
+    return "그럼 여기서 먼저 봐야 할 건 뭘까. 숫자 하나보다 그 숫자 뒤에서 같이 움직이는 자산군과 다음 일정까지 같이 놓고 보는 편이 더 실전적입니다."
+
+
+def _cta_upgrade_line(keyword: str, title: str) -> str:
+    if keyword == "fomc":
+        return "다음 글에서는 FOMC 이후 달러, 미국채 금리, 나스닥 가운데 무엇을 먼저 보면 되는지 더 실전적으로 풀어보겠습니다."
+    if keyword == "bitcoin":
+        return "다음 글에서는 비트코인 흐름을 ETF 자금, 달러, 알트코인 순서로 어떻게 체크하면 되는지 더 쉽게 짚어보겠습니다."
+    if keyword == "us_big_tech":
+        return "다음 글에서는 이 흐름이 실제로 어떤 대표 종목과 공급망으로 번지는지 한 단계 더 실전적으로 풀어보겠습니다."
+    return f"다음 글에서는 {title} 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다."
+
+
+def _has_reference_source_names(source_names: str) -> bool:
+    haystack = source_names.lower()
+    markers = [
+        "rss",
+        "news",
+        "press",
+        "youtube",
+        "google trends",
+        "marketwatch",
+        "coindesk",
+        "reuters",
+        "cnbc",
+        "federal reserve",
+        "investing.com",
+        "financial times",
+    ]
+    return any(marker in haystack for marker in markers)
+
+
+def _describe_source_context(source_names: list[str]) -> str:
+    haystack = " ".join(source_names).lower()
+    labels = []
+    if any(marker in haystack for marker in ["federal reserve", "official", "press"]):
+        labels.append("공식 발표 자료")
+    if any(marker in haystack for marker in ["reuters", "cnbc", "financial times", "marketwatch"]):
+        labels.append("해외 주요 매체 보도")
+    if any(marker in haystack for marker in ["coindesk", "cointelegraph", "coinness", "investing.com crypto"]):
+        labels.append("코인 전문 매체 기사")
+    if any(marker in haystack for marker in ["youtube", "trade king", "tradeking"]):
+        labels.append("유튜브 해설")
+    if any(marker in haystack for marker in ["google trends", "trend"]):
+        labels.append("실시간 검색 흐름")
+    if not labels:
+        return "관련 해설 글과 핵심 키워드"
+    return ", ".join(dict.fromkeys(labels))
+
+
 def build_fallback_draft(packet: dict) -> str:
     title = packet["recommended_title"]
     outline = packet.get("outline", [])
-    takeaways = packet.get("reference_takeaways", [])
+    takeaways = _takeaway_lines(packet)
     source_names = ", ".join(packet.get("source_names", []))
+    source_context = _describe_source_context(packet.get("source_names", []))
     headlines = packet.get("reference_headlines", [])
     faq_items = pick_faq_questions(packet)
     fact_checks = packet.get("fact_checks", [])
     today = datetime.now(timezone.utc)
     today_label = f"{today.year}년 {today.month}월 {today.day}일 기준"
     source_focus = source_names or "수집된 공식·언론·해설 소스"
+    source_bridge = source_context if _has_reference_source_names(source_focus) else "관련 해설 글과 핵심 키워드"
 
     avoid_phrases = [p for p in packet.get("avoid_phrases", []) if p]
     reader_bridge_phrases = [p for p in packet.get("reader_bridge_phrases", []) if p]
@@ -154,7 +236,6 @@ def build_fallback_draft(packet: dict) -> str:
     ]
     interpretation_markers = [p for p in packet.get("interpretation_markers", []) if p]
     must_include_style_points = [p for p in packet.get("must_include_style_points", []) if p]
-    tone_penalties = [p for p in packet.get("tone_penalties", []) if p]
 
     def _safe_intro(idx: int) -> str:
         return _pick_styled_text(
@@ -163,12 +244,29 @@ def build_fallback_draft(packet: dict) -> str:
             idx,
         )
 
+    intro_example = _voice_example(
+        packet,
+        "intro_example",
+        "표면적으로는 단순한 뉴스처럼 보여도, 투자자 입장에서는 그 한 줄이 자산 흐름을 꽤 크게 바꿀 때가 있습니다.",
+    )
+    analysis_example = _voice_example(
+        packet,
+        "analysis_example",
+        "쉽게 말해 시장은 헤드라인보다 그 다음 연결 고리를 먼저 가격에 반영하려고 합니다.",
+    )
+    closing_example = _voice_example(
+        packet,
+        "closing_example",
+        "결국 지금 단계에서는 방향을 단정하기보다 다음 확인 포인트를 미리 정해두는 편이 현실적입니다.",
+    )
+    human_interpretation = _human_interpretation_line(packet.get("keyword", ""), interpretation_focus="")
+
     summary = f"{packet['summary_angle']} 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다."
     intro_parts = [
-        f"{today_label} {title} 이슈를 정리하는 이유는, 이슈 자체보다 그 다음 연결 고리를 미리 점검하는 데 있습니다.",
-        f"{_safe_intro(0)} {title}은 멀어 보여도 {source_focus}를 같이 보면 자산군 간 파급 경로가 보입니다.",
-        f"{_safe_intro(1)} 지금 시점에 중요한 건 바로 가격이 아니라, 그 가격 변화가 어떤 해석을 타고 왔는지입니다.",
-        f"{_pick_styled_text(direct_address_phrases, '독자 입장에서 중요한 건')} 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 안 기다려졌는지를 나눠 보는 것입니다.",
+        f"{today_label} 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 {title}입니다.",
+        intro_example,
+        f"{_safe_intro(0)} 이 이슈는 멀어 보여도 {source_bridge}까지 같이 보면 자산군 간 파급 경로가 보입니다.",
+        f"{_pick_styled_text(direct_address_phrases, '독자 입장에서 중요한 건')} 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다.",
     ]
     if headlines:
         intro_parts.append(f"여기서 먼저 봐야 할 건 `{headlines[0]}` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다.")
@@ -176,30 +274,40 @@ def build_fallback_draft(packet: dict) -> str:
     body_lines = []
     interpretation_marker = _pick_styled_text(interpretation_markers, "시장에서는 이걸 이렇게 해석합니다.", 0).strip()
     interpretation_focus = _normalize_interpretation_focus(interpretation_marker)
+    human_interpretation = _human_interpretation_line(packet.get("keyword", ""), interpretation_focus)
     for idx, item in enumerate(outline, start=1):
         body_lines.append(f"## {idx}. {item}")
         body_lines.append("")
         if idx == 1:
             body_lines.append(
-                f"이 파트가 중요한 이유는 {packet['summary_angle']}라는 점입니다. {source_focus}에서 같은 성격의 움직임이 반복되면 소음일 가능성보다 흐름이 붙어 있을 확률이 더 높아집니다."
+                f"이 파트가 중요한 이유는 {packet['summary_angle']}라는 점입니다. {source_bridge}에서 같은 성격의 움직임이 반복되면 소음일 가능성보다 흐름이 붙어 있을 확률이 더 높아집니다."
             )
+            body_lines.append(f"{analysis_example} 그래서 이슈를 볼 때도 발표 자체보다 그 다음 반응 축을 같이 읽어야 합니다.")
+            body_lines.append(human_interpretation)
         elif idx == 2:
             first_headline = headlines[0] if headlines else "관련 핵심 뉴스"
-            body_lines.append(f"실제 확인된 정보 중 하나는 `{first_headline}` 입니다. 여기서 먼저 봐야 할 건 제목 자체보다 발표 시점, 숫자, 그리고 반응 축이 어떻게 읽히는지입니다. 핵심 해석 포인트는 {interpretation_focus}입니다.")
+            body_lines.append(
+                f"실제 확인된 정보 중 하나는 `{first_headline}` 입니다. 여기서 먼저 봐야 할 건 제목 자체보다 발표 시점, 숫자, 그리고 반응 축이 어떻게 읽히는지입니다. 핵심 해석 포인트는 {interpretation_focus}입니다."
+            )
+            body_lines.append("숫자가 예상과 같아 보여도 시장은 세부 문구나 후속 코멘트에서 방향을 바꿔 읽는 경우가 있습니다. 그래서 headline만 보고 끝내면 실제 흐름을 놓치기 쉽습니다.")
         elif idx == 3:
             body_lines.append(
                 f"결국 같이 봐야 할 건 {interpretation_focus}입니다. 달러, 금리, 주식, 코인, 그리고 섹터 자금 흐름에서 먼저 움직인 축이 무엇인지 보면, 이후 방향을 보는 기준이 달라집니다."
             )
+            body_lines.append("반면 한 자산만 과하게 반응하고 나머지가 조용하다면, 아직은 단기 해석이나 포지션 조정에 가까운 움직임일 수도 있습니다.")
         elif idx == 4:
             body_lines.append(
                 "포인트를 한 줄로 줄이면, 후속 이벤트가 나오기 전까지 이슈를 과도하게 매수·매도 신호로 단정하지 않고 검증 신호를 기다리는 방식이 더 안전합니다."
             )
+            body_lines.append("다만 다음 지표나 다음 발언에서 같은 방향이 재확인되면 시장 해석은 훨씬 빠르게 굳어질 수 있습니다. 그래서 다음 일정과 확인 변수를 같이 적어두는 편이 좋습니다.")
         else:
             body_lines.append("개인 투자자 입장에서는 지금 결론을 세게 내리기보다, 체크포인트를 먼저 만든 뒤 다음 확인 이벤트에서 시나리오를 수정하는 흐름이 현실적입니다.")
-        if takeaways:
+            body_lines.append(closing_example)
+            body_lines.append(_question_mix_line(packet.get("keyword", "")))
+        if takeaways and idx == 1:
             body_lines.append("")
-            body_lines.append("이 이슈에서 특히 볼 해설 포인트:")
-            for takeaway in takeaways[:2]:
+            body_lines.append("참고로 유튜브 해설에서 반복된 관찰 포인트는 이런 쪽이었습니다:")
+            for takeaway in takeaways:
                 body_lines.append(f"- {takeaway}")
         body_lines.append("")
 
@@ -215,25 +323,13 @@ def build_fallback_draft(packet: dict) -> str:
         faq_lines.append(answer)
         faq_lines.append("")
 
-    tone_check = []
+    style_points = []
     if must_include_style_points:
-        tone_check.append("## 운영자 체크용 톤 기준")
-        tone_check.append("")
-        tone_check.append("아래 항목은 본문 점검용 기준입니다.")
+        style_points.append("## 이 글에서 같이 봐야 할 관점")
+        style_points.append("")
         for item in must_include_style_points:
-            tone_check.append(f"- {item}")
-        tone_check.append("")
-
-    if tone_penalties:
-        tone_check.append("## 피해야 할 톤 포인트")
-        tone_check.append("")
-        for item in tone_penalties:
-            tone_check.append(f"- {item}")
-        tone_check.append("")
-
-    avoid_note = " ".join([f"`{phrase}`" for phrase in avoid_phrases[:2]])
-    if avoid_note:
-        intro_parts.append(f"지금 글에서 피해야 할 표현은 {avoid_note} 같은 형태로, 이런 뉘앙스는 기계식 결론으로 받아들여지기 쉽습니다.")
+            style_points.append(f"- {item}")
+        style_points.append("")
 
     lines = [
         f"# {title}",
@@ -259,11 +355,12 @@ def build_fallback_draft(packet: dict) -> str:
         f"- 주요 참고 소스: {source_names or '수집된 공식/언론/해설 소스'}",
         *[f"- 발행 전 재확인: {item}" for item in fact_checks],
         "",
-        *tone_check,
+        *style_points,
         "",
         "## CTA",
         "",
         packet["cta"],
+        _cta_upgrade_line(packet.get("keyword", ""), title),
         "",
         "## 면책문구",
         "",
@@ -279,6 +376,10 @@ def main() -> int:
     template = load_template(args.template_path)
     args.prompts_dir.mkdir(parents=True, exist_ok=True)
     args.drafts_dir.mkdir(parents=True, exist_ok=True)
+    for old_file in args.prompts_dir.glob("*.md"):
+        old_file.unlink()
+    for old_file in args.drafts_dir.glob("*.md"):
+        old_file.unlink()
 
     has_api_key = bool(os.getenv("OPENAI_API_KEY"))
     summary = []

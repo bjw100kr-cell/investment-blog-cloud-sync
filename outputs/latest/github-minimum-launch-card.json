@@ -1,0 +1,24 @@
+{
+  "repo_connected": true,
+  "github_status": "needs_gh_cli",
+  "repo_slug": "bjw100kr-cell/investment-blog-cloud-sync",
+  "repo_create_link": "https://github.com/bjw100kr-cell/investment-blog-cloud-sync",
+  "actions_secrets_link": "https://github.com/bjw100kr-cell/investment-blog-cloud-sync/settings/secrets/actions",
+  "workflow_run_link": "https://github.com/bjw100kr-cell/investment-blog-cloud-sync/actions/workflows/daily-investment-intake.yml",
+  "required_secrets_count": 4,
+  "required_variables_count": 8,
+  "wordpress_required_now": false,
+  "openai_required_now": false,
+  "first_goal": "GitHub Actions에서 Blogger 자동 업로드/공개가 정상적으로 동작하는지 확인",
+  "steps": [
+    "GitHub에서 새 public repo를 만듭니다.",
+    "로컬에서 `bash scripts/bootstrap_github_remote.sh <OWNER/REPO>` 를 실행합니다.",
+    "GitHub 웹 UI에서 Secrets 4개와 Variables 7개만 먼저 입력합니다.",
+    "Actions에서 `Daily Investment Intake`를 수동 실행합니다.",
+    "Blogger draft가 1건만 안전모드로 생성됐는지 확인합니다."
+  ],
+  "copy_refs": {
+    "web_checklist_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-web-launch-checklist.md",
+    "values_card_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/first-run-values-card.md"
+  }
+}

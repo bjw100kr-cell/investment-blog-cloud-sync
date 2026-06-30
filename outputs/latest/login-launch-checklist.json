@@ -1,24 +1,36 @@
 {
-  "repo_connected": false,
-  "repo_url": "",
-  "blogger_ready": false,
+  "repo_connected": true,
+  "repo_url": "https://github.com/bjw100kr-cell/investment-blog-cloud-sync",
+  "repo_accessible": true,
+  "blogger_ready": true,
+  "wordpress_ready": false,
   "search_console_ready": false,
-  "openai_ready": true,
+  "openai_ready": false,
+  "include_wordpress": false,
   "missing_groups": {
-    "blogger_upload": [
-      "GOOGLE_CLIENT_ID",
-      "GOOGLE_CLIENT_SECRET",
-      "GOOGLE_REFRESH_TOKEN"
+    "blogger_upload": [],
+    "wordpress_upload": [
+      "WORDPRESS_SITE_URL",
+      "WORDPRESS_USERNAME",
+      "WORDPRESS_APPLICATION_PASSWORD"
     ],
     "search_console": [
-      "SEARCH_CONSOLE_SITE_URL",
-      "SEARCH_CONSOLE_CLIENT_ID",
-      "SEARCH_CONSOLE_CLIENT_SECRET",
-      "SEARCH_CONSOLE_REFRESH_TOKEN"
+      "SEARCH_CONSOLE_SITE_URL"
     ],
     "openai_drafts": [],
     "github_actions": []
   },
+  "minimum_pages": [
+    {
+      "id": "github_actions_secrets",
+      "label": "GitHub Actions secrets",
+      "url": "https://github.com/bjw100kr-cell/investment-blog-cloud-sync/settings/secrets/actions",
+      "reason": "Add Actions secrets and variables for cloud runs",
+      "required_when": [
+        "github_actions"
+      ]
+    }
+  ],
   "pages": [
     {
       "id": "google_cloud_home",
@@ -51,30 +63,12 @@
       ]
     },
     {
-      "id": "google_blogger_api",
-      "label": "Blogger API activation page",
-      "url": "https://console.cloud.google.com/apis/library/blogger.googleapis.com",
-      "reason": "Enable Blogger API",
-      "required_when": [
-        "blogger_upload"
-      ]
-    },
-    {
       "id": "google_search_console_api",
       "label": "Search Console API activation page",
       "url": "https://console.cloud.google.com/apis/library/searchconsole.googleapis.com",
       "reason": "Enable Search Console API",
       "required_when": [
         "search_console"
-      ]
-    },
-    {
-      "id": "blogger_dashboard",
-      "label": "Blogger dashboard",
-      "url": "https://www.blogger.com/blog/posts/6916836934814427288",
-      "reason": "Check blog access and confirm BLOGGER_BLOG_ID target",
-      "required_when": [
-        "blogger_upload"
       ]
     },
     {
@@ -89,20 +83,35 @@
     {
       "id": "github_repo",
       "label": "GitHub repository or new repo",
-      "url": "https://github.com/new",
+      "url": "https://github.com/bjw100kr-cell/investment-blog-cloud-sync",
       "reason": "Connect the repo before enabling cloud automation",
+      "required_when": [
+        "github_actions"
+      ]
+    },
+    {
+      "id": "github_actions_secrets",
+      "label": "GitHub Actions secrets",
+      "url": "https://github.com/bjw100kr-cell/investment-blog-cloud-sync/settings/secrets/actions",
+      "reason": "Add Actions secrets and variables for cloud runs",
       "required_when": [
         "github_actions"
       ]
     }
   ],
+  "next_page": {
+    "id": "github_actions_secrets",
+    "label": "GitHub Actions secrets",
+    "url": "https://github.com/bjw100kr-cell/investment-blog-cloud-sync/settings/secrets/actions",
+    "reason": "Add Actions secrets and variables for cloud runs",
+    "required_when": [
+      "github_actions"
+    ]
+  },
   "steps": [
-    "Google Cloud Console에서 Blogger API와 Search Console API를 켭니다.",
-    "OAuth 동의 화면과 OAuth Client를 만든 뒤 GOOGLE_CLIENT_ID / GOOGLE_CLIENT_SECRET을 확보합니다.",
-    "로컬에서 get_google_refresh_token.py를 실행해 GOOGLE_REFRESH_TOKEN을 발급합니다.",
-    "Blogger 대시보드에서 대상 블로그가 맞는지 확인합니다.",
-    "Search Console에서 사이트 속성 접근 권한과 SEARCH_CONSOLE_SITE_URL을 확인합니다.",
-    "GitHub 저장소를 먼저 연결한 뒤 Actions Secrets/Variables에 같은 값을 입력합니다.",
-    "OPENAI_API_KEY를 넣어 사람 같은 초안 생성 품질을 높입니다."
+    "Blogger 필수값은 준비되어 있으니 GitHub Actions Secrets/Variables만 반영하면 됩니다.",
+    "Search Console은 첫 가동 뒤 붙여도 됩니다. 지금은 SEARCH_CONSOLE_SITE_URL 없이도 시작 가능합니다.",
+    "WordPress는 지금 열지 않고 Blogger 자동화 검증이 끝난 뒤 두 번째 채널로 붙입니다.",
+    "OpenAI 키도 후순위입니다. 나중에 넣으면 사람 같은 초안 품질을 더 끌어올릴 수 있습니다."
   ]
 }

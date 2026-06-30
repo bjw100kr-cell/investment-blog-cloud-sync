@@ -1,0 +1,157 @@
+{
+  "repo_connected": true,
+  "repo_slug": "bjw100kr-cell/investment-blog-cloud-sync",
+  "repo_accessible": true,
+  "raw_repo_slug": "bjw100kr-cell/investment-blog-cloud-sync",
+  "gh_installed": false,
+  "links": {
+    "repo_home": "https://github.com/bjw100kr-cell/investment-blog-cloud-sync",
+    "actions_secrets": "https://github.com/bjw100kr-cell/investment-blog-cloud-sync/settings/secrets/actions",
+    "actions_runs": "https://github.com/bjw100kr-cell/investment-blog-cloud-sync/actions/workflows/daily-investment-intake.yml"
+  },
+  "repo_access_note": "repo_connected_before_actions_ready",
+  "minimum_path_summary": {
+    "required_secrets_count": 4,
+    "required_variables_count": 8,
+    "wordpress_required_now": false,
+    "openai_required_now": false,
+    "first_goal": "GitHub Actions에서 Blogger 자동 업로드/공개가 정상적으로 동작하는지 확인"
+  },
+  "ui_path": {
+    "repo_creation": "GitHub > New repository",
+    "actions_settings": "Repo > Settings > Secrets and variables > Actions",
+    "workflow_run": "Repo > Actions > Daily Investment Intake > Run workflow"
+  },
+  "first_run_secrets": [
+    {
+      "key": "BLOGGER_BLOG_ID",
+      "description": "Blogger 업로드 대상 블로그 ID",
+      "filled_locally": true
+    },
+    {
+      "key": "GOOGLE_CLIENT_ID",
+      "description": "Google OAuth client id",
+      "filled_locally": true
+    },
+    {
+      "key": "GOOGLE_CLIENT_SECRET",
+      "description": "Google OAuth client secret",
+      "filled_locally": true
+    },
+    {
+      "key": "GOOGLE_REFRESH_TOKEN",
+      "description": "Blogger 업로드용 refresh token",
+      "filled_locally": true
+    }
+  ],
+  "first_run_variables": [
+    {
+      "key": "OPENAI_MODEL",
+      "recommended_value": "gpt-4o-mini",
+      "description": "초안 생성 모델. 현재 기본값 유지 가능",
+      "filled_locally": true
+    },
+    {
+      "key": "BLOGGER_SYNC_SITE_PAGES",
+      "recommended_value": "false",
+      "description": "필요 시 신뢰 페이지까지 동기화",
+      "filled_locally": true
+    },
+    {
+      "key": "BLOGGER_SITE_PAGES_PUBLISH",
+      "recommended_value": "false",
+      "description": "첫 실행에서는 페이지도 공개하지 않음",
+      "filled_locally": true
+    },
+    {
+      "key": "BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES",
+      "recommended_value": "false",
+      "description": "필수 페이지부터 시작",
+      "filled_locally": true
+    },
+    {
+      "key": "BLOGGER_REQUIRE_REVIEW_APPROVAL",
+      "recommended_value": "false",
+      "description": "자동 모드면 승인 단계 생략",
+      "filled_locally": true
+    },
+    {
+      "key": "BLOGGER_AUTO_PUBLISH_POSTS",
+      "recommended_value": "true",
+      "description": "드래프트 업로드 후 즉시 공개",
+      "filled_locally": true
+    },
+    {
+      "key": "BLOGGER_PUBLISH_ONLY_DUE_POSTS",
+      "recommended_value": "false",
+      "description": "발행일 제한 없이 동작",
+      "filled_locally": true
+    },
+    {
+      "key": "BLOGGER_MAX_POSTS_PER_RUN",
+      "recommended_value": "3",
+      "description": "처음부터 3건씩 처리(필요 시 조정)",
+      "filled_locally": true
+    }
+  ],
+  "wordpress_later_secrets": [
+    {
+      "key": "WORDPRESS_SITE_URL",
+      "description": "WordPress 사이트 주소",
+      "filled_locally": false
+    },
+    {
+      "key": "WORDPRESS_USERNAME",
+      "description": "WordPress 로그인 계정",
+      "filled_locally": false
+    },
+    {
+      "key": "WORDPRESS_APPLICATION_PASSWORD",
+      "description": "WordPress Application Password",
+      "filled_locally": false
+    }
+  ],
+  "wordpress_later_variables": [
+    {
+      "key": "WORDPRESS_AUTO_PUBLISH_POSTS",
+      "recommended_value": "false",
+      "description": "초기에는 draft만 생성",
+      "filled_locally": false
+    },
+    {
+      "key": "WORDPRESS_PUBLISH_ONLY_DUE_POSTS",
+      "recommended_value": "true",
+      "description": "기한 도래 글만 대상으로 제한",
+      "filled_locally": false
+    },
+    {
+      "key": "WORDPRESS_MAX_POSTS_PER_RUN",
+      "recommended_value": "1",
+      "description": "첫 실행은 1건만 업로드",
+      "filled_locally": false
+    }
+  ],
+  "copy_block": [
+    "OPENAI_MODEL=gpt-4o-mini",
+    "BLOGGER_SYNC_SITE_PAGES=false",
+    "BLOGGER_SITE_PAGES_PUBLISH=false",
+    "BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES=false",
+    "BLOGGER_REQUIRE_REVIEW_APPROVAL=false",
+    "BLOGGER_AUTO_PUBLISH_POSTS=true",
+    "BLOGGER_PUBLISH_ONLY_DUE_POSTS=false",
+    "BLOGGER_MAX_POSTS_PER_RUN=3"
+  ],
+  "secrets_copy_keys": [
+    "BLOGGER_BLOG_ID",
+    "GOOGLE_CLIENT_ID",
+    "GOOGLE_CLIENT_SECRET",
+    "GOOGLE_REFRESH_TOKEN"
+  ],
+  "next_steps": [
+    "GitHub에서 새 public repo를 만듭니다.",
+    "로컬에서 `bash scripts/bootstrap_github_remote.sh <OWNER/REPO>` 를 실행합니다.",
+    "GitHub 웹 UI에서 Actions Secrets 4개와 Variables를 먼저 입력합니다.",
+    "Actions에서 Daily Investment Intake를 수동 실행합니다.",
+    "Blogger 업로드 결과에서 processed_count, published, skipped 이유를 확인합니다."
+  ]
+}

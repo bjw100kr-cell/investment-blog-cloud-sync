@@ -1,0 +1,17 @@
+{
+  "headline": "GitHub 연결 전에도 로컬에서 첫 Blogger draft 검증까지 바로 확인할 수 있습니다.",
+  "main_candidate": {
+    "keyword": "fomc",
+    "title": "FOMC 이후 시장 해설"
+  },
+  "shortcut_flow": {
+    "preview": "python3 scripts/run_first_blogger_verify_flow.py",
+    "apply": "python3 scripts/run_first_blogger_verify_flow.py --apply",
+    "apply_skip_approval": "python3 scripts/run_first_blogger_verify_flow.py --apply --skip-approval",
+    "apply_with_safety_check": "python3 scripts/run_first_blogger_verify_flow.py --apply --run-safety-check"
+  },
+  "references": {
+    "first_publish_operator_run_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/first-publish-operator-run.md",
+    "first_cloud_run_verification_md": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/first-cloud-run-verification.md"
+  }
+}

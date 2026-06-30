@@ -1,0 +1,290 @@
+{
+  "generated_at": "2026-06-30T16:04:29.780387+00:00",
+  "automation_policy": "automation-first",
+  "primary_channel": "blogger",
+  "secondary_channel": "wordpress",
+  "selected_count": 4,
+  "manual_selected_count": 4,
+  "manual_channels": [
+    {
+      "name": "naver_blog",
+      "label": "네이버 블로그 (수동)",
+      "ready": true,
+      "mode": "manual",
+      "reason": "운영 정책상 수동 운영 채널로 분리",
+      "editor_url": "https://blog.naver.com",
+      "recommended_steps": [
+        "1) `html_path`에 적힌 파일을 열어 전체 본문을 복사",
+        "2) 네이버 블로그 글쓰기 에디터에서 새 글 작성으로 붙여넣기",
+        "3) 카테고리/태그: `경제`, `투자`, `주식`, `코인` 중심으로 정리",
+        "공개 범위를 확인하고 발행",
+        "발행한 뒤 링크에 `출처`를 한 줄 넣고, 수익화 성과 트래킹 시트에 URL 기록",
+        "발행 URL을 추후 수동 성과 추적용으로 기록",
+        "중복/오타 검수 후 바로 다음 글로 이동"
+      ],
+      "execution_notes": [
+        "네이버는 현재 수동 채널입니다. 동일 후보 글이 여러 개면 한 번에 하나씩 발행하세요.",
+        "업로드 대상이 여러 개면 `1번 후보 -> 발행 -> 다음 후보`로 순서 유지가 효율적입니다."
+      ],
+      "ready_item_count": 4,
+      "ready_command": "open https://blog.naver.com and paste html_path content",
+      "quality_note": "수동 채널은 품질 게이트 상태와 상관없이 수동 발행 후보로 노출됩니다.",
+      "items": [
+        {
+          "inventory_sequence": 2,
+          "inventory_type": "main_post",
+          "keyword": "bitcoin",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 해설",
+          "publish_bucket": "tomorrow",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 121.0,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
+          "quality_status": "pass"
+        },
+        {
+          "inventory_sequence": 8,
+          "inventory_type": "seo_followup",
+          "keyword": "seo_bitcoin_4",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+          "publish_bucket": "seo_backlog",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 120.5,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.json",
+          "quality_status": "pass"
+        },
+        {
+          "inventory_sequence": 9,
+          "inventory_type": "seo_followup",
+          "keyword": "seo_bitcoin_5",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
+          "publish_bucket": "seo_backlog",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 117.5,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.json",
+          "quality_status": "pass"
+        },
+        {
+          "inventory_sequence": 10,
+          "inventory_type": "seo_followup",
+          "keyword": "seo_bitcoin_6",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리",
+          "publish_bucket": "seo_backlog",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 114.5,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.json",
+          "quality_status": "pass"
+        }
+      ]
+    },
+    {
+      "name": "tistory",
+      "label": "티스토리 (수동)",
+      "ready": true,
+      "mode": "manual",
+      "reason": "운영 정책상 수동 운영 채널로 분리",
+      "editor_url": "https://www.tistory.com/manage",
+      "recommended_steps": [
+        "1) `html_path`에 적힌 파일을 열어 본문을 복사",
+        "2) 티스토리 새 글 작성으로 붙여넣기",
+        "3) 썸네일/태그/카테고리를 시장 흐름 중심으로 정렬",
+        "발행 후 상단 고정 링크와 관련 글 이동 경로를 점검",
+        "문단 구분이 깨지면 HTML 보기에서 한 번 더 줄 바꿈 정리",
+        "발행 URL과 대표 키워드를 수기 스프레드시트나 텍스트로 저장"
+      ],
+      "execution_notes": [
+        "티스토리는 수동 채널이라 자동 업로드가 없고, 발행은 사용자가 직접 확인해야 합니다.",
+        "SEO 글이면 `해시태그`에 핵심 키워드 2~3개만 짧게 넣어 검색 유입을 확보하세요."
+      ],
+      "ready_command": "open https://www.tistory.com/manage and create a new post with copied html_path content",
+      "ready_item_count": 4,
+      "items": [
+        {
+          "inventory_sequence": 2,
+          "inventory_type": "main_post",
+          "keyword": "bitcoin",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 해설",
+          "publish_bucket": "tomorrow",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 121.0,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
+          "quality_status": "pass"
+        },
+        {
+          "inventory_sequence": 8,
+          "inventory_type": "seo_followup",
+          "keyword": "seo_bitcoin_4",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+          "publish_bucket": "seo_backlog",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 120.5,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.json",
+          "quality_status": "pass"
+        },
+        {
+          "inventory_sequence": 9,
+          "inventory_type": "seo_followup",
+          "keyword": "seo_bitcoin_5",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
+          "publish_bucket": "seo_backlog",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 117.5,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.json",
+          "quality_status": "pass"
+        },
+        {
+          "inventory_sequence": 10,
+          "inventory_type": "seo_followup",
+          "keyword": "seo_bitcoin_6",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리",
+          "publish_bucket": "seo_backlog",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 114.5,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.json",
+          "quality_status": "pass"
+        }
+      ]
+    }
+  ],
+  "auto_channels": [
+    {
+      "name": "blogger",
+      "label": "Blogger (자동)",
+      "ready": true,
+      "mode": "auto",
+      "command": "python3 scripts/upload_blogger_drafts.py",
+      "ready_item_count": 4,
+      "items": [
+        {
+          "inventory_sequence": 2,
+          "inventory_type": "main_post",
+          "keyword": "bitcoin",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 해설",
+          "publish_bucket": "tomorrow",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 121.0,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
+          "quality_status": "unknown"
+        },
+        {
+          "inventory_sequence": 8,
+          "inventory_type": "seo_followup",
+          "keyword": "seo_bitcoin_4",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+          "publish_bucket": "seo_backlog",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 120.5,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.json",
+          "quality_status": "unknown"
+        },
+        {
+          "inventory_sequence": 9,
+          "inventory_type": "seo_followup",
+          "keyword": "seo_bitcoin_5",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
+          "publish_bucket": "seo_backlog",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 117.5,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.json",
+          "quality_status": "unknown"
+        },
+        {
+          "inventory_sequence": 10,
+          "inventory_type": "seo_followup",
+          "keyword": "seo_bitcoin_6",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리",
+          "publish_bucket": "seo_backlog",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 114.5,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.json",
+          "quality_status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "wordpress",
+      "label": "WordPress (자동)",
+      "ready": false,
+      "mode": "auto",
+      "command": "python3 scripts/upload_wordpress_drafts.py",
+      "ready_item_count": 4,
+      "items": [
+        {
+          "inventory_sequence": 2,
+          "inventory_type": "main_post",
+          "keyword": "bitcoin",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 해설",
+          "publish_bucket": "tomorrow",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 121.0,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
+          "quality_status": "unknown"
+        },
+        {
+          "inventory_sequence": 8,
+          "inventory_type": "seo_followup",
+          "keyword": "seo_bitcoin_4",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+          "publish_bucket": "seo_backlog",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 120.5,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.json",
+          "quality_status": "unknown"
+        },
+        {
+          "inventory_sequence": 9,
+          "inventory_type": "seo_followup",
+          "keyword": "seo_bitcoin_5",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
+          "publish_bucket": "seo_backlog",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 117.5,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.json",
+          "quality_status": "unknown"
+        },
+        {
+          "inventory_sequence": 10,
+          "inventory_type": "seo_followup",
+          "keyword": "seo_bitcoin_6",
+          "source_keyword": "bitcoin",
+          "title": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리",
+          "publish_bucket": "seo_backlog",
+          "recommended_publish_date": "2026-07-02",
+          "priority_score": 114.5,
+          "html_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.html",
+          "manifest_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-비트코인-핵심-흐름-faq-10개-많이-헷갈리는-질문-정리.json",
+          "quality_status": "unknown"
+        }
+      ]
+    }
+  ]
+}

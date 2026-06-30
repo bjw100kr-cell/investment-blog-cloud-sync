@@ -14,6 +14,41 @@
     "crypto": 1.1,
     "global-sector": 1.05
   },
+  "topic_mix_policy": {
+    "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
+    "top_brief_diversity_key": "brand_lane",
+    "top_brief_diversity_order": [
+      "macro",
+      "crypto",
+      "us-stocks",
+      "world-flow"
+    ],
+    "top_brief_lane_caps": {
+      "macro": 2,
+      "crypto": 2,
+      "us-stocks": 2,
+      "world-flow": 2
+    },
+    "top_brief_max_items": 5,
+    "weekly_mix_targets": {
+      "macro": 0.3,
+      "crypto": 0.3,
+      "us-stocks": 0.2,
+      "world-flow": 0.2
+    },
+    "brand_lane_labels": {
+      "macro": "거시경제",
+      "crypto": "코인",
+      "us-stocks": "미국주식",
+      "world-flow": "세계 흐름"
+    },
+    "selection_rules": [
+      "당일 속보 점수가 높아도 top_briefs 상단은 macro, crypto, us-stocks, world-flow가 가능한 범위에서 한 번씩 보이도록 우선 배치한다.",
+      "단일 카테고리가 연속으로 상단을 독점하면 다음 후보 선택에서 다른 카테고리를 우선 검토한다.",
+      "내부 발행 카테고리가 같더라도 사용자에게 보이는 운영 레인은 거시경제, 코인, 미국주식, 세계 흐름으로 분리해서 보여준다.",
+      "미국 빅테크, AI 성장주, 미국 지수 흐름은 미국주식 레인으로 우선 노출하고, 중국·관세·무역 이슈는 세계 흐름 레인으로 우선 노출한다."
+    ]
+  },
   "monetization_ladders": {
     "macro": "속보형 거시 글 -> 달러/금리/미국증시 evergreen 글 -> 주간 회고 허브",
     "crypto": "당일 코인 해설 -> ETF/규제 구조 글 -> 비트코인 초보 가이드 묶음",
@@ -33,6 +68,28 @@
     "한 글 안에 직접 말 거는 문장 2회 이상",
     "같은 문장 어미 반복 줄이기",
     "교과서체보다 설명형 리듬 우선"
+  ],
+  "search_first_strategy": {
+    "demand_bonus_divisor": 1800,
+    "max_demand_bonus": 10,
+    "trend_count_weight": 4,
+    "trend_bonus_cap": 8,
+    "source_count_weight": 2,
+    "source_bonus_cap": 6,
+    "naver_bonus": 4,
+    "high_demand_threshold": 5000,
+    "high_demand_extra_boost": 2,
+    "sort_tiebreaker_use_demand": true,
+    "weak_trend_min_matched_keywords": 3,
+    "weak_trend_fallback_source_score_min": 8,
+    "weak_trend_fallback_keyword_limit": 4,
+    "weak_trend_fallback_demand_base": 1200
+  },
+  "brand_positioning_rules": [
+    "검색량이 높아도 경제, 투자, 코인, 거시, 섹터 흐름 범위 안에서만 다룬다.",
+    "단순 연예/스포츠/가십성 트렌드는 제외한다.",
+    "개별 종목 키워드를 다루더라도 반드시 시장 맥락, 자금 흐름, 섹터 해석과 연결한다.",
+    "트렌드가 높을수록 설명형 해설 글과 내부 링크 구조를 우선한다."
   ],
   "official_guidance_links": [
     {

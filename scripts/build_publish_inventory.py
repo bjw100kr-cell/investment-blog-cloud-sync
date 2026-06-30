@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLISH_QUEUE_JSON = ROOT / "outputs/latest/publish-queue.json"
 SEO_PUBLISH_READY_JSON = ROOT / "outputs/latest/seo-publish-ready-report.json"
 SEO_BACKLOG_JSON = ROOT / "outputs/latest/seo-backlog.json"
+PUBLISH_READY_REPORT_JSON = ROOT / "outputs/latest/publish-ready-report.json"
 OUTPUT_JSON = ROOT / "outputs/latest/publish-inventory.json"
 OUTPUT_MD = ROOT / "outputs/latest/publish-inventory.md"
 
@@ -96,17 +97,28 @@ def inventory_sort_key(item: dict) -> tuple:
 def build_inventory() -> dict:
     publish_queue = load_json(PUBLISH_QUEUE_JSON)
     seo_publish_ready = load_json(SEO_PUBLISH_READY_JSON)
+    publish_ready_report = load_json(PUBLISH_READY_REPORT_JSON)
     seo_backlog = load_json(SEO_BACKLOG_JSON)
     seo_lookup = build_seo_backlog_lookup(seo_backlog)
 
     items = build_main_items(publish_queue) + build_seo_items(seo_publish_ready, seo_lookup)
     items.sort(key=inventory_sort_key)
 
+    generated_at_candidates = [
+        publish_queue.get("generated_at", ""),
+        seo_publish_ready.get("generated_at", ""),
+        publish_ready_report.get("generated_at", ""),
+    ]
+    generated_at = max(
+        generated_at_candidates,
+        key=lambda v: v or "",
+    )
+
     for index, item in enumerate(items, start=1):
         item["inventory_sequence"] = index
 
     return {
-        "generated_at": publish_queue.get("generated_at", seo_publish_ready.get("generated_at", "")),
+        "generated_at": generated_at,
         "summary": {
             "inventory_count": len(items),
             "ready_count": sum(1 for item in items if item.get("ready_to_upload")),

@@ -22,6 +22,9 @@ SECRET_KEYS = {
     "GOOGLE_REFRESH_TOKEN",
     "GOOGLE_ACCESS_TOKEN",
     "SEARCH_CONSOLE_ACCESS_TOKEN",
+    "WORDPRESS_SITE_URL",
+    "WORDPRESS_USERNAME",
+    "WORDPRESS_APPLICATION_PASSWORD",
 }
 
 VARIABLE_KEYS = {
@@ -32,9 +35,13 @@ VARIABLE_KEYS = {
     "BLOGGER_SYNC_SITE_PAGES",
     "BLOGGER_SITE_PAGES_PUBLISH",
     "BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES",
+    "BLOGGER_REQUIRE_REVIEW_APPROVAL",
     "BLOGGER_AUTO_PUBLISH_POSTS",
     "BLOGGER_PUBLISH_ONLY_DUE_POSTS",
     "BLOGGER_MAX_POSTS_PER_RUN",
+    "WORDPRESS_AUTO_PUBLISH_POSTS",
+    "WORDPRESS_PUBLISH_ONLY_DUE_POSTS",
+    "WORDPRESS_MAX_POSTS_PER_RUN",
     "GA4_MEASUREMENT_ID",
     "ADSENSE_PUBLISHER_ID",
     "ADSENSE_SITE_VERIFICATION",
@@ -97,7 +104,7 @@ def main() -> int:
 
     lines.append("## 통합별 최소 조건")
     lines.append("")
-    for name in ["naver_datalab", "search_console", "openai_drafts", "blogger_upload"]:
+    for name in ["naver_datalab", "search_console", "openai_drafts", "blogger_upload", "wordpress_upload"]:
         item = integrations.get(name, {})
         missing = item.get("missing", [])
         lines.append(f"- {name}: {'ready' if item.get('ready') else 'missing ' + ', '.join(missing)}")
@@ -111,7 +118,12 @@ def main() -> int:
     lines.append("- [ ] GOOGLE_REFRESH_TOKEN 입력")
     lines.append("- [ ] BLOGGER_BLOG_ID 입력")
     lines.append("- [ ] BLOGGER_SYNC_SITE_PAGES / BLOGGER_SITE_PAGES_PUBLISH 변수 입력")
-    lines.append("- [ ] BLOGGER_AUTO_PUBLISH_POSTS / BLOGGER_PUBLISH_ONLY_DUE_POSTS / BLOGGER_MAX_POSTS_PER_RUN 변수 입력")
+    lines.append(
+        "- [ ] BLOGGER_REQUIRE_REVIEW_APPROVAL / BLOGGER_AUTO_PUBLISH_POSTS / "
+        "BLOGGER_PUBLISH_ONLY_DUE_POSTS / BLOGGER_MAX_POSTS_PER_RUN 변수 입력"
+    )
+    lines.append("- [ ] WORDPRESS_SITE_URL / WORDPRESS_USERNAME / WORDPRESS_APPLICATION_PASSWORD 입력")
+    lines.append("- [ ] WORDPRESS_AUTO_PUBLISH_POSTS / WORDPRESS_PUBLISH_ONLY_DUE_POSTS / WORDPRESS_MAX_POSTS_PER_RUN 변수 입력")
     lines.append("- [ ] BLOG_BASE_URL 변수 입력 (선택)")
     lines.append("- [ ] GA4_MEASUREMENT_ID 입력")
     lines.append("- [ ] ADSENSE_PUBLISHER_ID / ADSENSE_SITE_VERIFICATION 입력")

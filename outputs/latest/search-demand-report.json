@@ -1,57 +1,88 @@
 {
-  "generated_at": "2026-06-25T14:55:02.670727+00:00",
+  "generated_at": "2026-06-30T16:04:26.272859+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 1,
-    "unmatched_market_trend_count": 4
+    "matched_keyword_count": 4,
+    "unmatched_market_trend_count": 0,
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
+      "keyword": "fomc",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 6000,
+      "fallback_source": "source_snapshot_rank",
+      "source_snapshot_score": 48,
+      "source_count": 5,
+      "source_names": [
+        "CNBC Top News",
+        "Federal Reserve Monetary Policy Press",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": []
+    },
+    {
       "keyword": "bitcoin",
-      "trend_count": 1,
-      "traffic_score_sum": 20000,
-      "max_approx_traffic": 20000,
-      "trend_queries": [
-        "btc"
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 5700,
+      "fallback_source": "source_snapshot_rank",
+      "source_snapshot_score": 45,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
       ],
-      "regions": [
-        "US"
+      "sample_titles": []
+    },
+    {
+      "keyword": "treasury_yields",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3200,
+      "fallback_source": "source_snapshot_rank",
+      "source_snapshot_score": 20,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
       ],
-      "demand_signal_score": 20200
+      "sample_titles": []
+    },
+    {
+      "keyword": "dollar",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3000,
+      "fallback_source": "source_snapshot_rank",
+      "source_snapshot_score": 18,
+      "source_count": 5,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Financial Times Home",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": []
     }
   ],
-  "unmatched_market_trends": [
-    {
-      "query": "apple stock",
-      "region": "US",
-      "approx_traffic": "10000+",
-      "traffic_score": 10000,
-      "market_relevance_score": 1,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    },
-    {
-      "query": "palantir stock",
-      "region": "US",
-      "approx_traffic": "2000+",
-      "traffic_score": 2000,
-      "market_relevance_score": 1,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    },
-    {
-      "query": "spy stock",
-      "region": "US",
-      "approx_traffic": "2000+",
-      "traffic_score": 2000,
-      "market_relevance_score": 1,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    },
-    {
-      "query": "dell stock",
-      "region": "US",
-      "approx_traffic": "500+",
-      "traffic_score": 500,
-      "market_relevance_score": 1,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    }
-  ]
+  "unmatched_market_trends": []
 }

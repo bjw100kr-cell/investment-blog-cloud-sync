@@ -1,0 +1,103 @@
+{
+  "providers": {
+    "unsplash": {
+      "display_name": "Unsplash",
+      "license_label": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "search_url_template": "https://unsplash.com/s/photos/{query}"
+    },
+    "pexels": {
+      "display_name": "Pexels",
+      "license_label": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "search_url_template": "https://www.pexels.com/search/{query}/"
+    },
+    "pixabay": {
+      "display_name": "Pixabay",
+      "license_label": "Pixabay License Summary",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "search_url_template": "https://pixabay.com/images/search/{query}/"
+    }
+  },
+  "provider_priority_by_category": {
+    "default": [
+      "unsplash",
+      "pexels"
+    ],
+    "macro": [
+      "unsplash",
+      "pexels"
+    ],
+    "crypto": [
+      "pexels",
+      "unsplash"
+    ],
+    "global-sector": [
+      "unsplash",
+      "pexels"
+    ]
+  },
+  "category_query_presets": {
+    "default": {
+      "hero": "global finance market abstract",
+      "inline": "business data analysis abstract"
+    },
+    "macro": {
+      "hero": "central bank finance city skyline market data",
+      "inline": "interest rate macro economy data screen"
+    },
+    "crypto": {
+      "hero": "crypto market blockchain abstract finance",
+      "inline": "bitcoin blockchain data abstract"
+    },
+    "global-sector": {
+      "hero": "technology stocks office finance abstract",
+      "inline": "semiconductor data center abstract"
+    }
+  },
+  "keyword_overrides": {
+    "fomc": {
+      "hero": "central bank meeting finance city skyline",
+      "inline": "interest rate macro economy abstract"
+    },
+    "cpi": {
+      "hero": "inflation shopping finance data abstract",
+      "inline": "macro economy market data abstract"
+    },
+    "bitcoin": {
+      "hero": "bitcoin blockchain abstract blue finance",
+      "inline": "crypto market data abstract"
+    },
+    "us_big_tech": {
+      "hero": "technology stocks office city abstract",
+      "inline": "semiconductor server data center abstract"
+    },
+    "ai_semiconductors": {
+      "hero": "semiconductor chip blue abstract",
+      "inline": "ai server data center abstract"
+    }
+  },
+  "slot_labels": {
+    "hero": "대표 이미지",
+    "inline": "본문 보조 이미지"
+  },
+  "slot_notes": {
+    "hero": "상단 썸네일 또는 도입부 직후에 넣는 대표 이미지 1장",
+    "inline": "본문 중간 설명용으로 넣는 보조 이미지 1장"
+  },
+  "usage_checklist": [
+    "공식 라이선스 페이지를 한 번 더 확인한다",
+    "브랜드 로고, 거래소 화면, 기사 캡처는 사용하지 않는다",
+    "인물 얼굴이 중심이거나 초상권 이슈가 큰 이미지는 피한다",
+    "실제 수익 인증처럼 오해될 수 있는 과장 이미지는 피한다",
+    "가능하면 글 맥락에 맞는 추상적 금융 또는 거시 분위기 이미지를 고른다"
+  ],
+  "blocked_subjects": [
+    "뉴스 기사 스크린샷",
+    "거래소 대시보드 캡처",
+    "기업 로고가 중심인 이미지",
+    "유명인 얼굴 클로즈업",
+    "저작권 출처 불명 차트 이미지",
+    "수익 인증처럼 보이는 과장 이미지"
+  ]
+}

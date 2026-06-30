@@ -10,6 +10,7 @@ OUTPUT_MD = ROOT / "outputs/latest/resume-after-login-report.md"
 GO_LIVE_DASHBOARD_JSON = ROOT / "outputs/latest/go-live-dashboard.json"
 SETUP_JSON = ROOT / "outputs/latest/setup-check-report.json"
 START_HERE_MD = ROOT / "outputs/latest/start-here-runbook.md"
+GITHUB_MINIMUM_LAUNCH_CARD_MD = ROOT / "outputs/latest/github-minimum-launch-card.md"
 TOKEN_JSON = ROOT / "outputs/latest/google-oauth-token-result.json"
 
 
@@ -43,15 +44,17 @@ def next_action_from_dashboard() -> str:
     git_branch = ((setup.get("git") or {}).get("branch") or "").strip()
 
     if "GOOGLE_CLIENT_ID" not in env_filled or "GOOGLE_CLIENT_SECRET" not in env_filled:
-        return "python3 scripts/open_login_setup_pages.py --open"
+        return "python3 scripts/open_login_setup_pages.py --open-next"
     if "GOOGLE_REFRESH_TOKEN" not in env_filled:
         if TOKEN_JSON.exists():
             return "python3 scripts/apply_google_oauth_result.py"
         return "GOOGLE_OAUTH_OPEN_BROWSER=true python3 scripts/get_google_refresh_token.py"
+    if not dashboard.get("auto_channel_ready_count"):
+        return "python3 scripts/open_login_setup_pages.py --open-next"
     if git_branch in {"", "(none)"}:
         return "bash scripts/prepare_initial_commit.sh"
     if git_origin in {"", "(not configured)"}:
-        return "bash scripts/bootstrap_github_remote.sh <YOUR_GITHUB_REPO_URL>"
+        return "bash scripts/bootstrap_github_remote.sh <OWNER/REPO>"
 
     commands = dashboard.get("next_commands", [])
     if commands:
@@ -85,6 +88,7 @@ def write_report(results: list[dict], next_action: str) -> None:
     lines.append("## Reference")
     lines.append("")
     lines.append(f"- [start-here-runbook.md]({START_HERE_MD})")
+    lines.append(f"- [github-minimum-launch-card.md]({GITHUB_MINIMUM_LAUNCH_CARD_MD})")
     OUTPUT_MD.write_text("\n".join(lines) + "\n")
 
 
@@ -98,11 +102,14 @@ def main() -> int:
 
     for label, command in [
         ("Setup check refresh", ["python3", "scripts/check_setup.py"]),
+        ("Login checklist refresh", ["python3", "scripts/open_login_setup_pages.py"]),
         ("GitHub sync guide refresh", ["python3", "scripts/export_github_actions_sync_commands.py"]),
         ("Go-live readiness refresh", ["python3", "scripts/build_go_live_readiness_report.py"]),
+        ("Platform publish plan refresh", ["python3", "scripts/build_platform_publish_plan.py"]),
         ("First live run plan refresh", ["python3", "scripts/prepare_first_live_run_plan.py"]),
         ("GitHub launch plan refresh", ["python3", "scripts/prepare_github_launch_plan.py"]),
         ("Go-live dashboard refresh", ["python3", "scripts/prepare_go_live_dashboard.py"]),
+        ("Cloud launch preflight refresh", ["python3", "scripts/build_cloud_launch_preflight.py"]),
         ("Operator handoff refresh", ["python3", "scripts/generate_operator_handoff.py"]),
         ("Start here refresh", ["python3", "scripts/prepare_start_here_runbook.py"]),
     ]:

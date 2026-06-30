@@ -4,7 +4,7 @@
       "label": "Setup check",
       "command": "python3 scripts/check_setup.py",
       "returncode": 0,
-      "stdout": "Investment Blog Cloud Sync setup check\n\n- project: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync\n- .env present: yes\n- git branch: main\n- git origin: (not configured)\n- outputs/latest present: yes\n\nLocal .env values\n- ADSENSE_PUBLISHER_ID: missing\n- ADSENSE_SITE_VERIFICATION: missing\n- BLOGGER_AUTO_PUBLISH_POSTS: set (*****)\n- BLOGGER_BLOG_ID: set (691***88)\n- BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES: set (*****)\n- BLOGGER_MAX_POSTS_PER_RUN: set (*)\n- BLOGGER_PUBLISH_ONLY_DUE_POSTS: set (****)\n- BLOGGER_SITE_PAGES_PUBLISH: set (*****)\n- BLOGGER_SYNC_SITE_PAGES: set (*****)\n- BLOG_BASE_URL: missing\n- GA4_MEASUREMENT_ID: missing\n- GOOGLE_ACCESS_TOKEN: missing\n- GOOGLE_CLIENT_ID: missing\n- GOOGLE_CLIENT_SECRET: missing\n- GOOGLE_OAUTH_OPEN_BROWSER: set (*****)\n- GOOGLE_OAUTH_PRESET: set (com***ed)\n- GOOGLE_REDIRECT_URI: set (htt***ck)\n- GOOGLE_REFRESH_TOKEN: missing\n- NAVER_CLIENT_ID: missing\n- NAVER_CLIENT_SECRET: missing\n- NEWSLETTER_SUBSCRIBE_URL: missing\n- OPENAI_API_KEY: missing\n- OPENAI_MODEL: set (gpt***ni)\n- SEARCH_CONSOLE_ACCESS_TOKEN: missing\n- SEARCH_CONSOLE_CLIENT_ID: missing\n- SEARCH_CONSOLE_CLIENT_SECRET: missing\n- SEARCH_CONSOLE_LAG_DAYS: set (*)\n- SEARCH_CONSOLE_REFRESH_TOKEN: missing\n- SEARCH_CONSOLE_SITE_URL: missing\n- SEARCH_CONSOLE_WINDOW_DAYS: set (*)\n\nIntegration readiness\n- naver_datalab: missing NAVER_CLIENT_ID, NAVER_CLIENT_SECRET\n- search_console: missing SEARCH_CONSOLE_SITE_URL, SEARCH_CONSOLE_CLIENT_ID, SEARCH_CONSOLE_CLIENT_SECRET, SEARCH_CONSOLE_REFRESH_TOKEN\n- openai_drafts: missing OPENAI_API_KEY\n- blogger_upload: missing GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN\n\nPublish-ready status\n- report exists: yes\n- items: 3\n- ready html items: 3\n\nSite-page status\n- plan exists: yes\n- items: 10\n- required rendered pages: 9 / 9\n\nGo-live report\n- report exists: yes\n\nGitHub Actions notes\n- Local .env values do not automatically sync to GitHub Secrets.\n- Add the same keys manually in GitHub -> Settings -> Secrets and variables -> Actions.\n- Public repositories are usually the safest free option for this lightweight schedule.\n\nJSON report written to: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/setup-check-report.json",
+      "stdout": "Investment Blog Cloud Sync setup check\n\n- project: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync\n- .env present: yes\n- git branch: main\n- git origin: https://github.com/bjw100kr-cell/investment-blog-cloud-sync.git\n- outputs/latest present: yes\n\nLocal .env values\n- ADSENSE_PUBLISHER_ID: missing\n- ADSENSE_SITE_VERIFICATION: missing\n- BLOGGER_ALLOW_REUPLOAD_SAME_CONTENT: default (false)\n- BLOGGER_API_BACKOFF_BASE_SECONDS: default (1.5)\n- BLOGGER_API_BACKOFF_MAX_SECONDS: default (20.0)\n- BLOGGER_API_MAX_ATTEMPTS: default (4)\n- BLOGGER_AUTO_PUBLISH_POSTS: set (****)\n- BLOGGER_BLOG_ID: set (691***88)\n- BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES: set (*****)\n- BLOGGER_MAX_POSTS_PER_RUN: set (*)\n- BLOGGER_PUBLISH_ONLY_DUE_POSTS: set (*****)\n- BLOGGER_REQUIRE_REVIEW_APPROVAL: set (*****)\n- BLOGGER_SITE_PAGES_PUBLISH: set (*****)\n- BLOGGER_SYNC_SITE_PAGES: set (*****)\n- BLOG_BASE_URL: set (htt***m/)\n- GA4_MEASUREMENT_ID: missing\n- GOOGLE_ACCESS_TOKEN: missing\n- GOOGLE_CLIENT_ID: set (786***om)\n- GOOGLE_CLIENT_SECRET: set (GOC***1Z)\n- GOOGLE_OAUTH_OPEN_BROWSER: set (****)\n- GOOGLE_OAUTH_PRESET: set (com***ed)\n- GOOGLE_REDIRECT_URI: set (htt***ck)\n- GOOGLE_REFRESH_TOKEN: set (1//***Jg)\n- NAVER_CLIENT_ID: missing\n- NAVER_CLIENT_SECRET: missing\n- NEWSLETTER_SUBSCRIBE_URL: missing\n- OPENAI_API_KEY: missing\n- OPENAI_MODEL: set (gpt***ni)\n- SEARCH_CONSOLE_ACCESS_TOKEN: missing\n- SEARCH_CONSOLE_CLIENT_ID: set (786***om)\n- SEARCH_CONSOLE_CLIENT_SECRET: set (GOC***1Z)\n- SEARCH_CONSOLE_LAG_DAYS: set (*)\n- SEARCH_CONSOLE_REFRESH_TOKEN: set (1//***Jg)\n- SEARCH_CONSOLE_SITE_URL: missing\n- SEARCH_CONSOLE_WINDOW_DAYS: set (*)\n- WORDPRESS_APPLICATION_PASSWORD: missing\n- WORDPRESS_AUTO_PUBLISH_POSTS: default (false)\n- WORDPRESS_MAX_POSTS_PER_RUN: default (1)\n- WORDPRESS_PUBLISH_ONLY_DUE_POSTS: default (true)\n- WORDPRESS_REQUIRE_REVIEW_APPROVAL: default (true)\n- WORDPRESS_SITE_URL: missing\n- WORDPRESS_USERNAME: missing\n\nIntegration readiness\n- naver_datalab: missing NAVER_CLIENT_ID, NAVER_CLIENT_SECRET\n- search_console: missing SEARCH_CONSOLE_SITE_URL\n- openai_drafts: missing OPENAI_API_KEY\n- blogger_upload: ready\n- wordpress_upload: missing WORDPRESS_SITE_URL, WORDPRESS_USERNAME, WORDPRESS_APPLICATION_PASSWORD\n\nPublish-ready status\n- report exists: yes\n- items: 4\n- ready html items: 4\n\nSite-page status\n- plan exists: yes\n- items: 10\n- required rendered pages: 9 / 9\n\nGo-live report\n- report exists: yes\n\nGitHub Actions notes\n- Local .env values do not automatically sync to GitHub Secrets.\n- Add the same keys manually in GitHub -> Settings -> Secrets and variables -> Actions.\n- Public repositories are usually the safest free option for this lightweight schedule.\n- Automation-first 운영 기준에서 현재 1차 채널은 Blogger, WordPress는 나중 확장입니다.\n\nJSON report written to: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/setup-check-report.json",
       "stderr": ""
     },
     {
@@ -15,10 +15,24 @@
       "stderr": ""
     },
     {
+      "label": "Apply OAuth token",
+      "command": "python3 scripts/apply_google_oauth_result.py",
+      "returncode": 0,
+      "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/google-oauth-apply-report.md",
+      "stderr": ""
+    },
+    {
       "label": "Setup check refresh",
       "command": "python3 scripts/check_setup.py",
       "returncode": 0,
-      "stdout": "Investment Blog Cloud Sync setup check\n\n- project: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync\n- .env present: yes\n- git branch: main\n- git origin: (not configured)\n- outputs/latest present: yes\n\nLocal .env values\n- ADSENSE_PUBLISHER_ID: missing\n- ADSENSE_SITE_VERIFICATION: missing\n- BLOGGER_AUTO_PUBLISH_POSTS: set (*****)\n- BLOGGER_BLOG_ID: set (691***88)\n- BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES: set (*****)\n- BLOGGER_MAX_POSTS_PER_RUN: set (*)\n- BLOGGER_PUBLISH_ONLY_DUE_POSTS: set (****)\n- BLOGGER_SITE_PAGES_PUBLISH: set (*****)\n- BLOGGER_SYNC_SITE_PAGES: set (*****)\n- BLOG_BASE_URL: missing\n- GA4_MEASUREMENT_ID: missing\n- GOOGLE_ACCESS_TOKEN: missing\n- GOOGLE_CLIENT_ID: missing\n- GOOGLE_CLIENT_SECRET: missing\n- GOOGLE_OAUTH_OPEN_BROWSER: set (*****)\n- GOOGLE_OAUTH_PRESET: set (com***ed)\n- GOOGLE_REDIRECT_URI: set (htt***ck)\n- GOOGLE_REFRESH_TOKEN: missing\n- NAVER_CLIENT_ID: missing\n- NAVER_CLIENT_SECRET: missing\n- NEWSLETTER_SUBSCRIBE_URL: missing\n- OPENAI_API_KEY: missing\n- OPENAI_MODEL: set (gpt***ni)\n- SEARCH_CONSOLE_ACCESS_TOKEN: missing\n- SEARCH_CONSOLE_CLIENT_ID: missing\n- SEARCH_CONSOLE_CLIENT_SECRET: missing\n- SEARCH_CONSOLE_LAG_DAYS: set (*)\n- SEARCH_CONSOLE_REFRESH_TOKEN: missing\n- SEARCH_CONSOLE_SITE_URL: missing\n- SEARCH_CONSOLE_WINDOW_DAYS: set (*)\n\nIntegration readiness\n- naver_datalab: missing NAVER_CLIENT_ID, NAVER_CLIENT_SECRET\n- search_console: missing SEARCH_CONSOLE_SITE_URL, SEARCH_CONSOLE_CLIENT_ID, SEARCH_CONSOLE_CLIENT_SECRET, SEARCH_CONSOLE_REFRESH_TOKEN\n- openai_drafts: missing OPENAI_API_KEY\n- blogger_upload: missing GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN\n\nPublish-ready status\n- report exists: yes\n- items: 3\n- ready html items: 3\n\nSite-page status\n- plan exists: yes\n- items: 10\n- required rendered pages: 9 / 9\n\nGo-live report\n- report exists: yes\n\nGitHub Actions notes\n- Local .env values do not automatically sync to GitHub Secrets.\n- Add the same keys manually in GitHub -> Settings -> Secrets and variables -> Actions.\n- Public repositories are usually the safest free option for this lightweight schedule.\n\nJSON report written to: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/setup-check-report.json",
+      "stdout": "Investment Blog Cloud Sync setup check\n\n- project: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync\n- .env present: yes\n- git branch: main\n- git origin: https://github.com/bjw100kr-cell/investment-blog-cloud-sync.git\n- outputs/latest present: yes\n\nLocal .env values\n- ADSENSE_PUBLISHER_ID: missing\n- ADSENSE_SITE_VERIFICATION: missing\n- BLOGGER_ALLOW_REUPLOAD_SAME_CONTENT: default (false)\n- BLOGGER_API_BACKOFF_BASE_SECONDS: default (1.5)\n- BLOGGER_API_BACKOFF_MAX_SECONDS: default (20.0)\n- BLOGGER_API_MAX_ATTEMPTS: default (4)\n- BLOGGER_AUTO_PUBLISH_POSTS: set (****)\n- BLOGGER_BLOG_ID: set (691***88)\n- BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES: set (*****)\n- BLOGGER_MAX_POSTS_PER_RUN: set (*)\n- BLOGGER_PUBLISH_ONLY_DUE_POSTS: set (*****)\n- BLOGGER_REQUIRE_REVIEW_APPROVAL: set (*****)\n- BLOGGER_SITE_PAGES_PUBLISH: set (*****)\n- BLOGGER_SYNC_SITE_PAGES: set (*****)\n- BLOG_BASE_URL: set (htt***m/)\n- GA4_MEASUREMENT_ID: missing\n- GOOGLE_ACCESS_TOKEN: missing\n- GOOGLE_CLIENT_ID: set (786***om)\n- GOOGLE_CLIENT_SECRET: set (GOC***1Z)\n- GOOGLE_OAUTH_OPEN_BROWSER: set (****)\n- GOOGLE_OAUTH_PRESET: set (com***ed)\n- GOOGLE_REDIRECT_URI: set (htt***ck)\n- GOOGLE_REFRESH_TOKEN: set (1//***Jg)\n- NAVER_CLIENT_ID: missing\n- NAVER_CLIENT_SECRET: missing\n- NEWSLETTER_SUBSCRIBE_URL: missing\n- OPENAI_API_KEY: missing\n- OPENAI_MODEL: set (gpt***ni)\n- SEARCH_CONSOLE_ACCESS_TOKEN: missing\n- SEARCH_CONSOLE_CLIENT_ID: set (786***om)\n- SEARCH_CONSOLE_CLIENT_SECRET: set (GOC***1Z)\n- SEARCH_CONSOLE_LAG_DAYS: set (*)\n- SEARCH_CONSOLE_REFRESH_TOKEN: set (1//***Jg)\n- SEARCH_CONSOLE_SITE_URL: missing\n- SEARCH_CONSOLE_WINDOW_DAYS: set (*)\n- WORDPRESS_APPLICATION_PASSWORD: missing\n- WORDPRESS_AUTO_PUBLISH_POSTS: default (false)\n- WORDPRESS_MAX_POSTS_PER_RUN: default (1)\n- WORDPRESS_PUBLISH_ONLY_DUE_POSTS: default (true)\n- WORDPRESS_REQUIRE_REVIEW_APPROVAL: default (true)\n- WORDPRESS_SITE_URL: missing\n- WORDPRESS_USERNAME: missing\n\nIntegration readiness\n- naver_datalab: missing NAVER_CLIENT_ID, NAVER_CLIENT_SECRET\n- search_console: missing SEARCH_CONSOLE_SITE_URL\n- openai_drafts: missing OPENAI_API_KEY\n- blogger_upload: ready\n- wordpress_upload: missing WORDPRESS_SITE_URL, WORDPRESS_USERNAME, WORDPRESS_APPLICATION_PASSWORD\n\nPublish-ready status\n- report exists: yes\n- items: 4\n- ready html items: 4\n\nSite-page status\n- plan exists: yes\n- items: 10\n- required rendered pages: 9 / 9\n\nGo-live report\n- report exists: yes\n\nGitHub Actions notes\n- Local .env values do not automatically sync to GitHub Secrets.\n- Add the same keys manually in GitHub -> Settings -> Secrets and variables -> Actions.\n- Public repositories are usually the safest free option for this lightweight schedule.\n- Automation-first 운영 기준에서 현재 1차 채널은 Blogger, WordPress는 나중 확장입니다.\n\nJSON report written to: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/setup-check-report.json",
+      "stderr": ""
+    },
+    {
+      "label": "Login checklist refresh",
+      "command": "python3 scripts/open_login_setup_pages.py",
+      "returncode": 0,
+      "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/login-launch-checklist.md",
       "stderr": ""
     },
     {
@@ -33,6 +47,13 @@
       "command": "python3 scripts/build_go_live_readiness_report.py",
       "returncode": 0,
       "stdout": "",
+      "stderr": ""
+    },
+    {
+      "label": "Platform publish plan refresh",
+      "command": "python3 scripts/build_platform_publish_plan.py",
+      "returncode": 0,
+      "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/platform-publish-plan.md",
       "stderr": ""
     },
     {
@@ -57,6 +78,13 @@
       "stderr": ""
     },
     {
+      "label": "Cloud launch preflight refresh",
+      "command": "python3 scripts/build_cloud_launch_preflight.py",
+      "returncode": 0,
+      "stdout": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/cloud-launch-preflight.md",
+      "stderr": ""
+    },
+    {
       "label": "Operator handoff refresh",
       "command": "python3 scripts/generate_operator_handoff.py",
       "returncode": 0,
@@ -71,6 +99,6 @@
       "stderr": ""
     }
   ],
-  "next_action": "python3 scripts/open_login_setup_pages.py --open",
-  "token_json_present": false
+  "next_action": "python3 scripts/export_github_actions_sync_commands.py",
+  "token_json_present": true
 }

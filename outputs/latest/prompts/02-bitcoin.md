@@ -36,6 +36,9 @@
 9. 예시 문장을 베끼지 말고, 같은 종류의 친근함과 설명감을 새 문장으로 재구성한다.
 10. 도입부 첫 3문장 안에는 독자가 왜 지금 이 글을 읽어야 하는지 직접 말해준다.
 11. 숫자나 뉴스 포인트를 언급한 뒤에는 그 의미를 풀어주는 문장을 붙인다.
+12. 입력 패킷의 `reference_editorial_pattern`과 `reference_editorial_sources`를 참고해, 현재 잘 나가는 투자/코인 매체의 장점을 구조에만 반영한다.
+13. 특히 `search_explainer`, `news_what_it_means`, `followup_checklist` 중 어떤 패턴인지에 맞춰 소제목과 문단 역할을 분명하게 나눈다.
+14. 기사 요약에서 끝내지 말고, 글 안에서 반드시 "지금 무슨 일인가 -> 왜 시장이 반응하나 -> 개인 투자자는 다음에 뭘 볼까" 흐름을 완성한다.
 
 ## 출력 형식
 
@@ -60,6 +63,15 @@
 - 도입부의 온도, 본문 설명 방식, 마무리의 균형감만 참고한다.
 - 지나치게 모범답안처럼 딱딱한 보고서체로 쓰지 않는다.
 
+## 현재 잘 나가는 매체에서 가져올 구조적 강점
+
+- `Investopedia`처럼 검색 의도를 바로 만족하는 설명형 구조를 참고한다.
+- `CoinDesk`처럼 뉴스와 자금 흐름 해설을 같이 묶는 방식을 참고한다.
+- `Cointelegraph`처럼 섹션을 잘게 나눠 체류시간을 늘리는 구성을 참고한다.
+- `MarketWatch`처럼 헤드라인 단계에서 왜 중요한지 바로 드러내는 방식을 참고한다.
+- `CoinNess`처럼 짧은 핵심 요약과 체크포인트를 먼저 제시하는 흐름을 참고한다.
+- 단, 특정 사이트의 문장이나 표현은 복사하지 않는다. 구조와 전달 방식만 참고한다.
+
 ## 입력 패킷
 
 ```json
@@ -68,9 +80,9 @@
   "recommended_title": "비트코인 핵심 흐름 해설",
   "alternate_titles": [
     "비트코인 핵심 흐름 해설: 지금 시장이 반응하는 이유",
-    "비트코인 핵심 흐름 해설와 주식·코인 흐름 함께 보기"
+    "비트코인 핵심 흐름 해설로 보는 주식·코인 흐름"
   ],
-  "summary_angle": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 실제 급상승 검색어 반영 (btc)",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -89,15 +101,14 @@
   "source_names": [
     "CoinDesk RSS",
     "Cointelegraph",
-    "Google Trends US",
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "btc",
-    "Bitcoin likely to fall another 30% to $44,000 by year-end, prominent BTC miner says",
-    "Kraken sues crypto derivatives firm PowerTrade over 'misappropriated' funds claim",
-    "CoinDesk 20 performance update: AAVE gains 10.1% as index rises",
-    "Post-prison CZ says time behind bars didn't hurt the billionaire's business after Binance"
+    "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
+    "Bitcoin’s quiet $59,000-$60,000 range is starting to look dangerous",
+    "Bitcoin $4.4 billion supply overhang emerges as institutional demand wilts",
+    "Here’s what happened in crypto today",
+    "Strategy's new plan divides industry observers even as MSTR, STRC climb"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -160,12 +171,102 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 86.0,
-    "search_score": 30,
-    "timeliness_score": 20,
-    "explanatory_score": 18,
+    "total_score": 82.0,
+    "search_score": 29,
+    "timeliness_score": 18,
+    "explanatory_score": 17,
     "monetization_score": 15,
     "risk_score": 3
-  }
+  },
+  "reference_editorial_pattern_name": "news_what_it_means",
+  "reference_editorial_pattern": {
+    "when_to_use": [
+      "당일 발표 직후",
+      "시장 급변",
+      "정책 발언",
+      "코인 규제 헤드라인"
+    ],
+    "must_have": [
+      "무슨 일이 있었는지 1문단 요약",
+      "왜 시장이 반응하는지 해석",
+      "주식, 달러, 금리, 코인 중 최소 2개와 연결",
+      "지금 단정할 수 없는 변수도 함께 표기"
+    ]
+  },
+  "reference_editorial_sources": [
+    {
+      "name": "Investopedia",
+      "source_type": "official_site_plus_similarweb",
+      "focus": "검색 유입형 투자 설명글과 용어 해설",
+      "evidence": [
+        "Investopedia mission page",
+        "Similarweb May 2026: Organic Search 59.88 percent, Investing category rank #23"
+      ],
+      "transferable_strengths": [
+        "검색 의도를 바로 만족하는 제목",
+        "용어 정의 후 바로 실전 해석으로 연결",
+        "초보 독자도 이해할 수 있는 설명형 문단 구조"
+      ]
+    },
+    {
+      "name": "CoinDesk",
+      "source_type": "official_site_plus_similarweb",
+      "focus": "코인 뉴스와 거시/정책 해설의 결합",
+      "evidence": [
+        "CoinDesk homepage promise: crypto news, analysis, video and price data",
+        "Similarweb May 2026: Direct 54.33 percent, US audience 45.09 percent"
+      ],
+      "transferable_strengths": [
+        "속보를 바로 해설형 글로 연결",
+        "가격 자체보다 정책, 자금 흐름, 시장 구조를 같이 설명",
+        "브랜드 신뢰를 만드는 차분한 톤"
+      ]
+    },
+    {
+      "name": "Cointelegraph",
+      "source_type": "similarweb_comparison",
+      "focus": "체류시간이 긴 코인 스토리텔링형 기사",
+      "evidence": [
+        "Similarweb comparison May 2026: Avg Visit Duration 00:03:28, Pages per Visit 2.71"
+      ],
+      "transferable_strengths": [
+        "한 기사 안에서 후속 질문까지 같이 풀어주는 구조",
+        "본문 흐름이 길어도 끊기지 않도록 섹션을 촘촘히 나누는 방식",
+        "독자가 다음 섹션을 계속 읽게 만드는 서브헤드 구성"
+      ]
+    },
+    {
+      "name": "MarketWatch",
+      "source_type": "official_site",
+      "focus": "시장 속보를 개인 투자자 관점으로 빠르게 번역",
+      "evidence": [
+        "MarketWatch homepage current market-news framing"
+      ],
+      "transferable_strengths": [
+        "헤드라인에서 바로 왜 중요한지 드러냄",
+        "당일 시장 변화와 개인 자산에 미치는 영향을 짧게 연결",
+        "숫자보다 의미를 먼저 이해시키는 짧은 문단"
+      ]
+    },
+    {
+      "name": "CoinNess",
+      "source_type": "official_site",
+      "focus": "빠른 속보성과 모바일 친화형 코인 정보 소비",
+      "evidence": [
+        "CoinNess official site: fast and accurate crypto investment news platform"
+      ],
+      "transferable_strengths": [
+        "짧은 핵심 요약을 먼저 제시",
+        "속보형 키워드와 투자자 반응 포인트를 빠르게 연결",
+        "반복 방문을 만드는 체크포인트 중심 구성"
+      ]
+    }
+  ],
+  "style_translation_rules": [
+    "특정 사이트의 표현이나 문장 구조를 복사하지 않는다.",
+    "전달력과 구조만 참고하고, 한국어 개인 투자자 독자에게 맞게 다시 쓴다.",
+    "검색형 설명글과 재방문형 해설글을 함께 설계한다.",
+    "뉴스 요약만 하지 말고 항상 '그래서 내 돈 관점에서 왜 중요한가'를 답한다."
+  ]
 }
 ```

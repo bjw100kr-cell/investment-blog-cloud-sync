@@ -6,10 +6,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SEO_BACKLOG_JSON = ROOT / "outputs/latest/seo-backlog.json"
+GROWTH_RULES_JSON = ROOT / "config/growth_rules.json"
 VOICE_RULES_JSON = ROOT / "config/human_voice_rules.json"
 VOICE_EXAMPLES_JSON = ROOT / "config/human_voice_examples.json"
 OUTPUT_JSON = ROOT / "outputs/latest/seo-draft-packets.json"
 OUTPUT_MD = ROOT / "outputs/latest/seo-draft-packets.md"
+DRAFT_PACKETS_JSON = ROOT / "outputs/latest/draft-packets.json"
 
 
 DISCLAIMER = (
@@ -82,7 +84,41 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text())
 
 
-def packet_for_item(item: dict, voice_rules: dict, voice_examples: dict) -> dict:
+def build_source_name_lookup(draft_packets: dict) -> dict[str, list[str]]:
+    lookup: dict[str, list[str]] = {}
+    for packet in draft_packets.get("packets", []):
+        source_keyword = packet.get("source_keyword", "")
+        source_names = packet.get("source_names", [])
+        keyword = packet.get("keyword", "")
+        if keyword and source_names:
+            lookup[keyword] = [name for name in source_names if name]
+        if source_keyword and source_names:
+            lookup[source_keyword] = [name for name in source_names if name]
+    return lookup
+
+
+def select_backlog_items(items: list[dict], packet_limit: int, per_source_limit: int = 3) -> list[dict]:
+    grouped = {}
+    source_order = []
+    for item in items:
+        source_keyword = item.get("source_keyword", "")
+        if not source_keyword:
+            continue
+        if source_keyword not in grouped:
+            grouped[source_keyword] = []
+            source_order.append(source_keyword)
+        grouped[source_keyword].append(item)
+
+    selected = []
+    for source_keyword in source_order:
+        for item in grouped[source_keyword][:per_source_limit]:
+            if len(selected) >= packet_limit:
+                return selected
+            selected.append(item)
+    return selected
+
+
+def packet_for_item(item: dict, voice_rules: dict, voice_examples: dict, source_name_lookup: dict[str, list[str]]) -> dict:
     category = item.get("category", "")
     fmt = VOICE_FORMAT_BY_CATEGORY.get(category, "analysis")
     format_profile = voice_rules.get("format_profiles", {}).get(fmt, voice_rules.get("format_profiles", {}).get("analysis", {}))
@@ -109,7 +145,10 @@ def packet_for_item(item: dict, voice_rules: dict, voice_examples: dict) -> dict
         "fact_checks": FACT_CHECK_BY_CATEGORY.get(category, ["핵심 숫자와 날짜 재확인", "과장 표현 점검", "최신 공식 출처 확인"]),
         "disclaimer": DISCLAIMER,
         "cta": CTA_BY_CATEGORY.get(category, "관련 허브 글과 메인 해설 글을 이어서 보면 이해가 더 쉬워집니다."),
-        "source_names": [item.get("source_title", ""), item.get("source_keyword", "")],
+        "source_names": source_name_lookup.get(
+            source_keyword,
+            [item.get("source_title", ""), item.get("source_keyword", "")],
+        ),
         "reference_headlines": [item.get("title", "")],
         "voice_profile": format_profile.get("voice_goal", "쉽고 신뢰감 있는 설명형 톤"),
         "human_touch_requirements": voice_rules.get("human_touch_requirements", []),
@@ -145,9 +184,14 @@ def packet_for_item(item: dict, voice_rules: dict, voice_examples: dict) -> dict
 
 def main() -> int:
     backlog = load_json(SEO_BACKLOG_JSON)
+    growth_rules = load_json(GROWTH_RULES_JSON)
     voice_rules = load_json(VOICE_RULES_JSON)
     voice_examples = load_json(VOICE_EXAMPLES_JSON)
-    packets = [packet_for_item(item, voice_rules, voice_examples) for item in backlog.get("items", [])[:6]]
+    packet_limit = int(growth_rules.get("daily_execution_targets", {}).get("ideal_posts_per_day", 2)) * 3 + 3
+    selected_items = select_backlog_items(backlog.get("items", []), packet_limit)
+    draft_packets = load_json(DRAFT_PACKETS_JSON)
+    source_name_lookup = build_source_name_lookup(draft_packets)
+    packets = [packet_for_item(item, voice_rules, voice_examples, source_name_lookup) for item in selected_items]
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),

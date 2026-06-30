@@ -1,0 +1,50 @@
+# First Run Values Card
+
+## 어디에 넣나
+
+1. GitHub repo > Settings > Secrets and variables > Actions
+2. Secrets 탭에서 아래 4개 추가
+3. Variables 탭에서 아래 항목 추가
+
+## Secrets 4개
+
+1. `BLOGGER_BLOG_ID`
+2. `GOOGLE_CLIENT_ID`
+3. `GOOGLE_CLIENT_SECRET`
+4. `GOOGLE_REFRESH_TOKEN`
+
+## Variables
+
+1. `OPENAI_MODEL=gpt-4o-mini`
+2. `BLOGGER_SYNC_SITE_PAGES=false`
+3. `BLOGGER_SITE_PAGES_PUBLISH=false`
+4. `BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES=false`
+5. `BLOGGER_REQUIRE_REVIEW_APPROVAL=false`
+6. `BLOGGER_AUTO_PUBLISH_POSTS=true`
+7. `BLOGGER_PUBLISH_ONLY_DUE_POSTS=false`
+8. `BLOGGER_MAX_POSTS_PER_RUN=3`
+
+## 나중에 붙일 것
+
+- `WORDPRESS_SITE_URL`
+- `WORDPRESS_USERNAME`
+- `WORDPRESS_APPLICATION_PASSWORD`
+- `SEARCH_CONSOLE_SITE_URL`
+- `OPENAI_API_KEY`
+
+## Variables 복붙용
+
+```text
+OPENAI_MODEL=gpt-4o-mini
+BLOGGER_SYNC_SITE_PAGES=false
+BLOGGER_SITE_PAGES_PUBLISH=false
+BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES=false
+BLOGGER_REQUIRE_REVIEW_APPROVAL=false
+BLOGGER_AUTO_PUBLISH_POSTS=true
+BLOGGER_PUBLISH_ONLY_DUE_POSTS=false
+BLOGGER_MAX_POSTS_PER_RUN=3
+```
+
+## Next
+
+- GitHub repo 생성 후 OWNER/REPO 형태로 bootstrap_github_remote.sh 실행

@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SETUP_JSON = ROOT / "outputs/latest/setup-check-report.json"
+GITHUB_LAUNCH_PLAN_JSON = ROOT / "outputs/latest/github-launch-plan.json"
 PUBLISH_QUEUE_JSON = ROOT / "outputs/latest/publish-queue.json"
 SITE_PAGE_PLAN_JSON = ROOT / "outputs/latest/site-page-publish-plan.json"
 MONETIZATION_JSON = ROOT / "outputs/latest/monetization-readiness-report.json"
@@ -29,6 +30,16 @@ def filled_env_keys(setup: dict) -> set[str]:
     return set(setup.get("env_keys_present", []))
 
 
+def github_repo_accessible() -> bool:
+    if not GITHUB_LAUNCH_PLAN_JSON.exists():
+        return False
+    try:
+        payload = json.loads(GITHUB_LAUNCH_PLAN_JSON.read_text())
+    except Exception:
+        return False
+    return bool(payload.get("repo_accessible", False))
+
+
 def build_report() -> dict:
     setup = load_json(SETUP_JSON)
     queue = load_json(PUBLISH_QUEUE_JSON)
@@ -42,11 +53,24 @@ def build_report() -> dict:
     ready_site_items = [item for item in required_site_items if Path(item.get("html_path", "")).exists()]
     queue_items = queue.get("items", [])
     ready_posts = [item for item in queue_items if item.get("ready_to_upload")]
+    blogger_ready = integrations.get("blogger_upload", {}).get("ready", False)
+    wordpress_ready = integrations.get("wordpress_upload", {}).get("ready", False)
+    auto_channel_count = sum(1 for ready in [blogger_ready, wordpress_ready] if ready)
 
     required_credentials = []
-    for key in ["OPENAI_API_KEY", "BLOGGER_BLOG_ID", "GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_SECRET", "GOOGLE_REFRESH_TOKEN"]:
-        if key not in env_filled:
-            required_credentials.append(key)
+
+    if not auto_channel_count:
+        for key in [
+            "BLOGGER_BLOG_ID",
+            "GOOGLE_CLIENT_ID",
+            "GOOGLE_CLIENT_SECRET",
+            "GOOGLE_REFRESH_TOKEN",
+            "WORDPRESS_SITE_URL",
+            "WORDPRESS_USERNAME",
+            "WORDPRESS_APPLICATION_PASSWORD",
+        ]:
+            if key not in env_filled:
+                required_credentials.append(key)
 
     optional_growth_keys = []
     for key in [
@@ -69,17 +93,21 @@ def build_report() -> dict:
     live_prerequisites = {
         "site_pages_html_ready": len(ready_site_items) == len(required_site_items) and bool(required_site_items),
         "blog_posts_ready": bool(ready_posts),
-        "blogger_connection_ready": integrations.get("blogger_upload", {}).get("ready", False),
+        "blogger_connection_ready": blogger_ready,
+        "wordpress_connection_ready": wordpress_ready,
+        "at_least_one_auto_channel_ready": auto_channel_count > 0,
         "draft_engine_ready": draft_engine_ready,
         "git_remote_ready": setup.get("git", {}).get("origin") not in {"", "(not configured)"},
+        "git_remote_accessible": github_repo_accessible(),
     }
 
     ready_for_first_live_run = all(
         [
             live_prerequisites["site_pages_html_ready"],
             live_prerequisites["blog_posts_ready"],
-            live_prerequisites["blogger_connection_ready"],
+            live_prerequisites["at_least_one_auto_channel_ready"],
             live_prerequisites["draft_engine_ready"],
+            live_prerequisites["git_remote_accessible"],
         ]
     )
 
@@ -95,13 +123,20 @@ def build_report() -> dict:
             "ready_count": len(ready_posts),
             "top_keywords": [item.get("keyword") for item in ready_posts[:3]],
         },
+        "automated_channels": {
+            "ready_count": auto_channel_count,
+            "items": [
+                {"name": "blogger_upload", "ready": blogger_ready},
+                {"name": "wordpress_upload", "ready": wordpress_ready},
+            ],
+        },
         "required_credentials": required_credentials,
         "optional_growth_keys": optional_growth_keys,
         "monetization_score": monetization.get("readiness_score", 0),
         "next_steps": [
-            "Blogger와 Google OAuth 값을 연결합니다.",
-            "신뢰 페이지를 먼저 Blogger Pages로 동기화합니다.",
-            "publish queue 상위 글을 Blogger draft로 업로드합니다.",
+            "자동 채널 1차 운영은 Blogger로 시작하고, WordPress는 이후 확장 채널로 붙입니다.",
+            "신뢰 페이지는 Blogger를 쓰는 경우 먼저 Blogger Pages로 동기화합니다.",
+            "publish queue 상위 글을 검수 승인 후 Blogger draft로 먼저 업로드합니다.",
             "GitHub 원격 저장소와 Actions Secrets/Variables를 연결합니다.",
         ],
     }
@@ -132,6 +167,12 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- ready posts: `{report.get('posts', {}).get('ready_count', 0)}`")
     for keyword in report.get("posts", {}).get("top_keywords", []):
         lines.append(f"- first draft upload target: `{keyword}`")
+    lines.append("")
+    lines.append("## Automated Channels")
+    lines.append("")
+    lines.append(f"- ready channels: `{report.get('automated_channels', {}).get('ready_count', 0)}`")
+    for item in report.get("automated_channels", {}).get("items", []):
+        lines.append(f"- `{item.get('name')}`: {item.get('ready')}")
     lines.append("")
     lines.append("## Required Credentials")
     lines.append("")

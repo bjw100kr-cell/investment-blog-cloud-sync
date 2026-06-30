@@ -3,11 +3,13 @@ import argparse
 import json
 import re
 from pathlib import Path
+from urllib.parse import quote_plus
 
 
 ROOT = Path(__file__).resolve().parents[1]
 RULES_JSON = ROOT / "config/publishing_rules.json"
 PLAYBOOK_JSON = ROOT / "config/monetization_playbook.json"
+SAFE_IMAGE_RULES_JSON = ROOT / "config/safe_image_rules.json"
 DEFAULT_PACKETS_JSON = ROOT / "outputs/latest/draft-packets.json"
 DEFAULT_CALENDAR_JSON = ROOT / "outputs/latest/editorial-calendar.json"
 DEFAULT_SEO_BACKLOG_JSON = ROOT / "outputs/latest/seo-backlog.json"
@@ -101,7 +103,69 @@ def build_followup_posts(keyword: str, title: str, followup_lookup: dict[str, li
     return items
 
 
-def build_asset(packet: dict, rules: dict, calendar_lookup: dict, playbook: dict, followup_lookup: dict[str, list[dict]]) -> dict:
+def provider_search_url(provider: dict, query: str) -> str:
+    return provider.get("search_url_template", "").replace("{query}", quote_plus(query))
+
+
+def image_query(source_keyword: str, category: str, slot: str, image_rules: dict) -> str:
+    keyword_override = image_rules.get("keyword_overrides", {}).get(source_keyword, {})
+    if keyword_override.get(slot):
+        return keyword_override[slot]
+    category_queries = image_rules.get("category_query_presets", {}).get(category, {})
+    if category_queries.get(slot):
+        return category_queries[slot]
+    return image_rules.get("category_query_presets", {}).get("default", {}).get(slot, "finance abstract")
+
+
+def build_image_plan(source_keyword: str, category: str, title_topic: str, image_rules: dict) -> list[dict]:
+    provider_order = image_rules.get("provider_priority_by_category", {}).get(
+        category,
+        image_rules.get("provider_priority_by_category", {}).get("default", ["unsplash", "pexels"]),
+    )
+    providers = image_rules.get("providers", {})
+    slot_labels = image_rules.get("slot_labels", {})
+    slot_notes = image_rules.get("slot_notes", {})
+    plans = []
+
+    for index, slot in enumerate(["hero", "inline"]):
+        provider_key = provider_order[min(index, len(provider_order) - 1)]
+        provider = providers.get(provider_key, {})
+        query = image_query(source_keyword, category, slot, image_rules)
+        alt_text = (
+            f"{title_topic} 내용을 설명하는 대표 금융 분위기 이미지"
+            if slot == "hero"
+            else f"{title_topic} 설명을 보조하는 데이터 또는 산업 분위기 이미지"
+        )
+        plans.append(
+            {
+                "slot": slot,
+                "slot_label": slot_labels.get(slot, slot),
+                "placement_note": slot_notes.get(slot, ""),
+                "provider_key": provider_key,
+                "provider_name": provider.get("display_name", provider_key),
+                "license_label": provider.get("license_label", ""),
+                "license_url": provider.get("license_url", ""),
+                "search_query": query,
+                "search_url": provider_search_url(provider, query),
+                "alt_text": alt_text,
+                "caption_guidance": "출처 표기를 남기고 시장 흐름 설명을 보조하는 분위기 컷으로 사용",
+                "selected_url": "",
+                "selected_credit": "",
+                "selected_photographer": "",
+                "approved": False
+            }
+        )
+    return plans
+
+
+def build_asset(
+    packet: dict,
+    rules: dict,
+    calendar_lookup: dict,
+    playbook: dict,
+    followup_lookup: dict[str, list[dict]],
+    image_rules: dict,
+) -> dict:
     keyword = packet["keyword"]
     source_keyword = packet.get("source_keyword", keyword)
     category = rules["category_by_keyword"].get(source_keyword, rules["category_by_keyword"].get(keyword, "macro"))
@@ -127,6 +191,7 @@ def build_asset(packet: dict, rules: dict, calendar_lookup: dict, playbook: dict
         ["after_intro", "mid_article", "before_related_links"],
     )
     follow_up_posts = build_followup_posts(source_keyword, title, followup_lookup)
+    image_plan = build_image_plan(source_keyword, category, title_topic, image_rules)
 
     return {
         "keyword": keyword,
@@ -145,6 +210,10 @@ def build_asset(packet: dict, rules: dict, calendar_lookup: dict, playbook: dict
         "cta": packet.get("cta", ""),
         "trust_footer_note": rules["trust_footer_note"],
         "summary_angle": packet.get("summary_angle", ""),
+        "image_plan": image_plan,
+        "image_usage_checklist": image_rules.get("usage_checklist", []),
+        "image_blocked_subjects": image_rules.get("blocked_subjects", []),
+        "image_manual_review_required": True,
     }
 
 
@@ -154,11 +223,15 @@ def main() -> int:
     calendar = load_json(args.calendar_json)
     rules = load_json(RULES_JSON)
     playbook = load_json(PLAYBOOK_JSON)
+    image_rules = load_json(SAFE_IMAGE_RULES_JSON)
     seo_backlog = load_json(args.seo_backlog_json)
     calendar_lookup = build_calendar_lookup(calendar)
     followup_lookup = build_followup_lookup(seo_backlog)
 
-    items = [build_asset(packet, rules, calendar_lookup, playbook, followup_lookup) for packet in packets.get("packets", [])]
+    items = [
+        build_asset(packet, rules, calendar_lookup, playbook, followup_lookup, image_rules)
+        for packet in packets.get("packets", [])
+    ]
     payload = {
         "generated_at": packets.get("generated_at"),
         "packets_json": str(args.packets_json),
@@ -184,6 +257,12 @@ def main() -> int:
         lines.append(f"- 추천 발행일: {item['recommended_publish_date'] or '미정'}")
         lines.append(f"- labels: {', '.join(item['labels'])}")
         lines.append(f"- 내부링크: {', '.join(item['internal_links'])}")
+        if item.get("image_plan"):
+            image_summary = ", ".join(
+                f"{image['slot_label']}({image['provider_name']} / {image['search_query']})"
+                for image in item["image_plan"]
+            )
+            lines.append(f"- 이미지 추천: {image_summary}")
         if item.get("follow_up_posts"):
             lines.append(f"- 후속 글 후보: {', '.join(post['title'] for post in item['follow_up_posts'])}")
         lines.append(f"- 광고 슬롯: {', '.join(item['ad_slot_recommendations'])}")
