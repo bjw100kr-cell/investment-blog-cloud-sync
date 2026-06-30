@@ -21,8 +21,8 @@
 ## 2. bitcoin
 
 - 제목: 비트코인 핵심 흐름 해설
-- 우선순위 점수: 120.0
-- 발행일: 2026-07-01 / 버킷: tomorrow
+- 우선순위 점수: 124.0
+- 발행일: 2026-07-01 / 버킷: today_or_overdue
 - 역할: lane_focus_crypto / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
@@ -35,8 +35,8 @@
 ## 3. us_index_flow
 
 - 제목: 미국 증시 지수 흐름 해설
-- 우선순위 점수: 101.0
-- 발행일: 2026-07-02 / 버킷: this_week
+- 우선순위 점수: 105.0
+- 발행일: 2026-07-02 / 버킷: tomorrow
 - 역할: lane_focus_us-stocks / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보

@@ -1,6 +1,6 @@
 # 대화 및 작업 요약 (자동 압축)
 
-생성일: 2026-07-01 01:18:34 KST
+생성일: 2026-07-01 05:38:34 KST
 
 ## 목표
 - 주식/코인/세계경제 투자 블로그 자동화 운영 지속 및 수익화
@@ -8,7 +8,7 @@
 ## 현재 상태
 - 저장된 published 수: `13`
 - 최신 업로드 처리 건수(processed_count): `3`
-- 마지막 동기화 시각: `2026-06-30T16:04:44.044127+00:00`
+- 마지막 동기화 시각: `2026-06-30T16:38:45.399571+00:00`
 - 최근 소스 후보 수: `13`
 - 핵심 체크 통과 여부: `True`
 - 승인 상태 안전성: `None`
@@ -27,4 +27,4 @@
 - `python3 scripts/run_pipeline.sh`
 - `python3 scripts/prepare_launch_bundle.py`
 
-- 최근 노트: `repo-pushed-secrets-next`
+- 최근 노트: `profitable-writing-quality-gate-upgraded`

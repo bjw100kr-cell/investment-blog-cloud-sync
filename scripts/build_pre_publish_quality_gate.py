@@ -59,6 +59,65 @@ def count_internal_links(html_text: str) -> int:
     return len(re.findall(r'href=\"[^\"]*?/p/[^"]+\"', html_text))
 
 
+def strip_tags(html_text: str) -> str:
+    text = re.sub(r"<script\b[^>]*>.*?</script>", " ", html_text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r"<style\b[^>]*>.*?</style>", " ", text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r"<[^>]+>", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def count_hits(text: str, markers: list[str]) -> int:
+    return sum(1 for marker in markers if marker in text)
+
+
+def content_depth_score(html_text: str) -> dict:
+    plain = strip_tags(html_text)
+    concrete_markers = [
+        "달러",
+        "금리",
+        "미국채",
+        "ETF",
+        "순유입",
+        "순유출",
+        "거래량",
+        "규제",
+        "SEC",
+        "CPI",
+        "PCE",
+        "고용지표",
+        "나스닥",
+        "S&P500",
+        "비트코인",
+        "이더리움",
+        "알트코인",
+        "위안",
+        "원자재",
+        "실적",
+        "가이던스",
+    ]
+    required_sections = [
+        "오늘 핵심 3줄",
+        "상승 시나리오",
+        "리스크 시나리오",
+        "자주 하는 오해",
+        "체크포인트 3개",
+    ]
+    reader_markers = [
+        "개인 투자자",
+        "독자 입장",
+        "내 돈 관점",
+        "포트폴리오",
+        "확인할 지표",
+        "바로 확인",
+    ]
+    return {
+        "plain_length": len(plain),
+        "concrete_hits": count_hits(plain, concrete_markers),
+        "required_section_hits": count_hits(plain, required_sections),
+        "reader_hits": count_hits(plain, reader_markers),
+    }
+
+
 def has_selected_image(item: dict, slot: str) -> bool:
     for image in item.get("image_plan", []):
         if image.get("slot") != slot:
@@ -108,6 +167,31 @@ def audit_item(item: dict, checklist: list[str]) -> dict:
         bool(item.get("trust_footer_note")) and "post-disclosure" in html_text,
         "high",
         "면책/운영 원칙 문구가 있어야 투자 해설 블로그 신뢰도에 유리합니다.",
+    )
+    depth = content_depth_score(html_text)
+    add_check(
+        "profitable_article_structure",
+        depth["required_section_hits"] >= 5,
+        "high",
+        "수익형 금융 글은 첫 화면 요약, 시나리오, 리스크, 오해 정리, 체크포인트가 있어야 체류와 검색 만족도가 올라갑니다.",
+    )
+    add_check(
+        "specific_information_density",
+        depth["concrete_hits"] >= 4,
+        "high",
+        "달러, 금리, ETF 자금, 규제 일정, 대표 종목, 경제지표 같은 구체 체크 대상이 부족하면 정보 전달력이 약합니다.",
+    )
+    add_check(
+        "reader_usefulness_present",
+        depth["reader_hits"] >= 2,
+        "medium",
+        "독자가 내 포트폴리오나 다음 행동과 연결할 수 있는 문장이 있어야 끝까지 읽을 이유가 생깁니다.",
+    )
+    add_check(
+        "article_depth_minimum",
+        depth["plain_length"] >= 2400,
+        "medium",
+        "본문이 너무 짧으면 검색 유입 후 체류시간과 정보 만족도를 만들기 어렵습니다.",
     )
     add_check(
         "fact_check_box_present",

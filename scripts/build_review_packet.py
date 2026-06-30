@@ -22,6 +22,17 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text())
 
 
+def resolve_workspace_path(path_text: str) -> Path:
+    path = Path(path_text)
+    if path.exists():
+        return path
+    marker = "investment-blog-cloud-sync/"
+    if marker in path_text:
+        relative = path_text.split(marker, 1)[1]
+        return ROOT / relative
+    return path
+
+
 def first_content_paragraphs(text: str, limit: int = 2) -> list[str]:
     paragraphs = []
     for block in text.split("\n\n"):
@@ -51,6 +62,14 @@ def analyze_text(text: str, voice_rules: dict) -> dict:
     avoid_phrases = voice_rules.get("avoid_phrases", [])
     direct_address = voice_rules.get("direct_address_phrases", [])
     interpretation_markers = voice_rules.get("interpretation_markers", [])
+    interpretation_markers = [
+        *interpretation_markers,
+        "투자자 언어로",
+        "뜻에 가깝습니다",
+        "시장 해석",
+        "뉴스의 질이 달라",
+        "왜 시장이 반응",
+    ]
     bridge_phrases = voice_rules.get("reader_bridge_phrases", [])
 
     avoid_hits = [phrase for phrase in avoid_phrases if phrase and phrase in text]
@@ -119,7 +138,7 @@ def analyze_text(text: str, voice_rules: dict) -> dict:
 
 
 def build_item(manifest: dict, inventory_item: dict, queue_item: dict, voice_rules: dict) -> dict:
-    draft_path = Path(manifest.get("draft_path", ""))
+    draft_path = resolve_workspace_path(manifest.get("draft_path", ""))
     draft_text = draft_path.read_text() if draft_path.exists() else ""
     analysis = analyze_text(draft_text, voice_rules) if draft_text else {
         "score": 0,
@@ -196,7 +215,7 @@ def main() -> int:
     items = []
 
     for inventory_item in inventory.get("items", []):
-        manifest_path = Path(inventory_item.get("manifest_path", ""))
+        manifest_path = resolve_workspace_path(inventory_item.get("manifest_path", ""))
         if not manifest_path.exists():
             continue
         manifest = load_json(manifest_path)

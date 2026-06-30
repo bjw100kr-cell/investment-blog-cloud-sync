@@ -16,6 +16,17 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text())
 
 
+def resolve_workspace_path(path_str: str) -> Path:
+    path = Path(path_str)
+    if path.exists():
+        return path
+    marker = "investment-blog-cloud-sync/"
+    if marker in path_str:
+        relative = path_str.split(marker, 1)[1]
+        return ROOT / relative
+    return path
+
+
 def build_review_lookup() -> dict[str, dict]:
     payload = load_json(REVIEW_PACKET_JSON)
     return {item.get("keyword", ""): item for item in payload.get("items", []) if item.get("keyword")}
@@ -24,7 +35,7 @@ def build_review_lookup() -> dict[str, dict]:
 def read_text(path_str: str) -> str:
     if not path_str:
         return ""
-    path = Path(path_str)
+    path = resolve_workspace_path(path_str)
     if not path.exists():
         return ""
     return path.read_text().strip()

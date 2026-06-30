@@ -39,8 +39,8 @@ FOMC 이후 시장 해설
 ## 2. 비트코인 핵심 흐름 해설
 
 - inventory_type: `main_post`
-- publish_bucket: `tomorrow`
-- priority_score: `120.0`
+- publish_bucket: `today_or_overdue`
+- priority_score: `124.0`
 - hook_line: 비트코인 핵심 흐름 해설 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -73,8 +73,8 @@ FOMC 이후 시장 해설
 ## 3. 미국 증시 지수 흐름 해설
 
 - inventory_type: `main_post`
-- publish_bucket: `this_week`
-- priority_score: `101.0`
+- publish_bucket: `tomorrow`
+- priority_score: `105.0`
 - hook_line: 미국 증시 지수 흐름 해설 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -244,7 +244,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `119.5`
+- priority_score: `123.5`
 - hook_line: 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 | 가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자
 
 ### X / Threads
@@ -278,7 +278,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `116.5`
+- priority_score: `120.5`
 - hook_line: 비트코인 핵심 흐름 ETF·규제 이슈 정리 | 뉴스가 복잡해서 규제와 ETF 이슈만 따로 정리해 보고 싶은 독자
 
 ### X / Threads
@@ -312,7 +312,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `113.5`
+- priority_score: `117.5`
 - hook_line: 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 | 짧은 질문 단위로 빠르게 답을 찾고 싶은 독자
 
 ### X / Threads
@@ -346,7 +346,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `100.5`
+- priority_score: `104.5`
 - hook_line: 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기 | 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 
 ### X / Threads
@@ -380,7 +380,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `97.5`
+- priority_score: `101.5`
 - hook_line: 미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나 | 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 
 ### X / Threads
@@ -414,7 +414,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `94.5`
+- priority_score: `98.5`
 - hook_line: 미국 증시 지수 흐름 ETF·지수·대표 기업 정리 | 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 
 ### X / Threads
