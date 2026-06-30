@@ -85,14 +85,14 @@
 
 ```json
 {
-  "keyword": "seo_bitcoin_4",
-  "source_keyword": "bitcoin",
-  "recommended_title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+  "keyword": "seo_fomc_5",
+  "source_keyword": "fomc",
+  "recommended_title": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지",
   "alternate_titles": [
-    "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조: 초보 투자자 기준으로 다시 보기",
-    "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조: 지금 읽어야 하는 이유"
+    "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지: 초보 투자자 기준으로 다시 보기",
+    "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "비트코인 핵심 흐름 해설에서 이어지는 후속 글로, 가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자",
+  "summary_angle": "FOMC 이후 시장 해설에서 이어지는 후속 글로, 기초 개념을 처음부터 이해하고 싶은 초보 독자",
   "outline": [
     "먼저 이 개념을 왜 알아야 하나",
     "핵심 구조를 가장 쉽게 풀어보기",
@@ -101,27 +101,28 @@
     "다음에 이어서 볼 글"
   ],
   "reference_takeaways": [
-    "메인 연결 글: 비트코인 핵심 흐름 해설",
-    "검색 의도: 가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자",
-    "수익화 목표: 초보 검색 유입과 긴 체류시간 확보"
+    "메인 연결 글: FOMC 이후 시장 해설",
+    "검색 의도: 기초 개념을 처음부터 이해하고 싶은 초보 독자",
+    "수익화 목표: 광범위한 초보 검색 수요 흡수"
   ],
   "fact_checks": [
-    "가격 기준 시각과 출처 재확인",
-    "ETF/규제 관련 문장을 최신 상태 기준으로 점검",
-    "전망 문장이 단정형이 아닌지 확인"
+    "관련 공식 발표문과 날짜 재확인",
+    "달러, 금리, 주식, 코인 연결 문장이 과장되지 않았는지 점검",
+    "초보 독자가 오해할 수 있는 용어에 짧은 설명 추가"
   ],
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
-  "cta": "기초 가이드와 ETF·규제 해설 글까지 이어서 보면 코인 흐름이 더 쉽게 정리됩니다.",
+  "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
   "source_names": [
-    "CNBC Top News",
-    "CoinDesk RSS",
-    "Cointelegraph",
-    "Investing.com Crypto News"
+    "Federal Reserve Monetary Policy Press",
+    "Financial Times World",
+    "MarketWatch Breaking News",
+    "NYT Business",
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조"
+    "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지"
   ],
-  "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
+  "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
     "도입부 첫 3문장 안에 독자 관점 문장 1개를 넣는다.",
     "본문 어딘가에 '왜 이게 중요한지'를 말로 풀어주는 문장을 넣는다.",
@@ -172,27 +173,27 @@
     "minimum_interpretation_hits": 2
   },
   "must_include_style_points": [
-    "가격 자체보다 수급 또는 규제 구조 설명",
-    "강세 시나리오와 리스크를 둘 다 언급",
-    "단정적 전망 금지"
+    "왜 지금 이 이슈가 개인 투자자에게 중요한지 한 문장 설명",
+    "달러, 금리, 주식, 코인 중 최소 2개와 연결한 해석",
+    "다만/반면 같은 균형 문장"
   ],
   "voice_examples": {
-    "intro_example": "비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.",
-    "analysis_example": "한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다.",
-    "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
+    "intro_example": "미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.",
+    "analysis_example": "쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.",
+    "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 124.5,
-    "search_score": 124.5,
+    "total_score": 122.5,
+    "search_score": 122.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
     "secondary": [
-      "site-foundation/hub-crypto.md",
+      "site-foundation/hub-macro.md",
       "site-foundation/about.md",
       "site-foundation/disclosure.md"
     ]
@@ -201,11 +202,12 @@
     "투자",
     "경제",
     "시장해설",
-    "비트코인",
-    "코인",
-    "암호화폐"
+    "FOMC",
+    "연준",
+    "거시경제",
+    "미국증시"
   ],
-  "search_intent": "가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자",
-  "monetization_goal": "초보 검색 유입과 긴 체류시간 확보"
+  "search_intent": "기초 개념을 처음부터 이해하고 싶은 초보 독자",
+  "monetization_goal": "광범위한 초보 검색 수요 흡수"
 }
 ```

@@ -117,7 +117,7 @@
   "reference_headlines": [
     "Nasdaq brings proprietary market data onchain through Pyth",
     "US stocks chalk up biggest quarterly gain in six years",
-    "S&P 500, Nasdaq post best quarter since 2020 despite Iran war - Reuters",
+    "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters",
     "Tech selloff stirs bubble fears in US stock market - Reuters",
     "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters"
   ],

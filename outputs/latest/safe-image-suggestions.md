@@ -50,17 +50,17 @@
 - usage checklist: 공식 라이선스 페이지를 한 번 더 확인한다 / 브랜드 로고, 거래소 화면, 기사 캡처는 사용하지 않는다 / 인물 얼굴이 중심이거나 초상권 이슈가 큰 이미지는 피한다 / 실제 수익 인증처럼 오해될 수 있는 과장 이미지는 피한다 / 가능하면 글 맥락에 맞는 추상적 금융 또는 거시 분위기 이미지를 고른다
 - blocked subjects: 뉴스 기사 스크린샷 / 거래소 대시보드 캡처 / 기업 로고가 중심인 이미지 / 유명인 얼굴 클로즈업 / 저작권 출처 불명 차트 이미지 / 수익 인증처럼 보이는 과장 이미지
 
-## 관세와 무역 이슈 해설
+## 중국 변수와 시장 영향 해설
 
 - source_group: `main`
-- keyword: `tariffs_trade`
+- keyword: `china`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `technology stocks office finance abstract` / search https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - license: Unsplash License / https://unsplash.com/license
-- alt text: 관세와 무역 이슈 내용을 설명하는 대표 금융 분위기 이미지
+- alt text: 중국 변수와 시장 영향 내용을 설명하는 대표 금융 분위기 이미지
 - 본문 보조 이미지: Pexels / query `semiconductor data center abstract` / search https://www.pexels.com/search/semiconductor+data+center+abstract/
 - license: Pexels License / https://www.pexels.com/license/
-- alt text: 관세와 무역 이슈 설명을 보조하는 데이터 또는 산업 분위기 이미지
+- alt text: 중국 변수와 시장 영향 설명을 보조하는 데이터 또는 산업 분위기 이미지
 - usage checklist: 공식 라이선스 페이지를 한 번 더 확인한다 / 브랜드 로고, 거래소 화면, 기사 캡처는 사용하지 않는다 / 인물 얼굴이 중심이거나 초상권 이슈가 큰 이미지는 피한다 / 실제 수익 인증처럼 오해될 수 있는 과장 이미지는 피한다 / 가능하면 글 맥락에 맞는 추상적 금융 또는 거시 분위기 이미지를 고른다
 - blocked subjects: 뉴스 기사 스크린샷 / 거래소 대시보드 캡처 / 기업 로고가 중심인 이미지 / 유명인 얼굴 클로즈업 / 저작권 출처 불명 차트 이미지 / 수익 인증처럼 보이는 과장 이미지
 
@@ -81,7 +81,7 @@
 ## FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지
 
 - source_group: `seo`
-- keyword: `seo_fomc_2`
+- keyword: `seo_fomc_3`
 - category: `macro`
 - 대표 이미지: Unsplash / query `central bank meeting finance city skyline` / search https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline
 - license: Unsplash License / https://unsplash.com/license
@@ -95,7 +95,7 @@
 ## FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - source_group: `seo`
-- keyword: `seo_fomc_3`
+- keyword: `seo_fomc_5`
 - category: `macro`
 - 대표 이미지: Unsplash / query `central bank meeting finance city skyline` / search https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline
 - license: Unsplash License / https://unsplash.com/license
@@ -109,7 +109,7 @@
 ## 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조
 
 - source_group: `seo`
-- keyword: `seo_bitcoin_4`
+- keyword: `seo_bitcoin_2`
 - category: `crypto`
 - 대표 이미지: Pexels / query `bitcoin blockchain abstract blue finance` / search https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/
 - license: Pexels License / https://www.pexels.com/license/
@@ -123,7 +123,7 @@
 ## 비트코인 핵심 흐름 ETF·규제 이슈 정리
 
 - source_group: `seo`
-- keyword: `seo_bitcoin_5`
+- keyword: `seo_bitcoin_4`
 - category: `crypto`
 - 대표 이미지: Pexels / query `bitcoin blockchain abstract blue finance` / search https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/
 - license: Pexels License / https://www.pexels.com/license/

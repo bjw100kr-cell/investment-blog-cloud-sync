@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T20:56:50.613809+00:00",
+  "generated_at": "2026-06-30T21:03:13.740410+00:00",
   "items": [
     {
       "keyword": "fomc",
@@ -59,7 +59,7 @@
       },
       "capture_route": "breaking_to_evergreen",
       "capture_route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 5600,
+      "demand_signal_score": 6000,
       "trend_queries": [],
       "source_names": [
         "CNBC Top News",
@@ -116,8 +116,8 @@
       ]
     },
     {
-      "keyword": "tariffs_trade",
-      "recommended_title": "관세와 무역 이슈 해설",
+      "keyword": "china",
+      "recommended_title": "중국 변수와 시장 영향 해설",
       "pattern_name": "search_explainer",
       "pattern_rules": {
         "when_to_use": [
@@ -140,9 +140,10 @@
       "trend_queries": [],
       "source_names": [
         "CNBC Top News",
-        "MarketWatch Breaking News"
+        "Financial Times Home",
+        "무역킹 Trade King YouTube"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -172,15 +173,14 @@
       },
       "capture_route": "search_entry_to_internal_links",
       "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 3100,
+      "demand_signal_score": 2800,
       "trend_queries": [],
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times Home",
         "NYT Business"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",

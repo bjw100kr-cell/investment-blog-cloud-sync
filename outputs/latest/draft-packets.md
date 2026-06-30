@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-06-30T20:56:50.613809+00:00`
+- 생성 시각: `2026-06-30T21:03:13.740410+00:00`
 
 ## 1. fomc
 
@@ -76,7 +76,7 @@
 
 - 추천 제목: 비트코인 핵심 흐름 해설
 - 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 점수: 86.0
+- 점수: 89.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,11 +136,11 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Phantom doubles down on perpetual futures with hire of Hyperliquid market builders
   - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
   - Jefferies warns of crypto market volatility as Clarity Act faces Senate test
   - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
   - Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen
-  - AI’s power crunch turns Bitcoin miners’ grid access into an asset
 
 ## 3. us_index_flow
 
@@ -208,20 +208,20 @@
 - 참고 헤드라인:
   - Nasdaq brings proprietary market data onchain through Pyth
   - US stocks chalk up biggest quarterly gain in six years
-  - S&P 500, Nasdaq post best quarter since 2020 despite Iran war - Reuters
+  - S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters
   - Tech selloff stirs bubble fears in US stock market - Reuters
   - AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters
 
-## 4. tariffs_trade
+## 4. china
 
-- 추천 제목: 관세와 무역 이슈 해설
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 57.0
+- 추천 제목: 중국 변수와 시장 영향 해설
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 64.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 관세와 무역 이슈 해설: 지금 시장이 반응하는 이유
-  - 관세와 무역 이슈 해설로 보는 주식·코인 흐름
+  - 중국 변수와 시장 영향 해설: 지금 시장이 반응하는 이유
+  - 중국 변수와 시장 영향 해설로 보는 주식·코인 흐름
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -270,11 +270,12 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 관세/무역 조치 공식 문서나 발표문 확인
-  - 시장 영향은 조건형 문장으로 서술
-  - 정치적 해석 과잉 여부 점검
+  - 정책 발표 또는 인터뷰 원문 여부 확인
+  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
+  - 한국/미국 시장 영향은 시나리오형으로 서술
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
   - Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund
-  - Nike earnings crushed Wall Street’s estimates, but there’s a catch
+  - World Bank to phase out China lending
+  - 1. The Grand Design to Pressure China

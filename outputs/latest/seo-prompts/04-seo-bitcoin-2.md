@@ -85,37 +85,43 @@
 
 ```json
 {
-  "keyword": "tariffs_trade",
-  "recommended_title": "관세와 무역 이슈 해설",
+  "keyword": "seo_bitcoin_2",
+  "source_keyword": "bitcoin",
+  "recommended_title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
   "alternate_titles": [
-    "관세와 무역 이슈 해설: 지금 시장이 반응하는 이유",
-    "관세와 무역 이슈 해설로 보는 주식·코인 흐름"
+    "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조: 초보 투자자 기준으로 다시 보기",
+    "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "비트코인 핵심 흐름 해설에서 이어지는 후속 글로, 가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자",
   "outline": [
-    "왜 지금 이 이슈가 중요한가",
-    "실제로 발표되거나 벌어진 일",
-    "주식·코인·달러·금리에 주는 영향",
-    "앞으로 체크할 변수",
-    "개인 투자자가 볼 포인트"
+    "먼저 이 개념을 왜 알아야 하나",
+    "핵심 구조를 가장 쉽게 풀어보기",
+    "실전 투자에서는 어디를 같이 보면 좋은가",
+    "많이 헷갈리는 포인트 정리",
+    "다음에 이어서 볼 글"
   ],
-  "reference_takeaways": [],
+  "reference_takeaways": [
+    "메인 연결 글: 비트코인 핵심 흐름 해설",
+    "검색 의도: 가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자",
+    "수익화 목표: 초보 검색 유입과 긴 체류시간 확보"
+  ],
   "fact_checks": [
-    "관세/무역 조치 공식 문서나 발표문 확인",
-    "시장 영향은 조건형 문장으로 서술",
-    "정치적 해석 과잉 여부 점검"
+    "가격 기준 시각과 출처 재확인",
+    "ETF/규제 관련 문장을 최신 상태 기준으로 점검",
+    "전망 문장이 단정형이 아닌지 확인"
   ],
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
-  "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
+  "cta": "기초 가이드와 ETF·규제 해설 글까지 이어서 보면 코인 흐름이 더 쉽게 정리됩니다.",
   "source_names": [
     "CNBC Top News",
-    "MarketWatch Breaking News"
+    "CoinDesk RSS",
+    "Cointelegraph",
+    "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
-    "Nike earnings crushed Wall Street’s estimates, but there’s a catch"
+    "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조"
   ],
-  "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
+  "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
     "도입부 첫 3문장 안에 독자 관점 문장 1개를 넣는다.",
     "본문 어딘가에 '왜 이게 중요한지'를 말로 풀어주는 문장을 넣는다.",
@@ -166,112 +172,40 @@
     "minimum_interpretation_hits": 2
   },
   "must_include_style_points": [
-    "왜 지금 이 이슈가 개인 투자자에게 중요한지 한 문장 설명",
-    "달러, 금리, 주식, 코인 중 최소 2개와 연결한 해석",
-    "다만/반면 같은 균형 문장"
+    "가격 자체보다 수급 또는 규제 구조 설명",
+    "강세 시나리오와 리스크를 둘 다 언급",
+    "단정적 전망 금지"
   ],
   "voice_examples": {
-    "intro_example": "미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.",
-    "analysis_example": "쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.",
-    "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
+    "intro_example": "비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.",
+    "analysis_example": "한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다.",
+    "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 57.0,
-    "search_score": 8,
-    "timeliness_score": 10,
-    "explanatory_score": 18,
-    "monetization_score": 14,
-    "risk_score": 7
+    "total_score": 127.5,
+    "search_score": 127.5,
+    "timeliness_score": 0,
+    "explanatory_score": 0,
+    "monetization_score": 0,
+    "risk_score": 0
   },
-  "reference_editorial_pattern_name": "news_what_it_means",
-  "reference_editorial_pattern": {
-    "when_to_use": [
-      "당일 발표 직후",
-      "시장 급변",
-      "정책 발언",
-      "코인 규제 헤드라인"
-    ],
-    "must_have": [
-      "무슨 일이 있었는지 1문단 요약",
-      "왜 시장이 반응하는지 해석",
-      "주식, 달러, 금리, 코인 중 최소 2개와 연결",
-      "지금 단정할 수 없는 변수도 함께 표기"
+  "internal_link_plan": {
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+    "secondary": [
+      "site-foundation/hub-crypto.md",
+      "site-foundation/about.md",
+      "site-foundation/disclosure.md"
     ]
   },
-  "reference_editorial_sources": [
-    {
-      "name": "Investopedia",
-      "source_type": "official_site_plus_similarweb",
-      "focus": "검색 유입형 투자 설명글과 용어 해설",
-      "evidence": [
-        "Investopedia mission page",
-        "Similarweb May 2026: Organic Search 59.88 percent, Investing category rank #23"
-      ],
-      "transferable_strengths": [
-        "검색 의도를 바로 만족하는 제목",
-        "용어 정의 후 바로 실전 해석으로 연결",
-        "초보 독자도 이해할 수 있는 설명형 문단 구조"
-      ]
-    },
-    {
-      "name": "CoinDesk",
-      "source_type": "official_site_plus_similarweb",
-      "focus": "코인 뉴스와 거시/정책 해설의 결합",
-      "evidence": [
-        "CoinDesk homepage promise: crypto news, analysis, video and price data",
-        "Similarweb May 2026: Direct 54.33 percent, US audience 45.09 percent"
-      ],
-      "transferable_strengths": [
-        "속보를 바로 해설형 글로 연결",
-        "가격 자체보다 정책, 자금 흐름, 시장 구조를 같이 설명",
-        "브랜드 신뢰를 만드는 차분한 톤"
-      ]
-    },
-    {
-      "name": "Cointelegraph",
-      "source_type": "similarweb_comparison",
-      "focus": "체류시간이 긴 코인 스토리텔링형 기사",
-      "evidence": [
-        "Similarweb comparison May 2026: Avg Visit Duration 00:03:28, Pages per Visit 2.71"
-      ],
-      "transferable_strengths": [
-        "한 기사 안에서 후속 질문까지 같이 풀어주는 구조",
-        "본문 흐름이 길어도 끊기지 않도록 섹션을 촘촘히 나누는 방식",
-        "독자가 다음 섹션을 계속 읽게 만드는 서브헤드 구성"
-      ]
-    },
-    {
-      "name": "MarketWatch",
-      "source_type": "official_site",
-      "focus": "시장 속보를 개인 투자자 관점으로 빠르게 번역",
-      "evidence": [
-        "MarketWatch homepage current market-news framing"
-      ],
-      "transferable_strengths": [
-        "헤드라인에서 바로 왜 중요한지 드러냄",
-        "당일 시장 변화와 개인 자산에 미치는 영향을 짧게 연결",
-        "숫자보다 의미를 먼저 이해시키는 짧은 문단"
-      ]
-    },
-    {
-      "name": "CoinNess",
-      "source_type": "official_site",
-      "focus": "빠른 속보성과 모바일 친화형 코인 정보 소비",
-      "evidence": [
-        "CoinNess official site: fast and accurate crypto investment news platform"
-      ],
-      "transferable_strengths": [
-        "짧은 핵심 요약을 먼저 제시",
-        "속보형 키워드와 투자자 반응 포인트를 빠르게 연결",
-        "반복 방문을 만드는 체크포인트 중심 구성"
-      ]
-    }
+  "labels": [
+    "투자",
+    "경제",
+    "시장해설",
+    "비트코인",
+    "코인",
+    "암호화폐"
   ],
-  "style_translation_rules": [
-    "특정 사이트의 표현이나 문장 구조를 복사하지 않는다.",
-    "전달력과 구조만 참고하고, 한국어 개인 투자자 독자에게 맞게 다시 쓴다.",
-    "검색형 설명글과 재방문형 해설글을 함께 설계한다.",
-    "뉴스 요약만 하지 말고 항상 '그래서 내 돈 관점에서 왜 중요한가'를 답한다."
-  ]
+  "search_intent": "가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자",
+  "monetization_goal": "초보 검색 유입과 긴 체류시간 확보"
 }
 ```

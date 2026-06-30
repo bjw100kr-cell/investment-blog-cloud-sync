@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T20:56:50.613809+00:00",
+  "generated_at": "2026-06-30T21:03:13.740410+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -103,11 +103,11 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
+        "Phantom doubles down on perpetual futures with hire of Hyperliquid market builders",
         "SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules",
         "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
         "Financial companies join forces for US dollar stablecoin, keeping reserve earnings",
-        "Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen",
-        "AI’s power crunch turns Bitcoin miners’ grid access into an asset"
+        "Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -119,7 +119,7 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 5600,
+      "demand_signal_score": 6000,
       "search_score": 29,
       "timeliness_score": 20,
       "explanatory_score": 17,
@@ -130,7 +130,7 @@
       "crypto_market_signal_bonus": 5,
       "crypto_market_sentiment": "extreme_fear",
       "crypto_market_signal_notes": [
-        "BTCUSDT 24h change -2.57%",
+        "BTCUSDT 24h change -2.61%",
         "Fear/Greed 15: Extreme Fear zone"
       ],
       "total_score": 89.0,
@@ -156,7 +156,7 @@
       "sample_headlines": [
         "Nasdaq brings proprietary market data onchain through Pyth",
         "US stocks chalk up biggest quarterly gain in six years",
-        "S&P 500, Nasdaq post best quarter since 2020 despite Iran war - Reuters",
+        "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters",
         "Tech selloff stirs bubble fears in US stock market - Reuters",
         "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters"
       ],
@@ -186,15 +186,15 @@
       "format": "sector_analysis"
     },
     {
-      "keyword": "tariffs_trade",
+      "keyword": "china",
       "category": "global-sector",
       "brand_lane": "world-flow",
       "title_candidates": [
-        "관세와 무역 이슈 해설",
-        "관세와 무역 이슈 해설: 지금 시장이 반응하는 이유",
-        "관세와 무역 이슈 해설로 보는 주식·코인 흐름"
+        "중국 변수와 시장 영향 해설",
+        "중국 변수와 시장 영향 해설: 지금 시장이 반응하는 이유",
+        "중국 변수와 시장 영향 해설로 보는 주식·코인 흐름"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -204,19 +204,21 @@
       ],
       "sample_headlines": [
         "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
-        "Nike earnings crushed Wall Street’s estimates, but there’s a catch"
+        "World Bank to phase out China lending",
+        "1. The Grand Design to Pressure China"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
-        "MarketWatch Breaking News"
+        "Financial Times Home",
+        "무역킹 Trade King YouTube"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 8,
-      "timeliness_score": 10,
+      "search_score": 13,
+      "timeliness_score": 12,
       "explanatory_score": 18,
       "monetization_score": 14,
       "risk_score": 7,
@@ -225,7 +227,7 @@
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 57.0,
+      "total_score": 64.0,
       "format": "macro_explainer"
     },
     {
@@ -237,7 +239,7 @@
         "달러 흐름 해설: 지금 시장이 반응하는 이유",
         "달러 흐름 해설로 보는 주식·코인 흐름"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -250,21 +252,20 @@
         "Circle craters 17% as Stripe, Coinbase and BlackRock back rival stablecoin network",
         "Financial companies join forces for US dollar stablecoin, keeping reserve earnings",
         "Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen",
-        "The great wealth transfer rattling Wall Street"
+        "BMW Will Build a New Electric S.U.V. in South Carolina"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times Home",
         "NYT Business"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3100,
-      "search_score": 22,
-      "timeliness_score": 20,
+      "demand_signal_score": 2800,
+      "search_score": 19,
+      "timeliness_score": 18,
       "explanatory_score": 17,
       "monetization_score": 13,
       "risk_score": 6,
@@ -273,7 +274,7 @@
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 78.0,
+      "total_score": 73.0,
       "format": "macro_explainer"
     }
   ]

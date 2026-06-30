@@ -1,161 +1,14 @@
 {
-  "generated_at": "2026-06-30T20:56:50.613809+00:00",
+  "generated_at": "2026-06-30T21:03:13.740410+00:00",
   "item_count": 3,
   "items": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장 해설",
-      "publish_date": "2026-06-30",
-      "priority_score": 140.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
-      "format": "macro_explainer",
-      "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_headlines": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Minutes of the Federal Open Market Committee, April 28-29, 2026",
-        "Minutes of the Federal Open Market Committee, March 17–18, 2026"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 5900,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 5,
-      "search_score": 29,
-      "timeliness_score": 25,
-      "monetization_score": 15,
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 18 Mar 2026 18:00:00 GMT",
-          "published_iso": "2026-03-18T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 20 May 2026 18:00:00 GMT",
-          "published_iso": "2026-05-20T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름 해설",
-      "publish_date": "2026-07-02",
-      "priority_score": 119.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
-      "format": "sector_analysis",
-      "source_names": [
-        "Cointelegraph",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_headlines": [
-        "Nasdaq brings proprietary market data onchain through Pyth",
-        "US stocks chalk up biggest quarterly gain in six years",
-        "S&P 500, Nasdaq post best quarter since 2020 despite Iran war - Reuters",
-        "Tech selloff stirs bubble fears in US stock market - Reuters",
-        "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 3200,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 5,
-      "search_score": 23,
-      "timeliness_score": 21,
-      "monetization_score": 15,
-      "recent_evidence": [
-        {
-          "title": "US stocks chalk up biggest quarterly gain in six years",
-          "source_name": "Financial Times Home",
-          "published": "Tue, 30 Jun 2026 20:08:52 GMT",
-          "published_iso": "2026-06-30T20:08:52+00:00",
-          "link": "https://www.ft.com/content/4ba4305f-f9ea-48f9-a49f-687443bd2f4b",
-          "source_type": "rss"
-        },
-        {
-          "title": "S&P 500, Nasdaq post best quarter since 2020 despite Iran war - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Tue, 30 Jun 2026 20:01:16 GMT",
-          "published_iso": "2026-06-30T20:01:16+00:00",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFRDcUUwRFFNVjBGV3pwVVVHRU12NjdzSGVuY29pWHRGamc3NTAxSkExaThvUFdFLUVnUUx0VkJ2NWszanJCTmhVVjViUzlIUlVVTkVsOVdOanFITWF6Z0J2Ql9fSTBLX1p2TDdEakN3TUU5elV0NnNLNTRvajV6UjJzR2tPTzEtaGNPRUVlbVhJdmNMMXZUMmEzYU5DQm1qM1JB?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "Nasdaq brings proprietary market data onchain through Pyth",
-          "source_name": "Cointelegraph",
-          "published": "Tue, 30 Jun 2026 18:46:29 +0000",
-          "published_iso": "2026-06-30T18:46:29+00:00",
-          "link": "https://cointelegraph.com/news/nasdaq-brings-proprietary-market-data-onchain-through-pyth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Tech selloff stirs bubble fears in US stock market - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Tue, 30 Jun 2026 17:01:15 GMT",
-          "published_iso": "2026-06-30T17:01:15+00:00",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFlQXU0QUQ2d3NhY2hNU1llc2ZCOUdyZW5IRlhzYVdYcjZ0eTkxU25fa3A3WjlZTDRRQ0FoRVFxNXF5OC1oRHI1clNXazZic0liOGhxeGVBZDNzbUx4cHpuS2JoWEZSMzE2RVhJSlNWZXotWHZwSnh2UFVjN1EtYVpuaXF5RWlUd19jZjBYWHNUNHJMTDN1bHVENXE1bGRzZ203dTJR?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Tue, 30 Jun 2026 10:25:32 GMT",
-          "published_iso": "2026-06-30T10:25:32+00:00",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONF8zVkNrYlBoa0VwcThGYkQ1Z3RJRUctVmxSLUpaLUhrUmp4dGZ5dGFJMDIwUVRMemtwb25BZ2h0TGRsTlFhOEoySkxDTno5SUkzZzJ1ZG9ONWJPZGliUFIzQVlrYS13dVRMSUlYS2tMZUZJb3dJbnZGTWRfMVpHb2RRdllSeVVEdEphOVQ5MTBBZ3J5dFN1SkZJVkdxWWt5aHpaT01Ba2hOU0VRNUxTUm9RSDI?oc=5",
-          "source_type": "rss"
-        }
-      ]
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 핵심 흐름 해설",
       "publish_date": "2026-07-01",
-      "priority_score": 125.0,
-      "ready_now": false,
-      "quality_status": "review_before_publish",
+      "priority_score": 128.0,
+      "ready_now": true,
+      "quality_status": "pass",
       "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "format": "crypto_analysis",
       "source_names": [
@@ -165,15 +18,15 @@
         "Investing.com Crypto News"
       ],
       "sample_headlines": [
+        "Phantom doubles down on perpetual futures with hire of Hyperliquid market builders",
         "SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules",
         "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
         "Financial companies join forces for US dollar stablecoin, keeping reserve earnings",
-        "Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen",
-        "AI’s power crunch turns Bitcoin miners’ grid access into an asset"
+        "Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 5600,
+      "demand_signal_score": 6000,
       "fallback_source": "source_snapshot_rank",
       "source_count": 4,
       "search_score": 29,
@@ -218,6 +71,134 @@
           "published": "2026-06-29 21:34:36",
           "published_iso": "2026-06-29 21:34:36",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-below-60k-heads-for-qtrly-loss-as-etf-outflows-persist-4764220",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "title": "미국 증시 지수 흐름 해설",
+      "publish_date": "2026-07-02",
+      "priority_score": 119.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "format": "sector_analysis",
+      "source_names": [
+        "Cointelegraph",
+        "Financial Times Home",
+        "Financial Times World",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_headlines": [
+        "Nasdaq brings proprietary market data onchain through Pyth",
+        "US stocks chalk up biggest quarterly gain in six years",
+        "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters",
+        "Tech selloff stirs bubble fears in US stock market - Reuters",
+        "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 3200,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 5,
+      "search_score": 23,
+      "timeliness_score": 21,
+      "monetization_score": 15,
+      "recent_evidence": [
+        {
+          "title": "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Tue, 30 Jun 2026 20:55:04 GMT",
+          "published_iso": "2026-06-30T20:55:04+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFRDcUUwRFFNVjBGV3pwVVVHRU12NjdzSGVuY29pWHRGamc3NTAxSkExaThvUFdFLUVnUUx0VkJ2NWszanJCTmhVVjViUzlIUlVVTkVsOVdOanFITWF6Z0J2Ql9fSTBLX1p2TDdEakN3TUU5elV0NnNLNTRvajV6UjJzR2tPTzEtaGNPRUVlbVhJdmNMMXZUMmEzYU5DQm1qM1JB?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "US stocks chalk up biggest quarterly gain in six years",
+          "source_name": "Financial Times Home",
+          "published": "Tue, 30 Jun 2026 20:08:52 GMT",
+          "published_iso": "2026-06-30T20:08:52+00:00",
+          "link": "https://www.ft.com/content/4ba4305f-f9ea-48f9-a49f-687443bd2f4b",
+          "source_type": "rss"
+        },
+        {
+          "title": "Nasdaq brings proprietary market data onchain through Pyth",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 30 Jun 2026 18:46:29 +0000",
+          "published_iso": "2026-06-30T18:46:29+00:00",
+          "link": "https://cointelegraph.com/news/nasdaq-brings-proprietary-market-data-onchain-through-pyth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Tech selloff stirs bubble fears in US stock market - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Tue, 30 Jun 2026 17:01:15 GMT",
+          "published_iso": "2026-06-30T17:01:15+00:00",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFlQXU0QUQ2d3NhY2hNU1llc2ZCOUdyZW5IRlhzYVdYcjZ0eTkxU25fa3A3WjlZTDRRQ0FoRVFxNXF5OC1oRHI1clNXazZic0liOGhxeGVBZDNzbUx4cHpuS2JoWEZSMzE2RVhJSlNWZXotWHZwSnh2UFVjN1EtYVpuaXF5RWlUd19jZjBYWHNUNHJMTDN1bHVENXE1bGRzZ203dTJR?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Tue, 30 Jun 2026 10:25:32 GMT",
+          "published_iso": "2026-06-30T10:25:32+00:00",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONF8zVkNrYlBoa0VwcThGYkQ1Z3RJRUctVmxSLUpaLUhrUmp4dGZ5dGFJMDIwUVRMemtwb25BZ2h0TGRsTlFhOEoySkxDTno5SUkzZzJ1ZG9ONWJPZGliUFIzQVlrYS13dVRMSUlYS2tMZUZJb3dJbnZGTWRfMVpHb2RRdllSeVVEdEphOVQ5MTBBZ3J5dFN1SkZJVkdxWWt5aHpaT01Ba2hOU0VRNUxTUm9RSDI?oc=5",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향 해설",
+      "publish_date": "2026-07-03",
+      "priority_score": 90.0,
+      "ready_now": false,
+      "quality_status": "review_before_publish",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "format": "macro_explainer",
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "무역킹 Trade King YouTube"
+      ],
+      "sample_headlines": [
+        "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
+        "World Bank to phase out China lending",
+        "1. The Grand Design to Pressure China"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 0,
+      "fallback_source": "mapped_candidate",
+      "source_count": 3,
+      "search_score": 13,
+      "timeliness_score": 12,
+      "monetization_score": 14,
+      "recent_evidence": [
+        {
+          "title": "1. The Grand Design to Pressure China",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "87K views",
+          "published_iso": "87K views",
+          "link": "https://www.youtube.com/watch?v=Vdc0wK_9ASQ",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "World Bank to phase out China lending",
+          "source_name": "Financial Times Home",
+          "published": "Tue, 30 Jun 2026 20:47:12 GMT",
+          "published_iso": "2026-06-30T20:47:12+00:00",
+          "link": "https://www.ft.com/content/32b664e1-d2d2-4292-b0b3-0056808acf26",
+          "source_type": "rss"
+        },
+        {
+          "title": "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
+          "source_name": "CNBC Top News",
+          "published": "Tue, 30 Jun 2026 20:46:57 GMT",
+          "published_iso": "2026-06-30T20:46:57+00:00",
+          "link": "https://www.cnbc.com/2026/06/30/nike-nke-q4-2026-earnings.html",
           "source_type": "rss"
         }
       ]

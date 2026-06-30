@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T20:56:50.613809+00:00",
+  "generated_at": "2026-06-30T21:03:13.740410+00:00",
   "summary": {
     "ok_sources": 14,
     "item_count": 112
@@ -152,6 +152,17 @@
   ],
   "ranked_keywords": [
     {
+      "keyword": "bitcoin",
+      "score": 48,
+      "source_count": 4,
+      "sources": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
+      ]
+    },
+    {
       "keyword": "fomc",
       "score": 47,
       "source_count": 5,
@@ -161,17 +172,6 @@
         "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
-      ]
-    },
-    {
-      "keyword": "bitcoin",
-      "score": 44,
-      "source_count": 4,
-      "sources": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
       ]
     },
     {
@@ -188,24 +188,12 @@
     },
     {
       "keyword": "dollar",
-      "score": 19,
-      "source_count": 4,
+      "score": 16,
+      "source_count": 3,
       "sources": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times Home",
         "NYT Business"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "score": 14,
-      "source_count": 4,
-      "sources": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News"
       ]
     },
     {
@@ -219,6 +207,16 @@
       ]
     },
     {
+      "keyword": "ai_semiconductors",
+      "score": 12,
+      "source_count": 3,
+      "sources": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World"
+      ]
+    },
+    {
       "keyword": "ethereum",
       "score": 9,
       "source_count": 3,
@@ -226,6 +224,16 @@
         "CoinDesk RSS",
         "Cointelegraph",
         "Financial Times YouTube"
+      ]
+    },
+    {
+      "keyword": "china",
+      "score": 9,
+      "source_count": 3,
+      "sources": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "무역킹 Trade King YouTube"
       ]
     },
     {
@@ -244,15 +252,6 @@
       "sources": [
         "CoinDesk RSS",
         "NYT Business"
-      ]
-    },
-    {
-      "keyword": "china",
-      "score": 6,
-      "source_count": 2,
-      "sources": [
-        "CNBC Top News",
-        "무역킹 Trade King YouTube"
       ]
     },
     {
@@ -284,6 +283,16 @@
   ],
   "topic_candidates": [
     {
+      "keyword": "bitcoin",
+      "score": 48,
+      "headline_count": 15,
+      "sample_titles": [
+        "Phantom doubles down on perpetual futures with hire of Hyperliquid market builders",
+        "SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules",
+        "Jefferies warns of crypto market volatility as Clarity Act faces Senate test"
+      ]
+    },
+    {
       "keyword": "fomc",
       "score": 47,
       "headline_count": 13,
@@ -294,43 +303,23 @@
       ]
     },
     {
-      "keyword": "bitcoin",
-      "score": 44,
-      "headline_count": 14,
-      "sample_titles": [
-        "SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules",
-        "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
-        "Financial companies join forces for US dollar stablecoin, keeping reserve earnings"
-      ]
-    },
-    {
       "keyword": "us_index_flow",
       "score": 20,
       "headline_count": 7,
       "sample_titles": [
         "Nasdaq brings proprietary market data onchain through Pyth",
         "US stocks chalk up biggest quarterly gain in six years",
-        "S&P 500, Nasdaq post best quarter since 2020 despite Iran war - Reuters"
+        "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters"
       ]
     },
     {
       "keyword": "dollar",
-      "score": 19,
-      "headline_count": 6,
+      "score": 16,
+      "headline_count": 5,
       "sample_titles": [
         "Why OpenUSD's 'real threat' that tanked Circle stock still faces a steep uphill battle for adoption",
         "Circle craters 17% as Stripe, Coinbase and BlackRock back rival stablecoin network",
         "Financial companies join forces for US dollar stablecoin, keeping reserve earnings"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "score": 14,
-      "headline_count": 5,
-      "sample_titles": [
-        "Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter",
-        "Anthropic launches AI drug discovery program, joining tech giants in betting on healthcare",
-        "US stocks chalk up biggest quarterly gain in six years"
       ]
     },
     {
@@ -341,6 +330,26 @@
         "SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules",
         "SEC seeks public comment on regulating next generation of ETFs",
         "Bitcoin weak below $60k as rate jitters, ETF outflows persist"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "score": 12,
+      "headline_count": 4,
+      "sample_titles": [
+        "Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter",
+        "Anthropic launches AI drug discovery program, joining tech giants in betting on healthcare",
+        "US stocks chalk up biggest quarterly gain in six years"
+      ]
+    },
+    {
+      "keyword": "china",
+      "score": 9,
+      "headline_count": 3,
+      "sample_titles": [
+        "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
+        "World Bank to phase out China lending",
+        "1. The Grand Design to Pressure China"
       ]
     },
     {
@@ -360,15 +369,6 @@
       "sample_titles": [
         "MetaMask launches Money Account with stablecoin yield and spending in one wallet",
         "Solidion Technology plans to buy SpaceX shares as treasury asset"
-      ]
-    },
-    {
-      "keyword": "china",
-      "score": 6,
-      "headline_count": 2,
-      "sample_titles": [
-        "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
-        "1. The Grand Design to Pressure China"
       ]
     },
     {
@@ -698,6 +698,18 @@
       "source_weight": 5
     },
     {
+      "title": "Phantom doubles down on perpetual futures with hire of Hyperliquid market builders",
+      "link": "https://www.coindesk.com/business/2026/06/30/phantom-doubles-down-on-perpetual-futures-with-hire-of-hyperliquid-market-builders",
+      "published": "Tue, 30 Jun 2026 21:00:19 +0000",
+      "description": "The crypto wallet is doubling down on perpetual futures after hiring the builders behind one of Hyperliquid's highest-profile market experiments.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
       "title": "Companies spending the most on AI are growing jobs, Ramp study finds",
       "link": "https://www.coindesk.com/business/2026/06/30/companies-spending-the-most-on-ai-are-growing-jobs-ramp-study-finds",
       "published": "Tue, 30 Jun 2026 20:21:49 +0000",
@@ -774,18 +786,6 @@
       "link": "https://www.coindesk.com/tech/2026/06/30/metamask-launches-money-account-with-stablecoin-yield-and-spending-in-one-wallet",
       "published": "Tue, 30 Jun 2026 14:00:00 +0000",
       "description": "The launch reflects a broader push to make stablecoins more useful beyond trading and transfers.",
-      "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 4
-    },
-    {
-      "title": "Tokenized securities need competition, not gatekeepers",
-      "link": "https://www.coindesk.com/opinion/2026/06/29/tokenized-securities-need-competition-not-gatekeepers",
-      "published": "Tue, 30 Jun 2026 13:25:52 +0000",
-      "description": "Innovation thrives when investors have choices. For tokenized securities, Washington shouldn't pick winners before the market has a chance to learn what works, argues Patrick McHenry, vice chairman at Ondo Finance and former Chairman of the House Financial Services Committee.",
       "approx_traffic": "",
       "source_id": "coindesk_rss",
       "source_name": "CoinDesk RSS",
@@ -940,7 +940,7 @@
     {
       "title": "Trump's annual financial disclosure released, reveals crypto earnings",
       "link": "https://www.cnbc.com/2026/06/30/trump-financial-disclosure-released.html",
-      "published": "Tue, 30 Jun 2026 20:55:11 GMT",
+      "published": "Tue, 30 Jun 2026 21:01:03 GMT",
       "description": "One line on the disclosure shows Trump received $236.25 million in net proceeds from token sales distributed by World Liberty Financial LLC.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
@@ -1094,10 +1094,10 @@
       "source_weight": 3
     },
     {
-      "title": "The great wealth transfer rattling Wall Street",
-      "link": "https://www.ft.com/content/c914cbf5-4ede-4342-a4ac-9f1289c47dc9",
-      "published": "Tue, 30 Jun 2026 04:00:08 GMT",
-      "description": "Tens of trillions of dollars are moving between generations — and younger heirs feel little loyalty to traditional advisers",
+      "title": "Comcast’s ‘amicable divorce’ unwinds Hollywood’s corporate experiment",
+      "link": "https://www.ft.com/content/b6c4e4db-b8f4-4ff3-bf85-71c8a8d032df",
+      "published": "Tue, 30 Jun 2026 10:00:05 GMT",
+      "description": "NBCUniversal split sparks talk of future deals amid ongoing media and entertainment consolidation",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1154,10 +1154,10 @@
       "source_weight": 3
     },
     {
-      "title": "US stocks chalk up biggest quarterly gain in six years",
-      "link": "https://www.ft.com/content/4ba4305f-f9ea-48f9-a49f-687443bd2f4b",
-      "published": "Tue, 30 Jun 2026 20:08:52 GMT",
-      "description": "Investors navigate Iran war fallout, chip stock volatility and blockbuster SpaceX IPO",
+      "title": "World Bank to phase out China lending",
+      "link": "https://www.ft.com/content/32b664e1-d2d2-4292-b0b3-0056808acf26",
+      "published": "Tue, 30 Jun 2026 20:47:12 GMT",
+      "description": "Decision from global development institution follows years of pressure from the Trump administration",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1166,10 +1166,10 @@
       "source_weight": 3
     },
     {
-      "title": "Gold heads for worst quarter in more than a decade as retail frenzy fades",
-      "link": "https://www.ft.com/content/ca75b117-f085-45be-95c1-7397d3b0797a",
-      "published": "Tue, 30 Jun 2026 20:15:33 GMT",
-      "description": "Expectations of higher interest rates fuelled by Iran war help end bullion’s record rally",
+      "title": "US stocks chalk up biggest quarterly gain in six years",
+      "link": "https://www.ft.com/content/4ba4305f-f9ea-48f9-a49f-687443bd2f4b",
+      "published": "Tue, 30 Jun 2026 20:08:52 GMT",
+      "description": "Investors navigate Iran war fallout, chip stock volatility and blockbuster SpaceX IPO",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1190,10 +1190,10 @@
       "source_weight": 3
     },
     {
-      "title": "S&P 500, Nasdaq post best quarter since 2020 despite Iran war - Reuters",
+      "title": "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFRDcUUwRFFNVjBGV3pwVVVHRU12NjdzSGVuY29pWHRGamc3NTAxSkExaThvUFdFLUVnUUx0VkJ2NWszanJCTmhVVjViUzlIUlVVTkVsOVdOanFITWF6Z0J2Ql9fSTBLX1p2TDdEakN3TUU5elV0NnNLNTRvajV6UjJzR2tPTzEtaGNPRUVlbVhJdmNMMXZUMmEzYU5DQm1qM1JB?oc=5",
-      "published": "Tue, 30 Jun 2026 20:01:16 GMT",
-      "description": "S&P 500, Nasdaq post best quarter since 2020 despite Iran war &nbsp;&nbsp; Reuters",
+      "published": "Tue, 30 Jun 2026 20:55:04 GMT",
+      "description": "S&P 500, Nasdaq register best quarter since 2020 despite Iran war &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1442,6 +1442,30 @@
       "source_weight": 3
     },
     {
+      "title": "‘I don’t think I’ll make it to 80’: I’m 70 and single. Do I take out a reverse mortgage or a home-equity agreement?",
+      "link": "https://www.marketwatch.com/story/i-dont-think-ill-make-it-to-80-im-70-and-single-do-i-take-out-a-reverse-mortgage-or-a-home-equity-agreement-3b623ee8?mod=mw_rss_topstories",
+      "published": "Tue, 30 Jun 2026 21:00:00 GMT",
+      "description": "“I’m torn between these two options.”",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Small-cap stocks just had their best start to a year since 1991. The rest of 2026 could look very different.",
+      "link": "https://www.marketwatch.com/story/small-cap-stocks-just-had-their-best-start-to-a-year-since-1991-the-rest-of-2026-could-look-very-different-5118a156?mod=mw_rss_topstories",
+      "published": "Tue, 30 Jun 2026 20:57:00 GMT",
+      "description": "Small-cap stocks are coming off a historic run. On Tuesday, they clinched their best performance during the first six months of a year since 1991.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
       "title": "Nike earnings crushed Wall Street’s estimates, but there’s a catch",
       "link": "https://www.marketwatch.com/story/nike-earnings-crushed-wall-streets-estimates-but-theres-a-catch-83bf3e4a?mod=mw_rss_topstories",
       "published": "Tue, 30 Jun 2026 20:49:00 GMT",
@@ -1506,30 +1530,6 @@
       "link": "https://www.marketwatch.com/story/theres-a-67-chance-stocks-will-suffer-a-bear-market-when-this-rare-signal-flashes-like-its-doing-now-c8916710?mod=mw_rss_topstories",
       "published": "Tue, 30 Jun 2026 20:37:00 GMT",
       "description": "The Dow Industrials are trouncing the Nasdaq composite. That’s an alarming sign for your portfolio.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Record beef imports are flooding the U.S. — so why is your Fourth of July BBQ so expensive?",
-      "link": "https://www.marketwatch.com/story/your-fourth-of-july-hamburger-meat-was-likely-imported-and-youre-right-to-have-a-beef-with-that-c25d7c31?mod=mw_rss_topstories",
-      "published": "Tue, 30 Jun 2026 20:36:00 GMT",
-      "description": "Beef prices are sizzling and Washington’s recipe for high costs — import more meat — only grills your wallet.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "The chip rally has a dark side — and a rare market risk is at its highest level since 2015",
-      "link": "https://www.marketwatch.com/story/the-chip-rally-has-a-dark-side-and-a-rare-market-risk-is-at-its-highest-level-since-2015-5114fba0?mod=mw_rss_topstories",
-      "published": "Tue, 30 Jun 2026 20:34:00 GMT",
-      "description": "A cavernous spread between stock and index volatility leaves semiconductor leaders, including AMD and Micron, vulnerable.",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
       "source_name": "MarketWatch Breaking News",

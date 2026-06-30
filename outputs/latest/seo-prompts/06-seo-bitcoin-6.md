@@ -182,8 +182,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 118.5,
-    "search_score": 118.5,
+    "total_score": 121.5,
+    "search_score": 121.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,

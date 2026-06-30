@@ -1,95 +1,100 @@
 {
   "focus_count": 2,
   "guardrail": "제가 먼저 이 화면으로 초안을 보여드리고, 사용자 최종 확인 전에는 실제 업로드가 계속 차단됩니다.",
-  "recommended_first_keyword": "fomc",
-  "recommended_first_title": "FOMC 이후 시장 해설",
+  "recommended_first_keyword": "bitcoin",
+  "recommended_first_title": "비트코인 핵심 흐름 해설",
   "focus_items": [
     {
       "display_order": 1,
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장 해설",
-      "publish_date": "2026-06-30",
-      "priority_score": 140.0,
+      "keyword": "bitcoin",
+      "title": "비트코인 핵심 흐름 해설",
+      "publish_date": "2026-07-01",
+      "priority_score": 128.0,
       "review_verdict": "approve",
       "quality_status": "pass",
       "hero_image_selected": true,
       "ready_now": true,
-      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+      "cta_focus": "ETF·규제·초보 가이드 글로 연결",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "preview": [
-        "한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 FOMC 이후 시장 해설이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다. - 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다. - 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다."
+        "한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 비트코인 핵심 흐름 해설이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다."
       ],
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
       "excerpt": [
-        "한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 FOMC 이후 시장 해설이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다.",
-        "- 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다.",
-        "- 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다."
+        "한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 비트코인 핵심 흐름 해설이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다.",
+        "- 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다.",
+        "- 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다."
       ],
       "retention_cta_enabled": true,
       "retention_cta": {
-        "cluster_name": "거시 이벤트 해설 클러스터",
-        "source_keyword": "fomc",
-        "main_title": "FOMC 이후 시장 해설",
-        "main_ready_to_upload": true,
-        "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-        "inline_cta_now": "FOMC 흐름이 여기서 끝이 아닙니다. 아래 체크포인트 글과 초보자 가이드까지 같이 보면 다음 일정에서 뭘 봐야 할지 훨씬 선명해집니다.",
-        "telegram_cta_later": "거시 이벤트를 놓치지 않으려면 다음 체크포인트 글까지 같이 보고, 이후에는 텔레그램/구독 채널로 이어 받아보세요.",
-        "newsletter_cta_later": "거시 이벤트 해설을 한 번에 받고 싶다면 뉴스레터 구독 동선으로 이어 붙입니다.",
-        "newsletter_subject_seed": "[오늘의 투자 브리핑] FOMC 이후 시장 해설",
+        "cluster_name": "코인 해설 클러스터",
+        "source_keyword": "bitcoin",
+        "main_title": "비트코인 핵심 흐름 해설",
+        "main_ready_to_upload": false,
+        "cta_focus": "ETF·규제·초보 가이드 글로 연결",
+        "inline_cta_now": "비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.",
+        "telegram_cta_later": "코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
+        "newsletter_cta_later": "비트코인과 주요 코인 흐름을 주간 브리핑으로 다시 받게 만드는 뉴스레터 CTA 후보입니다.",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] 비트코인 핵심 흐름 해설",
         "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
         "followup_titles": [
-          "FOMC 이후 시장이 주식과 코인에 미치는 영향",
-          "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지"
+          "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+          "비트코인 핵심 흐름 ETF·규제 이슈 정리"
         ],
-        "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
-        "blockers": []
+        "next_action": "사용자 검토 후 승인 대기",
+        "blockers": [
+          "main_quality=review_before_publish",
+          "crypto_market_signal_present",
+          "canonical_url_present",
+          "newsletter_ready"
+        ]
       },
-      "freshness_status": "stale",
-      "newest_evidence_age_days": 13.1,
-      "freshness_summary": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "freshness_recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "freshness_status": "fresh",
+      "newest_evidence_age_days": 0.1,
+      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen",
+      "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "title": "Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 30 Jun 2026 18:17:56 +0000",
+          "published_iso": "2026-06-30T18:17:56+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-slumps-to-near-58k-as-us-dollar-hits-40-year-high-against-yen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "title": "AI’s power crunch turns Bitcoin miners’ grid access into an asset",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 30 Jun 2026 17:44:31 +0000",
+          "published_iso": "2026-06-30T17:44:31+00:00",
+          "link": "https://cointelegraph.com/features/bitcoin-miners-ai-data-centers-power-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+          "title": "Bitcoin holds $58,131 support after 2.9% drop: Live levels",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-06-30 19:07:57",
+          "published_iso": "2026-06-30 19:07:57",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-in-bear-flag-near-annual-low-live-levels-93CH-4764319",
           "source_type": "rss"
         }
       ],
       "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
-        "MarketWatch Breaking News"
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph"
       ],
-      "demand_signal_score": 5900,
+      "demand_signal_score": 6000,
       "fallback_source": "source_snapshot_rank",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
-      "recovery_mode": "",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply",
+      "recovery_mode": "publish_direct",
       "recovery_title": "",
       "recovery_confirm_command": "",
       "recovery_image_search_url": "",
@@ -101,9 +106,9 @@
         "newsletter_ready",
         "ga4_ready"
       ],
-      "hero_image_search_url": "https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline",
-      "hero_image_search_query": "central bank meeting finance city skyline",
-      "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve"
+      "hero_image_search_url": "https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/",
+      "hero_image_search_query": "bitcoin blockchain abstract blue finance",
+      "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword bitcoin --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve"
     },
     {
       "display_order": 2,
@@ -150,23 +155,23 @@
       },
       "freshness_status": "fresh",
       "newest_evidence_age_days": 0.0,
-      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: US stocks chalk up biggest quarterly gain in six years",
+      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters",
       "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recent_evidence": [
+        {
+          "title": "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Tue, 30 Jun 2026 20:55:04 GMT",
+          "published_iso": "2026-06-30T20:55:04+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFRDcUUwRFFNVjBGV3pwVVVHRU12NjdzSGVuY29pWHRGamc3NTAxSkExaThvUFdFLUVnUUx0VkJ2NWszanJCTmhVVjViUzlIUlVVTkVsOVdOanFITWF6Z0J2Ql9fSTBLX1p2TDdEakN3TUU5elV0NnNLNTRvajV6UjJzR2tPTzEtaGNPRUVlbVhJdmNMMXZUMmEzYU5DQm1qM1JB?oc=5",
+          "source_type": "rss"
+        },
         {
           "title": "US stocks chalk up biggest quarterly gain in six years",
           "source_name": "Financial Times Home",
           "published": "Tue, 30 Jun 2026 20:08:52 GMT",
           "published_iso": "2026-06-30T20:08:52+00:00",
           "link": "https://www.ft.com/content/4ba4305f-f9ea-48f9-a49f-687443bd2f4b",
-          "source_type": "rss"
-        },
-        {
-          "title": "S&P 500, Nasdaq post best quarter since 2020 despite Iran war - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Tue, 30 Jun 2026 20:01:16 GMT",
-          "published_iso": "2026-06-30T20:01:16+00:00",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFRDcUUwRFFNVjBGV3pwVVVHRU12NjdzSGVuY29pWHRGamc3NTAxSkExaThvUFdFLUVnUUx0VkJ2NWszanJCTmhVVjViUzlIUlVVTkVsOVdOanFITWF6Z0J2Ql9fSTBLX1p2TDdEakN3TUU5elV0NnNLNTRvajV6UjJzR2tPTzEtaGNPRUVlbVhJdmNMMXZUMmEzYU5DQm1qM1JB?oc=5",
           "source_type": "rss"
         },
         {

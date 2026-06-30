@@ -94,12 +94,12 @@
 - fail / `low` / `newsletter_ready`: 뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다.
 - fail / `low` / `ga4_ready`: GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다.
 
-## 관세와 무역 이슈 해설
+## 중국 변수와 시장 영향 해설
 
-- keyword: `tariffs_trade`
+- keyword: `china`
 - source_group: `main`
 - status: `review_before_publish`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-관세와-무역-이슈-해설.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -148,7 +148,7 @@
 
 ## FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지
 
-- keyword: `seo_fomc_2`
+- keyword: `seo_fomc_3`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-fomc-이후-시장에서-다음으로-봐야-할-체크포인트-5가지.html`
@@ -174,7 +174,7 @@
 
 ## FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
-- keyword: `seo_fomc_3`
+- keyword: `seo_fomc_5`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-fomc-이후-시장-초보자-가이드-용어부터-시장-반응까지.html`
@@ -200,7 +200,7 @@
 
 ## 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조
 
-- keyword: `seo_bitcoin_4`
+- keyword: `seo_bitcoin_2`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-비트코인-핵심-흐름-초보자-가이드-지금-꼭-알아야-할-핵심-구조.html`
@@ -226,7 +226,7 @@
 
 ## 비트코인 핵심 흐름 ETF·규제 이슈 정리
 
-- keyword: `seo_bitcoin_5`
+- keyword: `seo_bitcoin_4`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-비트코인-핵심-흐름-etf-규제-이슈-정리.html`

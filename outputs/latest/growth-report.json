@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T20:56:50.613809+00:00",
+  "generated_at": "2026-06-30T21:03:13.740410+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -29,7 +29,7 @@
       "keyword": "bitcoin",
       "recommended_title": "비트코인 핵심 흐름 해설",
       "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
-      "total_score": 86.0,
+      "total_score": 89.0,
       "monetization_score": 15,
       "source_names": [
         "CNBC Top News",
@@ -68,7 +68,7 @@
       "post_count": 2,
       "keywords": [
         "us_index_flow",
-        "tariffs_trade"
+        "china"
       ],
       "avg_monetization_score": 14.5,
       "weighted_priority_score": 15.23
@@ -116,7 +116,7 @@
       "label": "세계 흐름",
       "post_count": 1,
       "keywords": [
-        "tariffs_trade"
+        "china"
       ],
       "avg_monetization_score": 14.0
     }
@@ -124,7 +124,7 @@
   "query_watchlist": [],
   "trend_watchlist": [
     {
-      "keyword": "fomc",
+      "keyword": "bitcoin",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -132,7 +132,7 @@
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "bitcoin",
+      "keyword": "fomc",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -276,8 +276,8 @@
         "dominant_sentence_ending_ratio": 0.094
       },
       {
-        "keyword": "tariffs_trade",
-        "recommended_title": "관세와 무역 이슈 해설",
+        "keyword": "china",
+        "recommended_title": "중국 변수와 시장 영향 해설",
         "score": 92,
         "robotic_phrase_hits": [],
         "reader_bridge_hits": [
@@ -286,7 +286,7 @@
         ],
         "direct_address_hits": [
           "개인 투자자 입장에서는",
-          "이걸 내 돈 관점에서 보면"
+          "독자 입장에서 중요한 건"
         ],
         "interpretation_hits": [
           "투자자 언어로 다시 풀면"
@@ -295,17 +295,18 @@
           "가능성",
           "시나리오",
           "다만",
-          "반면"
+          "반면",
+          "변수"
         ],
         "warnings": [
           "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
         ],
         "paragraph_count": 32,
         "short_paragraphs": 22,
-        "long_paragraphs": 3,
+        "long_paragraphs": 2,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
-        "dominant_sentence_ending_ratio": 0.109
+        "dominant_sentence_ending_ratio": 0.138
       }
     ]
   },

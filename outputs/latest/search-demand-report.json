@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T20:56:50.613809+00:00",
+  "generated_at": "2026-06-30T21:03:13.740410+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -7,6 +7,25 @@
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "bitcoin",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 6000,
+      "fallback_source": "source_snapshot_rank",
+      "source_snapshot_score": 48,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": []
+    },
     {
       "keyword": "fomc",
       "trend_count": 0,
@@ -24,25 +43,6 @@
         "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": []
-    },
-    {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 5600,
-      "fallback_source": "source_snapshot_rank",
-      "source_snapshot_score": 44,
-      "source_count": 4,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
       ],
       "sample_titles": []
     },
@@ -73,14 +73,13 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3100,
+      "demand_signal_score": 2800,
       "fallback_source": "source_snapshot_rank",
-      "source_snapshot_score": 19,
-      "source_count": 4,
+      "source_snapshot_score": 16,
+      "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times Home",
         "NYT Business"
       ],
       "sample_titles": []

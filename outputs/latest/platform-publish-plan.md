@@ -18,7 +18,7 @@
 - first_item: `비트코인 핵심 흐름 해설`
 - first_keyword: `bitcoin`
 
-- `bitcoin`: 비트코인 핵심 흐름 해설 / main_post / score 125.0 / quality=True / freshness=`fresh` / user_confirmed=True
+- `bitcoin`: 비트코인 핵심 흐름 해설 / main_post / score 128.0 / quality=True / freshness=`fresh` / user_confirmed=True
 
 ## wordpress
 
@@ -28,4 +28,4 @@
 - first_item: `비트코인 핵심 흐름 해설`
 - first_keyword: `bitcoin`
 
-- `bitcoin`: 비트코인 핵심 흐름 해설 / main_post / score 125.0 / quality=True / freshness=`fresh` / user_confirmed=True
+- `bitcoin`: 비트코인 핵심 흐름 해설 / main_post / score 128.0 / quality=True / freshness=`fresh` / user_confirmed=True
