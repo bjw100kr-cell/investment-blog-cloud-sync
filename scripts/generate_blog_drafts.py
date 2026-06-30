@@ -209,8 +209,11 @@ def _topic_profile(keyword: str, title: str) -> dict:
             "mistake": "ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 것입니다. 코인 시장은 호재 선반영과 뉴스 후 되돌림이 자주 나옵니다.",
         }
     if any(marker in keyword for marker in ["us_index_flow", "us_big_tech", "ai_semiconductors"]):
+        us_stock_title = title
+        if "나스닥, 금리, 빅테크 실적" not in us_stock_title:
+            us_stock_title = f"{title}: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
         return {
-            "title": f"{title}: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+            "title": us_stock_title,
             "quick": [
                 "미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다.",
                 "나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다.",
@@ -351,7 +354,7 @@ def build_fallback_draft(packet: dict) -> str:
     profile = _topic_profile(packet.get("keyword", ""), original_title)
     checks = [_check_label(item) for item in profile["concrete_checks"]]
     primary_headline = headlines[0] if headlines else original_title
-    summary = f"`{checks[0]}`, `{checks[1]}`, `{checks[2]}` 세 지표를 같이 봐야 {original_title}이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다."
+    summary = f"`{checks[0]}`, `{checks[1]}`, `{checks[2]}` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다."
     intro_parts = [
         f"{today_label}, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.",
         intro_example,

@@ -11,6 +11,8 @@ PUBLISH_PLAN_JSON = ROOT / "outputs/latest/platform-publish-plan.json"
 QUALITY_GATE_JSON = ROOT / "outputs/latest/pre-publish-quality-gate.json"
 MONETIZATION_JSON = ROOT / "outputs/latest/monetization-readiness-report.json"
 SEARCH_DEMAND_JSON = ROOT / "outputs/latest/search-demand-report.json"
+CRYPTO_MARKET_SIGNAL_JSON = ROOT / "outputs/latest/crypto-market-signal.json"
+PUBLISH_INVENTORY_JSON = ROOT / "outputs/latest/publish-inventory.json"
 OUTPUT_JSON = ROOT / "outputs/latest/daily-traffic-goal.json"
 OUTPUT_MD = ROOT / "outputs/latest/daily-traffic-goal.md"
 
@@ -30,6 +32,14 @@ def quality_lookup(report: dict) -> dict:
 
 def queue_lookup(report: dict) -> dict:
     return {item.get("keyword"): item for item in report.get("items", []) if item.get("keyword")}
+
+
+def inventory_title_lookup(report: dict) -> dict:
+    return {
+        item.get("keyword"): item.get("title")
+        for item in report.get("items", [])
+        if item.get("keyword") and item.get("title")
+    }
 
 
 def estimate_daily_visitors(item: dict, queue_item: dict, quality_item: dict) -> int:
@@ -55,23 +65,32 @@ def build_report() -> dict:
     quality = load_json(QUALITY_GATE_JSON)
     monetization = load_json(MONETIZATION_JSON)
     demand = load_json(SEARCH_DEMAND_JSON)
+    crypto_market_signal = load_json(CRYPTO_MARKET_SIGNAL_JSON)
+    inventory = load_json(PUBLISH_INVENTORY_JSON)
 
     q_lookup = queue_lookup(queue)
     gate_lookup = quality_lookup(quality)
+    title_lookup = inventory_title_lookup(inventory)
+    crypto_signal_lookup = crypto_market_signal.get("keyword_signals", {})
     topic_items = []
     for item in daily.get("top_briefs", []):
         queue_item = q_lookup.get(item.get("keyword"), {})
         quality_item = gate_lookup.get(item.get("keyword"), {})
+        keyword = item.get("keyword", "")
+        crypto_signal = crypto_signal_lookup.get(keyword, {})
         estimate = estimate_daily_visitors(item, queue_item, quality_item)
         topic_items.append(
             {
-                "keyword": item.get("keyword", ""),
+                "keyword": keyword,
                 "brand_lane": item.get("brand_lane", ""),
-                "title": (item.get("title_candidates") or [""])[0],
+                "title": title_lookup.get(keyword) or (item.get("title_candidates") or [""])[0],
                 "demand_signal_score": item.get("demand_signal_score", 0),
                 "total_score": item.get("total_score", 0),
                 "quality_status": quality_item.get("status", "unknown"),
                 "ready_to_upload": bool(queue_item.get("ready_to_upload")),
+                "crypto_market_signal_bonus": item.get("crypto_market_signal_bonus", 0),
+                "crypto_market_sentiment": crypto_signal.get("market_sentiment", item.get("crypto_market_sentiment", "")),
+                "crypto_market_signal_notes": crypto_signal.get("market_signal_notes", item.get("crypto_market_signal_notes", [])),
                 "estimated_daily_visitors": estimate,
                 "recommended_action": build_topic_action(item, queue_item, quality_item),
             }
@@ -93,6 +112,8 @@ def build_report() -> dict:
         bottlenecks.append(f"상위 4개 글 예상 합계가 {projected_visitors}명으로 목표보다 {gap}명 부족합니다.")
     if not analytics_ready:
         bottlenecks.append("GA4/Search Console 연결 전이라 실제 200명 달성 여부를 자동 측정하기 어렵습니다.")
+    if crypto_market_signal.get("market", {}).get("sentiment") == "extreme_fear":
+        bottlenecks.append("코인 시장이 Extreme Fear 상태라 단순 가격 전망보다 ETF 자금·달러·리스크 관리형 제목이 더 유리합니다.")
     if not retention_ready:
         bottlenecks.append("뉴스레터/텔레그램 재방문 동선이 없어 첫 방문자를 반복 방문으로 쌓기 어렵습니다.")
     if blogger.get("ready_item_count", 0) < 1:
@@ -130,6 +151,12 @@ def build_report() -> dict:
         "measurement_summary": {
             "analytics_ready": bool(analytics_ready),
             "retention_ready": bool(retention_ready),
+        },
+        "crypto_market_summary": {
+            "status": crypto_market_signal.get("status", ""),
+            "sentiment": crypto_market_signal.get("market", {}).get("sentiment", ""),
+            "fear_greed": crypto_market_signal.get("fear_greed", {}),
+            "providers": crypto_market_signal.get("providers", {}),
         },
         "bottlenecks": bottlenecks,
         "next_actions": next_actions,
@@ -191,6 +218,8 @@ def write_markdown(report: dict) -> None:
         lines.append(
             f"- `{item['keyword']}` lane `{item['brand_lane']}` / 예상 `{item['estimated_daily_visitors']}`명 / ready `{item['ready_to_upload']}` / quality `{item['quality_status']}`"
         )
+        if item.get("crypto_market_signal_notes"):
+            lines.append(f"  - crypto signal: {'; '.join(item['crypto_market_signal_notes'][:2])}")
     OUTPUT_MD.write_text("\n".join(lines).strip() + "\n")
 
 

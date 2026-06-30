@@ -110,6 +110,8 @@
    - 로컬/클라우드 파이프라인 모두 `Build publish inventory` 직후 해당 단계를 실행.
    - 최신 검증에서 메인 글 4개가 모두 개선됨: `manifest_changed_count=4`, `inventory_changed_count=4`.
    - 현재 Blogger 1순위 후보 `bitcoin` 제목은 `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트`.
+   - 신규 개선: `score_daily_topics.py` 기본 제목도 클릭형으로 교체했고, `generate_blog_drafts.py`의 미국 증시 제목 부제 중복 버그를 제거.
+   - `daily-traffic-goal.json`은 이제 실제 발행 인벤토리 제목과 코인 시장 신호(`extreme_fear`, BTC 변동, Fear/Greed)를 같이 보여줌.
 1. 로컬 변경사항 커밋 및 `https://github.com/bjw100kr-cell/investment-blog-cloud-sync`로 푸시.
 2. GitHub UI에서 `https://github.com/bjw100kr-cell/investment-blog-cloud-sync/settings/secrets/actions` 열고 아래 값 1회 붙여넣기:
    - Secret: `BLOGGER_BLOG_ID`, `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN`

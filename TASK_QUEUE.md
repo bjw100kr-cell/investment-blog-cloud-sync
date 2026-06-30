@@ -374,6 +374,16 @@ python3 scripts/build_go_live_readiness_report.py
   - `outputs/latest/click-title-sync-report.md/json`이 생성되고 `operator-home`, `today-operator-console`에서 바로 확인 가능
   - 검증 결과 메인 글 4개 제목이 클릭형 H1로 동기화됨
 
+### SP-044
+
+- 상태: 완료
+- 목적: 신규 초안 후보 자체가 처음부터 검색 클릭형 제목과 현재 코인 시장 신호를 반영하도록 개선
+- 완료 기준:
+  - `scripts/score_daily_topics.py`의 기본 제목이 `~해설`이 아니라 질문/체크포인트형 제목으로 생성됨
+  - `scripts/generate_blog_drafts.py`에서 미국 증시 계열 제목 부제가 중복으로 붙지 않음
+  - `scripts/build_daily_traffic_goal.py`가 `publish-inventory.json`의 실제 발행 제목과 `crypto-market-signal.json`의 시장 신호를 함께 표시함
+  - 검증 결과 `daily-post-brief`, `publish-inventory`, `daily-traffic-goal`의 대표 4개 제목이 클릭형으로 정렬되고 품질 게이트 `needs_fix_count=0`
+
 ## Backlog For Later
 
 - Spark가 로컬 실행 결과를 모아 간단한 `verification summary`만 갱신하는 자동 보고 루틴 추가

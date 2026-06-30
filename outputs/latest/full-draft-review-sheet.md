@@ -20,8 +20,8 @@
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
 - final retention CTA: FOMC 흐름이 여기서 끝이 아닙니다. 아래 체크포인트 글과 초보자 가이드까지 같이 보면 다음 일정에서 뭘 봐야 할지 훨씬 선명해집니다.
 - later revisit CTA: 거시 이벤트를 놓치지 않으려면 다음 체크포인트 글까지 같이 보고, 이후에는 텔레그램/구독 채널로 이어 받아보세요.
-- draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html`
+- draft_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md`
+- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html`
 - image 대표 이미지: Unsplash / `central bank meeting finance city skyline` / Unsplash License
 - image 본문 보조 이미지: Pexels / `interest rate macro economy abstract` / Pexels License
 
@@ -30,7 +30,7 @@
 ```md
 # FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 FOMC 이후 시장 해설이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 
 ## 오늘 핵심 3줄
 
@@ -133,8 +133,8 @@
 - CTA focus: ETF·규제·초보 가이드 글로 연결
 - final retention CTA: 비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.
 - later revisit CTA: 코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
+- draft_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md`
+- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
 - image 대표 이미지: Pexels / `bitcoin blockchain abstract blue finance` / Pexels License
 - image 본문 보조 이미지: Unsplash / `crypto market data abstract` / Unsplash License
 
@@ -143,7 +143,7 @@
 ```md
 # 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 비트코인 핵심 흐름 해설이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 
 ## 오늘 핵심 3줄
 
@@ -246,17 +246,17 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 - CTA focus: 실적·공급망·대표 종목 글로 연결
 - final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
 - later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-index-flow.md`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html`
+- draft_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/drafts/03-us-index-flow.md`
+- html_path: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html`
 - image 대표 이미지: Unsplash / `technology stocks office finance abstract` / Unsplash License
 - image 본문 보조 이미지: Pexels / `semiconductor data center abstract` / Pexels License
 
 ### Draft Body
 
 ```md
-# 미국 증시 지수 흐름 해설: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+# 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
-한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 미국 증시 지수 흐름 해설이 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 
 ## 오늘 핵심 3줄
 
@@ -339,7 +339,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 ## CTA
 
 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
-다음 글에서는 미국 증시 지수 흐름 해설: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
+다음 글에서는 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
 
 ## 면책문구
 

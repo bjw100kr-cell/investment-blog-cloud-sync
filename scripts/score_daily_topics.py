@@ -152,30 +152,30 @@ def clamp(value: int, low: int, high: int) -> int:
 
 def title_from_keyword(keyword: str) -> str:
     mapping = {
-        "fomc": "FOMC 이후 시장 해설",
-        "cpi": "CPI 발표 이후 시장 해설",
-        "pce": "PCE 발표 이후 시장 해설",
-        "jobs": "고용지표 이후 시장 해설",
-        "treasury_yields": "미국채 금리 변화 해설",
-        "dollar": "달러 흐름 해설",
-        "oil": "유가 흐름 해설",
-        "bitcoin": "비트코인 핵심 흐름 해설",
-        "ethereum": "이더리움 핵심 흐름 해설",
-        "crypto_etf": "크립토 ETF 이슈 해설",
-        "tariffs_trade": "관세와 무역 이슈 해설",
-        "china": "중국 변수와 시장 영향 해설",
-        "ai_semiconductors": "AI·반도체 섹터 흐름 해설",
-        "us_index_flow": "미국 증시 지수 흐름 해설",
-        "us_big_tech": "미국 빅테크 흐름 해설",
-        "ai_growth_stocks": "AI 성장주 흐름 해설",
+        "fomc": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+        "cpi": "CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유",
+        "pce": "PCE 물가가 주식과 코인에 중요한 이유: 금리 경로부터 확인하기",
+        "jobs": "고용지표 발표 후 시장이 흔들리는 이유: 금리, 달러, 성장주 체크포인트",
+        "treasury_yields": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+        "dollar": "달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법",
+        "oil": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
+        "bitcoin": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+        "ethereum": "이더리움 가격보다 먼저 볼 것: ETF, 스테이킹, 수수료 흐름",
+        "crypto_etf": "코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리",
+        "tariffs_trade": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+        "china": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+        "ai_semiconductors": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "us_index_flow": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+        "us_big_tech": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+        "ai_growth_stocks": "AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담",
     }
     return mapping.get(keyword, f"{keyword} 관련 시장 해설")
 
 
 def market_context_title(base: str) -> str:
-    if base.endswith(("해설", "정리")):
-        return f"{base}로 보는 주식·코인 흐름"
-    return f"{base}와 주식·코인 흐름 함께 보기"
+    if ":" in base:
+        return base
+    return f"{base}: 주식·코인 흐름 함께 보기"
 
 
 def make_fallback_keyword(value: str, used: set) -> str:
