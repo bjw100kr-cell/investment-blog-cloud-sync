@@ -1,8 +1,6 @@
 # Session Memory Log
 
 # ... truncated - recent entries kept
-- [2026-07-01 00:52:06 KST] window-safety-compress-cleanup
- - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:52:26 KST] context-window-hardening-cleanup
  - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:36 KST] step-5-5/30-Compile performance feedback
@@ -160,4 +158,6 @@
 - [2026-07-01 06:38:32 KST] popular reads live blocks applied
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 06:43:31 KST] reader share blocks applied
+ - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
+- [2026-07-01 06:50:16 KST] click title sync added
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True

@@ -138,6 +138,8 @@ run_step "25/30" "Render SEO publish-ready posts" python3 scripts/render_seo_pub
 
 run_step "26/30" "Build publish inventory" python3 scripts/build_publish_inventory.py
 
+run_step "26.5/34" "Sync click titles from HTML" python3 scripts/sync_click_titles_from_html.py
+
 run_step "27/34" "Build distribution pack" python3 scripts/build_distribution_pack.py
 
 run_step "27.2/34" "Build pre-publish quality gate" python3 scripts/build_pre_publish_quality_gate.py

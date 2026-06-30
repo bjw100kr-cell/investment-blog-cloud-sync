@@ -52,6 +52,7 @@ AUTOMATION_PROGRESS_BOARD_MD = ROOT / "outputs/latest/automation-progress-board.
 AUTOMATION_UNBLOCK_CARD_MD = ROOT / "outputs/latest/automation-unblock-card.md"
 MINIMUM_UNBLOCK_FLOW_MD = ROOT / "outputs/latest/minimum-unblock-flow.md"
 FIRST_BLOGGER_VERIFY_CARD_MD = ROOT / "outputs/latest/first-blogger-verify-card.md"
+CLICK_TITLE_SYNC_REPORT_MD = ROOT / "outputs/latest/click-title-sync-report.md"
 SETUP_JSON = ROOT / "outputs/latest/setup-check-report.json"
 LOGIN_LAUNCH_CHECKLIST_JSON = ROOT / "outputs/latest/login-launch-checklist.json"
 OUTPUT_JSON = ROOT / "outputs/latest/operator-home.json"
@@ -275,6 +276,8 @@ def build_report() -> dict:
         "minimum_unblock_flow_uri": to_uri(MINIMUM_UNBLOCK_FLOW_MD),
         "first_blogger_verify_card_md": str(FIRST_BLOGGER_VERIFY_CARD_MD),
         "first_blogger_verify_card_uri": to_uri(FIRST_BLOGGER_VERIFY_CARD_MD),
+        "click_title_sync_report_md": str(CLICK_TITLE_SYNC_REPORT_MD),
+        "click_title_sync_report_uri": to_uri(CLICK_TITLE_SYNC_REPORT_MD),
         "image_upgrade_queue_md": str(IMAGE_UPGRADE_QUEUE_MD),
         "image_upgrade_queue_uri": to_uri(IMAGE_UPGRADE_QUEUE_MD),
         "image_leverage_board_md": str(IMAGE_LEVERAGE_BOARD_MD),
@@ -355,6 +358,7 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- automation unblock card: `{report.get('automation_unblock_card_md', '')}`")
     lines.append(f"- minimum unblock flow: `{report.get('minimum_unblock_flow_md', '')}`")
     lines.append(f"- first blogger verify card: `{report.get('first_blogger_verify_card_md', '')}`")
+    lines.append(f"- click title sync report: `{report.get('click_title_sync_report_md', '')}`")
     lines.append(f"- review board: `{report.get('review_board_html', '')}`")
     lines.append(f"- review packet: `{report.get('review_packet_md', '')}`")
     lines.append(f"- full draft review sheet: `{report.get('full_draft_review_sheet_md', '')}`")
@@ -538,6 +542,7 @@ def write_html(report: dict) -> None:
     automation_unblock_card_uri = html.escape(report.get("automation_unblock_card_uri", ""))
     minimum_unblock_flow_uri = html.escape(report.get("minimum_unblock_flow_uri", ""))
     first_blogger_verify_card_uri = html.escape(report.get("first_blogger_verify_card_uri", ""))
+    click_title_sync_report_uri = html.escape(report.get("click_title_sync_report_uri", ""))
     runbook_uri = html.escape(report.get("runbook_uri", ""))
     launch_bundle_uri = html.escape(report.get("launch_bundle_uri", ""))
     cross_platform_publish_pack_uri = html.escape(report.get("cross_platform_publish_pack_uri", ""))
@@ -792,6 +797,7 @@ def write_html(report: dict) -> None:
           <a class="main-link" href="{automation_unblock_card_uri}" target="_blank" rel="noreferrer"><strong>Automation Unblock Card</strong>지금 사용자 쪽에서 딱 해야 하는 2개만 압축한 카드</a>
           <a class="main-link" href="{minimum_unblock_flow_uri}" target="_blank" rel="noreferrer"><strong>Minimum Unblock Flow</strong>bitcoin 승인과 repo 연결을 preview/apply 체인으로 묶은 최소 실행 흐름</a>
           <a class="main-link" href="{first_blogger_verify_card_uri}" target="_blank" rel="noreferrer"><strong>First Blogger Verify Card</strong>GitHub 연결 전에도 로컬 Blogger draft 검증까지 바로 가는 shortcut 카드</a>
+          <a class="main-link" href="{click_title_sync_report_uri}" target="_blank" rel="noreferrer"><strong>Click Title Sync Report</strong>Blogger 제목과 메타 제목이 본문 H1처럼 클릭형으로 맞춰졌는지 보는 리포트</a>
           <a class="main-link" href="{review_board_uri}" target="_blank" rel="noreferrer"><strong>Review Preview Board</strong>실제 렌더링 글을 보고 사용자 확인하는 화면</a>
           <a class="main-link" href="{report.get('review_packet_uri', '')}" target="_blank" rel="noreferrer"><strong>Review Packet</strong>상세 검토 패킷과 이미지 후보 확인</a>
           <a class="main-link" href="{full_draft_review_sheet_uri}" target="_blank" rel="noreferrer"><strong>Full Draft Review Sheet</strong>shortlist 글 전문을 그대로 읽는 검토 시트</a>

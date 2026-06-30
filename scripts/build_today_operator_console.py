@@ -54,6 +54,7 @@ AUTOMATION_UNBLOCK_CARD_MD = ROOT / "outputs/latest/automation-unblock-card.md"
 MINIMUM_UNBLOCK_FLOW_MD = ROOT / "outputs/latest/minimum-unblock-flow.md"
 FIRST_BLOGGER_VERIFY_CARD_MD = ROOT / "outputs/latest/first-blogger-verify-card.md"
 CROSS_PLATFORM_PUBLISH_PACK_JSON = ROOT / "outputs/latest/cross-platform-publish-pack.json"
+CLICK_TITLE_SYNC_REPORT_MD = ROOT / "outputs/latest/click-title-sync-report.md"
 
 
 def load_json(path: Path) -> dict:
@@ -128,6 +129,7 @@ def build_report() -> dict:
             "automation_unblock_card_md": str(AUTOMATION_UNBLOCK_CARD_MD),
             "minimum_unblock_flow_md": str(MINIMUM_UNBLOCK_FLOW_MD),
             "first_blogger_verify_card_md": str(FIRST_BLOGGER_VERIFY_CARD_MD),
+            "click_title_sync_report_md": str(CLICK_TITLE_SYNC_REPORT_MD),
         },
         "operator_run": {
             "approval_mode": operator_run.get("approval_mode", ""),
@@ -176,6 +178,7 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- automation unblock card: `{report.get('review_paths', {}).get('automation_unblock_card_md', '')}`")
     lines.append(f"- minimum unblock flow: `{report.get('review_paths', {}).get('minimum_unblock_flow_md', '')}`")
     lines.append(f"- first blogger verify card: `{report.get('review_paths', {}).get('first_blogger_verify_card_md', '')}`")
+    lines.append(f"- click title sync report: `{report.get('review_paths', {}).get('click_title_sync_report_md', '')}`")
     lines.append(f"- review packet: `{report.get('review_paths', {}).get('review_packet_md', '')}`")
     lines.append(f"- full draft review sheet: `{report.get('review_paths', {}).get('full_draft_review_sheet_md', '')}`")
     lines.append(f"- draft polish board: `{report.get('review_paths', {}).get('draft_polish_board_md', '')}`")

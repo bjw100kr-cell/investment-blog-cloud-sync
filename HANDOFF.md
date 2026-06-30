@@ -105,6 +105,11 @@
   - 로컬 검증: `PYTHONPATH=scripts:. python3 - <<'PY'>>` 환경에서 `is_inventory_stale`가 `True`로 판정되고, 후보 집계가 기존 인벤토리 외부 매니페스트까지 반영됨.
 
 ## 다음 하이프리오리티 액션
+0. 제목 클릭률 개선 반영 사항 확인:
+   - `scripts/sync_click_titles_from_html.py`가 추가되어 `publish-inventory.json`의 메인 글 manifest만 대상으로 HTML H1을 `title`/`meta_title`에 동기화.
+   - 로컬/클라우드 파이프라인 모두 `Build publish inventory` 직후 해당 단계를 실행.
+   - 최신 검증에서 메인 글 4개가 모두 개선됨: `manifest_changed_count=4`, `inventory_changed_count=4`.
+   - 현재 Blogger 1순위 후보 `bitcoin` 제목은 `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트`.
 1. 로컬 변경사항 커밋 및 `https://github.com/bjw100kr-cell/investment-blog-cloud-sync`로 푸시.
 2. GitHub UI에서 `https://github.com/bjw100kr-cell/investment-blog-cloud-sync/settings/secrets/actions` 열고 아래 값 1회 붙여넣기:
    - Secret: `BLOGGER_BLOG_ID`, `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN`

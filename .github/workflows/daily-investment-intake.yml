@@ -139,6 +139,9 @@ jobs:
       - name: Build publish inventory
         run: python scripts/build_publish_inventory.py
 
+      - name: Sync click titles from HTML
+        run: python scripts/sync_click_titles_from_html.py
+
       - name: Build distribution pack
         run: python scripts/build_distribution_pack.py
 

@@ -364,6 +364,16 @@ python3 scripts/build_go_live_readiness_report.py
   - `user-review-checkpoint`에서 최우선 글의 최종 CTA를 승인 전에 바로 읽을 수 있음
   - 업로드 차단 상태와 승인 파일 빈 기본값은 그대로 유지됨
 
+### SP-043
+
+- 상태: 완료
+- 목적: Blogger에 표시되는 글 제목과 메타 제목이 본문 H1보다 약한 `~해설` 제목으로 남는 문제를 제거해 검색 클릭률 기반을 개선
+- 완료 기준:
+  - `scripts/sync_click_titles_from_html.py`가 `publish-inventory.json`의 메인 글 manifest만 대상으로 HTML H1을 `title`/`meta_title`에 동기화함
+  - `run_pipeline.sh`와 `.github/workflows/daily-investment-intake.yml`에서 `Build publish inventory` 직후 자동 실행됨
+  - `outputs/latest/click-title-sync-report.md/json`이 생성되고 `operator-home`, `today-operator-console`에서 바로 확인 가능
+  - 검증 결과 메인 글 4개 제목이 클릭형 H1로 동기화됨
+
 ## Backlog For Later
 
 - Spark가 로컬 실행 결과를 모아 간단한 `verification summary`만 갱신하는 자동 보고 루틴 추가
