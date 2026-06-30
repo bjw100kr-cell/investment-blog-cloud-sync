@@ -384,6 +384,16 @@ python3 scripts/build_go_live_readiness_report.py
   - `scripts/build_daily_traffic_goal.py`가 `publish-inventory.json`의 실제 발행 제목과 `crypto-market-signal.json`의 시장 신호를 함께 표시함
   - 검증 결과 `daily-post-brief`, `publish-inventory`, `daily-traffic-goal`의 대표 4개 제목이 클릭형으로 정렬되고 품질 게이트 `needs_fix_count=0`
 
+### SP-045
+
+- 상태: 완료
+- 목적: 제목 개선으로 slug가 바뀌어 기존 글 대신 새 중복 글이 발행되는 문제를 방지
+- 완료 기준:
+  - 메인 글 4개는 `generate_publishing_assets.py`에서 keyword별 안정 slug를 사용함
+  - SEO 후속 글은 메인 글 slug와 충돌하지 않는 안정 토픽 기반 slug를 사용함
+  - `upload_blogger_drafts.py`는 기본적으로 `publish-inventory.json` 후보만 업로드하고, orphan manifest는 `BLOGGER_INCLUDE_ORPHAN_MANIFESTS=true`일 때만 포함함
+  - 업로드 후보 13개의 slug 충돌이 0개이고, publish-ready/seo-publish-ready의 stale 파일이 0개로 정리됨
+
 ## Backlog For Later
 
 - Spark가 로컬 실행 결과를 모아 간단한 `verification summary`만 갱신하는 자동 보고 루틴 추가

@@ -148,6 +148,20 @@ def load_json(path: Path) -> dict:
         return {}
 
 
+def find_state_item(state_items: dict, slug: str, keyword: str) -> dict:
+    if slug in state_items:
+        return state_items.get(slug, {})
+    matches = [
+        item
+        for item in state_items.values()
+        if isinstance(item, dict) and keyword and item.get("keyword") == keyword
+    ]
+    if not matches:
+        return {}
+    matches.sort(key=lambda item: parse_timestamp(item.get("last_synced_at", "")))
+    return matches[0]
+
+
 def parse_timestamp(value: str) -> datetime:
     if not value:
         return datetime.fromtimestamp(0, tz=timezone.utc)
@@ -338,10 +352,11 @@ def _manifest_sort_key(path: Path, sequence_lookup: dict[str, int], stale_orphan
 def collect_manifest_files() -> list[Path]:
     sequence_lookup = load_sequence_lookup()
     stale = is_inventory_stale()
+    include_orphans = env_flag("BLOGGER_INCLUDE_ORPHAN_MANIFESTS", False)
     seen = set()
     selected: list[Path] = []
 
-    if not stale and PUBLISH_INVENTORY_PATH.exists():
+    if PUBLISH_INVENTORY_PATH.exists():
         inventory = load_json(PUBLISH_INVENTORY_PATH)
         for item in inventory.get("items", []):
             manifest_path = item.get("manifest_path", "")
@@ -356,7 +371,7 @@ def collect_manifest_files() -> list[Path]:
                 selected.append(path)
                 seen.add(key)
 
-    if not selected or stale:
+    if include_orphans and (not selected or stale):
         all_manifests = list(PUBLISH_READY_DIR.glob("*.json")) + list(SEO_PUBLISH_READY_DIR.glob("*.json"))
         for path in all_manifests:
             manifest, ok = _parse_manifest(path)
@@ -664,7 +679,7 @@ def main() -> int:
                 html_body = html_path.read_text()
                 slug = manifest.get("slug") or manifest.get("keyword") or html_path.stem
                 digest = content_hash(title, html_body, labels)
-                state_item = state_items.get(slug, {})
+                state_item = find_state_item(state_items, slug, manifest.get("keyword", ""))
                 due_for_publish = is_due_for_publish(manifest.get("recommended_publish_date", ""))
                 should_publish = auto_publish and (due_for_publish or not publish_due_only)
                 same_content = state_item.get("content_hash") == digest

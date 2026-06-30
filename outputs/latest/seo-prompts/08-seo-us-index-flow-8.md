@@ -87,10 +87,10 @@
 {
   "keyword": "seo_us_index_flow_8",
   "source_keyword": "us_index_flow",
-  "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 공급망 정리: 누가 수혜를 보나",
+  "recommended_title": "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나",
   "alternate_titles": [
-    "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 공급망 정리: 누가 수혜를 보나: 초보 투자자 기준으로 다시 보기",
-    "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 공급망 정리: 누가 수혜를 보나: 지금 읽어야 하는 이유"
+    "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나: 초보 투자자 기준으로 다시 보기",
+    "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나: 지금 읽어야 하는 이유"
   ],
   "summary_angle": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유에서 이어지는 후속 글로, 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
   "outline": [
@@ -120,7 +120,7 @@
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 공급망 정리: 누가 수혜를 보나"
+    "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -183,15 +183,15 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 116.5,
-    "search_score": 116.5,
+    "total_score": 120.5,
+    "search_score": 120.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-나스닥-금리-빅테크-실적을-같이-봐야-하는-이유.html",
+    "primary": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html",
     "secondary": [
       "site-foundation/hub-global-sector.md",
       "site-foundation/about.md",

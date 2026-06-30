@@ -92,6 +92,13 @@ SEO_TEMPLATES = {
     ],
 }
 
+STABLE_SEO_TOPIC_BY_SOURCE_KEYWORD = {
+    "fomc": "FOMC 이후 시장",
+    "bitcoin": "비트코인 핵심 흐름",
+    "us_index_flow": "미국 증시 지수 흐름",
+    "china": "중국 변수와 시장 영향",
+}
+
 
 def load_json(path: Path) -> dict:
     if not path.exists():
@@ -135,6 +142,10 @@ def slugify(text: str) -> str:
     return slug or "seo-backlog"
 
 
+def stable_seo_topic(source_keyword: str, fallback_topic: str) -> str:
+    return STABLE_SEO_TOPIC_BY_SOURCE_KEYWORD.get(source_keyword, fallback_topic)
+
+
 def build_asset_lookup(publishing_data: dict) -> dict:
     return {item.get("keyword"): item for item in publishing_data.get("items", [])}
 
@@ -150,7 +161,10 @@ def backlog_items() -> list[dict]:
     for queue_item in queue.get("items", []):
         category = queue_item.get("category", "")
         asset = assets.get(queue_item.get("keyword"), {})
-        topic = asset.get("title_topic") or queue_item.get("title") or queue_item.get("keyword")
+        topic = stable_seo_topic(
+            queue_item.get("keyword", ""),
+            asset.get("title_topic") or queue_item.get("title") or queue_item.get("keyword"),
+        )
         internal_links = asset.get("internal_links", [])
         templates = SEO_TEMPLATES.get(category, [])
         for idx, template in enumerate(templates, start=1):

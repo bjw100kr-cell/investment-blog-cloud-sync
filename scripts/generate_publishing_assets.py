@@ -15,6 +15,12 @@ DEFAULT_CALENDAR_JSON = ROOT / "outputs/latest/editorial-calendar.json"
 DEFAULT_SEO_BACKLOG_JSON = ROOT / "outputs/latest/seo-backlog.json"
 DEFAULT_OUTPUT_JSON = ROOT / "outputs/latest/publishing-assets.json"
 DEFAULT_OUTPUT_MD = ROOT / "outputs/latest/publishing-assets.md"
+STABLE_SLUG_BY_KEYWORD = {
+    "fomc": "fomc-이후-시장-해설",
+    "bitcoin": "비트코인-핵심-흐름-해설",
+    "us_index_flow": "미국-증시-지수-흐름-해설",
+    "china": "중국-변수와-시장-영향-해설",
+}
 
 
 def load_json(path: Path) -> dict:
@@ -42,6 +48,10 @@ def slugify(text: str) -> str:
     slug = "".join(parts)
     slug = re.sub(r"-{2,}", "-", slug).strip("-")
     return slug or "post"
+
+
+def stable_slug(keyword: str, source_keyword: str, title: str) -> str:
+    return STABLE_SLUG_BY_KEYWORD.get(keyword) or slugify(title)
 
 
 def dedupe(items: list[str]) -> list[str]:
@@ -171,7 +181,7 @@ def build_asset(
     category = rules["category_by_keyword"].get(source_keyword, rules["category_by_keyword"].get(keyword, "macro"))
     title = packet["recommended_title"]
     title_topic = normalize_title_topic(title)
-    slug = slugify(title)
+    slug = stable_slug(keyword, source_keyword, title)
     labels = dedupe(rules["base_labels"] + rules["keyword_labels"].get(source_keyword, rules["keyword_labels"].get(keyword, [])))
     meta_template = rules["meta_description_templates"].get(category, "{title}를 투자자 관점에서 쉽게 정리합니다.")
     meta_description = meta_template.format(title=title_topic)
