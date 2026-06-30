@@ -1,6 +1,6 @@
 # 오늘의 키워드 기회판
 
-- 생성 시각: `2026-06-30T21:22:44.272930+00:00`
+- 생성 시각: `2026-06-30T21:28:40.220342+00:00`
 - 당일 브레이킹 후보: `5`
 - SEO 후속 후보: `6`
 - 검색어 워치리스트: `4`
@@ -21,7 +21,7 @@
 
 - keyword: bitcoin
 - urgency: prep_today
-- score: 89.0 / search 29 / demand 6000
+- score: 89.0 / search 29 / demand 5700
 - ready_to_upload: True
 - queue_publish: 2026-07-01 (tomorrow)
 - reason: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
@@ -47,14 +47,14 @@
 - reason: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
-### 5. AI·반도체 섹터 흐름 해설
+### 5. 크립토 ETF 이슈 해설
 
-- keyword: ai_semiconductors
+- keyword: crypto_etf
 - urgency: watch
-- score: 76.0 / search 17 / demand 0
+- score: 78.0 / search 18 / demand 0
 - ready_to_upload: False
 - queue_publish: 미정 (queue 없음)
-- reason: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
 ## 검색형 후속 SEO 후보
@@ -115,7 +115,7 @@
 
 ## 검색어 워치리스트
 
-- `bitcoin`: type mapped_keyword_demand / mapped bitcoin / demand 6000 / regions unknown
+- `bitcoin`: type mapped_keyword_demand / mapped bitcoin / demand 5700 / regions unknown
   - suggested_title: bitcoin 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결되어 있어 검색형 후속 글로 전환하기 좋습니다.
 - `fomc`: type mapped_keyword_demand / mapped fomc / demand 5700 / regions unknown

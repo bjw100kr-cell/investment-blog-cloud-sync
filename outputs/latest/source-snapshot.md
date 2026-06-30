@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-06-30T21:22:44.272930+00:00`
+- 생성 시각: `2026-06-30T21:28:40.220342+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,20 +106,20 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 48, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `fomc`: score 45, source_count 4, sources Federal Reserve Monetary Policy Press, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- `bitcoin`: score 45, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `us_index_flow`: score 22, source_count 5, sources Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - `dollar`: score 16, source_count 3, sources CoinDesk RSS, Cointelegraph, NYT Business
+- `crypto_etf`: score 16, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `ai_semiconductors`: score 14, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
-- `crypto_etf`: score 13, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `ethereum`: score 9, source_count 3, sources CoinDesk RSS, Cointelegraph, Financial Times YouTube
+- `ethereum`: score 12, source_count 3, sources CoinDesk RSS, Cointelegraph, Financial Times YouTube
 - `china`: score 9, source_count 3, sources CNBC Top News, Financial Times Home, 무역킹 Trade King YouTube
 - `treasury_yields`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
 - `us_big_tech`: score 6, source_count 2, sources CoinDesk RSS, NYT Business
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 48, headlines 15
+- `bitcoin`: score 45, headlines 14
   - Phantom doubles down on perpetual futures with hire of Hyperliquid market builders
   - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
   - Jefferies warns of crypto market volatility as Clarity Act faces Senate test
@@ -131,6 +131,10 @@ If you are sure that the described cause is not responsible for this error and t
   - Nasdaq brings proprietary market data onchain through Pyth
   - US stocks chalk up biggest quarterly gain in six years
   - S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters
+- `crypto_etf`: score 16, headlines 5
+  - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
+  - Bitmine Ether buys eclipsed by $345M ETH ETF $345M outflows: Is sub $1.5K next?
+  - SEC seeks public comment on regulating next generation of ETFs
 - `dollar`: score 16, headlines 5
   - Why OpenUSD's 'real threat' that tanked Circle stock still faces a steep uphill battle for adoption
   - Circle craters 17% as Stripe, Coinbase and BlackRock back rival stablecoin network
@@ -139,18 +143,14 @@ If you are sure that the described cause is not responsible for this error and t
   - Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter
   - Anthropic launches AI drug discovery program, joining tech giants in betting on healthcare
   - US stocks chalk up biggest quarterly gain in six years
-- `crypto_etf`: score 13, headlines 4
+- `ethereum`: score 12, headlines 4
   - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
-  - SEC seeks public comment on regulating next generation of ETFs
-  - Bitcoin weak below $60k as rate jitters, ETF outflows persist
+  - Bitmine Ether buys eclipsed by $345M ETH ETF $345M outflows: Is sub $1.5K next?
+  - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
 - `china`: score 9, headlines 3
   - Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund
   - World Bank to phase out China lending
   - 1. The Grand Design to Pressure China
-- `ethereum`: score 9, headlines 3
-  - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
-  - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
-  - A renewable energy revolution? | FT Rethink
 - `treasury_yields`: score 7, headlines 2
   - MetaMask launches Money Account with stablecoin yield and spending in one wallet
   - Solidion Technology plans to buy SpaceX shares as treasury asset

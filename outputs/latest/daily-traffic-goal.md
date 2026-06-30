@@ -9,7 +9,7 @@
 
 1. `fomc` FOMC 이후 시장 해설 / 예상 `95`명 / 수요 `5700` / 품질 `pass`
    - action: 금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결
-2. `bitcoin` 비트코인 핵심 흐름 해설 / 예상 `95`명 / 수요 `6000` / 품질 `pass`
+2. `bitcoin` 비트코인 핵심 흐름 해설 / 예상 `95`명 / 수요 `5700` / 품질 `pass`
    - action: 코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행
 3. `us_index_flow` 미국 증시 지수 흐름 해설 / 예상 `92`명 / 수요 `3400` / 품질 `pass`
    - action: 대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장
@@ -33,4 +33,4 @@
 - `bitcoin` lane `crypto` / 예상 `95`명 / ready `True` / quality `pass`
 - `us_index_flow` lane `us-stocks` / 예상 `92`명 / ready `True` / quality `pass`
 - `china` lane `world-flow` / 예상 `55`명 / ready `True` / quality `pass`
-- `ai_semiconductors` lane `us-stocks` / 예상 `0`명 / ready `False` / quality `unknown`
+- `crypto_etf` lane `crypto` / 예상 `0`명 / ready `False` / quality `unknown`

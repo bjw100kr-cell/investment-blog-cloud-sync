@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T21:22:44.272930+00:00",
+  "generated_at": "2026-06-30T21:28:40.220342+00:00",
   "summary": {
     "breaking_candidate_count": 5,
     "seo_followup_count": 6,
@@ -36,7 +36,7 @@
       "format": "crypto_analysis",
       "total_score": 89.0,
       "search_score": 29,
-      "demand_signal_score": 6000,
+      "demand_signal_score": 5700,
       "trend_queries": [],
       "source_names": [
         "CNBC Top News",
@@ -100,20 +100,19 @@
     },
     {
       "rank": 5,
-      "keyword": "ai_semiconductors",
-      "suggested_title": "AI·반도체 섹터 흐름 해설",
-      "format": "sector_analysis",
-      "total_score": 76.0,
-      "search_score": 17,
+      "keyword": "crypto_etf",
+      "suggested_title": "크립토 ETF 이슈 해설",
+      "format": "crypto_analysis",
+      "total_score": 78.0,
+      "search_score": 18,
       "demand_signal_score": 0,
       "trend_queries": [],
       "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News"
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "urgency": "watch",
       "operator_action": "카테고리 보강용 후보로 계속 추적합니다.",
       "queue_title": "",
@@ -195,7 +194,7 @@
       "query": "bitcoin",
       "mapped_keyword": "bitcoin",
       "query_type": "mapped_keyword_demand",
-      "demand_signal_score": 6000,
+      "demand_signal_score": 5700,
       "regions": [],
       "suggested_title": "bitcoin 왜 검색이 급증했나: 투자자 관점 핵심 정리",
       "note": "기존 핵심 키워드와 연결되어 있어 검색형 후속 글로 전환하기 좋습니다."

@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-06-30T21:22:44.272930+00:00`
+- 생성 시각: `2026-06-30T21:28:40.220342+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -36,7 +36,7 @@
 - 총점: `89.0`
 - 점수 구성: 검색성 29 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 5
 - 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 코인 시장 신호: BTCUSDT 24h change -2.90%; Fear/Greed 15: Extreme Fear zone
+- 코인 시장 신호: BTCUSDT 24h change -2.89%; Fear/Greed 15: Extreme Fear zone
 - 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 핵심 흐름 해설
@@ -103,27 +103,28 @@
   - World Bank to phase out China lending
   - 1. The Grand Design to Pressure China
 
-## 5. ai_semiconductors
+## 5. crypto_etf
 
-- 카테고리: `global-sector`
-- 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `76.0`
-- 점수 구성: 검색성 17 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
+- 카테고리: `crypto`
+- 브랜드 레인: `crypto` (코인)
+- 총점: `78.0`
+- 점수 구성: 검색성 18 / 시의성 15 / 설명가치 18 / 수익성 15 / 리스크역점수 4 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 8
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- 코인 시장 신호: SOLUSDT 24h change -2.92%; XRPUSDT 24h change -2.11%; DOGEUSDT 24h change -2.42%
+- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
-  - AI·반도체 섹터 흐름 해설
-  - AI·반도체 섹터 흐름 해설: 지금 시장이 반응하는 이유
-  - AI·반도체 섹터 흐름 해설로 보는 주식·코인 흐름
+  - 크립토 ETF 이슈 해설
+  - 크립토 ETF 이슈 해설: 지금 시장이 반응하는 이유
+  - 크립토 ETF 이슈 해설로 보는 주식·코인 흐름
 - 글 구조:
-  - 지금 이 섹터가 왜 움직이는가
-  - 핵심 뉴스와 시장 반응
-  - 대표 종목과 자금 흐름
-  - 거시 변수와 연결
-  - 다음 실적/정책 이벤트
+  - 오늘 코인 시장 핵심 변화
+  - 가격이 아니라 구조상 중요한 포인트
+  - ETF/유동성/규제/온체인과의 연결
+  - 강세 시나리오와 리스크
+  - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter
-  - Anthropic launches AI drug discovery program, joining tech giants in betting on healthcare
-  - US stocks chalk up biggest quarterly gain in six years
-  - The 20 best-performing stocks in the S&P 500 for the first half of 2026
-  - US stocks chalk up biggest quarterly gain in six years
+  - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
+  - Bitmine Ether buys eclipsed by $345M ETH ETF $345M outflows: Is sub $1.5K next?
+  - SEC seeks public comment on regulating next generation of ETFs
+  - Bitcoin weak below $60k as rate jitters, ETF outflows persist
+  - Bitcoin ticks up above $60k, but heads for quarterly loss as ETF outflows persist

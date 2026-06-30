@@ -1,16 +1,16 @@
 {
   "headline": "지금 자동화를 더 앞으로 밀기 위해 사용자 쪽에서 필요한 건 사실 2개입니다.",
   "main_candidate": {
-    "keyword": "fomc",
-    "title": "FOMC 이후 시장 해설",
-    "approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc"
+    "keyword": "bitcoin",
+    "title": "비트코인 핵심 흐름 해설",
+    "approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin"
   },
   "primary_actions": [
     {
-      "id": "approve_fomc",
-      "label": "1. fomc 승인",
+      "id": "approve_bitcoin",
+      "label": "1. bitcoin 승인",
       "why": "이 1건만 승인되면 Blogger draft loop 실검증으로 바로 넘어갈 수 있습니다.",
-      "command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
       "owner": "user"
     },
     {
