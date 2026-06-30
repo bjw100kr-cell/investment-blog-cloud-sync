@@ -26,6 +26,12 @@ def resolve_workspace_path(path_text: str) -> Path:
     path = Path(path_text)
     if path.exists():
         return path
+    parts = path.parts
+    if "outputs" in parts:
+        output_index = parts.index("outputs")
+        candidate = ROOT / Path(*parts[output_index:])
+        if candidate.exists():
+            return candidate
     marker = "investment-blog-cloud-sync/"
     if marker in path_text:
         relative = path_text.split(marker, 1)[1]

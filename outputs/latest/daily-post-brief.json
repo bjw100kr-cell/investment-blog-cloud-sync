@@ -79,6 +79,9 @@
       "risk_score": 8,
       "performance_bonus": 0.0,
       "search_demand_bonus": 3,
+      "crypto_market_signal_bonus": 0,
+      "crypto_market_sentiment": "",
+      "crypto_market_signal_notes": [],
       "total_score": 97.0,
       "format": "macro_explainer"
     },
@@ -91,7 +94,7 @@
         "비트코인 핵심 흐름 해설: 지금 시장이 반응하는 이유",
         "비트코인 핵심 흐름 해설로 보는 주식·코인 흐름"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -123,7 +126,13 @@
       "risk_score": 3,
       "performance_bonus": 0.0,
       "search_demand_bonus": 2,
-      "total_score": 81.0,
+      "crypto_market_signal_bonus": 5,
+      "crypto_market_sentiment": "extreme_fear",
+      "crypto_market_signal_notes": [
+        "BTCUSDT 24h change -2.64%",
+        "Fear/Greed 15: Extreme Fear zone"
+      ],
+      "total_score": 86.0,
       "format": "crypto_analysis"
     },
     {
@@ -169,6 +178,9 @@
       "risk_score": 6,
       "performance_bonus": 0.0,
       "search_demand_bonus": 1,
+      "crypto_market_signal_bonus": 0,
+      "crypto_market_sentiment": "",
+      "crypto_market_signal_notes": [],
       "total_score": 84.0,
       "format": "sector_analysis"
     },
@@ -209,6 +221,9 @@
       "risk_score": 7,
       "performance_bonus": 0.0,
       "search_demand_bonus": 0,
+      "crypto_market_signal_bonus": 0,
+      "crypto_market_sentiment": "",
+      "crypto_market_signal_notes": [],
       "total_score": 53.0,
       "format": "macro_explainer"
     },
@@ -255,6 +270,9 @@
       "risk_score": 6,
       "performance_bonus": 0.0,
       "search_demand_bonus": 2,
+      "crypto_market_signal_bonus": 0,
+      "crypto_market_sentiment": "",
+      "crypto_market_signal_notes": [],
       "total_score": 83.0,
       "format": "macro_explainer"
     }

@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLISH_READY_REPORT_JSON = ROOT / "outputs/latest/publish-ready-report.json"
 SEO_PUBLISH_READY_REPORT_JSON = ROOT / "outputs/latest/seo-publish-ready-report.json"
 MONETIZATION_PLAYBOOK_JSON = ROOT / "config/monetization_playbook.json"
+CRYPTO_MARKET_SIGNAL_JSON = ROOT / "outputs/latest/crypto-market-signal.json"
 OUTPUT_JSON = ROOT / "outputs/latest/pre-publish-quality-gate.json"
 OUTPUT_MD = ROOT / "outputs/latest/pre-publish-quality-gate.md"
 
@@ -19,10 +20,33 @@ def load_json(path: Path) -> dict:
 
 
 def read_text(path_text: str) -> str:
-    path = Path(path_text)
+    path = resolve_path(path_text)
     if not path.exists():
         return ""
     return path.read_text()
+
+
+def resolve_path(path_text: str) -> Path:
+    path = Path(path_text)
+    if path.exists():
+        return path
+    parts = path.parts
+    if "outputs" in parts:
+        output_index = parts.index("outputs")
+        candidate = ROOT / Path(*parts[output_index:])
+        if candidate.exists():
+            return candidate
+    marker = "/investment-blog-cloud-sync/"
+    if marker in path_text:
+        relative = path_text.split(marker, 1)[1]
+        candidate = ROOT / relative
+        if candidate.exists():
+            return candidate
+    if not path.is_absolute():
+        candidate = ROOT / path
+        if candidate.exists():
+            return candidate
+    return path
 
 
 def is_source_string_strong(html_text: str) -> bool:
@@ -129,7 +153,20 @@ def has_selected_image(item: dict, slot: str) -> bool:
     return False
 
 
-def audit_item(item: dict, checklist: list[str]) -> dict:
+def has_crypto_market_signal(item: dict, crypto_signal: dict) -> bool:
+    keyword = item.get("keyword", "")
+    category = item.get("category", "")
+    if category != "crypto" and not any(token in keyword for token in ["bitcoin", "ethereum", "crypto"]):
+        return True
+    if crypto_signal.get("status") != "ok":
+        return False
+    keyword_signals = crypto_signal.get("keyword_signals", {})
+    canonical = "bitcoin" if "bitcoin" in keyword else "ethereum" if "ethereum" in keyword else "crypto_etf"
+    signal = keyword_signals.get(canonical, {})
+    return bool(signal.get("market_signal_notes")) or int(signal.get("signal_score_bonus", 0)) > 0
+
+
+def audit_item(item: dict, checklist: list[str], crypto_signal: dict) -> dict:
     html_text = read_text(item.get("html_path", ""))
     checks = []
 
@@ -225,6 +262,12 @@ def audit_item(item: dict, checklist: list[str]) -> dict:
             "대표 이미지 1장은 체류시간과 썸네일 완성도에 유리하므로 발행 전 선택해 두는 편이 좋습니다.",
         )
     add_check(
+        "crypto_market_signal_present",
+        has_crypto_market_signal(item, crypto_signal),
+        "medium",
+        "코인 글은 가격/거래량/공포탐욕지수 같은 실제 시장 신호가 있어야 정보 전달력이 생깁니다.",
+    )
+    add_check(
         "image_license_review_ready",
         bool(item.get("image_plan")),
         "low",
@@ -278,6 +321,7 @@ def build_report() -> dict:
     publish_ready = load_json(PUBLISH_READY_REPORT_JSON)
     seo_publish_ready = load_json(SEO_PUBLISH_READY_REPORT_JSON)
     playbook = load_json(MONETIZATION_PLAYBOOK_JSON)
+    crypto_signal = load_json(CRYPTO_MARKET_SIGNAL_JSON)
     checklist = playbook.get("readiness_checklist", [])
 
     audited_items = []
@@ -286,7 +330,7 @@ def build_report() -> dict:
         ("seo", seo_publish_ready),
     ]:
         for item in report.get("items", []):
-            audited = audit_item(item, checklist)
+            audited = audit_item(item, checklist, crypto_signal)
             audited["source_group"] = source_name
             audited_items.append(audited)
 

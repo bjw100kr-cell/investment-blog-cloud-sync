@@ -101,6 +101,8 @@
 | SP-085 | Spark | completed | none | `run_first_blogger_verify_flow.py`와 `first-blogger-verify-card`를 추가해 GitHub 연결 전에도 `bitcoin 승인 -> platform publish plan -> upload_blogger_drafts -> first_cloud_run_verification` 로컬 검증 체인을 preview/apply로 바로 실행할 수 있게 정리 |
 | SP-086 | Spark | completed | none | `run_pipeline.sh`와 `prepare_launch_bundle.py`에 새 shortcut/진행 보드 산출물(`automation-progress-board`, `automation-unblock-card`, `minimum-unblock-flow`, `first-blogger-verify-card`, `first-blogger-verify-flow`)을 편입해 전체 재생성 시 누락되지 않게 정리 |
 | SP-087 | Spark | completed | none | `.github/workflows/daily-investment-intake.yml`에도 같은 5개 스크립트를 추가해 로컬 파이프라인과 GitHub Actions parity를 `all_core_scripts_present=yes`, `missing_in_workflow=none` 상태로 회복 |
+| SP-088 | Spark | completed | none | Binance/공개 API 코인 시장 신호를 `crypto-market-signal` 산출물로 저장하고 topic scoring/품질 게이트에 반영 |
+| SP-089 | Spark | pending | none | Google Drive 플러그인으로 주간 검토 리포트 또는 키워드 보드를 내보내는 선택형 export 흐름 설계 |
 | HQ-001 | High | pending | none | public repo 공개 범위와 비공개 전환 기준 결정 |
 | HQ-002 | High | pending | none | OpenAI 유료 초안 생성 활성화 시점과 비용 한도 정책 결정 |
 | HQ-003 | High | pending | none | Search Console, GA4, AdSense, 뉴스레터 연결 우선순위 재정렬 |

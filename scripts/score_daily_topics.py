@@ -11,6 +11,7 @@ CONFIG_PATH = ROOT / "config/investment_sources.json"
 SNAPSHOT_PATH = ROOT / "outputs/latest/source-snapshot.json"
 PERFORMANCE_PATH = ROOT / "outputs/latest/performance-feedback.json"
 SEARCH_DEMAND_PATH = ROOT / "outputs/latest/search-demand-report.json"
+CRYPTO_MARKET_SIGNAL_PATH = ROOT / "outputs/latest/crypto-market-signal.json"
 OUTPUT_JSON = ROOT / "outputs/latest/daily-post-brief.json"
 OUTPUT_MD = ROOT / "outputs/latest/daily-post-brief.md"
 
@@ -300,6 +301,7 @@ def compute_scores(
     naver_lookup: Dict[str, dict],
     performance_lookup: Dict[str, dict],
     demand_lookup: Dict[str, dict],
+    crypto_signal_lookup: Optional[Dict[str, dict]] = None,
     strategy: Optional[dict] = None,
     profile: Optional[dict] = None,
 ) -> dict:
@@ -311,6 +313,7 @@ def compute_scores(
     source_count = len({item["source_name"] for item in items})
     trend_count = sum(1 for item in items if item["source_category"] == "keyword_trends")
     demand_item = demand_lookup.get(keyword, {})
+    crypto_signal_item = (crypto_signal_lookup or {}).get(keyword, {})
     demand_score = int(demand_item.get("demand_signal_score", 0))
     demand_trend_count = int(demand_item.get("trend_count", 0))
     demand_bonus_divisor = int(strategy.get("demand_bonus_divisor", 250))
@@ -350,7 +353,9 @@ def compute_scores(
     )
     risk_score = clamp(profile["risk"] - (2 if "crypto_media" in source_categories and official_count == 0 else 0), 0, 10)
     performance_bonus = float(performance_lookup.get(keyword, {}).get("bonus", 0))
+    crypto_signal_bonus = int(crypto_signal_item.get("signal_score_bonus", 0))
     total = search_score + timeliness_score + explanatory_score + monetization_score + risk_score + performance_bonus
+    total += crypto_signal_bonus
     return {
         "search_score": search_score,
         "timeliness_score": timeliness_score,
@@ -359,6 +364,9 @@ def compute_scores(
         "risk_score": risk_score,
         "performance_bonus": performance_bonus,
         "search_demand_bonus": demand_bonus,
+        "crypto_market_signal_bonus": crypto_signal_bonus,
+        "crypto_market_sentiment": crypto_signal_item.get("market_sentiment", ""),
+        "crypto_market_signal_notes": crypto_signal_item.get("market_signal_notes", []),
         "demand_signal_score": demand_score,
         "total_score": round(total, 2),
         "format": profile["format"],
@@ -376,6 +384,9 @@ def summarize_reason(keyword: str, items: List[dict], scores: dict, demand_item:
         reason_parts.append(f"복수 소스 교차 확인 가능 ({len(sources)}개)")
     if keyword in {"bitcoin", "ethereum", "crypto_etf"}:
         reason_parts.append("코인 독자 유입과 재방문 가능성")
+        if scores.get("crypto_market_signal_bonus", 0) > 0:
+            sentiment = scores.get("crypto_market_sentiment") or "market signal"
+            reason_parts.append(f"코인 시장 신호 반영 ({sentiment})")
     if keyword in {"fomc", "cpi", "pce", "jobs", "treasury_yields", "dollar", "oil"}:
         reason_parts.append("거시 해설형 글로 전환 가치 높음")
     if keyword in {"ai_semiconductors", "china", "tariffs_trade"}:
@@ -523,6 +534,7 @@ def main() -> int:
     snapshot = load_json(SNAPSHOT_PATH)
     performance = load_optional_json(PERFORMANCE_PATH)
     search_demand = load_optional_json(SEARCH_DEMAND_PATH)
+    crypto_market_signal = load_optional_json(CRYPTO_MARKET_SIGNAL_PATH)
     aliases = config["keyword_aliases"]
     unmatched_fallback = (search_demand or {}).get("unmatched_market_trends", [])
 
@@ -540,6 +552,7 @@ def main() -> int:
     naver_lookup = {item["keyword"]: item for item in (snapshot.get("naver_datalab") or {}).get("ranked", [])}
     performance_lookup = (performance or {}).get("keyword_feedback", {})
     demand_lookup = {item["keyword"]: item for item in (search_demand or {}).get("ranked_keyword_demand", [])}
+    crypto_signal_lookup = (crypto_market_signal or {}).get("keyword_signals", {})
     growth_rules = load_optional_json(ROOT / "config/growth_rules.json")
     search_strategy = growth_rules.get("search_first_strategy", {})
     topic_mix_policy = growth_rules.get("topic_mix_policy", {})
@@ -550,7 +563,16 @@ def main() -> int:
     for keyword, items in keyword_items.items():
         if not items:
             continue
-        scores = compute_scores(keyword, items, ranked_lookup, naver_lookup, performance_lookup, demand_lookup, strategy=search_strategy)
+        scores = compute_scores(
+            keyword,
+            items,
+            ranked_lookup,
+            naver_lookup,
+            performance_lookup,
+            demand_lookup,
+            crypto_signal_lookup,
+            strategy=search_strategy,
+        )
         demand_item = demand_lookup.get(keyword, {})
         briefs.append(
             {
@@ -595,6 +617,7 @@ def main() -> int:
                 naver_lookup,
                 performance_lookup,
                 {synthetic_keyword: synthetic_demand},
+                crypto_signal_lookup,
                 strategy=search_strategy,
                 profile=profile,
             )
@@ -696,6 +719,7 @@ def main() -> int:
             naver_lookup,
             performance_lookup,
             {emergency_keyword: emergency_demand},
+            crypto_signal_lookup,
             strategy=search_strategy,
             profile=KEYWORD_PROFILES.get("fomc"),
         )
@@ -749,9 +773,11 @@ def main() -> int:
         lines.append(f"- 브랜드 레인: `{lane_key}` ({brand_lane_labels.get(lane_key, lane_key)})")
         lines.append(f"- 총점: `{brief['total_score']}`")
         lines.append(
-            f"- 점수 구성: 검색성 {brief['search_score']} / 시의성 {brief['timeliness_score']} / 설명가치 {brief['explanatory_score']} / 수익성 {brief['monetization_score']} / 리스크역점수 {brief['risk_score']} / 성과보너스 {brief['performance_bonus']} / 트렌드보너스 {brief['search_demand_bonus']}"
+            f"- 점수 구성: 검색성 {brief['search_score']} / 시의성 {brief['timeliness_score']} / 설명가치 {brief['explanatory_score']} / 수익성 {brief['monetization_score']} / 리스크역점수 {brief['risk_score']} / 성과보너스 {brief['performance_bonus']} / 트렌드보너스 {brief['search_demand_bonus']} / 코인시장신호 {brief.get('crypto_market_signal_bonus', 0)}"
         )
         lines.append(f"- 추천 이유: {brief['reason']}")
+        if brief.get("crypto_market_signal_notes"):
+            lines.append(f"- 코인 시장 신호: {'; '.join(brief['crypto_market_signal_notes'][:3])}")
         lines.append(f"- 소스: {', '.join(brief['source_names'])}")
         if brief.get("trend_queries"):
             lines.append(f"- 트렌드 쿼리: {', '.join(brief['trend_queries'])}")

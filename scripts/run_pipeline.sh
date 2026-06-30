@@ -76,6 +76,8 @@ run_step "1/30" "Collect sources" python3 scripts/collect_investment_sources.py
 
 run_step "2/30" "Build search demand report" python3 scripts/build_search_demand_report.py
 
+run_step "2.5/30" "Build crypto market signal" python3 scripts/build_crypto_market_signal.py
+
 run_step "3/30" "Fetch Search Console queries" python3 scripts/fetch_search_console_queries.py
 
 run_step "4/30" "Convert Search Console queries to performance feedback" python3 scripts/search_console_to_feedback.py

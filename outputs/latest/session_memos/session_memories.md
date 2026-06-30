@@ -1,10 +1,6 @@
 # Session Memory Log
 
 # ... truncated - recent entries kept
-- [2026-07-01 00:50:19 KST] step-35-27.3/34-Build cross-platform publish pack
- - published=13 / processed=0 / inventory=13 / all_core_checks_passed=True
-- [2026-07-01 00:50:20 KST] step-40-30/34-Build approval dashboard
- - published=13 / processed=0 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:50:20 KST] step-45-30.37/34-Build retention CTA board
  - published=13 / processed=0 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:50:21 KST] step-50-30.454/35-Build approval briefing board
@@ -161,3 +157,7 @@
  - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 05:42:33 KST] investment-blog-operator-skill-created
  - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
+- [2026-07-01 05:49:16 KST] plugin usage mapped
+ - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
+- [2026-07-01 05:55:51 KST] crypto market signal integrated
+ - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True

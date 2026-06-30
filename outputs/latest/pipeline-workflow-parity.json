@@ -1,6 +1,6 @@
 {
-  "pipeline_script_count": 75,
-  "workflow_script_count": 76,
+  "pipeline_script_count": 76,
+  "workflow_script_count": 77,
   "missing_in_workflow": [],
   "missing_in_pipeline": [],
   "order_mismatches": [],
@@ -9,6 +9,7 @@
   "pipeline_scripts": [
     "scripts/collect_investment_sources.py",
     "scripts/build_search_demand_report.py",
+    "scripts/build_crypto_market_signal.py",
     "scripts/fetch_search_console_queries.py",
     "scripts/search_console_to_feedback.py",
     "scripts/compile_performance_feedback.py",
@@ -86,6 +87,7 @@
   "workflow_scripts": [
     "scripts/collect_investment_sources.py",
     "scripts/build_search_demand_report.py",
+    "scripts/build_crypto_market_signal.py",
     "scripts/fetch_search_console_queries.py",
     "scripts/search_console_to_feedback.py",
     "scripts/compile_performance_feedback.py",

@@ -15,6 +15,11 @@
 
 ## 핵심 상태 (7/1)
 - `Blogger` 업로드 자격은 로컬에서 준비됨.
+- 새로 설치된 플러그인 중 현재 확인된 실사용 후보는 `Binance`와 `Google Drive`입니다.
+- `Binance`는 코인 시장 센서로 사용합니다: market cap, volume, fear/greed, hot tokens, whale/player movement를 글감 후보와 본문 근거로 활용하되 단독 출처로 단정하지 않습니다.
+- `Google Drive`는 검토본/운영 리포트/키워드 보드 공유에 사용합니다. 비밀키나 OAuth 결과 파일은 Drive로 올리지 않습니다.
+- 플러그인 사용 원칙은 `outputs/latest/plugin-signal-usage.md`에 저장했습니다.
+- `scripts/build_crypto_market_signal.py`가 `outputs/latest/crypto-market-signal.json/.md`를 만들고, `score_daily_topics.py`와 `build_pre_publish_quality_gate.py`가 이 신호를 반영합니다. GitHub Actions에도 포함되어 컴퓨터가 꺼져도 공개 API 기반 코인 시장 신호가 갱신됩니다.
 - `go-live-readiness` 기준 1차 실전(초안 테스트) 준비는 됨.
 - `git remote`는 `https://github.com/bjw100kr-cell/investment-blog-cloud-sync`로 연결됐고, `repo_connected=true`, `repo_accessible=true` 상태입니다.
 - 자동화 우선 채널은 `blogger`(1순위), `wordpress`(확장)로 고정.

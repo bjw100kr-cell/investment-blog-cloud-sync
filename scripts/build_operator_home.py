@@ -35,6 +35,7 @@ USER_APPROVAL_INBOX_HTML = ROOT / "outputs/latest/user-approval-inbox.html"
 USER_APPROVAL_INBOX_JSON = ROOT / "outputs/latest/user-approval-inbox.json"
 USER_REVIEW_CHECKPOINT_HTML = ROOT / "outputs/latest/user-review-checkpoint.html"
 SOURCE_FRESHNESS_BOARD_MD = ROOT / "outputs/latest/source-freshness-board.md"
+CRYPTO_MARKET_SIGNAL_MD = ROOT / "outputs/latest/crypto-market-signal.md"
 GITHUB_MINIMUM_LAUNCH_CARD_MD = ROOT / "outputs/latest/github-minimum-launch-card.md"
 PIPELINE_WORKFLOW_PARITY_MD = ROOT / "outputs/latest/pipeline-workflow-parity.md"
 CLOUD_LAUNCH_PREFLIGHT_MD = ROOT / "outputs/latest/cloud-launch-preflight.md"
@@ -232,6 +233,8 @@ def build_report() -> dict:
         "user_review_checkpoint_uri": to_uri(USER_REVIEW_CHECKPOINT_HTML),
         "source_freshness_board_md": str(SOURCE_FRESHNESS_BOARD_MD),
         "source_freshness_board_uri": to_uri(SOURCE_FRESHNESS_BOARD_MD),
+        "crypto_market_signal_md": str(CRYPTO_MARKET_SIGNAL_MD),
+        "crypto_market_signal_uri": to_uri(CRYPTO_MARKET_SIGNAL_MD),
         "github_minimum_launch_card_md": str(GITHUB_MINIMUM_LAUNCH_CARD_MD),
         "github_minimum_launch_card_uri": to_uri(GITHUB_MINIMUM_LAUNCH_CARD_MD),
         "pipeline_workflow_parity_md": str(PIPELINE_WORKFLOW_PARITY_MD),
@@ -312,6 +315,7 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- current review focus: `{report.get('current_review_focus_html', '')}`")
     lines.append(f"- user approval inbox: `{report.get('user_approval_inbox_html', '')}`")
     lines.append(f"- source freshness board: `{report.get('source_freshness_board_md', '')}`")
+    lines.append(f"- crypto market signal: `{report.get('crypto_market_signal_md', '')}`")
     lines.append(f"- github minimum launch card: `{report.get('github_minimum_launch_card_md', '')}`")
     lines.append(f"- pipeline workflow parity: `{report.get('pipeline_workflow_parity_md', '')}`")
     lines.append(f"- cloud launch preflight: `{report.get('cloud_launch_preflight_md', '')}`")
@@ -484,6 +488,7 @@ def write_html(report: dict) -> None:
     current_review_focus_uri = html.escape(report.get("current_review_focus_uri", ""))
     user_approval_inbox_uri = html.escape(report.get("user_approval_inbox_uri", ""))
     user_review_checkpoint_uri = html.escape(report.get("user_review_checkpoint_uri", ""))
+    crypto_market_signal_uri = html.escape(report.get("crypto_market_signal_uri", ""))
     github_minimum_launch_card_uri = html.escape(report.get("github_minimum_launch_card_uri", ""))
     pipeline_workflow_parity_uri = html.escape(report.get("pipeline_workflow_parity_uri", ""))
     cloud_launch_preflight_uri = html.escape(report.get("cloud_launch_preflight_uri", ""))
@@ -737,6 +742,7 @@ def write_html(report: dict) -> None:
           <a class="main-link" href="{current_review_focus_uri}" target="_blank" rel="noreferrer"><strong>Current Review Focus</strong>지금 사용자에게 바로 보여줄 1순위 초안 카드</a>
           <a class="main-link" href="{user_approval_inbox_uri}" target="_blank" rel="noreferrer"><strong>User Approval Inbox</strong>사용자가 승인 여부만 빠르게 답하는 확인 전용 화면</a>
           <a class="main-link" href="{report.get('source_freshness_board_uri', '')}" target="_blank" rel="noreferrer"><strong>Source Freshness Board</strong>오래된 뉴스 초안이 섞이지 않도록 최신 근거 시각을 확인하는 보드</a>
+          <a class="main-link" href="{crypto_market_signal_uri}" target="_blank" rel="noreferrer"><strong>Crypto Market Signal</strong>코인 글감에 반영되는 가격, 거래량, 공포탐욕 시장 센서</a>
           <a class="main-link" href="{github_minimum_launch_card_uri}" target="_blank" rel="noreferrer"><strong>GitHub Minimum Launch Card</strong>무료 클라우드 자동화를 붙이는 최소 실행 카드</a>
           <a class="main-link" href="{pipeline_workflow_parity_uri}" target="_blank" rel="noreferrer"><strong>Pipeline Workflow Parity</strong>로컬과 GitHub Actions 단계 정합성 점검 리포트</a>
           <a class="main-link" href="{cloud_launch_preflight_uri}" target="_blank" rel="noreferrer"><strong>Cloud Launch Preflight</strong>지금 GitHub Actions 실행 버튼을 눌러도 되는지 확인하는 사전 점검 카드</a>
