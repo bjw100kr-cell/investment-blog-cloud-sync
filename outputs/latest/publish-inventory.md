@@ -1,6 +1,6 @@
 # 발행 재고판
 
-- 생성 시각: `2026-06-30T21:28:43.266229+00:00`
+- 생성 시각: `2026-06-30T21:34:53.897925+00:00`
 - 전체 발행 후보: `13`
 - 업로드 가능 글 수: `13`
 - 메인 글 수: `4`
@@ -16,7 +16,7 @@
 - publish_date: 2026-06-30 / bucket: today_or_overdue
 - priority_score: 140.0
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
-- search_intent: 당일 이슈를 따라가되 날짜가 지난 뉴스보다 구조를 이해하고 싶은 독자
+- search_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - cta_focus: 환율·금리·미국증시 evergreen 글로 연결
 
 ## 2. 비트코인 핵심 흐름 해설
@@ -53,7 +53,7 @@
 - role/type: lane_focus_world-flow / breaking_explainer
 - ready_to_upload: True
 - publish_date: 2026-07-03 / bucket: this_week
-- priority_score: 90.0
+- priority_score: 96.0
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - search_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - cta_focus: 실적·공급망·대표 종목 글로 연결

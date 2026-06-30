@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-06-30T21:28:40.220342+00:00`
+- 생성 시각: `2026-06-30T21:34:51.208541+00:00`
 
 ## 1. fomc
 
@@ -215,8 +215,8 @@
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향 해설
-- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 64.0
+- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 70.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -279,3 +279,4 @@
   - Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund
   - World Bank to phase out China lending
   - 1. The Grand Design to Pressure China
+  - Oil posts largest quarterly price drop in 6 years as historic supply crunch eases

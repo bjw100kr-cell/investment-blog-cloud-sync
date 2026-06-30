@@ -38,7 +38,7 @@
           "quality_status": "pass",
           "hero_image_selected": true,
           "ready_now": true,
-          "freshness_status": "stale"
+          "freshness_status": ""
         }
       ],
       "approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
@@ -66,6 +66,18 @@
         "seo_fomc_3"
       ],
       "items": [
+        {
+          "keyword": "fomc",
+          "title": "FOMC 이후 시장 해설",
+          "publish_date": "2026-06-30",
+          "priority": 140.0,
+          "inventory_type": "main_post",
+          "role": "lane_focus_macro",
+          "quality_status": "pass",
+          "hero_image_selected": true,
+          "ready_now": true,
+          "freshness_status": ""
+        },
         {
           "keyword": "seo_fomc_1",
           "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
@@ -101,18 +113,6 @@
           "hero_image_selected": true,
           "ready_now": true,
           "freshness_status": ""
-        },
-        {
-          "keyword": "fomc",
-          "title": "FOMC 이후 시장 해설",
-          "publish_date": "2026-06-30",
-          "priority": 140.0,
-          "inventory_type": "main_post",
-          "role": "lane_focus_macro",
-          "quality_status": "pass",
-          "hero_image_selected": true,
-          "ready_now": true,
-          "freshness_status": "stale"
         }
       ],
       "approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc seo_fomc_1 seo_fomc_2 seo_fomc_3",

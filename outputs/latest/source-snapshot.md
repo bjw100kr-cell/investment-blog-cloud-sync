@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-06-30T21:28:40.220342+00:00`
+- 생성 시각: `2026-06-30T21:34:51.208541+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -113,9 +113,9 @@ If you are sure that the described cause is not responsible for this error and t
 - `crypto_etf`: score 16, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `ai_semiconductors`: score 14, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
 - `ethereum`: score 12, source_count 3, sources CoinDesk RSS, Cointelegraph, Financial Times YouTube
-- `china`: score 9, source_count 3, sources CNBC Top News, Financial Times Home, 무역킹 Trade King YouTube
+- `china`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News, 무역킹 Trade King YouTube
 - `treasury_yields`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
-- `us_big_tech`: score 6, source_count 2, sources CoinDesk RSS, NYT Business
+- `oil`: score 7, source_count 3, sources Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
@@ -147,13 +147,14 @@ If you are sure that the described cause is not responsible for this error and t
   - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
   - Bitmine Ether buys eclipsed by $345M ETH ETF $345M outflows: Is sub $1.5K next?
   - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
-- `china`: score 9, headlines 3
+- `china`: score 11, headlines 4
   - Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund
   - World Bank to phase out China lending
   - 1. The Grand Design to Pressure China
+- `oil`: score 7, headlines 3
+  - Stocks end quarter with big gains as oil tumbles the most in years; gold, yen also fall - Reuters
+  - Oil posts largest quarterly price drop in 6 years as historic supply crunch eases
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
 - `treasury_yields`: score 7, headlines 2
   - MetaMask launches Money Account with stablecoin yield and spending in one wallet
   - Solidion Technology plans to buy SpaceX shares as treasury asset
-- `us_big_tech`: score 6, headlines 2
-  - MetaMask launches Money Account with stablecoin yield and spending in one wallet
-  - Neon Buys ‘Artificial,’ a Film About OpenAI, After Amazon Dropped It

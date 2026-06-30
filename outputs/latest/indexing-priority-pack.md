@@ -3,7 +3,7 @@
 검색 유입을 빨리 만들기 위해 Search Console 검증 후 먼저 색인 확인할 URL과 내부링크 액션을 정리합니다.
 
 - target_daily_visitors: `200`
-- daily_traffic_projection: `337`
+- daily_traffic_projection: `338`
 - search_console_required: `True`
 
 ## Sitemaps
@@ -25,18 +25,18 @@
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_30.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_30.html
-- `medium` / `china` / 예상 `55`명: 중국 변수와 시장 영향 해설
+- `medium` / `china` / 예상 `56`명: 중국 변수와 시장 영향 해설
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_510.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_510.html
-- `medium` / `seo_fomc_1` / 예상 `35`명: FOMC 이후 시장이 주식과 코인에 미치는 영향
-  - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html
-  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc_074069453.html
-  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc_074069453.html
 - `medium` / `seo_fomc_2` / 예상 `35`명: FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지
   - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc-5.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc-5.html
+- `medium` / `seo_fomc_1` / 예상 `35`명: FOMC 이후 시장이 주식과 코인에 미치는 영향
+  - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html
+  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc_074069453.html
+  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc_074069453.html
 - `medium` / `seo_fomc_3` / 예상 `35`명: FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
   - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc_01787353078.html
