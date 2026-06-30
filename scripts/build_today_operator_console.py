@@ -33,6 +33,7 @@ SEARCH_CONSOLE_SETUP_CARD_MD = ROOT / "outputs/latest/search-console-setup-card.
 INDEXING_PRIORITY_PACK_MD = ROOT / "outputs/latest/indexing-priority-pack.md"
 INTERNAL_LINK_APPLICATION_REPORT_MD = ROOT / "outputs/latest/internal-link-application-report.md"
 POPULAR_READS_APPLICATION_REPORT_MD = ROOT / "outputs/latest/popular-reads-application-report.md"
+READER_SHARE_APPLICATION_REPORT_MD = ROOT / "outputs/latest/reader-share-application-report.md"
 POPULAR_READS_BOARD_MD = ROOT / "outputs/latest/popular-reads-board.md"
 RETENTION_CTA_BOARD_MD = ROOT / "outputs/latest/retention-cta-board.md"
 EDITORIAL_CALENDAR_MD = ROOT / "outputs/latest/editorial-calendar.md"
@@ -108,6 +109,7 @@ def build_report() -> dict:
             "indexing_priority_pack_md": str(INDEXING_PRIORITY_PACK_MD),
             "internal_link_application_report_md": str(INTERNAL_LINK_APPLICATION_REPORT_MD),
             "popular_reads_application_report_md": str(POPULAR_READS_APPLICATION_REPORT_MD),
+            "reader_share_application_report_md": str(READER_SHARE_APPLICATION_REPORT_MD),
             "popular_reads_board_md": str(POPULAR_READS_BOARD_MD),
             "retention_cta_board_md": str(RETENTION_CTA_BOARD_MD),
             "editorial_calendar_md": str(EDITORIAL_CALENDAR_MD),
@@ -185,6 +187,7 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- indexing priority pack: `{report.get('review_paths', {}).get('indexing_priority_pack_md', '')}`")
     lines.append(f"- internal link application report: `{report.get('review_paths', {}).get('internal_link_application_report_md', '')}`")
     lines.append(f"- popular reads application report: `{report.get('review_paths', {}).get('popular_reads_application_report_md', '')}`")
+    lines.append(f"- reader share application report: `{report.get('review_paths', {}).get('reader_share_application_report_md', '')}`")
     lines.append(f"- popular reads board: `{report.get('review_paths', {}).get('popular_reads_board_md', '')}`")
     lines.append(f"- retention cta board: `{report.get('review_paths', {}).get('retention_cta_board_md', '')}`")
     lines.append(f"- editorial calendar: `{report.get('review_paths', {}).get('editorial_calendar_md', '')}`")

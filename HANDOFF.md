@@ -29,6 +29,7 @@
 - `scripts/build_indexing_priority_pack.py`와 `outputs/latest/indexing-priority-pack.md`를 추가했습니다. 공개 Blogger URL을 예상 유입순으로 정렬하고 URL 검사 링크, site 검색 링크, 내부링크 액션을 자동 생성합니다.
 - `scripts/apply_internal_link_blocks.py`와 `outputs/latest/internal-link-application-report.md`를 추가했습니다. `indexing-priority-pack`의 내부링크 액션을 실제 publish-ready HTML에 `함께 읽으면 흐름이 이어지는 글` 박스로 삽입해 체류시간/페이지뷰 상승을 노립니다.
 - `scripts/apply_popular_reads_blocks.py`와 `outputs/latest/popular-reads-application-report.md`를 추가했습니다. 이미 공개된 후속글 URL을 메인 글 하단 `지금 같이 많이 볼 만한 글` 박스로 삽입해 검색 유입 후 추가 클릭 동선을 강화합니다.
+- `scripts/apply_reader_share_blocks.py`와 `outputs/latest/reader-share-application-report.md`를 추가했습니다. 공개 메인 글 4개에 X/텔레그램/페이스북/원문 공유 버튼을 삽입해 독자 기반 추가 유입을 노립니다.
 - `go-live-readiness` 기준 1차 실전(초안 테스트) 준비는 됨.
 - `git remote`는 `https://github.com/bjw100kr-cell/investment-blog-cloud-sync`로 연결됐고, `repo_connected=true`, `repo_accessible=true` 상태입니다.
 - 자동화 우선 채널은 `blogger`(1순위), `wordpress`(확장)로 고정.
@@ -50,6 +51,7 @@
 - `2026-07-01`: Search Console 검증 직후 사용할 `sitemap.xml`, `feeds/posts/default?orderby=UPDATED`, 우선 URL 검사 목록, 내부링크 액션이 자동 생성되도록 연결했습니다.
 - `2026-07-01`: 내부링크 적용 검증 결과, 실제 `publish-inventory.json`의 4개 메인 글(`fomc`, `bitcoin`, `us_index_flow`, `china`)에 공개 URL 기반 내부링크 박스가 적용됐고 품질 게이트는 13/13 pass입니다.
 - `2026-07-01`: 인기글 라이브 URL 적용 검증 결과, 공개 후속글이 있는 `fomc`, `bitcoin`, `us_index_flow` 3개 메인 글에 인기글 박스가 적용됐습니다. `china`는 아직 공개 후속 URL이 없어 자동 skip입니다.
+- `2026-07-01`: 독자 공유 버튼 적용 검증 결과, 공개 메인 글 4개(`fomc`, `bitcoin`, `us_index_flow`, `china`)에 공유 버튼이 적용됐고 품질 게이트는 13/13 pass입니다.
 
 ## 이번 세션에서 완료한 변경
 - 모델 효율 규칙 + 작업 큐 문서화(`MODEL_EFFICIENCY_POLICY.md`, `TASK_QUEUE.md`) 유지.

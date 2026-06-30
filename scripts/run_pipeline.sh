@@ -176,6 +176,8 @@ run_step "30.369/34" "Apply internal link blocks" python3 scripts/apply_internal
 
 run_step "30.3695/34" "Apply popular reads blocks" python3 scripts/apply_popular_reads_blocks.py
 
+run_step "30.3697/34" "Apply reader share blocks" python3 scripts/apply_reader_share_blocks.py
+
 run_step "30.37/34" "Build retention CTA board" python3 scripts/build_retention_cta_board.py
 
 run_step "30.4/34" "Build first publish operator run preview" python3 scripts/first_publish_operator_run.py

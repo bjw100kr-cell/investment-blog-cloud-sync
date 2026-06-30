@@ -196,6 +196,9 @@ jobs:
       - name: Apply popular reads blocks
         run: python scripts/apply_popular_reads_blocks.py
 
+      - name: Apply reader share blocks
+        run: python scripts/apply_reader_share_blocks.py
+
       - name: Build retention CTA board
         run: python scripts/build_retention_cta_board.py
 

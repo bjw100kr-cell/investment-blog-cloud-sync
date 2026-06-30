@@ -1,8 +1,6 @@
 # Session Memory Log
 
 # ... truncated - recent entries kept
-- [2026-07-01 00:51:27 KST] github-remote-blocker-verified
- - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:52:06 KST] window-safety-compress-cleanup
  - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:52:26 KST] context-window-hardening-cleanup
@@ -160,4 +158,6 @@
 - [2026-07-01 06:33:56 KST] internal link blocks applied
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 06:38:32 KST] popular reads live blocks applied
+ - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
+- [2026-07-01 06:43:31 KST] reader share blocks applied
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
