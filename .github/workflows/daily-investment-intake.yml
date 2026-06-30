@@ -254,7 +254,6 @@ jobs:
         run: python scripts/build_cloud_launch_preflight.py
 
       - name: Sync Blogger site pages (optional)
-        if: ${{ secrets.BLOGGER_BLOG_ID != '' && secrets.GOOGLE_CLIENT_ID != '' && secrets.GOOGLE_CLIENT_SECRET != '' && secrets.GOOGLE_REFRESH_TOKEN != '' && vars.BLOGGER_SYNC_SITE_PAGES == 'true' }}
         env:
           BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
@@ -266,7 +265,6 @@ jobs:
         run: python scripts/sync_blogger_site_pages.py
 
       - name: Upload Blogger drafts (optional)
-        if: ${{ secrets.BLOGGER_BLOG_ID != '' && secrets.GOOGLE_CLIENT_ID != '' && secrets.GOOGLE_CLIENT_SECRET != '' && secrets.GOOGLE_REFRESH_TOKEN != '' }}
         env:
           BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
@@ -280,7 +278,6 @@ jobs:
         run: python scripts/upload_blogger_drafts.py
 
       - name: Upload WordPress drafts (optional)
-        if: ${{ secrets.WORDPRESS_SITE_URL != '' && secrets.WORDPRESS_USERNAME != '' && secrets.WORDPRESS_APPLICATION_PASSWORD != '' }}
         env:
           WORDPRESS_SITE_URL: ${{ secrets.WORDPRESS_SITE_URL }}
           WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
