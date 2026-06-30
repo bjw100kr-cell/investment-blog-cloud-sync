@@ -7,14 +7,14 @@
 - inventory_type: `main_post`
 - publish_bucket: `today_or_overdue`
 - priority_score: `140.0`
-- hook_line: FOMC 이후 시장 해설 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- hook_line: FOMC 이후 시장 해설 | 당일 이슈를 따라가되 날짜가 지난 뉴스보다 구조를 이해하고 싶은 독자
 
 ### X / Threads
 
 FOMC 이후 시장 해설
 
 오늘 시장을 볼 때 핵심은 이것입니다.
-- 독자 관점: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- 독자 관점: 당일 이슈를 따라가되 날짜가 지난 뉴스보다 구조를 이해하고 싶은 독자
 - 한 줄 포인트: 환율·금리·미국증시 evergreen 글로 연결
 
 짧고 이해하기 쉽게 정리했습니다.
@@ -29,7 +29,7 @@ FOMC 이후 시장 해설
 
 FOMC 이후 시장 해설
 
-이번 글은 '당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 환율·금리·미국증시 evergreen 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
+이번 글은 '당일 이슈를 따라가되 날짜가 지난 뉴스보다 구조를 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 환율·금리·미국증시 evergreen 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
 
 ### Newsletter
 
@@ -74,7 +74,7 @@ FOMC 이후 시장 해설
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
-- priority_score: `119.0`
+- priority_score: `120.0`
 - hook_line: 미국 증시 지수 흐름 해설 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -346,7 +346,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `118.5`
+- priority_score: `119.5`
 - hook_line: 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기 | 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 
 ### X / Threads
@@ -380,7 +380,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `115.5`
+- priority_score: `116.5`
 - hook_line: 미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나 | 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 
 ### X / Threads
@@ -414,7 +414,7 @@ FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `112.5`
+- priority_score: `113.5`
 - hook_line: 미국 증시 지수 흐름 ETF·지수·대표 기업 정리 | 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 
 ### X / Threads

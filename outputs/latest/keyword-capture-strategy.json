@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T21:10:07.428280+00:00",
+  "generated_at": "2026-06-30T21:17:44.580812+00:00",
   "items": [
     {
       "keyword": "fomc",
@@ -96,7 +96,7 @@
       },
       "capture_route": "search_entry_to_internal_links",
       "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 3200,
+      "demand_signal_score": 3400,
       "trend_queries": [],
       "source_names": [
         "Cointelegraph",
@@ -152,8 +152,8 @@
       ]
     },
     {
-      "keyword": "dollar",
-      "recommended_title": "달러 흐름 해설",
+      "keyword": "ai_semiconductors",
+      "recommended_title": "AI·반도체 섹터 흐름 해설",
       "pattern_name": "search_explainer",
       "pattern_rules": {
         "when_to_use": [
@@ -170,22 +170,23 @@
           "끝부분에 다음 체크포인트와 내부링크 연결"
         ]
       },
-      "capture_route": "search_entry_to_internal_links",
-      "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 2800,
+      "capture_route": "sector_hub_to_followups",
+      "capture_route_description": "섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.",
+      "demand_signal_score": 0,
       "trend_queries": [],
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "NYT Business"
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "MarketWatch Breaking News"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
-        "왜 지금 이 이슈가 중요한가",
-        "실제로 발표되거나 벌어진 일",
-        "주식·코인·달러·금리에 주는 영향",
-        "앞으로 체크할 변수",
-        "개인 투자자가 볼 포인트"
+        "지금 이 섹터가 왜 움직이는가",
+        "핵심 뉴스와 시장 반응",
+        "대표 종목과 자금 흐름",
+        "거시 변수와 연결",
+        "다음 실적/정책 이벤트"
       ]
     }
   ]

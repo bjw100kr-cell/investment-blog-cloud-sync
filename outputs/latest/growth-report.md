@@ -1,6 +1,6 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-06-30T21:10:07.428280+00:00`
+- 생성 시각: `2026-06-30T21:17:44.580812+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
@@ -10,7 +10,7 @@
 - `bitcoin`: 비트코인 핵심 흐름 해설 / 점수 89.0 / 수익화 15
   - 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
   - 근거 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `us_index_flow`: 미국 증시 지수 흐름 해설 / 점수 84.0 / 수익화 15
+- `us_index_flow`: 미국 증시 지수 흐름 해설 / 점수 85.0 / 수익화 15
   - 이유: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
   - 근거 소스: Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T21:10:07.428280+00:00",
+  "generated_at": "2026-06-30T21:17:44.580812+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -129,7 +129,7 @@
       "crypto_market_signal_bonus": 5,
       "crypto_market_sentiment": "extreme_fear",
       "crypto_market_signal_notes": [
-        "BTCUSDT 24h change -2.79%",
+        "BTCUSDT 24h change -2.86%",
         "Fear/Greed 15: Extreme Fear zone"
       ],
       "total_score": 89.0,
@@ -170,8 +170,8 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3200,
-      "search_score": 23,
+      "demand_signal_score": 3400,
+      "search_score": 24,
       "timeliness_score": 21,
       "explanatory_score": 19,
       "monetization_score": 15,
@@ -181,7 +181,7 @@
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 84.0,
+      "total_score": 85.0,
       "format": "sector_analysis"
     },
     {
@@ -230,51 +230,52 @@
       "format": "macro_explainer"
     },
     {
-      "keyword": "dollar",
-      "category": "macro",
-      "brand_lane": "macro",
+      "keyword": "ai_semiconductors",
+      "category": "global-sector",
+      "brand_lane": "us-stocks",
       "title_candidates": [
-        "달러 흐름 해설",
-        "달러 흐름 해설: 지금 시장이 반응하는 이유",
-        "달러 흐름 해설로 보는 주식·코인 흐름"
+        "AI·반도체 섹터 흐름 해설",
+        "AI·반도체 섹터 흐름 해설: 지금 시장이 반응하는 이유",
+        "AI·반도체 섹터 흐름 해설로 보는 주식·코인 흐름"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
-        "왜 지금 이 이슈가 중요한가",
-        "실제로 발표되거나 벌어진 일",
-        "주식·코인·달러·금리에 주는 영향",
-        "앞으로 체크할 변수",
-        "개인 투자자가 볼 포인트"
+        "지금 이 섹터가 왜 움직이는가",
+        "핵심 뉴스와 시장 반응",
+        "대표 종목과 자금 흐름",
+        "거시 변수와 연결",
+        "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Why OpenUSD's 'real threat' that tanked Circle stock still faces a steep uphill battle for adoption",
-        "Circle craters 17% as Stripe, Coinbase and BlackRock back rival stablecoin network",
-        "Financial companies join forces for US dollar stablecoin, keeping reserve earnings",
-        "Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen",
-        "BMW Will Build a New Electric S.U.V. in South Carolina"
+        "Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter",
+        "Anthropic launches AI drug discovery program, joining tech giants in betting on healthcare",
+        "US stocks chalk up biggest quarterly gain in six years",
+        "The 20 best-performing stocks in the S&P 500 for the first half of 2026",
+        "US stocks chalk up biggest quarterly gain in six years"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "NYT Business"
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "MarketWatch Breaking News"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2800,
-      "search_score": 19,
-      "timeliness_score": 18,
+      "demand_signal_score": 0,
+      "search_score": 17,
+      "timeliness_score": 20,
       "explanatory_score": 17,
-      "monetization_score": 13,
-      "risk_score": 6,
+      "monetization_score": 15,
+      "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 73.0,
-      "format": "macro_explainer"
+      "total_score": 76.0,
+      "format": "sector_analysis"
     }
   ]
 }

@@ -3,7 +3,7 @@
 업로드 전에 운영자와 사용자가 함께 확인할 글 검토 패킷입니다.
 
 - 사용자 최종 확인 파일: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/review-approvals.json`
-- 사용자 확인 헬퍼: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin` 또는 `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --all`
+- 사용자 확인 헬퍼: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin` 또는 `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --all`
 - 총 검토 대상: `13`
 - 바로 최종 확인 가능: `13`
 - 주의 검토: `0`
@@ -16,7 +16,7 @@
 - publish date: `2026-06-30`
 - priority: `140.0`
 - internal review: `approve` / score `100`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- intent: 당일 이슈를 따라가되 날짜가 지난 뉴스보다 구조를 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
 - final retention CTA: FOMC 흐름이 여기서 끝이 아닙니다. 아래 체크포인트 글과 초보자 가이드까지 같이 보면 다음 일정에서 뭘 봐야 할지 훨씬 선명해집니다.
 - later revisit CTA: 거시 이벤트를 놓치지 않으려면 다음 체크포인트 글까지 같이 보고, 이후에는 텔레그램/구독 채널로 이어 받아보세요.
@@ -58,7 +58,7 @@
 - keyword: `us_index_flow`
 - type: `main_post` / role `lane_focus_us-stocks`
 - publish date: `2026-07-02`
-- priority: `119.0`
+- priority: `120.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
@@ -234,7 +234,7 @@
 - keyword: `seo_us_index_flow_7`
 - type: `seo_followup` / role `evergreen_seo`
 - publish date: `2026-07-02`
-- priority: `118.5`
+- priority: `119.5`
 - internal review: `approve` / score `100`
 - intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 - CTA focus: 대표 종목 글과 허브 글 연결
@@ -256,7 +256,7 @@
 - keyword: `seo_us_index_flow_8`
 - type: `seo_followup` / role `follow_up`
 - publish date: `2026-07-02`
-- priority: `115.5`
+- priority: `116.5`
 - internal review: `approve` / score `100`
 - intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 - CTA focus: 실적 해설과 글로벌 섹터 허브 연결
@@ -278,7 +278,7 @@
 - keyword: `seo_us_index_flow_9`
 - type: `seo_followup` / role `evergreen_seo`
 - publish date: `2026-07-02`
-- priority: `112.5`
+- priority: `113.5`
 - internal review: `approve` / score `100`
 - intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 - CTA focus: 섹터 허브와 후속 비교 글 연결

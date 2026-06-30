@@ -7,7 +7,7 @@
 - user_confirmed_all: `False`
 - user_confirmed_keywords: `["bitcoin"]`
 - user_confirmed_ready_count: `1`
-- quality_ready_count: `13`
+- quality_ready_count: `12`
 - freshness policy: `stale source evidence is excluded from upload candidates until refreshed`
 
 ## blogger

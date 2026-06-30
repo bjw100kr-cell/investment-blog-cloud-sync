@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-06-30T21:10:07.428280+00:00`
+- 생성 시각: `2026-06-30T21:17:44.580812+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -108,10 +108,10 @@ If you are sure that the described cause is not responsible for this error and t
 
 - `bitcoin`: score 48, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `fomc`: score 45, source_count 4, sources Federal Reserve Monetary Policy Press, Financial Times World, NYT Business, Reuters Markets via Google News RSS
-- `us_index_flow`: score 20, source_count 5, sources Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_index_flow`: score 22, source_count 5, sources Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - `dollar`: score 16, source_count 3, sources CoinDesk RSS, Cointelegraph, NYT Business
+- `ai_semiconductors`: score 14, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
 - `crypto_etf`: score 13, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `ai_semiconductors`: score 12, source_count 3, sources CNBC Top News, Financial Times Home, Financial Times World
 - `ethereum`: score 9, source_count 3, sources CoinDesk RSS, Cointelegraph, Financial Times YouTube
 - `china`: score 9, source_count 3, sources CNBC Top News, Financial Times Home, 무역킹 Trade King YouTube
 - `treasury_yields`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
@@ -127,7 +127,7 @@ If you are sure that the described cause is not responsible for this error and t
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Minutes of the Federal Open Market Committee, April 28-29, 2026
-- `us_index_flow`: score 20, headlines 7
+- `us_index_flow`: score 22, headlines 8
   - Nasdaq brings proprietary market data onchain through Pyth
   - US stocks chalk up biggest quarterly gain in six years
   - S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters
@@ -135,14 +135,14 @@ If you are sure that the described cause is not responsible for this error and t
   - Why OpenUSD's 'real threat' that tanked Circle stock still faces a steep uphill battle for adoption
   - Circle craters 17% as Stripe, Coinbase and BlackRock back rival stablecoin network
   - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
+- `ai_semiconductors`: score 14, headlines 5
+  - Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter
+  - Anthropic launches AI drug discovery program, joining tech giants in betting on healthcare
+  - US stocks chalk up biggest quarterly gain in six years
 - `crypto_etf`: score 13, headlines 4
   - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
   - SEC seeks public comment on regulating next generation of ETFs
   - Bitcoin weak below $60k as rate jitters, ETF outflows persist
-- `ai_semiconductors`: score 12, headlines 4
-  - Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter
-  - Anthropic launches AI drug discovery program, joining tech giants in betting on healthcare
-  - US stocks chalk up biggest quarterly gain in six years
 - `china`: score 9, headlines 3
   - Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund
   - World Bank to phase out China lending

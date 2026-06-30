@@ -1,6 +1,6 @@
 # 오늘의 키워드 기회판
 
-- 생성 시각: `2026-06-30T21:10:07.428280+00:00`
+- 생성 시각: `2026-06-30T21:17:44.580812+00:00`
 - 당일 브레이킹 후보: `5`
 - SEO 후속 후보: `6`
 - 검색어 워치리스트: `4`
@@ -31,7 +31,7 @@
 
 - keyword: us_index_flow
 - urgency: watch
-- score: 84.0 / search 23 / demand 3200
+- score: 85.0 / search 24 / demand 3400
 - ready_to_upload: True
 - queue_publish: 2026-07-02 (this_week)
 - reason: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
@@ -47,14 +47,14 @@
 - reason: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
-### 5. 달러 흐름 해설
+### 5. AI·반도체 섹터 흐름 해설
 
-- keyword: dollar
+- keyword: ai_semiconductors
 - urgency: watch
-- score: 73.0 / search 19 / demand 2800
+- score: 76.0 / search 17 / demand 0
 - ready_to_upload: False
 - queue_publish: 미정 (queue 없음)
-- reason: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- reason: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
 ## 검색형 후속 SEO 후보
@@ -121,7 +121,7 @@
 - `fomc`: type mapped_keyword_demand / mapped fomc / demand 5700 / regions unknown
   - suggested_title: fomc 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결되어 있어 검색형 후속 글로 전환하기 좋습니다.
-- `us_index_flow`: type mapped_keyword_demand / mapped us_index_flow / demand 3200 / regions unknown
+- `us_index_flow`: type mapped_keyword_demand / mapped us_index_flow / demand 3400 / regions unknown
   - suggested_title: us_index_flow 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결되어 있어 검색형 후속 글로 전환하기 좋습니다.
 - `dollar`: type mapped_keyword_demand / mapped dollar / demand 2800 / regions unknown
