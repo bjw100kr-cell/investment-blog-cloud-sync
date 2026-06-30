@@ -30,6 +30,7 @@ VISITOR_PROOF_BOARD_MD = ROOT / "outputs/latest/visitor-proof-board.md"
 SEARCH_CONSOLE_SETUP_CARD_MD = ROOT / "outputs/latest/search-console-setup-card.md"
 INDEXING_PRIORITY_PACK_MD = ROOT / "outputs/latest/indexing-priority-pack.md"
 INTERNAL_LINK_APPLICATION_REPORT_MD = ROOT / "outputs/latest/internal-link-application-report.md"
+POPULAR_READS_APPLICATION_REPORT_MD = ROOT / "outputs/latest/popular-reads-application-report.md"
 POPULAR_READS_BOARD_MD = ROOT / "outputs/latest/popular-reads-board.md"
 RETENTION_CTA_BOARD_MD = ROOT / "outputs/latest/retention-cta-board.md"
 EDITORIAL_CALENDAR_MD = ROOT / "outputs/latest/editorial-calendar.md"
@@ -231,6 +232,8 @@ def build_report() -> dict:
         "indexing_priority_pack_uri": to_uri(INDEXING_PRIORITY_PACK_MD),
         "internal_link_application_report_md": str(INTERNAL_LINK_APPLICATION_REPORT_MD),
         "internal_link_application_report_uri": to_uri(INTERNAL_LINK_APPLICATION_REPORT_MD),
+        "popular_reads_application_report_md": str(POPULAR_READS_APPLICATION_REPORT_MD),
+        "popular_reads_application_report_uri": to_uri(POPULAR_READS_APPLICATION_REPORT_MD),
         "popular_reads_board_md": str(POPULAR_READS_BOARD_MD),
         "popular_reads_board_uri": to_uri(POPULAR_READS_BOARD_MD),
         "retention_cta_board_md": str(RETENTION_CTA_BOARD_MD),
@@ -360,6 +363,7 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- search console setup card: `{report.get('search_console_setup_card_md', '')}`")
     lines.append(f"- indexing priority pack: `{report.get('indexing_priority_pack_md', '')}`")
     lines.append(f"- internal link application report: `{report.get('internal_link_application_report_md', '')}`")
+    lines.append(f"- popular reads application report: `{report.get('popular_reads_application_report_md', '')}`")
     lines.append(f"- popular reads board: `{report.get('popular_reads_board_md', '')}`")
     lines.append(f"- retention cta board: `{report.get('retention_cta_board_md', '')}`")
     lines.append(f"- editorial calendar: `{report.get('editorial_calendar_md', '')}`")

@@ -193,6 +193,9 @@ jobs:
       - name: Apply internal link blocks
         run: python scripts/apply_internal_link_blocks.py
 
+      - name: Apply popular reads blocks
+        run: python scripts/apply_popular_reads_blocks.py
+
       - name: Build retention CTA board
         run: python scripts/build_retention_cta_board.py
 
