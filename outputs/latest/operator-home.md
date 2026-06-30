@@ -9,10 +9,10 @@
 - 3단계: 사용자가 확인하기 전에는 어떤 글도 실제 업로드 단계로 넘기지 않습니다.
 - 4단계: 최종 확인이 끝난 글만 Blogger 업로드 후보로 계산됩니다.
 
-- ready_for_first_live_run: `False`
-- repo_connected: `False`
-- first_live_run_status: `needs_preflight_review`
-- github_launch_status: `needs_repo_creation`
+- ready_for_first_live_run: `True`
+- repo_connected: `True`
+- first_live_run_status: `ready_for_draft_test`
+- github_launch_status: `needs_gh_cli`
 - cloud_verification_ok: `True`
 - quality_needs_fix_count: `0`
 - quality_review_count: `0`
@@ -21,7 +21,7 @@
 
 - action: `Shortlist 초안 먼저 확인`
 - link: `file:///Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/user-review-checkpoint.html`
-- one-command after approval: `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "fomc 글 먼저 진행" --apply`
+- one-command after approval: `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행" --apply`
 - why: 지금은 shortlist 글 초안과 미리보기를 먼저 읽고, 괜찮은 글만 사용자 최종 확인으로 넘기는 단계입니다. 확인 전에는 실제 업로드가 계속 차단됩니다.
 
 ## Main Links
@@ -85,7 +85,9 @@
 
 ## Current Blockers
 
-- GitHub repo 연결이 아직 없어 컴퓨터가 꺼져도 도는 클라우드 자동화를 시작할 수 없습니다.
+- GitHub repo is not connected yet, so cloud automation cannot continue after local preparation.
+- Search Console site URL is still missing, so keyword refinement is still using fallback signals.
+- OpenAI API key is missing, so paid human-tone draft expansion remains disabled.
 
 ## Later Improvements
 
@@ -97,12 +99,12 @@
 
 - single: `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
 - batch: `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin`
-- reply preview: `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "fomc 글 먼저 진행"`
-- reply apply: `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "fomc 글 먼저 진행" --apply`
+- reply preview: `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행"`
+- reply apply: `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행" --apply`
 
 ## After Confirmation
 
-- `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "fomc 글 먼저 진행" --apply`
+- `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행" --apply`
 - `python3 scripts/build_platform_publish_plan.py`
 - `python3 scripts/upload_blogger_drafts.py`
 - `python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state`

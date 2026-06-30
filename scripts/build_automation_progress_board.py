@@ -94,7 +94,9 @@ def build_report() -> dict:
         stage(
             "free_cloud_automation",
             "blocked" if not repo_connected else "in_progress",
-            "컴퓨터가 꺼져도 도는 무료 자동화는 GitHub repo 연결 전까지 막혀 있습니다.",
+            "컴퓨터가 꺼져도 도는 무료 자동화는 repo 연결이 끝났고, 이제 Actions Secrets와 첫 수동 실행 검증만 남았습니다."
+            if repo_connected
+            else "컴퓨터가 꺼져도 도는 무료 자동화는 GitHub repo 연결 전까지 막혀 있습니다.",
             [
                 f"repo_connected `{repo_connected}`",
                 f"github_status `{github.get('status', '')}`",

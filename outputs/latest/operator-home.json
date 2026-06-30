@@ -1,17 +1,17 @@
 {
   "top_state": {
-    "ready_for_first_live_run": false,
-    "repo_connected": false,
-    "first_live_run_status": "needs_preflight_review",
-    "github_launch_status": "needs_repo_creation"
+    "ready_for_first_live_run": true,
+    "repo_connected": true,
+    "first_live_run_status": "ready_for_draft_test",
+    "github_launch_status": "needs_gh_cli"
   },
   "approval": {
     "single_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
     "batch_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin"
   },
   "reply_flow": {
-    "preview_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply \"fomc 글 먼저 진행\"",
-    "apply_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply \"fomc 글 먼저 진행\" --apply"
+    "preview_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply \"bitcoin 글 먼저 진행\"",
+    "apply_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply \"bitcoin 글 먼저 진행\" --apply"
   },
   "review_shortlist": [
     {
@@ -172,7 +172,9 @@
     }
   ],
   "blockers": [
-    "GitHub repo 연결이 아직 없어 컴퓨터가 꺼져도 도는 클라우드 자동화를 시작할 수 없습니다."
+    "GitHub repo is not connected yet, so cloud automation cannot continue after local preparation.",
+    "Search Console site URL is still missing, so keyword refinement is still using fallback signals.",
+    "OpenAI API key is missing, so paid human-tone draft expansion remains disabled."
   ],
   "later_improvements": [
     "Search Console은 나중에 붙여도 됩니다. 현재는 fallback 검색 수요 로직으로 운영이 가능합니다.",

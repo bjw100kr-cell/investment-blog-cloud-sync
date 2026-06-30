@@ -2,17 +2,16 @@
 
 지금 자동화를 더 앞으로 밀기 위해 사용자 쪽에서 필요한 건 사실 2개입니다.
 
-- main_candidate: `fomc` / FOMC 이후 시장 해설
+- main_candidate: `bitcoin` / 비트코인 핵심 흐름 해설
 
 ## 지금 할 2개
 
-- `1. fomc 승인`
+- `1. bitcoin 승인`
   - why: 이 1건만 승인되면 Blogger draft loop 실검증으로 바로 넘어갈 수 있습니다.
-  - command: python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc
+  - command: python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin
 - `2. GitHub repo 연결`
   - why: 이 단계가 끝나야 컴퓨터가 꺼져 있어도 무료 클라우드 자동화가 돌아갑니다.
-  - command: `bash scripts/bootstrap_github_remote.sh <OWNER/REPO>`
-  - repo_create_link: https://github.com/jhyang1117/investment-blog-cloud-sync
+  - repo_create_link: https://github.com/bjw100kr-cell/investment-blog-cloud-sync
   - web_checklist_md: /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-web-launch-checklist.md
 
 ## 나중에 해도 되는 것

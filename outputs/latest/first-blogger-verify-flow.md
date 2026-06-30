@@ -3,11 +3,11 @@
 사용자 확인 뒤 로컬 Blogger draft 검증까지 바로 이어지는 최소 실행 흐름입니다.
 
 - apply_mode: `False`
-- main_candidate: `fomc` / FOMC 이후 시장 해설
+- main_candidate: `bitcoin` / 비트코인 핵심 흐름 해설
 
 ## Command Chain
 
-- `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - `python3 scripts/build_platform_publish_plan.py`
 - `python3 scripts/upload_blogger_drafts.py`
 

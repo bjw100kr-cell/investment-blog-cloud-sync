@@ -1,7 +1,7 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-06-30T16:04:31.440339+00:00`
+- generated_at: `2026-06-30T16:17:31.201915+00:00`
 - snapshot_generated_at: `2026-06-30T16:04:26.272859+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`

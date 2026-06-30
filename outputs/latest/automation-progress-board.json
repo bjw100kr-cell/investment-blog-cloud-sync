@@ -1,13 +1,13 @@
 {
   "summary": {
-    "first_live_ready": false,
-    "repo_connected": false,
+    "first_live_ready": true,
+    "repo_connected": true,
     "status_counts": {
       "complete": 2,
-      "in_progress": 1,
-      "blocked": 2
+      "in_progress": 2,
+      "blocked": 1
     },
-    "current_main_candidate": "fomc"
+    "current_main_candidate": "bitcoin"
   },
   "stages": [
     {
@@ -17,7 +17,7 @@
       "proof": [
         "editorial coverage entries `4`",
         "today path entries `3`",
-        "recommended single `fomc`"
+        "recommended single `bitcoin`"
       ],
       "next_action": "필요 시 source 수집과 점수 로직을 계속 보강",
       "owner": "agent"
@@ -29,22 +29,22 @@
       "proof": [
         "blogger_ready `True`",
         "user_confirmed_keywords `['bitcoin']`",
-        "success_gate `needs_preflight_review`"
+        "success_gate `ready_for_draft_test`"
       ],
       "next_action": "",
       "owner": "agent"
     },
     {
       "name": "free_cloud_automation",
-      "status": "blocked",
-      "summary": "컴퓨터가 꺼져도 도는 무료 자동화는 GitHub repo 연결 전까지 막혀 있습니다.",
+      "status": "in_progress",
+      "summary": "컴퓨터가 꺼져도 도는 무료 자동화는 repo 연결이 끝났고, 이제 Actions Secrets와 첫 수동 실행 검증만 남았습니다.",
       "proof": [
-        "repo_connected `False`",
-        "github_status `needs_repo_creation`",
+        "repo_connected `True`",
+        "github_status `needs_gh_cli`",
         "sync_ready_keys `4`"
       ],
-      "next_action": "`bash scripts/bootstrap_github_remote.sh <OWNER/REPO>`",
-      "owner": "user"
+      "next_action": "GitHub Actions 첫 수동 실행 검증",
+      "owner": "agent"
     },
     {
       "name": "measurement_and_growth",
@@ -72,18 +72,6 @@
   ],
   "user_needed_actions": [
     {
-      "name": "free_cloud_automation",
-      "status": "blocked",
-      "summary": "컴퓨터가 꺼져도 도는 무료 자동화는 GitHub repo 연결 전까지 막혀 있습니다.",
-      "proof": [
-        "repo_connected `False`",
-        "github_status `needs_repo_creation`",
-        "sync_ready_keys `4`"
-      ],
-      "next_action": "`bash scripts/bootstrap_github_remote.sh <OWNER/REPO>`",
-      "owner": "user"
-    },
-    {
       "name": "wordpress_expansion",
       "status": "blocked",
       "summary": "WordPress는 2차 확장 채널이며 현재 필수 자격값이 없어 막혀 있습니다.",
@@ -103,9 +91,21 @@
       "proof": [
         "editorial coverage entries `4`",
         "today path entries `3`",
-        "recommended single `fomc`"
+        "recommended single `bitcoin`"
       ],
       "next_action": "필요 시 source 수집과 점수 로직을 계속 보강",
+      "owner": "agent"
+    },
+    {
+      "name": "free_cloud_automation",
+      "status": "in_progress",
+      "summary": "컴퓨터가 꺼져도 도는 무료 자동화는 repo 연결이 끝났고, 이제 Actions Secrets와 첫 수동 실행 검증만 남았습니다.",
+      "proof": [
+        "repo_connected `True`",
+        "github_status `needs_gh_cli`",
+        "sync_ready_keys `4`"
+      ],
+      "next_action": "GitHub Actions 첫 수동 실행 검증",
       "owner": "agent"
     },
     {
@@ -130,6 +130,6 @@
   "operator_notes": [
     "현재 사용자 최종 확인 전 실제 업로드는 계속 차단됩니다.",
     "bitcoin이 direct publish 기준 1순위이고, stale fomc는 direct path에서 제외된 상태입니다.",
-    "blogger blockers observed `13`"
+    "blogger blockers observed `10`"
   ]
 }

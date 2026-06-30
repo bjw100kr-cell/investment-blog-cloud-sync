@@ -83,10 +83,10 @@
 
 ## 오늘 운영자가 바로 할 일
 
-- 1순위 발행: `fomc` / FOMC 이후 시장 해설 / urgency 
-- 1순위 액션: 
-- 추천 묶음 승인: `가장 먼저 볼 메인 글` / command `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin`
-- 단건 승인 시작점: `fomc` / FOMC 이후 시장 해설 / command `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- 1순위 발행: `bitcoin` / 비트코인 핵심 흐름 해설 / urgency fresh
+- 1순위 액션: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
+- 추천 묶음 승인: `가장 먼저 볼 메인 글` / command `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
+- 단건 승인 시작점: `bitcoin` / 비트코인 핵심 흐름 해설 / command `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - 2순위 준비: `bitcoin` / 비트코인 핵심 흐름 해설 / urgency prep_today
 - 오늘 후속 SEO 후보: `FOMC 이후 시장이 주식과 코인에 미치는 영향`
 - 후속 검색 의도: 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자

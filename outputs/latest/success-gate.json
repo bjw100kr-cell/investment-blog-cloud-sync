@@ -1,7 +1,7 @@
 {
-  "all_green": false,
-  "first_live_status": "needs_preflight_review",
-  "github_launch_status": "needs_repo_creation",
+  "all_green": true,
+  "first_live_status": "ready_for_draft_test",
+  "github_launch_status": "needs_gh_cli",
   "checks": [
     {
       "name": "google_client_connected",
@@ -29,19 +29,16 @@
     },
     {
       "name": "github_repo_connected",
-      "ready": false,
+      "ready": true,
       "next_action": "bash scripts/bootstrap_github_remote.sh <OWNER/REPO>",
       "required": true
     },
     {
       "name": "first_live_run_ready",
-      "ready": false,
+      "ready": true,
       "next_action": "bash scripts/run_pipeline.sh",
       "required": true
     }
   ],
-  "next_actions": [
-    "bash scripts/bootstrap_github_remote.sh <OWNER/REPO>",
-    "bash scripts/run_pipeline.sh"
-  ]
+  "next_actions": []
 }

@@ -203,28 +203,14 @@
     "recommended_batch": {
       "id": "due_soon_main",
       "label": "가장 먼저 볼 메인 글",
-      "reason": "발행일이 오늘 또는 내일인 메인 글이며, 품질/이미지 준비가 된 글을 위로 올렸습니다.",
+      "reason": "발행일이 오늘 또는 내일인 메인 글이며, 품질/이미지 준비가 된 글을 위로 올렸습니다. 단, stale 글은 지금 승인 권장 묶음에서는 제외하고 보류 목록으로 분리했습니다.",
       "keywords": [
-        "fomc",
         "bitcoin"
       ],
-      "approval_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
-      "item_count": 2,
-      "ready_now_count": 2,
+      "approval_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+      "item_count": 1,
+      "ready_now_count": 1,
       "items": [
-        {
-          "keyword": "fomc",
-          "title": "FOMC 이후 시장 해설",
-          "publish_date": "2026-07-01",
-          "priority": 140.0,
-          "inventory_type": "main_post",
-          "role": "lane_focus_macro",
-          "quality_status": "pass",
-          "hero_image_selected": true,
-          "ready_now": true,
-          "freshness_status": "",
-          "brand_lane": "macro"
-        },
         {
           "keyword": "bitcoin",
           "title": "비트코인 핵심 흐름 해설",
@@ -239,33 +225,48 @@
           "brand_lane": "crypto"
         }
       ],
-      "deferred_items": []
+      "deferred_items": [
+        {
+          "keyword": "fomc",
+          "title": "FOMC 이후 시장 해설",
+          "publish_date": "2026-07-01",
+          "priority": 140.0,
+          "inventory_type": "main_post",
+          "role": "lane_focus_macro",
+          "quality_status": "pass",
+          "hero_image_selected": true,
+          "ready_now": true,
+          "freshness_status": "stale",
+          "brand_lane": "macro"
+        }
+      ]
     },
     "recommended_single": {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장 해설",
-      "publish_date": "2026-07-01",
-      "priority_score": 140.0,
+      "keyword": "bitcoin",
+      "title": "비트코인 핵심 흐름 해설",
+      "publish_date": "2026-07-02",
+      "priority_score": 121.0,
       "review_verdict": "approve",
       "quality_status": "pass",
-      "freshness_status": "",
-      "freshness_recommendation": "",
+      "freshness_status": "fresh",
+      "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "hero_image_selected": true,
-      "hero_image_search_url": "https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline",
-      "hero_image_search_query": "central bank meeting finance city skyline",
-      "hero_image_provider": "Unsplash",
-      "hero_image_license_label": "Unsplash License",
-      "hero_image_license_url": "https://unsplash.com/license",
-      "hero_image_apply_helper": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
-      "brand_lane": "macro",
-      "brand_lane_label": "거시경제",
-      "selection_summary": "`fomc`이 오늘 직접 발행 가능한 후보 중 가장 안전한 1순위입니다. 현재 브랜드 레인은 `macro` (거시경제)이고 freshness는 `unknown`입니다. 품질 게이트가 통과 상태라 승인 후 업로드 경로가 가장 짧습니다. 대표 이미지도 이미 선택되어 있어 추가 준비가 거의 없습니다. 오늘 1순위 후보는 레인 우선순위 `macro > crypto > us-stocks > world-flow` 기준에서 freshness와 검수 상태를 함께 반영해 고릅니다.",
+      "hero_image_search_url": "https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/",
+      "hero_image_search_query": "bitcoin blockchain abstract blue finance",
+      "hero_image_provider": "Pexels",
+      "hero_image_license_label": "Pexels License",
+      "hero_image_license_url": "https://www.pexels.com/license/",
+      "hero_image_apply_helper": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword bitcoin --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
+      "brand_lane": "crypto",
+      "brand_lane_label": "코인",
+      "selection_summary": "`bitcoin`이 오늘 직접 발행 가능한 후보 중 가장 안전한 1순위입니다. 현재 브랜드 레인은 `crypto` (코인)이고 freshness는 `fresh`입니다. 품질 게이트가 통과 상태라 승인 후 업로드 경로가 가장 짧습니다. 대표 이미지도 이미 선택되어 있어 추가 준비가 거의 없습니다. 오늘 1순위 후보는 레인 우선순위 `macro > crypto > us-stocks > world-flow` 기준에서 freshness와 검수 상태를 함께 반영해 고릅니다.",
       "comparison_notes": [
-        "`seo_fomc_1`도 같은 `macro` 레인이지만 현재 점수와 발행 준비도 기준에서는 `fomc`가 앞섭니다.",
-        "`seo_fomc_2`도 같은 `macro` 레인이지만 현재 점수와 발행 준비도 기준에서는 `fomc`가 앞섭니다.",
-        "`seo_fomc_3`도 같은 `macro` 레인이지만 현재 점수와 발행 준비도 기준에서는 `fomc`가 앞섭니다."
+        "`fomc`는 priority `140.0`로 높지만 freshness가 `stale`라서 오늘 메인 직접 발행 후보에서 보류됐습니다.",
+        "`seo_fomc_1`는 priority는 더 높지만 현재 승인 경로 전체 기준에서는 `bitcoin`보다 직접 업로드 안전성이 낮습니다.",
+        "`seo_fomc_2`는 priority는 더 높지만 현재 승인 경로 전체 기준에서는 `bitcoin`보다 직접 업로드 안전성이 낮습니다.",
+        "`seo_fomc_3`는 priority는 더 높지만 현재 승인 경로 전체 기준에서는 `bitcoin`보다 직접 업로드 안전성이 낮습니다."
       ],
-      "approval_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc"
+      "approval_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin"
     },
     "after_approval_commands": [
       "python3 scripts/build_platform_publish_plan.py",
@@ -278,40 +279,40 @@
     "today_path": [
       {
         "step": "main_post",
-        "keyword": "fomc",
-        "title": "FOMC 이후 시장 해설",
-        "why_revenue": "페이지뷰와 체류시간 균형 확보",
-        "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-        "urgency": "publish_now",
-        "brand_lane": "macro",
-        "brand_lane_label": "거시경제"
-      },
-      {
-        "step": "seo_followup",
-        "keyword": "fomc",
-        "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
-        "why_revenue": "검색 유입 누적과 첫 방문 독자 확보",
-        "cta_focus": "거시 허브와 당일 해설 글로 연결",
-        "urgency": "follow_after_main",
-        "brand_lane": "macro",
-        "brand_lane_label": "거시경제"
-      },
-      {
-        "step": "next_slot",
         "keyword": "bitcoin",
         "title": "비트코인 핵심 흐름 해설",
         "why_revenue": "페이지뷰와 체류시간 균형 확보",
         "cta_focus": "ETF·규제·초보 가이드 글로 연결",
         "urgency": "prep_today",
         "brand_lane": "crypto",
-        "brand_lane_label": "코인",
+        "brand_lane_label": "코인"
+      },
+      {
+        "step": "seo_followup",
+        "keyword": "bitcoin",
+        "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+        "why_revenue": "초보 검색 유입과 긴 체류시간 확보",
+        "cta_focus": "코인 허브와 규제/ETF 글 연결",
+        "urgency": "follow_after_main",
+        "brand_lane": "crypto",
+        "brand_lane_label": "코인"
+      },
+      {
+        "step": "next_slot",
+        "keyword": "us_index_flow",
+        "title": "미국 증시 지수 흐름 해설",
+        "why_revenue": "페이지뷰와 체류시간 균형 확보",
+        "cta_focus": "실적·공급망·대표 종목 글로 연결",
+        "urgency": "watch",
+        "brand_lane": "us-stocks",
+        "brand_lane_label": "미국주식",
         "selection_mode": "direct",
         "freshness_status": "fresh"
       }
     ],
     "approval_commands": {
-      "batch": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
-      "single": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc"
+      "batch": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+      "single": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin"
     },
     "monetization_gaps": [
       "analytics_stack",
@@ -319,16 +320,16 @@
       "retention_stack"
     ],
     "operator_summary": {
-      "main_post_first": "FOMC 이후 시장 해설",
-      "seo_followup_after": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
-      "next_slot_title": "비트코인 핵심 흐름 해설"
+      "main_post_first": "비트코인 핵심 흐름 해설",
+      "seo_followup_after": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+      "next_slot_title": "미국 증시 지수 흐름 해설"
     },
     "path_policy": "main post는 현재 최적 단건 후보를 유지하고, next slot은 가능하면 다른 브랜드 레인에서 선택"
   },
   "monetization_roadmap": {
     "generated_at": "2026-06-30T16:04:26.272859+00:00",
     "monetization_score": 50.0,
-    "first_live_run_ready": false,
+    "first_live_run_ready": true,
     "phases": [
       {
         "phase": "phase_1_validate_blogger",
@@ -346,7 +347,7 @@
         "gate": "첫 draft 검증 성공 후 3~7일 운영",
         "focus": "검색 유입용 메인 글과 후속 SEO 글이 반복 루프로 굴러가는지 확인",
         "tasks": [
-          "`비트코인 핵심 흐름 해설` -> SEO 후속 글 -> `중국 변수와 시장 영향 해설` 흐름 반복",
+          "`비트코인 핵심 흐름 해설` -> SEO 후속 글 -> `미국 증시 지수 흐름 해설` 흐름 반복",
           "daily-revenue-focus 기준으로 매일 1순위 글과 후속 글 연결",
           "승인 keyword 운영이 과도하게 번거롭지 않은지 체크"
         ],
@@ -406,14 +407,14 @@
       "bitcoin"
     ],
     "target_user_confirmed_keywords": [
-      "fomc"
+      "bitcoin"
     ],
     "approved_keywords": [
-      "fomc"
+      "bitcoin"
     ],
     "notes": "",
     "planned_commands": [
-      "python3 scripts/set_review_approvals.py --keywords fomc",
+      "python3 scripts/set_review_approvals.py --keywords bitcoin",
       "python3 scripts/build_platform_publish_plan.py",
       "python3 scripts/upload_blogger_drafts.py",
       "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
@@ -423,38 +424,12 @@
   },
   "user_review_shortlist": {
     "selected_keywords": [
-      "fomc",
       "bitcoin",
-      "us_index_flow"
+      "us_index_flow",
+      "china"
     ],
     "shortlist_policy": "ready_now 우선, 같은 브랜드 레인 중복 최소화, 높은 priority_score 우선",
     "shortlist": [
-      {
-        "keyword": "fomc",
-        "title": "FOMC 이후 시장 해설",
-        "publish_date": "2026-07-01",
-        "priority_score": 140.0,
-        "review_verdict": "approve",
-        "quality_status": "pass",
-        "hero_image_selected": true,
-        "ready_now": true,
-        "brand_lane": "macro",
-        "brand_lane_label": "거시경제",
-        "freshness_status": "",
-        "freshness_recommendation": "",
-        "hero_image_provider": "Unsplash",
-        "hero_image_search_query": "central bank meeting finance city skyline",
-        "hero_image_search_url": "https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline",
-        "hero_image_license_label": "Unsplash License",
-        "hero_image_license_url": "https://unsplash.com/license",
-        "hero_image_apply_helper": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
-        "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-        "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-        "preview": [
-          "한 줄 요약: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.",
-          "2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 FOMC 이후 시장 해설입니다. 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다. 쉽게 말해 이 이슈는 멀어 보여도 공식 발표 자료, 해외 주요 매체 보도까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `Federal Reserve issues FOMC statement` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다."
-        ]
-      },
       {
         "keyword": "bitcoin",
         "title": "비트코인 핵심 흐름 해설",
@@ -506,19 +481,45 @@
           "한 줄 요약: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.",
           "2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 미국 증시 지수 흐름 해설입니다. 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다. 쉽게 말해 이 이슈는 멀어 보여도 해외 주요 매체 보도, 코인 전문 매체 기사까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `Nasdaq expands distribution of its market data into blockchain infrastructure` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다."
         ]
+      },
+      {
+        "keyword": "china",
+        "title": "중국 변수와 시장 영향 해설",
+        "publish_date": "2026-07-04",
+        "priority_score": 78.0,
+        "review_verdict": "approve",
+        "quality_status": "pass",
+        "hero_image_selected": true,
+        "ready_now": true,
+        "brand_lane": "world-flow",
+        "brand_lane_label": "세계 흐름",
+        "freshness_status": "",
+        "freshness_recommendation": "",
+        "hero_image_provider": "Unsplash",
+        "hero_image_search_query": "technology stocks office finance abstract",
+        "hero_image_search_url": "https://unsplash.com/s/photos/technology+stocks+office+finance+abstract",
+        "hero_image_license_label": "Unsplash License",
+        "hero_image_license_url": "https://unsplash.com/license",
+        "hero_image_apply_helper": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword china --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
+        "cta_focus": "실적·공급망·대표 종목 글로 연결",
+        "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+        "preview": [
+          "한 줄 요약: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.",
+          "2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 중국 변수와 시장 영향 해설입니다. 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다. 쉽게 말해 이 이슈는 멀어 보여도 해외 주요 매체 보도, 유튜브 해설까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `White House AI crackdown opens door for China to close gap` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다."
+        ]
       }
     ],
     "review_board_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/review-preview-board.md",
     "review_packet_path": "/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/review-packet.md",
-    "single_approval_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-    "batch_approval_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin"
+    "single_approval_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+    "batch_approval_command": "python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin"
   },
   "today_operator_console": {
     "top_state": {
-      "ready_for_first_live_run": false,
-      "repo_connected": false,
-      "first_live_run_status": "needs_preflight_review",
-      "github_launch_status": "needs_repo_creation"
+      "ready_for_first_live_run": true,
+      "repo_connected": true,
+      "first_live_run_status": "ready_for_draft_test",
+      "github_launch_status": "needs_gh_cli"
     },
     "review_shortlist": [
       {

@@ -83,14 +83,14 @@
 
 ## First Approval Path
 
-- 추천 묶음: `가장 먼저 볼 메인 글` / 2건 / command `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin`
-- 단건 추천: `fomc` / FOMC 이후 시장 해설 / command `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- 추천 묶음: `가장 먼저 볼 메인 글` / 1건 / command `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
+- 단건 추천: `bitcoin` / 비트코인 핵심 흐름 해설 / command `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 
 ## Daily Revenue Focus
 
-- `main_post` / `FOMC 이후 시장 해설` / revenue `페이지뷰와 체류시간 균형 확보`
-- `seo_followup` / `FOMC 이후 시장이 주식과 코인에 미치는 영향` / revenue `검색 유입 누적과 첫 방문 독자 확보`
-- `next_slot` / `비트코인 핵심 흐름 해설` / revenue `페이지뷰와 체류시간 균형 확보`
+- `main_post` / `비트코인 핵심 흐름 해설` / revenue `페이지뷰와 체류시간 균형 확보`
+- `seo_followup` / `비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조` / revenue `초보 검색 유입과 긴 체류시간 확보`
+- `next_slot` / `미국 증시 지수 흐름 해설` / revenue `페이지뷰와 체류시간 균형 확보`
 
 ## Monetization Roadmap
 
@@ -101,20 +101,20 @@
 ## First Publish Operator Run
 
 - approval_mode: `auto_single`
-- `python3 scripts/set_review_approvals.py --keywords fomc`
+- `python3 scripts/set_review_approvals.py --keywords bitcoin`
 - `python3 scripts/build_platform_publish_plan.py`
 - `python3 scripts/upload_blogger_drafts.py`
 - `python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state`
 
 ## User Review Shortlist
 
-- `FOMC 이후 시장 해설` / keyword `fomc` / verdict `approve`
 - `비트코인 핵심 흐름 해설` / keyword `bitcoin` / verdict `approve`
 - `미국 증시 지수 흐름 해설` / keyword `us_index_flow` / verdict `approve`
+- `중국 변수와 시장 영향 해설` / keyword `china` / verdict `approve`
 
 ## Today Operator Console
 
-- ready `False` / repo_connected `False` / github `needs_repo_creation`
+- ready `True` / repo_connected `True` / github `needs_gh_cli`
 
 ## Next SEO Follow-ups
 

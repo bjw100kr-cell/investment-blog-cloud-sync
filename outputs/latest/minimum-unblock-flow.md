@@ -5,11 +5,11 @@
 - headline: 지금 자동화를 더 앞으로 밀기 위해 사용자 쪽에서 필요한 건 사실 2개입니다.
 - repo_input: `none`
 - apply_mode: `False`
-- main_candidate: `fomc` / FOMC 이후 시장 해설
+- main_candidate: `bitcoin` / 비트코인 핵심 흐름 해설
 
 ## Command Chain
 
-- `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 
 ## How To Use
 

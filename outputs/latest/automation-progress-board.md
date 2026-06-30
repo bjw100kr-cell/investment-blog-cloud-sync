@@ -2,10 +2,10 @@
 
 투자/경제 블로그 자동화 목표 기준으로 지금 어디까지 왔는지 한 장으로 보는 진행 보드입니다.
 
-- first_live_ready: `False`
-- repo_connected: `False`
-- current_main_candidate: `fomc`
-- status_counts: complete `2` / in_progress `1` / blocked `2`
+- first_live_ready: `True`
+- repo_connected: `True`
+- current_main_candidate: `bitcoin`
+- status_counts: complete `2` / in_progress `2` / blocked `1`
 
 ## Stage Status
 
@@ -13,19 +13,19 @@
   - summary: 주제 선정, 레인 균형, 수익화 경로, 검토 패킷 생성 루프가 로컬에서 돌아갑니다.
   - proof: editorial coverage entries `4`
   - proof: today path entries `3`
-  - proof: recommended single `fomc`
+  - proof: recommended single `bitcoin`
   - next_action: 필요 시 source 수집과 점수 로직을 계속 보강
 - `blogger_draft_loop` / status `complete` / owner `agent`
   - summary: Blogger 자동 채널은 준비됐지만, 실제 draft 업로드는 사용자 최종 확인 keyword가 있어야 진행됩니다.
   - proof: blogger_ready `True`
   - proof: user_confirmed_keywords `['bitcoin']`
-  - proof: success_gate `needs_preflight_review`
-- `free_cloud_automation` / status `blocked` / owner `user`
-  - summary: 컴퓨터가 꺼져도 도는 무료 자동화는 GitHub repo 연결 전까지 막혀 있습니다.
-  - proof: repo_connected `False`
-  - proof: github_status `needs_repo_creation`
+  - proof: success_gate `ready_for_draft_test`
+- `free_cloud_automation` / status `in_progress` / owner `agent`
+  - summary: 컴퓨터가 꺼져도 도는 무료 자동화는 repo 연결이 끝났고, 이제 Actions Secrets와 첫 수동 실행 검증만 남았습니다.
+  - proof: repo_connected `True`
+  - proof: github_status `needs_gh_cli`
   - proof: sync_ready_keys `4`
-  - next_action: `bash scripts/bootstrap_github_remote.sh <OWNER/REPO>`
+  - next_action: GitHub Actions 첫 수동 실행 검증
 - `measurement_and_growth` / status `in_progress` / owner `agent`
   - summary: Search Console, GA4, AdSense 같은 성장/수익 측정 스택은 일부만 준비돼 있고 현재는 fallback 로직으로 운영 중입니다.
   - proof: search_console_ready `False`
@@ -40,12 +40,12 @@
 
 ## User Needed Actions
 
-- `free_cloud_automation` -> `bash scripts/bootstrap_github_remote.sh <OWNER/REPO>`
 - `wordpress_expansion` -> WordPress는 Blogger 루프 검증 후 연결
 
 ## Agent Next Actions
 
 - `content_engine` -> 필요 시 source 수집과 점수 로직을 계속 보강
+- `free_cloud_automation` -> GitHub Actions 첫 수동 실행 검증
 - `measurement_and_growth` -> Search Console site URL, GA4, AdSense 연결을 순차적으로 보강
 
 ## References
@@ -59,4 +59,4 @@
 
 - 현재 사용자 최종 확인 전 실제 업로드는 계속 차단됩니다.
 - bitcoin이 direct publish 기준 1순위이고, stale fomc는 direct path에서 제외된 상태입니다.
-- blogger blockers observed `13`
+- blogger blockers observed `10`

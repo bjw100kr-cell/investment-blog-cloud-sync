@@ -4,10 +4,10 @@
 - primary channel now: `blogger`
 - secondary channel later: `wordpress`
 - manual-only channels: `naver_blog, tistory`
-- ready for first live run: `no`
-- repo connected: `no`
-- first live status: `needs_preflight_review`
-- GitHub launch status: `needs_repo_creation`
+- ready for first live run: `yes`
+- repo connected: `yes`
+- first live status: `ready_for_draft_test`
+- GitHub launch status: `needs_gh_cli`
 - approved upload candidates right now: `1`
 - review gate still blocking uploads: `no`
 
@@ -33,13 +33,13 @@ Blocked integrations
 - top batch approval: `bitcoin`
 - user review shortlist:
 - `비트코인 핵심 흐름 해설` | keyword `bitcoin` | verdict `approve`
+- `미국 증시 지수 흐름 해설` | keyword `us_index_flow` | verdict `approve`
 - `중국 변수와 시장 영향 해설` | keyword `china` | verdict `approve`
-- `FOMC 이후 시장 해설` | keyword `fomc` | verdict `approve`
 
 ## Revenue Path
 - `main_post`: `비트코인 핵심 흐름 해설` | `페이지뷰와 체류시간 균형 확보`
 - `seo_followup`: `비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조` | `초보 검색 유입과 긴 체류시간 확보`
-- `next_slot`: `중국 변수와 시장 영향 해설` | `페이지뷰와 체류시간 균형 확보`
+- `next_slot`: `미국 증시 지수 흐름 해설` | `페이지뷰와 체류시간 균형 확보`
 
 ## Next Commands After Approval
 - `python3 scripts/set_review_approvals.py --keywords bitcoin`
@@ -48,7 +48,6 @@ Blocked integrations
 - `python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state`
 
 ## Current Blockers
-- GitHub repo is not connected yet, so cloud automation cannot continue after local preparation.
 - Search Console site URL is still missing, so keyword refinement is still using fallback signals.
 - OpenAI API key is missing, so paid human-tone draft expansion remains disabled.
 

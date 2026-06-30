@@ -1,8 +1,8 @@
 # Success Gate
 
-- all_green: `False`
-- first_live_status: `needs_preflight_review`
-- github_launch_status: `needs_repo_creation`
+- all_green: `True`
+- first_live_status: `ready_for_draft_test`
+- github_launch_status: `needs_gh_cli`
 
 ## Checks
 
@@ -11,12 +11,8 @@
 - `openai_connected`: pending (optional)
   - next: `OPENAI_API_KEY를 .env 에 입력(선택)`
 - `initial_commit_created`: ready (required)
-- `github_repo_connected`: pending (required)
-  - next: `bash scripts/bootstrap_github_remote.sh <OWNER/REPO>`
-- `first_live_run_ready`: pending (required)
-  - next: `bash scripts/run_pipeline.sh`
+- `github_repo_connected`: ready (required)
+- `first_live_run_ready`: ready (required)
 
 ## Top Next Actions
 
-- `bash scripts/bootstrap_github_remote.sh <OWNER/REPO>`
-- `bash scripts/run_pipeline.sh`
