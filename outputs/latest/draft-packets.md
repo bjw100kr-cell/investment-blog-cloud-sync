@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-06-30T16:33:19.441680+00:00`
+- 생성 시각: `2026-06-30T16:38:35.669092+00:00`
 
 ## 1. fomc
 
@@ -207,15 +207,15 @@
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
   - Nasdaq expands distribution of its market data into blockchain infrastructure
-  - AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters
-  - Tech selloff stirs bubble fears in US stock market - Reuters
+  - Friday's Russell rebalance may stoke more volatility in nervous stock market - Reuters
+  - Investors dig into India's stock market as China flounders, discount risks - Reuters
   - German leftwing terrorism on the rise, spy agency warns
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향 해설
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 53.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 64.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -275,5 +275,6 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Investors dig into India's stock market as China flounders, discount risks - Reuters
   - 1. The Grand Design to Pressure China
   - Starmer’s £15bn defence plan leaves short-term gaps, say former officers

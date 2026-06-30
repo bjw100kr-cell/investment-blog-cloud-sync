@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T16:33:19.441680+00:00",
+  "generated_at": "2026-06-30T16:38:35.669092+00:00",
   "summary": {
     "ok_sources": 14,
     "item_count": 112
@@ -153,7 +153,7 @@
   "ranked_keywords": [
     {
       "keyword": "fomc",
-      "score": 45,
+      "score": 42,
       "source_count": 5,
       "sources": [
         "CNBC Top News",
@@ -175,24 +175,24 @@
     },
     {
       "keyword": "treasury_yields",
-      "score": 20,
-      "source_count": 3,
+      "score": 23,
+      "source_count": 4,
       "sources": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "Reuters Markets via Google News RSS"
       ]
     },
     {
       "keyword": "dollar",
-      "score": 18,
-      "source_count": 5,
+      "score": 15,
+      "source_count": 4,
       "sources": [
         "CoinDesk RSS",
         "Cointelegraph",
         "Financial Times Home",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "NYT Business"
       ]
     },
     {
@@ -207,13 +207,24 @@
     },
     {
       "keyword": "oil",
-      "score": 10,
-      "source_count": 4,
+      "score": 13,
+      "source_count": 5,
       "sources": [
         "CNBC Top News",
         "Financial Times Home",
         "Financial Times YouTube",
-        "NYT Business"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ]
+    },
+    {
+      "keyword": "china",
+      "score": 9,
+      "source_count": 3,
+      "sources": [
+        "Financial Times World",
+        "Reuters Markets via Google News RSS",
+        "무역킹 Trade King YouTube"
       ]
     },
     {
@@ -231,15 +242,6 @@
       "source_count": 1,
       "sources": [
         "Investing.com Crypto News"
-      ]
-    },
-    {
-      "keyword": "china",
-      "score": 6,
-      "source_count": 2,
-      "sources": [
-        "Financial Times World",
-        "무역킹 Trade King YouTube"
       ]
     },
     {
@@ -271,8 +273,8 @@
   "topic_candidates": [
     {
       "keyword": "fomc",
-      "score": 45,
-      "headline_count": 12,
+      "score": 42,
+      "headline_count": 11,
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
@@ -291,8 +293,8 @@
     },
     {
       "keyword": "treasury_yields",
-      "score": 20,
-      "headline_count": 6,
+      "score": 23,
+      "headline_count": 7,
       "sample_titles": [
         "MetaMask launches Money Account with stablecoin yield and spending in one wallet",
         "New York Life's $800 billion asset manager makes tokenization debut with Centrifuge fund",
@@ -301,12 +303,22 @@
     },
     {
       "keyword": "dollar",
-      "score": 18,
-      "headline_count": 6,
+      "score": 15,
+      "headline_count": 5,
       "sample_titles": [
         "Circle slides 13% as Stripe, Coinbase and BlackRock back rival stablecoin network",
         "MetaMask launches stablecoin yield account with card spending",
         "Spiko links EU regulated T-bill funds to Coinbase stablecoin rails"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "score": 13,
+      "headline_count": 5,
+      "sample_titles": [
+        "Oil prices set for steep monthly drop as Trump, Iran issue mixed messages on talks in Qatar",
+        "Ukraine argues it can legally attack Russia’s shadow fleet",
+        "Oil market blind spots give traders a nasty headache - Reuters"
       ]
     },
     {
@@ -315,18 +327,18 @@
       "headline_count": 4,
       "sample_titles": [
         "Nasdaq expands distribution of its market data into blockchain infrastructure",
-        "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters",
-        "Tech selloff stirs bubble fears in US stock market - Reuters"
+        "Friday's Russell rebalance may stoke more volatility in nervous stock market - Reuters",
+        "Investors dig into India's stock market as China flounders, discount risks - Reuters"
       ]
     },
     {
-      "keyword": "oil",
-      "score": 10,
-      "headline_count": 4,
+      "keyword": "china",
+      "score": 9,
+      "headline_count": 3,
       "sample_titles": [
-        "Oil prices set for steep monthly drop as Trump, Iran issue mixed messages on talks in Qatar",
-        "Ukraine argues it can legally attack Russia’s shadow fleet",
-        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
+        "Investors dig into India's stock market as China flounders, discount risks - Reuters",
+        "1. The Grand Design to Pressure China",
+        "Starmer’s £15bn defence plan leaves short-term gaps, say former officers"
       ]
     },
     {
@@ -336,15 +348,6 @@
       "sample_titles": [
         "MetaMask launches Money Account with stablecoin yield and spending in one wallet",
         "MetaMask launches stablecoin yield account with card spending"
-      ]
-    },
-    {
-      "keyword": "china",
-      "score": 6,
-      "headline_count": 2,
-      "sample_titles": [
-        "1. The Grand Design to Pressure China",
-        "Starmer’s £15bn defence plan leaves short-term gaps, say former officers"
       ]
     },
     {
@@ -457,18 +460,6 @@
       "source_weight": 5
     },
     {
-      "title": "동남아시아",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Tue, 30 Jun 2026 05:00:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
       "title": "기성용",
       "link": "https://trends.google.com/trending/rss?geo=KR",
       "published": "Tue, 30 Jun 2026 05:00:00 -0700",
@@ -481,7 +472,19 @@
       "source_weight": 5
     },
     {
-      "title": "lebron james news",
+      "title": "동남아시아",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Tue, 30 Jun 2026 05:00:00 -0700",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "lebron leaving lakers",
       "link": "https://trends.google.com/trending/rss?geo=US",
       "published": "Tue, 30 Jun 2026 09:10:00 -0700",
       "description": "",
@@ -493,7 +496,19 @@
       "source_weight": 5
     },
     {
-      "title": "lebron leaving lakers",
+      "title": "warriors roster",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 30 Jun 2026 09:10:00 -0700",
+      "description": "",
+      "approx_traffic": "2000+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "bronny james contract",
       "link": "https://trends.google.com/trending/rss?geo=US",
       "published": "Tue, 30 Jun 2026 09:10:00 -0700",
       "description": "",
@@ -510,18 +525,6 @@
       "published": "Tue, 30 Jun 2026 09:10:00 -0700",
       "description": "",
       "approx_traffic": "5000+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "bronny james contract",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 30 Jun 2026 09:10:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -565,11 +568,11 @@
       "source_weight": 5
     },
     {
-      "title": "tom kean",
+      "title": "evan rodrigues",
       "link": "https://trends.google.com/trending/rss?geo=US",
       "published": "Tue, 30 Jun 2026 08:50:00 -0700",
       "description": "",
-      "approx_traffic": "500+",
+      "approx_traffic": "1000+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -877,6 +880,18 @@
       "source_weight": 3
     },
     {
+      "title": "Supreme Court upholds birthright citizenship, blocks Trump order",
+      "link": "https://www.cnbc.com/2026/06/30/supreme-court-birthright-citizenship-ruling.html",
+      "published": "Tue, 30 Jun 2026 16:27:59 GMT",
+      "description": "President Donald Trump attended oral arguments in the case, underscoring his staunch opposition to granting automatic citizenship to many immigrants' babies.",
+      "approx_traffic": "",
+      "source_id": "cnbc_top_news",
+      "source_name": "CNBC Top News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
       "title": "Nike is set to report earnings after the bell. Here's what to expect",
       "link": "https://www.cnbc.com/2026/06/30/nike-nke-q4-2026-earnings.html",
       "published": "Tue, 30 Jun 2026 16:00:01 GMT",
@@ -889,10 +904,10 @@
       "source_weight": 3
     },
     {
-      "title": "Supreme Court upholds birthright citizenship, blocks Trump order",
-      "link": "https://www.cnbc.com/2026/06/30/supreme-court-birthright-citizenship-ruling.html",
-      "published": "Tue, 30 Jun 2026 16:27:59 GMT",
-      "description": "President Donald Trump attended oral arguments in the case, underscoring his staunch opposition to granting automatic citizenship to many immigrants' babies.",
+      "title": "Blue Origin pivots to redesigned launchpad after explosion in push to fly by end of 2026",
+      "link": "https://www.cnbc.com/2026/06/30/blue-origin-explosion-launchpad.html",
+      "published": "Tue, 30 Jun 2026 16:29:43 GMT",
+      "description": "Blue Origin won't be \"rebuilding the same pad,\" and will instead adopt a configuration that was in development for a larger variant of its New Glenn rocket.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -929,18 +944,6 @@
       "link": "https://www.cnbc.com/2026/06/30/oil-prices-brent-wti-crude-trump-iran.html",
       "published": "Tue, 30 Jun 2026 16:28:02 GMT",
       "description": "The moves come as oil traders monitor the prospect of U.S.-Iran talks in Doha on Tuesday.",
-      "approx_traffic": "",
-      "source_id": "cnbc_top_news",
-      "source_name": "CNBC Top News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Supreme Court strikes down limits on political parties' campaign spending, in win for GOP",
-      "link": "https://www.cnbc.com/2026/06/30/supreme-court-campaign-finance-republican.html",
-      "published": "Tue, 30 Jun 2026 15:59:57 GMT",
-      "description": "President Donald Trump took a victory lap after the ruling, writing on Truth Social that it was \"A BIG WIN FOR REPUBLICANS.\"",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -1153,10 +1156,10 @@
       "source_weight": 3
     },
     {
-      "title": "Wall St set for strongest quarter in years as risk appetite holds despite US-Iran war - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFRDcUUwRFFNVjBGV3pwVVVHRU12NjdzSGVuY29pWHRGamc3NTAxSkExaThvUFdFLUVnUUx0VkJ2NWszanJCTmhVVjViUzlIUlVVTkVsOVdOanFITWF6Z0J2Ql9fSTBLX1p2TDdEakN3TUU5elV0NnNLNTRvajV6UjJzR2tPTzEtaGNPRUVlbVhJdmNMMXZUMmEzYU5DQm1qM1JB?oc=5",
-      "published": "Tue, 30 Jun 2026 14:34:01 GMT",
-      "description": "Wall St set for strongest quarter in years as risk appetite holds despite US-Iran war &nbsp;&nbsp; Reuters",
+      "title": "(IEF.O) | Stock Price & Latest News | Reuters - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PR2swRUs2M0VMUFdlLS13LXpWTHJGVHMyWWgyRU1tdTBscHhsZnVfdnJhb0Q5TmMyRHgxSERNeXZhMTAzUEcwN0hqV21VSjRZRHU0WGFibzhvRTVXcGl1MHRCSW50QUx1blphcjA5c2JvTV85NHBZ?oc=5",
+      "published": "Mon, 15 Jun 2026 07:00:00 GMT",
+      "description": "(IEF.O) | Stock Price & Latest News | Reuters &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1165,10 +1168,10 @@
       "source_weight": 3
     },
     {
-      "title": "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONF8zVkNrYlBoa0VwcThGYkQ1Z3RJRUctVmxSLUpaLUhrUmp4dGZ5dGFJMDIwUVRMemtwb25BZ2h0TGRsTlFhOEoySkxDTno5SUkzZzJ1ZG9ONWJPZGliUFIzQVlrYS13dVRMSUlYS2tMZUZJb3dJbnZGTWRfMVpHb2RRdllSeVVEdEphOVQ5MTBBZ3J5dFN1SkZJVkdxWWt5aHpaT01Ba2hOU0VRNUxTUm9RSDI?oc=5",
-      "published": "Tue, 30 Jun 2026 10:25:32 GMT",
-      "description": "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half &nbsp;&nbsp; Reuters",
+      "title": "UK's CMC Markets sees 2027 operating income above market view, shares surge - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTmRGWTh4cjFWTWFkXy1KTHd3QTFVU05NMG1CYklubElHV0YtUUpSTi1jQ3RBRUZRLXh5Y3hEa0JEcGMxcGJGYWlDZ2szT2RQMHVEUkpWaTFvS3VLZmVNMG1hclgzMTREeUtXZENsVWs3aHFsbkpVb2pfTS1RaW1ORm0wU2Q3NE5KdlA5aXNTX1JIUnZmd2Y2UklqdkJ1eXFucktKZkF0bk4?oc=5",
+      "published": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "description": "UK's CMC Markets sees 2027 operating income above market view, shares surge &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1177,10 +1180,10 @@
       "source_weight": 3
     },
     {
-      "title": "Tech selloff stirs bubble fears in US stock market - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFlQXU0QUQ2d3NhY2hNU1llc2ZCOUdyZW5IRlhzYVdYcjZ0eTkxU25fa3A3WjlZTDRRQ0FoRVFxNXF5OC1oRHI1clNXazZic0liOGhxeGVBZDNzbUx4cHpuS2JoWEZSMzE2RVhJSlNWZXotWHZwSnh2UFVjN1EtYVpuaXF5RWlUd19jZjBYWHNUNHJMTDN1bHVENXE1bGRzZ203dTJR?oc=5",
-      "published": "Tue, 30 Jun 2026 09:04:09 GMT",
-      "description": "Tech selloff stirs bubble fears in US stock market &nbsp;&nbsp; Reuters",
+      "title": "Russia seeks new fuel markets in Africa, Middle East as Europe turns away - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWmNxbHJMdm5xaklJb2hrT1FFelhmZ0Myd0VrVVIxMlNVQVZLZ3hXb2x4YnhhTVJDMHhfMWJGVXVoVS1kSUk5UkwxSGhOTXNwbWdvcE9HNzNaM2FoLXI1Q1c3Q1NfYXNPWktpRWM2STc3ckxVWU9teDNXdl95NlZMLU5aeVVvTmFUQXRPS3RvdDh4aXBPVjhVeklsc1BfY0Q5bHUtYjlYRFhtZDRhLWZNd0FFbHFVMzRTNk0tb05pZw?oc=5",
+      "published": "Thu, 23 Jun 2022 07:00:00 GMT",
+      "description": "Russia seeks new fuel markets in Africa, Middle East as Europe turns away &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1189,10 +1192,10 @@
       "source_weight": 3
     },
     {
-      "title": "Morning Bid: Doubled by halftime - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcjduVjdCODItMUdUUzUzUV90Z1JWX0RmV2xRcDZMcjMzWUo4Q25qYVdSM3RsdklDTm9LNUVuOVlGam15R01JTTdTeXRkRDI1bVdrVVVNN1FwdlNmQ1BiVnhxS3VHRjBSbG5DeUh4c3dtYU9DYkNiWGRvanF4czlzbF9TS0hwUTIyR05meG1zRVlWTlRnbjFr?oc=5",
-      "published": "Tue, 30 Jun 2026 11:00:40 GMT",
-      "description": "Morning Bid: Doubled by halftime &nbsp;&nbsp; Reuters",
+      "title": "Citizens Financial profit beats estimates on strong capital markets - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeHhVS3NqSUE3R0VKNmhfa3kzaHVyaVd6RWFscTNURC1SSE1XS2l0U3hqX1BqQWhfUWJUNnh4SWZPM3AzT2JDa0k1b0t6UmpOS1BuQzdRVjlhOWdWY3VocmFQQU9uTmhGN0IzZzhMSDdzblBTSWxId3lMdkVRR3ZCUkRuM1FQZ015QkFWcUU4eDVDM25LRFdPRUVOVF83MFFzelJJenhoZlhfbEJKQ090eWJGOXpqeTRZQ3c?oc=5",
+      "published": "Wed, 17 Jul 2024 07:00:00 GMT",
+      "description": "Citizens Financial profit beats estimates on strong capital markets &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1201,10 +1204,10 @@
       "source_weight": 3
     },
     {
-      "title": "Stocks surge in stellar quarter; dollar hits gold and yen - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaVpzOFNlNlJHMnMydHFXUHBPblhBOFJqbjAwN2lzdG9iVVQ1VDZ4ajI4RGtFRGFORFZnT3FwSzQ5UWZ2YXdRcHNQSDJGb0ZzT2Q2VlMxR0ZQVDJsU0VrQW9UeUF1Sm5EZzhXM2JVVGtQeEd0TnFFMkczbkIyX2ZiNXpPMA?oc=5",
-      "published": "Tue, 30 Jun 2026 02:39:00 GMT",
-      "description": "Stocks surge in stellar quarter; dollar hits gold and yen &nbsp;&nbsp; Reuters",
+      "title": "Friday's Russell rebalance may stoke more volatility in nervous stock market - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcVcxRkxfNWhHaGNNdzZPLWtocGRWUkZIZWZ4TGV1WDdhR0h1dEwxc08xM2hVMmhLTUNqTHpNUE1pVzlWU0RMZlZRNVlQUC1rbTVGUURpQjhXTW9fODRnQnlVTVVialkyLXpMT1RZQTVlREZXSUJxZDcwVEw4WG4yTWt5MzNXdGtUbU9sLUI5LU1GRTdyQ2dLdHo5OVUzV0VOYUNPUTJQeFlSeHNDY3FOaUNuTU9pUVY3RENWUmNKTlM?oc=5",
+      "published": "Tue, 21 Jun 2022 07:00:00 GMT",
+      "description": "Friday's Russell rebalance may stoke more volatility in nervous stock market &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1213,10 +1216,10 @@
       "source_weight": 3
     },
     {
-      "title": "Gold set for worst quarterly loss in 13 years on hawkish Fed stance - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcVNmS0QtVml6cTAwSzZpS0xRSzhEUUpyQy1SaEptQy1XdWRoUjRkbGtpbGp4Zm5ZV2U5YVRSLXZsVnllSjZyNDBUTFZVQ1VwQTlaNHdadXFCcGNPdDJjcDQxU0c1UV81MnJtQk5aS0NnMUlmVzJmV19XeWZiUEhMRjFOcGhNZ2U0ZXBNakhDNDJpbzN3MlRHUg?oc=5",
-      "published": "Tue, 30 Jun 2026 14:08:40 GMT",
-      "description": "Gold set for worst quarterly loss in 13 years on hawkish Fed stance &nbsp;&nbsp; Reuters",
+      "title": "Investors dig into India's stock market as China flounders, discount risks - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaGc1QkJOUHFVVmZhSTZuN0NSM1ljeHV2eTR0WDNUc2FwdWJrMzZaNVotNmZxM3JFQVdLTTNxSXNXTmtYaUpoVnc5QzFjODBNNzFPWGh0WVppRmwwZTJxSkd0OUs3Qkd3dlNPUFBhNmh6eTUzN1VOanlMSnNfVGhFVDJqeGJ6Vjd3dERoZHY3YWZNN0EyNm5CcFB2dWpoYVhfU3pydFBUSzJGMVBkMTF0Y0JQalVybzFiS2c?oc=5",
+      "published": "Sun, 04 Feb 2024 08:00:00 GMT",
+      "description": "Investors dig into India's stock market as China flounders, discount risks &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1225,10 +1228,10 @@
       "source_weight": 3
     },
     {
-      "title": "Volkswagen's crisis in five charts - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN2t5QmRtYzNGSGExdlVJbVJVU25XLVBMYlNwOW5obW1YVGxodENTdDE0bEV3c0JlVWEtSEI1cUdQNEZOMWVXOGZXNEFpRGEwME5DOUJySlpkanpvZHpkeFJ3R1UycUg3bVdpbUJiQXR1UDdLYjlZT09KdjZjVVEzNGVTdGllVDdxcTJUQmFJOWh6WTZaZGpvYUs2bXc?oc=5",
-      "published": "Tue, 30 Jun 2026 13:27:02 GMT",
-      "description": "Volkswagen's crisis in five charts &nbsp;&nbsp; Reuters",
+      "title": "Oil market blind spots give traders a nasty headache - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTW1tcjQ2UGJWRXdtSl85NFVLUElieGFuLUJMNEd1TENkN1c3QjR2ZkpmQ0ptald1ZGQ4aFpZdGZtWDVIRFBJcUZRMTVxeDdxMHpHMUlmTjJzcHZLeGl0bElSMWEyZ2N3dmFST2tPSEhNNV9qUERQYzNwNnhwMEZ0WE8tS0R4R1pvTElnVUZhd3dnVDFLUjRaY19aM1A5VXRpalAyenFFM2VsUQ?oc=5",
+      "published": "Thu, 18 Sep 2025 07:00:00 GMT",
+      "description": "Oil market blind spots give traders a nasty headache &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1237,10 +1240,10 @@
       "source_weight": 3
     },
     {
-      "title": "Yen stumbles to 40-year low as clock ticks on intervention - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUXZ6T3FUR1VKRXVTa05UdkplVkhySmRiWGhZaGpFV1VPYVBEeGpMMDlMM1RTT0E2SFdEc0REN3NReGc5ZkNvNmxWbHJjSVFtdTFFaVU1WXJFRWVqZlNyRWpjWVZEOFNXRUdqdEktRW9ZQnc1Zy1EMTRPZHdWdFlyZC1PUzdlY3JsMEJNS2ZFU0RUMWNoX0Z3emF2czV1MEZNOVE?oc=5",
-      "published": "Tue, 30 Jun 2026 14:40:05 GMT",
-      "description": "Yen stumbles to 40-year low as clock ticks on intervention &nbsp;&nbsp; Reuters",
+      "title": "Wall Street ends mixed, Treasury yields rise as markets mull Fed's slowdown signal - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qbzVWdmFvVEJMUHZDaTQ0dG42NVRXdkxybV9aY0d5YVhteVBIcnZEZVJYLXBHaFlIbkZoSkNrTVhma0VmbXg5QUVoZnJqNTI3NE42RVVSbjlZLXpQTDZOZEpPYktGc3M0TjltazRjdWhFZEpoUUE?oc=5",
+      "published": "Thu, 19 Dec 2024 08:00:00 GMT",
+      "description": "Wall Street ends mixed, Treasury yields rise as markets mull Fed's slowdown signal &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1515,7 +1518,7 @@
     {
       "title": "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film",
       "link": "https://www.youtube.com/watch?v=ds1K-lN_U0g",
-      "published": "17K views",
+      "published": "17K",
       "description": "",
       "approx_traffic": "",
       "video_id": "ds1K-lN_U0g",
@@ -1536,7 +1539,7 @@
     {
       "title": "A renewable energy revolution? | FT Rethink",
       "link": "https://www.youtube.com/watch?v=l0tWlr5gwIE",
-      "published": "11K views",
+      "published": "11K",
       "description": "",
       "approx_traffic": "",
       "video_id": "l0tWlr5gwIE",
@@ -1557,7 +1560,7 @@
     {
       "title": "Ten years after Brexit | Political Fix",
       "link": "https://www.youtube.com/watch?v=8QnBqRG8G9w",
-      "published": "14K views",
+      "published": "14K",
       "description": "",
       "approx_traffic": "",
       "video_id": "8QnBqRG8G9w",
@@ -1578,7 +1581,7 @@
     {
       "title": "The AI factory: the rewiring of India's tech industry | FT Film",
       "link": "https://www.youtube.com/watch?v=UfyxN46tCz8",
-      "published": "269K views",
+      "published": "269K",
       "description": "",
       "approx_traffic": "",
       "video_id": "UfyxN46tCz8",
@@ -1599,7 +1602,7 @@
     {
       "title": "How Uzbekistan could liberalise its economy with a push into green energy | FT Film",
       "link": "https://www.youtube.com/watch?v=tWB3Xu3kzg8",
-      "published": "127K views",
+      "published": "127K",
       "description": "",
       "approx_traffic": "",
       "video_id": "tWB3Xu3kzg8",
@@ -1620,7 +1623,7 @@
     {
       "title": "Arson attacks targeting Keir Starmer properties originated in Russia | FT",
       "link": "https://www.youtube.com/watch?v=B5fVfx4IONo",
-      "published": "14K views",
+      "published": "14K",
       "description": "",
       "approx_traffic": "",
       "video_id": "B5fVfx4IONo",
@@ -1641,7 +1644,7 @@
     {
       "title": "Why birth rates are falling everywhere all at once | FT",
       "link": "https://www.youtube.com/watch?v=6lFXmDk-tps",
-      "published": "651K views",
+      "published": "651K",
       "description": "",
       "approx_traffic": "",
       "video_id": "6lFXmDk-tps",
@@ -1662,7 +1665,7 @@
     {
       "title": "The Porto Santo model: a small island’s renewable energy journey | FT Energy Source",
       "link": "https://www.youtube.com/watch?v=kmp8yQCPTBI",
-      "published": "104K views",
+      "published": "104K",
       "description": "",
       "approx_traffic": "",
       "video_id": "kmp8yQCPTBI",

@@ -82,7 +82,7 @@
     "중국 변수와 시장 영향 해설: 지금 시장이 반응하는 이유",
     "중국 변수와 시장 영향 해설로 보는 주식·코인 흐름"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "왜 지금 이 이슈가 중요한가",
     "실제로 발표되거나 벌어진 일",
@@ -100,9 +100,11 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "Financial Times World",
+    "Reuters Markets via Google News RSS",
     "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
+    "Investors dig into India's stock market as China flounders, discount risks - Reuters",
     "1. The Grand Design to Pressure China",
     "Starmer’s £15bn defence plan leaves short-term gaps, say former officers"
   ],
@@ -167,11 +169,11 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 53.0,
-    "search_score": 8,
-    "timeliness_score": 7,
+    "total_score": 64.0,
+    "search_score": 13,
+    "timeliness_score": 12,
     "explanatory_score": 18,
-    "monetization_score": 13,
+    "monetization_score": 14,
     "risk_score": 7
   },
   "reference_editorial_pattern_name": "news_what_it_means",

@@ -1,6 +1,6 @@
 # 오늘의 키워드 기회판
 
-- 생성 시각: `2026-06-30T16:33:19.441680+00:00`
+- 생성 시각: `2026-06-30T16:38:35.669092+00:00`
 - 당일 브레이킹 후보: `5`
 - SEO 후속 후보: `6`
 - 검색어 워치리스트: `4`
@@ -10,12 +10,12 @@
 ### 1. FOMC 이후 시장 해설
 
 - keyword: fomc
-- urgency: watch_closely
-- score: 97.0 / search 29 / demand 5700
+- urgency: publish_now
+- score: 97.0 / search 29 / demand 5400
 - ready_to_upload: True
-- queue_publish: 2026-07-04 (later)
+- queue_publish: 2026-06-30 (today_or_overdue)
 - reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- action: 뉴스 업데이트를 더 보면서 제목만 빠르게 조정할 수 있게 대기합니다.
+- action: 오늘 메인 글로 바로 발행하고, 후속 SEO 글 1~2개로 내부링크를 같이 준비합니다.
 
 ### 2. 비트코인 핵심 흐름 해설
 
@@ -41,20 +41,20 @@
 
 - keyword: china
 - urgency: watch
-- score: 53.0 / search 8 / demand 0
+- score: 64.0 / search 13 / demand 0
 - ready_to_upload: True
 - queue_publish: 2026-07-03 (this_week)
-- reason: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- reason: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
 ### 5. 미국채 금리 변화 해설
 
 - keyword: treasury_yields
 - urgency: watch
-- score: 81.0 / search 23 / demand 3200
+- score: 85.0 / search 25 / demand 3500
 - ready_to_upload: False
 - queue_publish: 미정 (queue 없음)
-- reason: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- reason: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
 ## 검색형 후속 SEO 후보
@@ -63,7 +63,7 @@
 
 - source_keyword: fomc
 - role/type: evergreen_seo / evergreen_explainer
-- priority_score: 128.5
+- priority_score: 139.5
 - search_intent: 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자
 - monetization_goal: 검색 유입 누적과 첫 방문 독자 확보
 - cta_focus: 거시 허브와 당일 해설 글로 연결
@@ -72,7 +72,7 @@
 
 - source_keyword: fomc
 - role/type: follow_up / follow_up_analysis
-- priority_score: 125.5
+- priority_score: 136.5
 - search_intent: 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자
 - monetization_goal: 재방문과 내부링크 순환 강화
 - cta_focus: 다음 이벤트 캘린더와 관련 거시 글로 연결
@@ -81,7 +81,7 @@
 
 - source_keyword: fomc
 - role/type: evergreen_seo / evergreen_explainer
-- priority_score: 122.5
+- priority_score: 133.5
 - search_intent: 기초 개념을 처음부터 이해하고 싶은 초보 독자
 - monetization_goal: 광범위한 초보 검색 수요 흡수
 - cta_focus: About, 허브 글, 후속 해설 글로 연결
@@ -115,15 +115,15 @@
 
 ## 검색어 워치리스트
 
-- `fomc`: type mapped_keyword_demand / mapped fomc / demand 5700 / regions unknown
+- `fomc`: type mapped_keyword_demand / mapped fomc / demand 5400 / regions unknown
   - suggested_title: fomc 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결되어 있어 검색형 후속 글로 전환하기 좋습니다.
 - `bitcoin`: type mapped_keyword_demand / mapped bitcoin / demand 5300 / regions unknown
   - suggested_title: bitcoin 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결되어 있어 검색형 후속 글로 전환하기 좋습니다.
-- `treasury_yields`: type mapped_keyword_demand / mapped treasury_yields / demand 3200 / regions unknown
+- `treasury_yields`: type mapped_keyword_demand / mapped treasury_yields / demand 3500 / regions unknown
   - suggested_title: treasury_yields 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결되어 있어 검색형 후속 글로 전환하기 좋습니다.
-- `dollar`: type mapped_keyword_demand / mapped dollar / demand 3000 / regions unknown
+- `dollar`: type mapped_keyword_demand / mapped dollar / demand 2700 / regions unknown
   - suggested_title: dollar 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결되어 있어 검색형 후속 글로 전환하기 좋습니다.

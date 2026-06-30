@@ -2,7 +2,7 @@
   "summary": {
     "review_item_count": 13,
     "main_post_count": 4,
-    "due_soon_main_count": 1,
+    "due_soon_main_count": 2,
     "big_tech_lane_count": 0,
     "ready_now_count": 13
   },
@@ -12,6 +12,7 @@
       "label": "가장 먼저 볼 메인 글",
       "reason": "발행일이 오늘 또는 내일인 메인 글이며, 품질/이미지 준비가 된 글을 위로 올렸습니다.",
       "keywords": [
+        "fomc",
         "bitcoin"
       ],
       "items": [
@@ -26,11 +27,23 @@
           "hero_image_selected": true,
           "ready_now": true,
           "freshness_status": "fresh"
+        },
+        {
+          "keyword": "fomc",
+          "title": "FOMC 이후 시장 해설",
+          "publish_date": "2026-06-30",
+          "priority": 140.0,
+          "inventory_type": "main_post",
+          "role": "lane_focus_macro",
+          "quality_status": "pass",
+          "hero_image_selected": true,
+          "ready_now": true,
+          "freshness_status": ""
         }
       ],
-      "approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-      "confirmation_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-      "ready_now_count": 1
+      "approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
+      "confirmation_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
+      "ready_now_count": 2
     },
     {
       "id": "big_tech_lane",
@@ -54,10 +67,22 @@
       ],
       "items": [
         {
+          "keyword": "fomc",
+          "title": "FOMC 이후 시장 해설",
+          "publish_date": "2026-06-30",
+          "priority": 140.0,
+          "inventory_type": "main_post",
+          "role": "lane_focus_macro",
+          "quality_status": "pass",
+          "hero_image_selected": true,
+          "ready_now": true,
+          "freshness_status": ""
+        },
+        {
           "keyword": "seo_fomc_1",
           "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
-          "publish_date": "2026-07-04",
-          "priority": 128.5,
+          "publish_date": "2026-06-30",
+          "priority": 139.5,
           "inventory_type": "seo_followup",
           "role": "evergreen_seo",
           "quality_status": "pass",
@@ -68,8 +93,8 @@
         {
           "keyword": "seo_fomc_2",
           "title": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지",
-          "publish_date": "2026-07-04",
-          "priority": 125.5,
+          "publish_date": "2026-06-30",
+          "priority": 136.5,
           "inventory_type": "seo_followup",
           "role": "follow_up",
           "quality_status": "pass",
@@ -80,26 +105,14 @@
         {
           "keyword": "seo_fomc_3",
           "title": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지",
-          "publish_date": "2026-07-04",
-          "priority": 122.5,
+          "publish_date": "2026-06-30",
+          "priority": 133.5,
           "inventory_type": "seo_followup",
           "role": "evergreen_seo",
           "quality_status": "pass",
           "hero_image_selected": true,
           "ready_now": true,
           "freshness_status": ""
-        },
-        {
-          "keyword": "fomc",
-          "title": "FOMC 이후 시장 해설",
-          "publish_date": "2026-07-04",
-          "priority": 129.0,
-          "inventory_type": "main_post",
-          "role": "evergreen_support",
-          "quality_status": "pass",
-          "hero_image_selected": true,
-          "ready_now": true,
-          "freshness_status": "stale"
         }
       ],
       "approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc seo_fomc_1 seo_fomc_2 seo_fomc_3",

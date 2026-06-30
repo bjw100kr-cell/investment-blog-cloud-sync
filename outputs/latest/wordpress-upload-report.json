@@ -3,13 +3,22 @@
   "reason": "WORDPRESS_SITE_URL is not set",
   "items": [
     {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
       "uploaded": false,
       "reason": "credentials_missing_dry_run",
+      "title": "FOMC 이후 시장 해설",
+      "keyword": "fomc",
+      "inventory_type": "main_post",
+      "upload_sequence": 1
+    },
+    {
+      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
+      "uploaded": false,
+      "reason": "WORDPRESS_MAX_POSTS_PER_RUN reached",
       "title": "비트코인 핵심 흐름 해설",
       "keyword": "bitcoin",
       "inventory_type": "main_post",
-      "upload_sequence": 1
+      "upload_sequence": 2
     },
     {
       "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html",
@@ -18,7 +27,7 @@
       "title": "미국 증시 지수 흐름 해설",
       "keyword": "us_index_flow",
       "inventory_type": "main_post",
-      "upload_sequence": 2
+      "upload_sequence": 3
     },
     {
       "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html",
@@ -26,15 +35,6 @@
       "reason": "WORDPRESS_MAX_POSTS_PER_RUN reached",
       "title": "중국 변수와 시장 영향 해설",
       "keyword": "china",
-      "inventory_type": "main_post",
-      "upload_sequence": 3
-    },
-    {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
-      "uploaded": false,
-      "reason": "WORDPRESS_MAX_POSTS_PER_RUN reached",
-      "title": "FOMC 이후 시장 해설",
-      "keyword": "fomc",
       "inventory_type": "main_post",
       "upload_sequence": 4
     },

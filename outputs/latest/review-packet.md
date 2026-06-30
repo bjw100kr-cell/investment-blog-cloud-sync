@@ -3,11 +3,33 @@
 업로드 전에 운영자와 사용자가 함께 확인할 글 검토 패킷입니다.
 
 - 사용자 최종 확인 파일: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/review-approvals.json`
-- 사용자 확인 헬퍼: `python3 /Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin` 또는 `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --all`
+- 사용자 확인 헬퍼: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin` 또는 `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --all`
 - 총 검토 대상: `13`
 - 바로 최종 확인 가능: `13`
 - 주의 검토: `0`
 - 수정 권장: `0`
+
+## FOMC 이후 시장 해설
+
+- keyword: `fomc`
+- type: `main_post` / role `lane_focus_macro`
+- publish date: `2026-06-30`
+- priority: `140.0`
+- internal review: `approve` / score `100`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- CTA focus: 환율·금리·미국증시 evergreen 글로 연결
+- final retention CTA: FOMC 흐름이 여기서 끝이 아닙니다. 아래 체크포인트 글과 초보자 가이드까지 같이 보면 다음 일정에서 뭘 봐야 할지 훨씬 선명해집니다.
+- later revisit CTA: 거시 이벤트를 놓치지 않으려면 다음 체크포인트 글까지 같이 보고, 이후에는 텔레그램/구독 채널로 이어 받아보세요.
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md`
+- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html`
+- image review required: `True`
+- image 대표 이미지: Unsplash / query `central bank meeting finance city skyline` / license Unsplash License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 본문 보조 이미지: Pexels / query `interest rate macro economy abstract` / license Pexels License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- preview:
+  한 줄 요약: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.
+  2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 FOMC 이후 시장 해설입니다. 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다. 쉽게 말해 이 이슈는 멀어 보여도 공식 발표 자료, 해외 주요 매체 보도까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `Federal Reserve issues FOMC statement` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다.
 
 ## 비트코인 핵심 흐름 해설
 
@@ -58,7 +80,7 @@
 - keyword: `china`
 - type: `main_post` / role `lane_focus_world-flow`
 - publish date: `2026-07-03`
-- priority: `78.0`
+- priority: `90.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
@@ -72,37 +94,15 @@
 - image 본문 보조 이미지: Pexels / query `semiconductor data center abstract` / license Pexels License
 - image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword china --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - preview:
-  한 줄 요약: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.
-  2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 중국 변수와 시장 영향 해설입니다. 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다. 쉽게 말해 이 이슈는 멀어 보여도 해외 주요 매체 보도, 유튜브 해설까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `1. The Grand Design to Pressure China` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다.
-
-## FOMC 이후 시장 해설
-
-- keyword: `fomc`
-- type: `main_post` / role `evergreen_support`
-- publish date: `2026-07-04`
-- priority: `129.0`
-- internal review: `approve` / score `100`
-- intent: FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
-- CTA focus: 환율·금리·미국증시 evergreen 글로 연결
-- final retention CTA: FOMC 흐름이 여기서 끝이 아닙니다. 아래 체크포인트 글과 초보자 가이드까지 같이 보면 다음 일정에서 뭘 봐야 할지 훨씬 선명해집니다.
-- later revisit CTA: 거시 이벤트를 놓치지 않으려면 다음 체크포인트 글까지 같이 보고, 이후에는 텔레그램/구독 채널로 이어 받아보세요.
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md`
-- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html`
-- image review required: `True`
-- image 대표 이미지: Unsplash / query `central bank meeting finance city skyline` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- image 본문 보조 이미지: Pexels / query `interest rate macro economy abstract` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- preview:
-  한 줄 요약: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.
-  2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 FOMC 이후 시장 해설입니다. 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다. 쉽게 말해 이 이슈는 멀어 보여도 공식 발표 자료, 해외 주요 매체 보도까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `Federal Reserve issues FOMC statement` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다.
+  한 줄 요약: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능 관점에서, 지금 투자자가 먼저 봐야 할 포인트를 한 번에 정리합니다.
+  2026년 6월 30일 기준 시장이 특히 예민하게 반응하는 주제 중 하나가 바로 중국 변수와 시장 영향 해설입니다. 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다. 쉽게 말해 이 이슈는 멀어 보여도 해외 주요 매체 보도, 유튜브 해설까지 같이 보면 자산군 간 파급 경로가 보입니다. 개인 투자자 입장에서는 지금 결론을 단정하기보다, 무엇이 먼저 반응했는지와 무엇이 아직 가격에 덜 반영됐는지를 나눠 보는 것입니다. 여기서 먼저 봐야 할 건 `Investors dig into India's stock market as China flounders, discount risks - Reuters` 같은 제목 자체보다, 그 발표가 자금 흐름에 어떤 해석을 붙였는지입니다.
 
 ## FOMC 이후 시장이 주식과 코인에 미치는 영향
 
 - keyword: `seo_fomc_1`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-07-04`
-- priority: `128.5`
+- publish date: `2026-06-30`
+- priority: `139.5`
 - internal review: `approve` / score `100`
 - intent: 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자
 - CTA focus: 거시 허브와 당일 해설 글로 연결
@@ -123,8 +123,8 @@
 
 - keyword: `seo_fomc_2`
 - type: `seo_followup` / role `follow_up`
-- publish date: `2026-07-04`
-- priority: `125.5`
+- publish date: `2026-06-30`
+- priority: `136.5`
 - internal review: `approve` / score `100`
 - intent: 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자
 - CTA focus: 다음 이벤트 캘린더와 관련 거시 글로 연결
@@ -145,8 +145,8 @@
 
 - keyword: `seo_fomc_3`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-07-04`
-- priority: `122.5`
+- publish date: `2026-06-30`
+- priority: `133.5`
 - internal review: `approve` / score `100`
 - intent: 기초 개념을 처음부터 이해하고 싶은 초보 독자
 - CTA focus: About, 허브 글, 후속 해설 글로 연결

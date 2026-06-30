@@ -105,8 +105,8 @@
   ],
   "reference_headlines": [
     "Nasdaq expands distribution of its market data into blockchain infrastructure",
-    "AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters",
-    "Tech selloff stirs bubble fears in US stock market - Reuters",
+    "Friday's Russell rebalance may stoke more volatility in nervous stock market - Reuters",
+    "Investors dig into India's stock market as China flounders, discount risks - Reuters",
     "German leftwing terrorism on the rise, spy agency warns"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",

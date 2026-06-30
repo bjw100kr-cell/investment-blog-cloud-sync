@@ -1,24 +1,30 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-06-30T16:33:22.035225+00:00`
-- snapshot_generated_at: `2026-06-30T16:33:19.441680+00:00`
+- generated_at: `2026-06-30T16:38:38.645626+00:00`
+- snapshot_generated_at: `2026-06-30T16:38:35.669092+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
-- counts: fresh `2` / aging `0` / stale `0` / unknown `1`
+- counts: fresh `2` / aging `0` / stale `1` / unknown `0`
 
-## 1. 중국 변수와 시장 영향 해설
+## 1. FOMC 이후 시장 해설
 
-- keyword: `china`
-- freshness_status: `unknown`
-- newest_evidence_age_days: `None`
-- newest_evidence_iso: ``
+- keyword: `fomc`
+- freshness_status: `stale`
+- newest_evidence_age_days: `12.9`
+- newest_evidence_iso: `2026-06-17T18:00:00+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 대표 근거 시각을 읽지 못해 판단이 보류되었습니다.
-- recommendation: 최근 근거 시각을 다시 수집해 신선도를 먼저 확인하세요.
-- recovery_mode: `manual_check`
-- recovery_summary: 최근 근거 시각을 먼저 다시 확인한 뒤 다음 액션을 결정하세요.
-- evidence: 무역킹 Trade King YouTube / 86K views / 1. The Grand Design to Pressure China
+- summary: 핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement
+- recommendation: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
+- recovery_mode: `evergreen_salvage`
+- recovery_summary: 뉴스형 본문 대신 evergreen 후속 글로 전환하는 편이 더 안전하고 검색형 수익화에도 유리합니다.
+- recovery_title: FOMC 이후 시장이 주식과 코인에 미치는 영향
+- recovery_confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords seo_fomc_1`
+- recovery_image_search: `central bank meeting finance city skyline` / https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline
+- recovery_image_apply_helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_fomc_1 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve issues FOMC statement
+- evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+- evidence: Federal Reserve Monetary Policy Press / 2026-04-29T18:00:00+00:00 / Federal Reserve issues FOMC statement
 
 ## 2. 비트코인 핵심 흐름 해설
 
@@ -48,4 +54,4 @@
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
 - evidence: Financial Times World / 2026-06-30T14:53:33+00:00 / German leftwing terrorism on the rise, spy agency warns
 - evidence: CoinDesk RSS / 2026-06-30T13:00:00+00:00 / Nasdaq expands distribution of its market data into blockchain infrastructure
-- evidence: Reuters Markets via Google News RSS / 2026-06-30T10:25:32+00:00 / AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters
+- evidence: Reuters Markets via Google News RSS / 2024-02-04T08:00:00+00:00 / Investors dig into India's stock market as China flounders, discount risks - Reuters

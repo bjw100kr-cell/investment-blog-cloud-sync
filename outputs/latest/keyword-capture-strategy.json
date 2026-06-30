@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T16:33:19.441680+00:00",
+  "generated_at": "2026-06-30T16:38:35.669092+00:00",
   "items": [
     {
       "keyword": "fomc",
@@ -21,7 +21,7 @@
       },
       "capture_route": "breaking_to_evergreen",
       "capture_route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 5700,
+      "demand_signal_score": 5400,
       "trend_queries": [],
       "source_names": [
         "CNBC Top News",
@@ -137,9 +137,10 @@
       "trend_queries": [],
       "source_names": [
         "Financial Times World",
+        "Reuters Markets via Google News RSS",
         "무역킹 Trade King YouTube"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -169,14 +170,15 @@
       },
       "capture_route": "search_entry_to_internal_links",
       "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 3200,
+      "demand_signal_score": 3500,
       "trend_queries": [],
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "Reuters Markets via Google News RSS"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",

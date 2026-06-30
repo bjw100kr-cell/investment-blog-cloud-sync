@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-06-30T16:33:19.441680+00:00`
+- 생성 시각: `2026-06-30T16:38:35.669092+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -74,18 +74,18 @@
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
   - Nasdaq expands distribution of its market data into blockchain infrastructure
-  - AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters
-  - Tech selloff stirs bubble fears in US stock market - Reuters
+  - Friday's Russell rebalance may stoke more volatility in nervous stock market - Reuters
+  - Investors dig into India's stock market as China flounders, discount risks - Reuters
   - German leftwing terrorism on the rise, spy agency warns
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `53.0`
-- 점수 구성: 검색성 8 / 시의성 7 / 설명가치 18 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times World, 무역킹 Trade King YouTube
+- 총점: `64.0`
+- 점수 구성: 검색성 13 / 시의성 12 / 설명가치 18 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: Financial Times World, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
 - 제목 후보:
   - 중국 변수와 시장 영향 해설
   - 중국 변수와 시장 영향 해설: 지금 시장이 반응하는 이유
@@ -97,6 +97,7 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
+  - Investors dig into India's stock market as China flounders, discount risks - Reuters
   - 1. The Grand Design to Pressure China
   - Starmer’s £15bn defence plan leaves short-term gaps, say former officers
 
@@ -104,10 +105,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `81.0`
-- 점수 구성: 검색성 23 / 시의성 18 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 총점: `85.0`
+- 점수 구성: 검색성 25 / 시의성 20 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국채 금리 변화 해설
   - 미국채 금리 변화 해설: 지금 시장이 반응하는 이유
