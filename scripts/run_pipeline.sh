@@ -158,6 +158,8 @@ run_step "30.2/34" "Build first approval path" python3 scripts/build_first_appro
 
 run_step "30.3/34" "Build daily revenue focus" python3 scripts/build_daily_revenue_focus.py
 
+run_step "30.31/34" "Build daily traffic goal" python3 scripts/build_daily_traffic_goal.py
+
 run_step "30.35/34" "Build traffic cluster board" python3 scripts/build_traffic_cluster_board.py
 
 run_step "30.36/34" "Build popular reads board" python3 scripts/build_popular_reads_board.py

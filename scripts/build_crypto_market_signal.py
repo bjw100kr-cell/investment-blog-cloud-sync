@@ -21,6 +21,14 @@ SYMBOL_KEYWORDS = {
     "XRPUSDT": "crypto_etf",
     "DOGEUSDT": "crypto_etf",
 }
+COINGECKO_IDS = {
+    "bitcoin": ("BTCUSDT", "bitcoin"),
+    "ethereum": ("ETHUSDT", "ethereum"),
+    "binancecoin": ("BNBUSDT", "crypto_etf"),
+    "solana": ("SOLUSDT", "crypto_etf"),
+    "ripple": ("XRPUSDT", "crypto_etf"),
+    "dogecoin": ("DOGEUSDT", "crypto_etf"),
+}
 
 
 def now_iso() -> str:
@@ -129,6 +137,43 @@ def fetch_binance_tickers(symbols: list[str]) -> list[dict]:
                 "price_change_percent_24h": change_pct,
                 "quote_volume_24h": quote_volume,
                 "trade_count_24h": int(item.get("count", 0) or 0),
+            }
+        )
+    return sorted(tickers, key=lambda item: item.get("quote_volume_24h", 0), reverse=True)
+
+
+def fetch_coingecko_tickers() -> list[dict]:
+    ids = ",".join(COINGECKO_IDS)
+    url = (
+        "https://api.coingecko.com/api/v3/coins/markets"
+        f"?vs_currency=usd&ids={ids}&order=volume_desc&per_page=20&page=1"
+        "&sparkline=false&price_change_percentage=24h"
+    )
+    try:
+        raw = fetch_json(url)
+    except Exception as exc:  # noqa: BLE001
+        return [{"error": str(exc), "provider": "coingecko_public_api"}]
+
+    tickers = []
+    for item in raw:
+        symbol, keyword = COINGECKO_IDS.get(item.get("id", ""), (item.get("symbol", "").upper(), "crypto_etf"))
+        try:
+            last_price = float(item.get("current_price", 0) or 0)
+            change_pct = float(item.get("price_change_percentage_24h", 0) or 0)
+            quote_volume = float(item.get("total_volume", 0) or 0)
+        except (TypeError, ValueError):
+            last_price = 0.0
+            change_pct = 0.0
+            quote_volume = 0.0
+        tickers.append(
+            {
+                "symbol": symbol,
+                "keyword": keyword,
+                "last_price": last_price,
+                "price_change_percent_24h": change_pct,
+                "quote_volume_24h": quote_volume,
+                "trade_count_24h": 0,
+                "provider": "coingecko_public_api",
             }
         )
     return sorted(tickers, key=lambda item: item.get("quote_volume_24h", 0), reverse=True)
@@ -275,16 +320,25 @@ def main() -> int:
     if not fear_greed or fear_greed.get("value") is None:
         fear_greed = fetch_fear_greed()
     tickers = fetch_binance_tickers(symbols)
+    binance_public_api_ok = any("error" not in item for item in tickers)
+    coingecko_public_api_ok = False
+    if not binance_public_api_ok:
+        coingecko_tickers = fetch_coingecko_tickers()
+        coingecko_public_api_ok = any("error" not in item for item in coingecko_tickers)
+        if coingecko_public_api_ok:
+            tickers = coingecko_tickers
     market = classify_market(fear_greed, tickers)
     keyword_signals = build_keyword_signals(plugin_overview, tickers, market, fear_greed)
-    status = "ok" if any("error" not in item for item in tickers) or plugin_overview.get("available") else "degraded"
+    has_signal_notes = any(signal.get("market_signal_notes") for signal in keyword_signals.values())
+    status = "ok" if binance_public_api_ok or coingecko_public_api_ok or plugin_overview.get("available") or has_signal_notes else "degraded"
 
     payload = {
         "generated_at": now_iso(),
         "status": status,
         "providers": {
             "binance_plugin": bool(plugin_overview.get("available")),
-            "binance_public_api": any("error" not in item for item in tickers),
+            "binance_public_api": binance_public_api_ok,
+            "coingecko_public_api": coingecko_public_api_ok,
             "alternative_fear_greed": fear_greed.get("source") == "alternative.me",
         },
         "market": market,

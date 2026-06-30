@@ -166,6 +166,9 @@ jobs:
       - name: Build daily revenue focus
         run: python scripts/build_daily_revenue_focus.py
 
+      - name: Build daily traffic goal
+        run: python scripts/build_daily_traffic_goal.py
+
       - name: Build traffic cluster board
         run: python scripts/build_traffic_cluster_board.py
 

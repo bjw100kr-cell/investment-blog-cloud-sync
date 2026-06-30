@@ -9,6 +9,7 @@ USER_REVIEW_SHORTLIST_JSON = ROOT / "outputs/latest/user-review-shortlist.json"
 FIRST_APPROVAL_PATH_JSON = ROOT / "outputs/latest/first-approval-path.json"
 FIRST_PUBLISH_OPERATOR_RUN_JSON = ROOT / "outputs/latest/first-publish-operator-run.json"
 DAILY_REVENUE_FOCUS_JSON = ROOT / "outputs/latest/daily-revenue-focus.json"
+DAILY_TRAFFIC_GOAL_JSON = ROOT / "outputs/latest/daily-traffic-goal.json"
 MONETIZATION_ROADMAP_JSON = ROOT / "outputs/latest/monetization-roadmap.json"
 IMAGE_UPGRADE_QUEUE_JSON = ROOT / "outputs/latest/image-upgrade-queue.json"
 IMAGE_LEVERAGE_BOARD_JSON = ROOT / "outputs/latest/image-leverage-board.json"
@@ -23,6 +24,7 @@ IMAGE_UPGRADE_QUEUE_MD = ROOT / "outputs/latest/image-upgrade-queue.md"
 IMAGE_LEVERAGE_BOARD_MD = ROOT / "outputs/latest/image-leverage-board.md"
 FULL_DRAFT_REVIEW_SHEET_MD = ROOT / "outputs/latest/full-draft-review-sheet.md"
 DRAFT_POLISH_BOARD_MD = ROOT / "outputs/latest/draft-polish-board.md"
+DAILY_TRAFFIC_GOAL_MD = ROOT / "outputs/latest/daily-traffic-goal.md"
 TRAFFIC_CLUSTER_BOARD_MD = ROOT / "outputs/latest/traffic-cluster-board.md"
 POPULAR_READS_BOARD_MD = ROOT / "outputs/latest/popular-reads-board.md"
 RETENTION_CTA_BOARD_MD = ROOT / "outputs/latest/retention-cta-board.md"
@@ -58,6 +60,7 @@ def build_report() -> dict:
     approval = load_json(FIRST_APPROVAL_PATH_JSON)
     operator_run = load_json(FIRST_PUBLISH_OPERATOR_RUN_JSON)
     revenue_focus = load_json(DAILY_REVENUE_FOCUS_JSON)
+    traffic_goal = load_json(DAILY_TRAFFIC_GOAL_JSON)
     roadmap = load_json(MONETIZATION_ROADMAP_JSON)
     image_upgrade_queue = load_json(IMAGE_UPGRADE_QUEUE_JSON)
     image_leverage_board = load_json(IMAGE_LEVERAGE_BOARD_JSON)
@@ -89,6 +92,7 @@ def build_report() -> dict:
             "top_image_action_card_md": str(TOP_IMAGE_ACTION_CARD_MD),
             "full_draft_review_sheet_md": str(FULL_DRAFT_REVIEW_SHEET_MD),
             "draft_polish_board_md": str(DRAFT_POLISH_BOARD_MD),
+            "daily_traffic_goal_md": str(DAILY_TRAFFIC_GOAL_MD),
             "traffic_cluster_board_md": str(TRAFFIC_CLUSTER_BOARD_MD),
             "popular_reads_board_md": str(POPULAR_READS_BOARD_MD),
             "retention_cta_board_md": str(RETENTION_CTA_BOARD_MD),
@@ -118,6 +122,7 @@ def build_report() -> dict:
             "apply_command": reply_flow_examples[1] if len(reply_flow_examples) > 1 else "",
         },
         "revenue_path": revenue_focus.get("today_path", [])[:3],
+        "traffic_goal": traffic_goal,
         "roadmap_phases": roadmap.get("phases", [])[:3],
         "image_upgrade_queue": image_upgrade_queue.get("items", [])[:3],
         "image_leverage_lanes": image_leverage_board.get("lanes", [])[:3],
@@ -157,6 +162,7 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- review packet: `{report.get('review_paths', {}).get('review_packet_md', '')}`")
     lines.append(f"- full draft review sheet: `{report.get('review_paths', {}).get('full_draft_review_sheet_md', '')}`")
     lines.append(f"- draft polish board: `{report.get('review_paths', {}).get('draft_polish_board_md', '')}`")
+    lines.append(f"- daily traffic goal: `{report.get('review_paths', {}).get('daily_traffic_goal_md', '')}`")
     lines.append(f"- traffic cluster board: `{report.get('review_paths', {}).get('traffic_cluster_board_md', '')}`")
     lines.append(f"- popular reads board: `{report.get('review_paths', {}).get('popular_reads_board_md', '')}`")
     lines.append(f"- retention cta board: `{report.get('review_paths', {}).get('retention_cta_board_md', '')}`")
@@ -190,6 +196,16 @@ def write_markdown(report: dict) -> None:
         )
     if not report.get("review_shortlist"):
         lines.append("- 아직 검토 축약본이 없습니다.")
+    lines.append("")
+    lines.append("## 1.5. 하루 200명 목표")
+    lines.append("")
+    traffic_goal = report.get("traffic_goal", {})
+    lines.append(f"- target: `{traffic_goal.get('target_daily_visitors', 200)}`")
+    lines.append(f"- projected: `{traffic_goal.get('projected_daily_visitors', 0)}`")
+    lines.append(f"- gap: `{traffic_goal.get('gap_to_target', 0)}`")
+    lines.append(f"- status: `{traffic_goal.get('status', '')}`")
+    for item in traffic_goal.get("top_path", [])[:4]:
+        lines.append(f"- `{item.get('keyword', '')}` 예상 `{item.get('estimated_daily_visitors', 0)}`명: {item.get('title', '')}")
     lines.append("")
     lines.append("## 2. 사용자 확인 명령")
     lines.append("")

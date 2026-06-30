@@ -103,6 +103,7 @@
 | SP-087 | Spark | completed | none | `.github/workflows/daily-investment-intake.yml`에도 같은 5개 스크립트를 추가해 로컬 파이프라인과 GitHub Actions parity를 `all_core_scripts_present=yes`, `missing_in_workflow=none` 상태로 회복 |
 | SP-088 | Spark | completed | none | Binance/공개 API 코인 시장 신호를 `crypto-market-signal` 산출물로 저장하고 topic scoring/품질 게이트에 반영 |
 | SP-089 | Spark | pending | none | Google Drive 플러그인으로 주간 검토 리포트 또는 키워드 보드를 내보내는 선택형 export 흐름 설계 |
+| SP-090 | Spark | completed | none | 하루 200명 방문 목표 기준 `daily-traffic-goal` 산출물을 만들고 운영 홈/콘솔/워크플로우에 연결 |
 | HQ-001 | High | pending | none | public repo 공개 범위와 비공개 전환 기준 결정 |
 | HQ-002 | High | pending | none | OpenAI 유료 초안 생성 활성화 시점과 비용 한도 정책 결정 |
 | HQ-003 | High | pending | none | Search Console, GA4, AdSense, 뉴스레터 연결 우선순위 재정렬 |

@@ -1,7 +1,7 @@
 # Handoff
 
 ## Objective
-주식·코인·세계 흐름 중심의 투자/경제 블로그를 사람 같은 톤으로 매일 생성하고, 컴퓨터가 꺼져도 돌아가는 무료 자동화(기본은 Blogger)로 수익화 가능하게 운영하는 것.
+주식·코인·세계 흐름 중심의 투자/경제 블로그를 사람 같은 톤으로 매일 생성하고, 컴퓨터가 꺼져도 돌아가는 무료 자동화(기본은 Blogger)로 최소 하루 200명 이상 방문하는 블로그로 키우는 것.
 
 ## 연속성 규칙 (현재 적용)
 - 컨텍스트 오버플로우 방지를 위해 이 문서, `CONVERSATION_SUMMARY.md`, `outputs/latest/context_checkpoint.md`, `outputs/latest/session_memos/session_memories.md`를 `단일 진실원(SSOT)`로만 사용한다.
@@ -20,6 +20,7 @@
 - `Google Drive`는 검토본/운영 리포트/키워드 보드 공유에 사용합니다. 비밀키나 OAuth 결과 파일은 Drive로 올리지 않습니다.
 - 플러그인 사용 원칙은 `outputs/latest/plugin-signal-usage.md`에 저장했습니다.
 - `scripts/build_crypto_market_signal.py`가 `outputs/latest/crypto-market-signal.json/.md`를 만들고, `score_daily_topics.py`와 `build_pre_publish_quality_gate.py`가 이 신호를 반영합니다. GitHub Actions에도 포함되어 컴퓨터가 꺼져도 공개 API 기반 코인 시장 신호가 갱신됩니다.
+- 목표가 `하루 최소 200명 방문`으로 구체화되어 `scripts/build_daily_traffic_goal.py`와 `outputs/latest/daily-traffic-goal.md`를 추가했습니다. 이 보드는 상위 글 조합의 예상 방문자, 목표 부족분, GA4/Search Console/재방문 병목을 매일 보여줍니다.
 - `go-live-readiness` 기준 1차 실전(초안 테스트) 준비는 됨.
 - `git remote`는 `https://github.com/bjw100kr-cell/investment-blog-cloud-sync`로 연결됐고, `repo_connected=true`, `repo_accessible=true` 상태입니다.
 - 자동화 우선 채널은 `blogger`(1순위), `wordpress`(확장)로 고정.

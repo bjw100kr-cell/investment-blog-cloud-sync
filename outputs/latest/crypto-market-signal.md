@@ -1,23 +1,32 @@
 # Crypto Market Signal
 
-- 생성 시각: `2026-06-30T20:56:51+00:00`
-- 상태: `degraded`
+- 생성 시각: `2026-06-30T20:58:26+00:00`
+- 상태: `ok`
 - 시장 분위기: `extreme_fear`
-- 추적 코인 평균 24h 변동률: `0%`
+- 추적 코인 평균 24h 변동률: `-2.39%`
 - Fear/Greed: `15` (Extreme Fear)
 
 ## Tracked Tickers
 
-- Binance public API error: HTTP Error 451: 
+- `BTCUSDT`: 24h `-2.57%`, quote volume `1131724600`
+- `ETHUSDT`: 24h `-2.57%`, quote volume `362237961`
+- `SOLUSDT`: 24h `-2.20%`, quote volume `202789514`
+- `XRPUSDT`: 24h `-2.10%`, quote volume `70358421`
+- `BNBUSDT`: 24h `-2.59%`, quote volume `56566034`
+- `DOGEUSDT`: 24h `-2.31%`, quote volume `51986798`
 
 ## Keyword Signals
 
-- `bitcoin`: bonus `2`, sentiment `extreme_fear`, symbols ``
+- `bitcoin`: bonus `5`, sentiment `extreme_fear`, symbols `BTCUSDT`
+  - BTCUSDT 24h change -2.57%
   - Fear/Greed 15: Extreme Fear zone
-- `ethereum`: bonus `2`, sentiment `extreme_fear`, symbols ``
+- `ethereum`: bonus `5`, sentiment `extreme_fear`, symbols `ETHUSDT`
+  - ETHUSDT 24h change -2.57%
   - Fear/Greed 15: Extreme Fear zone
-- `crypto_etf`: bonus `2`, sentiment `extreme_fear`, symbols ``
-  - Fear/Greed 15: Extreme Fear zone
+- `crypto_etf`: bonus `8`, sentiment `extreme_fear`, symbols `SOLUSDT, XRPUSDT, BNBUSDT, DOGEUSDT`
+  - SOLUSDT 24h change -2.20%
+  - XRPUSDT 24h change -2.10%
+  - BNBUSDT 24h change -2.59%
 
 ## Editorial Rule
 

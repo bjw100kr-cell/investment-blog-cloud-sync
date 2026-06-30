@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-06-30T20:56:50.613809+00:00",
+  "target_daily_visitors": 200,
+  "projected_daily_visitors": 280,
+  "gap_to_target": 0,
+  "status": "estimated_on_track_measurement_missing",
+  "top_path": [
+    {
+      "keyword": "fomc",
+      "brand_lane": "macro",
+      "title": "FOMC 이후 시장 해설",
+      "demand_signal_score": 5900,
+      "total_score": 97.0,
+      "quality_status": "pass",
+      "ready_to_upload": true,
+      "estimated_daily_visitors": 95,
+      "recommended_action": "금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결"
+    },
+    {
+      "keyword": "bitcoin",
+      "brand_lane": "crypto",
+      "title": "비트코인 핵심 흐름 해설",
+      "demand_signal_score": 5600,
+      "total_score": 89.0,
+      "quality_status": "pass",
+      "ready_to_upload": true,
+      "estimated_daily_visitors": 95,
+      "recommended_action": "코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행"
+    },
+    {
+      "keyword": "us_index_flow",
+      "brand_lane": "us-stocks",
+      "title": "미국 증시 지수 흐름 해설",
+      "demand_signal_score": 3200,
+      "total_score": 84.0,
+      "quality_status": "pass",
+      "ready_to_upload": true,
+      "estimated_daily_visitors": 90,
+      "recommended_action": "대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장"
+    }
+  ],
+  "topic_items": [
+    {
+      "keyword": "fomc",
+      "brand_lane": "macro",
+      "title": "FOMC 이후 시장 해설",
+      "demand_signal_score": 5900,
+      "total_score": 97.0,
+      "quality_status": "pass",
+      "ready_to_upload": true,
+      "estimated_daily_visitors": 95,
+      "recommended_action": "금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결"
+    },
+    {
+      "keyword": "bitcoin",
+      "brand_lane": "crypto",
+      "title": "비트코인 핵심 흐름 해설",
+      "demand_signal_score": 5600,
+      "total_score": 89.0,
+      "quality_status": "pass",
+      "ready_to_upload": true,
+      "estimated_daily_visitors": 95,
+      "recommended_action": "코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행"
+    },
+    {
+      "keyword": "us_index_flow",
+      "brand_lane": "us-stocks",
+      "title": "미국 증시 지수 흐름 해설",
+      "demand_signal_score": 3200,
+      "total_score": 84.0,
+      "quality_status": "pass",
+      "ready_to_upload": true,
+      "estimated_daily_visitors": 90,
+      "recommended_action": "대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장"
+    },
+    {
+      "keyword": "dollar",
+      "brand_lane": "macro",
+      "title": "달러 흐름 해설",
+      "demand_signal_score": 3100,
+      "total_score": 78.0,
+      "quality_status": "unknown",
+      "ready_to_upload": false,
+      "estimated_daily_visitors": 0,
+      "recommended_action": "발행 가능한 manifest/이미지/신선도 상태 보강"
+    },
+    {
+      "keyword": "tariffs_trade",
+      "brand_lane": "world-flow",
+      "title": "관세와 무역 이슈 해설",
+      "demand_signal_score": 0,
+      "total_score": 57.0,
+      "quality_status": "review_before_publish",
+      "ready_to_upload": true,
+      "estimated_daily_visitors": 0,
+      "recommended_action": "세계 흐름 해설 뒤 관련 섹터/환율 글로 연결"
+    }
+  ],
+  "ready_topic_count": 3,
+  "search_demand_summary": {
+    "trend_item_count": 16,
+    "matched_keyword_count": 4,
+    "unmatched_market_trend_count": 0,
+    "weak_trend_fallback_count": 4
+  },
+  "keyword_board_summary": {
+    "breaking_candidates": 5,
+    "query_watchlist": 4
+  },
+  "publishing_summary": {
+    "blogger_ready": true,
+    "blogger_ready_item_count": 1,
+    "daily_publish_cap": 1
+  },
+  "measurement_summary": {
+    "analytics_ready": false,
+    "retention_ready": false
+  },
+  "bottlenecks": [
+    "GA4/Search Console 연결 전이라 실제 200명 달성 여부를 자동 측정하기 어렵습니다.",
+    "뉴스레터/텔레그램 재방문 동선이 없어 첫 방문자를 반복 방문으로 쌓기 어렵습니다."
+  ],
+  "next_actions": [
+    "오늘은 예상 방문자 기여도가 가장 큰 1개 글을 먼저 발행하고, 같은 클러스터 후속 글 2개를 내부링크로 묶습니다.",
+    "검색 수요 점수 3,000 이상 키워드는 메인 해설 1개 + 초보자/FAQ/ETF·규제 후속 글로 묶어 체류시간을 늘립니다.",
+    "GA4_MEASUREMENT_ID와 SEARCH_CONSOLE_SITE_URL을 연결하면 200명/일 달성 여부를 추정이 아니라 실제 지표로 전환합니다."
+  ]
+}

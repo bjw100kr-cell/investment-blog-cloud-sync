@@ -33,10 +33,10 @@
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `86.0`
-- 점수 구성: 검색성 29 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 2
+- 총점: `89.0`
+- 점수 구성: 검색성 29 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 5
 - 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 코인 시장 신호: Fear/Greed 15: Extreme Fear zone
+- 코인 시장 신호: BTCUSDT 24h change -2.57%; Fear/Greed 15: Extreme Fear zone
 - 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 핵심 흐름 해설

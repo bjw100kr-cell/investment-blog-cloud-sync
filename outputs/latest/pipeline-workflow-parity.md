@@ -2,8 +2,8 @@
 
 로컬 `run_pipeline.sh`와 GitHub Actions workflow 단계 정합성을 확인하는 리포트입니다.
 
-- pipeline_script_count: `76`
-- workflow_script_count: `77`
+- pipeline_script_count: `77`
+- workflow_script_count: `78`
 - all_core_scripts_present: `True`
 - order_aligned: `True`
 
