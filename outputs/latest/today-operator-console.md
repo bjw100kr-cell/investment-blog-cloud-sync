@@ -9,40 +9,40 @@
 
 ## 1. 먼저 읽을 글
 
-- shortlist: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/user-review-shortlist.md`
-- reference strength benchmark: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/reference-strength-benchmark.md`
-- user review checkpoint: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/user-review-checkpoint.html`
-- current review focus: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/current-review-focus.html`
-- user approval inbox: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/user-approval-inbox.html`
-- source freshness board: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/source-freshness-board.md`
-- github minimum launch card: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/github-minimum-launch-card.md`
-- pipeline workflow parity: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/pipeline-workflow-parity.md`
-- cloud launch preflight: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/cloud-launch-preflight.md`
-- automation progress board: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/automation-progress-board.md`
-- automation unblock card: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/automation-unblock-card.md`
-- minimum unblock flow: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/minimum-unblock-flow.md`
-- first blogger verify card: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/first-blogger-verify-card.md`
-- review packet: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/review-packet.md`
-- full draft review sheet: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/full-draft-review-sheet.md`
-- draft polish board: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/draft-polish-board.md`
-- daily traffic goal: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/daily-traffic-goal.md`
-- traffic cluster board: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/traffic-cluster-board.md`
-- traffic amplification plan: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/traffic-amplification-plan.md`
-- visitor proof board: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/visitor-proof-board.md`
-- search console setup card: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/search-console-setup-card.md`
-- indexing priority pack: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/indexing-priority-pack.md`
-- internal link application report: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/internal-link-application-report.md`
-- popular reads application report: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/popular-reads-application-report.md`
-- popular reads board: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/popular-reads-board.md`
-- retention cta board: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/retention-cta-board.md`
-- editorial calendar: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/editorial-calendar.md`
-- approval evidence sheet: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/approval-evidence-sheet.md`
-- approval briefing board: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/approval-briefing-board.html`
-- shortlist publish action board: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/shortlist-publish-action-board.md`
-- shortlist launchpad: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/shortlist-launchpad.html`
-- image upgrade queue: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/image-upgrade-queue.md`
-- image leverage board: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/image-leverage-board.md`
-- top image action card: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/top-image-action-card.md`
+- shortlist: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/user-review-shortlist.md`
+- reference strength benchmark: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/reference-strength-benchmark.md`
+- user review checkpoint: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/user-review-checkpoint.html`
+- current review focus: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/current-review-focus.html`
+- user approval inbox: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/user-approval-inbox.html`
+- source freshness board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/source-freshness-board.md`
+- github minimum launch card: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/github-minimum-launch-card.md`
+- pipeline workflow parity: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/pipeline-workflow-parity.md`
+- cloud launch preflight: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/cloud-launch-preflight.md`
+- automation progress board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/automation-progress-board.md`
+- automation unblock card: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/automation-unblock-card.md`
+- minimum unblock flow: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/minimum-unblock-flow.md`
+- first blogger verify card: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/first-blogger-verify-card.md`
+- review packet: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/review-packet.md`
+- full draft review sheet: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/full-draft-review-sheet.md`
+- draft polish board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/draft-polish-board.md`
+- daily traffic goal: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/daily-traffic-goal.md`
+- traffic cluster board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/traffic-cluster-board.md`
+- traffic amplification plan: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/traffic-amplification-plan.md`
+- visitor proof board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/visitor-proof-board.md`
+- search console setup card: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/search-console-setup-card.md`
+- indexing priority pack: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/indexing-priority-pack.md`
+- internal link application report: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/internal-link-application-report.md`
+- popular reads application report: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/popular-reads-application-report.md`
+- popular reads board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/popular-reads-board.md`
+- retention cta board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/retention-cta-board.md`
+- editorial calendar: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/editorial-calendar.md`
+- approval evidence sheet: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/approval-evidence-sheet.md`
+- approval briefing board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/approval-briefing-board.html`
+- shortlist publish action board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/shortlist-publish-action-board.md`
+- shortlist launchpad: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/shortlist-launchpad.html`
+- image upgrade queue: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/image-upgrade-queue.md`
+- image leverage board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/image-leverage-board.md`
+- top image action card: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/top-image-action-card.md`
 - 원칙: 이 단계에서 글을 읽고 확인한 뒤에만 다음 단계로 넘어갑니다.
 
 ## 수동 채널 발행 패턴
@@ -70,35 +70,35 @@
     - 문단 구분이 깨지면 HTML 보기에서 한 번 더 줄 바꿈 정리
     - 발행 URL과 대표 키워드를 수기 스프레드시트나 텍스트로 저장
 
-- `FOMC 이후 시장 해설` / keyword `fomc` / verdict `approve` / publish `2026-06-30`
 - `비트코인 핵심 흐름 해설` / keyword `bitcoin` / verdict `approve` / publish `2026-07-01`
 - `미국 증시 지수 흐름 해설` / keyword `us_index_flow` / verdict `approve` / publish `2026-07-02`
+- `중국 변수와 시장 영향 해설` / keyword `china` / verdict `approve` / publish `2026-07-03`
 
 ## 1.5. 하루 200명 목표
 
 - target: `200`
-- projected: `338`
+- projected: `340`
 - gap: `0`
 - status: `estimated_on_track_measurement_missing`
 - `fomc` 예상 `95`명: FOMC 이후 시장 해설
 - `bitcoin` 예상 `95`명: 비트코인 핵심 흐름 해설
 - `us_index_flow` 예상 `92`명: 미국 증시 지수 흐름 해설
-- `china` 예상 `56`명: 중국 변수와 시장 영향 해설
+- `china` 예상 `58`명: 중국 변수와 시장 영향 해설
 - actual_verified: `0`
 - proof_status: `measurement_missing`
 - proof_gap: `200`
 
 ## 2. 사용자 확인 명령
 
-- single: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin`
-- review board: `/Users/bjw100kr/Documents/Codex/2026-06-25/https-youtu-be-bec7hkseki-si-ehsln/work/investment-blog-cloud-sync/outputs/latest/review-preview-board.html`
-- reply preview: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "fomc 글 먼저 진행"`
-- reply apply: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "fomc 글 먼저 진행" --apply`
+- single: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
+- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
+- review board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/review-preview-board.html`
+- reply preview: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행"`
+- reply apply: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행" --apply`
 
 ## 3. 사용자 확인 후 실행
 
-- `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "fomc 글 먼저 진행" --apply`
+- `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행" --apply`
 - `python3 scripts/build_platform_publish_plan.py`
 - `python3 scripts/upload_blogger_drafts.py`
 - `python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state`
@@ -113,9 +113,9 @@
 
 ## 6. 오늘 수익화 경로
 
-- `main_post` / `FOMC 이후 시장 해설` / 페이지뷰와 체류시간 균형 확보
-- `seo_followup` / `FOMC 이후 시장이 주식과 코인에 미치는 영향` / 검색 유입 누적과 첫 방문 독자 확보
-- `next_slot` / `비트코인 핵심 흐름 해설` / 페이지뷰와 체류시간 균형 확보
+- `main_post` / `비트코인 핵심 흐름 해설` / 페이지뷰와 체류시간 균형 확보
+- `seo_followup` / `비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조` / 초보 검색 유입과 긴 체류시간 확보
+- `next_slot` / `미국 증시 지수 흐름 해설` / 페이지뷰와 체류시간 균형 확보
 
 ## 7. 다음 큰 단계
 

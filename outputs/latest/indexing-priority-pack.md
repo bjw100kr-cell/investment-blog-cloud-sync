@@ -3,7 +3,7 @@
 검색 유입을 빨리 만들기 위해 Search Console 검증 후 먼저 색인 확인할 URL과 내부링크 액션을 정리합니다.
 
 - target_daily_visitors: `200`
-- daily_traffic_projection: `338`
+- daily_traffic_projection: `340`
 - search_console_required: `True`
 
 ## Sitemaps
@@ -13,19 +13,19 @@
 
 ## Priority URLs
 
-- `high` / `fomc` / 예상 `95`명: FOMC 이후 시장 해설
-  - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
-  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
-  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
 - `high` / `bitcoin` / 예상 `95`명: 비트코인 핵심 흐름 해설
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post.html
+- `high` / `fomc` / 예상 `95`명: FOMC 이후 시장 해설
+  - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
+  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
+  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
 - `high` / `us_index_flow` / 예상 `92`명: 미국 증시 지수 흐름 해설
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_30.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_30.html
-- `medium` / `china` / 예상 `56`명: 중국 변수와 시장 영향 해설
+- `medium` / `china` / 예상 `58`명: 중국 변수와 시장 영향 해설
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_510.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_510.html

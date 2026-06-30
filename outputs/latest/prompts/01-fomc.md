@@ -91,7 +91,7 @@
     "FOMC 이후 시장 해설: 지금 시장이 반응하는 이유",
     "FOMC 이후 시장 해설로 보는 주식·코인 흐름"
   ],
-  "summary_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+  "summary_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
   "outline": [
     "왜 지금 이 이슈가 중요한가",
     "실제로 발표되거나 벌어진 일",
@@ -109,7 +109,6 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "Federal Reserve Monetary Policy Press",
-    "Financial Times World",
     "NYT Business",
     "Reuters Markets via Google News RSS"
   ],

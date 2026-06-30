@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T21:34:51.208541+00:00",
+  "generated_at": "2026-06-30T21:39:27.687974+00:00",
   "summary": {
     "ok_sources": 14,
     "item_count": 112
@@ -152,17 +152,6 @@
   ],
   "ranked_keywords": [
     {
-      "keyword": "fomc",
-      "score": 45,
-      "source_count": 4,
-      "sources": [
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ]
-    },
-    {
       "keyword": "bitcoin",
       "score": 45,
       "source_count": 4,
@@ -171,6 +160,16 @@
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News"
+      ]
+    },
+    {
+      "keyword": "fomc",
+      "score": 42,
+      "source_count": 3,
+      "sources": [
+        "Federal Reserve Monetary Policy Press",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ]
     },
     {
@@ -206,6 +205,18 @@
       ]
     },
     {
+      "keyword": "china",
+      "score": 14,
+      "source_count": 5,
+      "sources": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "MarketWatch Breaking News",
+        "무역킹 Trade King YouTube"
+      ]
+    },
+    {
       "keyword": "ai_semiconductors",
       "score": 14,
       "source_count": 4,
@@ -227,14 +238,13 @@
       ]
     },
     {
-      "keyword": "china",
-      "score": 11,
-      "source_count": 4,
+      "keyword": "tariffs_trade",
+      "score": 8,
+      "source_count": 3,
       "sources": [
         "CNBC Top News",
-        "Financial Times Home",
-        "MarketWatch Breaking News",
-        "무역킹 Trade King YouTube"
+        "Financial Times World",
+        "MarketWatch Breaking News"
       ]
     },
     {
@@ -266,15 +276,6 @@
       ]
     },
     {
-      "keyword": "tariffs_trade",
-      "score": 5,
-      "source_count": 2,
-      "sources": [
-        "CNBC Top News",
-        "MarketWatch Breaking News"
-      ]
-    },
-    {
       "keyword": "cpi",
       "score": 3,
       "source_count": 1,
@@ -296,8 +297,8 @@
     },
     {
       "keyword": "fomc",
-      "score": 45,
-      "headline_count": 12,
+      "score": 42,
+      "headline_count": 11,
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
@@ -345,6 +346,16 @@
       ]
     },
     {
+      "keyword": "china",
+      "score": 14,
+      "headline_count": 5,
+      "sample_titles": [
+        "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
+        "World Bank to phase out China lending",
+        "1. The Grand Design to Pressure China"
+      ]
+    },
+    {
       "keyword": "ethereum",
       "score": 12,
       "headline_count": 4,
@@ -355,13 +366,13 @@
       ]
     },
     {
-      "keyword": "china",
-      "score": 11,
-      "headline_count": 4,
+      "keyword": "tariffs_trade",
+      "score": 8,
+      "headline_count": 3,
       "sample_titles": [
         "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
-        "World Bank to phase out China lending",
-        "1. The Grand Design to Pressure China"
+        "Nike earnings crushed Wall Street’s estimates, but there’s a catch",
+        "Nike earnings helped by tariff refund but performance still shows strains"
       ]
     },
     {
@@ -390,15 +401,6 @@
       "sample_titles": [
         "MetaMask launches Money Account with stablecoin yield and spending in one wallet",
         "Neon Buys ‘Artificial,’ a Film About OpenAI, After Amazon Dropped It"
-      ]
-    },
-    {
-      "keyword": "tariffs_trade",
-      "score": 5,
-      "headline_count": 2,
-      "sample_titles": [
-        "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
-        "Nike earnings crushed Wall Street’s estimates, but there’s a catch"
       ]
     },
     {
@@ -1709,6 +1711,42 @@
       "source_weight": 2
     },
     {
+      "title": "US Supreme Court rejects Trump’s bid to end birthright citizenship",
+      "link": "https://www.ft.com/content/8ee00f84-762c-48a5-ac21-774e216977fa",
+      "published": "Tue, 30 Jun 2026 21:34:46 GMT",
+      "description": "Ruling is major blow to president’s immigration agenda",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Nike earnings helped by tariff refund but performance still shows strains",
+      "link": "https://www.ft.com/content/0f0166ed-ab22-417a-9aae-7dd264256ad6",
+      "published": "Tue, 30 Jun 2026 21:12:10 GMT",
+      "description": "Trainer maker reported $11bn in revenue in its most recent quarter, the lowest since February 2022",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "World Bank to phase out China lending",
+      "link": "https://www.ft.com/content/32b664e1-d2d2-4292-b0b3-0056808acf26",
+      "published": "Tue, 30 Jun 2026 20:47:12 GMT",
+      "description": "Decision from global development institution follows years of pressure from the Trump administration",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
       "title": "Witkoff and Kushner arrive in Doha for talks over US-Iran deal",
       "link": "https://www.ft.com/content/f35be117-8a25-4a22-871d-0e29cafc8494",
       "published": "Tue, 30 Jun 2026 20:39:19 GMT",
@@ -1761,42 +1799,6 @@
       "link": "https://www.ft.com/content/79da150f-5a84-44bb-8e97-b46b958c9699",
       "published": "Tue, 30 Jun 2026 18:14:39 GMT",
       "description": "Vertical integration helps to bridge the gap between today’s investments and returns that won’t come until later",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Philip Morris allowed to market Zyn pouches in US as safer than smoking",
-      "link": "https://www.ft.com/content/04518af1-0294-4ef7-bc24-507ac1197db1",
-      "published": "Tue, 30 Jun 2026 18:12:38 GMT",
-      "description": "Nicotine pouches are a focus of the tobacco industry’s push to grow beyond cigarettes",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Key Burnham adviser pushes back at union call for bank tax rise",
-      "link": "https://www.ft.com/content/fc5aaf4b-3616-46c6-bb38-2b78c4fec7e6",
-      "published": "Tue, 30 Jun 2026 18:06:46 GMT",
-      "description": "Trades Union Congress estimates restoring previous surcharge could raise £9bn",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Egg producers settle US claims they manipulated benchmark prices",
-      "link": "https://www.ft.com/content/55911ca2-9728-48ac-a874-5a3b37d3fb3e",
-      "published": "Tue, 30 Jun 2026 17:58:05 GMT",
-      "description": "Federal and state authorities cite three-year effort to co-ordinate bids that inflated quotations",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",

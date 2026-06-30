@@ -2,7 +2,7 @@
 
 GitHub 연결 전에도 로컬에서 첫 Blogger draft 검증까지 바로 확인할 수 있습니다.
 
-- main_candidate: `fomc` / FOMC 이후 시장 해설
+- main_candidate: `bitcoin` / 비트코인 핵심 흐름 해설
 
 ## Shortcut Flow
 

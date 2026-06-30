@@ -114,7 +114,6 @@
   "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
   "source_names": [
     "Federal Reserve Monetary Policy Press",
-    "Financial Times World",
     "NYT Business",
     "Reuters Markets via Google News RSS"
   ],

@@ -1,6 +1,6 @@
 # 오늘의 키워드 기회판
 
-- 생성 시각: `2026-06-30T21:34:51.208541+00:00`
+- 생성 시각: `2026-06-30T21:39:27.687974+00:00`
 - 당일 브레이킹 후보: `5`
 - SEO 후속 후보: `6`
 - 검색어 워치리스트: `4`
@@ -11,10 +11,10 @@
 
 - keyword: fomc
 - urgency: publish_now
-- score: 97.0 / search 29 / demand 5700
+- score: 97.0 / search 29 / demand 5400
 - ready_to_upload: True
 - queue_publish: 2026-06-30 (today_or_overdue)
-- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
 - action: 오늘 메인 글로 바로 발행하고, 후속 SEO 글 1~2개로 내부링크를 같이 준비합니다.
 
 ### 2. 비트코인 핵심 흐름 해설
@@ -41,10 +41,10 @@
 
 - keyword: china
 - urgency: watch
-- score: 70.0 / search 14 / demand 0
+- score: 77.0 / search 17 / demand 0
 - ready_to_upload: True
 - queue_publish: 2026-07-03 (this_week)
-- reason: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- reason: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
 ### 5. 크립토 ETF 이슈 해설
@@ -118,7 +118,7 @@
 - `bitcoin`: type mapped_keyword_demand / mapped bitcoin / demand 5700 / regions unknown
   - suggested_title: bitcoin 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결되어 있어 검색형 후속 글로 전환하기 좋습니다.
-- `fomc`: type mapped_keyword_demand / mapped fomc / demand 5700 / regions unknown
+- `fomc`: type mapped_keyword_demand / mapped fomc / demand 5400 / regions unknown
   - suggested_title: fomc 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결되어 있어 검색형 후속 글로 전환하기 좋습니다.
 - `us_index_flow`: type mapped_keyword_demand / mapped us_index_flow / demand 3400 / regions unknown

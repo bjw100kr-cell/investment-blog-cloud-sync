@@ -68,7 +68,7 @@
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, Financial Times Home, MarketWatch Breaking News, 무역킹 Trade King YouTube
+- 주요 참고 소스: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, 무역킹 Trade King YouTube
 - 발행 전 재확인: 정책 발표 또는 인터뷰 원문 여부 확인
 - 발행 전 재확인: 중국 관련 2차 해설을 사실처럼 단정하지 않기
 - 발행 전 재확인: 한국/미국 시장 영향은 시나리오형으로 서술

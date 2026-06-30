@@ -9,7 +9,7 @@
 
 - gate: GitHub repo 연결 전후 첫 Blogger draft 검증
 - focus: 게시 파이프라인이 실제로 하루 1건씩 안전하게 돌아가는지 확인
-- task: `비트코인 핵심 흐름 해설` 단건 승인 후 Blogger draft 업로드
+- task: `FOMC 이후 시장 해설` 단건 승인 후 Blogger draft 업로드
 - task: `platform-publish-plan`과 `first-cloud-run-verification` 결과 확인
 - task: Blogger draft 화면에서 제목, 본문, 링크, 라벨 수동 검수
 - success_signal: Blogger draft 1건이 승인 범위대로 생성되고 추가 오작동 업로드가 없어야 함
@@ -18,7 +18,7 @@
 
 - gate: 첫 draft 검증 성공 후 3~7일 운영
 - focus: 검색 유입용 메인 글과 후속 SEO 글이 반복 루프로 굴러가는지 확인
-- task: `비트코인 핵심 흐름 해설` -> SEO 후속 글 -> `미국 증시 지수 흐름 해설` 흐름 반복
+- task: `FOMC 이후 시장 해설` -> SEO 후속 글 -> `비트코인 핵심 흐름 해설` 흐름 반복
 - task: daily-revenue-focus 기준으로 매일 1순위 글과 후속 글 연결
 - task: 승인 keyword 운영이 과도하게 번거롭지 않은지 체크
 - success_signal: 3일 이상 연속으로 메인 글과 후속 글 경로가 유지되고 승인/업로드 루틴이 안정적이어야 함
