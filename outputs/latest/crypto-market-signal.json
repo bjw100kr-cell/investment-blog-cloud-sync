@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T22:22:56+00:00",
+  "generated_at": "2026-07-01T11:42:50+00:00",
   "status": "ok",
   "providers": {
     "binance_plugin": false,
@@ -9,68 +9,68 @@
   },
   "market": {
     "sentiment": "extreme_fear",
-    "average_change_percent_24h": -2.49,
-    "tracked_quote_volume_24h": 47132155346.0,
-    "signal_strength": 6
+    "average_change_percent_24h": -0.32,
+    "tracked_quote_volume_24h": 51151788458.0,
+    "signal_strength": 4
   },
   "fear_greed": {
-    "value": 15,
+    "value": 11,
     "label": "Extreme Fear",
     "source": "alternative.me",
-    "timestamp": "1782777600"
+    "timestamp": "1782864000"
   },
   "tickers": [
     {
       "symbol": "BTCUSDT",
       "keyword": "bitcoin",
-      "last_price": 58630.0,
-      "price_change_percent_24h": -2.86925,
-      "quote_volume_24h": 32250502432.0,
+      "last_price": 58576.0,
+      "price_change_percent_24h": -0.97246,
+      "quote_volume_24h": 34709495183.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "ETHUSDT",
       "keyword": "ethereum",
-      "last_price": 1570.07,
-      "price_change_percent_24h": -2.902,
-      "quote_volume_24h": 9376202081.0,
+      "last_price": 1569.93,
+      "price_change_percent_24h": -0.51391,
+      "quote_volume_24h": 10161895814.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "SOLUSDT",
       "keyword": "crypto_etf",
-      "last_price": 73.56,
-      "price_change_percent_24h": -2.29491,
-      "quote_volume_24h": 2704185770.0,
+      "last_price": 74.84,
+      "price_change_percent_24h": 1.93481,
+      "quote_volume_24h": 3145806634.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "XRPUSDT",
       "keyword": "crypto_etf",
-      "last_price": 1.042,
-      "price_change_percent_24h": -1.80845,
-      "quote_volume_24h": 1395820710.0,
+      "last_price": 1.038,
+      "price_change_percent_24h": -0.11791,
+      "quote_volume_24h": 1613473176.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "DOGEUSDT",
       "keyword": "crypto_etf",
-      "last_price": 0.072047,
-      "price_change_percent_24h": -2.23777,
-      "quote_volume_24h": 777623851.0,
+      "last_price": 0.071072,
+      "price_change_percent_24h": -1.37827,
+      "quote_volume_24h": 787642829.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "BNBUSDT",
       "keyword": "crypto_etf",
-      "last_price": 544.68,
-      "price_change_percent_24h": -2.80065,
-      "quote_volume_24h": 627820502.0,
+      "last_price": 542.3,
+      "price_change_percent_24h": -0.86958,
+      "quote_volume_24h": 733474822.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     }
@@ -89,10 +89,9 @@
   },
   "keyword_signals": {
     "bitcoin": {
-      "signal_score_bonus": 5,
+      "signal_score_bonus": 3,
       "market_signal_notes": [
-        "BTCUSDT 24h change -2.87%",
-        "Fear/Greed 15: Extreme Fear zone"
+        "Fear/Greed 11: Extreme Fear zone"
       ],
       "tracked_symbols": [
         "BTCUSDT"
@@ -100,10 +99,9 @@
       "market_sentiment": "extreme_fear"
     },
     "ethereum": {
-      "signal_score_bonus": 5,
+      "signal_score_bonus": 3,
       "market_signal_notes": [
-        "ETHUSDT 24h change -2.90%",
-        "Fear/Greed 15: Extreme Fear zone"
+        "Fear/Greed 11: Extreme Fear zone"
       ],
       "tracked_symbols": [
         "ETHUSDT"
@@ -111,12 +109,9 @@
       "market_sentiment": "extreme_fear"
     },
     "crypto_etf": {
-      "signal_score_bonus": 8,
+      "signal_score_bonus": 6,
       "market_signal_notes": [
-        "SOLUSDT 24h change -2.29%",
-        "DOGEUSDT 24h change -2.24%",
-        "BNBUSDT 24h change -2.80%",
-        "Fear/Greed 15: Extreme Fear zone"
+        "Fear/Greed 11: Extreme Fear zone"
       ],
       "tracked_symbols": [
         "SOLUSDT",

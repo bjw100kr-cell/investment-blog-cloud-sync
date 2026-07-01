@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T09:18:52.130557+00:00",
+  "generated_at": "2026-07-01T11:42:49.001049+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 5,
@@ -8,17 +8,17 @@
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "us_big_tech",
+      "keyword": "ethereum",
       "trend_count": 1,
-      "traffic_score_sum": 200,
-      "max_approx_traffic": 200,
+      "traffic_score_sum": 500,
+      "max_approx_traffic": 500,
       "trend_queries": [
-        "apple iphone 18 pro"
+        "이더리움"
       ],
       "regions": [
-        "US"
+        "KR"
       ],
-      "demand_signal_score": 400,
+      "demand_signal_score": 700,
       "fallback_source": "trend_match",
       "confidence": "high",
       "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
@@ -30,23 +30,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 8500,
+      "demand_signal_score": 7600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 73,
-      "source_count": 7,
+      "source_snapshot_score": 64,
+      "source_count": 5,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times World",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Bitcoin’s 20% June crash looks even deadlier on the charts. Here’s why",
-        "Live markets: U.S. spot bitcoin ETFs had their worst month ever in June, shedding $4.5 billion",
-        "Taiwan’s sweeping crypto law raises the bar with licensing, reserve mandates, and tough penalties"
+        "XRP, HYPE funds are the bright spots as investors flee bitcoin, ether ETFs",
+        "Bitcoin options traders load up on $50,000 puts and gold futures flash a death cross",
+        "Bitcoin’s 20% June crash looks even deadlier on the charts. Here’s why"
       ]
     },
     {
@@ -56,21 +56,20 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3800,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 26,
-      "source_count": 3,
+      "source_snapshot_score": 23,
+      "source_count": 2,
       "source_names": [
-        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Japan spent $74 billion propping up the yen. Investors say the real battle is with the Fed"
+        "Gold falls as higher Treasury yields, Fed rate hike bets weigh - Reuters"
       ]
     },
     {
@@ -80,18 +79,18 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2900,
+      "demand_signal_score": 3400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 17,
-      "source_count": 6,
+      "source_snapshot_score": 22,
+      "source_count": 7,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
         "Financial Times Home",
-        "MarketWatch Breaking News"
+        "Financial Times World"
       ],
       "sample_titles": [
         "Anthropic restores AI models Fable, Mythos after the U.S. lifts export controls",
@@ -106,11 +105,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2000,
+      "demand_signal_score": 2600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 8,
+      "source_snapshot_score": 14,
       "source_count": 3,
       "source_names": [
         "CNBC Top News",
@@ -119,8 +118,8 @@
       ],
       "sample_titles": [
         "Oil prices wobble as breakdown in U.S.-Iran talks casts doubt over peace process",
-        "Global funds revisit Indian stocks as oil, rupee risks recede - Reuters",
-        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
+        "Iran says it is selling oil at 20% premium as end of U.S. blockade sees 40 million barrels exported",
+        "Oil falls over 1% as markets await outcome of Iran-US talks, US stocks data - Reuters"
       ]
     }
   ],

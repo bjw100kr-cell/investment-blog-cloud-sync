@@ -91,7 +91,7 @@
     "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
     "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "왜 지금 이 이슈가 중요한가",
     "실제로 발표되거나 벌어진 일",
@@ -109,17 +109,16 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "Financial Times Home",
     "Financial Times World",
-    "MarketWatch Breaking News",
+    "NYT Business",
     "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
+    "Bulls are betting big on this global ETF that's deep in a bear market",
     "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
-    "World Bank to phase out China lending",
     "1. The Grand Design to Pressure China",
-    "Oil posts largest quarterly price drop in 6 years as historic supply crunch eases",
-    "World Bank to phase out China lending"
+    "How China’s green tech could boost its global finance ambitions",
+    "The South Korean Mine at the Center of America’s Tungsten Push"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -182,9 +181,9 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 77.0,
+    "total_score": 76.0,
     "search_score": 17,
-    "timeliness_score": 21,
+    "timeliness_score": 20,
     "explanatory_score": 18,
     "monetization_score": 14,
     "risk_score": 7

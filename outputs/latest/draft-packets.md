@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-06-30T22:22:55.604504+00:00`
+- 생성 시각: `2026-07-01T11:42:49.001049+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 점수: 97.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 점수: 91.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -68,15 +68,15 @@
 - 참고 헤드라인:
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Minutes of the Federal Open Market Committee, April 28-29, 2026
   - Federal Reserve issues FOMC statement
-  - Minutes of the Federal Open Market Committee, March 17â18, 2026
+  - Federal Reserve issues FOMC statement
+  - Gold falls as higher Treasury yields, Fed rate hike bets weigh - Reuters
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - 각도: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 점수: 90.0
+- 점수: 89.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,22 +136,22 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Phantom doubles down on perpetual futures with hire of Hyperliquid market builders
-  - SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules
-  - Jefferies warns of crypto market volatility as Clarity Act faces Senate test
-  - Bitcoin just $5K away from ‘best investment opportunity’ of bear market
-  - Financial companies join forces for US dollar stablecoin, keeping reserve earnings
+  - XRP, HYPE funds are the bright spots as investors flee bitcoin, ether ETFs
+  - Bitcoin options traders load up on $50,000 puts and gold futures flash a death cross
+  - Bitcoin’s 20% June crash looks even deadlier on the charts. Here’s why
+  - Live markets: U.S. spot bitcoin ETFs had their worst month ever in June, shedding $4.5 billion
+  - Why Poland is the only EU country where crypto firms can't get a MiCA license
 
-## 3. us_index_flow
+## 3. ai_semiconductors
 
-- 추천 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 85.0
+- 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+- 각도: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 83.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
+  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -200,23 +200,23 @@
   - 해설: 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.
   - 마무리: 반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다.
 - 팩트체크:
-  - 나스닥/S&P/미국 증시 수치와 기준 시각 재확인
-  - 지수 하락/상승 원인을 한 문장으로 단정하지 않기
-  - 채권·달러·빅테크와의 연결 문장 교차 점검
+  - 기업 실적/가이던스 수치 원문 확인
+  - 반도체 섹터 전반 일반화 과장 여부 점검
+  - 대표 종목 티커와 실적 날짜 재확인
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Nasdaq brings proprietary market data onchain through Pyth
-  - US stocks chalk up biggest quarterly gain in six years
-  - S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters
-  - Tech selloff stirs bubble fears in US stock market - Reuters
-  - AI spending, earnings hopes, Fed outlook set to sway US stocks in second half - Reuters
+  - Anthropic restores AI models Fable, Mythos after the U.S. lifts export controls
+  - Anthropic to bring back Fable 5 as US lifts export controls
+  - Anthropic says Trump admin has lifted export controls on Claude Fable 5 and Mythos 5
+  - White House lifts ban on Anthropic models
+  - Why it’s too early to call a top on semiconductor stocks, according to these highly regarded analysts
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 77.0
+- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 76.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,8 +276,8 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Bulls are betting big on this global ETF that's deep in a bear market
   - Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund
-  - World Bank to phase out China lending
   - 1. The Grand Design to Pressure China
-  - Oil posts largest quarterly price drop in 6 years as historic supply crunch eases
-  - World Bank to phase out China lending
+  - How China’s green tech could boost its global finance ambitions
+  - The South Korean Mine at the Center of America’s Tungsten Push

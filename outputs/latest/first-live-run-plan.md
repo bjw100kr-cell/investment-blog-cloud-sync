@@ -3,7 +3,7 @@
 - status: `ready_for_draft_test`
 - missing_credentials_count: `0`
 - manifest_candidate_count: `0`
-- max_posts_per_run: `1`
+- max_posts_per_run: `3`
 
 ## Missing Credentials
 
@@ -33,12 +33,28 @@
 
 ## Next Candidates
 
-- 다음 후보가 아직 없습니다.
+- `미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유` / main_post / score 120.0
+- `중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유` / main_post / score 103.0
+- `중국 변수와 시장 영향 관련 대표 종목 한눈에 보기` / seo_followup / score 102.5
 
 ## Dry Run Snapshot
 
 - blogger_reason: ``
-- blogger_first_item_reason: ``
+- blogger_first_item_reason: `upload_error::RuntimeError: 403 Client Error: Forbidden for url: https://www.googleapis.com/blogger/v3/blogs/6916836934814427288/posts/?isDraft=true :: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+`
 - wordpress_reason: `WORDPRESS_SITE_URL is not set`
 - wordpress_first_item_reason: `credentials_missing_dry_run`
 

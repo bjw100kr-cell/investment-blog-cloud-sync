@@ -14,15 +14,15 @@
 
 - source: `Google Search Console query clicks`
 - site_url: `https://gimu-economy-insight.blogspot.com/`
-- site_url_source: `BLOG_BASE_URL`
+- site_url_source: `blogger_upload_state`
 - start_date: ``
 - end_date: ``
 
 ## Projection Is Not Proof
 
-- projected_daily_visitors: `340`
-- projected_with_amplification: `340`
-- potential_with_manual_amplification: `1540`
+- projected_daily_visitors: `338`
+- projected_with_amplification: `338`
+- potential_with_manual_amplification: `1538`
 - projection_is_proof: `False`
 
 ## Measurement Blockers

@@ -1,27 +1,27 @@
 # 검색 수요 신호 리포트
 
-- 생성 시각: `2026-07-01T09:18:52.130557+00:00`
+- 생성 시각: `2026-07-01T11:42:49.001049+00:00`
 - 트렌드 아이템 수: `16`
 - 매칭된 키워드 수: `5`
 - 약한 트렌드 fallback 수: `4`
 
 ## 키워드별 트렌드 수요
 
-- `us_big_tech`: demand 400 / trend_count 1 / traffic_sum 200 / regions US
+- `ethereum`: demand 700 / trend_count 1 / traffic_sum 500 / regions KR
   - confidence: `high` / Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다.
-  - trend query: apple iphone 18 pro
-- `bitcoin`: demand 8500 / trend_count 0 / traffic_sum 0 / regions unknown
+  - trend query: 이더리움
+- `bitcoin`: demand 7600 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 73 / sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times World, Investing.com Crypto News
-- `fomc`: demand 3800 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 64 / sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
+- `fomc`: demand 3500 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 26 / sources CNBC Top News, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `ai_semiconductors`: demand 2900 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 23 / sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `ai_semiconductors`: demand 3400 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 17 / sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News
-- `oil`: demand 2000 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 22 / sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World
+- `oil`: demand 2600 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 8 / sources CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
+  - fallback: source snapshot score 14 / sources CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
 
 ## 아직 못 주운 시장성 트렌드
 
