@@ -4,9 +4,11 @@ import json
 import os
 from datetime import date, timedelta
 from pathlib import Path
+from typing import Optional
 from urllib.parse import quote
 
 import requests
+from requests import HTTPError
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -143,6 +145,15 @@ def choose_accessible_site_url(inferred_site_url: str, accessible_sites: list[di
     return inferred_site_url, ""
 
 
+def http_status_code(exc: Exception) -> Optional[int]:
+    if isinstance(exc, HTTPError) and exc.response is not None:
+        return exc.response.status_code
+    response = getattr(exc, "response", None)
+    if response is not None:
+        return getattr(response, "status_code", None)
+    return None
+
+
 def query_rows(site_url: str, access_token: str, start_date: str, end_date: str) -> list:
     all_rows = []
     start_row = 0
@@ -203,6 +214,22 @@ def main() -> int:
     except Exception as exc:  # noqa: BLE001
         accessible_sites_error = str(exc)
     else:
+        if not accessible_sites:
+            write_report(
+                {
+                    "available": False,
+                    "reason": "no_accessible_search_console_sites",
+                    "action_required": "Search Console에서 블로그 URL-prefix 속성을 같은 Google 계정으로 등록/검증하세요.",
+                    "rows_written": 0,
+                    "site_url": site_url,
+                    "site_url_source": site_url_source,
+                    "start_date": "",
+                    "end_date": "",
+                    "accessible_sites": [],
+                    "accessible_sites_error": "",
+                }
+            )
+            return 0
         selected_site_url, selected_source = choose_accessible_site_url(site_url, accessible_sites)
         if selected_source:
             site_url = selected_site_url
@@ -220,6 +247,7 @@ def main() -> int:
             {
                 "available": False,
                 "reason": str(exc),
+                "status_code": http_status_code(exc),
                 "rows_written": 0,
                 "site_url": site_url,
                 "site_url_source": site_url_source,

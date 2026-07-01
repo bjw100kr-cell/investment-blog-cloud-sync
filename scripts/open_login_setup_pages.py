@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ENV_PATH = ROOT / ".env"
 OUTPUT_JSON = ROOT / "outputs/latest/login-launch-checklist.json"
 OUTPUT_MD = ROOT / "outputs/latest/login-launch-checklist.md"
+VISITOR_PROOF_BOARD_JSON = ROOT / "outputs/latest/visitor-proof-board.json"
 
 
 def normalize_github_origin(origin: str) -> str:
@@ -48,6 +49,15 @@ def load_env(path: Path) -> dict[str, str]:
         key, value = line.split("=", 1)
         values[key.strip()] = value.strip().strip("'").strip('"')
     return values
+
+
+def load_json(path: Path) -> dict:
+    if not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text())
+    except Exception:
+        return {}
 
 
 def git_origin() -> str:
@@ -258,7 +268,10 @@ def build_steps(env_values: dict[str, str], repo_url: str, include_wordpress: bo
         and env_values.get("WORDPRESS_USERNAME")
         and env_values.get("WORDPRESS_APPLICATION_PASSWORD")
     )
-    if not env_values.get("SEARCH_CONSOLE_SITE_URL"):
+    proof = load_json(VISITOR_PROOF_BOARD_JSON)
+    if proof.get("proof_status") == "measurement_missing":
+        steps.append("현재 200명/일 목표의 1순위 병목은 Search Console 속성 검증입니다. Search Console에서 URL-prefix 속성을 추가/검증하세요.")
+    elif not env_values.get("SEARCH_CONSOLE_SITE_URL"):
         steps.append("Search Console은 첫 가동 뒤 붙여도 됩니다. 지금은 SEARCH_CONSOLE_SITE_URL 없이도 시작 가능합니다.")
     if include_wordpress and not wordpress_ready:
         steps.extend(
@@ -291,9 +304,15 @@ def choose_next_page(
     selected_pages: list[dict],
 ) -> dict:
     auto_channel_ready = not missing_groups.get("blogger_upload") or not missing_groups.get("wordpress_upload")
+    proof = load_json(VISITOR_PROOF_BOARD_JSON)
 
     if not repo_url:
         page = find_page(selected_pages, "github_repo")
+        if page:
+            return page
+
+    if auto_channel_ready and proof.get("proof_status") == "measurement_missing":
+        page = find_page(selected_pages, "search_console_home")
         if page:
             return page
 

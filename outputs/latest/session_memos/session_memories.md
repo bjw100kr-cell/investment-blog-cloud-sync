@@ -1,8 +1,6 @@
 # Session Memory Log
 
 # ... truncated - recent entries kept
-- [2026-07-01 00:53:37 KST] step-20-16/30-Generate growth report
- - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:38 KST] step-25-20/30-Build SEO backlog
  - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:38 KST] step-30-24.5/30-Build safe image suggestions
@@ -160,4 +158,6 @@
 - [2026-07-01 07:19:28 KST] blogger duplicate cleanup workflow added
  - published=14 / processed=1 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 17:54:45 KST] sub-agent operating model and auto publish plan aligned
+ - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
+- [2026-07-01 17:58:53 KST] growth measurement setup action clarified
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True

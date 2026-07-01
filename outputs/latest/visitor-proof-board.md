@@ -14,9 +14,9 @@
 
 - source: `Google Search Console query clicks`
 - site_url: `https://gimu-economy-insight.blogspot.com/`
-- site_url_source: `blogger_upload_state`
-- start_date: `2026-06-21`
-- end_date: `2026-06-27`
+- site_url_source: `BLOG_BASE_URL`
+- start_date: ``
+- end_date: ``
 
 ## Projection Is Not Proof
 
@@ -27,7 +27,7 @@
 
 ## Measurement Blockers
 
-- Search Console 실측 데이터 없음: 403 Client Error: Forbidden for url: https://www.googleapis.com/webmasters/v3/sites/https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F/searchAnalytics/query
+- Search Console 실측 데이터 없음: no_accessible_search_console_sites
 - Search Console 접근 가능 사이트가 0개입니다. 블로그 속성 등록/검증 또는 계정 권한 연결이 필요합니다.
 
 ## Top Verified Queries
