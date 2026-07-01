@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -31,6 +32,20 @@ def public_url_lookup(state: dict) -> dict:
         if keyword and item.get("url"):
             lookup[keyword] = item.get("url")
     return lookup
+
+
+def published_state_items(state: dict) -> list[dict]:
+    items = state.get("items", {})
+    rows = items.values() if isinstance(items, dict) else items if isinstance(items, list) else []
+    published = []
+    for item in rows:
+        keyword = item.get("keyword", "")
+        url = item.get("url", "")
+        if not keyword or not item.get("published") or not url.startswith("http"):
+            continue
+        published.append(item)
+    published.sort(key=lambda item: item.get("last_synced_at", ""), reverse=True)
+    return published
 
 
 def distribution_lookup(pack: dict) -> dict:
@@ -151,6 +166,9 @@ def build_share_slots(goal_item: dict, snippets: dict, public_url: str, cluster:
     followup_text = ", ".join(item.get("title", "") for item in followups[:2] if item.get("title"))
     if not followup_text:
         followup_text = f"{keyword} 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결"
+    popular_text = ", ".join(pick.get("title", "") for pick in popular_picks[:2] if pick.get("title"))
+    if not popular_text:
+        popular_text = "관련 허브 글과 최신 검색수요 글 2개"
 
     slots = [
         {
@@ -158,7 +176,7 @@ def build_share_slots(goal_item: dict, snippets: dict, public_url: str, cluster:
             "channel": "blogger_internal",
             "potential_visitors_if_executed": 20,
             "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
-            "copy": f"{title} 읽은 뒤 바로 이어볼 글: {', '.join(pick.get('title', '') for pick in popular_picks[:2])}",
+            "copy": f"{title} 읽은 뒤 바로 이어볼 글: {popular_text}",
         },
         {
             "time_window": "publish_plus_10m",
@@ -211,10 +229,26 @@ def build_report() -> dict:
     clusters_by_keyword = cluster_lookup(clusters)
     popular_by_keyword = popular_lookup(popular)
 
+    goal_items = list(goal.get("top_path", []))
+    seen_keywords = {item.get("keyword", "") for item in goal_items}
+    for item in published_state_items(blogger_state):
+        keyword = item.get("keyword", "")
+        if keyword in seen_keywords:
+            continue
+        goal_items.append(
+            {
+                "keyword": keyword,
+                "title": item.get("title", ""),
+                "estimated_daily_visitors": 35 if keyword.startswith("seo_") else 20,
+                "source": "published_blogger_state",
+            }
+        )
+        seen_keywords.add(keyword)
+
     plans = []
     total_expected = 0
     total_potential = 0
-    for goal_item in goal.get("top_path", []):
+    for goal_item in goal_items:
         keyword = goal_item.get("keyword", "")
         public_url = urls.get(keyword, "")
         distribution_item = snippets_by_keyword.get(keyword, {})
@@ -248,7 +282,7 @@ def build_report() -> dict:
     projected_total = int(goal.get("projected_daily_visitors", 0) or 0) + total_expected
     potential_total = int(goal.get("projected_daily_visitors", 0) or 0) + total_potential
     return {
-        "generated_at": goal.get("generated_at", ""),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "target_daily_visitors": target,
         "base_projected_visitors": goal.get("projected_daily_visitors", 0),
         "amplification_expected_visitors": total_expected,
@@ -257,6 +291,9 @@ def build_report() -> dict:
         "potential_with_manual_amplification": potential_total,
         "gap_after_amplification": max(target - projected_total, 0),
         "status": "amplification_plan_ready_manual_execution_required",
+        "planned_public_url_count": len([plan for plan in plans if plan.get("public_url")]),
+        "source_goal_item_count": len(goal.get("top_path", [])),
+        "published_expansion_item_count": max(len(goal_items) - len(goal.get("top_path", [])), 0),
         "plans": plans,
         "rules": [
             "투자 조언처럼 보이는 매수/매도 문구는 쓰지 않습니다.",

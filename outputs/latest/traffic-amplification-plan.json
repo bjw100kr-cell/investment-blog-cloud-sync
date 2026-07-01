@@ -1,13 +1,16 @@
 {
-  "generated_at": "2026-06-30T22:22:55.604504+00:00",
+  "generated_at": "2026-07-01T09:43:05.325914+00:00",
   "target_daily_visitors": 200,
   "base_projected_visitors": 340,
   "amplification_expected_visitors": 0,
-  "amplification_potential_visitors_if_executed": 300,
+  "amplification_potential_visitors_if_executed": 1200,
   "projected_with_amplification": 340,
-  "potential_with_manual_amplification": 640,
+  "potential_with_manual_amplification": 1540,
   "gap_after_amplification": 0,
   "status": "amplification_plan_ready_manual_execution_required",
+  "planned_public_url_count": 16,
+  "source_goal_item_count": 4,
+  "published_expansion_item_count": 12,
   "plans": [
     {
       "keyword": "fomc",
@@ -480,6 +483,1422 @@
           "needs_followup_generation": true
         }
       ]
+    },
+    {
+      "keyword": "seo_oil_12",
+      "title": "국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지",
+      "public_url": "https://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html",
+      "base_estimated_search_visitors": 35,
+      "amplification_expected_visitors": 0,
+      "amplification_potential_visitors_if_executed": 75,
+      "manual_execution_required": true,
+      "manual_execution_checklist": [
+        {
+          "done": false,
+          "channel": "x_threads_or_short_social",
+          "time_window": "publish_plus_10m",
+          "copy_variant_to_use": "question_hook",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "telegram_kakao_or_personal_channel",
+          "time_window": "publish_plus_30m",
+          "copy_variant_to_use": "briefing",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "finance_community",
+          "time_window": "publish_plus_2h",
+          "copy_variant_to_use": "community_question",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html",
+          "expected_visitors": 15,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        }
+      ],
+      "share_slots": [
+        {
+          "time_window": "publish_plus_0m",
+          "channel": "blogger_internal",
+          "potential_visitors_if_executed": 20,
+          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
+          "copy": "국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지 읽은 뒤 바로 이어볼 글: 관련 허브 글과 최신 검색수요 글 2개"
+        },
+        {
+          "time_window": "publish_plus_10m",
+          "channel": "x_threads_or_short_social",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 훅과 공개 URL 공유",
+          "copy": "국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지\n\n오늘 시장 핵심만 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html",
+          "copy_variants": [
+            {
+              "label": "question_hook",
+              "copy": "국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html"
+            },
+            {
+              "label": "checklist_hook",
+              "copy": "국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: https://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html"
+            },
+            {
+              "label": "beginner_hook",
+              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\n국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지\nhttps://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_30m",
+          "channel": "telegram_kakao_or_personal_channel",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 브리핑형 공유",
+          "copy": "국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지\n핵심 체크포인트를 짧게 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html",
+          "copy_variants": [
+            {
+              "label": "briefing",
+              "copy": "[오늘의 시장 메모]\n국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html"
+            },
+            {
+              "label": "friendly_note",
+              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\n국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html"
+            },
+            {
+              "label": "followup_bridge",
+              "copy": "국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지\n\n읽고 나서 이어서 보면 좋은 흐름: 관련 체크포인트 글\n먼저 메인 정리부터 확인해보세요.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_2h",
+          "channel": "finance_community",
+          "potential_visitors_if_executed": 15,
+          "task": "투자 커뮤니티에 질문형 요약으로 공유",
+          "copy": "국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지\n\n오늘 시장 흐름을 투자자 관점에서 정리했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\nhttps://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html",
+          "copy_variants": [
+            {
+              "label": "community_question",
+              "copy": "국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html"
+            },
+            {
+              "label": "community_summary",
+              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: https://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html"
+            },
+            {
+              "label": "community_caution",
+              "copy": "국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_24h",
+          "channel": "followup_post",
+          "potential_visitors_if_executed": 20,
+          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
+          "copy": "seo_oil_12 후속 글 후보: seo_oil_12 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결",
+          "needs_followup_generation": true
+        }
+      ]
+    },
+    {
+      "keyword": "seo_ai_semiconductors_11",
+      "title": "AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지",
+      "public_url": "https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html",
+      "base_estimated_search_visitors": 35,
+      "amplification_expected_visitors": 0,
+      "amplification_potential_visitors_if_executed": 75,
+      "manual_execution_required": true,
+      "manual_execution_checklist": [
+        {
+          "done": false,
+          "channel": "x_threads_or_short_social",
+          "time_window": "publish_plus_10m",
+          "copy_variant_to_use": "question_hook",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "telegram_kakao_or_personal_channel",
+          "time_window": "publish_plus_30m",
+          "copy_variant_to_use": "briefing",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "finance_community",
+          "time_window": "publish_plus_2h",
+          "copy_variant_to_use": "community_question",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html",
+          "expected_visitors": 15,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        }
+      ],
+      "share_slots": [
+        {
+          "time_window": "publish_plus_0m",
+          "channel": "blogger_internal",
+          "potential_visitors_if_executed": 20,
+          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
+          "copy": "AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지 읽은 뒤 바로 이어볼 글: 관련 허브 글과 최신 검색수요 글 2개"
+        },
+        {
+          "time_window": "publish_plus_10m",
+          "channel": "x_threads_or_short_social",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 훅과 공개 URL 공유",
+          "copy": "AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n오늘 시장 핵심만 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/ai-5.html",
+          "copy_variants": [
+            {
+              "label": "question_hook",
+              "copy": "AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/ai-5.html"
+            },
+            {
+              "label": "checklist_hook",
+              "copy": "AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html"
+            },
+            {
+              "label": "beginner_hook",
+              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\nAI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지\nhttps://gimu-economy-insight.blogspot.com/2026/07/ai-5.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_30m",
+          "channel": "telegram_kakao_or_personal_channel",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 브리핑형 공유",
+          "copy": "AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지\n핵심 체크포인트를 짧게 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/ai-5.html",
+          "copy_variants": [
+            {
+              "label": "briefing",
+              "copy": "[오늘의 시장 메모]\nAI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/ai-5.html"
+            },
+            {
+              "label": "friendly_note",
+              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\nAI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/ai-5.html"
+            },
+            {
+              "label": "followup_bridge",
+              "copy": "AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n읽고 나서 이어서 보면 좋은 흐름: 관련 체크포인트 글\n먼저 메인 정리부터 확인해보세요.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/ai-5.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_2h",
+          "channel": "finance_community",
+          "potential_visitors_if_executed": 15,
+          "task": "투자 커뮤니티에 질문형 요약으로 공유",
+          "copy": "AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n오늘 시장 흐름을 투자자 관점에서 정리했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\nhttps://gimu-economy-insight.blogspot.com/2026/07/ai-5.html",
+          "copy_variants": [
+            {
+              "label": "community_question",
+              "copy": "AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/ai-5.html"
+            },
+            {
+              "label": "community_summary",
+              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html"
+            },
+            {
+              "label": "community_caution",
+              "copy": "AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/ai-5.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_24h",
+          "channel": "followup_post",
+          "potential_visitors_if_executed": 20,
+          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
+          "copy": "seo_ai_semiconductors_11 후속 글 후보: seo_ai_semiconductors_11 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결",
+          "needs_followup_generation": true
+        }
+      ]
+    },
+    {
+      "keyword": "seo_us_big_tech_10",
+      "title": "미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지",
+      "public_url": "https://gimu-economy-insight.blogspot.com/2026/07/5.html",
+      "base_estimated_search_visitors": 35,
+      "amplification_expected_visitors": 0,
+      "amplification_potential_visitors_if_executed": 75,
+      "manual_execution_required": true,
+      "manual_execution_checklist": [
+        {
+          "done": false,
+          "channel": "x_threads_or_short_social",
+          "time_window": "publish_plus_10m",
+          "copy_variant_to_use": "question_hook",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/07/5.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "telegram_kakao_or_personal_channel",
+          "time_window": "publish_plus_30m",
+          "copy_variant_to_use": "briefing",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/07/5.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "finance_community",
+          "time_window": "publish_plus_2h",
+          "copy_variant_to_use": "community_question",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/07/5.html",
+          "expected_visitors": 15,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        }
+      ],
+      "share_slots": [
+        {
+          "time_window": "publish_plus_0m",
+          "channel": "blogger_internal",
+          "potential_visitors_if_executed": 20,
+          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
+          "copy": "미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지 읽은 뒤 바로 이어볼 글: 관련 허브 글과 최신 검색수요 글 2개"
+        },
+        {
+          "time_window": "publish_plus_10m",
+          "channel": "x_threads_or_short_social",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 훅과 공개 URL 공유",
+          "copy": "미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n오늘 시장 핵심만 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5.html",
+          "copy_variants": [
+            {
+              "label": "question_hook",
+              "copy": "미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5.html"
+            },
+            {
+              "label": "checklist_hook",
+              "copy": "미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: https://gimu-economy-insight.blogspot.com/2026/07/5.html"
+            },
+            {
+              "label": "beginner_hook",
+              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\n미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지\nhttps://gimu-economy-insight.blogspot.com/2026/07/5.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_30m",
+          "channel": "telegram_kakao_or_personal_channel",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 브리핑형 공유",
+          "copy": "미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지\n핵심 체크포인트를 짧게 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5.html",
+          "copy_variants": [
+            {
+              "label": "briefing",
+              "copy": "[오늘의 시장 메모]\n미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5.html"
+            },
+            {
+              "label": "friendly_note",
+              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\n미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5.html"
+            },
+            {
+              "label": "followup_bridge",
+              "copy": "미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n읽고 나서 이어서 보면 좋은 흐름: 관련 체크포인트 글\n먼저 메인 정리부터 확인해보세요.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_2h",
+          "channel": "finance_community",
+          "potential_visitors_if_executed": 15,
+          "task": "투자 커뮤니티에 질문형 요약으로 공유",
+          "copy": "미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n오늘 시장 흐름을 투자자 관점에서 정리했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\nhttps://gimu-economy-insight.blogspot.com/2026/07/5.html",
+          "copy_variants": [
+            {
+              "label": "community_question",
+              "copy": "미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5.html"
+            },
+            {
+              "label": "community_summary",
+              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: https://gimu-economy-insight.blogspot.com/2026/07/5.html"
+            },
+            {
+              "label": "community_caution",
+              "copy": "미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/07/5.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_24h",
+          "channel": "followup_post",
+          "potential_visitors_if_executed": 20,
+          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
+          "copy": "seo_us_big_tech_10 후속 글 후보: seo_us_big_tech_10 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결",
+          "needs_followup_generation": true
+        }
+      ]
+    },
+    {
+      "keyword": "seo_fomc_3",
+      "title": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지",
+      "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html",
+      "base_estimated_search_visitors": 35,
+      "amplification_expected_visitors": 0,
+      "amplification_potential_visitors_if_executed": 75,
+      "manual_execution_required": true,
+      "manual_execution_checklist": [
+        {
+          "done": false,
+          "channel": "x_threads_or_short_social",
+          "time_window": "publish_plus_10m",
+          "copy_variant_to_use": "question_hook",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "telegram_kakao_or_personal_channel",
+          "time_window": "publish_plus_30m",
+          "copy_variant_to_use": "briefing",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "finance_community",
+          "time_window": "publish_plus_2h",
+          "copy_variant_to_use": "community_question",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html",
+          "expected_visitors": 15,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        }
+      ],
+      "share_slots": [
+        {
+          "time_window": "publish_plus_0m",
+          "channel": "blogger_internal",
+          "potential_visitors_if_executed": 20,
+          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
+          "copy": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지 읽은 뒤 바로 이어볼 글: 관련 허브 글과 최신 검색수요 글 2개"
+        },
+        {
+          "time_window": "publish_plus_10m",
+          "channel": "x_threads_or_short_social",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 훅과 공개 URL 공유",
+          "copy": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지\n\n오늘 시장을 볼 때 핵심은 이것입니다.\n- 독자 관점: 기초 개념을 처음부터 이해하고 싶은 초보 독자\n- 한 줄 포인트: About, 허브 글, 후속 해설 글로 연결\n\n짧고 이해하기 쉽게 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html",
+          "copy_variants": [
+            {
+              "label": "question_hook",
+              "copy": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html"
+            },
+            {
+              "label": "checklist_hook",
+              "copy": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: https://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html"
+            },
+            {
+              "label": "beginner_hook",
+              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\nFOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_30m",
+          "channel": "telegram_kakao_or_personal_channel",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 브리핑형 공유",
+          "copy": "[검색형] FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지\n오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.\n핵심 포인트: About, 허브 글, 후속 해설 글로 연결\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html",
+          "copy_variants": [
+            {
+              "label": "briefing",
+              "copy": "[오늘의 시장 메모]\nFOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html"
+            },
+            {
+              "label": "friendly_note",
+              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\nFOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html"
+            },
+            {
+              "label": "followup_bridge",
+              "copy": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지\n\n읽고 나서 이어서 보면 좋은 흐름: 관련 체크포인트 글\n먼저 메인 정리부터 확인해보세요.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_2h",
+          "channel": "finance_community",
+          "potential_visitors_if_executed": 15,
+          "task": "투자 커뮤니티에 질문형 요약으로 공유",
+          "copy": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지\n\n이번 글은 '기초 개념을 처음부터 이해하고 싶은 초보 독자'에 맞춰 정리한 해설입니다. 읽고 나면 About, 허브 글, 후속 해설 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html",
+          "copy_variants": [
+            {
+              "label": "community_question",
+              "copy": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html"
+            },
+            {
+              "label": "community_summary",
+              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: https://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html"
+            },
+            {
+              "label": "community_caution",
+              "copy": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_24h",
+          "channel": "followup_post",
+          "potential_visitors_if_executed": 20,
+          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
+          "copy": "seo_fomc_3 후속 글 후보: seo_fomc_3 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결",
+          "needs_followup_generation": true
+        }
+      ]
+    },
+    {
+      "keyword": "seo_fomc_2",
+      "title": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지",
+      "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html",
+      "base_estimated_search_visitors": 35,
+      "amplification_expected_visitors": 0,
+      "amplification_potential_visitors_if_executed": 75,
+      "manual_execution_required": true,
+      "manual_execution_checklist": [
+        {
+          "done": false,
+          "channel": "x_threads_or_short_social",
+          "time_window": "publish_plus_10m",
+          "copy_variant_to_use": "question_hook",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "telegram_kakao_or_personal_channel",
+          "time_window": "publish_plus_30m",
+          "copy_variant_to_use": "briefing",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "finance_community",
+          "time_window": "publish_plus_2h",
+          "copy_variant_to_use": "community_question",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html",
+          "expected_visitors": 15,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        }
+      ],
+      "share_slots": [
+        {
+          "time_window": "publish_plus_0m",
+          "channel": "blogger_internal",
+          "potential_visitors_if_executed": 20,
+          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
+          "copy": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지 읽은 뒤 바로 이어볼 글: 관련 허브 글과 최신 검색수요 글 2개"
+        },
+        {
+          "time_window": "publish_plus_10m",
+          "channel": "x_threads_or_short_social",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 훅과 공개 URL 공유",
+          "copy": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지\n\n오늘 시장을 볼 때 핵심은 이것입니다.\n- 독자 관점: 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자\n- 한 줄 포인트: 다음 이벤트 캘린더와 관련 거시 글로 연결\n\n짧고 이해하기 쉽게 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html",
+          "copy_variants": [
+            {
+              "label": "question_hook",
+              "copy": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html"
+            },
+            {
+              "label": "checklist_hook",
+              "copy": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: https://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html"
+            },
+            {
+              "label": "beginner_hook",
+              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\nFOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_30m",
+          "channel": "telegram_kakao_or_personal_channel",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 브리핑형 공유",
+          "copy": "[후속형] FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지\n오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.\n핵심 포인트: 다음 이벤트 캘린더와 관련 거시 글로 연결\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html",
+          "copy_variants": [
+            {
+              "label": "briefing",
+              "copy": "[오늘의 시장 메모]\nFOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html"
+            },
+            {
+              "label": "friendly_note",
+              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\nFOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html"
+            },
+            {
+              "label": "followup_bridge",
+              "copy": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지\n\n읽고 나서 이어서 보면 좋은 흐름: 관련 체크포인트 글\n먼저 메인 정리부터 확인해보세요.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_2h",
+          "channel": "finance_community",
+          "potential_visitors_if_executed": 15,
+          "task": "투자 커뮤니티에 질문형 요약으로 공유",
+          "copy": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지\n\n이번 글은 '발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 다음 이벤트 캘린더와 관련 거시 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html",
+          "copy_variants": [
+            {
+              "label": "community_question",
+              "copy": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html"
+            },
+            {
+              "label": "community_summary",
+              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: https://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html"
+            },
+            {
+              "label": "community_caution",
+              "copy": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_24h",
+          "channel": "followup_post",
+          "potential_visitors_if_executed": 20,
+          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
+          "copy": "seo_fomc_2 후속 글 후보: seo_fomc_2 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결",
+          "needs_followup_generation": true
+        }
+      ]
+    },
+    {
+      "keyword": "seo_fomc_1",
+      "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
+      "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html",
+      "base_estimated_search_visitors": 35,
+      "amplification_expected_visitors": 0,
+      "amplification_potential_visitors_if_executed": 75,
+      "manual_execution_required": true,
+      "manual_execution_checklist": [
+        {
+          "done": false,
+          "channel": "x_threads_or_short_social",
+          "time_window": "publish_plus_10m",
+          "copy_variant_to_use": "question_hook",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "telegram_kakao_or_personal_channel",
+          "time_window": "publish_plus_30m",
+          "copy_variant_to_use": "briefing",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "finance_community",
+          "time_window": "publish_plus_2h",
+          "copy_variant_to_use": "community_question",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html",
+          "expected_visitors": 15,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        }
+      ],
+      "share_slots": [
+        {
+          "time_window": "publish_plus_0m",
+          "channel": "blogger_internal",
+          "potential_visitors_if_executed": 20,
+          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
+          "copy": "FOMC 이후 시장이 주식과 코인에 미치는 영향 읽은 뒤 바로 이어볼 글: 관련 허브 글과 최신 검색수요 글 2개"
+        },
+        {
+          "time_window": "publish_plus_10m",
+          "channel": "x_threads_or_short_social",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 훅과 공개 URL 공유",
+          "copy": "FOMC 이후 시장이 주식과 코인에 미치는 영향\n\n오늘 시장을 볼 때 핵심은 이것입니다.\n- 독자 관점: 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자\n- 한 줄 포인트: 거시 허브와 당일 해설 글로 연결\n\n짧고 이해하기 쉽게 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html",
+          "copy_variants": [
+            {
+              "label": "question_hook",
+              "copy": "FOMC 이후 시장이 주식과 코인에 미치는 영향\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html"
+            },
+            {
+              "label": "checklist_hook",
+              "copy": "FOMC 이후 시장이 주식과 코인에 미치는 영향\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: https://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html"
+            },
+            {
+              "label": "beginner_hook",
+              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\nFOMC 이후 시장이 주식과 코인에 미치는 영향\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_30m",
+          "channel": "telegram_kakao_or_personal_channel",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 브리핑형 공유",
+          "copy": "[검색형] FOMC 이후 시장이 주식과 코인에 미치는 영향\n오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.\n핵심 포인트: 거시 허브와 당일 해설 글로 연결\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html",
+          "copy_variants": [
+            {
+              "label": "briefing",
+              "copy": "[오늘의 시장 메모]\nFOMC 이후 시장이 주식과 코인에 미치는 영향\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html"
+            },
+            {
+              "label": "friendly_note",
+              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\nFOMC 이후 시장이 주식과 코인에 미치는 영향\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html"
+            },
+            {
+              "label": "followup_bridge",
+              "copy": "FOMC 이후 시장이 주식과 코인에 미치는 영향\n\n읽고 나서 이어서 보면 좋은 흐름: 관련 체크포인트 글\n먼저 메인 정리부터 확인해보세요.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_2h",
+          "channel": "finance_community",
+          "potential_visitors_if_executed": 15,
+          "task": "투자 커뮤니티에 질문형 요약으로 공유",
+          "copy": "FOMC 이후 시장이 주식과 코인에 미치는 영향\n\n이번 글은 '뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 거시 허브와 당일 해설 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html",
+          "copy_variants": [
+            {
+              "label": "community_question",
+              "copy": "FOMC 이후 시장이 주식과 코인에 미치는 영향\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html"
+            },
+            {
+              "label": "community_summary",
+              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: https://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html"
+            },
+            {
+              "label": "community_caution",
+              "copy": "FOMC 이후 시장이 주식과 코인에 미치는 영향\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_24h",
+          "channel": "followup_post",
+          "potential_visitors_if_executed": 20,
+          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
+          "copy": "seo_fomc_1 후속 글 후보: seo_fomc_1 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결",
+          "needs_followup_generation": true
+        }
+      ]
+    },
+    {
+      "keyword": "seo_us_index_flow_9",
+      "title": "미국 증시 지수 흐름 ETF·지수·대표 기업 정리",
+      "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html",
+      "base_estimated_search_visitors": 35,
+      "amplification_expected_visitors": 0,
+      "amplification_potential_visitors_if_executed": 75,
+      "manual_execution_required": true,
+      "manual_execution_checklist": [
+        {
+          "done": false,
+          "channel": "x_threads_or_short_social",
+          "time_window": "publish_plus_10m",
+          "copy_variant_to_use": "question_hook",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "telegram_kakao_or_personal_channel",
+          "time_window": "publish_plus_30m",
+          "copy_variant_to_use": "briefing",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "finance_community",
+          "time_window": "publish_plus_2h",
+          "copy_variant_to_use": "community_question",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html",
+          "expected_visitors": 15,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        }
+      ],
+      "share_slots": [
+        {
+          "time_window": "publish_plus_0m",
+          "channel": "blogger_internal",
+          "potential_visitors_if_executed": 20,
+          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
+          "copy": "미국 증시 지수 흐름 ETF·지수·대표 기업 정리 읽은 뒤 바로 이어볼 글: 관련 허브 글과 최신 검색수요 글 2개"
+        },
+        {
+          "time_window": "publish_plus_10m",
+          "channel": "x_threads_or_short_social",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 훅과 공개 URL 공유",
+          "copy": "미국 증시 지수 흐름 ETF·지수·대표 기업 정리\n\n오늘 시장을 볼 때 핵심은 이것입니다.\n- 독자 관점: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자\n- 한 줄 포인트: 섹터 허브와 후속 비교 글 연결\n\n짧고 이해하기 쉽게 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html",
+          "copy_variants": [
+            {
+              "label": "question_hook",
+              "copy": "미국 증시 지수 흐름 ETF·지수·대표 기업 정리\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html"
+            },
+            {
+              "label": "checklist_hook",
+              "copy": "미국 증시 지수 흐름 ETF·지수·대표 기업 정리\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: https://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html"
+            },
+            {
+              "label": "beginner_hook",
+              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\n미국 증시 지수 흐름 ETF·지수·대표 기업 정리\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_30m",
+          "channel": "telegram_kakao_or_personal_channel",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 브리핑형 공유",
+          "copy": "[검색형] 미국 증시 지수 흐름 ETF·지수·대표 기업 정리\n오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.\n핵심 포인트: 섹터 허브와 후속 비교 글 연결\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html",
+          "copy_variants": [
+            {
+              "label": "briefing",
+              "copy": "[오늘의 시장 메모]\n미국 증시 지수 흐름 ETF·지수·대표 기업 정리\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html"
+            },
+            {
+              "label": "friendly_note",
+              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\n미국 증시 지수 흐름 ETF·지수·대표 기업 정리\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html"
+            },
+            {
+              "label": "followup_bridge",
+              "copy": "미국 증시 지수 흐름 ETF·지수·대표 기업 정리\n\n읽고 나서 이어서 보면 좋은 흐름: 관련 체크포인트 글\n먼저 메인 정리부터 확인해보세요.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_2h",
+          "channel": "finance_community",
+          "potential_visitors_if_executed": 15,
+          "task": "투자 커뮤니티에 질문형 요약으로 공유",
+          "copy": "미국 증시 지수 흐름 ETF·지수·대표 기업 정리\n\n이번 글은 '개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 섹터 허브와 후속 비교 글 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html",
+          "copy_variants": [
+            {
+              "label": "community_question",
+              "copy": "미국 증시 지수 흐름 ETF·지수·대표 기업 정리\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html"
+            },
+            {
+              "label": "community_summary",
+              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: https://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html"
+            },
+            {
+              "label": "community_caution",
+              "copy": "미국 증시 지수 흐름 ETF·지수·대표 기업 정리\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_24h",
+          "channel": "followup_post",
+          "potential_visitors_if_executed": 20,
+          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
+          "copy": "seo_us_index_flow_9 후속 글 후보: seo_us_index_flow_9 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결",
+          "needs_followup_generation": true
+        }
+      ]
+    },
+    {
+      "keyword": "seo_us_index_flow_8",
+      "title": "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나",
+      "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html",
+      "base_estimated_search_visitors": 35,
+      "amplification_expected_visitors": 0,
+      "amplification_potential_visitors_if_executed": 75,
+      "manual_execution_required": true,
+      "manual_execution_checklist": [
+        {
+          "done": false,
+          "channel": "x_threads_or_short_social",
+          "time_window": "publish_plus_10m",
+          "copy_variant_to_use": "question_hook",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "telegram_kakao_or_personal_channel",
+          "time_window": "publish_plus_30m",
+          "copy_variant_to_use": "briefing",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "finance_community",
+          "time_window": "publish_plus_2h",
+          "copy_variant_to_use": "community_question",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html",
+          "expected_visitors": 15,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        }
+      ],
+      "share_slots": [
+        {
+          "time_window": "publish_plus_0m",
+          "channel": "blogger_internal",
+          "potential_visitors_if_executed": 20,
+          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
+          "copy": "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나 읽은 뒤 바로 이어볼 글: 관련 허브 글과 최신 검색수요 글 2개"
+        },
+        {
+          "time_window": "publish_plus_10m",
+          "channel": "x_threads_or_short_social",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 훅과 공개 URL 공유",
+          "copy": "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나\n\n오늘 시장을 볼 때 핵심은 이것입니다.\n- 독자 관점: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자\n- 한 줄 포인트: 실적 해설과 글로벌 섹터 허브 연결\n\n짧고 이해하기 쉽게 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html",
+          "copy_variants": [
+            {
+              "label": "question_hook",
+              "copy": "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html"
+            },
+            {
+              "label": "checklist_hook",
+              "copy": "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html"
+            },
+            {
+              "label": "beginner_hook",
+              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\n미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_30m",
+          "channel": "telegram_kakao_or_personal_channel",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 브리핑형 공유",
+          "copy": "[후속형] 미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나\n오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.\n핵심 포인트: 실적 해설과 글로벌 섹터 허브 연결\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html",
+          "copy_variants": [
+            {
+              "label": "briefing",
+              "copy": "[오늘의 시장 메모]\n미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html"
+            },
+            {
+              "label": "friendly_note",
+              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\n미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html"
+            },
+            {
+              "label": "followup_bridge",
+              "copy": "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나\n\n읽고 나서 이어서 보면 좋은 흐름: 관련 체크포인트 글\n먼저 메인 정리부터 확인해보세요.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_2h",
+          "channel": "finance_community",
+          "potential_visitors_if_executed": 15,
+          "task": "투자 커뮤니티에 질문형 요약으로 공유",
+          "copy": "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나\n\n이번 글은 '테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 실적 해설과 글로벌 섹터 허브 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html",
+          "copy_variants": [
+            {
+              "label": "community_question",
+              "copy": "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html"
+            },
+            {
+              "label": "community_summary",
+              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html"
+            },
+            {
+              "label": "community_caution",
+              "copy": "미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_24h",
+          "channel": "followup_post",
+          "potential_visitors_if_executed": 20,
+          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
+          "copy": "seo_us_index_flow_8 후속 글 후보: seo_us_index_flow_8 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결",
+          "needs_followup_generation": true
+        }
+      ]
+    },
+    {
+      "keyword": "seo_us_index_flow_7",
+      "title": "미국 증시 지수 흐름 관련 대표 종목 한눈에 보기",
+      "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html",
+      "base_estimated_search_visitors": 35,
+      "amplification_expected_visitors": 0,
+      "amplification_potential_visitors_if_executed": 75,
+      "manual_execution_required": true,
+      "manual_execution_checklist": [
+        {
+          "done": false,
+          "channel": "x_threads_or_short_social",
+          "time_window": "publish_plus_10m",
+          "copy_variant_to_use": "question_hook",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "telegram_kakao_or_personal_channel",
+          "time_window": "publish_plus_30m",
+          "copy_variant_to_use": "briefing",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "finance_community",
+          "time_window": "publish_plus_2h",
+          "copy_variant_to_use": "community_question",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html",
+          "expected_visitors": 15,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        }
+      ],
+      "share_slots": [
+        {
+          "time_window": "publish_plus_0m",
+          "channel": "blogger_internal",
+          "potential_visitors_if_executed": 20,
+          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
+          "copy": "미국 증시 지수 흐름 관련 대표 종목 한눈에 보기 읽은 뒤 바로 이어볼 글: 관련 허브 글과 최신 검색수요 글 2개"
+        },
+        {
+          "time_window": "publish_plus_10m",
+          "channel": "x_threads_or_short_social",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 훅과 공개 URL 공유",
+          "copy": "미국 증시 지수 흐름 관련 대표 종목 한눈에 보기\n\n오늘 시장을 볼 때 핵심은 이것입니다.\n- 독자 관점: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자\n- 한 줄 포인트: 대표 종목 글과 허브 글 연결\n\n짧고 이해하기 쉽게 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html",
+          "copy_variants": [
+            {
+              "label": "question_hook",
+              "copy": "미국 증시 지수 흐름 관련 대표 종목 한눈에 보기\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html"
+            },
+            {
+              "label": "checklist_hook",
+              "copy": "미국 증시 지수 흐름 관련 대표 종목 한눈에 보기\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html"
+            },
+            {
+              "label": "beginner_hook",
+              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\n미국 증시 지수 흐름 관련 대표 종목 한눈에 보기\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_30m",
+          "channel": "telegram_kakao_or_personal_channel",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 브리핑형 공유",
+          "copy": "[검색형] 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기\n오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.\n핵심 포인트: 대표 종목 글과 허브 글 연결\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html",
+          "copy_variants": [
+            {
+              "label": "briefing",
+              "copy": "[오늘의 시장 메모]\n미국 증시 지수 흐름 관련 대표 종목 한눈에 보기\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html"
+            },
+            {
+              "label": "friendly_note",
+              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\n미국 증시 지수 흐름 관련 대표 종목 한눈에 보기\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html"
+            },
+            {
+              "label": "followup_bridge",
+              "copy": "미국 증시 지수 흐름 관련 대표 종목 한눈에 보기\n\n읽고 나서 이어서 보면 좋은 흐름: 관련 체크포인트 글\n먼저 메인 정리부터 확인해보세요.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_2h",
+          "channel": "finance_community",
+          "potential_visitors_if_executed": 15,
+          "task": "투자 커뮤니티에 질문형 요약으로 공유",
+          "copy": "미국 증시 지수 흐름 관련 대표 종목 한눈에 보기\n\n이번 글은 '섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 대표 종목 글과 허브 글 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html",
+          "copy_variants": [
+            {
+              "label": "community_question",
+              "copy": "미국 증시 지수 흐름 관련 대표 종목 한눈에 보기\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html"
+            },
+            {
+              "label": "community_summary",
+              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html"
+            },
+            {
+              "label": "community_caution",
+              "copy": "미국 증시 지수 흐름 관련 대표 종목 한눈에 보기\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_24h",
+          "channel": "followup_post",
+          "potential_visitors_if_executed": 20,
+          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
+          "copy": "seo_us_index_flow_7 후속 글 후보: seo_us_index_flow_7 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결",
+          "needs_followup_generation": true
+        }
+      ]
+    },
+    {
+      "keyword": "seo_bitcoin_6",
+      "title": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리",
+      "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/faq-10.html",
+      "base_estimated_search_visitors": 35,
+      "amplification_expected_visitors": 0,
+      "amplification_potential_visitors_if_executed": 75,
+      "manual_execution_required": true,
+      "manual_execution_checklist": [
+        {
+          "done": false,
+          "channel": "x_threads_or_short_social",
+          "time_window": "publish_plus_10m",
+          "copy_variant_to_use": "question_hook",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/faq-10.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "telegram_kakao_or_personal_channel",
+          "time_window": "publish_plus_30m",
+          "copy_variant_to_use": "briefing",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/faq-10.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "finance_community",
+          "time_window": "publish_plus_2h",
+          "copy_variant_to_use": "community_question",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/faq-10.html",
+          "expected_visitors": 15,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        }
+      ],
+      "share_slots": [
+        {
+          "time_window": "publish_plus_0m",
+          "channel": "blogger_internal",
+          "potential_visitors_if_executed": 20,
+          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
+          "copy": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리 읽은 뒤 바로 이어볼 글: 관련 허브 글과 최신 검색수요 글 2개"
+        },
+        {
+          "time_window": "publish_plus_10m",
+          "channel": "x_threads_or_short_social",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 훅과 공개 URL 공유",
+          "copy": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리\n\n오늘 시장을 볼 때 핵심은 이것입니다.\n- 독자 관점: 짧은 질문 단위로 빠르게 답을 찾고 싶은 독자\n- 한 줄 포인트: 기초 글과 주간 정리 글 연결\n\n짧고 이해하기 쉽게 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/faq-10.html",
+          "copy_variants": [
+            {
+              "label": "question_hook",
+              "copy": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/faq-10.html"
+            },
+            {
+              "label": "checklist_hook",
+              "copy": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: https://gimu-economy-insight.blogspot.com/2026/06/faq-10.html"
+            },
+            {
+              "label": "beginner_hook",
+              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\n비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리\nhttps://gimu-economy-insight.blogspot.com/2026/06/faq-10.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_30m",
+          "channel": "telegram_kakao_or_personal_channel",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 브리핑형 공유",
+          "copy": "[검색형] 비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리\n오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.\n핵심 포인트: 기초 글과 주간 정리 글 연결\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/faq-10.html",
+          "copy_variants": [
+            {
+              "label": "briefing",
+              "copy": "[오늘의 시장 메모]\n비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/faq-10.html"
+            },
+            {
+              "label": "friendly_note",
+              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\n비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/faq-10.html"
+            },
+            {
+              "label": "followup_bridge",
+              "copy": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리\n\n읽고 나서 이어서 보면 좋은 흐름: 관련 체크포인트 글\n먼저 메인 정리부터 확인해보세요.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/faq-10.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_2h",
+          "channel": "finance_community",
+          "potential_visitors_if_executed": 15,
+          "task": "투자 커뮤니티에 질문형 요약으로 공유",
+          "copy": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리\n\n이번 글은 '짧은 질문 단위로 빠르게 답을 찾고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 기초 글과 주간 정리 글 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\nhttps://gimu-economy-insight.blogspot.com/2026/06/faq-10.html",
+          "copy_variants": [
+            {
+              "label": "community_question",
+              "copy": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/faq-10.html"
+            },
+            {
+              "label": "community_summary",
+              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: https://gimu-economy-insight.blogspot.com/2026/06/faq-10.html"
+            },
+            {
+              "label": "community_caution",
+              "copy": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/faq-10.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_24h",
+          "channel": "followup_post",
+          "potential_visitors_if_executed": 20,
+          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
+          "copy": "seo_bitcoin_6 후속 글 후보: seo_bitcoin_6 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결",
+          "needs_followup_generation": true
+        }
+      ]
+    },
+    {
+      "keyword": "seo_bitcoin_5",
+      "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
+      "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/etf.html",
+      "base_estimated_search_visitors": 35,
+      "amplification_expected_visitors": 0,
+      "amplification_potential_visitors_if_executed": 75,
+      "manual_execution_required": true,
+      "manual_execution_checklist": [
+        {
+          "done": false,
+          "channel": "x_threads_or_short_social",
+          "time_window": "publish_plus_10m",
+          "copy_variant_to_use": "question_hook",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/etf.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "telegram_kakao_or_personal_channel",
+          "time_window": "publish_plus_30m",
+          "copy_variant_to_use": "briefing",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/etf.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "finance_community",
+          "time_window": "publish_plus_2h",
+          "copy_variant_to_use": "community_question",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/etf.html",
+          "expected_visitors": 15,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        }
+      ],
+      "share_slots": [
+        {
+          "time_window": "publish_plus_0m",
+          "channel": "blogger_internal",
+          "potential_visitors_if_executed": 20,
+          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
+          "copy": "비트코인 핵심 흐름 ETF·규제 이슈 정리 읽은 뒤 바로 이어볼 글: 관련 허브 글과 최신 검색수요 글 2개"
+        },
+        {
+          "time_window": "publish_plus_10m",
+          "channel": "x_threads_or_short_social",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 훅과 공개 URL 공유",
+          "copy": "비트코인 핵심 흐름 ETF·규제 이슈 정리\n\n오늘 시장을 볼 때 핵심은 이것입니다.\n- 독자 관점: 뉴스가 복잡해서 규제와 ETF 이슈만 따로 정리해 보고 싶은 독자\n- 한 줄 포인트: 당일 코인 해설 글과 초보 가이드 연결\n\n짧고 이해하기 쉽게 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf.html",
+          "copy_variants": [
+            {
+              "label": "question_hook",
+              "copy": "비트코인 핵심 흐름 ETF·규제 이슈 정리\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf.html"
+            },
+            {
+              "label": "checklist_hook",
+              "copy": "비트코인 핵심 흐름 ETF·규제 이슈 정리\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: https://gimu-economy-insight.blogspot.com/2026/06/etf.html"
+            },
+            {
+              "label": "beginner_hook",
+              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\n비트코인 핵심 흐름 ETF·규제 이슈 정리\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_30m",
+          "channel": "telegram_kakao_or_personal_channel",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 브리핑형 공유",
+          "copy": "[후속형] 비트코인 핵심 흐름 ETF·규제 이슈 정리\n오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.\n핵심 포인트: 당일 코인 해설 글과 초보 가이드 연결\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf.html",
+          "copy_variants": [
+            {
+              "label": "briefing",
+              "copy": "[오늘의 시장 메모]\n비트코인 핵심 흐름 ETF·규제 이슈 정리\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf.html"
+            },
+            {
+              "label": "friendly_note",
+              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\n비트코인 핵심 흐름 ETF·규제 이슈 정리\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf.html"
+            },
+            {
+              "label": "followup_bridge",
+              "copy": "비트코인 핵심 흐름 ETF·규제 이슈 정리\n\n읽고 나서 이어서 보면 좋은 흐름: 관련 체크포인트 글\n먼저 메인 정리부터 확인해보세요.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_2h",
+          "channel": "finance_community",
+          "potential_visitors_if_executed": 15,
+          "task": "투자 커뮤니티에 질문형 요약으로 공유",
+          "copy": "비트코인 핵심 흐름 ETF·규제 이슈 정리\n\n이번 글은 '뉴스가 복잡해서 규제와 ETF 이슈만 따로 정리해 보고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 당일 코인 해설 글과 초보 가이드 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf.html",
+          "copy_variants": [
+            {
+              "label": "community_question",
+              "copy": "비트코인 핵심 흐름 ETF·규제 이슈 정리\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf.html"
+            },
+            {
+              "label": "community_summary",
+              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: https://gimu-economy-insight.blogspot.com/2026/06/etf.html"
+            },
+            {
+              "label": "community_caution",
+              "copy": "비트코인 핵심 흐름 ETF·규제 이슈 정리\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/etf.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_24h",
+          "channel": "followup_post",
+          "potential_visitors_if_executed": 20,
+          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
+          "copy": "seo_bitcoin_5 후속 글 후보: seo_bitcoin_5 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결",
+          "needs_followup_generation": true
+        }
+      ]
+    },
+    {
+      "keyword": "seo_bitcoin_4",
+      "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+      "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html",
+      "base_estimated_search_visitors": 35,
+      "amplification_expected_visitors": 0,
+      "amplification_potential_visitors_if_executed": 75,
+      "manual_execution_required": true,
+      "manual_execution_checklist": [
+        {
+          "done": false,
+          "channel": "x_threads_or_short_social",
+          "time_window": "publish_plus_10m",
+          "copy_variant_to_use": "question_hook",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "telegram_kakao_or_personal_channel",
+          "time_window": "publish_plus_30m",
+          "copy_variant_to_use": "briefing",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "finance_community",
+          "time_window": "publish_plus_2h",
+          "copy_variant_to_use": "community_question",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html",
+          "expected_visitors": 15,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        }
+      ],
+      "share_slots": [
+        {
+          "time_window": "publish_plus_0m",
+          "channel": "blogger_internal",
+          "potential_visitors_if_executed": 20,
+          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
+          "copy": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조 읽은 뒤 바로 이어볼 글: 관련 허브 글과 최신 검색수요 글 2개"
+        },
+        {
+          "time_window": "publish_plus_10m",
+          "channel": "x_threads_or_short_social",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 훅과 공개 URL 공유",
+          "copy": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조\n\n오늘 시장을 볼 때 핵심은 이것입니다.\n- 독자 관점: 가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자\n- 한 줄 포인트: 코인 허브와 규제/ETF 글 연결\n\n짧고 이해하기 쉽게 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html",
+          "copy_variants": [
+            {
+              "label": "question_hook",
+              "copy": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html"
+            },
+            {
+              "label": "checklist_hook",
+              "copy": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html"
+            },
+            {
+              "label": "beginner_hook",
+              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\n비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_30m",
+          "channel": "telegram_kakao_or_personal_channel",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 브리핑형 공유",
+          "copy": "[검색형] 비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조\n오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.\n핵심 포인트: 코인 허브와 규제/ETF 글 연결\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html",
+          "copy_variants": [
+            {
+              "label": "briefing",
+              "copy": "[오늘의 시장 메모]\n비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html"
+            },
+            {
+              "label": "friendly_note",
+              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\n비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html"
+            },
+            {
+              "label": "followup_bridge",
+              "copy": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조\n\n읽고 나서 이어서 보면 좋은 흐름: 관련 체크포인트 글\n먼저 메인 정리부터 확인해보세요.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_2h",
+          "channel": "finance_community",
+          "potential_visitors_if_executed": 15,
+          "task": "투자 커뮤니티에 질문형 요약으로 공유",
+          "copy": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조\n\n이번 글은 '가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자'에 맞춰 정리한 해설입니다. 읽고 나면 코인 허브와 규제/ETF 글 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html",
+          "copy_variants": [
+            {
+              "label": "community_question",
+              "copy": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html"
+            },
+            {
+              "label": "community_summary",
+              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html"
+            },
+            {
+              "label": "community_caution",
+              "copy": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_24h",
+          "channel": "followup_post",
+          "potential_visitors_if_executed": 20,
+          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
+          "copy": "seo_bitcoin_4 후속 글 후보: seo_bitcoin_4 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결",
+          "needs_followup_generation": true
+        }
+      ]
     }
   ],
   "rules": [
@@ -489,7 +1908,7 @@
     "발행 후 24시간 안에 후속 글 또는 popular reads 내부링크를 최소 2개 붙입니다."
   ],
   "manual_execution_summary": {
-    "checklist_item_count": 12,
+    "checklist_item_count": 48,
     "first_action": "각 공개 URL마다 x_threads_or_short_social 문구 1개부터 공유",
     "do_not_do": "같은 채널에 같은 글을 반복 도배하지 않기"
   }

@@ -21,7 +21,7 @@
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post.html
-- `high` / `us_index_flow` / 예상 `92`명: 미국 증시 지수 흐름 해설: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+- `high` / `us_index_flow` / 예상 `92`명: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_30.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_30.html
@@ -29,6 +29,22 @@
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_510.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_510.html
+- `medium` / `seo_oil_12` / 예상 `35`명: 국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지
+  - url: https://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html
+  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F07%2F5_097860030.html
+  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F07%2F5_097860030.html
+- `medium` / `seo_ai_semiconductors_11` / 예상 `35`명: AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지
+  - url: https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html
+  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F07%2Fai-5.html
+  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F07%2Fai-5.html
+- `medium` / `seo_us_big_tech_10` / 예상 `35`명: 미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지
+  - url: https://gimu-economy-insight.blogspot.com/2026/07/5.html
+  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F07%2F5.html
+  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F07%2F5.html
+- `medium` / `seo_fomc_3` / 예상 `35`명: FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
+  - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html
+  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc_01787353078.html
+  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc_01787353078.html
 - `medium` / `seo_fomc_2` / 예상 `35`명: FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지
   - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc-5.html
@@ -37,10 +53,6 @@
   - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc_074069453.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc_074069453.html
-- `medium` / `seo_fomc_3` / 예상 `35`명: FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
-  - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html
-  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc_01787353078.html
-  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc_01787353078.html
 - `medium` / `seo_us_index_flow_9` / 예상 `35`명: 미국 증시 지수 흐름 ETF·지수·대표 기업 정리
   - url: https://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fetf_01918375183.html
@@ -71,4 +83,4 @@
 - `fomc` -> `seo_fomc_1` / anchor `FOMC 이후 시장이 주식과 코인에 미치는 영향` / FOMC 메인 글에서 후속 검색형 글로 연결
 - `bitcoin` -> `fomc` / anchor `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / 비트코인 글에서 금리/FOMC 영향 설명으로 연결
 - `us_index_flow` -> `fomc` / anchor `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / 미국 지수 글에서 금리 이벤트 해설로 연결
-- `china` -> `us_index_flow` / anchor `미국 증시 지수 흐름 해설: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유` / 중국 변수 글에서 미국 지수/세계 흐름 비교로 연결
+- `china` -> `us_index_flow` / anchor `미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유` / 중국 변수 글에서 미국 지수/세계 흐름 비교로 연결

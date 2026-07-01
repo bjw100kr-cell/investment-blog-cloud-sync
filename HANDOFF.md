@@ -53,6 +53,7 @@
 - `2026-07-01`: Keyword/Growth `SP-108` 완료. `search-demand-report`가 실제 Google Trends 매칭(`confidence=high`)과 뉴스 소스 빈도 fallback(`confidence=medium_low`)을 분리하고, `keyword-opportunity-board`와 `daily-200-visitor-action-board`가 `비트코인 전망`, `FOMC 일정`, `AI 반도체 주식`, `국제유가 전망`, `미국 빅테크 주식` 같은 사람 검색형 한국어 query를 제목/소제목/내부링크/배포문구에 쓰도록 연결했습니다.
 - `2026-07-01`: Draft/Keyword `SP-109` 완료. `config/reader_search_queries.json`를 공용화하고 `seo-backlog`가 Search Console 전 단계의 검색 수요 캡처 글을 자동 추가합니다. 현재 새 업로드 가능 SEO 글은 `미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지`, `AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지`, `국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지`이며, `pre-publish-quality-gate`는 13/13 pass입니다.
 - `2026-07-01`: Publisher Operator `SP-110` 완료. `scripts/upload_blogger_drafts.py`에 `BLOGGER_ONLY_KEYWORDS` 필터를 추가해 재고 순서와 무관하게 지정 키워드만 업로드할 수 있게 했습니다. 해당 필터로 `seo_us_big_tech_10`, `seo_ai_semiconductors_11`, `seo_oil_12` 3개 검색수요 글을 Blogger에 공개 게시했고, 세 URL 모두 HTTP 200 확인했습니다.
+- `2026-07-01`: Growth Analyst `SP-111` 부분 완료. `indexing-priority-pack`이 공개 글 16개 전체를 색인 우선순위로 잡고, `traffic-amplification-plan`이 공개 URL 16개/수동 배포 체크리스트 48개/공개 SEO 확장 글 12개를 반영합니다. `daily-200-visitor-action-board`는 외부 수동 배포 기준 잠재 방문자 560명을 표시합니다. Search Console 실측 루프는 여전히 `no_accessible_search_console_sites` 때문에 권한 연결 후 재개해야 합니다.
 - 오늘 추가 공개 URL:
   - `미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지` -> `https://gimu-economy-insight.blogspot.com/2026/07/5.html`
   - `AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지` -> `https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html`

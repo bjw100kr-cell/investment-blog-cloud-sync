@@ -22,7 +22,7 @@
 
 - projected_daily_visitors: `340`
 - projected_with_amplification: `340`
-- potential_with_manual_amplification: `640`
+- potential_with_manual_amplification: `1540`
 - projection_is_proof: `False`
 
 ## Measurement Blockers

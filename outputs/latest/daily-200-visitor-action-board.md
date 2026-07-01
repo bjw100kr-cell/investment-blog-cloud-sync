@@ -1,6 +1,6 @@
 # Daily 200 Visitor Action Board
 
-- 생성 시각: `2026-07-01T09:36:47.437019+00:00`
+- 생성 시각: `2026-07-01T09:43:05.423045+00:00`
 - 목표: 하루 `200`명
 - 상태: `measurement_missing_keep_building`
 - 실측 방문자: `0`
@@ -53,16 +53,33 @@
 
 ## 공개 URL 배포 액션
 
+- 공개 URL 수: `16`
+- 수동 체크리스트 수: `48`
+- 공개 SEO 확장 글 수: `12`
+- 전체 수동 배포 잠재 방문자: `560`
+
 - `fomc`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 - `bitcoin`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
 - `us_index_flow`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
 - `china`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
+- `seo_oil_12`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html
+- `seo_ai_semiconductors_11`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html
+- `seo_us_big_tech_10`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/07/5.html
+- `seo_fomc_3`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html
+- `seo_fomc_2`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html
+- `seo_fomc_1`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html
+- `seo_us_index_flow_9`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/etf_01918375183.html
+- `seo_us_index_flow_8`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html
+- `seo_us_index_flow_7`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_154.html
+- `seo_bitcoin_6`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/faq-10.html
+- `seo_bitcoin_5`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/etf.html
+- `seo_bitcoin_4`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html
 
 ## 다음 24시간 순서
 
 - Search Console 속성 검증 또는 접근 권한 확인
 - 품질 통과 Blogger 후보를 최대 3건 게시 또는 업데이트
-- 상위 4개 공개 URL의 수동 배포 체크리스트를 각 1회 실행
+- 공개 URL 전체의 수동 배포 체크리스트를 우선순위 순서대로 각 1회 실행
 - reader_search_queries를 제목, 첫 소제목, 내부링크 앵커에 반영
 - 다음 실행에서 actual_verified_visitors와 top queries를 재확인
 

@@ -54,7 +54,7 @@ def keyword_actions(keyword_board: dict) -> list[dict]:
 
 def distribution_actions(traffic_plan: dict) -> list[dict]:
     actions = []
-    for plan in traffic_plan.get("plans", [])[:4]:
+    for plan in traffic_plan.get("plans", []):
         checklist = plan.get("manual_execution_checklist", [])
         expected = sum(int(item.get("expected_visitors", 0) or 0) for item in checklist)
         actions.append(
@@ -86,6 +86,7 @@ def build_board() -> dict:
         int(item.get("expected_manual_visitors", 0) or 0)
         for item in distribution_actions(traffic_plan)
     )
+    distribution_action_items = distribution_actions(traffic_plan)
 
     measurement_missing = visitor.get("proof_status") == "measurement_missing"
     search_console_action = (
@@ -119,7 +120,12 @@ def build_board() -> dict:
             "rule": "품질 게이트 통과 글만 실행당 최대 3건",
         },
         "keyword_capture_actions": keyword_actions(keyword_board),
-        "distribution_actions": distribution_actions(traffic_plan),
+        "distribution_actions": distribution_action_items,
+        "distribution_summary": {
+            "planned_public_url_count": traffic_plan.get("planned_public_url_count", len(distribution_action_items)),
+            "manual_checklist_item_count": sum(item.get("manual_checklist_items", 0) for item in distribution_action_items),
+            "published_expansion_item_count": traffic_plan.get("published_expansion_item_count", 0),
+        },
         "manual_distribution_potential_visitors": manual_distribution_potential,
         "measurement_action": {
             "required": measurement_missing,
@@ -129,7 +135,7 @@ def build_board() -> dict:
         "next_24h_operating_order": [
             "Search Console 속성 검증 또는 접근 권한 확인",
             "품질 통과 Blogger 후보를 최대 3건 게시 또는 업데이트",
-            "상위 4개 공개 URL의 수동 배포 체크리스트를 각 1회 실행",
+            "공개 URL 전체의 수동 배포 체크리스트를 우선순위 순서대로 각 1회 실행",
             "reader_search_queries를 제목, 첫 소제목, 내부링크 앵커에 반영",
             "다음 실행에서 actual_verified_visitors와 top queries를 재확인",
         ],
@@ -170,6 +176,12 @@ def write_markdown(board: dict) -> None:
         lines.append("")
 
     lines.append("## 공개 URL 배포 액션")
+    lines.append("")
+    distribution_summary = board.get("distribution_summary", {})
+    lines.append(f"- 공개 URL 수: `{distribution_summary.get('planned_public_url_count', 0)}`")
+    lines.append(f"- 수동 체크리스트 수: `{distribution_summary.get('manual_checklist_item_count', 0)}`")
+    lines.append(f"- 공개 SEO 확장 글 수: `{distribution_summary.get('published_expansion_item_count', 0)}`")
+    lines.append(f"- 전체 수동 배포 잠재 방문자: `{board.get('manual_distribution_potential_visitors', 0)}`")
     lines.append("")
     for item in board.get("distribution_actions", []):
         lines.append(f"- `{item.get('keyword', '')}`: {item.get('manual_checklist_items', 0)}개 체크 / 예상 {item.get('expected_manual_visitors', 0)}명 / 첫 채널 {item.get('first_channel', '')} / {item.get('public_url', '')}")
