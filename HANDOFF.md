@@ -54,6 +54,7 @@
 - `2026-07-01`: Draft/Keyword `SP-109` 완료. `config/reader_search_queries.json`를 공용화하고 `seo-backlog`가 Search Console 전 단계의 검색 수요 캡처 글을 자동 추가합니다. 현재 새 업로드 가능 SEO 글은 `미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지`, `AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지`, `국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지`이며, `pre-publish-quality-gate`는 13/13 pass입니다.
 - `2026-07-01`: Publisher Operator `SP-110` 완료. `scripts/upload_blogger_drafts.py`에 `BLOGGER_ONLY_KEYWORDS` 필터를 추가해 재고 순서와 무관하게 지정 키워드만 업로드할 수 있게 했습니다. 해당 필터로 `seo_us_big_tech_10`, `seo_ai_semiconductors_11`, `seo_oil_12` 3개 검색수요 글을 Blogger에 공개 게시했고, 세 URL 모두 HTTP 200 확인했습니다.
 - `2026-07-01`: Growth Analyst `SP-111` 부분 완료. `indexing-priority-pack`이 공개 글 16개 전체를 색인 우선순위로 잡고, `traffic-amplification-plan`이 공개 URL 16개/수동 배포 체크리스트 48개/공개 SEO 확장 글 12개를 반영합니다. `daily-200-visitor-action-board`는 외부 수동 배포 기준 잠재 방문자 560명을 표시합니다. Search Console 실측 루프는 여전히 `no_accessible_search_console_sites` 때문에 권한 연결 후 재개해야 합니다.
+- `2026-07-01`: Draft/Publisher `SP-113` 부분 완료. `build_seo_draft_packets.py`가 `blogger-upload-state.json`의 이미 공개된 slug/title을 제외하도록 수정되어, 다음 SEO 후보는 미게시 중국 후속 글 3개(`seo_china_13`, `seo_china_14`, `seo_china_15`)만 생성됩니다. 세 글 모두 `pre-publish-quality-gate` pass지만 Blogger POST가 `403 PERMISSION_DENIED`로 실패했습니다. 토큰은 `blogger` scope를 보유하고 블로그/게시글 읽기는 200 OK이므로, 다음 업로드 전 Blogger 쓰기 권한/계정 권한/일시 제한을 먼저 확인해야 합니다.
 - 오늘 추가 공개 URL:
   - `미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지` -> `https://gimu-economy-insight.blogspot.com/2026/07/5.html`
   - `AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지` -> `https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html`
@@ -64,6 +65,7 @@
   - `outputs/latest/review-preview-board.html`
 - `2026-07-01`: `session_memos`에 중복 저장된 동일 노트 1건을 정리하고, `CONVERSATION_SUMMARY.md`/`context_checkpoint`/`session_memos` 압축 저장을 갱신했습니다.
 - `2026-07-01`: Search Console 측정 보강 결과, OAuth 자격증명은 `.env`에서 읽히고 사이트 URL도 `https://gimu-economy-insight.blogspot.com/`로 추론됩니다. 현재 실제 병목은 `403 Forbidden`이며 `accessible_sites=[]`라서, 같은 Google 계정의 Search Console에 블로그 속성 등록/검증 또는 권한 연결이 필요합니다.
+- `2026-07-01`: Blogger 쓰기 권한 점검 결과, OAuth tokeninfo scope는 `https://www.googleapis.com/auth/blogger https://www.googleapis.com/auth/webmasters.readonly`, `GET /blogs/{blog_id}`와 `GET /posts`는 200 OK, `POST /posts?isDraft=true`는 `PERMISSION_DENIED`입니다. 동일 재시도 전에 Blogger 관리자 계정 권한 또는 Google API/Blogger 쓰기 제한을 확인하세요.
 - `2026-07-01`: Search Console 검증 직후 사용할 `sitemap.xml`, `feeds/posts/default?orderby=UPDATED`, 우선 URL 검사 목록, 내부링크 액션이 자동 생성되도록 연결했습니다.
 - `2026-07-01`: 내부링크 적용 검증 결과, 실제 `publish-inventory.json`의 4개 메인 글(`fomc`, `bitcoin`, `us_index_flow`, `china`)에 공개 URL 기반 내부링크 박스가 적용됐고 품질 게이트는 13/13 pass입니다.
 - `2026-07-01`: 인기글 라이브 URL 적용 검증 결과, 공개 후속글이 있는 `fomc`, `bitcoin`, `us_index_flow` 3개 메인 글에 인기글 박스가 적용됐습니다. `china`는 아직 공개 후속 URL이 없어 자동 skip입니다.

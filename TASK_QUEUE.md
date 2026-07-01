@@ -126,6 +126,7 @@
 | SP-110 | Spark/5.4 | completed | none | Publisher Operator: `BLOGGER_ONLY_KEYWORDS` 필터로 `미국 빅테크 주식`, `AI 반도체 주식`, `국제유가 전망` 검색수요 글 3개를 Blogger에 공개 게시하고 URL 200 확인 |
 | SP-111 | Spark/5.4 | completed | none | Growth Analyst: 공개 글 16개 전체를 `indexing-priority-pack`/배포 체크리스트에 반영하고, `daily-200-visitor-action-board`에 수동 배포 체크리스트 48개와 잠재 방문자 560명을 표시 |
 | SP-112 | Spark/5.4 | pending | Search Console property access | Growth Analyst: Search Console 연결 후 노출/클릭/CTR 측정 루프를 복구하고, 실제 유입 쿼리를 제목/초안 생성 피드백에 연결 |
+| SP-113 | Spark/5.4 | pending | Blogger write permission | Publisher Operator: `seo_china_13`, `seo_china_14`, `seo_china_15`는 품질 통과/발행 준비 완료이나 Blogger POST가 `403 PERMISSION_DENIED`로 실패함. 쓰기 권한 회복 후 `BLOGGER_ONLY_KEYWORDS=seo_china_13,seo_china_14,seo_china_15 ... upload_blogger_drafts.py` 재실행 |
 | HQ-001 | High | pending | none | public repo 공개 범위와 비공개 전환 기준 결정 |
 | HQ-002 | High | pending | none | OpenAI 유료 초안 생성 활성화 시점과 비용 한도 정책 결정 |
 | HQ-003 | High | pending | none | Search Console, GA4, AdSense, 뉴스레터 연결 우선순위 재정렬 |

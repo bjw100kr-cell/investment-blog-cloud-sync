@@ -1,8 +1,6 @@
 # Session Memory Log
 
 # ... truncated - recent entries kept
-- [2026-07-01 00:53:42 KST] step-65-30.458/39-Build top image action card
- - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:43 KST] step-70-30.7/39-Build pipeline workflow parity
  - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:52 KST] pipeline-finished
@@ -161,3 +159,5 @@
  - published=16 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 18:43:17 KST] expanded indexing and distribution plan for all published posts
  - published=16 / processed=3 / inventory=13 / all_core_checks_passed=True
+- [2026-07-01 18:50:30 KST] prepared unpublished China SEO posts and captured Blogger write permission blocker
+ - published=16 / processed=0 / inventory=7 / all_core_checks_passed=True

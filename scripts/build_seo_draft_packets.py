@@ -2,6 +2,7 @@
 import json
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Optional
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -12,6 +13,7 @@ VOICE_EXAMPLES_JSON = ROOT / "config/human_voice_examples.json"
 OUTPUT_JSON = ROOT / "outputs/latest/seo-draft-packets.json"
 OUTPUT_MD = ROOT / "outputs/latest/seo-draft-packets.md"
 DRAFT_PACKETS_JSON = ROOT / "outputs/latest/draft-packets.json"
+BLOGGER_STATE_JSON = ROOT / "outputs/latest/blogger-upload-state.json"
 
 
 DISCLAIMER = (
@@ -97,7 +99,32 @@ def build_source_name_lookup(draft_packets: dict) -> dict[str, list[str]]:
     return lookup
 
 
-def select_backlog_items(items: list[dict], packet_limit: int, per_source_limit: int = 3, demand_capture_min: int = 3) -> list[dict]:
+def published_post_keys(state: dict) -> set[str]:
+    rows = state.get("items", {})
+    values = rows.values() if isinstance(rows, dict) else rows if isinstance(rows, list) else []
+    keys = set()
+    for item in values:
+        if not item.get("published"):
+            continue
+        for key in [item.get("slug", ""), item.get("title", "")]:
+            if key:
+                keys.add(key)
+    return keys
+
+
+def is_unpublished_backlog_item(item: dict, published_keys: set[str]) -> bool:
+    return item.get("slug", "") not in published_keys and item.get("title", "") not in published_keys
+
+
+def select_backlog_items(
+    items: list[dict],
+    packet_limit: int,
+    per_source_limit: int = 3,
+    demand_capture_min: int = 3,
+    published_keys: Optional[set[str]] = None,
+) -> list[dict]:
+    published_keys = published_keys or set()
+    items = [item for item in items if is_unpublished_backlog_item(item, published_keys)]
     selected = []
     selected_keys = set()
 
@@ -204,14 +231,17 @@ def main() -> int:
     voice_rules = load_json(VOICE_RULES_JSON)
     voice_examples = load_json(VOICE_EXAMPLES_JSON)
     packet_limit = int(growth_rules.get("daily_execution_targets", {}).get("ideal_posts_per_day", 2)) * 3 + 3
-    selected_items = select_backlog_items(backlog.get("items", []), packet_limit)
     draft_packets = load_json(DRAFT_PACKETS_JSON)
+    blogger_state = load_json(BLOGGER_STATE_JSON)
+    published_keys = published_post_keys(blogger_state)
     source_name_lookup = build_source_name_lookup(draft_packets)
+    selected_items = select_backlog_items(backlog.get("items", []), packet_limit, published_keys=published_keys)
     packets = [packet_for_item(item, voice_rules, voice_examples, source_name_lookup) for item in selected_items]
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "count": len(packets),
+        "published_exclusion_count": len(published_keys),
         "packets": packets,
     }
     OUTPUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2))

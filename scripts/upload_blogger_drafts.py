@@ -95,6 +95,14 @@ def parse_retry_after(value: str) -> float:
     return max(0.0, delta)
 
 
+def request_error_message(exc: Exception) -> str:
+    response = getattr(exc, "response", None)
+    if response is None:
+        return str(exc)
+    body = getattr(response, "text", "") or ""
+    return f"{exc} :: {body[:500]}"
+
+
 def api_request_with_retry(
     method: str,
     url: str,
@@ -139,7 +147,7 @@ def api_request_with_retry(
             return True, payload_data, ""
         except (requests.RequestException, ValueError) as exc:  # noqa: BLE001
             if attempt >= max_attempts:
-                return False, None, str(exc)
+                return False, None, request_error_message(exc)
             jitter = random.uniform(0, min(1.0, delay))
             time.sleep(delay + jitter)
             delay = min(backoff_max, delay * 2)
