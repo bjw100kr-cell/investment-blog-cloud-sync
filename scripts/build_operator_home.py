@@ -25,6 +25,7 @@ DRAFT_POLISH_BOARD_MD = ROOT / "outputs/latest/draft-polish-board.md"
 DAILY_TRAFFIC_GOAL_MD = ROOT / "outputs/latest/daily-traffic-goal.md"
 TRAFFIC_CLUSTER_BOARD_MD = ROOT / "outputs/latest/traffic-cluster-board.md"
 TRAFFIC_AMPLIFICATION_PLAN_MD = ROOT / "outputs/latest/traffic-amplification-plan.md"
+DAILY_200_VISITOR_ACTION_BOARD_MD = ROOT / "outputs/latest/daily-200-visitor-action-board.md"
 VISITOR_PROOF_BOARD_JSON = ROOT / "outputs/latest/visitor-proof-board.json"
 VISITOR_PROOF_BOARD_MD = ROOT / "outputs/latest/visitor-proof-board.md"
 SEARCH_CONSOLE_SETUP_CARD_MD = ROOT / "outputs/latest/search-console-setup-card.md"
@@ -227,6 +228,8 @@ def build_report() -> dict:
         "traffic_cluster_board_uri": to_uri(TRAFFIC_CLUSTER_BOARD_MD),
         "traffic_amplification_plan_md": str(TRAFFIC_AMPLIFICATION_PLAN_MD),
         "traffic_amplification_plan_uri": to_uri(TRAFFIC_AMPLIFICATION_PLAN_MD),
+        "daily_200_visitor_action_board_md": str(DAILY_200_VISITOR_ACTION_BOARD_MD),
+        "daily_200_visitor_action_board_uri": to_uri(DAILY_200_VISITOR_ACTION_BOARD_MD),
         "visitor_proof_board_md": str(VISITOR_PROOF_BOARD_MD),
         "visitor_proof_board_uri": to_uri(VISITOR_PROOF_BOARD_MD),
         "search_console_setup_card_md": str(SEARCH_CONSOLE_SETUP_CARD_MD),
@@ -370,6 +373,7 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- daily traffic goal: `{report.get('daily_traffic_goal_md', '')}`")
     lines.append(f"- traffic cluster board: `{report.get('traffic_cluster_board_md', '')}`")
     lines.append(f"- traffic amplification plan: `{report.get('traffic_amplification_plan_md', '')}`")
+    lines.append(f"- daily 200 visitor action board: `{report.get('daily_200_visitor_action_board_md', '')}`")
     lines.append(f"- visitor proof board: `{report.get('visitor_proof_board_md', '')}`")
     lines.append(f"- search console setup card: `{report.get('search_console_setup_card_md', '')}`")
     lines.append(f"- indexing priority pack: `{report.get('indexing_priority_pack_md', '')}`")
@@ -528,6 +532,7 @@ def write_html(report: dict) -> None:
     daily_traffic_goal_uri = html.escape(report.get("daily_traffic_goal_uri", ""))
     traffic_cluster_board_uri = html.escape(report.get("traffic_cluster_board_uri", ""))
     traffic_amplification_plan_uri = html.escape(report.get("traffic_amplification_plan_uri", ""))
+    daily_200_visitor_action_board_uri = html.escape(report.get("daily_200_visitor_action_board_uri", ""))
     popular_reads_board_uri = html.escape(report.get("popular_reads_board_uri", ""))
     retention_cta_board_uri = html.escape(report.get("retention_cta_board_uri", ""))
     editorial_calendar_uri = html.escape(report.get("editorial_calendar_uri", ""))
@@ -811,6 +816,7 @@ def write_html(report: dict) -> None:
           <a class="main-link" href="{daily_traffic_goal_uri}" target="_blank" rel="noreferrer"><strong>Daily Traffic Goal</strong>하루 200명 목표 기준 예상 방문자와 부족분을 보는 보드</a>
           <a class="main-link" href="{traffic_cluster_board_uri}" target="_blank" rel="noreferrer"><strong>Traffic Cluster Board</strong>메인 글과 후속 글 묶음으로 페이지뷰와 재방문을 키우는 우선순위 보드</a>
           <a class="main-link" href="{traffic_amplification_plan_uri}" target="_blank" rel="noreferrer"><strong>Traffic Amplification Plan</strong>공개 URL을 어디에 어떤 문구로 공유할지 정리한 200명 목표 배포 플랜</a>
+          <a class="main-link" href="{daily_200_visitor_action_board_uri}" target="_blank" rel="noreferrer"><strong>Daily 200 Visitor Action Board</strong>품질 통과 글 3건 게시, 사람 검색어, 배포 액션을 하루 200명 목표에 맞춰 정렬한 보드</a>
           <a class="main-link" href="{popular_reads_board_uri}" target="_blank" rel="noreferrer"><strong>Popular Reads Board</strong>메인 글 아래와 허브에 붙일 대표 읽을거리 후보 묶음</a>
           <a class="main-link" href="{retention_cta_board_uri}" target="_blank" rel="noreferrer"><strong>Retention CTA Board</strong>재방문과 나중 구독 전환까지 고려한 글 하단 CTA 운영 카드</a>
           <a class="main-link" href="{editorial_calendar_uri}" target="_blank" rel="noreferrer"><strong>Editorial Calendar</strong>이번 주 레인 균형과 stale 회피까지 반영한 7일 운영 캘린더</a>

@@ -121,6 +121,7 @@
 | SP-105 | Spark/5.4 | completed | none | Distribution Planner: 공개 URL별 외부 배포 문구를 플랫폼별 3종씩 만들고, 수동 배포 체크리스트를 `traffic-amplification-plan`에 보강 |
 | SP-106 | Spark/5.4 | pending | none | Publish Inventory Agent: `publish-inventory -> manifest selection -> uploader handoff` 계약을 점검해 slug 충돌, orphan manifest, stale ready file이 0인지 자동 리포트로 확인 |
 | SP-107 | Spark/5.4 | completed | none | Publisher Operator: 방문자 확대를 위해 GitHub Actions Blogger 기본 게시 cap을 실행당 3건으로 올리되 품질 게이트/중복 방지/slug 안정성 보호는 유지 |
+| SP-108 | Spark/5.4 | completed | none | Keyword Strategist/Growth Analyst: Search Console 전 단계에서 뉴스 빈도 fallback과 실제 Google Trends 매칭의 confidence를 분리하고, 사람 검색형 한국어 query를 `daily-200-visitor-action-board`에 연결 |
 | HQ-001 | High | pending | none | public repo 공개 범위와 비공개 전환 기준 결정 |
 | HQ-002 | High | pending | none | OpenAI 유료 초안 생성 활성화 시점과 비용 한도 정책 결정 |
 | HQ-003 | High | pending | none | Search Console, GA4, AdSense, 뉴스레터 연결 우선순위 재정렬 |

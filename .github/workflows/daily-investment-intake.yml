@@ -208,6 +208,9 @@ jobs:
       - name: Build Search Console setup card
         run: python scripts/build_search_console_setup_card.py
 
+      - name: Build daily 200 visitor action board
+        run: python scripts/build_daily_200_visitor_action_board.py
+
       - name: Build indexing priority pack
         run: python scripts/build_indexing_priority_pack.py
 

@@ -24,7 +24,15 @@ def find_keywords(text: str, aliases: dict) -> list[str]:
     hits = []
     for canonical, variations in aliases.items():
         for variation in variations:
-            if variation.lower() in haystack:
+            needle = variation.lower().strip()
+            if not needle:
+                continue
+            if re.search(r"[a-z0-9]", needle):
+                pattern = r"(?<![a-z0-9])" + re.escape(needle) + r"(?![a-z0-9])"
+                matched = bool(re.search(pattern, haystack))
+            else:
+                matched = needle in haystack
+            if matched:
                 hits.append(canonical)
                 break
     return hits
@@ -116,6 +124,8 @@ def build_weak_trend_fallback_ranked_keywords(snapshot: dict, ranked_keywords: l
                 "regions": [],
                 "demand_signal_score": base_demand + (score * 100),
                 "fallback_source": "source_snapshot_rank",
+                "confidence": "medium_low",
+                "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
                 "source_snapshot_score": score,
                 "source_count": int(item.get("source_count", 0)),
                 "source_names": sources[:5],
@@ -235,6 +245,8 @@ def build_report() -> dict:
                 "regions": sorted(info["regions"]),
                 "demand_signal_score": info["traffic_score_sum"] + (info["trend_count"] * 200),
                 "fallback_source": "trend_match",
+                "confidence": "high",
+                "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다.",
             }
         )
 
@@ -278,13 +290,19 @@ def write_markdown(report: dict) -> None:
     lines.append("")
     if report.get("ranked_keyword_demand"):
         for item in report["ranked_keyword_demand"]:
+            regions = ", ".join(item["regions"]) if item.get("regions") else "unknown"
             lines.append(
-                f"- `{item['keyword']}`: demand {item['demand_signal_score']} / trend_count {item['trend_count']} / traffic_sum {item['traffic_score_sum']} / regions {', '.join(item['regions'])}"
+                f"- `{item['keyword']}`: demand {item['demand_signal_score']} / trend_count {item['trend_count']} / traffic_sum {item['traffic_score_sum']} / regions {regions}"
             )
             if item.get("fallback_source") == "source_snapshot_rank":
                 lines.append(
+                    f"  - confidence: `{item.get('confidence', '')}` / {item.get('confidence_note', '')}"
+                )
+                lines.append(
                     f"  - fallback: source snapshot score {item.get('source_snapshot_score', 0)} / sources {', '.join(item.get('source_names', []))}"
                 )
+            else:
+                lines.append(f"  - confidence: `{item.get('confidence', '')}` / {item.get('confidence_note', '')}")
             for query in item.get("trend_queries", []):
                 lines.append(f"  - trend query: {query}")
     else:

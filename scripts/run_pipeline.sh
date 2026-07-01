@@ -174,6 +174,8 @@ run_step "30.366/34" "Build visitor proof board" python3 scripts/build_visitor_p
 
 run_step "30.367/34" "Build Search Console setup card" python3 scripts/build_search_console_setup_card.py
 
+run_step "30.3675/34" "Build daily 200 visitor action board" python3 scripts/build_daily_200_visitor_action_board.py
+
 run_step "30.368/34" "Build indexing priority pack" python3 scripts/build_indexing_priority_pack.py
 
 run_step "30.369/34" "Apply internal link blocks" python3 scripts/apply_internal_link_blocks.py

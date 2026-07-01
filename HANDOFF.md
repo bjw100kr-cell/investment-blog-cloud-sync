@@ -50,6 +50,7 @@
 - `2026-07-01`: Growth Analyst `SP-100` 완료. Search Console 병목은 이제 `no_accessible_search_console_sites`로 명확히 표시됩니다. 사용자가 해야 할 최소 액션은 Search Console에서 `https://gimu-economy-insight.blogspot.com/` URL-prefix 속성 추가/검증 1개이며, `python3 scripts/open_login_setup_pages.py --print-next`가 `https://search.google.com/search-console`을 반환합니다.
 - `2026-07-01`: Keyword Strategist `SP-102` 완료. `scripts/build_title_experiment_board.py`와 `outputs/latest/title-experiment-board.md/json`을 추가해 Search Console 실측 전에도 제목 A/B 후보를 준비합니다. 로컬 파이프라인과 GitHub Actions 모두 `Sync click titles` 직후 이 보드를 생성합니다.
 - `2026-07-01`: Distribution Planner `SP-105` 완료. `traffic-amplification-plan`에 공개 URL 4개별 수동 실행 체크리스트 12개와 X/Threads, 텔레그램/카카오, 투자 커뮤니티용 copy variants 3종씩을 추가했습니다. Search Console 연결 전 초기 유입은 이 체크리스트를 수동 실행해 만들고, 같은 채널 반복 도배는 금지합니다.
+- `2026-07-01`: Keyword/Growth `SP-108` 완료. `search-demand-report`가 실제 Google Trends 매칭(`confidence=high`)과 뉴스 소스 빈도 fallback(`confidence=medium_low`)을 분리하고, `keyword-opportunity-board`와 `daily-200-visitor-action-board`가 `비트코인 전망`, `FOMC 일정`, `AI 반도체 주식`, `국제유가 전망`, `미국 빅테크 주식` 같은 사람 검색형 한국어 query를 제목/소제목/내부링크/배포문구에 쓰도록 연결했습니다.
 - 업로드 전 확인용 보드 연결은 계속 유지됨:
   - `outputs/latest/user-review-checkpoint.md`
   - `outputs/latest/user-review-shortlist.md`

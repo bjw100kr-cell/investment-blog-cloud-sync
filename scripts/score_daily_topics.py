@@ -131,7 +131,15 @@ def find_keywords(text: str, aliases: Dict[str, List[str]]) -> List[str]:
     hits = []
     for canonical, variations in aliases.items():
         for variant in variations:
-            if variant.lower() in haystack:
+            needle = variant.lower().strip()
+            if not needle:
+                continue
+            if re.search(r"[a-z0-9]", needle):
+                pattern = r"(?<![a-z0-9])" + re.escape(needle) + r"(?![a-z0-9])"
+                matched = bool(re.search(pattern, haystack))
+            else:
+                matched = needle in haystack
+            if matched:
                 hits.append(canonical)
                 break
     return hits

@@ -1,8 +1,6 @@
 # Session Memory Log
 
 # ... truncated - recent entries kept
-- [2026-07-01 00:53:40 KST] step-40-30/34-Build approval dashboard
- - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:40 KST] step-45-30.37/34-Build retention CTA board
  - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:41 KST] step-50-30.454/35-Build approval briefing board
@@ -160,4 +158,6 @@
 - [2026-07-01 18:06:54 KST] traffic amplification manual checklist added
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 18:12:07 KST] raise Blogger quality-gated volume cap to 3
+ - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
+- [2026-07-01 18:20:59 KST] add daily 200 visitor action board and search intent confidence
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True

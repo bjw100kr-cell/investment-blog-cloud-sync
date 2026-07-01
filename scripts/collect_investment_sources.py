@@ -254,7 +254,15 @@ def find_keywords(text: str, aliases: dict) -> list:
     hits = []
     for canonical, variations in aliases.items():
         for variant in variations:
-            if variant.lower() in haystack:
+            needle = variant.lower().strip()
+            if not needle:
+                continue
+            if re.search(r"[a-z0-9]", needle):
+                pattern = r"(?<![a-z0-9])" + re.escape(needle) + r"(?![a-z0-9])"
+                matched = bool(re.search(pattern, haystack))
+            else:
+                matched = needle in haystack
+            if matched:
                 hits.append(canonical)
                 break
     return hits
@@ -263,6 +271,7 @@ def find_keywords(text: str, aliases: dict) -> list:
 def rank_keywords(all_items: list, aliases: dict) -> list:
     keyword_scores = Counter()
     keyword_sources = defaultdict(set)
+    keyword_titles = defaultdict(list)
     for item in all_items:
         title = item["title"]
         text = f"{title} {item.get('description', '')} {item.get('transcript_excerpt', '')}"
@@ -273,6 +282,8 @@ def rank_keywords(all_items: list, aliases: dict) -> list:
         for keyword in hits:
             keyword_scores[keyword] += score
             keyword_sources[keyword].add(item["source_name"])
+            if title and title not in keyword_titles[keyword]:
+                keyword_titles[keyword].append(title)
 
     ranked = []
     for keyword, score in keyword_scores.most_common():
@@ -282,6 +293,7 @@ def rank_keywords(all_items: list, aliases: dict) -> list:
                 "score": score,
                 "source_count": len(keyword_sources[keyword]),
                 "sources": sorted(keyword_sources[keyword]),
+                "sample_titles": keyword_titles[keyword][:5],
             }
         )
     return ranked

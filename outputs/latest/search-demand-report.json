@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-06-30T22:22:55.604504+00:00",
+  "generated_at": "2026-07-01T09:18:52.130557+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "us_big_tech",
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
+      "trend_queries": [
+        "apple iphone 18 pro"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,18 +30,24 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5900,
+      "demand_signal_score": 8500,
       "fallback_source": "source_snapshot_rank",
-      "source_snapshot_score": 47,
-      "source_count": 5,
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 73,
+      "source_count": 7,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "Financial Times World",
+        "Investing.com Crypto News"
       ],
-      "sample_titles": []
+      "sample_titles": [
+        "Bitcoin’s 20% June crash looks even deadlier on the charts. Here’s why",
+        "Live markets: U.S. spot bitcoin ETFs had their worst month ever in June, shedding $4.5 billion",
+        "Taiwan’s sweeping crypto law raises the bar with licensing, reserve mandates, and tough penalties"
+      ]
     },
     {
       "keyword": "fomc",
@@ -34,55 +56,72 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5400,
+      "demand_signal_score": 3800,
       "fallback_source": "source_snapshot_rank",
-      "source_snapshot_score": 42,
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 26,
       "source_count": 3,
       "source_names": [
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
-        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
-      "sample_titles": []
+      "sample_titles": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "Japan spent $74 billion propping up the yen. Investors say the real battle is with the Fed"
+      ]
     },
     {
-      "keyword": "us_index_flow",
+      "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3400,
+      "demand_signal_score": 2900,
       "fallback_source": "source_snapshot_rank",
-      "source_snapshot_score": 22,
-      "source_count": 5,
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 17,
+      "source_count": 6,
       "source_names": [
-        "Cointelegraph",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": []
-    },
-    {
-      "keyword": "crypto_etf",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3200,
-      "fallback_source": "source_snapshot_rank",
-      "source_snapshot_score": 20,
-      "source_count": 4,
-      "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
+        "Financial Times Home",
         "MarketWatch Breaking News"
       ],
-      "sample_titles": []
+      "sample_titles": [
+        "Anthropic restores AI models Fable, Mythos after the U.S. lifts export controls",
+        "Anthropic to bring back Fable 5 as US lifts export controls",
+        "Anthropic says Trump admin has lifted export controls on Claude Fable 5 and Mythos 5"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2000,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 8,
+      "source_count": 3,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times YouTube",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Oil prices wobble as breakdown in U.S.-Iran talks casts doubt over peace process",
+        "Global funds revisit Indian stocks as oil, rupee risks recede - Reuters",
+        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
+      ]
     }
   ],
   "unmatched_market_trends": []

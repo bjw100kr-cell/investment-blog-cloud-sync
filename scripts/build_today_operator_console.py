@@ -27,6 +27,7 @@ DRAFT_POLISH_BOARD_MD = ROOT / "outputs/latest/draft-polish-board.md"
 DAILY_TRAFFIC_GOAL_MD = ROOT / "outputs/latest/daily-traffic-goal.md"
 TRAFFIC_CLUSTER_BOARD_MD = ROOT / "outputs/latest/traffic-cluster-board.md"
 TRAFFIC_AMPLIFICATION_PLAN_MD = ROOT / "outputs/latest/traffic-amplification-plan.md"
+DAILY_200_VISITOR_ACTION_BOARD_MD = ROOT / "outputs/latest/daily-200-visitor-action-board.md"
 VISITOR_PROOF_BOARD_JSON = ROOT / "outputs/latest/visitor-proof-board.json"
 VISITOR_PROOF_BOARD_MD = ROOT / "outputs/latest/visitor-proof-board.md"
 SEARCH_CONSOLE_SETUP_CARD_MD = ROOT / "outputs/latest/search-console-setup-card.md"
@@ -106,6 +107,7 @@ def build_report() -> dict:
             "daily_traffic_goal_md": str(DAILY_TRAFFIC_GOAL_MD),
             "traffic_cluster_board_md": str(TRAFFIC_CLUSTER_BOARD_MD),
             "traffic_amplification_plan_md": str(TRAFFIC_AMPLIFICATION_PLAN_MD),
+            "daily_200_visitor_action_board_md": str(DAILY_200_VISITOR_ACTION_BOARD_MD),
             "visitor_proof_board_md": str(VISITOR_PROOF_BOARD_MD),
             "search_console_setup_card_md": str(SEARCH_CONSOLE_SETUP_CARD_MD),
             "indexing_priority_pack_md": str(INDEXING_PRIORITY_PACK_MD),
@@ -188,6 +190,7 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- daily traffic goal: `{report.get('review_paths', {}).get('daily_traffic_goal_md', '')}`")
     lines.append(f"- traffic cluster board: `{report.get('review_paths', {}).get('traffic_cluster_board_md', '')}`")
     lines.append(f"- traffic amplification plan: `{report.get('review_paths', {}).get('traffic_amplification_plan_md', '')}`")
+    lines.append(f"- daily 200 visitor action board: `{report.get('review_paths', {}).get('daily_200_visitor_action_board_md', '')}`")
     lines.append(f"- visitor proof board: `{report.get('review_paths', {}).get('visitor_proof_board_md', '')}`")
     lines.append(f"- search console setup card: `{report.get('review_paths', {}).get('search_console_setup_card_md', '')}`")
     lines.append(f"- indexing priority pack: `{report.get('review_paths', {}).get('indexing_priority_pack_md', '')}`")
