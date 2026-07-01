@@ -1,8 +1,6 @@
 # Session Memory Log
 
 # ... truncated - recent entries kept
-- [2026-07-01 00:53:41 KST] step-50-30.454/35-Build approval briefing board
- - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:41 KST] step-55-30.4549/35-Build user approval inbox
  - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:42 KST] step-60-30.4553/39-Build minimum unblock flow
@@ -161,3 +159,5 @@
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 18:32:03 KST] connect reader search demand posts to SEO inventory
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
+- [2026-07-01 18:34:12 KST] published 3 FOMC SEO posts to Blogger
+ - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True

@@ -1,23 +1,21 @@
 {
-  "generated_at_utc": "2026-07-01T09:32:03.046597+00:00",
+  "generated_at_utc": "2026-07-01T09:34:12.444788+00:00",
   "goal": "주식/코인/세계경제 투자 블로그 자동화 운영 지속 및 수익화",
   "blogger": {
     "report_summary": {
       "manifest_candidate_count": null,
-      "processed_count": 1,
+      "processed_count": 3,
       "reason_counts": {
-        "source_freshness_stale": 1,
-        "already_synced_same_content": 1,
-        "": 1,
-        "BLOGGER_MAX_POSTS_PER_RUN reached": 10
+        "": 3,
+        "BLOGGER_MAX_POSTS_PER_RUN reached": 6
       },
-      "last_reason": "source_freshness_stale",
-      "top_item_slug": null
+      "last_reason": null,
+      "top_item_slug": "fomc-이후-시장이-주식과-코인에-미치는-영향"
     },
     "state_summary": {
       "item_count": 13,
       "published_count": 13,
-      "latest_synced_at": "2026-06-30T22:23:03.613305+00:00"
+      "latest_synced_at": "2026-07-01T09:33:39.442012+00:00"
     }
   },
   "inventory": {
@@ -52,5 +50,5 @@
     "`daily-traffic-goal.json`은 이제 실제 발행 인벤토리 제목과 코인 시장 신호(`extreme_fear`, BTC 변동, Fear/Greed)를 같이 보여줌."
   ],
   "source_notes": [],
-  "note": "connect reader search demand posts to SEO inventory"
+  "note": "published 3 FOMC SEO posts to Blogger"
 }

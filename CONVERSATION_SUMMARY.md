@@ -1,14 +1,14 @@
 # 대화 및 작업 요약 (자동 압축)
 
-생성일: 2026-07-01 18:32:03 KST
+생성일: 2026-07-01 18:34:12 KST
 
 ## 목표
 - 주식/코인/세계경제 투자 블로그 자동화 운영 지속 및 수익화
 
 ## 현재 상태
 - 저장된 published 수: `13`
-- 최신 업로드 처리 건수(processed_count): `1`
-- 마지막 동기화 시각: `2026-06-30T22:23:03.613305+00:00`
+- 최신 업로드 처리 건수(processed_count): `3`
+- 마지막 동기화 시각: `2026-07-01T09:33:39.442012+00:00`
 - 최근 소스 후보 수: `13`
 - 핵심 체크 통과 여부: `True`
 - 승인 상태 안전성: `None`
@@ -27,4 +27,4 @@
 - `python3 scripts/run_pipeline.sh`
 - `python3 scripts/prepare_launch_bundle.py`
 
-- 최근 노트: `connect reader search demand posts to SEO inventory`
+- 최근 노트: `published 3 FOMC SEO posts to Blogger`
