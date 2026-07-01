@@ -521,6 +521,8 @@ def main() -> int:
     publishing_items = load_json(args.publishing_json).get("items", [])
     config = load_json(RENDER_CONFIG_JSON)
     args.output_dir.mkdir(parents=True, exist_ok=True)
+    for old_file in list(args.output_dir.glob("*.html")) + list(args.output_dir.glob("*.json")):
+        old_file.unlink()
     image_selection_lookup = load_image_selection_lookup(args.image_selections_json)
     retention_lookup = build_retention_lookup(args.retention_cta_board_json)
 

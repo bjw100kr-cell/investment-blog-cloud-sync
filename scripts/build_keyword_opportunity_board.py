@@ -9,71 +9,9 @@ BRIEF_JSON = ROOT / "outputs/latest/daily-post-brief.json"
 SEARCH_DEMAND_JSON = ROOT / "outputs/latest/search-demand-report.json"
 SEO_BACKLOG_JSON = ROOT / "outputs/latest/seo-backlog.json"
 PUBLISH_QUEUE_JSON = ROOT / "outputs/latest/publish-queue.json"
+READER_SEARCH_QUERIES_JSON = ROOT / "config/reader_search_queries.json"
 OUTPUT_JSON = ROOT / "outputs/latest/keyword-opportunity-board.json"
 OUTPUT_MD = ROOT / "outputs/latest/keyword-opportunity-board.md"
-
-READER_SEARCH_QUERIES = {
-    "fomc": [
-        "FOMC 일정",
-        "FOMC 발표 시간",
-        "FOMC 이후 주식 영향",
-        "연준 금리 발표 비트코인 영향",
-    ],
-    "bitcoin": [
-        "비트코인 전망",
-        "비트코인 ETF 자금 흐름",
-        "비트코인 하락 이유",
-        "비트코인 오늘 시세 보는법",
-    ],
-    "us_index_flow": [
-        "미국 증시 오늘",
-        "나스닥 하락 이유",
-        "S&P500 전망",
-        "미국 주식 금리 영향",
-    ],
-    "china": [
-        "중국 경기부양 수혜주",
-        "중국 증시 영향",
-        "위안화 환율 시장 영향",
-        "중국 부동산 리스크",
-    ],
-    "crypto_etf": [
-        "비트코인 현물 ETF 자금 유입",
-        "이더리움 ETF 승인 영향",
-        "코인 ETF란",
-        "ETF 자금 유출 비트코인 영향",
-    ],
-    "ai_semiconductors": [
-        "AI 반도체 주식",
-        "엔비디아 주가 영향",
-        "반도체 사이클 전망",
-        "AI 데이터센터 수혜주",
-    ],
-    "us_big_tech": [
-        "미국 빅테크 주식",
-        "애플 주가 영향",
-        "테슬라 주가 전망",
-        "마이크로소프트 AI 투자",
-    ],
-    "dollar": [
-        "달러 인덱스 보는법",
-        "달러 강세 주식 영향",
-        "환율 상승 코인 영향",
-        "원달러 환율 전망",
-    ],
-    "oil": [
-        "국제유가 전망",
-        "유가 상승 주식 영향",
-        "WTI 유가 보는법",
-        "원유 가격 인플레이션 영향",
-    ],
-    "treasury_yields": [
-        "미국채 금리 상승 이유",
-        "10년물 국채금리 주식 영향",
-        "국채금리 비트코인 영향",
-        "금리 상승 성장주 영향",
-    ],
-}
 
 
 def load_json(path: Path) -> dict:
@@ -166,8 +104,9 @@ def suggested_watch_title(query: str) -> str:
 
 
 def reader_queries(keyword: str, trend_queries: Optional[list[str]] = None) -> list[str]:
+    reader_query_map = load_json(READER_SEARCH_QUERIES_JSON)
     queries = []
-    for query in READER_SEARCH_QUERIES.get(keyword, []):
+    for query in reader_query_map.get(keyword, []):
         if query not in queries:
             queries.append(query)
     for query in trend_queries or []:

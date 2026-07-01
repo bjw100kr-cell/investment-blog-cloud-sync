@@ -97,10 +97,23 @@ def build_source_name_lookup(draft_packets: dict) -> dict[str, list[str]]:
     return lookup
 
 
-def select_backlog_items(items: list[dict], packet_limit: int, per_source_limit: int = 3) -> list[dict]:
+def select_backlog_items(items: list[dict], packet_limit: int, per_source_limit: int = 3, demand_capture_min: int = 3) -> list[dict]:
+    selected = []
+    selected_keys = set()
+
+    demand_capture_items = [item for item in items if item.get("role") == "search_demand_capture"]
+    for item in demand_capture_items[:demand_capture_min]:
+        if len(selected) >= packet_limit:
+            return selected
+        selected.append(item)
+        selected_keys.add((item.get("source_keyword", ""), item.get("title", "")))
+
     grouped = {}
     source_order = []
     for item in items:
+        item_key = (item.get("source_keyword", ""), item.get("title", ""))
+        if item_key in selected_keys:
+            continue
         source_keyword = item.get("source_keyword", "")
         if not source_keyword:
             continue
@@ -108,8 +121,6 @@ def select_backlog_items(items: list[dict], packet_limit: int, per_source_limit:
             grouped[source_keyword] = []
             source_order.append(source_keyword)
         grouped[source_keyword].append(item)
-
-    selected = []
     for source_keyword in source_order:
         for item in grouped[source_keyword][:per_source_limit]:
             if len(selected) >= packet_limit:
@@ -141,13 +152,15 @@ def packet_for_item(item: dict, voice_rules: dict, voice_examples: dict, source_
             f"메인 연결 글: {item.get('source_title')}",
             f"검색 의도: {item.get('search_intent')}",
             f"수익화 목표: {item.get('monetization_goal')}",
+            f"검색어 후보: {', '.join(item.get('reader_search_queries', [])[:4]) or title}",
+            f"수요 신뢰도: {item.get('demand_confidence', '')} - {item.get('demand_confidence_note', '')}",
         ],
         "fact_checks": FACT_CHECK_BY_CATEGORY.get(category, ["핵심 숫자와 날짜 재확인", "과장 표현 점검", "최신 공식 출처 확인"]),
         "disclaimer": DISCLAIMER,
         "cta": CTA_BY_CATEGORY.get(category, "관련 허브 글과 메인 해설 글을 이어서 보면 이해가 더 쉬워집니다."),
         "source_names": source_name_lookup.get(
             source_keyword,
-            [item.get("source_title", ""), item.get("source_keyword", "")],
+            item.get("source_names") or [item.get("source_title", ""), item.get("source_keyword", "")],
         ),
         "reference_headlines": [item.get("title", "")],
         "voice_profile": format_profile.get("voice_goal", "쉽고 신뢰감 있는 설명형 톤"),
@@ -179,6 +192,9 @@ def packet_for_item(item: dict, voice_rules: dict, voice_examples: dict, source_
         "labels": item.get("labels", []),
         "search_intent": item.get("search_intent", ""),
         "monetization_goal": item.get("monetization_goal", ""),
+        "reader_search_queries": item.get("reader_search_queries", []),
+        "demand_confidence": item.get("demand_confidence", ""),
+        "demand_confidence_note": item.get("demand_confidence_note", ""),
     }
 
 

@@ -1,6 +1,6 @@
 # 발행 재고판
 
-- 생성 시각: `2026-06-30T22:22:59.077094+00:00`
+- 생성 시각: `2026-07-01T09:29:24.754147+00:00`
 - 전체 발행 후보: `13`
 - 업로드 가능 글 수: `13`
 - 메인 글 수: `4`
@@ -136,41 +136,41 @@
 - search_intent: 짧은 질문 단위로 빠르게 답을 찾고 싶은 독자
 - cta_focus: 기초 글과 주간 정리 글 연결
 
-## 11. 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기
+## 11. 미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지
 
 - inventory_type: seo_followup
-- keyword: seo_us_index_flow_7
-- source_keyword: us_index_flow
-- role/type: evergreen_seo / evergreen_sector_guide
+- keyword: seo_us_big_tech_10
+- source_keyword: us_big_tech
+- role/type: search_demand_capture / follow_up_analysis
 - ready_to_upload: True
-- publish_date: 2026-07-02 / bucket: seo_backlog
-- priority_score: 119.5
-- revenue_objective: 섹터형 검색 유입 누적
-- search_intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
-- cta_focus: 대표 종목 글과 허브 글 연결
+- publish_date: 2026-07-01 / bucket: seo_backlog
+- priority_score: 112.07
+- revenue_objective: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결
+- search_intent: `미국 빅테크 주식`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
+- cta_focus: 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결
 
-## 12. 미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나
+## 12. AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지
 
 - inventory_type: seo_followup
-- keyword: seo_us_index_flow_8
-- source_keyword: us_index_flow
-- role/type: follow_up / follow_up_analysis
+- keyword: seo_ai_semiconductors_11
+- source_keyword: ai_semiconductors
+- role/type: search_demand_capture / follow_up_analysis
 - ready_to_upload: True
-- publish_date: 2026-07-02 / bucket: seo_backlog
-- priority_score: 116.5
-- revenue_objective: 체류시간과 페이지뷰 확대
-- search_intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
-- cta_focus: 실적 해설과 글로벌 섹터 허브 연결
+- publish_date: 2026-07-01 / bucket: seo_backlog
+- priority_score: 108.57
+- revenue_objective: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결
+- search_intent: `AI 반도체 주식`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
+- cta_focus: 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결
 
-## 13. 미국 증시 지수 흐름 ETF·지수·대표 기업 정리
+## 13. 국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지
 
 - inventory_type: seo_followup
-- keyword: seo_us_index_flow_9
-- source_keyword: us_index_flow
-- role/type: evergreen_seo / evergreen_sector_guide
+- keyword: seo_oil_12
+- source_keyword: oil
+- role/type: search_demand_capture / follow_up_analysis
 - ready_to_upload: True
-- publish_date: 2026-07-02 / bucket: seo_backlog
-- priority_score: 113.5
-- revenue_objective: 광고 노출과 장기 검색 유입 확보
-- search_intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
-- cta_focus: 섹터 허브와 후속 비교 글 연결
+- publish_date: 2026-07-05 / bucket: seo_backlog
+- priority_score: 105.67
+- revenue_objective: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결
+- search_intent: `국제유가 전망`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
+- cta_focus: 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결

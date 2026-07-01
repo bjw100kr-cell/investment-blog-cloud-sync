@@ -2,6 +2,7 @@
 import argparse
 import json
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote_plus
 
@@ -113,6 +114,34 @@ def build_followup_posts(keyword: str, title: str, followup_lookup: dict[str, li
     return items
 
 
+def build_search_demand_followups(packet: dict) -> list[dict]:
+    queries = [query for query in packet.get("reader_search_queries", []) if query]
+    if not queries:
+        return []
+    source_keyword = packet.get("source_keyword", packet.get("keyword", ""))
+    followups = []
+    for query in queries[1:3] or queries[:1]:
+        title = f"{query}: 다음으로 볼 체크포인트"
+        followups.append(
+            {
+                "title": title,
+                "slug": slugify(f"{source_keyword}-{query}-follow-up"),
+                "role": "planned_search_followup",
+                "post_type": "follow_up_analysis",
+                "search_intent": f"`{query}` 검색 독자를 위한 후속 설명 글",
+                "monetization_goal": "롱테일 검색 유입과 내부링크 순환 강화",
+                "cta_focus": "현재 검색 수요 캡처 글과 관련 허브로 연결",
+            }
+        )
+    return followups
+
+
+def fallback_publish_date(packet: dict) -> str:
+    if not packet.get("reader_search_queries"):
+        return ""
+    return datetime.now(timezone.utc).date().isoformat()
+
+
 def provider_search_url(provider: dict, query: str) -> str:
     return provider.get("search_url_template", "").replace("{query}", quote_plus(query))
 
@@ -186,7 +215,7 @@ def build_asset(
     meta_template = rules["meta_description_templates"].get(category, "{title}를 투자자 관점에서 쉽게 정리합니다.")
     meta_description = meta_template.format(title=title_topic)
     calendar_entry = calendar_lookup.get(keyword, calendar_lookup.get(source_keyword, {}))
-    publish_date = calendar_entry.get("date", "")
+    publish_date = calendar_entry.get("date", "") or fallback_publish_date(packet)
     internal_links = [
         rules["category_hub_paths"].get(category, ""),
         "site-foundation/about.md",
@@ -200,7 +229,7 @@ def build_asset(
         post_type,
         ["after_intro", "mid_article", "before_related_links"],
     )
-    follow_up_posts = build_followup_posts(source_keyword, title, followup_lookup)
+    follow_up_posts = build_followup_posts(source_keyword, title, followup_lookup) or build_search_demand_followups(packet)
     image_plan = build_image_plan(source_keyword, category, title_topic, image_rules)
 
     return {

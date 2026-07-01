@@ -1,6 +1,6 @@
 # SEO / 수익화 후속 글 백로그
 
-- 후보 수: `12`
+- 후보 수: `15`
 
 ## 1. FOMC 이후 시장이 주식과 코인에 미치는 영향
 
@@ -119,7 +119,46 @@
 - 보조 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md
 - 추천 라벨: 투자, 경제, 시장해설, 미국증시, 나스닥, S&P500
 
-## 10. 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
+## 10. 미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지
+
+- 출발 글: us_big_tech / 미국 빅테크 주식
+- 카테고리: global-sector
+- 역할: search_demand_capture / 타입: follow_up_analysis
+- 우선순위 점수: 112.07
+- 검색 의도: `미국 빅테크 주식`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
+- 수익화 목표: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결
+- CTA 초점: 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결
+- 메인 연결 글: site-foundation/hub-global-sector.md
+- 보조 내부링크: site-foundation/about.md, site-foundation/editorial-policy.md, site-foundation/disclosure.md
+- 추천 라벨: 투자, 경제, 시장해설, 미국 빅테크 주식
+
+## 11. AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지
+
+- 출발 글: ai_semiconductors / AI 반도체 주식
+- 카테고리: global-sector
+- 역할: search_demand_capture / 타입: follow_up_analysis
+- 우선순위 점수: 108.57
+- 검색 의도: `AI 반도체 주식`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
+- 수익화 목표: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결
+- CTA 초점: 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결
+- 메인 연결 글: site-foundation/hub-global-sector.md
+- 보조 내부링크: site-foundation/about.md, site-foundation/editorial-policy.md, site-foundation/disclosure.md
+- 추천 라벨: 투자, 경제, 시장해설, AI 반도체 주식
+
+## 12. 국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지
+
+- 출발 글: oil / 국제유가 전망
+- 카테고리: macro
+- 역할: search_demand_capture / 타입: follow_up_analysis
+- 우선순위 점수: 105.67
+- 검색 의도: `국제유가 전망`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
+- 수익화 목표: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결
+- CTA 초점: 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결
+- 메인 연결 글: site-foundation/hub-macro.md
+- 보조 내부링크: site-foundation/about.md, site-foundation/editorial-policy.md, site-foundation/disclosure.md
+- 추천 라벨: 투자, 경제, 시장해설, 국제유가 전망
+
+## 13. 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
 - 출발 글: china / 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 카테고리: global-sector
@@ -132,7 +171,7 @@
 - 보조 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md
 - 추천 라벨: 투자, 경제, 시장해설, 중국, 세계흐름, 거시경제
 
-## 11. 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
+## 14. 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 
 - 출발 글: china / 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 카테고리: global-sector
@@ -145,7 +184,7 @@
 - 보조 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md
 - 추천 라벨: 투자, 경제, 시장해설, 중국, 세계흐름, 거시경제
 
-## 12. 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
+## 15. 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 
 - 출발 글: china / 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 카테고리: global-sector

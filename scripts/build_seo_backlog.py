@@ -7,6 +7,8 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLISH_QUEUE_JSON = ROOT / "outputs/latest/publish-queue.json"
 PUBLISHING_JSON = ROOT / "outputs/latest/publishing-assets.json"
 MONETIZATION_JSON = ROOT / "outputs/latest/monetization-readiness-report.json"
+SEARCH_DEMAND_JSON = ROOT / "outputs/latest/search-demand-report.json"
+READER_SEARCH_QUERIES_JSON = ROOT / "config/reader_search_queries.json"
 OUTPUT_JSON = ROOT / "outputs/latest/seo-backlog.json"
 OUTPUT_MD = ROOT / "outputs/latest/seo-backlog.md"
 
@@ -97,6 +99,24 @@ STABLE_SEO_TOPIC_BY_SOURCE_KEYWORD = {
     "bitcoin": "비트코인 핵심 흐름",
     "us_index_flow": "미국 증시 지수 흐름",
     "china": "중국 변수와 시장 영향",
+    "ai_semiconductors": "AI 반도체 주식",
+    "oil": "국제유가 전망",
+    "us_big_tech": "미국 빅테크 주식",
+    "crypto_etf": "비트코인 현물 ETF 자금 흐름",
+}
+
+CATEGORY_BY_DEMAND_KEYWORD = {
+    "bitcoin": "crypto",
+    "ethereum": "crypto",
+    "crypto_etf": "crypto",
+    "ai_semiconductors": "global-sector",
+    "us_big_tech": "global-sector",
+    "us_index_flow": "global-sector",
+    "china": "global-sector",
+    "oil": "macro",
+    "dollar": "macro",
+    "treasury_yields": "macro",
+    "fomc": "macro",
 }
 
 
@@ -150,6 +170,59 @@ def build_asset_lookup(publishing_data: dict) -> dict:
     return {item.get("keyword"): item for item in publishing_data.get("items", [])}
 
 
+def reader_query_for(keyword: str, reader_query_map: dict) -> str:
+    queries = reader_query_map.get(keyword, [])
+    if queries:
+        return queries[0]
+    return STABLE_SEO_TOPIC_BY_SOURCE_KEYWORD.get(keyword, keyword)
+
+
+def demand_capture_items(existing_source_keywords: set[str], readiness_score: float) -> list[dict]:
+    search_demand = load_json(SEARCH_DEMAND_JSON)
+    reader_query_map = load_json(READER_SEARCH_QUERIES_JSON)
+    items = []
+    for demand_index, demand in enumerate(search_demand.get("ranked_keyword_demand", [])[:8], start=1):
+        keyword = demand.get("keyword", "")
+        if not keyword or keyword in existing_source_keywords:
+            continue
+        primary_query = reader_query_for(keyword, reader_query_map)
+        category = CATEGORY_BY_DEMAND_KEYWORD.get(keyword, "macro")
+        confidence = demand.get("confidence", "unknown")
+        source_names = demand.get("source_names", [])
+        if not source_names and demand.get("fallback_source") == "trend_match":
+            regions = demand.get("regions", [])
+            source_names = [f"Google Trends {regions[0]}" if regions else "Google Trends"]
+        title = f"{primary_query}: 지금 투자자가 확인할 체크포인트 5가지"
+        items.append(
+            {
+                "source_keyword": keyword,
+                "source_title": primary_query,
+                "category": category,
+                "title": title,
+                "slug": slugify(title),
+                "role": "search_demand_capture",
+                "post_type": "follow_up_analysis",
+                "priority_score": round(112 - (demand_index * 2) + (float(demand.get("demand_signal_score", 0)) / 1000) + (readiness_score / 30), 2),
+                "search_intent": f"`{primary_query}`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
+                "monetization_goal": "새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
+                "cta_focus": "관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결",
+                "primary_internal_link_target": "site-foundation/hub-global-sector.md" if category == "global-sector" else "site-foundation/hub-crypto.md" if category == "crypto" else "site-foundation/hub-macro.md",
+                "secondary_internal_link_targets": [
+                    "site-foundation/about.md",
+                    "site-foundation/editorial-policy.md",
+                    "site-foundation/disclosure.md",
+                ],
+                "base_revenue_objective": "검색 유입 누적과 신규 독자 확보",
+                "labels": ["투자", "경제", "시장해설", primary_query],
+                "reader_search_queries": reader_query_map.get(keyword, []),
+                "demand_confidence": confidence,
+                "demand_confidence_note": demand.get("confidence_note", ""),
+                "source_names": source_names,
+            }
+        )
+    return items
+
+
 def backlog_items() -> list[dict]:
     queue = load_json(PUBLISH_QUEUE_JSON)
     publishing = load_json(PUBLISHING_JSON)
@@ -158,7 +231,9 @@ def backlog_items() -> list[dict]:
     readiness_score = monetization.get("readiness_score", 0)
 
     items = []
+    existing_source_keywords = set()
     for queue_item in queue.get("items", []):
+        existing_source_keywords.add(queue_item.get("keyword", ""))
         category = queue_item.get("category", "")
         asset = assets.get(queue_item.get("keyword"), {})
         topic = stable_seo_topic(
@@ -186,8 +261,12 @@ def backlog_items() -> list[dict]:
                     "secondary_internal_link_targets": internal_links[:3],
                     "base_revenue_objective": queue_item.get("revenue_objective", ""),
                     "labels": asset.get("labels", []),
+                    "reader_search_queries": [],
+                    "demand_confidence": "existing_publish_queue",
+                    "demand_confidence_note": "기존 메인 발행 큐에서 파생된 SEO 후속 글입니다.",
                 }
             )
+    items.extend(demand_capture_items(existing_source_keywords, readiness_score))
     items.sort(key=lambda item: (-item["priority_score"], item["source_keyword"], item["title"]))
     for idx, item in enumerate(items, start=1):
         item["backlog_sequence"] = idx
