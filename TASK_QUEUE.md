@@ -123,6 +123,8 @@
 | SP-107 | Spark/5.4 | completed | none | Publisher Operator: 방문자 확대를 위해 GitHub Actions Blogger 기본 게시 cap을 실행당 3건으로 올리되 품질 게이트/중복 방지/slug 안정성 보호는 유지 |
 | SP-108 | Spark/5.4 | completed | none | Keyword Strategist/Growth Analyst: Search Console 전 단계에서 뉴스 빈도 fallback과 실제 Google Trends 매칭의 confidence를 분리하고, 사람 검색형 한국어 query를 `daily-200-visitor-action-board`에 연결 |
 | SP-109 | Spark/5.4 | completed | none | Draft Producer/Keyword Strategist: `AI 반도체 주식`, `국제유가 전망`, `미국 빅테크 주식` 검색 수요 캡처 글 3개를 SEO 백로그/초안/발행 재고로 연결하고 품질 게이트 13/13 pass 유지 |
+| SP-110 | Spark/5.4 | completed | none | Publisher Operator: `BLOGGER_ONLY_KEYWORDS` 필터로 `미국 빅테크 주식`, `AI 반도체 주식`, `국제유가 전망` 검색수요 글 3개를 Blogger에 공개 게시하고 URL 200 확인 |
+| SP-111 | Spark/5.4 | pending | none | Growth Analyst: 새로 공개된 6개 SEO URL을 `indexing-priority-pack`/배포 체크리스트에 반영하고 Search Console 연결 후 노출/클릭/CTR 측정 루프를 복구 |
 | HQ-001 | High | pending | none | public repo 공개 범위와 비공개 전환 기준 결정 |
 | HQ-002 | High | pending | none | OpenAI 유료 초안 생성 활성화 시점과 비용 한도 정책 결정 |
 | HQ-003 | High | pending | none | Search Console, GA4, AdSense, 뉴스레터 연결 우선순위 재정렬 |

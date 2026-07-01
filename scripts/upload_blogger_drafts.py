@@ -66,6 +66,13 @@ def env_float(name: str, default: float) -> float:
         return default
 
 
+def env_csv_set(name: str) -> set[str]:
+    raw = os.getenv(name, "").strip()
+    if not raw:
+        return set()
+    return {item.strip() for item in raw.split(",") if item.strip()}
+
+
 def parse_retry_after(value: str) -> float:
     if not value:
         return 0.0
@@ -349,7 +356,19 @@ def _manifest_sort_key(path: Path, sequence_lookup: dict[str, int], stale_orphan
     return (upload_sequence, manifest_date, path.name)
 
 
-def collect_manifest_files() -> list[Path]:
+def manifest_matches_keyword_filter(manifest: dict, keyword_filter: set[str]) -> bool:
+    if not keyword_filter:
+        return True
+    candidates = {
+        manifest.get("keyword", ""),
+        manifest.get("slug", ""),
+        Path(manifest.get("html_path", "")).stem,
+    }
+    return any(candidate in keyword_filter for candidate in candidates if candidate)
+
+
+def collect_manifest_files(keyword_filter: Optional[set[str]] = None) -> list[Path]:
+    keyword_filter = keyword_filter or set()
     sequence_lookup = load_sequence_lookup()
     stale = is_inventory_stale()
     include_orphans = env_flag("BLOGGER_INCLUDE_ORPHAN_MANIFESTS", False)
@@ -366,6 +385,8 @@ def collect_manifest_files() -> list[Path]:
             manifest, ok = _parse_manifest(path)
             if not ok:
                 continue
+            if not manifest_matches_keyword_filter(manifest, keyword_filter):
+                continue
             key = _manifest_inventory_key(manifest, path)
             if key not in seen:
                 selected.append(path)
@@ -376,6 +397,8 @@ def collect_manifest_files() -> list[Path]:
         for path in all_manifests:
             manifest, ok = _parse_manifest(path)
             if not ok:
+                continue
+            if not manifest_matches_keyword_filter(manifest, keyword_filter):
                 continue
             key = _manifest_inventory_key(manifest, path)
             if key in seen:
@@ -552,7 +575,8 @@ def is_due_for_publish(recommended_publish_date: str) -> bool:
 
 def main() -> int:
     load_env_file(ROOT)
-    manifest_files = collect_manifest_files()
+    only_keywords = env_csv_set("BLOGGER_ONLY_KEYWORDS")
+    manifest_files = collect_manifest_files(only_keywords)
     sequence_lookup = load_sequence_lookup()
     quality_statuses = load_quality_gate_statuses()
     freshness_statuses = load_freshness_statuses()
@@ -580,6 +604,7 @@ def main() -> int:
                         "max_posts_per_run": max_posts_per_run,
                         "manifest_candidate_count": len(manifest_files),
                         "review_required": review_required,
+                        "only_keywords": sorted(only_keywords),
                     },
                 },
                 ensure_ascii=False,
@@ -863,6 +888,7 @@ def main() -> int:
                         "max_posts_per_run": max_posts_per_run,
                         "allow_reupload_same_content": allow_reupload_same_content,
                         "review_required": review_required,
+                        "only_keywords": sorted(only_keywords),
                         "approval_file_present": REVIEW_APPROVALS_PATH.exists(),
                         "user_final_confirmation_required": review_required
                         and approvals.get("user_final_confirmation_required", True),
