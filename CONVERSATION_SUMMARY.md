@@ -1,6 +1,6 @@
 # 대화 및 작업 요약 (자동 압축)
 
-생성일: 2026-07-01 18:06:54 KST
+생성일: 2026-07-01 18:12:07 KST
 
 ## 목표
 - 주식/코인/세계경제 투자 블로그 자동화 운영 지속 및 수익화
@@ -27,4 +27,4 @@
 - `python3 scripts/run_pipeline.sh`
 - `python3 scripts/prepare_launch_bundle.py`
 
-- 최근 노트: `traffic amplification manual checklist added`
+- 최근 노트: `raise Blogger quality-gated volume cap to 3`

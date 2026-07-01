@@ -1,8 +1,6 @@
 # Session Memory Log
 
 # ... truncated - recent entries kept
-- [2026-07-01 00:53:39 KST] step-35-27.3/34-Build cross-platform publish pack
- - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:40 KST] step-40-30/34-Build approval dashboard
  - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:40 KST] step-45-30.37/34-Build retention CTA board
@@ -160,4 +158,6 @@
 - [2026-07-01 18:04:18 KST] title experiment board added
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 18:06:54 KST] traffic amplification manual checklist added
+ - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
+- [2026-07-01 18:12:07 KST] raise Blogger quality-gated volume cap to 3
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True

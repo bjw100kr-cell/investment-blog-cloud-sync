@@ -176,7 +176,7 @@
 4. Draft Producer: 초안과 HTML 생성
 5. Quality Gatekeeper: 품질/slug/중복/내부링크 점검
 6. Publish Inventory Agent: inventory와 uploader handoff 계약 확인
-7. Publisher Operator: Blogger 1건 발행 또는 업데이트 검증
+7. Publisher Operator: 품질 통과 글을 Blogger 실행당 최대 3건 발행 또는 업데이트 검증
 8. Growth Analyst: 실제 방문자 증거 확인
 9. Distribution Planner: 공개 URL 배포/내부링크/수익화 동선 보강
 

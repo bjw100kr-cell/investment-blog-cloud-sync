@@ -48,7 +48,7 @@ GOOGLE_REFRESH_TOKEN
 - `BLOGGER_REQUIRE_REVIEW_APPROVAL=false`: 자동 모드면 승인 단계 생략 / local_filled=True
 - `BLOGGER_AUTO_PUBLISH_POSTS=true`: 드래프트 업로드 후 즉시 공개 / local_filled=True
 - `BLOGGER_PUBLISH_ONLY_DUE_POSTS=false`: 발행일 제한 없이 동작 / local_filled=True
-- `BLOGGER_MAX_POSTS_PER_RUN=1`: 정기 실행은 하루 1건씩 처리 / local_filled=True
+- `BLOGGER_MAX_POSTS_PER_RUN=3`: 품질 게이트 통과 글을 실행당 최대 3건 처리 / local_filled=True
 
 ## WordPress Later
 
@@ -69,7 +69,7 @@ BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES=false
 BLOGGER_REQUIRE_REVIEW_APPROVAL=false
 BLOGGER_AUTO_PUBLISH_POSTS=true
 BLOGGER_PUBLISH_ONLY_DUE_POSTS=false
-BLOGGER_MAX_POSTS_PER_RUN=1
+BLOGGER_MAX_POSTS_PER_RUN=3
 ```
 
 ## Next Steps

@@ -398,7 +398,7 @@ python3 scripts/apply_google_oauth_result.py
 ### 3) 안전 모드 업로드 설정
 
 컴퓨터가 꺼져도 매일 스케줄러가 실행되도록 `workflow`는 이미 구성되어 있습니다.
-초기에는 Draft 동기화만 하도록 아래 값으로 두세요.
+초기 점검만 할 때는 Draft 동기화 위주로 아래 값으로 둘 수 있습니다.
 
 - `BLOGGER_AUTO_PUBLISH_POSTS=false`
 - `BLOGGER_PUBLISH_ONLY_DUE_POSTS=true`
@@ -699,8 +699,8 @@ python3 scripts/fetch_search_console_queries.py
 - `BLOGGER_SITE_PAGES_PUBLISH` (Variable, 선택. `true`면 정적 페이지 publish까지 진행)
 - `BLOGGER_INCLUDE_OPTIONAL_SITE_PAGES` (Variable, 선택. 기본은 optional 페이지 skip)
 - `BLOGGER_AUTO_PUBLISH_POSTS` (Variable, 선택. `true`면 draft 업로드 후 실제 공개까지 진행)
-- `BLOGGER_PUBLISH_ONLY_DUE_POSTS` (Variable, 선택. 기본 `true`, 추천 발행일이 지난 글만 공개)
-- `BLOGGER_MAX_POSTS_PER_RUN` (Variable, 선택. 기본 `1`, 한 번 실행당 최대 공개/업데이트 개수 제한)
+- `BLOGGER_PUBLISH_ONLY_DUE_POSTS` (Variable, 선택. 운영 기본 `false`, `true`면 추천 발행일이 지난 글만 공개)
+- `BLOGGER_MAX_POSTS_PER_RUN` (Variable, 선택. 기본 `3`, 한 번 실행당 최대 공개/업데이트 개수 제한)
 
 또는 이미 발급한 액세스 토큰을 잠깐 테스트할 때:
 
@@ -810,16 +810,16 @@ python3 scripts/build_go_live_readiness_report.py
 
 권장 초기값:
 
-- `BLOGGER_AUTO_PUBLISH_POSTS=false`
-- `BLOGGER_PUBLISH_ONLY_DUE_POSTS=true`
-- `BLOGGER_MAX_POSTS_PER_RUN=1`
+- `BLOGGER_AUTO_PUBLISH_POSTS=true`
+- `BLOGGER_PUBLISH_ONLY_DUE_POSTS=false`
+- `BLOGGER_MAX_POSTS_PER_RUN=3`
 
 이 설정이면:
 
 - 같은 글을 스케줄이 돌 때마다 중복 draft로 올리지 않음
 - 이미 올린 동일 콘텐츠는 state 파일 기준으로 skip
-- 하루에 한 번 최대 1개 글만 공개되도록 제한 가능
-- 추천 발행일이 아직 안 된 글은 draft 상태로만 유지 가능
+- 품질 게이트를 통과한 글만 실행당 최대 3개까지 공개되도록 제한 가능
+- Search Console 실측 전에는 3개를 상한으로 두고, 방문자/색인/체류시간 데이터가 쌓이면 조정 가능
 
 ### 5-6. 운영 자동 모드 (확인 자동화)
 

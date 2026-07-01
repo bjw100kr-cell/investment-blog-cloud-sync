@@ -89,8 +89,8 @@
     },
     {
       "key": "BLOGGER_MAX_POSTS_PER_RUN",
-      "recommended_value": "1",
-      "description": "정기 실행은 하루 1건씩 처리",
+      "recommended_value": "3",
+      "description": "품질 게이트 통과 글을 실행당 최대 3건 처리",
       "filled_locally": true
     }
   ],
@@ -139,7 +139,7 @@
     "BLOGGER_REQUIRE_REVIEW_APPROVAL=false",
     "BLOGGER_AUTO_PUBLISH_POSTS=true",
     "BLOGGER_PUBLISH_ONLY_DUE_POSTS=false",
-    "BLOGGER_MAX_POSTS_PER_RUN=1"
+    "BLOGGER_MAX_POSTS_PER_RUN=3"
   ],
   "secrets_copy_keys": [
     "BLOGGER_BLOG_ID",
