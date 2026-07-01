@@ -1,8 +1,6 @@
 # Session Memory Log
 
 # ... truncated - recent entries kept
-- [2026-07-01 00:53:38 KST] step-25-20/30-Build SEO backlog
- - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:38 KST] step-30-24.5/30-Build safe image suggestions
  - published=13 / processed=3 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 00:53:39 KST] step-35-27.3/34-Build cross-platform publish pack
@@ -160,4 +158,6 @@
 - [2026-07-01 17:54:45 KST] sub-agent operating model and auto publish plan aligned
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
 - [2026-07-01 17:58:53 KST] growth measurement setup action clarified
+ - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True
+- [2026-07-01 18:04:18 KST] title experiment board added
  - published=13 / processed=1 / inventory=13 / all_core_checks_passed=True

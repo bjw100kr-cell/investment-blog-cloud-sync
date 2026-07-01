@@ -1,12 +1,10 @@
 {
-  "pipeline_script_count": 85,
+  "pipeline_script_count": 86,
   "workflow_script_count": 87,
   "missing_in_workflow": [],
-  "missing_in_pipeline": [
-    "scripts/cleanup_blogger_posts.py"
-  ],
+  "missing_in_pipeline": [],
   "order_mismatches": [],
-  "all_core_scripts_present": false,
+  "all_core_scripts_present": true,
   "order_aligned": true,
   "pipeline_scripts": [
     "scripts/collect_investment_sources.py",
@@ -43,6 +41,7 @@
     "scripts/render_seo_publish_ready_posts.py",
     "scripts/build_publish_inventory.py",
     "scripts/sync_click_titles_from_html.py",
+    "scripts/build_title_experiment_board.py",
     "scripts/build_distribution_pack.py",
     "scripts/build_pre_publish_quality_gate.py",
     "scripts/build_cross_platform_publish_pack.py",
@@ -96,7 +95,6 @@
     "scripts/upload_wordpress_drafts.py"
   ],
   "workflow_scripts": [
-    "scripts/cleanup_blogger_posts.py",
     "scripts/collect_investment_sources.py",
     "scripts/build_search_demand_report.py",
     "scripts/build_crypto_market_signal.py",
@@ -131,6 +129,7 @@
     "scripts/render_seo_publish_ready_posts.py",
     "scripts/build_publish_inventory.py",
     "scripts/sync_click_titles_from_html.py",
+    "scripts/build_title_experiment_board.py",
     "scripts/build_distribution_pack.py",
     "scripts/build_pre_publish_quality_gate.py",
     "scripts/build_cross_platform_publish_pack.py",

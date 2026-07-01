@@ -47,6 +47,7 @@
 - `blogger-upload-state.json` 기준 `비트코인 핵심 흐름 해설`은 `post_id=6339528652605057661`, `published=true` 상태입니다. 동일 본문이라 현재는 `already_synced_same_content` 판정만 반복됩니다.
 - `2026-07-01`: 자동 발행 모드(`BLOGGER_REQUIRE_REVIEW_APPROVAL=false`)가 `platform-publish-plan`에도 반영되도록 수정했습니다. 이제 `user_final_confirmation_required=false`, `approved_ready_count=12`, Blogger `ready_item_count=12`로 보이며, 실제 업로드는 별도 cap `BLOGGER_MAX_POSTS_PER_RUN=1`로 계속 제한됩니다.
 - `2026-07-01`: Growth Analyst `SP-100` 완료. Search Console 병목은 이제 `no_accessible_search_console_sites`로 명확히 표시됩니다. 사용자가 해야 할 최소 액션은 Search Console에서 `https://gimu-economy-insight.blogspot.com/` URL-prefix 속성 추가/검증 1개이며, `python3 scripts/open_login_setup_pages.py --print-next`가 `https://search.google.com/search-console`을 반환합니다.
+- `2026-07-01`: Keyword Strategist `SP-102` 완료. `scripts/build_title_experiment_board.py`와 `outputs/latest/title-experiment-board.md/json`을 추가해 Search Console 실측 전에도 제목 A/B 후보를 준비합니다. 로컬 파이프라인과 GitHub Actions 모두 `Sync click titles` 직후 이 보드를 생성합니다.
 - 업로드 전 확인용 보드 연결은 계속 유지됨:
   - `outputs/latest/user-review-checkpoint.md`
   - `outputs/latest/user-review-shortlist.md`

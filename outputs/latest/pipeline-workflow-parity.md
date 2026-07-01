@@ -2,9 +2,9 @@
 
 로컬 `run_pipeline.sh`와 GitHub Actions workflow 단계 정합성을 확인하는 리포트입니다.
 
-- pipeline_script_count: `85`
+- pipeline_script_count: `86`
 - workflow_script_count: `87`
-- all_core_scripts_present: `False`
+- all_core_scripts_present: `True`
 - order_aligned: `True`
 
 ## Missing In Workflow
@@ -13,7 +13,7 @@
 
 ## Missing In Pipeline
 
-- `scripts/cleanup_blogger_posts.py`
+- none
 
 ## Order Mismatches
 

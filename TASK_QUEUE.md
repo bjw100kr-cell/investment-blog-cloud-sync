@@ -115,7 +115,7 @@
 | SP-099 | High | completed | none | `AGENT_OPERATING_MODEL.md`를 추가해 서브 에이전트 역할, 파일 소유권, 매일 실행 순서, 충돌 방지 규칙을 정의 |
 | SP-100 | Spark/5.4 | completed | none | Growth Analyst: `search-console-fetch-report`, `visitor-proof-board`, `setup-check-report`를 읽고 Search Console/GA4 연결을 위해 사용자가 해야 할 최소 액션 1개와 재검증 명령을 정리 |
 | SP-101 | Spark/5.4 | pending | SP-100 or fallback data | Growth Analyst: `data/search_console_queries.csv`가 생기면 `search_console_to_feedback.py`, `compile_performance_feedback.py`, `build_visitor_proof_board.py`를 재실행하고 `actual_verified_visitors`, top queries, mapped keywords를 보고 |
-| SP-102 | Spark/5.4 | pending | none | Keyword Strategist: Search Console 실측 전에도 쓸 수 있는 제목 A/B 테스트 후보 10개를 `daily-post-brief`, `keyword-opportunity-board`, `crypto-market-signal` 기준으로 생성 |
+| SP-102 | Spark/5.4 | completed | none | Keyword Strategist: Search Console 실측 전에도 쓸 수 있는 제목 A/B 테스트 후보 10개를 `daily-post-brief`, `keyword-opportunity-board`, `crypto-market-signal` 기준으로 생성 |
 | SP-103 | Spark/5.4 | pending | none | Draft Producer: 현재 공개 메인 글 4개의 정보량 부족 문단을 점검하고, `draft-polish-board` 또는 관련 생성 스크립트에 보강안 반영 |
 | SP-104 | Spark/5.4 | completed | none | Quality Gatekeeper: `build_daily_traffic_goal.py`의 죽은 코드와 운영 리포트의 오래된 승인 문구를 정리하고 품질 게이트 13/13 pass 유지 확인 |
 | SP-105 | Spark/5.4 | pending | none | Distribution Planner: 공개 URL별 외부 배포 문구를 플랫폼별 3종씩 만들고, 수동 배포 체크리스트를 `traffic-amplification-plan`에 보강 |

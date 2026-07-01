@@ -157,6 +157,9 @@ jobs:
       - name: Sync click titles from HTML
         run: python scripts/sync_click_titles_from_html.py
 
+      - name: Build title experiment board
+        run: python scripts/build_title_experiment_board.py
+
       - name: Build distribution pack
         run: python scripts/build_distribution_pack.py
 

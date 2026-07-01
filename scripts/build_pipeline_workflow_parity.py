@@ -23,6 +23,10 @@ WORKFLOW_STEP_RUN = re.compile(r"^\s*run:\s+(?:python|python3)\s+(scripts/\S+\.p
 WORKFLOW_BLOCK_RUN_START = re.compile(r"^(\s*)run:\s*\|\s*$")
 WORKFLOW_BLOCK_RUN_LINE = re.compile(r"^\s*(?:python3)\s+(scripts/\S+\.py)")
 NON_PARITY_PIPELINE_SCRIPTS = {"scripts/emit_context_checkpoint.py", "scripts/persist_session_context.py"}
+NON_PARITY_WORKFLOW_SCRIPTS = {
+    # Manual workflow_dispatch maintenance step, not part of the daily content pipeline.
+    "scripts/cleanup_blogger_posts.py",
+}
 
 
 def _dedupe_consecutive(items: list[str]) -> list[str]:
@@ -79,13 +83,17 @@ def parse_workflow_scripts() -> list[str]:
             else:
                 direct_match = WORKFLOW_BLOCK_RUN_LINE.match(line)
                 if direct_match:
-                    scripts.append(direct_match.group(1))
+                    script = direct_match.group(1)
+                    if script not in NON_PARITY_WORKFLOW_SCRIPTS:
+                        scripts.append(script)
                 continue
 
         if not in_run_block:
             step_run_match = WORKFLOW_STEP_RUN.match(line)
             if step_run_match:
-                scripts.append(step_run_match.group(1))
+                script = step_run_match.group(1)
+                if script not in NON_PARITY_WORKFLOW_SCRIPTS:
+                    scripts.append(script)
                 continue
 
             block_match = WORKFLOW_BLOCK_RUN_START.match(line)
