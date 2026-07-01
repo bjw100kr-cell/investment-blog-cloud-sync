@@ -50,6 +50,93 @@ def popular_lookup(report: dict) -> dict:
     return {item.get("source_keyword"): item for item in report.get("groups", []) if item.get("source_keyword")}
 
 
+def compact_title(title: str) -> str:
+    title = (title or "").strip()
+    if len(title) <= 44:
+        return title
+    for sep in [":", ",", " | "]:
+        if sep in title:
+            head = title.split(sep, 1)[0].strip()
+            if 8 <= len(head) <= 36:
+                return head
+    return title[:44].rstrip()
+
+
+def platform_variants(title: str, url: str, keyword: str, channel: str, followups: list[dict]) -> list[dict]:
+    short = compact_title(title)
+    followup_title = next((item.get("title", "") for item in followups if item.get("title")), "")
+    if not followup_title:
+        followup_title = "관련 체크포인트 글"
+
+    if channel == "x_threads_or_short_social":
+        variants = [
+            {
+                "label": "question_hook",
+                "copy": f"{short}\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\n{url}",
+            },
+            {
+                "label": "checklist_hook",
+                "copy": f"{short}\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: {url}",
+            },
+            {
+                "label": "beginner_hook",
+                "copy": f"시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\n{short}\n{url}",
+            },
+        ]
+    elif channel == "telegram_kakao_or_personal_channel":
+        variants = [
+            {
+                "label": "briefing",
+                "copy": f"[오늘의 시장 메모]\n{title}\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\n{url}",
+            },
+            {
+                "label": "friendly_note",
+                "copy": f"오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\n{short}\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\n{url}",
+            },
+            {
+                "label": "followup_bridge",
+                "copy": f"{short}\n\n읽고 나서 이어서 보면 좋은 흐름: {followup_title}\n먼저 메인 정리부터 확인해보세요.\n\n{url}",
+            },
+        ]
+    else:
+        variants = [
+            {
+                "label": "community_question",
+                "copy": f"{title}\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\n{url}",
+            },
+            {
+                "label": "community_summary",
+                "copy": f"오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: {url}",
+            },
+            {
+                "label": "community_caution",
+                "copy": f"{short}\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\n{url}",
+            },
+        ]
+
+    return variants
+
+
+def build_manual_checklist(public_url: str, share_slots: list[dict]) -> list[dict]:
+    checklist = []
+    for slot in share_slots:
+        if slot.get("blocked_by") or slot.get("channel") in {"blogger_internal", "followup_post"}:
+            continue
+        variants = slot.get("copy_variants", [])
+        checklist.append(
+            {
+                "done": False,
+                "channel": slot.get("channel", ""),
+                "time_window": slot.get("time_window", ""),
+                "copy_variant_to_use": variants[0].get("label", "default") if variants else "default",
+                "url": public_url,
+                "expected_visitors": slot.get("potential_visitors_if_executed", 0),
+                "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다.",
+            }
+        )
+    return checklist
+
+
 def build_share_slots(goal_item: dict, snippets: dict, public_url: str, cluster: dict, popular: dict) -> list[dict]:
     title = goal_item.get("title", "")
     keyword = goal_item.get("keyword", "")
@@ -61,6 +148,9 @@ def build_share_slots(goal_item: dict, snippets: dict, public_url: str, cluster:
     community = snippets.get("community_post") or f"{title}\n\n오늘 시장 흐름을 투자자 관점에서 정리했습니다."
     telegram = snippets.get("telegram_post") or f"{title}\n핵심 체크포인트를 짧게 정리했습니다."
     x_post = snippets.get("x_post") or f"{title}\n\n오늘 시장 핵심만 정리했습니다."
+    followup_text = ", ".join(item.get("title", "") for item in followups[:2] if item.get("title"))
+    if not followup_text:
+        followup_text = f"{keyword} 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결"
 
     slots = [
         {
@@ -76,6 +166,7 @@ def build_share_slots(goal_item: dict, snippets: dict, public_url: str, cluster:
             "potential_visitors_if_executed": 10,
             "task": "짧은 훅과 공개 URL 공유",
             "copy": f"{x_post}\n\n{url_line}",
+            "copy_variants": platform_variants(title, url_line, keyword, "x_threads_or_short_social", followups),
         },
         {
             "time_window": "publish_plus_30m",
@@ -83,6 +174,7 @@ def build_share_slots(goal_item: dict, snippets: dict, public_url: str, cluster:
             "potential_visitors_if_executed": 10,
             "task": "짧은 브리핑형 공유",
             "copy": f"{telegram}\n\n{url_line}",
+            "copy_variants": platform_variants(title, url_line, keyword, "telegram_kakao_or_personal_channel", followups),
         },
         {
             "time_window": "publish_plus_2h",
@@ -90,13 +182,15 @@ def build_share_slots(goal_item: dict, snippets: dict, public_url: str, cluster:
             "potential_visitors_if_executed": 15,
             "task": "투자 커뮤니티에 질문형 요약으로 공유",
             "copy": f"{community}\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\n{url_line}",
+            "copy_variants": platform_variants(title, url_line, keyword, "finance_community", followups),
         },
         {
             "time_window": "publish_plus_24h",
             "channel": "followup_post",
             "potential_visitors_if_executed": 20,
             "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
-            "copy": f"{keyword} 후속 글 후보: {', '.join(item.get('title', '') for item in followups[:2])}",
+            "copy": f"{keyword} 후속 글 후보: {followup_text}",
+            "needs_followup_generation": not bool(followups),
         },
     ]
     if not public_url:
@@ -145,6 +239,7 @@ def build_report() -> dict:
                 "amplification_expected_visitors": expected,
                 "amplification_potential_visitors_if_executed": potential,
                 "manual_execution_required": True,
+                "manual_execution_checklist": build_manual_checklist(public_url, share_slots),
                 "share_slots": share_slots,
             }
         )
@@ -169,6 +264,11 @@ def build_report() -> dict:
             "같은 글을 같은 채널에 반복 도배하지 않습니다.",
             "발행 후 24시간 안에 후속 글 또는 popular reads 내부링크를 최소 2개 붙입니다.",
         ],
+        "manual_execution_summary": {
+            "checklist_item_count": sum(len(plan.get("manual_execution_checklist", [])) for plan in plans),
+            "first_action": "각 공개 URL마다 x_threads_or_short_social 문구 1개부터 공유",
+            "do_not_do": "같은 채널에 같은 글을 반복 도배하지 않기",
+        },
     }
 
 
@@ -201,6 +301,15 @@ def write_markdown(report: dict) -> None:
         lines.append(f"- amplification_potential_if_executed: `{plan.get('amplification_potential_visitors_if_executed', 0)}`")
         lines.append(f"- manual_execution_required: `{plan.get('manual_execution_required', True)}`")
         lines.append("")
+        lines.append("### Manual Execution Checklist")
+        lines.append("")
+        for check in plan.get("manual_execution_checklist", []):
+            lines.append(
+                f"- [ ] `{check.get('channel', '')}` / `{check.get('time_window', '')}` / variant `{check.get('copy_variant_to_use', '')}` / expected `{check.get('expected_visitors', 0)}`"
+            )
+        if not plan.get("manual_execution_checklist"):
+            lines.append("- 실행할 외부 배포 체크리스트가 없습니다.")
+        lines.append("")
         for slot in plan.get("share_slots", []):
             blocked = f" / blocked `{slot.get('blocked_by')}`" if slot.get("blocked_by") else ""
             lines.append(
@@ -213,6 +322,16 @@ def write_markdown(report: dict) -> None:
             lines.append(slot.get("copy", ""))
             lines.append("```")
             lines.append("")
+            if slot.get("copy_variants"):
+                lines.append("#### Copy Variants")
+                lines.append("")
+                for variant in slot.get("copy_variants", []):
+                    lines.append(f"- `{variant.get('label', '')}`")
+                    lines.append("")
+                    lines.append("```text")
+                    lines.append(variant.get("copy", ""))
+                    lines.append("```")
+                    lines.append("")
     OUTPUT_MD.write_text("\n".join(lines).strip() + "\n")
 
 

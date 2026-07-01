@@ -118,7 +118,7 @@
 | SP-102 | Spark/5.4 | completed | none | Keyword Strategist: Search Console 실측 전에도 쓸 수 있는 제목 A/B 테스트 후보 10개를 `daily-post-brief`, `keyword-opportunity-board`, `crypto-market-signal` 기준으로 생성 |
 | SP-103 | Spark/5.4 | pending | none | Draft Producer: 현재 공개 메인 글 4개의 정보량 부족 문단을 점검하고, `draft-polish-board` 또는 관련 생성 스크립트에 보강안 반영 |
 | SP-104 | Spark/5.4 | completed | none | Quality Gatekeeper: `build_daily_traffic_goal.py`의 죽은 코드와 운영 리포트의 오래된 승인 문구를 정리하고 품질 게이트 13/13 pass 유지 확인 |
-| SP-105 | Spark/5.4 | pending | none | Distribution Planner: 공개 URL별 외부 배포 문구를 플랫폼별 3종씩 만들고, 수동 배포 체크리스트를 `traffic-amplification-plan`에 보강 |
+| SP-105 | Spark/5.4 | completed | none | Distribution Planner: 공개 URL별 외부 배포 문구를 플랫폼별 3종씩 만들고, 수동 배포 체크리스트를 `traffic-amplification-plan`에 보강 |
 | SP-106 | Spark/5.4 | pending | none | Publish Inventory Agent: `publish-inventory -> manifest selection -> uploader handoff` 계약을 점검해 slug 충돌, orphan manifest, stale ready file이 0인지 자동 리포트로 확인 |
 | HQ-001 | High | pending | none | public repo 공개 범위와 비공개 전환 기준 결정 |
 | HQ-002 | High | pending | none | OpenAI 유료 초안 생성 활성화 시점과 비용 한도 정책 결정 |

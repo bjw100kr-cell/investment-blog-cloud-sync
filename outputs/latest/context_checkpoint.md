@@ -1,6 +1,6 @@
 # Context Snapshot
 
-생성 시각(UTC): `2026-07-01T09:04:18.376667+00:00`
+생성 시각(UTC): `2026-07-01T09:06:54.072621+00:00`
 
 - 목표: 주식/코인/세계경제 투자 블로그 자동화 운영 지속 및 수익화
 
@@ -11,7 +11,7 @@
 - all_core_checks_passed: `True`
 
 ## 이번 체크포인트 노트
-- title experiment board added
+- traffic amplification manual checklist added
 
 ## 최근 병목 요약
 - 최근 병목이 기록되지 않았습니다.
