@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+  "summary_angle": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -111,15 +111,14 @@
     "CNBC Top News",
     "CoinDesk RSS",
     "Cointelegraph",
-    "Investing.com Crypto News",
-    "NYT Business"
+    "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "XRP, HYPE funds are the bright spots as investors flee bitcoin, ether ETFs",
-    "Bitcoin options traders load up on $50,000 puts and gold futures flash a death cross",
-    "Bitcoin’s 20% June crash looks even deadlier on the charts. Here’s why",
-    "Live markets: U.S. spot bitcoin ETFs had their worst month ever in June, shedding $4.5 billion",
-    "Why Poland is the only EU country where crypto firms can't get a MiCA license"
+    "Robinhood rolls out public blockchain as it expands deeper into crypto",
+    "Cantor says bitcoin bear market may be entering final stretch",
+    "Goliath Ventures CEO pleads guilty in $400 million crypto Ponzi case",
+    "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down",
+    "Europe's MiCA rollout sparks debate over who wins under new crypto rules"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -183,8 +182,8 @@
   },
   "score_breakdown": {
     "total_score": 89.0,
-    "search_score": 30,
-    "timeliness_score": 21,
+    "search_score": 29,
+    "timeliness_score": 20,
     "explanatory_score": 17,
     "monetization_score": 15,
     "risk_score": 3

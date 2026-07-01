@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-07-01T11:42:54.083406+00:00",
-  "snapshot_generated_at": "2026-07-01T11:42:49.001049+00:00",
+  "generated_at": "2026-07-01T19:15:09.931589+00:00",
+  "snapshot_generated_at": "2026-07-01T19:15:04.907895+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 3,
+    "fresh": 2,
     "aging": 0,
-    "stale": 0,
+    "stale": 1,
     "unknown": 0
   },
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-07-01",
+      "freshness_status": "stale",
+      "newest_evidence_iso": "2026-06-17T18:00:00+00:00",
+      "oldest_evidence_iso": "2026-03-18T18:00:00+00:00",
+      "newest_evidence_age_days": 14.1,
+      "source_count": 5,
+      "demand_signal_score": 4300,
+      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "recovery_mode": "full_refresh_needed",
+      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
+          "published_iso": "2026-04-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -18,38 +62,38 @@
       "ready_now": true,
       "publish_date": "2026-07-02",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-01T11:15:00+00:00",
-      "oldest_evidence_iso": "2026-07-01T07:05:11+00:00",
+      "newest_evidence_iso": "2026-07-01T18:59:27+00:00",
+      "oldest_evidence_iso": "2026-07-01T14:36:00+00:00",
       "newest_evidence_age_days": 0.0,
-      "source_count": 5,
-      "demand_signal_score": 7600,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: XRP, HYPE funds are the bright spots as investors flee bitcoin, ether ETFs",
+      "source_count": 4,
+      "demand_signal_score": 6500,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin bear market ‘dead’ after first TD9 reversal signal since July 2022 fires",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "XRP, HYPE funds are the bright spots as investors flee bitcoin, ether ETFs",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 01 Jul 2026 11:15:00 +0000",
-          "published_iso": "2026-07-01T11:15:00+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/07/01/xrp-hype-funds-are-the-bright-spots-as-investors-flee-bitcoin-ether-etfs",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin options traders load up on $50,000 puts and gold futures flash a death cross",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 01 Jul 2026 10:47:34 +0000",
-          "published_iso": "2026-07-01T10:47:34+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/01/bitcoin-options-traders-load-up-on-usd50-000-puts-and-gold-futures-flash-a-death-cross",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin ETFs lose record $4.5B in June, eclipsing Strategy's $1.25B raise",
+          "title": "Bitcoin bear market ‘dead’ after first TD9 reversal signal since July 2022 fires",
           "source_name": "Cointelegraph",
-          "published": "Wed, 01 Jul 2026 09:22:09 +0000",
-          "published_iso": "2026-07-01T09:22:09+00:00",
-          "link": "https://cointelegraph.com/news/bitcoin-etf-4-5-billion-outflow-june-worst-on-record?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Wed, 01 Jul 2026 18:59:27 +0000",
+          "published_iso": "2026-07-01T18:59:27+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-tests-claims-price-is-dead-with-first-td9-reversal-signal-since-july-2022?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin's summer swoon creates unique trade in Strategy",
+          "source_name": "CNBC Top News",
+          "published": "Wed, 01 Jul 2026 17:10:22 GMT",
+          "published_iso": "2026-07-01T17:10:22+00:00",
+          "link": "https://www.cnbc.com/2026/07/01/bitcoins-summer-swoon-creates-unique-trade-in-strategy.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin price returns to $60K as US dollar strength rejects weekly high",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 01 Jul 2026 16:47:01 +0000",
+          "published_iso": "2026-07-01T16:47:01+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-returns-to-60k-as-us-dollar-strength-rejects-from-weekly-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ]
@@ -61,81 +105,30 @@
       "ready_now": true,
       "publish_date": "2026-07-03",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-01T11:08:00+00:00",
-      "oldest_evidence_iso": "2026-07-01T06:14:32+00:00",
+      "newest_evidence_iso": "2026-07-01T18:54:44+00:00",
+      "oldest_evidence_iso": "2026-07-01T14:50:39+00:00",
       "newest_evidence_age_days": 0.0,
-      "source_count": 7,
-      "demand_signal_score": 3400,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Why it’s too early to call a top on semiconductor stocks, according to these highly regarded analysts",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "Why it’s too early to call a top on semiconductor stocks, according to these highly regarded analysts",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Wed, 01 Jul 2026 11:08:00 GMT",
-          "published_iso": "2026-07-01T11:08:00+00:00",
-          "link": "https://www.marketwatch.com/story/why-its-too-early-to-call-a-top-on-semiconductor-stocks-according-to-these-highly-regarded-analysts-bb1139d4?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "Anthropic says Trump admin has lifted export controls on Claude Fable 5 and Mythos 5",
-          "source_name": "CNBC Top News",
-          "published": "Wed, 01 Jul 2026 10:19:57 GMT",
-          "published_iso": "2026-07-01T10:19:57+00:00",
-          "link": "https://www.cnbc.com/2026/06/30/anthropic-says-trump-admin-has-lifted-export-controls-on-claude-fable-5-and-mythos-5.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Anthropic gets all-clear to let foreigners use latest model ahead of crucial IPO",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Wed, 01 Jul 2026 09:44:00 GMT",
-          "published_iso": "2026-07-01T09:44:00+00:00",
-          "link": "https://www.marketwatch.com/story/anthropic-gets-all-clear-to-let-foreigners-use-latest-model-ahead-of-crucial-ipo-a1ddc94a?mod=mw_rss_topstories",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-07-04",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-01T11:00:06+00:00",
-      "oldest_evidence_iso": "2026-06-30T22:07:27+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 4,
+      "source_count": 2,
       "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: 1. The Grand Design to Pressure China",
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Trump Accounts to Receive $250 Million Donation From Chip Maker Micron",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "1. The Grand Design to Pressure China",
-          "source_name": "무역킹 Trade King YouTube",
-          "published": "90K views",
-          "published_iso": "90K views",
-          "link": "https://www.youtube.com/watch?v=Vdc0wK_9ASQ",
-          "source_type": "youtube_channel"
-        },
-        {
-          "title": "How China’s green tech could boost its global finance ambitions",
-          "source_name": "Financial Times World",
-          "published": "Wed, 01 Jul 2026 11:00:06 GMT",
-          "published_iso": "2026-07-01T11:00:06+00:00",
-          "link": "https://www.ft.com/content/89813dec-8b83-40cf-aec4-fb2b3134ca5e",
+          "title": "Trump Accounts to Receive $250 Million Donation From Chip Maker Micron",
+          "source_name": "NYT Business",
+          "published": "Wed, 01 Jul 2026 18:54:44 +0000",
+          "published_iso": "2026-07-01T18:54:44+00:00",
+          "link": "https://www.nytimes.com/2026/07/01/business/economy/micron-250-million-dollars-trump-accounts.html",
           "source_type": "rss"
         },
         {
-          "title": "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
-          "source_name": "CNBC Top News",
-          "published": "Tue, 30 Jun 2026 22:07:27 GMT",
-          "published_iso": "2026-06-30T22:07:27+00:00",
-          "link": "https://www.cnbc.com/2026/06/30/nike-nke-q4-2026-earnings.html",
+          "title": "Anthropic Won a Reprieve From the Trump Administration. Is It Enough?",
+          "source_name": "NYT Business",
+          "published": "Wed, 01 Jul 2026 14:50:39 +0000",
+          "published_iso": "2026-07-01T14:50:39+00:00",
+          "link": "https://www.nytimes.com/2026/07/01/business/dealbook/anthropic-fable-mythos-trump.html",
           "source_type": "rss"
         }
       ]

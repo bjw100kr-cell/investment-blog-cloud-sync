@@ -1,6 +1,6 @@
 # 퍼블리싱 자산
 
-- 생성 시각: `2026-07-01T11:42:49.001049+00:00`
+- 생성 시각: `2026-07-01T19:15:04.907895+00:00`
 
 ## 1. fomc
 
@@ -45,7 +45,7 @@
 - labels: 투자, 경제, 시장해설, AI, 반도체, 섹터분석, 미국증시
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 - 이미지 추천: 대표 이미지(Unsplash / semiconductor chip blue abstract), 본문 보조 이미지(Pexels / ai server data center abstract)
-- 후속 글 후보: AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지
+- 후속 글 후보: AI 반도체 주식 관련 대표 종목 한눈에 보기, AI 반도체 주식 공급망 정리: 누가 수혜를 보나, AI 반도체 주식 ETF·지수·대표 기업 정리
 - 광고 슬롯: after_intro, mid_article, before_related_links
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.

@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-01T11:42:49.001049+00:00`
+- 생성 시각: `2026-07-01T19:15:04.907895+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,52 +106,53 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 64, source_count 5, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
-- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 22, source_count 7, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
-- `oil`: score 14, source_count 3, sources CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
-- `china`: score 14, source_count 4, sources CNBC Top News, Financial Times World, NYT Business, 무역킹 Trade King YouTube
-- `crypto_etf`: score 13, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `ethereum`: score 10, source_count 1, sources Google Trends KR
-- `us_index_flow`: score 8, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `treasury_yields`: score 6, source_count 1, sources Reuters Markets via Google News RSS
-- `cpi`: score 6, source_count 1, sources Financial Times World
+- `bitcoin`: score 53, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 31, source_count 5, sources CoinDesk RSS, Federal Reserve Monetary Policy Press, Financial Times Home, MarketWatch Breaking News, NYT Business
+- `ethereum`: score 14, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `cpi`: score 12, source_count 3, sources CoinDesk RSS, NYT Business, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 9, source_count 2, sources CNBC Top News, NYT Business
+- `us_index_flow`: score 8, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `china`: score 8, source_count 3, sources Financial Times World, NYT Business, 무역킹 Trade King YouTube
+- `dollar`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
+- `oil`: score 5, source_count 2, sources Financial Times YouTube, Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 64, headlines 20
-  - XRP, HYPE funds are the bright spots as investors flee bitcoin, ether ETFs
-  - Bitcoin options traders load up on $50,000 puts and gold futures flash a death cross
-  - Bitcoin’s 20% June crash looks even deadlier on the charts. Here’s why
-- `fomc`: score 23, headlines 5
+- `bitcoin`: score 53, headlines 16
+  - Robinhood rolls out public blockchain as it expands deeper into crypto
+  - Cantor says bitcoin bear market may be entering final stretch
+  - Goliath Ventures CEO pleads guilty in $400 million crypto Ponzi case
+- `fomc`: score 31, headlines 8
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `ai_semiconductors`: score 22, headlines 8
-  - Anthropic restores AI models Fable, Mythos after the U.S. lifts export controls
-  - Anthropic to bring back Fable 5 as US lifts export controls
-  - Anthropic says Trump admin has lifted export controls on Claude Fable 5 and Mythos 5
-- `china`: score 14, headlines 5
-  - Bulls are betting big on this global ETF that's deep in a bear market
-  - Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund
+- `ethereum`: score 14, headlines 4
+  - Ethereum Foundation lays out use cases for governments, institutions in new policy guide
+  - EthLabs launches as Ethereum undergoes its biggest leadership transition in years
+  - Ethereum backers launch nonprofit to lead institutional adoption efforts
+- `cpi`: score 12, headlines 4
+  - Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down
+  - S&P 500, Dow rise after Warsh says inflation risks have eased - Reuters
+  - Stocks edge up as Warsh says inflation expectations fall; oil slips - Reuters
+- `ai_semiconductors`: score 9, headlines 4
+  - Trump says outside funds 'run my money' after disclosure shows billions in 2025 revenue
+  - Trump Accounts to Receive $250 Million Donation From Chip Maker Micron
+  - Anthropic Won a Reprieve From the Trump Administration. Is It Enough?
+- `china`: score 8, headlines 3
   - 1. The Grand Design to Pressure China
-- `oil`: score 14, headlines 5
-  - Oil prices wobble as breakdown in U.S.-Iran talks casts doubt over peace process
-  - Iran says it is selling oil at 20% premium as end of U.S. blockade sees 40 million barrels exported
-  - Oil falls over 1% as markets await outcome of Iran-US talks, US stocks data - Reuters
-- `crypto_etf`: score 13, headlines 4
-  - XRP holds above $1 after leverage flush as network activity improves
-  - Crypto enters Q3 with thinner liquidity but less leverage after Q2 reset: Talos
-  - Bulls are betting big on this global ETF that's deep in a bear market
-- `ethereum`: score 10, headlines 1
-  - 이더리움
+  - World Bank to phase out China lending
+  - The South Korean Mine at the Center of America’s Tungsten Push
 - `us_index_flow`: score 8, headlines 3
-  - Bulls are betting big on this global ETF that's deep in a bear market
-  - Oil falls over 1% as markets await outcome of Iran-US talks, US stocks data - Reuters
-  - Is the stock market open on Friday, or will it close early for the Fourth of July?
-- `cpi`: score 6, headlines 2
-  - Eurozone inflation falls more than expected to 2.8% in June
-  - June inflation in the Eurozone is good news for the ECB
-- `treasury_yields`: score 6, headlines 2
-  - Yen wallows at 40-year low as dollar rally gets yield boost - Reuters
-  - Gold falls as higher Treasury yields, Fed rate hike bets weigh - Reuters
+  - S&P 500, Dow rise after Warsh says inflation risks have eased - Reuters
+  - Trump on financial disclosures: Everyone's profiting because stock market is up - Reuters
+  - 5 charts showing how ‘dumb money’ is transforming the stock market, as retail traders smash Wall Street records
+- `dollar`: score 7, headlines 2
+  - Jefferies warns against buying the dip in Circle as Open USD raises new competition fears
+  - Bitcoin price returns to $60K as US dollar strength rejects weekly high
+- `oil`: score 5, headlines 2
+  - Stocks edge up as Warsh says inflation expectations fall; oil slips - Reuters
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+- `us_big_tech`: score 5, headlines 2
+  - Trump says outside funds 'run my money' after disclosure shows billions in 2025 revenue
+  - CoreWeave, Nebius shares tumble as Meta stands to become a fresh threat in the cloud

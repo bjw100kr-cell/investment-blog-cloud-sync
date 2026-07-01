@@ -2,16 +2,11 @@
   "items": [
     {
       "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
-      "uploaded": true,
-      "post_id": "4952996052657679295",
-      "url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc.html",
-      "post_url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc.html",
+      "uploaded": false,
+      "reason": "source_freshness_stale",
+      "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "upload_sequence": 1,
-      "action": "published",
-      "published": true,
-      "slug": "fomc-이후-시장-해설",
-      "keyword": "fomc"
+      "upload_sequence": 1
     },
     {
       "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
@@ -48,52 +43,72 @@
       "keyword": "china"
     },
     {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-ai-반도체-주식-관련-대표-종목-한눈에-보기.html",
-      "uploaded": false,
-      "reason": "BLOGGER_MAX_POSTS_PER_RUN reached",
-      "upload_sequence": 5
-    },
-    {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-ai-반도체-주식-공급망-정리-누가-수혜를-보나.html",
-      "uploaded": false,
-      "reason": "BLOGGER_MAX_POSTS_PER_RUN reached",
-      "upload_sequence": 6
-    },
-    {
       "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-ethereum-지금-투자자가-확인할-체크포인트-5가지.html",
       "uploaded": false,
       "reason": "pre_publish_quality_gate_needs_fix",
-      "keyword": "seo_ethereum_9",
+      "keyword": "seo_ethereum_7",
       "title": "ethereum: 지금 투자자가 확인할 체크포인트 5가지",
+      "upload_sequence": 5
+    },
+    {
+      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-cpi-지금-투자자가-확인할-체크포인트-5가지.html",
+      "uploaded": false,
+      "reason": "pre_publish_quality_gate_review",
+      "keyword": "seo_cpi_8",
+      "title": "cpi: 지금 투자자가 확인할 체크포인트 5가지",
+      "upload_sequence": 6
+    },
+    {
+      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-ai-반도체-주식-관련-대표-종목-한눈에-보기.html",
+      "uploaded": false,
+      "reason": "upload_error::RuntimeError: 403 Client Error: Forbidden for url: https://www.googleapis.com/blogger/v3/blogs/6916836934814427288/posts/?isDraft=true :: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"errors\": [\n      {\n        \"message\": \"The caller does not have permission\",\n        \"domain\": \"global\",\n        \"reason\": \"forbidden\"\n      }\n    ],\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n",
+      "keyword": "seo_ai_semiconductors_9",
+      "title": "AI 반도체 주식 관련 대표 종목 한눈에 보기",
       "upload_sequence": 7
     },
     {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-ai-반도체-주식-etf-지수-대표-기업-정리.html",
+      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-ai-반도체-주식-공급망-정리-누가-수혜를-보나.html",
       "uploaded": false,
-      "reason": "BLOGGER_MAX_POSTS_PER_RUN reached",
+      "reason": "upload_error::RuntimeError: 403 Client Error: Forbidden for url: https://www.googleapis.com/blogger/v3/blogs/6916836934814427288/posts/?isDraft=true :: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"errors\": [\n      {\n        \"message\": \"The caller does not have permission\",\n        \"domain\": \"global\",\n        \"reason\": \"forbidden\"\n      }\n    ],\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n",
+      "keyword": "seo_ai_semiconductors_10",
+      "title": "AI 반도체 주식 공급망 정리: 누가 수혜를 보나",
       "upload_sequence": 8
     },
     {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html",
+      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html",
       "uploaded": false,
-      "reason": "BLOGGER_MAX_POSTS_PER_RUN reached",
+      "reason": "upload_error::RuntimeError: 403 Client Error: Forbidden for url: https://www.googleapis.com/blogger/v3/blogs/6916836934814427288/posts/?isDraft=true :: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"errors\": [\n      {\n        \"message\": \"The caller does not have permission\",\n        \"domain\": \"global\",\n        \"reason\": \"forbidden\"\n      }\n    ],\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n",
+      "keyword": "seo_china_11",
+      "title": "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
       "upload_sequence": 9
     },
     {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html",
+      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-ai-반도체-주식-etf-지수-대표-기업-정리.html",
       "uploaded": false,
-      "reason": "BLOGGER_MAX_POSTS_PER_RUN reached",
+      "reason": "upload_error::RuntimeError: 403 Client Error: Forbidden for url: https://www.googleapis.com/blogger/v3/blogs/6916836934814427288/posts/?isDraft=true :: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"errors\": [\n      {\n        \"message\": \"The caller does not have permission\",\n        \"domain\": \"global\",\n        \"reason\": \"forbidden\"\n      }\n    ],\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n",
+      "keyword": "seo_ai_semiconductors_12",
+      "title": "AI 반도체 주식 ETF·지수·대표 기업 정리",
       "upload_sequence": 10
     },
     {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/07-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html",
+      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/07-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html",
       "uploaded": false,
-      "reason": "BLOGGER_MAX_POSTS_PER_RUN reached",
+      "reason": "upload_error::RuntimeError: 403 Client Error: Forbidden for url: https://www.googleapis.com/blogger/v3/blogs/6916836934814427288/posts/?isDraft=true :: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"errors\": [\n      {\n        \"message\": \"The caller does not have permission\",\n        \"domain\": \"global\",\n        \"reason\": \"forbidden\"\n      }\n    ],\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n",
+      "keyword": "seo_china_13",
+      "title": "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나",
       "upload_sequence": 11
+    },
+    {
+      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/08-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html",
+      "uploaded": false,
+      "reason": "upload_error::RuntimeError: 403 Client Error: Forbidden for url: https://www.googleapis.com/blogger/v3/blogs/6916836934814427288/posts/?isDraft=true :: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"errors\": [\n      {\n        \"message\": \"The caller does not have permission\",\n        \"domain\": \"global\",\n        \"reason\": \"forbidden\"\n      }\n    ],\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n",
+      "keyword": "seo_china_14",
+      "title": "중국 변수와 시장 영향 ETF·지수·대표 기업 정리",
+      "upload_sequence": 12
     }
   ],
   "summary": {
-    "processed_count": 3,
+    "processed_count": 2,
     "auto_publish": true,
     "publish_due_only": false,
     "max_posts_per_run": 3,
@@ -111,7 +126,8 @@
       "bitcoin"
     ],
     "quality_gate_blocked": [
-      "pre_publish_quality_gate_needs_fix"
+      "pre_publish_quality_gate_needs_fix",
+      "pre_publish_quality_gate_review"
     ]
   }
 }

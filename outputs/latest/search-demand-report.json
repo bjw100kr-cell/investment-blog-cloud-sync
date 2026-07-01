@@ -1,28 +1,12 @@
 {
-  "generated_at": "2026-07-01T11:42:49.001049+00:00",
+  "generated_at": "2026-07-01T19:15:04.907895+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "ethereum",
-      "trend_count": 1,
-      "traffic_score_sum": 500,
-      "max_approx_traffic": 500,
-      "trend_queries": [
-        "이더리움"
-      ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 700,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -30,23 +14,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 7600,
+      "demand_signal_score": 6500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 64,
-      "source_count": 5,
+      "source_snapshot_score": 53,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "NYT Business"
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "XRP, HYPE funds are the bright spots as investors flee bitcoin, ether ETFs",
-        "Bitcoin options traders load up on $50,000 puts and gold futures flash a death cross",
-        "Bitcoin’s 20% June crash looks even deadlier on the charts. Here’s why"
+        "Robinhood rolls out public blockchain as it expands deeper into crypto",
+        "Cantor says bitcoin bear market may be entering final stretch",
+        "Goliath Ventures CEO pleads guilty in $400 million crypto Ponzi case"
       ]
     },
     {
@@ -56,50 +39,27 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3500,
+      "demand_signal_score": 4300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
-      "source_count": 2,
+      "source_snapshot_score": 31,
+      "source_count": 5,
       "source_names": [
+        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
+        "Financial Times Home",
+        "MarketWatch Breaking News",
+        "NYT Business"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Gold falls as higher Treasury yields, Fed rate hike bets weigh - Reuters"
+        "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down"
       ]
     },
     {
-      "keyword": "ai_semiconductors",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3400,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 22,
-      "source_count": 7,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Financial Times Home",
-        "Financial Times World"
-      ],
-      "sample_titles": [
-        "Anthropic restores AI models Fable, Mythos after the U.S. lifts export controls",
-        "Anthropic to bring back Fable 5 as US lifts export controls",
-        "Anthropic says Trump admin has lifted export controls on Claude Fable 5 and Mythos 5"
-      ]
-    },
-    {
-      "keyword": "oil",
+      "keyword": "ethereum",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -110,16 +70,39 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 14,
+      "source_count": 2,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph"
+      ],
+      "sample_titles": [
+        "Ethereum Foundation lays out use cases for governments, institutions in new policy guide",
+        "EthLabs launches as Ethereum undergoes its biggest leadership transition in years",
+        "Ethereum backers launch nonprofit to lead institutional adoption efforts"
+      ]
+    },
+    {
+      "keyword": "cpi",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2400,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 12,
       "source_count": 3,
       "source_names": [
-        "CNBC Top News",
-        "Financial Times YouTube",
+        "CoinDesk RSS",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Oil prices wobble as breakdown in U.S.-Iran talks casts doubt over peace process",
-        "Iran says it is selling oil at 20% premium as end of U.S. blockade sees 40 million barrels exported",
-        "Oil falls over 1% as markets await outcome of Iran-US talks, US stocks data - Reuters"
+        "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down",
+        "S&P 500, Dow rise after Warsh says inflation risks have eased - Reuters",
+        "Stocks edge up as Warsh says inflation expectations fall; oil slips - Reuters"
       ]
     }
   ],

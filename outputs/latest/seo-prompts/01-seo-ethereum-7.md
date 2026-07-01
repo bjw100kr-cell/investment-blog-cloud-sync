@@ -85,14 +85,14 @@
 
 ```json
 {
-  "keyword": "seo_ai_semiconductors_10",
-  "source_keyword": "ai_semiconductors",
-  "recommended_title": "AI 반도체 주식 공급망 정리: 누가 수혜를 보나",
+  "keyword": "seo_ethereum_7",
+  "source_keyword": "ethereum",
+  "recommended_title": "ethereum: 지금 투자자가 확인할 체크포인트 5가지",
   "alternate_titles": [
-    "AI 반도체 주식 공급망 정리: 누가 수혜를 보나: 초보 투자자 기준으로 다시 보기",
-    "AI 반도체 주식 공급망 정리: 누가 수혜를 보나: 지금 읽어야 하는 이유"
+    "ethereum: 지금 투자자가 확인할 체크포인트 5가지: 초보 투자자 기준으로 다시 보기",
+    "ethereum: 지금 투자자가 확인할 체크포인트 5가지: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지에서 이어지는 후속 글로, 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
+  "summary_angle": "ethereum에서 이어지는 후속 글로, `ethereum`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
   "outline": [
     "이전 메인 글에서 이어지는 핵심 질문",
     "이번에 추가로 확인된 내용",
@@ -101,27 +101,27 @@
     "다음 후속 글 연결"
   ],
   "reference_takeaways": [
-    "메인 연결 글: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-    "검색 의도: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
-    "수익화 목표: 체류시간과 페이지뷰 확대",
-    "검색어 후보: AI 반도체 주식 공급망 정리: 누가 수혜를 보나",
-    "수요 신뢰도: existing_publish_queue - 기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
+    "메인 연결 글: ethereum",
+    "검색 의도: `ethereum`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
+    "수익화 목표: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
+    "검색어 후보: ethereum: 지금 투자자가 확인할 체크포인트 5가지",
+    "수요 신뢰도: medium_low - Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다."
   ],
   "fact_checks": [
-    "대표 기업명과 티커 재확인",
-    "실적/가이던스/공급망 숫자 출처 점검",
-    "섹터 전체 일반화 표현 과장 여부 점검"
+    "가격 기준 시각과 출처 재확인",
+    "ETF/규제 관련 문장을 최신 상태 기준으로 점검",
+    "전망 문장이 단정형이 아닌지 확인"
   ],
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
-  "cta": "대표 종목, 실적 일정, 공급망 글까지 이어서 보면 섹터 흐름이 더 잘 보입니다.",
+  "cta": "기초 가이드와 ETF·규제 해설 글까지 이어서 보면 코인 흐름이 더 쉽게 정리됩니다.",
   "source_names": [
-    "CNBC Top News",
-    "NYT Business"
+    "CoinDesk RSS",
+    "Cointelegraph"
   ],
   "reference_headlines": [
-    "AI 반도체 주식 공급망 정리: 누가 수혜를 보나"
+    "ethereum: 지금 투자자가 확인할 체크포인트 5가지"
   ],
-  "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
+  "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
     "도입부 첫 3문장 안에 독자 관점 문장 1개를 넣는다.",
     "본문 어딘가에 '왜 이게 중요한지'를 말로 풀어주는 문장을 넣는다.",
@@ -172,28 +172,28 @@
     "minimum_interpretation_hits": 2
   },
   "must_include_style_points": [
-    "대표 기업 사례 1개 이상",
-    "섹터 흐름과 거시 변수 연결",
-    "독자가 다음에 체크할 일정 또는 변수"
+    "가격 자체보다 수급 또는 규제 구조 설명",
+    "강세 시나리오와 리스크를 둘 다 언급",
+    "단정적 전망 금지"
   ],
   "voice_examples": {
-    "intro_example": "반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.",
-    "analysis_example": "이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.",
-    "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
+    "intro_example": "비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.",
+    "analysis_example": "한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다.",
+    "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 89.5,
-    "search_score": 89.5,
+    "total_score": 110.27,
+    "search_score": 110.27,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html",
+    "primary": "site-foundation/hub-crypto.md",
     "secondary": [
-      "site-foundation/hub-global-sector.md",
       "site-foundation/about.md",
+      "site-foundation/editorial-policy.md",
       "site-foundation/disclosure.md"
     ]
   },
@@ -201,15 +201,12 @@
     "투자",
     "경제",
     "시장해설",
-    "AI",
-    "반도체",
-    "섹터분석",
-    "미국증시"
+    "ethereum"
   ],
-  "search_intent": "테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
-  "monetization_goal": "체류시간과 페이지뷰 확대",
+  "search_intent": "`ethereum`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
+  "monetization_goal": "새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
   "reader_search_queries": [],
-  "demand_confidence": "existing_publish_queue",
-  "demand_confidence_note": "기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
+  "demand_confidence": "medium_low",
+  "demand_confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다."
 }
 ```

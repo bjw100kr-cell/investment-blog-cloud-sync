@@ -124,10 +124,46 @@
     <section class="hero">
       <h1>Shortlist Launchpad</h1>
       <p class="muted">처음엔 이 화면 하나만 보면 됩니다. shortlist 글 2개 기준으로 왜 지금 올리는지, 무엇이 막고 있는지, 바로 쓸 명령이 무엇인지 모아 둔 시작 화면입니다.</p>
-      <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin</code>
-      <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin</code>
+      <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc</code>
+      <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin</code>
     </section>
     
+    <section class="card">
+      <div class="top">
+        <div class="pill-row">
+          <span class="pill">fomc</span>
+          <span class="pill alt">approve</span>
+          <span class="pill">pass</span>
+        </div>
+        <h2>FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지</h2>
+        <p><strong>Publish</strong> 2026-07-01 / <strong>Ready</strong> True</p>
+        <p><strong>Hero image</strong> True / <strong>Hard blocker</strong> none</p>
+        <p><strong>Why now</strong> 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음</p>
+        <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
+        <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html' target='_blank' rel='noreferrer'>HTML Preview</a></p>
+      </div>
+      <div class="grid">
+        <div class="panel">
+          <h3>Quick Evidence</h3>
+          <ul><li><strong>Federal Reserve Monetary Policy Press</strong> <span class='tiny'>2026-06-17T18:00:00+00:00</span><br>Federal Reserve issues FOMC statement</li><li><strong>Federal Reserve Monetary Policy Press</strong> <span class='tiny'>2026-06-17T18:00:00+00:00</span><br>Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting</li><li><strong>Federal Reserve Monetary Policy Press</strong> <span class='tiny'>2026-04-29T18:00:00+00:00</span><br>Federal Reserve issues FOMC statement</li></ul>
+        </div>
+        <div class="panel">
+          <h3>Sample Headlines</h3>
+          <ul><li>Federal Reserve issues FOMC statement</li><li>Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting</li><li>Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down</li></ul>
+        </div>
+      </div>
+      <div class="panel">
+        <h3>Do This Next</h3>
+        <p>사용자 최종 확인 후 Blogger draft 업로드</p>
+        <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword fomc</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply</code>
+      </div>
+      <div class="panel">
+        <h3>Followup Chain</h3>
+        <ul><li><code>python3 scripts/build_platform_publish_plan.py</code></li><li><code>python3 scripts/upload_blogger_drafts.py</code></li><li><code>python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state</code></li></ul>
+      </div>
+    </section>
+    
+
     <section class="card">
       <div class="top">
         <div class="pill-row">
@@ -138,18 +174,18 @@
         <h2>비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트</h2>
         <p><strong>Publish</strong> 2026-07-02 / <strong>Ready</strong> True</p>
         <p><strong>Hero image</strong> True / <strong>Hard blocker</strong> none</p>
-        <p><strong>Why now</strong> 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)</p>
+        <p><strong>Why now</strong> 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)</p>
         <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
         <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%95%B5%EC%8B%AC-%ED%9D%90%EB%A6%84-%ED%95%B4%EC%84%A4.html' target='_blank' rel='noreferrer'>HTML Preview</a></p>
       </div>
       <div class="grid">
         <div class="panel">
           <h3>Quick Evidence</h3>
-          <ul><li><strong>CoinDesk RSS</strong> <span class='tiny'>2026-07-01T11:15:00+00:00</span><br>XRP, HYPE funds are the bright spots as investors flee bitcoin, ether ETFs</li><li><strong>CoinDesk RSS</strong> <span class='tiny'>2026-07-01T10:47:34+00:00</span><br>Bitcoin options traders load up on $50,000 puts and gold futures flash a death cross</li><li><strong>Cointelegraph</strong> <span class='tiny'>2026-07-01T09:22:09+00:00</span><br>Bitcoin ETFs lose record $4.5B in June, eclipsing Strategy&#x27;s $1.25B raise</li></ul>
+          <ul><li><strong>Cointelegraph</strong> <span class='tiny'>2026-07-01T18:59:27+00:00</span><br>Bitcoin bear market ‘dead’ after first TD9 reversal signal since July 2022 fires</li><li><strong>CNBC Top News</strong> <span class='tiny'>2026-07-01T17:10:22+00:00</span><br>Bitcoin&#x27;s summer swoon creates unique trade in Strategy</li><li><strong>Cointelegraph</strong> <span class='tiny'>2026-07-01T16:47:01+00:00</span><br>Bitcoin price returns to $60K as US dollar strength rejects weekly high</li></ul>
         </div>
         <div class="panel">
           <h3>Sample Headlines</h3>
-          <ul><li>XRP, HYPE funds are the bright spots as investors flee bitcoin, ether ETFs</li><li>Bitcoin options traders load up on $50,000 puts and gold futures flash a death cross</li><li>Bitcoin’s 20% June crash looks even deadlier on the charts. Here’s why</li></ul>
+          <ul><li>Robinhood rolls out public blockchain as it expands deeper into crypto</li><li>Cantor says bitcoin bear market may be entering final stretch</li><li>Goliath Ventures CEO pleads guilty in $400 million crypto Ponzi case</li></ul>
         </div>
       </div>
       <div class="panel">
@@ -174,60 +210,24 @@
         <h2>AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지</h2>
         <p><strong>Publish</strong> 2026-07-03 / <strong>Ready</strong> True</p>
         <p><strong>Hero image</strong> True / <strong>Hard blocker</strong> none</p>
-        <p><strong>Why now</strong> 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능</p>
+        <p><strong>Why now</strong> 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능</p>
         <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
         <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-semiconductors.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EA%B0%80%EB%A5%BC-%EB%B3%BC-%EB%95%8C-%EC%8B%A4%EC%A0%81%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%ED%99%95%EC%9D%B8%ED%95%A0-3%EA%B0%80%EC%A7%80.html' target='_blank' rel='noreferrer'>HTML Preview</a></p>
       </div>
       <div class="grid">
         <div class="panel">
           <h3>Quick Evidence</h3>
-          <ul><li><strong>MarketWatch Breaking News</strong> <span class='tiny'>2026-07-01T11:08:00+00:00</span><br>Why it’s too early to call a top on semiconductor stocks, according to these highly regarded analysts</li><li><strong>CNBC Top News</strong> <span class='tiny'>2026-07-01T10:19:57+00:00</span><br>Anthropic says Trump admin has lifted export controls on Claude Fable 5 and Mythos 5</li><li><strong>MarketWatch Breaking News</strong> <span class='tiny'>2026-07-01T09:44:00+00:00</span><br>Anthropic gets all-clear to let foreigners use latest model ahead of crucial IPO</li></ul>
+          <ul><li><strong>NYT Business</strong> <span class='tiny'>2026-07-01T18:54:44+00:00</span><br>Trump Accounts to Receive $250 Million Donation From Chip Maker Micron</li><li><strong>NYT Business</strong> <span class='tiny'>2026-07-01T14:50:39+00:00</span><br>Anthropic Won a Reprieve From the Trump Administration. Is It Enough?</li></ul>
         </div>
         <div class="panel">
           <h3>Sample Headlines</h3>
-          <ul><li>Anthropic restores AI models Fable, Mythos after the U.S. lifts export controls</li><li>Anthropic to bring back Fable 5 as US lifts export controls</li><li>Anthropic says Trump admin has lifted export controls on Claude Fable 5 and Mythos 5</li></ul>
+          <ul><li>Trump says outside funds &#x27;run my money&#x27; after disclosure shows billions in 2025 revenue</li><li>Trump Accounts to Receive $250 Million Donation From Chip Maker Micron</li><li>Anthropic Won a Reprieve From the Trump Administration. Is It Enough?</li></ul>
         </div>
       </div>
       <div class="panel">
         <h3>Do This Next</h3>
         <p>사용자 최종 확인 후 Blogger draft 업로드</p>
         <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply</code>
-      </div>
-      <div class="panel">
-        <h3>Followup Chain</h3>
-        <ul><li><code>python3 scripts/build_platform_publish_plan.py</code></li><li><code>python3 scripts/upload_blogger_drafts.py</code></li><li><code>python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state</code></li></ul>
-      </div>
-    </section>
-    
-
-    <section class="card">
-      <div class="top">
-        <div class="pill-row">
-          <span class="pill">china</span>
-          <span class="pill alt">approve</span>
-          <span class="pill">pass</span>
-        </div>
-        <h2>중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유</h2>
-        <p><strong>Publish</strong> 2026-07-04 / <strong>Ready</strong> True</p>
-        <p><strong>Hero image</strong> True / <strong>Hard blocker</strong> none</p>
-        <p><strong>Why now</strong> 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능</p>
-        <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
-        <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html' target='_blank' rel='noreferrer'>HTML Preview</a></p>
-      </div>
-      <div class="grid">
-        <div class="panel">
-          <h3>Quick Evidence</h3>
-          <ul><li><strong>무역킹 Trade King YouTube</strong> <span class='tiny'>90K views</span><br>1. The Grand Design to Pressure China</li><li><strong>Financial Times World</strong> <span class='tiny'>2026-07-01T11:00:06+00:00</span><br>How China’s green tech could boost its global finance ambitions</li><li><strong>CNBC Top News</strong> <span class='tiny'>2026-06-30T22:07:27+00:00</span><br>Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund</li></ul>
-        </div>
-        <div class="panel">
-          <h3>Sample Headlines</h3>
-          <ul><li>Bulls are betting big on this global ETF that&#x27;s deep in a bear market</li><li>Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund</li><li>1. The Grand Design to Pressure China</li></ul>
-        </div>
-      </div>
-      <div class="panel">
-        <h3>Do This Next</h3>
-        <p>사용자 최종 확인 후 Blogger draft 업로드</p>
-        <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword china</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply</code>
       </div>
       <div class="panel">
         <h3>Followup Chain</h3>

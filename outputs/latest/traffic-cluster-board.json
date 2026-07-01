@@ -1,11 +1,32 @@
 {
   "board_goal": "메인 글 1개로 끝내지 않고 후속 글과 내부링크로 페이지뷰와 재방문을 늘리는 일일 트래픽 클러스터 우선순위 보드",
-  "cluster_count": 5,
+  "cluster_count": 6,
   "clusters": [
+    {
+      "source_keyword": "fomc",
+      "cluster_name": "거시 이벤트 해설 클러스터",
+      "revenue_priority_rank": 2,
+      "cluster_priority_score": 137.0,
+      "main_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "main_keyword": "fomc",
+      "main_priority_score": 137.0,
+      "main_quality_status": "pass",
+      "main_ready_to_upload": true,
+      "followup_count": 0,
+      "ready_followup_count": 0,
+      "revenue_objective": "페이지뷰와 체류시간 균형 확보",
+      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+      "capture_route": "breaking_to_evergreen",
+      "route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
+      "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
+      "blockers": [],
+      "main_html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
+      "followups": []
+    },
     {
       "source_keyword": "bitcoin",
       "cluster_name": "코인 해설 클러스터",
-      "revenue_priority_rank": 2,
+      "revenue_priority_rank": 3,
       "cluster_priority_score": 128.0,
       "main_title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "main_keyword": "bitcoin",
@@ -26,11 +47,11 @@
     {
       "source_keyword": "ai_semiconductors",
       "cluster_name": "ai_semiconductors 클러스터",
-      "revenue_priority_rank": 3,
-      "cluster_priority_score": 461.5,
+      "revenue_priority_rank": 99,
+      "cluster_priority_score": 361.5,
       "main_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "main_keyword": "ai_semiconductors",
-      "main_priority_score": 118.0,
+      "main_priority_score": 93.0,
       "main_quality_status": "pass",
       "main_ready_to_upload": true,
       "followup_count": 3,
@@ -45,27 +66,27 @@
       "followups": [
         {
           "title": "AI 반도체 주식 관련 대표 종목 한눈에 보기",
-          "keyword": "seo_ai_semiconductors_7",
-          "priority_score": 117.5,
+          "keyword": "seo_ai_semiconductors_9",
+          "priority_score": 92.5,
           "post_type": "evergreen_sector_guide",
           "revenue_objective": "섹터형 검색 유입 누적",
-          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-ai-반도체-주식-관련-대표-종목-한눈에-보기.html"
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-ai-반도체-주식-관련-대표-종목-한눈에-보기.html"
         },
         {
           "title": "AI 반도체 주식 공급망 정리: 누가 수혜를 보나",
-          "keyword": "seo_ai_semiconductors_8",
-          "priority_score": 114.5,
+          "keyword": "seo_ai_semiconductors_10",
+          "priority_score": 89.5,
           "post_type": "follow_up_analysis",
           "revenue_objective": "체류시간과 페이지뷰 확대",
-          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-ai-반도체-주식-공급망-정리-누가-수혜를-보나.html"
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-ai-반도체-주식-공급망-정리-누가-수혜를-보나.html"
         },
         {
           "title": "AI 반도체 주식 ETF·지수·대표 기업 정리",
-          "keyword": "seo_ai_semiconductors_10",
-          "priority_score": 111.5,
+          "keyword": "seo_ai_semiconductors_12",
+          "priority_score": 86.5,
           "post_type": "evergreen_sector_guide",
           "revenue_objective": "광고 노출과 장기 검색 유입 확보",
-          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-ai-반도체-주식-etf-지수-대표-기업-정리.html"
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-ai-반도체-주식-etf-지수-대표-기업-정리.html"
         }
       ]
     },
@@ -73,10 +94,10 @@
       "source_keyword": "china",
       "cluster_name": "china 클러스터",
       "revenue_priority_rank": 99,
-      "cluster_priority_score": 397.5,
+      "cluster_priority_score": 345.5,
       "main_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
       "main_keyword": "china",
-      "main_priority_score": 102.0,
+      "main_priority_score": 89.0,
       "main_quality_status": "pass",
       "main_ready_to_upload": true,
       "followup_count": 3,
@@ -91,56 +112,35 @@
       "followups": [
         {
           "title": "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
-          "keyword": "seo_china_12",
-          "priority_score": 101.5,
+          "keyword": "seo_china_11",
+          "priority_score": 88.5,
           "post_type": "evergreen_sector_guide",
           "revenue_objective": "섹터형 검색 유입 누적",
-          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html"
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html"
         },
         {
           "title": "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나",
           "keyword": "seo_china_13",
-          "priority_score": 98.5,
+          "priority_score": 85.5,
           "post_type": "follow_up_analysis",
           "revenue_objective": "체류시간과 페이지뷰 확대",
-          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html"
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/07-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html"
         },
         {
           "title": "중국 변수와 시장 영향 ETF·지수·대표 기업 정리",
           "keyword": "seo_china_14",
-          "priority_score": 95.5,
+          "priority_score": 82.5,
           "post_type": "evergreen_sector_guide",
           "revenue_objective": "광고 노출과 장기 검색 유입 확보",
-          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/07-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html"
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/08-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html"
         }
       ]
-    },
-    {
-      "source_keyword": "fomc",
-      "cluster_name": "거시 이벤트 해설 클러스터",
-      "revenue_priority_rank": 99,
-      "cluster_priority_score": 134.0,
-      "main_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "main_keyword": "fomc",
-      "main_priority_score": 134.0,
-      "main_quality_status": "pass",
-      "main_ready_to_upload": true,
-      "followup_count": 0,
-      "ready_followup_count": 0,
-      "revenue_objective": "페이지뷰와 체류시간 균형 확보",
-      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-      "capture_route": "breaking_to_evergreen",
-      "route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
-      "blockers": [],
-      "main_html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
-      "followups": []
     },
     {
       "source_keyword": "ethereum",
       "cluster_name": "ethereum 클러스터",
       "revenue_priority_rank": 99,
-      "cluster_priority_score": 112.4,
+      "cluster_priority_score": 110.3,
       "main_title": "",
       "main_keyword": "",
       "main_priority_score": 0,
@@ -160,11 +160,43 @@
       "followups": [
         {
           "title": "ethereum: 지금 투자자가 확인할 체크포인트 5가지",
-          "keyword": "seo_ethereum_9",
-          "priority_score": 112.37,
+          "keyword": "seo_ethereum_7",
+          "priority_score": 110.27,
           "post_type": "follow_up_analysis",
           "revenue_objective": "새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
           "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-ethereum-지금-투자자가-확인할-체크포인트-5가지.html"
+        }
+      ]
+    },
+    {
+      "source_keyword": "cpi",
+      "cluster_name": "인플레이션 해설 클러스터",
+      "revenue_priority_rank": 99,
+      "cluster_priority_score": 108.1,
+      "main_title": "",
+      "main_keyword": "",
+      "main_priority_score": 0,
+      "main_quality_status": "unknown",
+      "main_ready_to_upload": false,
+      "followup_count": 1,
+      "ready_followup_count": 1,
+      "revenue_objective": "",
+      "cta_focus": "",
+      "capture_route": "breaking_to_evergreen",
+      "route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
+      "next_action": "사용자 검토 후 승인 대기",
+      "blockers": [
+        "main_quality=unknown"
+      ],
+      "main_html_path": "",
+      "followups": [
+        {
+          "title": "cpi: 지금 투자자가 확인할 체크포인트 5가지",
+          "keyword": "seo_cpi_8",
+          "priority_score": 108.07,
+          "post_type": "follow_up_analysis",
+          "revenue_objective": "새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-cpi-지금-투자자가-확인할-체크포인트-5가지.html"
         }
       ]
     }
