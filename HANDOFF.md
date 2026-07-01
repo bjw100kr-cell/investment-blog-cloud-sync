@@ -15,6 +15,9 @@
 
 ## 핵심 상태 (7/1)
 - `Blogger` 업로드 자격은 로컬에서 준비됨.
+- 서브 에이전트 운영 기준은 `AGENT_OPERATING_MODEL.md`에 저장했습니다. 앞으로는 `Market Scout`, `Keyword Strategist`, `Research Verifier`, `Draft Producer`, `Quality Gatekeeper`, `Publish Inventory Agent`, `Publisher Operator`, `Growth Analyst`, `Distribution & Monetization Planner`로 역할을 나눕니다.
+- Spark 크레딧이 없으면 `GPT-5.4`가 Spark 대행으로 `TASK_QUEUE.md`의 `Spark/5.4` 작업을 처리합니다.
+- 현재 목표 병목은 `Growth Analyst` 영역입니다. `outputs/latest/visitor-proof-board.json` 기준 `proof_status=measurement_missing`, `actual_verified_visitors=0`이므로 Search Console/GA4 실측 연결 없이는 하루 200명 목표 달성을 증명할 수 없습니다.
 - 새로 설치된 플러그인 중 현재 확인된 실사용 후보는 `Binance`와 `Google Drive`입니다.
 - `Binance`는 코인 시장 센서로 사용합니다: market cap, volume, fear/greed, hot tokens, whale/player movement를 글감 후보와 본문 근거로 활용하되 단독 출처로 단정하지 않습니다.
 - `Google Drive`는 검토본/운영 리포트/키워드 보드 공유에 사용합니다. 비밀키나 OAuth 결과 파일은 Drive로 올리지 않습니다.
@@ -42,6 +45,7 @@
 - `review-approvals.json` 기준 승인 상태는 `bitcoin`만 true입니다 (`approved_all=false`, `approved_keywords=["bitcoin"]`).
 - `run_shortlist_keyword_flow --keyword bitcoin --apply` 및 `run_first_blogger_verify_flow --apply --run-safety-check` 실행으로 `set_review_approvals -> build_platform_publish_plan -> upload_blogger_drafts -> prepare_first_cloud_run_verification --allow-approved-state` 체인이 정상 동작함.
 - `blogger-upload-state.json` 기준 `비트코인 핵심 흐름 해설`은 `post_id=6339528652605057661`, `published=true` 상태입니다. 동일 본문이라 현재는 `already_synced_same_content` 판정만 반복됩니다.
+- `2026-07-01`: 자동 발행 모드(`BLOGGER_REQUIRE_REVIEW_APPROVAL=false`)가 `platform-publish-plan`에도 반영되도록 수정했습니다. 이제 `user_final_confirmation_required=false`, `approved_ready_count=12`, Blogger `ready_item_count=12`로 보이며, 실제 업로드는 별도 cap `BLOGGER_MAX_POSTS_PER_RUN=1`로 계속 제한됩니다.
 - 업로드 전 확인용 보드 연결은 계속 유지됨:
   - `outputs/latest/user-review-checkpoint.md`
   - `outputs/latest/user-review-shortlist.md`
@@ -116,13 +120,15 @@
    - 최신 클라우드 검증: GitHub Actions run `28479394787`이 commit `a19b01c`에서 `success`로 완료됨. 새 중복은 만들지 않았고 비트코인 글은 기존 URL `https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html`에 반영됨.
    - 주의: `2026-06-30T22:06Z` 클라우드 실행에서 FOMC 중복 글 `https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html`이 생성됨. 기존 원본 `https://gimu-economy-insight.blogspot.com/2026/06/fomc.html`은 유지됨.
    - 중복 정리 도구: `scripts/cleanup_blogger_posts.py`와 workflow input `cleanup_duplicate_post_ids` 추가. 수동 실행 때 post_id `1530213910086239357`만 입력하면 GitHub Actions의 Blogger secret으로 중복 글을 삭제하고 state에서도 제거할 수 있음. 공개 URL은 이미 404로 확인됐으므로 API 404도 삭제 완료로 처리해야 함.
-1. 신규 중복 정리 도구 커밋 및 푸시.
-2. Actions에서 `Daily Investment Intake`를 수동 실행하면서 `cleanup_duplicate_post_ids=1530213910086239357` 입력.
-3. 실행 완료 후 즉시 확인:
+1. 서브 에이전트 운영 모델이 추가됨:
+   - `AGENT_OPERATING_MODEL.md`
+   - `TASK_QUEUE.md`의 `SP-100`~`SP-106`
+2. FOMC 중복 정리는 완료됨:
    - `outputs/latest/blogger-cleanup-report.json`의 `deleted_count=1`
-   - `outputs/latest/blogger-upload-state.json`에서 post_id `1530213910086239357` 항목 제거
-   - Blogger 공개 URL `https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html` 접근 불가 또는 삭제 상태
-4. 그 다음 병목은 방문자 측정 연결:
+   - `outputs/latest/blogger-cleanup-report.json`의 `removed_from_state_count=1`
+   - `https://gimu-economy-insight.blogspot.com/2026/06/fomc-3.html`은 404
+   - 원본 `https://gimu-economy-insight.blogspot.com/2026/06/fomc.html`은 200
+3. 다음 병목은 방문자 측정 연결:
    - `outputs/latest/visitor-proof-board.json`는 아직 `measurement_missing`, `actual_verified_visitors=0`
    - Search Console/GA4 연결 전까지 200명 목표 달성은 증명 불가
 

@@ -864,7 +864,8 @@ def main() -> int:
                         "allow_reupload_same_content": allow_reupload_same_content,
                         "review_required": review_required,
                         "approval_file_present": REVIEW_APPROVALS_PATH.exists(),
-                        "user_final_confirmation_required": approvals.get("user_final_confirmation_required", True),
+                        "user_final_confirmation_required": review_required
+                        and approvals.get("user_final_confirmation_required", True),
                         "user_confirmed_all": approvals.get("user_confirmed_all", approvals.get("approved_all", False)),
                     "user_confirmed_keywords": approvals.get(
                         "user_confirmed_keywords", approvals.get("approved_keywords", [])

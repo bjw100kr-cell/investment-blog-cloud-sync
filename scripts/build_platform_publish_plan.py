@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 import json
+import os
 from pathlib import Path
+
+from env_loader import load_env_file
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -12,6 +15,13 @@ OUTPUT_JSON = ROOT / "outputs/latest/platform-publish-plan.json"
 OUTPUT_MD = ROOT / "outputs/latest/platform-publish-plan.md"
 QUALITY_GATE_JSON = ROOT / "outputs/latest/pre-publish-quality-gate.json"
 SOURCE_FRESHNESS_JSON = ROOT / "outputs/latest/source-freshness-board.json"
+
+
+def env_flag(name: str, default: bool = False) -> bool:
+    value = os.getenv(name, "").strip().lower()
+    if not value:
+        return default
+    return value in {"1", "true", "yes", "y", "on"}
 
 
 def load_json(path: Path) -> dict:
@@ -30,7 +40,9 @@ def normalized_confirmations(approvals: dict) -> tuple[bool, list[str]]:
     return confirmed_all, [item for item in confirmed_keywords if item]
 
 
-def is_approved(item: dict, approvals: dict) -> bool:
+def is_approved(item: dict, approvals: dict, review_required: bool) -> bool:
+    if not review_required:
+        return True
     confirmed_all, confirmed_keywords = normalized_confirmations(approvals)
     if confirmed_all:
         return True
@@ -107,6 +119,7 @@ def build_channel(name: str, ready: bool, command: str, items: list[dict]) -> di
 
 
 def build_report() -> dict:
+    load_env_file(ROOT)
     setup = load_json(SETUP_JSON)
     inventory = load_json(PUBLISH_INVENTORY_JSON)
     approvals = load_json(APPROVALS_JSON)
@@ -114,10 +127,11 @@ def build_report() -> dict:
     integrations = integration_lookup(setup)
     quality_lookup = build_quality_lookup()
     freshness_lookup = build_freshness_lookup()
+    review_required = env_flag("BLOGGER_REQUIRE_REVIEW_APPROVAL", default=True)
     items = inventory.get("items", [])
 
     for item in items:
-        item["approved_for_upload"] = is_approved(item, approvals)
+        item["approved_for_upload"] = is_approved(item, approvals, review_required)
         item["quality_pass"] = is_quality_ready(item, quality_lookup)
         item["freshness_status"] = freshness_lookup.get(item.get("keyword", ""), "")
         item["freshness_pass"] = is_freshness_ready(item, freshness_lookup)
@@ -152,7 +166,8 @@ def build_report() -> dict:
         "automation_policy": automation_scope.get("automation_policy", "automation-first"),
         "primary_channel": automation_scope.get("primary_channel", {}).get("name", "blogger"),
         "secondary_channel": automation_scope.get("secondary_channel", {}).get("name", "wordpress"),
-        "user_final_confirmation_required": True,
+        "user_final_confirmation_required": review_required,
+        "review_required": review_required,
         "user_confirmed_all": confirmed_all,
         "user_confirmed_keywords": confirmed_keywords,
         "approved_all": approvals.get("approved_all", False),
@@ -170,7 +185,10 @@ def write_markdown(report: dict) -> None:
     lines.append(f"- automation_policy: `{report.get('automation_policy', '')}`")
     lines.append(f"- primary_channel: `{report.get('primary_channel', '')}`")
     lines.append(f"- secondary_channel: `{report.get('secondary_channel', '')}`")
-    lines.append("- user confirmation policy: `upload blocked until you confirm the draft`")
+    if report.get("review_required", True):
+        lines.append("- user confirmation policy: `upload blocked until you confirm the draft`")
+    else:
+        lines.append("- user confirmation policy: `automatic publishing mode; quality and freshness gates still apply`")
     lines.append(f"- user_confirmed_all: `{report.get('user_confirmed_all', False)}`")
     lines.append(f"- user_confirmed_keywords: `{json.dumps(report.get('user_confirmed_keywords', []), ensure_ascii=False)}`")
     lines.append(f"- user_confirmed_ready_count: `{report.get('approved_ready_count', 0)}`")

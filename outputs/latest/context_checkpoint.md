@@ -1,17 +1,17 @@
 # Context Snapshot
 
-생성 시각(UTC): `2026-06-30T22:19:28.375960+00:00`
+생성 시각(UTC): `2026-07-01T08:54:45.784013+00:00`
 
 - 목표: 주식/코인/세계경제 투자 블로그 자동화 운영 지속 및 수익화
 
 ## 핵심 상태
-- published_count: `14`
+- published_count: `13`
 - upload processed_count: `1`
-- latest_synced_at: `2026-06-30T22:16:29.385587+00:00`
+- latest_synced_at: `2026-06-30T22:23:03.613305+00:00`
 - all_core_checks_passed: `True`
 
 ## 이번 체크포인트 노트
-- blogger duplicate cleanup workflow added
+- sub-agent operating model and auto publish plan aligned
 
 ## 최근 병목 요약
 - 최근 병목이 기록되지 않았습니다.

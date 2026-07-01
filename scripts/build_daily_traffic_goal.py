@@ -232,5 +232,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-    if not ready_path:
-        bottlenecks.append("발행 준비와 품질 통과를 동시에 만족하는 트래픽 후보가 없습니다.")

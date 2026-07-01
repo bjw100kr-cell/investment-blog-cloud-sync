@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-30T22:19:28.375960+00:00",
+  "generated_at_utc": "2026-07-01T08:54:45.784013+00:00",
   "goal": "주식/코인/세계경제 투자 블로그 자동화 운영 지속 및 수익화",
   "blogger": {
     "report_summary": {
@@ -7,16 +7,17 @@
       "processed_count": 1,
       "reason_counts": {
         "source_freshness_stale": 1,
+        "already_synced_same_content": 1,
         "": 1,
-        "BLOGGER_MAX_POSTS_PER_RUN reached": 11
+        "BLOGGER_MAX_POSTS_PER_RUN reached": 10
       },
       "last_reason": "source_freshness_stale",
       "top_item_slug": null
     },
     "state_summary": {
-      "item_count": 14,
-      "published_count": 14,
-      "latest_synced_at": "2026-06-30T22:16:29.385587+00:00"
+      "item_count": 13,
+      "published_count": 13,
+      "latest_synced_at": "2026-06-30T22:23:03.613305+00:00"
     }
   },
   "inventory": {
@@ -51,5 +52,5 @@
     "`daily-traffic-goal.json`은 이제 실제 발행 인벤토리 제목과 코인 시장 신호(`extreme_fear`, BTC 변동, Fear/Greed)를 같이 보여줌."
   ],
   "source_notes": [],
-  "note": "blogger duplicate cleanup workflow added"
+  "note": "sub-agent operating model and auto publish plan aligned"
 }
