@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T19:15:04.907895+00:00",
+  "generated_at": "2026-07-02T10:20:39.152537+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -14,22 +14,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6500,
+      "demand_signal_score": 6000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 53,
+      "source_snapshot_score": 48,
       "source_count": 4,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Robinhood rolls out public blockchain as it expands deeper into crypto",
-        "Cantor says bitcoin bear market may be entering final stretch",
-        "Goliath Ventures CEO pleads guilty in $400 million crypto Ponzi case"
+        "Live markets: Bitcoin holds above $60,000 as yen jumps on intervention fears",
+        "Metaplanet buys another $170 million of bitcoin expanding treasury to 43,000 BTC",
+        "Bitcoin's long-term holders have returned to accumulation"
       ]
     },
     {
@@ -39,70 +39,68 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4300,
+      "demand_signal_score": 3400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 31,
-      "source_count": 5,
+      "source_snapshot_score": 22,
+      "source_count": 2,
       "source_names": [
-        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "Warsh’s throwaway comment injects life into the debasement trade, for one day at least"
+      ]
+    },
+    {
+      "keyword": "jobs",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2700,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 15,
+      "source_count": 2,
+      "source_names": [
+        "CNBC Top News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "World Cup could boost the June jobs report by 40,000, Goldman estimates",
+        "Morning Bid: Shares pull back as markets await likely payrolls beat - Reuters",
+        "Dollar eases, yen gains ahead of US payrolls, chipmaker stocks struggle - Reuters"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2500,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 13,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
         "Financial Times Home",
         "MarketWatch Breaking News",
         "NYT Business"
       ],
       "sample_titles": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down"
-      ]
-    },
-    {
-      "keyword": "ethereum",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2600,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
-      "source_count": 2,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph"
-      ],
-      "sample_titles": [
-        "Ethereum Foundation lays out use cases for governments, institutions in new policy guide",
-        "EthLabs launches as Ethereum undergoes its biggest leadership transition in years",
-        "Ethereum backers launch nonprofit to lead institutional adoption efforts"
-      ]
-    },
-    {
-      "keyword": "cpi",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2400,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
-      "source_count": 3,
-      "source_names": [
-        "CoinDesk RSS",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down",
-        "S&P 500, Dow rise after Warsh says inflation risks have eased - Reuters",
-        "Stocks edge up as Warsh says inflation expectations fall; oil slips - Reuters"
+        "Nvidia offers start-up customers chance to swap compute power for revenue share",
+        "Apple plans five new iPhones through 2027, eyes Chinese-made chips amid foldable push, reports say",
+        "White House accelerates plans for AI model standards"
       ]
     }
   ],

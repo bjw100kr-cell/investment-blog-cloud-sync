@@ -18,7 +18,7 @@
 - current_title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - recommended_title: FOMC 이후 시장 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `4300`
+- demand_signal_score: `3400`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 
 ### Variants
@@ -40,7 +40,7 @@
 - current_title: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - recommended_title: 비트코인 가격보다 먼저 볼 것: ETF 자금과 달러 흐름
 - recommended_angle: `fund-flow`
-- demand_signal_score: `6500`
+- demand_signal_score: `6000`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
 
 ### Variants
@@ -62,7 +62,7 @@
 - current_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - recommended_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - recommended_angle: `stock-market`
-- demand_signal_score: `0`
+- demand_signal_score: `2500`
 - public_url: `missing`
 
 ### Variants
@@ -100,24 +100,24 @@
 - `china-v4` score `50` angle `explainer`: 중국 변수와 시장 영향이 시장에 번지는 경로: 주식, 코인, 원자재 체크
   - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
 
-## 5. cpi
+## 5. jobs
 
 - lane: `macro`
-- current_title: CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
-- recommended_title: CPI 발표 후 금리와 나스닥 체크포인트 3가지: 금리, 달러, 위험자산
+- current_title: 고용지표 발표 후 시장이 흔들리는 이유: 금리, 달러, 성장주 체크포인트
+- recommended_title: 고용지표 발표 후 시장이 흔들리는 이유 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `2400`
+- demand_signal_score: `2700`
 - public_url: `missing`
 
 ### Variants
 
-- `cpi-v5` score `85` angle `macro-link`: CPI 발표 후 금리와 나스닥 체크포인트 3가지: 금리, 달러, 위험자산
+- `jobs-v4` score `85` angle `macro-link`: 고용지표 발표 후 시장이 흔들리는 이유 체크포인트 3가지: 금리, 달러, 위험자산
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `cpi-v1` score `77` angle `macro-link`: CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
+- `jobs-v1` score `77` angle `macro-link`: 고용지표 발표 후 시장이 흔들리는 이유: 금리, 달러, 성장주 체크포인트
+  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
+- `jobs-v2` score `77` angle `macro-link`: 고용지표 발표 후 시장이 흔들리는 이유: 금리, 달러, 성장주 체크포인트: 지금 시장이 반응하는 이유
+  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
+- `jobs-v3` score `65` angle `explainer`: 고용지표 발표 후 시장이 흔들리는 이유, 지금 주식과 코인이 같이 흔들리는 이유
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `cpi-v4` score `77` angle `macro-link`: CPI 발표 후 금리와 나스닥, 지금 주식과 코인이 같이 흔들리는 이유
-  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `cpi-v6` score `77` angle `macro-link`: CPI 발표 후 금리와 나스닥을 투자자가 봐야 하는 이유: 오늘 확인할 숫자들
-  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `cpi-v3` score `77` angle `macro-link`: CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 주식·코인 흐름 함께 보기
+- `jobs-v5` score `65` angle `explainer`: 고용지표 발표 후 시장이 흔들리는 이유을 투자자가 봐야 하는 이유: 오늘 확인할 숫자들
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.

@@ -108,17 +108,17 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.",
   "source_names": [
-    "CNBC Top News",
     "CoinDesk RSS",
     "Cointelegraph",
-    "Investing.com Crypto News"
+    "Investing.com Crypto News",
+    "NYT Business"
   ],
   "reference_headlines": [
-    "Robinhood rolls out public blockchain as it expands deeper into crypto",
-    "Cantor says bitcoin bear market may be entering final stretch",
-    "Goliath Ventures CEO pleads guilty in $400 million crypto Ponzi case",
-    "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down",
-    "Europe's MiCA rollout sparks debate over who wins under new crypto rules"
+    "Live markets: Bitcoin holds above $60,000 as yen jumps on intervention fears",
+    "Metaplanet buys another $170 million of bitcoin expanding treasury to 43,000 BTC",
+    "Bitcoin's long-term holders have returned to accumulation",
+    "FBI Director Kash Patel caught sleeping on required disclosure of six-figure MSTR investment: Report",
+    "Metaplanet buys 2,823 BTC, surpasses 43,000 in Bitcoin holdings"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

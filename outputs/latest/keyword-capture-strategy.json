@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T19:15:04.907895+00:00",
+  "generated_at": "2026-07-02T10:20:39.152537+00:00",
   "items": [
     {
       "keyword": "fomc",
@@ -21,16 +21,13 @@
       },
       "capture_route": "breaking_to_evergreen",
       "capture_route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 4300,
+      "demand_signal_score": 3400,
       "trend_queries": [],
       "source_names": [
-        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "MarketWatch Breaking News"
       ],
-      "search_intent_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "search_intent_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -59,13 +56,13 @@
       },
       "capture_route": "breaking_to_evergreen",
       "capture_route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 6500,
+      "demand_signal_score": 6000,
       "trend_queries": [],
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "NYT Business"
       ],
       "search_intent_angle": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "outline": [
@@ -97,13 +94,15 @@
       },
       "capture_route": "sector_hub_to_followups",
       "capture_route_description": "섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.",
-      "demand_signal_score": 0,
+      "demand_signal_score": 2500,
       "trend_queries": [],
       "source_names": [
         "CNBC Top News",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
         "NYT Business"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -136,11 +135,9 @@
       "demand_signal_score": 0,
       "trend_queries": [],
       "source_names": [
-        "Financial Times World",
-        "NYT Business",
         "무역킹 Trade King YouTube"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "search_intent_angle": "섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -150,8 +147,8 @@
       ]
     },
     {
-      "keyword": "cpi",
-      "recommended_title": "CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유",
+      "keyword": "jobs",
+      "recommended_title": "고용지표 발표 후 시장이 흔들리는 이유: 금리, 달러, 성장주 체크포인트",
       "pattern_name": "news_what_it_means",
       "pattern_rules": {
         "when_to_use": [
@@ -169,14 +166,13 @@
       },
       "capture_route": "breaking_to_evergreen",
       "capture_route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 2400,
+      "demand_signal_score": 2700,
       "trend_queries": [],
       "source_names": [
-        "CoinDesk RSS",
-        "NYT Business",
+        "CNBC Top News",
         "Reuters Markets via Google News RSS"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",

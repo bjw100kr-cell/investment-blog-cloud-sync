@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-07-01T19:15:04.907895+00:00`
+- 생성 시각: `2026-07-02T10:20:39.152537+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- 점수: 94.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 점수: 90.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,7 +70,7 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-  - Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down
+  - Warsh’s throwaway comment injects life into the debasement trade, for one day at least
 
 ## 2. bitcoin
 
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Robinhood rolls out public blockchain as it expands deeper into crypto
-  - Cantor says bitcoin bear market may be entering final stretch
-  - Goliath Ventures CEO pleads guilty in $400 million crypto Ponzi case
-  - Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down
-  - Europe's MiCA rollout sparks debate over who wins under new crypto rules
+  - Live markets: Bitcoin holds above $60,000 as yen jumps on intervention fears
+  - Metaplanet buys another $170 million of bitcoin expanding treasury to 43,000 BTC
+  - Bitcoin's long-term holders have returned to accumulation
+  - FBI Director Kash Patel caught sleeping on required disclosure of six-figure MSTR investment: Report
+  - Metaplanet buys 2,823 BTC, surpasses 43,000 in Bitcoin holdings
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 66.0
+- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 76.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,16 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Trump says outside funds 'run my money' after disclosure shows billions in 2025 revenue
+  - Nvidia offers start-up customers chance to swap compute power for revenue share
+  - Apple plans five new iPhones through 2027, eyes Chinese-made chips amid foldable push, reports say
+  - White House accelerates plans for AI model standards
+  - Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.
   - Trump Accounts to Receive $250 Million Donation From Chip Maker Micron
-  - Anthropic Won a Reprieve From the Trump Administration. Is It Enough?
-  - The South Korean Mine at the Center of America’s Tungsten Push
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 63.0
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 42.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,5 +277,3 @@
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
   - 1. The Grand Design to Pressure China
-  - World Bank to phase out China lending
-  - The South Korean Mine at the Center of America’s Tungsten Push

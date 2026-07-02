@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T19:15:04.907895+00:00",
+  "generated_at": "2026-07-02T10:20:39.152537+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -58,31 +58,28 @@
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve issues FOMC statement",
-        "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down"
+        "Warsh’s throwaway comment injects life into the debasement trade, for one day at least"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "MarketWatch Breaking News"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 4300,
-      "search_score": 26,
+      "demand_signal_score": 3400,
+      "search_score": 22,
       "timeliness_score": 25,
       "explanatory_score": 20,
       "monetization_score": 15,
       "risk_score": 8,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 2,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 94.0,
+      "total_score": 90.0,
       "format": "macro_explainer"
     },
     {
@@ -103,23 +100,23 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "Robinhood rolls out public blockchain as it expands deeper into crypto",
-        "Cantor says bitcoin bear market may be entering final stretch",
-        "Goliath Ventures CEO pleads guilty in $400 million crypto Ponzi case",
-        "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down",
-        "Europe's MiCA rollout sparks debate over who wins under new crypto rules"
+        "Live markets: Bitcoin holds above $60,000 as yen jumps on intervention fears",
+        "Metaplanet buys another $170 million of bitcoin expanding treasury to 43,000 BTC",
+        "Bitcoin's long-term holders have returned to accumulation",
+        "FBI Director Kash Patel caught sleeping on required disclosure of six-figure MSTR investment: Report",
+        "Metaplanet buys 2,823 BTC, surpasses 43,000 in Bitcoin holdings"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "NYT Business"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 6500,
+      "demand_signal_score": 6000,
       "search_score": 29,
       "timeliness_score": 20,
       "explanatory_score": 17,
@@ -130,8 +127,8 @@
       "crypto_market_signal_bonus": 5,
       "crypto_market_sentiment": "extreme_fear",
       "crypto_market_signal_notes": [
-        "BTCUSDT 24h change 2.85%",
-        "Fear/Greed 11: Extreme Fear zone"
+        "BTCUSDT 24h change 4.02%",
+        "Fear/Greed 19: Extreme Fear zone"
       ],
       "total_score": 89.0,
       "format": "crypto_analysis"
@@ -145,7 +142,7 @@
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -154,31 +151,34 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Trump says outside funds 'run my money' after disclosure shows billions in 2025 revenue",
-        "Trump Accounts to Receive $250 Million Donation From Chip Maker Micron",
-        "Anthropic Won a Reprieve From the Trump Administration. Is It Enough?",
-        "The South Korean Mine at the Center of America’s Tungsten Push"
+        "Nvidia offers start-up customers chance to swap compute power for revenue share",
+        "Apple plans five new iPhones through 2027, eyes Chinese-made chips amid foldable push, reports say",
+        "White House accelerates plans for AI model standards",
+        "Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.",
+        "Trump Accounts to Receive $250 Million Donation From Chip Maker Micron"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
         "NYT Business"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 11,
-      "timeliness_score": 16,
+      "demand_signal_score": 2500,
+      "search_score": 17,
+      "timeliness_score": 20,
       "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 66.0,
+      "total_score": 76.0,
       "format": "sector_analysis"
     },
     {
@@ -190,7 +190,7 @@
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -199,43 +199,39 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "1. The Grand Design to Pressure China",
-        "World Bank to phase out China lending",
-        "The South Korean Mine at the Center of America’s Tungsten Push"
+        "1. The Grand Design to Pressure China"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Financial Times World",
-        "NYT Business",
         "무역킹 Trade King YouTube"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 12,
-      "timeliness_score": 12,
-      "explanatory_score": 18,
-      "monetization_score": 14,
+      "search_score": 4,
+      "timeliness_score": 2,
+      "explanatory_score": 17,
+      "monetization_score": 12,
       "risk_score": 7,
       "performance_bonus": 0.0,
       "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 63.0,
+      "total_score": 42.0,
       "format": "macro_explainer"
     },
     {
-      "keyword": "cpi",
+      "keyword": "jobs",
       "category": "macro",
       "brand_lane": "macro",
       "title_candidates": [
-        "CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유",
-        "CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 지금 시장이 반응하는 이유",
-        "CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 주식·코인 흐름 함께 보기"
+        "고용지표 발표 후 시장이 흔들리는 이유: 금리, 달러, 성장주 체크포인트",
+        "고용지표 발표 후 시장이 흔들리는 이유: 금리, 달러, 성장주 체크포인트: 지금 시장이 반응하는 이유",
+        "고용지표 발표 후 시장이 흔들리는 이유: 금리, 달러, 성장주 체크포인트"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -244,32 +240,32 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down",
-        "S&P 500, Dow rise after Warsh says inflation risks have eased - Reuters",
-        "Stocks edge up as Warsh says inflation expectations fall; oil slips - Reuters",
-        "Fed’s Warsh Says Inflation Poses Less Risk Than a Few Weeks Ago"
+        "World Cup could boost the June jobs report by 40,000, Goldman estimates",
+        "Morning Bid: Shares pull back as markets await likely payrolls beat - Reuters",
+        "Dollar eases, yen gains ahead of US payrolls, chipmaker stocks struggle - Reuters",
+        "Yen rallies as traders alert to intervention risk; U.S. payrolls in focus - Reuters",
+        "Gold rises on soft US jobs data, weaker oil; nonfarm payrolls in focus - Reuters"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CoinDesk RSS",
-        "NYT Business",
+        "CNBC Top News",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2400,
-      "search_score": 16,
-      "timeliness_score": 18,
-      "explanatory_score": 19,
-      "monetization_score": 15,
-      "risk_score": 6,
+      "demand_signal_score": 2700,
+      "search_score": 17,
+      "timeliness_score": 16,
+      "explanatory_score": 17,
+      "monetization_score": 13,
+      "risk_score": 8,
       "performance_bonus": 0.0,
       "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 74.0,
+      "total_score": 71.0,
       "format": "macro_explainer"
     }
   ]

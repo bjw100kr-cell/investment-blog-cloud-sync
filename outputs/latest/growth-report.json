@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T19:15:04.907895+00:00",
+  "generated_at": "2026-07-02T10:20:39.152537+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -14,15 +14,12 @@
     {
       "keyword": "fomc",
       "recommended_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
-      "total_score": 94.0,
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "total_score": 90.0,
       "monetization_score": 15,
       "source_names": [
-        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "MarketWatch Breaking News"
       ]
     },
     {
@@ -32,20 +29,22 @@
       "total_score": 89.0,
       "monetization_score": 15,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "NYT Business"
       ]
     },
     {
       "keyword": "ai_semiconductors",
       "recommended_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
-      "total_score": 66.0,
+      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "total_score": 76.0,
       "monetization_score": 15,
       "source_names": [
         "CNBC Top News",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
         "NYT Business"
       ]
     }
@@ -61,16 +60,6 @@
       "weighted_priority_score": 16.5
     },
     {
-      "category": "global-sector",
-      "post_count": 2,
-      "keywords": [
-        "ai_semiconductors",
-        "china"
-      ],
-      "avg_monetization_score": 14.5,
-      "weighted_priority_score": 15.23
-    },
-    {
       "category": "macro",
       "post_count": 1,
       "keywords": [
@@ -78,6 +67,16 @@
       ],
       "avg_monetization_score": 15.0,
       "weighted_priority_score": 15.0
+    },
+    {
+      "category": "global-sector",
+      "post_count": 2,
+      "keywords": [
+        "ai_semiconductors",
+        "china"
+      ],
+      "avg_monetization_score": 13.5,
+      "weighted_priority_score": 14.18
     }
   ],
   "brand_lane_summary": [
@@ -115,7 +114,7 @@
       "keywords": [
         "china"
       ],
-      "avg_monetization_score": 14.0
+      "avg_monetization_score": 12.0
     }
   ],
   "query_watchlist": [],
@@ -137,7 +136,7 @@
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "ethereum",
+      "keyword": "jobs",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -145,7 +144,7 @@
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "cpi",
+      "keyword": "ai_semiconductors",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,

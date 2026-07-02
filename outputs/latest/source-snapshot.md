@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-01T19:15:04.907895+00:00`
+- 생성 시각: `2026-07-02T10:20:39.152537+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,6 +25,19 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / Is the U.S. Exposing Xi Jinping's Hidden Wealth?
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Mut3NTl36xc! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / The Real Purpose of the Doping Olympics
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=II3_Rum8J5M! This is most likely caused by:
@@ -90,69 +103,48 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 1. The Grand Design to Pressure China
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Vdc0wK_9ASQ! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `bitcoin`: score 53, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 31, source_count 5, sources CoinDesk RSS, Federal Reserve Monetary Policy Press, Financial Times Home, MarketWatch Breaking News, NYT Business
-- `ethereum`: score 14, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `cpi`: score 12, source_count 3, sources CoinDesk RSS, NYT Business, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 9, source_count 2, sources CNBC Top News, NYT Business
-- `us_index_flow`: score 8, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `china`: score 8, source_count 3, sources Financial Times World, NYT Business, 무역킹 Trade King YouTube
-- `dollar`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
-- `oil`: score 5, source_count 2, sources Financial Times YouTube, Reuters Markets via Google News RSS
+- `bitcoin`: score 48, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
+- `fomc`: score 22, source_count 2, sources Federal Reserve Monetary Policy Press, MarketWatch Breaking News
+- `jobs`: score 15, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 13, source_count 4, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business
+- `dollar`: score 8, source_count 3, sources Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `oil`: score 8, source_count 2, sources Financial Times YouTube, Reuters Markets via Google News RSS
+- `treasury_yields`: score 4, source_count 1, sources CoinDesk RSS
+- `us_big_tech`: score 3, source_count 1, sources CNBC Top News
+- `china`: score 3, source_count 1, sources 무역킹 Trade King YouTube
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 53, headlines 16
-  - Robinhood rolls out public blockchain as it expands deeper into crypto
-  - Cantor says bitcoin bear market may be entering final stretch
-  - Goliath Ventures CEO pleads guilty in $400 million crypto Ponzi case
-- `fomc`: score 31, headlines 8
+- `bitcoin`: score 48, headlines 15
+  - Live markets: Bitcoin holds above $60,000 as yen jumps on intervention fears
+  - Metaplanet buys another $170 million of bitcoin expanding treasury to 43,000 BTC
+  - Bitcoin's long-term holders have returned to accumulation
+- `fomc`: score 22, headlines 5
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `ethereum`: score 14, headlines 4
-  - Ethereum Foundation lays out use cases for governments, institutions in new policy guide
-  - EthLabs launches as Ethereum undergoes its biggest leadership transition in years
-  - Ethereum backers launch nonprofit to lead institutional adoption efforts
-- `cpi`: score 12, headlines 4
-  - Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down
-  - S&P 500, Dow rise after Warsh says inflation risks have eased - Reuters
-  - Stocks edge up as Warsh says inflation expectations fall; oil slips - Reuters
-- `ai_semiconductors`: score 9, headlines 4
-  - Trump says outside funds 'run my money' after disclosure shows billions in 2025 revenue
-  - Trump Accounts to Receive $250 Million Donation From Chip Maker Micron
-  - Anthropic Won a Reprieve From the Trump Administration. Is It Enough?
-- `china`: score 8, headlines 3
-  - 1. The Grand Design to Pressure China
-  - World Bank to phase out China lending
-  - The South Korean Mine at the Center of America’s Tungsten Push
-- `us_index_flow`: score 8, headlines 3
-  - S&P 500, Dow rise after Warsh says inflation risks have eased - Reuters
-  - Trump on financial disclosures: Everyone's profiting because stock market is up - Reuters
-  - 5 charts showing how ‘dumb money’ is transforming the stock market, as retail traders smash Wall Street records
-- `dollar`: score 7, headlines 2
-  - Jefferies warns against buying the dip in Circle as Open USD raises new competition fears
-  - Bitcoin price returns to $60K as US dollar strength rejects weekly high
-- `oil`: score 5, headlines 2
-  - Stocks edge up as Warsh says inflation expectations fall; oil slips - Reuters
+- `jobs`: score 15, headlines 5
+  - World Cup could boost the June jobs report by 40,000, Goldman estimates
+  - Morning Bid: Shares pull back as markets await likely payrolls beat - Reuters
+  - Dollar eases, yen gains ahead of US payrolls, chipmaker stocks struggle - Reuters
+- `ai_semiconductors`: score 13, headlines 5
+  - Nvidia offers start-up customers chance to swap compute power for revenue share
+  - Apple plans five new iPhones through 2027, eyes Chinese-made chips amid foldable push, reports say
+  - White House accelerates plans for AI model standards
+- `dollar`: score 8, headlines 3
+  - Trump’s billion-dollar makeover of Washington DC
+  - Dollar eases, yen gains ahead of US payrolls, chipmaker stocks struggle - Reuters
+  - Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.
+- `oil`: score 8, headlines 3
+  - Indian shares rise as crude prices drop, IT stocks rebound - Reuters
+  - Gold rises on soft US jobs data, weaker oil; nonfarm payrolls in focus - Reuters
   - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-- `us_big_tech`: score 5, headlines 2
-  - Trump says outside funds 'run my money' after disclosure shows billions in 2025 revenue
-  - CoreWeave, Nebius shares tumble as Meta stands to become a fresh threat in the cloud
+- `treasury_yields`: score 4, headlines 1
+  - Metaplanet buys another $170 million of bitcoin expanding treasury to 43,000 BTC
+- `china`: score 3, headlines 1
+  - 1. The Grand Design to Pressure China
+- `us_big_tech`: score 3, headlines 1
+  - Apple plans five new iPhones through 2027, eyes Chinese-made chips amid foldable push, reports say
