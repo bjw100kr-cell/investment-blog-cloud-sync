@@ -1,6 +1,6 @@
 # 7일 편집 캘린더
 
-- 생성 시각: `2026-07-02T10:20:39.152537+00:00`
+- 생성 시각: `2026-07-02T18:18:35.736575+00:00`
 - 목적: stale 뉴스는 직접 발행에서 빼고, 거시경제·코인·미국주식·세계 흐름 레인을 주간 단위로 균형 있게 유지
 
 ## 레인 커버리지
@@ -12,7 +12,7 @@
 
 ## 이번 주 배치 메모
 
-- lane `macro` / keyword `jobs` / mode `direct` / freshness `unknown` / target_share `0.3`
+- lane `macro` / keyword `fomc` / mode `direct` / freshness `unknown` / target_share `0.3`
 - lane `crypto` / keyword `bitcoin` / mode `direct` / freshness `fresh` / target_share `0.3`
 - lane `us-stocks` / keyword `ai_semiconductors` / mode `direct` / freshness `fresh` / target_share `0.2`
 - lane `world-flow` / keyword `china` / mode `direct` / freshness `unknown` / target_share `0.2`
@@ -23,13 +23,13 @@
 - planning_mode: direct
 - freshness_status: unknown
 - 포스트 유형: breaking_explainer
-- 타깃 키워드: jobs
-- 작업 제목: 고용지표 발표 후 시장이 흔들리는 이유: 금리, 달러, 성장주 체크포인트
-- 글 각도: 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 타깃 키워드: fomc
+- 작업 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+- 글 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Reuters Markets via Google News RSS
-- 근거 소스/연결 키워드: CNBC Top News, Reuters Markets via Google News RSS
+- 내부링크 대상: CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, NYT Business, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, NYT Business, Reuters Markets via Google News RSS
 - 발행 메모: 당일 이슈 해설형 글
 
 ## Day 2 · 2026-07-03 · lane_focus_crypto
@@ -43,8 +43,8 @@
 - 글 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
-- 근거 소스/연결 키워드: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
+- 내부링크 대상: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
+- 근거 소스/연결 키워드: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
 ## Day 3 · 2026-07-04 · lane_focus_us-stocks
@@ -55,11 +55,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: ai_semiconductors
 - 작업 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 글 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 글 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business
-- 근거 소스/연결 키워드: CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business
+- 내부링크 대상: Financial Times World, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: Financial Times World, Reuters Markets via Google News RSS
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
 ## Day 4 · 2026-07-05 · lane_focus_world-flow
@@ -75,7 +75,7 @@
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크 대상: 무역킹 Trade King YouTube
 - 근거 소스/연결 키워드: 무역킹 Trade King YouTube
-- 발행 메모: 당일 이슈 해설형 글
+- 발행 메모: 최근 근거 시각을 다시 수집해 신선도를 먼저 확인하세요.
 
 ## Day 5 · 2026-07-06 · evergreen_support
 
@@ -113,11 +113,11 @@
 - planning_mode: recap
 - freshness_status: mixed
 - 포스트 유형: weekly_macro_recap
-- 타깃 키워드: jobs, bitcoin, ai_semiconductors
+- 타깃 키워드: fomc, bitcoin, ai_semiconductors
 - 작업 제목: 이번 주 주식·코인·거시 흐름 한 번에 정리
 - 글 각도: 상위 이슈 3개를 한 글에서 연결해 재방문 독자와 체류 시간을 늘리는 회고형 글
 - 검색 의도: 이번 주 시장 흐름을 짧게 복기하고 다음 주 포인트를 잡고 싶은 독자
 - 수익화 경로: 주간 회고형 콘텐츠로 페이지뷰 누적과 내부 링크 허브 역할
-- 내부링크 대상: jobs, bitcoin, ai_semiconductors
-- 근거 소스/연결 키워드: jobs, bitcoin, ai_semiconductors
+- 내부링크 대상: fomc, bitcoin, ai_semiconductors
+- 근거 소스/연결 키워드: fomc, bitcoin, ai_semiconductors
 - 발행 메모: 주간 정리형 글로 카테고리 허브 역할 수행

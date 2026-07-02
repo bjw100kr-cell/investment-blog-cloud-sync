@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-02T10:20:39.152537+00:00`
+- 생성 시각: `2026-07-02T18:18:35.736575+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,45 +106,46 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 48, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
-- `fomc`: score 22, source_count 2, sources Federal Reserve Monetary Policy Press, MarketWatch Breaking News
-- `jobs`: score 15, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 13, source_count 4, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business
-- `dollar`: score 8, source_count 3, sources Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `oil`: score 8, source_count 2, sources Financial Times YouTube, Reuters Markets via Google News RSS
-- `treasury_yields`: score 4, source_count 1, sources CoinDesk RSS
-- `us_big_tech`: score 3, source_count 1, sources CNBC Top News
-- `china`: score 3, source_count 1, sources 무역킹 Trade King YouTube
+- `bitcoin`: score 40, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
+- `fomc`: score 34, source_count 5, sources CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, NYT Business, Reuters Markets via Google News RSS
+- `us_big_tech`: score 10, source_count 3, sources CNBC Top News, MarketWatch Breaking News, NYT Business
+- `treasury_yields`: score 6, source_count 2, sources CoinDesk RSS, MarketWatch Breaking News
+- `ai_semiconductors`: score 6, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
+- `cpi`: score 5, source_count 2, sources Cointelegraph, NYT Business
+- `oil`: score 5, source_count 2, sources Financial Times YouTube, Reuters Markets via Google News RSS
+- `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
+- `us_index_flow`: score 4, source_count 1, sources CoinDesk RSS
+- `ethereum`: score 3, source_count 1, sources Cointelegraph
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 48, headlines 15
-  - Live markets: Bitcoin holds above $60,000 as yen jumps on intervention fears
-  - Metaplanet buys another $170 million of bitcoin expanding treasury to 43,000 BTC
-  - Bitcoin's long-term holders have returned to accumulation
-- `fomc`: score 22, headlines 5
+- `bitcoin`: score 40, headlines 12
+  - Bitwise says STRC selloff signals crypto cycle nearing a bottom, not Strategy’s breaking point
+  - US Treasury sanctions over 100 ISIS-K crypto addresses that moved over $1.4 million
+  - SBI Crypto to shut down mining pool that holds roughly 2% of Bitcoin's hashrate
+- `fomc`: score 34, headlines 9
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `jobs`: score 15, headlines 5
-  - World Cup could boost the June jobs report by 40,000, Goldman estimates
-  - Morning Bid: Shares pull back as markets await likely payrolls beat - Reuters
-  - Dollar eases, yen gains ahead of US payrolls, chipmaker stocks struggle - Reuters
-- `ai_semiconductors`: score 13, headlines 5
-  - Nvidia offers start-up customers chance to swap compute power for revenue share
-  - Apple plans five new iPhones through 2027, eyes Chinese-made chips amid foldable push, reports say
-  - White House accelerates plans for AI model standards
-- `dollar`: score 8, headlines 3
-  - Trump’s billion-dollar makeover of Washington DC
-  - Dollar eases, yen gains ahead of US payrolls, chipmaker stocks struggle - Reuters
-  - Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.
-- `oil`: score 8, headlines 3
-  - Indian shares rise as crude prices drop, IT stocks rebound - Reuters
-  - Gold rises on soft US jobs data, weaker oil; nonfarm payrolls in focus - Reuters
+- `us_big_tech`: score 10, headlines 4
+  - Tesla stock sinks 7% despite strong deliveries report
+  - Microsoft commits $2.5 billion and 6,000 employees to new AI implementation unit
+  - Why Tesla’s stock is sinking toward its worst day in a year despite blowout delivery numbers
+- `ai_semiconductors`: score 6, headlines 2
+  - Morning Bid: Churning chips - Reuters
+  - The chip rally is tightening tech’s grip on Wall Street
+- `treasury_yields`: score 6, headlines 2
+  - US Treasury sanctions over 100 ISIS-K crypto addresses that moved over $1.4 million
+  - Where can I invest my kid’s ‘Trump account’ money? The Treasury Department just answered that question.
+- `cpi`: score 5, headlines 2
+  - Bitcoin price taps new July high above $62K on weak US jobs data
+  - Latest Jobs Report Shows Labor Market Is Not a Source of Inflationary Pressure
+- `oil`: score 5, headlines 2
+  - Hedge funds reap June gains by piling into short bets but lose on oil, sources say - Reuters
   - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-- `treasury_yields`: score 4, headlines 1
-  - Metaplanet buys another $170 million of bitcoin expanding treasury to 43,000 BTC
+- `crypto_etf`: score 4, headlines 1
+  - Ondo Finance debuts SEC-aligned tokenized stock model with BlackRock ETF, Micron shares
+- `us_index_flow`: score 4, headlines 1
+  - A struggling Nasdaq-listed company that tried to copy Saylor's Bitcoin playbook is completely dumping crypto for AI
 - `china`: score 3, headlines 1
   - 1. The Grand Design to Pressure China
-- `us_big_tech`: score 3, headlines 1
-  - Apple plans five new iPhones through 2027, eyes Chinese-made chips amid foldable push, reports say

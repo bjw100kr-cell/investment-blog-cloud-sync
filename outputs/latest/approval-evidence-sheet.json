@@ -1,12 +1,84 @@
 {
-  "generated_at": "2026-07-02T10:20:39.152537+00:00",
+  "generated_at": "2026-07-02T18:18:35.736575+00:00",
   "item_count": 3,
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "publish_date": "2026-07-02",
+      "priority_score": 137.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "format": "macro_explainer",
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Federal Reserve Monetary Policy Press",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_headlines": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "U.S. payroll growth slowed sharply in June, with only 57,000 jobs added"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 4600,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 5,
+      "search_score": 26,
+      "timeliness_score": 25,
+      "monetization_score": 15,
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
+          "published_iso": "2026-04-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 18 Mar 2026 18:00:00 GMT",
+          "published_iso": "2026-03-18T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 20 May 2026 18:00:00 GMT",
+          "published_iso": "2026-05-20T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "publish_date": "2026-07-03",
-      "priority_score": 128.0,
+      "priority_score": 127.0,
       "ready_now": true,
       "quality_status": "pass",
       "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
@@ -15,170 +87,126 @@
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News",
-        "NYT Business"
+        "MarketWatch Breaking News"
       ],
       "sample_headlines": [
-        "Live markets: Bitcoin holds above $60,000 as yen jumps on intervention fears",
-        "Metaplanet buys another $170 million of bitcoin expanding treasury to 43,000 BTC",
-        "Bitcoin's long-term holders have returned to accumulation",
-        "FBI Director Kash Patel caught sleeping on required disclosure of six-figure MSTR investment: Report",
-        "Metaplanet buys 2,823 BTC, surpasses 43,000 in Bitcoin holdings"
+        "Bitwise says STRC selloff signals crypto cycle nearing a bottom, not Strategy’s breaking point",
+        "US Treasury sanctions over 100 ISIS-K crypto addresses that moved over $1.4 million",
+        "SBI Crypto to shut down mining pool that holds roughly 2% of Bitcoin's hashrate",
+        "JPMorgan says Strategy's bitcoin sales policy adds 'two-way risk' to crypto markets",
+        "A struggling Nasdaq-listed company that tried to copy Saylor's Bitcoin playbook is completely dumping crypto for AI"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 6000,
+      "demand_signal_score": 5200,
       "fallback_source": "source_snapshot_rank",
       "source_count": 4,
-      "search_score": 29,
+      "search_score": 28,
       "timeliness_score": 20,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Live markets: Bitcoin holds above $60,000 as yen jumps on intervention fears",
-          "source_name": "CoinDesk RSS",
-          "published": "Thu, 02 Jul 2026 09:42:41 +0000",
-          "published_iso": "2026-07-02T09:42:41+00:00",
-          "link": "https://www.coindesk.com/tech/2026/07/02/live-markets-bitcoin-holds-above-usd60-000-as-yen-jumps-on-intervention-fears",
-          "source_type": "rss"
-        },
-        {
-          "title": "Metaplanet buys another $170 million of bitcoin expanding treasury to 43,000 BTC",
-          "source_name": "CoinDesk RSS",
-          "published": "Thu, 02 Jul 2026 08:57:20 +0000",
-          "published_iso": "2026-07-02T08:57:20+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/02/metaplanet-buys-another-usd170-million-of-bitcoin-expanding-treasury-to-43-000-btc",
-          "source_type": "rss"
-        },
-        {
-          "title": "Metaplanet buys 2,823 BTC, surpasses 43,000 in Bitcoin holdings",
+          "title": "Bitcoin price taps new July high above $62K on weak US jobs data",
           "source_name": "Cointelegraph",
-          "published": "Thu, 02 Jul 2026 08:55:47 +0000",
-          "published_iso": "2026-07-02T08:55:47+00:00",
-          "link": "https://cointelegraph.com/news/metaplanet-buys-2823-btc-surpasses-43000-bitcoin-holdings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Thu, 02 Jul 2026 17:41:26 +0000",
+          "published_iso": "2026-07-02T17:41:26+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-returns-to-62k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin's long-term holders have returned to accumulation",
+          "title": "SBI Crypto to shut down mining pool that holds roughly 2% of Bitcoin's hashrate",
           "source_name": "CoinDesk RSS",
-          "published": "Thu, 02 Jul 2026 06:17:16 +0000",
-          "published_iso": "2026-07-02T06:17:16+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/02/bitcoin-long-term-holders-have-returned-to-accumulation",
+          "published": "Thu, 02 Jul 2026 14:44:55 +0000",
+          "published_iso": "2026-07-02T14:44:55+00:00",
+          "link": "https://www.coindesk.com/business/2026/07/02/sbi-crypto-to-shut-down-mining-pool-that-holds-roughly-2-of-bitcoin-s-hashrate",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin wedged near $63K supply wall: Live levels",
+          "title": "JPMorgan says Strategy's bitcoin sales policy adds 'two-way risk' to crypto markets",
+          "source_name": "CoinDesk RSS",
+          "published": "Thu, 02 Jul 2026 13:11:22 +0000",
+          "published_iso": "2026-07-02T13:11:22+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/02/jpmorgan-says-strategy-s-bitcoin-sales-policy-adds-two-way-risk-to-crypto-markets",
+          "source_type": "rss"
+        },
+        {
+          "title": "A struggling Nasdaq-listed company that tried to copy Saylor's Bitcoin playbook is completely dumping crypto for AI",
+          "source_name": "CoinDesk RSS",
+          "published": "Thu, 02 Jul 2026 12:10:15 +0000",
+          "published_iso": "2026-07-02T12:10:15+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/02/a-struggling-nasdaq-listed-company-that-tried-to-copy-saylor-s-bitcoin-playbook-is-completely-dumping-crypto-for-ai",
+          "source_type": "rss"
+        },
+        {
+          "title": "Strategy’s bitcoin trading policy creates risks for broader markets, says JPMorgan",
           "source_name": "Investing.com Crypto News",
-          "published": "2026-07-02 07:06:07",
-          "published_iso": "2026-07-02 07:06:07",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-in-bear-flag-near-annual-low-live-levels-93CH-4764319",
+          "published": "2026-07-02 18:02:24",
+          "published_iso": "2026-07-02 18:02:24",
+          "link": "https://www.investing.com/news/cryptocurrency-news/strategys-bitcoin-trading-policy-creates-risks-for-broader-markets-says-jpmorgan-4773820",
           "source_type": "rss"
         }
       ]
     },
     {
-      "keyword": "ai_semiconductors",
-      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "publish_date": "2026-07-04",
-      "priority_score": 111.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "keyword": "us_big_tech",
+      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "publish_date": "",
+      "priority_score": 103.0,
+      "ready_now": false,
+      "quality_status": "needs_fix",
+      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "format": "sector_analysis",
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
         "MarketWatch Breaking News",
         "NYT Business"
       ],
       "sample_headlines": [
-        "Nvidia offers start-up customers chance to swap compute power for revenue share",
-        "Apple plans five new iPhones through 2027, eyes Chinese-made chips amid foldable push, reports say",
-        "White House accelerates plans for AI model standards",
-        "Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.",
-        "Trump Accounts to Receive $250 Million Donation From Chip Maker Micron"
+        "Tesla stock sinks 7% despite strong deliveries report",
+        "Microsoft commits $2.5 billion and 6,000 employees to new AI implementation unit",
+        "Why Tesla’s stock is sinking toward its worst day in a year despite blowout delivery numbers",
+        "Tesla Sales Surge 25% on Recovery in Europe"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 2500,
+      "demand_signal_score": 2200,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 4,
-      "search_score": 17,
-      "timeliness_score": 20,
+      "source_count": 3,
+      "search_score": 15,
+      "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Nvidia offers start-up customers chance to swap compute power for revenue share",
-          "source_name": "CNBC Top News",
-          "published": "Thu, 02 Jul 2026 09:57:30 GMT",
-          "published_iso": "2026-07-02T09:57:30+00:00",
-          "link": "https://www.cnbc.com/2026/07/02/nvidia-plans-to-offer-start-up-customers-access-to-revenue-sharing-deals.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Dollar eases, yen gains ahead of US payrolls, chipmaker stocks struggle - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Thu, 02 Jul 2026 09:31:48 GMT",
-          "published_iso": "2026-07-02T09:31:48+00:00",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hNUdGZ1o0UkVpa1k0SDE5eG1CUlhJZGhIaklZMjV1VVEtekJxazZHMV8xT2lrU25mWlJuSVJxQ3ZtWF9iNEVsQk9tQjRqazRPUTRLYk9VWHVaRjM0a2FVa29SSUJfakV3MXU5Z0ZLTS1Gc0NhQmlQOEZZOA?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "Apple plans five new iPhones through 2027, eyes Chinese-made chips amid foldable push, reports say",
-          "source_name": "CNBC Top News",
-          "published": "Thu, 02 Jul 2026 07:07:46 GMT",
-          "published_iso": "2026-07-02T07:07:46+00:00",
-          "link": "https://www.cnbc.com/2026/07/02/apple-foldable-iphone-production-memory-shortage-china-chipmakers-cxmt-ymtc.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.",
+          "title": "Why Tesla’s stock is sinking toward its worst day in a year despite blowout delivery numbers",
           "source_name": "MarketWatch Breaking News",
-          "published": "Wed, 01 Jul 2026 23:11:00 GMT",
-          "published_iso": "2026-07-01T23:11:00+00:00",
-          "link": "https://www.marketwatch.com/story/nvidia-is-betting-on-a-trillion-dollar-robotics-boom-here-is-the-hidden-way-to-trade-it-c5b10c4e?mod=mw_rss_topstories",
+          "published": "Thu, 02 Jul 2026 17:44:00 GMT",
+          "published_iso": "2026-07-02T17:44:00+00:00",
+          "link": "https://www.marketwatch.com/story/tesla-crushes-delivery-estimates-giving-its-stock-a-boost-16c198da?mod=mw_rss_topstories",
           "source_type": "rss"
         },
         {
-          "title": "Trump Accounts to Receive $250 Million Donation From Chip Maker Micron",
-          "source_name": "NYT Business",
-          "published": "Wed, 01 Jul 2026 19:42:14 +0000",
-          "published_iso": "2026-07-01T19:42:14+00:00",
-          "link": "https://www.nytimes.com/2026/07/01/business/economy/micron-250-million-dollars-trump-accounts.html",
+          "title": "Tesla stock sinks 7% despite strong deliveries report",
+          "source_name": "CNBC Top News",
+          "published": "Thu, 02 Jul 2026 15:40:29 GMT",
+          "published_iso": "2026-07-02T15:40:29+00:00",
+          "link": "https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html",
           "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "publish_date": "2026-07-05",
-      "priority_score": 66.0,
-      "ready_now": false,
-      "quality_status": "review_before_publish",
-      "reason": "섹터/세계 흐름 연결 해설 가능",
-      "format": "macro_explainer",
-      "source_names": [
-        "무역킹 Trade King YouTube"
-      ],
-      "sample_headlines": [
-        "1. The Grand Design to Pressure China"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 0,
-      "fallback_source": "mapped_candidate",
-      "source_count": 1,
-      "search_score": 4,
-      "timeliness_score": 2,
-      "monetization_score": 12,
-      "recent_evidence": [
+        },
         {
-          "title": "1. The Grand Design to Pressure China",
-          "source_name": "무역킹 Trade King YouTube",
-          "published": "94K views",
-          "published_iso": "94K views",
-          "link": "https://www.youtube.com/watch?v=Vdc0wK_9ASQ",
-          "source_type": "youtube_channel"
+          "title": "Tesla Sales Surge 25% on Recovery in Europe",
+          "source_name": "NYT Business",
+          "published": "Thu, 02 Jul 2026 15:07:48 +0000",
+          "published_iso": "2026-07-02T15:07:48+00:00",
+          "link": "https://www.nytimes.com/2026/07/02/business/tesla-electric-vehicle-auto-sales.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Microsoft commits $2.5 billion and 6,000 employees to new AI implementation unit",
+          "source_name": "CNBC Top News",
+          "published": "Thu, 02 Jul 2026 13:00:02 GMT",
+          "published_iso": "2026-07-02T13:00:02+00:00",
+          "link": "https://www.cnbc.com/2026/07/02/microsoft-commits-2point5-billion-6000-employees-ai-implementation-unit.html",
+          "source_type": "rss"
         }
       ]
     }
