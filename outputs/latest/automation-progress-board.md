@@ -4,7 +4,7 @@
 
 - first_live_ready: `True`
 - repo_connected: `True`
-- current_main_candidate: `bitcoin`
+- current_main_candidate: `fomc`
 - status_counts: complete `2` / in_progress `2` / blocked `1`
 
 ## Stage Status
@@ -13,7 +13,7 @@
   - summary: 주제 선정, 레인 균형, 수익화 경로, 검토 패킷 생성 루프가 로컬에서 돌아갑니다.
   - proof: editorial coverage entries `4`
   - proof: today path entries `3`
-  - proof: recommended single `bitcoin`
+  - proof: recommended single `fomc`
   - next_action: 필요 시 source 수집과 점수 로직을 계속 보강
 - `blogger_draft_loop` / status `complete` / owner `agent`
   - summary: Blogger 자동 채널은 준비됐지만, 실제 draft 업로드는 사용자 최종 확인 keyword가 있어야 진행됩니다.
@@ -59,4 +59,4 @@
 
 - 현재 사용자 최종 확인 전 실제 업로드는 계속 차단됩니다.
 - bitcoin이 direct publish 기준 1순위이고, stale fomc는 direct path에서 제외된 상태입니다.
-- blogger blockers observed `9`
+- blogger blockers observed `8`

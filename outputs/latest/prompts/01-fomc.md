@@ -109,16 +109,16 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "CNBC Top News",
+    "CoinDesk RSS",
     "Federal Reserve Monetary Policy Press",
-    "MarketWatch Breaking News",
-    "Reuters Markets via Google News RSS"
+    "Financial Times World"
   ],
   "reference_headlines": [
     "Federal Reserve issues FOMC statement",
     "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
     "Federal Reserve issues FOMC statement",
     "Federal Reserve issues FOMC statement",
-    "Gold prices set for first weekly rise in a month as investors scale back Fed rate hike bets"
+    "Crypto bulls on firmer footing as U.S. rate-hike risk recedes"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [

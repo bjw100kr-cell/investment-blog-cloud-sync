@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-07-03T10:16:56.691209+00:00",
+  "generated_at": "2026-07-03T17:04:22.861631+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 4
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "oil",
+      "trend_count": 1,
+      "traffic_score_sum": 1000,
+      "max_approx_traffic": 1000,
+      "trend_queries": [
+        "유조선"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 1200,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,11 +30,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5400,
+      "demand_signal_score": 6900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 42,
+      "source_snapshot_score": 57,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +42,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Live updates: Bitcoin rises above $61,000 as the red hot semiconductor trade starts to fade",
-        "Finally. $221 million flow into Bitcoin ETFs, ending a painful 10-day outflow streak",
-        "Ether and solana extend gains as a short squeeze lifts bitcoin toward $62,000"
+        "Trump says there is ‘nothing wrong’ with family’s crypto windfall",
+        "Bitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion",
+        "Bitcoin, ether traders aren't fully buying the bounce, options markets show"
       ]
     },
     {
@@ -38,51 +54,26 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4900,
+      "demand_signal_score": 4200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 37,
+      "source_snapshot_score": 30,
       "source_count": 4,
       "source_names": [
         "CNBC Top News",
+        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "Financial Times World"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Gold prices set for first weekly rise in a month as investors scale back Fed rate hike bets"
+        "Crypto bulls on firmer footing as U.S. rate-hike risk recedes"
       ]
     },
     {
       "keyword": "ai_semiconductors",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
-      "source_count": 4,
-      "source_names": [
-        "CoinDesk RSS",
-        "Financial Times Home",
-        "Financial Times World",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Live updates: Bitcoin rises above $61,000 as the red hot semiconductor trade starts to fade",
-        "Anthropic moves to close loopholes that allow Chinese access to Claude",
-        "Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters"
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -93,16 +84,13 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 8,
-      "source_count": 3,
+      "source_count": 1,
       "source_names": [
-        "Financial Times Home",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "CoinDesk RSS"
       ],
       "sample_titles": [
-        "Surging Wall Street profit forecasts fuel fears of ‘earnings bubble’",
-        "Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters",
-        "Is the stock market open today? Here’s how Fourth of July weekend affects trading hours."
+        "Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus",
+        "Live updates: Bitcoin rises above $62,000 as the red hot semiconductor trade starts to fade"
       ]
     }
   ],

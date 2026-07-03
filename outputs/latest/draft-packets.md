@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-07-03T10:16:56.691209+00:00`
+- 생성 시각: `2026-07-03T17:04:22.861631+00:00`
 
 ## 1. fomc
 
@@ -70,7 +70,7 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-  - Gold prices set for first weekly rise in a month as investors scale back Fed rate hike bets
+  - Crypto bulls on firmer footing as U.S. rate-hike risk recedes
 
 ## 2. bitcoin
 
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Live updates: Bitcoin rises above $61,000 as the red hot semiconductor trade starts to fade
-  - Finally. $221 million flow into Bitcoin ETFs, ending a painful 10-day outflow streak
-  - Ether and solana extend gains as a short squeeze lifts bitcoin toward $62,000
-  - India's central bank revives push to isolate banks from crypto: Report
-  - Irish authorities seize another 500 Bitcoin, bringing 2026 total to 1,500 BTC
+  - Trump says there is ‘nothing wrong’ with family’s crypto windfall
+  - Bitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion
+  - Bitcoin, ether traders aren't fully buying the bounce, options markets show
+  - Crypto bulls on firmer footing as U.S. rate-hike risk recedes
+  - Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 75.0
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 54.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,21 +206,19 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Live updates: Bitcoin rises above $61,000 as the red hot semiconductor trade starts to fade
-  - Anthropic moves to close loopholes that allow Chinese access to Claude
-  - Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters
-  - FirstFT: 130mn Americans placed under extreme heat warning
+  - Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus
+  - Live updates: Bitcoin rises above $62,000 as the red hot semiconductor trade starts to fade
 
-## 4. china
+## 4. oil
 
-- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 섹터/세계 흐름 연결 해설 가능
-- 점수: 42.0
+- 추천 제목: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음, 실제 급상승 검색어 반영 (유조선)
+- 점수: 67.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -269,10 +267,11 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 정책 발표 또는 인터뷰 원문 여부 확인
-  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
-  - 한국/미국 시장 영향은 시나리오형으로 서술
+  - WTI/Brent 수치 재확인
+  - 공급 뉴스 원문 출처 확인
+  - 인플레이션/금리 연결 문장 점검
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - 1. The Grand Design to Pressure China
+  - 유조선
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film

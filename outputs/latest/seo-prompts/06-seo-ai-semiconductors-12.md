@@ -85,27 +85,27 @@
 
 ```json
 {
-  "keyword": "seo_us_index_flow_8",
-  "source_keyword": "us_index_flow",
-  "recommended_title": "미국 증시 오늘: 지금 투자자가 확인할 체크포인트 5가지",
+  "keyword": "seo_ai_semiconductors_12",
+  "source_keyword": "ai_semiconductors",
+  "recommended_title": "AI 반도체 주식 ETF·지수·대표 기업 정리",
   "alternate_titles": [
-    "미국 증시 오늘: 지금 투자자가 확인할 체크포인트 5가지: 초보 투자자 기준으로 다시 보기",
-    "미국 증시 오늘: 지금 투자자가 확인할 체크포인트 5가지: 지금 읽어야 하는 이유"
+    "AI 반도체 주식 ETF·지수·대표 기업 정리: 초보 투자자 기준으로 다시 보기",
+    "AI 반도체 주식 ETF·지수·대표 기업 정리: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "미국 증시 오늘에서 이어지는 후속 글로, `미국 증시 오늘`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
+  "summary_angle": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지에서 이어지는 후속 글로, 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
   "outline": [
-    "이전 메인 글에서 이어지는 핵심 질문",
-    "이번에 추가로 확인된 내용",
-    "개인 투자자가 체크할 숫자와 일정",
-    "강세/약세 시나리오 나눠 보기",
-    "다음 후속 글 연결"
+    "왜 이 섹터를 따로 봐야 하나",
+    "대표 기업과 지수/ETF 먼저 정리",
+    "실적과 공급망에서 핵심 포인트 보기",
+    "거시 변수와 같이 봐야 할 것",
+    "다음 체크포인트"
   ],
   "reference_takeaways": [
-    "메인 연결 글: 미국 증시 오늘",
-    "검색 의도: `미국 증시 오늘`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
-    "수익화 목표: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
-    "검색어 후보: 미국 증시 오늘, 나스닥 하락 이유, S&P500 전망, 미국 주식 금리 영향",
-    "수요 신뢰도: medium_low - Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다."
+    "메인 연결 글: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+    "검색 의도: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
+    "수익화 목표: 광고 노출과 장기 검색 유입 확보",
+    "검색어 후보: AI 반도체 주식 ETF·지수·대표 기업 정리",
+    "수요 신뢰도: existing_publish_queue - 기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
   ],
   "fact_checks": [
     "대표 기업명과 티커 재확인",
@@ -115,12 +115,10 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "대표 종목, 실적 일정, 공급망 글까지 이어서 보면 섹터 흐름이 더 잘 보입니다.",
   "source_names": [
-    "Financial Times Home",
-    "MarketWatch Breaking News",
-    "Reuters Markets via Google News RSS"
+    "CoinDesk RSS"
   ],
   "reference_headlines": [
-    "미국 증시 오늘: 지금 투자자가 확인할 체크포인트 5가지"
+    "AI 반도체 주식 ETF·지수·대표 기업 정리"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -183,18 +181,18 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 107.67,
-    "search_score": 107.67,
+    "total_score": 82.5,
+    "search_score": 82.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "site-foundation/hub-global-sector.md",
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html",
     "secondary": [
+      "site-foundation/hub-global-sector.md",
       "site-foundation/about.md",
-      "site-foundation/editorial-policy.md",
       "site-foundation/disclosure.md"
     ]
   },
@@ -202,17 +200,15 @@
     "투자",
     "경제",
     "시장해설",
-    "미국 증시 오늘"
+    "AI",
+    "반도체",
+    "섹터분석",
+    "미국증시"
   ],
-  "search_intent": "`미국 증시 오늘`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
-  "monetization_goal": "새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
-  "reader_search_queries": [
-    "미국 증시 오늘",
-    "나스닥 하락 이유",
-    "S&P500 전망",
-    "미국 주식 금리 영향"
-  ],
-  "demand_confidence": "medium_low",
-  "demand_confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다."
+  "search_intent": "개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
+  "monetization_goal": "광고 노출과 장기 검색 유입 확보",
+  "reader_search_queries": [],
+  "demand_confidence": "existing_publish_queue",
+  "demand_confidence_note": "기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
 }
 ```

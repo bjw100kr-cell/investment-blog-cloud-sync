@@ -1,7 +1,7 @@
 {
   "summary": {
-    "item_count": 11,
-    "approve_count": 11,
+    "item_count": 10,
+    "approve_count": 10,
     "review_carefully_count": 0,
     "revise_count": 0
   },
@@ -136,7 +136,7 @@
       "inventory_type": "main_post",
       "role": "lane_focus_us-stocks",
       "recommended_publish_date": "2026-07-05",
-      "priority_score": 110.0,
+      "priority_score": 89.0,
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "cta_focus": "실적·공급망·대표 종목 글로 연결",
       "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-semiconductors.md",
@@ -152,8 +152,30 @@
       "paragraph_count": 32,
       "sentence_count": 78,
       "queue_bucket": "this_week",
-      "retention_cta_enabled": false,
-      "retention_cta": {},
+      "retention_cta_enabled": true,
+      "retention_cta": {
+        "cluster_name": "ai_semiconductors 클러스터",
+        "source_keyword": "ai_semiconductors",
+        "main_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "main_ready_to_upload": false,
+        "cta_focus": "실적·공급망·대표 종목 글로 연결",
+        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
+        "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
+        "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
+        "followup_titles": [
+          "AI 반도체 주식 관련 대표 종목 한눈에 보기",
+          "AI 반도체 주식 공급망 정리: 누가 수혜를 보나"
+        ],
+        "next_action": "사용자 검토 후 승인 대기",
+        "blockers": [
+          "main_quality=review_before_publish",
+          "follow_up_posts_present",
+          "canonical_url_present",
+          "newsletter_ready"
+        ]
+      },
       "image_manual_review_required": true,
       "image_slots": [
         {
@@ -179,87 +201,161 @@
       ]
     },
     {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "keyword": "oil",
+      "title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
       "inventory_type": "main_post",
-      "role": "lane_focus_world-flow",
-      "recommended_publish_date": "2026-07-06",
-      "priority_score": 66.0,
-      "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "cta_focus": "실적·공급망·대표 종목 글로 연결",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.json",
+      "role": "evergreen_support",
+      "recommended_publish_date": "2026-07-07",
+      "priority_score": 95.0,
+      "search_intent": "달러 강세와 약세를 어떻게 해석해야 하는지 알고 싶은 독자",
+      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-oil.md",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-유가-상승이-물가와-증시에-번지는-경로-투자자가-볼-3가지.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-유가-상승이-물가와-증시에-번지는-경로-투자자가-볼-3가지.json",
       "review_preview": [
-        "한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다. - 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다. - 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다."
+        "한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다."
       ],
       "review_score": 100,
       "review_verdict": "approve",
       "review_warnings": [],
       "paragraph_count": 32,
-      "sentence_count": 80,
-      "queue_bucket": "this_week",
-      "retention_cta_enabled": true,
-      "retention_cta": {
-        "cluster_name": "china 클러스터",
-        "source_keyword": "china",
-        "main_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "main_ready_to_upload": false,
-        "cta_focus": "실적·공급망·대표 종목 글로 연결",
-        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
-        "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
-        "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
-        "newsletter_subject_seed": "[오늘의 투자 브리핑] 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
-        "followup_titles": [
-          "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
-          "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나"
-        ],
-        "next_action": "사용자 검토 후 승인 대기",
-        "blockers": [
-          "main_quality=review_before_publish",
-          "source_strength",
-          "canonical_url_present",
-          "newsletter_ready"
-        ]
-      },
+      "sentence_count": 78,
+      "queue_bucket": "later",
+      "retention_cta_enabled": false,
+      "retention_cta": {},
       "image_manual_review_required": true,
       "image_slots": [
         {
           "slot": "hero",
           "slot_label": "대표 이미지",
           "provider_name": "Unsplash",
-          "search_query": "technology stocks office finance abstract",
-          "search_url": "https://unsplash.com/s/photos/technology+stocks+office+finance+abstract",
+          "search_query": "central bank finance city skyline market data",
+          "search_url": "https://unsplash.com/s/photos/central+bank+finance+city+skyline+market+data",
           "license_label": "Unsplash License",
           "license_url": "https://unsplash.com/license",
-          "alt_text": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 내용을 설명하는 대표 금융 분위기 이미지"
+          "alt_text": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지 내용을 설명하는 대표 금융 분위기 이미지"
         },
         {
           "slot": "inline",
           "slot_label": "본문 보조 이미지",
           "provider_name": "Pexels",
-          "search_query": "semiconductor data center abstract",
-          "search_url": "https://www.pexels.com/search/semiconductor+data+center+abstract/",
+          "search_query": "interest rate macro economy data screen",
+          "search_url": "https://www.pexels.com/search/interest+rate+macro+economy+data+screen/",
           "license_label": "Pexels License",
           "license_url": "https://www.pexels.com/license/",
-          "alt_text": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 설명을 보조하는 데이터 또는 산업 분위기 이미지"
+          "alt_text": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지 설명을 보조하는 데이터 또는 산업 분위기 이미지"
         }
       ]
     },
     {
-      "keyword": "seo_ai_semiconductors_7",
+      "keyword": "seo_oil_7",
+      "title": "국제유가 전망이 주식과 코인에 미치는 영향",
+      "inventory_type": "seo_followup",
+      "role": "evergreen_seo",
+      "recommended_publish_date": "2026-07-07",
+      "priority_score": 94.5,
+      "search_intent": "뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자",
+      "cta_focus": "거시 허브와 당일 해설 글로 연결",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/01-seo-oil-7.md",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-국제유가-전망이-주식과-코인에-미치는-영향.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-국제유가-전망이-주식과-코인에-미치는-영향.json",
+      "review_preview": [
+        "한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- 국제유가 전망이 주식과 코인에 미치는 영향은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다."
+      ],
+      "review_score": 100,
+      "review_verdict": "approve",
+      "review_warnings": [],
+      "paragraph_count": 33,
+      "sentence_count": 80,
+      "queue_bucket": "later",
+      "retention_cta_enabled": false,
+      "retention_cta": {},
+      "image_manual_review_required": true,
+      "image_slots": [
+        {
+          "slot": "hero",
+          "slot_label": "대표 이미지",
+          "provider_name": "Unsplash",
+          "search_query": "central bank finance city skyline market data",
+          "search_url": "https://unsplash.com/s/photos/central+bank+finance+city+skyline+market+data",
+          "license_label": "Unsplash License",
+          "license_url": "https://unsplash.com/license",
+          "alt_text": "국제유가 전망이 주식과 코인에 미치는 영향 내용을 설명하는 대표 금융 분위기 이미지"
+        },
+        {
+          "slot": "inline",
+          "slot_label": "본문 보조 이미지",
+          "provider_name": "Pexels",
+          "search_query": "interest rate macro economy data screen",
+          "search_url": "https://www.pexels.com/search/interest+rate+macro+economy+data+screen/",
+          "license_label": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "alt_text": "국제유가 전망이 주식과 코인에 미치는 영향 설명을 보조하는 데이터 또는 산업 분위기 이미지"
+        }
+      ]
+    },
+    {
+      "keyword": "seo_oil_8",
+      "title": "국제유가 전망에서 다음으로 봐야 할 체크포인트 5가지",
+      "inventory_type": "seo_followup",
+      "role": "follow_up",
+      "recommended_publish_date": "2026-07-07",
+      "priority_score": 91.5,
+      "search_intent": "발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자",
+      "cta_focus": "다음 이벤트 캘린더와 관련 거시 글로 연결",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/02-seo-oil-8.md",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-국제유가-전망에서-다음으로-봐야-할-체크포인트-5가지.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-국제유가-전망에서-다음으로-봐야-할-체크포인트-5가지.json",
+      "review_preview": [
+        "한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- 국제유가 전망에서 다음으로 봐야 할 체크포인트 5가지은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다."
+      ],
+      "review_score": 100,
+      "review_verdict": "approve",
+      "review_warnings": [],
+      "paragraph_count": 33,
+      "sentence_count": 80,
+      "queue_bucket": "later",
+      "retention_cta_enabled": false,
+      "retention_cta": {},
+      "image_manual_review_required": true,
+      "image_slots": [
+        {
+          "slot": "hero",
+          "slot_label": "대표 이미지",
+          "provider_name": "Unsplash",
+          "search_query": "central bank finance city skyline market data",
+          "search_url": "https://unsplash.com/s/photos/central+bank+finance+city+skyline+market+data",
+          "license_label": "Unsplash License",
+          "license_url": "https://unsplash.com/license",
+          "alt_text": "국제유가 전망에서 다음으로 봐야 할 체크포인트 5가지 내용을 설명하는 대표 금융 분위기 이미지"
+        },
+        {
+          "slot": "inline",
+          "slot_label": "본문 보조 이미지",
+          "provider_name": "Pexels",
+          "search_query": "interest rate macro economy data screen",
+          "search_url": "https://www.pexels.com/search/interest+rate+macro+economy+data+screen/",
+          "license_label": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "alt_text": "국제유가 전망에서 다음으로 봐야 할 체크포인트 5가지 설명을 보조하는 데이터 또는 산업 분위기 이미지"
+        }
+      ]
+    },
+    {
+      "keyword": "seo_ai_semiconductors_9",
       "title": "AI 반도체 주식 관련 대표 종목 한눈에 보기",
       "inventory_type": "seo_followup",
       "role": "evergreen_seo",
       "recommended_publish_date": "2026-07-05",
-      "priority_score": 109.5,
+      "priority_score": 88.5,
       "search_intent": "섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자",
       "cta_focus": "대표 종목 글과 허브 글 연결",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/02-seo-ai-semiconductors-7.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-ai-반도체-주식-관련-대표-종목-한눈에-보기.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-ai-반도체-주식-관련-대표-종목-한눈에-보기.json",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/04-seo-ai-semiconductors-9.md",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-ai-반도체-주식-관련-대표-종목-한눈에-보기.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-ai-반도체-주식-관련-대표-종목-한눈에-보기.json",
       "review_preview": [
         "한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
         "- 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다."
@@ -270,8 +366,30 @@
       "paragraph_count": 33,
       "sentence_count": 80,
       "queue_bucket": "this_week",
-      "retention_cta_enabled": false,
-      "retention_cta": {},
+      "retention_cta_enabled": true,
+      "retention_cta": {
+        "cluster_name": "ai_semiconductors 클러스터",
+        "source_keyword": "ai_semiconductors",
+        "main_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "main_ready_to_upload": false,
+        "cta_focus": "실적·공급망·대표 종목 글로 연결",
+        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
+        "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
+        "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
+        "followup_titles": [
+          "AI 반도체 주식 관련 대표 종목 한눈에 보기",
+          "AI 반도체 주식 공급망 정리: 누가 수혜를 보나"
+        ],
+        "next_action": "사용자 검토 후 승인 대기",
+        "blockers": [
+          "main_quality=review_before_publish",
+          "follow_up_posts_present",
+          "canonical_url_present",
+          "newsletter_ready"
+        ]
+      },
       "image_manual_review_required": true,
       "image_slots": [
         {
@@ -297,27 +415,27 @@
       ]
     },
     {
-      "keyword": "seo_us_index_flow_8",
-      "title": "미국 증시 오늘: 지금 투자자가 확인할 체크포인트 5가지",
+      "keyword": "seo_oil_10",
+      "title": "국제유가 전망 초보자 가이드: 용어부터 시장 반응까지",
       "inventory_type": "seo_followup",
-      "role": "search_demand_capture",
-      "recommended_publish_date": "2026-07-03",
-      "priority_score": 107.67,
-      "search_intent": "`미국 증시 오늘`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
-      "cta_focus": "관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/01-seo-us-index-flow-8.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국-증시-오늘-지금-투자자가-확인할-체크포인트-5가지.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국-증시-오늘-지금-투자자가-확인할-체크포인트-5가지.json",
+      "role": "evergreen_seo",
+      "recommended_publish_date": "2026-07-07",
+      "priority_score": 88.5,
+      "search_intent": "기초 개념을 처음부터 이해하고 싶은 초보 독자",
+      "cta_focus": "About, 허브 글, 후속 해설 글로 연결",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/03-seo-oil-10.md",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-국제유가-전망-초보자-가이드-용어부터-시장-반응까지.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-국제유가-전망-초보자-가이드-용어부터-시장-반응까지.json",
       "review_preview": [
-        "한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다."
+        "한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- 국제유가 전망 초보자 가이드: 용어부터 시장 반응까지은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다."
       ],
       "review_score": 100,
       "review_verdict": "approve",
       "review_warnings": [],
       "paragraph_count": 33,
       "sentence_count": 80,
-      "queue_bucket": "seo_backlog",
+      "queue_bucket": "later",
       "retention_cta_enabled": false,
       "retention_cta": {},
       "image_manual_review_required": true,
@@ -326,36 +444,36 @@
           "slot": "hero",
           "slot_label": "대표 이미지",
           "provider_name": "Unsplash",
-          "search_query": "technology stocks office finance abstract",
-          "search_url": "https://unsplash.com/s/photos/technology+stocks+office+finance+abstract",
+          "search_query": "central bank finance city skyline market data",
+          "search_url": "https://unsplash.com/s/photos/central+bank+finance+city+skyline+market+data",
           "license_label": "Unsplash License",
           "license_url": "https://unsplash.com/license",
-          "alt_text": "미국 증시 오늘: 지금 투자자가 확인할 체크포인트 5가지 내용을 설명하는 대표 금융 분위기 이미지"
+          "alt_text": "국제유가 전망 초보자 가이드: 용어부터 시장 반응까지 내용을 설명하는 대표 금융 분위기 이미지"
         },
         {
           "slot": "inline",
           "slot_label": "본문 보조 이미지",
           "provider_name": "Pexels",
-          "search_query": "semiconductor data center abstract",
-          "search_url": "https://www.pexels.com/search/semiconductor+data+center+abstract/",
+          "search_query": "interest rate macro economy data screen",
+          "search_url": "https://www.pexels.com/search/interest+rate+macro+economy+data+screen/",
           "license_label": "Pexels License",
           "license_url": "https://www.pexels.com/license/",
-          "alt_text": "미국 증시 오늘: 지금 투자자가 확인할 체크포인트 5가지 설명을 보조하는 데이터 또는 산업 분위기 이미지"
+          "alt_text": "국제유가 전망 초보자 가이드: 용어부터 시장 반응까지 설명을 보조하는 데이터 또는 산업 분위기 이미지"
         }
       ]
     },
     {
-      "keyword": "seo_ai_semiconductors_9",
+      "keyword": "seo_ai_semiconductors_11",
       "title": "AI 반도체 주식 공급망 정리: 누가 수혜를 보나",
       "inventory_type": "seo_followup",
       "role": "follow_up",
       "recommended_publish_date": "2026-07-05",
-      "priority_score": 106.5,
+      "priority_score": 85.5,
       "search_intent": "테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
       "cta_focus": "실적 해설과 글로벌 섹터 허브 연결",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/03-seo-ai-semiconductors-9.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-ai-반도체-주식-공급망-정리-누가-수혜를-보나.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-ai-반도체-주식-공급망-정리-누가-수혜를-보나.json",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/05-seo-ai-semiconductors-11.md",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-ai-반도체-주식-공급망-정리-누가-수혜를-보나.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-ai-반도체-주식-공급망-정리-누가-수혜를-보나.json",
       "review_preview": [
         "한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
         "- 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다."
@@ -366,8 +484,30 @@
       "paragraph_count": 33,
       "sentence_count": 80,
       "queue_bucket": "this_week",
-      "retention_cta_enabled": false,
-      "retention_cta": {},
+      "retention_cta_enabled": true,
+      "retention_cta": {
+        "cluster_name": "ai_semiconductors 클러스터",
+        "source_keyword": "ai_semiconductors",
+        "main_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "main_ready_to_upload": false,
+        "cta_focus": "실적·공급망·대표 종목 글로 연결",
+        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
+        "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
+        "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
+        "followup_titles": [
+          "AI 반도체 주식 관련 대표 종목 한눈에 보기",
+          "AI 반도체 주식 공급망 정리: 누가 수혜를 보나"
+        ],
+        "next_action": "사용자 검토 후 승인 대기",
+        "blockers": [
+          "main_quality=review_before_publish",
+          "follow_up_posts_present",
+          "canonical_url_present",
+          "newsletter_ready"
+        ]
+      },
       "image_manual_review_required": true,
       "image_slots": [
         {
@@ -393,17 +533,17 @@
       ]
     },
     {
-      "keyword": "seo_ai_semiconductors_10",
+      "keyword": "seo_ai_semiconductors_12",
       "title": "AI 반도체 주식 ETF·지수·대표 기업 정리",
       "inventory_type": "seo_followup",
       "role": "evergreen_seo",
       "recommended_publish_date": "2026-07-05",
-      "priority_score": 103.5,
+      "priority_score": 82.5,
       "search_intent": "개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
       "cta_focus": "섹터 허브와 후속 비교 글 연결",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/04-seo-ai-semiconductors-10.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-ai-반도체-주식-etf-지수-대표-기업-정리.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-ai-반도체-주식-etf-지수-대표-기업-정리.json",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/06-seo-ai-semiconductors-12.md",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-ai-반도체-주식-etf-지수-대표-기업-정리.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-ai-반도체-주식-etf-지수-대표-기업-정리.json",
       "review_preview": [
         "한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
         "- 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다."
@@ -414,8 +554,30 @@
       "paragraph_count": 33,
       "sentence_count": 80,
       "queue_bucket": "this_week",
-      "retention_cta_enabled": false,
-      "retention_cta": {},
+      "retention_cta_enabled": true,
+      "retention_cta": {
+        "cluster_name": "ai_semiconductors 클러스터",
+        "source_keyword": "ai_semiconductors",
+        "main_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "main_ready_to_upload": false,
+        "cta_focus": "실적·공급망·대표 종목 글로 연결",
+        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
+        "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
+        "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
+        "followup_titles": [
+          "AI 반도체 주식 관련 대표 종목 한눈에 보기",
+          "AI 반도체 주식 공급망 정리: 누가 수혜를 보나"
+        ],
+        "next_action": "사용자 검토 후 승인 대기",
+        "blockers": [
+          "main_quality=review_before_publish",
+          "follow_up_posts_present",
+          "canonical_url_present",
+          "newsletter_ready"
+        ]
+      },
       "image_manual_review_required": true,
       "image_slots": [
         {
@@ -437,216 +599,6 @@
           "license_label": "Pexels License",
           "license_url": "https://www.pexels.com/license/",
           "alt_text": "AI 반도체 주식 ETF·지수·대표 기업 설명을 보조하는 데이터 또는 산업 분위기 이미지"
-        }
-      ]
-    },
-    {
-      "keyword": "seo_china_11",
-      "title": "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
-      "inventory_type": "seo_followup",
-      "role": "evergreen_seo",
-      "recommended_publish_date": "2026-07-06",
-      "priority_score": 65.5,
-      "search_intent": "섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자",
-      "cta_focus": "대표 종목 글과 허브 글 연결",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/05-seo-china-11.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.json",
-      "review_preview": [
-        "한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다. - 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다. - 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다."
-      ],
-      "review_score": 100,
-      "review_verdict": "approve",
-      "review_warnings": [],
-      "paragraph_count": 33,
-      "sentence_count": 79,
-      "queue_bucket": "this_week",
-      "retention_cta_enabled": true,
-      "retention_cta": {
-        "cluster_name": "china 클러스터",
-        "source_keyword": "china",
-        "main_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "main_ready_to_upload": false,
-        "cta_focus": "실적·공급망·대표 종목 글로 연결",
-        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
-        "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
-        "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
-        "newsletter_subject_seed": "[오늘의 투자 브리핑] 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
-        "followup_titles": [
-          "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
-          "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나"
-        ],
-        "next_action": "사용자 검토 후 승인 대기",
-        "blockers": [
-          "main_quality=review_before_publish",
-          "source_strength",
-          "canonical_url_present",
-          "newsletter_ready"
-        ]
-      },
-      "image_manual_review_required": true,
-      "image_slots": [
-        {
-          "slot": "hero",
-          "slot_label": "대표 이미지",
-          "provider_name": "Unsplash",
-          "search_query": "technology stocks office finance abstract",
-          "search_url": "https://unsplash.com/s/photos/technology+stocks+office+finance+abstract",
-          "license_label": "Unsplash License",
-          "license_url": "https://unsplash.com/license",
-          "alt_text": "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기 내용을 설명하는 대표 금융 분위기 이미지"
-        },
-        {
-          "slot": "inline",
-          "slot_label": "본문 보조 이미지",
-          "provider_name": "Pexels",
-          "search_query": "semiconductor data center abstract",
-          "search_url": "https://www.pexels.com/search/semiconductor+data+center+abstract/",
-          "license_label": "Pexels License",
-          "license_url": "https://www.pexels.com/license/",
-          "alt_text": "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기 설명을 보조하는 데이터 또는 산업 분위기 이미지"
-        }
-      ]
-    },
-    {
-      "keyword": "seo_china_12",
-      "title": "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나",
-      "inventory_type": "seo_followup",
-      "role": "follow_up",
-      "recommended_publish_date": "2026-07-06",
-      "priority_score": 62.5,
-      "search_intent": "테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
-      "cta_focus": "실적 해설과 글로벌 섹터 허브 연결",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/06-seo-china-12.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.json",
-      "review_preview": [
-        "한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다. - 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다. - 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다."
-      ],
-      "review_score": 100,
-      "review_verdict": "approve",
-      "review_warnings": [],
-      "paragraph_count": 33,
-      "sentence_count": 79,
-      "queue_bucket": "this_week",
-      "retention_cta_enabled": true,
-      "retention_cta": {
-        "cluster_name": "china 클러스터",
-        "source_keyword": "china",
-        "main_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "main_ready_to_upload": false,
-        "cta_focus": "실적·공급망·대표 종목 글로 연결",
-        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
-        "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
-        "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
-        "newsletter_subject_seed": "[오늘의 투자 브리핑] 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
-        "followup_titles": [
-          "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
-          "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나"
-        ],
-        "next_action": "사용자 검토 후 승인 대기",
-        "blockers": [
-          "main_quality=review_before_publish",
-          "source_strength",
-          "canonical_url_present",
-          "newsletter_ready"
-        ]
-      },
-      "image_manual_review_required": true,
-      "image_slots": [
-        {
-          "slot": "hero",
-          "slot_label": "대표 이미지",
-          "provider_name": "Unsplash",
-          "search_query": "technology stocks office finance abstract",
-          "search_url": "https://unsplash.com/s/photos/technology+stocks+office+finance+abstract",
-          "license_label": "Unsplash License",
-          "license_url": "https://unsplash.com/license",
-          "alt_text": "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나 내용을 설명하는 대표 금융 분위기 이미지"
-        },
-        {
-          "slot": "inline",
-          "slot_label": "본문 보조 이미지",
-          "provider_name": "Pexels",
-          "search_query": "semiconductor data center abstract",
-          "search_url": "https://www.pexels.com/search/semiconductor+data+center+abstract/",
-          "license_label": "Pexels License",
-          "license_url": "https://www.pexels.com/license/",
-          "alt_text": "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나 설명을 보조하는 데이터 또는 산업 분위기 이미지"
-        }
-      ]
-    },
-    {
-      "keyword": "seo_china_13",
-      "title": "중국 변수와 시장 영향 ETF·지수·대표 기업 정리",
-      "inventory_type": "seo_followup",
-      "role": "evergreen_seo",
-      "recommended_publish_date": "2026-07-06",
-      "priority_score": 59.5,
-      "search_intent": "개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
-      "cta_focus": "섹터 허브와 후속 비교 글 연결",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/07-seo-china-13.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/07-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/07-중국-변수와-시장-영향-etf-지수-대표-기업-정리.json",
-      "review_preview": [
-        "한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다. - 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다. - 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다."
-      ],
-      "review_score": 100,
-      "review_verdict": "approve",
-      "review_warnings": [],
-      "paragraph_count": 33,
-      "sentence_count": 79,
-      "queue_bucket": "this_week",
-      "retention_cta_enabled": true,
-      "retention_cta": {
-        "cluster_name": "china 클러스터",
-        "source_keyword": "china",
-        "main_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "main_ready_to_upload": false,
-        "cta_focus": "실적·공급망·대표 종목 글로 연결",
-        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
-        "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
-        "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
-        "newsletter_subject_seed": "[오늘의 투자 브리핑] 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
-        "followup_titles": [
-          "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
-          "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나"
-        ],
-        "next_action": "사용자 검토 후 승인 대기",
-        "blockers": [
-          "main_quality=review_before_publish",
-          "source_strength",
-          "canonical_url_present",
-          "newsletter_ready"
-        ]
-      },
-      "image_manual_review_required": true,
-      "image_slots": [
-        {
-          "slot": "hero",
-          "slot_label": "대표 이미지",
-          "provider_name": "Unsplash",
-          "search_query": "technology stocks office finance abstract",
-          "search_url": "https://unsplash.com/s/photos/technology+stocks+office+finance+abstract",
-          "license_label": "Unsplash License",
-          "license_url": "https://unsplash.com/license",
-          "alt_text": "중국 변수와 시장 영향 ETF·지수·대표 기업 내용을 설명하는 대표 금융 분위기 이미지"
-        },
-        {
-          "slot": "inline",
-          "slot_label": "본문 보조 이미지",
-          "provider_name": "Pexels",
-          "search_query": "semiconductor data center abstract",
-          "search_url": "https://www.pexels.com/search/semiconductor+data+center+abstract/",
-          "license_label": "Pexels License",
-          "license_url": "https://www.pexels.com/license/",
-          "alt_text": "중국 변수와 시장 영향 ETF·지수·대표 기업 설명을 보조하는 데이터 또는 산업 분위기 이미지"
         }
       ]
     }

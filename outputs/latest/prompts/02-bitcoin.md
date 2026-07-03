@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Live updates: Bitcoin rises above $61,000 as the red hot semiconductor trade starts to fade",
-    "Finally. $221 million flow into Bitcoin ETFs, ending a painful 10-day outflow streak",
-    "Ether and solana extend gains as a short squeeze lifts bitcoin toward $62,000",
-    "India's central bank revives push to isolate banks from crypto: Report",
-    "Irish authorities seize another 500 Bitcoin, bringing 2026 total to 1,500 BTC"
+    "Trump says there is ‘nothing wrong’ with family’s crypto windfall",
+    "Bitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion",
+    "Bitcoin, ether traders aren't fully buying the bounce, options markets show",
+    "Crypto bulls on firmer footing as U.S. rate-hike risk recedes",
+    "Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

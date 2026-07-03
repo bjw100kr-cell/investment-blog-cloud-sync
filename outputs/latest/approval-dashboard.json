@@ -1,10 +1,10 @@
 {
   "summary": {
-    "review_item_count": 11,
+    "review_item_count": 10,
     "main_post_count": 4,
     "due_soon_main_count": 2,
     "big_tech_lane_count": 0,
-    "ready_now_count": 6
+    "ready_now_count": 9
   },
   "batches": [
     {
@@ -38,7 +38,7 @@
           "quality_status": "pass",
           "hero_image_selected": true,
           "ready_now": true,
-          "freshness_status": "stale"
+          "freshness_status": ""
         }
       ],
       "approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
@@ -73,7 +73,7 @@
           "quality_status": "pass",
           "hero_image_selected": true,
           "ready_now": true,
-          "freshness_status": "stale"
+          "freshness_status": ""
         }
       ],
       "approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",

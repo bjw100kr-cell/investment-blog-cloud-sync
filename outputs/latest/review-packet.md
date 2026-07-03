@@ -4,8 +4,8 @@
 
 - 사용자 최종 확인 파일: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/review-approvals.json`
 - 사용자 확인 헬퍼: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin` 또는 `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --all`
-- 총 검토 대상: `11`
-- 바로 최종 확인 가능: `11`
+- 총 검토 대상: `10`
+- 바로 최종 확인 가능: `10`
 - 주의 검토: `0`
 - 수정 권장: `0`
 
@@ -58,10 +58,12 @@
 - keyword: `ai_semiconductors`
 - type: `main_post` / role `lane_focus_us-stocks`
 - publish date: `2026-07-05`
-- priority: `110.0`
+- priority: `89.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
 - draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-semiconductors.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html`
 - image review required: `True`
@@ -73,79 +75,79 @@
   한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
   - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
 
-## 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+## 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
 
-- keyword: `china`
-- type: `main_post` / role `lane_focus_world-flow`
-- publish date: `2026-07-06`
-- priority: `66.0`
+- keyword: `oil`
+- type: `main_post` / role `evergreen_support`
+- publish date: `2026-07-07`
+- priority: `95.0`
 - internal review: `approve` / score `100`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- CTA focus: 실적·공급망·대표 종목 글로 연결
-- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
-- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md`
-- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html`
+- intent: 달러 강세와 약세를 어떻게 해석해야 하는지 알고 싶은 독자
+- CTA focus: 환율·금리·미국증시 evergreen 글로 연결
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-oil.md`
+- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-유가-상승이-물가와-증시에-번지는-경로-투자자가-볼-3가지.html`
 - image review required: `True`
-- image 대표 이미지: Unsplash / query `technology stocks office finance abstract` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword china --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- image 본문 보조 이미지: Pexels / query `semiconductor data center abstract` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword china --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 대표 이미지: Unsplash / query `central bank finance city skyline market data` / license Unsplash License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword oil --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 본문 보조 이미지: Pexels / query `interest rate macro economy data screen` / license Pexels License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword oil --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - preview:
-  한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-  - 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다. - 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다. - 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다.
+  한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
+
+## 국제유가 전망이 주식과 코인에 미치는 영향
+
+- keyword: `seo_oil_7`
+- type: `seo_followup` / role `evergreen_seo`
+- publish date: `2026-07-07`
+- priority: `94.5`
+- internal review: `approve` / score `100`
+- intent: 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자
+- CTA focus: 거시 허브와 당일 해설 글로 연결
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/01-seo-oil-7.md`
+- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-국제유가-전망이-주식과-코인에-미치는-영향.html`
+- image review required: `True`
+- image 대표 이미지: Unsplash / query `central bank finance city skyline market data` / license Unsplash License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_oil_7 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 본문 보조 이미지: Pexels / query `interest rate macro economy data screen` / license Pexels License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_oil_7 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- preview:
+  한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+  - 국제유가 전망이 주식과 코인에 미치는 영향은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
+
+## 국제유가 전망에서 다음으로 봐야 할 체크포인트 5가지
+
+- keyword: `seo_oil_8`
+- type: `seo_followup` / role `follow_up`
+- publish date: `2026-07-07`
+- priority: `91.5`
+- internal review: `approve` / score `100`
+- intent: 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자
+- CTA focus: 다음 이벤트 캘린더와 관련 거시 글로 연결
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/02-seo-oil-8.md`
+- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-국제유가-전망에서-다음으로-봐야-할-체크포인트-5가지.html`
+- image review required: `True`
+- image 대표 이미지: Unsplash / query `central bank finance city skyline market data` / license Unsplash License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_oil_8 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 본문 보조 이미지: Pexels / query `interest rate macro economy data screen` / license Pexels License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_oil_8 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- preview:
+  한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+  - 국제유가 전망에서 다음으로 봐야 할 체크포인트 5가지은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
 
 ## AI 반도체 주식 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_ai_semiconductors_7`
+- keyword: `seo_ai_semiconductors_9`
 - type: `seo_followup` / role `evergreen_seo`
 - publish date: `2026-07-05`
-- priority: `109.5`
+- priority: `88.5`
 - internal review: `approve` / score `100`
 - intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 - CTA focus: 대표 종목 글과 허브 글 연결
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/02-seo-ai-semiconductors-7.md`
-- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-ai-반도체-주식-관련-대표-종목-한눈에-보기.html`
-- image review required: `True`
-- image 대표 이미지: Unsplash / query `semiconductor chip blue abstract` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_ai_semiconductors_7 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- image 본문 보조 이미지: Pexels / query `ai server data center abstract` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_ai_semiconductors_7 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- preview:
-  한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-  - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
-
-## 미국 증시 오늘: 지금 투자자가 확인할 체크포인트 5가지
-
-- keyword: `seo_us_index_flow_8`
-- type: `seo_followup` / role `search_demand_capture`
-- publish date: `2026-07-03`
-- priority: `107.67`
-- internal review: `approve` / score `100`
-- intent: `미국 증시 오늘`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
-- CTA focus: 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/01-seo-us-index-flow-8.md`
-- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국-증시-오늘-지금-투자자가-확인할-체크포인트-5가지.html`
-- image review required: `True`
-- image 대표 이미지: Unsplash / query `technology stocks office finance abstract` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_us_index_flow_8 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- image 본문 보조 이미지: Pexels / query `semiconductor data center abstract` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_us_index_flow_8 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- preview:
-  한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-  - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
-
-## AI 반도체 주식 공급망 정리: 누가 수혜를 보나
-
-- keyword: `seo_ai_semiconductors_9`
-- type: `seo_followup` / role `follow_up`
-- publish date: `2026-07-05`
-- priority: `106.5`
-- internal review: `approve` / score `100`
-- intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
-- CTA focus: 실적 해설과 글로벌 섹터 허브 연결
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/03-seo-ai-semiconductors-9.md`
-- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-ai-반도체-주식-공급망-정리-누가-수혜를-보나.html`
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/04-seo-ai-semiconductors-9.md`
+- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-ai-반도체-주식-관련-대표-종목-한눈에-보기.html`
 - image review required: `True`
 - image 대표 이미지: Unsplash / query `semiconductor chip blue abstract` / license Unsplash License
 - image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_ai_semiconductors_9 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
@@ -155,88 +157,66 @@
   한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
   - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
 
-## AI 반도체 주식 ETF·지수·대표 기업 정리
+## 국제유가 전망 초보자 가이드: 용어부터 시장 반응까지
 
-- keyword: `seo_ai_semiconductors_10`
+- keyword: `seo_oil_10`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-07-05`
-- priority: `103.5`
+- publish date: `2026-07-07`
+- priority: `88.5`
 - internal review: `approve` / score `100`
-- intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
-- CTA focus: 섹터 허브와 후속 비교 글 연결
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/04-seo-ai-semiconductors-10.md`
-- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-ai-반도체-주식-etf-지수-대표-기업-정리.html`
+- intent: 기초 개념을 처음부터 이해하고 싶은 초보 독자
+- CTA focus: About, 허브 글, 후속 해설 글로 연결
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/03-seo-oil-10.md`
+- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-국제유가-전망-초보자-가이드-용어부터-시장-반응까지.html`
 - image review required: `True`
-- image 대표 이미지: Unsplash / query `semiconductor chip blue abstract` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_ai_semiconductors_10 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- image 본문 보조 이미지: Pexels / query `ai server data center abstract` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_ai_semiconductors_10 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 대표 이미지: Unsplash / query `central bank finance city skyline market data` / license Unsplash License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_oil_10 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 본문 보조 이미지: Pexels / query `interest rate macro economy data screen` / license Pexels License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_oil_10 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - preview:
-  한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-  - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
+  한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+  - 국제유가 전망 초보자 가이드: 용어부터 시장 반응까지은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
 
-## 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
+## AI 반도체 주식 공급망 정리: 누가 수혜를 보나
 
-- keyword: `seo_china_11`
-- type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-07-06`
-- priority: `65.5`
-- internal review: `approve` / score `100`
-- intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
-- CTA focus: 대표 종목 글과 허브 글 연결
-- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
-- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/05-seo-china-11.md`
-- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html`
-- image review required: `True`
-- image 대표 이미지: Unsplash / query `technology stocks office finance abstract` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_china_11 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- image 본문 보조 이미지: Pexels / query `semiconductor data center abstract` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_china_11 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- preview:
-  한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-  - 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다. - 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다. - 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다.
-
-## 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
-
-- keyword: `seo_china_12`
+- keyword: `seo_ai_semiconductors_11`
 - type: `seo_followup` / role `follow_up`
-- publish date: `2026-07-06`
-- priority: `62.5`
+- publish date: `2026-07-05`
+- priority: `85.5`
 - internal review: `approve` / score `100`
 - intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 - CTA focus: 실적 해설과 글로벌 섹터 허브 연결
 - final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
 - later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/06-seo-china-12.md`
-- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html`
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/05-seo-ai-semiconductors-11.md`
+- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-ai-반도체-주식-공급망-정리-누가-수혜를-보나.html`
 - image review required: `True`
-- image 대표 이미지: Unsplash / query `technology stocks office finance abstract` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_china_12 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- image 본문 보조 이미지: Pexels / query `semiconductor data center abstract` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_china_12 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 대표 이미지: Unsplash / query `semiconductor chip blue abstract` / license Unsplash License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_ai_semiconductors_11 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 본문 보조 이미지: Pexels / query `ai server data center abstract` / license Pexels License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_ai_semiconductors_11 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - preview:
-  한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-  - 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다. - 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다. - 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다.
+  한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+  - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
 
-## 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
+## AI 반도체 주식 ETF·지수·대표 기업 정리
 
-- keyword: `seo_china_13`
+- keyword: `seo_ai_semiconductors_12`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-07-06`
-- priority: `59.5`
+- publish date: `2026-07-05`
+- priority: `82.5`
 - internal review: `approve` / score `100`
 - intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 - CTA focus: 섹터 허브와 후속 비교 글 연결
 - final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
 - later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/07-seo-china-13.md`
-- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/07-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html`
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/06-seo-ai-semiconductors-12.md`
+- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-ai-반도체-주식-etf-지수-대표-기업-정리.html`
 - image review required: `True`
-- image 대표 이미지: Unsplash / query `technology stocks office finance abstract` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_china_13 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- image 본문 보조 이미지: Pexels / query `semiconductor data center abstract` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_china_13 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 대표 이미지: Unsplash / query `semiconductor chip blue abstract` / license Unsplash License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_ai_semiconductors_12 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 본문 보조 이미지: Pexels / query `ai server data center abstract` / license Pexels License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_ai_semiconductors_12 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - preview:
-  한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-  - 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다. - 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다. - 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다.
+  한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+  - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.

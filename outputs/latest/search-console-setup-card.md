@@ -23,7 +23,7 @@
 - why: Blogger 하위 도메인은 URL-prefix 속성으로 먼저 검증하는 것이 가장 단순합니다.
 - add property: https://search.google.com/search-console/welcome
 - sitemap page: https://search.google.com/search-console/sitemaps
-- latest post inspection: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post.html
+- latest post inspection: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_251.html
 
 ## Step By Step
 
@@ -42,6 +42,7 @@
 
 ## First URLs To Inspect
 
+- `seo_us_index_flow_8` / 미국 증시 오늘: 지금 투자자가 확인할 체크포인트 5가지: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html
 - `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
 - `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 - `china` / 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
@@ -51,7 +52,6 @@
 - `seo_fomc_3` / FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지: https://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html
 - `seo_fomc_2` / FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지: https://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html
 - `seo_fomc_1` / FOMC 이후 시장이 주식과 코인에 미치는 영향: https://gimu-economy-insight.blogspot.com/2026/06/fomc_074069453.html
-- `us_index_flow` / 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
 
 ## Blockers
 
