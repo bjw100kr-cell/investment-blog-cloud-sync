@@ -13,14 +13,14 @@
 
 ## Priority URLs
 
-- `high` / `fomc` / 예상 `95`명: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-  - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
-  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
-  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
 - `high` / `bitcoin` / 예상 `95`명: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post.html
+- `high` / `fomc` / 예상 `95`명: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+  - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
+  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
+  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
 - `medium` / `seo_oil_12` / 예상 `35`명: 국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지
   - url: https://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F07%2F5_097860030.html

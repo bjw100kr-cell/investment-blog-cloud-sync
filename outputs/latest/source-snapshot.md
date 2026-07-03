@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-02T18:18:35.736575+00:00`
+- 생성 시각: `2026-07-03T10:16:56.691209+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,6 +25,19 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / Palantir Is Moving the Japanese Military
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=t-T34NHJBvY! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / Is the U.S. Exposing Xi Jinping's Hidden Wealth?
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Mut3NTl36xc! This is most likely caused by:
@@ -90,62 +103,46 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 2. After the World Cup...
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=WCvbjS9B36g! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `bitcoin`: score 40, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
-- `fomc`: score 34, source_count 5, sources CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, NYT Business, Reuters Markets via Google News RSS
-- `us_big_tech`: score 10, source_count 3, sources CNBC Top News, MarketWatch Breaking News, NYT Business
-- `treasury_yields`: score 6, source_count 2, sources CoinDesk RSS, MarketWatch Breaking News
-- `ai_semiconductors`: score 6, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
-- `cpi`: score 5, source_count 2, sources Cointelegraph, NYT Business
-- `oil`: score 5, source_count 2, sources Financial Times YouTube, Reuters Markets via Google News RSS
-- `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
-- `us_index_flow`: score 4, source_count 1, sources CoinDesk RSS
-- `ethereum`: score 3, source_count 1, sources Cointelegraph
+- `bitcoin`: score 42, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 37, source_count 4, sources CNBC Top News, Federal Reserve Monetary Policy Press, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 13, source_count 4, sources CoinDesk RSS, Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
+- `us_index_flow`: score 8, source_count 3, sources Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `ai_growth_stocks`: score 6, source_count 2, sources Financial Times World, 무역킹 Trade King YouTube
+- `oil`: score 5, source_count 2, sources CNBC Top News, Financial Times YouTube
+- `us_big_tech`: score 3, source_count 1, sources Cointelegraph
+- `dollar`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `china`: score 3, source_count 1, sources 무역킹 Trade King YouTube
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 40, headlines 12
-  - Bitwise says STRC selloff signals crypto cycle nearing a bottom, not Strategy’s breaking point
-  - US Treasury sanctions over 100 ISIS-K crypto addresses that moved over $1.4 million
-  - SBI Crypto to shut down mining pool that holds roughly 2% of Bitcoin's hashrate
-- `fomc`: score 34, headlines 9
+- `bitcoin`: score 42, headlines 13
+  - Live updates: Bitcoin rises above $61,000 as the red hot semiconductor trade starts to fade
+  - Finally. $221 million flow into Bitcoin ETFs, ending a painful 10-day outflow streak
+  - Ether and solana extend gains as a short squeeze lifts bitcoin toward $62,000
+- `fomc`: score 37, headlines 10
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `us_big_tech`: score 10, headlines 4
-  - Tesla stock sinks 7% despite strong deliveries report
-  - Microsoft commits $2.5 billion and 6,000 employees to new AI implementation unit
-  - Why Tesla’s stock is sinking toward its worst day in a year despite blowout delivery numbers
-- `ai_semiconductors`: score 6, headlines 2
-  - Morning Bid: Churning chips - Reuters
-  - The chip rally is tightening tech’s grip on Wall Street
-- `treasury_yields`: score 6, headlines 2
-  - US Treasury sanctions over 100 ISIS-K crypto addresses that moved over $1.4 million
-  - Where can I invest my kid’s ‘Trump account’ money? The Treasury Department just answered that question.
-- `cpi`: score 5, headlines 2
-  - Bitcoin price taps new July high above $62K on weak US jobs data
-  - Latest Jobs Report Shows Labor Market Is Not a Source of Inflationary Pressure
+- `ai_semiconductors`: score 13, headlines 4
+  - Live updates: Bitcoin rises above $61,000 as the red hot semiconductor trade starts to fade
+  - Anthropic moves to close loopholes that allow Chinese access to Claude
+  - Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters
+- `us_index_flow`: score 8, headlines 3
+  - Surging Wall Street profit forecasts fuel fears of ‘earnings bubble’
+  - Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters
+  - Is the stock market open today? Here’s how Fourth of July weekend affects trading hours.
+- `ai_growth_stocks`: score 6, headlines 2
+  - Palantir Is Moving the Japanese Military
+  - Top official recuses herself from NHS Palantir contract decision after business links
 - `oil`: score 5, headlines 2
-  - Hedge funds reap June gains by piling into short bets but lose on oil, sources say - Reuters
+  - Oman walks a diplomatic tightrope over Strait of Hormuz fees, creating a ‘blind spot’ for markets
   - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-- `crypto_etf`: score 4, headlines 1
-  - Ondo Finance debuts SEC-aligned tokenized stock model with BlackRock ETF, Micron shares
-- `us_index_flow`: score 4, headlines 1
-  - A struggling Nasdaq-listed company that tried to copy Saylor's Bitcoin playbook is completely dumping crypto for AI
 - `china`: score 3, headlines 1
   - 1. The Grand Design to Pressure China
+- `dollar`: score 3, headlines 1
+  - Dollar heads for biggest weekly drop since April as jobs data dims Fed hike bets - Reuters
+- `us_big_tech`: score 3, headlines 1
+  - AI agent development hasn’t accelerated as expected, Zuckerberg says

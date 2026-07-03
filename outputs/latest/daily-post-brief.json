@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T18:18:35.736575+00:00",
+  "generated_at": "2026-07-03T10:16:56.691209+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -58,20 +58,19 @@
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve issues FOMC statement",
-        "U.S. payroll growth slowed sharply in June, with only 57,000 jobs added"
+        "Gold prices set for first weekly rise in a month as investors scale back Fed rate hike bets"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
-        "NYT Business",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 4600,
+      "demand_signal_score": 4900,
       "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
@@ -94,7 +93,7 @@
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -103,49 +102,47 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "Bitwise says STRC selloff signals crypto cycle nearing a bottom, not Strategy’s breaking point",
-        "US Treasury sanctions over 100 ISIS-K crypto addresses that moved over $1.4 million",
-        "SBI Crypto to shut down mining pool that holds roughly 2% of Bitcoin's hashrate",
-        "JPMorgan says Strategy's bitcoin sales policy adds 'two-way risk' to crypto markets",
-        "A struggling Nasdaq-listed company that tried to copy Saylor's Bitcoin playbook is completely dumping crypto for AI"
+        "Live updates: Bitcoin rises above $61,000 as the red hot semiconductor trade starts to fade",
+        "Finally. $221 million flow into Bitcoin ETFs, ending a painful 10-day outflow streak",
+        "Ether and solana extend gains as a short squeeze lifts bitcoin toward $62,000",
+        "India's central bank revives push to isolate banks from crypto: Report",
+        "Irish authorities seize another 500 Bitcoin, bringing 2026 total to 1,500 BTC"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "Investing.com Crypto News"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 5200,
-      "search_score": 28,
-      "timeliness_score": 20,
+      "demand_signal_score": 5400,
+      "search_score": 29,
+      "timeliness_score": 18,
       "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 3,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 2,
-      "crypto_market_signal_bonus": 5,
+      "search_demand_bonus": 3,
+      "crypto_market_signal_bonus": 3,
       "crypto_market_sentiment": "extreme_fear",
       "crypto_market_signal_notes": [
-        "BTCUSDT 24h change 2.76%",
-        "Fear/Greed 19: Extreme Fear zone"
+        "Fear/Greed 21: Extreme Fear zone"
       ],
-      "total_score": 88.0,
+      "total_score": 85.0,
       "format": "crypto_analysis"
     },
     {
-      "keyword": "us_big_tech",
+      "keyword": "ai_semiconductors",
       "category": "global-sector",
       "brand_lane": "us-stocks",
       "title_candidates": [
-        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유",
-        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자"
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -154,32 +151,33 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Tesla stock sinks 7% despite strong deliveries report",
-        "Microsoft commits $2.5 billion and 6,000 employees to new AI implementation unit",
-        "Why Tesla’s stock is sinking toward its worst day in a year despite blowout delivery numbers",
-        "Tesla Sales Surge 25% on Recovery in Europe"
+        "Live updates: Bitcoin rises above $61,000 as the red hot semiconductor trade starts to fade",
+        "Anthropic moves to close loopholes that allow Chinese access to Claude",
+        "Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters",
+        "FirstFT: 130mn Americans placed under extreme heat warning"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times World",
+        "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2200,
-      "search_score": 15,
-      "timeliness_score": 18,
-      "explanatory_score": 16,
+      "demand_signal_score": 2500,
+      "search_score": 17,
+      "timeliness_score": 20,
+      "explanatory_score": 18,
       "monetization_score": 15,
-      "risk_score": 7,
+      "risk_score": 5,
       "performance_bonus": 0.0,
       "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 71.0,
+      "total_score": 75.0,
       "format": "sector_analysis"
     },
     {
@@ -224,15 +222,15 @@
       "format": "macro_explainer"
     },
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "us_index_flow",
       "category": "global-sector",
       "brand_lane": "us-stocks",
       "title_candidates": [
-        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
-        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
+        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
+        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -241,29 +239,31 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Morning Bid: Churning chips - Reuters",
-        "The chip rally is tightening tech’s grip on Wall Street"
+        "Surging Wall Street profit forecasts fuel fears of ‘earnings bubble’",
+        "Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters",
+        "Is the stock market open today? Here’s how Fourth of July weekend affects trading hours."
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Financial Times World",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 8,
-      "timeliness_score": 10,
-      "explanatory_score": 17,
+      "demand_signal_score": 2000,
+      "search_score": 13,
+      "timeliness_score": 15,
+      "explanatory_score": 18,
       "monetization_score": 15,
-      "risk_score": 7,
+      "risk_score": 8,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 57.0,
+      "total_score": 69.0,
       "format": "sector_analysis"
     }
   ]

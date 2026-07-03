@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-02T18:18:35.736575+00:00",
+  "generated_at": "2026-07-03T10:16:56.691209+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 3,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
@@ -14,22 +14,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5200,
+      "demand_signal_score": 5400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 40,
-      "source_count": 4,
+      "source_snapshot_score": 42,
+      "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Bitwise says STRC selloff signals crypto cycle nearing a bottom, not Strategy’s breaking point",
-        "US Treasury sanctions over 100 ISIS-K crypto addresses that moved over $1.4 million",
-        "SBI Crypto to shut down mining pool that holds roughly 2% of Bitcoin's hashrate"
+        "Live updates: Bitcoin rises above $61,000 as the red hot semiconductor trade starts to fade",
+        "Finally. $221 million flow into Bitcoin ETFs, ending a painful 10-day outflow streak",
+        "Ether and solana extend gains as a short squeeze lifts bitcoin toward $62,000"
       ]
     },
     {
@@ -39,47 +38,71 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4600,
+      "demand_signal_score": 4900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 34,
-      "source_count": 5,
+      "source_snapshot_score": 37,
+      "source_count": 4,
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
-        "NYT Business",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "U.S. payroll growth slowed sharply in June, with only 57,000 jobs added"
+        "Gold prices set for first weekly rise in a month as investors scale back Fed rate hike bets"
       ]
     },
     {
-      "keyword": "us_big_tech",
+      "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2200,
+      "demand_signal_score": 2500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 10,
-      "source_count": 3,
+      "source_snapshot_score": 13,
+      "source_count": 4,
       "source_names": [
-        "CNBC Top News",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times World",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Tesla stock sinks 7% despite strong deliveries report",
-        "Microsoft commits $2.5 billion and 6,000 employees to new AI implementation unit",
-        "Why Tesla’s stock is sinking toward its worst day in a year despite blowout delivery numbers"
+        "Live updates: Bitcoin rises above $61,000 as the red hot semiconductor trade starts to fade",
+        "Anthropic moves to close loopholes that allow Chinese access to Claude",
+        "Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters"
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2000,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 8,
+      "source_count": 3,
+      "source_names": [
+        "Financial Times Home",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Surging Wall Street profit forecasts fuel fears of ‘earnings bubble’",
+        "Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters",
+        "Is the stock market open today? Here’s how Fourth of July weekend affects trading hours."
       ]
     }
   ],
