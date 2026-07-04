@@ -85,44 +85,37 @@
 
 ```json
 {
-  "keyword": "seo_oil_12",
-  "source_keyword": "oil",
-  "recommended_title": "국제유가 전망 초보자 가이드: 용어부터 시장 반응까지",
+  "keyword": "us_index_flow",
+  "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
   "alternate_titles": [
-    "국제유가 전망 초보자 가이드: 용어부터 시장 반응까지: 초보 투자자 기준으로 다시 보기",
-    "국제유가 전망 초보자 가이드: 용어부터 시장 반응까지: 지금 읽어야 하는 이유"
+    "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
+    "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
   ],
-  "summary_angle": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지에서 이어지는 후속 글로, 기초 개념을 처음부터 이해하고 싶은 초보 독자",
+  "summary_angle": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
   "outline": [
-    "먼저 이 개념을 왜 알아야 하나",
-    "핵심 구조를 가장 쉽게 풀어보기",
-    "실전 투자에서는 어디를 같이 보면 좋은가",
-    "많이 헷갈리는 포인트 정리",
-    "다음에 이어서 볼 글"
+    "지금 이 섹터가 왜 움직이는가",
+    "핵심 뉴스와 시장 반응",
+    "대표 종목과 자금 흐름",
+    "거시 변수와 연결",
+    "다음 실적/정책 이벤트"
   ],
-  "reference_takeaways": [
-    "메인 연결 글: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
-    "검색 의도: 기초 개념을 처음부터 이해하고 싶은 초보 독자",
-    "수익화 목표: 광범위한 초보 검색 수요 흡수",
-    "검색어 후보: 국제유가 전망 초보자 가이드: 용어부터 시장 반응까지",
-    "수요 신뢰도: existing_publish_queue - 기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
-  ],
+  "reference_takeaways": [],
   "fact_checks": [
-    "관련 공식 발표문과 날짜 재확인",
-    "달러, 금리, 주식, 코인 연결 문장이 과장되지 않았는지 점검",
-    "초보 독자가 오해할 수 있는 용어에 짧은 설명 추가"
+    "나스닥/S&P/미국 증시 수치와 기준 시각 재확인",
+    "지수 하락/상승 원인을 한 문장으로 단정하지 않기",
+    "채권·달러·빅테크와의 연결 문장 교차 점검"
   ],
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
-  "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
+  "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
-    "CNBC Top News",
-    "Financial Times YouTube",
-    "Reuters Markets via Google News RSS"
+    "Financial Times World",
+    "MarketWatch Breaking News"
   ],
   "reference_headlines": [
-    "국제유가 전망 초보자 가이드: 용어부터 시장 반응까지"
+    "When it comes to beating the stock market, no news really is good news",
+    "Good vibes are masking a reset in markets"
   ],
-  "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
+  "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
     "도입부 첫 3문장 안에 독자 관점 문장 1개를 넣는다.",
     "본문 어딘가에 '왜 이게 중요한지'를 말로 풀어주는 문장을 넣는다.",
@@ -173,43 +166,113 @@
     "minimum_interpretation_hits": 2
   },
   "must_include_style_points": [
-    "왜 지금 이 이슈가 개인 투자자에게 중요한지 한 문장 설명",
-    "달러, 금리, 주식, 코인 중 최소 2개와 연결한 해석",
-    "다만/반면 같은 균형 문장"
+    "대표 기업 사례 1개 이상",
+    "섹터 흐름과 거시 변수 연결",
+    "독자가 다음에 체크할 일정 또는 변수"
   ],
   "voice_examples": {
-    "intro_example": "미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.",
-    "analysis_example": "쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.",
-    "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
+    "intro_example": "반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.",
+    "analysis_example": "이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.",
+    "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 98.5,
-    "search_score": 98.5,
-    "timeliness_score": 0,
-    "explanatory_score": 0,
-    "monetization_score": 0,
-    "risk_score": 0
+    "total_score": 59.0,
+    "search_score": 8,
+    "timeliness_score": 10,
+    "explanatory_score": 18,
+    "monetization_score": 15,
+    "risk_score": 8
   },
-  "internal_link_plan": {
-    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-유가-상승이-물가와-증시에-번지는-경로-투자자가-볼-3가지.html",
-    "secondary": [
-      "site-foundation/hub-macro.md",
-      "site-foundation/about.md",
-      "site-foundation/disclosure.md"
+  "reference_editorial_pattern_name": "search_explainer",
+  "reference_editorial_pattern": {
+    "when_to_use": [
+      "FOMC",
+      "CPI",
+      "미국 빅테크",
+      "비트코인 구조 설명",
+      "ETF와 규제 설명"
+    ],
+    "must_have": [
+      "제목에서 핵심 키워드와 독자 질문을 함께 드러낼 것",
+      "도입 3문장 안에 왜 지금 읽어야 하는지 답할 것",
+      "본문 중간에 초보자용 정의 또는 기준점 1개 포함",
+      "끝부분에 다음 체크포인트와 내부링크 연결"
     ]
   },
-  "labels": [
-    "투자",
-    "경제",
-    "시장해설",
-    "유가",
-    "원자재",
-    "거시경제"
+  "reference_editorial_sources": [
+    {
+      "name": "Investopedia",
+      "source_type": "official_site_plus_similarweb",
+      "focus": "검색 유입형 투자 설명글과 용어 해설",
+      "evidence": [
+        "Investopedia mission page",
+        "Similarweb May 2026: Organic Search 59.88 percent, Investing category rank #23"
+      ],
+      "transferable_strengths": [
+        "검색 의도를 바로 만족하는 제목",
+        "용어 정의 후 바로 실전 해석으로 연결",
+        "초보 독자도 이해할 수 있는 설명형 문단 구조"
+      ]
+    },
+    {
+      "name": "CoinDesk",
+      "source_type": "official_site_plus_similarweb",
+      "focus": "코인 뉴스와 거시/정책 해설의 결합",
+      "evidence": [
+        "CoinDesk homepage promise: crypto news, analysis, video and price data",
+        "Similarweb May 2026: Direct 54.33 percent, US audience 45.09 percent"
+      ],
+      "transferable_strengths": [
+        "속보를 바로 해설형 글로 연결",
+        "가격 자체보다 정책, 자금 흐름, 시장 구조를 같이 설명",
+        "브랜드 신뢰를 만드는 차분한 톤"
+      ]
+    },
+    {
+      "name": "Cointelegraph",
+      "source_type": "similarweb_comparison",
+      "focus": "체류시간이 긴 코인 스토리텔링형 기사",
+      "evidence": [
+        "Similarweb comparison May 2026: Avg Visit Duration 00:03:28, Pages per Visit 2.71"
+      ],
+      "transferable_strengths": [
+        "한 기사 안에서 후속 질문까지 같이 풀어주는 구조",
+        "본문 흐름이 길어도 끊기지 않도록 섹션을 촘촘히 나누는 방식",
+        "독자가 다음 섹션을 계속 읽게 만드는 서브헤드 구성"
+      ]
+    },
+    {
+      "name": "MarketWatch",
+      "source_type": "official_site",
+      "focus": "시장 속보를 개인 투자자 관점으로 빠르게 번역",
+      "evidence": [
+        "MarketWatch homepage current market-news framing"
+      ],
+      "transferable_strengths": [
+        "헤드라인에서 바로 왜 중요한지 드러냄",
+        "당일 시장 변화와 개인 자산에 미치는 영향을 짧게 연결",
+        "숫자보다 의미를 먼저 이해시키는 짧은 문단"
+      ]
+    },
+    {
+      "name": "CoinNess",
+      "source_type": "official_site",
+      "focus": "빠른 속보성과 모바일 친화형 코인 정보 소비",
+      "evidence": [
+        "CoinNess official site: fast and accurate crypto investment news platform"
+      ],
+      "transferable_strengths": [
+        "짧은 핵심 요약을 먼저 제시",
+        "속보형 키워드와 투자자 반응 포인트를 빠르게 연결",
+        "반복 방문을 만드는 체크포인트 중심 구성"
+      ]
+    }
   ],
-  "search_intent": "기초 개념을 처음부터 이해하고 싶은 초보 독자",
-  "monetization_goal": "광범위한 초보 검색 수요 흡수",
-  "reader_search_queries": [],
-  "demand_confidence": "existing_publish_queue",
-  "demand_confidence_note": "기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
+  "style_translation_rules": [
+    "특정 사이트의 표현이나 문장 구조를 복사하지 않는다.",
+    "전달력과 구조만 참고하고, 한국어 개인 투자자 독자에게 맞게 다시 쓴다.",
+    "검색형 설명글과 재방문형 해설글을 함께 설계한다.",
+    "뉴스 요약만 하지 말고 항상 '그래서 내 돈 관점에서 왜 중요한가'를 답한다."
+  ]
 }
 ```

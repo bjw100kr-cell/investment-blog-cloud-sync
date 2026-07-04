@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-04T09:10:34.001733+00:00",
+  "generated_at": "2026-07-04T15:47:25.616352+00:00",
   "summary": {
     "breaking_candidate_count": 5,
     "seo_followup_count": 6,
-    "watchlist_count": 4
+    "watchlist_count": 2
   },
   "breaking_candidates": [
     {
@@ -11,21 +11,20 @@
       "keyword": "fomc",
       "suggested_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "format": "macro_explainer",
-      "total_score": 94.0,
-      "search_score": 26,
-      "demand_signal_score": 3900,
+      "total_score": 91.0,
+      "search_score": 23,
+      "demand_signal_score": 3500,
       "trend_queries": [],
       "source_names": [
-        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
         "Reuters Markets via Google News RSS"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
-      "urgency": "watch_closely",
-      "operator_action": "뉴스 업데이트를 더 보면서 제목만 빠르게 조정할 수 있게 대기합니다.",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "urgency": "publish_now",
+      "operator_action": "오늘 메인 글로 바로 발행하고, 후속 SEO 글 1~2개로 내부링크를 같이 준비합니다.",
       "queue_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "queue_publish_date": "2026-07-07",
-      "queue_publish_bucket": "this_week",
+      "queue_publish_date": "2026-07-04",
+      "queue_publish_bucket": "today_or_overdue",
       "ready_to_upload": true
     },
     {
@@ -33,9 +32,9 @@
       "keyword": "bitcoin",
       "suggested_title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "format": "crypto_analysis",
-      "total_score": 88.0,
-      "search_score": 30,
-      "demand_signal_score": 7200,
+      "total_score": 87.0,
+      "search_score": 29,
+      "demand_signal_score": 6800,
       "trend_queries": [],
       "source_names": [
         "CoinDesk RSS",
@@ -53,51 +52,28 @@
     },
     {
       "rank": 3,
-      "keyword": "ai_semiconductors",
-      "suggested_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "keyword": "us_big_tech",
+      "suggested_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
       "format": "sector_analysis",
-      "total_score": 76.0,
-      "search_score": 18,
-      "demand_signal_score": 2600,
+      "total_score": 64.0,
+      "search_score": 11,
+      "demand_signal_score": 0,
       "trend_queries": [],
       "source_names": [
-        "CoinDesk RSS",
+        "Financial Times World",
         "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "NYT Business"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "urgency": "watch",
       "operator_action": "카테고리 보강용 후보로 계속 추적합니다.",
-      "queue_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "queue_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
       "queue_publish_date": "2026-07-06",
       "queue_publish_bucket": "this_week",
       "ready_to_upload": true
     },
     {
       "rank": 4,
-      "keyword": "oil",
-      "suggested_title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
-      "format": "macro_explainer",
-      "total_score": 63.0,
-      "search_score": 13,
-      "demand_signal_score": 2000,
-      "trend_queries": [],
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times YouTube",
-        "Reuters Markets via Google News RSS"
-      ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
-      "urgency": "publish_now",
-      "operator_action": "오늘 메인 글로 바로 발행하고, 후속 SEO 글 1~2개로 내부링크를 같이 준비합니다.",
-      "queue_title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
-      "queue_publish_date": "2026-07-04",
-      "queue_publish_bucket": "today_or_overdue",
-      "ready_to_upload": true
-    },
-    {
-      "rank": 5,
       "keyword": "us_index_flow",
       "suggested_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
       "format": "sector_analysis",
@@ -107,9 +83,30 @@
       "trend_queries": [],
       "source_names": [
         "Financial Times World",
-        "Reuters Markets via Google News RSS"
+        "MarketWatch Breaking News"
       ],
       "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "urgency": "watch",
+      "operator_action": "카테고리 보강용 후보로 계속 추적합니다.",
+      "queue_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "queue_publish_date": "",
+      "queue_publish_bucket": "later",
+      "ready_to_upload": true
+    },
+    {
+      "rank": 5,
+      "keyword": "dollar",
+      "suggested_title": "달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법",
+      "format": "macro_explainer",
+      "total_score": 53.0,
+      "search_score": 8,
+      "demand_signal_score": 0,
+      "trend_queries": [],
+      "source_names": [
+        "CoinDesk RSS",
+        "MarketWatch Breaking News"
+      ],
+      "reason": "복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
       "urgency": "watch",
       "operator_action": "카테고리 보강용 후보로 계속 추적합니다.",
       "queue_title": "",
@@ -125,54 +122,54 @@
       "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
       "role": "evergreen_seo",
       "post_type": "evergreen_explainer",
-      "priority_score": 128.5,
+      "priority_score": 133.5,
       "search_intent": "뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자",
       "monetization_goal": "검색 유입 누적과 첫 방문 독자 확보",
       "cta_focus": "거시 허브와 당일 해설 글로 연결"
     },
     {
       "rank": 2,
-      "source_keyword": "bitcoin",
-      "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
-      "role": "evergreen_seo",
-      "post_type": "evergreen_explainer",
-      "priority_score": 126.5,
-      "search_intent": "가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자",
-      "monetization_goal": "초보 검색 유입과 긴 체류시간 확보",
-      "cta_focus": "코인 허브와 규제/ETF 글 연결"
-    },
-    {
-      "rank": 3,
       "source_keyword": "fomc",
       "title": "FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지",
       "role": "follow_up",
       "post_type": "follow_up_analysis",
-      "priority_score": 125.5,
+      "priority_score": 130.5,
       "search_intent": "발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자",
       "monetization_goal": "재방문과 내부링크 순환 강화",
       "cta_focus": "다음 이벤트 캘린더와 관련 거시 글로 연결"
     },
     {
-      "rank": 4,
-      "source_keyword": "bitcoin",
-      "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
-      "role": "follow_up",
-      "post_type": "follow_up_analysis",
-      "priority_score": 123.5,
-      "search_intent": "뉴스가 복잡해서 규제와 ETF 이슈만 따로 정리해 보고 싶은 독자",
-      "monetization_goal": "반복 방문과 뉴스형 검색 유입",
-      "cta_focus": "당일 코인 해설 글과 초보 가이드 연결"
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "source_keyword": "fomc",
       "title": "FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지",
       "role": "evergreen_seo",
       "post_type": "evergreen_explainer",
-      "priority_score": 122.5,
+      "priority_score": 127.5,
       "search_intent": "기초 개념을 처음부터 이해하고 싶은 초보 독자",
       "monetization_goal": "광범위한 초보 검색 수요 흡수",
       "cta_focus": "About, 허브 글, 후속 해설 글로 연결"
+    },
+    {
+      "rank": 4,
+      "source_keyword": "bitcoin",
+      "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+      "role": "evergreen_seo",
+      "post_type": "evergreen_explainer",
+      "priority_score": 125.5,
+      "search_intent": "가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자",
+      "monetization_goal": "초보 검색 유입과 긴 체류시간 확보",
+      "cta_focus": "코인 허브와 규제/ETF 글 연결"
+    },
+    {
+      "rank": 5,
+      "source_keyword": "bitcoin",
+      "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
+      "role": "follow_up",
+      "post_type": "follow_up_analysis",
+      "priority_score": 122.5,
+      "search_intent": "뉴스가 복잡해서 규제와 ETF 이슈만 따로 정리해 보고 싶은 독자",
+      "monetization_goal": "반복 방문과 뉴스형 검색 유입",
+      "cta_focus": "당일 코인 해설 글과 초보 가이드 연결"
     },
     {
       "rank": 6,
@@ -180,7 +177,7 @@
       "title": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리",
       "role": "evergreen_seo",
       "post_type": "evergreen_explainer",
-      "priority_score": 120.5,
+      "priority_score": 119.5,
       "search_intent": "짧은 질문 단위로 빠르게 답을 찾고 싶은 독자",
       "monetization_goal": "롱테일 검색 키워드 확보",
       "cta_focus": "기초 글과 주간 정리 글 연결"
@@ -191,7 +188,7 @@
       "query": "비트코인 전망",
       "mapped_keyword": "bitcoin",
       "query_type": "mapped_keyword_demand",
-      "demand_signal_score": 7200,
+      "demand_signal_score": 6800,
       "regions": [],
       "reader_search_queries": [
         "비트코인 전망",
@@ -206,7 +203,7 @@
       "query": "FOMC 일정",
       "mapped_keyword": "fomc",
       "query_type": "mapped_keyword_demand",
-      "demand_signal_score": 3900,
+      "demand_signal_score": 3500,
       "regions": [],
       "reader_search_queries": [
         "FOMC 일정",
@@ -215,36 +212,6 @@
         "연준 금리 발표 비트코인 영향"
       ],
       "suggested_title": "FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "note": "기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다."
-    },
-    {
-      "query": "AI 반도체 주식",
-      "mapped_keyword": "ai_semiconductors",
-      "query_type": "mapped_keyword_demand",
-      "demand_signal_score": 2600,
-      "regions": [],
-      "reader_search_queries": [
-        "AI 반도체 주식",
-        "엔비디아 주가 영향",
-        "반도체 사이클 전망",
-        "AI 데이터센터 수혜주"
-      ],
-      "suggested_title": "AI 반도체 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "note": "기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다."
-    },
-    {
-      "query": "국제유가 전망",
-      "mapped_keyword": "oil",
-      "query_type": "mapped_keyword_demand",
-      "demand_signal_score": 2000,
-      "regions": [],
-      "reader_search_queries": [
-        "국제유가 전망",
-        "유가 상승 주식 영향",
-        "WTI 유가 보는법",
-        "원유 가격 인플레이션 영향"
-      ],
-      "suggested_title": "국제유가 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리",
       "note": "기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다."
     }
   ]

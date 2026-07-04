@@ -28,7 +28,7 @@
 - title: `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트`
 - inventory_type: `main_post`
 - publish_date: ``
-- priority_score: `124.0`
+- priority_score: `127.0`
 - cta_focus: ETF·규제·초보 가이드 글로 연결
 
 ## Next Candidates
@@ -38,7 +38,21 @@
 ## Dry Run Snapshot
 
 - blogger_reason: ``
-- blogger_first_item_reason: `source_freshness_stale`
+- blogger_first_item_reason: `upload_error::RuntimeError: 403 Client Error: Forbidden for url: https://www.googleapis.com/blogger/v3/blogs/6916836934814427288/posts/?isDraft=true :: {
+  "error": {
+    "code": 403,
+    "message": "The caller does not have permission",
+    "errors": [
+      {
+        "message": "The caller does not have permission",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+`
 - wordpress_reason: `WORDPRESS_SITE_URL is not set`
 - wordpress_first_item_reason: `credentials_missing_dry_run`
 

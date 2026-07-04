@@ -3,7 +3,7 @@
 검색 유입을 빨리 만들기 위해 Search Console 검증 후 먼저 색인 확인할 URL과 내부링크 액션을 정리합니다.
 
 - target_daily_visitors: `200`
-- daily_traffic_projection: `347`
+- daily_traffic_projection: `189`
 - search_console_required: `True`
 
 ## Sitemaps
@@ -17,10 +17,14 @@
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post.html
-- `high` / `fomc` / 예상 `95`명: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+- `high` / `fomc` / 예상 `94`명: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
+- `medium` / `seo_oil_12` / 예상 `35`명: 국제유가 전망 초보자 가이드: 용어부터 시장 반응까지
+  - url: https://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html
+  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F07%2F5_097860030.html
+  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F07%2F5_097860030.html
 - `medium` / `seo_ai_semiconductors_11` / 예상 `35`명: AI 반도체 주식 공급망 정리: 누가 수혜를 보나
   - url: https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F07%2Fai-5.html

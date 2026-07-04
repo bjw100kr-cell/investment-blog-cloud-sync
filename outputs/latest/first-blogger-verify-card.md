@@ -2,7 +2,7 @@
 
 GitHub 연결 전에도 로컬에서 첫 Blogger draft 검증까지 바로 확인할 수 있습니다.
 
-- main_candidate: `oil` / 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+- main_candidate: `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 ## Shortcut Flow
 

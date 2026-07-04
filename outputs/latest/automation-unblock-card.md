@@ -2,13 +2,13 @@
 
 지금 자동화를 더 앞으로 밀기 위해 사용자 쪽에서 필요한 건 사실 2개입니다.
 
-- main_candidate: `oil` / 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+- main_candidate: `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 ## 지금 할 2개
 
-- `1. oil 승인`
+- `1. fomc 승인`
   - why: 이 1건만 승인되면 Blogger draft loop 실검증으로 바로 넘어갈 수 있습니다.
-  - command: python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords oil
+  - command: python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc
 - `2. GitHub repo 연결`
   - why: 이 단계가 끝나야 컴퓨터가 꺼져 있어도 무료 클라우드 자동화가 돌아갑니다.
   - repo_create_link: https://github.com/bjw100kr-cell/investment-blog-cloud-sync

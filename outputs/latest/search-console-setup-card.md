@@ -23,7 +23,7 @@
 - why: Blogger 하위 도메인은 URL-prefix 속성으로 먼저 검증하는 것이 가장 단순합니다.
 - add property: https://search.google.com/search-console/welcome
 - sitemap page: https://search.google.com/search-console/sitemaps
-- latest post inspection: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F07%2Fai-5.html
+- latest post inspection: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F07%2F5_097860030.html
 
 ## Step By Step
 
@@ -42,16 +42,16 @@
 
 ## First URLs To Inspect
 
-- `seo_ai_semiconductors_11` / AI 반도체 주식 공급망 정리: 누가 수혜를 보나: https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html
-- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
-- `seo_us_index_flow_8` / 미국 증시 오늘: 지금 투자자가 확인할 체크포인트 5가지: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html
+- `seo_oil_12` / 국제유가 전망 초보자 가이드: 용어부터 시장 반응까지: https://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html
 - `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
+- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
+- `seo_ai_semiconductors_11` / AI 반도체 주식 공급망 정리: 누가 수혜를 보나: https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html
+- `seo_us_index_flow_8` / 미국 증시 오늘: 지금 투자자가 확인할 체크포인트 5가지: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html
 - `china` / 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
 - `seo_oil_12` / 국제유가 전망: 지금 투자자가 확인할 체크포인트 5가지: https://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html
 - `seo_ai_semiconductors_11` / AI 반도체 주식: 지금 투자자가 확인할 체크포인트 5가지: https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html
 - `seo_us_big_tech_10` / 미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지: https://gimu-economy-insight.blogspot.com/2026/07/5.html
 - `seo_fomc_3` / FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지: https://gimu-economy-insight.blogspot.com/2026/06/fomc_01787353078.html
-- `seo_fomc_2` / FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지: https://gimu-economy-insight.blogspot.com/2026/06/fomc-5.html
 
 ## Blockers
 

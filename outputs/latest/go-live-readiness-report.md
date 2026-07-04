@@ -26,9 +26,9 @@
 ## Posts
 
 - ready posts: `4`
-- first draft upload target: `oil`
-- first draft upload target: `bitcoin`
 - first draft upload target: `fomc`
+- first draft upload target: `bitcoin`
+- first draft upload target: `us_big_tech`
 
 ## Automated Channels
 

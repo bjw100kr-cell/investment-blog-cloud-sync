@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-07-04T09:10:34.001733+00:00`
+- 생성 시각: `2026-07-04T15:47:25.616352+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 점수: 94.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 점수: 91.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,13 +70,13 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-  - Crypto bulls on firmer footing as U.S. rate-hike risk recedes
+  - Wall St Week Ahead Investors look for Fed clues, earnings signs as tech wobbles - Reuters
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 점수: 88.0
+- 점수: 87.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,22 +136,22 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Trump's crypto token buyers are down $3.8 billion, blockchain data shows
+  - Europe led on crypto regulation. Now implementation must match ambition
+  - UK's bold new crypto rules promise to unlock global trading, but huge compliance hurdles still threaten the rollout
   - Bitcoin’s next parabolic run may need $1 trillion in fresh capital
   - This sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree
-  - Trump says there is ‘nothing wrong’ with family’s crypto windfall
-  - Bitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion
-  - Bitcoin, ether traders aren't fully buying the bounce, options markets show
 
-## 3. ai_semiconductors
+## 3. us_big_tech
 
-- 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 76.0
+- 추천 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+- 각도: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 64.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기
+  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
+  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -200,34 +200,32 @@
   - 해설: 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.
   - 마무리: 반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다.
 - 팩트체크:
-  - 기업 실적/가이던스 수치 원문 확인
-  - 반도체 섹터 전반 일반화 과장 여부 점검
-  - 대표 종목 티커와 실적 날짜 재확인
+  - 대표 종목 가격 변동률과 기준 시각 재확인
+  - 실적/가격 인상/공급망 뉴스 원문 링크 확인
+  - 개별 종목 이슈를 시장 전체 흐름처럼 과장하지 않기
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus
-  - Trading Day: Chips are down, and so are payrolls - Reuters
-  - Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters
-  - Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.
+  - Here’s what’s worth streaming in July 2026 on Netflix, Hulu, HBO Max and more
+  - US clean power prices set to soar as AI demand coincides with subsidy cuts
   - Are the ‘MANGOS’ Stocks Already Turning Soft?
 
-## 4. oil
+## 4. us_index_flow
 
-- 추천 제목: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
-- 각도: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 점수: 63.0
-- 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
-- 편집 패턴: news_what_it_means
+- 추천 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+- 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 59.0
+- 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
+- 편집 패턴: search_explainer
 - 대체 제목:
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - 글 구조:
-  - 왜 지금 이 이슈가 중요한가
-  - 실제로 발표되거나 벌어진 일
-  - 주식·코인·달러·금리에 주는 영향
-  - 앞으로 체크할 변수
-  - 개인 투자자가 볼 포인트
+  - 지금 이 섹터가 왜 움직이는가
+  - 핵심 뉴스와 시장 반응
+  - 대표 종목과 자금 흐름
+  - 거시 변수와 연결
+  - 다음 실적/정책 이벤트
 - 사람 느낌 규칙:
   - 도입부 첫 3문장 안에 독자 관점 문장 1개를 넣는다.
   - 본문 어딘가에 '왜 이게 중요한지'를 말로 풀어주는 문장을 넣는다.
@@ -248,14 +246,14 @@
   - 포인트를 한 줄로 줄이면
   - 다음으로 연결해서 보면
 - 반드시 살릴 말투 포인트:
-  - 왜 지금 이 이슈가 개인 투자자에게 중요한지 한 문장 설명
-  - 달러, 금리, 주식, 코인 중 최소 2개와 연결한 해석
-  - 다만/반면 같은 균형 문장
+  - 대표 기업 사례 1개 이상
+  - 섹터 흐름과 거시 변수 연결
+  - 독자가 다음에 체크할 일정 또는 변수
 - 현재 레퍼런스 기반 구조 규칙:
-  - 무슨 일이 있었는지 1문단 요약
-  - 왜 시장이 반응하는지 해석
-  - 주식, 달러, 금리, 코인 중 최소 2개와 연결
-  - 지금 단정할 수 없는 변수도 함께 표기
+  - 제목에서 핵심 키워드와 독자 질문을 함께 드러낼 것
+  - 도입 3문장 안에 왜 지금 읽어야 하는지 답할 것
+  - 본문 중간에 초보자용 정의 또는 기준점 1개 포함
+  - 끝부분에 다음 체크포인트와 내부링크 연결
 - 구조 참고 소스:
   - Investopedia: 검색 유입형 투자 설명글과 용어 해설
   - CoinDesk: 코인 뉴스와 거시/정책 해설의 결합
@@ -266,16 +264,15 @@
   - 독자 관점이 거의 보이지 않는 해설
   - 검색 키워드를 어색하게 반복하는 문장
 - 참고할 사람 느낌 예시:
-  - 도입: 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
-  - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
-  - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
+  - 도입: 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.
+  - 해설: 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.
+  - 마무리: 반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다.
 - 팩트체크:
-  - WTI/Brent 수치 재확인
-  - 공급 뉴스 원문 출처 확인
-  - 인플레이션/금리 연결 문장 점검
-- CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
+  - 나스닥/S&P/미국 증시 수치와 기준 시각 재확인
+  - 지수 하락/상승 원인을 한 문장으로 단정하지 않기
+  - 채권·달러·빅테크와의 연결 문장 교차 점검
+- CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Oman walks a diplomatic tightrope over Strait of Hormuz fees, creating a ‘blind spot’ for markets
-  - Oil prices little changed as US-Iran peace efforts hold - Reuters
-  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+  - When it comes to beating the stock market, no news really is good news
+  - Good vibes are masking a reset in markets
