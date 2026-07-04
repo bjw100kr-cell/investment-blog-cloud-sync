@@ -1,28 +1,12 @@
 {
-  "generated_at": "2026-07-03T17:04:22.861631+00:00",
+  "generated_at": "2026-07-04T09:10:34.001733+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "oil",
-      "trend_count": 1,
-      "traffic_score_sum": 1000,
-      "max_approx_traffic": 1000,
-      "trend_queries": [
-        "유조선"
-      ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 1200,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -30,21 +14,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6900,
+      "demand_signal_score": 7200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 57,
-      "source_count": 3,
+      "source_snapshot_score": 60,
+      "source_count": 4,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Trump says there is ‘nothing wrong’ with family’s crypto windfall",
-        "Bitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion",
-        "Bitcoin, ether traders aren't fully buying the bounce, options markets show"
+        "Bitcoin’s next parabolic run may need $1 trillion in fresh capital",
+        "This sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree",
+        "Trump says there is ‘nothing wrong’ with family’s crypto windfall"
       ]
     },
     {
@@ -54,17 +39,16 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4200,
+      "demand_signal_score": 3900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 30,
-      "source_count": 4,
+      "source_snapshot_score": 27,
+      "source_count": 3,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times World"
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -79,18 +63,46 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
+      "demand_signal_score": 2600,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 14,
+      "source_count": 4,
+      "source_names": [
+        "CoinDesk RSS",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus",
+        "Trading Day: Chips are down, and so are payrolls - Reuters",
+        "Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
       "demand_signal_score": 2000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 8,
-      "source_count": 1,
+      "source_count": 3,
       "source_names": [
-        "CoinDesk RSS"
+        "CNBC Top News",
+        "Financial Times YouTube",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus",
-        "Live updates: Bitcoin rises above $62,000 as the red hot semiconductor trade starts to fade"
+        "Oman walks a diplomatic tightrope over Strait of Hormuz fees, creating a ‘blind spot’ for markets",
+        "Oil prices little changed as US-Iran peace efforts hold - Reuters",
+        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
       ]
     }
   ],

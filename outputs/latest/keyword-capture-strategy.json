@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T17:04:22.861631+00:00",
+  "generated_at": "2026-07-04T09:10:34.001733+00:00",
   "items": [
     {
       "keyword": "fomc",
@@ -21,15 +21,14 @@
       },
       "capture_route": "breaking_to_evergreen",
       "capture_route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 4200,
+      "demand_signal_score": 3900,
       "trend_queries": [],
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times World"
+        "Reuters Markets via Google News RSS"
       ],
-      "search_intent_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "search_intent_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -58,14 +57,15 @@
       },
       "capture_route": "breaking_to_evergreen",
       "capture_route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 6900,
+      "demand_signal_score": 7200,
       "trend_queries": [],
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "NYT Business"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -95,12 +95,15 @@
       },
       "capture_route": "sector_hub_to_followups",
       "capture_route_description": "섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.",
-      "demand_signal_score": 2000,
+      "demand_signal_score": 2600,
       "trend_queries": [],
       "source_names": [
-        "CoinDesk RSS"
+        "CoinDesk RSS",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
-      "search_intent_angle": "섹터/세계 흐름 연결 해설 가능",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -130,15 +133,14 @@
       },
       "capture_route": "search_entry_to_internal_links",
       "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 1200,
-      "trend_queries": [
-        "유조선"
-      ],
+      "demand_signal_score": 2000,
+      "trend_queries": [],
       "source_names": [
+        "CNBC Top News",
         "Financial Times YouTube",
-        "Google Trends KR"
+        "Reuters Markets via Google News RSS"
       ],
-      "search_intent_angle": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음, 실제 급상승 검색어 반영 (유조선)",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -148,8 +150,8 @@
       ]
     },
     {
-      "keyword": "ai_growth_stocks",
-      "recommended_title": "AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담",
+      "keyword": "us_index_flow",
+      "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
       "pattern_name": "search_explainer",
       "pattern_rules": {
         "when_to_use": [
@@ -166,13 +168,13 @@
           "끝부분에 다음 체크포인트와 내부링크 연결"
         ]
       },
-      "capture_route": "sector_hub_to_followups",
-      "capture_route_description": "섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.",
+      "capture_route": "search_entry_to_internal_links",
+      "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
       "demand_signal_score": 0,
       "trend_queries": [],
       "source_names": [
         "Financial Times World",
-        "무역킹 Trade King YouTube"
+        "Reuters Markets via Google News RSS"
       ],
       "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "outline": [

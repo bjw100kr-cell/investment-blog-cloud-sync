@@ -3,7 +3,7 @@
 검색 유입을 빨리 만들기 위해 Search Console 검증 후 먼저 색인 확인할 URL과 내부링크 액션을 정리합니다.
 
 - target_daily_visitors: `200`
-- daily_traffic_projection: `262`
+- daily_traffic_projection: `347`
 - search_console_required: `True`
 
 ## Sitemaps
@@ -21,6 +21,10 @@
   - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
+- `medium` / `seo_ai_semiconductors_11` / 예상 `35`명: AI 반도체 주식 공급망 정리: 누가 수혜를 보나
+  - url: https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html
+  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F07%2Fai-5.html
+  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F07%2Fai-5.html
 - `medium` / `seo_us_index_flow_8` / 예상 `35`명: 미국 증시 오늘: 지금 투자자가 확인할 체크포인트 5가지
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_251.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_251.html

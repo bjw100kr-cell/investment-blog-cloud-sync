@@ -91,7 +91,7 @@
     "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유",
     "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지"
   ],
-  "summary_angle": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음, 실제 급상승 검색어 반영 (유조선)",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
   "outline": [
     "왜 지금 이 이슈가 중요한가",
     "실제로 발표되거나 벌어진 일",
@@ -108,11 +108,13 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
+    "CNBC Top News",
     "Financial Times YouTube",
-    "Google Trends KR"
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "유조선",
+    "Oman walks a diplomatic tightrope over Strait of Hormuz fees, creating a ‘blind spot’ for markets",
+    "Oil prices little changed as US-Iran peace efforts hold - Reuters",
     "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
@@ -176,11 +178,11 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 67.0,
-    "search_score": 21,
-    "timeliness_score": 7,
+    "total_score": 63.0,
+    "search_score": 13,
+    "timeliness_score": 12,
     "explanatory_score": 17,
-    "monetization_score": 15,
+    "monetization_score": 14,
     "risk_score": 7
   },
   "reference_editorial_pattern_name": "news_what_it_means",

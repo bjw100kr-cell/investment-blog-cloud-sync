@@ -87,12 +87,12 @@
 {
   "keyword": "seo_oil_10",
   "source_keyword": "oil",
-  "recommended_title": "국제유가 전망 초보자 가이드: 용어부터 시장 반응까지",
+  "recommended_title": "국제유가 전망이 주식과 코인에 미치는 영향",
   "alternate_titles": [
-    "국제유가 전망 초보자 가이드: 용어부터 시장 반응까지: 초보 투자자 기준으로 다시 보기",
-    "국제유가 전망 초보자 가이드: 용어부터 시장 반응까지: 지금 읽어야 하는 이유"
+    "국제유가 전망이 주식과 코인에 미치는 영향: 초보 투자자 기준으로 다시 보기",
+    "국제유가 전망이 주식과 코인에 미치는 영향: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지에서 이어지는 후속 글로, 기초 개념을 처음부터 이해하고 싶은 초보 독자",
+  "summary_angle": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지에서 이어지는 후속 글로, 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자",
   "outline": [
     "먼저 이 개념을 왜 알아야 하나",
     "핵심 구조를 가장 쉽게 풀어보기",
@@ -102,9 +102,9 @@
   ],
   "reference_takeaways": [
     "메인 연결 글: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
-    "검색 의도: 기초 개념을 처음부터 이해하고 싶은 초보 독자",
-    "수익화 목표: 광범위한 초보 검색 수요 흡수",
-    "검색어 후보: 국제유가 전망 초보자 가이드: 용어부터 시장 반응까지",
+    "검색 의도: 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자",
+    "수익화 목표: 검색 유입 누적과 첫 방문 독자 확보",
+    "검색어 후보: 국제유가 전망이 주식과 코인에 미치는 영향",
     "수요 신뢰도: existing_publish_queue - 기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
   ],
   "fact_checks": [
@@ -115,11 +115,12 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
   "source_names": [
+    "CNBC Top News",
     "Financial Times YouTube",
-    "Google Trends KR"
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "국제유가 전망 초보자 가이드: 용어부터 시장 반응까지"
+    "국제유가 전망이 주식과 코인에 미치는 영향"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -182,8 +183,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 88.5,
-    "search_score": 88.5,
+    "total_score": 104.5,
+    "search_score": 104.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
@@ -205,8 +206,8 @@
     "원자재",
     "거시경제"
   ],
-  "search_intent": "기초 개념을 처음부터 이해하고 싶은 초보 독자",
-  "monetization_goal": "광범위한 초보 검색 수요 흡수",
+  "search_intent": "뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자",
+  "monetization_goal": "검색 유입 누적과 첫 방문 독자 확보",
   "reader_search_queries": [],
   "demand_confidence": "existing_publish_queue",
   "demand_confidence_note": "기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."

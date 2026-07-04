@@ -1,18 +1,20 @@
 # Daily Traffic Goal
 
 - 목표: 하루 최소 `200`명 방문
-- 현재 예상 합계: `262`명
+- 현재 예상 합계: `347`명
 - 목표까지 부족분: `0`명
 - 상태: `estimated_on_track_measurement_missing`
 
 ## 200명 목표를 위한 오늘의 글 경로
 
-1. `fomc` FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 예상 `95`명 / 수요 `4200` / 품질 `pass`
+1. `fomc` FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 예상 `95`명 / 수요 `3900` / 품질 `pass`
    - action: 금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결
-2. `bitcoin` 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 예상 `95`명 / 수요 `6900` / 품질 `pass`
+2. `bitcoin` 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 예상 `95`명 / 수요 `7200` / 품질 `pass`
    - action: 코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행
-3. `ai_semiconductors` AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 예상 `72`명 / 수요 `2000` / 품질 `pass`
+3. `ai_semiconductors` AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 예상 `83`명 / 수요 `2600` / 품질 `pass`
    - action: 대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장
+4. `oil` 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지 / 예상 `74`명 / 수요 `2000` / 품질 `pass`
+   - action: 금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결
 
 ## 병목
 
@@ -30,7 +32,7 @@
 
 - `fomc` lane `macro` / 예상 `95`명 / ready `True` / quality `pass`
 - `bitcoin` lane `crypto` / 예상 `95`명 / ready `True` / quality `pass`
-  - crypto signal: Fear/Greed 21: Extreme Fear zone
-- `ai_semiconductors` lane `us-stocks` / 예상 `72`명 / ready `True` / quality `pass`
-- `oil` lane `macro` / 예상 `0`명 / ready `True` / quality `review_before_publish`
-- `ai_growth_stocks` lane `us-stocks` / 예상 `0`명 / ready `False` / quality `unknown`
+  - crypto signal: Fear/Greed 22: Extreme Fear zone
+- `ai_semiconductors` lane `us-stocks` / 예상 `83`명 / ready `True` / quality `pass`
+- `oil` lane `macro` / 예상 `74`명 / ready `True` / quality `pass`
+- `us_index_flow` lane `us-stocks` / 예상 `0`명 / ready `False` / quality `unknown`

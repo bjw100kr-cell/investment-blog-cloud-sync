@@ -1,8 +1,8 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-03T17:04:22.861631+00:00`
-- 수집 성공 소스: `13`
-- 수집 아이템 수: `104`
+- 생성 시각: `2026-07-04T09:10:34.001733+00:00`
+- 수집 성공 소스: `14`
+- 수집 아이템 수: `112`
 
 ## 소스 상태
 
@@ -15,7 +15,7 @@
 - `OK` CNBC Top News (rss): 8 items
 - `OK` Investing.com Crypto News (rss): 8 items
 - `OK` Financial Times Home (rss): 8 items
-- `SKIP` Reuters Markets via Google News RSS (rss): 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Areuters.com+markets&hl=en-US&gl=US&ceid=US%3Aen
+- `OK` Reuters Markets via Google News RSS (rss): 8 items
 - `OK` 무역킹 Trade King YouTube (youtube_channel): 8 items
 - `OK` MarketWatch Breaking News (rss): 8 items
 - `OK` Financial Times YouTube (youtube_channel): 8 items
@@ -29,7 +29,13 @@
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=1PQsHd1bgwg! This is most likely caused by:
 
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / Palantir Is Moving the Japanese Military
@@ -100,34 +106,47 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 57, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 30, source_count 4, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Financial Times World
-- `oil`: score 17, source_count 2, sources Financial Times YouTube, Google Trends KR
-- `ai_semiconductors`: score 8, source_count 1, sources CoinDesk RSS
-- `ai_growth_stocks`: score 6, source_count 2, sources Financial Times World, 무역킹 Trade King YouTube
-- `dollar`: score 3, source_count 1, sources Cointelegraph
-- `us_index_flow`: score 3, source_count 1, sources Financial Times Home
+- `bitcoin`: score 60, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
+- `fomc`: score 27, source_count 3, sources CoinDesk RSS, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 14, source_count 4, sources CoinDesk RSS, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `oil`: score 8, source_count 3, sources CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
+- `us_index_flow`: score 6, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
+- `dollar`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_big_tech`: score 4, source_count 2, sources MarketWatch Breaking News, NYT Business
+- `crypto_etf`: score 3, source_count 1, sources Cointelegraph
+- `jobs`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `ai_growth_stocks`: score 3, source_count 1, sources 무역킹 Trade King YouTube
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 57, headlines 17
+- `bitcoin`: score 60, headlines 18
+  - Bitcoin’s next parabolic run may need $1 trillion in fresh capital
+  - This sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree
   - Trump says there is ‘nothing wrong’ with family’s crypto windfall
-  - Bitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion
-  - Bitcoin, ether traders aren't fully buying the bounce, options markets show
-- `fomc`: score 30, headlines 7
+- `fomc`: score 27, headlines 6
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `oil`: score 17, headlines 2
-  - 유조선
-  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-- `ai_semiconductors`: score 8, headlines 2
+- `ai_semiconductors`: score 14, headlines 5
   - Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus
-  - Live updates: Bitcoin rises above $62,000 as the red hot semiconductor trade starts to fade
-- `ai_growth_stocks`: score 6, headlines 2
+  - Trading Day: Chips are down, and so are payrolls - Reuters
+  - Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters
+- `oil`: score 8, headlines 3
+  - Oman walks a diplomatic tightrope over Strait of Hormuz fees, creating a ‘blind spot’ for markets
+  - Oil prices little changed as US-Iran peace efforts hold - Reuters
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+- `us_index_flow`: score 6, headlines 2
+  - Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters
+  - Good vibes are masking a reset in markets
+- `dollar`: score 5, headlines 2
+  - Dollar set for biggest weekly drop since April after jobs data lowers Fed hike bets - Reuters
+  - Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.
+- `us_big_tech`: score 4, headlines 2
+  - Here’s what’s worth streaming in July 2026 on Netflix, Hulu, HBO Max and more
+  - Are the ‘MANGOS’ Stocks Already Turning Soft?
+- `ai_growth_stocks`: score 3, headlines 1
   - Palantir Is Moving the Japanese Military
-  - Top official recuses herself from NHS Palantir contract decision after business links
-- `dollar`: score 3, headlines 1
-  - Crypto Biz: Bitcoin maximalism meets the realities of capital markets
-- `us_index_flow`: score 3, headlines 1
-  - Surging Wall Street profit forecasts fuel fears of ‘earnings bubble’
+- `crypto_etf`: score 3, headlines 1
+  - Bitcoin, Ether extend relief rallies as extreme fear meets renewed ETF buying
+- `jobs`: score 3, headlines 1
+  - Trading Day: Chips are down, and so are payrolls - Reuters

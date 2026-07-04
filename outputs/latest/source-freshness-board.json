@@ -1,56 +1,47 @@
 {
-  "generated_at": "2026-07-03T17:04:27.361486+00:00",
-  "snapshot_generated_at": "2026-07-03T17:04:22.861631+00:00",
+  "generated_at": "2026-07-04T09:10:38.627094+00:00",
+  "snapshot_generated_at": "2026-07-04T09:10:34.001733+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 2,
+    "fresh": 3,
     "aging": 0,
-    "stale": 1,
+    "stale": 0,
     "unknown": 0
   },
   "items": [
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "keyword": "oil",
+      "title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-07-03",
-      "freshness_status": "stale",
-      "newest_evidence_iso": "2026-06-17T18:00:00+00:00",
-      "oldest_evidence_iso": "2026-03-18T18:00:00+00:00",
-      "newest_evidence_age_days": 16.0,
-      "source_count": 4,
-      "demand_signal_score": 4200,
-      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
-      "recovery_mode": "full_refresh_needed",
-      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
-      "recovery_command": "bash scripts/run_pipeline.sh",
+      "publish_date": "2026-07-04",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-07-03T02:05:00+00:00",
+      "oldest_evidence_iso": "2026-07-03T02:05:00+00:00",
+      "newest_evidence_age_days": 1.3,
+      "source_count": 3,
+      "demand_signal_score": 2000,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Can Kazakhstan’s oil boom survive Putin’s War? | FT Film",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
+          "title": "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film",
+          "source_name": "Financial Times YouTube",
+          "published": "90K views",
+          "published_iso": "90K views",
+          "link": "https://www.youtube.com/watch?v=ds1K-lN_U0g",
+          "source_type": "youtube_channel"
         },
         {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+          "title": "Oil prices little changed as US-Iran peace efforts hold - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Fri, 03 Jul 2026 02:05:00 GMT",
+          "published_iso": "2026-07-03T02:05:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ0NjRDBBT1J0ZC1KY0c5R1huTjYyNzk4NTg4VU1aa2dmMDVGeHNQcl92Tm1vY3FnQks5ZmE4bWU0YUpwdlFBZjYybVgwQ2FlU1U4TkFBWG9SbHZ6ejZiT0lYdTdVM21VR1JOVk05Qm0yb19pcjk2WEhyZUxjbmV2RklXcGNDVmF2ZURTWkQxNERESHBFcE1LN082a1lYc0MwNDJFUEQzM0J3WkNH?oc=5",
           "source_type": "rss"
         }
       ]
@@ -60,18 +51,26 @@
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-07-05",
+      "publish_date": "2026-07-06",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-03T10:41:52+00:00",
-      "oldest_evidence_iso": "2026-07-03T07:05:31+00:00",
-      "newest_evidence_age_days": 0.3,
-      "source_count": 1,
-      "demand_signal_score": 2000,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus",
+      "newest_evidence_iso": "2026-07-03T18:52:00+00:00",
+      "oldest_evidence_iso": "2026-07-02T21:11:28+00:00",
+      "newest_evidence_age_days": 0.6,
+      "source_count": 4,
+      "demand_signal_score": 2600,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
+        {
+          "title": "Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Fri, 03 Jul 2026 18:52:00 GMT",
+          "published_iso": "2026-07-03T18:52:00+00:00",
+          "link": "https://www.marketwatch.com/story/nvidia-is-betting-on-a-trillion-dollar-robotics-boom-here-is-the-hidden-way-to-trade-it-c5b10c4e?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
         {
           "title": "Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus",
           "source_name": "CoinDesk RSS",
@@ -81,11 +80,11 @@
           "source_type": "rss"
         },
         {
-          "title": "Live updates: Bitcoin rises above $62,000 as the red hot semiconductor trade starts to fade",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 03 Jul 2026 07:05:31 +0000",
-          "published_iso": "2026-07-03T07:05:31+00:00",
-          "link": "https://www.coindesk.com/tech/2026/07/03/live-updates-more-bitcoin-is-now-held-at-a-loss-than-at-a-profit",
+          "title": "Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Thu, 02 Jul 2026 23:11:39 GMT",
+          "published_iso": "2026-07-02T23:11:39+00:00",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmlSQU1CX2FPdk85U1ZHQjBSbHFXZDZ3VjUxNDg3THFOeUFyM0tiQURWczlyLUVxYm9QR0g5ZW5mcVA2bXVEc2QydjlQdkpfNHkxeTFzbXdxRkZVQ21lS2lXVVJQSktrWUVrY1pqUXdRN2VJdmpyWnRhT0ZncG1MT1RvZmpOcF9QcV91RXJ2SzBiQmpHd0ZHbkZNQzE?oc=5",
           "source_type": "rss"
         }
       ]
@@ -95,40 +94,40 @@
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-07-04",
+      "publish_date": "2026-07-05",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-03T16:03:41+00:00",
-      "oldest_evidence_iso": "2026-07-03T10:41:52+00:00",
+      "newest_evidence_iso": "2026-07-04T08:31:02+00:00",
+      "oldest_evidence_iso": "2026-07-04T03:54:18+00:00",
       "newest_evidence_age_days": 0.0,
-      "source_count": 3,
-      "demand_signal_score": 6900,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Crypto Biz: Bitcoin maximalism meets the realities of capital markets",
+      "source_count": 4,
+      "demand_signal_score": 7200,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Tim Draper denies moving Bitcoin, reiterates $250,000 BTC prediction",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Crypto Biz: Bitcoin maximalism meets the realities of capital markets",
+          "title": "Tim Draper denies moving Bitcoin, reiterates $250,000 BTC prediction",
           "source_name": "Cointelegraph",
-          "published": "Fri, 03 Jul 2026 16:03:41 +0000",
-          "published_iso": "2026-07-03T16:03:41+00:00",
-          "link": "https://cointelegraph.com/news/crypto-biz-bitcoin-maximalism-meets-capital-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Sat, 04 Jul 2026 08:31:02 +0000",
+          "published_iso": "2026-07-04T08:31:02+00:00",
+          "link": "https://cointelegraph.com/news/tim-draper-denies-moving-bitcoin-250k-btc-prediction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin price tags $62.3K nine-day high after global stocks hit historic record",
-          "source_name": "Cointelegraph",
-          "published": "Fri, 03 Jul 2026 15:11:30 +0000",
-          "published_iso": "2026-07-03T15:11:30+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-price-tags-623k-nine-day-high-after-global-stocks-hit-historic-record?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion",
+          "title": "Bitcoin’s next parabolic run may need $1 trillion in fresh capital",
           "source_name": "CoinDesk RSS",
-          "published": "Fri, 03 Jul 2026 11:45:33 +0000",
-          "published_iso": "2026-07-03T11:45:33+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/03/bitcoin-whales-bought-270-000-btc-in-two-weeks-even-as-etfs-bled-a-record-usd4-billion",
+          "published": "Sat, 04 Jul 2026 06:48:42 +0000",
+          "published_iso": "2026-07-04T06:48:42+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/04/bitcoin-s-next-parabolic-run-may-need-usd1-trillion-in-fresh-capital",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin profit and loss ratio falls to 43-month low",
+          "source_name": "Cointelegraph",
+          "published": "Sat, 04 Jul 2026 05:05:19 +0000",
+          "published_iso": "2026-07-04T05:05:19+00:00",
+          "link": "https://cointelegraph.com/news/bitcoin-realized-profit-loss-ratio-falls-to-lowest-level-since-2022-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ]

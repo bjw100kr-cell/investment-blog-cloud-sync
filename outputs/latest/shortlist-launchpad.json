@@ -1,101 +1,93 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords oil",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin oil",
   "cards": [
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-07-03",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Crypto bulls on firmer footing as U.S. rate-hike risk recedes"
-      ],
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
-      "hard_blocking_checks": []
-    },
-    {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "keyword": "oil",
+      "title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
       "publish_date": "2026-07-04",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Trump says there is ‘nothing wrong’ with family’s crypto windfall",
-        "Bitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion",
-        "Bitcoin, ether traders aren't fully buying the bounce, options markets show"
+        "Oman walks a diplomatic tightrope over Strait of Hormuz fees, creating a ‘blind spot’ for markets",
+        "Oil prices little changed as US-Iran peace efforts hold - Reuters",
+        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
       ],
       "recent_evidence": [
         {
-          "title": "Crypto Biz: Bitcoin maximalism meets the realities of capital markets",
+          "title": "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film",
+          "source_name": "Financial Times YouTube",
+          "published": "90K views",
+          "published_iso": "90K views",
+          "link": "https://www.youtube.com/watch?v=ds1K-lN_U0g",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "Oil prices little changed as US-Iran peace efforts hold - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Fri, 03 Jul 2026 02:05:00 GMT",
+          "published_iso": "2026-07-03T02:05:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ0NjRDBBT1J0ZC1KY0c5R1huTjYyNzk4NTg4VU1aa2dmMDVGeHNQcl92Tm1vY3FnQks5ZmE4bWU0YUpwdlFBZjYybVgwQ2FlU1U4TkFBWG9SbHZ6ejZiT0lYdTdVM21VR1JOVk05Qm0yb19pcjk2WEhyZUxjbmV2RklXcGNDVmF2ZURTWkQxNERESHBFcE1LN082a1lYc0MwNDJFUEQzM0J3WkNH?oc=5",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-oil.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%9C%A0%EA%B0%80-%EC%83%81%EC%8A%B9%EC%9D%B4-%EB%AC%BC%EA%B0%80%EC%99%80-%EC%A6%9D%EC%8B%9C%EC%97%90-%EB%B2%88%EC%A7%80%EB%8A%94-%EA%B2%BD%EB%A1%9C-%ED%88%AC%EC%9E%90%EC%9E%90%EA%B0%80-%EB%B3%BC-3%EA%B0%80%EC%A7%80.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords oil",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords oil",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword oil",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword oil --apply",
+      "hard_blocking_checks": []
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "publish_date": "2026-07-05",
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "ready_now": true,
+      "hero_image_selected": true,
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "Bitcoin’s next parabolic run may need $1 trillion in fresh capital",
+        "This sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree",
+        "Trump says there is ‘nothing wrong’ with family’s crypto windfall"
+      ],
+      "recent_evidence": [
+        {
+          "title": "Tim Draper denies moving Bitcoin, reiterates $250,000 BTC prediction",
           "source_name": "Cointelegraph",
-          "published": "Fri, 03 Jul 2026 16:03:41 +0000",
-          "published_iso": "2026-07-03T16:03:41+00:00",
-          "link": "https://cointelegraph.com/news/crypto-biz-bitcoin-maximalism-meets-capital-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Sat, 04 Jul 2026 08:31:02 +0000",
+          "published_iso": "2026-07-04T08:31:02+00:00",
+          "link": "https://cointelegraph.com/news/tim-draper-denies-moving-bitcoin-250k-btc-prediction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin price tags $62.3K nine-day high after global stocks hit historic record",
-          "source_name": "Cointelegraph",
-          "published": "Fri, 03 Jul 2026 15:11:30 +0000",
-          "published_iso": "2026-07-03T15:11:30+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-price-tags-623k-nine-day-high-after-global-stocks-hit-historic-record?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion",
+          "title": "Bitcoin’s next parabolic run may need $1 trillion in fresh capital",
           "source_name": "CoinDesk RSS",
-          "published": "Fri, 03 Jul 2026 11:45:33 +0000",
-          "published_iso": "2026-07-03T11:45:33+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/03/bitcoin-whales-bought-270-000-btc-in-two-weeks-even-as-etfs-bled-a-record-usd4-billion",
+          "published": "Sat, 04 Jul 2026 06:48:42 +0000",
+          "published_iso": "2026-07-04T06:48:42+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/04/bitcoin-s-next-parabolic-run-may-need-usd1-trillion-in-fresh-capital",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin profit and loss ratio falls to 43-month low",
+          "source_name": "Cointelegraph",
+          "published": "Sat, 04 Jul 2026 05:05:19 +0000",
+          "published_iso": "2026-07-04T05:05:19+00:00",
+          "link": "https://cointelegraph.com/news/bitcoin-realized-profit-loss-ratio-falls-to-lowest-level-since-2022-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ],
@@ -116,18 +108,27 @@
     {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "publish_date": "2026-07-05",
+      "publish_date": "2026-07-06",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
         "Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus",
-        "Live updates: Bitcoin rises above $62,000 as the red hot semiconductor trade starts to fade"
+        "Trading Day: Chips are down, and so are payrolls - Reuters",
+        "Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters"
       ],
       "recent_evidence": [
+        {
+          "title": "Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Fri, 03 Jul 2026 18:52:00 GMT",
+          "published_iso": "2026-07-03T18:52:00+00:00",
+          "link": "https://www.marketwatch.com/story/nvidia-is-betting-on-a-trillion-dollar-robotics-boom-here-is-the-hidden-way-to-trade-it-c5b10c4e?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
         {
           "title": "Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus",
           "source_name": "CoinDesk RSS",
@@ -137,11 +138,11 @@
           "source_type": "rss"
         },
         {
-          "title": "Live updates: Bitcoin rises above $62,000 as the red hot semiconductor trade starts to fade",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 03 Jul 2026 07:05:31 +0000",
-          "published_iso": "2026-07-03T07:05:31+00:00",
-          "link": "https://www.coindesk.com/tech/2026/07/03/live-updates-more-bitcoin-is-now-held-at-a-loss-than-at-a-profit",
+          "title": "Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Thu, 02 Jul 2026 23:11:39 GMT",
+          "published_iso": "2026-07-02T23:11:39+00:00",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmlSQU1CX2FPdk85U1ZHQjBSbHFXZDZ3VjUxNDg3THFOeUFyM0tiQURWczlyLUVxYm9QR0g5ZW5mcVA2bXVEc2QydjlQdkpfNHkxeTFzbXdxRkZVQ21lS2lXVVJQSktrWUVrY1pqUXdRN2VJdmpyWnRhT0ZncG1MT1RvZmpOcF9QcV91RXJ2SzBiQmpHd0ZHbkZNQzE?oc=5",
           "source_type": "rss"
         }
       ],

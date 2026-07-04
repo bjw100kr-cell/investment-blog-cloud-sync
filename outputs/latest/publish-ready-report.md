@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-07-03T17:04:25.311613+00:00`
+- generated_at: `2026-07-04T09:10:36.519000+00:00`
 
 ## fomc
 
@@ -36,4 +36,4 @@
 - html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-유가-상승이-물가와-증시에-번지는-경로-투자자가-볼-3가지.html
 - meta_title: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
 - meta_description: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
-- follow_up_post_count: 0
+- follow_up_post_count: 3

@@ -85,43 +85,45 @@
 
 ```json
 {
-  "keyword": "seo_oil_7",
-  "source_keyword": "oil",
-  "recommended_title": "국제유가 전망이 주식과 코인에 미치는 영향",
+  "keyword": "seo_ai_semiconductors_7",
+  "source_keyword": "ai_semiconductors",
+  "recommended_title": "AI 반도체 주식 관련 대표 종목 한눈에 보기",
   "alternate_titles": [
-    "국제유가 전망이 주식과 코인에 미치는 영향: 초보 투자자 기준으로 다시 보기",
-    "국제유가 전망이 주식과 코인에 미치는 영향: 지금 읽어야 하는 이유"
+    "AI 반도체 주식 관련 대표 종목 한눈에 보기: 초보 투자자 기준으로 다시 보기",
+    "AI 반도체 주식 관련 대표 종목 한눈에 보기: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지에서 이어지는 후속 글로, 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자",
+  "summary_angle": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지에서 이어지는 후속 글로, 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자",
   "outline": [
-    "먼저 이 개념을 왜 알아야 하나",
-    "핵심 구조를 가장 쉽게 풀어보기",
-    "실전 투자에서는 어디를 같이 보면 좋은가",
-    "많이 헷갈리는 포인트 정리",
-    "다음에 이어서 볼 글"
+    "왜 이 섹터를 따로 봐야 하나",
+    "대표 기업과 지수/ETF 먼저 정리",
+    "실적과 공급망에서 핵심 포인트 보기",
+    "거시 변수와 같이 봐야 할 것",
+    "다음 체크포인트"
   ],
   "reference_takeaways": [
-    "메인 연결 글: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
-    "검색 의도: 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자",
-    "수익화 목표: 검색 유입 누적과 첫 방문 독자 확보",
-    "검색어 후보: 국제유가 전망이 주식과 코인에 미치는 영향",
+    "메인 연결 글: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+    "검색 의도: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자",
+    "수익화 목표: 섹터형 검색 유입 누적",
+    "검색어 후보: AI 반도체 주식 관련 대표 종목 한눈에 보기",
     "수요 신뢰도: existing_publish_queue - 기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
   ],
   "fact_checks": [
-    "관련 공식 발표문과 날짜 재확인",
-    "달러, 금리, 주식, 코인 연결 문장이 과장되지 않았는지 점검",
-    "초보 독자가 오해할 수 있는 용어에 짧은 설명 추가"
+    "대표 기업명과 티커 재확인",
+    "실적/가이던스/공급망 숫자 출처 점검",
+    "섹터 전체 일반화 표현 과장 여부 점검"
   ],
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
-  "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
+  "cta": "대표 종목, 실적 일정, 공급망 글까지 이어서 보면 섹터 흐름이 더 잘 보입니다.",
   "source_names": [
-    "Financial Times YouTube",
-    "Google Trends KR"
+    "CoinDesk RSS",
+    "MarketWatch Breaking News",
+    "NYT Business",
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "국제유가 전망이 주식과 코인에 미치는 영향"
+    "AI 반도체 주식 관련 대표 종목 한눈에 보기"
   ],
-  "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
+  "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
     "도입부 첫 3문장 안에 독자 관점 문장 1개를 넣는다.",
     "본문 어딘가에 '왜 이게 중요한지'를 말로 풀어주는 문장을 넣는다.",
@@ -172,27 +174,27 @@
     "minimum_interpretation_hits": 2
   },
   "must_include_style_points": [
-    "왜 지금 이 이슈가 개인 투자자에게 중요한지 한 문장 설명",
-    "달러, 금리, 주식, 코인 중 최소 2개와 연결한 해석",
-    "다만/반면 같은 균형 문장"
+    "대표 기업 사례 1개 이상",
+    "섹터 흐름과 거시 변수 연결",
+    "독자가 다음에 체크할 일정 또는 변수"
   ],
   "voice_examples": {
-    "intro_example": "미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.",
-    "analysis_example": "쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.",
-    "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
+    "intro_example": "반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.",
+    "analysis_example": "이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.",
+    "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 94.5,
-    "search_score": 94.5,
+    "total_score": 110.5,
+    "search_score": 110.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-유가-상승이-물가와-증시에-번지는-경로-투자자가-볼-3가지.html",
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html",
     "secondary": [
-      "site-foundation/hub-macro.md",
+      "site-foundation/hub-global-sector.md",
       "site-foundation/about.md",
       "site-foundation/disclosure.md"
     ]
@@ -201,12 +203,13 @@
     "투자",
     "경제",
     "시장해설",
-    "유가",
-    "원자재",
-    "거시경제"
+    "AI",
+    "반도체",
+    "섹터분석",
+    "미국증시"
   ],
-  "search_intent": "뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자",
-  "monetization_goal": "검색 유입 누적과 첫 방문 독자 확보",
+  "search_intent": "섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자",
+  "monetization_goal": "섹터형 검색 유입 누적",
   "reader_search_queries": [],
   "demand_confidence": "existing_publish_queue",
   "demand_confidence_note": "기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
