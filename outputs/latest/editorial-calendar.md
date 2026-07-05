@@ -1,6 +1,6 @@
 # 7일 편집 캘린더
 
-- 생성 시각: `2026-07-05T09:48:26.749192+00:00`
+- 생성 시각: `2026-07-05T15:56:40.897941+00:00`
 - 목적: stale 뉴스는 직접 발행에서 빼고, 거시경제·코인·미국주식·세계 흐름 레인을 주간 단위로 균형 있게 유지
 
 ## 레인 커버리지
@@ -12,16 +12,16 @@
 
 ## 이번 주 배치 메모
 
-- lane `macro` / keyword `fomc` / mode `direct` / freshness `stale` / target_share `0.3`
+- lane `macro` / keyword `fomc` / mode `direct` / freshness `unknown` / target_share `0.3`
 - lane `crypto` / keyword `bitcoin` / mode `direct` / freshness `fresh` / target_share `0.3`
-- lane `us-stocks` / keyword `ai_semiconductors` / mode `direct` / freshness `unknown` / target_share `0.2`
-- lane `world-flow` / keyword `china` / mode `direct` / freshness `unknown` / target_share `0.2`
+- lane `us-stocks` / keyword `ai_semiconductors` / mode `direct` / freshness `fresh` / target_share `0.2`
+- lane `world-flow` / keyword `china` / mode `direct` / freshness `fresh` / target_share `0.2`
 
 ## Day 1 · 2026-07-05 · lane_focus_macro
 
 - 브랜드 레인: 거시경제
 - planning_mode: direct
-- freshness_status: stale
+- freshness_status: unknown
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: fomc
 - 작업 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
@@ -30,7 +30,7 @@
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크 대상: Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
 - 근거 소스/연결 키워드: Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- 발행 메모: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
+- 발행 메모: 당일 이슈 해설형 글
 
 ## Day 2 · 2026-07-06 · lane_focus_crypto
 
@@ -51,31 +51,31 @@
 
 - 브랜드 레인: 미국주식
 - planning_mode: direct
-- freshness_status: unknown
+- freshness_status: fresh
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: ai_semiconductors
 - 작업 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 글 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (반도체)
+- 글 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: Google Trends KR, NYT Business, Reuters Markets via Google News RSS
-- 근거 소스/연결 키워드: Google Trends KR, NYT Business, Reuters Markets via Google News RSS
-- 발행 메모: 당일 이슈 해설형 글
+- 내부링크 대상: NYT Business, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: NYT Business, Reuters Markets via Google News RSS
+- 발행 메모: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
 
 ## Day 4 · 2026-07-08 · lane_focus_world-flow
 
 - 브랜드 레인: 세계 흐름
 - planning_mode: direct
-- freshness_status: unknown
+- freshness_status: fresh
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: china
 - 작업 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 글 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 글 각도: 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: Financial Times Home, Financial Times World
-- 근거 소스/연결 키워드: Financial Times Home, Financial Times World
-- 발행 메모: 당일 이슈 해설형 글
+- 내부링크 대상: Financial Times World
+- 근거 소스/연결 키워드: Financial Times World
+- 발행 메모: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
 
 ## Day 5 · 2026-07-09 · evergreen_support
 

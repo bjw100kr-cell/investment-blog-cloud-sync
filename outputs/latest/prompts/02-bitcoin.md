@@ -117,8 +117,8 @@
     "Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time",
     "Bitcoin jumps above $63,000, reversing end-June losses",
     "Bitcoin experts split over plan to freeze Satoshi's 1.1 million bitcoin as quantum threat grows",
-    "How ethical hackers with just a $3,000 server found a flaw that could've put $70 billion in crypto at risk",
-    "Why bitcoin's disconnect from record-high stocks won't last"
+    "South Africa proposes crypto tax guidance under existing framework",
+    "Here’s what happened in crypto today"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -181,8 +181,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 87.0,
-    "search_score": 29,
+    "total_score": 84.0,
+    "search_score": 26,
     "timeliness_score": 20,
     "explanatory_score": 17,
     "monetization_score": 15,

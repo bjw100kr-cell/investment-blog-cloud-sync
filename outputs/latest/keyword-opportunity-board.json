@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-05T09:48:26.749192+00:00",
+  "generated_at": "2026-07-05T15:56:40.897941+00:00",
   "summary": {
     "breaking_candidate_count": 5,
     "seo_followup_count": 6,
-    "watchlist_count": 4
+    "watchlist_count": 2
   },
   "breaking_candidates": [
     {
@@ -32,9 +32,9 @@
       "keyword": "bitcoin",
       "suggested_title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "format": "crypto_analysis",
-      "total_score": 87.0,
-      "search_score": 29,
-      "demand_signal_score": 5700,
+      "total_score": 84.0,
+      "search_score": 26,
+      "demand_signal_score": 4400,
       "trend_queries": [],
       "source_names": [
         "CoinDesk RSS",
@@ -52,26 +52,23 @@
     },
     {
       "rank": 3,
-      "keyword": "ai_semiconductors",
-      "suggested_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "keyword": "us_index_flow",
+      "suggested_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
       "format": "sector_analysis",
-      "total_score": 85.0,
-      "search_score": 30,
-      "demand_signal_score": 20200,
-      "trend_queries": [
-        "반도체"
-      ],
+      "total_score": 59.0,
+      "search_score": 8,
+      "demand_signal_score": 0,
+      "trend_queries": [],
       "source_names": [
-        "Google Trends KR",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "Financial Times Home",
+        "MarketWatch Breaking News"
       ],
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (반도체)",
+      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "urgency": "watch",
-      "operator_action": "검색 반응을 더 본 뒤 제목형 후속 글로 빼는 편이 좋습니다.",
-      "queue_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "queue_publish_date": "2026-07-07",
-      "queue_publish_bucket": "this_week",
+      "operator_action": "카테고리 보강용 후보로 계속 추적합니다.",
+      "queue_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "queue_publish_date": "",
+      "queue_publish_bucket": "later",
       "ready_to_upload": true
     },
     {
@@ -79,15 +76,14 @@
       "keyword": "china",
       "suggested_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
       "format": "macro_explainer",
-      "total_score": 55.0,
-      "search_score": 8,
+      "total_score": 45.0,
+      "search_score": 4,
       "demand_signal_score": 0,
       "trend_queries": [],
       "source_names": [
-        "Financial Times Home",
         "Financial Times World"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "섹터/세계 흐름 연결 해설 가능",
       "urgency": "watch",
       "operator_action": "카테고리 보강용 후보로 계속 추적합니다.",
       "queue_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
@@ -97,18 +93,18 @@
     },
     {
       "rank": 5,
-      "keyword": "us_big_tech",
-      "suggested_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "keyword": "ai_semiconductors",
+      "suggested_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "format": "sector_analysis",
-      "total_score": 55.0,
-      "search_score": 7,
+      "total_score": 57.0,
+      "search_score": 8,
       "demand_signal_score": 0,
       "trend_queries": [],
       "source_names": [
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
       "urgency": "watch",
       "operator_action": "카테고리 보강용 후보로 계속 추적합니다.",
       "queue_title": "",
@@ -157,7 +153,7 @@
       "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
       "role": "evergreen_seo",
       "post_type": "evergreen_explainer",
-      "priority_score": 125.5,
+      "priority_score": 122.5,
       "search_intent": "가격 기사보다 구조와 기본 개념을 먼저 이해하고 싶은 초보 독자",
       "monetization_goal": "초보 검색 유입과 긴 체류시간 확보",
       "cta_focus": "코인 허브와 규제/ETF 글 연결"
@@ -168,47 +164,29 @@
       "title": "비트코인 핵심 흐름 ETF·규제 이슈 정리",
       "role": "follow_up",
       "post_type": "follow_up_analysis",
-      "priority_score": 122.5,
+      "priority_score": 119.5,
       "search_intent": "뉴스가 복잡해서 규제와 ETF 이슈만 따로 정리해 보고 싶은 독자",
       "monetization_goal": "반복 방문과 뉴스형 검색 유입",
       "cta_focus": "당일 코인 해설 글과 초보 가이드 연결"
     },
     {
       "rank": 6,
-      "source_keyword": "ai_semiconductors",
-      "title": "AI 반도체 주식 관련 대표 종목 한눈에 보기",
+      "source_keyword": "bitcoin",
+      "title": "비트코인 핵심 흐름 FAQ 10개: 많이 헷갈리는 질문 정리",
       "role": "evergreen_seo",
-      "post_type": "evergreen_sector_guide",
-      "priority_score": 119.5,
-      "search_intent": "섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자",
-      "monetization_goal": "섹터형 검색 유입 누적",
-      "cta_focus": "대표 종목 글과 허브 글 연결"
+      "post_type": "evergreen_explainer",
+      "priority_score": 116.5,
+      "search_intent": "짧은 질문 단위로 빠르게 답을 찾고 싶은 독자",
+      "monetization_goal": "롱테일 검색 키워드 확보",
+      "cta_focus": "기초 글과 주간 정리 글 연결"
     }
   ],
   "query_watchlist": [
     {
-      "query": "AI 반도체 주식",
-      "mapped_keyword": "ai_semiconductors",
-      "query_type": "mapped_keyword_demand",
-      "demand_signal_score": 20200,
-      "regions": [
-        "KR"
-      ],
-      "reader_search_queries": [
-        "AI 반도체 주식",
-        "엔비디아 주가 영향",
-        "반도체 사이클 전망",
-        "AI 데이터센터 수혜주",
-        "반도체"
-      ],
-      "suggested_title": "AI 반도체 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "note": "기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다."
-    },
-    {
       "query": "비트코인 전망",
       "mapped_keyword": "bitcoin",
       "query_type": "mapped_keyword_demand",
-      "demand_signal_score": 5700,
+      "demand_signal_score": 4400,
       "regions": [],
       "reader_search_queries": [
         "비트코인 전망",
@@ -233,17 +211,6 @@
       ],
       "suggested_title": "FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리",
       "note": "기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다."
-    },
-    {
-      "query": "주식 투자",
-      "mapped_keyword": "",
-      "query_type": "unmatched_market_trend",
-      "demand_signal_score": 1000,
-      "regions": [
-        "KR"
-      ],
-      "suggested_title": "주식 투자 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
     }
   ]
 }

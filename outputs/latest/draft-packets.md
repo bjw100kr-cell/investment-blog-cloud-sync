@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-07-05T09:48:26.749192+00:00`
+- 생성 시각: `2026-07-05T15:56:40.897941+00:00`
 
 ## 1. fomc
 
@@ -76,7 +76,7 @@
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 점수: 87.0
+- 점수: 84.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -139,19 +139,19 @@
   - Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time
   - Bitcoin jumps above $63,000, reversing end-June losses
   - Bitcoin experts split over plan to freeze Satoshi's 1.1 million bitcoin as quantum threat grows
-  - How ethical hackers with just a $3,000 server found a flaw that could've put $70 billion in crypto at risk
-  - Why bitcoin's disconnect from record-high stocks won't last
+  - South Africa proposes crypto tax guidance under existing framework
+  - Here’s what happened in crypto today
 
-## 3. ai_semiconductors
+## 3. us_index_flow
 
-- 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (반도체)
-- 점수: 85.0
+- 추천 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+- 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 59.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -200,21 +200,20 @@
   - 해설: 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.
   - 마무리: 반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다.
 - 팩트체크:
-  - 기업 실적/가이던스 수치 원문 확인
-  - 반도체 섹터 전반 일반화 과장 여부 점검
-  - 대표 종목 티커와 실적 날짜 재확인
+  - 나스닥/S&P/미국 증시 수치와 기준 시각 재확인
+  - 지수 하락/상승 원인을 한 문장으로 단정하지 않기
+  - 채권·달러·빅테크와의 연결 문장 교차 점검
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - 반도체
-  - Trading Day: Chips are down, and so are payrolls - Reuters
-  - Are the ‘MANGOS’ Stocks Already Turning Soft?
+  - How Bending Spoons built a $23bn tech empire from struggling brands
+  - Why the stock market’s red-hot momentum trade might be headed for a violent unwind this month
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 55.0
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 45.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -274,5 +273,4 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Wall Street banks recover in China amid trading boom
-  - China cools on overseas publication of scientific research
+  - Data centres are a crucial test of US industrial resolve

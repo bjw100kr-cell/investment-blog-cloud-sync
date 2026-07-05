@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T09:48:26.749192+00:00",
+  "generated_at": "2026-07-05T15:56:40.897941+00:00",
   "summary": {
     "ok_sources": 14,
     "item_count": 112
@@ -152,23 +152,8 @@
   ],
   "ranked_keywords": [
     {
-      "keyword": "ai_semiconductors",
-      "score": 110,
-      "source_count": 3,
-      "sources": [
-        "Google Trends KR",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "반도체",
-        "Trading Day: Chips are down, and so are payrolls - Reuters",
-        "Are the ‘MANGOS’ Stocks Already Turning Soft?"
-      ]
-    },
-    {
       "keyword": "bitcoin",
-      "score": 45,
+      "score": 32,
       "source_count": 4,
       "sources": [
         "CoinDesk RSS",
@@ -180,8 +165,8 @@
         "Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time",
         "Bitcoin jumps above $63,000, reversing end-June losses",
         "Bitcoin experts split over plan to freeze Satoshi's 1.1 million bitcoin as quantum threat grows",
-        "How ethical hackers with just a $3,000 server found a flaw that could've put $70 billion in crypto at risk",
-        "Why bitcoin's disconnect from record-high stocks won't last"
+        "South Africa proposes crypto tax guidance under existing framework",
+        "Here’s what happened in crypto today"
       ]
     },
     {
@@ -212,19 +197,6 @@
       ]
     },
     {
-      "keyword": "china",
-      "score": 6,
-      "source_count": 2,
-      "sources": [
-        "Financial Times Home",
-        "Financial Times World"
-      ],
-      "sample_titles": [
-        "Wall Street banks recover in China amid trading boom",
-        "China cools on overseas publication of scientific research"
-      ]
-    },
-    {
       "keyword": "jobs",
       "score": 6,
       "source_count": 1,
@@ -237,16 +209,40 @@
       ]
     },
     {
-      "keyword": "oil",
+      "keyword": "us_index_flow",
       "score": 5,
       "source_count": 2,
       "sources": [
         "Financial Times Home",
-        "Financial Times YouTube"
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Oil market opens up as retail traders pour in",
-        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
+        "How Bending Spoons built a $23bn tech empire from struggling brands",
+        "Why the stock market’s red-hot momentum trade might be headed for a violent unwind this month"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "score": 5,
+      "source_count": 2,
+      "sources": [
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Trading Day: Chips are down, and so are payrolls - Reuters",
+        "Are the ‘MANGOS’ Stocks Already Turning Soft?"
+      ]
+    },
+    {
+      "keyword": "treasury_yields",
+      "score": 4,
+      "source_count": 1,
+      "sources": [
+        "CoinDesk RSS"
+      ],
+      "sample_titles": [
+        "Collateral, not yield, will decide which stablecoins win"
       ]
     },
     {
@@ -263,14 +259,16 @@
       ]
     },
     {
-      "keyword": "us_index_flow",
-      "score": 3,
-      "source_count": 1,
+      "keyword": "oil",
+      "score": 4,
+      "source_count": 2,
       "sources": [
-        "Financial Times Home"
+        "Financial Times YouTube",
+        "NYT Business"
       ],
       "sample_titles": [
-        "How Bending Spoons built a $23bn tech empire from struggling brands"
+        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film",
+        "OPEC Plus Pledges to Pump More Even as Oil Prices Fall"
       ]
     },
     {
@@ -296,43 +294,22 @@
       ]
     },
     {
-      "keyword": "cpi",
-      "score": 2,
+      "keyword": "china",
+      "score": 3,
       "source_count": 1,
       "sources": [
-        "MarketWatch Breaking News"
+        "Financial Times World"
       ],
       "sample_titles": [
-        "Why June’s jobs and inflation data are bullish for bonds"
-      ]
-    },
-    {
-      "keyword": "treasury_yields",
-      "score": 2,
-      "source_count": 1,
-      "sources": [
-        "MarketWatch Breaking News"
-      ],
-      "sample_titles": [
-        "Where can I invest my kid’s ‘Trump account’ money? The Treasury Department just answered that question."
+        "Data centres are a crucial test of US industrial resolve"
       ]
     }
   ],
   "topic_candidates": [
     {
-      "keyword": "ai_semiconductors",
-      "score": 110,
-      "headline_count": 3,
-      "sample_titles": [
-        "반도체",
-        "Trading Day: Chips are down, and so are payrolls - Reuters",
-        "Are the ‘MANGOS’ Stocks Already Turning Soft?"
-      ]
-    },
-    {
       "keyword": "bitcoin",
-      "score": 45,
-      "headline_count": 13,
+      "score": 32,
+      "headline_count": 10,
       "sample_titles": [
         "Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time",
         "Bitcoin jumps above $63,000, reversing end-June losses",
@@ -347,15 +324,6 @@
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
         "Federal Reserve issues FOMC statement"
-      ]
-    },
-    {
-      "keyword": "china",
-      "score": 6,
-      "headline_count": 2,
-      "sample_titles": [
-        "Wall Street banks recover in China amid trading boom",
-        "China cools on overseas publication of scientific research"
       ]
     },
     {
@@ -377,12 +345,30 @@
       ]
     },
     {
-      "keyword": "oil",
+      "keyword": "ai_semiconductors",
       "score": 5,
       "headline_count": 2,
       "sample_titles": [
-        "Oil market opens up as retail traders pour in",
-        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
+        "Trading Day: Chips are down, and so are payrolls - Reuters",
+        "Are the ‘MANGOS’ Stocks Already Turning Soft?"
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "score": 5,
+      "headline_count": 2,
+      "sample_titles": [
+        "How Bending Spoons built a $23bn tech empire from struggling brands",
+        "Why the stock market’s red-hot momentum trade might be headed for a violent unwind this month"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "score": 4,
+      "headline_count": 2,
+      "sample_titles": [
+        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film",
+        "OPEC Plus Pledges to Pump More Even as Oil Prices Fall"
       ]
     },
     {
@@ -395,11 +381,27 @@
       ]
     },
     {
+      "keyword": "treasury_yields",
+      "score": 4,
+      "headline_count": 1,
+      "sample_titles": [
+        "Collateral, not yield, will decide which stablecoins win"
+      ]
+    },
+    {
       "keyword": "ai_growth_stocks",
       "score": 3,
       "headline_count": 1,
       "sample_titles": [
         "Palantir Is Moving the Japanese Military"
+      ]
+    },
+    {
+      "keyword": "china",
+      "score": 3,
+      "headline_count": 1,
+      "sample_titles": [
+        "Data centres are a crucial test of US industrial resolve"
       ]
     },
     {
@@ -409,38 +411,14 @@
       "sample_titles": [
         "Dollar set for biggest weekly drop since April after jobs data lowers Fed hike bets - Reuters"
       ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "score": 3,
-      "headline_count": 1,
-      "sample_titles": [
-        "How Bending Spoons built a $23bn tech empire from struggling brands"
-      ]
-    },
-    {
-      "keyword": "cpi",
-      "score": 2,
-      "headline_count": 1,
-      "sample_titles": [
-        "Why June’s jobs and inflation data are bullish for bonds"
-      ]
-    },
-    {
-      "keyword": "treasury_yields",
-      "score": 2,
-      "headline_count": 1,
-      "sample_titles": [
-        "Where can I invest my kid’s ‘Trump account’ money? The Treasury Department just answered that question."
-      ]
     }
   ],
   "naver_datalab": null,
   "items": [
     {
-      "title": "주식 투자",
+      "title": "셰프",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sun, 5 Jul 2026 01:40:00 -0700",
+      "published": "Sun, 5 Jul 2026 07:50:00 -0700",
       "description": "",
       "approx_traffic": "1000+",
       "source_id": "google_trends_kr",
@@ -450,9 +428,21 @@
       "source_weight": 5
     },
     {
-      "title": "구축함",
+      "title": "파산",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sun, 5 Jul 2026 01:00:00 -0700",
+      "published": "Sun, 5 Jul 2026 06:50:00 -0700",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "브라질 노르웨이",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 5 Jul 2026 06:50:00 -0700",
       "description": "",
       "approx_traffic": "200+",
       "source_id": "google_trends_kr",
@@ -462,11 +452,11 @@
       "source_weight": 5
     },
     {
-      "title": "슈퍼 태풍",
+      "title": "대전 도시철도 2호선",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sun, 5 Jul 2026 00:50:00 -0700",
+      "published": "Sun, 5 Jul 2026 06:40:00 -0700",
       "description": "",
-      "approx_traffic": "10000+",
+      "approx_traffic": "200+",
       "source_id": "google_trends_kr",
       "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
@@ -474,9 +464,9 @@
       "source_weight": 5
     },
     {
-      "title": "건강",
+      "title": "이엘",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sun, 5 Jul 2026 00:00:00 -0700",
+      "published": "Sun, 5 Jul 2026 06:10:00 -0700",
       "description": "",
       "approx_traffic": "1000+",
       "source_id": "google_trends_kr",
@@ -486,45 +476,9 @@
       "source_weight": 5
     },
     {
-      "title": "복권",
+      "title": "강회장",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sun, 5 Jul 2026 00:00:00 -0700",
-      "description": "",
-      "approx_traffic": "5000+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "거스 히딩크",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 4 Jul 2026 23:50:00 -0700",
-      "description": "",
-      "approx_traffic": "20000+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "반도체",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 4 Jul 2026 23:50:00 -0700",
-      "description": "",
-      "approx_traffic": "20000+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "김중남",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 4 Jul 2026 23:50:00 -0700",
+      "published": "Sun, 5 Jul 2026 06:00:00 -0700",
       "description": "",
       "approx_traffic": "500+",
       "source_id": "google_trends_kr",
@@ -534,23 +488,35 @@
       "source_weight": 5
     },
     {
-      "title": "msi bracket",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sun, 5 Jul 2026 02:10:00 -0700",
+      "title": "이하늘",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 5 Jul 2026 05:50:00 -0700",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "전국학교비정규직노동조합",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 5 Jul 2026 05:50:00 -0700",
       "description": "",
       "approx_traffic": "200+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
       "source_type": "rss",
       "source_weight": 5
     },
     {
-      "title": "cheyenne water system bacteria issue",
+      "title": "charles leclerc",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sun, 5 Jul 2026 01:40:00 -0700",
+      "published": "Sun, 5 Jul 2026 08:30:00 -0700",
       "description": "",
-      "approx_traffic": "500+",
+      "approx_traffic": "2000+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -558,45 +524,9 @@
       "source_weight": 5
     },
     {
-      "title": "flood watch",
+      "title": "max verstappen",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sun, 5 Jul 2026 01:30:00 -0700",
-      "description": "",
-      "approx_traffic": "5000+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "mushoku tensei season 3",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sun, 5 Jul 2026 00:50:00 -0700",
-      "description": "",
-      "approx_traffic": "100+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "bart",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sun, 5 Jul 2026 00:10:00 -0700",
-      "description": "",
-      "approx_traffic": "100+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "xinjiang weather",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 4 Jul 2026 23:50:00 -0700",
+      "published": "Sun, 5 Jul 2026 08:30:00 -0700",
       "description": "",
       "approx_traffic": "1000+",
       "source_id": "google_trends_us",
@@ -606,9 +536,21 @@
       "source_weight": 5
     },
     {
-      "title": "msi 2026",
+      "title": "world cup schedule",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 4 Jul 2026 23:50:00 -0700",
+      "published": "Sun, 5 Jul 2026 08:10:00 -0700",
+      "description": "",
+      "approx_traffic": "50000+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "iphone 17 pro",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sun, 5 Jul 2026 08:10:00 -0700",
       "description": "",
       "approx_traffic": "500+",
       "source_id": "google_trends_us",
@@ -618,11 +560,47 @@
       "source_weight": 5
     },
     {
-      "title": "denzel washington",
+      "title": "hubert hurkacz",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 4 Jul 2026 23:10:00 -0700",
+      "published": "Sun, 5 Jul 2026 08:10:00 -0700",
       "description": "",
-      "approx_traffic": "200+",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "the new york times",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sun, 5 Jul 2026 08:00:00 -0700",
+      "description": "",
+      "approx_traffic": "1000+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "alejandro davidovich fokina",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sun, 5 Jul 2026 08:00:00 -0700",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "the hunting party",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sun, 5 Jul 2026 07:50:00 -0700",
+      "description": "",
+      "approx_traffic": "2000+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -726,6 +704,54 @@
       "source_weight": 5
     },
     {
+      "title": "Americans traded $571 million on Polymarket politic bets despite U.S. ban",
+      "link": "https://www.coindesk.com/tech/2026/07/03/americans-traded-usd571-million-on-polymarket-politic-bets-despite-u-s-ban",
+      "published": "Sun, 05 Jul 2026 15:00:00 +0000",
+      "description": "U.S.-linked wallets traded $571 million in political contracts over the past year, more than any other country, even though the platform legally cannot serve them. The money leans toward the foreign-conflict markets U.S. venues do not list.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "Banks have stopped asking if stablecoins belong in finance, now they're considering how",
+      "link": "https://www.coindesk.com/business/2026/07/05/banks-have-stopped-asking-if-stablecoins-belong-in-finance-now-they-re-considering-how",
+      "published": "Sun, 05 Jul 2026 14:00:00 +0000",
+      "description": "Financial institutions are racing to become the secure gateways for stablecoins as digital asset volume is projected to explode by 2030.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "Collateral, not yield, will decide which stablecoins win",
+      "link": "https://www.coindesk.com/opinion/2026/07/05/collateral-not-yield-will-decide-which-stablecoins-win",
+      "published": "Sun, 05 Jul 2026 13:00:00 +0000",
+      "description": "As yield-bearing stablecoins race toward a $50 billion market capitalization, the industry is optimizing for the wrong metric, argues Artem Tolkachev, chief RWA officer at Falcon Finance.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "Kalshi and prediction market sector embroiled in mixed bag of legal fights across U.S.",
+      "link": "https://www.coindesk.com/news-analysis/2026/07/02/kalshi-and-prediction-market-sector-embroiled-in-mixed-bag-of-legal-fights-across-u-s",
+      "published": "Sun, 05 Jul 2026 13:00:00 +0000",
+      "description": "Some of the many battles with state gaming regulators aren't going well for the industry at the moment, but it isn't without its would-be government protectors.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
       "title": "Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time",
       "link": "https://www.coindesk.com/markets/2026/07/05/barstool-s-portnoy-plans-to-hold-bitcoin-down-to-zero-after-timing-it-wrong-every-time",
       "published": "Sun, 05 Jul 2026 06:00:22 +0000",
@@ -774,52 +800,16 @@
       "source_weight": 4
     },
     {
-      "title": "How ethical hackers with just a $3,000 server found a flaw that could've put $70 billion in crypto at risk",
-      "link": "https://www.coindesk.com/tech/2026/07/04/how-ethical-hackers-with-just-a-usd3-000-server-found-a-flaw-that-could-ve-put-usd70-billion-in-crypto-at-risk",
-      "published": "Sat, 04 Jul 2026 18:00:00 +0000",
-      "description": "A critical flaw in the Aptos blockchain, which was patched, gave researchers a near-90% success rate at breaking a core security guarantee, with attack costs of just hundreds of dollars.",
+      "title": "South Africa proposes crypto tax guidance under existing framework",
+      "link": "https://cointelegraph.com/news/south-africa-proposes-crypto-tax-draft-guidance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 05 Jul 2026 11:52:47 +0000",
+      "description": "South Africa’s tax authority proposed draft guidance clarifying how crypto assets are taxed under existing income and capital gains tax rules, seeking public input until Aug. 31.",
       "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
+      "source_id": "cointelegraph_rss",
+      "source_name": "Cointelegraph",
       "source_category": "crypto_media",
       "source_type": "rss",
-      "source_weight": 4
-    },
-    {
-      "title": "Why bitcoin's disconnect from record-high stocks won't last",
-      "link": "https://www.coindesk.com/markets/2026/07/03/why-bitcoin-s-disconnect-from-record-high-stocks-won-t-last",
-      "published": "Sat, 04 Jul 2026 16:00:00 +0000",
-      "description": "Researchers at Schwab and Hashdex said AI has diverted capital from digital assets while bitcoin continues to follow a familiar post-halving recovery pattern.",
-      "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 4
-    },
-    {
-      "title": "Trump's crypto token buyers are down $3.8 billion, blockchain data shows",
-      "link": "https://www.coindesk.com/business/2026/07/04/trump-s-crypto-token-buyers-are-down-usd3-8-billion-blockchain-data-shows",
-      "published": "Sat, 04 Jul 2026 15:30:52 +0000",
-      "description": "The TRUMP token is down 96% from its peak, and 85% of secondary market wallets for WLFI are underwater, reflecting a broader downturn in the sector.",
-      "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 4
-    },
-    {
-      "title": "Europe led on crypto regulation. Now implementation must match ambition",
-      "link": "https://www.coindesk.com/opinion/2026/07/04/europe-led-on-crypto-regulation-now-implementation-must-match-ambition",
-      "published": "Sat, 04 Jul 2026 14:00:00 +0000",
-      "description": "",
-      "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 4
+      "source_weight": 3
     },
     {
       "title": "Binance outflows triple to $1.2B as ETH withdrawals hit 3-year high",
@@ -872,7 +862,7 @@
     {
       "title": "Kraken lets traders use tokenized stocks as collateral for leveraged trades",
       "link": "https://cointelegraph.com/news/kraken-lets-traders-use-tokenized-stocks-as-collateral-for-leveraged-trades?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 04 Jul 2026 19:37:11 +0000",
+      "published": "Sat, 04 Jul 2026 19:40:00 +0000",
       "description": "Eligible users can now use select tokenized stocks and ETFs as collateral for futures and margin trading without selling their holdings.",
       "approx_traffic": "",
       "source_id": "cointelegraph_rss",
@@ -882,10 +872,10 @@
       "source_weight": 3
     },
     {
-      "title": "Kalshi hits record June trading volume as World Cup fuels prediction markets",
+      "title": "Kalshi June trading volume tops $9B as World Cup fuels prediction markets",
       "link": "https://cointelegraph.com/news/world-cup-drives-prediction-markets-to-record-june-trading-volumes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 04 Jul 2026 16:47:27 +0000",
-      "description": "DefiLlama data shows Kalshi posted a record month for trading volume as the expanded FIFA World Cup boosted prediction market activity.",
+      "published": "Sat, 04 Jul 2026 16:50:00 +0000",
+      "description": "Kalshi posted a record month for trading volume as the expanded FIFA World Cup boosted prediction market activity, DefiLlama data shows.",
       "approx_traffic": "",
       "source_id": "cointelegraph_rss",
       "source_name": "Cointelegraph",
@@ -906,22 +896,46 @@
       "source_weight": 3
     },
     {
-      "title": "Revolut to delist USDT in August, citing regulatory and risk concerns",
-      "link": "https://cointelegraph.com/news/revolut-usdt-delisting-regulatory-risk-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 04 Jul 2026 11:25:34 +0000",
-      "description": "Revolut notified some customers it will delist USDT after Aug. 31, with remaining holdings automatically converted into users’ base currency.",
+      "title": "From Macron to Modi, governments are rolling out the red carpet for AI giants",
+      "link": "https://www.cnbc.com/2026/07/04/macron-modi-ai-infrastructure-tech-ceos.html",
+      "published": "Sat, 04 Jul 2026 09:33:19 GMT",
+      "description": "Macron and Modi are courting tech CEOs as France and India seek AI data center investment and cloud infrastructure.",
       "approx_traffic": "",
-      "source_id": "cointelegraph_rss",
-      "source_name": "Cointelegraph",
-      "source_category": "crypto_media",
+      "source_id": "cnbc_top_news",
+      "source_name": "CNBC Top News",
+      "source_category": "global_media",
       "source_type": "rss",
       "source_weight": 3
     },
     {
-      "title": "First known congressional SpaceX stock buys surface after record IPO",
-      "link": "https://www.cnbc.com/2026/07/03/spacex-stock-congress-meuser-cisneros-ipo-disclosure.html",
-      "published": "Fri, 03 Jul 2026 18:16:43 GMT",
-      "description": "The SpaceX stock purchases come as Elon Musk’s company deepens its role in federal contracting and remains closely tied to President Donald Trump’s Washington.",
+      "title": "Cargo vessel in Red Sea reports coming under attack, UK maritime body says",
+      "link": "https://www.cnbc.com/2026/07/05/cargo-vessel-in-red-sea-reports-attack-uk-maritime-body-says.html",
+      "published": "Sun, 05 Jul 2026 12:57:45 GMT",
+      "description": "The incident was reported in one of the world's most crucial trade transit routes amid a fragile ceasefire between Iran and the U.S.",
+      "approx_traffic": "",
+      "source_id": "cnbc_top_news",
+      "source_name": "CNBC Top News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Trump Accounts for kids launched July 4: What parents need to know",
+      "link": "https://www.cnbc.com/2026/07/01/trump-accounts-launch-july-4.html",
+      "published": "Sun, 05 Jul 2026 13:14:22 GMT",
+      "description": "Here's a breakdown of how Trump Accounts work, who qualifies for free money and when the funds can be withdrawn.",
+      "approx_traffic": "",
+      "source_id": "cnbc_top_news",
+      "source_name": "CNBC Top News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
+      "link": "https://www.cnbc.com/2026/07/05/analysts-prefer-these-dividend-stocks-for-boosting-portfolio-returns.html",
+      "published": "Sun, 05 Jul 2026 12:30:01 GMT",
+      "description": "With thousands of dividend-paying companies to choose from, identifying the right stocks can be challenging.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -942,10 +956,10 @@
       "source_weight": 3
     },
     {
-      "title": "Trump Accounts for kids launch July 4: What parents need to know",
-      "link": "https://www.cnbc.com/2026/07/01/trump-accounts-launch-july-4.html",
-      "published": "Wed, 01 Jul 2026 12:15:01 GMT",
-      "description": "Here's a breakdown of how Trump Accounts work, who qualifies for free money and when the funds can be withdrawn.",
+      "title": "World Cup fans spent anywhere from $2,500 to $150,000 to see matches—they say it was worth it",
+      "link": "https://www.cnbc.com/2026/07/05/world-cup-fans-spent-anywhere-from-2500-to-150000-to-see-matches.html",
+      "published": "Sun, 05 Jul 2026 14:42:38 GMT",
+      "description": "Soccer fans heading to World Cup matches at MetLife Stadium shared how much they expected to spend with CNBC Make It outside New York's Penn Station.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -954,10 +968,10 @@
       "source_weight": 3
     },
     {
-      "title": "Iran begins six-day funeral for Ayatollah Khamenei nearly four months after his death",
-      "link": "https://www.cnbc.com/2026/07/04/-khamenei-funeral-procession-route.html",
-      "published": "Sat, 04 Jul 2026 05:20:52 GMT",
-      "description": "Iran plans a six-day funeral for Ayatollah Ali Khamenei, with ceremonies across Iran and Iraq before burial in Mashhad.",
+      "title": "Brides are bringing back the one-night-only bachelorette party: 'You just come, have one perfect night and leave'",
+      "link": "https://www.cnbc.com/2026/07/05/brides-are-bringing-back-the-one-night-only-bachelorette-party.html",
+      "published": "Sun, 05 Jul 2026 14:00:01 GMT",
+      "description": "Before they ballooned into multi-day destination getaways, bachelorette parties tended to be one night of raucous fun. Some brides are bringing it back.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -978,37 +992,13 @@
       "source_weight": 3
     },
     {
-      "title": "UK and France agree with Oman to ensure safety of its territorial waters",
-      "link": "https://www.cnbc.com/2026/07/04/uk-france-agree-with-oman-to-ensure-safety-of-its-territorial-waters.html",
-      "published": "Sat, 04 Jul 2026 09:58:07 GMT",
-      "description": "France said it has deployed mine countermeasures to the Middle East, including two mine-hunting ships.",
+      "title": "Bitcoin trades above $62K as U.S. crypto bill gains fresh traction",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trades-above-62k-as-us-crypto-bill-gains-fresh-traction-4775415",
+      "published": "2026-07-05 09:51:59",
+      "description": "",
       "approx_traffic": "",
-      "source_id": "cnbc_top_news",
-      "source_name": "CNBC Top News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Feds seek lower prison term for $100M New Jersey deli fraudster — but some reasons why are hidden",
-      "link": "https://www.cnbc.com/2026/07/03/new-jersey-deli-stockfraud-sentence-patten.html",
-      "published": "Sat, 04 Jul 2026 01:04:34 GMT",
-      "description": "James Patten is the third person who will be sentenced in the stock manipulation scheme related to Hometown International, a company that owned just one deli.",
-      "approx_traffic": "",
-      "source_id": "cnbc_top_news",
-      "source_name": "CNBC Top News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "From Macron to Modi, governments are rolling out the red carpet for AI giants",
-      "link": "https://www.cnbc.com/2026/07/04/macron-modi-ai-infrastructure-tech-ceos.html",
-      "published": "Sat, 04 Jul 2026 09:33:19 GMT",
-      "description": "Macron and Modi are courting tech CEOs as France and India seek AI data center investment and cloud infrastructure.",
-      "approx_traffic": "",
-      "source_id": "cnbc_top_news",
-      "source_name": "CNBC Top News",
+      "source_id": "investing_news",
+      "source_name": "Investing.com Crypto News",
       "source_category": "global_media",
       "source_type": "rss",
       "source_weight": 3
@@ -1098,46 +1088,10 @@
       "source_weight": 3
     },
     {
-      "title": "Bitcoin edges above $62k, set for weekly rise after softer U.S. jobs data",
-      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-61k-set-for-weekly-rise-after-softer-us-jobs-data-4775004",
-      "published": "2026-07-03 12:54:10",
-      "description": "",
-      "approx_traffic": "",
-      "source_id": "investing_news",
-      "source_name": "Investing.com Crypto News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Ukraine striking Russian energy infrastructure at unprecedented rate",
-      "link": "https://www.ft.com/content/13687b48-9e54-44a1-bd4d-600bbc052baf",
-      "published": "Sun, 05 Jul 2026 07:09:22 GMT",
-      "description": "Kyiv’s intensified drone campaign is spurring Russia’s worst fuel crisis in decades",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "How Bending Spoons built a $23bn tech empire from struggling brands",
-      "link": "https://www.ft.com/content/040aac86-f458-400b-a353-7ff2ee5aa34f",
-      "published": "Sun, 05 Jul 2026 04:00:11 GMT",
-      "description": "Nasdaq listing caps more than a decade of deals that transformed an Italian start-up into a global internet company",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Returning to pre-Trumpian politics won’t save America",
-      "link": "https://www.ft.com/content/5e7ca535-90a8-4f6d-934b-0a0d9b36e62d",
-      "published": "Sun, 05 Jul 2026 04:00:11 GMT",
-      "description": "The opening of the Obama presidential library set off a wave of nostalgia for an era that is not coming back",
+      "title": "US voters say Trump’s Iran war not worth the cost — FT poll",
+      "link": "https://www.ft.com/content/f1fe0dae-d22b-4284-b0f9-fa10f717af1c",
+      "published": "Sun, 05 Jul 2026 12:00:03 GMT",
+      "description": "Survey shows conflict is dragging down president’s approval ratings ahead of November midterms",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1158,10 +1112,10 @@
       "source_weight": 3
     },
     {
-      "title": "French push to exclude UK from EU defence spending backfires",
-      "link": "https://www.ft.com/content/9077074a-b01d-4890-a938-403befccb21c",
+      "title": "Returning to pre-Trumpian politics won’t save America",
+      "link": "https://www.ft.com/content/5e7ca535-90a8-4f6d-934b-0a0d9b36e62d",
       "published": "Sun, 05 Jul 2026 04:00:11 GMT",
-      "description": "Paris loses out on cheap loans due to strict eligibility criteria it had championed",
+      "description": "The opening of the Obama presidential library set off a wave of nostalgia for an era that is not coming back",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1170,22 +1124,10 @@
       "source_weight": 3
     },
     {
-      "title": "Uber stalls European food delivery push as it pursues Delivery Hero takeover",
-      "link": "https://www.ft.com/content/53f631ef-98e4-4eec-92e4-3dd023ed25f5",
-      "published": "Sun, 05 Jul 2026 04:00:03 GMT",
-      "description": "Ride-hailing company will no longer launch in five of its seven planned new markets this year",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Oil market opens up as retail traders pour in",
-      "link": "https://www.ft.com/content/b64227fd-3fae-4fea-bb83-4cc463fa09ed",
+      "title": "How Bending Spoons built a $23bn tech empire from struggling brands",
+      "link": "https://www.ft.com/content/040aac86-f458-400b-a353-7ff2ee5aa34f",
       "published": "Sun, 05 Jul 2026 04:00:11 GMT",
-      "description": "CME Group to launch 10-barrel contract after Iran war triggers rush of bets on crude prices",
+      "description": "Nasdaq listing caps more than a decade of deals that transformed an Italian start-up into a global internet company",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1194,10 +1136,46 @@
       "source_weight": 3
     },
     {
-      "title": "Wall Street banks recover in China amid trading boom",
-      "link": "https://www.ft.com/content/90c1934a-505f-4c9d-9bdf-a28db14eb9f2",
-      "published": "Sun, 05 Jul 2026 04:00:02 GMT",
-      "description": "China securities units of Goldman Sachs, Morgan Stanley and JPMorgan posted record profits last year",
+      "title": "Rich nations must unleash land, labour, energy and capital",
+      "link": "https://www.ft.com/content/33da8720-996b-49e3-a34a-61d33095c541",
+      "published": "Sun, 05 Jul 2026 11:00:03 GMT",
+      "description": "As policymakers shift towards industrial interventionism, they risk neglecting the simplest drivers of growth",
+      "approx_traffic": "",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Ukraine striking Russian energy infrastructure at unprecedented rate",
+      "link": "https://www.ft.com/content/13687b48-9e54-44a1-bd4d-600bbc052baf",
+      "published": "Sun, 05 Jul 2026 11:23:46 GMT",
+      "description": "Kyiv’s intensified drone campaign is spurring Russia’s worst fuel crisis in decades",
+      "approx_traffic": "",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "The Europeanisation of Nato is ever more important",
+      "link": "https://www.ft.com/content/14e18591-a2a4-4011-b77d-48fa74dab7f4",
+      "published": "Sun, 05 Jul 2026 12:00:03 GMT",
+      "description": "Transatlantic military alliance will be key to the continent’s future security",
+      "approx_traffic": "",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Iran leadership shows unity at ayatollah’s funeral, but successor absent",
+      "link": "https://www.ft.com/content/a3dedf8e-f0fa-4646-a18e-5842c7359e3c",
+      "published": "Sun, 05 Jul 2026 12:04:28 GMT",
+      "description": "Mojtaba Khamenei does not join other top leaders and sons alongside coffin of slain supreme leader",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1208,7 +1186,7 @@
     {
       "title": "Global stocks head for best week since May; US jobs data shifts rate outlook - Reuters",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xc1Y1VGpFS1BhTUVYMUhUTm9aQVMwSGZnRlgwUjRVNlJubTc1MVZKRkllNG12SFBnd01JeVpwRjNhV0oxOHN1SGx2M1VYaWRaZ2hRWE05TGRjSFNic0dUVUxPNWdUa2NDQ1dKdF9Ga2xXQ2FyT2VKaVRhSQ?oc=5",
-      "published": "Fri, 03 Jul 2026 01:11:09 GMT",
+      "published": "Fri, 03 Jul 2026 14:38:25 GMT",
       "description": "Global stocks head for best week since May; US jobs data shifts rate outlook &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
@@ -1230,6 +1208,18 @@
       "source_weight": 3
     },
     {
+      "title": "Wall St Week Ahead Investors look for Fed clues, earnings signs as tech wobbles - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY0tveDdSOXExRGpVVlBScWdpNnJPRnVsb0RLejhQemhuNVZhMXlOZ1NteS1KQzBLWU5rQzZTeDFRSDRFbmlzQllPR0hqaVdmdm9iUzQyM3J6NTBLMVNfUTRPQTlrcFFnMUZpa2JyOUc1QXVpYjRxZEV2SDFyc3RYempsdU5mX3VIbUhBb1p0ZU55YWFERlZDbEpmSV8xS3JxcUgzNUcxQnUwbk1YMkRGOWxiUEVVV0U?oc=5",
+      "published": "Fri, 03 Jul 2026 10:23:00 GMT",
+      "description": "Wall St Week Ahead Investors look for Fed clues, earnings signs as tech wobbles &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
       "title": "India's auto industry defends ethanol fuel mandate amid backlash - Reuters",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNG9TelFsOVI5bm11YUJ3VHV6YTlPX1BnV1RMVnZuZkZ5NXl1UldvODZNZmVzRnNCUEdweUJidjdyWFBQUXA3SEVGSUx4U2lXWkE2SWRBLUJSV0Nld0pyT052Vl9EVTFwZVVWdjVvaEZnY3N2NXN3ZHhEVW4tejRMVnNzYlhDajJFSXh4YTJsZnM2c2xsbGxJalczRTd0TXVFS2t3SVlpV0hYN1o0R0JQVA?oc=5",
       "published": "Sat, 04 Jul 2026 14:06:15 GMT",
@@ -1242,10 +1232,10 @@
       "source_weight": 3
     },
     {
-      "title": "Wall St Week Ahead Investors look for Fed clues, earnings signs as tech wobbles - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY0tveDdSOXExRGpVVlBScWdpNnJPRnVsb0RLejhQemhuNVZhMXlOZ1NteS1KQzBLWU5rQzZTeDFRSDRFbmlzQllPR0hqaVdmdm9iUzQyM3J6NTBLMVNfUTRPQTlrcFFnMUZpa2JyOUc1QXVpYjRxZEV2SDFyc3RYempsdU5mX3VIbUhBb1p0ZU55YWFERlZDbEpmSV8xS3JxcUgzNUcxQnUwbk1YMkRGOWxiUEVVV0U?oc=5",
-      "published": "Fri, 03 Jul 2026 10:36:51 GMT",
-      "description": "Wall St Week Ahead Investors look for Fed clues, earnings signs as tech wobbles &nbsp;&nbsp; Reuters",
+      "title": "Most Gulf markets in red as US-Iran negotiations show little headway - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVXVRbEsycW1kbXBRRkRNSkViSjZDT2QtcFNURHFrMzczbEtpUmdmN0xlVUZHUjE0dUcwR2xYM210OFZsVVhQYVl2VU41RHQ0QlQ1ZS1hcmdWdlY0NXVJQmhLc0w0MnRKSTlQbzNyak9sdnVCWWZ2bTNVeUxFeEEtR2N1OEt6bzhtclBlQ3hHX2hsS3VqM3pHNmJ1cGZCbGJCNkg2U1dONDZBLUJaSnFtUVFLeWRCSjRCRkE?oc=5",
+      "published": "Thu, 02 Jul 2026 13:23:44 GMT",
+      "description": "Most Gulf markets in red as US-Iran negotiations show little headway &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1256,20 +1246,8 @@
     {
       "title": "Dollar set for biggest weekly drop since April after jobs data lowers Fed hike bets - Reuters",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOE94UmQ5Unp5SGlXRTRVazdOLUxKQ09sMXNmYWxaSU9qNWNmWTktajhLaXdFdVgzT21YdGc1MmlFTk5saFBha0xhX1dPX2IydVozWFZQNi1GdDBmS1hvUVBJZ09BYlNMczBQSWFBUnVUWW5HUkJoUURwQkpCRDA3emVHS0tHc0Q2U2c0SnlmUzBIZ1hqLW9XVUJPeVR5eE1uWjJXZmM0WHd5aUJ5?oc=5",
-      "published": "Sat, 04 Jul 2026 08:13:05 GMT",
+      "published": "Fri, 03 Jul 2026 14:04:12 GMT",
       "description": "Dollar set for biggest weekly drop since April after jobs data lowers Fed hike bets &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Most Gulf markets in red as US-Iran negotiations show little headway - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVXVRbEsycW1kbXBRRkRNSkViSjZDT2QtcFNURHFrMzczbEtpUmdmN0xlVUZHUjE0dUcwR2xYM210OFZsVVhQYVl2VU41RHQ0QlQ1ZS1hcmdWdlY0NXVJQmhLc0w0MnRKSTlQbzNyak9sdnVCWWZ2bTNVeUxFeEEtR2N1OEt6bzhtclBlQ3hHX2hsS3VqM3pHNmJ1cGZCbGJCNkg2U1dONDZBLUJaSnFtUVFLeWRCSjRCRkE?oc=5",
-      "published": "Thu, 02 Jul 2026 13:23:44 GMT",
-      "description": "Most Gulf markets in red as US-Iran negotiations show little headway &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1304,7 +1282,7 @@
     {
       "title": "God Called Me? On Calling, Mission, Dreams, and Vocation (Sunday School) Part 1",
       "link": "https://www.youtube.com/watch?v=6fnsXPgaEjk",
-      "published": "9.3K views",
+      "published": "12K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "6fnsXPgaEjk",
@@ -1325,7 +1303,7 @@
     {
       "title": "The World Order Changes After the World Cup",
       "link": "https://www.youtube.com/watch?v=1PQsHd1bgwg",
-      "published": "32K views",
+      "published": "35K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "1PQsHd1bgwg",
@@ -1346,7 +1324,7 @@
     {
       "title": "Palantir Is Moving the Japanese Military",
       "link": "https://www.youtube.com/watch?v=t-T34NHJBvY",
-      "published": "33K views",
+      "published": "34K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "t-T34NHJBvY",
@@ -1367,7 +1345,7 @@
     {
       "title": "Is the U.S. Exposing Xi Jinping's Hidden Wealth?",
       "link": "https://www.youtube.com/watch?v=Mut3NTl36xc",
-      "published": "45K views",
+      "published": "46K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "Mut3NTl36xc",
@@ -1388,7 +1366,7 @@
     {
       "title": "The Real Purpose of the Doping Olympics",
       "link": "https://www.youtube.com/watch?v=II3_Rum8J5M",
-      "published": "32K views",
+      "published": "33K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "II3_Rum8J5M",
@@ -1470,6 +1448,54 @@
       "source_weight": 3
     },
     {
+      "title": "I have no kids. Will I cause family drama by leaving different amounts to my nieces and nephews?",
+      "link": "https://www.marketwatch.com/story/i-have-no-kids-will-i-cause-family-drama-by-leaving-different-amounts-to-my-nieces-and-nephews-14c0fdda?mod=mw_rss_topstories",
+      "published": "Sun, 05 Jul 2026 14:00:00 GMT",
+      "description": "“Part of me would prefer to leave more to those for whom the money could make a meaningful difference.”",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Hybrids are the breakout star of the U.S. car market as EV demand fades",
+      "link": "https://www.marketwatch.com/story/hybrids-are-the-breakout-star-of-the-u-s-car-market-as-ev-demand-fades-96dce1c3?mod=mw_rss_topstories",
+      "published": "Sun, 05 Jul 2026 13:03:00 GMT",
+      "description": "Hybrids aren’t a bridge to EVs anymore — instead, they’re winning on function and price.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Why the stock market’s red-hot momentum trade might be headed for a violent unwind this month",
+      "link": "https://www.marketwatch.com/story/why-the-stock-markets-red-hot-momentum-trade-might-be-headed-for-a-violent-unwind-this-month-78a45397?mod=mw_rss_topstories",
+      "published": "Sun, 05 Jul 2026 13:00:00 GMT",
+      "description": "Momentum trades tend to struggle in July — but this year may be particularly volatile, says one strategist. The rumblings have already started.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "‘We were stunned’: My daughter, 39, said her mother-in-law gives her more money than we do. Should I confront her?",
+      "link": "https://www.marketwatch.com/story/we-were-stunned-my-daughter-39-said-her-mother-in-law-gives-her-more-money-than-we-do-do-i-call-her-out-b63d087c?mod=mw_rss_topstories",
+      "published": "Sun, 05 Jul 2026 12:48:00 GMT",
+      "description": "“She thanked us for the $100 birthday gift and then announced that her mother-in-law had sent her $400.”",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
       "title": "Gamer trades in $1,000 of physical discs at GameStop, days after Sony announces end of disc era",
       "link": "https://www.marketwatch.com/story/gamer-trades-in-1-000-of-physical-discs-at-gamestop-days-after-sony-announces-end-of-disc-era-bf8383b7?mod=mw_rss_topstories",
       "published": "Sat, 04 Jul 2026 21:40:00 GMT",
@@ -1518,57 +1544,9 @@
       "source_weight": 2
     },
     {
-      "title": "Why June’s jobs and inflation data are bullish for bonds",
-      "link": "https://www.marketwatch.com/story/why-the-jobs-and-inflation-data-are-bullish-for-bonds-fcedffd2?mod=mw_rss_topstories",
-      "published": "Sat, 04 Jul 2026 18:37:00 GMT",
-      "description": "The new jobs report is worse than many people realize.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Insurers shifted roof-replacement costs onto homeowners thanks to a new federal rule — just in time for hail and hurricane season",
-      "link": "https://www.marketwatch.com/story/insurers-shifted-roof-replacement-costs-onto-homeowners-thanks-to-a-new-federal-rule-just-in-time-for-hail-and-hurricane-season-e86068df?mod=mw_rss_topstories",
-      "published": "Sat, 04 Jul 2026 18:19:00 GMT",
-      "description": "Those who find extensive damage to their roofs might be stuck between two options: File an insurance claim, which could trigger a premium increase, or cough up the cash for the necessary repairs or replacement.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Where can I invest my kid’s ‘Trump account’ money? The Treasury Department just answered that question.",
-      "link": "https://www.marketwatch.com/story/where-can-i-invest-my-kids-trump-account-money-the-treasury-department-just-answered-that-question-4f656574?mod=mw_rss_topstories",
-      "published": "Sat, 04 Jul 2026 17:59:00 GMT",
-      "description": "The money in “Trump accounts” has to be invested in low-cost index funds — and now parents and investors are learning which funds they can actually use.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Jelly Roll’s ex-wife Bunnie Xo says he gave her their $6 million Tennessee estate in divorce",
-      "link": "https://www.marketwatch.com/story/jelly-rolls-ex-wife-bunnie-xo-says-he-gave-her-their-6-million-tennessee-estate-in-divorce-97a6c910?mod=mw_rss_topstories",
-      "published": "Sat, 04 Jul 2026 17:57:00 GMT",
-      "description": "Country singer Jelly Roll’s ex-wife, Bunnie Xo, has revealed that she will take full ownership of the former couple’s Tennessee compound as part of their divorce settlement.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
       "title": "Nashville: the price of success | FT Film",
       "link": "https://www.youtube.com/watch?v=cVB5Uy_OoZI",
-      "published": "6.2K views",
+      "published": "7K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "cVB5Uy_OoZI",
@@ -1589,7 +1567,7 @@
     {
       "title": "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film",
       "link": "https://www.youtube.com/watch?v=ds1K-lN_U0g",
-      "published": "98K views",
+      "published": "100K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "ds1K-lN_U0g",
@@ -1610,7 +1588,7 @@
     {
       "title": "A renewable energy revolution? | FT Rethink",
       "link": "https://www.youtube.com/watch?v=l0tWlr5gwIE",
-      "published": "49K views",
+      "published": "51K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "l0tWlr5gwIE",
@@ -1652,7 +1630,7 @@
     {
       "title": "The AI factory: the rewiring of India's tech industry | FT Film",
       "link": "https://www.youtube.com/watch?v=UfyxN46tCz8",
-      "published": "326K views",
+      "published": "329K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "UfyxN46tCz8",
@@ -1673,7 +1651,7 @@
     {
       "title": "How Uzbekistan could liberalise its economy with a push into green energy | FT Film",
       "link": "https://www.youtube.com/watch?v=tWB3Xu3kzg8",
-      "published": "143K views",
+      "published": "145K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "tWB3Xu3kzg8",
@@ -1715,7 +1693,7 @@
     {
       "title": "Why birth rates are falling everywhere all at once | FT",
       "link": "https://www.youtube.com/watch?v=6lFXmDk-tps",
-      "published": "672K views",
+      "published": "673K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "6lFXmDk-tps",
@@ -1734,10 +1712,10 @@
       "source_weight": 2
     },
     {
-      "title": "Ukraine striking Russian energy infrastructure at unprecedented rate",
-      "link": "https://www.ft.com/content/13687b48-9e54-44a1-bd4d-600bbc052baf",
-      "published": "Sun, 05 Jul 2026 07:09:22 GMT",
-      "description": "Kyiv’s intensified drone campaign is spurring Russia’s worst fuel crisis in decades",
+      "title": "‘Heat dome’ and storms over eastern US send power prices soaring",
+      "link": "https://www.ft.com/content/76de196b-175f-4f5b-b10c-cc17bb2948d1",
+      "published": "Sun, 05 Jul 2026 15:06:23 GMT",
+      "description": "Almost 1mn households left without power after storms and weekend temperatures near 40C disrupt grids",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1746,10 +1724,10 @@
       "source_weight": 3
     },
     {
-      "title": "French push to exclude UK from EU defence spending backfires",
-      "link": "https://www.ft.com/content/9077074a-b01d-4890-a938-403befccb21c",
-      "published": "Sun, 05 Jul 2026 04:00:11 GMT",
-      "description": "Paris loses out on cheap loans due to strict eligibility criteria it had championed",
+      "title": "Data centres are a crucial test of US industrial resolve",
+      "link": "https://www.ft.com/content/8cb4128b-8dbc-45fd-afdc-1e6f2530536d",
+      "published": "Sun, 05 Jul 2026 15:00:04 GMT",
+      "description": "America must not repeat the mistakes that handed China rare-earth dominance",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1758,10 +1736,10 @@
       "source_weight": 3
     },
     {
-      "title": "Returning to pre-Trumpian politics won’t save America",
-      "link": "https://www.ft.com/content/5e7ca535-90a8-4f6d-934b-0a0d9b36e62d",
-      "published": "Sun, 05 Jul 2026 04:00:11 GMT",
-      "description": "The opening of the Obama presidential library set off a wave of nostalgia for an era that is not coming back",
+      "title": "Saving Nato in the era of Trump",
+      "link": "https://www.ft.com/content/25f274b2-69ba-4768-bcc6-aaddaea8030a",
+      "published": "Sun, 05 Jul 2026 14:00:03 GMT",
+      "description": "The big questions hanging over the alliance will not be discussed in Ankara",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1770,10 +1748,10 @@
       "source_weight": 3
     },
     {
-      "title": "Octopus Energy set for showdown with workers over union recognition",
-      "link": "https://www.ft.com/content/2f5339b0-89db-4579-9dd2-f8c20aa9964f",
-      "published": "Sun, 05 Jul 2026 04:00:11 GMT",
-      "description": "Fast-growing energy supplier says employee share ownership means it’s not a ‘them and us’ company",
+      "title": "‘Return’ powers to Holyrood taken after Brexit, Scottish minister tells Burnham",
+      "link": "https://www.ft.com/content/18fee7c3-45e3-4b8f-9b8c-c42e19a7df97",
+      "published": "Sun, 05 Jul 2026 13:00:03 GMT",
+      "description": "SNP government says UK’s likely next leader must include the nations as well as English regions in his devolution drive",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1782,10 +1760,10 @@
       "source_weight": 3
     },
     {
-      "title": "High share prices are becoming a status symbol",
-      "link": "https://www.ft.com/content/35bc6f34-bb3b-434a-9ce3-37a9d4fc3aa4",
-      "published": "Sun, 05 Jul 2026 04:00:03 GMT",
-      "description": "Decline in stock splits suggests dividing share count no longer rules corporate orthodoxy",
+      "title": "Parliament watchdog urged to investigate Nigel Farage over benefits from fraudster",
+      "link": "https://www.ft.com/content/b6557e3c-c5ab-404b-9f0d-a922a76ac866",
+      "published": "Sun, 05 Jul 2026 12:57:57 GMT",
+      "description": "Call for new inquiry into ‘in-kind’ benefits from aide before Reform leader’s election as MP in July 2024",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1794,10 +1772,10 @@
       "source_weight": 3
     },
     {
-      "title": "Uber stalls European food delivery push as it pursues Delivery Hero takeover",
-      "link": "https://www.ft.com/content/53f631ef-98e4-4eec-92e4-3dd023ed25f5",
-      "published": "Sun, 05 Jul 2026 04:00:03 GMT",
-      "description": "Ride-hailing company will no longer launch in five of its seven planned new markets this year",
+      "title": "Bernard Arnault ordered to pay €22.5mn in back taxes",
+      "link": "https://www.ft.com/content/5df9fa06-9719-4de5-b454-53b49346382d",
+      "published": "Sun, 05 Jul 2026 12:28:32 GMT",
+      "description": "France’s richest man and billionaire owner of luxury group LVMH will appeal against ruling",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1806,10 +1784,10 @@
       "source_weight": 3
     },
     {
-      "title": "China cools on overseas publication of scientific research",
-      "link": "https://www.ft.com/content/64a811f1-b132-4211-8a8c-2252cf964039",
-      "published": "Sun, 05 Jul 2026 04:00:02 GMT",
-      "description": "Policymakers discuss reducing incentives for academics to submit papers to international journals over leak concerns",
+      "title": "Iran leadership shows unity at ayatollah’s funeral, but successor absent",
+      "link": "https://www.ft.com/content/a3dedf8e-f0fa-4646-a18e-5842c7359e3c",
+      "published": "Sun, 05 Jul 2026 12:04:28 GMT",
+      "description": "Mojtaba Khamenei does not join other top leaders and sons alongside coffin of slain supreme leader",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1818,21 +1796,33 @@
       "source_weight": 3
     },
     {
-      "title": "Burnham faces tricky electoral test as Starmer pushes through local government shake-up",
-      "link": "https://www.ft.com/content/08a0ea1f-3748-4ccd-a35b-9c3afabed25d",
-      "published": "Sun, 05 Jul 2026 04:00:02 GMT",
-      "description": "Existing ministers argue major overhaul of city boundaries will be vital for his goal of devolving power",
+      "title": "US voters say Trump’s Iran war not worth the cost — FT poll",
+      "link": "https://www.ft.com/content/f1fe0dae-d22b-4284-b0f9-fa10f717af1c",
+      "published": "Sun, 05 Jul 2026 12:00:03 GMT",
+      "description": "Survey shows conflict is dragging down president’s approval ratings ahead of November midterms",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
       "source_category": "global_media",
       "source_type": "rss",
       "source_weight": 3
+    },
+    {
+      "title": "OPEC Plus Pledges to Pump More Even as Oil Prices Fall",
+      "link": "https://www.nytimes.com/2026/07/05/business/opec-production-iran-war.html",
+      "published": "Sun, 05 Jul 2026 12:50:45 +0000",
+      "description": "The cartel’s decision comes as U.S.-Iran talks to end the war have eased pressure on oil supplies, even as broader market and political volatility persists.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
     },
     {
       "title": "Taylor Swift’s Wedding Became a Marketing Moment for Brands Big and Small",
       "link": "https://www.nytimes.com/2026/07/05/style/taylor-swift-wedding-marketing-brands-ai.html",
-      "published": "Sun, 05 Jul 2026 09:02:20 +0000",
+      "published": "Sun, 05 Jul 2026 12:13:29 +0000",
       "description": "Some businesses flocked to social media using A.I.-generated content, while others deployed timely digital ads designed to capitalize on the frenzy surrounding this major celebrity event.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
@@ -1854,9 +1844,9 @@
       "source_weight": 2
     },
     {
-      "title": "The Revenge of the Philosophy Majors",
+      "title": "Philosophers Are the Latest Hiring Target for AI Companies",
       "link": "https://www.nytimes.com/2026/07/05/business/philosophy-majors-ai-jobs.html",
-      "published": "Sun, 05 Jul 2026 09:01:46 +0000",
+      "published": "Sun, 05 Jul 2026 13:25:06 +0000",
       "description": "A.I. labs are hiring contrarian, chin-stroking, finger-steepling sages. Who’s underemployed now?",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
@@ -1868,7 +1858,7 @@
     {
       "title": "Wikipedia Is Battling for the Soul of the Internet",
       "link": "https://www.nytimes.com/2026/07/05/business/media/wikipedia-ai-elon-musk.html",
-      "published": "Sun, 05 Jul 2026 09:00:16 +0000",
+      "published": "Sun, 05 Jul 2026 09:00:17 +0000",
       "description": "The internet’s largest stockpile of free knowledge is under threat from MAGA, A.I. and foreign autocrats. A bibliophile ex-ambassador is here to help.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
@@ -1892,7 +1882,7 @@
     {
       "title": "Are the ‘MANGOS’ Stocks Already Turning Soft?",
       "link": "https://www.nytimes.com/2026/07/04/business/mangos-ai-stocks.html",
-      "published": "Sat, 04 Jul 2026 09:00:46 +0000",
+      "published": "Sun, 05 Jul 2026 14:07:44 +0000",
       "description": "Wall Street loves an acronym. The latest one stands for Meta, Anthropic, Nvidia and three other companies at the center of the artificial intelligence boom.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
@@ -1906,18 +1896,6 @@
       "link": "https://www.nytimes.com/2026/07/04/business/racing-car-country-clubs.html",
       "published": "Sat, 04 Jul 2026 09:00:20 +0000",
       "description": "A motorsports club north of Miami, on former orange groves, is being built to cater to enthusiasts and well-heeled novices eager to hit the gas and pull some Gs.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "David S. Doty, Judge Who Helped Shape the Modern N.F.L., Dies at 96",
-      "link": "https://www.nytimes.com/2026/07/03/sports/football/david-s-doty-dead.html",
-      "published": "Fri, 03 Jul 2026 19:21:32 +0000",
-      "description": "He presided over the 1993 agreement that led to free agency and the salary cap, and for years oversaw the league’s disputes with its players.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",

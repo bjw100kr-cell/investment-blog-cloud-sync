@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-05T09:48:26.749192+00:00`
+- 생성 시각: `2026-07-05T15:56:40.897941+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,24 +106,20 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `ai_semiconductors`: score 110, source_count 3, sources Google Trends KR, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: score 45, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
+- `bitcoin`: score 32, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
 - `fomc`: score 26, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
 - `ethereum`: score 6, source_count 1, sources Cointelegraph
-- `china`: score 6, source_count 2, sources Financial Times Home, Financial Times World
 - `jobs`: score 6, source_count 1, sources Reuters Markets via Google News RSS
-- `oil`: score 5, source_count 2, sources Financial Times Home, Financial Times YouTube
+- `us_index_flow`: score 5, source_count 2, sources Financial Times Home, MarketWatch Breaking News
+- `ai_semiconductors`: score 5, source_count 2, sources NYT Business, Reuters Markets via Google News RSS
+- `treasury_yields`: score 4, source_count 1, sources CoinDesk RSS
 - `us_big_tech`: score 4, source_count 2, sources MarketWatch Breaking News, NYT Business
-- `us_index_flow`: score 3, source_count 1, sources Financial Times Home
+- `oil`: score 4, source_count 2, sources Financial Times YouTube, NYT Business
 - `dollar`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `ai_semiconductors`: score 110, headlines 3
-  - 반도체
-  - Trading Day: Chips are down, and so are payrolls - Reuters
-  - Are the ‘MANGOS’ Stocks Already Turning Soft?
-- `bitcoin`: score 45, headlines 13
+- `bitcoin`: score 32, headlines 10
   - Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time
   - Bitcoin jumps above $63,000, reversing end-June losses
   - Bitcoin experts split over plan to freeze Satoshi's 1.1 million bitcoin as quantum threat grows
@@ -131,22 +127,25 @@ If you are sure that the described cause is not responsible for this error and t
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `china`: score 6, headlines 2
-  - Wall Street banks recover in China amid trading boom
-  - China cools on overseas publication of scientific research
 - `ethereum`: score 6, headlines 2
   - Binance outflows triple to $1.2B as ETH withdrawals hit 3-year high
   - Vitalik Buterin shares top priorities for new 'Lean Ethereum' strawmap
 - `jobs`: score 6, headlines 2
   - Morning Bid: Shares pull back as markets await likely payrolls beat - Reuters
   - Trading Day: Chips are down, and so are payrolls - Reuters
-- `oil`: score 5, headlines 2
-  - Oil market opens up as retail traders pour in
+- `ai_semiconductors`: score 5, headlines 2
+  - Trading Day: Chips are down, and so are payrolls - Reuters
+  - Are the ‘MANGOS’ Stocks Already Turning Soft?
+- `us_index_flow`: score 5, headlines 2
+  - How Bending Spoons built a $23bn tech empire from struggling brands
+  - Why the stock market’s red-hot momentum trade might be headed for a violent unwind this month
+- `oil`: score 4, headlines 2
   - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+  - OPEC Plus Pledges to Pump More Even as Oil Prices Fall
 - `us_big_tech`: score 4, headlines 2
   - Here’s what’s worth streaming in July 2026 on Netflix, Hulu, HBO Max and more
   - Are the ‘MANGOS’ Stocks Already Turning Soft?
+- `treasury_yields`: score 4, headlines 1
+  - Collateral, not yield, will decide which stablecoins win
 - `ai_growth_stocks`: score 3, headlines 1
   - Palantir Is Moving the Japanese Military
-- `dollar`: score 3, headlines 1
-  - Dollar set for biggest weekly drop since April after jobs data lowers Fed hike bets - Reuters

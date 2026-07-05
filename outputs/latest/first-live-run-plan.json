@@ -26,13 +26,13 @@
   "dry_run_summary": {
     "reason": "",
     "manifest_candidate_count": 0,
-    "processed_count": 1,
+    "processed_count": 2,
     "max_posts_per_run": 3,
-    "first_item_reason": "source_freshness_stale"
+    "first_item_reason": ""
   },
   "wordpress_dry_run_summary": {
     "reason": "WORDPRESS_SITE_URL is not set",
-    "manifest_candidate_count": 7,
+    "manifest_candidate_count": 9,
     "processed_count": 0,
     "max_posts_per_run": 1,
     "first_item_reason": "credentials_missing_dry_run"
@@ -45,7 +45,7 @@
     "role": "lane_focus_crypto",
     "post_type": "breaking_explainer",
     "ready_to_upload": true,
-    "recommended_publish_date": "2026-07-05",
+    "recommended_publish_date": "2026-07-06",
     "publish_bucket": "tomorrow",
     "priority_score": 126.0,
     "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
