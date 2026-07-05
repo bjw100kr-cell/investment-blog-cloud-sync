@@ -114,11 +114,11 @@
     "NYT Business"
   ],
   "reference_headlines": [
-    "Trump's crypto token buyers are down $3.8 billion, blockchain data shows",
-    "Europe led on crypto regulation. Now implementation must match ambition",
-    "UK's bold new crypto rules promise to unlock global trading, but huge compliance hurdles still threaten the rollout",
-    "Bitcoin’s next parabolic run may need $1 trillion in fresh capital",
-    "This sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree"
+    "Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time",
+    "Bitcoin jumps above $63,000, reversing end-June losses",
+    "Bitcoin experts split over plan to freeze Satoshi's 1.1 million bitcoin as quantum threat grows",
+    "How ethical hackers with just a $3,000 server found a flaw that could've put $70 billion in crypto at risk",
+    "Why bitcoin's disconnect from record-high stocks won't last"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

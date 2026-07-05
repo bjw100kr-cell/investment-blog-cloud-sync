@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-07-04T15:47:25.616352+00:00",
+  "generated_at": "2026-07-05T09:48:26.749192+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 2,
-    "unmatched_market_trend_count": 0,
+    "matched_keyword_count": 3,
+    "unmatched_market_trend_count": 1,
     "weak_trend_fallback_count": 2
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 1,
+      "traffic_score_sum": 20000,
+      "max_approx_traffic": 20000,
+      "trend_queries": [
+        "반도체"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 20200,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,11 +30,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6800,
+      "demand_signal_score": 5700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 56,
+      "source_snapshot_score": 45,
       "source_count": 4,
       "source_names": [
         "CoinDesk RSS",
@@ -27,9 +43,9 @@
         "NYT Business"
       ],
       "sample_titles": [
-        "Trump's crypto token buyers are down $3.8 billion, blockchain data shows",
-        "Europe led on crypto regulation. Now implementation must match ambition",
-        "UK's bold new crypto rules promise to unlock global trading, but huge compliance hurdles still threaten the rollout"
+        "Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time",
+        "Bitcoin jumps above $63,000, reversing end-June losses",
+        "Bitcoin experts split over plan to freeze Satoshi's 1.1 million bitcoin as quantum threat grows"
       ]
     },
     {
@@ -39,11 +55,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3500,
+      "demand_signal_score": 3800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
+      "source_snapshot_score": 26,
       "source_count": 2,
       "source_names": [
         "Federal Reserve Monetary Policy Press",
@@ -56,5 +72,15 @@
       ]
     }
   ],
-  "unmatched_market_trends": []
+  "unmatched_market_trends": [
+    {
+      "query": "주식 투자",
+      "region": "KR",
+      "approx_traffic": "1000+",
+      "traffic_score": 1000,
+      "market_relevance_score": 1,
+      "brand_identity_match": true,
+      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
+    }
+  ]
 }

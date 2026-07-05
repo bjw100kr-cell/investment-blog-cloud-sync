@@ -179,8 +179,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 91.0,
-    "search_score": 23,
+    "total_score": 92.0,
+    "search_score": 24,
     "timeliness_score": 25,
     "explanatory_score": 20,
     "monetization_score": 15,

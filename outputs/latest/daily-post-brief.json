@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T15:47:25.616352+00:00",
+  "generated_at": "2026-07-05T09:48:26.749192+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -68,18 +68,18 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3500,
-      "search_score": 23,
+      "demand_signal_score": 3800,
+      "search_score": 24,
       "timeliness_score": 25,
       "explanatory_score": 20,
       "monetization_score": 15,
       "risk_score": 8,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 2,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 91.0,
+      "total_score": 92.0,
       "format": "macro_explainer"
     },
     {
@@ -100,11 +100,11 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "Trump's crypto token buyers are down $3.8 billion, blockchain data shows",
-        "Europe led on crypto regulation. Now implementation must match ambition",
-        "UK's bold new crypto rules promise to unlock global trading, but huge compliance hurdles still threaten the rollout",
-        "Bitcoin’s next parabolic run may need $1 trillion in fresh capital",
-        "This sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree"
+        "Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time",
+        "Bitcoin jumps above $63,000, reversing end-June losses",
+        "Bitcoin experts split over plan to freeze Satoshi's 1.1 million bitcoin as quantum threat grows",
+        "How ethical hackers with just a $3,000 server found a flaw that could've put $70 billion in crypto at risk",
+        "Why bitcoin's disconnect from record-high stocks won't last"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -116,7 +116,7 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 6800,
+      "demand_signal_score": 5700,
       "search_score": 29,
       "timeliness_score": 20,
       "explanatory_score": 17,
@@ -127,10 +127,102 @@
       "crypto_market_signal_bonus": 3,
       "crypto_market_sentiment": "extreme_fear",
       "crypto_market_signal_notes": [
-        "Fear/Greed 22: Extreme Fear zone"
+        "Fear/Greed 23: Extreme Fear zone"
       ],
       "total_score": 87.0,
       "format": "crypto_analysis"
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "category": "global-sector",
+      "brand_lane": "us-stocks",
+      "title_candidates": [
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
+      ],
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (반도체)",
+      "outline": [
+        "지금 이 섹터가 왜 움직이는가",
+        "핵심 뉴스와 시장 반응",
+        "대표 종목과 자금 흐름",
+        "거시 변수와 연결",
+        "다음 실적/정책 이벤트"
+      ],
+      "sample_headlines": [
+        "반도체",
+        "Trading Day: Chips are down, and so are payrolls - Reuters",
+        "Are the ‘MANGOS’ Stocks Already Turning Soft?"
+      ],
+      "reference_takeaways": [],
+      "source_names": [
+        "Google Trends KR",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "trend_queries": [
+        "반도체"
+      ],
+      "trend_regions": [
+        "KR"
+      ],
+      "fallback_source": "mapped_candidate",
+      "demand_signal_score": 20200,
+      "search_score": 30,
+      "timeliness_score": 15,
+      "explanatory_score": 18,
+      "monetization_score": 15,
+      "risk_score": 7,
+      "performance_bonus": 0.0,
+      "search_demand_bonus": 10,
+      "crypto_market_signal_bonus": 0,
+      "crypto_market_sentiment": "",
+      "crypto_market_signal_notes": [],
+      "total_score": 85.0,
+      "format": "sector_analysis"
+    },
+    {
+      "keyword": "china",
+      "category": "global-sector",
+      "brand_lane": "world-flow",
+      "title_candidates": [
+        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
+        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
+      ],
+      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "outline": [
+        "왜 지금 이 이슈가 중요한가",
+        "실제로 발표되거나 벌어진 일",
+        "주식·코인·달러·금리에 주는 영향",
+        "앞으로 체크할 변수",
+        "개인 투자자가 볼 포인트"
+      ],
+      "sample_headlines": [
+        "Wall Street banks recover in China amid trading boom",
+        "China cools on overseas publication of scientific research"
+      ],
+      "reference_takeaways": [],
+      "source_names": [
+        "Financial Times Home",
+        "Financial Times World"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "fallback_source": "mapped_candidate",
+      "demand_signal_score": 0,
+      "search_score": 8,
+      "timeliness_score": 10,
+      "explanatory_score": 17,
+      "monetization_score": 13,
+      "risk_score": 7,
+      "performance_bonus": 0.0,
+      "search_demand_bonus": 0,
+      "crypto_market_signal_bonus": 0,
+      "crypto_market_sentiment": "",
+      "crypto_market_signal_notes": [],
+      "total_score": 55.0,
+      "format": "macro_explainer"
     },
     {
       "keyword": "us_big_tech",
@@ -141,51 +233,6 @@
         "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유",
         "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
-      "outline": [
-        "지금 이 섹터가 왜 움직이는가",
-        "핵심 뉴스와 시장 반응",
-        "대표 종목과 자금 흐름",
-        "거시 변수와 연결",
-        "다음 실적/정책 이벤트"
-      ],
-      "sample_headlines": [
-        "Here’s what’s worth streaming in July 2026 on Netflix, Hulu, HBO Max and more",
-        "US clean power prices set to soar as AI demand coincides with subsidy cuts",
-        "Are the ‘MANGOS’ Stocks Already Turning Soft?"
-      ],
-      "reference_takeaways": [],
-      "source_names": [
-        "Financial Times World",
-        "MarketWatch Breaking News",
-        "NYT Business"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 11,
-      "timeliness_score": 15,
-      "explanatory_score": 16,
-      "monetization_score": 15,
-      "risk_score": 7,
-      "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
-      "crypto_market_signal_bonus": 0,
-      "crypto_market_sentiment": "",
-      "crypto_market_signal_notes": [],
-      "total_score": 64.0,
-      "format": "sector_analysis"
-    },
-    {
-      "keyword": "us_index_flow",
-      "category": "global-sector",
-      "brand_lane": "us-stocks",
-      "title_candidates": [
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
-      ],
       "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
@@ -195,73 +242,30 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "When it comes to beating the stock market, no news really is good news",
-        "Good vibes are masking a reset in markets"
+        "Here’s what’s worth streaming in July 2026 on Netflix, Hulu, HBO Max and more",
+        "Are the ‘MANGOS’ Stocks Already Turning Soft?"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Financial Times World",
-        "MarketWatch Breaking News"
+        "MarketWatch Breaking News",
+        "NYT Business"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 8,
+      "search_score": 7,
       "timeliness_score": 10,
-      "explanatory_score": 18,
+      "explanatory_score": 16,
       "monetization_score": 15,
-      "risk_score": 8,
+      "risk_score": 7,
       "performance_bonus": 0.0,
       "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 59.0,
+      "total_score": 55.0,
       "format": "sector_analysis"
-    },
-    {
-      "keyword": "dollar",
-      "category": "macro",
-      "brand_lane": "macro",
-      "title_candidates": [
-        "달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법",
-        "달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법: 지금 시장이 반응하는 이유",
-        "달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법"
-      ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
-      "outline": [
-        "왜 지금 이 이슈가 중요한가",
-        "실제로 발표되거나 벌어진 일",
-        "주식·코인·달러·금리에 주는 영향",
-        "앞으로 체크할 변수",
-        "개인 투자자가 볼 포인트"
-      ],
-      "sample_headlines": [
-        "EU moves to block retail investors from explosive boom of multibillion-dollar prediction markets",
-        "Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it."
-      ],
-      "reference_takeaways": [],
-      "source_names": [
-        "CoinDesk RSS",
-        "MarketWatch Breaking News"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 8,
-      "timeliness_score": 10,
-      "explanatory_score": 17,
-      "monetization_score": 12,
-      "risk_score": 6,
-      "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
-      "crypto_market_signal_bonus": 0,
-      "crypto_market_sentiment": "",
-      "crypto_market_signal_notes": [],
-      "total_score": 53.0,
-      "format": "macro_explainer"
     }
   ]
 }

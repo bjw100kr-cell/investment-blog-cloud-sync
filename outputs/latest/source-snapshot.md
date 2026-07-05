@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-04T15:47:25.616352+00:00`
+- 생성 시각: `2026-07-05T09:48:26.749192+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,11 +25,17 @@
 
 ## 유튜브 transcript 포인트
 
-- `무역킹 Trade King YouTube` / 하나님이 나를 부르심
+- `무역킹 Trade King YouTube` / God Called Me? On Calling, Mission, Dreams, and Vocation (Sunday School) Part 1
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=6fnsXPgaEjk! This is most likely caused by:
 
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / The World Order Changes After the World Cup
@@ -100,43 +106,47 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 56, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
-- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `us_big_tech`: score 7, source_count 3, sources Financial Times World, MarketWatch Breaking News, NYT Business
-- `dollar`: score 6, source_count 2, sources CoinDesk RSS, MarketWatch Breaking News
-- `oil`: score 5, source_count 2, sources Financial Times YouTube, Reuters Markets via Google News RSS
-- `us_index_flow`: score 5, source_count 2, sources Financial Times World, MarketWatch Breaking News
-- `ai_semiconductors`: score 4, source_count 2, sources MarketWatch Breaking News, NYT Business
-- `crypto_etf`: score 3, source_count 1, sources Cointelegraph
-- `ai_growth_stocks`: score 3, source_count 1, sources 무역킹 Trade King YouTube
+- `ai_semiconductors`: score 110, source_count 3, sources Google Trends KR, NYT Business, Reuters Markets via Google News RSS
+- `bitcoin`: score 45, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
+- `fomc`: score 26, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `ethereum`: score 6, source_count 1, sources Cointelegraph
+- `china`: score 6, source_count 2, sources Financial Times Home, Financial Times World
+- `jobs`: score 6, source_count 1, sources Reuters Markets via Google News RSS
+- `oil`: score 5, source_count 2, sources Financial Times Home, Financial Times YouTube
+- `us_big_tech`: score 4, source_count 2, sources MarketWatch Breaking News, NYT Business
+- `us_index_flow`: score 3, source_count 1, sources Financial Times Home
+- `dollar`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 56, headlines 17
-  - Trump's crypto token buyers are down $3.8 billion, blockchain data shows
-  - Europe led on crypto regulation. Now implementation must match ambition
-  - UK's bold new crypto rules promise to unlock global trading, but huge compliance hurdles still threaten the rollout
-- `fomc`: score 23, headlines 5
+- `ai_semiconductors`: score 110, headlines 3
+  - 반도체
+  - Trading Day: Chips are down, and so are payrolls - Reuters
+  - Are the ‘MANGOS’ Stocks Already Turning Soft?
+- `bitcoin`: score 45, headlines 13
+  - Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time
+  - Bitcoin jumps above $63,000, reversing end-June losses
+  - Bitcoin experts split over plan to freeze Satoshi's 1.1 million bitcoin as quantum threat grows
+- `fomc`: score 26, headlines 6
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `us_big_tech`: score 7, headlines 3
-  - Here’s what’s worth streaming in July 2026 on Netflix, Hulu, HBO Max and more
-  - US clean power prices set to soar as AI demand coincides with subsidy cuts
-  - Are the ‘MANGOS’ Stocks Already Turning Soft?
-- `dollar`: score 6, headlines 2
-  - EU moves to block retail investors from explosive boom of multibillion-dollar prediction markets
-  - Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.
+- `china`: score 6, headlines 2
+  - Wall Street banks recover in China amid trading boom
+  - China cools on overseas publication of scientific research
+- `ethereum`: score 6, headlines 2
+  - Binance outflows triple to $1.2B as ETH withdrawals hit 3-year high
+  - Vitalik Buterin shares top priorities for new 'Lean Ethereum' strawmap
+- `jobs`: score 6, headlines 2
+  - Morning Bid: Shares pull back as markets await likely payrolls beat - Reuters
+  - Trading Day: Chips are down, and so are payrolls - Reuters
 - `oil`: score 5, headlines 2
-  - Oil prices little changed as US-Iran peace efforts hold - Reuters
+  - Oil market opens up as retail traders pour in
   - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-- `us_index_flow`: score 5, headlines 2
-  - When it comes to beating the stock market, no news really is good news
-  - Good vibes are masking a reset in markets
-- `ai_semiconductors`: score 4, headlines 2
-  - Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.
+- `us_big_tech`: score 4, headlines 2
+  - Here’s what’s worth streaming in July 2026 on Netflix, Hulu, HBO Max and more
   - Are the ‘MANGOS’ Stocks Already Turning Soft?
 - `ai_growth_stocks`: score 3, headlines 1
   - Palantir Is Moving the Japanese Military
-- `crypto_etf`: score 3, headlines 1
-  - Bitcoin, Ether extend relief rallies as extreme fear meets renewed ETF buying
+- `dollar`: score 3, headlines 1
+  - Dollar set for biggest weekly drop since April after jobs data lowers Fed hike bets - Reuters
