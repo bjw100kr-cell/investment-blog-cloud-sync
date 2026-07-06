@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-05T15:56:40.897941+00:00",
+  "generated_at": "2026-07-06T14:08:07.967381+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 2,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 2
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
@@ -14,22 +14,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4400,
+      "demand_signal_score": 6800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 32,
-      "source_count": 4,
+      "source_snapshot_score": 56,
+      "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "NYT Business"
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time",
-        "Bitcoin jumps above $63,000, reversing end-June losses",
-        "Bitcoin experts split over plan to freeze Satoshi's 1.1 million bitcoin as quantum threat grows"
+        "Bitmine added another $74 million in ether as Tom Lee bets on Clarity Act boost",
+        "Michael Saylor's Strategy dramatically ups pace of bitcoin sales, raising $216 million",
+        "Russia's largest bank plans crypto wallet launch as Moscow clears market path"
       ]
     },
     {
@@ -39,20 +38,68 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3800,
+      "demand_signal_score": 3200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 26,
-      "source_count": 2,
+      "source_snapshot_score": 20,
+      "source_count": 1,
       "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Wall St Week Ahead Investors look for Fed clues, earnings signs as tech wobbles - Reuters"
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2600,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 14,
+      "source_count": 4,
+      "source_names": [
+        "Financial Times YouTube",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "U.S. futures rise as oil weighed by supply while earnings loom - Reuters",
+        "Oil prices steady at pre-Iran war levels - Reuters",
+        "As oil exits the ‘danger zone,’ here’s what history suggests happens next for stocks"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2300,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 11,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "TeraWulf shares soar after Anthropic leases data center in Kentucky",
+        "Why OpenAI and Anthropic may struggle to float",
+        "Morning Bid: Samsung to serve chip taster for earnings feast - Reuters"
       ]
     }
   ],

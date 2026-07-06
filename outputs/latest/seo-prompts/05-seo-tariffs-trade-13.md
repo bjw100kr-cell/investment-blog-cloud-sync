@@ -85,14 +85,14 @@
 
 ```json
 {
-  "keyword": "seo_china_12",
-  "source_keyword": "china",
-  "recommended_title": "중국 변수와 시장 영향 ETF·지수·대표 기업 정리",
+  "keyword": "seo_tariffs_trade_13",
+  "source_keyword": "tariffs_trade",
+  "recommended_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 정리",
   "alternate_titles": [
-    "중국 변수와 시장 영향 ETF·지수·대표 기업 정리: 초보 투자자 기준으로 다시 보기",
-    "중국 변수와 시장 영향 ETF·지수·대표 기업 정리: 지금 읽어야 하는 이유"
+    "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 정리: 초보 투자자 기준으로 다시 보기",
+    "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 정리: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유에서 이어지는 후속 글로, 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
+  "summary_angle": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기에서 이어지는 후속 글로, 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
   "outline": [
     "왜 이 섹터를 따로 봐야 하나",
     "대표 기업과 지수/ETF 먼저 정리",
@@ -101,10 +101,10 @@
     "다음 체크포인트"
   ],
   "reference_takeaways": [
-    "메인 연결 글: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+    "메인 연결 글: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
     "검색 의도: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
     "수익화 목표: 광고 노출과 장기 검색 유입 확보",
-    "검색어 후보: 중국 변수와 시장 영향 ETF·지수·대표 기업 정리",
+    "검색어 후보: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 정리",
     "수요 신뢰도: existing_publish_queue - 기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
   ],
   "fact_checks": [
@@ -115,10 +115,10 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "대표 종목, 실적 일정, 공급망 글까지 이어서 보면 섹터 흐름이 더 잘 보입니다.",
   "source_names": [
-    "Financial Times World"
+    "NYT Business"
   ],
   "reference_headlines": [
-    "중국 변수와 시장 영향 ETF·지수·대표 기업 정리"
+    "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 정리"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -181,15 +181,15 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 62.5,
-    "search_score": 62.5,
+    "total_score": 64.5,
+    "search_score": 64.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html",
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기.html",
     "secondary": [
       "site-foundation/hub-global-sector.md",
       "site-foundation/about.md",
@@ -200,9 +200,9 @@
     "투자",
     "경제",
     "시장해설",
-    "중국",
-    "세계흐름",
-    "거시경제"
+    "관세",
+    "무역",
+    "세계흐름"
   ],
   "search_intent": "개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
   "monetization_goal": "광고 노출과 장기 검색 유입 확보",

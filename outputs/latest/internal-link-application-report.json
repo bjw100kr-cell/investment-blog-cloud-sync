@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-05T15:56:45.055105+00:00",
+  "generated_at": "2026-07-06T14:08:11.958715+00:00",
   "source": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/indexing-priority-pack.json",
-  "applied_count": 4,
-  "changed_count": 4,
+  "applied_count": 2,
+  "changed_count": 2,
   "cleanup_count": 0,
   "items": [
     {
@@ -19,15 +19,8 @@
     },
     {
       "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html",
-      "applied": true,
-      "changed": true,
-      "link_count": 1,
-      "source": "publish_inventory",
-      "target_keywords": [
-        "us_index_flow"
-      ]
+      "applied": false,
+      "reason": "manifest_missing"
     },
     {
       "keyword": "fomc",
@@ -43,15 +36,8 @@
     },
     {
       "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html",
-      "applied": true,
-      "changed": true,
-      "link_count": 1,
-      "source": "publish_inventory",
-      "target_keywords": [
-        "fomc"
-      ]
+      "applied": false,
+      "reason": "manifest_missing"
     }
   ],
   "cleanup_items": []
