@@ -14,8 +14,8 @@
 - first_live_run_status: `ready_for_draft_test`
 - github_launch_status: `needs_gh_cli`
 - cloud_verification_ok: `True`
-- quality_needs_fix_count: `0`
-- quality_review_count: `5`
+- quality_needs_fix_count: `4`
+- quality_review_count: `0`
 - visitor_proof_status: `measurement_missing`
 - actual_verified_visitors: `0`
 - visitor_proof_gap: `200`
@@ -24,7 +24,7 @@
 
 - action: `Shortlist 초안 먼저 확인`
 - link: `file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/user-review-checkpoint.html`
-- one-command after approval: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행" --apply`
+- one-command after approval: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "fomc 글 먼저 진행" --apply`
 - why: 지금은 shortlist 글 초안과 미리보기를 먼저 읽고, 괜찮은 글만 사용자 최종 확인으로 넘기는 단계입니다. 확인 전에는 실제 업로드가 계속 차단됩니다.
 
 ## Main Links
@@ -110,14 +110,14 @@
 
 ## User Confirmation Commands
 
-- single: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- reply preview: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행"`
-- reply apply: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행" --apply`
+- single: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin`
+- reply preview: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "fomc 글 먼저 진행"`
+- reply apply: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "fomc 글 먼저 진행" --apply`
 
 ## After Confirmation
 
-- `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행" --apply`
+- `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "fomc 글 먼저 진행" --apply`
 - `python3 scripts/build_platform_publish_plan.py`
 - `python3 scripts/upload_blogger_drafts.py`
 - `python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state`

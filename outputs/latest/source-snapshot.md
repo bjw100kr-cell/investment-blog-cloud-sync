@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-06T14:08:07.967381+00:00`
+- 생성 시각: `2026-07-06T19:05:05.856155+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,49 +106,49 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 56, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `bitcoin`: score 50, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
 - `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `oil`: score 14, source_count 4, sources Financial Times YouTube, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `us_index_flow`: score 8, source_count 2, sources CoinDesk RSS, MarketWatch Breaking News
-- `treasury_yields`: score 7, source_count 2, sources CNBC Top News, CoinDesk RSS
-- `dollar`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
-- `ai_growth_stocks`: score 7, source_count 2, sources CoinDesk RSS, 무역킹 Trade King YouTube
-- `cpi`: score 4, source_count 1, sources CoinDesk RSS
-- `us_big_tech`: score 3, source_count 1, sources CNBC Top News
+- `ai_semiconductors`: score 12, source_count 3, sources Cointelegraph, Financial Times Home, Reuters Markets via Google News RSS
+- `us_big_tech`: score 12, source_count 3, sources CNBC Top News, Financial Times Home, Reuters Markets via Google News RSS
+- `oil`: score 12, source_count 3, sources Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
+- `us_index_flow`: score 8, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `treasury_yields`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
+- `dollar`: score 4, source_count 1, sources CoinDesk RSS
+- `ai_growth_stocks`: score 3, source_count 1, sources 무역킹 Trade King YouTube
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 56, headlines 17
+- `bitcoin`: score 50, headlines 16
+  - Strategy selling hundreds of millions worth of bitcoin raises question about its capital-allocation playbook
   - Bitmine added another $74 million in ether as Tom Lee bets on Clarity Act boost
   - Michael Saylor's Strategy dramatically ups pace of bitcoin sales, raising $216 million
-  - Russia's largest bank plans crypto wallet launch as Moscow clears market path
 - `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `oil`: score 14, headlines 6
-  - U.S. futures rise as oil weighed by supply while earnings loom - Reuters
-  - Oil prices steady at pre-Iran war levels - Reuters
-  - As oil exits the ‘danger zone,’ here’s what history suggests happens next for stocks
-- `ai_semiconductors`: score 11, headlines 4
-  - TeraWulf shares soar after Anthropic leases data center in Kentucky
+- `oil`: score 12, headlines 5
+  - Wall Street surges, oil flat as chip stock rally continues - Reuters
+  - EXCLUSIVE: UAE crude output nears record following OPEC exit, sources say - Reuters
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+- `ai_semiconductors`: score 12, headlines 4
+  - TeraWulf shares rise after $19B Anthropic AI lease, JV sale
   - Why OpenAI and Anthropic may struggle to float
-  - Morning Bid: Samsung to serve chip taster for earnings feast - Reuters
+  - S&P 500, Nasdaq rise as chips recover, Broadcom gains on Apple deal - Reuters
+- `us_big_tech`: score 12, headlines 4
+  - Trump plugs Dell at first-ever White House opening bell, sending shares soaring
+  - Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios
+  - Microsoft to axe 4,800 jobs as it resets Xbox
 - `us_index_flow`: score 8, headlines 3
-  - SpaceX's Nasdaq 100 inclusion comes with a historical warning
-  - Trump rings Wall Street opening bells and says the stock market ‘is going to go through the roof’
-  - AI hyperscalers are poised for a big comeback rally as chip gains cool, says Morgan Stanley
-- `ai_growth_stocks`: score 7, headlines 2
-  - SpaceX's Nasdaq 100 inclusion comes with a historical warning
-  - Palantir Is Moving the Japanese Military
-- `dollar`: score 7, headlines 2
-  - Michael Saylor's Strategy dramatically ups pace of bitcoin sales, raising $216 million
-  - Dollar edges up; keeps yen pinned near 40-year lows - Reuters
+  - Here's how SpaceX's Nasdaq-100 inclusion might affect options pricing
+  - S&P 500, Nasdaq rise as chips recover, Broadcom gains on Apple deal - Reuters
+  - Eight microcap stocks of companies expected to grow sales by triple digits through 2028
 - `treasury_yields`: score 7, headlines 2
   - Bitmine added another $74 million in ether as Tom Lee bets on Clarity Act boost
-  - Trump rings opening bell at White House with raft of CEOs in first-of-its-kind market open
-- `cpi`: score 4, headlines 1
-  - U.S. inflation outlook underpins bitcoin bulls after best week since March
-- `us_big_tech`: score 3, headlines 1
-  - Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios
+  - Bitmine announces $74M Ether buys as chair says ‘greater chances of Clarity Act passage’
+- `dollar`: score 4, headlines 1
+  - Michael Saylor's Strategy dramatically ups pace of bitcoin sales, raising $216 million
+- `ethereum`: score 4, headlines 1
+  - Ethereum developers embrace Vitalik Buterin's long-term vision but urge quicker execution
+- `ai_growth_stocks`: score 3, headlines 1
+  - Palantir Is Moving the Japanese Military
