@@ -91,7 +91,7 @@
     "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
     "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+  "summary_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
   "outline": [
     "왜 지금 이 이슈가 중요한가",
     "실제로 발표되거나 벌어진 일",
@@ -109,6 +109,7 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "Federal Reserve Monetary Policy Press",
+    "MarketWatch Breaking News",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
@@ -116,7 +117,7 @@
     "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
     "Federal Reserve issues FOMC statement",
     "Federal Reserve issues FOMC statement",
-    "Gold slips as stronger dollar weighs; focus on Fed minutes and Gulf tensions - Reuters"
+    "Gold edges down as Middle East tensions propel oil prices higher, Fed minutes awaited - Reuters"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -179,8 +180,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 91.0,
-    "search_score": 23,
+    "total_score": 94.0,
+    "search_score": 26,
     "timeliness_score": 25,
     "explanatory_score": 20,
     "monetization_score": 15,

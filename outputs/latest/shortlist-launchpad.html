@@ -124,10 +124,46 @@
     <section class="hero">
       <h1>Shortlist Launchpad</h1>
       <p class="muted">처음엔 이 화면 하나만 보면 됩니다. shortlist 글 2개 기준으로 왜 지금 올리는지, 무엇이 막고 있는지, 바로 쓸 명령이 무엇인지 모아 둔 시작 화면입니다.</p>
-      <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin</code>
-      <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin</code>
+      <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc</code>
+      <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin</code>
     </section>
     
+    <section class="card">
+      <div class="top">
+        <div class="pill-row">
+          <span class="pill">fomc</span>
+          <span class="pill alt">approve</span>
+          <span class="pill">pass</span>
+        </div>
+        <h2>FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지</h2>
+        <p><strong>Publish</strong> 2026-07-07 / <strong>Ready</strong> True</p>
+        <p><strong>Hero image</strong> True / <strong>Hard blocker</strong> none</p>
+        <p><strong>Why now</strong> 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음</p>
+        <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
+        <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html' target='_blank' rel='noreferrer'>HTML Preview</a></p>
+      </div>
+      <div class="grid">
+        <div class="panel">
+          <h3>Quick Evidence</h3>
+          <ul><li><strong>Federal Reserve Monetary Policy Press</strong> <span class='tiny'>2026-06-17T18:00:00+00:00</span><br>Federal Reserve issues FOMC statement</li><li><strong>Federal Reserve Monetary Policy Press</strong> <span class='tiny'>2026-06-17T18:00:00+00:00</span><br>Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting</li><li><strong>Federal Reserve Monetary Policy Press</strong> <span class='tiny'>2026-04-29T18:00:00+00:00</span><br>Federal Reserve issues FOMC statement</li></ul>
+        </div>
+        <div class="panel">
+          <h3>Sample Headlines</h3>
+          <ul><li>Federal Reserve issues FOMC statement</li><li>Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting</li><li>Gold edges down as Middle East tensions propel oil prices higher, Fed minutes awaited - Reuters</li></ul>
+        </div>
+      </div>
+      <div class="panel">
+        <h3>Do This Next</h3>
+        <p>사용자 최종 확인 후 Blogger draft 업로드</p>
+        <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword fomc</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply</code>
+      </div>
+      <div class="panel">
+        <h3>Followup Chain</h3>
+        <ul><li><code>python3 scripts/build_platform_publish_plan.py</code></li><li><code>python3 scripts/upload_blogger_drafts.py</code></li><li><code>python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state</code></li></ul>
+      </div>
+    </section>
+    
+
     <section class="card">
       <div class="top">
         <div class="pill-row">
@@ -145,11 +181,11 @@
       <div class="grid">
         <div class="panel">
           <h3>Quick Evidence</h3>
-          <ul><li><strong>CoinDesk RSS</strong> <span class='tiny'>2026-07-07T10:44:09+00:00</span><br>Bitcoin stalls as open interest decline raises questions about rally&#x27;s staying power</li><li><strong>Cointelegraph</strong> <span class='tiny'>2026-07-07T10:14:40+00:00</span><br>Bitcoin can fall below $58K if one of its &#x27;cleanest&#x27; metrics copies history: Analysis</li><li><strong>Cointelegraph</strong> <span class='tiny'>2026-07-07T09:23:39+00:00</span><br>Digital Chamber amicus brief urges dismissal of NY lawsuit over 39,069 Bitcoin wallets</li></ul>
+          <ul><li><strong>Cointelegraph</strong> <span class='tiny'>2026-07-07T16:43:07+00:00</span><br>Tether invests in Mercado Bitcoin as blockchain finance expands in Latin America</li><li><strong>Cointelegraph</strong> <span class='tiny'>2026-07-07T15:13:25+00:00</span><br>Bitcoin bulls battle for $63K as Micron stock eyes 10% drop in US chip sell-off</li><li><strong>Cointelegraph</strong> <span class='tiny'>2026-07-07T15:00:00+00:00</span><br>Bitcoin Covenants part 3: SIGHASH_ANYPREVOUT</li></ul>
         </div>
         <div class="panel">
           <h3>Sample Headlines</h3>
-          <ul><li>Bitcoin stalls as open interest decline raises questions about rally&#x27;s staying power</li><li>Binance taps into Bitcoin holders’ hunger for yield with new covered call yield play</li><li>Bitcoin&#x27;s recent macro relief faces a challenge from Japanese interest rates</li></ul>
+          <ul><li>Crypto exchange Kraken is trying to become a bank in Europe</li><li>U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising</li><li>Vanguard opens search for digital assets leader in sign of evolving crypto strategy</li></ul>
         </div>
       </div>
       <div class="panel">
@@ -167,67 +203,31 @@
     <section class="card">
       <div class="top">
         <div class="pill-row">
-          <span class="pill">china</span>
+          <span class="pill">ai_semiconductors</span>
           <span class="pill alt">approve</span>
           <span class="pill">review_before_publish</span>
         </div>
-        <h2>중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유</h2>
-        <p><strong>Publish</strong> 2026-07-10 / <strong>Ready</strong> False</p>
-        <p><strong>Hero image</strong> True / <strong>Hard blocker</strong> none</p>
-        <p><strong>Why now</strong> 섹터/세계 흐름 연결 해설 가능</p>
-        <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
-        <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html' target='_blank' rel='noreferrer'>HTML Preview</a></p>
-      </div>
-      <div class="grid">
-        <div class="panel">
-          <h3>Quick Evidence</h3>
-          <ul><li><strong>Reuters Markets via Google News RSS</strong> <span class='tiny'>2026-07-07T01:10:00+00:00</span><br>China breaks step with global markets, and investors buy in - Reuters</li><li><strong>Reuters Markets via Google News RSS</strong> <span class='tiny'>2026-07-06T23:03:00+00:00</span><br>China&#x27;s booming gig economy masks job market pain, strains welfare system - Reuters</li></ul>
-        </div>
-        <div class="panel">
-          <h3>Sample Headlines</h3>
-          <ul><li>China breaks step with global markets, and investors buy in - Reuters</li><li>China&#x27;s booming gig economy masks job market pain, strains welfare system - Reuters</li></ul>
-        </div>
-      </div>
-      <div class="panel">
-        <h3>Do This Next</h3>
-        <p>사용자 최종 확인 후 업로드</p>
-        <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword china</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply</code>
-      </div>
-      <div class="panel">
-        <h3>Followup Chain</h3>
-        <ul><li><code>python3 scripts/build_platform_publish_plan.py</code></li><li><code>python3 scripts/upload_blogger_drafts.py</code></li><li><code>python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state</code></li></ul>
-      </div>
-    </section>
-    
-
-    <section class="card">
-      <div class="top">
-        <div class="pill-row">
-          <span class="pill">ai_growth_stocks</span>
-          <span class="pill alt">approve</span>
-          <span class="pill">review_before_publish</span>
-        </div>
-        <h2>AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담</h2>
+        <h2>AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지</h2>
         <p><strong>Publish</strong> 2026-07-09 / <strong>Ready</strong> False</p>
         <p><strong>Hero image</strong> True / <strong>Hard blocker</strong> none</p>
-        <p><strong>Why now</strong> 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능</p>
+        <p><strong>Why now</strong> 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능</p>
         <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
-        <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-growth-stocks.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-%EC%84%B1%EC%9E%A5%EC%A3%BC%EB%A5%BC-%EB%B3%BC-%EB%95%8C-%EB%86%93%EC%B9%98%EA%B8%B0-%EC%89%AC%EC%9A%B4-%EB%A6%AC%EC%8A%A4%ED%81%AC-%EB%A7%A4%EC%B6%9C-%EC%84%B1%EC%9E%A5%EA%B3%BC-%EA%B8%88%EB%A6%AC-%EB%B6%80%EB%8B%B4.html' target='_blank' rel='noreferrer'>HTML Preview</a></p>
+        <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-semiconductors.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EA%B0%80%EB%A5%BC-%EB%B3%BC-%EB%95%8C-%EC%8B%A4%EC%A0%81%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%ED%99%95%EC%9D%B8%ED%95%A0-3%EA%B0%80%EC%A7%80.html' target='_blank' rel='noreferrer'>HTML Preview</a></p>
       </div>
       <div class="grid">
         <div class="panel">
           <h3>Quick Evidence</h3>
-          <ul><li><strong>무역킹 Trade King YouTube</strong> <span class='tiny'>38K</span><br>Palantir Is Moving the Japanese Military</li></ul>
+          <ul><li><strong>MarketWatch Breaking News</strong> <span class='tiny'>2026-07-07T19:05:00+00:00</span><br>Elon Musk’s Terafab could give a major boost to this corner of the chip sector</li><li><strong>Reuters Markets via Google News RSS</strong> <span class='tiny'>2026-07-07T18:30:52+00:00</span><br>S&amp;P 500 dips as AI worries hit chipmakers - Reuters</li><li><strong>Cointelegraph</strong> <span class='tiny'>2026-07-07T15:13:25+00:00</span><br>Bitcoin bulls battle for $63K as Micron stock eyes 10% drop in US chip sell-off</li></ul>
         </div>
         <div class="panel">
           <h3>Sample Headlines</h3>
-          <ul><li>Palantir Is Moving the Japanese Military</li></ul>
+          <ul><li>Bitcoin bulls battle for $63K as Micron stock eyes 10% drop in US chip sell-off</li><li>Chinese lidar maker with Nvidia ties accused of being cyber risk for U.S.</li><li>Morning Bid: Chip dip - Reuters</li></ul>
         </div>
       </div>
       <div class="panel">
         <h3>Do This Next</h3>
         <p>사용자 최종 확인 후 업로드</p>
-        <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_growth_stocks</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword ai_growth_stocks</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword ai_growth_stocks --apply</code>
+        <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply</code>
       </div>
       <div class="panel">
         <h3>Followup Chain</h3>

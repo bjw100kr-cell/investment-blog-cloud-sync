@@ -1,24 +1,24 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-07-07T11:24:08.401880+00:00`
+- 생성 시각: `2026-07-07T19:17:52.931575+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
-- `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 점수 91.0 / 수익화 15
-  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-  - 근거 소스: Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 84.0 / 수익화 15
+- `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 점수 94.0 / 수익화 15
+  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+  - 근거 소스: Federal Reserve Monetary Policy Press, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 83.0 / 수익화 15
   - 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
   - 근거 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `ai_growth_stocks`: AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담 / 점수 44.0 / 수익화 15
-  - 이유: 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-  - 근거 소스: 무역킹 Trade King YouTube
+- `ai_semiconductors`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 점수 73.0 / 수익화 15
+  - 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+  - 근거 소스: CNBC Top News, Cointelegraph, MarketWatch Breaking News, Reuters Markets via Google News RSS
 
 ## 브랜드 레인 우선순위
 
 - `거시경제`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 fomc
 - `코인`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 bitcoin
-- `미국주식`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 ai_growth_stocks
+- `미국주식`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 ai_semiconductors
 - `세계 흐름`: 평균 수익화 12.0 / 게시 예정 1개 / 키워드 china
 
 ## 검색 수요 감지 키워드
@@ -28,9 +28,9 @@
 ## 무료 트렌드 수요 신호
 
 - `bitcoin`: trend_count 0, traffic_sum 0, regions  / 쿼리 
-- `oil`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 - `fomc`: trend_count 0, traffic_sum 0, regions  / 쿼리 
-- `treasury_yields`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `ai_semiconductors`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `us_index_flow`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 
 ## 다음 7일 실행 포인트
 

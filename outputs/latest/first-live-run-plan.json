@@ -26,13 +26,13 @@
   "dry_run_summary": {
     "reason": "",
     "manifest_candidate_count": 0,
-    "processed_count": 1,
+    "processed_count": 2,
     "max_posts_per_run": 3,
-    "first_item_reason": "source_freshness_stale"
+    "first_item_reason": ""
   },
   "wordpress_dry_run_summary": {
     "reason": "WORDPRESS_SITE_URL is not set",
-    "manifest_candidate_count": 9,
+    "manifest_candidate_count": 11,
     "processed_count": 0,
     "max_posts_per_run": 1,
     "first_item_reason": "credentials_missing_dry_run"
@@ -45,16 +45,16 @@
     "role": "lane_focus_crypto",
     "post_type": "breaking_explainer",
     "ready_to_upload": true,
-    "recommended_publish_date": "2026-07-07",
+    "recommended_publish_date": "2026-07-08",
     "publish_bucket": "tomorrow",
-    "priority_score": 126.0,
+    "priority_score": 123.0,
     "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
     "revenue_objective": "페이지뷰와 체류시간 균형 확보",
     "cta_focus": "ETF·규제·초보 가이드 글로 연결",
     "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
     "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
-    "upload_sequence_hint": 2,
-    "inventory_sequence": 2,
+    "upload_sequence_hint": 1,
+    "inventory_sequence": 1,
     "approved_for_upload": true,
     "quality_pass": true,
     "freshness_status": "fresh",

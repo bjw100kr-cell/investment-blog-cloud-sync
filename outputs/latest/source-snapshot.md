@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-07T11:24:08.401880+00:00`
+- 생성 시각: `2026-07-07T19:17:52.931575+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,9 +25,9 @@
 
 ## 유튜브 transcript 포인트
 
-- `무역킹 Trade King YouTube` / 미국 250주년에 반공을 외쳤다
+- `무역킹 Trade King YouTube` / 2. The Direction of a Nation Truly Committed to Freedom (US Independence Day Speech)
   - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=aPOzOf44LEc! This is most likely caused by:
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=62e69Bz7-ww! This is most likely caused by:
 
 YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
 - You have done too many requests and your IP has been blocked by YouTube
@@ -38,11 +38,17 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 자유에 진심인 나라의 방향성
+- `무역킹 Trade King YouTube` / 1. Trump Declared Anti-Communism at America's 250th Anniversary (Independence Day Speech)
   - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=62e69Bz7-ww! This is most likely caused by:
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=aPOzOf44LEc! This is most likely caused by:
 
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / The US has locked down North America
@@ -100,43 +106,47 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 60, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `oil`: score 24, source_count 5, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times YouTube, Reuters Markets via Google News RSS
-- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `treasury_yields`: score 15, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `china`: score 6, source_count 1, sources Reuters Markets via Google News RSS
-- `dollar`: score 5, source_count 2, sources NYT Business, Reuters Markets via Google News RSS
-- `ethereum`: score 3, source_count 1, sources Cointelegraph
+- `bitcoin`: score 57, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 27, source_count 3, sources Federal Reserve Monetary Policy Press, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 11, source_count 4, sources CNBC Top News, Cointelegraph, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_index_flow`: score 11, source_count 3, sources Cointelegraph, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_big_tech`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
+- `oil`: score 5, source_count 2, sources Financial Times YouTube, Reuters Markets via Google News RSS
+- `china`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 - `ai_growth_stocks`: score 3, source_count 1, sources 무역킹 Trade King YouTube
-- `cpi`: score 3, source_count 1, sources Financial Times World
+- `cpi`: score 2, source_count 1, sources MarketWatch Breaking News
+- `treasury_yields`: score 2, source_count 1, sources MarketWatch Breaking News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 60, headlines 18
-  - Bitcoin stalls as open interest decline raises questions about rally's staying power
-  - Binance taps into Bitcoin holders’ hunger for yield with new covered call yield play
-  - Bitcoin's recent macro relief faces a challenge from Japanese interest rates
-- `oil`: score 24, headlines 8
-  - Bitcoin drops after a run at $64,000, shrugging off Strategy's $213 million BTC sale
-  - Oil prices rise after report of Iranian attack on commercial ships in Strait of Hormuz
-  - Ukrainian drones hit Russia’s largest oil refinery as Zelenskyy says Siberia now ‘within reach’
-- `fomc`: score 23, headlines 5
+- `bitcoin`: score 57, headlines 18
+  - Crypto exchange Kraken is trying to become a bank in Europe
+  - U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising
+  - Vanguard opens search for digital assets leader in sign of evolving crypto strategy
+- `fomc`: score 27, headlines 7
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 15, headlines 4
-  - Binance taps into Bitcoin holders’ hunger for yield with new covered call yield play
-  - Bitcoin's recent macro relief faces a challenge from Japanese interest rates
-  - BONK faces $20 million treasury drain after attacker spends $4 million to pass malicious proposal
-- `china`: score 6, headlines 2
-  - China breaks step with global markets, and investors buy in - Reuters
-  - China's booming gig economy masks job market pain, strains welfare system - Reuters
-- `dollar`: score 5, headlines 2
-  - Gold slips as stronger dollar weighs; focus on Fed minutes and Gulf tensions - Reuters
-  - As Messi Dominates the World Cup, a War Is Waged Over Maradona’s Image
+- `ai_semiconductors`: score 11, headlines 4
+  - Bitcoin bulls battle for $63K as Micron stock eyes 10% drop in US chip sell-off
+  - Chinese lidar maker with Nvidia ties accused of being cyber risk for U.S.
+  - Morning Bid: Chip dip - Reuters
+- `us_big_tech`: score 11, headlines 4
+  - Meta enters AI image model race in bid to court advertisers and subscribers
+  - Meta releases first image model since Zuckerberg’s AI overhaul
+  - Tesla’s stock could rise 20% thanks to the potential for a SpaceX merger, analyst says
+- `us_index_flow`: score 11, headlines 4
+  - Bitcoin bulls battle for $63K as Micron stock eyes 10% drop in US chip sell-off
+  - S&P 500 dips as AI worries hit chipmakers - Reuters
+  - Brokerages line up bullish calls as SpaceX enters Nasdaq-100 - Reuters
+- `oil`: score 5, headlines 2
+  - Gold edges down as Middle East tensions propel oil prices higher, Fed minutes awaited - Reuters
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
 - `ai_growth_stocks`: score 3, headlines 1
   - Palantir Is Moving the Japanese Military
-- `cpi`: score 3, headlines 1
-  - Japanese wages continue to rise, boosting BoJ normalisation policy
-- `ethereum`: score 3, headlines 1
-  - Vitalik Buterin confirms AI identified his anonymous Ethereum proposal contribution
+- `china`: score 3, headlines 1
+  - China breaks step with global markets, and investors buy in - Reuters
+- `cpi`: score 2, headlines 1
+  - Bond traders are watching this tracker to figure out the real odds of Fed rate hikes
+- `treasury_yields`: score 2, headlines 1
+  - Bond traders are watching this tracker to figure out the real odds of Fed rate hikes

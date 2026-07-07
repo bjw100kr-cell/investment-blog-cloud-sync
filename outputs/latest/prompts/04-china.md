@@ -111,8 +111,7 @@
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "China breaks step with global markets, and investors buy in - Reuters",
-    "China's booming gig economy masks job market pain, strains welfare system - Reuters"
+    "China breaks step with global markets, and investors buy in - Reuters"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -175,9 +174,9 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 50.0,
-    "search_score": 6,
-    "timeliness_score": 8,
+    "total_score": 45.0,
+    "search_score": 4,
+    "timeliness_score": 5,
     "explanatory_score": 17,
     "monetization_score": 12,
     "risk_score": 7
