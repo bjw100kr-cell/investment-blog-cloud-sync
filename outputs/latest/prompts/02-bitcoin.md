@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -110,15 +110,14 @@
   "source_names": [
     "CoinDesk RSS",
     "Cointelegraph",
-    "Investing.com Crypto News",
-    "MarketWatch Breaking News"
+    "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Strategy selling hundreds of millions worth of bitcoin raises question about its capital-allocation playbook",
-    "Bitmine added another $74 million in ether as Tom Lee bets on Clarity Act boost",
-    "Michael Saylor's Strategy dramatically ups pace of bitcoin sales, raising $216 million",
-    "Bitmine announces $74M Ether buys as chair says ‘greater chances of Clarity Act passage’",
-    "TeraWulf shares rise after $19B Anthropic AI lease, JV sale"
+    "Bitcoin stalls as open interest decline raises questions about rally's staying power",
+    "Binance taps into Bitcoin holders’ hunger for yield with new covered call yield play",
+    "Bitcoin's recent macro relief faces a challenge from Japanese interest rates",
+    "Live markets: Bitcoin and ether ETFs drew inflows on Monday",
+    "Bitcoin drops after a run at $64,000, shrugging off Strategy's $213 million BTC sale"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -181,9 +180,9 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 87.0,
-    "search_score": 29,
-    "timeliness_score": 20,
+    "total_score": 84.0,
+    "search_score": 30,
+    "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,
     "risk_score": 3

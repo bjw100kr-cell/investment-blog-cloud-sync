@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T19:05:05.856155+00:00",
+  "generated_at": "2026-07-07T11:24:08.401880+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -14,22 +14,47 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6200,
+      "demand_signal_score": 7200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 50,
-      "source_count": 4,
+      "source_snapshot_score": 60,
+      "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Strategy selling hundreds of millions worth of bitcoin raises question about its capital-allocation playbook",
-        "Bitmine added another $74 million in ether as Tom Lee bets on Clarity Act boost",
-        "Michael Saylor's Strategy dramatically ups pace of bitcoin sales, raising $216 million"
+        "Bitcoin stalls as open interest decline raises questions about rally's staying power",
+        "Binance taps into Bitcoin holders’ hunger for yield with new covered call yield play",
+        "Bitcoin's recent macro relief faces a challenge from Japanese interest rates"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3600,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 24,
+      "source_count": 5,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times YouTube",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Bitcoin drops after a run at $64,000, shrugging off Strategy's $213 million BTC sale",
+        "Oil prices rise after report of Iranian attack on commercial ships in Strait of Hormuz",
+        "Ukrainian drones hit Russia’s largest oil refinery as Zelenskyy says Siberia now ‘within reach’"
       ]
     },
     {
@@ -39,66 +64,43 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 1,
+      "source_snapshot_score": 23,
+      "source_count": 2,
       "source_names": [
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "Gold slips as stronger dollar weighs; focus on Fed minutes and Gulf tensions - Reuters"
       ]
     },
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2400,
+      "demand_signal_score": 2700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
-      "source_count": 3,
+      "source_snapshot_score": 15,
+      "source_count": 2,
       "source_names": [
-        "Cointelegraph",
-        "Financial Times Home",
-        "Reuters Markets via Google News RSS"
+        "CoinDesk RSS",
+        "Cointelegraph"
       ],
       "sample_titles": [
-        "TeraWulf shares rise after $19B Anthropic AI lease, JV sale",
-        "Why OpenAI and Anthropic may struggle to float",
-        "S&P 500, Nasdaq rise as chips recover, Broadcom gains on Apple deal - Reuters"
-      ]
-    },
-    {
-      "keyword": "us_big_tech",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2400,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
-      "source_count": 3,
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Trump plugs Dell at first-ever White House opening bell, sending shares soaring",
-        "Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios",
-        "Microsoft to axe 4,800 jobs as it resets Xbox"
+        "Binance taps into Bitcoin holders’ hunger for yield with new covered call yield play",
+        "Bitcoin's recent macro relief faces a challenge from Japanese interest rates",
+        "BONK faces $20 million treasury drain after attacker spends $4 million to pass malicious proposal"
       ]
     }
   ],

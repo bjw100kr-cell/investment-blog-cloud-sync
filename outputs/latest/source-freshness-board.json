@@ -1,56 +1,74 @@
 {
-  "generated_at": "2026-07-06T19:05:10.224797+00:00",
-  "snapshot_generated_at": "2026-07-06T19:05:05.856155+00:00",
+  "generated_at": "2026-07-07T11:24:12.961453+00:00",
+  "snapshot_generated_at": "2026-07-07T11:24:08.401880+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
     "fresh": 2,
     "aging": 0,
-    "stale": 1,
-    "unknown": 0
+    "stale": 0,
+    "unknown": 1
   },
   "items": [
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-07-06",
-      "freshness_status": "stale",
-      "newest_evidence_iso": "2026-06-17T18:00:00+00:00",
-      "oldest_evidence_iso": "2026-03-18T18:00:00+00:00",
-      "newest_evidence_age_days": 19.0,
+      "keyword": "ai_growth_stocks",
+      "title": "AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "publish_date": "2026-07-09",
+      "freshness_status": "unknown",
+      "newest_evidence_iso": "",
+      "oldest_evidence_iso": "",
+      "newest_evidence_age_days": null,
       "source_count": 1,
-      "demand_signal_score": 3200,
-      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
-      "recovery_mode": "full_refresh_needed",
-      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
-      "recovery_command": "bash scripts/run_pipeline.sh",
+      "demand_signal_score": 0,
+      "summary_line": "대표 근거 시각을 읽지 못해 판단이 보류되었습니다.",
+      "recommendation": "최근 근거 시각을 다시 수집해 신선도를 먼저 확인하세요.",
+      "recovery_mode": "manual_check",
+      "recovery_summary": "최근 근거 시각을 먼저 다시 확인한 뒤 다음 액션을 결정하세요.",
       "recent_evidence": [
         {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "title": "Palantir Is Moving the Japanese Military",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "38K",
+          "published_iso": "38K",
+          "link": "https://www.youtube.com/watch?v=t-T34NHJBvY",
+          "source_type": "youtube_channel"
+        }
+      ]
+    },
+    {
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "publish_date": "2026-07-10",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-07-07T01:10:00+00:00",
+      "oldest_evidence_iso": "2026-07-06T23:03:00+00:00",
+      "newest_evidence_age_days": 0.4,
+      "source_count": 1,
+      "demand_signal_score": 0,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: China breaks step with global markets, and investors buy in - Reuters",
+      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "China breaks step with global markets, and investors buy in - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Tue, 07 Jul 2026 01:10:00 GMT",
+          "published_iso": "2026-07-07T01:10:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ3h0djZqeHZyVGNZTGlJbXFQMmhSQ1NobzBncUpLV2dLcnBJV0JVQWhjUlhQcDZCVWVxSzJiSWNlelJtU1NoUkt3eTkxS1FBRUhZbWx6aExMLWtrXy1lVkZ1ZVE0blFHc1BRUmc4MDBoWVAwS3pDSjRFeDNBYUUyd3pqOU42R2ZpM0FUV19SVEFmejN2ZElnSThpbUExX1l2?oc=5",
           "source_type": "rss"
         },
         {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+          "title": "China's booming gig economy masks job market pain, strains welfare system - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Mon, 06 Jul 2026 23:03:00 GMT",
+          "published_iso": "2026-07-06T23:03:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSXZHYVVRQ3N3dDJiYmwzWXlNLVZDa2pnNkdVQVFGR2REVURMR1FRczFvNGUxVmJ4N2ZNX0lpQ2l6OWpRRmZkQmhFbDFEN2gxSjlHQkRxYkticWllMGJLcFd3Y2EwVXRpd0I0OWlFdUo4WWV1NHlVcEY3SVMxRzJBbnFYTlQ2UDJEU1JnUkpOeDNVcVVxem5kcG0weXotSlpJa2g0UnB2ejdKUGFWbWM3SlRRUkVOZnFWT09aS2hITVNVb0liVzJIcWJ3?oc=5",
           "source_type": "rss"
         }
       ]
@@ -60,83 +78,40 @@
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-07-07",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-06T17:43:00+00:00",
-      "oldest_evidence_iso": "2026-07-06T12:16:28+00:00",
-      "newest_evidence_age_days": 0.1,
-      "source_count": 4,
-      "demand_signal_score": 6200,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Strategy is losing a lot of money on bitcoin. Here’s why it’s selling anyway.",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "Strategy is losing a lot of money on bitcoin. Here’s why it’s selling anyway.",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Mon, 06 Jul 2026 17:43:00 GMT",
-          "published_iso": "2026-07-06T17:43:00+00:00",
-          "link": "https://www.marketwatch.com/story/strategy-is-losing-a-lot-of-money-on-bitcoin-heres-why-its-selling-anyway-02822bc5?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "Strategy selling hundreds of millions worth of bitcoin raises question about its capital-allocation playbook",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 06 Jul 2026 15:47:12 +0000",
-          "published_iso": "2026-07-06T15:47:12+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/06/one-month-that-shook-the-market-saylor-s-struggles-over-bitcoin-strategy-yields-big-loss",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin price falls up to 4% on Strategy BTC sale as trader sees Summer 2022 repeat",
-          "source_name": "Cointelegraph",
-          "published": "Mon, 06 Jul 2026 15:22:45 +0000",
-          "published_iso": "2026-07-06T15:22:45+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-price-falls-on-strategy-btc-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "quality_status": "pass",
-      "ready_now": true,
       "publish_date": "2026-07-08",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-06T16:43:21+00:00",
-      "oldest_evidence_iso": "2026-07-06T00:59:00+00:00",
-      "newest_evidence_age_days": 0.1,
+      "newest_evidence_iso": "2026-07-07T10:44:09+00:00",
+      "oldest_evidence_iso": "2026-07-07T07:50:57+00:00",
+      "newest_evidence_age_days": 0.0,
       "source_count": 3,
-      "demand_signal_score": 2400,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: TeraWulf shares rise after $19B Anthropic AI lease, JV sale",
+      "demand_signal_score": 7200,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin stalls as open interest decline raises questions about rally's staying power",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "TeraWulf shares rise after $19B Anthropic AI lease, JV sale",
+          "title": "Bitcoin stalls as open interest decline raises questions about rally's staying power",
+          "source_name": "CoinDesk RSS",
+          "published": "Tue, 07 Jul 2026 10:44:09 +0000",
+          "published_iso": "2026-07-07T10:44:09+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/07/bitcoin-stalls-as-open-interest-decline-raises-questions-about-rally-s-staying-power",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin can fall below $58K if one of its 'cleanest' metrics copies history: Analysis",
           "source_name": "Cointelegraph",
-          "published": "Mon, 06 Jul 2026 16:43:21 +0000",
-          "published_iso": "2026-07-06T16:43:21+00:00",
-          "link": "https://cointelegraph.com/news/terawulf-shares-rise-after-19b-anthropic-ai-lease-jv-sale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Tue, 07 Jul 2026 10:14:40 +0000",
+          "published_iso": "2026-07-07T10:14:40+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-can-fall-below-58k-if-one-of-its-cleanest-metrics-copies-history-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "S&P 500, Nasdaq rise as chips recover, Broadcom gains on Apple deal - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Mon, 06 Jul 2026 16:38:44 GMT",
-          "published_iso": "2026-07-06T16:38:44+00:00",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeURVeHcyZ0dZTjVKUU5YT1c0UFpHZjliRDdNamlueUo3M0pyaDFDYkNPYlZnTDMwY1I2Q2ZodmhPeWdKeUZNY2wzRUgxOUowQ0pLMnF0ajJqdnI2dS1uWjdIS1hSLUFkeHN3VnZadWJJYk9XZnAyczBjOVBXcmxCSlNCcVRWZjZnVkZQQWlYam9MQWZ2T0hpWnN0aHRSU2o2MU9WRlB0THYxREJzVkM2U1NSOA?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "AI investors may pivot to hyperscalers from chipmakers, Morgan Stanley says - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Mon, 06 Jul 2026 13:42:52 GMT",
-          "published_iso": "2026-07-06T13:42:52+00:00",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZkRmUHRzNzdsLWFnc0dvQXdYOWF3SkVrQVFIWUFnNXU3M3BDV3FZcWRVbjNMRlltWTNSNV85ZEFBNTQ5RjA5MVZEVERkVHJvdmxES1lSdDFwVktMeEN3OVdDNkRGenExTXRqWDdmZG0wb1RoWFVjdldDSXpQY2FoY3M1Q05kel9waTI5UGxxQ2M5TmNsMHVCVUUzazFIUTU1N2dacGFDQ0xqLXN3bU9oXw?oc=5",
+          "title": "Digital Chamber amicus brief urges dismissal of NY lawsuit over 39,069 Bitcoin wallets",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 07 Jul 2026 09:23:39 +0000",
+          "published_iso": "2026-07-07T09:23:39+00:00",
+          "link": "https://cointelegraph.com/news/digital-chamber-files-ny-lawsuit-39069-bitcoin-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ]
