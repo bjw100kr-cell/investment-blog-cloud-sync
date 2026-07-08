@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-07T19:17:52.931575+00:00`
+- 생성 시각: `2026-07-08T09:17:01.104681+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,47 +106,51 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 57, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 27, source_count 3, sources Federal Reserve Monetary Policy Press, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 11, source_count 4, sources CNBC Top News, Cointelegraph, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `us_index_flow`: score 11, source_count 3, sources Cointelegraph, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `us_big_tech`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
-- `oil`: score 5, source_count 2, sources Financial Times YouTube, Reuters Markets via Google News RSS
-- `china`: score 3, source_count 1, sources Reuters Markets via Google News RSS
-- `ai_growth_stocks`: score 3, source_count 1, sources 무역킹 Trade King YouTube
-- `cpi`: score 2, source_count 1, sources MarketWatch Breaking News
-- `treasury_yields`: score 2, source_count 1, sources MarketWatch Breaking News
+- `bitcoin`: score 67, source_count 4, sources CoinDesk RSS, Cointelegraph, Google Trends US, Investing.com Crypto News
+- `us_index_flow`: score 23, source_count 3, sources Google Trends US, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `oil`: score 23, source_count 6, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
+- `us_big_tech`: score 15, source_count 1, sources Google Trends US
+- `ai_semiconductors`: score 15, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `china`: score 8, source_count 2, sources CNBC Top News, MarketWatch Breaking News
+- `ai_growth_stocks`: score 8, source_count 3, sources Financial Times Home, Financial Times YouTube, 무역킹 Trade King YouTube
+- `cpi`: score 6, source_count 2, sources Cointelegraph, Financial Times World
+- `dollar`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 57, headlines 18
-  - Crypto exchange Kraken is trying to become a bank in Europe
-  - U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising
-  - Vanguard opens search for digital assets leader in sign of evolving crypto strategy
-- `fomc`: score 27, headlines 7
+- `bitcoin`: score 67, headlines 17
+  - bitcoin
+  - Live markets: Bitcoin drops as yen, Iran ceasefire collapse
+  - Bitcoin under pressure as Trump says Iran ceasefire is over
+- `oil`: score 23, headlines 8
+  - Bitcoin under pressure as Trump says Iran ceasefire is over
+  - Oil surges 6% after Trump says ceasefire with Iran is over
+  - Trump says ceasefire with Iran is ‘over’
+- `us_index_flow`: score 23, headlines 4
+  - stock market today
+  - South Korea to closely watch risks around stock market volatility - Reuters
+  - Nasdaq sinks as AI worries hit chipmakers - Reuters
+- `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `ai_semiconductors`: score 11, headlines 4
-  - Bitcoin bulls battle for $63K as Micron stock eyes 10% drop in US chip sell-off
-  - Chinese lidar maker with Nvidia ties accused of being cyber risk for U.S.
-  - Morning Bid: Chip dip - Reuters
-- `us_big_tech`: score 11, headlines 4
-  - Meta enters AI image model race in bid to court advertisers and subscribers
-  - Meta releases first image model since Zuckerberg’s AI overhaul
-  - Tesla’s stock could rise 20% thanks to the potential for a SpaceX merger, analyst says
-- `us_index_flow`: score 11, headlines 4
-  - Bitcoin bulls battle for $63K as Micron stock eyes 10% drop in US chip sell-off
-  - S&P 500 dips as AI worries hit chipmakers - Reuters
-  - Brokerages line up bullish calls as SpaceX enters Nasdaq-100 - Reuters
-- `oil`: score 5, headlines 2
-  - Gold edges down as Middle East tensions propel oil prices higher, Fed minutes awaited - Reuters
-  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-- `ai_growth_stocks`: score 3, headlines 1
+- `ai_semiconductors`: score 15, headlines 5
+  - China warns about AI risks with Anthropic's Claude Code
+  - SambaNova hits $11 billion valuation as investors back Nvidia chip challengers
+  - Samsung-backed AI chip firm Rebellions targets IPO in South Korea next year, CEO tells CNBC
+- `us_big_tech`: score 15, headlines 1
+  - microsoft
+- `ai_growth_stocks`: score 8, headlines 3
+  - Palantir’s real weak spot
   - Palantir Is Moving the Japanese Military
-- `china`: score 3, headlines 1
-  - China breaks step with global markets, and investors buy in - Reuters
-- `cpi`: score 2, headlines 1
-  - Bond traders are watching this tracker to figure out the real odds of Fed rate hikes
-- `treasury_yields`: score 2, headlines 1
-  - Bond traders are watching this tracker to figure out the real odds of Fed rate hikes
+  - Palantir: profits, procurement and power | FT Film
+- `china`: score 8, headlines 3
+  - China warns about AI risks with Anthropic's Claude Code
+  - Lawmakers probe growing use of Chinese AI models in U.S. companies
+  - Alibaba just had its best day in 10 months. Is it time for China techs to catch up?
+- `cpi`: score 6, headlines 2
+  - StarkWare CEO suggests 4% annual Bitcoin inflation to replace 21M cap
+  - New Zealand central bank chief hails growth ‘rebound’
+- `dollar`: score 3, headlines 1
+  - Dollar dips as US and Iran trade strikes; RBNZ hike hoists kiwi - Reuters

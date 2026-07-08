@@ -1,217 +1,192 @@
 {
-  "generated_at": "2026-07-07T19:17:52.931575+00:00",
+  "generated_at": "2026-07-08T09:17:01.104681+00:00",
   "item_count": 3,
   "items": [
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-07-07",
-      "priority_score": 137.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
-      "format": "macro_explainer",
-      "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_headlines": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Gold edges down as Middle East tensions propel oil prices higher, Fed minutes awaited - Reuters"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 3900,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 3,
-      "search_score": 26,
-      "timeliness_score": 25,
-      "monetization_score": 15,
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 18 Mar 2026 18:00:00 GMT",
-          "published_iso": "2026-03-18T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 20 May 2026 18:00:00 GMT",
-          "published_iso": "2026-05-20T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-07-08",
-      "priority_score": 122.0,
+      "publish_date": "2026-07-09",
+      "priority_score": 124.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (bitcoin)",
       "format": "crypto_analysis",
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
+        "Google Trends US",
         "Investing.com Crypto News"
       ],
       "sample_headlines": [
+        "bitcoin",
+        "Live markets: Bitcoin drops as yen, Iran ceasefire collapse",
+        "Bitcoin under pressure as Trump says Iran ceasefire is over",
         "Crypto exchange Kraken is trying to become a bank in Europe",
-        "U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising",
-        "Vanguard opens search for digital assets leader in sign of evolving crypto strategy",
-        "USDT wins payments, USDC wins DeFi as stablecoins diverge: Dune",
-        "Tether invests in Mercado Bitcoin as blockchain finance expands in Latin America"
+        "U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising"
       ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 6900,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 3,
-      "search_score": 29,
-      "timeliness_score": 18,
+      "trend_queries": [
+        "bitcoin"
+      ],
+      "trend_regions": [
+        "US"
+      ],
+      "demand_signal_score": 1200,
+      "fallback_source": "trend_match",
+      "source_count": 4,
+      "search_score": 28,
+      "timeliness_score": 20,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Tether invests in Mercado Bitcoin as blockchain finance expands in Latin America",
+          "title": "StarkWare CEO suggests 4% annual Bitcoin inflation to replace 21M cap",
           "source_name": "Cointelegraph",
-          "published": "Tue, 07 Jul 2026 16:43:07 +0000",
-          "published_iso": "2026-07-07T16:43:07+00:00",
-          "link": "https://cointelegraph.com/news/tether-invests-20m-in-mercado-bitcoin-to-expand-tokenized-finance-in-latin-america?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Wed, 08 Jul 2026 05:48:42 +0000",
+          "published_iso": "2026-07-08T05:48:42+00:00",
+          "link": "https://cointelegraph.com/news/starkware-ceo-suggests-4-annual-bitcoin-inflation-to-replace-21m-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin bulls battle for $63K as Micron stock eyes 10% drop in US chip sell-off",
-          "source_name": "Cointelegraph",
-          "published": "Tue, 07 Jul 2026 15:13:25 +0000",
-          "published_iso": "2026-07-07T15:13:25+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-bulls-battle-for-63k-as-micron-stock-eyes-10-drop-in-us-chip-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Live markets: Bitcoin drops as yen, Iran ceasefire collapse",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 08 Jul 2026 05:29:16 +0000",
+          "published_iso": "2026-07-08T05:29:16+00:00",
+          "link": "https://www.coindesk.com/tech/2026/07/08/live-markets-japan-s-collapsing-yen-is-pushing-companies-into-bitcoin-and-xrp",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin Covenants part 3: SIGHASH_ANYPREVOUT",
-          "source_name": "Cointelegraph",
-          "published": "Tue, 07 Jul 2026 15:00:00 +0000",
-          "published_iso": "2026-07-07T15:00:00+00:00",
-          "link": "https://cointelegraph.com/research/bitcoin-covenants-part-3-sighash-anyprevout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Bitcoin under pressure as Trump says Iran ceasefire is over",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 08 Jul 2026 04:30:24 +0000",
+          "published_iso": "2026-07-08T04:30:24+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/08/bitcoin-under-pressure-as-u-s-iran-escalation-lifts-oil",
           "source_type": "rss"
         },
         {
-          "title": "Has Bitcoin bottomed for this cycle? Analysts say 'not yet'",
+          "title": "Strike launches ‘volatility-proof’ Bitcoin loans amid bear market, but at a cost",
           "source_name": "Cointelegraph",
-          "published": "Tue, 07 Jul 2026 13:30:00 +0000",
-          "published_iso": "2026-07-07T13:30:00+00:00",
-          "link": "https://cointelegraph.com/features/how-much-longer-until-bitcoin-finds-cycle-bottom-analysts-disagree?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Wed, 08 Jul 2026 02:40:13 +0000",
+          "published_iso": "2026-07-08T02:40:13+00:00",
+          "link": "https://cointelegraph.com/news/strike-launches-volatility-proof-bitcoin-loans-amid-bear-market-but-at-what-cost?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin little-changed at $63k as traders weigh fresh Iran tensions, tech selloff",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-07-07 14:12:26",
-          "published_iso": "2026-07-07 14:12:26",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-63k-as-traders-weigh-fresh-iran-tensions-tech-selloff-4778286",
+          "title": "bitcoin",
+          "source_name": "Google Trends US",
+          "published": "Wed, 8 Jul 2026 00:40:00 -0700",
+          "published_iso": "2026-07-08T00:40:00-07:00",
+          "link": "https://trends.google.com/trending/rss?geo=US",
           "source_type": "rss"
         }
       ]
     },
     {
-      "keyword": "ai_semiconductors",
-      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "publish_date": "2026-07-09",
-      "priority_score": 108.0,
-      "ready_now": false,
-      "quality_status": "review_before_publish",
-      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "keyword": "us_index_flow",
+      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "publish_date": "2026-07-10",
+      "priority_score": 119.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (stock market today)",
       "format": "sector_analysis",
       "source_names": [
-        "CNBC Top News",
-        "Cointelegraph",
+        "Google Trends US",
         "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
-        "Bitcoin bulls battle for $63K as Micron stock eyes 10% drop in US chip sell-off",
-        "Chinese lidar maker with Nvidia ties accused of being cyber risk for U.S.",
-        "Morning Bid: Chip dip - Reuters",
-        "Elon Musk’s Terafab could give a major boost to this corner of the chip sector"
+        "stock market today",
+        "South Korea to closely watch risks around stock market volatility - Reuters",
+        "Nasdaq sinks as AI worries hit chipmakers - Reuters",
+        "It was the world’s hottest stock market. Now South Korea’s stock market has entered bear-market territory"
       ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 2300,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 4,
-      "search_score": 15,
-      "timeliness_score": 20,
+      "trend_queries": [
+        "stock market today"
+      ],
+      "trend_regions": [
+        "US"
+      ],
+      "demand_signal_score": 1200,
+      "fallback_source": "trend_match",
+      "source_count": 3,
+      "search_score": 28,
+      "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Elon Musk’s Terafab could give a major boost to this corner of the chip sector",
+          "title": "It was the world’s hottest stock market. Now South Korea’s stock market has entered bear-market territory",
           "source_name": "MarketWatch Breaking News",
-          "published": "Tue, 07 Jul 2026 19:05:00 GMT",
-          "published_iso": "2026-07-07T19:05:00+00:00",
-          "link": "https://www.marketwatch.com/story/elon-musks-terafab-could-give-a-major-boost-to-this-corner-of-the-chip-sector-27ad6099?mod=mw_rss_topstories",
+          "published": "Wed, 08 Jul 2026 08:53:00 GMT",
+          "published_iso": "2026-07-08T08:53:00+00:00",
+          "link": "https://www.marketwatch.com/story/it-was-the-worlds-hottest-stock-market-now-south-koreas-stock-market-index-has-entered-bear-market-territory-95d70e3d?mod=mw_rss_topstories",
           "source_type": "rss"
         },
         {
-          "title": "S&P 500 dips as AI worries hit chipmakers - Reuters",
+          "title": "South Korea to closely watch risks around stock market volatility - Reuters",
           "source_name": "Reuters Markets via Google News RSS",
-          "published": "Tue, 07 Jul 2026 18:30:52 GMT",
-          "published_iso": "2026-07-07T18:30:52+00:00",
+          "published": "Wed, 08 Jul 2026 01:21:40 GMT",
+          "published_iso": "2026-07-08T01:21:40+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWTQ5dmt6WDVUcmJEbjBTNWpWUncyMndUZ1pxaC1zX2R6RWVOR1VpTkdIdE9INU9aTHM5anR1MGc5RXcydV9JR2h6ZHQ0bnpQc2lVVWRZaXdmRlhxYUZ5SEZTdHRycjhzMXJMenAtYjVzc2NnUFBlYk9VTWpRS2txcDhFdlBpbzYxN1Q5c01kTWZJX191QUpnejdlVE9DZ1U0dUktLUxCZWExX1k5TXNpNk9ZMWVmc1lo?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "stock market today",
+          "source_name": "Google Trends US",
+          "published": "Wed, 8 Jul 2026 00:50:00 -0700",
+          "published_iso": "2026-07-08T00:50:00-07:00",
+          "link": "https://trends.google.com/trending/rss?geo=US",
+          "source_type": "rss"
+        },
+        {
+          "title": "Nasdaq sinks as AI worries hit chipmakers - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Tue, 07 Jul 2026 22:19:34 GMT",
+          "published_iso": "2026-07-07T22:19:34+00:00",
           "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSkRnZVFOUXdNU3JYa1lRMEFEQ0MwWGZMRkZ4TW1PM1JaUmQ4aEhTQlNsdlp1cVBTRVZ4LWZ0RDBJNU40a0tJS1JvaEtjZWczcHJWOFVncTBCYzh3NVFUS1M3UG1tZWJ4VDNsc1VkNkg2eVByZkhacEhDS1hQaGJlaUpGUG5qR0dhbzZ3RzRVSGpDdW94RlJWUFFNR0Mwc05lZ1hqRUJ3ZWVoaTRKTDJFSEtQaXRIdEVvQnc?oc=5",
           "source_type": "rss"
-        },
+        }
+      ]
+    },
+    {
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "publish_date": "2026-07-11",
+      "priority_score": 85.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "format": "macro_explainer",
+      "source_names": [
+        "CNBC Top News",
+        "MarketWatch Breaking News"
+      ],
+      "sample_headlines": [
+        "China warns about AI risks with Anthropic's Claude Code",
+        "Lawmakers probe growing use of Chinese AI models in U.S. companies",
+        "Alibaba just had its best day in 10 months. Is it time for China techs to catch up?"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 0,
+      "fallback_source": "mapped_candidate",
+      "source_count": 2,
+      "search_score": 10,
+      "timeliness_score": 13,
+      "monetization_score": 13,
+      "recent_evidence": [
         {
-          "title": "Bitcoin bulls battle for $63K as Micron stock eyes 10% drop in US chip sell-off",
-          "source_name": "Cointelegraph",
-          "published": "Tue, 07 Jul 2026 15:13:25 +0000",
-          "published_iso": "2026-07-07T15:13:25+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-bulls-battle-for-63k-as-micron-stock-eyes-10-drop-in-us-chip-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Alibaba just had its best day in 10 months. Is it time for China techs to catch up?",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Wed, 08 Jul 2026 08:57:00 GMT",
+          "published_iso": "2026-07-08T08:57:00+00:00",
+          "link": "https://www.marketwatch.com/story/alibaba-just-had-its-best-day-in-10-months-is-it-time-for-china-techs-to-catch-up-8ccc3f7c?mod=mw_rss_topstories",
           "source_type": "rss"
         },
         {
-          "title": "Chinese lidar maker with Nvidia ties accused of being cyber risk for U.S.",
+          "title": "China warns about AI risks with Anthropic's Claude Code",
           "source_name": "CNBC Top News",
-          "published": "Tue, 07 Jul 2026 12:00:01 GMT",
-          "published_iso": "2026-07-07T12:00:01+00:00",
-          "link": "https://www.cnbc.com/2026/07/07/hesai-technology-nvidia-cyber-risk.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Morning Bid: Chip dip - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Tue, 07 Jul 2026 10:39:06 GMT",
-          "published_iso": "2026-07-07T10:39:06+00:00",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcWgtY19LaXUwNlN0Zk5Bcy01RmphNDc5NnlCNzlrSHZYSktKM19uMm5ISXdQbFMyLXA1LVlWNXBZWEFnNkhhTWk2bk1Yb0MzMmhjNmtzRGx2b2FSUmlVRk5Ic0p1ZkNMVk4xT2hrV2N0NjE4QXRBSEVrNS1RcVc2U3pNRElUanFZNnktQ1NqbmFPM3pYNE44?oc=5",
+          "published": "Wed, 08 Jul 2026 08:14:28 GMT",
+          "published_iso": "2026-07-08T08:14:28+00:00",
+          "link": "https://www.cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security-threat.html",
           "source_type": "rss"
         }
       ]

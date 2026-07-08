@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T19:17:52.931575+00:00",
+  "generated_at": "2026-07-08T09:17:01.104681+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -14,36 +14,34 @@
     {
       "keyword": "fomc",
       "recommended_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
-      "total_score": 94.0,
-      "monetization_score": 15,
+      "reason": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
+      "total_score": 85.0,
+      "monetization_score": 14,
       "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "Federal Reserve Monetary Policy Press"
       ]
     },
     {
       "keyword": "bitcoin",
       "recommended_title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
-      "total_score": 83.0,
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (bitcoin)",
+      "total_score": 89.0,
       "monetization_score": 15,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
+        "Google Trends US",
         "Investing.com Crypto News"
       ]
     },
     {
-      "keyword": "ai_semiconductors",
-      "recommended_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
-      "total_score": 73.0,
+      "keyword": "us_index_flow",
+      "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (stock market today)",
+      "total_score": 88.0,
       "monetization_score": 15,
       "source_names": [
-        "CNBC Top News",
-        "Cointelegraph",
+        "Google Trends US",
         "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ]
@@ -60,35 +58,26 @@
       "weighted_priority_score": 16.5
     },
     {
+      "category": "global-sector",
+      "post_count": 2,
+      "keywords": [
+        "us_index_flow",
+        "china"
+      ],
+      "avg_monetization_score": 14.0,
+      "weighted_priority_score": 14.7
+    },
+    {
       "category": "macro",
       "post_count": 1,
       "keywords": [
         "fomc"
       ],
-      "avg_monetization_score": 15.0,
-      "weighted_priority_score": 15.0
-    },
-    {
-      "category": "global-sector",
-      "post_count": 2,
-      "keywords": [
-        "ai_semiconductors",
-        "china"
-      ],
-      "avg_monetization_score": 13.5,
-      "weighted_priority_score": 14.18
+      "avg_monetization_score": 14.0,
+      "weighted_priority_score": 14.0
     }
   ],
   "brand_lane_summary": [
-    {
-      "brand_lane": "macro",
-      "label": "거시경제",
-      "post_count": 1,
-      "keywords": [
-        "fomc"
-      ],
-      "avg_monetization_score": 15.0
-    },
     {
       "brand_lane": "crypto",
       "label": "코인",
@@ -103,9 +92,18 @@
       "label": "미국주식",
       "post_count": 1,
       "keywords": [
-        "ai_semiconductors"
+        "us_index_flow"
       ],
       "avg_monetization_score": 15.0
+    },
+    {
+      "brand_lane": "macro",
+      "label": "거시경제",
+      "post_count": 1,
+      "keywords": [
+        "fomc"
+      ],
+      "avg_monetization_score": 14.0
     },
     {
       "brand_lane": "world-flow",
@@ -114,41 +112,45 @@
       "keywords": [
         "china"
       ],
-      "avg_monetization_score": 12.0
+      "avg_monetization_score": 13.0
     }
   ],
   "query_watchlist": [],
   "trend_watchlist": [
     {
       "keyword": "bitcoin",
-      "trend_queries": [],
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "regions": [],
+      "trend_queries": [
+        "bitcoin"
+      ],
+      "trend_count": 1,
+      "traffic_score_sum": 1000,
+      "regions": [
+        "US"
+      ],
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "fomc",
-      "trend_queries": [],
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "regions": [],
-      "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "trend_queries": [],
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "regions": [],
+      "keyword": "us_big_tech",
+      "trend_queries": [
+        "microsoft"
+      ],
+      "trend_count": 1,
+      "traffic_score_sum": 1000,
+      "regions": [
+        "US"
+      ],
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
       "keyword": "us_index_flow",
-      "trend_queries": [],
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "regions": [],
+      "trend_queries": [
+        "stock market today"
+      ],
+      "trend_count": 1,
+      "traffic_score_sum": 1000,
+      "regions": [
+        "US"
+      ],
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     }
   ],
@@ -239,8 +241,8 @@
         "dominant_sentence_ending_ratio": 0.094
       },
       {
-        "keyword": "ai_semiconductors",
-        "recommended_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "keyword": "us_index_flow",
+        "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
         "score": 92,
         "robotic_phrase_hits": [],
         "reader_bridge_hits": [
@@ -269,7 +271,7 @@
         "long_paragraphs": 3,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
-        "dominant_sentence_ending_ratio": 0.092
+        "dominant_sentence_ending_ratio": 0.094
       },
       {
         "keyword": "china",
@@ -308,7 +310,7 @@
   },
   "performance_feedback_available": false,
   "next_actions": [
-    "다음 7일은 `거시경제` 레인을 메인 허브로 밀고, 다른 레인은 보조 내부링크와 후속 글로 연결합니다.",
+    "다음 7일은 `코인` 레인을 메인 허브로 밀고, 다른 레인은 보조 내부링크와 후속 글로 연결합니다.",
     "Search Console 데이터가 아직 약하니, Google Trends와 당일 헤드라인으로 1차 주제 발굴을 이어갑니다.",
     "문체 평균 점수 `92.0`로 기준 이상이므로, 이제는 제목 클릭률과 내부링크 동선을 더 키웁니다.",
     "당일 속보 1개와 검색형 evergreen 1개를 짝으로 묶어, 트래픽과 누적 검색 유입을 동시에 노립니다."
