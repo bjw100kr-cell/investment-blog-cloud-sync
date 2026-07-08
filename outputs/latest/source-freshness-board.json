@@ -1,16 +1,103 @@
 {
-  "generated_at": "2026-07-08T09:17:05.922691+00:00",
-  "snapshot_generated_at": "2026-07-08T09:17:01.104681+00:00",
+  "generated_at": "2026-07-08T17:13:49.601469+00:00",
+  "snapshot_generated_at": "2026-07-08T17:13:45.028907+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 3,
+    "fresh": 2,
     "aging": 0,
-    "stale": 0,
+    "stale": 1,
     "unknown": 0
   },
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-07-08",
+      "freshness_status": "stale",
+      "newest_evidence_iso": "2026-06-17T18:00:00+00:00",
+      "oldest_evidence_iso": "2026-03-18T18:00:00+00:00",
+      "newest_evidence_age_days": 21.0,
+      "source_count": 3,
+      "demand_signal_score": 3800,
+      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "recovery_mode": "full_refresh_needed",
+      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
+          "published_iso": "2026-04-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "ai_growth_stocks",
+      "title": "AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "publish_date": "2026-07-10",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-07-08T04:00:09+00:00",
+      "oldest_evidence_iso": "2026-07-08T04:00:09+00:00",
+      "newest_evidence_age_days": 0.6,
+      "source_count": 3,
+      "demand_signal_score": 2000,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Palantir Is Moving the Japanese Military",
+      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Palantir Is Moving the Japanese Military",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "38K views",
+          "published_iso": "38K views",
+          "link": "https://www.youtube.com/watch?v=t-T34NHJBvY",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "Palantir: profits, procurement and power | FT Film",
+          "source_name": "Financial Times YouTube",
+          "published": "26K views",
+          "published_iso": "26K views",
+          "link": "https://www.youtube.com/watch?v=kJ5XRl7PWxM",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "Palantir’s real weak spot",
+          "source_name": "Financial Times Home",
+          "published": "Wed, 08 Jul 2026 04:00:09 GMT",
+          "published_iso": "2026-07-08T04:00:09+00:00",
+          "link": "https://www.ft.com/content/21038b20-646e-4773-a473-110c2d62ab15",
+          "source_type": "rss"
+        }
+      ]
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -18,116 +105,38 @@
       "ready_now": true,
       "publish_date": "2026-07-09",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-08T07:40:00+00:00",
-      "oldest_evidence_iso": "2026-07-08T02:40:13+00:00",
+      "newest_evidence_iso": "2026-07-08T15:35:31+00:00",
+      "oldest_evidence_iso": "2026-07-08T12:01:00+00:00",
       "newest_evidence_age_days": 0.1,
-      "source_count": 4,
-      "demand_signal_score": 1200,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: StarkWare CEO suggests 4% annual Bitcoin inflation to replace 21M cap",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "StarkWare CEO suggests 4% annual Bitcoin inflation to replace 21M cap",
-          "source_name": "Cointelegraph",
-          "published": "Wed, 08 Jul 2026 05:48:42 +0000",
-          "published_iso": "2026-07-08T05:48:42+00:00",
-          "link": "https://cointelegraph.com/news/starkware-ceo-suggests-4-annual-bitcoin-inflation-to-replace-21m-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Live markets: Bitcoin drops as yen, Iran ceasefire collapse",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 08 Jul 2026 05:29:16 +0000",
-          "published_iso": "2026-07-08T05:29:16+00:00",
-          "link": "https://www.coindesk.com/tech/2026/07/08/live-markets-japan-s-collapsing-yen-is-pushing-companies-into-bitcoin-and-xrp",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin under pressure as Trump says Iran ceasefire is over",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 08 Jul 2026 04:30:24 +0000",
-          "published_iso": "2026-07-08T04:30:24+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/08/bitcoin-under-pressure-as-u-s-iran-escalation-lifts-oil",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-07-10",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-08T08:53:00+00:00",
-      "oldest_evidence_iso": "2026-07-07T22:19:34+00:00",
-      "newest_evidence_age_days": 0.0,
       "source_count": 3,
-      "demand_signal_score": 1200,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: It was the world’s hottest stock market. Now South Korea’s stock market has entered bear-market territory",
+      "demand_signal_score": 7000,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin slides as Iran ceasefire collapse sees $75 oil on Hormuz blockade threats",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "It was the world’s hottest stock market. Now South Korea’s stock market has entered bear-market territory",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Wed, 08 Jul 2026 08:53:00 GMT",
-          "published_iso": "2026-07-08T08:53:00+00:00",
-          "link": "https://www.marketwatch.com/story/it-was-the-worlds-hottest-stock-market-now-south-koreas-stock-market-index-has-entered-bear-market-territory-95d70e3d?mod=mw_rss_topstories",
+          "title": "Bitcoin slides as Iran ceasefire collapse sees $75 oil on Hormuz blockade threats",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 08 Jul 2026 15:35:31 +0000",
+          "published_iso": "2026-07-08T15:35:31+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-slides-as-iran-ceasefire-collapse-brings-back-hormuz-blockade-threat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "South Korea to closely watch risks around stock market volatility - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Wed, 08 Jul 2026 01:21:40 GMT",
-          "published_iso": "2026-07-08T01:21:40+00:00",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWTQ5dmt6WDVUcmJEbjBTNWpWUncyMndUZ1pxaC1zX2R6RWVOR1VpTkdIdE9INU9aTHM5anR1MGc5RXcydV9JR2h6ZHQ0bnpQc2lVVWRZaXdmRlhxYUZ5SEZTdHRycjhzMXJMenAtYjVzc2NnUFBlYk9VTWpRS2txcDhFdlBpbzYxN1Q5c01kTWZJX191QUpnejdlVE9DZ1U0dUktLUxCZWExX1k5TXNpNk9ZMWVmc1lo?oc=5",
+          "title": "Bull Bitcoin asks French court to strike down DAC8 implementing decree",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 08 Jul 2026 13:36:44 +0000",
+          "published_iso": "2026-07-08T13:36:44+00:00",
+          "link": "https://cointelegraph.com/news/bull-bitcoin-legal-action-france-dac8?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "stock market today",
-          "source_name": "Google Trends US",
-          "published": "Wed, 8 Jul 2026 00:50:00 -0700",
-          "published_iso": "2026-07-08T00:50:00-07:00",
-          "link": "https://trends.google.com/trending/rss?geo=US",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-07-11",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-08T08:57:00+00:00",
-      "oldest_evidence_iso": "2026-07-08T08:14:28+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 2,
-      "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Alibaba just had its best day in 10 months. Is it time for China techs to catch up?",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "Alibaba just had its best day in 10 months. Is it time for China techs to catch up?",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Wed, 08 Jul 2026 08:57:00 GMT",
-          "published_iso": "2026-07-08T08:57:00+00:00",
-          "link": "https://www.marketwatch.com/story/alibaba-just-had-its-best-day-in-10-months-is-it-time-for-china-techs-to-catch-up-8ccc3f7c?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "China warns about AI risks with Anthropic's Claude Code",
-          "source_name": "CNBC Top News",
-          "published": "Wed, 08 Jul 2026 08:14:28 GMT",
-          "published_iso": "2026-07-08T08:14:28+00:00",
-          "link": "https://www.cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security-threat.html",
+          "title": "BTC speculators in focus as analysis says 'textbook Bitcoin bottom' is underway",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 08 Jul 2026 12:59:06 +0000",
+          "published_iso": "2026-07-08T12:59:06+00:00",
+          "link": "https://cointelegraph.com/markets/btc-speculators-in-focus-as-analysis-says-textbook-bitcoin-bottom-is-underway?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ]

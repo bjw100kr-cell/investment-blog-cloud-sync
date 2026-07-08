@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T09:17:02+00:00",
+  "generated_at": "2026-07-08T17:13:46+00:00",
   "status": "ok",
   "providers": {
     "binance_plugin": false,
@@ -9,8 +9,8 @@
   },
   "market": {
     "sentiment": "extreme_fear",
-    "average_change_percent_24h": -3.58,
-    "tracked_quote_volume_24h": 47299366277.0,
+    "average_change_percent_24h": -4.09,
+    "tracked_quote_volume_24h": 45618293438.0,
     "signal_strength": 6
   },
   "fear_greed": {
@@ -23,54 +23,54 @@
     {
       "symbol": "BTCUSDT",
       "keyword": "bitcoin",
-      "last_price": 61819.0,
-      "price_change_percent_24h": -2.12669,
-      "quote_volume_24h": 31888276962.0,
+      "last_price": 62032.0,
+      "price_change_percent_24h": -3.0786,
+      "quote_volume_24h": 29691017599.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "ETHUSDT",
       "keyword": "ethereum",
-      "last_price": 1731.54,
-      "price_change_percent_24h": -2.28113,
-      "quote_volume_24h": 10160291323.0,
+      "last_price": 1733.65,
+      "price_change_percent_24h": -3.8783,
+      "quote_volume_24h": 10632117931.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "SOLUSDT",
       "keyword": "crypto_etf",
-      "last_price": 77.18,
-      "price_change_percent_24h": -5.12986,
-      "quote_volume_24h": 2501098218.0,
+      "last_price": 77.11,
+      "price_change_percent_24h": -6.30788,
+      "quote_volume_24h": 2492635450.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "XRPUSDT",
       "keyword": "crypto_etf",
-      "last_price": 1.078,
-      "price_change_percent_24h": -4.26764,
-      "quote_volume_24h": 1517881024.0,
-      "trade_count_24h": 0,
-      "provider": "coingecko_public_api"
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "keyword": "crypto_etf",
-      "last_price": 0.071274,
-      "price_change_percent_24h": -4.85707,
-      "quote_volume_24h": 634520411.0,
+      "last_price": 1.085,
+      "price_change_percent_24h": -3.89594,
+      "quote_volume_24h": 1574731599.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "BNBUSDT",
       "keyword": "crypto_etf",
-      "last_price": 561.02,
-      "price_change_percent_24h": -2.81812,
-      "quote_volume_24h": 597298339.0,
+      "last_price": 565.67,
+      "price_change_percent_24h": -3.27986,
+      "quote_volume_24h": 617819816.0,
+      "trade_count_24h": 0,
+      "provider": "coingecko_public_api"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "keyword": "crypto_etf",
+      "last_price": 0.072316,
+      "price_change_percent_24h": -4.08203,
+      "quote_volume_24h": 609971043.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     }
@@ -91,7 +91,7 @@
     "bitcoin": {
       "signal_score_bonus": 5,
       "market_signal_notes": [
-        "BTCUSDT 24h change -2.13%",
+        "BTCUSDT 24h change -3.08%",
         "Fear/Greed 20: Extreme Fear zone"
       ],
       "tracked_symbols": [
@@ -102,7 +102,7 @@
     "ethereum": {
       "signal_score_bonus": 5,
       "market_signal_notes": [
-        "ETHUSDT 24h change -2.28%",
+        "ETHUSDT 24h change -3.88%",
         "Fear/Greed 20: Extreme Fear zone"
       ],
       "tracked_symbols": [
@@ -113,17 +113,17 @@
     "crypto_etf": {
       "signal_score_bonus": 8,
       "market_signal_notes": [
-        "SOLUSDT 24h change -5.13%",
-        "XRPUSDT 24h change -4.27%",
-        "DOGEUSDT 24h change -4.86%",
-        "BNBUSDT 24h change -2.82%",
+        "SOLUSDT 24h change -6.31%",
+        "XRPUSDT 24h change -3.90%",
+        "BNBUSDT 24h change -3.28%",
+        "DOGEUSDT 24h change -4.08%",
         "Fear/Greed 20: Extreme Fear zone"
       ],
       "tracked_symbols": [
         "SOLUSDT",
         "XRPUSDT",
-        "DOGEUSDT",
-        "BNBUSDT"
+        "BNBUSDT",
+        "DOGEUSDT"
       ],
       "market_sentiment": "extreme_fear"
     }

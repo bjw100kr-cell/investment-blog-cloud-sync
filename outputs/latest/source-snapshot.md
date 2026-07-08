@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-08T09:17:01.104681+00:00`
+- 생성 시각: `2026-07-08T17:13:45.028907+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,51 +106,36 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 67, source_count 4, sources CoinDesk RSS, Cointelegraph, Google Trends US, Investing.com Crypto News
-- `us_index_flow`: score 23, source_count 3, sources Google Trends US, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `oil`: score 23, source_count 6, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
-- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `us_big_tech`: score 15, source_count 1, sources Google Trends US
-- `ai_semiconductors`: score 15, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
-- `china`: score 8, source_count 2, sources CNBC Top News, MarketWatch Breaking News
+- `bitcoin`: score 58, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 26, source_count 3, sources CNBC Top News, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `oil`: score 15, source_count 6, sources Cointelegraph, Financial Times Home, Financial Times YouTube, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - `ai_growth_stocks`: score 8, source_count 3, sources Financial Times Home, Financial Times YouTube, 무역킹 Trade King YouTube
-- `cpi`: score 6, source_count 2, sources Cointelegraph, Financial Times World
-- `dollar`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 5, source_count 2, sources NYT Business, Reuters Markets via Google News RSS
+- `us_index_flow`: score 2, source_count 1, sources MarketWatch Breaking News
+- `tariffs_trade`: score 2, source_count 1, sources NYT Business
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 67, headlines 17
-  - bitcoin
-  - Live markets: Bitcoin drops as yen, Iran ceasefire collapse
-  - Bitcoin under pressure as Trump says Iran ceasefire is over
-- `oil`: score 23, headlines 8
-  - Bitcoin under pressure as Trump says Iran ceasefire is over
-  - Oil surges 6% after Trump says ceasefire with Iran is over
-  - Trump says ceasefire with Iran is ‘over’
-- `us_index_flow`: score 23, headlines 4
-  - stock market today
-  - South Korea to closely watch risks around stock market volatility - Reuters
-  - Nasdaq sinks as AI worries hit chipmakers - Reuters
-- `fomc`: score 20, headlines 4
+- `bitcoin`: score 58, headlines 18
+  - Crypto Long & Short: With MSTR concerns assuaged, look to traditional signals around BTC
+  - Crypto VC Paradigm launches $1.2 billion AI fund as it broadens beyond digital assets
+  - Citadel abandons multi-year crypto lawsuit to focus on bankruptcy order against an ex-employee
+- `fomc`: score 26, headlines 6
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `ai_semiconductors`: score 15, headlines 5
-  - China warns about AI risks with Anthropic's Claude Code
-  - SambaNova hits $11 billion valuation as investors back Nvidia chip challengers
-  - Samsung-backed AI chip firm Rebellions targets IPO in South Korea next year, CEO tells CNBC
-- `us_big_tech`: score 15, headlines 1
-  - microsoft
+- `oil`: score 15, headlines 6
+  - Bitcoin slides as Iran ceasefire collapse sees $75 oil on Hormuz blockade threats
+  - Trump says ceasefire with Iran is ‘over’ and warns of further strikes
+  - Oil spikes, chips slide - Reuters
 - `ai_growth_stocks`: score 8, headlines 3
   - Palantir’s real weak spot
   - Palantir Is Moving the Japanese Military
   - Palantir: profits, procurement and power | FT Film
-- `china`: score 8, headlines 3
-  - China warns about AI risks with Anthropic's Claude Code
-  - Lawmakers probe growing use of Chinese AI models in U.S. companies
-  - Alibaba just had its best day in 10 months. Is it time for China techs to catch up?
-- `cpi`: score 6, headlines 2
-  - StarkWare CEO suggests 4% annual Bitcoin inflation to replace 21M cap
-  - New Zealand central bank chief hails growth ‘rebound’
-- `dollar`: score 3, headlines 1
-  - Dollar dips as US and Iran trade strikes; RBNZ hike hoists kiwi - Reuters
+- `ai_semiconductors`: score 5, headlines 2
+  - Oil spikes, chips slide - Reuters
+  - In San Francisco, Some Home Sellers Now Ask for OpenAI or Anthropic Stock
+- `tariffs_trade`: score 2, headlines 1
+  - Trump Lashes Out at Spain: ‘Cut Off All Trade.’ Here’s Why That’s Unlikely.
+- `us_index_flow`: score 2, headlines 1
+  - Why the stock market’s biggest laggards might be your best defense against a summer selloff

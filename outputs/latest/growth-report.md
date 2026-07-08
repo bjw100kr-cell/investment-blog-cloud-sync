@@ -1,25 +1,25 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-07-08T09:17:01.104681+00:00`
+- 생성 시각: `2026-07-08T17:13:45.028907+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
-- `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 점수 85.0 / 수익화 14
-  - 이유: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
-  - 근거 소스: Federal Reserve Monetary Policy Press
-- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 89.0 / 수익화 15
-  - 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (bitcoin)
-  - 근거 소스: CoinDesk RSS, Cointelegraph, Google Trends US, Investing.com Crypto News
-- `us_index_flow`: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 / 점수 88.0 / 수익화 15
-  - 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (stock market today)
-  - 근거 소스: Google Trends US, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 점수 94.0 / 수익화 15
+  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+  - 근거 소스: CNBC Top News, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 87.0 / 수익화 15
+  - 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+  - 근거 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `ai_growth_stocks`: AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담 / 점수 62.0 / 수익화 15
+  - 이유: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+  - 근거 소스: Financial Times Home, Financial Times YouTube, 무역킹 Trade King YouTube
 
 ## 브랜드 레인 우선순위
 
+- `거시경제`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 fomc
 - `코인`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 bitcoin
-- `미국주식`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 us_index_flow
-- `거시경제`: 평균 수익화 14.0 / 게시 예정 1개 / 키워드 fomc
-- `세계 흐름`: 평균 수익화 13.0 / 게시 예정 1개 / 키워드 china
+- `미국주식`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 ai_growth_stocks
+- `세계 흐름`: 평균 수익화 13.0 / 게시 예정 1개 / 키워드 tariffs_trade
 
 ## 검색 수요 감지 키워드
 
@@ -27,13 +27,14 @@
 
 ## 무료 트렌드 수요 신호
 
-- `bitcoin`: trend_count 1, traffic_sum 1000, regions US / 쿼리 bitcoin
-- `us_big_tech`: trend_count 1, traffic_sum 1000, regions US / 쿼리 microsoft
-- `us_index_flow`: trend_count 1, traffic_sum 1000, regions US / 쿼리 stock market today
+- `bitcoin`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `fomc`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `oil`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `ai_growth_stocks`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 
 ## 다음 7일 실행 포인트
 
-- 다음 7일은 `코인` 레인을 메인 허브로 밀고, 다른 레인은 보조 내부링크와 후속 글로 연결합니다.
+- 다음 7일은 `거시경제` 레인을 메인 허브로 밀고, 다른 레인은 보조 내부링크와 후속 글로 연결합니다.
 - Search Console 데이터가 아직 약하니, Google Trends와 당일 헤드라인으로 1차 주제 발굴을 이어갑니다.
 - 문체 평균 점수 `92.0`로 기준 이상이므로, 이제는 제목 클릭률과 내부링크 동선을 더 키웁니다.
 - 당일 속보 1개와 검색형 evergreen 1개를 짝으로 묶어, 트래픽과 누적 검색 유입을 동시에 노립니다.

@@ -85,13 +85,13 @@
 
 ```json
 {
-  "keyword": "china",
-  "recommended_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+  "keyword": "tariffs_trade",
+  "recommended_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
   "alternate_titles": [
-    "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
-    "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
+    "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유",
+    "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "왜 지금 이 이슈가 중요한가",
     "실제로 발표되거나 벌어진 일",
@@ -101,20 +101,17 @@
   ],
   "reference_takeaways": [],
   "fact_checks": [
-    "정책 발표 또는 인터뷰 원문 여부 확인",
-    "중국 관련 2차 해설을 사실처럼 단정하지 않기",
-    "한국/미국 시장 영향은 시나리오형으로 서술"
+    "관세/무역 조치 공식 문서나 발표문 확인",
+    "시장 영향은 조건형 문장으로 서술",
+    "정치적 해석 과잉 여부 점검"
   ],
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
-    "CNBC Top News",
-    "MarketWatch Breaking News"
+    "NYT Business"
   ],
   "reference_headlines": [
-    "China warns about AI risks with Anthropic's Claude Code",
-    "Lawmakers probe growing use of Chinese AI models in U.S. companies",
-    "Alibaba just had its best day in 10 months. Is it time for China techs to catch up?"
+    "Trump Lashes Out at Spain: ‘Cut Off All Trade.’ Here’s Why That’s Unlikely."
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -177,10 +174,10 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 60.0,
-    "search_score": 10,
-    "timeliness_score": 13,
-    "explanatory_score": 17,
+    "total_score": 46.0,
+    "search_score": 3,
+    "timeliness_score": 5,
+    "explanatory_score": 18,
     "monetization_score": 13,
     "risk_score": 7
   },

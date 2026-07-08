@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-07-08T09:17:01.104681+00:00`
+- 생성 시각: `2026-07-08T17:13:45.028907+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
-- 점수: 85.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,12 +70,13 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
+  - Fed meeting minutes to show 'family fight' over rates. The squabble could drag on for a while
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (bitcoin)
-- 점수: 89.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- 점수: 87.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -135,22 +136,22 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - bitcoin
-  - Live markets: Bitcoin drops as yen, Iran ceasefire collapse
-  - Bitcoin under pressure as Trump says Iran ceasefire is over
-  - Crypto exchange Kraken is trying to become a bank in Europe
-  - U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising
+  - Crypto Long & Short: With MSTR concerns assuaged, look to traditional signals around BTC
+  - Crypto VC Paradigm launches $1.2 billion AI fund as it broadens beyond digital assets
+  - Citadel abandons multi-year crypto lawsuit to focus on bankruptcy order against an ex-employee
+  - SpaceX's first bitcoin wallet movements in six months likely don't signal sales
+  - Bitcoin slides as Iran ceasefire collapse sees $75 oil on Hormuz blockade threats
 
-## 3. us_index_flow
+## 3. ai_growth_stocks
 
-- 추천 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (stock market today)
-- 점수: 88.0
+- 추천 제목: AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담
+- 각도: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 62.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+  - AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담: 지금 시장이 반응하는 이유
+  - AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -199,27 +200,26 @@
   - 해설: 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.
   - 마무리: 반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다.
 - 팩트체크:
-  - 나스닥/S&P/미국 증시 수치와 기준 시각 재확인
-  - 지수 하락/상승 원인을 한 문장으로 단정하지 않기
-  - 채권·달러·빅테크와의 연결 문장 교차 점검
+  - 팔란티어/AI 성장주 관련 수치와 날짜 재확인
+  - 단기 검색 급증과 중장기 펀더멘털을 구분해 서술
+  - 섹터 자금 흐름 연결 문장 과장 여부 점검
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - stock market today
-  - South Korea to closely watch risks around stock market volatility - Reuters
-  - Nasdaq sinks as AI worries hit chipmakers - Reuters
-  - It was the world’s hottest stock market. Now South Korea’s stock market has entered bear-market territory
+  - Palantir’s real weak spot
+  - Palantir Is Moving the Japanese Military
+  - Palantir: profits, procurement and power | FT Film
 
-## 4. china
+## 4. tariffs_trade
 
-- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 60.0
+- 추천 제목: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 46.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유
+  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -268,12 +268,10 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 정책 발표 또는 인터뷰 원문 여부 확인
-  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
-  - 한국/미국 시장 영향은 시나리오형으로 서술
+  - 관세/무역 조치 공식 문서나 발표문 확인
+  - 시장 영향은 조건형 문장으로 서술
+  - 정치적 해석 과잉 여부 점검
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - China warns about AI risks with Anthropic's Claude Code
-  - Lawmakers probe growing use of Chinese AI models in U.S. companies
-  - Alibaba just had its best day in 10 months. Is it time for China techs to catch up?
+  - Trump Lashes Out at Spain: ‘Cut Off All Trade.’ Here’s Why That’s Unlikely.
