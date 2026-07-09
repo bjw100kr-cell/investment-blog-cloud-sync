@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-09T11:27:07.927171+00:00`
+- 생성 시각: `2026-07-09T18:30:29.697233+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,47 +106,51 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 54, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `oil`: score 18, source_count 5, sources Financial Times Home, Financial Times World, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
-- `fomc`: score 17, source_count 2, sources Federal Reserve Monetary Policy Press, NYT Business
-- `us_index_flow`: score 9, source_count 3, sources CNBC Top News, CoinDesk RSS, MarketWatch Breaking News
-- `china`: score 6, source_count 1, sources Financial Times World
-- `cpi`: score 5, source_count 2, sources NYT Business, Reuters Markets via Google News RSS
+- `bitcoin`: score 61, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 23, source_count 3, sources CNBC Top News, Federal Reserve Monetary Policy Press, NYT Business
+- `treasury_yields`: score 15, source_count 5, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
+- `ai_semiconductors`: score 11, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `dollar`: score 9, source_count 3, sources CoinDesk RSS, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `oil`: score 7, source_count 3, sources Financial Times Home, Financial Times YouTube, NYT Business
+- `us_big_tech`: score 6, source_count 2, sources CNBC Top News, Financial Times World
 - `ai_growth_stocks`: score 5, source_count 2, sources Financial Times YouTube, 무역킹 Trade King YouTube
-- `dollar`: score 4, source_count 1, sources CoinDesk RSS
-- `treasury_yields`: score 3, source_count 1, sources Investing.com Crypto News
-- `ai_semiconductors`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `us_index_flow`: score 5, source_count 2, sources Financial Times World, MarketWatch Breaking News
+- `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 54, headlines 16
-  - Latin America’s biggest stock exchange now offers options on bitcoin, ether and solana futures
-  - Crypto remains resilient in face of renewed Middle East tensions
-  - Singapore's Temasek investment fund says crypto is off the table, will focus on AI
-- `oil`: score 18, headlines 7
-  - Iran war windfall puts Big Oil on collision course with Trump
-  - Oil prices fall as markets weigh impact of US strikes on Iran - Reuters
-  - Investors get inflation 'wake-up call' as Trump fires up oil prices - Reuters
-- `fomc`: score 17, headlines 4
+- `bitcoin`: score 61, headlines 19
+  - Billions flowing out of bitcoin ETFs and private credit funds suggest rising market risks
+  - AI contracts, not bitcoin, now drive miner valuations, and Cipher and TeraWulf look cheap, says analyst
+  - Ethereum's newest nonprofit wants to become Wall Street's guide to crypto
+- `fomc`: score 23, headlines 6
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `us_index_flow`: score 9, headlines 3
-  - Crypto remains resilient in face of renewed Middle East tensions
-  - Why the world’s best-performing stock market this year fell into bear territory
-  - SK Hynix Nasdaq listing may become the second-largest equity offering ever, trailing only SpaceX’s
-- `china`: score 6, headlines 2
-  - China could be the US tech hedge
-  - Europe’s ‘China shock’ panic is ill-informed
+- `treasury_yields`: score 15, headlines 5
+  - Aave rolls out vaults for yield-hungry fintech investors
+  - Can Bitcoin hold $62K ahead of Friday’s $1.4 billion options expiry?
+  - June home sales disappoint as prices reach an all-time high
+- `ai_semiconductors`: score 11, headlines 4
+  - Meta jumps into AI coding market in effort to chase Anthropic and OpenAI
+  - Anthropic appoints former Fed Chair Ben Bernanke to its independent trust
+  - Wall St rises as chip rally offsets renewed Iran worries - Reuters
+- `dollar`: score 9, headlines 3
+  - Pricing houses in bitcoin exposes dollar's loss of value
+  - US relies more on foreign stock than debt flows, a dollar risk, Deutsche Bank warns - Reuters
+  - Micron’s stock surges on multibillion-dollar U.S. manufacturing push
+- `oil`: score 7, headlines 3
+  - Iran war windfall puts Big Oil on collision course with Trump
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+  - Oil Prices Remain Elevated Amid Shipping Traffic Slowdown in Strait of Hormuz
+- `us_big_tech`: score 6, headlines 2
+  - Meta jumps into AI coding market in effort to chase Anthropic and OpenAI
+  - Microsoft’s early AI lead has become a test of faith
 - `ai_growth_stocks`: score 5, headlines 2
   - Palantir Is Moving the Japanese Military
   - Palantir: profits, procurement and power | FT Film
-- `cpi`: score 5, headlines 2
-  - Investors get inflation 'wake-up call' as Trump fires up oil prices - Reuters
-  - At Warsh’s First Fed Meeting, Some Officials Signaled Support for Raising Interest Rates
-- `dollar`: score 4, headlines 1
-  - Crypto trader applies legendary HODL strategy to EUR/USD forex bet
-- `ai_semiconductors`: score 3, headlines 1
-  - Morning Bid: Chip euphoria vies with war weariness - Reuters
-- `treasury_yields`: score 3, headlines 1
-  - Bybit PWM BTC Funds Post 4.9% Growth in 60-Day Annualized Return as Bybit Expands BTC Yield Suite for Holders
+- `us_index_flow`: score 5, headlines 2
+  - Risky leveraged ETFs are booming in 2026. Some worry they could be making the stock market more volatile.
+  - Ukrainian spy accused of killing Monaco hit woman shifts blame
+- `crypto_etf`: score 4, headlines 1
+  - Billions flowing out of bitcoin ETFs and private credit funds suggest rising market risks
