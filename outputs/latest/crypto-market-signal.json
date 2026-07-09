@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T17:13:46+00:00",
+  "generated_at": "2026-07-09T11:27:08+00:00",
   "status": "ok",
   "providers": {
     "binance_plugin": false,
@@ -9,68 +9,68 @@
   },
   "market": {
     "sentiment": "extreme_fear",
-    "average_change_percent_24h": -4.09,
-    "tracked_quote_volume_24h": 45618293438.0,
-    "signal_strength": 6
+    "average_change_percent_24h": 0.79,
+    "tracked_quote_volume_24h": 38355809639.0,
+    "signal_strength": 4
   },
   "fear_greed": {
-    "value": 20,
+    "value": 22,
     "label": "Extreme Fear",
     "source": "alternative.me",
-    "timestamp": "1783468800"
+    "timestamp": "1783555200"
   },
   "tickers": [
     {
       "symbol": "BTCUSDT",
       "keyword": "bitcoin",
-      "last_price": 62032.0,
-      "price_change_percent_24h": -3.0786,
-      "quote_volume_24h": 29691017599.0,
+      "last_price": 62651.0,
+      "price_change_percent_24h": 0.99907,
+      "quote_volume_24h": 25833963911.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "ETHUSDT",
       "keyword": "ethereum",
-      "last_price": 1733.65,
-      "price_change_percent_24h": -3.8783,
-      "quote_volume_24h": 10632117931.0,
+      "last_price": 1741.79,
+      "price_change_percent_24h": 0.32017,
+      "quote_volume_24h": 8642422530.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "SOLUSDT",
       "keyword": "crypto_etf",
-      "last_price": 77.11,
-      "price_change_percent_24h": -6.30788,
-      "quote_volume_24h": 2492635450.0,
+      "last_price": 77.41,
+      "price_change_percent_24h": 0.42231,
+      "quote_volume_24h": 1843424073.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "XRPUSDT",
       "keyword": "crypto_etf",
-      "last_price": 1.085,
-      "price_change_percent_24h": -3.89594,
-      "quote_volume_24h": 1574731599.0,
+      "last_price": 1.09,
+      "price_change_percent_24h": 0.92453,
+      "quote_volume_24h": 1056215893.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "BNBUSDT",
       "keyword": "crypto_etf",
-      "last_price": 565.67,
-      "price_change_percent_24h": -3.27986,
-      "quote_volume_24h": 617819816.0,
+      "last_price": 568.68,
+      "price_change_percent_24h": 1.12502,
+      "quote_volume_24h": 546535725.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "DOGEUSDT",
       "keyword": "crypto_etf",
-      "last_price": 0.072316,
-      "price_change_percent_24h": -4.08203,
-      "quote_volume_24h": 609971043.0,
+      "last_price": 0.072292,
+      "price_change_percent_24h": 0.96127,
+      "quote_volume_24h": 433247507.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     }
@@ -89,10 +89,9 @@
   },
   "keyword_signals": {
     "bitcoin": {
-      "signal_score_bonus": 5,
+      "signal_score_bonus": 3,
       "market_signal_notes": [
-        "BTCUSDT 24h change -3.08%",
-        "Fear/Greed 20: Extreme Fear zone"
+        "Fear/Greed 22: Extreme Fear zone"
       ],
       "tracked_symbols": [
         "BTCUSDT"
@@ -100,10 +99,9 @@
       "market_sentiment": "extreme_fear"
     },
     "ethereum": {
-      "signal_score_bonus": 5,
+      "signal_score_bonus": 3,
       "market_signal_notes": [
-        "ETHUSDT 24h change -3.88%",
-        "Fear/Greed 20: Extreme Fear zone"
+        "Fear/Greed 22: Extreme Fear zone"
       ],
       "tracked_symbols": [
         "ETHUSDT"
@@ -111,13 +109,9 @@
       "market_sentiment": "extreme_fear"
     },
     "crypto_etf": {
-      "signal_score_bonus": 8,
+      "signal_score_bonus": 6,
       "market_signal_notes": [
-        "SOLUSDT 24h change -6.31%",
-        "XRPUSDT 24h change -3.90%",
-        "BNBUSDT 24h change -3.28%",
-        "DOGEUSDT 24h change -4.08%",
-        "Fear/Greed 20: Extreme Fear zone"
+        "Fear/Greed 22: Extreme Fear zone"
       ],
       "tracked_symbols": [
         "SOLUSDT",

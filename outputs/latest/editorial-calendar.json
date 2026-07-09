@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T17:13:45.028907+00:00",
+  "generated_at": "2026-07-09T11:27:07.927171+00:00",
   "lane_order": [
     "macro",
     "crypto",
@@ -44,7 +44,7 @@
     {
       "lane": "macro",
       "target_share": 0.3,
-      "selected_keyword": "fomc",
+      "selected_keyword": "oil",
       "selected_mode": "direct",
       "freshness_status": "unknown"
     },
@@ -58,37 +58,41 @@
     {
       "lane": "us-stocks",
       "target_share": 0.2,
-      "selected_keyword": "ai_growth_stocks",
+      "selected_keyword": "us_index_flow",
       "selected_mode": "direct",
       "freshness_status": "unknown"
     },
     {
       "lane": "world-flow",
       "target_share": 0.2,
-      "selected_keyword": "tariffs_trade",
+      "selected_keyword": "china",
       "selected_mode": "direct",
       "freshness_status": "unknown"
     }
   ],
   "schedule": [
     {
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "slot": 1,
       "role": "lane_focus_macro",
       "post_type": "breaking_explainer",
-      "target_keyword": "fomc",
-      "working_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "target_keyword": "oil",
+      "working_title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
+      "angle": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
-        "CNBC Top News",
-        "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
+        "Financial Times World",
+        "Financial Times YouTube",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "source_basis": [
-        "CNBC Top News",
-        "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
+        "Financial Times World",
+        "Financial Times YouTube",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "publish_note": "당일 이슈 해설형 글",
@@ -97,7 +101,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "slot": 2,
       "role": "lane_focus_crypto",
       "post_type": "breaking_explainer",
@@ -122,24 +126,24 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "slot": 3,
       "role": "lane_focus_us-stocks",
       "post_type": "breaking_explainer",
-      "target_keyword": "ai_growth_stocks",
-      "working_title": "AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담",
+      "target_keyword": "us_index_flow",
+      "working_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
       "angle": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
-        "Financial Times Home",
-        "Financial Times YouTube",
-        "무역킹 Trade King YouTube"
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "MarketWatch Breaking News"
       ],
       "source_basis": [
-        "Financial Times Home",
-        "Financial Times YouTube",
-        "무역킹 Trade King YouTube"
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "MarketWatch Breaking News"
       ],
       "publish_note": "당일 이슈 해설형 글",
       "brand_lane": "us-stocks",
@@ -147,20 +151,20 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-07-11",
+      "date": "2026-07-12",
       "slot": 4,
       "role": "lane_focus_world-flow",
       "post_type": "breaking_explainer",
-      "target_keyword": "tariffs_trade",
-      "working_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+      "target_keyword": "china",
+      "working_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
       "angle": "섹터/세계 흐름 연결 해설 가능",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
-        "NYT Business"
+        "Financial Times World"
       ],
       "source_basis": [
-        "NYT Business"
+        "Financial Times World"
       ],
       "publish_note": "당일 이슈 해설형 글",
       "brand_lane": "world-flow",
@@ -168,7 +172,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "slot": 5,
       "role": "evergreen_support",
       "post_type": "evergreen_explainer",
@@ -196,7 +200,7 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-07-13",
+      "date": "2026-07-14",
       "slot": 6,
       "role": "secondary_lane_support",
       "post_type": "evergreen_explainer",
@@ -223,24 +227,24 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "slot": 7,
       "role": "weekly_recap",
       "post_type": "weekly_macro_recap",
-      "target_keyword": "fomc, bitcoin, ai_growth_stocks",
+      "target_keyword": "oil, bitcoin, us_index_flow",
       "working_title": "이번 주 주식·코인·거시 흐름 한 번에 정리",
       "angle": "상위 이슈 3개를 한 글에서 연결해 재방문 독자와 체류 시간을 늘리는 회고형 글",
       "search_intent": "이번 주 시장 흐름을 짧게 복기하고 다음 주 포인트를 잡고 싶은 독자",
       "monetization_path": "주간 회고형 콘텐츠로 페이지뷰 누적과 내부 링크 허브 역할",
       "internal_link_targets": [
-        "fomc",
+        "oil",
         "bitcoin",
-        "ai_growth_stocks"
+        "us_index_flow"
       ],
       "source_basis": [
-        "fomc",
+        "oil",
         "bitcoin",
-        "ai_growth_stocks"
+        "us_index_flow"
       ],
       "publish_note": "주간 정리형 글로 카테고리 허브 역할 수행",
       "brand_lane": "macro",
