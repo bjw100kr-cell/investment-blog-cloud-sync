@@ -8,7 +8,7 @@
 
 - source_keyword: `fomc`
 - revenue_priority_rank: `2`
-- cluster_priority_score: `136.0`
+- cluster_priority_score: `137.0`
 - main_title: `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지`
 - main_quality_status: `pass`
 - main_ready_to_upload: `True`
@@ -25,7 +25,7 @@
 
 - source_keyword: `bitcoin`
 - revenue_priority_rank: `3`
-- cluster_priority_score: `125.0`
+- cluster_priority_score: `127.0`
 - main_title: `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트`
 - main_quality_status: `pass`
 - main_ready_to_upload: `True`
@@ -38,18 +38,42 @@
 - next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
 - main_html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
 
-## 3. treasury_yields 클러스터
+## 3. 미국 빅테크 허브 클러스터
 
-- source_keyword: `treasury_yields`
+- source_keyword: `us_big_tech`
 - revenue_priority_rank: `99`
-- cluster_priority_score: `449.5`
-- main_title: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유`
+- cluster_priority_score: `421.5`
+- main_title: `미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자`
 - main_quality_status: `review_before_publish`
 - main_ready_to_upload: `False`
 - followup_count: `3`
 - ready_followup_count: `3`
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
-- cta_focus: 환율·금리·미국증시 evergreen 글로 연결
+- cta_focus: 실적·공급망·대표 종목 글로 연결
+- capture_route: `sector_hub_to_followups`
+- route_description: 섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.
+- next_action: 사용자 검토 후 승인 대기
+- blocker: main_quality=review_before_publish
+- blocker: follow_up_posts_present
+- blocker: canonical_url_present
+- blocker: newsletter_ready
+- main_html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html`
+- followup: `미국 빅테크 주식 관련 대표 종목 한눈에 보기` / `seo_us_big_tech_8` / priority `107.5` / 섹터형 검색 유입 누적
+- followup: `미국 빅테크 주식 공급망 정리: 누가 수혜를 보나` / `seo_us_big_tech_9` / priority `104.5` / 체류시간과 페이지뷰 확대
+- followup: `미국 빅테크 주식 ETF·지수·대표 기업 정리` / `seo_us_big_tech_10` / priority `101.5` / 광고 노출과 장기 검색 유입 확보
+
+## 4. china 클러스터
+
+- source_keyword: `china`
+- revenue_priority_rank: `99`
+- cluster_priority_score: `345.5`
+- main_title: `중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유`
+- main_quality_status: `review_before_publish`
+- main_ready_to_upload: `False`
+- followup_count: `3`
+- ready_followup_count: `3`
+- revenue_objective: 페이지뷰와 체류시간 균형 확보
+- cta_focus: 실적·공급망·대표 종목 글로 연결
 - capture_route: `search_entry_to_internal_links`
 - route_description: 검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.
 - next_action: 사용자 검토 후 승인 대기
@@ -57,27 +81,7 @@
 - blocker: follow_up_posts_present
 - blocker: canonical_url_present
 - blocker: newsletter_ready
-- main_html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유.html`
-- followup: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향` / `seo_treasury_yields_7` / priority `114.5` / 검색 유입 누적과 첫 방문 독자 확보
-- followup: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지` / `seo_treasury_yields_8` / priority `111.5` / 재방문과 내부링크 순환 강화
-- followup: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지` / `seo_treasury_yields_9` / priority `108.5` / 광범위한 초보 검색 수요 흡수
-
-## 4. ai_semiconductors 클러스터
-
-- source_keyword: `ai_semiconductors`
-- revenue_priority_rank: `99`
-- cluster_priority_score: `305.0`
-- main_title: `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지`
-- main_quality_status: `needs_fix`
-- main_ready_to_upload: `False`
-- followup_count: `2`
-- ready_followup_count: `2`
-- revenue_objective: 페이지뷰와 체류시간 균형 확보
-- cta_focus: 실적·공급망·대표 종목 글로 연결
-- capture_route: `sector_hub_to_followups`
-- route_description: 섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.
-- next_action: 사용자 검토 후 승인 대기
-- blocker: main_quality=needs_fix
-- main_html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html`
-- followup: `AI 반도체 주식 관련 대표 종목 한눈에 보기` / `seo_ai_semiconductors_10` / priority `103.5` / 섹터형 검색 유입 누적
-- followup: `AI 반도체 주식 ETF·지수·대표 기업 정리` / `seo_ai_semiconductors_12` / priority `97.5` / 광고 노출과 장기 검색 유입 확보
+- main_html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html`
+- followup: `중국 변수와 시장 영향 관련 대표 종목 한눈에 보기` / `seo_china_11` / priority `88.5` / 섹터형 검색 유입 누적
+- followup: `중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나` / `seo_china_12` / priority `85.5` / 체류시간과 페이지뷰 확대
+- followup: `중국 변수와 시장 영향 ETF·지수·대표 기업 정리` / `seo_china_13` / priority `82.5` / 광고 노출과 장기 검색 유입 확보

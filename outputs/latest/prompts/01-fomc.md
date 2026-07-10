@@ -110,14 +110,14 @@
   "source_names": [
     "CNBC Top News",
     "Federal Reserve Monetary Policy Press",
-    "NYT Business"
+    "Financial Times World"
   ],
   "reference_headlines": [
+    "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
     "Federal Reserve issues FOMC statement",
     "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
     "Federal Reserve issues FOMC statement",
-    "Kalshi traders see roughly 50% odds of a rate hike in 2026 as Fed is split on policy",
-    "Anthropic appoints former Fed Chair Ben Bernanke to its independent trust"
+    "New Fed task force members share Chairman Kevin Warsh's embrace of AI"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 93.0,
-    "search_score": 25,
+    "total_score": 94.0,
+    "search_score": 26,
     "timeliness_score": 25,
     "explanatory_score": 20,
     "monetization_score": 15,

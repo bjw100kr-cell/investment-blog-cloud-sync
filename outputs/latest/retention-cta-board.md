@@ -32,37 +32,40 @@
 - newsletter_preview_seed: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 - next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
 
-## 3. treasury_yields 클러스터
+## 3. 미국 빅테크 허브 클러스터
 
-- source_keyword: `treasury_yields`
-- main_title: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유`
+- source_keyword: `us_big_tech`
+- main_title: `미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자`
 - main_ready_to_upload: `False`
-- cta_focus: 환율·금리·미국증시 evergreen 글로 연결
-- inline_cta_now: 이 글과 함께 아래 읽을거리까지 보면 `환율·금리·미국증시 evergreen 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
-- telegram_cta_later: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- newsletter_cta_later: 다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.
-- newsletter_subject_seed: [오늘의 투자 브리핑] 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+- cta_focus: 실적·공급망·대표 종목 글로 연결
+- inline_cta_now: 빅테크 흐름은 대표 종목과 공급망 글을 같이 봐야 실제 투자 연결이 됩니다. 아래 읽을거리까지 함께 보세요.
+- telegram_cta_later: 섹터 흐름 요약을 짧게 계속 받고 싶다면 텔레그램/채널형 재방문 동선과 연결합니다.
+- newsletter_cta_later: 실적 시즌과 섹터 흐름을 주간 정리로 다시 받아보게 만드는 뉴스레터 CTA 후보입니다.
+- newsletter_subject_seed: [오늘의 투자 브리핑] 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 - newsletter_preview_seed: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
-- followup_title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향
-- followup_title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지
+- followup_title: 미국 빅테크 주식 관련 대표 종목 한눈에 보기
+- followup_title: 미국 빅테크 주식 공급망 정리: 누가 수혜를 보나
 - next_action: 사용자 검토 후 승인 대기
 - blocker: main_quality=review_before_publish
 - blocker: follow_up_posts_present
 - blocker: canonical_url_present
 - blocker: newsletter_ready
 
-## 4. ai_semiconductors 클러스터
+## 4. china 클러스터
 
-- source_keyword: `ai_semiconductors`
-- main_title: `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지`
+- source_keyword: `china`
+- main_title: `중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유`
 - main_ready_to_upload: `False`
 - cta_focus: 실적·공급망·대표 종목 글로 연결
 - inline_cta_now: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
 - telegram_cta_later: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
 - newsletter_cta_later: 다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.
-- newsletter_subject_seed: [오늘의 투자 브리핑] AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+- newsletter_subject_seed: [오늘의 투자 브리핑] 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - newsletter_preview_seed: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
-- followup_title: AI 반도체 주식 관련 대표 종목 한눈에 보기
-- followup_title: AI 반도체 주식 ETF·지수·대표 기업 정리
+- followup_title: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
+- followup_title: 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 - next_action: 사용자 검토 후 승인 대기
-- blocker: main_quality=needs_fix
+- blocker: main_quality=review_before_publish
+- blocker: follow_up_posts_present
+- blocker: canonical_url_present
+- blocker: newsletter_ready

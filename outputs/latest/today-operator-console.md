@@ -74,9 +74,9 @@
     - 문단 구분이 깨지면 HTML 보기에서 한 번 더 줄 바꿈 정리
     - 발행 URL과 대표 키워드를 수기 스프레드시트나 텍스트로 저장
 
-- `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / keyword `fomc` / verdict `approve` / publish `2026-07-09`
-- `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / verdict `approve` / publish `2026-07-10`
-- `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지` / keyword `ai_semiconductors` / verdict `approve` / publish ``
+- `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / keyword `fomc` / verdict `approve` / publish `2026-07-10`
+- `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / verdict `approve` / publish `2026-07-11`
+- `미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자` / keyword `us_big_tech` / verdict `approve` / publish `2026-07-12`
 
 ## 1.5. 하루 200명 목표
 

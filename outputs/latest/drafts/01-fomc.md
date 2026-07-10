@@ -10,17 +10,17 @@
 
 ## 도입부
 
-2026년 7월 9일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 7월 10일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 공식 발표 자료, 해외 주요 매체 보도를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Federal Reserve issues FOMC statement` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+예를 들어 `Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Federal Reserve issues FOMC statement`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `달러 인덱스`, 다른 하나는 `미국채 2년물/10년물 금리`입니다.
 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -68,7 +68,7 @@
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, Federal Reserve Monetary Policy Press, NYT Business
+- 주요 참고 소스: CNBC Top News, Federal Reserve Monetary Policy Press, Financial Times World
 - 발행 전 재확인: FOMC 성명서 원문 날짜와 발표 시각 확인
 - 발행 전 재확인: 점도표/경제전망 최신 버전 확인
 - 발행 전 재확인: 달러, 미국채 금리, 나스닥 관련 수치 재확인

@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Billions flowing out of bitcoin ETFs and private credit funds suggest rising market risks",
-    "AI contracts, not bitcoin, now drive miner valuations, and Cipher and TeraWulf look cheap, says analyst",
-    "Ethereum's newest nonprofit wants to become Wall Street's guide to crypto",
-    "Pricing houses in bitcoin exposes dollar's loss of value",
-    "Bitcoin miners’ AI pivot faces investor scrutiny over insider sales"
+    "Crypto defies equity weakness as altcoin optimism builds into the weekend",
+    "Bitcoin's $60,000-$70,000 range becomes third most traded range in history",
+    "Metaplanet explores bringing bitcoin-backed digital credit to Japan",
+    "Bitcoin gets a green light from a reliable momentum gauge. Here are key levels to watch",
+    "Live markets: Bitcoin tops $64,000 as selling pressure on Coinbase eases"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,7 +180,7 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 86.0,
+    "total_score": 88.0,
     "search_score": 30,
     "timeliness_score": 18,
     "explanatory_score": 17,
