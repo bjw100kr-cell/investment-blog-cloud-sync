@@ -1,10 +1,10 @@
 {
   "summary": {
-    "review_item_count": 10,
+    "review_item_count": 7,
     "main_post_count": 4,
     "due_soon_main_count": 2,
-    "big_tech_lane_count": 4,
-    "ready_now_count": 8
+    "big_tech_lane_count": 0,
+    "ready_now_count": 6
   },
   "batches": [
     {
@@ -20,7 +20,7 @@
           "keyword": "fomc",
           "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
           "publish_date": "2026-07-10",
-          "priority": 137.0,
+          "priority": 134.0,
           "inventory_type": "main_post",
           "role": "lane_focus_macro",
           "quality_status": "pass",
@@ -49,65 +49,11 @@
       "id": "big_tech_lane",
       "label": "미국 빅테크 수익 라인",
       "reason": "메인 글 1개와 후속 SEO 글 3개를 묶어 미국 주식 검색 유입을 노립니다.",
-      "keywords": [
-        "us_big_tech",
-        "seo_us_big_tech_8",
-        "seo_us_big_tech_9",
-        "seo_us_big_tech_10"
-      ],
-      "items": [
-        {
-          "keyword": "seo_us_big_tech_8",
-          "title": "미국 빅테크 주식 관련 대표 종목 한눈에 보기",
-          "publish_date": "2026-07-12",
-          "priority": 107.5,
-          "inventory_type": "seo_followup",
-          "role": "evergreen_seo",
-          "quality_status": "pass",
-          "hero_image_selected": true,
-          "ready_now": true,
-          "freshness_status": ""
-        },
-        {
-          "keyword": "seo_us_big_tech_9",
-          "title": "미국 빅테크 주식 공급망 정리: 누가 수혜를 보나",
-          "publish_date": "2026-07-12",
-          "priority": 104.5,
-          "inventory_type": "seo_followup",
-          "role": "follow_up",
-          "quality_status": "pass",
-          "hero_image_selected": true,
-          "ready_now": true,
-          "freshness_status": ""
-        },
-        {
-          "keyword": "seo_us_big_tech_10",
-          "title": "미국 빅테크 주식 ETF·지수·대표 기업 정리",
-          "publish_date": "2026-07-12",
-          "priority": 101.5,
-          "inventory_type": "seo_followup",
-          "role": "evergreen_seo",
-          "quality_status": "pass",
-          "hero_image_selected": true,
-          "ready_now": true,
-          "freshness_status": ""
-        },
-        {
-          "keyword": "us_big_tech",
-          "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-          "publish_date": "2026-07-12",
-          "priority": 108.0,
-          "inventory_type": "main_post",
-          "role": "lane_focus_us-stocks",
-          "quality_status": "review_before_publish",
-          "hero_image_selected": true,
-          "ready_now": false,
-          "freshness_status": ""
-        }
-      ],
-      "approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech seo_us_big_tech_8 seo_us_big_tech_9 seo_us_big_tech_10",
-      "confirmation_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech seo_us_big_tech_8 seo_us_big_tech_9 seo_us_big_tech_10",
-      "ready_now_count": 3
+      "keywords": [],
+      "items": [],
+      "approval_command": "",
+      "confirmation_command": "",
+      "ready_now_count": 0
     },
     {
       "id": "macro_lane",
@@ -121,7 +67,7 @@
           "keyword": "fomc",
           "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
           "publish_date": "2026-07-10",
-          "priority": 137.0,
+          "priority": 134.0,
           "inventory_type": "main_post",
           "role": "lane_focus_macro",
           "quality_status": "pass",

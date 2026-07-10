@@ -1,6 +1,6 @@
 # 오늘의 키워드 기회판
 
-- 생성 시각: `2026-07-10T11:25:20.276436+00:00`
+- 생성 시각: `2026-07-10T18:09:09.953192+00:00`
 - 당일 브레이킹 후보: `5`
 - SEO 후속 후보: `6`
 - 검색어 워치리스트: `4`
@@ -11,50 +11,50 @@
 
 - keyword: fomc
 - urgency: publish_now
-- score: 94.0 / search 26 / demand 3800
+- score: 91.0 / search 23 / demand 3500
 - ready_to_upload: True
 - queue_publish: 2026-07-10 (today_or_overdue)
-- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
 - action: 오늘 메인 글로 바로 발행하고, 후속 SEO 글 1~2개로 내부링크를 같이 준비합니다.
 
 ### 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: bitcoin
 - urgency: prep_today
-- score: 88.0 / search 30 / demand 7200
+- score: 88.0 / search 30 / demand 7300
 - ready_to_upload: True
 - queue_publish: 2026-07-11 (tomorrow)
-- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- reason: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - action: 초안과 메타 설명을 오늘 마무리해 두고 다음 발행 슬롯에 올립니다.
 
-### 3. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+### 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
-- keyword: us_big_tech
+- keyword: us_index_flow
 - urgency: watch
-- score: 73.0 / search 15 / demand 2300
+- score: 81.0 / search 19 / demand 2800
 - ready_to_upload: True
 - queue_publish: 2026-07-12 (this_week)
-- reason: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- reason: 복수 소스 교차 확인 가능 (6개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
 ### 4. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 
 - keyword: china
 - urgency: watch
-- score: 63.0 / search 12 / demand 0
+- score: 71.0 / search 15 / demand 2200
 - ready_to_upload: True
 - queue_publish: 2026-07-13 (this_week)
-- reason: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- reason: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
-### 5. 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+### 5. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword: oil
+- keyword: ai_semiconductors
 - urgency: watch
-- score: 80.0 / search 22 / demand 3100
+- score: 63.0 / search 11 / demand 0
 - ready_to_upload: False
 - queue_publish: 미정 (queue 없음)
-- reason: 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
+- reason: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
 ## 검색형 후속 SEO 후보
@@ -63,7 +63,7 @@
 
 - source_keyword: fomc
 - role/type: evergreen_seo / evergreen_explainer
-- priority_score: 136.5
+- priority_score: 133.5
 - search_intent: 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자
 - monetization_goal: 검색 유입 누적과 첫 방문 독자 확보
 - cta_focus: 거시 허브와 당일 해설 글로 연결
@@ -72,7 +72,7 @@
 
 - source_keyword: fomc
 - role/type: follow_up / follow_up_analysis
-- priority_score: 133.5
+- priority_score: 130.5
 - search_intent: 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자
 - monetization_goal: 재방문과 내부링크 순환 강화
 - cta_focus: 다음 이벤트 캘린더와 관련 거시 글로 연결
@@ -81,7 +81,7 @@
 
 - source_keyword: fomc
 - role/type: evergreen_seo / evergreen_explainer
-- priority_score: 130.5
+- priority_score: 127.5
 - search_intent: 기초 개념을 처음부터 이해하고 싶은 초보 독자
 - monetization_goal: 광범위한 초보 검색 수요 흡수
 - cta_focus: About, 허브 글, 후속 해설 글로 연결
@@ -115,19 +115,19 @@
 
 ## 검색어 워치리스트
 
-- `비트코인 전망`: type mapped_keyword_demand / mapped bitcoin / demand 7200 / regions unknown
+- `비트코인 전망`: type mapped_keyword_demand / mapped bitcoin / demand 7300 / regions unknown
   - reader_search_queries: 비트코인 전망, 비트코인 ETF 자금 흐름, 비트코인 하락 이유, 비트코인 오늘 시세 보는법
   - suggested_title: 비트코인 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.
-- `FOMC 일정`: type mapped_keyword_demand / mapped fomc / demand 3800 / regions unknown
+- `FOMC 일정`: type mapped_keyword_demand / mapped fomc / demand 3500 / regions unknown
   - reader_search_queries: FOMC 일정, FOMC 발표 시간, FOMC 이후 주식 영향, 연준 금리 발표 비트코인 영향
   - suggested_title: FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.
-- `국제유가 전망`: type mapped_keyword_demand / mapped oil / demand 3100 / regions unknown
-  - reader_search_queries: 국제유가 전망, 유가 상승 주식 영향, WTI 유가 보는법, 원유 가격 인플레이션 영향
-  - suggested_title: 국제유가 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- `미국 증시 오늘`: type mapped_keyword_demand / mapped us_index_flow / demand 2800 / regions unknown
+  - reader_search_queries: 미국 증시 오늘, 나스닥 하락 이유, S&P500 전망, 미국 주식 금리 영향
+  - suggested_title: 미국 증시 오늘 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.
-- `미국 빅테크 주식`: type mapped_keyword_demand / mapped us_big_tech / demand 2300 / regions unknown
-  - reader_search_queries: 미국 빅테크 주식, 애플 주가 영향, 테슬라 주가 전망, 마이크로소프트 AI 투자
-  - suggested_title: 미국 빅테크 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- `중국 경기부양 수혜주`: type mapped_keyword_demand / mapped china / demand 2200 / regions unknown
+  - reader_search_queries: 중국 경기부양 수혜주, 중국 증시 영향, 위안화 환율 시장 영향, 중국 부동산 리스크
+  - suggested_title: 중국 경기부양 수혜주 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.

@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+  "summary_angle": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -108,16 +108,17 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.",
   "source_names": [
+    "CNBC Top News",
     "CoinDesk RSS",
     "Cointelegraph",
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Circle soars after securing U.S. trust bank approval in crypto expansion",
+    "Japan's 'invest locally' plan likely to spur demand for assets like bitcoin, gold",
     "Crypto defies equity weakness as altcoin optimism builds into the weekend",
     "Bitcoin's $60,000-$70,000 range becomes third most traded range in history",
-    "Metaplanet explores bringing bitcoin-backed digital credit to Japan",
-    "Bitcoin gets a green light from a reliable momentum gauge. Here are key levels to watch",
-    "Live markets: Bitcoin tops $64,000 as selling pressure on Coinbase eases"
+    "New Hampshire council votes down $100M Bitcoin bonds"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -182,7 +183,7 @@
   "score_breakdown": {
     "total_score": 88.0,
     "search_score": 30,
-    "timeliness_score": 18,
+    "timeliness_score": 20,
     "explanatory_score": 17,
     "monetization_score": 15,
     "risk_score": 3

@@ -8,7 +8,7 @@
 
 - source_keyword: `fomc`
 - revenue_priority_rank: `2`
-- cluster_priority_score: `137.0`
+- cluster_priority_score: `134.0`
 - main_title: `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지`
 - main_quality_status: `pass`
 - main_ready_to_upload: `True`
@@ -38,40 +38,36 @@
 - next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
 - main_html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
 
-## 3. 미국 빅테크 허브 클러스터
+## 3. china 클러스터
 
-- source_keyword: `us_big_tech`
+- source_keyword: `china`
 - revenue_priority_rank: `99`
-- cluster_priority_score: `421.5`
-- main_title: `미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자`
-- main_quality_status: `review_before_publish`
-- main_ready_to_upload: `False`
+- cluster_priority_score: `409.5`
+- main_title: `중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유`
+- main_quality_status: `pass`
+- main_ready_to_upload: `True`
 - followup_count: `3`
 - ready_followup_count: `3`
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - cta_focus: 실적·공급망·대표 종목 글로 연결
-- capture_route: `sector_hub_to_followups`
-- route_description: 섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.
-- next_action: 사용자 검토 후 승인 대기
-- blocker: main_quality=review_before_publish
-- blocker: follow_up_posts_present
-- blocker: canonical_url_present
-- blocker: newsletter_ready
-- main_html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html`
-- followup: `미국 빅테크 주식 관련 대표 종목 한눈에 보기` / `seo_us_big_tech_8` / priority `107.5` / 섹터형 검색 유입 누적
-- followup: `미국 빅테크 주식 공급망 정리: 누가 수혜를 보나` / `seo_us_big_tech_9` / priority `104.5` / 체류시간과 페이지뷰 확대
-- followup: `미국 빅테크 주식 ETF·지수·대표 기업 정리` / `seo_us_big_tech_10` / priority `101.5` / 광고 노출과 장기 검색 유입 확보
+- capture_route: `search_entry_to_internal_links`
+- route_description: 검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.
+- next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
+- main_html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html`
+- followup: `중국 변수와 시장 영향 관련 대표 종목 한눈에 보기` / `seo_china_10` / priority `104.5` / 섹터형 검색 유입 누적
+- followup: `중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나` / `seo_china_11` / priority `101.5` / 체류시간과 페이지뷰 확대
+- followup: `중국 변수와 시장 영향 ETF·지수·대표 기업 정리` / `seo_china_12` / priority `98.5` / 광고 노출과 장기 검색 유입 확보
 
-## 4. china 클러스터
+## 4. us_index_flow 클러스터
 
-- source_keyword: `china`
+- source_keyword: `us_index_flow`
 - revenue_priority_rank: `99`
-- cluster_priority_score: `345.5`
-- main_title: `중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유`
+- cluster_priority_score: `116.0`
+- main_title: `미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유`
 - main_quality_status: `review_before_publish`
 - main_ready_to_upload: `False`
-- followup_count: `3`
-- ready_followup_count: `3`
+- followup_count: `0`
+- ready_followup_count: `0`
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - cta_focus: 실적·공급망·대표 종목 글로 연결
 - capture_route: `search_entry_to_internal_links`
@@ -81,7 +77,4 @@
 - blocker: follow_up_posts_present
 - blocker: canonical_url_present
 - blocker: newsletter_ready
-- main_html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html`
-- followup: `중국 변수와 시장 영향 관련 대표 종목 한눈에 보기` / `seo_china_11` / priority `88.5` / 섹터형 검색 유입 누적
-- followup: `중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나` / `seo_china_12` / priority `85.5` / 체류시간과 페이지뷰 확대
-- followup: `중국 변수와 시장 영향 ETF·지수·대표 기업 정리` / `seo_china_13` / priority `82.5` / 광고 노출과 장기 검색 유입 확보
+- main_html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html`

@@ -1,33 +1,32 @@
 {
-  "generated_at": "2026-07-10T11:25:20.276436+00:00",
+  "generated_at": "2026-07-10T18:09:09.953192+00:00",
   "item_count": 3,
   "items": [
     {
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "publish_date": "2026-07-10",
-      "priority_score": 137.0,
+      "priority_score": 134.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
       "format": "macro_explainer",
       "source_names": [
-        "CNBC Top News",
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times World"
+        "Cointelegraph",
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_headlines": [
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "New Fed task force members share Chairman Kevin Warsh's embrace of AI"
+        "A16z’s Andreessen lands Federal Reserve role as AI reshapes policy debate"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 3800,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 3,
-      "search_score": 26,
+      "source_count": 2,
+      "search_score": 23,
       "timeliness_score": 25,
       "monetization_score": 15,
       "recent_evidence": [
@@ -80,43 +79,52 @@
       "priority_score": 127.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "format": "crypto_analysis",
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News"
       ],
       "sample_headlines": [
+        "Circle soars after securing U.S. trust bank approval in crypto expansion",
+        "Japan's 'invest locally' plan likely to spur demand for assets like bitcoin, gold",
         "Crypto defies equity weakness as altcoin optimism builds into the weekend",
         "Bitcoin's $60,000-$70,000 range becomes third most traded range in history",
-        "Metaplanet explores bringing bitcoin-backed digital credit to Japan",
-        "Bitcoin gets a green light from a reliable momentum gauge. Here are key levels to watch",
-        "Live markets: Bitcoin tops $64,000 as selling pressure on Coinbase eases"
+        "New Hampshire council votes down $100M Bitcoin bonds"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 7200,
+      "demand_signal_score": 7300,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 3,
+      "source_count": 4,
       "search_score": 30,
-      "timeliness_score": 18,
+      "timeliness_score": 20,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Metaplanet explores Bitcoin-backed digital credit with JPYC in Japan",
+          "title": "New Hampshire council votes down $100M Bitcoin bonds",
           "source_name": "Cointelegraph",
-          "published": "Fri, 10 Jul 2026 09:58:10 +0000",
-          "published_iso": "2026-07-10T09:58:10+00:00",
-          "link": "https://cointelegraph.com/news/metaplanet-studies-bitcoin-digital-bonds-japan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Fri, 10 Jul 2026 17:23:10 +0000",
+          "published_iso": "2026-07-10T17:23:10+00:00",
+          "link": "https://cointelegraph.com/news/new-hampshire-votes-against-bitcoin-bonds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin returns to $64.3K with new three-week BTC price highs imminent",
+          "title": "Bitcoin whales sent BTC price to $64K as Coinbase Premium broke key level: CryptoQuant",
           "source_name": "Cointelegraph",
-          "published": "Fri, 10 Jul 2026 09:32:23 +0000",
-          "published_iso": "2026-07-10T09:32:23+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-returns-to-64k-with-three-week-btc-price-highs-imminent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Fri, 10 Jul 2026 14:59:30 +0000",
+          "published_iso": "2026-07-10T14:59:30+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-whales-sent-btc-price-to-64k-as-coinbase-premium-broke-key-level-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Japan's 'invest locally' plan likely to spur demand for assets like bitcoin, gold",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 10 Jul 2026 11:37:31 +0000",
+          "published_iso": "2026-07-10T11:37:31+00:00",
+          "link": "https://www.coindesk.com/daybook-us/2026/07/10/japan-s-invest-locally-plan-likely-to-spur-demand-for-assets-like-bitcoin-gold",
           "source_type": "rss"
         },
         {
@@ -128,91 +136,85 @@
           "source_type": "rss"
         },
         {
-          "title": "Metaplanet explores bringing bitcoin-backed digital credit to Japan",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 10 Jul 2026 09:08:20 +0000",
-          "published_iso": "2026-07-10T09:08:20+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/10/metaplanet-explores-bringing-bitcoin-backed-digital-credit-to-japan",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin gets a green light from a reliable momentum gauge. Here are key levels to watch",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 10 Jul 2026 06:49:13 +0000",
-          "published_iso": "2026-07-10T06:49:13+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/10/bitcoin-gets-a-green-light-from-a-reliable-momentum-gauge-here-are-key-levels-to-watch",
+          "title": "Bitcoin rebounds above $64k, heads for small weekly rise on tech-led rally",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-10 13:32:39",
+          "published_iso": "2026-07-10 13:32:39",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-above-64k-heads-for-weekly-rise-on-techled-rally-4785390",
           "source_type": "rss"
         }
       ]
     },
     {
-      "keyword": "us_big_tech",
-      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "keyword": "us_index_flow",
+      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
       "publish_date": "2026-07-12",
-      "priority_score": 108.0,
+      "priority_score": 116.0,
       "ready_now": false,
       "quality_status": "review_before_publish",
-      "reason": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (6개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "format": "sector_analysis",
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
         "Financial Times World",
-        "NYT Business"
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
-        "Meta found to breach EU laws with 'addictive' Instagram, Facebook designs",
-        "Tencent leads deal to unwind Meta’s $2bn Manus acquisition",
-        "EU warns Meta over Facebook and Instagram’s addictive feeds",
-        "Meta Ordered by E.U. to Alter ‘Addictive Design’ of Instagram and Facebook"
+        "SK Hynix opens at $170 on Nasdaq. Chairman tells CNBC 'demand is enormous'",
+        "SK Hynix’s US shares jump 14% on Nasdaq debut",
+        "Trump makes the stock market his scoreboard, but many Americans aren't even in the game - Reuters",
+        "SK Hynix’s stock pops in its Nasdaq debut"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 2300,
+      "demand_signal_score": 2800,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 4,
-      "search_score": 15,
-      "timeliness_score": 20,
+      "source_count": 6,
+      "search_score": 19,
+      "timeliness_score": 21,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Meta found to breach EU laws with 'addictive' Instagram, Facebook designs",
+          "title": "SK Hynix opens at $170 on Nasdaq. Chairman tells CNBC 'demand is enormous'",
           "source_name": "CNBC Top News",
-          "published": "Fri, 10 Jul 2026 10:32:54 GMT",
-          "published_iso": "2026-07-10T10:32:54+00:00",
-          "link": "https://www.cnbc.com/2026/07/10/meta-instagram-facebook-addictive-design-breach-eu-laws.html",
+          "published": "Fri, 10 Jul 2026 16:53:11 GMT",
+          "published_iso": "2026-07-10T16:53:11+00:00",
+          "link": "https://www.cnbc.com/2026/07/10/sk-hynix-skhy-stock-nasdaq.html",
           "source_type": "rss"
         },
         {
-          "title": "Meta Ordered by E.U. to Alter ‘Addictive Design’ of Instagram and Facebook",
-          "source_name": "NYT Business",
-          "published": "Fri, 10 Jul 2026 10:28:58 +0000",
-          "published_iso": "2026-07-10T10:28:58+00:00",
-          "link": "https://www.nytimes.com/2026/07/10/business/meta-instagram-facebook-europe.html",
+          "title": "SK Hynix’s US shares jump 14% on Nasdaq debut",
+          "source_name": "Financial Times Home",
+          "published": "Fri, 10 Jul 2026 16:37:32 GMT",
+          "published_iso": "2026-07-10T16:37:32+00:00",
+          "link": "https://www.ft.com/content/33133a86-925e-4395-9f60-35e2a4052500",
           "source_type": "rss"
         },
         {
-          "title": "EU warns Meta over Facebook and Instagram’s addictive feeds",
-          "source_name": "Financial Times World",
-          "published": "Fri, 10 Jul 2026 10:00:07 GMT",
-          "published_iso": "2026-07-10T10:00:07+00:00",
-          "link": "https://www.ft.com/content/e5afb1d5-d9e9-4b55-951f-6285e01ab716",
-          "source_type": "rss"
-        },
-        {
-          "title": "Metaplanet explores Bitcoin-backed digital credit with JPYC in Japan",
+          "title": "Backpack joins race for 24/7 stock markets with tokenized equities",
           "source_name": "Cointelegraph",
-          "published": "Fri, 10 Jul 2026 09:58:10 +0000",
-          "published_iso": "2026-07-10T09:58:10+00:00",
-          "link": "https://cointelegraph.com/news/metaplanet-studies-bitcoin-digital-bonds-japan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Fri, 10 Jul 2026 16:36:36 +0000",
+          "published_iso": "2026-07-10T16:36:36+00:00",
+          "link": "https://cointelegraph.com/news/backpack-launches-247-trading-for-tokenized-us-equities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Metaplanet explores bringing bitcoin-backed digital credit to Japan",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 10 Jul 2026 09:08:20 +0000",
-          "published_iso": "2026-07-10T09:08:20+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/10/metaplanet-explores-bringing-bitcoin-backed-digital-credit-to-japan",
+          "title": "SK Hynix’s stock pops in its Nasdaq debut",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Fri, 10 Jul 2026 16:09:00 GMT",
+          "published_iso": "2026-07-10T16:09:00+00:00",
+          "link": "https://www.marketwatch.com/story/sk-hynixs-stock-looks-primed-for-a-pop-in-its-nasdaq-debut-38054370?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
+          "title": "Trump makes the stock market his scoreboard, but many Americans aren't even in the game - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Fri, 10 Jul 2026 10:31:09 GMT",
+          "published_iso": "2026-07-10T10:31:09+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYXhqTEk3MmFXa042OTJzSHF5dGtrVGM0dFZRODA5VlM4WWk1SHpnd3ZVcHBISEFabUdRcTRIZVFINExvTmJlQ2VwQkRJd3Jjay1qTFpZRmtaeGoxYzg1ZjVuVC1STEFLY0VyeHQxLVlZa3lZd1BOdHZyZzJHYlVId1BJdXY1ZDJrM2haOVlZVTJpbnlxclpuT0RjQTdlREcxelB3NFZyV2NBWDBKZ3lGN1JTdDVSSG4xWlQtMzkyQ2Q?oc=5",
           "source_type": "rss"
         }
       ]

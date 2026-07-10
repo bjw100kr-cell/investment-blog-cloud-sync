@@ -1,6 +1,6 @@
 # 7일 편집 캘린더
 
-- 생성 시각: `2026-07-10T11:25:20.276436+00:00`
+- 생성 시각: `2026-07-10T18:09:09.953192+00:00`
 - 목적: stale 뉴스는 직접 발행에서 빼고, 거시경제·코인·미국주식·세계 흐름 레인을 주간 단위로 균형 있게 유지
 
 ## 레인 커버리지
@@ -14,7 +14,7 @@
 
 - lane `macro` / keyword `fomc` / mode `direct` / freshness `fresh` / target_share `0.3`
 - lane `crypto` / keyword `bitcoin` / mode `direct` / freshness `fresh` / target_share `0.3`
-- lane `us-stocks` / keyword `us_big_tech` / mode `direct` / freshness `unknown` / target_share `0.2`
+- lane `us-stocks` / keyword `us_index_flow` / mode `direct` / freshness `unknown` / target_share `0.2`
 - lane `world-flow` / keyword `china` / mode `direct` / freshness `unknown` / target_share `0.2`
 
 ## Day 1 · 2026-07-10 · lane_focus_macro
@@ -25,11 +25,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: fomc
 - 작업 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 글 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 글 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Federal Reserve Monetary Policy Press, Financial Times World
-- 근거 소스/연결 키워드: CNBC Top News, Federal Reserve Monetary Policy Press, Financial Times World
+- 내부링크 대상: Cointelegraph, Federal Reserve Monetary Policy Press
+- 근거 소스/연결 키워드: Cointelegraph, Federal Reserve Monetary Policy Press
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
 ## Day 2 · 2026-07-11 · lane_focus_crypto
@@ -40,11 +40,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: bitcoin
 - 작업 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 글 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- 글 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- 근거 소스/연결 키워드: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 내부링크 대상: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 근거 소스/연결 키워드: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
 ## Day 3 · 2026-07-12 · lane_focus_us-stocks
@@ -53,13 +53,13 @@
 - planning_mode: direct
 - freshness_status: unknown
 - 포스트 유형: breaking_explainer
-- 타깃 키워드: us_big_tech
-- 작업 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- 글 각도: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 타깃 키워드: us_index_flow
+- 작업 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+- 글 각도: 복수 소스 교차 확인 가능 (6개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Financial Times Home, Financial Times World, NYT Business
-- 근거 소스/연결 키워드: CNBC Top News, Financial Times Home, Financial Times World, NYT Business
+- 내부링크 대상: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 발행 메모: 당일 이슈 해설형 글
 
 ## Day 4 · 2026-07-13 · lane_focus_world-flow
@@ -70,11 +70,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: china
 - 작업 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 글 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 글 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: Financial Times Home, NYT Business, 무역킹 Trade King YouTube
-- 근거 소스/연결 키워드: Financial Times Home, NYT Business, 무역킹 Trade King YouTube
+- 내부링크 대상: MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
+- 근거 소스/연결 키워드: MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
 - 발행 메모: 당일 이슈 해설형 글
 
 ## Day 5 · 2026-07-14 · evergreen_support
@@ -113,11 +113,11 @@
 - planning_mode: recap
 - freshness_status: mixed
 - 포스트 유형: weekly_macro_recap
-- 타깃 키워드: fomc, bitcoin, us_big_tech
+- 타깃 키워드: fomc, bitcoin, us_index_flow
 - 작업 제목: 이번 주 주식·코인·거시 흐름 한 번에 정리
 - 글 각도: 상위 이슈 3개를 한 글에서 연결해 재방문 독자와 체류 시간을 늘리는 회고형 글
 - 검색 의도: 이번 주 시장 흐름을 짧게 복기하고 다음 주 포인트를 잡고 싶은 독자
 - 수익화 경로: 주간 회고형 콘텐츠로 페이지뷰 누적과 내부 링크 허브 역할
-- 내부링크 대상: fomc, bitcoin, us_big_tech
-- 근거 소스/연결 키워드: fomc, bitcoin, us_big_tech
+- 내부링크 대상: fomc, bitcoin, us_index_flow
+- 근거 소스/연결 키워드: fomc, bitcoin, us_index_flow
 - 발행 메모: 주간 정리형 글로 카테고리 허브 역할 수행
