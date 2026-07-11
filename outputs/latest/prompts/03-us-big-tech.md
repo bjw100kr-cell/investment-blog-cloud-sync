@@ -85,13 +85,13 @@
 
 ```json
 {
-  "keyword": "us_index_flow",
-  "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+  "keyword": "us_big_tech",
+  "recommended_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
   "alternate_titles": [
-    "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
-    "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
+    "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유",
+    "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (6개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -101,26 +101,24 @@
   ],
   "reference_takeaways": [],
   "fact_checks": [
-    "나스닥/S&P/미국 증시 수치와 기준 시각 재확인",
-    "지수 하락/상승 원인을 한 문장으로 단정하지 않기",
-    "채권·달러·빅테크와의 연결 문장 교차 점검"
+    "대표 종목 가격 변동률과 기준 시각 재확인",
+    "실적/가격 인상/공급망 뉴스 원문 링크 확인",
+    "개별 종목 이슈를 시장 전체 흐름처럼 과장하지 않기"
   ],
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CNBC Top News",
+    "CoinDesk RSS",
     "Financial Times Home",
-    "Financial Times World",
-    "MarketWatch Breaking News",
-    "NYT Business",
-    "Reuters Markets via Google News RSS"
+    "MarketWatch Breaking News"
   ],
   "reference_headlines": [
-    "SK Hynix opens at $170 on Nasdaq. Chairman tells CNBC 'demand is enormous'",
-    "SK Hynix’s US shares jump 14% on Nasdaq debut",
-    "Trump makes the stock market his scoreboard, but many Americans aren't even in the game - Reuters",
-    "SK Hynix’s stock pops in its Nasdaq debut",
-    "SK Hynix’s US shares jump 14% on Nasdaq debut"
+    "Meta's Chief Data Officer Says Agentic Commerce is the \"Next Tier of Business\"",
+    "SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'",
+    "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
+    "Apple sues OpenAI alleging theft of top-secret information",
+    "Apple sues OpenAI for alleged theft of confidential info — and says that’s just ‘the tip of the iceberg’"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -183,12 +181,12 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 81.0,
-    "search_score": 19,
-    "timeliness_score": 21,
-    "explanatory_score": 18,
+    "total_score": 77.0,
+    "search_score": 20,
+    "timeliness_score": 20,
+    "explanatory_score": 17,
     "monetization_score": 15,
-    "risk_score": 8
+    "risk_score": 5
   },
   "reference_editorial_pattern_name": "search_explainer",
   "reference_editorial_pattern": {

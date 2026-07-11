@@ -1,6 +1,6 @@
 # 수익화 준비도 리포트
 
-- 생성 시각: `2026-07-10T18:09:09.953192+00:00`
+- 생성 시각: `2026-07-11T07:24:06.746259+00:00`
 - 준비도 점수: `50.0`
 
 ## 단계별 상태
@@ -20,7 +20,7 @@
   - evidence: search console watchlist 0개
   - evidence: daily opportunity breaking candidates 5개
   - evidence: daily opportunity query watchlist 4개
-  - evidence: seo follow-up backlog 13개
+  - evidence: seo follow-up backlog 12개
   - next: 기회판과 SEO 백로그를 기준으로 당일 글 1개, 후속 검색형 글 1개씩 이어 붙이면서 Search Console 데이터가 쌓일 때까지 운영합니다.
 - `analytics_stack`: not_ready
   - evidence: GA4 measurement id missing
@@ -40,7 +40,7 @@
 
 - `1` `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 목표 페이지뷰와 체류시간 균형 확보 / CTA 환율·금리·미국증시 evergreen 글로 연결
 - `2` `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 목표 페이지뷰와 체류시간 균형 확보 / CTA ETF·규제·초보 가이드 글로 연결
-- `3` `us_index_flow`: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 / 목표 페이지뷰와 체류시간 균형 확보 / CTA 실적·공급망·대표 종목 글로 연결
+- `3` `china`: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 / 목표 페이지뷰와 체류시간 균형 확보 / CTA 실적·공급망·대표 종목 글로 연결
 
 ## 다음 액션
 
