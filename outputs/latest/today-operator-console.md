@@ -76,16 +76,17 @@
 
 - `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / keyword `fomc` / verdict `approve` / publish `2026-07-11`
 - `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / verdict `approve` / publish `2026-07-12`
-- `미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자` / keyword `us_big_tech` / verdict `approve` / publish ``
+- `미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자` / keyword `us_big_tech` / verdict `approve` / publish `2026-07-13`
 
 ## 1.5. 하루 200명 목표
 
 - target: `200`
-- projected: `190`
-- gap: `10`
-- status: `needs_more_distribution`
+- projected: `271`
+- gap: `0`
+- status: `estimated_on_track_measurement_missing`
 - `fomc` 예상 `95`명: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - `bitcoin` 예상 `95`명: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+- `us_big_tech` 예상 `81`명: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 - actual_verified: `0`
 - proof_status: `measurement_missing`
 - proof_gap: `200`

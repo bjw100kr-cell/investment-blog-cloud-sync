@@ -1,6 +1,6 @@
 # 퍼블리싱 자산
 
-- 생성 시각: `2026-07-11T07:24:06.746259+00:00`
+- 생성 시각: `2026-07-11T15:33:52.481286+00:00`
 
 ## 1. fomc
 
@@ -41,10 +41,11 @@
 - meta title: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 - meta description: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - 카테고리: global-sector
-- 추천 발행일: 미정
+- 추천 발행일: 2026-07-13
 - labels: 투자, 경제, 시장해설, 미국증시, 빅테크, 애플, 실적, 섹터분석
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 - 이미지 추천: 대표 이미지(Unsplash / technology stocks office city abstract), 본문 보조 이미지(Pexels / semiconductor server data center abstract)
+- 후속 글 후보: 미국 빅테크 주식 관련 대표 종목 한눈에 보기, 미국 빅테크 주식 공급망 정리: 누가 수혜를 보나, 미국 빅테크 주식 ETF·지수·대표 기업 정리
 - 광고 슬롯: after_intro, mid_article, before_related_links
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.

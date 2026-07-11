@@ -2,7 +2,7 @@
 
 메인 글과 후속 글을 묶어 페이지뷰, 내부링크 순환, 재방문을 같이 키우기 위한 운영 보드입니다.
 - board_goal: 메인 글 1개로 끝내지 않고 후속 글과 내부링크로 페이지뷰와 재방문을 늘리는 일일 트래픽 클러스터 우선순위 보드
-- cluster_count: `4`
+- cluster_count: `5`
 
 ## 1. 거시 이벤트 해설 클러스터
 
@@ -42,27 +42,26 @@
 
 - source_keyword: `us_big_tech`
 - revenue_priority_rank: `99`
-- cluster_priority_score: `323.0`
+- cluster_priority_score: `317.0`
 - main_title: `미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자`
-- main_quality_status: `needs_fix`
-- main_ready_to_upload: `False`
+- main_quality_status: `pass`
+- main_ready_to_upload: `True`
 - followup_count: `2`
 - ready_followup_count: `2`
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - cta_focus: 실적·공급망·대표 종목 글로 연결
 - capture_route: `sector_hub_to_followups`
 - route_description: 섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.
-- next_action: 사용자 검토 후 승인 대기
-- blocker: main_quality=needs_fix
+- next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
 - main_html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html`
-- followup: `미국 빅테크 주식 관련 대표 종목 한눈에 보기` / `seo_us_big_tech_7` / priority `108.5` / 섹터형 검색 유입 누적
-- followup: `미국 빅테크 주식 공급망 정리: 누가 수혜를 보나` / `seo_us_big_tech_9` / priority `105.5` / 체류시간과 페이지뷰 확대
+- followup: `미국 빅테크 주식 관련 대표 종목 한눈에 보기` / `seo_us_big_tech_8` / priority `106.5` / 섹터형 검색 유입 누적
+- followup: `미국 빅테크 주식 공급망 정리: 누가 수혜를 보나` / `seo_us_big_tech_9` / priority `103.5` / 체류시간과 페이지뷰 확대
 
 ## 4. china 클러스터
 
 - source_keyword: `china`
 - revenue_priority_rank: `99`
-- cluster_priority_score: `301.5`
+- cluster_priority_score: `253.5`
 - main_title: `중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유`
 - main_quality_status: `review_before_publish`
 - main_ready_to_upload: `False`
@@ -78,6 +77,24 @@
 - blocker: canonical_url_present
 - blocker: newsletter_ready
 - main_html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html`
-- followup: `중국 변수와 시장 영향 관련 대표 종목 한눈에 보기` / `seo_china_11` / priority `77.5` / 섹터형 검색 유입 누적
-- followup: `중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나` / `seo_china_12` / priority `74.5` / 체류시간과 페이지뷰 확대
-- followup: `중국 변수와 시장 영향 ETF·지수·대표 기업 정리` / `seo_china_13` / priority `71.5` / 광고 노출과 장기 검색 유입 확보
+- followup: `중국 변수와 시장 영향 관련 대표 종목 한눈에 보기` / `seo_china_11` / priority `65.5` / 섹터형 검색 유입 누적
+- followup: `중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나` / `seo_china_12` / priority `62.5` / 체류시간과 페이지뷰 확대
+- followup: `중국 변수와 시장 영향 ETF·지수·대표 기업 정리` / `seo_china_13` / priority `59.5` / 광고 노출과 장기 검색 유입 확보
+
+## 5. treasury_yields 클러스터
+
+- source_keyword: `treasury_yields`
+- revenue_priority_rank: `99`
+- cluster_priority_score: `110.2`
+- main_title: ``
+- main_quality_status: `unknown`
+- main_ready_to_upload: `False`
+- followup_count: `1`
+- ready_followup_count: `1`
+- revenue_objective: 
+- cta_focus: 
+- capture_route: ``
+- route_description: 
+- next_action: 사용자 검토 후 승인 대기
+- blocker: main_quality=unknown
+- followup: `미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지` / `seo_treasury_yields_7` / priority `110.17` / 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결

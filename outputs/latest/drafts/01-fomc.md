@@ -68,7 +68,7 @@
 
 ## 출처 체크
 
-- 주요 참고 소스: Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, MarketWatch Breaking News
+- 주요 참고 소스: Federal Reserve Monetary Policy Press, Financial Times Home, MarketWatch Breaking News
 - 발행 전 재확인: FOMC 성명서 원문 날짜와 발표 시각 확인
 - 발행 전 재확인: 점도표/경제전망 최신 버전 확인
 - 발행 전 재확인: 달러, 미국채 금리, 나스닥 관련 수치 재확인

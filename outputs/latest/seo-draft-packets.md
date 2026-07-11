@@ -1,8 +1,23 @@
 # SEO 후속 글 Draft Packets
 
-- packet_count: `5`
+- packet_count: `6`
 
-## 1. 미국 빅테크 주식 관련 대표 종목 한눈에 보기
+## 1. 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지
+
+- source_keyword: treasury_yields
+- search_intent: `미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
+- monetization_goal: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결
+- voice_profile: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
+- primary_internal_link: site-foundation/hub-macro.md
+- secondary_internal_links: site-foundation/about.md, site-foundation/editorial-policy.md, site-foundation/disclosure.md
+- outline:
+  - 이전 메인 글에서 이어지는 핵심 질문
+  - 이번에 추가로 확인된 내용
+  - 개인 투자자가 체크할 숫자와 일정
+  - 강세/약세 시나리오 나눠 보기
+  - 다음 후속 글 연결
+
+## 2. 미국 빅테크 주식 관련 대표 종목 한눈에 보기
 
 - source_keyword: us_big_tech
 - search_intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
@@ -17,7 +32,7 @@
   - 거시 변수와 같이 봐야 할 것
   - 다음 체크포인트
 
-## 2. 미국 빅테크 주식 공급망 정리: 누가 수혜를 보나
+## 3. 미국 빅테크 주식 공급망 정리: 누가 수혜를 보나
 
 - source_keyword: us_big_tech
 - search_intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
@@ -32,7 +47,7 @@
   - 강세/약세 시나리오 나눠 보기
   - 다음 후속 글 연결
 
-## 3. 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
+## 4. 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
 - source_keyword: china
 - search_intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
@@ -47,7 +62,7 @@
   - 거시 변수와 같이 봐야 할 것
   - 다음 체크포인트
 
-## 4. 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
+## 5. 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 
 - source_keyword: china
 - search_intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
@@ -62,7 +77,7 @@
   - 강세/약세 시나리오 나눠 보기
   - 다음 후속 글 연결
 
-## 5. 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
+## 6. 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 
 - source_keyword: china
 - search_intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자

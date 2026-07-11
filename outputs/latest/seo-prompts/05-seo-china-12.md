@@ -85,14 +85,14 @@
 
 ```json
 {
-  "keyword": "seo_us_big_tech_9",
-  "source_keyword": "us_big_tech",
-  "recommended_title": "미국 빅테크 주식 공급망 정리: 누가 수혜를 보나",
+  "keyword": "seo_china_12",
+  "source_keyword": "china",
+  "recommended_title": "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나",
   "alternate_titles": [
-    "미국 빅테크 주식 공급망 정리: 누가 수혜를 보나: 초보 투자자 기준으로 다시 보기",
-    "미국 빅테크 주식 공급망 정리: 누가 수혜를 보나: 지금 읽어야 하는 이유"
+    "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나: 초보 투자자 기준으로 다시 보기",
+    "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자에서 이어지는 후속 글로, 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
+  "summary_angle": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유에서 이어지는 후속 글로, 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
   "outline": [
     "이전 메인 글에서 이어지는 핵심 질문",
     "이번에 추가로 확인된 내용",
@@ -101,10 +101,10 @@
     "다음 후속 글 연결"
   ],
   "reference_takeaways": [
-    "메인 연결 글: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+    "메인 연결 글: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
     "검색 의도: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
     "수익화 목표: 체류시간과 페이지뷰 확대",
-    "검색어 후보: 미국 빅테크 주식 공급망 정리: 누가 수혜를 보나",
+    "검색어 후보: 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나",
     "수요 신뢰도: existing_publish_queue - 기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
   ],
   "fact_checks": [
@@ -115,13 +115,10 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "대표 종목, 실적 일정, 공급망 글까지 이어서 보면 섹터 흐름이 더 잘 보입니다.",
   "source_names": [
-    "CNBC Top News",
-    "CoinDesk RSS",
-    "Financial Times Home",
-    "MarketWatch Breaking News"
+    "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
-    "미국 빅테크 주식 공급망 정리: 누가 수혜를 보나"
+    "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -184,15 +181,15 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 105.5,
-    "search_score": 105.5,
+    "total_score": 62.5,
+    "search_score": 62.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html",
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html",
     "secondary": [
       "site-foundation/hub-global-sector.md",
       "site-foundation/about.md",
@@ -203,11 +200,9 @@
     "투자",
     "경제",
     "시장해설",
-    "미국증시",
-    "빅테크",
-    "애플",
-    "실적",
-    "섹터분석"
+    "중국",
+    "세계흐름",
+    "거시경제"
   ],
   "search_intent": "테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
   "monetization_goal": "체류시간과 페이지뷰 확대",

@@ -1,6 +1,6 @@
 {
   "board_goal": "메인 글 1개로 끝내지 않고 후속 글과 내부링크로 페이지뷰와 재방문을 늘리는 일일 트래픽 클러스터 우선순위 보드",
-  "cluster_count": 4,
+  "cluster_count": 5,
   "clusters": [
     {
       "source_keyword": "fomc",
@@ -48,39 +48,37 @@
       "source_keyword": "us_big_tech",
       "cluster_name": "미국 빅테크 허브 클러스터",
       "revenue_priority_rank": 99,
-      "cluster_priority_score": 323.0,
+      "cluster_priority_score": 317.0,
       "main_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
       "main_keyword": "us_big_tech",
-      "main_priority_score": 109.0,
-      "main_quality_status": "needs_fix",
-      "main_ready_to_upload": false,
+      "main_priority_score": 107.0,
+      "main_quality_status": "pass",
+      "main_ready_to_upload": true,
       "followup_count": 2,
       "ready_followup_count": 2,
       "revenue_objective": "페이지뷰와 체류시간 균형 확보",
       "cta_focus": "실적·공급망·대표 종목 글로 연결",
       "capture_route": "sector_hub_to_followups",
       "route_description": "섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.",
-      "next_action": "사용자 검토 후 승인 대기",
-      "blockers": [
-        "main_quality=needs_fix"
-      ],
+      "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
+      "blockers": [],
       "main_html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html",
       "followups": [
         {
           "title": "미국 빅테크 주식 관련 대표 종목 한눈에 보기",
-          "keyword": "seo_us_big_tech_7",
-          "priority_score": 108.5,
+          "keyword": "seo_us_big_tech_8",
+          "priority_score": 106.5,
           "post_type": "evergreen_sector_guide",
           "revenue_objective": "섹터형 검색 유입 누적",
-          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국-빅테크-주식-관련-대표-종목-한눈에-보기.html"
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-미국-빅테크-주식-관련-대표-종목-한눈에-보기.html"
         },
         {
           "title": "미국 빅테크 주식 공급망 정리: 누가 수혜를 보나",
           "keyword": "seo_us_big_tech_9",
-          "priority_score": 105.5,
+          "priority_score": 103.5,
           "post_type": "follow_up_analysis",
           "revenue_objective": "체류시간과 페이지뷰 확대",
-          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-미국-빅테크-주식-공급망-정리-누가-수혜를-보나.html"
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-미국-빅테크-주식-공급망-정리-누가-수혜를-보나.html"
         }
       ]
     },
@@ -88,10 +86,10 @@
       "source_keyword": "china",
       "cluster_name": "china 클러스터",
       "revenue_priority_rank": 99,
-      "cluster_priority_score": 301.5,
+      "cluster_priority_score": 253.5,
       "main_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
       "main_keyword": "china",
-      "main_priority_score": 78.0,
+      "main_priority_score": 66.0,
       "main_quality_status": "review_before_publish",
       "main_ready_to_upload": false,
       "followup_count": 3,
@@ -112,26 +110,58 @@
         {
           "title": "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
           "keyword": "seo_china_11",
-          "priority_score": 77.5,
+          "priority_score": 65.5,
           "post_type": "evergreen_sector_guide",
           "revenue_objective": "섹터형 검색 유입 누적",
-          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html"
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html"
         },
         {
           "title": "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나",
           "keyword": "seo_china_12",
-          "priority_score": 74.5,
+          "priority_score": 62.5,
           "post_type": "follow_up_analysis",
           "revenue_objective": "체류시간과 페이지뷰 확대",
-          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html"
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html"
         },
         {
           "title": "중국 변수와 시장 영향 ETF·지수·대표 기업 정리",
           "keyword": "seo_china_13",
-          "priority_score": 71.5,
+          "priority_score": 59.5,
           "post_type": "evergreen_sector_guide",
           "revenue_objective": "광고 노출과 장기 검색 유입 확보",
-          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html"
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html"
+        }
+      ]
+    },
+    {
+      "source_keyword": "treasury_yields",
+      "cluster_name": "treasury_yields 클러스터",
+      "revenue_priority_rank": 99,
+      "cluster_priority_score": 110.2,
+      "main_title": "",
+      "main_keyword": "",
+      "main_priority_score": 0,
+      "main_quality_status": "unknown",
+      "main_ready_to_upload": false,
+      "followup_count": 1,
+      "ready_followup_count": 1,
+      "revenue_objective": "",
+      "cta_focus": "",
+      "capture_route": "",
+      "route_description": "",
+      "next_action": "사용자 검토 후 승인 대기",
+      "blockers": [
+        "main_quality=unknown"
+      ],
+      "main_html_path": "",
+      "followups": [
+        {
+          "title": "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지",
+          "keyword": "seo_treasury_yields_7",
+          "priority_score": 110.17,
+          "post_type": "follow_up_analysis",
+          "revenue_objective": "새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
+          "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국채-금리-상승-이유-지금-투자자가-확인할-체크포인트-5가지.html"
         }
       ]
     }

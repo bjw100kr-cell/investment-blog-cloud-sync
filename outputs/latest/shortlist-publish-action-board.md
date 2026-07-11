@@ -52,14 +52,17 @@ shortlist 글 기준으로 지금 남은 blocker와 다음 한 줄 실행만 따
 ## 3. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
 - keyword: `us_big_tech`
-- publish_date: ``
-- quality_status: `needs_fix`
-- ready_now: `False`
+- publish_date: `2026-07-13`
+- quality_status: `pass`
+- ready_now: `True`
 - hero_image_selected: `True`
+- freshness_status: `fresh`
+- freshness_recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
 - hard_blocking_checks: none
-- advisory_checks: publish_date_present, follow_up_posts_present, canonical_url_present, newsletter_ready, ga4_ready
+- advisory_checks: canonical_url_present, newsletter_ready, ga4_ready
+- recovery_mode: `publish_direct`
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
-- next_action: 사용자 최종 확인 후 업로드
+- next_action: 사용자 최종 확인 후 Blogger draft 업로드
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
 - followup_commands:
   - `python3 scripts/build_platform_publish_plan.py`

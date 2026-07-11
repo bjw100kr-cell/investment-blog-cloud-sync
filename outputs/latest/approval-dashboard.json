@@ -1,10 +1,10 @@
 {
   "summary": {
-    "review_item_count": 9,
+    "review_item_count": 10,
     "main_post_count": 4,
     "due_soon_main_count": 2,
     "big_tech_lane_count": 3,
-    "ready_now_count": 2
+    "ready_now_count": 6
   },
   "batches": [
     {
@@ -51,50 +51,50 @@
       "reason": "메인 글 1개와 후속 SEO 글 3개를 묶어 미국 주식 검색 유입을 노립니다.",
       "keywords": [
         "us_big_tech",
-        "seo_us_big_tech_7",
+        "seo_us_big_tech_8",
         "seo_us_big_tech_9"
       ],
       "items": [
         {
           "keyword": "us_big_tech",
           "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-          "publish_date": "",
-          "priority": 109.0,
+          "publish_date": "2026-07-13",
+          "priority": 107.0,
           "inventory_type": "main_post",
-          "role": "unplanned",
-          "quality_status": "needs_fix",
+          "role": "lane_focus_us-stocks",
+          "quality_status": "pass",
           "hero_image_selected": true,
-          "ready_now": false,
-          "freshness_status": ""
+          "ready_now": true,
+          "freshness_status": "fresh"
         },
         {
-          "keyword": "seo_us_big_tech_7",
+          "keyword": "seo_us_big_tech_8",
           "title": "미국 빅테크 주식 관련 대표 종목 한눈에 보기",
-          "publish_date": "",
-          "priority": 108.5,
+          "publish_date": "2026-07-13",
+          "priority": 106.5,
           "inventory_type": "seo_followup",
           "role": "evergreen_seo",
-          "quality_status": "needs_fix",
+          "quality_status": "pass",
           "hero_image_selected": true,
-          "ready_now": false,
+          "ready_now": true,
           "freshness_status": ""
         },
         {
           "keyword": "seo_us_big_tech_9",
           "title": "미국 빅테크 주식 공급망 정리: 누가 수혜를 보나",
-          "publish_date": "",
-          "priority": 105.5,
+          "publish_date": "2026-07-13",
+          "priority": 103.5,
           "inventory_type": "seo_followup",
           "role": "follow_up",
-          "quality_status": "needs_fix",
+          "quality_status": "pass",
           "hero_image_selected": true,
-          "ready_now": false,
+          "ready_now": true,
           "freshness_status": ""
         }
       ],
-      "approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech seo_us_big_tech_7 seo_us_big_tech_9",
-      "confirmation_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech seo_us_big_tech_7 seo_us_big_tech_9",
-      "ready_now_count": 0
+      "approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech seo_us_big_tech_8 seo_us_big_tech_9",
+      "confirmation_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech seo_us_big_tech_8 seo_us_big_tech_9",
+      "ready_now_count": 3
     },
     {
       "id": "macro_lane",

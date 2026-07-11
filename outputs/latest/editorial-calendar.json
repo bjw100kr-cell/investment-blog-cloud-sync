@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T07:24:06.746259+00:00",
+  "generated_at": "2026-07-11T15:33:52.481286+00:00",
   "lane_order": [
     "macro",
     "crypto",
@@ -58,7 +58,7 @@
     {
       "lane": "us-stocks",
       "target_share": 0.2,
-      "selected_keyword": "us_index_flow",
+      "selected_keyword": "us_big_tech",
       "selected_mode": "direct",
       "freshness_status": "fresh"
     },
@@ -78,19 +78,17 @@
       "post_type": "breaking_explainer",
       "target_keyword": "fomc",
       "working_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
         "Federal Reserve Monetary Policy Press",
         "Financial Times Home",
-        "Financial Times World",
         "MarketWatch Breaking News"
       ],
       "source_basis": [
         "Federal Reserve Monetary Policy Press",
         "Financial Times Home",
-        "Financial Times World",
         "MarketWatch Breaking News"
       ],
       "publish_note": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
@@ -128,22 +126,20 @@
       "slot": 3,
       "role": "lane_focus_us-stocks",
       "post_type": "breaking_explainer",
-      "target_keyword": "us_index_flow",
-      "working_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "angle": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "target_keyword": "us_big_tech",
+      "working_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "angle": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
         "CNBC Top News",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "CoinDesk RSS",
+        "Financial Times Home"
       ],
       "source_basis": [
         "CNBC Top News",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "CoinDesk RSS",
+        "Financial Times Home"
       ],
       "publish_note": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
       "brand_lane": "us-stocks",
@@ -157,15 +153,13 @@
       "post_type": "breaking_explainer",
       "target_keyword": "china",
       "working_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "angle": "섹터/세계 흐름 연결 해설 가능",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
-        "NYT Business",
         "무역킹 Trade King YouTube"
       ],
       "source_basis": [
-        "NYT Business",
         "무역킹 Trade King YouTube"
       ],
       "publish_note": "당일 이슈 해설형 글",
@@ -233,7 +227,7 @@
       "slot": 7,
       "role": "weekly_recap",
       "post_type": "weekly_macro_recap",
-      "target_keyword": "fomc, bitcoin, us_index_flow",
+      "target_keyword": "fomc, bitcoin, us_big_tech",
       "working_title": "이번 주 주식·코인·거시 흐름 한 번에 정리",
       "angle": "상위 이슈 3개를 한 글에서 연결해 재방문 독자와 체류 시간을 늘리는 회고형 글",
       "search_intent": "이번 주 시장 흐름을 짧게 복기하고 다음 주 포인트를 잡고 싶은 독자",
@@ -241,12 +235,12 @@
       "internal_link_targets": [
         "fomc",
         "bitcoin",
-        "us_index_flow"
+        "us_big_tech"
       ],
       "source_basis": [
         "fomc",
         "bitcoin",
-        "us_index_flow"
+        "us_big_tech"
       ],
       "publish_note": "주간 정리형 글로 카테고리 허브 역할 수행",
       "brand_lane": "macro",

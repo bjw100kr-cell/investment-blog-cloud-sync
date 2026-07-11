@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T07:24:11.216940+00:00",
+  "generated_at": "2026-07-11T15:33:56.409053+00:00",
   "target_daily_visitors": 200,
   "status": "measurement_missing_keep_building",
   "proof": {
@@ -9,7 +9,7 @@
     "measurement_missing": true
   },
   "publishing_capacity": {
-    "quality_ready_count": 2,
+    "quality_ready_count": 6,
     "blogger_ready_count": 1,
     "recommended_posts_next_run": 1,
     "rule": "품질 게이트 통과 글만 실행당 최대 3건"
@@ -24,7 +24,7 @@
         "비트코인 오늘 시세 보는법"
       ],
       "suggested_title": "비트코인 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 6400,
+      "demand_signal_score": 5700,
       "use_in": [
         "title",
         "first_h2",
@@ -42,7 +42,7 @@
         "연준 금리 발표 비트코인 영향"
       ],
       "suggested_title": "FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 4000,
+      "demand_signal_score": 3700,
       "use_in": [
         "title",
         "first_h2",
@@ -60,7 +60,7 @@
         "마이크로소프트 AI 투자"
       ],
       "suggested_title": "미국 빅테크 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 2900,
+      "demand_signal_score": 2500,
       "use_in": [
         "title",
         "first_h2",
@@ -70,15 +70,15 @@
       ]
     },
     {
-      "mapped_keyword": "us_index_flow",
-      "primary_query": "미국 증시 오늘",
+      "mapped_keyword": "treasury_yields",
+      "primary_query": "미국채 금리 상승 이유",
       "supporting_queries": [
-        "나스닥 하락 이유",
-        "S&P500 전망",
-        "미국 주식 금리 영향"
+        "10년물 국채금리 주식 영향",
+        "국채금리 비트코인 영향",
+        "금리 상승 성장주 영향"
       ],
-      "suggested_title": "미국 증시 오늘 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 2200,
+      "suggested_title": "미국채 금리 상승 이유 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "demand_signal_score": 2500,
       "use_in": [
         "title",
         "first_h2",
@@ -106,6 +106,15 @@
       "expected_manual_visitors": 35,
       "first_channel": "x_threads_or_short_social",
       "first_copy_variant": "question_hook"
+    },
+    {
+      "keyword": "us_big_tech",
+      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "public_url": "",
+      "manual_checklist_items": 0,
+      "expected_manual_visitors": 0,
+      "first_channel": "",
+      "first_copy_variant": ""
     },
     {
       "keyword": "china",

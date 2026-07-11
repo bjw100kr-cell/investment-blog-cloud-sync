@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T07:24:06.746259+00:00",
+  "generated_at": "2026-07-11T15:33:52.481286+00:00",
   "item_count": 3,
   "items": [
     {
@@ -9,12 +9,11 @@
       "priority_score": 137.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "format": "macro_explainer",
       "source_names": [
         "Federal Reserve Monetary Policy Press",
         "Financial Times Home",
-        "Financial Times World",
         "MarketWatch Breaking News"
       ],
       "sample_headlines": [
@@ -25,9 +24,9 @@
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 4000,
+      "demand_signal_score": 3700,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 4,
+      "source_count": 3,
       "search_score": 26,
       "timeliness_score": 25,
       "monetization_score": 15,
@@ -89,21 +88,45 @@
         "Investing.com Crypto News"
       ],
       "sample_headlines": [
+        "The UK has finally shown it’s serious about crypto",
+        "Bitcoin treasury company Empery Digital sold about half of its BTC stack",
         "Bitcoin analysts predict $300,000–$500,000 price in 2029. The math says no",
-        "Circle soars after securing U.S. trust bank approval in crypto expansion",
-        "Japan's 'invest locally' plan likely to spur demand for assets like bitcoin, gold",
-        "Crypto defies equity weakness as altcoin optimism builds into the weekend",
-        "Here’s what happened in crypto today"
+        "Bitcoin nearing late stages of bear market: Jamie Coutts, Real Vision",
+        "Bitcoin price gains nearly 10% in July, but traders still see BTC copying 2022 bear market"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 6400,
+      "demand_signal_score": 5700,
       "fallback_source": "source_snapshot_rank",
       "source_count": 3,
       "search_score": 29,
       "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
+        {
+          "title": "Bitcoin nearing late stages of bear market: Jamie Coutts, Real Vision",
+          "source_name": "Cointelegraph",
+          "published": "Sat, 11 Jul 2026 13:30:00 +0000",
+          "published_iso": "2026-07-11T13:30:00+00:00",
+          "link": "https://cointelegraph.com/features/bitcoin-is-approaching-the-second-half-of-the-bear-market-jamie-coutts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin treasury company Empery Digital sold about half of its BTC stack",
+          "source_name": "CoinDesk RSS",
+          "published": "Sat, 11 Jul 2026 12:25:05 +0000",
+          "published_iso": "2026-07-11T12:25:05+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/11/bitcoin-treasury-company-empery-digital-sold-about-half-of-btc-stack",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin price gains nearly 10% in July, but traders still see BTC copying 2022 bear market",
+          "source_name": "Cointelegraph",
+          "published": "Sat, 11 Jul 2026 11:21:07 +0000",
+          "published_iso": "2026-07-11T11:21:07+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-gains-nearly-10-in-july-but-traders-still-see-btc-copying-2022-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
         {
           "title": "Bitcoin analysts predict $300,000–$500,000 price in 2029. The math says no",
           "source_name": "CoinDesk RSS",
@@ -113,35 +136,11 @@
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin coils below $64,700 resistance: Live levels",
+          "title": "Bitcoin holds above $64,000 as investors weigh U.S. crypto policy shifts",
           "source_name": "Investing.com Crypto News",
-          "published": "2026-07-11 07:02:06",
-          "published_iso": "2026-07-11 07:02:06",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-stalls-at-63k-resistance-zone-live-levels-93CH-4775638",
-          "source_type": "rss"
-        },
-        {
-          "title": "New Hampshire council votes down $100M Bitcoin bonds",
-          "source_name": "Cointelegraph",
-          "published": "Fri, 10 Jul 2026 17:23:10 +0000",
-          "published_iso": "2026-07-10T17:23:10+00:00",
-          "link": "https://cointelegraph.com/news/new-hampshire-votes-against-bitcoin-bonds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Japan's 'invest locally' plan likely to spur demand for assets like bitcoin, gold",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 10 Jul 2026 11:37:31 +0000",
-          "published_iso": "2026-07-10T11:37:31+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/07/10/japan-s-invest-locally-plan-likely-to-spur-demand-for-assets-like-bitcoin-gold",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin rebounds above $64k, heads for weekly gain on tech-led rally",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-07-10 22:07:39",
-          "published_iso": "2026-07-10 22:07:39",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-above-64k-heads-for-weekly-rise-on-techled-rally-4785390",
+          "published": "2026-07-11 13:51:47",
+          "published_iso": "2026-07-11 13:51:47",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-stays-above-64000-as-us-crypto-policy-advances-adoption-grows-4787225",
           "source_type": "rss"
         }
       ]
@@ -149,48 +148,46 @@
     {
       "keyword": "us_big_tech",
       "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-      "publish_date": "",
-      "priority_score": 109.0,
-      "ready_now": false,
-      "quality_status": "needs_fix",
-      "reason": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "publish_date": "2026-07-13",
+      "priority_score": 107.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "format": "sector_analysis",
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
-        "Financial Times Home",
-        "MarketWatch Breaking News"
+        "Financial Times Home"
       ],
       "sample_headlines": [
         "Meta's Chief Data Officer Says Agentic Commerce is the \"Next Tier of Business\"",
-        "SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'",
         "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
-        "Apple sues OpenAI alleging theft of top-secret information",
-        "Apple sues OpenAI for alleged theft of confidential info — and says that’s just ‘the tip of the iceberg’"
+        "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market",
+        "Apple sues OpenAI alleging theft of top-secret information"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 2900,
+      "demand_signal_score": 2500,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 4,
-      "search_score": 20,
-      "timeliness_score": 20,
+      "source_count": 3,
+      "search_score": 17,
+      "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
+        {
+          "title": "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market",
+          "source_name": "CNBC Top News",
+          "published": "Sat, 11 Jul 2026 12:00:01 GMT",
+          "published_iso": "2026-07-11T12:00:01+00:00",
+          "link": "https://www.cnbc.com/2026/07/11/burnout-frustration-and-heartbreak-amazon-layoffs-take-their-toll.html",
+          "source_type": "rss"
+        },
         {
           "title": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
           "source_name": "CNBC Top News",
           "published": "Sat, 11 Jul 2026 04:09:20 GMT",
           "published_iso": "2026-07-11T04:09:20+00:00",
           "link": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Apple sues OpenAI for alleged theft of confidential info — and says that’s just ‘the tip of the iceberg’",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Fri, 10 Jul 2026 23:06:00 GMT",
-          "published_iso": "2026-07-10T23:06:00+00:00",
-          "link": "https://www.marketwatch.com/story/apple-sues-openai-for-institutional-misconduct-and-alleges-thats-just-the-tip-of-the-iceberg-6e803c4d?mod=mw_rss_topstories",
           "source_type": "rss"
         },
         {
@@ -202,19 +199,19 @@
           "source_type": "rss"
         },
         {
-          "title": "Meta’s stock roars back to life as it notches its best week in years",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Fri, 10 Jul 2026 22:24:00 GMT",
-          "published_iso": "2026-07-10T22:24:00+00:00",
-          "link": "https://www.marketwatch.com/story/metas-stock-roars-back-to-life-as-it-heads-for-its-best-week-in-years-0ff0fa7d?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
           "title": "Meta's Chief Data Officer Says Agentic Commerce is the \"Next Tier of Business\"",
           "source_name": "CoinDesk RSS",
           "published": "Fri, 10 Jul 2026 21:26:55 +0000",
           "published_iso": "2026-07-10T21:26:55+00:00",
           "link": "https://www.coindesk.com/coindesk-news/2026/07/10/meta-s-chief-data-officer-says-agentic-commerce-is-the-next-tier-of-business",
+          "source_type": "rss"
+        },
+        {
+          "title": "Wall St Week Ahead Investors to grapple with packed week of earnings, CPI, Iran headlines - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Fri, 10 Jul 2026 20:22:32 GMT",
+          "published_iso": "2026-07-10T20:22:32+00:00",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMjJOeUlsWVliM0doZUlfUDdXVjA5OXpjUDdPNjlFXzFzRGZKcDhhaDVGZFNDc3RRM3QwLVdWdTdaaXJZN0NfRUhjQWkxSzBVZlBMd1l1dlZpVVVOOEFfbWVmUzVYMFlZZGpCWENSR3FRVGNPZjhXcU96VTY3b1hjTk45ZWMwRnR3RVRsRG5UR1ZqdU5RLWhhWWtnWVBjeGk4YTg3c294YjdUVkVqWS1WY3dNWnpCalBERVZQbkRIdw?oc=5",
           "source_type": "rss"
         }
       ]

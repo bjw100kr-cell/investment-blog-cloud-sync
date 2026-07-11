@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-11T07:24:06.746259+00:00`
+- 생성 시각: `2026-07-11T15:33:52.481286+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -100,50 +100,50 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 52, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 28, source_count 4, sources Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, MarketWatch Breaking News
-- `us_big_tech`: score 17, source_count 4, sources CNBC Top News, CoinDesk RSS, Financial Times Home, MarketWatch Breaking News
-- `us_index_flow`: score 10, source_count 4, sources CNBC Top News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 8, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `oil`: score 8, source_count 3, sources Financial Times YouTube, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `dollar`: score 7, source_count 2, sources CNBC Top News, CoinDesk RSS
-- `china`: score 5, source_count 2, sources NYT Business, 무역킹 Trade King YouTube
-- `treasury_yields`: score 3, source_count 1, sources Investing.com Crypto News
-- `cpi`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `bitcoin`: score 45, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 25, source_count 3, sources Federal Reserve Monetary Policy Press, Financial Times Home, MarketWatch Breaking News
+- `treasury_yields`: score 13, source_count 3, sources CNBC Top News, CoinDesk RSS, Investing.com Crypto News
+- `us_big_tech`: score 13, source_count 3, sources CNBC Top News, CoinDesk RSS, Financial Times Home
+- `cpi`: score 12, source_count 3, sources Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
+- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `dollar`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `us_index_flow`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `oil`: score 5, source_count 2, sources Financial Times YouTube, Investing.com Crypto News
+- `crypto_etf`: score 3, source_count 1, sources CNBC Top News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 52, headlines 16
+- `bitcoin`: score 45, headlines 14
+  - The UK has finally shown it’s serious about crypto
+  - Bitcoin treasury company Empery Digital sold about half of its BTC stack
   - Bitcoin analysts predict $300,000–$500,000 price in 2029. The math says no
-  - Circle soars after securing U.S. trust bank approval in crypto expansion
-  - Japan's 'invest locally' plan likely to spur demand for assets like bitcoin, gold
-- `fomc`: score 28, headlines 7
+- `fomc`: score 25, headlines 6
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- `us_big_tech`: score 17, headlines 6
+- `treasury_yields`: score 13, headlines 4
+  - Bitcoin treasury company Empery Digital sold about half of its BTC stack
+  - Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier
+  - These underperforming trades could yield big returns over next six months
+- `us_big_tech`: score 13, headlines 4
   - Meta's Chief Data Officer Says Agentic Commerce is the "Next Tier of Business"
-  - SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'
   - Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'
-- `us_index_flow`: score 10, headlines 4
-  - SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'
-  - Trump makes the stock market his scoreboard, but many Americans aren't even in the game - Reuters
-  - SK Hynix’s stock sees double-digit pop in Nasdaq debut
-- `ai_semiconductors`: score 8, headlines 3
-  - SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'
-  - Chips, banks and volatility - Reuters
-  - SK Hynix’s stock sees double-digit pop in Nasdaq debut
-- `oil`: score 8, headlines 3
-  - Bitcoin rises nearly 2%, tops $63k as risk sentiment improves, oil prices fall
-  - Wall Street climbs, oil slides as investors bet on AI growth over Middle East tensions - Reuters
-  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+  - Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market
+- `cpi`: score 12, headlines 4
+  - Trump ups the pressure on US companies in drive to lower prices
+  - Wall St Week Ahead Investors to grapple with packed week of earnings, CPI, Iran headlines - Reuters
+  - Trump ups the pressure on US companies in drive to lower prices
 - `dollar`: score 7, headlines 2
   - U.S. government digital dollar set to be banned tonight under housing law's CBDC limit
-  - SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'
-- `china`: score 5, headlines 2
-  - The Taiwan Strait Was China's Achilles' Heel
-  - How Volkswagen’s Troubles Were Made in China
-- `cpi`: score 3, headlines 1
-  - Wall St Week Ahead Investors to grapple with packed week of earnings, CPI, Iran headlines - Reuters
-- `treasury_yields`: score 3, headlines 1
-  - Bybit PWM BTC Funds Post 4.9% Growth in 60-Day Annualized Return as Bybit Expands BTC Yield Suite for Holders
+  - Dollar stablecoins could improve FX access but amplify currency runs: IMF paper
+- `ethereum`: score 7, headlines 2
+  - AI found an Ethereum bug that could take validators offline, but humans had to prove it
+  - Ethereum climbs 3% on tokenization boom: Can bulls push ETH price past $1,800?
+- `us_index_flow`: score 6, headlines 2
+  - Berkshire Hathaway gains ground, but still trails the S&P 500 as '26 enters second half
+  - Trump makes the stock market his scoreboard, but many Americans aren't even in the game - Reuters
+- `oil`: score 5, headlines 2
+  - Bitcoin rises nearly 2%, tops $63k as risk sentiment improves, oil prices fall
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+- `ai_semiconductors`: score 3, headlines 1
+  - Chips, banks and volatility - Reuters

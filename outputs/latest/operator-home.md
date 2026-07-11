@@ -14,7 +14,7 @@
 - first_live_run_status: `ready_for_draft_test`
 - github_launch_status: `needs_gh_cli`
 - cloud_verification_ok: `True`
-- quality_needs_fix_count: `3`
+- quality_needs_fix_count: `0`
 - quality_review_count: `4`
 - visitor_proof_status: `measurement_missing`
 - actual_verified_visitors: `0`

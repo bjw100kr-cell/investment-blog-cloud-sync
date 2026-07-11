@@ -45,7 +45,7 @@
         "blockers": []
       },
       "freshness_status": "fresh",
-      "newest_evidence_age_days": 1.5,
+      "newest_evidence_age_days": 1.9,
       "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Federal Reserve issues FOMC statement",
       "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recent_evidence": [
@@ -77,9 +77,9 @@
       "source_names": [
         "Federal Reserve Monetary Policy Press",
         "Financial Times Home",
-        "Financial Times World"
+        "MarketWatch Breaking News"
       ],
-      "demand_signal_score": 4000,
+      "demand_signal_score": 3700,
       "fallback_source": "source_snapshot_rank",
       "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
@@ -143,32 +143,32 @@
         "blockers": []
       },
       "freshness_status": "fresh",
-      "newest_evidence_age_days": 0.0,
-      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin analysts predict $300,000–$500,000 price in 2029. The math says no",
+      "newest_evidence_age_days": 0.1,
+      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin nearing late stages of bear market: Jamie Coutts, Real Vision",
       "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin analysts predict $300,000–$500,000 price in 2029. The math says no",
-          "source_name": "CoinDesk RSS",
-          "published": "Sat, 11 Jul 2026 02:30:00 +0000",
-          "published_iso": "2026-07-11T02:30:00+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/10/bitcoin-analysts-predict-usd300-000-usd500-000-price-in-2029-the-math-says-no",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin coils below $64,700 resistance: Live levels",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-07-11 07:02:06",
-          "published_iso": "2026-07-11 07:02:06",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-stalls-at-63k-resistance-zone-live-levels-93CH-4775638",
-          "source_type": "rss"
-        },
-        {
-          "title": "New Hampshire council votes down $100M Bitcoin bonds",
+          "title": "Bitcoin nearing late stages of bear market: Jamie Coutts, Real Vision",
           "source_name": "Cointelegraph",
-          "published": "Fri, 10 Jul 2026 17:23:10 +0000",
-          "published_iso": "2026-07-10T17:23:10+00:00",
-          "link": "https://cointelegraph.com/news/new-hampshire-votes-against-bitcoin-bonds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Sat, 11 Jul 2026 13:30:00 +0000",
+          "published_iso": "2026-07-11T13:30:00+00:00",
+          "link": "https://cointelegraph.com/features/bitcoin-is-approaching-the-second-half-of-the-bear-market-jamie-coutts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin treasury company Empery Digital sold about half of its BTC stack",
+          "source_name": "CoinDesk RSS",
+          "published": "Sat, 11 Jul 2026 12:25:05 +0000",
+          "published_iso": "2026-07-11T12:25:05+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/11/bitcoin-treasury-company-empery-digital-sold-about-half-of-btc-stack",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin price gains nearly 10% in July, but traders still see BTC copying 2022 bear market",
+          "source_name": "Cointelegraph",
+          "published": "Sat, 11 Jul 2026 11:21:07 +0000",
+          "published_iso": "2026-07-11T11:21:07+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-gains-nearly-10-in-july-but-traders-still-see-btc-copying-2022-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ],
@@ -177,7 +177,7 @@
         "Cointelegraph",
         "Investing.com Crypto News"
       ],
-      "demand_signal_score": 6400,
+      "demand_signal_score": 5700,
       "fallback_source": "source_snapshot_rank",
       "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",

@@ -28,16 +28,15 @@
 
 - source_keyword: `us_big_tech`
 - headline: 오늘 먼저 노출할 popular reads 묶음
-- main_ready_to_upload: `False`
+- main_ready_to_upload: `True`
 - cta_focus: 실적·공급망·대표 종목 글로 연결
-- next_action: 사용자 검토 후 승인 대기
-- blocker: main_quality=needs_fix
-- pick: `미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자` / `us_big_tech` / `main_pick` / ready `False` / 지금 이 클러스터를 대표하는 메인 글
+- next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
+- pick: `미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자` / `us_big_tech` / `main_pick` / ready `True` / 지금 이 클러스터를 대표하는 메인 글
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html`
-- pick: `미국 빅테크 주식 관련 대표 종목 한눈에 보기` / `seo_us_big_tech_7` / `followup_pick_1` / ready `False` / 검색형 유입을 받기 좋은 주제
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국-빅테크-주식-관련-대표-종목-한눈에-보기.html`
-- pick: `미국 빅테크 주식 공급망 정리: 누가 수혜를 보나` / `seo_us_big_tech_9` / `followup_pick_2` / ready `False` / 페이지 체류시간을 늘리기 좋은 주제
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-미국-빅테크-주식-공급망-정리-누가-수혜를-보나.html`
+- pick: `미국 빅테크 주식 관련 대표 종목 한눈에 보기` / `seo_us_big_tech_8` / `followup_pick_1` / ready `True` / 검색형 유입을 받기 좋은 주제
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-미국-빅테크-주식-관련-대표-종목-한눈에-보기.html`
+- pick: `미국 빅테크 주식 공급망 정리: 누가 수혜를 보나` / `seo_us_big_tech_9` / `followup_pick_2` / ready `True` / 페이지 체류시간을 늘리기 좋은 주제
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-미국-빅테크-주식-공급망-정리-누가-수혜를-보나.html`
 
 ## 4. china 클러스터
 
@@ -53,6 +52,6 @@
 - pick: `중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유` / `china` / `main_pick` / ready `False` / 지금 이 클러스터를 대표하는 메인 글
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html`
 - pick: `중국 변수와 시장 영향 관련 대표 종목 한눈에 보기` / `seo_china_11` / `followup_pick_1` / ready `True` / 검색형 유입을 받기 좋은 주제
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html`
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html`
 - pick: `중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나` / `seo_china_12` / `followup_pick_2` / ready `True` / 페이지 체류시간을 늘리기 좋은 주제
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html`
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html`

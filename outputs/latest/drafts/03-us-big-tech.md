@@ -68,7 +68,7 @@
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Financial Times Home, MarketWatch Breaking News
+- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Financial Times Home
 - 발행 전 재확인: 대표 종목 가격 변동률과 기준 시각 재확인
 - 발행 전 재확인: 실적/가격 인상/공급망 뉴스 원문 링크 확인
 - 발행 전 재확인: 개별 종목 이슈를 시장 전체 흐름처럼 과장하지 않기

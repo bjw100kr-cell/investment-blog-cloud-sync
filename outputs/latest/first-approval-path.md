@@ -30,9 +30,8 @@
 - hero_image_selected: `True`
 - selection_summary: `fomc`이 오늘 직접 발행 가능한 후보 중 가장 안전한 1순위입니다. 현재 브랜드 레인은 `macro` (거시경제)이고 freshness는 `fresh`입니다. 품질 게이트가 통과 상태라 승인 후 업로드 경로가 가장 짧습니다. 대표 이미지도 이미 선택되어 있어 추가 준비가 거의 없습니다. 오늘 1순위 후보는 레인 우선순위 `macro > crypto > us-stocks > world-flow` 기준에서 freshness와 검수 상태를 함께 반영해 고릅니다.
 - why_not_other_topics:
-  - `us_big_tech`는 freshness는 괜찮아도 quality `needs_fix` 상태라 바로 올리기보다 추가 검토가 먼저입니다.
-  - `seo_us_big_tech_7`는 freshness는 괜찮아도 quality `needs_fix` 상태라 바로 올리기보다 추가 검토가 먼저입니다.
-  - `seo_us_big_tech_9`는 freshness는 괜찮아도 quality `needs_fix` 상태라 바로 올리기보다 추가 검토가 먼저입니다.
+  - `seo_treasury_yields_7`도 같은 `macro` 레인이지만 현재 점수와 발행 준비도 기준에서는 `fomc`가 앞섭니다.
+  - `seo_us_big_tech_8`도 같은 `macro` 레인이지만 현재 점수와 발행 준비도 기준에서는 `fomc`가 앞섭니다.
 - user_confirmation_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
 
 ## 사용자 확인 후 바로 실행

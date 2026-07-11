@@ -85,7 +85,7 @@
 
 ```json
 {
-  "keyword": "seo_us_big_tech_7",
+  "keyword": "seo_us_big_tech_8",
   "source_keyword": "us_big_tech",
   "recommended_title": "미국 빅테크 주식 관련 대표 종목 한눈에 보기",
   "alternate_titles": [
@@ -117,8 +117,7 @@
   "source_names": [
     "CNBC Top News",
     "CoinDesk RSS",
-    "Financial Times Home",
-    "MarketWatch Breaking News"
+    "Financial Times Home"
   ],
   "reference_headlines": [
     "미국 빅테크 주식 관련 대표 종목 한눈에 보기"
@@ -184,8 +183,8 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 108.5,
-    "search_score": 108.5,
+    "total_score": 106.5,
+    "search_score": 106.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,

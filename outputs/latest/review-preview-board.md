@@ -48,11 +48,13 @@
 ## 3. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
 - keyword: `us_big_tech`
-- publish_date: `unscheduled`
-- priority_score: `109.0`
+- publish_date: `2026-07-13`
+- priority_score: `107.0`
 - review_verdict: `approve` / score `100`
-- intent: 
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
+- final retention CTA: 빅테크 흐름은 대표 종목과 공급망 글을 같이 봐야 실제 투자 연결이 됩니다. 아래 읽을거리까지 함께 보세요.
+- later revisit CTA: 섹터 흐름 요약을 짧게 계속 받고 싶다면 텔레그램/채널형 재방문 동선과 연결합니다.
 - draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-big-tech.md`
 - html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html`
 - image review required: `True`

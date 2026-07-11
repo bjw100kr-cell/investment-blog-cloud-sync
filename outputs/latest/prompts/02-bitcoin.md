@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "The UK has finally shown it’s serious about crypto",
+    "Bitcoin treasury company Empery Digital sold about half of its BTC stack",
     "Bitcoin analysts predict $300,000–$500,000 price in 2029. The math says no",
-    "Circle soars after securing U.S. trust bank approval in crypto expansion",
-    "Japan's 'invest locally' plan likely to spur demand for assets like bitcoin, gold",
-    "Crypto defies equity weakness as altcoin optimism builds into the weekend",
-    "Here’s what happened in crypto today"
+    "Bitcoin nearing late stages of bear market: Jamie Coutts, Real Vision",
+    "Bitcoin price gains nearly 10% in July, but traders still see BTC copying 2022 bear market"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

@@ -2,11 +2,11 @@
 
 사용자가 긴 리뷰 패킷을 다 읽지 않아도, 먼저 최종 확인할 묶음을 고르기 쉽게 만든 운영 대시보드입니다.
 
-- 전체 검토 대상: `9`
+- 전체 검토 대상: `10`
 - 메인 글 수: `4`
 - 곧 발행할 메인 글 수: `2`
 - 미국 빅테크 라인 글 수: `3`
-- 지금 바로 발행 가까운 글 수: `2`
+- 지금 바로 발행 가까운 글 수: `6`
 - 원칙: 사용자 최종 확인 전에는 실제 업로드를 실행하지 않습니다.
 
 ## 가장 먼저 볼 메인 글
@@ -20,11 +20,11 @@
 ## 미국 빅테크 수익 라인
 
 - reason: 메인 글 1개와 후속 SEO 글 3개를 묶어 미국 주식 검색 유입을 노립니다.
-- ready_now_count: `0`
-- user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech seo_us_big_tech_7 seo_us_big_tech_9`
-- `us_big_tech` / 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 / main_post / unplanned / publish unscheduled / priority 109.0 / freshness `unknown` / quality `needs_fix` / hero_image_selected `True` / ready_now `False`
-- `seo_us_big_tech_7` / 미국 빅테크 주식 관련 대표 종목 한눈에 보기 / seo_followup / evergreen_seo / publish unscheduled / priority 108.5 / freshness `unknown` / quality `needs_fix` / hero_image_selected `True` / ready_now `False`
-- `seo_us_big_tech_9` / 미국 빅테크 주식 공급망 정리: 누가 수혜를 보나 / seo_followup / follow_up / publish unscheduled / priority 105.5 / freshness `unknown` / quality `needs_fix` / hero_image_selected `True` / ready_now `False`
+- ready_now_count: `3`
+- user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech seo_us_big_tech_8 seo_us_big_tech_9`
+- `us_big_tech` / 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 / main_post / lane_focus_us-stocks / publish 2026-07-13 / priority 107.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `seo_us_big_tech_8` / 미국 빅테크 주식 관련 대표 종목 한눈에 보기 / seo_followup / evergreen_seo / publish 2026-07-13 / priority 106.5 / freshness `unknown` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `seo_us_big_tech_9` / 미국 빅테크 주식 공급망 정리: 누가 수혜를 보나 / seo_followup / follow_up / publish 2026-07-13 / priority 103.5 / freshness `unknown` / quality `pass` / hero_image_selected `True` / ready_now `True`
 
 ## 거시 해설 라인
 

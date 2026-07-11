@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T07:24:09.581980+00:00",
+  "generated_at": "2026-07-11T15:33:54.902434+00:00",
   "base_url": "",
   "packets_json": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/draft-packets.json",
   "publishing_json": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publishing-assets.json",
@@ -79,7 +79,7 @@
         }
       ],
       "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
-      "summary_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "summary_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
       "trust_footer_note": "이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.",
       "canonical_url": "",
@@ -346,7 +346,7 @@
         "섹터분석"
       ],
       "category": "global-sector",
-      "recommended_publish_date": "",
+      "recommended_publish_date": "2026-07-13",
       "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html",
       "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.json",
       "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-big-tech.md",
@@ -375,9 +375,37 @@
           "url": "/p/editorial-policy.html"
         }
       ],
-      "follow_up_posts": [],
+      "follow_up_posts": [
+        {
+          "title": "미국 빅테크 주식 관련 대표 종목 한눈에 보기",
+          "slug": "미국-빅테크-주식-관련-대표-종목-한눈에-보기",
+          "role": "evergreen_seo",
+          "post_type": "evergreen_sector_guide",
+          "search_intent": "섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자",
+          "monetization_goal": "섹터형 검색 유입 누적",
+          "cta_focus": "대표 종목 글과 허브 글 연결"
+        },
+        {
+          "title": "미국 빅테크 주식 공급망 정리: 누가 수혜를 보나",
+          "slug": "미국-빅테크-주식-공급망-정리-누가-수혜를-보나",
+          "role": "follow_up",
+          "post_type": "follow_up_analysis",
+          "search_intent": "테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
+          "monetization_goal": "체류시간과 페이지뷰 확대",
+          "cta_focus": "실적 해설과 글로벌 섹터 허브 연결"
+        },
+        {
+          "title": "미국 빅테크 주식 ETF·지수·대표 기업 정리",
+          "slug": "미국-빅테크-주식-etf-지수-대표-기업-정리",
+          "role": "evergreen_seo",
+          "post_type": "evergreen_sector_guide",
+          "search_intent": "개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
+          "monetization_goal": "광고 노출과 장기 검색 유입 확보",
+          "cta_focus": "섹터 허브와 후속 비교 글 연결"
+        }
+      ],
       "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
-      "summary_angle": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "summary_angle": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
       "trust_footer_note": "이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.",
       "canonical_url": "",
@@ -393,8 +421,27 @@
         "mid_article",
         "before_related_links"
       ],
-      "retention_cta": {},
-      "retention_cta_enabled": false,
+      "retention_cta": {
+        "cluster_name": "미국 빅테크 허브 클러스터",
+        "source_keyword": "us_big_tech",
+        "main_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+        "main_ready_to_upload": false,
+        "cta_focus": "실적·공급망·대표 종목 글로 연결",
+        "inline_cta_now": "빅테크 흐름은 대표 종목과 공급망 글을 같이 봐야 실제 투자 연결이 됩니다. 아래 읽을거리까지 함께 보세요.",
+        "telegram_cta_later": "섹터 흐름 요약을 짧게 계속 받고 싶다면 텔레그램/채널형 재방문 동선과 연결합니다.",
+        "newsletter_cta_later": "실적 시즌과 섹터 흐름을 주간 정리로 다시 받아보게 만드는 뉴스레터 CTA 후보입니다.",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
+        "followup_titles": [
+          "미국 빅테크 주식 관련 대표 종목 한눈에 보기",
+          "미국 빅테크 주식 공급망 정리: 누가 수혜를 보나"
+        ],
+        "next_action": "사용자 검토 후 승인 대기",
+        "blockers": [
+          "main_quality=needs_fix"
+        ]
+      },
+      "retention_cta_enabled": true,
       "image_plan": [
         {
           "slot": "hero",
@@ -524,7 +571,7 @@
         }
       ],
       "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
-      "summary_angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "summary_angle": "섹터/세계 흐름 연결 해설 가능",
       "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
       "trust_footer_note": "이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.",
       "canonical_url": "",
@@ -544,7 +591,7 @@
         "cluster_name": "china 클러스터",
         "source_keyword": "china",
         "main_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "main_ready_to_upload": true,
+        "main_ready_to_upload": false,
         "cta_focus": "실적·공급망·대표 종목 글로 연결",
         "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
         "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
@@ -555,8 +602,13 @@
           "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
           "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나"
         ],
-        "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
-        "blockers": []
+        "next_action": "사용자 검토 후 승인 대기",
+        "blockers": [
+          "main_quality=review_before_publish",
+          "source_strength",
+          "canonical_url_present",
+          "newsletter_ready"
+        ]
       },
       "retention_cta_enabled": true,
       "image_plan": [
