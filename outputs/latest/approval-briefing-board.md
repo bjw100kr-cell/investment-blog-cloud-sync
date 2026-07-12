@@ -9,18 +9,17 @@
 
 ## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword `fomc` / publish `2026-07-11` / priority `137.0`
+- keyword `fomc` / publish `2026-07-12` / priority `128.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
-- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- evidence score: demand `3700` / fallback `source_snapshot_rank` / format `macro_explainer`
-- source_names: Federal Reserve Monetary Policy Press, Financial Times Home, MarketWatch Breaking News
+- reason: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- evidence score: demand `3200` / fallback `source_snapshot_rank` / format `macro_explainer`
+- source_names: Federal Reserve Monetary Policy Press
 - sample_headlines:
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Prepare for a perilous summer in markets
 - recent_evidence:
   - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve issues FOMC statement
   - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
@@ -45,10 +44,10 @@
 
 ## 도입부
 
-2026년 7월 11일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 7월 12일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 공식 발표 자료, 해외 주요 매체 보도를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+쉽게 말해 공식 발표 자료를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
 예를 들어 `Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
@@ -103,7 +102,7 @@
 
 ## 출처 체크
 
-- 주요 참고 소스: Federal Reserve Monetary Policy Press, Financial Times Home, MarketWatch Breaking News
+- 주요 참고 소스: Federal Reserve Monetary Policy Press
 - 발행 전 재확인: FOMC 성명서 원문 날짜와 발표 시각 확인
 - 발행 전 재확인: 점도표/경제전망 최신 버전 확인
 - 발행 전 재확인: 달러, 미국채 금리, 나스닥 관련 수치 재확인
@@ -127,23 +126,23 @@
 
 ## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-07-12` / priority `122.0`
+- keyword `bitcoin` / publish `2026-07-13` / priority `122.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
 - reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- evidence score: demand `5700` / fallback `source_snapshot_rank` / format `crypto_analysis`
+- evidence score: demand `6800` / fallback `source_snapshot_rank` / format `crypto_analysis`
 - source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - sample_headlines:
+  - Bitcoin, ether little changed as U.S. launches fresh Iran strikes
+  - Bitcoin’s BIP 110 fork deadline nears with miner support at zero
+  - Crypto IPO market stalls as capital rotates to AI and macro uncertainty weighs
   - The UK has finally shown it’s serious about crypto
-  - Bitcoin treasury company Empery Digital sold about half of its BTC stack
-  - Bitcoin analysts predict $300,000–$500,000 price in 2029. The math says no
-  - Bitcoin nearing late stages of bear market: Jamie Coutts, Real Vision
 - recent_evidence:
-  - Cointelegraph | 2026-07-11T13:30:00+00:00 | Bitcoin nearing late stages of bear market: Jamie Coutts, Real Vision
-  - CoinDesk RSS | 2026-07-11T12:25:05+00:00 | Bitcoin treasury company Empery Digital sold about half of its BTC stack
-  - Cointelegraph | 2026-07-11T11:21:07+00:00 | Bitcoin price gains nearly 10% in July, but traders still see BTC copying 2022 bear market
-  - CoinDesk RSS | 2026-07-11T02:30:00+00:00 | Bitcoin analysts predict $300,000–$500,000 price in 2029. The math says no
+  - CoinDesk RSS | 2026-07-12T06:18:15+00:00 | Bitcoin, ether little changed as U.S. launches fresh Iran strikes
+  - CoinDesk RSS | 2026-07-12T05:49:52+00:00 | Bitcoin’s BIP 110 fork deadline nears with miner support at zero
+  - Cointelegraph | 2026-07-12T04:24:36+00:00 | Bitcoin bulls Michael Saylor, Adam Back slam BIP-110 Ordinals proposal
+  - Cointelegraph | 2026-07-12T01:00:54+00:00 | Empery Digital shares rise after selling Bitcoin to fund AI data center project
 - image_slots:
   - 대표 이미지 / Pexels / `bitcoin blockchain abstract blue finance` / Pexels License
   - 본문 보조 이미지 / Unsplash / `crypto market data abstract` / Unsplash License
@@ -163,17 +162,17 @@
 
 ## 도입부
 
-2026년 7월 11일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 7월 12일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `The UK has finally shown it’s serious about crypto` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+예를 들어 `Bitcoin, ether little changed as U.S. launches fresh Iran strikes` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `The UK has finally shown it’s serious about crypto`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Bitcoin, ether little changed as U.S. launches fresh Iran strikes`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `현물 ETF 순유입/순유출`, 다른 하나는 `달러 인덱스와 미국채 금리`입니다.
 한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -243,33 +242,29 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 ```
 
-## 3. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
-- keyword `us_big_tech` / publish `2026-07-13` / priority `107.0`
-- review `approve` score `100` / quality `pass` / ready_now `True`
+- keyword `us_index_flow` / publish `2026-07-14` / priority `86.0`
+- review `approve` score `100` / quality `review_before_publish` / ready_now `False`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
-- reason: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- evidence score: demand `2500` / fallback `source_snapshot_rank` / format `sector_analysis`
-- source_names: CNBC Top News, CoinDesk RSS, Financial Times Home
+- reason: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- evidence score: demand `0` / fallback `mapped_candidate` / format `sector_analysis`
+- source_names: CNBC Top News, Reuters Markets via Google News RSS
 - sample_headlines:
-  - Meta's Chief Data Officer Says Agentic Commerce is the "Next Tier of Business"
-  - Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'
-  - Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market
-  - Apple sues OpenAI alleging theft of top-secret information
+  - Berkshire Hathaway gains ground, but still trails the S&P 500 as '26 enters second half
+  - Trump makes the stock market his scoreboard, but many Americans aren't even in the game - Reuters
 - recent_evidence:
-  - CNBC Top News | 2026-07-11T12:00:01+00:00 | Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market
-  - CNBC Top News | 2026-07-11T04:09:20+00:00 | Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'
-  - Financial Times Home | 2026-07-10T22:50:16+00:00 | Apple sues OpenAI alleging theft of top-secret information
-  - CoinDesk RSS | 2026-07-10T21:26:55+00:00 | Meta's Chief Data Officer Says Agentic Commerce is the "Next Tier of Business"
+  - CNBC Top News | 2026-07-11T13:07:41+00:00 | Berkshire Hathaway gains ground, but still trails the S&P 500 as '26 enters second half
+  - Reuters Markets via Google News RSS | 2026-07-10T10:05:00+00:00 | Trump makes the stock market his scoreboard, but many Americans aren't even in the game - Reuters
 - image_slots:
-  - 대표 이미지 / Unsplash / `technology stocks office city abstract` / Unsplash License
-  - 본문 보조 이미지 / Pexels / `semiconductor server data center abstract` / Pexels License
+  - 대표 이미지 / Unsplash / `technology stocks office finance abstract` / Unsplash License
+  - 본문 보조 이미지 / Pexels / `semiconductor data center abstract` / Pexels License
 
 ### Draft Body
 
 ```md
-# 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+# 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
 한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 
@@ -281,24 +276,24 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 도입부
 
-2026년 7월 11일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 7월 12일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Meta's Chief Data Officer Says Agentic Commerce is the "Next Tier of Business"` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+쉽게 말해 해외 주요 매체 보도를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `Berkshire Hathaway gains ground, but still trails the S&P 500 as '26 enters second half` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Meta's Chief Data Officer Says Agentic Commerce is the "Next Tier of Business"`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Berkshire Hathaway gains ground, but still trails the S&P 500 as '26 enters second half`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `나스닥과 S&P500 상대 강도`, 다른 하나는 `미국채 10년물 금리`입니다.
 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
 ## 2. 왜 시장이 반응했나
 
 미국 지수는 대형 기술주의 비중이 크기 때문에 금리가 내려가면 밸류에이션 부담이 줄고, 실적 기대가 강하면 지수가 더 쉽게 버팁니다.
-투자자 언어로 다시 풀면, headline보다 실제 자금이 대형주에 몰리는지 아니면 공급망 전반으로 퍼지는지를 보는 게 더 중요하다는 뜻입니다.
+투자자 언어로 다시 풀면, 결국 중요한 건 이 숫자가 시장 기대를 얼마나 바꾸는지 쪽이 실제 자산 가격에 얼마나 빨리 반영되는지입니다.
 특히 `나스닥과 S&P500 상대 강도` 쪽 변화가 먼저 나오고 `미국채 10년물 금리` 흐름이 따라오는지, 아니면 가격만 먼저 튀는지를 나눠 보면 뉴스의 질이 달라 보입니다.
 
 ## 3. 개인 투자자가 바로 확인할 지표
@@ -339,10 +334,10 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Financial Times Home
-- 발행 전 재확인: 대표 종목 가격 변동률과 기준 시각 재확인
-- 발행 전 재확인: 실적/가격 인상/공급망 뉴스 원문 링크 확인
-- 발행 전 재확인: 개별 종목 이슈를 시장 전체 흐름처럼 과장하지 않기
+- 주요 참고 소스: CNBC Top News, Reuters Markets via Google News RSS
+- 발행 전 재확인: 나스닥/S&P/미국 증시 수치와 기준 시각 재확인
+- 발행 전 재확인: 지수 하락/상승 원인을 한 문장으로 단정하지 않기
+- 발행 전 재확인: 채권·달러·빅테크와의 연결 문장 교차 점검
 
 ## 이 글에서 같이 봐야 할 관점
 
@@ -354,7 +349,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 ## CTA
 
 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
-다음 글에서는 이 흐름이 실제로 어떤 대표 종목과 공급망으로 번지는지 한 단계 더 실전적으로 풀어보겠습니다.
+다음 글에서는 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
 
 ## 면책문구
 

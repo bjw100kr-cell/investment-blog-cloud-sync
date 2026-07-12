@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T15:33:52.481286+00:00",
+  "generated_at": "2026-07-12T07:51:08.207038+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -14,13 +14,11 @@
     {
       "keyword": "fomc",
       "recommended_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
-      "total_score": 94.0,
-      "monetization_score": 15,
+      "reason": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
+      "total_score": 86.0,
+      "monetization_score": 14,
       "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "MarketWatch Breaking News"
+        "Federal Reserve Monetary Policy Press"
       ]
     },
     {
@@ -36,15 +34,14 @@
       ]
     },
     {
-      "keyword": "us_big_tech",
-      "recommended_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
-      "total_score": 72.0,
+      "keyword": "us_index_flow",
+      "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "total_score": 59.0,
       "monetization_score": 15,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
-        "Financial Times Home"
+        "Reuters Markets via Google News RSS"
       ]
     }
   ],
@@ -59,35 +56,26 @@
       "weighted_priority_score": 16.5
     },
     {
+      "category": "global-sector",
+      "post_count": 2,
+      "keywords": [
+        "us_index_flow",
+        "china"
+      ],
+      "avg_monetization_score": 14.0,
+      "weighted_priority_score": 14.7
+    },
+    {
       "category": "macro",
       "post_count": 1,
       "keywords": [
         "fomc"
       ],
-      "avg_monetization_score": 15.0,
-      "weighted_priority_score": 15.0
-    },
-    {
-      "category": "global-sector",
-      "post_count": 2,
-      "keywords": [
-        "us_big_tech",
-        "china"
-      ],
-      "avg_monetization_score": 13.5,
-      "weighted_priority_score": 14.18
+      "avg_monetization_score": 14.0,
+      "weighted_priority_score": 14.0
     }
   ],
   "brand_lane_summary": [
-    {
-      "brand_lane": "macro",
-      "label": "거시경제",
-      "post_count": 1,
-      "keywords": [
-        "fomc"
-      ],
-      "avg_monetization_score": 15.0
-    },
     {
       "brand_lane": "crypto",
       "label": "코인",
@@ -102,9 +90,18 @@
       "label": "미국주식",
       "post_count": 1,
       "keywords": [
-        "us_big_tech"
+        "us_index_flow"
       ],
       "avg_monetization_score": 15.0
+    },
+    {
+      "brand_lane": "macro",
+      "label": "거시경제",
+      "post_count": 1,
+      "keywords": [
+        "fomc"
+      ],
+      "avg_monetization_score": 14.0
     },
     {
       "brand_lane": "world-flow",
@@ -113,7 +110,7 @@
       "keywords": [
         "china"
       ],
-      "avg_monetization_score": 12.0
+      "avg_monetization_score": 13.0
     }
   ],
   "query_watchlist": [],
@@ -143,7 +140,7 @@
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "us_big_tech",
+      "keyword": "oil",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -238,8 +235,8 @@
         "dominant_sentence_ending_ratio": 0.094
       },
       {
-        "keyword": "us_big_tech",
-        "recommended_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+        "keyword": "us_index_flow",
+        "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
         "score": 92,
         "robotic_phrase_hits": [],
         "reader_bridge_hits": [
@@ -264,7 +261,7 @@
           "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
         ],
         "paragraph_count": 32,
-        "short_paragraphs": 23,
+        "short_paragraphs": 22,
         "long_paragraphs": 3,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
@@ -307,7 +304,7 @@
   },
   "performance_feedback_available": false,
   "next_actions": [
-    "다음 7일은 `거시경제` 레인을 메인 허브로 밀고, 다른 레인은 보조 내부링크와 후속 글로 연결합니다.",
+    "다음 7일은 `코인` 레인을 메인 허브로 밀고, 다른 레인은 보조 내부링크와 후속 글로 연결합니다.",
     "Search Console 데이터가 아직 약하니, Google Trends와 당일 헤드라인으로 1차 주제 발굴을 이어갑니다.",
     "문체 평균 점수 `92.0`로 기준 이상이므로, 이제는 제목 클릭률과 내부링크 동선을 더 키웁니다.",
     "당일 속보 1개와 검색형 evergreen 1개를 짝으로 묶어, 트래픽과 누적 검색 유입을 동시에 노립니다."

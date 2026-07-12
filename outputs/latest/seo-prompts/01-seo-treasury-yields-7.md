@@ -117,6 +117,7 @@
   "source_names": [
     "CNBC Top News",
     "CoinDesk RSS",
+    "Cointelegraph",
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
