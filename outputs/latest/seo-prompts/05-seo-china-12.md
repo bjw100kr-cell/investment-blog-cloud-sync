@@ -85,35 +85,41 @@
 
 ```json
 {
-  "keyword": "us_index_flow",
-  "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+  "keyword": "seo_china_12",
+  "source_keyword": "china",
+  "recommended_title": "중국 변수와 시장 영향 ETF·지수·대표 기업 정리",
   "alternate_titles": [
-    "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
-    "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
+    "중국 변수와 시장 영향 ETF·지수·대표 기업 정리: 초보 투자자 기준으로 다시 보기",
+    "중국 변수와 시장 영향 ETF·지수·대표 기업 정리: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+  "summary_angle": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유에서 이어지는 후속 글로, 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
   "outline": [
-    "지금 이 섹터가 왜 움직이는가",
-    "핵심 뉴스와 시장 반응",
-    "대표 종목과 자금 흐름",
-    "거시 변수와 연결",
-    "다음 실적/정책 이벤트"
+    "왜 이 섹터를 따로 봐야 하나",
+    "대표 기업과 지수/ETF 먼저 정리",
+    "실적과 공급망에서 핵심 포인트 보기",
+    "거시 변수와 같이 봐야 할 것",
+    "다음 체크포인트"
   ],
-  "reference_takeaways": [],
+  "reference_takeaways": [
+    "메인 연결 글: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+    "검색 의도: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
+    "수익화 목표: 광고 노출과 장기 검색 유입 확보",
+    "검색어 후보: 중국 변수와 시장 영향 ETF·지수·대표 기업 정리",
+    "수요 신뢰도: existing_publish_queue - 기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
+  ],
   "fact_checks": [
-    "나스닥/S&P/미국 증시 수치와 기준 시각 재확인",
-    "지수 하락/상승 원인을 한 문장으로 단정하지 않기",
-    "채권·달러·빅테크와의 연결 문장 교차 점검"
+    "대표 기업명과 티커 재확인",
+    "실적/가이던스/공급망 숫자 출처 점검",
+    "섹터 전체 일반화 표현 과장 여부 점검"
   ],
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
-  "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
+  "cta": "대표 종목, 실적 일정, 공급망 글까지 이어서 보면 섹터 흐름이 더 잘 보입니다.",
   "source_names": [
-    "CNBC Top News",
-    "Reuters Markets via Google News RSS"
+    "Financial Times Home",
+    "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
-    "Berkshire Hathaway gains ground, but still trails the S&P 500 as '26 enters second half",
-    "Trump makes the stock market his scoreboard, but many Americans aren't even in the game - Reuters"
+    "중국 변수와 시장 영향 ETF·지수·대표 기업 정리"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -176,103 +182,33 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 59.0,
-    "search_score": 8,
-    "timeliness_score": 10,
-    "explanatory_score": 18,
-    "monetization_score": 15,
-    "risk_score": 8
+    "total_score": 71.5,
+    "search_score": 71.5,
+    "timeliness_score": 0,
+    "explanatory_score": 0,
+    "monetization_score": 0,
+    "risk_score": 0
   },
-  "reference_editorial_pattern_name": "search_explainer",
-  "reference_editorial_pattern": {
-    "when_to_use": [
-      "FOMC",
-      "CPI",
-      "미국 빅테크",
-      "비트코인 구조 설명",
-      "ETF와 규제 설명"
-    ],
-    "must_have": [
-      "제목에서 핵심 키워드와 독자 질문을 함께 드러낼 것",
-      "도입 3문장 안에 왜 지금 읽어야 하는지 답할 것",
-      "본문 중간에 초보자용 정의 또는 기준점 1개 포함",
-      "끝부분에 다음 체크포인트와 내부링크 연결"
+  "internal_link_plan": {
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html",
+    "secondary": [
+      "site-foundation/hub-global-sector.md",
+      "site-foundation/about.md",
+      "site-foundation/disclosure.md"
     ]
   },
-  "reference_editorial_sources": [
-    {
-      "name": "Investopedia",
-      "source_type": "official_site_plus_similarweb",
-      "focus": "검색 유입형 투자 설명글과 용어 해설",
-      "evidence": [
-        "Investopedia mission page",
-        "Similarweb May 2026: Organic Search 59.88 percent, Investing category rank #23"
-      ],
-      "transferable_strengths": [
-        "검색 의도를 바로 만족하는 제목",
-        "용어 정의 후 바로 실전 해석으로 연결",
-        "초보 독자도 이해할 수 있는 설명형 문단 구조"
-      ]
-    },
-    {
-      "name": "CoinDesk",
-      "source_type": "official_site_plus_similarweb",
-      "focus": "코인 뉴스와 거시/정책 해설의 결합",
-      "evidence": [
-        "CoinDesk homepage promise: crypto news, analysis, video and price data",
-        "Similarweb May 2026: Direct 54.33 percent, US audience 45.09 percent"
-      ],
-      "transferable_strengths": [
-        "속보를 바로 해설형 글로 연결",
-        "가격 자체보다 정책, 자금 흐름, 시장 구조를 같이 설명",
-        "브랜드 신뢰를 만드는 차분한 톤"
-      ]
-    },
-    {
-      "name": "Cointelegraph",
-      "source_type": "similarweb_comparison",
-      "focus": "체류시간이 긴 코인 스토리텔링형 기사",
-      "evidence": [
-        "Similarweb comparison May 2026: Avg Visit Duration 00:03:28, Pages per Visit 2.71"
-      ],
-      "transferable_strengths": [
-        "한 기사 안에서 후속 질문까지 같이 풀어주는 구조",
-        "본문 흐름이 길어도 끊기지 않도록 섹션을 촘촘히 나누는 방식",
-        "독자가 다음 섹션을 계속 읽게 만드는 서브헤드 구성"
-      ]
-    },
-    {
-      "name": "MarketWatch",
-      "source_type": "official_site",
-      "focus": "시장 속보를 개인 투자자 관점으로 빠르게 번역",
-      "evidence": [
-        "MarketWatch homepage current market-news framing"
-      ],
-      "transferable_strengths": [
-        "헤드라인에서 바로 왜 중요한지 드러냄",
-        "당일 시장 변화와 개인 자산에 미치는 영향을 짧게 연결",
-        "숫자보다 의미를 먼저 이해시키는 짧은 문단"
-      ]
-    },
-    {
-      "name": "CoinNess",
-      "source_type": "official_site",
-      "focus": "빠른 속보성과 모바일 친화형 코인 정보 소비",
-      "evidence": [
-        "CoinNess official site: fast and accurate crypto investment news platform"
-      ],
-      "transferable_strengths": [
-        "짧은 핵심 요약을 먼저 제시",
-        "속보형 키워드와 투자자 반응 포인트를 빠르게 연결",
-        "반복 방문을 만드는 체크포인트 중심 구성"
-      ]
-    }
+  "labels": [
+    "투자",
+    "경제",
+    "시장해설",
+    "중국",
+    "세계흐름",
+    "거시경제"
   ],
-  "style_translation_rules": [
-    "특정 사이트의 표현이나 문장 구조를 복사하지 않는다.",
-    "전달력과 구조만 참고하고, 한국어 개인 투자자 독자에게 맞게 다시 쓴다.",
-    "검색형 설명글과 재방문형 해설글을 함께 설계한다.",
-    "뉴스 요약만 하지 말고 항상 '그래서 내 돈 관점에서 왜 중요한가'를 답한다."
-  ]
+  "search_intent": "개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
+  "monetization_goal": "광고 노출과 장기 검색 유입 확보",
+  "reader_search_queries": [],
+  "demand_confidence": "existing_publish_queue",
+  "demand_confidence_note": "기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
 }
 ```

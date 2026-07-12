@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-12T07:51:08.207038+00:00`
+- 생성 시각: `2026-07-12T15:40:02.014039+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -108,46 +108,43 @@ If you are sure that the described cause is not responsible for this error and t
 
 - `bitcoin`: score 56, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `treasury_yields`: score 13, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `oil`: score 8, source_count 3, sources Financial Times YouTube, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `us_big_tech`: score 6, source_count 1, sources CNBC Top News
-- `us_index_flow`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `oil`: score 7, source_count 3, sources Financial Times YouTube, Investing.com Crypto News, MarketWatch Breaking News
+- `ethereum`: score 6, source_count 1, sources Cointelegraph
+- `ai_semiconductors`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
 - `china`: score 6, source_count 2, sources Financial Times Home, 무역킹 Trade King YouTube
-- `dollar`: score 3, source_count 1, sources Cointelegraph
-- `crypto_etf`: score 3, source_count 1, sources CNBC Top News
+- `dollar`: score 4, source_count 1, sources CoinDesk RSS
+- `treasury_yields`: score 3, source_count 1, sources Cointelegraph
+- `us_big_tech`: score 3, source_count 1, sources CNBC Top News
+- `us_index_flow`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
 - `bitcoin`: score 56, headlines 17
+  - Bitcoin is nearing a power law support line Fidelity has tracked since 2015
   - Bitcoin, ether little changed as U.S. launches fresh Iran strikes
   - Bitcoin’s BIP 110 fork deadline nears with miner support at zero
-  - Crypto IPO market stalls as capital rotates to AI and macro uncertainty weighs
 - `fomc`: score 20, headlines 4
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- `treasury_yields`: score 13, headlines 4
-  - Bitcoin treasury company Empery Digital sold about half of its BTC stack
-  - Empery Digital shares rise after selling Bitcoin to fund AI data center project
-  - These underperforming trades could yield big returns over next six months
-- `oil`: score 8, headlines 3
+- `oil`: score 7, headlines 3
   - Bitcoin rises nearly 2%, tops $63k as risk sentiment improves, oil prices fall
-  - Eni CEO says oil market risks breaking out of current range by early 2027 - Reuters
+  - The stock-market rally now hinges more on AI than oil
   - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-- `ethereum`: score 7, headlines 2
-  - AI found an Ethereum bug that could take validators offline, but humans had to prove it
-  - Ethereum climbs 3% on tokenization boom: Can bulls push ETH price past $1,800?
+- `ai_semiconductors`: score 6, headlines 2
+  - ‘Almost unlimited’: Execs says AI demand remains strong even as enterprises move to ‘valuemaxxing’
+  - Chips, banks and volatility - Reuters
 - `china`: score 6, headlines 2
   - China cracks down on top ratings for corporate bonds
   - The Taiwan Strait Was China's Achilles' Heel
-- `us_big_tech`: score 6, headlines 2
-  - Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'
-  - Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market
-- `us_index_flow`: score 6, headlines 2
-  - Berkshire Hathaway gains ground, but still trails the S&P 500 as '26 enters second half
-  - Trump makes the stock market his scoreboard, but many Americans aren't even in the game - Reuters
-- `ai_semiconductors`: score 3, headlines 1
-  - Chips, banks and volatility - Reuters
+- `ethereum`: score 6, headlines 2
+  - Cambridge study puts Ethereum near the lower end of PoS energy intensity
+  - Ethereum climbs 3% on tokenization boom: Can bulls push ETH price past $1,800?
+- `dollar`: score 4, headlines 1
+  - Stablecoin market cap has shrunk by $10 billion since May, but analyst sees no reason to panic
 - `cpi`: score 3, headlines 1
   - Wall St Week Ahead Investors to grapple with packed week of earnings, CPI, Iran headlines - Reuters
+- `treasury_yields`: score 3, headlines 1
+  - Empery Digital shares rise after selling Bitcoin to fund AI data center project
+- `us_big_tech`: score 3, headlines 1
+  - Elon Musk and Sam Altman spar on X after Apple files OpenAI lawsuit

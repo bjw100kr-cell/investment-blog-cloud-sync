@@ -1,9 +1,9 @@
 # 오늘의 키워드 기회판
 
-- 생성 시각: `2026-07-12T07:51:08.207038+00:00`
+- 생성 시각: `2026-07-12T15:40:02.014039+00:00`
 - 당일 브레이킹 후보: `5`
 - SEO 후속 후보: `6`
-- 검색어 워치리스트: `4`
+- 검색어 워치리스트: `2`
 
 ## 오늘 바로 볼 브레이킹 후보
 
@@ -27,14 +27,14 @@
 - reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - action: 초안과 메타 설명을 오늘 마무리해 두고 다음 발행 슬롯에 올립니다.
 
-### 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+### 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword: us_index_flow
+- keyword: ai_semiconductors
 - urgency: watch
-- score: 59.0 / search 8 / demand 0
+- score: 57.0 / search 8 / demand 0
 - ready_to_upload: True
 - queue_publish: 2026-07-14 (this_week)
-- reason: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- reason: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
 ### 4. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
@@ -47,14 +47,14 @@
 - reason: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
-### 5. 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+### 5. 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
 
-- keyword: treasury_yields
+- keyword: oil
 - urgency: watch
-- score: 74.0 / search 17 / demand 2500
+- score: 58.0 / search 11 / demand 0
 - ready_to_upload: False
 - queue_publish: 미정 (queue 없음)
-- reason: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- reason: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
 ## 검색형 후속 SEO 후보
@@ -122,12 +122,4 @@
 - `FOMC 일정`: type mapped_keyword_demand / mapped fomc / demand 3200 / regions unknown
   - reader_search_queries: FOMC 일정, FOMC 발표 시간, FOMC 이후 주식 영향, 연준 금리 발표 비트코인 영향
   - suggested_title: FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리
-  - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.
-- `미국채 금리 상승 이유`: type mapped_keyword_demand / mapped treasury_yields / demand 2500 / regions unknown
-  - reader_search_queries: 미국채 금리 상승 이유, 10년물 국채금리 주식 영향, 국채금리 비트코인 영향, 금리 상승 성장주 영향
-  - suggested_title: 미국채 금리 상승 이유 왜 검색이 급증했나: 투자자 관점 핵심 정리
-  - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.
-- `국제유가 전망`: type mapped_keyword_demand / mapped oil / demand 2000 / regions unknown
-  - reader_search_queries: 국제유가 전망, 유가 상승 주식 영향, WTI 유가 보는법, 원유 가격 인플레이션 영향
-  - suggested_title: 국제유가 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.

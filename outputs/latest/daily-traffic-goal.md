@@ -30,5 +30,5 @@
 - `bitcoin` lane `crypto` / 예상 `95`명 / ready `True` / quality `pass`
 - `fomc` lane `macro` / 예상 `90`명 / ready `True` / quality `pass`
 - `china` lane `world-flow` / 예상 `52`명 / ready `True` / quality `pass`
-- `treasury_yields` lane `macro` / 예상 `0`명 / ready `False` / quality `unknown`
-- `us_index_flow` lane `us-stocks` / 예상 `0`명 / ready `True` / quality `review_before_publish`
+- `oil` lane `macro` / 예상 `0`명 / ready `False` / quality `unknown`
+- `ai_semiconductors` lane `us-stocks` / 예상 `0`명 / ready `True` / quality `review_before_publish`

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-12T07:51:13.119971+00:00",
-  "snapshot_generated_at": "2026-07-12T07:51:08.207038+00:00",
+  "generated_at": "2026-07-12T15:40:06.496535+00:00",
+  "snapshot_generated_at": "2026-07-12T15:40:02.014039+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 2,
-    "aging": 1,
+    "fresh": 1,
+    "aging": 2,
     "stale": 0,
     "unknown": 0
   },
@@ -20,7 +20,7 @@
       "freshness_status": "aging",
       "newest_evidence_iso": "2026-07-09T19:00:00+00:00",
       "oldest_evidence_iso": "2026-04-29T18:00:00+00:00",
-      "newest_evidence_age_days": 2.5,
+      "newest_evidence_age_days": 2.9,
       "source_count": 1,
       "demand_signal_score": 3200,
       "summary_line": "아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Federal Reserve issues FOMC statement",
@@ -56,36 +56,29 @@
       ]
     },
     {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "quality_status": "review_before_publish",
       "ready_now": false,
       "publish_date": "2026-07-14",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-11T13:07:41+00:00",
-      "oldest_evidence_iso": "2026-07-10T10:05:00+00:00",
-      "newest_evidence_age_days": 0.8,
+      "freshness_status": "aging",
+      "newest_evidence_iso": "2026-07-10T08:41:54+00:00",
+      "oldest_evidence_iso": "2026-07-10T08:41:54+00:00",
+      "newest_evidence_age_days": 2.3,
       "source_count": 2,
       "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Berkshire Hathaway gains ground, but still trails the S&P 500 as '26 enters second half",
-      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "summary_line": "아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Chips, banks and volatility - Reuters",
+      "recommendation": "초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.",
+      "recovery_mode": "refresh_before_publish",
+      "recovery_summary": "발행 직전 전체 파이프라인을 다시 돌려 headline과 숫자를 최신 상태로 갱신하는 편이 안전합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
       "recent_evidence": [
         {
-          "title": "Berkshire Hathaway gains ground, but still trails the S&P 500 as '26 enters second half",
-          "source_name": "CNBC Top News",
-          "published": "Sat, 11 Jul 2026 13:07:41 GMT",
-          "published_iso": "2026-07-11T13:07:41+00:00",
-          "link": "https://www.cnbc.com/2026/07/11/berkshire-hathaway-gains-ground-but-still-trails-the-sp-500-as-26-enters-second-half.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Trump makes the stock market his scoreboard, but many Americans aren't even in the game - Reuters",
+          "title": "Chips, banks and volatility - Reuters",
           "source_name": "Reuters Markets via Google News RSS",
-          "published": "Fri, 10 Jul 2026 10:05:00 GMT",
-          "published_iso": "2026-07-10T10:05:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYXhqTEk3MmFXa042OTJzSHF5dGtrVGM0dFZRODA5VlM4WWk1SHpnd3ZVcHBISEFabUdRcTRIZVFINExvTmJlQ2VwQkRJd3Jjay1qTFpZRmtaeGoxYzg1ZjVuVC1STEFLY0VyeHQxLVlZa3lZd1BOdHZyZzJHYlVId1BJdXY1ZDJrM2haOVlZVTJpbnlxclpuT0RjQTdlREcxelB3NFZyV2NBWDBKZ3lGN1JTdDVSSG4xWlQtMzkyQ2Q?oc=5",
+          "published": "Fri, 10 Jul 2026 08:41:54 GMT",
+          "published_iso": "2026-07-10T08:41:54+00:00",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONGVHcjJKWVBPbDAtdGpCLThTcjAzY1Fpa0VCdG4zTUl5MmJ6MjRrUGllUE5Xa0U0NkFLV2RaSDI5THZJQmk0M1RHRFJHSDh3ak5LNDdpUVF1cmNQRV9sSmU2X0l6ZjQyLVRiX2pqVGxwUWc0d3RWSzR5bWFCTm56U2IzVldVcUdfVlhhaw?oc=5",
           "source_type": "rss"
         }
       ]
@@ -97,16 +90,24 @@
       "ready_now": true,
       "publish_date": "2026-07-13",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-12T06:18:15+00:00",
-      "oldest_evidence_iso": "2026-07-11T13:30:00+00:00",
-      "newest_evidence_age_days": 0.1,
+      "newest_evidence_iso": "2026-07-12T11:30:00+00:00",
+      "oldest_evidence_iso": "2026-07-12T01:00:54+00:00",
+      "newest_evidence_age_days": 0.2,
       "source_count": 3,
       "demand_signal_score": 6800,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin, ether little changed as U.S. launches fresh Iran strikes",
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin is nearing a power law support line Fidelity has tracked since 2015",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
+        {
+          "title": "Bitcoin is nearing a power law support line Fidelity has tracked since 2015",
+          "source_name": "CoinDesk RSS",
+          "published": "Sun, 12 Jul 2026 11:30:00 +0000",
+          "published_iso": "2026-07-12T11:30:00+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/12/bitcoin-is-nearing-a-power-law-support-line-fidelity-has-tracked-since-2015",
+          "source_type": "rss"
+        },
         {
           "title": "Bitcoin, ether little changed as U.S. launches fresh Iran strikes",
           "source_name": "CoinDesk RSS",
@@ -121,14 +122,6 @@
           "published": "Sun, 12 Jul 2026 05:49:52 +0000",
           "published_iso": "2026-07-12T05:49:52+00:00",
           "link": "https://www.coindesk.com/tech/2026/07/12/bitcoin-s-bip-110-fork-deadline-nears-with-miner-support-at-zero",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin bulls Michael Saylor, Adam Back slam BIP-110 Ordinals proposal",
-          "source_name": "Cointelegraph",
-          "published": "Sun, 12 Jul 2026 04:24:36 +0000",
-          "published_iso": "2026-07-12T04:24:36+00:00",
-          "link": "https://cointelegraph.com/news/bitcoin-leaders-michael-saylor-and-adam-back-rebuff-bip-110-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ]

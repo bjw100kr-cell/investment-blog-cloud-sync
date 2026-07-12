@@ -6,40 +6,14 @@
     "github_launch_status": "needs_gh_cli"
   },
   "approval": {
-    "single_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-    "batch_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin"
+    "single_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+    "batch_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin fomc"
   },
   "reply_flow": {
-    "preview_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply \"fomc 글 먼저 진행\"",
-    "apply_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply \"fomc 글 먼저 진행\" --apply"
+    "preview_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply \"bitcoin 글 먼저 진행\"",
+    "apply_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply \"bitcoin 글 먼저 진행\" --apply"
   },
   "review_shortlist": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-07-12",
-      "priority_score": 128.0,
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "hero_image_selected": true,
-      "ready_now": true,
-      "brand_lane": "macro",
-      "brand_lane_label": "거시경제",
-      "freshness_status": "fresh",
-      "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "hero_image_provider": "Unsplash",
-      "hero_image_search_query": "central bank meeting finance city skyline",
-      "hero_image_search_url": "https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline",
-      "hero_image_license_label": "Unsplash License",
-      "hero_image_license_url": "https://unsplash.com/license",
-      "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
-      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "preview": [
-        "한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다. - 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다. - 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다."
-      ]
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -67,10 +41,36 @@
       ]
     },
     {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "publish_date": "2026-07-12",
+      "priority_score": 128.0,
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "hero_image_selected": true,
+      "ready_now": true,
+      "brand_lane": "macro",
+      "brand_lane_label": "거시경제",
+      "freshness_status": "aging",
+      "freshness_recommendation": "초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.",
+      "hero_image_provider": "Unsplash",
+      "hero_image_search_query": "central bank meeting finance city skyline",
+      "hero_image_search_url": "https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline",
+      "hero_image_license_label": "Unsplash License",
+      "hero_image_license_url": "https://unsplash.com/license",
+      "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
+      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "preview": [
+        "한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다. - 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다. - 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다."
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "publish_date": "2026-07-14",
-      "priority_score": 86.0,
+      "priority_score": 84.0,
       "review_verdict": "approve",
       "quality_status": "review_before_publish",
       "hero_image_selected": true,
@@ -80,11 +80,11 @@
       "freshness_status": "",
       "freshness_recommendation": "",
       "hero_image_provider": "Unsplash",
-      "hero_image_search_query": "technology stocks office finance abstract",
-      "hero_image_search_url": "https://unsplash.com/s/photos/technology+stocks+office+finance+abstract",
+      "hero_image_search_query": "semiconductor chip blue abstract",
+      "hero_image_search_url": "https://unsplash.com/s/photos/semiconductor+chip+blue+abstract",
       "hero_image_license_label": "Unsplash License",
       "hero_image_license_url": "https://unsplash.com/license",
-      "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_index_flow --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
+      "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword ai_semiconductors --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
       "cta_focus": "실적·공급망·대표 종목 글로 연결",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "preview": [
@@ -96,7 +96,7 @@
   "operator_run": {
     "approval_mode": "auto_single",
     "planned_commands": [
-      "python3 scripts/set_review_approvals.py --keywords fomc",
+      "python3 scripts/set_review_approvals.py --keywords bitcoin",
       "python3 scripts/build_platform_publish_plan.py",
       "python3 scripts/upload_blogger_drafts.py",
       "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
@@ -105,35 +105,35 @@
   "revenue_path": [
     {
       "step": "main_post",
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "why_revenue": "페이지뷰와 체류시간 균형 확보",
-      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-      "urgency": "publish_now",
-      "brand_lane": "macro",
-      "brand_lane_label": "거시경제"
-    },
-    {
-      "step": "seo_followup",
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
-      "why_revenue": "검색 유입 누적과 첫 방문 독자 확보",
-      "cta_focus": "거시 허브와 당일 해설 글로 연결",
-      "urgency": "follow_after_main",
-      "brand_lane": "macro",
-      "brand_lane_label": "거시경제"
-    },
-    {
-      "step": "next_slot",
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "why_revenue": "페이지뷰와 체류시간 균형 확보",
       "cta_focus": "ETF·규제·초보 가이드 글로 연결",
       "urgency": "prep_today",
       "brand_lane": "crypto",
-      "brand_lane_label": "코인",
+      "brand_lane_label": "코인"
+    },
+    {
+      "step": "seo_followup",
+      "keyword": "bitcoin",
+      "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+      "why_revenue": "초보 검색 유입과 긴 체류시간 확보",
+      "cta_focus": "코인 허브와 규제/ETF 글 연결",
+      "urgency": "follow_after_main",
+      "brand_lane": "crypto",
+      "brand_lane_label": "코인"
+    },
+    {
+      "step": "next_slot",
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "why_revenue": "페이지뷰와 체류시간 균형 확보",
+      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+      "urgency": "publish_now",
+      "brand_lane": "macro",
+      "brand_lane_label": "거시경제",
       "selection_mode": "direct",
-      "freshness_status": "fresh"
+      "freshness_status": "aging"
     }
   ],
   "roadmap_phases": [
@@ -272,7 +272,7 @@
   "cross_platform_publish_pack_md": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/cross-platform-publish-pack.md",
   "cross_platform_publish_pack_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/cross-platform-publish-pack.md",
   "cross_platform_publish_pack_data": {
-    "generated_at": "2026-07-12T07:51:11.931515+00:00",
+    "generated_at": "2026-07-12T15:40:05.325907+00:00",
     "automation_policy": "automation-first",
     "primary_channel": "blogger",
     "secondary_channel": "wordpress",
@@ -407,13 +407,13 @@
   },
   "cloud_verification_ok": true,
   "quality_gate_summary": {
-    "item_count": 8,
-    "pass_count": 7,
+    "item_count": 9,
+    "pass_count": 8,
     "review_before_publish_count": 1,
     "needs_fix_count": 0
   },
   "visitor_proof": {
-    "generated_at": "2026-07-12T07:51:12.446321+00:00",
+    "generated_at": "2026-07-12T15:40:05.839339+00:00",
     "target_daily_visitors": 200,
     "actual_verified_visitors": 0,
     "actual_verified_impressions": 0,

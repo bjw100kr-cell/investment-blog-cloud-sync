@@ -85,7 +85,7 @@
 
 ```json
 {
-  "keyword": "seo_china_12",
+  "keyword": "seo_china_10",
   "source_keyword": "china",
   "recommended_title": "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
   "alternate_titles": [

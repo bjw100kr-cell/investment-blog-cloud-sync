@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bitcoin is nearing a power law support line Fidelity has tracked since 2015",
     "Bitcoin, ether little changed as U.S. launches fresh Iran strikes",
     "Bitcoin’s BIP 110 fork deadline nears with miner support at zero",
     "Crypto IPO market stalls as capital rotates to AI and macro uncertainty weighs",
-    "The UK has finally shown it’s serious about crypto",
-    "Bitcoin treasury company Empery Digital sold about half of its BTC stack"
+    "The UK has finally shown it’s serious about crypto"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
