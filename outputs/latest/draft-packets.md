@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-07-12T15:40:02.014039+00:00`
+- 생성 시각: `2026-07-13T11:44:13.367755+00:00`
 
 ## 1. fomc
 
@@ -75,7 +75,7 @@
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 점수: 83.0
+- 점수: 84.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -135,17 +135,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bitcoin is nearing a power law support line Fidelity has tracked since 2015
-  - Bitcoin, ether little changed as U.S. launches fresh Iran strikes
-  - Bitcoin’s BIP 110 fork deadline nears with miner support at zero
-  - Crypto IPO market stalls as capital rotates to AI and macro uncertainty weighs
-  - The UK has finally shown it’s serious about crypto
+  - Resurgent U.S.-Iran hostilities send bitcoin lower even as ETF flows show demand
+  - Profit-taking, MidEast hostilities drag crypto lower after bullish week
+  - Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections
+  - U.S. inflation, second-quarter earnings reports: Crypto Week Ahead
+  - Live markets: Bitcoin slips below $63,000 in an Asian-session leverage flush
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 57.0
+- 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 81.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -205,14 +205,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - ‘Almost unlimited’: Execs says AI demand remains strong even as enterprises move to ‘valuemaxxing’
-  - Chips, banks and volatility - Reuters
+  - Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections
+  - TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue
+  - Investors alarmed as Asian chipmakers take stranglehold on indices
+  - TSMC posts record revenue in second quarter on AI demand - Reuters
+  - ASML is kicking off tech earnings. Here’s what to expect from Europe’s biggest semiconductor supplier.
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 53.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 64.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -272,5 +275,6 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - China cracks down on top ratings for corporate bonds
+  - AI is not enough to arrest China’s decline
   - The Taiwan Strait Was China's Achilles' Heel
+  - China-proofing European cleantech is a tricky business

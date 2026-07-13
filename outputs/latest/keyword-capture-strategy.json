@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T15:40:02.014039+00:00",
+  "generated_at": "2026-07-13T11:44:13.367755+00:00",
   "items": [
     {
       "keyword": "fomc",
@@ -55,7 +55,7 @@
       },
       "capture_route": "breaking_to_evergreen",
       "capture_route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 6800,
+      "demand_signal_score": 7600,
       "trend_queries": [],
       "source_names": [
         "CoinDesk RSS",
@@ -92,13 +92,16 @@
       },
       "capture_route": "sector_hub_to_followups",
       "capture_route_description": "섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.",
-      "demand_signal_score": 0,
+      "demand_signal_score": 3100,
       "trend_queries": [],
       "source_names": [
         "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -132,9 +135,10 @@
       "trend_queries": [],
       "source_names": [
         "Financial Times Home",
+        "Financial Times World",
         "무역킹 Trade King YouTube"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -164,14 +168,18 @@
       },
       "capture_route": "search_entry_to_internal_links",
       "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 0,
+      "demand_signal_score": 3700,
       "trend_queries": [],
       "source_names": [
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times World",
         "Financial Times YouTube",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",

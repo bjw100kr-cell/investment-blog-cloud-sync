@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-12T15:40:02.014039+00:00",
+  "generated_at": "2026-07-13T11:44:13.367755+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 2,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 2
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
@@ -14,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6800,
+      "demand_signal_score": 7600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 56,
+      "source_snapshot_score": 64,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +26,35 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Bitcoin is nearing a power law support line Fidelity has tracked since 2015",
-        "Bitcoin, ether little changed as U.S. launches fresh Iran strikes",
-        "Bitcoin’s BIP 110 fork deadline nears with miner support at zero"
+        "Resurgent U.S.-Iran hostilities send bitcoin lower even as ETF flows show demand",
+        "Profit-taking, MidEast hostilities drag crypto lower after bullish week",
+        "Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3700,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 25,
+      "source_count": 7,
+      "source_names": [
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times World",
+        "Financial Times YouTube",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "Bitcoin holds near $63,800 as war-driven selloff hits everything but crypto",
+        "Global stocks fall as Asian memory chipmakers hammered",
+        "Morning Bid: Oil swept along on troubled waters - Reuters"
       ]
     },
     {
@@ -51,6 +77,32 @@
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3100,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 19,
+      "source_count": 5,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections",
+        "TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue",
+        "Investors alarmed as Asian chipmakers take stranglehold on indices"
       ]
     }
   ],

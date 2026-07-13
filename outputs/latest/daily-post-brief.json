@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T15:40:02.014039+00:00",
+  "generated_at": "2026-07-13T11:44:13.367755+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -98,11 +98,11 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "Bitcoin is nearing a power law support line Fidelity has tracked since 2015",
-        "Bitcoin, ether little changed as U.S. launches fresh Iran strikes",
-        "Bitcoin’s BIP 110 fork deadline nears with miner support at zero",
-        "Crypto IPO market stalls as capital rotates to AI and macro uncertainty weighs",
-        "The UK has finally shown it’s serious about crypto"
+        "Resurgent U.S.-Iran hostilities send bitcoin lower even as ETF flows show demand",
+        "Profit-taking, MidEast hostilities drag crypto lower after bullish week",
+        "Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections",
+        "U.S. inflation, second-quarter earnings reports: Crypto Week Ahead",
+        "Live markets: Bitcoin slips below $63,000 in an Asian-session leverage flush"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -113,18 +113,18 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 6800,
-      "search_score": 29,
+      "demand_signal_score": 7600,
+      "search_score": 30,
       "timeliness_score": 18,
       "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 3,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 3,
+      "search_demand_bonus": 4,
       "crypto_market_signal_bonus": 1,
       "crypto_market_sentiment": "mixed",
       "crypto_market_signal_notes": [],
-      "total_score": 83.0,
+      "total_score": 84.0,
       "format": "crypto_analysis"
     },
     {
@@ -136,7 +136,7 @@
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -145,29 +145,35 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "‘Almost unlimited’: Execs says AI demand remains strong even as enterprises move to ‘valuemaxxing’",
-        "Chips, banks and volatility - Reuters"
+        "Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections",
+        "TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue",
+        "Investors alarmed as Asian chipmakers take stranglehold on indices",
+        "TSMC posts record revenue in second quarter on AI demand - Reuters",
+        "ASML is kicking off tech earnings. Here’s what to expect from Europe’s biggest semiconductor supplier."
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 8,
-      "timeliness_score": 10,
-      "explanatory_score": 17,
+      "demand_signal_score": 3100,
+      "search_score": 22,
+      "timeliness_score": 21,
+      "explanatory_score": 18,
       "monetization_score": 15,
-      "risk_score": 7,
+      "risk_score": 5,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 57.0,
+      "total_score": 81.0,
       "format": "sector_analysis"
     },
     {
@@ -179,7 +185,7 @@
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -188,29 +194,31 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "China cracks down on top ratings for corporate bonds",
-        "The Taiwan Strait Was China's Achilles' Heel"
+        "AI is not enough to arrest China’s decline",
+        "The Taiwan Strait Was China's Achilles' Heel",
+        "China-proofing European cleantech is a tricky business"
       ],
       "reference_takeaways": [],
       "source_names": [
         "Financial Times Home",
+        "Financial Times World",
         "무역킹 Trade King YouTube"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 8,
-      "timeliness_score": 7,
+      "search_score": 13,
+      "timeliness_score": 12,
       "explanatory_score": 18,
-      "monetization_score": 13,
+      "monetization_score": 14,
       "risk_score": 7,
       "performance_bonus": 0.0,
       "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 53.0,
+      "total_score": 64.0,
       "format": "macro_explainer"
     },
     {
@@ -222,7 +230,7 @@
         "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유",
         "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -231,31 +239,37 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "Bitcoin rises nearly 2%, tops $63k as risk sentiment improves, oil prices fall",
-        "The stock-market rally now hinges more on AI than oil",
-        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
+        "Bitcoin holds near $63,800 as war-driven selloff hits everything but crypto",
+        "Global stocks fall as Asian memory chipmakers hammered",
+        "Morning Bid: Oil swept along on troubled waters - Reuters",
+        "Shares skid, bond yields rise as Gulf conflict sends oil surging - Reuters",
+        "Oil prices surge as much as 5% after Iran declares Strait of Hormuz is closed"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times World",
         "Financial Times YouTube",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 11,
-      "timeliness_score": 9,
-      "explanatory_score": 17,
+      "demand_signal_score": 3700,
+      "search_score": 26,
+      "timeliness_score": 21,
+      "explanatory_score": 18,
       "monetization_score": 14,
-      "risk_score": 7,
+      "risk_score": 5,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
+      "search_demand_bonus": 2,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 58.0,
+      "total_score": 84.0,
       "format": "macro_explainer"
     }
   ]

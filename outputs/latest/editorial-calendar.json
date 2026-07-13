@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T15:40:02.014039+00:00",
+  "generated_at": "2026-07-13T11:44:13.367755+00:00",
   "lane_order": [
     "macro",
     "crypto",
@@ -60,7 +60,7 @@
       "target_share": 0.2,
       "selected_keyword": "ai_semiconductors",
       "selected_mode": "direct",
-      "freshness_status": "unknown"
+      "freshness_status": "aging"
     },
     {
       "lane": "world-flow",
@@ -72,7 +72,7 @@
   ],
   "schedule": [
     {
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "slot": 1,
       "role": "lane_focus_macro",
       "post_type": "breaking_explainer",
@@ -93,7 +93,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-07-13",
+      "date": "2026-07-14",
       "slot": 2,
       "role": "lane_focus_crypto",
       "post_type": "breaking_explainer",
@@ -118,44 +118,52 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "slot": 3,
       "role": "lane_focus_us-stocks",
       "post_type": "breaking_explainer",
       "target_keyword": "ai_semiconductors",
       "working_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "angle": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
         "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "source_basis": [
         "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
-      "publish_note": "당일 이슈 해설형 글",
+      "publish_note": "초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.",
       "brand_lane": "us-stocks",
-      "freshness_status": "unknown",
+      "freshness_status": "aging",
       "planning_mode": "direct"
     },
     {
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "slot": 4,
       "role": "lane_focus_world-flow",
       "post_type": "breaking_explainer",
       "target_keyword": "china",
       "working_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "angle": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
         "Financial Times Home",
+        "Financial Times World",
         "무역킹 Trade King YouTube"
       ],
       "source_basis": [
         "Financial Times Home",
+        "Financial Times World",
         "무역킹 Trade King YouTube"
       ],
       "publish_note": "당일 이슈 해설형 글",
@@ -164,7 +172,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-07-16",
+      "date": "2026-07-17",
       "slot": 5,
       "role": "evergreen_support",
       "post_type": "evergreen_explainer",
@@ -192,7 +200,7 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "slot": 6,
       "role": "secondary_lane_support",
       "post_type": "evergreen_explainer",
@@ -219,7 +227,7 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "slot": 7,
       "role": "weekly_recap",
       "post_type": "weekly_macro_recap",

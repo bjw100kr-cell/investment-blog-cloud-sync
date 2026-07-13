@@ -9,8 +9,8 @@
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-07-13",
-      "priority_score": 122.0,
+      "publish_date": "2026-07-14",
+      "priority_score": 123.0,
       "review_verdict": "approve",
       "quality_status": "pass",
       "hero_image_selected": true,
@@ -35,7 +35,7 @@
     {
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-07-12",
+      "publish_date": "2026-07-13",
       "priority_score": 128.0,
       "review_verdict": "approve",
       "quality_status": "pass",
@@ -61,16 +61,16 @@
     {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "publish_date": "2026-07-14",
-      "priority_score": 84.0,
+      "publish_date": "2026-07-15",
+      "priority_score": 116.0,
       "review_verdict": "approve",
-      "quality_status": "review_before_publish",
+      "quality_status": "pass",
       "hero_image_selected": true,
-      "ready_now": false,
+      "ready_now": true,
       "brand_lane": "us-stocks",
       "brand_lane_label": "미국주식",
-      "freshness_status": "",
-      "freshness_recommendation": "",
+      "freshness_status": "aging",
+      "freshness_recommendation": "초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.",
       "hero_image_provider": "Unsplash",
       "hero_image_search_query": "semiconductor chip blue abstract",
       "hero_image_search_url": "https://unsplash.com/s/photos/semiconductor+chip+blue+abstract",
@@ -181,9 +181,9 @@
     }
   ],
   "traffic_goal": {
-    "generated_at": "2026-07-12T15:40:02.014039+00:00",
+    "generated_at": "2026-07-13T11:44:13.367755+00:00",
     "target_daily_visitors": 200,
-    "projected_daily_visitors": 237,
+    "projected_daily_visitors": 328,
     "gap_to_target": 0,
     "status": "estimated_on_track_measurement_missing",
     "top_path": [
@@ -191,8 +191,8 @@
         "keyword": "bitcoin",
         "brand_lane": "crypto",
         "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-        "demand_signal_score": 6800,
-        "total_score": 83.0,
+        "demand_signal_score": 7600,
+        "total_score": 84.0,
         "quality_status": "pass",
         "ready_to_upload": true,
         "crypto_market_signal_bonus": 1,
@@ -216,17 +216,31 @@
         "recommended_action": "금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결"
       },
       {
-        "keyword": "china",
-        "brand_lane": "world-flow",
-        "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "demand_signal_score": 0,
-        "total_score": 53.0,
+        "keyword": "ai_semiconductors",
+        "brand_lane": "us-stocks",
+        "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "demand_signal_score": 3100,
+        "total_score": 81.0,
         "quality_status": "pass",
         "ready_to_upload": true,
         "crypto_market_signal_bonus": 0,
         "crypto_market_sentiment": "",
         "crypto_market_signal_notes": [],
-        "estimated_daily_visitors": 52,
+        "estimated_daily_visitors": 88,
+        "recommended_action": "대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장"
+      },
+      {
+        "keyword": "china",
+        "brand_lane": "world-flow",
+        "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+        "demand_signal_score": 0,
+        "total_score": 64.0,
+        "quality_status": "pass",
+        "ready_to_upload": true,
+        "crypto_market_signal_bonus": 0,
+        "crypto_market_sentiment": "",
+        "crypto_market_signal_notes": [],
+        "estimated_daily_visitors": 55,
         "recommended_action": "세계 흐름 해설 뒤 관련 섹터/환율 글로 연결"
       }
     ],
@@ -235,8 +249,8 @@
         "keyword": "bitcoin",
         "brand_lane": "crypto",
         "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-        "demand_signal_score": 6800,
-        "total_score": 83.0,
+        "demand_signal_score": 7600,
+        "total_score": 84.0,
         "quality_status": "pass",
         "ready_to_upload": true,
         "crypto_market_signal_bonus": 1,
@@ -260,25 +274,39 @@
         "recommended_action": "금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결"
       },
       {
-        "keyword": "china",
-        "brand_lane": "world-flow",
-        "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "demand_signal_score": 0,
-        "total_score": 53.0,
+        "keyword": "ai_semiconductors",
+        "brand_lane": "us-stocks",
+        "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "demand_signal_score": 3100,
+        "total_score": 81.0,
         "quality_status": "pass",
         "ready_to_upload": true,
         "crypto_market_signal_bonus": 0,
         "crypto_market_sentiment": "",
         "crypto_market_signal_notes": [],
-        "estimated_daily_visitors": 52,
+        "estimated_daily_visitors": 88,
+        "recommended_action": "대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장"
+      },
+      {
+        "keyword": "china",
+        "brand_lane": "world-flow",
+        "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+        "demand_signal_score": 0,
+        "total_score": 64.0,
+        "quality_status": "pass",
+        "ready_to_upload": true,
+        "crypto_market_signal_bonus": 0,
+        "crypto_market_sentiment": "",
+        "crypto_market_signal_notes": [],
+        "estimated_daily_visitors": 55,
         "recommended_action": "세계 흐름 해설 뒤 관련 섹터/환율 글로 연결"
       },
       {
         "keyword": "oil",
         "brand_lane": "macro",
         "title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
-        "demand_signal_score": 0,
-        "total_score": 58.0,
+        "demand_signal_score": 3700,
+        "total_score": 84.0,
         "quality_status": "unknown",
         "ready_to_upload": false,
         "crypto_market_signal_bonus": 0,
@@ -286,32 +314,18 @@
         "crypto_market_signal_notes": [],
         "estimated_daily_visitors": 0,
         "recommended_action": "발행 가능한 manifest/이미지/신선도 상태 보강"
-      },
-      {
-        "keyword": "ai_semiconductors",
-        "brand_lane": "us-stocks",
-        "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-        "demand_signal_score": 0,
-        "total_score": 57.0,
-        "quality_status": "review_before_publish",
-        "ready_to_upload": true,
-        "crypto_market_signal_bonus": 0,
-        "crypto_market_sentiment": "",
-        "crypto_market_signal_notes": [],
-        "estimated_daily_visitors": 0,
-        "recommended_action": "대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장"
       }
     ],
-    "ready_topic_count": 3,
+    "ready_topic_count": 4,
     "search_demand_summary": {
       "trend_item_count": 16,
-      "matched_keyword_count": 2,
+      "matched_keyword_count": 4,
       "unmatched_market_trend_count": 0,
-      "weak_trend_fallback_count": 2
+      "weak_trend_fallback_count": 4
     },
     "keyword_board_summary": {
       "breaking_candidates": 5,
-      "query_watchlist": 2
+      "query_watchlist": 4
     },
     "publishing_summary": {
       "blogger_ready": true,
@@ -326,10 +340,10 @@
       "status": "ok",
       "sentiment": "mixed",
       "fear_greed": {
-        "value": 26,
+        "value": 28,
         "label": "Fear",
         "source": "alternative.me",
-        "timestamp": "1783814400"
+        "timestamp": "1783900800"
       },
       "providers": {
         "binance_plugin": false,
@@ -349,7 +363,7 @@
     ]
   },
   "visitor_proof": {
-    "generated_at": "2026-07-12T15:40:05.839339+00:00",
+    "generated_at": "2026-07-13T11:44:17.248320+00:00",
     "target_daily_visitors": 200,
     "actual_verified_visitors": 0,
     "actual_verified_impressions": 0,
@@ -387,9 +401,9 @@
       ]
     },
     "projection_summary": {
-      "projected_daily_visitors": 237,
-      "projected_with_amplification": 237,
-      "potential_with_manual_amplification": 1437,
+      "projected_daily_visitors": 328,
+      "projected_with_amplification": 328,
+      "potential_with_manual_amplification": 1528,
       "projection_is_proof": false,
       "traffic_goal_status": "estimated_on_track_measurement_missing",
       "amplification_status": "amplification_plan_ready_manual_execution_required"
@@ -409,7 +423,7 @@
       "gate": "GitHub repo 연결 전후 첫 Blogger draft 검증",
       "focus": "게시 파이프라인이 실제로 하루 1건씩 안전하게 돌아가는지 확인",
       "tasks": [
-        "`FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` 단건 승인 후 Blogger draft 업로드",
+        "`비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` 단건 승인 후 Blogger draft 업로드",
         "`platform-publish-plan`과 `first-cloud-run-verification` 결과 확인",
         "Blogger draft 화면에서 제목, 본문, 링크, 라벨 수동 검수"
       ],
@@ -420,7 +434,7 @@
       "gate": "첫 draft 검증 성공 후 3~7일 운영",
       "focus": "검색 유입용 메인 글과 후속 SEO 글이 반복 루프로 굴러가는지 확인",
       "tasks": [
-        "`FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` -> SEO 후속 글 -> `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` 흐름 반복",
+        "`비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` -> SEO 후속 글 -> `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` 흐름 반복",
         "daily-revenue-focus 기준으로 매일 1순위 글과 후속 글 연결",
         "승인 keyword 운영이 과도하게 번거롭지 않은지 체크"
       ],
@@ -441,7 +455,7 @@
   "image_upgrade_queue": [],
   "image_leverage_lanes": [],
   "cross_platform_publish_pack": {
-    "generated_at": "2026-07-12T15:40:05.325907+00:00",
+    "generated_at": "2026-07-13T11:44:16.762223+00:00",
     "automation_policy": "automation-first",
     "primary_channel": "blogger",
     "secondary_channel": "wordpress",
@@ -479,8 +493,8 @@
             "source_keyword": "bitcoin",
             "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
             "publish_bucket": "tomorrow",
-            "recommended_publish_date": "2026-07-13",
-            "priority_score": 122.0,
+            "recommended_publish_date": "2026-07-14",
+            "priority_score": 123.0,
             "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
             "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
             "quality_status": "pass"
@@ -516,8 +530,8 @@
             "source_keyword": "bitcoin",
             "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
             "publish_bucket": "tomorrow",
-            "recommended_publish_date": "2026-07-13",
-            "priority_score": 122.0,
+            "recommended_publish_date": "2026-07-14",
+            "priority_score": 123.0,
             "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
             "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
             "quality_status": "pass"
@@ -541,8 +555,8 @@
             "source_keyword": "bitcoin",
             "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
             "publish_bucket": "tomorrow",
-            "recommended_publish_date": "2026-07-13",
-            "priority_score": 122.0,
+            "recommended_publish_date": "2026-07-14",
+            "priority_score": 123.0,
             "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
             "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
             "quality_status": "unknown"
@@ -564,8 +578,8 @@
             "source_keyword": "bitcoin",
             "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
             "publish_bucket": "tomorrow",
-            "recommended_publish_date": "2026-07-13",
-            "priority_score": 122.0,
+            "recommended_publish_date": "2026-07-14",
+            "priority_score": 123.0,
             "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
             "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
             "quality_status": "unknown"

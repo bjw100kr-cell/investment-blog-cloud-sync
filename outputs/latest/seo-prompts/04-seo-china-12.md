@@ -85,7 +85,7 @@
 
 ```json
 {
-  "keyword": "seo_china_11",
+  "keyword": "seo_china_12",
   "source_keyword": "china",
   "recommended_title": "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나",
   "alternate_titles": [
@@ -116,6 +116,7 @@
   "cta": "대표 종목, 실적 일정, 공급망 글까지 이어서 보면 섹터 흐름이 더 잘 보입니다.",
   "source_names": [
     "Financial Times Home",
+    "Financial Times World",
     "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
@@ -182,8 +183,8 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 74.5,
-    "search_score": 74.5,
+    "total_score": 86.5,
+    "search_score": 86.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
