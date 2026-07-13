@@ -1,6 +1,6 @@
 # 수익화 준비도 리포트
 
-- 생성 시각: `2026-07-13T11:44:13.367755+00:00`
+- 생성 시각: `2026-07-13T18:20:38.740707+00:00`
 - 준비도 점수: `50.0`
 
 ## 단계별 상태
@@ -19,8 +19,8 @@
   - evidence: trend watchlist 4개
   - evidence: search console watchlist 0개
   - evidence: daily opportunity breaking candidates 5개
-  - evidence: daily opportunity query watchlist 2개
-  - evidence: seo follow-up backlog 12개
+  - evidence: daily opportunity query watchlist 4개
+  - evidence: seo follow-up backlog 13개
   - next: 기회판과 SEO 백로그를 기준으로 당일 글 1개, 후속 검색형 글 1개씩 이어 붙이면서 Search Console 데이터가 쌓일 때까지 운영합니다.
 - `analytics_stack`: not_ready
   - evidence: GA4 measurement id missing

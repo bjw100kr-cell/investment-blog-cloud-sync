@@ -91,7 +91,7 @@
     "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
     "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
+  "summary_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음",
   "outline": [
     "왜 지금 이 이슈가 중요한가",
     "실제로 발표되거나 벌어진 일",
@@ -108,13 +108,19 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
-    "Federal Reserve Monetary Policy Press"
+    "CNBC Top News",
+    "Federal Reserve Monetary Policy Press",
+    "Financial Times Home",
+    "Financial Times World",
+    "MarketWatch Breaking News",
+    "NYT Business"
   ],
   "reference_headlines": [
     "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
     "Federal Reserve issues FOMC statement",
     "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-    "Federal Reserve issues FOMC statement"
+    "Federal Reserve issues FOMC statement",
+    "Waller says Fed shouldn't 'fight the last war' on inflation but warns hikes still possible"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -177,11 +183,11 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 86.0,
-    "search_score": 19,
+    "total_score": 94.0,
+    "search_score": 26,
     "timeliness_score": 25,
     "explanatory_score": 20,
-    "monetization_score": 14,
+    "monetization_score": 15,
     "risk_score": 8
   },
   "reference_editorial_pattern_name": "news_what_it_means",

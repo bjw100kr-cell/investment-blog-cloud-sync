@@ -9,23 +9,23 @@
 
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-07-14` / priority `123.0`
+- keyword `bitcoin` / publish `2026-07-14` / priority `126.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
-- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- evidence score: demand `7600` / fallback `source_snapshot_rank` / format `crypto_analysis`
-- source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- reason: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
+- evidence score: demand `6700` / fallback `source_snapshot_rank` / format `crypto_analysis`
+- source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
 - sample_headlines:
-  - Resurgent U.S.-Iran hostilities send bitcoin lower even as ETF flows show demand
-  - Profit-taking, MidEast hostilities drag crypto lower after bullish week
-  - Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections
-  - U.S. inflation, second-quarter earnings reports: Crypto Week Ahead
+  - Trump's crypto riches loom over Clarity Act talks to ban conflicts for U.S. officials
+  - Bitcoin panic-selling may be ending as sellers' profit margins disappear
+  - Strategy pauses its Bitcoin buying spree to hoard a massive $3 billion cash cushion
+  - Bolivia weighs adding Tether's USDT to its national payments system
 - recent_evidence:
-  - CoinDesk RSS | 2026-07-13T11:20:49+00:00 | Resurgent U.S.-Iran hostilities send bitcoin lower even as ETF flows show demand
-  - Cointelegraph | 2026-07-13T10:45:22+00:00 | BTC price bull market to begin in September? Five things to know in Bitcoin this week
-  - CoinDesk RSS | 2026-07-13T09:32:41+00:00 | Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections
-  - CoinDesk RSS | 2026-07-13T06:52:28+00:00 | Live markets: Bitcoin slips below $63,000 in an Asian-session leverage flush
+  - CoinDesk RSS | 2026-07-13T15:49:41+00:00 | Bitcoin panic-selling may be ending as sellers' profit margins disappear
+  - CoinDesk RSS | 2026-07-13T15:27:36+00:00 | Strategy pauses its Bitcoin buying spree to hoard a massive $3 billion cash cushion
+  - Cointelegraph | 2026-07-13T15:05:45+00:00 | Bitcoin threatens $62K in risk-asset rout as Donald Trump says US will 'run' closed Hormuz Strait
+  - Reuters Markets via Google News RSS | 2026-07-13T10:05:43+00:00 | Strategy bitcoin sales shine light on faltering crypto hoarding companies - Reuters
 - image_slots:
   - 대표 이미지 / Pexels / `bitcoin blockchain abstract blue finance` / Pexels License
   - 본문 보조 이미지 / Unsplash / `crypto market data abstract` / Unsplash License
@@ -48,14 +48,14 @@
 2026년 7월 13일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Resurgent U.S.-Iran hostilities send bitcoin lower even as ETF flows show demand` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `Trump's crypto riches loom over Clarity Act talks to ban conflicts for U.S. officials` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Resurgent U.S.-Iran hostilities send bitcoin lower even as ETF flows show demand`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Trump's crypto riches loom over Clarity Act talks to ban conflicts for U.S. officials`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `현물 ETF 순유입/순유출`, 다른 하나는 `달러 인덱스와 미국채 금리`입니다.
 한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -103,7 +103,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 주요 참고 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
 - 발행 전 재확인: BTC 가격 기준 시각 재확인
 - 발행 전 재확인: ETF 자금 유입 여부 공식/신뢰 소스 재확인
 - 발행 전 재확인: 단정적 가격 전망 문장 제거
@@ -125,19 +125,138 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 ```
 
-## 2. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword `fomc` / publish `2026-07-13` / priority `128.0`
+- keyword `ai_semiconductors` / publish `2026-07-15` / priority `94.0`
+- review `approve` score `100` / quality `pass` / ready_now `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- CTA focus: 실적·공급망·대표 종목 글로 연결
+- reason: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- evidence score: demand `0` / fallback `mapped_candidate` / format `sector_analysis`
+- source_names: MarketWatch Breaking News, Reuters Markets via Google News RSS
+- sample_headlines:
+  - Morning Bid: Crude up, chips down - Reuters
+  - TSMC posts record revenue in second quarter on AI demand - Reuters
+  - SK Hynix plunges after Nasdaq debut as memory chip euphoria cools - Reuters
+  - Micron and other chip stocks feel the pain of imported volatility — blame SK Hynix
+- recent_evidence:
+  - Reuters Markets via Google News RSS | 2026-07-13T16:35:27+00:00 | Wall Street slips as Iran tensions hit sentiment; chipmakers drop - Reuters
+  - Financial Times Home | 2026-07-13T16:01:36+00:00 | Wall Street tech stocks fall after Asian chipmakers hammered
+  - MarketWatch Breaking News | 2026-07-13T15:26:00+00:00 | Micron and other chip stocks feel the pain of imported volatility — blame SK Hynix
+  - Reuters Markets via Google News RSS | 2026-07-13T10:42:06+00:00 | Morning Bid: Crude up, chips down - Reuters
+- image_slots:
+  - 대표 이미지 / Unsplash / `semiconductor chip blue abstract` / Unsplash License
+  - 본문 보조 이미지 / Pexels / `ai server data center abstract` / Pexels License
+
+### Draft Body
+
+```md
+# AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+
+한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+
+## 오늘 핵심 3줄
+
+- 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다.
+- 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다.
+- 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
+
+## 도입부
+
+2026년 7월 13일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.
+개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
+쉽게 말해 해외 주요 매체 보도를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `Morning Bid: Crude up, chips down - Reuters` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+
+## 본문
+
+## 1. 지금 무슨 일이 있었나
+
+이번 글의 출발점은 `Morning Bid: Crude up, chips down - Reuters`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `나스닥과 S&P500 상대 강도`, 다른 하나는 `미국채 10년물 금리`입니다.
+이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
+
+## 2. 왜 시장이 반응했나
+
+미국 지수는 대형 기술주의 비중이 크기 때문에 금리가 내려가면 밸류에이션 부담이 줄고, 실적 기대가 강하면 지수가 더 쉽게 버팁니다.
+투자자 언어로 다시 풀면, 결국 중요한 건 이 숫자가 시장 기대를 얼마나 바꾸는지 쪽이 실제 자산 가격에 얼마나 빨리 반영되는지입니다.
+특히 `나스닥과 S&P500 상대 강도` 쪽 변화가 먼저 나오고 `미국채 10년물 금리` 흐름이 따라오는지, 아니면 가격만 먼저 튀는지를 나눠 보면 뉴스의 질이 달라 보입니다.
+
+## 3. 개인 투자자가 바로 확인할 지표
+
+첫째로 볼 것은 `나스닥과 S&P500 상대 강도`입니다. 이 지표가 같은 방향으로 며칠 이어지면 단순 반응보다 흐름일 가능성이 커집니다.
+둘째는 `미국채 10년물 금리`입니다. 거시 환경이 받쳐주지 않으면 좋은 뉴스도 오래 버티기 어렵습니다.
+셋째는 `엔비디아·마이크로소프트 등 빅테크 실적 가이던스`입니다. 한 자산만 움직이는지, 관련 자산으로 확산되는지에 따라 해석이 완전히 달라집니다.
+추가로 `반도체 ETF와 시장 폭`까지 확인하면 다음 글감과 투자 판단의 기준선이 더 선명해집니다.
+
+## 4. 내 포트폴리오와 연결해서 보는 법
+
+이걸 내 돈 관점에서 보면 지수가 올랐다는 사실보다 어떤 업종이 끌고 갔는지, 그리고 그 흐름이 넓어지는지가 더 중요합니다.
+예를 들어 이미 관련 자산 비중이 높다면 새로 맞히는 것보다 변동성이 커질 때 어느 구간에서 흔들릴지 먼저 생각해야 합니다.
+반대로 아직 관망 중이라면 지금 당장 따라가기보다 다음 확인 지표가 같은 방향으로 쌓이는지 보는 편이 더 실전적입니다.
+
+## 상승 시나리오와 리스크
+
+- 상승 시나리오: 금리가 안정되고 빅테크 실적 전망이 유지되며 반도체와 소프트웨어까지 같이 오르면 상승의 질이 좋아질 수 있습니다.
+- 리스크 시나리오: 소수 대형주만 버티고 중소형주나 경기민감주가 약하면, 지수 상승이 생각보다 얇은 흐름일 수 있습니다.
+
+## 자주 하는 오해
+
+나스닥 상승을 모든 주식에 좋은 신호로 해석하는 것입니다. 실제로는 몇 개 대형주가 지수를 밀어 올리는 장면도 많습니다.
+
+## 체크포인트 3개
+
+1. `나스닥과 S&P500 상대 강도`: 발표 직후뿐 아니라 다음 거래일에도 같은 방향인지 확인하기
+2. `미국채 10년물 금리`와 `엔비디아·마이크로소프트 등 빅테크 실적 가이던스`: 서로 엇갈리는지, 같이 움직이는지 비교하기
+3. `반도체 ETF와 시장 폭` 전까지 상승 시나리오와 리스크 시나리오를 따로 메모해두기
+
+## FAQ 2개
+
+### AI 반도체는 엔비디아만 보면 되나요?
+그렇게 단순하게 보기는 어렵습니다. 메모리, 파운드리, 네트워크, 서버 공급망까지 같이 봐야 흐름이 더 잘 보입니다.
+
+### 섹터 강세가 이어질지 보려면 무엇을 확인해야 하나요?
+실적 숫자, 가이던스, CAPEX, 고객사 주문 흐름처럼 실제 수요가 이어지는 신호가 있는지 확인해야 합니다.
+
+## 출처 체크
+
+- 주요 참고 소스: MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 발행 전 재확인: 기업 실적/가이던스 수치 원문 확인
+- 발행 전 재확인: 반도체 섹터 전반 일반화 과장 여부 점검
+- 발행 전 재확인: 대표 종목 티커와 실적 날짜 재확인
+
+## 이 글에서 같이 봐야 할 관점
+
+- 대표 기업 사례 1개 이상
+- 섹터 흐름과 거시 변수 연결
+- 독자가 다음에 체크할 일정 또는 변수
+
+
+## CTA
+
+반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
+다음 글에서는 AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
+
+## 면책문구
+
+이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
+```
+
+## 3. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+- keyword `fomc` / publish `2026-07-13` / priority `137.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
-- reason: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
-- evidence score: demand `3200` / fallback `source_snapshot_rank` / format `macro_explainer`
-- source_names: Federal Reserve Monetary Policy Press
+- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
+- evidence score: demand `4800` / fallback `source_snapshot_rank` / format `macro_explainer`
+- source_names: CNBC Top News, Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
 - sample_headlines:
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+  - Waller says Fed shouldn't 'fight the last war' on inflation but warns hikes still possible
 - recent_evidence:
   - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve issues FOMC statement
   - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
@@ -165,7 +284,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 2026년 7월 13일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 공식 발표 자료를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+쉽게 말해 공식 발표 자료, 해외 주요 매체 보도를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
 예를 들어 `Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
@@ -220,7 +339,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: Federal Reserve Monetary Policy Press
+- 주요 참고 소스: CNBC Top News, Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
 - 발행 전 재확인: FOMC 성명서 원문 날짜와 발표 시각 확인
 - 발행 전 재확인: 점도표/경제전망 최신 버전 확인
 - 발행 전 재확인: 달러, 미국채 금리, 나스닥 관련 수치 재확인
@@ -236,124 +355,6 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 다음 글에서는 FOMC 이후 달러, 미국채 금리, 나스닥 가운데 무엇을 먼저 보면 되는지 더 실전적으로 풀어보겠습니다.
-
-## 면책문구
-
-이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
-```
-
-## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-
-- keyword `ai_semiconductors` / publish `2026-07-15` / priority `116.0`
-- review `approve` score `100` / quality `pass` / ready_now `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- CTA focus: 실적·공급망·대표 종목 글로 연결
-- reason: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- evidence score: demand `3100` / fallback `source_snapshot_rank` / format `sector_analysis`
-- source_names: CNBC Top News, CoinDesk RSS, Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- sample_headlines:
-  - Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections
-  - TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue
-  - Investors alarmed as Asian chipmakers take stranglehold on indices
-  - TSMC posts record revenue in second quarter on AI demand - Reuters
-- recent_evidence:
-  - Financial Times World | 2026-07-13T11:34:45+00:00 | Global tech stocks fall as Asian memory chipmakers hammered
-  - MarketWatch Breaking News | 2026-07-13T11:30:00+00:00 | ASML is kicking off tech earnings. Here’s what to expect from Europe’s biggest semiconductor supplier.
-  - Financial Times Home | 2026-07-13T10:45:43+00:00 | Global stocks fall as Asian memory chipmakers hammered
-  - CoinDesk RSS | 2026-07-13T09:32:41+00:00 | Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections
-- image_slots:
-  - 대표 이미지 / Unsplash / `semiconductor chip blue abstract` / Unsplash License
-  - 본문 보조 이미지 / Pexels / `ai server data center abstract` / Pexels License
-
-### Draft Body
-
-```md
-# AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-
-한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-
-## 오늘 핵심 3줄
-
-- 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다.
-- 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다.
-- 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
-
-## 도입부
-
-2026년 7월 13일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
-반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.
-개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
-
-## 본문
-
-## 1. 지금 무슨 일이 있었나
-
-이번 글의 출발점은 `Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
-여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `나스닥과 S&P500 상대 강도`, 다른 하나는 `미국채 10년물 금리`입니다.
-이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
-
-## 2. 왜 시장이 반응했나
-
-미국 지수는 대형 기술주의 비중이 크기 때문에 금리가 내려가면 밸류에이션 부담이 줄고, 실적 기대가 강하면 지수가 더 쉽게 버팁니다.
-투자자 언어로 다시 풀면, 결국 중요한 건 이 숫자가 시장 기대를 얼마나 바꾸는지 쪽이 실제 자산 가격에 얼마나 빨리 반영되는지입니다.
-특히 `나스닥과 S&P500 상대 강도` 쪽 변화가 먼저 나오고 `미국채 10년물 금리` 흐름이 따라오는지, 아니면 가격만 먼저 튀는지를 나눠 보면 뉴스의 질이 달라 보입니다.
-
-## 3. 개인 투자자가 바로 확인할 지표
-
-첫째로 볼 것은 `나스닥과 S&P500 상대 강도`입니다. 이 지표가 같은 방향으로 며칠 이어지면 단순 반응보다 흐름일 가능성이 커집니다.
-둘째는 `미국채 10년물 금리`입니다. 거시 환경이 받쳐주지 않으면 좋은 뉴스도 오래 버티기 어렵습니다.
-셋째는 `엔비디아·마이크로소프트 등 빅테크 실적 가이던스`입니다. 한 자산만 움직이는지, 관련 자산으로 확산되는지에 따라 해석이 완전히 달라집니다.
-추가로 `반도체 ETF와 시장 폭`까지 확인하면 다음 글감과 투자 판단의 기준선이 더 선명해집니다.
-
-## 4. 내 포트폴리오와 연결해서 보는 법
-
-이걸 내 돈 관점에서 보면 지수가 올랐다는 사실보다 어떤 업종이 끌고 갔는지, 그리고 그 흐름이 넓어지는지가 더 중요합니다.
-예를 들어 이미 관련 자산 비중이 높다면 새로 맞히는 것보다 변동성이 커질 때 어느 구간에서 흔들릴지 먼저 생각해야 합니다.
-반대로 아직 관망 중이라면 지금 당장 따라가기보다 다음 확인 지표가 같은 방향으로 쌓이는지 보는 편이 더 실전적입니다.
-
-## 상승 시나리오와 리스크
-
-- 상승 시나리오: 금리가 안정되고 빅테크 실적 전망이 유지되며 반도체와 소프트웨어까지 같이 오르면 상승의 질이 좋아질 수 있습니다.
-- 리스크 시나리오: 소수 대형주만 버티고 중소형주나 경기민감주가 약하면, 지수 상승이 생각보다 얇은 흐름일 수 있습니다.
-
-## 자주 하는 오해
-
-나스닥 상승을 모든 주식에 좋은 신호로 해석하는 것입니다. 실제로는 몇 개 대형주가 지수를 밀어 올리는 장면도 많습니다.
-
-## 체크포인트 3개
-
-1. `나스닥과 S&P500 상대 강도`: 발표 직후뿐 아니라 다음 거래일에도 같은 방향인지 확인하기
-2. `미국채 10년물 금리`와 `엔비디아·마이크로소프트 등 빅테크 실적 가이던스`: 서로 엇갈리는지, 같이 움직이는지 비교하기
-3. `반도체 ETF와 시장 폭` 전까지 상승 시나리오와 리스크 시나리오를 따로 메모해두기
-
-## FAQ 2개
-
-### AI 반도체는 엔비디아만 보면 되나요?
-그렇게 단순하게 보기는 어렵습니다. 메모리, 파운드리, 네트워크, 서버 공급망까지 같이 봐야 흐름이 더 잘 보입니다.
-
-### 섹터 강세가 이어질지 보려면 무엇을 확인해야 하나요?
-실적 숫자, 가이던스, CAPEX, 고객사 주문 흐름처럼 실제 수요가 이어지는 신호가 있는지 확인해야 합니다.
-
-## 출처 체크
-
-- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- 발행 전 재확인: 기업 실적/가이던스 수치 원문 확인
-- 발행 전 재확인: 반도체 섹터 전반 일반화 과장 여부 점검
-- 발행 전 재확인: 대표 종목 티커와 실적 날짜 재확인
-
-## 이 글에서 같이 봐야 할 관점
-
-- 대표 기업 사례 1개 이상
-- 섹터 흐름과 거시 변수 연결
-- 독자가 다음에 체크할 일정 또는 변수
-
-
-## CTA
-
-반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
-다음 글에서는 AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
 
 ## 면책문구
 

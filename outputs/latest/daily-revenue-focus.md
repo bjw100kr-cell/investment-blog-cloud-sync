@@ -2,7 +2,7 @@
 
 오늘 어떤 글 순서로 올려야 수익화에 더 유리한지 보여주는 운영 카드입니다.
 
-- generated_at: `2026-07-13T11:44:13.367755+00:00`
+- generated_at: `2026-07-13T18:20:38.740707+00:00`
 - path_policy: main post는 현재 최적 단건 후보를 유지하고, next slot은 가능하면 다른 브랜드 레인에서 선택
 
 ## Today Path
@@ -19,12 +19,12 @@
   - urgency: follow_after_main
   - why_revenue: 초보 검색 유입과 긴 체류시간 확보
   - cta_focus: 코인 허브와 규제/ETF 글 연결
-- `next_slot` / `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지`
-  - keyword: fomc
-  - brand_lane: macro (거시경제)
-  - urgency: publish_now
+- `next_slot` / `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지`
+  - keyword: ai_semiconductors
+  - brand_lane: us-stocks (미국주식)
+  - urgency: watch
   - why_revenue: 페이지뷰와 체류시간 균형 확보
-  - cta_focus: 환율·금리·미국증시 evergreen 글로 연결
+  - cta_focus: 실적·공급망·대표 종목 글로 연결
 
 ## Approval Commands
 

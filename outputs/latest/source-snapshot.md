@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-13T11:44:13.367755+00:00`
+- 생성 시각: `2026-07-13T18:20:38.740707+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,51 +106,51 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 64, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `oil`: score 25, source_count 7, sources CoinDesk RSS, Financial Times Home, Financial Times World, Financial Times YouTube, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `ai_semiconductors`: score 19, source_count 5, sources CNBC Top News, CoinDesk RSS, Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `us_big_tech`: score 9, source_count 1, sources CNBC Top News
-- `china`: score 9, source_count 3, sources Financial Times Home, Financial Times World, 무역킹 Trade King YouTube
-- `dollar`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
-- `treasury_yields`: score 6, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
-- `us_index_flow`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `bitcoin`: score 55, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `fomc`: score 36, source_count 6, sources CNBC Top News, Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
+- `oil`: score 27, source_count 7, sources CNBC Top News, Financial Times Home, Financial Times World, Financial Times YouTube, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `cpi`: score 15, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
+- `treasury_yields`: score 14, source_count 3, sources CoinDesk RSS, Cointelegraph, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 11, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `dollar`: score 6, source_count 1, sources Cointelegraph
+- `us_index_flow`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `china`: score 5, source_count 2, sources NYT Business, 무역킹 Trade King YouTube
 - `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 64, headlines 19
-  - Resurgent U.S.-Iran hostilities send bitcoin lower even as ETF flows show demand
-  - Profit-taking, MidEast hostilities drag crypto lower after bullish week
-  - Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections
-- `oil`: score 25, headlines 9
-  - Bitcoin holds near $63,800 as war-driven selloff hits everything but crypto
-  - Global stocks fall as Asian memory chipmakers hammered
-  - Morning Bid: Oil swept along on troubled waters - Reuters
-- `fomc`: score 20, headlines 4
+- `bitcoin`: score 55, headlines 17
+  - Trump's crypto riches loom over Clarity Act talks to ban conflicts for U.S. officials
+  - Bitcoin panic-selling may be ending as sellers' profit margins disappear
+  - Strategy pauses its Bitcoin buying spree to hoard a massive $3 billion cash cushion
+- `fomc`: score 36, headlines 10
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- `ai_semiconductors`: score 19, headlines 7
-  - Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections
-  - TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue
-  - Investors alarmed as Asian chipmakers take stranglehold on indices
-- `china`: score 9, headlines 3
-  - AI is not enough to arrest China’s decline
+- `oil`: score 27, headlines 10
+  - Trump proposes 20% toll on cargo through Strait of Hormuz; restarts Iran blockade
+  - A July rate hike from the Fed? The odds are rising
+  - Wall Street tech stocks fall after Asian chipmakers hammered
+- `cpi`: score 15, headlines 6
+  - Waller says Fed shouldn't 'fight the last war' on inflation but warns hikes still possible
+  - Top Fed official warns ‘hot’ inflation could trigger rate rise
+  - Inflation is primed to fall for the first time in 6 years. Will high prices drop too?
+- `treasury_yields`: score 14, headlines 4
+  - UK Treasury report on tokenization cites Ripple as convergence model
+  - Tom Lee's BitMine ether holdings rise to 5.77 million tokens, or 4.8% of total supply
+  - Hyundai completes USDT treasury settlement pilot between US and Mexico
+- `ai_semiconductors`: score 11, headlines 4
+  - Morning Bid: Crude up, chips down - Reuters
+  - TSMC posts record revenue in second quarter on AI demand - Reuters
+  - SK Hynix plunges after Nasdaq debut as memory chip euphoria cools - Reuters
+- `dollar`: score 6, headlines 2
+  - Bolivia mulls recognizing USDT as payment currency amid dollar shortage
+  - Strategy sells $467M in MSTR shares, leaves 843,775 BTC stack untouched
+- `us_index_flow`: score 6, headlines 2
+  - SpaceX stock sinks for a second-straight day, nearing $135 IPO price
+  - SK Hynix plunges after Nasdaq debut as memory chip euphoria cools - Reuters
+- `china`: score 5, headlines 2
   - The Taiwan Strait Was China's Achilles' Heel
-  - China-proofing European cleantech is a tricky business
-- `us_big_tech`: score 9, headlines 3
-  - Meta's Louisiana data center investment to reach $50 billion, aided by generous tax incentives
-  - Elon Musk and Sam Altman spar on X after Apple files OpenAI lawsuit
-  - Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market
-- `dollar`: score 7, headlines 2
-  - Stablecoin market cap has shrunk by $10 billion since May, but analyst sees no reason to panic
-  - Dollar wavers amid renewed Iran attacks, yen slides on pensions doubts - Reuters
-- `treasury_yields`: score 6, headlines 2
-  - Japan’s SBI to launch yen stablecoin lending with 3% yield
-  - Shares skid, bond yields rise as Gulf conflict sends oil surging - Reuters
-- `us_index_flow`: score 5, headlines 2
-  - SK Hynix plunges after Nasdaq debut amid diminishing earnings optimism - Reuters
-  - These biggest and ‘least loved’ stocks are the ones to pick ahead of earnings
-- `cpi`: score 4, headlines 1
-  - U.S. inflation, second-quarter earnings reports: Crypto Week Ahead
+  - Will Oil Prices Rise as the US-Iran Truce Frays? The Answer Lies With China.
+- `crypto_etf`: score 4, headlines 1
+  - Bitcoin panic-selling may be ending as sellers' profit margins disappear
