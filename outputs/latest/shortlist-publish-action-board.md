@@ -49,21 +49,21 @@ shortlist 글 기준으로 지금 남은 blocker와 다음 한 줄 실행만 따
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
 
-## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword: `us_index_flow`
+- keyword: `ai_semiconductors`
 - publish_date: `2026-07-16`
 - quality_status: `review_before_publish`
 - ready_now: `False`
 - hero_image_selected: `True`
 - hard_blocking_checks: none
 - advisory_checks: follow_up_posts_present, canonical_url_present, newsletter_ready, ga4_ready
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - next_action: 사용자 최종 확인 후 업로드
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - followup_commands:
   - `python3 scripts/build_platform_publish_plan.py`
   - `python3 scripts/upload_blogger_drafts.py`
   - `python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`

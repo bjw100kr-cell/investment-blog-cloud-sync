@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T07:25:48.983312+00:00",
+  "generated_at": "2026-07-14T16:45:05.690814+00:00",
   "target_daily_visitors": 200,
   "status": "measurement_missing_keep_building",
   "proof": {
@@ -9,12 +9,44 @@
     "measurement_missing": true
   },
   "publishing_capacity": {
-    "quality_ready_count": 6,
+    "quality_ready_count": 3,
     "blogger_ready_count": 1,
     "recommended_posts_next_run": 1,
     "rule": "품질 게이트 통과 글만 실행당 최대 3건"
   },
   "keyword_capture_actions": [
+    {
+      "mapped_keyword": "fomc",
+      "primary_query": "FOMC 일정",
+      "supporting_queries": [
+        "FOMC 발표 시간",
+        "FOMC 이후 주식 영향",
+        "연준 금리 발표 비트코인 영향"
+      ],
+      "suggested_title": "FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "demand_signal_score": 5100,
+      "use_in": [
+        "title",
+        "first_h2",
+        "meta_description",
+        "internal_link_anchor",
+        "social_share_copy"
+      ]
+    },
+    {
+      "mapped_keyword": "cpi",
+      "primary_query": "cpi",
+      "supporting_queries": [],
+      "suggested_title": "cpi 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "demand_signal_score": 4000,
+      "use_in": [
+        "title",
+        "first_h2",
+        "meta_description",
+        "internal_link_anchor",
+        "social_share_copy"
+      ]
+    },
     {
       "mapped_keyword": "bitcoin",
       "primary_query": "비트코인 전망",
@@ -24,7 +56,7 @@
         "비트코인 오늘 시세 보는법"
       ],
       "suggested_title": "비트코인 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 7600,
+      "demand_signal_score": 3400,
       "use_in": [
         "title",
         "first_h2",
@@ -42,62 +74,7 @@
         "원유 가격 인플레이션 영향"
       ],
       "suggested_title": "국제유가 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 4500,
-      "use_in": [
-        "title",
-        "first_h2",
-        "meta_description",
-        "internal_link_anchor",
-        "social_share_copy"
-      ]
-    },
-    {
-      "mapped_keyword": "fomc",
-      "primary_query": "FOMC 일정",
-      "supporting_queries": [
-        "FOMC 발표 시간",
-        "FOMC 이후 주식 영향",
-        "연준 금리 발표 비트코인 영향"
-      ],
-      "suggested_title": "FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 4100,
-      "use_in": [
-        "title",
-        "first_h2",
-        "meta_description",
-        "internal_link_anchor",
-        "social_share_copy"
-      ]
-    },
-    {
-      "mapped_keyword": "china",
-      "primary_query": "중국 경기부양 수혜주",
-      "supporting_queries": [
-        "중국 증시 영향",
-        "위안화 환율 시장 영향",
-        "중국 부동산 리스크"
-      ],
-      "suggested_title": "중국 경기부양 수혜주 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 2900,
-      "use_in": [
-        "title",
-        "first_h2",
-        "meta_description",
-        "internal_link_anchor",
-        "social_share_copy"
-      ]
-    },
-    {
-      "mapped_keyword": "us_index_flow",
-      "primary_query": "미국 증시 오늘",
-      "supporting_queries": [
-        "나스닥 하락 이유",
-        "S&P500 전망",
-        "미국 주식 금리 영향",
-        "stock market news today"
-      ],
-      "suggested_title": "미국 증시 오늘 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 2200,
+      "demand_signal_score": 2600,
       "use_in": [
         "title",
         "first_h2",
@@ -256,7 +233,7 @@
   "distribution_summary": {
     "planned_public_url_count": 16,
     "manual_checklist_item_count": 48,
-    "published_expansion_item_count": 13
+    "published_expansion_item_count": 14
   },
   "manual_distribution_potential_visitors": 560,
   "measurement_action": {
