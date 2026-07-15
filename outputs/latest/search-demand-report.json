@@ -1,80 +1,38 @@
 {
-  "generated_at": "2026-07-15T07:30:55.005122+00:00",
+  "generated_at": "2026-07-15T16:53:15.056891+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
       "keyword": "bitcoin",
-      "trend_count": 1,
-      "traffic_score_sum": 200,
-      "max_approx_traffic": 200,
-      "trend_queries": [
-        "cryptocurrency trading"
-      ],
-      "regions": [
-        "US"
-      ],
-      "demand_signal_score": 400,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
-    {
-      "keyword": "fomc",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4200,
+      "demand_signal_score": 4800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 30,
+      "source_snapshot_score": 36,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
-        "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
+        "Cointelegraph",
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+        "Crypto Long & Short: To ETH or not to ETH — is SOL the better diversifier?",
+        "President Trump expected to meet with senators to work on ethics concerns in crypto bill",
+        "BlackRock's crypto assets fall 39% despite $15 billion of net inflows"
       ]
     },
     {
-      "keyword": "cpi",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3900,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 27,
-      "source_count": 5,
-      "source_names": [
-        "CoinDesk RSS",
-        "Financial Times World",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade",
-        "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets",
-        "Stocks gain on drop in US inflation rate; ASML tops forecasts - Reuters"
-      ]
-    },
-    {
-      "keyword": "china",
+      "keyword": "fomc",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -85,22 +43,45 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 26,
+      "source_count": 2,
+      "source_names": [
+        "CNBC Top News",
+        "Federal Reserve Monetary Policy Press"
+      ],
+      "sample_titles": [
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2900,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 17,
       "source_count": 6,
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
         "Financial Times World",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "Financial Times YouTube",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls",
-        "China’s economy grows at one of lowest rates in decades",
-        "The race to break China’s metals grip"
+        "Wholesale prices unexpectedly declined 0.3% in June on big drop in gasoline",
+        "Oil traders warn market is close to running on empty as Hormuz shuts again",
+        "America’s oil refiners could more than triple profits as Iran war sparks massive boom"
       ]
     },
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "ethereum",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -111,17 +92,15 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 14,
-      "source_count": 4,
+      "source_count": 2,
       "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "Financial Times YouTube"
+        "CoinDesk RSS",
+        "Cointelegraph"
       ],
       "sample_titles": [
-        "ASML jumps over 7% after hiking sales forecast for second time this year on strong AI chip demand",
-        "SK Hynix South Korean shares jump 11% as Asia tech stocks rally",
-        "Chipmaker CXMT seeks $10bn in largest China IPO since 2010"
+        "Crypto Long & Short: To ETH or not to ETH — is SOL the better diversifier?",
+        "A timeline of the Ethereum Foundation's ongoing shakeup",
+        "Aave launches V4 on Avalanche, laying groundwork for tokenized credit markets"
       ]
     }
   ],

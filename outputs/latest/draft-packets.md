@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-07-15T07:30:55.005122+00:00`
+- 생성 시각: `2026-07-15T16:53:15.056891+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 점수: 94.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 점수: 92.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,13 +70,13 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade
+  - New York Fed President Williams says inflation has peaked, rates 'well positioned'
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (cryptocurrency trading)
-- 점수: 89.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- 점수: 82.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - cryptocurrency trading
-  - Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade
-  - Some U.S. Senate Democrats come out against Clarity Act, calling it a 'corrupt' bill
-  - Binance bets on becoming a crypto 'super app' as stablecoins reshape growth
-  - Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto
+  - Crypto Long & Short: To ETH or not to ETH — is SOL the better diversifier?
+  - President Trump expected to meet with senators to work on ethics concerns in crypto bill
+  - BlackRock's crypto assets fall 39% despite $15 billion of net inflows
+  - Bitcoin hits $65.5K as more surprise US inflation data sparks three-week BTC price high
+  - Here’s what happened in crypto today
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 78.0
+- 점수: 75.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,17 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - ASML jumps over 7% after hiking sales forecast for second time this year on strong AI chip demand
-  - SK Hynix South Korean shares jump 11% as Asia tech stocks rally
-  - Chipmaker CXMT seeks $10bn in largest China IPO since 2010
+  - Wall St edges higher with earnings in focus; chip stocks retreat - Reuters
+  - ASML capacity upgrade soothes AI chip bottleneck fears - Reuters
+  - Copper is shadowing the AI hyperscaler stocks — but wait for a dip before buying
   - Silicon shadows: inside the black market for AI chips | FT Film
-  - Chipmaker CXMT seeks $10bn in largest China IPO since 2010
+  - China’s Chip Champion to Raise Billions in Race for A.I. Control
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 86.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 63.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,8 +276,6 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls
-  - China’s economy grows at one of lowest rates in decades
-  - The race to break China’s metals grip
-  - Chipmaker CXMT seeks $10bn in largest China IPO since 2010
   - VIEW China's second-quarter economic growth misses market forecast - Reuters
+  - The Taiwan Strait Was China's Achilles' Heel
+  - China’s Chip Champion to Raise Billions in Race for A.I. Control

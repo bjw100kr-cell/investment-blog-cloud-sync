@@ -2,8 +2,8 @@
   "summary": {
     "item_count": 9,
     "pass_count": 8,
-    "review_before_publish_count": 1,
-    "needs_fix_count": 0
+    "review_before_publish_count": 0,
+    "needs_fix_count": 1
   },
   "items": [
     {
@@ -535,9 +535,9 @@
       "source_group": "main"
     },
     {
-      "keyword": "seo_cpi_11",
-      "title": "cpi: 지금 투자자가 확인할 체크포인트 5가지",
-      "status": "review_before_publish",
+      "keyword": "seo_ethereum_8",
+      "title": "ethereum: 지금 투자자가 확인할 체크포인트 5가지",
+      "status": "needs_fix",
       "checklist_reference": [
         "제목과 메타 설명이 검색 의도와 맞는지 점검",
         "첫 문단에서 왜 지금 읽어야 하는지 말했는지 점검",
@@ -561,7 +561,7 @@
         },
         {
           "name": "publish_date_present",
-          "ok": true,
+          "ok": false,
           "severity": "high",
           "detail": "발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다."
         },
@@ -662,408 +662,12 @@
           "detail": "GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다."
         }
       ],
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-cpi-지금-투자자가-확인할-체크포인트-5가지.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-cpi-지금-투자자가-확인할-체크포인트-5가지.json",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-ethereum-지금-투자자가-확인할-체크포인트-5가지.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-ethereum-지금-투자자가-확인할-체크포인트-5가지.json",
       "source_group": "seo"
     },
     {
-      "keyword": "seo_china_5",
-      "title": "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
-      "status": "pass",
-      "checklist_reference": [
-        "제목과 메타 설명이 검색 의도와 맞는지 점검",
-        "첫 문단에서 왜 지금 읽어야 하는지 말했는지 점검",
-        "핵심 숫자와 날짜를 발행 직전 다시 확인",
-        "관련 허브/evergreen 글 내부링크 최소 2개 연결",
-        "광고를 넣더라도 첫 화면 과밀 배치 피하기",
-        "면책문구와 운영 주체 표시 확인"
-      ],
-      "checks": [
-        {
-          "name": "meta_description_present",
-          "ok": true,
-          "severity": "high",
-          "detail": "메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다."
-        },
-        {
-          "name": "author_box_present",
-          "ok": true,
-          "severity": "high",
-          "detail": "작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다."
-        },
-        {
-          "name": "publish_date_present",
-          "ok": true,
-          "severity": "high",
-          "detail": "발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다."
-        },
-        {
-          "name": "disclaimer_present",
-          "ok": true,
-          "severity": "high",
-          "detail": "면책/운영 원칙 문구가 있어야 투자 해설 블로그 신뢰도에 유리합니다."
-        },
-        {
-          "name": "profitable_article_structure",
-          "ok": true,
-          "severity": "high",
-          "detail": "수익형 금융 글은 첫 화면 요약, 시나리오, 리스크, 오해 정리, 체크포인트가 있어야 체류와 검색 만족도가 올라갑니다."
-        },
-        {
-          "name": "specific_information_density",
-          "ok": true,
-          "severity": "high",
-          "detail": "달러, 금리, ETF 자금, 규제 일정, 대표 종목, 경제지표 같은 구체 체크 대상이 부족하면 정보 전달력이 약합니다."
-        },
-        {
-          "name": "reader_usefulness_present",
-          "ok": true,
-          "severity": "medium",
-          "detail": "독자가 내 포트폴리오나 다음 행동과 연결할 수 있는 문장이 있어야 끝까지 읽을 이유가 생깁니다."
-        },
-        {
-          "name": "article_depth_minimum",
-          "ok": true,
-          "severity": "medium",
-          "detail": "본문이 너무 짧으면 검색 유입 후 체류시간과 정보 만족도를 만들기 어렵습니다."
-        },
-        {
-          "name": "fact_check_box_present",
-          "ok": true,
-          "severity": "medium",
-          "detail": "핵심 숫자와 날짜를 재확인하는 박스는 helpful content 신뢰도에 중요합니다."
-        },
-        {
-          "name": "source_strength",
-          "ok": true,
-          "severity": "medium",
-          "detail": "공식 자료나 신뢰 가능한 매체 소스가 직접 보이면 글 신뢰도가 높아집니다."
-        },
-        {
-          "name": "internal_links_minimum",
-          "ok": true,
-          "severity": "medium",
-          "detail": "관련 허브/정책/소개 글 내부링크 최소 2개는 재방문과 체류시간에 유리합니다."
-        },
-        {
-          "name": "follow_up_posts_present",
-          "ok": true,
-          "severity": "medium",
-          "detail": "후속 글 연결이 있어야 검색 유입이 사이트 내 순환으로 이어집니다."
-        },
-        {
-          "name": "hero_image_selected",
-          "ok": true,
-          "severity": "medium",
-          "detail": "대표 이미지 1장은 체류시간과 썸네일 완성도에 유리하므로 발행 전 선택해 두는 편이 좋습니다."
-        },
-        {
-          "name": "crypto_market_signal_present",
-          "ok": true,
-          "severity": "medium",
-          "detail": "코인 글은 가격/거래량/공포탐욕지수 같은 실제 시장 신호가 있어야 정보 전달력이 생깁니다."
-        },
-        {
-          "name": "image_license_review_ready",
-          "ok": true,
-          "severity": "low",
-          "detail": "라이선스가 확인된 이미지 후보와 alt 문구가 같이 준비되어야 운영 속도가 안정적입니다."
-        },
-        {
-          "name": "faq_schema_present",
-          "ok": true,
-          "severity": "low",
-          "detail": "FAQ 구조화 데이터는 검색 결과 확장 가능성을 높일 수 있습니다."
-        },
-        {
-          "name": "canonical_url_present",
-          "ok": false,
-          "severity": "low",
-          "detail": "BLOG_BASE_URL이 있으면 canonical URL을 넣어 중복 해석을 줄일 수 있습니다."
-        },
-        {
-          "name": "newsletter_ready",
-          "ok": false,
-          "severity": "low",
-          "detail": "뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다."
-        },
-        {
-          "name": "ga4_ready",
-          "ok": false,
-          "severity": "low",
-          "detail": "GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다."
-        }
-      ],
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.json",
-      "source_group": "seo"
-    },
-    {
-      "keyword": "seo_china_7",
-      "title": "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나",
-      "status": "pass",
-      "checklist_reference": [
-        "제목과 메타 설명이 검색 의도와 맞는지 점검",
-        "첫 문단에서 왜 지금 읽어야 하는지 말했는지 점검",
-        "핵심 숫자와 날짜를 발행 직전 다시 확인",
-        "관련 허브/evergreen 글 내부링크 최소 2개 연결",
-        "광고를 넣더라도 첫 화면 과밀 배치 피하기",
-        "면책문구와 운영 주체 표시 확인"
-      ],
-      "checks": [
-        {
-          "name": "meta_description_present",
-          "ok": true,
-          "severity": "high",
-          "detail": "메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다."
-        },
-        {
-          "name": "author_box_present",
-          "ok": true,
-          "severity": "high",
-          "detail": "작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다."
-        },
-        {
-          "name": "publish_date_present",
-          "ok": true,
-          "severity": "high",
-          "detail": "발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다."
-        },
-        {
-          "name": "disclaimer_present",
-          "ok": true,
-          "severity": "high",
-          "detail": "면책/운영 원칙 문구가 있어야 투자 해설 블로그 신뢰도에 유리합니다."
-        },
-        {
-          "name": "profitable_article_structure",
-          "ok": true,
-          "severity": "high",
-          "detail": "수익형 금융 글은 첫 화면 요약, 시나리오, 리스크, 오해 정리, 체크포인트가 있어야 체류와 검색 만족도가 올라갑니다."
-        },
-        {
-          "name": "specific_information_density",
-          "ok": true,
-          "severity": "high",
-          "detail": "달러, 금리, ETF 자금, 규제 일정, 대표 종목, 경제지표 같은 구체 체크 대상이 부족하면 정보 전달력이 약합니다."
-        },
-        {
-          "name": "reader_usefulness_present",
-          "ok": true,
-          "severity": "medium",
-          "detail": "독자가 내 포트폴리오나 다음 행동과 연결할 수 있는 문장이 있어야 끝까지 읽을 이유가 생깁니다."
-        },
-        {
-          "name": "article_depth_minimum",
-          "ok": true,
-          "severity": "medium",
-          "detail": "본문이 너무 짧으면 검색 유입 후 체류시간과 정보 만족도를 만들기 어렵습니다."
-        },
-        {
-          "name": "fact_check_box_present",
-          "ok": true,
-          "severity": "medium",
-          "detail": "핵심 숫자와 날짜를 재확인하는 박스는 helpful content 신뢰도에 중요합니다."
-        },
-        {
-          "name": "source_strength",
-          "ok": true,
-          "severity": "medium",
-          "detail": "공식 자료나 신뢰 가능한 매체 소스가 직접 보이면 글 신뢰도가 높아집니다."
-        },
-        {
-          "name": "internal_links_minimum",
-          "ok": true,
-          "severity": "medium",
-          "detail": "관련 허브/정책/소개 글 내부링크 최소 2개는 재방문과 체류시간에 유리합니다."
-        },
-        {
-          "name": "follow_up_posts_present",
-          "ok": true,
-          "severity": "medium",
-          "detail": "후속 글 연결이 있어야 검색 유입이 사이트 내 순환으로 이어집니다."
-        },
-        {
-          "name": "hero_image_selected",
-          "ok": true,
-          "severity": "medium",
-          "detail": "대표 이미지 1장은 체류시간과 썸네일 완성도에 유리하므로 발행 전 선택해 두는 편이 좋습니다."
-        },
-        {
-          "name": "crypto_market_signal_present",
-          "ok": true,
-          "severity": "medium",
-          "detail": "코인 글은 가격/거래량/공포탐욕지수 같은 실제 시장 신호가 있어야 정보 전달력이 생깁니다."
-        },
-        {
-          "name": "image_license_review_ready",
-          "ok": true,
-          "severity": "low",
-          "detail": "라이선스가 확인된 이미지 후보와 alt 문구가 같이 준비되어야 운영 속도가 안정적입니다."
-        },
-        {
-          "name": "faq_schema_present",
-          "ok": true,
-          "severity": "low",
-          "detail": "FAQ 구조화 데이터는 검색 결과 확장 가능성을 높일 수 있습니다."
-        },
-        {
-          "name": "canonical_url_present",
-          "ok": false,
-          "severity": "low",
-          "detail": "BLOG_BASE_URL이 있으면 canonical URL을 넣어 중복 해석을 줄일 수 있습니다."
-        },
-        {
-          "name": "newsletter_ready",
-          "ok": false,
-          "severity": "low",
-          "detail": "뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다."
-        },
-        {
-          "name": "ga4_ready",
-          "ok": false,
-          "severity": "low",
-          "detail": "GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다."
-        }
-      ],
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.json",
-      "source_group": "seo"
-    },
-    {
-      "keyword": "seo_china_9",
-      "title": "중국 변수와 시장 영향 ETF·지수·대표 기업 정리",
-      "status": "pass",
-      "checklist_reference": [
-        "제목과 메타 설명이 검색 의도와 맞는지 점검",
-        "첫 문단에서 왜 지금 읽어야 하는지 말했는지 점검",
-        "핵심 숫자와 날짜를 발행 직전 다시 확인",
-        "관련 허브/evergreen 글 내부링크 최소 2개 연결",
-        "광고를 넣더라도 첫 화면 과밀 배치 피하기",
-        "면책문구와 운영 주체 표시 확인"
-      ],
-      "checks": [
-        {
-          "name": "meta_description_present",
-          "ok": true,
-          "severity": "high",
-          "detail": "메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다."
-        },
-        {
-          "name": "author_box_present",
-          "ok": true,
-          "severity": "high",
-          "detail": "작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다."
-        },
-        {
-          "name": "publish_date_present",
-          "ok": true,
-          "severity": "high",
-          "detail": "발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다."
-        },
-        {
-          "name": "disclaimer_present",
-          "ok": true,
-          "severity": "high",
-          "detail": "면책/운영 원칙 문구가 있어야 투자 해설 블로그 신뢰도에 유리합니다."
-        },
-        {
-          "name": "profitable_article_structure",
-          "ok": true,
-          "severity": "high",
-          "detail": "수익형 금융 글은 첫 화면 요약, 시나리오, 리스크, 오해 정리, 체크포인트가 있어야 체류와 검색 만족도가 올라갑니다."
-        },
-        {
-          "name": "specific_information_density",
-          "ok": true,
-          "severity": "high",
-          "detail": "달러, 금리, ETF 자금, 규제 일정, 대표 종목, 경제지표 같은 구체 체크 대상이 부족하면 정보 전달력이 약합니다."
-        },
-        {
-          "name": "reader_usefulness_present",
-          "ok": true,
-          "severity": "medium",
-          "detail": "독자가 내 포트폴리오나 다음 행동과 연결할 수 있는 문장이 있어야 끝까지 읽을 이유가 생깁니다."
-        },
-        {
-          "name": "article_depth_minimum",
-          "ok": true,
-          "severity": "medium",
-          "detail": "본문이 너무 짧으면 검색 유입 후 체류시간과 정보 만족도를 만들기 어렵습니다."
-        },
-        {
-          "name": "fact_check_box_present",
-          "ok": true,
-          "severity": "medium",
-          "detail": "핵심 숫자와 날짜를 재확인하는 박스는 helpful content 신뢰도에 중요합니다."
-        },
-        {
-          "name": "source_strength",
-          "ok": true,
-          "severity": "medium",
-          "detail": "공식 자료나 신뢰 가능한 매체 소스가 직접 보이면 글 신뢰도가 높아집니다."
-        },
-        {
-          "name": "internal_links_minimum",
-          "ok": true,
-          "severity": "medium",
-          "detail": "관련 허브/정책/소개 글 내부링크 최소 2개는 재방문과 체류시간에 유리합니다."
-        },
-        {
-          "name": "follow_up_posts_present",
-          "ok": true,
-          "severity": "medium",
-          "detail": "후속 글 연결이 있어야 검색 유입이 사이트 내 순환으로 이어집니다."
-        },
-        {
-          "name": "hero_image_selected",
-          "ok": true,
-          "severity": "medium",
-          "detail": "대표 이미지 1장은 체류시간과 썸네일 완성도에 유리하므로 발행 전 선택해 두는 편이 좋습니다."
-        },
-        {
-          "name": "crypto_market_signal_present",
-          "ok": true,
-          "severity": "medium",
-          "detail": "코인 글은 가격/거래량/공포탐욕지수 같은 실제 시장 신호가 있어야 정보 전달력이 생깁니다."
-        },
-        {
-          "name": "image_license_review_ready",
-          "ok": true,
-          "severity": "low",
-          "detail": "라이선스가 확인된 이미지 후보와 alt 문구가 같이 준비되어야 운영 속도가 안정적입니다."
-        },
-        {
-          "name": "faq_schema_present",
-          "ok": true,
-          "severity": "low",
-          "detail": "FAQ 구조화 데이터는 검색 결과 확장 가능성을 높일 수 있습니다."
-        },
-        {
-          "name": "canonical_url_present",
-          "ok": false,
-          "severity": "low",
-          "detail": "BLOG_BASE_URL이 있으면 canonical URL을 넣어 중복 해석을 줄일 수 있습니다."
-        },
-        {
-          "name": "newsletter_ready",
-          "ok": false,
-          "severity": "low",
-          "detail": "뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다."
-        },
-        {
-          "name": "ga4_ready",
-          "ok": false,
-          "severity": "low",
-          "detail": "GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다."
-        }
-      ],
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-etf-지수-대표-기업-정리.json",
-      "source_group": "seo"
-    },
-    {
-      "keyword": "seo_ai_semiconductors_10",
+      "keyword": "seo_ai_semiconductors_9",
       "title": "AI 반도체 주식 관련 대표 종목 한눈에 보기",
       "status": "pass",
       "checklist_reference": [
@@ -1190,8 +794,404 @@
           "detail": "GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다."
         }
       ],
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-ai-반도체-주식-관련-대표-종목-한눈에-보기.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-ai-반도체-주식-관련-대표-종목-한눈에-보기.json",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-ai-반도체-주식-관련-대표-종목-한눈에-보기.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-ai-반도체-주식-관련-대표-종목-한눈에-보기.json",
+      "source_group": "seo"
+    },
+    {
+      "keyword": "seo_china_12",
+      "title": "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
+      "status": "pass",
+      "checklist_reference": [
+        "제목과 메타 설명이 검색 의도와 맞는지 점검",
+        "첫 문단에서 왜 지금 읽어야 하는지 말했는지 점검",
+        "핵심 숫자와 날짜를 발행 직전 다시 확인",
+        "관련 허브/evergreen 글 내부링크 최소 2개 연결",
+        "광고를 넣더라도 첫 화면 과밀 배치 피하기",
+        "면책문구와 운영 주체 표시 확인"
+      ],
+      "checks": [
+        {
+          "name": "meta_description_present",
+          "ok": true,
+          "severity": "high",
+          "detail": "메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다."
+        },
+        {
+          "name": "author_box_present",
+          "ok": true,
+          "severity": "high",
+          "detail": "작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다."
+        },
+        {
+          "name": "publish_date_present",
+          "ok": true,
+          "severity": "high",
+          "detail": "발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다."
+        },
+        {
+          "name": "disclaimer_present",
+          "ok": true,
+          "severity": "high",
+          "detail": "면책/운영 원칙 문구가 있어야 투자 해설 블로그 신뢰도에 유리합니다."
+        },
+        {
+          "name": "profitable_article_structure",
+          "ok": true,
+          "severity": "high",
+          "detail": "수익형 금융 글은 첫 화면 요약, 시나리오, 리스크, 오해 정리, 체크포인트가 있어야 체류와 검색 만족도가 올라갑니다."
+        },
+        {
+          "name": "specific_information_density",
+          "ok": true,
+          "severity": "high",
+          "detail": "달러, 금리, ETF 자금, 규제 일정, 대표 종목, 경제지표 같은 구체 체크 대상이 부족하면 정보 전달력이 약합니다."
+        },
+        {
+          "name": "reader_usefulness_present",
+          "ok": true,
+          "severity": "medium",
+          "detail": "독자가 내 포트폴리오나 다음 행동과 연결할 수 있는 문장이 있어야 끝까지 읽을 이유가 생깁니다."
+        },
+        {
+          "name": "article_depth_minimum",
+          "ok": true,
+          "severity": "medium",
+          "detail": "본문이 너무 짧으면 검색 유입 후 체류시간과 정보 만족도를 만들기 어렵습니다."
+        },
+        {
+          "name": "fact_check_box_present",
+          "ok": true,
+          "severity": "medium",
+          "detail": "핵심 숫자와 날짜를 재확인하는 박스는 helpful content 신뢰도에 중요합니다."
+        },
+        {
+          "name": "source_strength",
+          "ok": true,
+          "severity": "medium",
+          "detail": "공식 자료나 신뢰 가능한 매체 소스가 직접 보이면 글 신뢰도가 높아집니다."
+        },
+        {
+          "name": "internal_links_minimum",
+          "ok": true,
+          "severity": "medium",
+          "detail": "관련 허브/정책/소개 글 내부링크 최소 2개는 재방문과 체류시간에 유리합니다."
+        },
+        {
+          "name": "follow_up_posts_present",
+          "ok": true,
+          "severity": "medium",
+          "detail": "후속 글 연결이 있어야 검색 유입이 사이트 내 순환으로 이어집니다."
+        },
+        {
+          "name": "hero_image_selected",
+          "ok": true,
+          "severity": "medium",
+          "detail": "대표 이미지 1장은 체류시간과 썸네일 완성도에 유리하므로 발행 전 선택해 두는 편이 좋습니다."
+        },
+        {
+          "name": "crypto_market_signal_present",
+          "ok": true,
+          "severity": "medium",
+          "detail": "코인 글은 가격/거래량/공포탐욕지수 같은 실제 시장 신호가 있어야 정보 전달력이 생깁니다."
+        },
+        {
+          "name": "image_license_review_ready",
+          "ok": true,
+          "severity": "low",
+          "detail": "라이선스가 확인된 이미지 후보와 alt 문구가 같이 준비되어야 운영 속도가 안정적입니다."
+        },
+        {
+          "name": "faq_schema_present",
+          "ok": true,
+          "severity": "low",
+          "detail": "FAQ 구조화 데이터는 검색 결과 확장 가능성을 높일 수 있습니다."
+        },
+        {
+          "name": "canonical_url_present",
+          "ok": false,
+          "severity": "low",
+          "detail": "BLOG_BASE_URL이 있으면 canonical URL을 넣어 중복 해석을 줄일 수 있습니다."
+        },
+        {
+          "name": "newsletter_ready",
+          "ok": false,
+          "severity": "low",
+          "detail": "뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다."
+        },
+        {
+          "name": "ga4_ready",
+          "ok": false,
+          "severity": "low",
+          "detail": "GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다."
+        }
+      ],
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.json",
+      "source_group": "seo"
+    },
+    {
+      "keyword": "seo_china_13",
+      "title": "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나",
+      "status": "pass",
+      "checklist_reference": [
+        "제목과 메타 설명이 검색 의도와 맞는지 점검",
+        "첫 문단에서 왜 지금 읽어야 하는지 말했는지 점검",
+        "핵심 숫자와 날짜를 발행 직전 다시 확인",
+        "관련 허브/evergreen 글 내부링크 최소 2개 연결",
+        "광고를 넣더라도 첫 화면 과밀 배치 피하기",
+        "면책문구와 운영 주체 표시 확인"
+      ],
+      "checks": [
+        {
+          "name": "meta_description_present",
+          "ok": true,
+          "severity": "high",
+          "detail": "메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다."
+        },
+        {
+          "name": "author_box_present",
+          "ok": true,
+          "severity": "high",
+          "detail": "작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다."
+        },
+        {
+          "name": "publish_date_present",
+          "ok": true,
+          "severity": "high",
+          "detail": "발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다."
+        },
+        {
+          "name": "disclaimer_present",
+          "ok": true,
+          "severity": "high",
+          "detail": "면책/운영 원칙 문구가 있어야 투자 해설 블로그 신뢰도에 유리합니다."
+        },
+        {
+          "name": "profitable_article_structure",
+          "ok": true,
+          "severity": "high",
+          "detail": "수익형 금융 글은 첫 화면 요약, 시나리오, 리스크, 오해 정리, 체크포인트가 있어야 체류와 검색 만족도가 올라갑니다."
+        },
+        {
+          "name": "specific_information_density",
+          "ok": true,
+          "severity": "high",
+          "detail": "달러, 금리, ETF 자금, 규제 일정, 대표 종목, 경제지표 같은 구체 체크 대상이 부족하면 정보 전달력이 약합니다."
+        },
+        {
+          "name": "reader_usefulness_present",
+          "ok": true,
+          "severity": "medium",
+          "detail": "독자가 내 포트폴리오나 다음 행동과 연결할 수 있는 문장이 있어야 끝까지 읽을 이유가 생깁니다."
+        },
+        {
+          "name": "article_depth_minimum",
+          "ok": true,
+          "severity": "medium",
+          "detail": "본문이 너무 짧으면 검색 유입 후 체류시간과 정보 만족도를 만들기 어렵습니다."
+        },
+        {
+          "name": "fact_check_box_present",
+          "ok": true,
+          "severity": "medium",
+          "detail": "핵심 숫자와 날짜를 재확인하는 박스는 helpful content 신뢰도에 중요합니다."
+        },
+        {
+          "name": "source_strength",
+          "ok": true,
+          "severity": "medium",
+          "detail": "공식 자료나 신뢰 가능한 매체 소스가 직접 보이면 글 신뢰도가 높아집니다."
+        },
+        {
+          "name": "internal_links_minimum",
+          "ok": true,
+          "severity": "medium",
+          "detail": "관련 허브/정책/소개 글 내부링크 최소 2개는 재방문과 체류시간에 유리합니다."
+        },
+        {
+          "name": "follow_up_posts_present",
+          "ok": true,
+          "severity": "medium",
+          "detail": "후속 글 연결이 있어야 검색 유입이 사이트 내 순환으로 이어집니다."
+        },
+        {
+          "name": "hero_image_selected",
+          "ok": true,
+          "severity": "medium",
+          "detail": "대표 이미지 1장은 체류시간과 썸네일 완성도에 유리하므로 발행 전 선택해 두는 편이 좋습니다."
+        },
+        {
+          "name": "crypto_market_signal_present",
+          "ok": true,
+          "severity": "medium",
+          "detail": "코인 글은 가격/거래량/공포탐욕지수 같은 실제 시장 신호가 있어야 정보 전달력이 생깁니다."
+        },
+        {
+          "name": "image_license_review_ready",
+          "ok": true,
+          "severity": "low",
+          "detail": "라이선스가 확인된 이미지 후보와 alt 문구가 같이 준비되어야 운영 속도가 안정적입니다."
+        },
+        {
+          "name": "faq_schema_present",
+          "ok": true,
+          "severity": "low",
+          "detail": "FAQ 구조화 데이터는 검색 결과 확장 가능성을 높일 수 있습니다."
+        },
+        {
+          "name": "canonical_url_present",
+          "ok": false,
+          "severity": "low",
+          "detail": "BLOG_BASE_URL이 있으면 canonical URL을 넣어 중복 해석을 줄일 수 있습니다."
+        },
+        {
+          "name": "newsletter_ready",
+          "ok": false,
+          "severity": "low",
+          "detail": "뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다."
+        },
+        {
+          "name": "ga4_ready",
+          "ok": false,
+          "severity": "low",
+          "detail": "GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다."
+        }
+      ],
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.json",
+      "source_group": "seo"
+    },
+    {
+      "keyword": "seo_china_14",
+      "title": "중국 변수와 시장 영향 ETF·지수·대표 기업 정리",
+      "status": "pass",
+      "checklist_reference": [
+        "제목과 메타 설명이 검색 의도와 맞는지 점검",
+        "첫 문단에서 왜 지금 읽어야 하는지 말했는지 점검",
+        "핵심 숫자와 날짜를 발행 직전 다시 확인",
+        "관련 허브/evergreen 글 내부링크 최소 2개 연결",
+        "광고를 넣더라도 첫 화면 과밀 배치 피하기",
+        "면책문구와 운영 주체 표시 확인"
+      ],
+      "checks": [
+        {
+          "name": "meta_description_present",
+          "ok": true,
+          "severity": "high",
+          "detail": "메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다."
+        },
+        {
+          "name": "author_box_present",
+          "ok": true,
+          "severity": "high",
+          "detail": "작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다."
+        },
+        {
+          "name": "publish_date_present",
+          "ok": true,
+          "severity": "high",
+          "detail": "발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다."
+        },
+        {
+          "name": "disclaimer_present",
+          "ok": true,
+          "severity": "high",
+          "detail": "면책/운영 원칙 문구가 있어야 투자 해설 블로그 신뢰도에 유리합니다."
+        },
+        {
+          "name": "profitable_article_structure",
+          "ok": true,
+          "severity": "high",
+          "detail": "수익형 금융 글은 첫 화면 요약, 시나리오, 리스크, 오해 정리, 체크포인트가 있어야 체류와 검색 만족도가 올라갑니다."
+        },
+        {
+          "name": "specific_information_density",
+          "ok": true,
+          "severity": "high",
+          "detail": "달러, 금리, ETF 자금, 규제 일정, 대표 종목, 경제지표 같은 구체 체크 대상이 부족하면 정보 전달력이 약합니다."
+        },
+        {
+          "name": "reader_usefulness_present",
+          "ok": true,
+          "severity": "medium",
+          "detail": "독자가 내 포트폴리오나 다음 행동과 연결할 수 있는 문장이 있어야 끝까지 읽을 이유가 생깁니다."
+        },
+        {
+          "name": "article_depth_minimum",
+          "ok": true,
+          "severity": "medium",
+          "detail": "본문이 너무 짧으면 검색 유입 후 체류시간과 정보 만족도를 만들기 어렵습니다."
+        },
+        {
+          "name": "fact_check_box_present",
+          "ok": true,
+          "severity": "medium",
+          "detail": "핵심 숫자와 날짜를 재확인하는 박스는 helpful content 신뢰도에 중요합니다."
+        },
+        {
+          "name": "source_strength",
+          "ok": true,
+          "severity": "medium",
+          "detail": "공식 자료나 신뢰 가능한 매체 소스가 직접 보이면 글 신뢰도가 높아집니다."
+        },
+        {
+          "name": "internal_links_minimum",
+          "ok": true,
+          "severity": "medium",
+          "detail": "관련 허브/정책/소개 글 내부링크 최소 2개는 재방문과 체류시간에 유리합니다."
+        },
+        {
+          "name": "follow_up_posts_present",
+          "ok": true,
+          "severity": "medium",
+          "detail": "후속 글 연결이 있어야 검색 유입이 사이트 내 순환으로 이어집니다."
+        },
+        {
+          "name": "hero_image_selected",
+          "ok": true,
+          "severity": "medium",
+          "detail": "대표 이미지 1장은 체류시간과 썸네일 완성도에 유리하므로 발행 전 선택해 두는 편이 좋습니다."
+        },
+        {
+          "name": "crypto_market_signal_present",
+          "ok": true,
+          "severity": "medium",
+          "detail": "코인 글은 가격/거래량/공포탐욕지수 같은 실제 시장 신호가 있어야 정보 전달력이 생깁니다."
+        },
+        {
+          "name": "image_license_review_ready",
+          "ok": true,
+          "severity": "low",
+          "detail": "라이선스가 확인된 이미지 후보와 alt 문구가 같이 준비되어야 운영 속도가 안정적입니다."
+        },
+        {
+          "name": "faq_schema_present",
+          "ok": true,
+          "severity": "low",
+          "detail": "FAQ 구조화 데이터는 검색 결과 확장 가능성을 높일 수 있습니다."
+        },
+        {
+          "name": "canonical_url_present",
+          "ok": false,
+          "severity": "low",
+          "detail": "BLOG_BASE_URL이 있으면 canonical URL을 넣어 중복 해석을 줄일 수 있습니다."
+        },
+        {
+          "name": "newsletter_ready",
+          "ok": false,
+          "severity": "low",
+          "detail": "뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다."
+        },
+        {
+          "name": "ga4_ready",
+          "ok": false,
+          "severity": "low",
+          "detail": "GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다."
+        }
+      ],
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-중국-변수와-시장-영향-etf-지수-대표-기업-정리.json",
       "source_group": "seo"
     }
   ],

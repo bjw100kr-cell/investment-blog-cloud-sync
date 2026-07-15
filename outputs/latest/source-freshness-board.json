@@ -1,56 +1,55 @@
 {
-  "generated_at": "2026-07-15T07:30:58.865048+00:00",
-  "snapshot_generated_at": "2026-07-15T07:30:55.005122+00:00",
+  "generated_at": "2026-07-15T16:53:20.158445+00:00",
+  "snapshot_generated_at": "2026-07-15T16:53:15.056891+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 2,
+    "fresh": 3,
     "aging": 0,
-    "stale": 1,
+    "stale": 0,
     "unknown": 0
   },
   "items": [
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-07-15",
-      "freshness_status": "stale",
-      "newest_evidence_iso": "2026-07-09T19:00:00+00:00",
-      "oldest_evidence_iso": "2026-04-29T18:00:00+00:00",
-      "newest_evidence_age_days": 5.5,
+      "publish_date": "2026-07-18",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-07-15T07:29:52+00:00",
+      "oldest_evidence_iso": "2026-07-15T02:24:00+00:00",
+      "newest_evidence_age_days": 0.4,
       "source_count": 3,
-      "demand_signal_score": 4200,
-      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
-      "recovery_mode": "full_refresh_needed",
-      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
-      "recovery_command": "bash scripts/run_pipeline.sh",
+      "demand_signal_score": 0,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: The Taiwan Strait Was China's Achilles' Heel",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "title": "The Taiwan Strait Was China's Achilles' Heel",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "54K views",
+          "published_iso": "54K views",
+          "link": "https://www.youtube.com/watch?v=Z1Axn8M5Fcs",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "China’s Chip Champion to Raise Billions in Race for A.I. Control",
+          "source_name": "NYT Business",
+          "published": "Wed, 15 Jul 2026 07:29:52 +0000",
+          "published_iso": "2026-07-15T07:29:52+00:00",
+          "link": "https://www.nytimes.com/2026/07/15/business/china-chips-cxmt-ipo.html",
           "source_type": "rss"
         },
         {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+          "title": "VIEW China's second-quarter economic growth misses market forecast - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Wed, 15 Jul 2026 02:24:00 GMT",
+          "published_iso": "2026-07-15T02:24:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc19zRWVjMjdsRGxDYThKUDdlcHV2QkhmS0VPNDhlVC03UklvRm0tMHdlUFdDUnVnaF9PUWZta1hXVDhDYlBoTEhwczFOanBBSVdQZE9Nd2d2d2d2NlNNdmFkd0s3VmVKa2tfUkFTUkhoQkYwUDZFOHhtdzRlenRBcUhBaXYySjA5M082THdSd25vTVpjN1UxSmdHNlRETHJNaDJZVVZNdms2RWdZSXpFTUJVSQ?oc=5",
           "source_type": "rss"
         }
       ]
@@ -62,22 +61,30 @@
       "ready_now": true,
       "publish_date": "2026-07-16",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-15T07:04:50+00:00",
+      "newest_evidence_iso": "2026-07-15T14:58:09+00:00",
       "oldest_evidence_iso": "2026-07-14T21:32:17+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 4,
-      "demand_signal_score": 400,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade",
+      "newest_evidence_age_days": 0.1,
+      "source_count": 3,
+      "demand_signal_score": 4800,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin hits $65.5K as more surprise US inflation data sparks three-week BTC price high",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 15 Jul 2026 05:19:14 +0000",
-          "published_iso": "2026-07-15T05:19:14+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/15/bitcoin-tops-usd64-000-as-cooling-u-s-inflation-guts-the-fed-rate-hike-trade",
+          "title": "Bitcoin hits $65.5K as more surprise US inflation data sparks three-week BTC price high",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 15 Jul 2026 14:45:28 +0000",
+          "published_iso": "2026-07-15T14:45:28+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-hits-655k-as-more-surprise-us-inflation-data-sparks-three-week-btc-price-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin climbs to $65k as PPI wholesale inflation falls; Iran tensions limit gains",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-15 14:16:37",
+          "published_iso": "2026-07-15 14:16:37",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-to-near-65k-as-rate-jitters-ease-iran-tensions-limit-gains-4792215",
           "source_type": "rss"
         },
         {
@@ -86,14 +93,6 @@
           "published": "2026-07-15 07:04:50",
           "published_iso": "2026-07-15 07:04:50",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-at-supertrend-support-hourly-levels-93CH-4787508",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin rebounds to near $65k as rate jitters ease; Iran tensions limit gains",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-07-15 06:26:38",
-          "published_iso": "2026-07-15 06:26:38",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-to-near-65k-as-rate-jitters-ease-iran-tensions-limit-gains-4792215",
           "source_type": "rss"
         }
       ]
@@ -105,11 +104,11 @@
       "ready_now": true,
       "publish_date": "2026-07-17",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-15T07:19:46+00:00",
-      "oldest_evidence_iso": "2026-07-14T20:47:13+00:00",
+      "newest_evidence_iso": "2026-07-15T16:22:42+00:00",
+      "oldest_evidence_iso": "2026-07-15T05:07:00+00:00",
       "newest_evidence_age_days": 0.0,
       "source_count": 4,
-      "demand_signal_score": 2600,
+      "demand_signal_score": 0,
       "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
@@ -118,25 +117,25 @@
         {
           "title": "Silicon shadows: inside the black market for AI chips | FT Film",
           "source_name": "Financial Times YouTube",
-          "published": "25K views",
-          "published_iso": "25K views",
+          "published": "28K views",
+          "published_iso": "28K views",
           "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
           "source_type": "youtube_channel"
         },
         {
-          "title": "ASML raises forecasts as AI boom drives chipmaking demand",
-          "source_name": "Financial Times Home",
-          "published": "Wed, 15 Jul 2026 07:19:46 GMT",
-          "published_iso": "2026-07-15T07:19:46+00:00",
-          "link": "https://www.ft.com/content/731ec5ef-e9e1-40f5-b0bd-09e71787a938",
+          "title": "Wall St edges higher with earnings in focus; chip stocks retreat - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Wed, 15 Jul 2026 16:22:42 GMT",
+          "published_iso": "2026-07-15T16:22:42+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWUtNV3dNS0otQllnaU9ZVG83WlpzSDB0MlB4OVJFQ0V3QjRCT1BhbjRjMkdXeTFwbUwwczE2cVFkREhxSkpwZTJvZmZLUGtPYlk5Vk53cnlxSmdXZjgwb1JEZ284QmJ2SGlUSkgzRlZSQ1k4bzhaM0wzajRMbVV4bGZEaUtSOUFZVGxtRHlNYW5ucEtuRVA1Q3NpOWRXdExXYWNr?oc=5",
           "source_type": "rss"
         },
         {
-          "title": "ASML jumps over 7% after hiking sales forecast for second time this year on strong AI chip demand",
-          "source_name": "CNBC Top News",
-          "published": "Wed, 15 Jul 2026 07:11:43 GMT",
-          "published_iso": "2026-07-15T07:11:43+00:00",
-          "link": "https://www.cnbc.com/2026/07/15/asml-2q-earnings-ai-chips-orders.html",
+          "title": "China’s Chip Champion to Raise Billions in Race for A.I. Control",
+          "source_name": "NYT Business",
+          "published": "Wed, 15 Jul 2026 07:29:52 +0000",
+          "published_iso": "2026-07-15T07:29:52+00:00",
+          "link": "https://www.nytimes.com/2026/07/15/business/china-chips-cxmt-ipo.html",
           "source_type": "rss"
         }
       ]

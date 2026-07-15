@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T07:30:55.005122+00:00",
+  "generated_at": "2026-07-15T16:53:15.056891+00:00",
   "item_count": 3,
   "items": [
     {
@@ -9,40 +9,43 @@
       "priority_score": 121.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (cryptocurrency trading)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "format": "crypto_analysis",
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Google Trends US",
         "Investing.com Crypto News"
       ],
       "sample_headlines": [
-        "cryptocurrency trading",
-        "Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade",
-        "Some U.S. Senate Democrats come out against Clarity Act, calling it a 'corrupt' bill",
-        "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth",
-        "Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto"
+        "Crypto Long & Short: To ETH or not to ETH — is SOL the better diversifier?",
+        "President Trump expected to meet with senators to work on ethics concerns in crypto bill",
+        "BlackRock's crypto assets fall 39% despite $15 billion of net inflows",
+        "Bitcoin hits $65.5K as more surprise US inflation data sparks three-week BTC price high",
+        "Here’s what happened in crypto today"
       ],
-      "trend_queries": [
-        "cryptocurrency trading"
-      ],
-      "trend_regions": [
-        "US"
-      ],
-      "demand_signal_score": 400,
-      "fallback_source": "trend_match",
-      "source_count": 4,
-      "search_score": 28,
-      "timeliness_score": 20,
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 4800,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 3,
+      "search_score": 26,
+      "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 15 Jul 2026 05:19:14 +0000",
-          "published_iso": "2026-07-15T05:19:14+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/15/bitcoin-tops-usd64-000-as-cooling-u-s-inflation-guts-the-fed-rate-hike-trade",
+          "title": "Bitcoin hits $65.5K as more surprise US inflation data sparks three-week BTC price high",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 15 Jul 2026 14:45:28 +0000",
+          "published_iso": "2026-07-15T14:45:28+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-hits-655k-as-more-surprise-us-inflation-data-sparks-three-week-btc-price-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin climbs to $65k as PPI wholesale inflation falls; Iran tensions limit gains",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-15 14:16:37",
+          "published_iso": "2026-07-15 14:16:37",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-to-near-65k-as-rate-jitters-ease-iran-tensions-limit-gains-4792215",
           "source_type": "rss"
         },
         {
@@ -54,14 +57,6 @@
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin rebounds to near $65k as rate jitters ease; Iran tensions limit gains",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-07-15 06:26:38",
-          "published_iso": "2026-07-15 06:26:38",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-to-near-65k-as-rate-jitters-ease-iran-tensions-limit-gains-4792215",
-          "source_type": "rss"
-        },
-        {
           "title": "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets",
           "source_name": "Investing.com Crypto News",
           "published": "2026-07-14 21:32:17",
@@ -70,82 +65,11 @@
           "source_type": "rss"
         },
         {
-          "title": "Here’s what happened in crypto today",
-          "source_name": "Cointelegraph",
-          "published": "Wed, 15 Jul 2026 05:44:31 +0000",
-          "published_iso": "2026-07-15T05:44:31+00:00",
-          "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-07-15",
-      "priority_score": 137.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
-      "format": "macro_explainer",
-      "source_names": [
-        "CoinDesk RSS",
-        "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_headlines": [
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 4200,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 3,
-      "search_score": 26,
-      "timeliness_score": 25,
-      "monetization_score": 15,
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Thu, 9 Jul 2026 19:00:00 GMT",
-          "published_iso": "2026-07-09T19:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 8 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-08T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+          "title": "Crypto Long & Short: To ETH or not to ETH — is SOL the better diversifier?",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 15 Jul 2026 14:58:09 +0000",
+          "published_iso": "2026-07-15T14:58:09+00:00",
+          "link": "https://www.coindesk.com/coindesk-indices/2026/07/15/crypto-long-and-short-to-eth-or-not-to-eth-is-sol-the-better-diversifier",
           "source_type": "rss"
         }
       ]
@@ -154,70 +78,117 @@
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "publish_date": "2026-07-17",
-      "priority_score": 113.0,
+      "priority_score": 102.0,
       "ready_now": true,
       "quality_status": "pass",
       "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "format": "sector_analysis",
       "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "Financial Times YouTube"
+        "Financial Times YouTube",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
-        "ASML jumps over 7% after hiking sales forecast for second time this year on strong AI chip demand",
-        "SK Hynix South Korean shares jump 11% as Asia tech stocks rally",
-        "Chipmaker CXMT seeks $10bn in largest China IPO since 2010",
-        "Silicon shadows: inside the black market for AI chips | FT Film"
+        "Wall St edges higher with earnings in focus; chip stocks retreat - Reuters",
+        "ASML capacity upgrade soothes AI chip bottleneck fears - Reuters",
+        "Copper is shadowing the AI hyperscaler stocks — but wait for a dip before buying",
+        "Silicon shadows: inside the black market for AI chips | FT Film",
+        "China’s Chip Champion to Raise Billions in Race for A.I. Control"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 2600,
-      "fallback_source": "source_snapshot_rank",
+      "demand_signal_score": 0,
+      "fallback_source": "mapped_candidate",
       "source_count": 4,
-      "search_score": 18,
+      "search_score": 15,
       "timeliness_score": 20,
       "monetization_score": 15,
       "recent_evidence": [
         {
           "title": "Silicon shadows: inside the black market for AI chips | FT Film",
           "source_name": "Financial Times YouTube",
-          "published": "25K views",
-          "published_iso": "25K views",
+          "published": "28K views",
+          "published_iso": "28K views",
           "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
           "source_type": "youtube_channel"
         },
         {
-          "title": "ASML raises forecasts as AI boom drives chipmaking demand",
-          "source_name": "Financial Times Home",
-          "published": "Wed, 15 Jul 2026 07:19:46 GMT",
-          "published_iso": "2026-07-15T07:19:46+00:00",
-          "link": "https://www.ft.com/content/731ec5ef-e9e1-40f5-b0bd-09e71787a938",
+          "title": "Wall St edges higher with earnings in focus; chip stocks retreat - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Wed, 15 Jul 2026 16:22:42 GMT",
+          "published_iso": "2026-07-15T16:22:42+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWUtNV3dNS0otQllnaU9ZVG83WlpzSDB0MlB4OVJFQ0V3QjRCT1BhbjRjMkdXeTFwbUwwczE2cVFkREhxSkpwZTJvZmZLUGtPYlk5Vk53cnlxSmdXZjgwb1JEZ284QmJ2SGlUSkgzRlZSQ1k4bzhaM0wzajRMbVV4bGZEaUtSOUFZVGxtRHlNYW5ucEtuRVA1Q3NpOWRXdExXYWNr?oc=5",
           "source_type": "rss"
         },
         {
-          "title": "ASML jumps over 7% after hiking sales forecast for second time this year on strong AI chip demand",
-          "source_name": "CNBC Top News",
-          "published": "Wed, 15 Jul 2026 07:11:43 GMT",
-          "published_iso": "2026-07-15T07:11:43+00:00",
-          "link": "https://www.cnbc.com/2026/07/15/asml-2q-earnings-ai-chips-orders.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Chipmaker CXMT seeks $10bn in largest China IPO since 2010",
-          "source_name": "Financial Times Home",
-          "published": "Wed, 15 Jul 2026 04:55:25 GMT",
-          "published_iso": "2026-07-15T04:55:25+00:00",
-          "link": "https://www.ft.com/content/fcfbcbc0-181f-49ce-bda8-c4133e09695c",
-          "source_type": "rss"
-        },
-        {
-          "title": "Chipotle Is Bringing Its Mexican-Inspired Fast Food to Monterrey, Mexico",
+          "title": "China’s Chip Champion to Raise Billions in Race for A.I. Control",
           "source_name": "NYT Business",
-          "published": "Tue, 14 Jul 2026 20:47:13 +0000",
-          "published_iso": "2026-07-14T20:47:13+00:00",
-          "link": "https://www.nytimes.com/2026/07/14/business/chipotle-open-mexico-monterrey.html",
+          "published": "Wed, 15 Jul 2026 07:29:52 +0000",
+          "published_iso": "2026-07-15T07:29:52+00:00",
+          "link": "https://www.nytimes.com/2026/07/15/business/china-chips-cxmt-ipo.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "ASML capacity upgrade soothes AI chip bottleneck fears - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Wed, 15 Jul 2026 05:07:00 GMT",
+          "published_iso": "2026-07-15T05:07:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPXzZLbXpRNUdRRjYtV203dG1SS1l6U29PMFZGelkzMVV3Mm1tSXI4ak90clF2Q0EwMW5sV1ptV2JURmVSRzYtMUZjenlvLWNuQklqZ2FDX1EzUWR1ZWI0bkZYcXVrbXNTZHdPZS1sNmthTlpOTHNpMkMxc1FfSUR1NEplT3l5Nk84Z3c?oc=5",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "publish_date": "2026-07-18",
+      "priority_score": 89.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "format": "macro_explainer",
+      "source_names": [
+        "NYT Business",
+        "Reuters Markets via Google News RSS",
+        "무역킹 Trade King YouTube"
+      ],
+      "sample_headlines": [
+        "VIEW China's second-quarter economic growth misses market forecast - Reuters",
+        "The Taiwan Strait Was China's Achilles' Heel",
+        "China’s Chip Champion to Raise Billions in Race for A.I. Control"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 0,
+      "fallback_source": "mapped_candidate",
+      "source_count": 3,
+      "search_score": 12,
+      "timeliness_score": 12,
+      "monetization_score": 14,
+      "recent_evidence": [
+        {
+          "title": "The Taiwan Strait Was China's Achilles' Heel",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "54K views",
+          "published_iso": "54K views",
+          "link": "https://www.youtube.com/watch?v=Z1Axn8M5Fcs",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "China’s Chip Champion to Raise Billions in Race for A.I. Control",
+          "source_name": "NYT Business",
+          "published": "Wed, 15 Jul 2026 07:29:52 +0000",
+          "published_iso": "2026-07-15T07:29:52+00:00",
+          "link": "https://www.nytimes.com/2026/07/15/business/china-chips-cxmt-ipo.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "VIEW China's second-quarter economic growth misses market forecast - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Wed, 15 Jul 2026 02:24:00 GMT",
+          "published_iso": "2026-07-15T02:24:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc19zRWVjMjdsRGxDYThKUDdlcHV2QkhmS0VPNDhlVC03UklvRm0tMHdlUFdDUnVnaF9PUWZta1hXVDhDYlBoTEhwczFOanBBSVdQZE9Nd2d2d2d2NlNNdmFkd0s3VmVKa2tfUkFTUkhoQkYwUDZFOHhtdzRlenRBcUhBaXYySjA5M082THdSd25vTVpjN1UxSmdHNlRETHJNaDJZVVZNdms2RWdZSXpFTUJVSQ?oc=5",
           "source_type": "rss"
         }
       ]

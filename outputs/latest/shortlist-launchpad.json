@@ -1,7 +1,7 @@
 {
   "item_count": 3,
   "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin fomc",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
   "cards": [
     {
       "keyword": "bitcoin",
@@ -11,20 +11,28 @@
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (cryptocurrency trading)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "cryptocurrency trading",
-        "Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade",
-        "Some U.S. Senate Democrats come out against Clarity Act, calling it a 'corrupt' bill"
+        "Crypto Long & Short: To ETH or not to ETH — is SOL the better diversifier?",
+        "President Trump expected to meet with senators to work on ethics concerns in crypto bill",
+        "BlackRock's crypto assets fall 39% despite $15 billion of net inflows"
       ],
       "recent_evidence": [
         {
-          "title": "Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 15 Jul 2026 05:19:14 +0000",
-          "published_iso": "2026-07-15T05:19:14+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/15/bitcoin-tops-usd64-000-as-cooling-u-s-inflation-guts-the-fed-rate-hike-trade",
+          "title": "Bitcoin hits $65.5K as more surprise US inflation data sparks three-week BTC price high",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 15 Jul 2026 14:45:28 +0000",
+          "published_iso": "2026-07-15T14:45:28+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-hits-655k-as-more-surprise-us-inflation-data-sparks-three-week-btc-price-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin climbs to $65k as PPI wholesale inflation falls; Iran tensions limit gains",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-15 14:16:37",
+          "published_iso": "2026-07-15 14:16:37",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-to-near-65k-as-rate-jitters-ease-iran-tensions-limit-gains-4792215",
           "source_type": "rss"
         },
         {
@@ -33,14 +41,6 @@
           "published": "2026-07-15 07:04:50",
           "published_iso": "2026-07-15 07:04:50",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-at-supertrend-support-hourly-levels-93CH-4787508",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin rebounds to near $65k as rate jitters ease; Iran tensions limit gains",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-07-15 06:26:38",
-          "published_iso": "2026-07-15 06:26:38",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-to-near-65k-as-rate-jitters-ease-iran-tensions-limit-gains-4792215",
           "source_type": "rss"
         }
       ],
@@ -59,61 +59,6 @@
       "hard_blocking_checks": []
     },
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-07-15",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ],
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
-      "hard_blocking_checks": []
-    },
-    {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "publish_date": "2026-07-17",
@@ -124,33 +69,33 @@
       "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "ASML jumps over 7% after hiking sales forecast for second time this year on strong AI chip demand",
-        "SK Hynix South Korean shares jump 11% as Asia tech stocks rally",
-        "Chipmaker CXMT seeks $10bn in largest China IPO since 2010"
+        "Wall St edges higher with earnings in focus; chip stocks retreat - Reuters",
+        "ASML capacity upgrade soothes AI chip bottleneck fears - Reuters",
+        "Copper is shadowing the AI hyperscaler stocks — but wait for a dip before buying"
       ],
       "recent_evidence": [
         {
           "title": "Silicon shadows: inside the black market for AI chips | FT Film",
           "source_name": "Financial Times YouTube",
-          "published": "25K views",
-          "published_iso": "25K views",
+          "published": "28K views",
+          "published_iso": "28K views",
           "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
           "source_type": "youtube_channel"
         },
         {
-          "title": "ASML raises forecasts as AI boom drives chipmaking demand",
-          "source_name": "Financial Times Home",
-          "published": "Wed, 15 Jul 2026 07:19:46 GMT",
-          "published_iso": "2026-07-15T07:19:46+00:00",
-          "link": "https://www.ft.com/content/731ec5ef-e9e1-40f5-b0bd-09e71787a938",
+          "title": "Wall St edges higher with earnings in focus; chip stocks retreat - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Wed, 15 Jul 2026 16:22:42 GMT",
+          "published_iso": "2026-07-15T16:22:42+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWUtNV3dNS0otQllnaU9ZVG83WlpzSDB0MlB4OVJFQ0V3QjRCT1BhbjRjMkdXeTFwbUwwczE2cVFkREhxSkpwZTJvZmZLUGtPYlk5Vk53cnlxSmdXZjgwb1JEZ284QmJ2SGlUSkgzRlZSQ1k4bzhaM0wzajRMbVV4bGZEaUtSOUFZVGxtRHlNYW5ucEtuRVA1Q3NpOWRXdExXYWNr?oc=5",
           "source_type": "rss"
         },
         {
-          "title": "ASML jumps over 7% after hiking sales forecast for second time this year on strong AI chip demand",
-          "source_name": "CNBC Top News",
-          "published": "Wed, 15 Jul 2026 07:11:43 GMT",
-          "published_iso": "2026-07-15T07:11:43+00:00",
-          "link": "https://www.cnbc.com/2026/07/15/asml-2q-earnings-ai-chips-orders.html",
+          "title": "China’s Chip Champion to Raise Billions in Race for A.I. Control",
+          "source_name": "NYT Business",
+          "published": "Wed, 15 Jul 2026 07:29:52 +0000",
+          "published_iso": "2026-07-15T07:29:52+00:00",
+          "link": "https://www.nytimes.com/2026/07/15/business/china-chips-cxmt-ipo.html",
           "source_type": "rss"
         }
       ],
@@ -166,6 +111,61 @@
       ],
       "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors",
       "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply",
+      "hard_blocking_checks": []
+    },
+    {
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "publish_date": "2026-07-18",
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "ready_now": true,
+      "hero_image_selected": true,
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "VIEW China's second-quarter economic growth misses market forecast - Reuters",
+        "The Taiwan Strait Was China's Achilles' Heel",
+        "China’s Chip Champion to Raise Billions in Race for A.I. Control"
+      ],
+      "recent_evidence": [
+        {
+          "title": "The Taiwan Strait Was China's Achilles' Heel",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "54K views",
+          "published_iso": "54K views",
+          "link": "https://www.youtube.com/watch?v=Z1Axn8M5Fcs",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "China’s Chip Champion to Raise Billions in Race for A.I. Control",
+          "source_name": "NYT Business",
+          "published": "Wed, 15 Jul 2026 07:29:52 +0000",
+          "published_iso": "2026-07-15T07:29:52+00:00",
+          "link": "https://www.nytimes.com/2026/07/15/business/china-chips-cxmt-ipo.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "VIEW China's second-quarter economic growth misses market forecast - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Wed, 15 Jul 2026 02:24:00 GMT",
+          "published_iso": "2026-07-15T02:24:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc19zRWVjMjdsRGxDYThKUDdlcHV2QkhmS0VPNDhlVC03UklvRm0tMHdlUFdDUnVnaF9PUWZta1hXVDhDYlBoTEhwczFOanBBSVdQZE9Nd2d2d2d2NlNNdmFkd0s3VmVKa2tfUkFTUkhoQkYwUDZFOHhtdzRlenRBcUhBaXYySjA5M082THdSd25vTVpjN1UxSmdHNlRETHJNaDJZVVZNdms2RWdZSXpFTUJVSQ?oc=5",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
       "hard_blocking_checks": []
     }
   ]

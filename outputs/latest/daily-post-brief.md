@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-07-15T07:30:55.005122+00:00`
+- 생성 시각: `2026-07-15T16:53:15.056891+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `94.0`
-- 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 소스: CoinDesk RSS, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- 총점: `92.0`
+- 점수 구성: 검색성 24 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Federal Reserve Monetary Policy Press
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,18 +27,17 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade
+  - New York Fed President Williams says inflation has peaked, rates 'well positioned'
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `89.0`
-- 점수 구성: 검색성 28 / 시의성 20 / 설명가치 18 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 5
-- 추천 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (cryptocurrency trading)
-- 코인 시장 신호: BTCUSDT 24h change 3.09%; Fear/Greed 25: Extreme Fear zone
-- 소스: CoinDesk RSS, Cointelegraph, Google Trends US, Investing.com Crypto News
-- 트렌드 쿼리: cryptocurrency trading
+- 총점: `82.0`
+- 점수 구성: 검색성 26 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 3
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- 코인 시장 신호: Fear/Greed 25: Extreme Fear zone
+- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
@@ -50,20 +49,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - cryptocurrency trading
-  - Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade
-  - Some U.S. Senate Democrats come out against Clarity Act, calling it a 'corrupt' bill
-  - Binance bets on becoming a crypto 'super app' as stablecoins reshape growth
-  - Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto
+  - Crypto Long & Short: To ETH or not to ETH — is SOL the better diversifier?
+  - President Trump expected to meet with senators to work on ethics concerns in crypto bill
+  - BlackRock's crypto assets fall 39% despite $15 billion of net inflows
+  - Bitcoin hits $65.5K as more surprise US inflation data sparks three-week BTC price high
+  - Here’s what happened in crypto today
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `78.0`
-- 점수 구성: 검색성 18 / 시의성 20 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `75.0`
+- 점수 구성: 검색성 15 / 시의성 20 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, Financial Times World, Financial Times YouTube
+- 소스: Financial Times YouTube, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -75,20 +74,20 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - ASML jumps over 7% after hiking sales forecast for second time this year on strong AI chip demand
-  - SK Hynix South Korean shares jump 11% as Asia tech stocks rally
-  - Chipmaker CXMT seeks $10bn in largest China IPO since 2010
+  - Wall St edges higher with earnings in focus; chip stocks retreat - Reuters
+  - ASML capacity upgrade soothes AI chip bottleneck fears - Reuters
+  - Copper is shadowing the AI hyperscaler stocks — but wait for a dip before buying
   - Silicon shadows: inside the black market for AI chips | FT Film
-  - Chipmaker CXMT seeks $10bn in largest China IPO since 2010
+  - China’s Chip Champion to Raise Billions in Race for A.I. Control
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `86.0`
-- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 18 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
+- 총점: `63.0`
+- 점수 구성: 검색성 12 / 시의성 12 / 설명가치 18 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: NYT Business, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -100,24 +99,22 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls
-  - China’s economy grows at one of lowest rates in decades
-  - The race to break China’s metals grip
-  - Chipmaker CXMT seeks $10bn in largest China IPO since 2010
   - VIEW China's second-quarter economic growth misses market forecast - Reuters
+  - The Taiwan Strait Was China's Achilles' Heel
+  - China’s Chip Champion to Raise Billions in Race for A.I. Control
 
-## 5. cpi
+## 5. oil
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `87.0`
-- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- 소스: CoinDesk RSS, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `79.0`
+- 점수 구성: 검색성 20 / 시의성 21 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Financial Times Home, Financial Times World, Financial Times YouTube, MarketWatch Breaking News, NYT Business
 - 제목 후보:
-  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
-  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 지금 시장이 반응하는 이유
-  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 주식·코인 흐름 함께 보기
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -125,8 +122,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade
-  - Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets
-  - Stocks gain on drop in US inflation rate; ASML tops forecasts - Reuters
-  - Dollar struggles after softer inflation blunts Fed hike bets - Reuters
-  - Gold slips as oil rally keeps inflation, rate outlook on investors' radar - Reuters
+  - Wholesale prices unexpectedly declined 0.3% in June on big drop in gasoline
+  - Oil traders warn market is close to running on empty as Hormuz shuts again
+  - America’s oil refiners could more than triple profits as Iran war sparks massive boom
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+  - Oil traders warn market is close to running on empty as Hormuz shuts again

@@ -14,8 +14,8 @@
 - first_live_run_status: `ready_for_draft_test`
 - github_launch_status: `needs_gh_cli`
 - cloud_verification_ok: `True`
-- quality_needs_fix_count: `0`
-- quality_review_count: `1`
+- quality_needs_fix_count: `1`
+- quality_review_count: `0`
 - visitor_proof_status: `measurement_missing`
 - actual_verified_visitors: `0`
 - visitor_proof_gap: `200`
@@ -111,7 +111,7 @@
 ## User Confirmation Commands
 
 - single: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin fomc`
+- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - reply preview: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행"`
 - reply apply: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행" --apply`
 
