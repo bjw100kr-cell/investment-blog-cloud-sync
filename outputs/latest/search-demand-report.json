@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-07-14T16:45:01.367543+00:00",
+  "generated_at": "2026-07-15T07:30:55.005122+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "bitcoin",
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
+      "trend_queries": [
+        "cryptocurrency trading"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "fomc",
       "trend_count": 0,
@@ -14,18 +30,16 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5100,
+      "demand_signal_score": 4200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 39,
-      "source_count": 6,
+      "source_snapshot_score": 30,
+      "source_count": 3,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
-        "NYT Business"
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
@@ -40,51 +54,53 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4000,
+      "demand_signal_score": 3900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 28,
-      "source_count": 8,
+      "source_snapshot_score": 27,
+      "source_count": 5,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
-        "Cointelegraph",
         "Financial Times World",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes",
-        "Bitcoin jumps on lowest US CPI since 2020 as traders stay wary of $64K failure",
-        "Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people"
+        "Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade",
+        "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets",
+        "Stocks gain on drop in US inflation rate; ASML tops forecasts - Reuters"
       ]
     },
     {
-      "keyword": "bitcoin",
+      "keyword": "china",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3400,
+      "demand_signal_score": 3800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 22,
-      "source_count": 3,
+      "source_snapshot_score": 26,
+      "source_count": 6,
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto",
-        "CleanSpark shares jump 22% after $6.6B Georgia data center lease",
-        "Bitcoin jumps on lowest US CPI since 2020 as traders stay wary of $64K failure"
+        "China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls",
+        "China’s economy grows at one of lowest rates in decades",
+        "The race to break China’s metals grip"
       ]
     },
     {
-      "keyword": "oil",
+      "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -95,18 +111,17 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 14,
-      "source_count": 5,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
         "Financial Times World",
-        "Financial Times YouTube",
-        "Reuters Markets via Google News RSS"
+        "Financial Times YouTube"
       ],
       "sample_titles": [
-        "Oil prices off highs after Trump abandons 20% protection fee on Strait of Hormuz traffic",
-        "Ukraine targets Russian shipping in ‘unprecedented’ drone assault",
-        "Stocks gain on softer inflation, bank results while oil rises on US-Iran hostilities - Reuters"
+        "ASML jumps over 7% after hiking sales forecast for second time this year on strong AI chip demand",
+        "SK Hynix South Korean shares jump 11% as Asia tech stocks rally",
+        "Chipmaker CXMT seeks $10bn in largest China IPO since 2010"
       ]
     }
   ],

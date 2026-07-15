@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T16:45:01.367543+00:00",
+  "generated_at": "2026-07-15T07:30:55.005122+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -58,22 +58,19 @@
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
         "Federal Reserve issues FOMC statement",
-        "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes"
+        "Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
-        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 5100,
-      "search_score": 28,
+      "demand_signal_score": 4200,
+      "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
       "monetization_score": 15,
@@ -83,7 +80,7 @@
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 96.0,
+      "total_score": 94.0,
       "format": "macro_explainer"
     },
     {
@@ -95,7 +92,7 @@
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (cryptocurrency trading)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -104,36 +101,41 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto",
-        "CleanSpark shares jump 22% after $6.6B Georgia data center lease",
-        "Bitcoin jumps on lowest US CPI since 2020 as traders stay wary of $64K failure",
-        "Strategy became a symbol of the dot-com crash: Could history repeat?",
-        "Bitcoin climbs to $63.8k on cool CPI data, but gains limited amid Iran, rate fears"
+        "cryptocurrency trading",
+        "Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade",
+        "Some U.S. Senate Democrats come out against Clarity Act, calling it a 'corrupt' bill",
+        "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth",
+        "Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
+        "Google Trends US",
         "Investing.com Crypto News"
       ],
-      "trend_queries": [],
-      "trend_regions": [],
+      "trend_queries": [
+        "cryptocurrency trading"
+      ],
+      "trend_regions": [
+        "US"
+      ],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3400,
-      "search_score": 24,
-      "timeliness_score": 18,
-      "explanatory_score": 17,
+      "demand_signal_score": 400,
+      "search_score": 28,
+      "timeliness_score": 20,
+      "explanatory_score": 18,
       "monetization_score": 15,
       "risk_score": 3,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 5,
       "crypto_market_sentiment": "extreme_fear",
       "crypto_market_signal_notes": [
-        "BTCUSDT 24h change 3.95%",
-        "Fear/Greed 22: Extreme Fear zone"
+        "BTCUSDT 24h change 3.09%",
+        "Fear/Greed 25: Extreme Fear zone"
       ],
-      "total_score": 82.0,
+      "total_score": 89.0,
       "format": "crypto_analysis"
     },
     {
@@ -145,7 +147,7 @@
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -154,27 +156,34 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Silicon shadows: inside the black market for AI chips | FT Film"
+        "ASML jumps over 7% after hiking sales forecast for second time this year on strong AI chip demand",
+        "SK Hynix South Korean shares jump 11% as Asia tech stocks rally",
+        "Chipmaker CXMT seeks $10bn in largest China IPO since 2010",
+        "Silicon shadows: inside the black market for AI chips | FT Film",
+        "Chipmaker CXMT seeks $10bn in largest China IPO since 2010"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
         "Financial Times YouTube"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 3,
-      "timeliness_score": 2,
-      "explanatory_score": 17,
+      "demand_signal_score": 2600,
+      "search_score": 18,
+      "timeliness_score": 20,
+      "explanatory_score": 18,
       "monetization_score": 15,
       "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 44.0,
+      "total_score": 78.0,
       "format": "sector_analysis"
     },
     {
@@ -186,7 +195,7 @@
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -195,29 +204,36 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "The Taiwan Strait Was China's Achilles' Heel",
-        "China Purges Top Official Over Corruption and Sex Charges"
+        "China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls",
+        "China’s economy grows at one of lowest rates in decades",
+        "The race to break China’s metals grip",
+        "Chipmaker CXMT seeks $10bn in largest China IPO since 2010",
+        "VIEW China's second-quarter economic growth misses market forecast - Reuters"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
         "NYT Business",
+        "Reuters Markets via Google News RSS",
         "무역킹 Trade King YouTube"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 8,
-      "timeliness_score": 7,
+      "demand_signal_score": 3800,
+      "search_score": 26,
+      "timeliness_score": 21,
       "explanatory_score": 18,
-      "monetization_score": 13,
+      "monetization_score": 14,
       "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
+      "search_demand_bonus": 2,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 53.0,
+      "total_score": 86.0,
       "format": "macro_explainer"
     },
     {
@@ -229,7 +245,7 @@
         "CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 지금 시장이 반응하는 이유",
         "CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -238,27 +254,24 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes",
-        "Bitcoin jumps on lowest US CPI since 2020 as traders stay wary of $64K failure",
-        "Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
-        "Bitcoin climbs to $63.8k on cool CPI data, but gains limited amid Iran, rate fears",
-        "Wall St rises on cooler inflation data, big bank earnings - Reuters"
+        "Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade",
+        "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets",
+        "Stocks gain on drop in US inflation rate; ASML tops forecasts - Reuters",
+        "Dollar struggles after softer inflation blunts Fed hike bets - Reuters",
+        "Gold slips as oil rally keeps inflation, rate outlook on investors' radar - Reuters"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
-        "Cointelegraph",
         "Financial Times World",
         "Investing.com Crypto News",
         "MarketWatch Breaking News",
-        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 4000,
+      "demand_signal_score": 3900,
       "search_score": 26,
       "timeliness_score": 21,
       "explanatory_score": 19,

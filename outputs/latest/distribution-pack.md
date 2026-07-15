@@ -6,7 +6,7 @@
 
 - inventory_type: `main_post`
 - publish_bucket: `today_or_overdue`
-- priority_score: `139.0`
+- priority_score: `137.0`
 - hook_line: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -74,7 +74,7 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
-- priority_score: `78.0`
+- priority_score: `120.0`
 - hook_line: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -108,7 +108,7 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
-- priority_score: `71.0`
+- priority_score: `113.0`
 - hook_line: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -138,45 +138,11 @@ AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - subject: [오늘의 투자 브리핑] AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 
-## 5. cpi: 지금 투자자가 확인할 체크포인트 5가지
+## 5. 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `113.67`
-- hook_line: cpi: 지금 투자자가 확인할 체크포인트 5가지 | `cpi`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
-
-### X / Threads
-
-cpi: 지금 투자자가 확인할 체크포인트 5가지
-
-오늘 시장을 볼 때 핵심은 이것입니다.
-- 독자 관점: `cpi`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
-- 한 줄 포인트: 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결
-
-짧고 이해하기 쉽게 정리했습니다.
-
-### Telegram / Kakao Channel
-
-[search_demand_capture] cpi: 지금 투자자가 확인할 체크포인트 5가지
-오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.
-핵심 포인트: 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결
-
-### Community
-
-cpi: 지금 투자자가 확인할 체크포인트 5가지
-
-이번 글은 '`cpi`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도'에 맞춰 정리한 해설입니다. 읽고 나면 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
-
-### Newsletter
-
-- subject: [오늘의 투자 브리핑] cpi: 지금 투자자가 확인할 체크포인트 5가지
-- preview: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
-
-## 6. 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
-
-- inventory_type: `seo_followup`
-- publish_bucket: `seo_backlog`
-- priority_score: `77.5`
+- priority_score: `119.5`
 - hook_line: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기 | 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 
 ### X / Threads
@@ -206,11 +172,11 @@ cpi: 지금 투자자가 확인할 체크포인트 5가지
 - subject: [오늘의 투자 브리핑] 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 - preview: 섹터형 검색 유입 누적 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 
-## 7. 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
+## 6. 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `74.5`
+- priority_score: `116.5`
 - hook_line: 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나 | 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 
 ### X / Threads
@@ -240,11 +206,11 @@ cpi: 지금 투자자가 확인할 체크포인트 5가지
 - subject: [오늘의 투자 브리핑] 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 - preview: 체류시간과 페이지뷰 확대 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 
-## 8. 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
+## 7. 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `71.5`
+- priority_score: `113.5`
 - hook_line: 중국 변수와 시장 영향 ETF·지수·대표 기업 정리 | 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 
 ### X / Threads
@@ -274,11 +240,11 @@ cpi: 지금 투자자가 확인할 체크포인트 5가지
 - subject: [오늘의 투자 브리핑] 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 - preview: 광고 노출과 장기 검색 유입 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 
-## 9. AI 반도체 주식 관련 대표 종목 한눈에 보기
+## 8. AI 반도체 주식 관련 대표 종목 한눈에 보기
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `70.5`
+- priority_score: `112.5`
 - hook_line: AI 반도체 주식 관련 대표 종목 한눈에 보기 | 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 
 ### X / Threads
@@ -307,3 +273,37 @@ AI 반도체 주식 관련 대표 종목 한눈에 보기
 
 - subject: [오늘의 투자 브리핑] AI 반도체 주식 관련 대표 종목 한눈에 보기
 - preview: 섹터형 검색 유입 누적 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
+
+## 9. cpi: 지금 투자자가 확인할 체크포인트 5가지
+
+- inventory_type: `seo_followup`
+- publish_bucket: `seo_backlog`
+- priority_score: `111.57`
+- hook_line: cpi: 지금 투자자가 확인할 체크포인트 5가지 | `cpi`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
+
+### X / Threads
+
+cpi: 지금 투자자가 확인할 체크포인트 5가지
+
+오늘 시장을 볼 때 핵심은 이것입니다.
+- 독자 관점: `cpi`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
+- 한 줄 포인트: 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결
+
+짧고 이해하기 쉽게 정리했습니다.
+
+### Telegram / Kakao Channel
+
+[search_demand_capture] cpi: 지금 투자자가 확인할 체크포인트 5가지
+오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.
+핵심 포인트: 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결
+
+### Community
+
+cpi: 지금 투자자가 확인할 체크포인트 5가지
+
+이번 글은 '`cpi`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도'에 맞춰 정리한 해설입니다. 읽고 나면 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
+
+### Newsletter
+
+- subject: [오늘의 투자 브리핑] cpi: 지금 투자자가 확인할 체크포인트 5가지
+- preview: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.

@@ -47,8 +47,8 @@
 - excerpt: - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다.
 - preview: 한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
-- evidence: Cointelegraph / 2026-07-14T14:53:13+00:00 / Bitcoin jumps on lowest US CPI since 2020 as traders stay wary of $64K failure
-- evidence: Investing.com Crypto News / 2026-07-14 14:03:57 / Bitcoin climbs to $63.8k on cool CPI data, but gains limited amid Iran, rate fears
+- evidence: CoinDesk RSS / 2026-07-15T05:19:14+00:00 / Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade
+- evidence: Investing.com Crypto News / 2026-07-15 07:04:50 / Bitcoin breaks above resistance near $65K: Live levels
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - recovery_mode: `publish_direct`
@@ -63,8 +63,8 @@
 - ready_now: `True`
 - quality_status: `pass`
 - decision_note: 이 글은 내용만 괜찮으면 바로 승인 후보입니다.
-- freshness_status: `aging`
-- freshness_recommendation: 초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.
+- freshness_status: `stale`
+- freshness_recommendation: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
 - next_action: 사용자 최종 확인 후 Blogger draft 업로드
 - reader_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결

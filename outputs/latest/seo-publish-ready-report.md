@@ -1,8 +1,8 @@
 # Publish Ready Report
 
-- generated_at: `2026-07-14T16:45:04.776351+00:00`
+- generated_at: `2026-07-15T07:30:57.984772+00:00`
 
-## seo_cpi_7
+## seo_cpi_11
 
 - ready: True
 - reason: ok
@@ -11,7 +11,7 @@
 - meta_description: cpi: 지금 투자자가 확인할 체크포인트 5가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
 - follow_up_post_count: 0
 
-## seo_china_9
+## seo_china_5
 
 - ready: True
 - reason: ok
@@ -20,7 +20,7 @@
 - meta_description: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 2
 
-## seo_china_10
+## seo_china_7
 
 - ready: True
 - reason: ok
@@ -29,7 +29,7 @@
 - meta_description: 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 2
 
-## seo_china_11
+## seo_china_9
 
 - ready: True
 - reason: ok
@@ -38,7 +38,7 @@
 - meta_description: 중국 변수와 시장 영향 ETF·지수·대표 기업 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 2
 
-## seo_ai_semiconductors_12
+## seo_ai_semiconductors_10
 
 - ready: True
 - reason: ok

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-14T16:45:05.555153+00:00",
+  "generated_at": "2026-07-15T07:30:58.434112+00:00",
   "target_daily_visitors": 200,
-  "base_projected_visitors": 186,
+  "base_projected_visitors": 337,
   "amplification_expected_visitors": 0,
   "amplification_potential_visitors_if_executed": 1200,
-  "projected_with_amplification": 186,
-  "potential_with_manual_amplification": 1386,
-  "gap_after_amplification": 14,
+  "projected_with_amplification": 337,
+  "potential_with_manual_amplification": 1537,
+  "gap_after_amplification": 0,
   "status": "amplification_plan_ready_manual_execution_required",
   "planned_public_url_count": 16,
-  "source_goal_item_count": 2,
-  "published_expansion_item_count": 14,
+  "source_goal_item_count": 4,
+  "published_expansion_item_count": 13,
   "plans": [
     {
       "keyword": "fomc",
@@ -131,128 +131,10 @@
       ]
     },
     {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
-      "base_estimated_search_visitors": 91,
-      "amplification_expected_visitors": 0,
-      "amplification_potential_visitors_if_executed": 75,
-      "manual_execution_required": true,
-      "manual_execution_checklist": [
-        {
-          "done": false,
-          "channel": "x_threads_or_short_social",
-          "time_window": "publish_plus_10m",
-          "copy_variant_to_use": "question_hook",
-          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
-          "expected_visitors": 10,
-          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
-        },
-        {
-          "done": false,
-          "channel": "telegram_kakao_or_personal_channel",
-          "time_window": "publish_plus_30m",
-          "copy_variant_to_use": "briefing",
-          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
-          "expected_visitors": 10,
-          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
-        },
-        {
-          "done": false,
-          "channel": "finance_community",
-          "time_window": "publish_plus_2h",
-          "copy_variant_to_use": "community_question",
-          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
-          "expected_visitors": 15,
-          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
-        }
-      ],
-      "share_slots": [
-        {
-          "time_window": "publish_plus_0m",
-          "channel": "blogger_internal",
-          "potential_visitors_if_executed": 20,
-          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
-          "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 읽은 뒤 바로 이어볼 글: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
-        },
-        {
-          "time_window": "publish_plus_10m",
-          "channel": "x_threads_or_short_social",
-          "potential_visitors_if_executed": 10,
-          "task": "짧은 훅과 공개 URL 공유",
-          "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n오늘 시장을 볼 때 핵심은 이것입니다.\n- 독자 관점: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자\n- 한 줄 포인트: ETF·규제·초보 가이드 글로 연결\n\n짧고 이해하기 쉽게 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
-          "copy_variants": [
-            {
-              "label": "question_hook",
-              "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
-            },
-            {
-              "label": "checklist_hook",
-              "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
-            },
-            {
-              "label": "beginner_hook",
-              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\n비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
-            }
-          ]
-        },
-        {
-          "time_window": "publish_plus_30m",
-          "channel": "telegram_kakao_or_personal_channel",
-          "potential_visitors_if_executed": 10,
-          "task": "짧은 브리핑형 공유",
-          "copy": "[lane_focus_crypto] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.\n핵심 포인트: ETF·규제·초보 가이드 글로 연결\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
-          "copy_variants": [
-            {
-              "label": "briefing",
-              "copy": "[오늘의 시장 메모]\n비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
-            },
-            {
-              "label": "friendly_note",
-              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\n비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
-            },
-            {
-              "label": "followup_bridge",
-              "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n읽고 나서 이어서 보면 좋은 흐름: 관련 체크포인트 글\n먼저 메인 정리부터 확인해보세요.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
-            }
-          ]
-        },
-        {
-          "time_window": "publish_plus_2h",
-          "channel": "finance_community",
-          "potential_visitors_if_executed": 15,
-          "task": "투자 커뮤니티에 질문형 요약으로 공유",
-          "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n이번 글은 '당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 ETF·규제·초보 가이드 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
-          "copy_variants": [
-            {
-              "label": "community_question",
-              "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
-            },
-            {
-              "label": "community_summary",
-              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
-            },
-            {
-              "label": "community_caution",
-              "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
-            }
-          ]
-        },
-        {
-          "time_window": "publish_plus_24h",
-          "channel": "followup_post",
-          "potential_visitors_if_executed": 20,
-          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
-          "copy": "bitcoin 후속 글 후보: bitcoin 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결",
-          "needs_followup_generation": true
-        }
-      ]
-    },
-    {
       "keyword": "china",
       "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
       "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html",
-      "base_estimated_search_visitors": 20,
+      "base_estimated_search_visitors": 91,
       "amplification_expected_visitors": 0,
       "amplification_potential_visitors_if_executed": 75,
       "manual_execution_required": true,
@@ -363,6 +245,219 @@
           "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
           "copy": "china 후속 글 후보: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기, 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나",
           "needs_followup_generation": false
+        }
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "public_url": "",
+      "base_estimated_search_visitors": 83,
+      "amplification_expected_visitors": 0,
+      "amplification_potential_visitors_if_executed": 0,
+      "manual_execution_required": true,
+      "manual_execution_checklist": [],
+      "share_slots": [
+        {
+          "time_window": "publish_plus_0m",
+          "channel": "blogger_internal",
+          "potential_visitors_if_executed": 20,
+          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
+          "copy": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 읽은 뒤 바로 이어볼 글: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지, AI 반도체 주식 관련 대표 종목 한눈에 보기",
+          "blocked_by": "public_url_missing"
+        },
+        {
+          "time_window": "publish_plus_10m",
+          "channel": "x_threads_or_short_social",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 훅과 공개 URL 공유",
+          "copy": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지\n\n오늘 시장을 볼 때 핵심은 이것입니다.\n- 독자 관점: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자\n- 한 줄 포인트: 실적·공급망·대표 종목 글로 연결\n\n짧고 이해하기 쉽게 정리했습니다.\n\n<PUBLISHED_URL>",
+          "copy_variants": [
+            {
+              "label": "question_hook",
+              "copy": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\n<PUBLISHED_URL>"
+            },
+            {
+              "label": "checklist_hook",
+              "copy": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: <PUBLISHED_URL>"
+            },
+            {
+              "label": "beginner_hook",
+              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\nAI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지\n<PUBLISHED_URL>"
+            }
+          ],
+          "blocked_by": "public_url_missing"
+        },
+        {
+          "time_window": "publish_plus_30m",
+          "channel": "telegram_kakao_or_personal_channel",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 브리핑형 공유",
+          "copy": "[lane_focus_us-stocks] AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지\n오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.\n핵심 포인트: 실적·공급망·대표 종목 글로 연결\n\n<PUBLISHED_URL>",
+          "copy_variants": [
+            {
+              "label": "briefing",
+              "copy": "[오늘의 시장 메모]\nAI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\n<PUBLISHED_URL>"
+            },
+            {
+              "label": "friendly_note",
+              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\nAI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\n<PUBLISHED_URL>"
+            },
+            {
+              "label": "followup_bridge",
+              "copy": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지\n\n읽고 나서 이어서 보면 좋은 흐름: AI 반도체 주식 관련 대표 종목 한눈에 보기\n먼저 메인 정리부터 확인해보세요.\n\n<PUBLISHED_URL>"
+            }
+          ],
+          "blocked_by": "public_url_missing"
+        },
+        {
+          "time_window": "publish_plus_2h",
+          "channel": "finance_community",
+          "potential_visitors_if_executed": 15,
+          "task": "투자 커뮤니티에 질문형 요약으로 공유",
+          "copy": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지\n\n이번 글은 '당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 실적·공급망·대표 종목 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\n<PUBLISHED_URL>",
+          "copy_variants": [
+            {
+              "label": "community_question",
+              "copy": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\n<PUBLISHED_URL>"
+            },
+            {
+              "label": "community_summary",
+              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: <PUBLISHED_URL>"
+            },
+            {
+              "label": "community_caution",
+              "copy": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\n<PUBLISHED_URL>"
+            }
+          ],
+          "blocked_by": "public_url_missing"
+        },
+        {
+          "time_window": "publish_plus_24h",
+          "channel": "followup_post",
+          "potential_visitors_if_executed": 20,
+          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
+          "copy": "ai_semiconductors 후속 글 후보: AI 반도체 주식 관련 대표 종목 한눈에 보기",
+          "needs_followup_generation": false,
+          "blocked_by": "public_url_missing"
+        }
+      ]
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
+      "base_estimated_search_visitors": 68,
+      "amplification_expected_visitors": 0,
+      "amplification_potential_visitors_if_executed": 75,
+      "manual_execution_required": true,
+      "manual_execution_checklist": [
+        {
+          "done": false,
+          "channel": "x_threads_or_short_social",
+          "time_window": "publish_plus_10m",
+          "copy_variant_to_use": "question_hook",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "telegram_kakao_or_personal_channel",
+          "time_window": "publish_plus_30m",
+          "copy_variant_to_use": "briefing",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
+          "expected_visitors": 10,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        },
+        {
+          "done": false,
+          "channel": "finance_community",
+          "time_window": "publish_plus_2h",
+          "copy_variant_to_use": "community_question",
+          "url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
+          "expected_visitors": 15,
+          "note": "한 채널에 1회만 공유하고 반응이 좋은 문구를 다음 글에 재사용합니다."
+        }
+      ],
+      "share_slots": [
+        {
+          "time_window": "publish_plus_0m",
+          "channel": "blogger_internal",
+          "potential_visitors_if_executed": 20,
+          "task": "본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출",
+          "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 읽은 뒤 바로 이어볼 글: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
+        },
+        {
+          "time_window": "publish_plus_10m",
+          "channel": "x_threads_or_short_social",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 훅과 공개 URL 공유",
+          "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n오늘 시장을 볼 때 핵심은 이것입니다.\n- 독자 관점: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자\n- 한 줄 포인트: ETF·규제·초보 가이드 글로 연결\n\n짧고 이해하기 쉽게 정리했습니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
+          "copy_variants": [
+            {
+              "label": "question_hook",
+              "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n오늘 시장이 왜 흔들리는지 3분 안에 볼 수 있게 정리했습니다.\n핵심은 가격보다 금리/달러/자금 흐름입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
+            },
+            {
+              "label": "checklist_hook",
+              "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n체크할 것 3개\n1. 금리/달러\n2. ETF·자금 흐름\n3. 다음 리스크 일정\n\n정리 글: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
+            },
+            {
+              "label": "beginner_hook",
+              "copy": "시장 뉴스는 많은데, 내 계좌에 어떤 의미인지 헷갈릴 때 보기 좋은 글입니다.\n\n비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_30m",
+          "channel": "telegram_kakao_or_personal_channel",
+          "potential_visitors_if_executed": 10,
+          "task": "짧은 브리핑형 공유",
+          "copy": "[lane_focus_crypto] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.\n핵심 포인트: ETF·규제·초보 가이드 글로 연결\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
+          "copy_variants": [
+            {
+              "label": "briefing",
+              "copy": "[오늘의 시장 메모]\n비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n짧게 보면: 가격보다 자금 흐름과 매크로 변수를 먼저 확인하는 구간입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
+            },
+            {
+              "label": "friendly_note",
+              "copy": "오늘 시장 흐름 헷갈리면 이 글부터 보면 좋습니다.\n\n비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n- 왜 반응했는지\n- 무엇을 확인해야 하는지\n- 무리한 해석을 피하는 법\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
+            },
+            {
+              "label": "followup_bridge",
+              "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n읽고 나서 이어서 보면 좋은 흐름: 관련 체크포인트 글\n먼저 메인 정리부터 확인해보세요.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_2h",
+          "channel": "finance_community",
+          "potential_visitors_if_executed": 15,
+          "task": "투자 커뮤니티에 질문형 요약으로 공유",
+          "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n이번 글은 '당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 ETF·규제·초보 가이드 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.\n\n질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
+          "copy_variants": [
+            {
+              "label": "community_question",
+              "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n요즘 시장 볼 때 저는 가격 자체보다 금리/달러/자금 흐름을 먼저 봐야 한다고 정리했습니다.\n다른 분들은 지금 어떤 지표를 먼저 보시나요?\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
+            },
+            {
+              "label": "community_summary",
+              "copy": "오늘 시장 흐름을 초보자도 읽기 쉽게 정리했습니다.\n\n핵심 질문: 이 이슈가 주식/코인에 왜 같이 영향을 주는가?\n글: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
+            },
+            {
+              "label": "community_caution",
+              "copy": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트\n\n단순 전망보다 체크리스트 중심으로 정리했습니다. 매수/매도 추천이 아니라 시장을 읽는 기준을 정리한 글입니다.\n\nhttps://gimu-economy-insight.blogspot.com/2026/06/blog-post.html"
+            }
+          ]
+        },
+        {
+          "time_window": "publish_plus_24h",
+          "channel": "followup_post",
+          "potential_visitors_if_executed": 20,
+          "task": "후속 글 1개를 발행하거나 기존 후속 글을 다시 내부링크",
+          "copy": "bitcoin 후속 글 후보: bitcoin 후속 글 1개를 먼저 생성하거나, 관련 메인 글 1개를 내부링크로 연결",
+          "needs_followup_generation": true
         }
       ]
     },

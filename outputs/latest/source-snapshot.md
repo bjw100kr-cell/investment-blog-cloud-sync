@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-14T16:45:01.367543+00:00`
+- 생성 시각: `2026-07-15T07:30:55.005122+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,45 +106,51 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `fomc`: score 39, source_count 6, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Financial Times World, NYT Business, Reuters Markets via Google News RSS
-- `cpi`: score 28, source_count 8, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: score 22, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `oil`: score 14, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, Financial Times YouTube, Reuters Markets via Google News RSS
-- `china`: score 5, source_count 2, sources NYT Business, 무역킹 Trade King YouTube
-- `dollar`: score 4, source_count 1, sources CoinDesk RSS
-- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
-- `treasury_yields`: score 3, source_count 1, sources Cointelegraph
-- `ai_semiconductors`: score 2, source_count 1, sources Financial Times YouTube
-- `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
+- `bitcoin`: score 44, source_count 4, sources CoinDesk RSS, Cointelegraph, Google Trends US, Investing.com Crypto News
+- `fomc`: score 30, source_count 3, sources CoinDesk RSS, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `cpi`: score 27, source_count 5, sources CoinDesk RSS, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `china`: score 26, source_count 6, sources CNBC Top News, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
+- `ai_semiconductors`: score 14, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, Financial Times YouTube
+- `treasury_yields`: score 12, source_count 3, sources CoinDesk RSS, Cointelegraph, NYT Business
+- `oil`: score 8, source_count 3, sources CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
+- `dollar`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
+- `ethereum`: score 3, source_count 1, sources Cointelegraph
+- `us_index_flow`: score 2, source_count 1, sources MarketWatch Breaking News
 
 ## 오늘의 글감 후보
 
-- `fomc`: score 39, headlines 11
+- `bitcoin`: score 44, headlines 12
+  - cryptocurrency trading
+  - Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade
+  - Some U.S. Senate Democrats come out against Clarity Act, calling it a 'corrupt' bill
+- `fomc`: score 30, headlines 7
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- `cpi`: score 28, headlines 10
-  - U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes
-  - Bitcoin jumps on lowest US CPI since 2020 as traders stay wary of $64K failure
-  - Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people
-- `bitcoin`: score 22, headlines 7
-  - Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto
-  - CleanSpark shares jump 22% after $6.6B Georgia data center lease
-  - Bitcoin jumps on lowest US CPI since 2020 as traders stay wary of $64K failure
-- `oil`: score 14, headlines 5
-  - Oil prices off highs after Trump abandons 20% protection fee on Strait of Hormuz traffic
-  - Ukraine targets Russian shipping in ‘unprecedented’ drone assault
-  - Stocks gain on softer inflation, bank results while oil rises on US-Iran hostilities - Reuters
-- `china`: score 5, headlines 2
-  - The Taiwan Strait Was China's Achilles' Heel
-  - China Purges Top Official Over Corruption and Sex Charges
-- `dollar`: score 4, headlines 1
-  - JPMorgan says Hyperliquid's rise threatens Circle's USDC economics
-- `ethereum`: score 4, headlines 1
-  - Ethereum Foundation spinout EthSystems targets banks with blockchain privacy technology
-- `treasury_yields`: score 3, headlines 1
-  - ABA, state banking groups push back on CLARITY Act stablecoin yield provisions
+- `cpi`: score 27, headlines 9
+  - Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade
+  - Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets
+  - Stocks gain on drop in US inflation rate; ASML tops forecasts - Reuters
+- `china`: score 26, headlines 9
+  - China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls
+  - China’s economy grows at one of lowest rates in decades
+  - The race to break China’s metals grip
+- `ai_semiconductors`: score 14, headlines 5
+  - ASML jumps over 7% after hiking sales forecast for second time this year on strong AI chip demand
+  - SK Hynix South Korean shares jump 11% as Asia tech stocks rally
+  - Chipmaker CXMT seeks $10bn in largest China IPO since 2010
+- `treasury_yields`: score 12, headlines 4
+  - Mizuho downgrades Circle to underperform, cuts price target to $50 on Open USD threat
+  - US freezes $131M in Iran-linked crypto as Middle East tensions rise
+  - Velocity raises $38M to build stablecoin treasury infrastructure for enterprises
+- `oil`: score 8, headlines 3
+  - Oil rises after another round of U.S. strikes against Iran, naval blockade of the country's ports
+  - Gold slips as oil rally keeps inflation, rate outlook on investors' radar - Reuters
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+- `dollar`: score 7, headlines 2
+  - Mizuho downgrades Circle to underperform, cuts price target to $50 on Open USD threat
+  - Dollar struggles after softer inflation blunts Fed hike bets - Reuters
+- `ethereum`: score 3, headlines 1
+  - Bitmine generated $46M from Ethereum staking last quarter
 - `ai_growth_stocks`: score 2, headlines 1
   - Palantir: profits, procurement and power | FT Film
-- `ai_semiconductors`: score 2, headlines 1
-  - Silicon shadows: inside the black market for AI chips | FT Film

@@ -10,7 +10,7 @@
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
-- publish_date: `2026-07-15`
+- publish_date: `2026-07-16`
 - priority_score: `121.0`
 - review_verdict: `approve` / score `100`
 - quality_status: `pass`
@@ -40,17 +40,17 @@
 
 ## 도입부
 
-2026년 7월 14일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 7월 15일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+쉽게 말해 코인 전문 매체 기사, 실시간 검색 흐름를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `cryptocurrency trading` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `cryptocurrency trading`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `현물 ETF 순유입/순유출`, 다른 하나는 `달러 인덱스와 미국채 금리`입니다.
 한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -98,7 +98,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 주요 참고 소스: CoinDesk RSS, Cointelegraph, Google Trends US, Investing.com Crypto News
 - 발행 전 재확인: BTC 가격 기준 시각 재확인
 - 발행 전 재확인: ETF 자금 유입 여부 공식/신뢰 소스 재확인
 - 발행 전 재확인: 단정적 가격 전망 문장 제거
@@ -123,8 +123,8 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 ## 2. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 - keyword: `fomc`
-- publish_date: `2026-07-14`
-- priority_score: `139.0`
+- publish_date: `2026-07-15`
+- priority_score: `137.0`
 - review_verdict: `approve` / score `100`
 - quality_status: `pass`
 - hero_image_selected: `True`
@@ -153,7 +153,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 도입부
 
-2026년 7월 14일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 7월 15일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 공식 발표 자료, 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
@@ -211,7 +211,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- 주요 참고 소스: CoinDesk RSS, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
 - 발행 전 재확인: FOMC 성명서 원문 날짜와 발표 시각 확인
 - 발행 전 재확인: 점도표/경제전망 최신 버전 확인
 - 발행 전 재확인: 달러, 미국채 금리, 나스닥 관련 수치 재확인
@@ -236,14 +236,16 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 ## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - keyword: `ai_semiconductors`
-- publish_date: `2026-07-16`
-- priority_score: `71.0`
+- publish_date: `2026-07-17`
+- priority_score: `113.0`
 - review_verdict: `approve` / score `100`
-- quality_status: `review_before_publish`
+- quality_status: `pass`
 - hero_image_selected: `True`
-- ready_now: `False`
+- ready_now: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
 - draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-semiconductors.md`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html`
 - image 대표 이미지: Unsplash / `semiconductor chip blue abstract` / Unsplash License
@@ -264,17 +266,17 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 도입부
 
-2026년 7월 14일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 7월 15일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 해외 주요 매체 보도, 유튜브 해설를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Silicon shadows: inside the black market for AI chips | FT Film` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+예를 들어 `ASML jumps over 7% after hiking sales forecast for second time this year on strong AI chip demand` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Silicon shadows: inside the black market for AI chips | FT Film`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `ASML jumps over 7% after hiking sales forecast for second time this year on strong AI chip demand`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `나스닥과 S&P500 상대 강도`, 다른 하나는 `미국채 10년물 금리`입니다.
 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -322,7 +324,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: Financial Times YouTube
+- 주요 참고 소스: CNBC Top News, Financial Times Home, Financial Times World, Financial Times YouTube
 - 발행 전 재확인: 기업 실적/가이던스 수치 원문 확인
 - 발행 전 재확인: 반도체 섹터 전반 일반화 과장 여부 점검
 - 발행 전 재확인: 대표 종목 티커와 실적 날짜 재확인

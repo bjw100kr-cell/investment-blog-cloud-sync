@@ -3,7 +3,7 @@
 검색 유입을 빨리 만들기 위해 Search Console 검증 후 먼저 색인 확인할 URL과 내부링크 액션을 정리합니다.
 
 - target_daily_visitors: `200`
-- daily_traffic_projection: `186`
+- daily_traffic_projection: `337`
 - search_console_required: `True`
 
 ## Sitemaps
@@ -17,7 +17,11 @@
   - url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Ffomc.html
-- `high` / `bitcoin` / 예상 `91`명: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+- `high` / `china` / 예상 `91`명: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+  - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
+  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_510.html
+  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_510.html
+- `medium` / `bitcoin` / 예상 `68`명: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post.html
@@ -89,10 +93,6 @@
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_875.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_875.html
   - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_875.html
-- `watch` / `china` / 예상 `0`명: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-  - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
-  - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_510.html
-  - site search: https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_510.html
 - `watch` / `us_index_flow` / 예상 `0`명: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
   - url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
   - inspect: https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fgimu-economy-insight.blogspot.com%2F2026%2F06%2Fblog-post_30.html

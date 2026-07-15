@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-07-14T16:45:04.061925+00:00`
+- generated_at: `2026-07-15T07:30:57.589932+00:00`
 
 ## fomc
 
@@ -27,7 +27,7 @@
 - html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html
 - meta_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - meta_description: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
-- follow_up_post_count: 0
+- follow_up_post_count: 3
 
 ## china
 

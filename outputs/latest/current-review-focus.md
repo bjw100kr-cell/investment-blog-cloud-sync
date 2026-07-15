@@ -19,11 +19,11 @@
 - CTA focus: ETF·규제·초보 가이드 글로 연결
 - final retention CTA: 비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.
 - later revisit CTA: 코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- demand_signal_score: `3400`
+- demand_signal_score: `400`
 - freshness: `fresh` / newest evidence age `0.0` days
-- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin jumps on lowest US CPI since 2020 as traders stay wary of $64K failure
+- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade
 - freshness_recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
-- sources: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- sources: CoinDesk RSS, Cointelegraph, Google Trends US
 - advisory_checks: canonical_url_present, newsletter_ready, ga4_ready
 - next_action: 사용자 최종 확인 후 Blogger draft 업로드
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
@@ -35,9 +35,9 @@
 - excerpt: - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
 - preview: 한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
-- evidence: Cointelegraph / 2026-07-14T14:53:13+00:00 / Bitcoin jumps on lowest US CPI since 2020 as traders stay wary of $64K failure
-- evidence: Investing.com Crypto News / 2026-07-14 14:03:57 / Bitcoin climbs to $63.8k on cool CPI data, but gains limited amid Iran, rate fears
-- evidence: Investing.com Crypto News / 2026-07-14 07:04:32 / Bitcoin teeters above support after 48% drop: Live levels
+- evidence: CoinDesk RSS / 2026-07-15T05:19:14+00:00 / Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade
+- evidence: Investing.com Crypto News / 2026-07-15 07:04:50 / Bitcoin breaks above resistance near $65K: Live levels
+- evidence: Investing.com Crypto News / 2026-07-15 06:26:38 / Bitcoin rebounds to near $65k as rate jitters ease; Iran tensions limit gains
 - hero_image_search: `bitcoin blockchain abstract blue finance` / https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/
 - hero_image_apply_helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword bitcoin --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md`
@@ -53,11 +53,11 @@
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
 - final retention CTA: FOMC 흐름이 여기서 끝이 아닙니다. 아래 체크포인트 글과 초보자 가이드까지 같이 보면 다음 일정에서 뭘 봐야 할지 훨씬 선명해집니다.
 - later revisit CTA: 거시 이벤트를 놓치지 않으려면 다음 체크포인트 글까지 같이 보고, 이후에는 텔레그램/구독 채널로 이어 받아보세요.
-- demand_signal_score: `5100`
-- freshness: `aging` / newest evidence age `4.9` days
-- freshness_summary: 아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Federal Reserve issues FOMC statement
-- freshness_recommendation: 초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.
-- sources: CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press
+- demand_signal_score: `4200`
+- freshness: `stale` / newest evidence age `5.5` days
+- freshness_summary: 핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement
+- freshness_recommendation: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
+- sources: CoinDesk RSS, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
 - advisory_checks: canonical_url_present, newsletter_ready, ga4_ready
 - next_action: 사용자 최종 확인 후 Blogger draft 업로드
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`

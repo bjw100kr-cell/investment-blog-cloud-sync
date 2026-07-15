@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T16:45:01.367543+00:00",
+  "generated_at": "2026-07-15T07:30:55.005122+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -14,37 +14,38 @@
     {
       "keyword": "fomc",
       "recommended_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음",
-      "total_score": 96.0,
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "total_score": 94.0,
       "monetization_score": 15,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
-        "NYT Business",
         "Reuters Markets via Google News RSS"
       ]
     },
     {
       "keyword": "bitcoin",
       "recommended_title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
-      "total_score": 82.0,
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (cryptocurrency trading)",
+      "total_score": 89.0,
       "monetization_score": 15,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
+        "Google Trends US",
         "Investing.com Crypto News"
       ]
     },
     {
       "keyword": "ai_semiconductors",
       "recommended_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "reason": "섹터/세계 흐름 연결 해설 가능",
-      "total_score": 44.0,
+      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "total_score": 78.0,
       "monetization_score": 15,
       "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
         "Financial Times YouTube"
       ]
     }
@@ -60,6 +61,16 @@
       "weighted_priority_score": 16.5
     },
     {
+      "category": "global-sector",
+      "post_count": 2,
+      "keywords": [
+        "ai_semiconductors",
+        "china"
+      ],
+      "avg_monetization_score": 14.5,
+      "weighted_priority_score": 15.23
+    },
+    {
       "category": "macro",
       "post_count": 1,
       "keywords": [
@@ -67,16 +78,6 @@
       ],
       "avg_monetization_score": 15.0,
       "weighted_priority_score": 15.0
-    },
-    {
-      "category": "global-sector",
-      "post_count": 2,
-      "keywords": [
-        "ai_semiconductors",
-        "china"
-      ],
-      "avg_monetization_score": 14.0,
-      "weighted_priority_score": 14.7
     }
   ],
   "brand_lane_summary": [
@@ -114,11 +115,23 @@
       "keywords": [
         "china"
       ],
-      "avg_monetization_score": 13.0
+      "avg_monetization_score": 14.0
     }
   ],
   "query_watchlist": [],
   "trend_watchlist": [
+    {
+      "keyword": "bitcoin",
+      "trend_queries": [
+        "cryptocurrency trading"
+      ],
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "regions": [
+        "US"
+      ],
+      "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
+    },
     {
       "keyword": "fomc",
       "trend_queries": [],
@@ -136,7 +149,7 @@
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "bitcoin",
+      "keyword": "china",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -144,7 +157,7 @@
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "oil",
+      "keyword": "ai_semiconductors",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
