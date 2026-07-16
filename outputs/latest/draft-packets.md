@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-07-15T16:53:15.056891+00:00`
+- 생성 시각: `2026-07-16T07:38:10.147439+00:00`
 
 ## 1. fomc
 
@@ -70,13 +70,13 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - New York Fed President Williams says inflation has peaked, rates 'well positioned'
+  - Fed Chairman Warsh says he meets 'often' with Trump administration, defends independence
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 점수: 82.0
+- 점수: 85.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Crypto Long & Short: To ETH or not to ETH — is SOL the better diversifier?
-  - President Trump expected to meet with senators to work on ethics concerns in crypto bill
-  - BlackRock's crypto assets fall 39% despite $15 billion of net inflows
-  - Bitcoin hits $65.5K as more surprise US inflation data sparks three-week BTC price high
-  - Here’s what happened in crypto today
+  - Live updates: ZachXBT calls hardware wallets complete garbage; BTC steady after Korea rate hike
+  - U.S. Senate unanimously opposes clemency for FTX founder Sam Bankman-Fried
+  - A bitcoin wallet dormant since the 2017 peak just moved $383 million
+  - Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund
+  - Two groups of bitcoin investors sell on the rise as U.S. inflation lifts prices to nearly $65,000
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 75.0
+- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (tsmc stock)
+- 점수: 89.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,17 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Wall St edges higher with earnings in focus; chip stocks retreat - Reuters
+  - tsmc stock
+  - TSMC second-quarter profit jumps over 77%, beating estimates, on high-end chip boom
+  - SK Hynix shares plunge over 11% as Asia sees tech rout, tracking U.S. chip losses
+  - TSMC posts 77% profit jump for Q2, surging past market expectations - Reuters
   - ASML capacity upgrade soothes AI chip bottleneck fears - Reuters
-  - Copper is shadowing the AI hyperscaler stocks — but wait for a dip before buying
-  - Silicon shadows: inside the black market for AI chips | FT Film
-  - China’s Chip Champion to Raise Billions in Race for A.I. Control
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 63.0
+- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 77.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,6 +276,8 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - VIEW China's second-quarter economic growth misses market forecast - Reuters
+  - Alibaba and Baidu shares jump in Hong Kong on Apple AI partnership
+  - Ex-Fed advisor gets over three years in prison for lying about China ties
   - The Taiwan Strait Was China's Achilles' Heel
-  - China’s Chip Champion to Raise Billions in Race for A.I. Control
+  - Merz and Macron to reset ties after fighter jet project collapse
+  - Europe Wants to Break Free From American and Chinese Technology. But How?

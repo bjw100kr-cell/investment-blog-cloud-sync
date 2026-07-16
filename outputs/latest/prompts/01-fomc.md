@@ -116,7 +116,7 @@
     "Federal Reserve issues FOMC statement",
     "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
     "Federal Reserve issues FOMC statement",
-    "New York Fed President Williams says inflation has peaked, rates 'well positioned'"
+    "Fed Chairman Warsh says he meets 'often' with Trump administration, defends independence"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [

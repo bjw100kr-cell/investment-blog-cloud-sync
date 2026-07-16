@@ -4,8 +4,8 @@
 
 - item_count: `9`
 - pass_count: `8`
-- review_before_publish_count: `0`
-- needs_fix_count: `1`
+- review_before_publish_count: `1`
+- needs_fix_count: `0`
 
 ## Readiness Checklist Reference
 
@@ -120,15 +120,15 @@
 - fail / `low` / `newsletter_ready`: 뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다.
 - fail / `low` / `ga4_ready`: GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다.
 
-## ethereum: 지금 투자자가 확인할 체크포인트 5가지
+## cpi: 지금 투자자가 확인할 체크포인트 5가지
 
-- keyword: `seo_ethereum_8`
+- keyword: `seo_cpi_11`
 - source_group: `seo`
-- status: `needs_fix`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-ethereum-지금-투자자가-확인할-체크포인트-5가지.html`
+- status: `review_before_publish`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-cpi-지금-투자자가-확인할-체크포인트-5가지.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
-- fail / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
+- ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
 - ok / `high` / `disclaimer_present`: 면책/운영 원칙 문구가 있어야 투자 해설 블로그 신뢰도에 유리합니다.
 - ok / `high` / `profitable_article_structure`: 수익형 금융 글은 첫 화면 요약, 시나리오, 리스크, 오해 정리, 체크포인트가 있어야 체류와 검색 만족도가 올라갑니다.
 - ok / `high` / `specific_information_density`: 달러, 금리, ETF 자금, 규제 일정, 대표 종목, 경제지표 같은 구체 체크 대상이 부족하면 정보 전달력이 약합니다.
@@ -148,7 +148,7 @@
 
 ## AI 반도체 주식 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_ai_semiconductors_9`
+- keyword: `seo_ai_semiconductors_6`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-ai-반도체-주식-관련-대표-종목-한눈에-보기.html`
@@ -174,7 +174,7 @@
 
 ## 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_china_12`
+- keyword: `seo_china_10`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html`
@@ -200,7 +200,7 @@
 
 ## 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 
-- keyword: `seo_china_13`
+- keyword: `seo_china_12`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html`
@@ -226,7 +226,7 @@
 
 ## 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 
-- keyword: `seo_china_14`
+- keyword: `seo_china_13`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html`

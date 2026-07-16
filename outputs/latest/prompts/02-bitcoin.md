@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Crypto Long & Short: To ETH or not to ETH — is SOL the better diversifier?",
-    "President Trump expected to meet with senators to work on ethics concerns in crypto bill",
-    "BlackRock's crypto assets fall 39% despite $15 billion of net inflows",
-    "Bitcoin hits $65.5K as more surprise US inflation data sparks three-week BTC price high",
-    "Here’s what happened in crypto today"
+    "Live updates: ZachXBT calls hardware wallets complete garbage; BTC steady after Korea rate hike",
+    "U.S. Senate unanimously opposes clemency for FTX founder Sam Bankman-Fried",
+    "A bitcoin wallet dormant since the 2017 peak just moved $383 million",
+    "Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund",
+    "Two groups of bitcoin investors sell on the rise as U.S. inflation lifts prices to nearly $65,000"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 82.0,
-    "search_score": 26,
+    "total_score": 85.0,
+    "search_score": 29,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,

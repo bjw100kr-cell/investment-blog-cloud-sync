@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-07-15T16:53:15.056891+00:00",
+  "generated_at": "2026-07-16T07:38:10.147439+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 1,
+      "traffic_score_sum": 1000,
+      "max_approx_traffic": 1000,
+      "trend_queries": [
+        "tsmc stock"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 1200,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,11 +30,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4800,
+      "demand_signal_score": 6600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 36,
+      "source_snapshot_score": 54,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +42,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Crypto Long & Short: To ETH or not to ETH — is SOL the better diversifier?",
-        "President Trump expected to meet with senators to work on ethics concerns in crypto bill",
-        "BlackRock's crypto assets fall 39% despite $15 billion of net inflows"
+        "Live updates: ZachXBT calls hardware wallets complete garbage; BTC steady after Korea rate hike",
+        "U.S. Senate unanimously opposes clemency for FTX founder Sam Bankman-Fried",
+        "A bitcoin wallet dormant since the 2017 peak just moved $383 million"
       ]
     },
     {
@@ -55,33 +71,33 @@
       ]
     },
     {
-      "keyword": "oil",
+      "keyword": "cpi",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2900,
+      "demand_signal_score": 3600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 17,
-      "source_count": 6,
+      "source_snapshot_score": 24,
+      "source_count": 5,
       "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
+        "CoinDesk RSS",
         "Financial Times World",
-        "Financial Times YouTube",
-        "MarketWatch Breaking News"
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Wholesale prices unexpectedly declined 0.3% in June on big drop in gasoline",
-        "Oil traders warn market is close to running on empty as Hormuz shuts again",
-        "America’s oil refiners could more than triple profits as Iran war sparks massive boom"
+        "Two groups of bitcoin investors sell on the rise as U.S. inflation lifts prices to nearly $65,000",
+        "Bitcoin turns marginally lower as soft U.S. Inflation data offset by Iran tensions",
+        "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets"
       ]
     },
     {
-      "keyword": "ethereum",
+      "keyword": "china",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -92,15 +108,17 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 14,
-      "source_count": 2,
+      "source_count": 4,
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph"
+        "CNBC Top News",
+        "Financial Times World",
+        "NYT Business",
+        "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
-        "Crypto Long & Short: To ETH or not to ETH — is SOL the better diversifier?",
-        "A timeline of the Ethereum Foundation's ongoing shakeup",
-        "Aave launches V4 on Avalanche, laying groundwork for tokenized credit markets"
+        "Alibaba and Baidu shares jump in Hong Kong on Apple AI partnership",
+        "Ex-Fed advisor gets over three years in prison for lying about China ties",
+        "The Taiwan Strait Was China's Achilles' Heel"
       ]
     }
   ],

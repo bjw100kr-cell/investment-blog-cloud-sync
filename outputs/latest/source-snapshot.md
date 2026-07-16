@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-15T16:53:15.056891+00:00`
+- 생성 시각: `2026-07-16T07:38:10.147439+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,54 +106,51 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 36, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `bitcoin`: score 54, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `ai_semiconductors`: score 29, source_count 4, sources CNBC Top News, Financial Times YouTube, Google Trends US, Reuters Markets via Google News RSS
 - `fomc`: score 26, source_count 2, sources CNBC Top News, Federal Reserve Monetary Policy Press
-- `oil`: score 17, source_count 6, sources CNBC Top News, Financial Times Home, Financial Times World, Financial Times YouTube, MarketWatch Breaking News, NYT Business
-- `ethereum`: score 14, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `cpi`: score 14, source_count 4, sources CNBC Top News, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
-- `ai_semiconductors`: score 12, source_count 4, sources Financial Times YouTube, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `us_index_flow`: score 8, source_count 2, sources CNBC Top News, MarketWatch Breaking News
-- `treasury_yields`: score 8, source_count 3, sources CNBC Top News, Financial Times World, MarketWatch Breaking News
-- `china`: score 8, source_count 3, sources NYT Business, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
-- `dollar`: score 4, source_count 1, sources CoinDesk RSS
+- `cpi`: score 24, source_count 5, sources CoinDesk RSS, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `china`: score 14, source_count 4, sources CNBC Top News, Financial Times World, NYT Business, 무역킹 Trade King YouTube
+- `treasury_yields`: score 8, source_count 3, sources CNBC Top News, Cointelegraph, MarketWatch Breaking News
+- `tariffs_trade`: score 8, source_count 3, sources CNBC Top News, Financial Times World, NYT Business
+- `oil`: score 5, source_count 2, sources Financial Times Home, Financial Times YouTube
+- `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
+- `dollar`: score 3, source_count 1, sources Cointelegraph
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 36, headlines 11
-  - Crypto Long & Short: To ETH or not to ETH — is SOL the better diversifier?
-  - President Trump expected to meet with senators to work on ethics concerns in crypto bill
-  - BlackRock's crypto assets fall 39% despite $15 billion of net inflows
+- `bitcoin`: score 54, headlines 16
+  - Live updates: ZachXBT calls hardware wallets complete garbage; BTC steady after Korea rate hike
+  - U.S. Senate unanimously opposes clemency for FTX founder Sam Bankman-Fried
+  - A bitcoin wallet dormant since the 2017 peak just moved $383 million
+- `ai_semiconductors`: score 29, headlines 6
+  - tsmc stock
+  - TSMC second-quarter profit jumps over 77%, beating estimates, on high-end chip boom
+  - SK Hynix shares plunge over 11% as Asia sees tech rout, tracking U.S. chip losses
 - `fomc`: score 26, headlines 6
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- `oil`: score 17, headlines 7
-  - Wholesale prices unexpectedly declined 0.3% in June on big drop in gasoline
-  - Oil traders warn market is close to running on empty as Hormuz shuts again
-  - America’s oil refiners could more than triple profits as Iran war sparks massive boom
-- `cpi`: score 14, headlines 5
-  - Bitcoin hits $65.5K as more surprise US inflation data sparks three-week BTC price high
-  - New York Fed President Williams says inflation has peaked, rates 'well positioned'
-  - Bitcoin climbs to $65k as PPI wholesale inflation falls; Iran tensions limit gains
-- `ethereum`: score 14, headlines 4
-  - Crypto Long & Short: To ETH or not to ETH — is SOL the better diversifier?
-  - A timeline of the Ethereum Foundation's ongoing shakeup
-  - Aave launches V4 on Avalanche, laying groundwork for tokenized credit markets
-- `ai_semiconductors`: score 12, headlines 5
-  - Wall St edges higher with earnings in focus; chip stocks retreat - Reuters
-  - ASML capacity upgrade soothes AI chip bottleneck fears - Reuters
-  - Copper is shadowing the AI hyperscaler stocks — but wait for a dip before buying
-- `china`: score 8, headlines 3
-  - VIEW China's second-quarter economic growth misses market forecast - Reuters
+- `cpi`: score 24, headlines 8
+  - Two groups of bitcoin investors sell on the rise as U.S. inflation lifts prices to nearly $65,000
+  - Bitcoin turns marginally lower as soft U.S. Inflation data offset by Iran tensions
+  - Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets
+- `china`: score 14, headlines 5
+  - Alibaba and Baidu shares jump in Hong Kong on Apple AI partnership
+  - Ex-Fed advisor gets over three years in prison for lying about China ties
   - The Taiwan Strait Was China's Achilles' Heel
-  - China’s Chip Champion to Raise Billions in Race for A.I. Control
+- `tariffs_trade`: score 8, headlines 3
+  - U.S. slaps 25% tariff on most Brazilian goods over 'unfair trade practices'
+  - Trump administration slaps 25% tariff on Brazil as bilateral ties deteriorate
+  - Trump Administration to Impose New Tariffs on Brazil
 - `treasury_yields`: score 8, headlines 3
-  - Mortgage rates rise to highest level in nearly a year, causing homebuyers to pause
+  - Hyperion DeFi to deploy 500K HYPE for Hyperliquid HIP-3 markets
+  - Fed Chairman Warsh says he meets 'often' with Trump administration, defends independence
   - You are missing the bond deal of the decade — and it is guaranteed to beat inflation
-  - The UK is forgetting the dull bit of climate change policy
-- `us_index_flow`: score 8, headlines 3
-  - Warren Buffett on the market today: 'It's tough to find values when everybody is preferring gambling'
-  - SpaceX stock sinks below $135 IPO price for the first time
-  - This overlooked index is a better investment than the S&P 500
-- `dollar`: score 4, headlines 1
-  - Open USD poses biggest threat yet to Circle's USDC, CoinShares says
+- `oil`: score 5, headlines 2
+  - US hits tanker heading for Kharg Island under renewed Iran blockade
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+- `crypto_etf`: score 4, headlines 1
+  - Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund
+- `dollar`: score 3, headlines 1
+  - Ostium pauses trading as security firms report multimillion-dollar oracle exploit
