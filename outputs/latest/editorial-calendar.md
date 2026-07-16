@@ -1,21 +1,20 @@
 # 7일 편집 캘린더
 
-- 생성 시각: `2026-07-16T07:38:10.147439+00:00`
+- 생성 시각: `2026-07-16T16:50:51.559097+00:00`
 - 목적: stale 뉴스는 직접 발행에서 빼고, 거시경제·코인·미국주식·세계 흐름 레인을 주간 단위로 균형 있게 유지
 
 ## 레인 커버리지
 
 - `거시경제` / target `0.3` / scheduled_count `2` / actual_share `0.33` / status `covered`
-- `코인` / target `0.3` / scheduled_count `2` / actual_share `0.33` / status `covered`
+- `코인` / target `0.3` / scheduled_count `3` / actual_share `0.5` / status `covered`
 - `미국주식` / target `0.2` / scheduled_count `1` / actual_share `0.17` / status `covered`
-- `세계 흐름` / target `0.2` / scheduled_count `1` / actual_share `0.17` / status `covered`
+- `세계 흐름` / target `0.2` / scheduled_count `0` / actual_share `0.0` / status `gap`
 
 ## 이번 주 배치 메모
 
-- lane `macro` / keyword `fomc` / mode `direct` / freshness `unknown` / target_share `0.3`
+- lane `macro` / keyword `oil` / mode `direct` / freshness `unknown` / target_share `0.3`
 - lane `crypto` / keyword `bitcoin` / mode `direct` / freshness `fresh` / target_share `0.3`
 - lane `us-stocks` / keyword `ai_semiconductors` / mode `direct` / freshness `fresh` / target_share `0.2`
-- lane `world-flow` / keyword `china` / mode `direct` / freshness `fresh` / target_share `0.2`
 
 ## Day 1 · 2026-07-16 · lane_focus_macro
 
@@ -23,13 +22,13 @@
 - planning_mode: direct
 - freshness_status: unknown
 - 포스트 유형: breaking_explainer
-- 타깃 키워드: fomc
-- 작업 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 글 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 타깃 키워드: oil
+- 작업 제목: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+- 글 각도: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Federal Reserve Monetary Policy Press
-- 근거 소스/연결 키워드: CNBC Top News, Federal Reserve Monetary Policy Press
+- 내부링크 대상: Financial Times Home, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: Financial Times Home, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
 - 발행 메모: 당일 이슈 해설형 글
 
 ## Day 2 · 2026-07-17 · lane_focus_crypto
@@ -55,29 +54,14 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: ai_semiconductors
 - 작업 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 글 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (tsmc stock)
+- 글 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Financial Times YouTube, Google Trends US, Reuters Markets via Google News RSS
-- 근거 소스/연결 키워드: CNBC Top News, Financial Times YouTube, Google Trends US, Reuters Markets via Google News RSS
+- 내부링크 대상: Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
-## Day 4 · 2026-07-19 · lane_focus_world-flow
-
-- 브랜드 레인: 세계 흐름
-- planning_mode: direct
-- freshness_status: fresh
-- 포스트 유형: breaking_explainer
-- 타깃 키워드: china
-- 작업 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 글 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Financial Times World, NYT Business, 무역킹 Trade King YouTube
-- 근거 소스/연결 키워드: CNBC Top News, Financial Times World, NYT Business, 무역킹 Trade King YouTube
-- 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
-
-## Day 5 · 2026-07-20 · evergreen_support
+## Day 4 · 2026-07-19 · support
 
 - 브랜드 레인: 거시경제
 - planning_mode: evergreen
@@ -92,7 +76,7 @@
 - 근거 소스/연결 키워드: fomc, cpi, pce, jobs, treasury_yields, dollar
 - 발행 메모: 검색 저변을 넓히는 설명형 글
 
-## Day 6 · 2026-07-21 · secondary_lane_support
+## Day 5 · 2026-07-20 · evergreen_support
 
 - 브랜드 레인: 코인
 - planning_mode: evergreen
@@ -107,17 +91,32 @@
 - 근거 소스/연결 키워드: dollar, treasury_yields, fomc, oil, china
 - 발행 메모: 검색 저변을 넓히는 설명형 글
 
+## Day 6 · 2026-07-21 · secondary_lane_support
+
+- 브랜드 레인: 코인
+- planning_mode: evergreen
+- freshness_status: evergreen
+- 포스트 유형: evergreen_explainer
+- 타깃 키워드: 미국 cpi 뜻
+- 작업 제목: 미국 CPI 뜻, 발표 일정, 주식과 코인 영향 정리
+- 글 각도: 인플레이션 지표가 금리 기대와 위험자산 흐름에 연결되는 구조 설명
+- 검색 의도: 미국 CPI 발표가 왜 시장을 흔드는지 이해하려는 검색자
+- 수익화 경로: 지속 검색형 경제 키워드 유입, 거시 카테고리 체류 시간 확대
+- 내부링크 대상: fomc_guide, dollar_guide
+- 근거 소스/연결 키워드: cpi, pce, fomc, dollar, oil
+- 발행 메모: 검색 저변을 넓히는 설명형 글
+
 ## Day 7 · 2026-07-22 · weekly_recap
 
 - 브랜드 레인: 거시경제
 - planning_mode: recap
 - freshness_status: mixed
 - 포스트 유형: weekly_macro_recap
-- 타깃 키워드: fomc, bitcoin, ai_semiconductors
+- 타깃 키워드: oil, bitcoin, ai_semiconductors
 - 작업 제목: 이번 주 주식·코인·거시 흐름 한 번에 정리
 - 글 각도: 상위 이슈 3개를 한 글에서 연결해 재방문 독자와 체류 시간을 늘리는 회고형 글
 - 검색 의도: 이번 주 시장 흐름을 짧게 복기하고 다음 주 포인트를 잡고 싶은 독자
 - 수익화 경로: 주간 회고형 콘텐츠로 페이지뷰 누적과 내부 링크 허브 역할
-- 내부링크 대상: fomc, bitcoin, ai_semiconductors
-- 근거 소스/연결 키워드: fomc, bitcoin, ai_semiconductors
+- 내부링크 대상: oil, bitcoin, ai_semiconductors
+- 근거 소스/연결 키워드: oil, bitcoin, ai_semiconductors
 - 발행 메모: 주간 정리형 글로 카테고리 허브 역할 수행

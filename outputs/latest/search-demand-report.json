@@ -1,28 +1,12 @@
 {
-  "generated_at": "2026-07-16T07:38:10.147439+00:00",
+  "generated_at": "2026-07-16T16:50:51.559097+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "ai_semiconductors",
-      "trend_count": 1,
-      "traffic_score_sum": 1000,
-      "max_approx_traffic": 1000,
-      "trend_queries": [
-        "tsmc stock"
-      ],
-      "regions": [
-        "US"
-      ],
-      "demand_signal_score": 1200,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -30,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6600,
+      "demand_signal_score": 6500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 54,
+      "source_snapshot_score": 53,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -42,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Live updates: ZachXBT calls hardware wallets complete garbage; BTC steady after Korea rate hike",
-        "U.S. Senate unanimously opposes clemency for FTX founder Sam Bankman-Fried",
-        "A bitcoin wallet dormant since the 2017 peak just moved $383 million"
+        "Keyrock acquires BlockFills trading assets to expand institutional crypto business",
+        "Crypto for Advisors: Strengthening defenses against AI fraud",
+        "Crypto brokerage firm Alpaca raises $135 million for tokenized stock infrastructure"
       ]
     },
     {
@@ -54,14 +38,13 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3800,
+      "demand_signal_score": 3200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 26,
-      "source_count": 2,
+      "source_snapshot_score": 20,
+      "source_count": 1,
       "source_names": [
-        "CNBC Top News",
         "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
@@ -71,54 +54,52 @@
       ]
     },
     {
-      "keyword": "cpi",
+      "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3600,
+      "demand_signal_score": 2500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 24,
-      "source_count": 5,
+      "source_snapshot_score": 13,
+      "source_count": 3,
       "source_names": [
-        "CoinDesk RSS",
-        "Financial Times World",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News",
+        "Financial Times YouTube",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Two groups of bitcoin investors sell on the rise as U.S. inflation lifts prices to nearly $65,000",
-        "Bitcoin turns marginally lower as soft U.S. Inflation data offset by Iran tensions",
-        "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets"
+        "S&P 500, Nasdaq fall as chip stocks weaken; earnings and data in focus - Reuters",
+        "Chipmakers chip away at stocks, oil hovers at $85 - Reuters",
+        "TSMC Q2 profit jumps 77% to record, far surpasses expectations - Reuters"
       ]
     },
     {
-      "keyword": "china",
+      "keyword": "oil",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2600,
+      "demand_signal_score": 2200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
+      "source_snapshot_score": 10,
       "source_count": 4,
       "source_names": [
-        "CNBC Top News",
-        "Financial Times World",
+        "Financial Times Home",
+        "Financial Times YouTube",
         "NYT Business",
-        "무역킹 Trade King YouTube"
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Alibaba and Baidu shares jump in Hong Kong on Apple AI partnership",
-        "Ex-Fed advisor gets over three years in prison for lying about China ties",
-        "The Taiwan Strait Was China's Achilles' Heel"
+        "US hits tanker heading for Kharg Island under renewed Iran blockade",
+        "Chipmakers chip away at stocks, oil hovers at $85 - Reuters",
+        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
       ]
     }
   ],

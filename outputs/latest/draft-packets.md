@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-07-16T07:38:10.147439+00:00`
+- 생성 시각: `2026-07-16T16:50:51.559097+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 92.0
+- 각도: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- 점수: 86.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,7 +70,6 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Fed Chairman Warsh says he meets 'often' with Trump administration, defends independence
 
 ## 2. bitcoin
 
@@ -136,17 +135,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Live updates: ZachXBT calls hardware wallets complete garbage; BTC steady after Korea rate hike
-  - U.S. Senate unanimously opposes clemency for FTX founder Sam Bankman-Fried
-  - A bitcoin wallet dormant since the 2017 peak just moved $383 million
-  - Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund
-  - Two groups of bitcoin investors sell on the rise as U.S. inflation lifts prices to nearly $65,000
+  - Keyrock acquires BlockFills trading assets to expand institutional crypto business
+  - Crypto for Advisors: Strengthening defenses against AI fraud
+  - Crypto brokerage firm Alpaca raises $135 million for tokenized stock infrastructure
+  - Ledger wants AI agents to manage crypto without holding your keys
+  - Galaxy targets institutional stablecoin yield with new DeFi vaults
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (tsmc stock)
-- 점수: 89.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 75.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,22 +205,22 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - tsmc stock
-  - TSMC second-quarter profit jumps over 77%, beating estimates, on high-end chip boom
-  - SK Hynix shares plunge over 11% as Asia sees tech rout, tracking U.S. chip losses
-  - TSMC posts 77% profit jump for Q2, surging past market expectations - Reuters
-  - ASML capacity upgrade soothes AI chip bottleneck fears - Reuters
+  - S&P 500, Nasdaq fall as chip stocks weaken; earnings and data in focus - Reuters
+  - Chipmakers chip away at stocks, oil hovers at $85 - Reuters
+  - TSMC Q2 profit jumps 77% to record, far surpasses expectations - Reuters
+  - Silicon shadows: inside the black market for AI chips | FT Film
+  - Anthropic Inches Toward a Mega-I.P.O.
 
-## 4. china
+## 4. oil
 
-- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 77.0
+- 추천 제목: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+- 각도: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 점수: 70.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -270,14 +269,13 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 정책 발표 또는 인터뷰 원문 여부 확인
-  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
-  - 한국/미국 시장 영향은 시나리오형으로 서술
+  - WTI/Brent 수치 재확인
+  - 공급 뉴스 원문 출처 확인
+  - 인플레이션/금리 연결 문장 점검
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Alibaba and Baidu shares jump in Hong Kong on Apple AI partnership
-  - Ex-Fed advisor gets over three years in prison for lying about China ties
-  - The Taiwan Strait Was China's Achilles' Heel
-  - Merz and Macron to reset ties after fighter jet project collapse
-  - Europe Wants to Break Free From American and Chinese Technology. But How?
+  - US hits tanker heading for Kharg Island under renewed Iran blockade
+  - Chipmakers chip away at stocks, oil hovers at $85 - Reuters
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+  - Strait of Hormuz Tanker Traffic Erodes Further as Oil Prices Rise

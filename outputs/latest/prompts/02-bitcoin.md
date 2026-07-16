@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Live updates: ZachXBT calls hardware wallets complete garbage; BTC steady after Korea rate hike",
-    "U.S. Senate unanimously opposes clemency for FTX founder Sam Bankman-Fried",
-    "A bitcoin wallet dormant since the 2017 peak just moved $383 million",
-    "Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund",
-    "Two groups of bitcoin investors sell on the rise as U.S. inflation lifts prices to nearly $65,000"
+    "Keyrock acquires BlockFills trading assets to expand institutional crypto business",
+    "Crypto for Advisors: Strengthening defenses against AI fraud",
+    "Crypto brokerage firm Alpaca raises $135 million for tokenized stock infrastructure",
+    "Ledger wants AI agents to manage crypto without holding your keys",
+    "Galaxy targets institutional stablecoin yield with new DeFi vaults"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-07-16T07:38:10.147439+00:00",
+  "generated_at": "2026-07-16T16:50:51.559097+00:00",
   "today_path": [
     {
       "step": "main_post",
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "why_revenue": "페이지뷰와 체류시간 균형 확보",
-      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-      "urgency": "publish_now",
-      "brand_lane": "macro",
-      "brand_lane_label": "거시경제"
-    },
-    {
-      "step": "seo_followup",
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
-      "why_revenue": "검색 유입 누적과 첫 방문 독자 확보",
-      "cta_focus": "거시 허브와 당일 해설 글로 연결",
-      "urgency": "follow_after_main",
-      "brand_lane": "macro",
-      "brand_lane_label": "거시경제"
-    },
-    {
-      "step": "next_slot",
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "why_revenue": "페이지뷰와 체류시간 균형 확보",
       "cta_focus": "ETF·규제·초보 가이드 글로 연결",
       "urgency": "prep_today",
       "brand_lane": "crypto",
-      "brand_lane_label": "코인",
+      "brand_lane_label": "코인"
+    },
+    {
+      "step": "seo_followup",
+      "keyword": "bitcoin",
+      "title": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+      "why_revenue": "초보 검색 유입과 긴 체류시간 확보",
+      "cta_focus": "코인 허브와 규제/ETF 글 연결",
+      "urgency": "follow_after_main",
+      "brand_lane": "crypto",
+      "brand_lane_label": "코인"
+    },
+    {
+      "step": "next_slot",
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "why_revenue": "페이지뷰와 체류시간 균형 확보",
+      "cta_focus": "실적·공급망·대표 종목 글로 연결",
+      "urgency": "watch",
+      "brand_lane": "us-stocks",
+      "brand_lane_label": "미국주식",
       "selection_mode": "direct",
       "freshness_status": "fresh"
     }
   ],
   "approval_commands": {
-    "batch": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
-    "single": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc"
+    "batch": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin oil",
+    "single": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin"
   },
   "monetization_gaps": [
     "analytics_stack",
@@ -44,9 +44,9 @@
     "retention_stack"
   ],
   "operator_summary": {
-    "main_post_first": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-    "seo_followup_after": "FOMC 이후 시장이 주식과 코인에 미치는 영향",
-    "next_slot_title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
+    "main_post_first": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+    "seo_followup_after": "비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조",
+    "next_slot_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지"
   },
   "path_policy": "main post는 현재 최적 단건 후보를 유지하고, next slot은 가능하면 다른 브랜드 레인에서 선택"
 }

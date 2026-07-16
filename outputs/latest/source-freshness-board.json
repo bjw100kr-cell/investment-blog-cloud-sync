@@ -1,60 +1,16 @@
 {
-  "generated_at": "2026-07-16T07:38:15.370963+00:00",
-  "snapshot_generated_at": "2026-07-16T07:38:10.147439+00:00",
+  "generated_at": "2026-07-16T16:50:55.877360+00:00",
+  "snapshot_generated_at": "2026-07-16T16:50:51.559097+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 2,
+    "fresh": 3,
     "aging": 0,
-    "stale": 1,
+    "stale": 0,
     "unknown": 0
   },
   "items": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-07-16",
-      "freshness_status": "stale",
-      "newest_evidence_iso": "2026-07-09T19:00:00+00:00",
-      "oldest_evidence_iso": "2026-04-29T18:00:00+00:00",
-      "newest_evidence_age_days": 6.5,
-      "source_count": 2,
-      "demand_signal_score": 3800,
-      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
-      "recovery_mode": "full_refresh_needed",
-      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
-      "recovery_command": "bash scripts/run_pipeline.sh",
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -62,38 +18,38 @@
       "ready_now": true,
       "publish_date": "2026-07-17",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-16T07:04:55+00:00",
-      "oldest_evidence_iso": "2026-07-16T04:09:10+00:00",
+      "newest_evidence_iso": "2026-07-16T16:32:01+00:00",
+      "oldest_evidence_iso": "2026-07-14T21:32:17+00:00",
       "newest_evidence_age_days": 0.0,
       "source_count": 3,
-      "demand_signal_score": 6600,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: A bitcoin wallet dormant since the 2017 peak just moved $383 million",
+      "demand_signal_score": 6500,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin slips to $64.2k as markets parse cooling rate jitters, Iran tensions",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "A bitcoin wallet dormant since the 2017 peak just moved $383 million",
-          "source_name": "CoinDesk RSS",
-          "published": "Thu, 16 Jul 2026 05:12:26 +0000",
-          "published_iso": "2026-07-16T05:12:26+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/16/a-bitcoin-wallet-dormant-since-the-2017-peak-just-moved-usd383-million",
+          "title": "Bitcoin slips to $64.2k as markets parse cooling rate jitters, Iran tensions",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-16 13:45:54",
+          "published_iso": "2026-07-16 13:45:54",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-steady-at-645k-as-markets-parse-cooling-rate-jitters-iran-tensions-4794658",
           "source_type": "rss"
         },
         {
-          "title": "Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund",
-          "source_name": "CoinDesk RSS",
-          "published": "Thu, 16 Jul 2026 04:56:15 +0000",
-          "published_iso": "2026-07-16T04:56:15+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/16/ether-outruns-bitcoin-as-etf-money-returns-almost-all-of-from-blackrock-s-fund",
+          "title": "Bitcoin tests $65,500 resistance as volume fades: Live levels",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-16 07:04:55",
+          "published_iso": "2026-07-16 07:04:55",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-at-supertrend-support-hourly-levels-93CH-4787508",
           "source_type": "rss"
         },
         {
-          "title": "Two groups of bitcoin investors sell on the rise as U.S. inflation lifts prices to nearly $65,000",
-          "source_name": "CoinDesk RSS",
-          "published": "Thu, 16 Jul 2026 04:09:10 +0000",
-          "published_iso": "2026-07-16T04:09:10+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/16/two-groups-of-bitcoin-investors-sell-on-the-rise-as-inflation-lifts-prices-to-nearly-usd65-000",
+          "title": "Bitcoin turns marginally lower as soft U.S. Inflation data offset by Iran tensions",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-15 22:17:08",
+          "published_iso": "2026-07-15 22:17:08",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-to-near-65k-as-rate-jitters-ease-iran-tensions-limit-gains-4792215",
           "source_type": "rss"
         }
       ]
@@ -105,11 +61,11 @@
       "ready_now": true,
       "publish_date": "2026-07-18",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-16T07:02:36+00:00",
+      "newest_evidence_iso": "2026-07-16T15:59:46+00:00",
       "oldest_evidence_iso": "2026-07-16T02:09:00+00:00",
       "newest_evidence_age_days": 0.0,
-      "source_count": 4,
-      "demand_signal_score": 1200,
+      "source_count": 3,
+      "demand_signal_score": 2500,
       "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
@@ -118,25 +74,68 @@
         {
           "title": "Silicon shadows: inside the black market for AI chips | FT Film",
           "source_name": "Financial Times YouTube",
-          "published": "30K views",
-          "published_iso": "30K views",
+          "published": "32K views",
+          "published_iso": "32K views",
           "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
           "source_type": "youtube_channel"
         },
         {
-          "title": "SK Hynix shares plunge over 11% as Asia sees tech rout, tracking U.S. chip losses",
-          "source_name": "CNBC Top News",
-          "published": "Thu, 16 Jul 2026 07:02:36 GMT",
-          "published_iso": "2026-07-16T07:02:36+00:00",
-          "link": "https://www.cnbc.com/2026/07/16/sk-hynix-falls-amid-asia-tech-rout-tracking-us-semiconductor-losses.html",
+          "title": "Anthropic Inches Toward a Mega-I.P.O.",
+          "source_name": "NYT Business",
+          "published": "Thu, 16 Jul 2026 15:59:46 +0000",
+          "published_iso": "2026-07-16T15:59:46+00:00",
+          "link": "https://www.nytimes.com/2026/07/16/business/dealbook/anthropic-ipo-ai.html",
           "source_type": "rss"
         },
         {
-          "title": "TSMC second-quarter profit jumps over 77%, beating estimates, on high-end chip boom",
-          "source_name": "CNBC Top News",
-          "published": "Thu, 16 Jul 2026 05:52:58 GMT",
-          "published_iso": "2026-07-16T05:52:58+00:00",
-          "link": "https://www.cnbc.com/2026/07/16/tsmc-second-quarter-profit-.html",
+          "title": "S&P 500, Nasdaq fall as chip stocks weaken; earnings and data in focus - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Thu, 16 Jul 2026 14:15:07 GMT",
+          "published_iso": "2026-07-16T14:15:07+00:00",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWGU5QUxvUmRMUXgzYmxBbXIxRnM5aTE2Q014TV9HeVlIdVQ0RGV4aWx3a0RMQ2djdUdvSEwtX2diaDZ2QkhfaWE4WmFpb1pWTzlsajhWaTdqYWp4N0hnSjRRWGVIQU93VnA1czVqOGZYekhOMDNWMmZFSnVxTmxybHhxR2NLTVJDR3NxWVE5ZDFEUC11N2NvU0NXSTJrbTJXbXNsQjZsZklUb19vVy1wMi1mU1YxSGc?oc=5",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "oil",
+      "title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "publish_date": "2026-07-16",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-07-16T15:57:54+00:00",
+      "oldest_evidence_iso": "2026-07-16T01:10:14+00:00",
+      "newest_evidence_age_days": 0.0,
+      "source_count": 4,
+      "demand_signal_score": 2200,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Zelenskyy’s government plunged into turmoil by defence minister’s firing",
+      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Zelenskyy’s government plunged into turmoil by defence minister’s firing",
+          "source_name": "Financial Times Home",
+          "published": "Thu, 16 Jul 2026 15:57:54 GMT",
+          "published_iso": "2026-07-16T15:57:54+00:00",
+          "link": "https://www.ft.com/content/06865b90-5b62-46c5-ae8d-147842b41cd0?syn-25a6b1a6=1",
+          "source_type": "rss"
+        },
+        {
+          "title": "Strait of Hormuz Tanker Traffic Erodes Further as Oil Prices Rise",
+          "source_name": "NYT Business",
+          "published": "Thu, 16 Jul 2026 13:45:14 +0000",
+          "published_iso": "2026-07-16T13:45:14+00:00",
+          "link": "https://www.nytimes.com/2026/07/16/business/strait-hormuz-iran-war-oil.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Chipmakers chip away at stocks, oil hovers at $85 - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Thu, 16 Jul 2026 02:09:00 GMT",
+          "published_iso": "2026-07-16T02:09:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONzEtUE5IX0ZhajhxclVEalRCODR4QWpsVTNmWHFYZkpvXy1jTy10ZGJmVEZ4SVFKT1BkSkF2OTdzTXd6WE1tWk5OMEV2ajVLOGhnaUlER3pKbnZ5SHhSdGcxSG83RTVIckFaOUp6Z0x2T1FKUGo2M0V6YzhQRnFOLTlRcw?oc=5",
           "source_type": "rss"
         }
       ]
