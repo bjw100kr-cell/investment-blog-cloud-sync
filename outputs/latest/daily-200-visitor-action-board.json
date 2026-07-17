@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T16:50:55.337332+00:00",
+  "generated_at": "2026-07-17T07:35:27.798128+00:00",
   "target_daily_visitors": 200,
   "status": "measurement_missing_keep_building",
   "proof": {
@@ -9,7 +9,7 @@
     "measurement_missing": true
   },
   "publishing_capacity": {
-    "quality_ready_count": 5,
+    "quality_ready_count": 7,
     "blogger_ready_count": 1,
     "recommended_posts_next_run": 1,
     "rule": "품질 게이트 통과 글만 실행당 최대 3건"
@@ -24,7 +24,25 @@
         "비트코인 오늘 시세 보는법"
       ],
       "suggested_title": "비트코인 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 6500,
+      "demand_signal_score": 6800,
+      "use_in": [
+        "title",
+        "first_h2",
+        "meta_description",
+        "internal_link_anchor",
+        "social_share_copy"
+      ]
+    },
+    {
+      "mapped_keyword": "ai_semiconductors",
+      "primary_query": "AI 반도체 주식",
+      "supporting_queries": [
+        "엔비디아 주가 영향",
+        "반도체 사이클 전망",
+        "AI 데이터센터 수혜주"
+      ],
+      "suggested_title": "AI 반도체 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "demand_signal_score": 3200,
       "use_in": [
         "title",
         "first_h2",
@@ -52,24 +70,6 @@
       ]
     },
     {
-      "mapped_keyword": "ai_semiconductors",
-      "primary_query": "AI 반도체 주식",
-      "supporting_queries": [
-        "엔비디아 주가 영향",
-        "반도체 사이클 전망",
-        "AI 데이터센터 수혜주"
-      ],
-      "suggested_title": "AI 반도체 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 2500,
-      "use_in": [
-        "title",
-        "first_h2",
-        "meta_description",
-        "internal_link_anchor",
-        "social_share_copy"
-      ]
-    },
-    {
       "mapped_keyword": "oil",
       "primary_query": "국제유가 전망",
       "supporting_queries": [
@@ -78,7 +78,7 @@
         "원유 가격 인플레이션 영향"
       ],
       "suggested_title": "국제유가 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 2200,
+      "demand_signal_score": 3100,
       "use_in": [
         "title",
         "first_h2",

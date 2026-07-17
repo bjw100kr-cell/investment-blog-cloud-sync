@@ -19,9 +19,9 @@
 - CTA focus: ETF·규제·초보 가이드 글로 연결
 - final retention CTA: 비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.
 - later revisit CTA: 코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- demand_signal_score: `6500`
+- demand_signal_score: `6800`
 - freshness: `fresh` / newest evidence age `0.0` days
-- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin slips to $64.2k as markets parse cooling rate jitters, Iran tensions
+- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin ETFs add $368M in three-day buying streak
 - freshness_recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - sources: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - advisory_checks: canonical_url_present, newsletter_ready, ga4_ready
@@ -35,9 +35,9 @@
 - excerpt: - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
 - preview: 한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
-- evidence: Investing.com Crypto News / 2026-07-16 13:45:54 / Bitcoin slips to $64.2k as markets parse cooling rate jitters, Iran tensions
-- evidence: Investing.com Crypto News / 2026-07-16 07:04:55 / Bitcoin tests $65,500 resistance as volume fades: Live levels
-- evidence: Investing.com Crypto News / 2026-07-15 22:17:08 / Bitcoin turns marginally lower as soft U.S. Inflation data offset by Iran tensions
+- evidence: Cointelegraph / 2026-07-17T07:23:02+00:00 / Bitcoin ETFs add $368M in three-day buying streak
+- evidence: Cointelegraph / 2026-07-17T05:54:04+00:00 / Ordinals advocate Leonidas proposes new Bitcoin client: ‘$DOG Mode’
+- evidence: CoinDesk RSS / 2026-07-17T05:32:00+00:00 / Bitcoin’s anti-spam fight gets a 'DOG Mode' reply
 - hero_image_search: `bitcoin blockchain abstract blue finance` / https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/
 - hero_image_apply_helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword bitcoin --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md`
@@ -53,11 +53,11 @@
 - CTA focus: 실적·공급망·대표 종목 글로 연결
 - final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
 - later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- demand_signal_score: `2500`
-- freshness: `fresh` / newest evidence age `0.0` days
+- demand_signal_score: `3200`
+- freshness: `fresh` / newest evidence age `0.1` days
 - freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film
 - freshness_recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
-- sources: Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
+- sources: Financial Times Home, Financial Times World, Financial Times YouTube
 - advisory_checks: canonical_url_present, newsletter_ready, ga4_ready
 - next_action: 사용자 최종 확인 후 Blogger draft 업로드
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
@@ -69,9 +69,9 @@
 - excerpt: - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
 - preview: 한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
-- evidence: Financial Times YouTube / 32K views / Silicon shadows: inside the black market for AI chips | FT Film
-- evidence: NYT Business / 2026-07-16T15:59:46+00:00 / Anthropic Inches Toward a Mega-I.P.O.
-- evidence: Reuters Markets via Google News RSS / 2026-07-16T14:15:07+00:00 / S&P 500, Nasdaq fall as chip stocks weaken; earnings and data in focus - Reuters
+- evidence: Financial Times YouTube / 33K views / Silicon shadows: inside the black market for AI chips | FT Film
+- evidence: Financial Times World / 2026-07-17T05:35:37+00:00 / Chip and memory stocks slide in fresh bout of Wall Street tumult
+- evidence: Reuters Markets via Google News RSS / 2026-07-17T01:16:00+00:00 / Stocks sink as chip rout deepens, oil set for weekly gain - Reuters
 - hero_image_search: `semiconductor chip blue abstract` / https://unsplash.com/s/photos/semiconductor+chip+blue+abstract
 - hero_image_apply_helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword ai_semiconductors --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-semiconductors.md`

@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-07-16T16:50:51.559097+00:00`
+- 생성 시각: `2026-07-17T07:35:19.552488+00:00`
 
 ## 1. fomc
 
@@ -74,7 +74,7 @@
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - 점수: 85.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
@@ -135,17 +135,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Bitcoin’s anti-spam fight gets a 'DOG Mode' reply
+  - Bitcoin under $63,000 after new U.S. strike on Iran. Trump's China comment adds to uncertainty
+  - $1.9 trillion asset manager T. Rowe Price bets on active management with first multi-token crypto ETF
+  - Citadel Securities invests $400 million in Crypto.com, valuing exchange at $20 billion
   - Keyrock acquires BlockFills trading assets to expand institutional crypto business
-  - Crypto for Advisors: Strengthening defenses against AI fraud
-  - Crypto brokerage firm Alpaca raises $135 million for tokenized stock infrastructure
-  - Ledger wants AI agents to manage crypto without holding your keys
-  - Galaxy targets institutional stablecoin yield with new DeFi vaults
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 75.0
+- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 83.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -205,22 +205,22 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - S&P 500, Nasdaq fall as chip stocks weaken; earnings and data in focus - Reuters
-  - Chipmakers chip away at stocks, oil hovers at $85 - Reuters
-  - TSMC Q2 profit jumps 77% to record, far surpasses expectations - Reuters
+  - Chinese AI start-up Moonshot launches model challenging Anthropic’s lead
+  - Stocks sink as chip rout deepens, oil set for weekly gain - Reuters
+  - Trading Day: Sinking chips - Reuters
+  - Wall Street ends lower as chip weakness offsets solid earnings, economic data - Reuters
   - Silicon shadows: inside the black market for AI chips | FT Film
-  - Anthropic Inches Toward a Mega-I.P.O.
 
-## 4. oil
+## 4. china
 
-- 추천 제목: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
-- 각도: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
-- 점수: 70.0
+- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 73.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -269,13 +269,14 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - WTI/Brent 수치 재확인
-  - 공급 뉴스 원문 출처 확인
-  - 인플레이션/금리 연결 문장 점검
+  - 정책 발표 또는 인터뷰 원문 여부 확인
+  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
+  - 한국/미국 시장 영향은 시나리오형으로 서술
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - US hits tanker heading for Kharg Island under renewed Iran blockade
-  - Chipmakers chip away at stocks, oil hovers at $85 - Reuters
-  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-  - Strait of Hormuz Tanker Traffic Erodes Further as Oil Prices Rise
+  - Bitcoin under $63,000 after new U.S. strike on Iran. Trump's China comment adds to uncertainty
+  - Trump doubles down on 2020 election claims in national address, alleging China meddling
+  - Xi pitches China as AI partner to developing world, warns against risks and security overreach
+  - Xi sets out China’s goal to be global AI leader
+  - Chinese AI start-up Moonshot launches model challenging Anthropic’s lead

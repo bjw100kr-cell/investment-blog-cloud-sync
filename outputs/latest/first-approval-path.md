@@ -10,18 +10,17 @@
 
 - label: `가장 먼저 볼 메인 글`
 - reason: 발행일이 오늘 또는 내일인 메인 글이며, 품질/이미지 준비가 된 글을 위로 올렸습니다.
-- item_count: `2`
+- item_count: `1`
 - ready_now_count: `1`
-- user_confirmation_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin oil`
-- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / lane `crypto` / publish 2026-07-17 / priority 124.0 / freshness `fresh` / quality `pass` / hero_image_selected `True`
-- `oil` / 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지 / lane `macro` / publish 2026-07-16 / priority 112.0 / freshness `` / quality `review_before_publish` / hero_image_selected `True`
+- user_confirmation_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
+- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / lane `crypto` / publish 2026-07-18 / priority 124.0 / freshness `fresh` / quality `pass` / hero_image_selected `True`
 
 ## 가장 먼저 단건 확인할 글
 
 - keyword: `bitcoin`
 - title: `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트`
 - brand_lane: `crypto` (코인)
-- publish_date: `2026-07-17`
+- publish_date: `2026-07-18`
 - review_verdict: `approve`
 - priority_score: `124.0`
 - freshness_status: `fresh`
@@ -30,8 +29,7 @@
 - hero_image_selected: `True`
 - selection_summary: `bitcoin`이 오늘 직접 발행 가능한 후보 중 가장 안전한 1순위입니다. 현재 브랜드 레인은 `crypto` (코인)이고 freshness는 `fresh`입니다. 품질 게이트가 통과 상태라 승인 후 업로드 경로가 가장 짧습니다. 대표 이미지도 이미 선택되어 있어 추가 준비가 거의 없습니다. 오늘 1순위 후보는 레인 우선순위 `macro > crypto > us-stocks > world-flow` 기준에서 freshness와 검수 상태를 함께 반영해 고릅니다.
 - why_not_other_topics:
-  - `fomc`는 priority `120.0`로 높지만 freshness가 `stale`라서 오늘 메인 직접 발행 후보에서 보류됐습니다.
-  - `oil`는 freshness는 괜찮아도 quality `review_before_publish` 상태라 바로 올리기보다 추가 검토가 먼저입니다.
+  - 현재 shortlist 안에서는 이 글이 freshness와 발행 준비도 기준으로 가장 무난한 선택입니다.
 - user_confirmation_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 
 ## 사용자 확인 후 바로 실행
