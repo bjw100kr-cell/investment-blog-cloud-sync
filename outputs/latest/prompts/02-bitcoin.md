@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Bitcoin’s anti-spam fight gets a 'DOG Mode' reply",
-    "Bitcoin under $63,000 after new U.S. strike on Iran. Trump's China comment adds to uncertainty",
-    "$1.9 trillion asset manager T. Rowe Price bets on active management with first multi-token crypto ETF",
-    "Citadel Securities invests $400 million in Crypto.com, valuing exchange at $20 billion",
-    "Keyrock acquires BlockFills trading assets to expand institutional crypto business"
+    "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark",
+    "AI frenzy losing steam leaves bitcoin less volatile than South Korean stocks",
+    "Live markets: Bitcoin returns to $63,000 as Nasdaq trims large early loss",
+    "Risk-off wave drags bitcoin below $63,000 as AI selloff spreads from stocks to crypto",
+    "Airbnb CEO says X account was hacked, attacker posted AI-slop on tokenization"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,7 +180,7 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 85.0,
+    "total_score": 83.0,
     "search_score": 29,
     "timeliness_score": 18,
     "explanatory_score": 17,

@@ -1,6 +1,6 @@
 # 퍼블리싱 자산
 
-- 생성 시각: `2026-07-17T07:35:19.552488+00:00`
+- 생성 시각: `2026-07-17T16:37:55.586848+00:00`
 
 ## 1. fomc
 
@@ -9,12 +9,12 @@
 - meta title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - meta description: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
 - 카테고리: macro
-- 추천 발행일: 2026-07-21
+- 추천 발행일: 2026-07-17
 - labels: 투자, 경제, 시장해설, FOMC, 연준, 거시경제, 미국증시
 - 내부링크: site-foundation/hub-macro.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 - 이미지 추천: 대표 이미지(Unsplash / central bank meeting finance city skyline), 본문 보조 이미지(Pexels / interest rate macro economy abstract)
 - 후속 글 후보: FOMC 이후 시장이 주식과 코인에 미치는 영향, FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지, FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
-- 광고 슬롯: after_intro, after_first_h2, before_faq, before_related_links
+- 광고 슬롯: after_intro, mid_article, before_related_links
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.
 
@@ -61,6 +61,7 @@
 - labels: 투자, 경제, 시장해설, 중국, 세계흐름, 거시경제
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 - 이미지 추천: 대표 이미지(Unsplash / technology stocks office finance abstract), 본문 보조 이미지(Pexels / semiconductor data center abstract)
+- 후속 글 후보: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기, 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나, 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 - 광고 슬롯: after_intro, mid_article, before_related_links
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.

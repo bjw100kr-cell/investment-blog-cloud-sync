@@ -38,7 +38,7 @@
 ## Dry Run Snapshot
 
 - blogger_reason: ``
-- blogger_first_item_reason: `pre_publish_quality_gate_review`
+- blogger_first_item_reason: ``
 - wordpress_reason: `WORDPRESS_SITE_URL is not set`
 - wordpress_first_item_reason: `credentials_missing_dry_run`
 

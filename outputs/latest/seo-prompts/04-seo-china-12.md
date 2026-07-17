@@ -85,14 +85,14 @@
 
 ```json
 {
-  "keyword": "seo_china_11",
+  "keyword": "seo_china_12",
   "source_keyword": "china",
-  "recommended_title": "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
+  "recommended_title": "중국 변수와 시장 영향 ETF·지수·대표 기업 정리",
   "alternate_titles": [
-    "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기: 초보 투자자 기준으로 다시 보기",
-    "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기: 지금 읽어야 하는 이유"
+    "중국 변수와 시장 영향 ETF·지수·대표 기업 정리: 초보 투자자 기준으로 다시 보기",
+    "중국 변수와 시장 영향 ETF·지수·대표 기업 정리: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유에서 이어지는 후속 글로, 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자",
+  "summary_angle": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유에서 이어지는 후속 글로, 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
   "outline": [
     "왜 이 섹터를 따로 봐야 하나",
     "대표 기업과 지수/ETF 먼저 정리",
@@ -102,9 +102,9 @@
   ],
   "reference_takeaways": [
     "메인 연결 글: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-    "검색 의도: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자",
-    "수익화 목표: 섹터형 검색 유입 누적",
-    "검색어 후보: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
+    "검색 의도: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
+    "수익화 목표: 광고 노출과 장기 검색 유입 확보",
+    "검색어 후보: 중국 변수와 시장 영향 ETF·지수·대표 기업 정리",
     "수요 신뢰도: existing_publish_queue - 기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
   ],
   "fact_checks": [
@@ -117,10 +117,10 @@
   "source_names": [
     "CNBC Top News",
     "CoinDesk RSS",
-    "Financial Times Home"
+    "MarketWatch Breaking News"
   ],
   "reference_headlines": [
-    "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기"
+    "중국 변수와 시장 영향 ETF·지수·대표 기업 정리"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -206,8 +206,8 @@
     "세계흐름",
     "거시경제"
   ],
-  "search_intent": "섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자",
-  "monetization_goal": "섹터형 검색 유입 누적",
+  "search_intent": "개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
+  "monetization_goal": "광고 노출과 장기 검색 유입 확보",
   "reader_search_queries": [],
   "demand_confidence": "existing_publish_queue",
   "demand_confidence_note": "기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."

@@ -110,14 +110,13 @@
   "source_names": [
     "CNBC Top News",
     "CoinDesk RSS",
-    "Financial Times Home"
+    "MarketWatch Breaking News"
   ],
   "reference_headlines": [
-    "Bitcoin under $63,000 after new U.S. strike on Iran. Trump's China comment adds to uncertainty",
-    "Trump doubles down on 2020 election claims in national address, alleging China meddling",
-    "Xi pitches China as AI partner to developing world, warns against risks and security overreach",
-    "Xi sets out China’s goal to be global AI leader",
-    "Chinese AI start-up Moonshot launches model challenging Anthropic’s lead"
+    "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark",
+    "Chinese automakers are taking on the UK — and many Brits are embracing it",
+    "Import prices post surprise gain as costs of goods from China hit highest since 2008",
+    "Why Trump’s speech on U.S. elections could be bad for markets"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -180,8 +179,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 73.0,
-    "search_score": 18,
+    "total_score": 71.0,
+    "search_score": 16,
     "timeliness_score": 18,
     "explanatory_score": 18,
     "monetization_score": 14,
