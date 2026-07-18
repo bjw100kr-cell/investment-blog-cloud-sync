@@ -122,7 +122,7 @@
 
 ## AI 반도체 주식 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_ai_semiconductors_5`
+- keyword: `seo_ai_semiconductors_7`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-ai-반도체-주식-관련-대표-종목-한눈에-보기.html`

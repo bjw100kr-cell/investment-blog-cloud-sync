@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-18T07:12:11.497852+00:00`
+- 생성 시각: `2026-07-18T15:33:06.508904+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -100,48 +100,44 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 43, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `ai_semiconductors`: score 25, source_count 5, sources CNBC Top News, CoinDesk RSS, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `china`: score 9, source_count 3, sources CNBC Top News, CoinDesk RSS, NYT Business
-- `cpi`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
-- `us_index_flow`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `bitcoin`: score 39, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 30, source_count 4, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 18, source_count 3, sources CoinDesk RSS, Financial Times YouTube, Reuters Markets via Google News RSS
+- `dollar`: score 5, source_count 2, sources Cointelegraph, NYT Business
 - `oil`: score 5, source_count 2, sources Financial Times YouTube, Reuters Markets via Google News RSS
-- `treasury_yields`: score 5, source_count 2, sources Financial Times World, MarketWatch Breaking News
-- `dollar`: score 3, source_count 1, sources Cointelegraph
+- `china`: score 4, source_count 1, sources CoinDesk RSS
+- `cpi`: score 3, source_count 1, sources Investing.com Crypto News
 - `ethereum`: score 3, source_count 1, sources Investing.com Crypto News
+- `us_index_flow`: score 2, source_count 1, sources MarketWatch Breaking News
+- `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 43, headlines 13
+- `bitcoin`: score 39, headlines 12
+  - Massive bitcoin call spreads target $72,000 by month end, right when the Fed meets
   - Stripe and Swift race to control the next generation of global payments infrastructure
   - Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark
-  - AI frenzy losing steam leaves bitcoin less volatile than South Korean stocks
-- `ai_semiconductors`: score 25, headlines 9
-  - Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark
-  - Leather jacket worn by Nvidia CEO goes for just under $1 million at Sotheby's auction
-  - Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters
-- `fomc`: score 20, headlines 4
+- `fomc`: score 30, headlines 7
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- `china`: score 9, headlines 3
+- `ai_semiconductors`: score 18, headlines 6
   - Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark
-  - Chinese AI has leveled up, and brought renewed focus on the open weight model shift
-  - China’s Moonshot AI Unveils Kimi Model, Threatening America’s Lead
-- `cpi`: score 7, headlines 2
-  - Live markets: Bitcoin returns to $63,000 as Nasdaq trims large early loss
-  - Bitcoin flat for the week as rate concerns, Iran tensions offset inflation data
-- `us_index_flow`: score 7, headlines 2
-  - Live markets: Bitcoin returns to $63,000 as Nasdaq trims large early loss
-  - Bitcoin price sags under $62.5K as Iran strikes add to US stocks pressure
+  - Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters
+  - Wall St ends lower for the day and week as chip selloff broadens - Reuters
+- `dollar`: score 5, headlines 2
+  - Crypto Biz: When dollars disappear, stablecoins step in
+  - Russia Bill Broadens Sanctions but Could Fuel Fears Over the Dollar
 - `oil`: score 5, headlines 2
   - World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters
   - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-- `treasury_yields`: score 5, headlines 2
-  - How your winning stock-index fund can turn on a dime
-  - How long until there is a US markets reckoning over Trump’s damage?
-- `dollar`: score 3, headlines 1
-  - Crypto Biz: When dollars disappear, stablecoins step in
+- `china`: score 4, headlines 1
+  - Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark
+- `cpi`: score 3, headlines 1
+  - Bitcoin flat for the week as rate concerns, Iran tensions offset inflation data
 - `ethereum`: score 3, headlines 1
   - ether.fi Partners with Nexus Mutual to Protect Against ETH Slashing at Institutional Scale
+- `ai_growth_stocks`: score 2, headlines 1
+  - Palantir: profits, procurement and power | FT Film
+- `us_index_flow`: score 2, headlines 1
+  - This overlooked index is a better investment than the S&P 500

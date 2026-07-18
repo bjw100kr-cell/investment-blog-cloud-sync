@@ -67,7 +67,7 @@
 ## AI 반도체 주식 관련 대표 종목 한눈에 보기
 
 - source_group: `seo`
-- keyword: `seo_ai_semiconductors_5`
+- keyword: `seo_ai_semiconductors_7`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `semiconductor chip blue abstract` / search https://unsplash.com/s/photos/semiconductor+chip+blue+abstract
 - license: Unsplash License / https://unsplash.com/license

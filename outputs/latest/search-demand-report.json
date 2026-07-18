@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-18T07:12:11.497852+00:00",
+  "generated_at": "2026-07-18T15:33:06.508904+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 3,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 4
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
     {
@@ -14,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5500,
+      "demand_signal_score": 5100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 43,
+      "source_snapshot_score": 39,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,35 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
+        "Massive bitcoin call spreads target $72,000 by month end, right when the Fed meets",
         "Stripe and Swift race to control the next generation of global payments infrastructure",
-        "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark",
-        "AI frenzy losing steam leaves bitcoin less volatile than South Korean stocks"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3700,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 25,
-      "source_count": 5,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Financial Times YouTube",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark",
-        "Leather jacket worn by Nvidia CEO goes for just under $1 million at Sotheby's auction",
-        "Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters"
+        "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark"
       ]
     },
     {
@@ -64,14 +38,17 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 4200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 1,
+      "source_snapshot_score": 30,
+      "source_count": 4,
       "source_names": [
-        "Federal Reserve Monetary Policy Press"
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Federal Reserve Monetary Policy Press",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
@@ -80,27 +57,27 @@
       ]
     },
     {
-      "keyword": "china",
+      "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2100,
+      "demand_signal_score": 3000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 9,
+      "source_snapshot_score": 18,
       "source_count": 3,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
-        "NYT Business"
+        "Financial Times YouTube",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark",
-        "Chinese AI has leveled up, and brought renewed focus on the open weight model shift",
-        "China’s Moonshot AI Unveils Kimi Model, Threatening America’s Lead"
+        "Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters",
+        "Wall St ends lower for the day and week as chip selloff broadens - Reuters"
       ]
     }
   ],

@@ -1,8 +1,8 @@
 # Publish Ready Report
 
-- generated_at: `2026-07-18T07:12:14.872188+00:00`
+- generated_at: `2026-07-18T15:33:10.397895+00:00`
 
-## seo_ai_semiconductors_5
+## seo_ai_semiconductors_7
 
 - ready: True
 - reason: ok

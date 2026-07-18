@@ -1,80 +1,12 @@
 {
-  "generated_at": "2026-07-18T07:12:11.497852+00:00",
+  "generated_at": "2026-07-18T15:33:06.508904+00:00",
   "item_count": 3,
   "items": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-07-18",
-      "priority_score": 128.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
-      "format": "macro_explainer",
-      "source_names": [
-        "Federal Reserve Monetary Policy Press"
-      ],
-      "sample_headlines": [
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 3200,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 1,
-      "search_score": 19,
-      "timeliness_score": 25,
-      "monetization_score": 14,
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Thu, 9 Jul 2026 19:00:00 GMT",
-          "published_iso": "2026-07-09T19:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 8 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-08T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "publish_date": "2026-07-19",
-      "priority_score": 124.0,
+      "priority_score": 123.0,
       "ready_now": true,
       "quality_status": "pass",
       "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
@@ -85,35 +17,43 @@
         "Investing.com Crypto News"
       ],
       "sample_headlines": [
+        "Massive bitcoin call spreads target $72,000 by month end, right when the Fed meets",
         "Stripe and Swift race to control the next generation of global payments infrastructure",
         "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark",
-        "AI frenzy losing steam leaves bitcoin less volatile than South Korean stocks",
-        "Live markets: Bitcoin returns to $63,000 as Nasdaq trims large early loss",
-        "Galaxy lands 15-year Texas Tech stadium naming rights deal"
+        "Here’s what happened in crypto today",
+        "Kaspersky identifies malware framework targeting crypto investors"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 5500,
+      "demand_signal_score": 5100,
       "fallback_source": "source_snapshot_rank",
       "source_count": 3,
-      "search_score": 29,
+      "search_score": 28,
       "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
+        {
+          "title": "Massive bitcoin call spreads target $72,000 by month end, right when the Fed meets",
+          "source_name": "CoinDesk RSS",
+          "published": "Sat, 18 Jul 2026 14:15:15 +0000",
+          "published_iso": "2026-07-18T14:15:15+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/18/massive-bitcoin-call-spreads-target-usd72-000-by-month-end-right-when-the-fed-meets",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin rebounds toward $64,000 as AI shock and crypto bill doubts weigh",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-18 09:22:17",
+          "published_iso": "2026-07-18 09:22:17",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-toward-64000-as-ai-shock-and-crypto-bill-doubts-weigh-4799577",
+          "source_type": "rss"
+        },
         {
           "title": "Bitcoin trapped in $62.5K-$65.5K range: Live levels",
           "source_name": "Investing.com Crypto News",
           "published": "2026-07-18 07:02:46",
           "published_iso": "2026-07-18 07:02:46",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-at-supertrend-support-hourly-levels-93CH-4787508",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin price sags under $62.5K as Iran strikes add to US stocks pressure",
-          "source_name": "Cointelegraph",
-          "published": "Fri, 17 Jul 2026 14:37:39 +0000",
-          "published_iso": "2026-07-17T14:37:39+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-price-sags-under-625k-as-iran-strikes-add-to-us-stocks-pressure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
@@ -125,19 +65,11 @@
           "source_type": "rss"
         },
         {
-          "title": "AI frenzy losing steam leaves bitcoin less volatile than South Korean stocks",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 17 Jul 2026 11:48:20 +0000",
-          "published_iso": "2026-07-17T11:48:20+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/07/17/ai-frenzy-losing-steam-leaves-bitcoin-less-volatile-than-south-korean-stocks",
-          "source_type": "rss"
-        },
-        {
-          "title": "Live markets: Bitcoin returns to $63,000 as Nasdaq trims large early loss",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 17 Jul 2026 10:43:57 +0000",
-          "published_iso": "2026-07-17T10:43:57+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/17/live-markets-bitcoin-slips-to-usd63-000-as-the-chip-rout-goes-global",
+          "title": "Bitcoin flat for the week as rate concerns, Iran tensions offset inflation data",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-17 22:26:08",
+          "published_iso": "2026-07-17 22:26:08",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-dips-below-63k-as-rate-jitters-iran-tensions-weigh-4797477",
           "source_type": "rss"
         }
       ]
@@ -146,49 +78,39 @@
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "publish_date": "2026-07-20",
-      "priority_score": 121.0,
+      "priority_score": 113.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "format": "sector_analysis",
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Financial Times YouTube",
-        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
         "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark",
-        "Leather jacket worn by Nvidia CEO goes for just under $1 million at Sotheby's auction",
         "Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters",
         "Wall St ends lower for the day and week as chip selloff broadens - Reuters",
-        "Morning Bid: Chips and ships - Reuters"
+        "Morning Bid: Chips and ships - Reuters",
+        "World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 3700,
+      "demand_signal_score": 3000,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 5,
-      "search_score": 26,
-      "timeliness_score": 21,
+      "source_count": 3,
+      "search_score": 21,
+      "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
         {
           "title": "Silicon shadows: inside the black market for AI chips | FT Film",
           "source_name": "Financial Times YouTube",
-          "published": "35K views",
-          "published_iso": "35K views",
+          "published": "36K views",
+          "published_iso": "36K views",
           "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
           "source_type": "youtube_channel"
-        },
-        {
-          "title": "Leather jacket worn by Nvidia CEO goes for just under $1 million at Sotheby's auction",
-          "source_name": "CNBC Top News",
-          "published": "Fri, 17 Jul 2026 23:18:35 GMT",
-          "published_iso": "2026-07-17T23:18:35+00:00",
-          "link": "https://www.cnbc.com/2026/07/17/leather-jacket-worn-by-nvidia-ceo-goes-for-just-under-1-million-at-sothebys-auction-.html",
-          "source_type": "rss"
         },
         {
           "title": "Wall St ends lower for the day and week as chip selloff broadens - Reuters",
@@ -199,11 +121,11 @@
           "source_type": "rss"
         },
         {
-          "title": "The average stock is having a moment as semiconductors struggle. It’s a sign of a healthy market.",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Fri, 17 Jul 2026 21:55:00 GMT",
-          "published_iso": "2026-07-17T21:55:00+00:00",
-          "link": "https://www.marketwatch.com/story/the-average-stock-is-having-a-moment-as-semiconductors-struggle-its-a-sign-of-a-healthy-market-0dc01e9a?mod=mw_rss_topstories",
+          "title": "World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Fri, 17 Jul 2026 21:46:14 GMT",
+          "published_iso": "2026-07-17T21:46:14+00:00",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTBUX2ZaNk9EY2M2SU5BaEw4VkRFXzF6OE1MeENrcVRwT1hnd2gtbzVDODJ3VUh2ZXdOYi03b2ZobHhhdlMzSE1fOWM0b3lWTlh1Q2VENEFFdHlKWmNuOVltd0R4X254aFM0SmNjZ3RIWVNqREU3OXlHSFNsUGtBUXYyUQ?oc=5",
           "source_type": "rss"
         },
         {
@@ -212,6 +134,48 @@
           "published": "Fri, 17 Jul 2026 20:55:29 GMT",
           "published_iso": "2026-07-17T20:55:29+00:00",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONEpraWR3MkhKa1R0dDlkLTJsYXVWU0NsQjIySnpzcTA1dkFyVGNKcGk0RFNjbmF2dnRQZ2ZnR0lGb2thTEdwb3RLRVQyRWdxYmtFV2QxOVVQcHBocEsxVUoyYnJBa0JlZlBZRkRfY0trdGJnRkFOWEljYXowWWNrLXlVQm1sYkJoT2NzMVlMcDV1cWdDSHRjQUpZalFpdHN5cjZyWkxkOXVDMllxR2RiekFTYw?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "Morning Bid: Chips and ships - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Fri, 17 Jul 2026 11:37:39 GMT",
+          "published_iso": "2026-07-17T11:37:39+00:00",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSjJpZGJiNTlfUnJLV0F1RE4wRldGY3FCSElpZ3hfVmhJdnlvbzVXVlpTdjI1NExQallib0hRUWoydXF0YzR3LU96LUgwS3c4b18zS1RPVDNmaTltUGZfZ3luNUJXdm9DbjE5Y2x4WWlDSElObFk4WWZYVFJJLUxEaENuX3l5dTF6eWVRNm1xeE5UNmJWd2tN?oc=5",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "publish_date": "2026-07-21",
+      "priority_score": 68.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "섹터/세계 흐름 연결 해설 가능",
+      "format": "macro_explainer",
+      "source_names": [
+        "CoinDesk RSS"
+      ],
+      "sample_headlines": [
+        "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 0,
+      "fallback_source": "mapped_candidate",
+      "source_count": 1,
+      "search_score": 5,
+      "timeliness_score": 5,
+      "monetization_score": 12,
+      "recent_evidence": [
+        {
+          "title": "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 17 Jul 2026 12:45:11 +0000",
+          "published_iso": "2026-07-17T12:45:11+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/17/bitcoin-faces-fresh-headwinds-as-china-s-kimi-beats-claude-gpt-in-coding-benchmark",
           "source_type": "rss"
         }
       ]

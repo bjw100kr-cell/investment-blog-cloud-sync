@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Massive bitcoin call spreads target $72,000 by month end, right when the Fed meets",
     "Stripe and Swift race to control the next generation of global payments infrastructure",
     "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark",
-    "AI frenzy losing steam leaves bitcoin less volatile than South Korean stocks",
-    "Live markets: Bitcoin returns to $63,000 as Nasdaq trims large early loss",
-    "Galaxy lands 15-year Texas Tech stadium naming rights deal"
+    "Here’s what happened in crypto today",
+    "Kaspersky identifies malware framework targeting crypto investors"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 85.0,
-    "search_score": 29,
+    "total_score": 84.0,
+    "search_score": 28,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,

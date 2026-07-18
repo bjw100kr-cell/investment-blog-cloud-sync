@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T07:12:11.497852+00:00",
+  "generated_at": "2026-07-18T15:33:06.508904+00:00",
   "items": [
     {
       "keyword": "fomc",
@@ -21,12 +21,15 @@
       },
       "capture_route": "breaking_to_evergreen",
       "capture_route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 3200,
+      "demand_signal_score": 4200,
       "trend_queries": [],
       "source_names": [
-        "Federal Reserve Monetary Policy Press"
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Federal Reserve Monetary Policy Press",
+        "Reuters Markets via Google News RSS"
       ],
-      "search_intent_angle": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
+      "search_intent_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -55,7 +58,7 @@
       },
       "capture_route": "breaking_to_evergreen",
       "capture_route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 5500,
+      "demand_signal_score": 5100,
       "trend_queries": [],
       "source_names": [
         "CoinDesk RSS",
@@ -92,16 +95,14 @@
       },
       "capture_route": "sector_hub_to_followups",
       "capture_route_description": "섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.",
-      "demand_signal_score": 3700,
+      "demand_signal_score": 3000,
       "trend_queries": [],
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Financial Times YouTube",
-        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -131,14 +132,12 @@
       },
       "capture_route": "search_entry_to_internal_links",
       "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 2100,
+      "demand_signal_score": 0,
       "trend_queries": [],
       "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "NYT Business"
+        "CoinDesk RSS"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "search_intent_angle": "섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -148,8 +147,8 @@
       ]
     },
     {
-      "keyword": "us_index_flow",
-      "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "keyword": "dollar",
+      "recommended_title": "달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법",
       "pattern_name": "search_explainer",
       "pattern_rules": {
         "when_to_use": [
@@ -171,16 +170,16 @@
       "demand_signal_score": 0,
       "trend_queries": [],
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph"
+        "Cointelegraph",
+        "NYT Business"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
-        "지금 이 섹터가 왜 움직이는가",
-        "핵심 뉴스와 시장 반응",
-        "대표 종목과 자금 흐름",
-        "거시 변수와 연결",
-        "다음 실적/정책 이벤트"
+        "왜 지금 이 이슈가 중요한가",
+        "실제로 발표되거나 벌어진 일",
+        "주식·코인·달러·금리에 주는 영향",
+        "앞으로 체크할 변수",
+        "개인 투자자가 볼 포인트"
       ]
     }
   ]

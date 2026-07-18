@@ -68,7 +68,7 @@
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 주요 참고 소스: CoinDesk RSS, Financial Times YouTube, Reuters Markets via Google News RSS
 - 발행 전 재확인: 기업 실적/가이던스 수치 원문 확인
 - 발행 전 재확인: 반도체 섹터 전반 일반화 과장 여부 점검
 - 발행 전 재확인: 대표 종목 티커와 실적 날짜 재확인
