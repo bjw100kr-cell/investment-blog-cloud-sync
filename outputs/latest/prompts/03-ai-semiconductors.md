@@ -91,7 +91,7 @@
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -110,17 +110,16 @@
   "source_names": [
     "CNBC Top News",
     "CoinDesk RSS",
-    "Financial Times Home",
-    "Financial Times World",
     "Financial Times YouTube",
+    "MarketWatch Breaking News",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
     "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark",
-    "Apple, Nvidia vie for title of world's most valuable company",
-    "Apple briefly leapfrogs Nvidia as world’s most valuable company",
-    "US chip stocks head for worst week in more than a year",
-    "S&P 500 and Nasdaq slip as chip rout extends; Netflix slides - Reuters"
+    "Leather jacket worn by Nvidia CEO goes for just under $1 million at Sotheby's auction",
+    "Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters",
+    "Wall St ends lower for the day and week as chip selloff broadens - Reuters",
+    "Morning Bid: Chips and ships - Reuters"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [

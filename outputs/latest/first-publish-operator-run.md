@@ -6,11 +6,11 @@
 - apply_mode: `False`
 - approval_mode: `auto_single`
 - current_user_confirmed_keywords: `["bitcoin"]`
-- target_user_confirmed_keywords: `["bitcoin"]`
+- target_user_confirmed_keywords: `["fomc"]`
 
 ## Planned Commands
 
-- `python3 scripts/set_review_approvals.py --keywords bitcoin`
+- `python3 scripts/set_review_approvals.py --keywords fomc`
 - `python3 scripts/build_platform_publish_plan.py`
 - `python3 scripts/upload_blogger_drafts.py`
 - `python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state`

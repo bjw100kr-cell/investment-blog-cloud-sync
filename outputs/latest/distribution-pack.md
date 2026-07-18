@@ -6,7 +6,7 @@
 
 - inventory_type: `main_post`
 - publish_bucket: `today_or_overdue`
-- priority_score: `134.0`
+- priority_score: `128.0`
 - hook_line: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -40,7 +40,7 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 
 - inventory_type: `main_post`
 - publish_bucket: `tomorrow`
-- priority_score: `122.0`
+- priority_score: `124.0`
 - hook_line: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -108,7 +108,7 @@ AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
-- priority_score: `105.0`
+- priority_score: `100.0`
 - hook_line: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -176,7 +176,7 @@ AI 반도체 주식 관련 대표 종목 한눈에 보기
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `104.5`
+- priority_score: `99.5`
 - hook_line: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기 | 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 
 ### X / Threads
@@ -210,7 +210,7 @@ AI 반도체 주식 관련 대표 종목 한눈에 보기
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `101.5`
+- priority_score: `96.5`
 - hook_line: 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나 | 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 
 ### X / Threads
@@ -244,7 +244,7 @@ AI 반도체 주식 관련 대표 종목 한눈에 보기
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `98.5`
+- priority_score: `93.5`
 - hook_line: 중국 변수와 시장 영향 ETF·지수·대표 기업 정리 | 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 
 ### X / Threads

@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-07-17T16:37:55.586848+00:00`
+- 생성 시각: `2026-07-18T07:12:11.497852+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `91.0`
-- 점수 구성: 검색성 23 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press, Financial Times World
+- 총점: `86.0`
+- 점수 구성: 검색성 19 / 시의성 25 / 설명가치 20 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- 소스: Federal Reserve Monetary Policy Press
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,15 +27,15 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Warsh’ington times
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `83.0`
-- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 총점: `85.0`
+- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 3
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- 코인 시장 신호: Fear/Greed 25: Extreme Fear zone
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
@@ -48,11 +48,11 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Stripe and Swift race to control the next generation of global payments infrastructure
   - Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark
   - AI frenzy losing steam leaves bitcoin less volatile than South Korean stocks
   - Live markets: Bitcoin returns to $63,000 as Nasdaq trims large early loss
-  - Risk-off wave drags bitcoin below $63,000 as AI selloff spreads from stocks to crypto
-  - Airbnb CEO says X account was hacked, attacker posted AI-slop on tokenization
+  - Galaxy lands 15-year Texas Tech stadium naming rights deal
 
 ## 3. ai_semiconductors
 
@@ -60,8 +60,8 @@
 - 브랜드 레인: `us-stocks` (미국주식)
 - 총점: `86.0`
 - 점수 구성: 검색성 26 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, Financial Times YouTube, Reuters Markets via Google News RSS
+- 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, CoinDesk RSS, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -74,19 +74,19 @@
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
   - Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark
-  - Apple, Nvidia vie for title of world's most valuable company
-  - Apple briefly leapfrogs Nvidia as world’s most valuable company
-  - US chip stocks head for worst week in more than a year
-  - S&P 500 and Nasdaq slip as chip rout extends; Netflix slides - Reuters
+  - Leather jacket worn by Nvidia CEO goes for just under $1 million at Sotheby's auction
+  - Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters
+  - Wall St ends lower for the day and week as chip selloff broadens - Reuters
+  - Morning Bid: Chips and ships - Reuters
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `71.0`
-- 점수 구성: 검색성 16 / 시의성 18 / 설명가치 18 / 수익성 14 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `66.0`
+- 점수 구성: 검색성 14 / 시의성 15 / 설명가치 18 / 수익성 14 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, CoinDesk RSS, MarketWatch Breaking News
+- 소스: CNBC Top News, CoinDesk RSS, NYT Business
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -99,18 +99,17 @@
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
   - Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark
-  - Chinese automakers are taking on the UK — and many Brits are embracing it
-  - Import prices post surprise gain as costs of goods from China hit highest since 2008
-  - Why Trump’s speech on U.S. elections could be bad for markets
+  - Chinese AI has leveled up, and brought renewed focus on the open weight model shift
+  - China’s Moonshot AI Unveils Kimi Model, Threatening America’s Lead
 
 ## 5. us_index_flow
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `69.0`
-- 점수 구성: 검색성 14 / 시의성 15 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: CoinDesk RSS, Cointelegraph, Reuters Markets via Google News RSS
+- 총점: `58.0`
+- 점수 구성: 검색성 9 / 시의성 10 / 설명가치 18 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: CoinDesk RSS, Cointelegraph
 - 제목 후보:
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -124,4 +123,3 @@
 - 참고 헤드라인:
   - Live markets: Bitcoin returns to $63,000 as Nasdaq trims large early loss
   - Bitcoin price sags under $62.5K as Iran strikes add to US stocks pressure
-  - S&P 500 and Nasdaq slip as chip rout extends; Netflix slides - Reuters

@@ -117,9 +117,8 @@
   "source_names": [
     "CNBC Top News",
     "CoinDesk RSS",
-    "Financial Times Home",
-    "Financial Times World",
     "Financial Times YouTube",
+    "MarketWatch Breaking News",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [

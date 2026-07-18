@@ -117,7 +117,7 @@
   "source_names": [
     "CNBC Top News",
     "CoinDesk RSS",
-    "MarketWatch Breaking News"
+    "NYT Business"
   ],
   "reference_headlines": [
     "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기"
@@ -183,8 +183,8 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 104.5,
-    "search_score": 104.5,
+    "total_score": 99.5,
+    "search_score": 99.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,

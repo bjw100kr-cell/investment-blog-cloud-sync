@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T16:37:55.586848+00:00",
+  "generated_at": "2026-07-18T07:12:11.497852+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -57,29 +57,27 @@
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Federal Reserve issues FOMC statement",
-        "Warsh’ington times"
+        "Federal Reserve issues FOMC statement"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times World"
+        "Federal Reserve Monetary Policy Press"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3500,
-      "search_score": 23,
+      "demand_signal_score": 3200,
+      "search_score": 19,
       "timeliness_score": 25,
       "explanatory_score": 20,
-      "monetization_score": 15,
+      "monetization_score": 14,
       "risk_score": 8,
       "performance_bonus": 0.0,
       "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 91.0,
+      "total_score": 86.0,
       "format": "macro_explainer"
     },
     {
@@ -91,7 +89,7 @@
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -100,11 +98,11 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
+        "Stripe and Swift race to control the next generation of global payments infrastructure",
         "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark",
         "AI frenzy losing steam leaves bitcoin less volatile than South Korean stocks",
         "Live markets: Bitcoin returns to $63,000 as Nasdaq trims large early loss",
-        "Risk-off wave drags bitcoin below $63,000 as AI selloff spreads from stocks to crypto",
-        "Airbnb CEO says X account was hacked, attacker posted AI-slop on tokenization"
+        "Galaxy lands 15-year Texas Tech stadium naming rights deal"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -115,7 +113,7 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 6500,
+      "demand_signal_score": 5500,
       "search_score": 29,
       "timeliness_score": 18,
       "explanatory_score": 17,
@@ -123,10 +121,12 @@
       "risk_score": 3,
       "performance_bonus": 0.0,
       "search_demand_bonus": 3,
-      "crypto_market_signal_bonus": 1,
-      "crypto_market_sentiment": "mixed",
-      "crypto_market_signal_notes": [],
-      "total_score": 83.0,
+      "crypto_market_signal_bonus": 3,
+      "crypto_market_sentiment": "extreme_fear",
+      "crypto_market_signal_notes": [
+        "Fear/Greed 25: Extreme Fear zone"
+      ],
+      "total_score": 85.0,
       "format": "crypto_analysis"
     },
     {
@@ -138,7 +138,7 @@
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -148,24 +148,23 @@
       ],
       "sample_headlines": [
         "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark",
-        "Apple, Nvidia vie for title of world's most valuable company",
-        "Apple briefly leapfrogs Nvidia as world’s most valuable company",
-        "US chip stocks head for worst week in more than a year",
-        "S&P 500 and Nasdaq slip as chip rout extends; Netflix slides - Reuters"
+        "Leather jacket worn by Nvidia CEO goes for just under $1 million at Sotheby's auction",
+        "Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters",
+        "Wall St ends lower for the day and week as chip selloff broadens - Reuters",
+        "Morning Bid: Chips and ships - Reuters"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
-        "Financial Times Home",
-        "Financial Times World",
         "Financial Times YouTube",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3900,
+      "demand_signal_score": 3700,
       "search_score": 26,
       "timeliness_score": 21,
       "explanatory_score": 19,
@@ -198,22 +197,21 @@
       ],
       "sample_headlines": [
         "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark",
-        "Chinese automakers are taking on the UK — and many Brits are embracing it",
-        "Import prices post surprise gain as costs of goods from China hit highest since 2008",
-        "Why Trump’s speech on U.S. elections could be bad for markets"
+        "Chinese AI has leveled up, and brought renewed focus on the open weight model shift",
+        "China’s Moonshot AI Unveils Kimi Model, Threatening America’s Lead"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
-        "MarketWatch Breaking News"
+        "NYT Business"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2400,
-      "search_score": 16,
-      "timeliness_score": 18,
+      "demand_signal_score": 2100,
+      "search_score": 14,
+      "timeliness_score": 15,
       "explanatory_score": 18,
       "monetization_score": 14,
       "risk_score": 5,
@@ -222,7 +220,7 @@
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 71.0,
+      "total_score": 66.0,
       "format": "macro_explainer"
     },
     {
@@ -234,7 +232,7 @@
         "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -244,22 +242,20 @@
       ],
       "sample_headlines": [
         "Live markets: Bitcoin returns to $63,000 as Nasdaq trims large early loss",
-        "Bitcoin price sags under $62.5K as Iran strikes add to US stocks pressure",
-        "S&P 500 and Nasdaq slip as chip rout extends; Netflix slides - Reuters"
+        "Bitcoin price sags under $62.5K as Iran strikes add to US stocks pressure"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CoinDesk RSS",
-        "Cointelegraph",
-        "Reuters Markets via Google News RSS"
+        "Cointelegraph"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 14,
-      "timeliness_score": 15,
-      "explanatory_score": 19,
+      "search_score": 9,
+      "timeliness_score": 10,
+      "explanatory_score": 18,
       "monetization_score": 15,
       "risk_score": 6,
       "performance_bonus": 0.0,
@@ -267,7 +263,7 @@
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 69.0,
+      "total_score": 58.0,
       "format": "sector_analysis"
     }
   ]
