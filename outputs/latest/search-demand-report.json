@@ -1,35 +1,43 @@
 {
-  "generated_at": "2026-07-18T15:33:06.508904+00:00",
+  "generated_at": "2026-07-19T07:52:20.136130+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 3,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 5100,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 39,
-      "source_count": 3,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
+      "keyword": "us_index_flow",
+      "trend_count": 1,
+      "traffic_score_sum": 2000,
+      "max_approx_traffic": 2000,
+      "trend_queries": [
+        "stock market today"
       ],
-      "sample_titles": [
-        "Massive bitcoin call spreads target $72,000 by month end, right when the Fed meets",
-        "Stripe and Swift race to control the next generation of global payments infrastructure",
-        "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark"
-      ]
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 2200,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
+    {
+      "keyword": "bitcoin",
+      "trend_count": 1,
+      "traffic_score_sum": 100,
+      "max_approx_traffic": 100,
+      "trend_queries": [
+        "fidelity bitcoin"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 300,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
     },
     {
       "keyword": "fomc",
@@ -38,11 +46,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4200,
+      "demand_signal_score": 4500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 30,
+      "source_snapshot_score": 33,
       "source_count": 4,
       "source_names": [
         "CNBC Top News",
@@ -57,27 +65,51 @@
       ]
     },
     {
+      "keyword": "dollar",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2400,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 12,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "NYT Business"
+      ],
+      "sample_titles": [
+        "Trump targets Brazil's payments system while dollar stablecoins are quietly overtaking country's payments",
+        "Crypto Biz: When dollars disappear, stablecoins step in",
+        "Fanatics CEO Michael Rubin on two sports businesses his multibillion-dollar conglomerate won't enter"
+      ]
+    },
+    {
       "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3000,
+      "demand_signal_score": 2300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 18,
-      "source_count": 3,
+      "source_snapshot_score": 11,
+      "source_count": 2,
       "source_names": [
-        "CoinDesk RSS",
         "Financial Times YouTube",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark",
         "Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters",
-        "Wall St ends lower for the day and week as chip selloff broadens - Reuters"
+        "Wall St ends lower for the day and week as chip selloff broadens - Reuters",
+        "World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters"
       ]
     }
   ],
