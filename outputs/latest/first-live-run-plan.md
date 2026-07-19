@@ -28,7 +28,7 @@
 - title: `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트`
 - inventory_type: `main_post`
 - publish_date: ``
-- priority_score: `123.0`
+- priority_score: `117.0`
 - cta_focus: ETF·규제·초보 가이드 글로 연결
 
 ## Next Candidates
@@ -38,7 +38,7 @@
 ## Dry Run Snapshot
 
 - blogger_reason: ``
-- blogger_first_item_reason: ``
+- blogger_first_item_reason: `source_freshness_stale`
 - wordpress_reason: `WORDPRESS_SITE_URL is not set`
 - wordpress_first_item_reason: `credentials_missing_dry_run`
 

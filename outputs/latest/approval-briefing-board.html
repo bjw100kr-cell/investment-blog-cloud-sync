@@ -138,156 +138,32 @@
     <section class="hero">
       <h1>Approval Briefing Board</h1>
       <p class="muted">승인 직전 필요한 자료를 한 화면에 묶었습니다. 글 전문, 최신 근거, 이미지 상태, 승인 명령을 따로 열지 않고 바로 비교할 수 있습니다.</p>
-      <code class="command">python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc</code>
-      <code class="command">python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin</code>
+      <code class="command">python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin</code>
+      <code class="command">python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin</code>
     </section>
     
-    <section class="card">
-      <div class="summary">
-        <div class="pill-row">
-          <span class="pill">fomc</span>
-          <span class="pill alt">approve</span>
-          <span class="pill">score 100</span>
-          <span class="pill">priority 137.0</span>
-        </div>
-        <h2>FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지</h2>
-        <p><strong>Publish</strong> 2026-07-19 / <strong>Quality</strong> pass / <strong>Ready</strong> True</p>
-        <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
-        <p><strong>CTA</strong> 환율·금리·미국증시 evergreen 글로 연결</p>
-        <p><strong>Why now</strong> 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음</p>
-        <p><strong>Evidence</strong> demand 4500 / fallback source_snapshot_rank</p>
-        <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html' target='_blank' rel='noreferrer'>HTML</a></p>
-        <div class="mini-block">
-          <h3>Sample Headlines</h3>
-          <ul><li>Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy</li><li>Federal Reserve issues FOMC statement</li><li>Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting</li><li>Massive bitcoin call spreads target $72,000 by month end, right when the Fed meets</li></ul>
-        </div>
-        <div class="mini-block">
-          <h3>Recent Evidence</h3>
-          <ul><li><strong>Federal Reserve Monetary Policy Press</strong> <span class='tiny'>2026-06-17T18:00:00+00:00</span><br>Federal Reserve issues FOMC statement <a href='https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm' target='_blank' rel='noreferrer'>open</a></li><li><strong>Federal Reserve Monetary Policy Press</strong> <span class='tiny'>2026-06-17T18:00:00+00:00</span><br>Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting <a href='https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm' target='_blank' rel='noreferrer'>open</a></li><li><strong>Federal Reserve Monetary Policy Press</strong> <span class='tiny'>2026-04-29T18:00:00+00:00</span><br>Federal Reserve issues FOMC statement <a href='https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm' target='_blank' rel='noreferrer'>open</a></li><li><strong>Federal Reserve Monetary Policy Press</strong> <span class='tiny'>2026-07-09T19:00:00+00:00</span><br>Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy <a href='https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm' target='_blank' rel='noreferrer'>open</a></li></ul>
-        </div>
-        <div class="mini-block">
-          <h3>Image Status</h3>
-          <ul><li><strong>대표 이미지</strong> Unsplash / <code>central bank meeting finance city skyline</code></li><li><strong>본문 보조 이미지</strong> Pexels / <code>interest rate macro economy abstract</code></li></ul>
-        </div>
-      </div>
-      <div class="draft">
-        <h3>Draft Body</h3>
-        <pre># FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-
-한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-
-## 오늘 핵심 3줄
-
-- FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다.
-- 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다.
-- 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다.
-
-## 도입부
-
-2026년 7월 19일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
-미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
-개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 공식 발표 자료, 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
-
-## 본문
-
-## 1. 지금 무슨 일이 있었나
-
-이번 글의 출발점은 `Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
-여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `달러 인덱스`, 다른 하나는 `미국채 2년물/10년물 금리`입니다.
-쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
-
-## 2. 왜 시장이 반응했나
-
-금리 경로가 바뀌면 돈값이 달라지고, 돈값이 달라지면 성장주와 코인처럼 미래 기대를 크게 반영하는 자산의 할인율도 함께 흔들립니다.
-이 대목을 투자자 언어로 바꾸면, 금리 자체보다 연준이 앞으로 얼마나 빨리 방향을 바꿀 수 있는지에 대한 기대가 먼저 가격을 흔들고 있다는 뜻에 가깝습니다.
-특히 `달러 인덱스` 쪽 변화가 먼저 나오고 `미국채 2년물/10년물 금리` 흐름이 따라오는지, 아니면 가격만 먼저 튀는지를 나눠 보면 뉴스의 질이 달라 보입니다.
-
-## 3. 개인 투자자가 바로 확인할 지표
-
-첫째로 볼 것은 `달러 인덱스`입니다. 이 지표가 같은 방향으로 며칠 이어지면 단순 반응보다 흐름일 가능성이 커집니다.
-둘째는 `미국채 2년물/10년물 금리`입니다. 거시 환경이 받쳐주지 않으면 좋은 뉴스도 오래 버티기 어렵습니다.
-셋째는 `나스닥과 비트코인 동시 반응`입니다. 한 자산만 움직이는지, 관련 자산으로 확산되는지에 따라 해석이 완전히 달라집니다.
-추가로 `다음 CPI/PCE/고용지표`까지 확인하면 다음 글감과 투자 판단의 기준선이 더 선명해집니다.
-
-## 4. 내 포트폴리오와 연결해서 보는 법
-
-이걸 내 돈 관점에서 보면 FOMC는 매수·매도 신호라기보다 포트폴리오의 위험 노출을 점검하는 날에 가깝습니다.
-예를 들어 이미 관련 자산 비중이 높다면 새로 맞히는 것보다 변동성이 커질 때 어느 구간에서 흔들릴지 먼저 생각해야 합니다.
-반대로 아직 관망 중이라면 지금 당장 따라가기보다 다음 확인 지표가 같은 방향으로 쌓이는지 보는 편이 더 실전적입니다.
-
-## 상승 시나리오와 리스크
-
-- 상승 시나리오: 달러와 단기금리가 안정되고 나스닥, 비트코인, 반도체 같은 위험자산이 같은 방향으로 반응하면 시장은 완화 기대를 더 강하게 읽을 수 있습니다.
-- 리스크 시나리오: 반대로 연준 발언이 물가 경계 쪽으로 기울거나 다음 물가 지표가 다시 강하게 나오면, 발표 직후 반등은 빠르게 되돌려질 수 있습니다.
-
-## 자주 하는 오해
-
-금리 동결을 곧바로 호재로만 해석하는 것입니다. 시장은 동결 여부보다 앞으로 몇 번, 언제, 어떤 속도로 움직일지를 더 크게 봅니다.
-
-## 체크포인트 3개
-
-1. `달러 인덱스`: 발표 직후뿐 아니라 다음 거래일에도 같은 방향인지 확인하기
-2. `미국채 2년물/10년물 금리`와 `나스닥과 비트코인 동시 반응`: 서로 엇갈리는지, 같이 움직이는지 비교하기
-3. `다음 CPI/PCE/고용지표` 전까지 상승 시나리오와 리스크 시나리오를 따로 메모해두기
-
-## FAQ 2개
-
-### FOMC가 왜 주식과 코인에 동시에 영향을 주나요?
-금리 방향이 달러와 유동성 기대를 바꾸기 때문입니다. 그래서 성장주와 코인처럼 유동성에 민감한 자산이 함께 반응하는 경우가 많습니다.
-
-### 이번 발표에서 개인 투자자가 가장 먼저 볼 것은 무엇인가요?
-성명서 문구 자체보다 점도표, 기자회견 톤, 그리고 이후 금리 인하 기대가 얼마나 바뀌는지를 함께 보는 편이 더 중요합니다.
-
-## 출처 체크
-
-- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- 발행 전 재확인: FOMC 성명서 원문 날짜와 발표 시각 확인
-- 발행 전 재확인: 점도표/경제전망 최신 버전 확인
-- 발행 전 재확인: 달러, 미국채 금리, 나스닥 관련 수치 재확인
-
-## 이 글에서 같이 봐야 할 관점
-
-- 왜 지금 이 이슈가 개인 투자자에게 중요한지 한 문장 설명
-- 달러, 금리, 주식, 코인 중 최소 2개와 연결한 해석
-- 다만/반면 같은 균형 문장
-
-
-## CTA
-
-이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
-다음 글에서는 FOMC 이후 달러, 미국채 금리, 나스닥 가운데 무엇을 먼저 보면 되는지 더 실전적으로 풀어보겠습니다.
-
-## 면책문구
-
-이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.</pre>
-      </div>
-    </section>
-    
-
     <section class="card">
       <div class="summary">
         <div class="pill-row">
           <span class="pill">bitcoin</span>
           <span class="pill alt">approve</span>
           <span class="pill">score 100</span>
-          <span class="pill">priority 117.0</span>
+          <span class="pill">priority 124.0</span>
         </div>
         <h2>비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트</h2>
         <p><strong>Publish</strong> 2026-07-20 / <strong>Quality</strong> pass / <strong>Ready</strong> True</p>
         <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
         <p><strong>CTA</strong> ETF·규제·초보 가이드 글로 연결</p>
-        <p><strong>Why now</strong> 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed), 실제 급상승 검색어 반영 (fidelity bitcoin)</p>
-        <p><strong>Evidence</strong> demand 300 / fallback trend_match</p>
+        <p><strong>Why now</strong> 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)</p>
+        <p><strong>Evidence</strong> demand 5900 / fallback source_snapshot_rank</p>
         <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%95%B5%EC%8B%AC-%ED%9D%90%EB%A6%84-%ED%95%B4%EC%84%A4.html' target='_blank' rel='noreferrer'>HTML</a></p>
         <div class="mini-block">
           <h3>Sample Headlines</h3>
-          <ul><li>fidelity bitcoin</li><li>Crypto executives say digital native generations may never need a bank account</li><li>DOG Mode explains Bitcoin&#x27;s next governance fight</li><li>Trump targets Brazil&#x27;s payments system while dollar stablecoins are quietly overtaking country&#x27;s payments</li></ul>
+          <ul><li>Bitcoin&#x27;s biggest advocate, Michael Saylor, says new plan to clean up the blockchain is &#x27;a bad idea&#x27;</li><li>Tether&#x27;s USDT hits 2-year countdown threatening its position on U.S. crypto platforms</li><li>Kraken says simpler options can unlock crypto&#x27;s next derivatives market</li><li>Bitcoin’s quantum problem gets a recovery tool, but not for Satoshi’s 1.1 million coins</li></ul>
         </div>
         <div class="mini-block">
           <h3>Recent Evidence</h3>
-          <ul><li><strong>Investing.com Crypto News</strong> <span class='tiny'>2026-07-19 07:01:40</span><br>Bitcoin stuck in tight range below $65,600: Hourly levels <a href='https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-at-supertrend-support-hourly-levels-93CH-4787508' target='_blank' rel='noreferrer'>open</a></li><li><strong>Google Trends US</strong> <span class='tiny'>2026-07-18T23:40:00-07:00</span><br>fidelity bitcoin <a href='https://trends.google.com/trending/rss?geo=US' target='_blank' rel='noreferrer'>open</a></li><li><strong>CoinDesk RSS</strong> <span class='tiny'>2026-07-18T17:00:00+00:00</span><br>DOG Mode explains Bitcoin&#x27;s next governance fight <a href='https://www.coindesk.com/tech/2026/07/18/dog-mode-explains-bitcoin-s-next-governance-fight' target='_blank' rel='noreferrer'>open</a></li><li><strong>CoinDesk RSS</strong> <span class='tiny'>2026-07-18T14:15:15+00:00</span><br>Massive bitcoin call spreads target $72,000 by month end, right when the Fed meets <a href='https://www.coindesk.com/markets/2026/07/18/massive-bitcoin-call-spreads-target-usd72-000-by-month-end-right-when-the-fed-meets' target='_blank' rel='noreferrer'>open</a></li></ul>
+          <ul><li><strong>CoinDesk RSS</strong> <span class='tiny'>2026-07-19T15:19:21+00:00</span><br>Bitcoin&#x27;s biggest advocate, Michael Saylor, says new plan to clean up the blockchain is &#x27;a bad idea&#x27; <a href='https://www.coindesk.com/tech/2026/07/19/bitcoin-s-biggest-advocate-michael-saylor-says-new-plan-to-clean-up-the-blockchain-is-a-bad-idea' target='_blank' rel='noreferrer'>open</a></li><li><strong>CoinDesk RSS</strong> <span class='tiny'>2026-07-19T10:00:00+00:00</span><br>Bitcoin’s quantum problem gets a recovery tool, but not for Satoshi’s 1.1 million coins <a href='https://www.coindesk.com/tech/2026/07/19/bitcoin-s-quantum-problem-gets-a-recovery-tool-but-not-for-satoshi-s-1-1-million-coin' target='_blank' rel='noreferrer'>open</a></li><li><strong>Cointelegraph</strong> <span class='tiny'>2026-07-19T09:16:42+00:00</span><br>Electronic Transactions Association CEO Expecting More Partnerships with Bitcoin Startups <a href='https://cointelegraph.com/news/electronic-transactions-association-ceo-expecting-more-partnerships-with-bitcoin-startups?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound' target='_blank' rel='noreferrer'>open</a></li><li><strong>Investing.com Crypto News</strong> <span class='tiny'>2026-07-19 08:57:01</span><br>Bitcoin eyes $72,000 as governance and mining concentration concerns grow <a href='https://www.investing.com/news/cryptocurrency-news/bitcoin-eyes-72000-as-governance-and-mining-concentration-concerns-grow-4799711' target='_blank' rel='noreferrer'>open</a></li></ul>
         </div>
         <div class="mini-block">
           <h3>Image Status</h3>
@@ -311,14 +187,14 @@
 2026년 7월 19일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 코인 전문 매체 기사, 실시간 검색 흐름를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `fidelity bitcoin` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `Bitcoin&#x27;s biggest advocate, Michael Saylor, says new plan to clean up the blockchain is &#x27;a bad idea&#x27;` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `fidelity bitcoin`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Bitcoin&#x27;s biggest advocate, Michael Saylor, says new plan to clean up the blockchain is &#x27;a bad idea&#x27;`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `현물 ETF 순유입/순유출`, 다른 하나는 `달러 인덱스와 미국채 금리`입니다.
 한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -366,7 +242,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: CoinDesk RSS, Cointelegraph, Google Trends US, Investing.com Crypto News
+- 주요 참고 소스: CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News
 - 발행 전 재확인: BTC 가격 기준 시각 재확인
 - 발행 전 재확인: ETF 자금 유입 여부 공식/신뢰 소스 재확인
 - 발행 전 재확인: 단정적 가격 전망 문장 제거
@@ -393,34 +269,34 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
     <section class="card">
       <div class="summary">
         <div class="pill-row">
-          <span class="pill">us_index_flow</span>
+          <span class="pill">ai_semiconductors</span>
           <span class="pill alt">approve</span>
           <span class="pill">score 100</span>
-          <span class="pill">priority 106.0</span>
+          <span class="pill">priority 110.0</span>
         </div>
-        <h2>미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유</h2>
-        <p><strong>Publish</strong> 2026-07-21 / <strong>Quality</strong> review_before_publish / <strong>Ready</strong> False</p>
+        <h2>AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지</h2>
+        <p><strong>Publish</strong> 2026-07-21 / <strong>Quality</strong> pass / <strong>Ready</strong> True</p>
         <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
         <p><strong>CTA</strong> 실적·공급망·대표 종목 글로 연결</p>
-        <p><strong>Why now</strong> 검색 트렌드 반응 존재, 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (stock market today)</p>
-        <p><strong>Evidence</strong> demand 2200 / fallback trend_match</p>
-        <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-index-flow.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-%EB%AF%B8%EA%B5%AD-%EC%A6%9D%EC%8B%9C-%EC%A7%80%EC%88%98-%ED%9D%90%EB%A6%84-%ED%95%B4%EC%84%A4.html' target='_blank' rel='noreferrer'>HTML</a></p>
+        <p><strong>Why now</strong> 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능</p>
+        <p><strong>Evidence</strong> demand 2500 / fallback source_snapshot_rank</p>
+        <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-semiconductors.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EA%B0%80%EB%A5%BC-%EB%B3%BC-%EB%95%8C-%EC%8B%A4%EC%A0%81%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%ED%99%95%EC%9D%B8%ED%95%A0-3%EA%B0%80%EC%A7%80.html' target='_blank' rel='noreferrer'>HTML</a></p>
         <div class="mini-block">
           <h3>Sample Headlines</h3>
-          <ul><li>stock market today</li></ul>
+          <ul><li>Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters</li><li>Wall St ends lower for the day and week as chip selloff broadens - Reuters</li><li>World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters</li><li>Can the ‘Magnificent Seven’ save a stock market that might be doomed without them?</li></ul>
         </div>
         <div class="mini-block">
           <h3>Recent Evidence</h3>
-          <ul><li><strong>Google Trends US</strong> <span class='tiny'>2026-07-18T23:30:00-07:00</span><br>stock market today <a href='https://trends.google.com/trending/rss?geo=US' target='_blank' rel='noreferrer'>open</a></li></ul>
+          <ul><li><strong>Financial Times YouTube</strong> <span class='tiny'>38K views</span><br>Silicon shadows: inside the black market for AI chips | FT Film <a href='https://www.youtube.com/watch?v=kFcWmQevQo8' target='_blank' rel='noreferrer'>open</a></li><li><strong>Reuters Markets via Google News RSS</strong> <span class='tiny'>2026-07-17T22:51:35+00:00</span><br>World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters <a href='https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTBUX2ZaNk9EY2M2SU5BaEw4VkRFXzF6OE1MeENrcVRwT1hnd2gtbzVDODJ3VUh2ZXdOYi03b2ZobHhhdlMzSE1fOWM0b3lWTlh1Q2VENEFFdHlKWmNuOVltd0R4X254aFM0SmNjZ3RIWVNqREU3OXlHSFNsUGtBUXYyUQ?oc=5' target='_blank' rel='noreferrer'>open</a></li><li><strong>Reuters Markets via Google News RSS</strong> <span class='tiny'>2026-07-17T22:31:24+00:00</span><br>Wall St ends lower for the day and week as chip selloff broadens - Reuters <a href='https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSXBLd3owVnZENU9mMVBIZUg5UjJoT1RtdmJ6UkdJNzJOVmxXdVFtT2FWYzU4c1pQSzkybmNBRHUwMnBxeURFY01ZQ3ptMkg0TFR2dGpQblJSSWRNVThEYlBXZWNVZjQtTWswdUdLR2M4SXhXWGtRNER2UlgyU1ctQkR6Y0ZSWWYzV2tyc2FtMHhfZGNMU0xZdlRGN0hXYXVkRWk0QkdpV0o4dEU?oc=5' target='_blank' rel='noreferrer'>open</a></li><li><strong>Reuters Markets via Google News RSS</strong> <span class='tiny'>2026-07-17T20:55:29+00:00</span><br>Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters <a href='https://news.google.com/rss/articles/CBMiswFBVV95cUxONEpraWR3MkhKa1R0dDlkLTJsYXVWU0NsQjIySnpzcTA1dkFyVGNKcGk0RFNjbmF2dnRQZ2ZnR0lGb2thTEdwb3RLRVQyRWdxYmtFV2QxOVVQcHBocEsxVUoyYnJBa0JlZlBZRkRfY0trdGJnRkFOWEljYXowWWNrLXlVQm1sYkJoT2NzMVlMcDV1cWdDSHRjQUpZalFpdHN5cjZyWkxkOXVDMllxR2RiekFTYw?oc=5' target='_blank' rel='noreferrer'>open</a></li></ul>
         </div>
         <div class="mini-block">
           <h3>Image Status</h3>
-          <ul><li><strong>대표 이미지</strong> Unsplash / <code>technology stocks office finance abstract</code></li><li><strong>본문 보조 이미지</strong> Pexels / <code>semiconductor data center abstract</code></li></ul>
+          <ul><li><strong>대표 이미지</strong> Unsplash / <code>semiconductor chip blue abstract</code></li><li><strong>본문 보조 이미지</strong> Pexels / <code>ai server data center abstract</code></li></ul>
         </div>
       </div>
       <div class="draft">
         <h3>Draft Body</h3>
-        <pre># 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+        <pre># AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
 한 줄 요약: `나스닥과 S&amp;P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 
@@ -435,14 +311,14 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 2026년 7월 19일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `나스닥과 S&amp;P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 실시간 검색 흐름를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `stock market today` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+쉽게 말해 해외 주요 매체 보도, 유튜브 해설를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `stock market today`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `나스닥과 S&amp;P500 상대 강도`, 다른 하나는 `미국채 10년물 금리`입니다.
 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -482,18 +358,18 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## FAQ 2개
 
-### 이 이슈를 볼 때 가장 먼저 확인할 것은 무엇인가요?
-핵심 숫자와 발표 시점, 그리고 시장이 그 숫자를 어떻게 해석하는지까지 함께 보는 편이 좋습니다.
+### AI 반도체는 엔비디아만 보면 되나요?
+그렇게 단순하게 보기는 어렵습니다. 메모리, 파운드리, 네트워크, 서버 공급망까지 같이 봐야 흐름이 더 잘 보입니다.
 
-### 개인 투자자는 어떤 식으로 접근해야 하나요?
-단정적으로 결론 내리기보다 시나리오를 나눠 보고, 다음 확인 포인트를 정해 두는 방식이 더 현실적입니다.
+### 섹터 강세가 이어질지 보려면 무엇을 확인해야 하나요?
+실적 숫자, 가이던스, CAPEX, 고객사 주문 흐름처럼 실제 수요가 이어지는 신호가 있는지 확인해야 합니다.
 
 ## 출처 체크
 
-- 주요 참고 소스: Google Trends US
-- 발행 전 재확인: 나스닥/S&amp;P/미국 증시 수치와 기준 시각 재확인
-- 발행 전 재확인: 지수 하락/상승 원인을 한 문장으로 단정하지 않기
-- 발행 전 재확인: 채권·달러·빅테크와의 연결 문장 교차 점검
+- 주요 참고 소스: Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 발행 전 재확인: 기업 실적/가이던스 수치 원문 확인
+- 발행 전 재확인: 반도체 섹터 전반 일반화 과장 여부 점검
+- 발행 전 재확인: 대표 종목 티커와 실적 날짜 재확인
 
 ## 이 글에서 같이 봐야 할 관점
 
@@ -505,7 +381,131 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 ## CTA
 
 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
-다음 글에서는 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
+다음 글에서는 AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
+
+## 면책문구
+
+이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.</pre>
+      </div>
+    </section>
+    
+
+    <section class="card">
+      <div class="summary">
+        <div class="pill-row">
+          <span class="pill">china</span>
+          <span class="pill alt">approve</span>
+          <span class="pill">score 100</span>
+          <span class="pill">priority 80.0</span>
+        </div>
+        <h2>중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유</h2>
+        <p><strong>Publish</strong> 2026-07-22 / <strong>Quality</strong> pass / <strong>Ready</strong> True</p>
+        <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
+        <p><strong>CTA</strong> 실적·공급망·대표 종목 글로 연결</p>
+        <p><strong>Why now</strong> 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능</p>
+        <p><strong>Evidence</strong> demand 0 / fallback mapped_candidate</p>
+        <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html' target='_blank' rel='noreferrer'>HTML</a></p>
+        <div class="mini-block">
+          <h3>Sample Headlines</h3>
+          <ul><li>China&#x27;s Jingye Steel urges UK to compensate its investment losses - Reuters</li><li>China’s Jingye demands payout over British Steel nationalisation</li></ul>
+        </div>
+        <div class="mini-block">
+          <h3>Recent Evidence</h3>
+          <ul><li><strong>Financial Times World</strong> <span class='tiny'>2026-07-19T10:50:00+00:00</span><br>China’s Jingye demands payout over British Steel nationalisation <a href='https://www.ft.com/content/dc61c278-c3eb-48b5-8f79-f949eae7a601?syn-25a6b1a6=1' target='_blank' rel='noreferrer'>open</a></li><li><strong>Reuters Markets via Google News RSS</strong> <span class='tiny'>2026-07-19T04:22:00+00:00</span><br>China&#x27;s Jingye Steel urges UK to compensate its investment losses - Reuters <a href='https://news.google.com/rss/articles/CBMirgFBVV95cUxNc2RqYlFpN2JQRTF1eV9zWnJEWHQxeThpU1Uya2VLVEVqRUFDSUljajMzRTNodE1NWUhlVjdqc3hsMjNqZUVEZF9BSHFpNThWLXAtODZFeXgzdVotSFFla3B4RHo5OTlieHFldkdNaExoVE15WjAwYVZ4QkhtLTlFeXVrVGxHTUdxQjlvOE4zS2I4TC1YVUdoRkhXM1doMW9feEZuUmdMVHJheTFERVE?oc=5' target='_blank' rel='noreferrer'>open</a></li></ul>
+        </div>
+        <div class="mini-block">
+          <h3>Image Status</h3>
+          <ul><li><strong>대표 이미지</strong> Unsplash / <code>technology stocks office finance abstract</code></li><li><strong>본문 보조 이미지</strong> Pexels / <code>semiconductor data center abstract</code></li></ul>
+        </div>
+      </div>
+      <div class="draft">
+        <h3>Draft Body</h3>
+        <pre># 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+
+한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+
+## 오늘 핵심 3줄
+
+- 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다.
+- 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다.
+- 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다.
+
+## 도입부
+
+2026년 7월 19일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
+개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
+쉽게 말해 해외 주요 매체 보도를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `China&#x27;s Jingye Steel urges UK to compensate its investment losses - Reuters` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+
+## 본문
+
+## 1. 지금 무슨 일이 있었나
+
+이번 글의 출발점은 `China&#x27;s Jingye Steel urges UK to compensate its investment losses - Reuters`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `달러/위안 환율`, 다른 하나는 `중국 부동산·소비 지표`입니다.
+쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
+
+## 2. 왜 시장이 반응했나
+
+중국은 글로벌 수요의 큰 축이기 때문에 경기 기대가 바뀌면 원자재와 아시아 증시, 달러 흐름까지 같이 움직일 수 있습니다.
+투자자 언어로 다시 풀면, 결국 중요한 건 이 숫자가 시장 기대를 얼마나 바꾸는지 쪽이 실제 자산 가격에 얼마나 빨리 반영되는지입니다.
+특히 `달러/위안 환율` 쪽 변화가 먼저 나오고 `중국 부동산·소비 지표` 흐름이 따라오는지, 아니면 가격만 먼저 튀는지를 나눠 보면 뉴스의 질이 달라 보입니다.
+
+## 3. 개인 투자자가 바로 확인할 지표
+
+첫째로 볼 것은 `달러/위안 환율`입니다. 이 지표가 같은 방향으로 며칠 이어지면 단순 반응보다 흐름일 가능성이 커집니다.
+둘째는 `중국 부동산·소비 지표`입니다. 거시 환경이 받쳐주지 않으면 좋은 뉴스도 오래 버티기 어렵습니다.
+셋째는 `구리와 유가`입니다. 한 자산만 움직이는지, 관련 자산으로 확산되는지에 따라 해석이 완전히 달라집니다.
+추가로 `한국 수출주와 소재·산업재 반응`까지 확인하면 다음 글감과 투자 판단의 기준선이 더 선명해집니다.
+
+## 4. 내 포트폴리오와 연결해서 보는 법
+
+독자 입장에서 중요한 건 중국 뉴스 자체보다 그 뉴스가 실제 수요 회복으로 이어지는지 확인하는 일입니다.
+예를 들어 이미 관련 자산 비중이 높다면 새로 맞히는 것보다 변동성이 커질 때 어느 구간에서 흔들릴지 먼저 생각해야 합니다.
+반대로 아직 관망 중이라면 지금 당장 따라가기보다 다음 확인 지표가 같은 방향으로 쌓이는지 보는 편이 더 실전적입니다.
+
+## 상승 시나리오와 리스크
+
+- 상승 시나리오: 부양책과 소비 지표가 같은 방향으로 개선되고 위안화가 안정되면 중국 관련 자산의 해석이 좋아질 수 있습니다.
+- 리스크 시나리오: 정책 기대만 앞서고 부동산·소비 지표가 따라오지 않으면 시장은 다시 실망 쪽으로 기울 수 있습니다.
+
+## 자주 하는 오해
+
+부양책 발표를 곧바로 경기 회복으로 보는 것입니다. 시장은 발표보다 집행 속도와 실제 지표를 더 냉정하게 봅니다.
+
+## 체크포인트 3개
+
+1. `달러/위안 환율`: 발표 직후뿐 아니라 다음 거래일에도 같은 방향인지 확인하기
+2. `중국 부동산·소비 지표`와 `구리와 유가`: 서로 엇갈리는지, 같이 움직이는지 비교하기
+3. `한국 수출주와 소재·산업재 반응` 전까지 상승 시나리오와 리스크 시나리오를 따로 메모해두기
+
+## FAQ 2개
+
+### 이 이슈를 볼 때 가장 먼저 확인할 것은 무엇인가요?
+핵심 숫자와 발표 시점, 그리고 시장이 그 숫자를 어떻게 해석하는지까지 함께 보는 편이 좋습니다.
+
+### 개인 투자자는 어떤 식으로 접근해야 하나요?
+단정적으로 결론 내리기보다 시나리오를 나눠 보고, 다음 확인 포인트를 정해 두는 방식이 더 현실적입니다.
+
+## 출처 체크
+
+- 주요 참고 소스: Financial Times World, Reuters Markets via Google News RSS
+- 발행 전 재확인: 정책 발표 또는 인터뷰 원문 여부 확인
+- 발행 전 재확인: 중국 관련 2차 해설을 사실처럼 단정하지 않기
+- 발행 전 재확인: 한국/미국 시장 영향은 시나리오형으로 서술
+
+## 이 글에서 같이 봐야 할 관점
+
+- 왜 지금 이 이슈가 개인 투자자에게 중요한지 한 문장 설명
+- 달러, 금리, 주식, 코인 중 최소 2개와 연결한 해석
+- 다만/반면 같은 균형 문장
+
+
+## CTA
+
+이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
+다음 글에서는 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
 
 ## 면책문구
 

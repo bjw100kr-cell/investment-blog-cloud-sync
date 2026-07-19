@@ -1,43 +1,36 @@
 {
-  "generated_at": "2026-07-19T07:52:20.136130+00:00",
+  "generated_at": "2026-07-19T15:34:11.119343+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "us_index_flow",
-      "trend_count": 1,
-      "traffic_score_sum": 2000,
-      "max_approx_traffic": 2000,
-      "trend_queries": [
-        "stock market today"
-      ],
-      "regions": [
-        "US"
-      ],
-      "demand_signal_score": 2200,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
-    {
       "keyword": "bitcoin",
-      "trend_count": 1,
-      "traffic_score_sum": 100,
-      "max_approx_traffic": 100,
-      "trend_queries": [
-        "fidelity bitcoin"
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 5900,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 47,
+      "source_count": 4,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Financial Times Home",
+        "Investing.com Crypto News"
       ],
-      "regions": [
-        "US"
-      ],
-      "demand_signal_score": 300,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+      "sample_titles": [
+        "Bitcoin's biggest advocate, Michael Saylor, says new plan to clean up the blockchain is 'a bad idea'",
+        "Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms",
+        "Kraken says simpler options can unlock crypto's next derivatives market"
+      ]
     },
     {
       "keyword": "fomc",
@@ -46,17 +39,14 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4500,
+      "demand_signal_score": 3200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 33,
-      "source_count": 4,
+      "source_snapshot_score": 20,
+      "source_count": 1,
       "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
@@ -65,32 +55,31 @@
       ]
     },
     {
-      "keyword": "dollar",
+      "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2400,
+      "demand_signal_score": 2500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
-      "source_count": 4,
+      "source_snapshot_score": 13,
+      "source_count": 3,
       "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "NYT Business"
+        "Financial Times YouTube",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Trump targets Brazil's payments system while dollar stablecoins are quietly overtaking country's payments",
-        "Crypto Biz: When dollars disappear, stablecoins step in",
-        "Fanatics CEO Michael Rubin on two sports businesses his multibillion-dollar conglomerate won't enter"
+        "Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters",
+        "Wall St ends lower for the day and week as chip selloff broadens - Reuters",
+        "World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters"
       ]
     },
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "oil",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -101,15 +90,16 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 11,
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
+        "Financial Times World",
         "Financial Times YouTube",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters",
-        "Wall St ends lower for the day and week as chip selloff broadens - Reuters",
-        "World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters"
+        "World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters",
+        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film",
+        "Burnham to maintain ban on North Sea exploration licences"
       ]
     }
   ],

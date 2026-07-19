@@ -113,7 +113,7 @@
   ],
   "reference_headlines": [
     "China's Jingye Steel urges UK to compensate its investment losses - Reuters",
-    "Xpeng says China close to building ‘killer’ rival to Tesla Model Y"
+    "China’s Jingye demands payout over British Steel nationalisation"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [

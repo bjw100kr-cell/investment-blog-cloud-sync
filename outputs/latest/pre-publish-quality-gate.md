@@ -3,8 +3,8 @@
 발행 전에 신뢰, 내부링크, 구조화 데이터, 재방문 장치가 빠졌는지 자동 점검하는 품질 게이트입니다.
 
 - item_count: `8`
-- pass_count: `7`
-- review_before_publish_count: `1`
+- pass_count: `8`
+- review_before_publish_count: `0`
 - needs_fix_count: `0`
 
 ## Readiness Checklist Reference
@@ -68,12 +68,12 @@
 - fail / `low` / `newsletter_ready`: 뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다.
 - fail / `low` / `ga4_ready`: GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다.
 
-## 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+## AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword: `us_index_flow`
+- keyword: `ai_semiconductors`
 - source_group: `main`
-- status: `review_before_publish`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html`
+- status: `pass`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -85,7 +85,7 @@
 - ok / `medium` / `fact_check_box_present`: 핵심 숫자와 날짜를 재확인하는 박스는 helpful content 신뢰도에 중요합니다.
 - ok / `medium` / `source_strength`: 공식 자료나 신뢰 가능한 매체 소스가 직접 보이면 글 신뢰도가 높아집니다.
 - ok / `medium` / `internal_links_minimum`: 관련 허브/정책/소개 글 내부링크 최소 2개는 재방문과 체류시간에 유리합니다.
-- fail / `medium` / `follow_up_posts_present`: 후속 글 연결이 있어야 검색 유입이 사이트 내 순환으로 이어집니다.
+- ok / `medium` / `follow_up_posts_present`: 후속 글 연결이 있어야 검색 유입이 사이트 내 순환으로 이어집니다.
 - ok / `medium` / `hero_image_selected`: 대표 이미지 1장은 체류시간과 썸네일 완성도에 유리하므로 발행 전 선택해 두는 편이 좋습니다.
 - ok / `medium` / `crypto_market_signal_present`: 코인 글은 가격/거래량/공포탐욕지수 같은 실제 시장 신호가 있어야 정보 전달력이 생깁니다.
 - ok / `low` / `image_license_review_ready`: 라이선스가 확인된 이미지 후보와 alt 문구가 같이 준비되어야 운영 속도가 안정적입니다.
@@ -120,12 +120,12 @@
 - fail / `low` / `newsletter_ready`: 뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다.
 - fail / `low` / `ga4_ready`: GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다.
 
-## 달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지
+## AI 반도체 주식 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_dollar_7`
+- keyword: `seo_ai_semiconductors_7`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-달러-인덱스-보는법-지금-투자자가-확인할-체크포인트-5가지.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-ai-반도체-주식-관련-대표-종목-한눈에-보기.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -148,7 +148,7 @@
 
 ## 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_china_12`
+- keyword: `seo_china_11`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html`
@@ -174,7 +174,7 @@
 
 ## 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 
-- keyword: `seo_china_13`
+- keyword: `seo_china_12`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html`
@@ -200,7 +200,7 @@
 
 ## 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 
-- keyword: `seo_china_14`
+- keyword: `seo_china_13`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html`

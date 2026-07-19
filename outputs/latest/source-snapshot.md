@@ -1,8 +1,8 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-19T07:52:20.136130+00:00`
+- 생성 시각: `2026-07-19T15:34:11.119343+00:00`
 - 수집 성공 소스: `14`
-- 수집 아이템 수: `112`
+- 수집 아이템 수: `111`
 
 ## 소스 상태
 
@@ -14,7 +14,7 @@
 - `OK` Cointelegraph (rss): 8 items
 - `OK` CNBC Top News (rss): 8 items
 - `OK` Investing.com Crypto News (rss): 8 items
-- `OK` Financial Times Home (rss): 8 items
+- `OK` Financial Times Home (rss): 7 items
 - `OK` Reuters Markets via Google News RSS (rss): 8 items
 - `OK` 무역킹 Trade King YouTube (youtube_channel): 8 items
 - `OK` MarketWatch Breaking News (rss): 8 items
@@ -106,47 +106,45 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 53, source_count 4, sources CoinDesk RSS, Cointelegraph, Google Trends US, Investing.com Crypto News
-- `fomc`: score 33, source_count 4, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `us_index_flow`: score 25, source_count 1, sources Google Trends US
-- `dollar`: score 12, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, NYT Business
-- `ai_semiconductors`: score 11, source_count 2, sources Financial Times YouTube, Reuters Markets via Google News RSS
-- `cpi`: score 6, source_count 2, sources CNBC Top News, Investing.com Crypto News
+- `bitcoin`: score 47, source_count 4, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News
+- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
+- `ai_semiconductors`: score 13, source_count 3, sources Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `oil`: score 11, source_count 3, sources Financial Times World, Financial Times YouTube, Reuters Markets via Google News RSS
 - `china`: score 6, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
-- `oil`: score 5, source_count 2, sources Financial Times YouTube, Reuters Markets via Google News RSS
+- `dollar`: score 4, source_count 1, sources CoinDesk RSS
+- `cpi`: score 3, source_count 1, sources Investing.com Crypto News
 - `ethereum`: score 3, source_count 1, sources Investing.com Crypto News
-- `us_big_tech`: score 3, source_count 1, sources Financial Times World
+- `us_index_flow`: score 2, source_count 1, sources MarketWatch Breaking News
+- `us_big_tech`: score 2, source_count 1, sources MarketWatch Breaking News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 53, headlines 15
-  - fidelity bitcoin
-  - Crypto executives say digital native generations may never need a bank account
-  - DOG Mode explains Bitcoin's next governance fight
-- `fomc`: score 33, headlines 8
+- `bitcoin`: score 47, headlines 14
+  - Bitcoin's biggest advocate, Michael Saylor, says new plan to clean up the blockchain is 'a bad idea'
+  - Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms
+  - Kraken says simpler options can unlock crypto's next derivatives market
+- `fomc`: score 20, headlines 4
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- `us_index_flow`: score 25, headlines 1
-  - stock market today
-- `dollar`: score 12, headlines 4
-  - Trump targets Brazil's payments system while dollar stablecoins are quietly overtaking country's payments
-  - Crypto Biz: When dollars disappear, stablecoins step in
-  - Fanatics CEO Michael Rubin on two sports businesses his multibillion-dollar conglomerate won't enter
-- `ai_semiconductors`: score 11, headlines 4
+- `ai_semiconductors`: score 13, headlines 5
   - Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters
   - Wall St ends lower for the day and week as chip selloff broadens - Reuters
   - World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters
-- `china`: score 6, headlines 2
-  - China's Jingye Steel urges UK to compensate its investment losses - Reuters
-  - Xpeng says China close to building ‘killer’ rival to Tesla Model Y
-- `cpi`: score 6, headlines 2
-  - Analysis: Fed Chairman Warsh faces an inflation credibility test after Congress hearings
-  - Bitcoin flat for the week as rate concerns, Iran tensions offset inflation data
-- `oil`: score 5, headlines 2
+- `oil`: score 11, headlines 4
   - World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters
   - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+  - Burnham to maintain ban on North Sea exploration licences
+- `china`: score 6, headlines 2
+  - China's Jingye Steel urges UK to compensate its investment losses - Reuters
+  - China’s Jingye demands payout over British Steel nationalisation
+- `dollar`: score 4, headlines 1
+  - Kraken says simpler options can unlock crypto's next derivatives market
+- `cpi`: score 3, headlines 1
+  - Bitcoin flat for the week as rate concerns, Iran tensions offset inflation data
 - `ethereum`: score 3, headlines 1
   - ether.fi Partners with Nexus Mutual to Protect Against ETH Slashing at Institutional Scale
-- `us_big_tech`: score 3, headlines 1
-  - Xpeng says China close to building ‘killer’ rival to Tesla Model Y
+- `ai_growth_stocks`: score 2, headlines 1
+  - Palantir: profits, procurement and power | FT Film
+- `us_big_tech`: score 2, headlines 1
+  - Can the ‘Magnificent Seven’ save a stock market that might be doomed without them?
