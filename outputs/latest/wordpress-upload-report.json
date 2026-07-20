@@ -3,22 +3,13 @@
   "reason": "WORDPRESS_SITE_URL is not set",
   "items": [
     {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
-      "uploaded": false,
-      "reason": "credentials_missing_dry_run",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "keyword": "fomc",
-      "inventory_type": "main_post",
-      "upload_sequence": 1
-    },
-    {
       "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
       "uploaded": false,
-      "reason": "WORDPRESS_MAX_POSTS_PER_RUN reached",
+      "reason": "credentials_missing_dry_run",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "keyword": "bitcoin",
       "inventory_type": "main_post",
-      "upload_sequence": 2
+      "upload_sequence": 1
     },
     {
       "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html",
@@ -27,7 +18,7 @@
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "keyword": "ai_semiconductors",
       "inventory_type": "main_post",
-      "upload_sequence": 3
+      "upload_sequence": 2
     },
     {
       "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html",
@@ -36,61 +27,52 @@
       "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
       "keyword": "china",
       "inventory_type": "main_post",
+      "upload_sequence": 3
+    },
+    {
+      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
+      "uploaded": false,
+      "reason": "WORDPRESS_MAX_POSTS_PER_RUN reached",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "keyword": "fomc",
+      "inventory_type": "main_post",
       "upload_sequence": 4
     },
     {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-비트코인-현물-etf-자금-유입-지금-투자자가-확인할-체크포인트-5가지.html",
+      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-ai-반도체-주식-관련-대표-종목-한눈에-보기.html",
       "uploaded": false,
       "reason": "WORDPRESS_MAX_POSTS_PER_RUN reached",
-      "title": "비트코인 현물 ETF 자금 유입: 지금 투자자가 확인할 체크포인트 5가지",
-      "keyword": "seo_crypto_etf_4",
+      "title": "AI 반도체 주식 관련 대표 종목 한눈에 보기",
+      "keyword": "seo_ai_semiconductors_7",
       "inventory_type": "seo_followup",
       "upload_sequence": 5
     },
     {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-달러-인덱스-보는법-지금-투자자가-확인할-체크포인트-5가지.html",
+      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html",
       "uploaded": false,
       "reason": "WORDPRESS_MAX_POSTS_PER_RUN reached",
-      "title": "달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지",
-      "keyword": "seo_dollar_5",
+      "title": "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
+      "keyword": "seo_china_11",
       "inventory_type": "seo_followup",
       "upload_sequence": 6
     },
     {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-ai-반도체-주식-관련-대표-종목-한눈에-보기.html",
+      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html",
       "uploaded": false,
       "reason": "WORDPRESS_MAX_POSTS_PER_RUN reached",
-      "title": "AI 반도체 주식 관련 대표 종목 한눈에 보기",
-      "keyword": "seo_ai_semiconductors_6",
+      "title": "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나",
+      "keyword": "seo_china_12",
       "inventory_type": "seo_followup",
       "upload_sequence": 7
     },
     {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html",
-      "uploaded": false,
-      "reason": "WORDPRESS_MAX_POSTS_PER_RUN reached",
-      "title": "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
-      "keyword": "seo_china_13",
-      "inventory_type": "seo_followup",
-      "upload_sequence": 8
-    },
-    {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html",
-      "uploaded": false,
-      "reason": "WORDPRESS_MAX_POSTS_PER_RUN reached",
-      "title": "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나",
-      "keyword": "seo_china_14",
-      "inventory_type": "seo_followup",
-      "upload_sequence": 9
-    },
-    {
-      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html",
+      "file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html",
       "uploaded": false,
       "reason": "WORDPRESS_MAX_POSTS_PER_RUN reached",
       "title": "중국 변수와 시장 영향 ETF·지수·대표 기업 정리",
-      "keyword": "seo_china_15",
+      "keyword": "seo_china_13",
       "inventory_type": "seo_followup",
-      "upload_sequence": 10
+      "upload_sequence": 8
     }
   ],
   "summary": {
@@ -98,7 +80,7 @@
     "auto_publish": false,
     "publish_due_only": true,
     "max_posts_per_run": 1,
-    "manifest_candidate_count": 10,
+    "manifest_candidate_count": 8,
     "review_required": true
   }
 }

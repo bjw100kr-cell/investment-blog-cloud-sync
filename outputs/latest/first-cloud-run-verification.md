@@ -23,13 +23,13 @@
 
 ## Quick Read
 
-- review_item_count: `10`
-- approval_dashboard_count: `10`
+- review_item_count: `8`
+- approval_dashboard_count: `8`
 - review_approval_state: `{"user_confirmed_all": false, "user_confirmed_keywords": ["bitcoin"]}`
 - channel `blogger`: ready=True / ready_item_count=1
 - channel `wordpress`: ready=False / ready_item_count=1
-- blogger_summary: `{"processed_count": 2, "auto_publish": true, "publish_due_only": false, "max_posts_per_run": 3, "allow_reupload_same_content": false, "review_required": false, "only_keywords": [], "approval_file_present": true, "user_final_confirmation_required": false, "user_confirmed_all": false, "user_confirmed_keywords": ["bitcoin"], "approved_all": false, "approved_keywords": ["bitcoin"], "quality_gate_blocked": []}`
-- wordpress_summary: `{"processed_count": 0, "auto_publish": false, "publish_due_only": true, "max_posts_per_run": 1, "manifest_candidate_count": 10, "review_required": true}`
+- blogger_summary: `{"processed_count": 3, "auto_publish": true, "publish_due_only": false, "max_posts_per_run": 3, "allow_reupload_same_content": false, "review_required": false, "only_keywords": [], "approval_file_present": true, "user_final_confirmation_required": false, "user_confirmed_all": false, "user_confirmed_keywords": ["bitcoin"], "approved_all": false, "approved_keywords": ["bitcoin"], "quality_gate_blocked": []}`
+- wordpress_summary: `{"processed_count": 0, "auto_publish": false, "publish_due_only": true, "max_posts_per_run": 1, "manifest_candidate_count": 8, "review_required": true}`
 
 ## Next Manual Checks
 

@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-07-20T10:34:35.751879+00:00`
+- 생성 시각: `2026-07-20T17:09:38.689623+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 점수: 92.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 점수: 91.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,13 +70,13 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Gold steady as markets assess Middle East escalation, Fed hike bets - Reuters
+  - Gold little changed as investors weigh US-Iran developments, Fed signals - Reuters
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 점수: 78.0
+- 점수: 83.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Crypto market slips even as equities advance. Pump surges on social-media chatter
-  - U.S. regulatory developments and earnings, ECB rate decision: Crypto Week Ahead
-  - Live markets: Oil bounce and lingering AI selloff pushes bitcoin under $64,000
-  - Moonshot AI IPO push follows Kimi, Alibaba AI releases that shook bitcoin
-  - Bitcoin ETFs see new money again, but inflows remain ‘peanuts’ relative to the recent exodus
+  - Saylor's Strategy raises cash reserves to $3.2 billion, leaving bitcoin holdings unchanged
+  - A bitcoin 'volmageddon' may be brewing, key indicator suggests
+  - Bernstein raises Robinhood price target, cites tokenization and prediction markets
+  - Bitcoin price hits $65K wall as stocks battle ‘record’ institutional tech sell-off
+  - IREN jumps 16% after raising AI cloud revenue target above $4B
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 82.0
+- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 79.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,17 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Live markets: Oil bounce and lingering AI selloff pushes bitcoin under $64,000
-  - Moonshot AI IPO push follows Kimi, Alibaba AI releases that shook bitcoin
-  - Bezos backs CuspAI as startup teams up with Nvidia to hunt for chipmaking materials
-  - TSMC is accelerating Arizona factory buildout to capitalize on AI 'megatrend,' CFO says
-  - Could AI chip boom make ASML Europe's first trillion-dollar firm? - Reuters
+  - AMD launches Helios, its first rack AI system to rival Nvidia, adding Microsoft as newest buyer
+  - Alphabet stock pops on report it's developing a more efficient AI chip
+  - S&P 500, Nasdaq edge higher as chips recover; megacap earnings in focus - Reuters
+  - Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.
+  - Iren’s stock surges as the neocloud lands $2.8 billion worth of new deals
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 71.0
+- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 55.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,7 +276,5 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - China's car market heads for worst year since 2021 as sales plunge 20%
   - China's Moonshot pauses Kimi subscriptions amid hot demand, IPO push - Reuters
-  - China's Ethnic Minority Issue Has Exploded in the US
-  - China’s ‘national team’ buys shares worth $9bn to prop up market
+  - Soaring Egg Prices Are Hitting China Hard

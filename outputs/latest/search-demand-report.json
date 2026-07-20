@@ -1,59 +1,109 @@
 {
-  "generated_at": "2026-07-20T10:34:35.751879+00:00",
+  "generated_at": "2026-07-20T17:09:38.689623+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 3,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 0
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "crypto_etf",
-      "trend_count": 1,
-      "traffic_score_sum": 100,
-      "max_approx_traffic": 100,
-      "trend_queries": [
-        "fidelity etf"
+      "keyword": "bitcoin",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 5900,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 47,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
       ],
-      "regions": [
-        "US"
-      ],
-      "demand_signal_score": 300,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+      "sample_titles": [
+        "Saylor's Strategy raises cash reserves to $3.2 billion, leaving bitcoin holdings unchanged",
+        "A bitcoin 'volmageddon' may be brewing, key indicator suggests",
+        "Bernstein raises Robinhood price target, cites tokenization and prediction markets"
+      ]
     },
     {
-      "keyword": "dollar",
-      "trend_count": 1,
-      "traffic_score_sum": 100,
-      "max_approx_traffic": 100,
-      "trend_queries": [
-        "환율 달러"
+      "keyword": "fomc",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3500,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 23,
+      "source_count": 2,
+      "source_names": [
+        "Federal Reserve Monetary Policy Press",
+        "Reuters Markets via Google News RSS"
       ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 300,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+      "sample_titles": [
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+      ]
     },
     {
-      "keyword": "us_big_tech",
-      "trend_count": 1,
-      "traffic_score_sum": 100,
-      "max_approx_traffic": 100,
-      "trend_queries": [
-        "apple"
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3000,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 18,
+      "source_count": 6,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times YouTube",
+        "MarketWatch Breaking News",
+        "NYT Business"
       ],
-      "regions": [
-        "US"
+      "sample_titles": [
+        "Oil prices turn lower after Iran says U.S. talks could be pursued based on national interests",
+        "Yemen’s Houthi rebels threaten blockade against Saudi Arabia",
+        "Morning Bid: Rising oil, yields rain on AI party - Reuters"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2700,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 15,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times YouTube",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
       ],
-      "demand_signal_score": 300,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+      "sample_titles": [
+        "AMD launches Helios, its first rack AI system to rival Nvidia, adding Microsoft as newest buyer",
+        "Alphabet stock pops on report it's developing a more efficient AI chip",
+        "S&P 500, Nasdaq edge higher as chips recover; megacap earnings in focus - Reuters"
+      ]
     }
   ],
   "unmatched_market_trends": []
