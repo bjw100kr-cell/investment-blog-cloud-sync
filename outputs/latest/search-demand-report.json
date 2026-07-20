@@ -1,106 +1,59 @@
 {
-  "generated_at": "2026-07-19T15:34:11.119343+00:00",
+  "generated_at": "2026-07-20T10:34:35.751879+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 3,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 4
+    "weak_trend_fallback_count": 0
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 5900,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 47,
-      "source_count": 4,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Financial Times Home",
-        "Investing.com Crypto News"
+      "keyword": "crypto_etf",
+      "trend_count": 1,
+      "traffic_score_sum": 100,
+      "max_approx_traffic": 100,
+      "trend_queries": [
+        "fidelity etf"
       ],
-      "sample_titles": [
-        "Bitcoin's biggest advocate, Michael Saylor, says new plan to clean up the blockchain is 'a bad idea'",
-        "Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms",
-        "Kraken says simpler options can unlock crypto's next derivatives market"
-      ]
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 300,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
     },
     {
-      "keyword": "fomc",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3200,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 1,
-      "source_names": [
-        "Federal Reserve Monetary Policy Press"
+      "keyword": "dollar",
+      "trend_count": 1,
+      "traffic_score_sum": 100,
+      "max_approx_traffic": 100,
+      "trend_queries": [
+        "환율 달러"
       ],
-      "sample_titles": [
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ]
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 300,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
     },
     {
-      "keyword": "ai_semiconductors",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
-      "source_count": 3,
-      "source_names": [
-        "Financial Times YouTube",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+      "keyword": "us_big_tech",
+      "trend_count": 1,
+      "traffic_score_sum": 100,
+      "max_approx_traffic": 100,
+      "trend_queries": [
+        "apple"
       ],
-      "sample_titles": [
-        "Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters",
-        "Wall St ends lower for the day and week as chip selloff broadens - Reuters",
-        "World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters"
-      ]
-    },
-    {
-      "keyword": "oil",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2300,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 11,
-      "source_count": 3,
-      "source_names": [
-        "Financial Times World",
-        "Financial Times YouTube",
-        "Reuters Markets via Google News RSS"
+      "regions": [
+        "US"
       ],
-      "sample_titles": [
-        "World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters",
-        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film",
-        "Burnham to maintain ban on North Sea exploration licences"
-      ]
+      "demand_signal_score": 300,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
     }
   ],
   "unmatched_market_trends": []

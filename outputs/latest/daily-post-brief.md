@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-07-19T15:34:11.119343+00:00`
+- 생성 시각: `2026-07-20T10:34:35.751879+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `86.0`
-- 점수 구성: 검색성 19 / 시의성 25 / 설명가치 20 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press
+- 총점: `92.0`
+- 점수 구성: 검색성 24 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 소스: Federal Reserve Monetary Policy Press, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,15 +27,16 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
+  - Gold steady as markets assess Middle East escalation, Fed hike bets - Reuters
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `85.0`
-- 점수 구성: 검색성 29 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 소스: CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News
+- 총점: `78.0`
+- 점수 구성: 검색성 24 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 1
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
@@ -47,20 +48,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - Bitcoin's biggest advocate, Michael Saylor, says new plan to clean up the blockchain is 'a bad idea'
-  - Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms
-  - Kraken says simpler options can unlock crypto's next derivatives market
-  - Bitcoin’s quantum problem gets a recovery tool, but not for Satoshi’s 1.1 million coins
-  - Crypto executives say digital native generations may never need a bank account
+  - Crypto market slips even as equities advance. Pump surges on social-media chatter
+  - U.S. regulatory developments and earnings, ECB rate decision: Crypto Week Ahead
+  - Live markets: Oil bounce and lingering AI selloff pushes bitcoin under $64,000
+  - Moonshot AI IPO push follows Kimi, Alibaba AI releases that shook bitcoin
+  - Bitcoin ETFs see new money again, but inflows remain ‘peanuts’ relative to the recent exodus
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `75.0`
-- 점수 구성: 검색성 17 / 시의성 18 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `82.0`
+- 점수 구성: 검색성 22 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, CoinDesk RSS, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -72,20 +73,20 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters
-  - Wall St ends lower for the day and week as chip selloff broadens - Reuters
-  - World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters
-  - Can the ‘Magnificent Seven’ save a stock market that might be doomed without them?
-  - Silicon shadows: inside the black market for AI chips | FT Film
+  - Live markets: Oil bounce and lingering AI selloff pushes bitcoin under $64,000
+  - Moonshot AI IPO push follows Kimi, Alibaba AI releases that shook bitcoin
+  - Bezos backs CuspAI as startup teams up with Nvidia to hunt for chipmaking materials
+  - TSMC is accelerating Arizona factory buildout to capitalize on AI 'megatrend,' CFO says
+  - Could AI chip boom make ASML Europe's first trillion-dollar firm? - Reuters
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `55.0`
-- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 17 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times World, Reuters Markets via Google News RSS
+- 총점: `71.0`
+- 점수 구성: 검색성 15 / 시의성 17 / 설명가치 18 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Financial Times World, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -97,17 +98,19 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - China's Jingye Steel urges UK to compensate its investment losses - Reuters
-  - China’s Jingye demands payout over British Steel nationalisation
+  - China's car market heads for worst year since 2021 as sales plunge 20%
+  - China's Moonshot pauses Kimi subscriptions amid hot demand, IPO push - Reuters
+  - China's Ethnic Minority Issue Has Exploded in the US
+  - China’s ‘national team’ buys shares worth $9bn to prop up market
 
 ## 5. oil
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `68.0`
-- 점수 구성: 검색성 15 / 시의성 15 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 소스: Financial Times World, Financial Times YouTube, Reuters Markets via Google News RSS
+- 총점: `82.0`
+- 점수 구성: 검색성 24 / 시의성 21 / 설명가치 18 / 수익성 14 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
   - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
@@ -119,7 +122,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters
-  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-  - Burnham to maintain ban on North Sea exploration licences
-  - How will the ECB respond to the latest rise in oil prices?
+  - Live markets: Oil bounce and lingering AI selloff pushes bitcoin under $64,000
+  - Trader maintains $67K BTC price target: Five things to know in Bitcoin this week
+  - Oil prices erase gains after Iran says U.S. talks could be pursued based on national interests
+  - Oil touches $90 as Iran hits tankers
+  - Morning Bid: Rising oil, yields rain on AI party - Reuters

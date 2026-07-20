@@ -1,8 +1,8 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-19T15:34:11.119343+00:00`
+- 생성 시각: `2026-07-20T10:34:35.751879+00:00`
 - 수집 성공 소스: `14`
-- 수집 아이템 수: `111`
+- 수집 아이템 수: `112`
 
 ## 소스 상태
 
@@ -14,7 +14,7 @@
 - `OK` Cointelegraph (rss): 8 items
 - `OK` CNBC Top News (rss): 8 items
 - `OK` Investing.com Crypto News (rss): 8 items
-- `OK` Financial Times Home (rss): 7 items
+- `OK` Financial Times Home (rss): 8 items
 - `OK` Reuters Markets via Google News RSS (rss): 8 items
 - `OK` 무역킹 Trade King YouTube (youtube_channel): 8 items
 - `OK` MarketWatch Breaking News (rss): 8 items
@@ -25,6 +25,19 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / China's Ethnic Minority Issue Has Exploded in the US
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=FSt7pOg7G90! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / Why Trump Suddenly Brought Up 'Communism' (Full Recap)
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Uot-zXCpyBE! This is most likely caused by:
@@ -90,61 +103,55 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / Why were they summoned? Why was 🇰🇷 left out?
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=prxbky7kj5o! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `bitcoin`: score 47, source_count 4, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News
-- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `ai_semiconductors`: score 13, source_count 3, sources Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `oil`: score 11, source_count 3, sources Financial Times World, Financial Times YouTube, Reuters Markets via Google News RSS
-- `china`: score 6, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
-- `dollar`: score 4, source_count 1, sources CoinDesk RSS
-- `cpi`: score 3, source_count 1, sources Investing.com Crypto News
-- `ethereum`: score 3, source_count 1, sources Investing.com Crypto News
-- `us_index_flow`: score 2, source_count 1, sources MarketWatch Breaking News
-- `us_big_tech`: score 2, source_count 1, sources MarketWatch Breaking News
+- `bitcoin`: score 47, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `oil`: score 29, source_count 8, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 25, source_count 3, sources Federal Reserve Monetary Policy Press, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 21, source_count 5, sources CNBC Top News, CoinDesk RSS, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `dollar`: score 12, source_count 2, sources Google Trends KR, Reuters Markets via Google News RSS
+- `china`: score 12, source_count 4, sources CNBC Top News, Financial Times World, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
+- `us_big_tech`: score 10, source_count 2, sources CoinDesk RSS, Google Trends US
+- `crypto_etf`: score 9, source_count 2, sources Cointelegraph, Google Trends US
+- `cpi`: score 5, source_count 2, sources Investing.com Crypto News, MarketWatch Breaking News
+- `us_index_flow`: score 4, source_count 2, sources MarketWatch Breaking News, NYT Business
 
 ## 오늘의 글감 후보
 
 - `bitcoin`: score 47, headlines 14
-  - Bitcoin's biggest advocate, Michael Saylor, says new plan to clean up the blockchain is 'a bad idea'
-  - Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms
-  - Kraken says simpler options can unlock crypto's next derivatives market
-- `fomc`: score 20, headlines 4
+  - Crypto market slips even as equities advance. Pump surges on social-media chatter
+  - U.S. regulatory developments and earnings, ECB rate decision: Crypto Week Ahead
+  - Live markets: Oil bounce and lingering AI selloff pushes bitcoin under $64,000
+- `oil`: score 29, headlines 10
+  - Live markets: Oil bounce and lingering AI selloff pushes bitcoin under $64,000
+  - Trader maintains $67K BTC price target: Five things to know in Bitcoin this week
+  - Oil prices erase gains after Iran says U.S. talks could be pursued based on national interests
+- `fomc`: score 25, headlines 6
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- `ai_semiconductors`: score 13, headlines 5
-  - Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters
-  - Wall St ends lower for the day and week as chip selloff broadens - Reuters
-  - World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters
-- `oil`: score 11, headlines 4
-  - World stocks fall in semiconductor rout; oil rises on Middle East escalation - Reuters
-  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-  - Burnham to maintain ban on North Sea exploration licences
-- `china`: score 6, headlines 2
-  - China's Jingye Steel urges UK to compensate its investment losses - Reuters
-  - China’s Jingye demands payout over British Steel nationalisation
-- `dollar`: score 4, headlines 1
-  - Kraken says simpler options can unlock crypto's next derivatives market
-- `cpi`: score 3, headlines 1
+- `ai_semiconductors`: score 21, headlines 7
+  - Live markets: Oil bounce and lingering AI selloff pushes bitcoin under $64,000
+  - Moonshot AI IPO push follows Kimi, Alibaba AI releases that shook bitcoin
+  - Bezos backs CuspAI as startup teams up with Nvidia to hunt for chipmaking materials
+- `china`: score 12, headlines 4
+  - China's car market heads for worst year since 2021 as sales plunge 20%
+  - China's Moonshot pauses Kimi subscriptions amid hot demand, IPO push - Reuters
+  - China's Ethnic Minority Issue Has Exploded in the US
+- `dollar`: score 12, headlines 3
+  - 환율 달러
+  - Dollar drifts as US-Iran conflict intensifies; sterling edges higher - Reuters
+  - Could AI chip boom make ASML Europe's first trillion-dollar firm? - Reuters
+- `us_big_tech`: score 10, headlines 2
+  - apple
+  - Amazon Japan supplier AZ-Com Maruwa to adopt yen stablecoin JPYC for payments
+- `crypto_etf`: score 9, headlines 2
+  - fidelity etf
+  - Bitcoin ETF inflows extend to second week, but recovery lacks momentum
+- `cpi`: score 5, headlines 2
   - Bitcoin flat for the week as rate concerns, Iran tensions offset inflation data
-- `ethereum`: score 3, headlines 1
-  - ether.fi Partners with Nexus Mutual to Protect Against ETH Slashing at Institutional Scale
-- `ai_growth_stocks`: score 2, headlines 1
-  - Palantir: profits, procurement and power | FT Film
-- `us_big_tech`: score 2, headlines 1
-  - Can the ‘Magnificent Seven’ save a stock market that might be doomed without them?
+  - Inflation is broadening out, says Goldman economist
+- `us_index_flow`: score 4, headlines 2
+  - If history is a guide, there’s still another week before earnings will start to move the stock market
+  - Global Oil Price Crosses $90 a Barrel as U.S.-Iran Conflict Widens
