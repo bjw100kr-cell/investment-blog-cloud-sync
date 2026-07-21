@@ -1,54 +1,34 @@
 {
-  "generated_at": "2026-07-21T09:33:55.654263+00:00",
+  "generated_at": "2026-07-21T17:00:44.969485+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
       "keyword": "bitcoin",
-      "trend_count": 2,
-      "traffic_score_sum": 2100,
-      "max_approx_traffic": 2000,
-      "trend_queries": [
-        "비트코인",
-        "fidelity bitcoin"
-      ],
-      "regions": [
-        "KR",
-        "US"
-      ],
-      "demand_signal_score": 2500,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
-    {
-      "keyword": "oil",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3400,
+      "demand_signal_score": 6000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 22,
-      "source_count": 5,
+      "source_snapshot_score": 48,
+      "source_count": 3,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
-        "Financial Times YouTube",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "Cointelegraph",
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind",
-        "Abu Dhabi approves $6.2 billion gas project to boost UAE supply",
-        "Morning Bid: Oil trumps AI - Reuters"
+        "Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin",
+        "Galaxy sets up $5 million fund to help shield Bitcoin against quantum computing threats",
+        "Russia’s parliament passes crypto market law with $3,800 annual cap for retail investors"
       ]
     },
     {
@@ -74,52 +54,52 @@
       ]
     },
     {
-      "keyword": "crypto_etf",
+      "keyword": "tariffs_trade",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2200,
+      "demand_signal_score": 2900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 10,
-      "source_count": 3,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind",
-        "Grayscale files S-1 for first US Worldcoin ETF",
-        "Bitcoin rises to near $66k as ETF inflows recover; Iran tensions persist"
-      ]
-    },
-    {
-      "keyword": "china",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2200,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 10,
+      "source_snapshot_score": 17,
       "source_count": 4,
       "source_names": [
         "Cointelegraph",
         "Financial Times Home",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Binance & OKX users face $1,900 fines in Vietnam, Coinbase in China? Asia Express",
-        "China weighs tighter export controls on AI models and chips",
-        "China contemplates tit-for-tat export controls against U.S. on AI technologies: report"
+        "Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans",
+        "Trump prepares fresh tariff barrage with 10% levies set to expire",
+        "US to hit Canada with 50% tariffs on wide range of goods"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2600,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 14,
+      "source_count": 3,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times YouTube",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "OpenAI, Anthropic boost lobbying as legacy tech and defense spending slips",
+        "Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel",
+        "Bessent says U.S. could sanction China over AI model 'theft'"
       ]
     }
   ],

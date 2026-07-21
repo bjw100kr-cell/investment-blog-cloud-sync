@@ -1,151 +1,75 @@
 {
-  "generated_at": "2026-07-21T09:33:55.654263+00:00",
+  "generated_at": "2026-07-21T17:00:44.969485+00:00",
   "item_count": 3,
   "items": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-07-21",
-      "priority_score": 128.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
-      "format": "macro_explainer",
-      "source_names": [
-        "Federal Reserve Monetary Policy Press"
-      ],
-      "sample_headlines": [
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 3200,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 1,
-      "search_score": 19,
-      "timeliness_score": 25,
-      "monetization_score": 14,
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Thu, 9 Jul 2026 19:00:00 GMT",
-          "published_iso": "2026-07-09T19:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 8 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-08T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "publish_date": "2026-07-22",
-      "priority_score": 131.0,
+      "priority_score": 124.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (비트코인, fidelity bitcoin)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "format": "crypto_analysis",
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Google Trends KR",
-        "Google Trends US",
         "Investing.com Crypto News"
       ],
       "sample_headlines": [
-        "비트코인",
-        "fidelity bitcoin",
-        "Live markets: Bitcoin ETFs post a fifth straight day of inflows in a first since April",
-        "UK Parliament begins inquiry into banking chokepoint for crypto businesses",
-        "Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind"
+        "Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin",
+        "Galaxy sets up $5 million fund to help shield Bitcoin against quantum computing threats",
+        "Russia’s parliament passes crypto market law with $3,800 annual cap for retail investors",
+        "Jack Mallers steps down as XXI Capital CEO as Tether's plans to merge three bitcoin firms falls",
+        "Bitcoin rally has broad-based support as institutions, whales, options traders pile in"
       ],
-      "trend_queries": [
-        "비트코인",
-        "fidelity bitcoin"
-      ],
-      "trend_regions": [
-        "KR",
-        "US"
-      ],
-      "demand_signal_score": 2500,
-      "fallback_source": "trend_match",
-      "source_count": 5,
-      "search_score": 30,
-      "timeliness_score": 21,
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 6000,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 3,
+      "search_score": 29,
+      "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Bitcoin ETFs post five-day inflow streak, longest since May",
+          "title": "Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin",
+          "source_name": "CoinDesk RSS",
+          "published": "Tue, 21 Jul 2026 16:19:24 +0000",
+          "published_iso": "2026-07-21T16:19:24+00:00",
+          "link": "https://www.coindesk.com/tech/2026/07/21/claude-s-fable-5-just-solved-an-87-year-old-math-problem-and-it-matters-for-bitcoin",
+          "source_type": "rss"
+        },
+        {
+          "title": "Galaxy sets up $5 million fund to help shield Bitcoin against quantum computing threats",
+          "source_name": "CoinDesk RSS",
+          "published": "Tue, 21 Jul 2026 16:16:14 +0000",
+          "published_iso": "2026-07-21T16:16:14+00:00",
+          "link": "https://www.coindesk.com/tech/2026/07/21/galaxy-sets-up-usd5-million-fund-to-help-shield-bitcoin-against-quantum-computing-threats",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans",
           "source_name": "Cointelegraph",
-          "published": "Tue, 21 Jul 2026 07:28:29 +0000",
-          "published_iso": "2026-07-21T07:28:29+00:00",
-          "link": "https://cointelegraph.com/news/bitcoin-etfs-five-day-inflow-streak-btc-65k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Tue, 21 Jul 2026 15:14:37 +0000",
+          "published_iso": "2026-07-21T15:14:37+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-nears-seven-week-high-as-stocks-ignore-iran-strikes-trump-10-tariff-plans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Live markets: Bitcoin ETFs post a fifth straight day of inflows in a first since April",
+          "title": "CoinShares debuts Bitcoin mining ETF in Europe entrance",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 21 Jul 2026 13:34:26 +0000",
+          "published_iso": "2026-07-21T13:34:26+00:00",
+          "link": "https://cointelegraph.com/news/coinshares-debuts-bitcoin-mining-ucits-etf-in-europe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Jack Mallers steps down as XXI Capital CEO as Tether's plans to merge three bitcoin firms falls",
           "source_name": "CoinDesk RSS",
-          "published": "Tue, 21 Jul 2026 06:42:52 +0000",
-          "published_iso": "2026-07-21T06:42:52+00:00",
-          "link": "https://www.coindesk.com/business/2026/07/21/live-markets-bitcoin-etfs-post-a-fifth-straight-day-of-inflows-in-a-first-since-april",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind",
-          "source_name": "CoinDesk RSS",
-          "published": "Tue, 21 Jul 2026 05:34:00 +0000",
-          "published_iso": "2026-07-21T05:34:00+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/21/bitcoin-hits-a-two-week-high-near-usd65-500-as-the-chip-trade-turns-back-into-a-tailwind",
-          "source_type": "rss"
-        },
-        {
-          "title": "fidelity bitcoin",
-          "source_name": "Google Trends US",
-          "published": "Tue, 21 Jul 2026 01:40:00 -0700",
-          "published_iso": "2026-07-21T01:40:00-07:00",
-          "link": "https://trends.google.com/trending/rss?geo=US",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin overextended at upper Bollinger Band: Live levels",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-07-21 07:06:53",
-          "published_iso": "2026-07-21 07:06:53",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-64k-range-doji-at-resistance-live-levels-93CH-4800901",
+          "published": "Tue, 21 Jul 2026 12:42:29 +0000",
+          "published_iso": "2026-07-21T12:42:29+00:00",
+          "link": "https://www.coindesk.com/business/2026/07/21/jack-mallers-steps-down-as-xxi-capital-ceo-as-tether-s-plans-to-merge-three-bitcoin-firms-falls",
           "source_type": "rss"
         }
       ]
@@ -154,52 +78,135 @@
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "publish_date": "2026-07-23",
-      "priority_score": 91.0,
+      "priority_score": 111.0,
       "ready_now": true,
       "quality_status": "pass",
       "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "format": "sector_analysis",
       "source_names": [
-        "CoinDesk RSS",
-        "Financial Times Home",
-        "Financial Times YouTube"
+        "CNBC Top News",
+        "Financial Times YouTube",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
-        "Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind",
-        "China weighs tighter export controls on AI models and chips",
+        "OpenAI, Anthropic boost lobbying as legacy tech and defense spending slips",
+        "Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel",
+        "Bessent says U.S. could sanction China over AI model 'theft'",
+        "Wall St gains on chip stocks recovery; earnings draw focus - Reuters",
         "Silicon shadows: inside the black market for AI chips | FT Film"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 0,
-      "fallback_source": "mapped_candidate",
+      "demand_signal_score": 2600,
+      "fallback_source": "source_snapshot_rank",
       "source_count": 3,
-      "search_score": 13,
-      "timeliness_score": 12,
+      "search_score": 18,
+      "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
         {
           "title": "Silicon shadows: inside the black market for AI chips | FT Film",
           "source_name": "Financial Times YouTube",
-          "published": "40K views",
-          "published_iso": "40K views",
+          "published": "41K views",
+          "published_iso": "41K views",
           "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
           "source_type": "youtube_channel"
         },
         {
-          "title": "Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind",
-          "source_name": "CoinDesk RSS",
-          "published": "Tue, 21 Jul 2026 05:34:00 +0000",
-          "published_iso": "2026-07-21T05:34:00+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/21/bitcoin-hits-a-two-week-high-near-usd65-500-as-the-chip-trade-turns-back-into-a-tailwind",
+          "title": "OpenAI, Anthropic boost lobbying as legacy tech and defense spending slips",
+          "source_name": "CNBC Top News",
+          "published": "Tue, 21 Jul 2026 16:30:11 GMT",
+          "published_iso": "2026-07-21T16:30:11+00:00",
+          "link": "https://www.cnbc.com/2026/07/21/openai-anthropic-ai-lobbying-spending-q2-2026.html",
           "source_type": "rss"
         },
         {
-          "title": "China weighs tighter export controls on AI models and chips",
-          "source_name": "Financial Times Home",
-          "published": "Tue, 21 Jul 2026 04:00:20 GMT",
-          "published_iso": "2026-07-21T04:00:20+00:00",
-          "link": "https://www.ft.com/content/6049a031-9e9b-464c-97bb-414da04d5a6a?syn-25a6b1a6=1",
+          "title": "Wall St gains on chip stocks recovery; earnings draw focus - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Tue, 21 Jul 2026 16:21:43 GMT",
+          "published_iso": "2026-07-21T16:21:43+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUDZOb0lyeDNtSHo4bVQ4MlJ3RnhPUUR2WmxYT2xqaWRVNFFVNkNUdHBNUUIxWm5kZGpVaVc0SFZicnBmN1F0RWI3RXpqNUpCbjQ3RHhPZEJkTmlaeGI3YXp3MUlSSXN2RGdBZ3dfekVaQzQxbFJzeHhuNU9veGtKMzdidFZ1N2QwbFE3Z3B1VmxoY1VuTUFtU3Rfa09XMlRMWl9B?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel",
+          "source_name": "CNBC Top News",
+          "published": "Tue, 21 Jul 2026 15:00:02 GMT",
+          "published_iso": "2026-07-21T15:00:02+00:00",
+          "link": "https://www.cnbc.com/2026/07/21/nvidia-vera-cpu-ai-amd-intel.html",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "tariffs_trade",
+      "title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+      "publish_date": "2026-07-24",
+      "priority_score": 114.0,
+      "ready_now": false,
+      "quality_status": "review_before_publish",
+      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "format": "macro_explainer",
+      "source_names": [
+        "Cointelegraph",
+        "Financial Times Home",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_headlines": [
+        "Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans",
+        "Trump prepares fresh tariff barrage with 10% levies set to expire",
+        "US to hit Canada with 50% tariffs on wide range of goods",
+        "PODCAST: Canada's tariff surprise - Reuters",
+        "Morning Bid: Tariff reprise - Reuters"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 2900,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 4,
+      "search_score": 20,
+      "timeliness_score": 20,
+      "monetization_score": 15,
+      "recent_evidence": [
+        {
+          "title": "Trump Escalates Canada Tariffs as Mark Carney Holds Firm",
+          "source_name": "NYT Business",
+          "published": "Tue, 21 Jul 2026 16:26:15 +0000",
+          "published_iso": "2026-07-21T16:26:15+00:00",
+          "link": "https://www.nytimes.com/2026/07/21/world/canada/trump-carney-trade-tariffs.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 21 Jul 2026 15:14:37 +0000",
+          "published_iso": "2026-07-21T15:14:37+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-nears-seven-week-high-as-stocks-ignore-iran-strikes-trump-10-tariff-plans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Greer hints new Trump tariffs coming on dozens of countries: 'Expect action soon'",
+          "source_name": "CNBC Top News",
+          "published": "Tue, 21 Jul 2026 13:38:59 GMT",
+          "published_iso": "2026-07-21T13:38:59+00:00",
+          "link": "https://www.cnbc.com/2026/07/21/trump-trade-tariffs-greer-section-301.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "PODCAST: Canada's tariff surprise - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Tue, 21 Jul 2026 13:33:02 GMT",
+          "published_iso": "2026-07-21T13:33:02+00:00",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWWc4WVZEYXlXTF80QUFwLTBrN3dSUFhNWVY4VXpyRGdPMElONkx6MmJ2X0FSenpybGwyNmNBM3J4Mm1QUUgtZjNVNjdtR0NFTm16V19HLWkzTFpzLTBxLWNuUmZmMzZHUTB6T2Q2aHJUZ3IwUlRXYWJ1SFRVSzNwZkNNQXFkMlctSnZqeFh4a0szUQ?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "Morning Bid: Tariff reprise - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Tue, 21 Jul 2026 10:52:36 GMT",
+          "published_iso": "2026-07-21T10:52:36+00:00",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTVo5N1RkRThnUWlRcUdpOUwzMElhbThkX2lHRHJmby1YOWRNd0Q5SVVabXB2bzRNTU5SeWhkSURCaDJjV25qWjJMQTcwNWt0dFJvUXgzTm1CRFhPX1gwclhua1FrbGs0Sy0wSjZwa0dEbVdDaDZuRk84VXpYd2V6ZUhReVp5aUg3RkNCRjNNeUU2RXpIWGRn?oc=5",
           "source_type": "rss"
         }
       ]

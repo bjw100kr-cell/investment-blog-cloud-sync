@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-07-21T09:33:55.654263+00:00`
+- 생성 시각: `2026-07-21T17:00:44.969485+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -32,12 +32,11 @@
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `92.0`
-- 점수 구성: 검색성 30 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 5
-- 추천 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (비트코인, fidelity bitcoin)
-- 코인 시장 신호: BTCUSDT 24h change 3.21%; Fear/Greed 25: Extreme Fear zone
-- 소스: CoinDesk RSS, Cointelegraph, Google Trends KR, Google Trends US, Investing.com Crypto News
-- 트렌드 쿼리: 비트코인, fidelity bitcoin
+- 총점: `85.0`
+- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 3
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- 코인 시장 신호: Fear/Greed 25: Extreme Fear zone
+- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
@@ -49,20 +48,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - 비트코인
-  - fidelity bitcoin
-  - Live markets: Bitcoin ETFs post a fifth straight day of inflows in a first since April
-  - UK Parliament begins inquiry into banking chokepoint for crypto businesses
-  - Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind
+  - Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin
+  - Galaxy sets up $5 million fund to help shield Bitcoin against quantum computing threats
+  - Russia’s parliament passes crypto market law with $3,800 annual cap for retail investors
+  - Jack Mallers steps down as XXI Capital CEO as Tether's plans to merge three bitcoin firms falls
+  - Bitcoin rally has broad-based support as institutions, whales, options traders pile in
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `64.0`
-- 점수 구성: 검색성 13 / 시의성 12 / 설명가치 19 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 총점: `76.0`
+- 점수 구성: 검색성 18 / 시의성 18 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CoinDesk RSS, Financial Times Home, Financial Times YouTube
+- 소스: CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -74,22 +73,24 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind
-  - China weighs tighter export controls on AI models and chips
+  - OpenAI, Anthropic boost lobbying as legacy tech and defense spending slips
+  - Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel
+  - Bessent says U.S. could sanction China over AI model 'theft'
+  - Wall St gains on chip stocks recovery; earnings draw focus - Reuters
   - Silicon shadows: inside the black market for AI chips | FT Film
 
-## 4. china
+## 4. tariffs_trade
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `72.0`
-- 점수 구성: 검색성 15 / 시의성 20 / 설명가치 18 / 수익성 14 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `79.0`
+- 점수 구성: 검색성 20 / 시의성 20 / 설명가치 19 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business
+- 소스: Cointelegraph, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유
+  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -97,19 +98,20 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Binance & OKX users face $1,900 fines in Vietnam, Coinbase in China? Asia Express
-  - China weighs tighter export controls on AI models and chips
-  - China contemplates tit-for-tat export controls against U.S. on AI technologies: report
-  - Soaring Egg Prices Are Hitting China Hard
+  - Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans
+  - Trump prepares fresh tariff barrage with 10% levies set to expire
+  - US to hit Canada with 50% tariffs on wide range of goods
+  - PODCAST: Canada's tariff surprise - Reuters
+  - Morning Bid: Tariff reprise - Reuters
 
 ## 5. oil
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `82.0`
-- 점수 구성: 검색성 24 / 시의성 21 / 설명가치 18 / 수익성 14 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, CoinDesk RSS, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `73.0`
+- 점수 구성: 검색성 15 / 시의성 20 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 소스: Financial Times YouTube, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
   - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
@@ -121,8 +123,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind
-  - Abu Dhabi approves $6.2 billion gas project to boost UAE supply
   - Morning Bid: Oil trumps AI - Reuters
-  - Asian stocks bounce back as Mideast mediation takes oil lower - Reuters
-  - Gold rises 1% as hopes for US-Iran diplomacy pause oil rally - Reuters
+  - IEA says substantial emergency oil stocks remain after record release - Reuters
+  - An oil lifeline is under threat, and markets have yet to price in the growing crisis
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+  - Oil Buyers Battered by the Iran War Energy Crisis Race to Build Buffers

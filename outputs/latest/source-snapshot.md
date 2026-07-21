@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-21T09:33:55.654263+00:00`
+- 생성 시각: `2026-07-21T17:00:44.969485+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,51 +106,50 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 79, source_count 5, sources CoinDesk RSS, Cointelegraph, Google Trends KR, Google Trends US, Investing.com Crypto News
-- `oil`: score 22, source_count 5, sources CNBC Top News, CoinDesk RSS, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `bitcoin`: score 48, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `crypto_etf`: score 10, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `china`: score 10, source_count 4, sources Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business
-- `ai_semiconductors`: score 9, source_count 3, sources CoinDesk RSS, Financial Times Home, Financial Times YouTube
-- `tariffs_trade`: score 8, source_count 3, sources CNBC Top News, Financial Times Home, NYT Business
-- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `treasury_yields`: score 2, source_count 1, sources MarketWatch Breaking News
-- `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
+- `tariffs_trade`: score 17, source_count 4, sources Cointelegraph, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 14, source_count 3, sources CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
+- `china`: score 12, source_count 4, sources CNBC Top News, CoinDesk RSS, Financial Times Home, NYT Business
+- `oil`: score 12, source_count 4, sources Financial Times YouTube, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `crypto_etf`: score 6, source_count 2, sources Cointelegraph, Investing.com Crypto News
+- `us_index_flow`: score 5, source_count 2, sources Cointelegraph, MarketWatch Breaking News
+- `dollar`: score 3, source_count 1, sources Cointelegraph
+- `us_big_tech`: score 2, source_count 1, sources MarketWatch Breaking News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 79, headlines 17
-  - 비트코인
-  - fidelity bitcoin
-  - Live markets: Bitcoin ETFs post a fifth straight day of inflows in a first since April
-- `oil`: score 22, headlines 8
-  - Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind
-  - Abu Dhabi approves $6.2 billion gas project to boost UAE supply
-  - Morning Bid: Oil trumps AI - Reuters
+- `bitcoin`: score 48, headlines 14
+  - Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin
+  - Galaxy sets up $5 million fund to help shield Bitcoin against quantum computing threats
+  - Russia’s parliament passes crypto market law with $3,800 annual cap for retail investors
 - `fomc`: score 20, headlines 4
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- `china`: score 10, headlines 4
-  - Binance & OKX users face $1,900 fines in Vietnam, Coinbase in China? Asia Express
-  - China weighs tighter export controls on AI models and chips
-  - China contemplates tit-for-tat export controls against U.S. on AI technologies: report
-- `crypto_etf`: score 10, headlines 3
-  - Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind
-  - Grayscale files S-1 for first US Worldcoin ETF
-  - Bitcoin rises to near $66k as ETF inflows recover; Iran tensions persist
-- `ai_semiconductors`: score 9, headlines 3
-  - Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind
-  - China weighs tighter export controls on AI models and chips
-  - Silicon shadows: inside the black market for AI chips | FT Film
-- `tariffs_trade`: score 8, headlines 3
-  - Trump imposing 50% tariffs on certain Canadian goods over alleged trade discrimination
+- `tariffs_trade`: score 17, headlines 6
+  - Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans
+  - Trump prepares fresh tariff barrage with 10% levies set to expire
   - US to hit Canada with 50% tariffs on wide range of goods
-  - Trump to Impose 50% Tariff on Many Canadian Goods
-- `ethereum`: score 7, headlines 2
-  - Tom Lee's Bitmine slowed ether purchases as it bought back $86 million in stock
-  - Base’s 1:1-backed tokenized equities launch ‘imminent,’ Pollak says
+- `ai_semiconductors`: score 14, headlines 5
+  - OpenAI, Anthropic boost lobbying as legacy tech and defense spending slips
+  - Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel
+  - Bessent says U.S. could sanction China over AI model 'theft'
+- `oil`: score 12, headlines 5
+  - Morning Bid: Oil trumps AI - Reuters
+  - IEA says substantial emergency oil stocks remain after record release - Reuters
+  - An oil lifeline is under threat, and markets have yet to price in the growing crisis
+- `china`: score 12, headlines 4
+  - Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin
+  - Bessent says U.S. could sanction China over AI model 'theft'
+  - Why the world trusts China more than America
+- `crypto_etf`: score 6, headlines 2
+  - CoinShares debuts Bitcoin mining ETF in Europe entrance
+  - Bitcoin climbs above $66k as ETF inflows recover; Iran tensions persist
+- `us_index_flow`: score 5, headlines 2
+  - Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans
+  - Think this stock market is in a bubble? These earnings numbers say otherwise.
+- `dollar`: score 3, headlines 1
+  - BIS warns stablecoins could weaken capital controls in emerging markets
 - `ai_growth_stocks`: score 2, headlines 1
   - Palantir: profits, procurement and power | FT Film
-- `treasury_yields`: score 2, headlines 1
-  - Jamie Dimon says he wouldn’t buy Treasurys. ‘I don’t understand the upside.’

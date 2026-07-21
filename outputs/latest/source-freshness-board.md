@@ -1,54 +1,53 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-07-21T09:34:00.497261+00:00`
-- snapshot_generated_at: `2026-07-21T09:33:55.654263+00:00`
+- generated_at: `2026-07-21T17:00:49.198306+00:00`
+- snapshot_generated_at: `2026-07-21T17:00:44.969485+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
-- counts: fresh `2` / aging `0` / stale `1` / unknown `0`
+- counts: fresh `3` / aging `0` / stale `0` / unknown `0`
 
-## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword: `fomc`
-- freshness_status: `stale`
-- newest_evidence_age_days: `11.6`
-- newest_evidence_iso: `2026-07-09T19:00:00+00:00`
+- keyword: `bitcoin`
+- freshness_status: `fresh`
+- newest_evidence_age_days: `0.0`
+- newest_evidence_iso: `2026-07-21T16:19:24+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement
-- recommendation: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
-- recovery_mode: `full_refresh_needed`
-- recovery_summary: 현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.
-- recovery_command: `bash scripts/run_pipeline.sh`
-- evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve issues FOMC statement
-- evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- evidence: Federal Reserve Monetary Policy Press / 2026-04-29T18:00:00+00:00 / Federal Reserve issues FOMC statement
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin
+- recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
+- recovery_mode: `publish_direct`
+- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
+- evidence: CoinDesk RSS / 2026-07-21T16:19:24+00:00 / Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin
+- evidence: CoinDesk RSS / 2026-07-21T16:16:14+00:00 / Galaxy sets up $5 million fund to help shield Bitcoin against quantum computing threats
+- evidence: Cointelegraph / 2026-07-21T15:14:37+00:00 / Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans
 
 ## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - keyword: `ai_semiconductors`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.2`
-- newest_evidence_iso: `2026-07-21T05:34:00+00:00`
+- newest_evidence_age_days: `0.0`
+- newest_evidence_iso: `2026-07-21T16:30:11+00:00`
 - quality_status: `pass` / ready_now `True`
 - summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Financial Times YouTube / 40K views / Silicon shadows: inside the black market for AI chips | FT Film
-- evidence: CoinDesk RSS / 2026-07-21T05:34:00+00:00 / Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind
-- evidence: Financial Times Home / 2026-07-21T04:00:20+00:00 / China weighs tighter export controls on AI models and chips
+- evidence: Financial Times YouTube / 41K views / Silicon shadows: inside the black market for AI chips | FT Film
+- evidence: CNBC Top News / 2026-07-21T16:30:11+00:00 / OpenAI, Anthropic boost lobbying as legacy tech and defense spending slips
+- evidence: Reuters Markets via Google News RSS / 2026-07-21T16:21:43+00:00 / Wall St gains on chip stocks recovery; earnings draw focus - Reuters
 
-## 3. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 3. 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
 
-- keyword: `bitcoin`
+- keyword: `tariffs_trade`
 - freshness_status: `fresh`
 - newest_evidence_age_days: `0.0`
-- newest_evidence_iso: `2026-07-21T08:40:00+00:00`
-- quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin ETFs post five-day inflow streak, longest since May
-- recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
+- newest_evidence_iso: `2026-07-21T16:26:15+00:00`
+- quality_status: `review_before_publish` / ready_now `False`
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Trump Escalates Canada Tariffs as Mark Carney Holds Firm
+- recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Cointelegraph / 2026-07-21T07:28:29+00:00 / Bitcoin ETFs post five-day inflow streak, longest since May
-- evidence: CoinDesk RSS / 2026-07-21T06:42:52+00:00 / Live markets: Bitcoin ETFs post a fifth straight day of inflows in a first since April
-- evidence: CoinDesk RSS / 2026-07-21T05:34:00+00:00 / Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind
+- evidence: NYT Business / 2026-07-21T16:26:15+00:00 / Trump Escalates Canada Tariffs as Mark Carney Holds Firm
+- evidence: Cointelegraph / 2026-07-21T15:14:37+00:00 / Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans
+- evidence: CNBC Top News / 2026-07-21T13:38:59+00:00 / Greer hints new Trump tariffs coming on dozens of countries: 'Expect action soon'

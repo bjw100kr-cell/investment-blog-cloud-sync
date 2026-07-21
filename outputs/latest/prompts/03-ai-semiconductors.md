@@ -108,13 +108,15 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
-    "CoinDesk RSS",
-    "Financial Times Home",
-    "Financial Times YouTube"
+    "CNBC Top News",
+    "Financial Times YouTube",
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind",
-    "China weighs tighter export controls on AI models and chips",
+    "OpenAI, Anthropic boost lobbying as legacy tech and defense spending slips",
+    "Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel",
+    "Bessent says U.S. could sanction China over AI model 'theft'",
+    "Wall St gains on chip stocks recovery; earnings draw focus - Reuters",
     "Silicon shadows: inside the black market for AI chips | FT Film"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
@@ -178,12 +180,12 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 64.0,
-    "search_score": 13,
-    "timeliness_score": 12,
-    "explanatory_score": 19,
+    "total_score": 76.0,
+    "search_score": 18,
+    "timeliness_score": 18,
+    "explanatory_score": 18,
     "monetization_score": 15,
-    "risk_score": 5
+    "risk_score": 7
   },
   "reference_editorial_pattern_name": "search_explainer",
   "reference_editorial_pattern": {

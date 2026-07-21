@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T09:33:55.654263+00:00",
+  "generated_at": "2026-07-21T17:00:44.969485+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -24,14 +24,12 @@
     {
       "keyword": "bitcoin",
       "recommended_title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (비트코인, fidelity bitcoin)",
-      "total_score": 92.0,
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "total_score": 85.0,
       "monetization_score": 15,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Google Trends KR",
-        "Google Trends US",
         "Investing.com Crypto News"
       ]
     },
@@ -39,12 +37,12 @@
       "keyword": "ai_semiconductors",
       "recommended_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
-      "total_score": 64.0,
+      "total_score": 76.0,
       "monetization_score": 15,
       "source_names": [
-        "CoinDesk RSS",
-        "Financial Times Home",
-        "Financial Times YouTube"
+        "CNBC Top News",
+        "Financial Times YouTube",
+        "Reuters Markets via Google News RSS"
       ]
     }
   ],
@@ -63,10 +61,10 @@
       "post_count": 2,
       "keywords": [
         "ai_semiconductors",
-        "china"
+        "tariffs_trade"
       ],
-      "avg_monetization_score": 14.5,
-      "weighted_priority_score": 15.23
+      "avg_monetization_score": 15.0,
+      "weighted_priority_score": 15.75
     },
     {
       "category": "macro",
@@ -98,20 +96,20 @@
       "avg_monetization_score": 15.0
     },
     {
+      "brand_lane": "world-flow",
+      "label": "세계 흐름",
+      "post_count": 1,
+      "keywords": [
+        "tariffs_trade"
+      ],
+      "avg_monetization_score": 15.0
+    },
+    {
       "brand_lane": "macro",
       "label": "거시경제",
       "post_count": 1,
       "keywords": [
         "fomc"
-      ],
-      "avg_monetization_score": 14.0
-    },
-    {
-      "brand_lane": "world-flow",
-      "label": "세계 흐름",
-      "post_count": 1,
-      "keywords": [
-        "china"
       ],
       "avg_monetization_score": 14.0
     }
@@ -120,20 +118,6 @@
   "trend_watchlist": [
     {
       "keyword": "bitcoin",
-      "trend_queries": [
-        "비트코인",
-        "fidelity bitcoin"
-      ],
-      "trend_count": 2,
-      "traffic_score_sum": 2100,
-      "regions": [
-        "KR",
-        "US"
-      ],
-      "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
-    },
-    {
-      "keyword": "oil",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -149,7 +133,7 @@
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "crypto_etf",
+      "keyword": "tariffs_trade",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -157,7 +141,7 @@
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "china",
+      "keyword": "ai_semiconductors",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -285,8 +269,8 @@
         "dominant_sentence_ending_ratio": 0.092
       },
       {
-        "keyword": "china",
-        "recommended_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+        "keyword": "tariffs_trade",
+        "recommended_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
         "score": 92,
         "robotic_phrase_hits": [],
         "reader_bridge_hits": [
@@ -295,7 +279,7 @@
         ],
         "direct_address_hits": [
           "개인 투자자 입장에서는",
-          "독자 입장에서 중요한 건"
+          "이걸 내 돈 관점에서 보면"
         ],
         "interpretation_hits": [
           "투자자 언어로 다시 풀면"
@@ -304,18 +288,17 @@
           "가능성",
           "시나리오",
           "다만",
-          "반면",
-          "변수"
+          "반면"
         ],
         "warnings": [
           "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
         ],
         "paragraph_count": 32,
         "short_paragraphs": 22,
-        "long_paragraphs": 2,
+        "long_paragraphs": 3,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
-        "dominant_sentence_ending_ratio": 0.138
+        "dominant_sentence_ending_ratio": 0.109
       }
     ]
   },

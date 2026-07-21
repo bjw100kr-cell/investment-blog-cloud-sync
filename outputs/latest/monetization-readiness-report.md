@@ -1,6 +1,6 @@
 # 수익화 준비도 리포트
 
-- 생성 시각: `2026-07-21T09:33:55.654263+00:00`
+- 생성 시각: `2026-07-21T17:00:44.969485+00:00`
 - 준비도 점수: `50.0`
 
 ## 단계별 상태
@@ -16,11 +16,11 @@
   - evidence: automated channel count=1
   - next: Blogger draft 업로드를 먼저 자동 검증하고, 안정화 뒤 WordPress를 두 번째 자동 채널로 확장합니다.
 - `search_demand_engine`: ready
-  - evidence: trend watchlist 5개
+  - evidence: trend watchlist 4개
   - evidence: search console watchlist 0개
   - evidence: daily opportunity breaking candidates 5개
-  - evidence: daily opportunity query watchlist 4개
-  - evidence: seo follow-up backlog 13개
+  - evidence: daily opportunity query watchlist 5개
+  - evidence: seo follow-up backlog 14개
   - next: 기회판과 SEO 백로그를 기준으로 당일 글 1개, 후속 검색형 글 1개씩 이어 붙이면서 Search Console 데이터가 쌓일 때까지 운영합니다.
 - `analytics_stack`: not_ready
   - evidence: GA4 measurement id missing
@@ -38,9 +38,9 @@
 
 ## 지금 바로 올릴 우선 글
 
-- `1` `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 목표 페이지뷰와 체류시간 균형 확보 / CTA 환율·금리·미국증시 evergreen 글로 연결
-- `2` `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 목표 페이지뷰와 체류시간 균형 확보 / CTA ETF·규제·초보 가이드 글로 연결
-- `3` `china`: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 / 목표 페이지뷰와 체류시간 균형 확보 / CTA 실적·공급망·대표 종목 글로 연결
+- `1` `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 목표 페이지뷰와 체류시간 균형 확보 / CTA ETF·규제·초보 가이드 글로 연결
+- `2` `tariffs_trade`: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 / 목표 페이지뷰와 체류시간 균형 확보 / CTA 실적·공급망·대표 종목 글로 연결
+- `3` `ai_semiconductors`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 목표 페이지뷰와 체류시간 균형 확보 / CTA 실적·공급망·대표 종목 글로 연결
 
 ## 다음 액션
 

@@ -7,7 +7,7 @@
 - user_confirmed_all: `False`
 - user_confirmed_keywords: `["bitcoin"]`
 - user_confirmed_ready_count: `1`
-- quality_ready_count: `9`
+- quality_ready_count: `6`
 - freshness policy: `stale source evidence is excluded from upload candidates until refreshed`
 
 ## blogger
@@ -18,7 +18,7 @@
 - first_item: `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트`
 - first_keyword: `bitcoin`
 
-- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / score 131.0 / quality=True / freshness=`fresh` / user_confirmed=True
+- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / score 124.0 / quality=True / freshness=`fresh` / user_confirmed=True
 
 ## wordpress
 
@@ -28,4 +28,4 @@
 - first_item: `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트`
 - first_keyword: `bitcoin`
 
-- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / score 131.0 / quality=True / freshness=`fresh` / user_confirmed=True
+- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / score 124.0 / quality=True / freshness=`fresh` / user_confirmed=True
