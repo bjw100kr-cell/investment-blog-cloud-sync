@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-20T17:09:38.689623+00:00`
+- 생성 시각: `2026-07-21T09:33:55.654263+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,6 +25,19 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / The Essence of President Trump’s Address to the Nation Regarding Election Fraud
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=AQriP4CmlJs! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / The Issue of Chinese Ethnic Minorities Explodes in the U.S.
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=FSt7pOg7G90! This is most likely caused by:
@@ -90,60 +103,54 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / Will you treat us better based on how our defense industry performs?
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=thr6MYyGr0s! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `bitcoin`: score 47, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `oil`: score 18, source_count 6, sources CNBC Top News, Financial Times Home, Financial Times YouTube, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 15, source_count 4, sources CNBC Top News, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
-- `us_index_flow`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `china`: score 5, source_count 2, sources NYT Business, Reuters Markets via Google News RSS
-- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
+- `bitcoin`: score 79, source_count 5, sources CoinDesk RSS, Cointelegraph, Google Trends KR, Google Trends US, Investing.com Crypto News
+- `oil`: score 22, source_count 5, sources CNBC Top News, CoinDesk RSS, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
+- `crypto_etf`: score 10, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `china`: score 10, source_count 4, sources Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business
+- `ai_semiconductors`: score 9, source_count 3, sources CoinDesk RSS, Financial Times Home, Financial Times YouTube
+- `tariffs_trade`: score 8, source_count 3, sources CNBC Top News, Financial Times Home, NYT Business
+- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `treasury_yields`: score 2, source_count 1, sources MarketWatch Breaking News
 - `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 47, headlines 15
-  - Saylor's Strategy raises cash reserves to $3.2 billion, leaving bitcoin holdings unchanged
-  - A bitcoin 'volmageddon' may be brewing, key indicator suggests
-  - Bernstein raises Robinhood price target, cites tokenization and prediction markets
-- `fomc`: score 23, headlines 5
+- `bitcoin`: score 79, headlines 17
+  - 비트코인
+  - fidelity bitcoin
+  - Live markets: Bitcoin ETFs post a fifth straight day of inflows in a first since April
+- `oil`: score 22, headlines 8
+  - Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind
+  - Abu Dhabi approves $6.2 billion gas project to boost UAE supply
+  - Morning Bid: Oil trumps AI - Reuters
+- `fomc`: score 20, headlines 4
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- `oil`: score 18, headlines 7
-  - Oil prices turn lower after Iran says U.S. talks could be pursued based on national interests
-  - Yemen’s Houthi rebels threaten blockade against Saudi Arabia
-  - Morning Bid: Rising oil, yields rain on AI party - Reuters
-- `ai_semiconductors`: score 15, headlines 6
-  - AMD launches Helios, its first rack AI system to rival Nvidia, adding Microsoft as newest buyer
-  - Alphabet stock pops on report it's developing a more efficient AI chip
-  - S&P 500, Nasdaq edge higher as chips recover; megacap earnings in focus - Reuters
-- `china`: score 5, headlines 2
-  - China's Moonshot pauses Kimi subscriptions amid hot demand, IPO push - Reuters
-  - Soaring Egg Prices Are Hitting China Hard
-- `us_big_tech`: score 5, headlines 2
-  - AMD launches Helios, its first rack AI system to rival Nvidia, adding Microsoft as newest buyer
-  - SpaceX flirts with a further descent down the market-cap ranks
-- `us_index_flow`: score 5, headlines 2
-  - S&P 500, Nasdaq edge higher as chips recover; megacap earnings in focus - Reuters
-  - Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.
-- `ethereum`: score 4, headlines 1
+- `china`: score 10, headlines 4
+  - Binance & OKX users face $1,900 fines in Vietnam, Coinbase in China? Asia Express
+  - China weighs tighter export controls on AI models and chips
+  - China contemplates tit-for-tat export controls against U.S. on AI technologies: report
+- `crypto_etf`: score 10, headlines 3
+  - Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind
+  - Grayscale files S-1 for first US Worldcoin ETF
+  - Bitcoin rises to near $66k as ETF inflows recover; Iran tensions persist
+- `ai_semiconductors`: score 9, headlines 3
+  - Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind
+  - China weighs tighter export controls on AI models and chips
+  - Silicon shadows: inside the black market for AI chips | FT Film
+- `tariffs_trade`: score 8, headlines 3
+  - Trump imposing 50% tariffs on certain Canadian goods over alleged trade discrimination
+  - US to hit Canada with 50% tariffs on wide range of goods
+  - Trump to Impose 50% Tariff on Many Canadian Goods
+- `ethereum`: score 7, headlines 2
   - Tom Lee's Bitmine slowed ether purchases as it bought back $86 million in stock
+  - Base’s 1:1-backed tokenized equities launch ‘imminent,’ Pollak says
 - `ai_growth_stocks`: score 2, headlines 1
   - Palantir: profits, procurement and power | FT Film
+- `treasury_yields`: score 2, headlines 1
+  - Jamie Dimon says he wouldn’t buy Treasurys. ‘I don’t understand the upside.’
