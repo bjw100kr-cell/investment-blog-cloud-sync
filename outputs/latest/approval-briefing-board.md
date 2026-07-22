@@ -4,28 +4,146 @@
 - 원칙: 여기서 읽고 확인한 글만 사용자 최종 확인 대상으로 넘깁니다.
 - 상태: 사용자 최종 확인 전에는 실제 업로드가 차단됩니다.
 - item_count: `3`
-- single confirmation: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- batch confirmation: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
+- single confirmation: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- batch confirmation: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin`
 
-## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword `bitcoin` / publish `2026-07-22` / priority `124.0`
+- keyword `fomc` / publish `2026-07-22` / priority `137.0`
+- review `approve` score `100` / quality `pass` / ready_now `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- CTA focus: 환율·금리·미국증시 evergreen 글로 연결
+- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- evidence score: demand `3900` / fallback `source_snapshot_rank` / format `macro_explainer`
+- source_names: CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press
+- sample_headlines:
+  - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
+  - Federal Reserve issues FOMC statement
+  - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+  - Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults
+- recent_evidence:
+  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+  - Federal Reserve Monetary Policy Press | 2026-04-29T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-07-09T19:00:00+00:00 | Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
+- image_slots:
+  - 대표 이미지 / Unsplash / `central bank meeting finance city skyline` / Unsplash License
+  - 본문 보조 이미지 / Pexels / `interest rate macro economy abstract` / Pexels License
+
+### Draft Body
+
+```md
+# FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+
+## 오늘 핵심 3줄
+
+- FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다.
+- 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다.
+- 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다.
+
+## 도입부
+
+2026년 7월 22일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
+개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
+쉽게 말해 공식 발표 자료, 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+
+## 본문
+
+## 1. 지금 무슨 일이 있었나
+
+이번 글의 출발점은 `Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `달러 인덱스`, 다른 하나는 `미국채 2년물/10년물 금리`입니다.
+쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
+
+## 2. 왜 시장이 반응했나
+
+금리 경로가 바뀌면 돈값이 달라지고, 돈값이 달라지면 성장주와 코인처럼 미래 기대를 크게 반영하는 자산의 할인율도 함께 흔들립니다.
+이 대목을 투자자 언어로 바꾸면, 금리 자체보다 연준이 앞으로 얼마나 빨리 방향을 바꿀 수 있는지에 대한 기대가 먼저 가격을 흔들고 있다는 뜻에 가깝습니다.
+특히 `달러 인덱스` 쪽 변화가 먼저 나오고 `미국채 2년물/10년물 금리` 흐름이 따라오는지, 아니면 가격만 먼저 튀는지를 나눠 보면 뉴스의 질이 달라 보입니다.
+
+## 3. 개인 투자자가 바로 확인할 지표
+
+첫째로 볼 것은 `달러 인덱스`입니다. 이 지표가 같은 방향으로 며칠 이어지면 단순 반응보다 흐름일 가능성이 커집니다.
+둘째는 `미국채 2년물/10년물 금리`입니다. 거시 환경이 받쳐주지 않으면 좋은 뉴스도 오래 버티기 어렵습니다.
+셋째는 `나스닥과 비트코인 동시 반응`입니다. 한 자산만 움직이는지, 관련 자산으로 확산되는지에 따라 해석이 완전히 달라집니다.
+추가로 `다음 CPI/PCE/고용지표`까지 확인하면 다음 글감과 투자 판단의 기준선이 더 선명해집니다.
+
+## 4. 내 포트폴리오와 연결해서 보는 법
+
+이걸 내 돈 관점에서 보면 FOMC는 매수·매도 신호라기보다 포트폴리오의 위험 노출을 점검하는 날에 가깝습니다.
+예를 들어 이미 관련 자산 비중이 높다면 새로 맞히는 것보다 변동성이 커질 때 어느 구간에서 흔들릴지 먼저 생각해야 합니다.
+반대로 아직 관망 중이라면 지금 당장 따라가기보다 다음 확인 지표가 같은 방향으로 쌓이는지 보는 편이 더 실전적입니다.
+
+## 상승 시나리오와 리스크
+
+- 상승 시나리오: 달러와 단기금리가 안정되고 나스닥, 비트코인, 반도체 같은 위험자산이 같은 방향으로 반응하면 시장은 완화 기대를 더 강하게 읽을 수 있습니다.
+- 리스크 시나리오: 반대로 연준 발언이 물가 경계 쪽으로 기울거나 다음 물가 지표가 다시 강하게 나오면, 발표 직후 반등은 빠르게 되돌려질 수 있습니다.
+
+## 자주 하는 오해
+
+금리 동결을 곧바로 호재로만 해석하는 것입니다. 시장은 동결 여부보다 앞으로 몇 번, 언제, 어떤 속도로 움직일지를 더 크게 봅니다.
+
+## 체크포인트 3개
+
+1. `달러 인덱스`: 발표 직후뿐 아니라 다음 거래일에도 같은 방향인지 확인하기
+2. `미국채 2년물/10년물 금리`와 `나스닥과 비트코인 동시 반응`: 서로 엇갈리는지, 같이 움직이는지 비교하기
+3. `다음 CPI/PCE/고용지표` 전까지 상승 시나리오와 리스크 시나리오를 따로 메모해두기
+
+## FAQ 2개
+
+### FOMC가 왜 주식과 코인에 동시에 영향을 주나요?
+금리 방향이 달러와 유동성 기대를 바꾸기 때문입니다. 그래서 성장주와 코인처럼 유동성에 민감한 자산이 함께 반응하는 경우가 많습니다.
+
+### 이번 발표에서 개인 투자자가 가장 먼저 볼 것은 무엇인가요?
+성명서 문구 자체보다 점도표, 기자회견 톤, 그리고 이후 금리 인하 기대가 얼마나 바뀌는지를 함께 보는 편이 더 중요합니다.
+
+## 출처 체크
+
+- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press
+- 발행 전 재확인: FOMC 성명서 원문 날짜와 발표 시각 확인
+- 발행 전 재확인: 점도표/경제전망 최신 버전 확인
+- 발행 전 재확인: 달러, 미국채 금리, 나스닥 관련 수치 재확인
+
+## 이 글에서 같이 봐야 할 관점
+
+- 왜 지금 이 이슈가 개인 투자자에게 중요한지 한 문장 설명
+- 달러, 금리, 주식, 코인 중 최소 2개와 연결한 해석
+- 다만/반면 같은 균형 문장
+
+
+## CTA
+
+이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
+다음 글에서는 FOMC 이후 달러, 미국채 금리, 나스닥 가운데 무엇을 먼저 보면 되는지 더 실전적으로 풀어보겠습니다.
+
+## 면책문구
+
+이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
+```
+
+## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+
+- keyword `bitcoin` / publish `2026-07-23` / priority `122.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
-- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- evidence score: demand `6000` / fallback `source_snapshot_rank` / format `crypto_analysis`
+- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- evidence score: demand `6800` / fallback `source_snapshot_rank` / format `crypto_analysis`
 - source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - sample_headlines:
-  - Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin
-  - Galaxy sets up $5 million fund to help shield Bitcoin against quantum computing threats
-  - Russia’s parliament passes crypto market law with $3,800 annual cap for retail investors
-  - Jack Mallers steps down as XXI Capital CEO as Tether's plans to merge three bitcoin firms falls
+  - Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults
+  - Live updates: Bitcoin under $66,000 as traders await Alphabet earnings to gauge AI trade
+  - AI models escaped OpenAI’s sandbox and hit Hugging Face. Crypto is where that gets dangerous
+  - Bitcoin holds near $66,300 as chips extend their rally and the yen hits a 40-year low
 - recent_evidence:
-  - CoinDesk RSS | 2026-07-21T16:19:24+00:00 | Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin
-  - CoinDesk RSS | 2026-07-21T16:16:14+00:00 | Galaxy sets up $5 million fund to help shield Bitcoin against quantum computing threats
-  - Cointelegraph | 2026-07-21T15:14:37+00:00 | Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans
-  - Cointelegraph | 2026-07-21T13:34:26+00:00 | CoinShares debuts Bitcoin mining ETF in Europe entrance
+  - CoinDesk RSS | 2026-07-22T09:01:54+00:00 | Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults
+  - CoinDesk RSS | 2026-07-22T08:13:28+00:00 | Live updates: Bitcoin under $66,000 as traders await Alphabet earnings to gauge AI trade
+  - Cointelegraph | 2026-07-22T07:57:03+00:00 | Bitcoin ETFs extend inflow streak to 6 days with $203M added
+  - CoinDesk RSS | 2026-07-22T05:03:39+00:00 | Bitcoin holds near $66,300 as chips extend their rally and the yen hits a 40-year low
 - image_slots:
   - 대표 이미지 / Pexels / `bitcoin blockchain abstract blue finance` / Pexels License
   - 본문 보조 이미지 / Unsplash / `crypto market data abstract` / Unsplash License
@@ -45,17 +163,17 @@
 
 ## 도입부
 
-2026년 7월 21일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 7월 22일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+예를 들어 `Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `현물 ETF 순유입/순유출`, 다른 하나는 `달러 인덱스와 미국채 금리`입니다.
 한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -125,25 +243,25 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 ```
 
-## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword `ai_semiconductors` / publish `2026-07-23` / priority `111.0`
+- keyword `ai_semiconductors` / publish `2026-07-24` / priority `118.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
-- reason: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- evidence score: demand `2600` / fallback `source_snapshot_rank` / format `sector_analysis`
-- source_names: CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
+- reason: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- evidence score: demand `3400` / fallback `source_snapshot_rank` / format `sector_analysis`
+- source_names: CNBC Top News, CoinDesk RSS, Financial Times YouTube, Reuters Markets via Google News RSS
 - sample_headlines:
-  - OpenAI, Anthropic boost lobbying as legacy tech and defense spending slips
-  - Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel
-  - Bessent says U.S. could sanction China over AI model 'theft'
-  - Wall St gains on chip stocks recovery; earnings draw focus - Reuters
+  - Live updates: Bitcoin under $66,000 as traders await Alphabet earnings to gauge AI trade
+  - Bitcoin holds near $66,300 as chips extend their rally and the yen hits a 40-year low
+  - Trump's push for American-made AI chips hits TSMC's margins
+  - The Fed rang the alarm about Anthropic's Mythos AI model — but had to go months without it
 - recent_evidence:
   - Financial Times YouTube | 41K views | Silicon shadows: inside the black market for AI chips | FT Film
-  - CNBC Top News | 2026-07-21T16:30:11+00:00 | OpenAI, Anthropic boost lobbying as legacy tech and defense spending slips
-  - Reuters Markets via Google News RSS | 2026-07-21T16:21:43+00:00 | Wall St gains on chip stocks recovery; earnings draw focus - Reuters
-  - CNBC Top News | 2026-07-21T15:00:02+00:00 | Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel
+  - CoinDesk RSS | 2026-07-22T05:03:39+00:00 | Bitcoin holds near $66,300 as chips extend their rally and the yen hits a 40-year low
+  - CNBC Top News | 2026-07-22T05:00:01+00:00 | Trump's push for American-made AI chips hits TSMC's margins
+  - Reuters Markets via Google News RSS | 2026-07-22T04:36:00+00:00 | Morning Bid: The new ad for chips? An AI model Breaking Bad - Reuters
 - image_slots:
   - 대표 이미지 / Unsplash / `semiconductor chip blue abstract` / Unsplash License
   - 본문 보조 이미지 / Pexels / `ai server data center abstract` / Pexels License
@@ -163,17 +281,17 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 도입부
 
-2026년 7월 21일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 7월 22일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 해외 주요 매체 보도, 유튜브 해설를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `OpenAI, Anthropic boost lobbying as legacy tech and defense spending slips` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사, 유튜브 해설를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `Live updates: Bitcoin under $66,000 as traders await Alphabet earnings to gauge AI trade` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `OpenAI, Anthropic boost lobbying as legacy tech and defense spending slips`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Live updates: Bitcoin under $66,000 as traders await Alphabet earnings to gauge AI trade`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `나스닥과 S&P500 상대 강도`, 다른 하나는 `미국채 10년물 금리`입니다.
 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -221,7 +339,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
+- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Financial Times YouTube, Reuters Markets via Google News RSS
 - 발행 전 재확인: 기업 실적/가이던스 수치 원문 확인
 - 발행 전 재확인: 반도체 섹터 전반 일반화 과장 여부 점검
 - 발행 전 재확인: 대표 종목 티커와 실적 날짜 재확인
@@ -237,124 +355,6 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 다음 글에서는 AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
-
-## 면책문구
-
-이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
-```
-
-## 3. 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
-
-- keyword `tariffs_trade` / publish `2026-07-24` / priority `114.0`
-- review `approve` score `100` / quality `review_before_publish` / ready_now `False`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- CTA focus: 실적·공급망·대표 종목 글로 연결
-- reason: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- evidence score: demand `2900` / fallback `source_snapshot_rank` / format `macro_explainer`
-- source_names: Cointelegraph, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
-- sample_headlines:
-  - Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans
-  - Trump prepares fresh tariff barrage with 10% levies set to expire
-  - US to hit Canada with 50% tariffs on wide range of goods
-  - PODCAST: Canada's tariff surprise - Reuters
-- recent_evidence:
-  - NYT Business | 2026-07-21T16:26:15+00:00 | Trump Escalates Canada Tariffs as Mark Carney Holds Firm
-  - Cointelegraph | 2026-07-21T15:14:37+00:00 | Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans
-  - CNBC Top News | 2026-07-21T13:38:59+00:00 | Greer hints new Trump tariffs coming on dozens of countries: 'Expect action soon'
-  - Reuters Markets via Google News RSS | 2026-07-21T13:33:02+00:00 | PODCAST: Canada's tariff surprise - Reuters
-- image_slots:
-  - 대표 이미지 / Unsplash / `technology stocks office finance abstract` / Unsplash License
-  - 본문 보조 이미지 / Pexels / `semiconductor data center abstract` / Pexels License
-
-### Draft Body
-
-```md
-# 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 오늘 시장이 반응한 이유와 확인할 3가지
-
-한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-
-## 오늘 핵심 3줄
-
-- 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다.
-- 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다.
-- 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
-
-## 도입부
-
-2026년 7월 21일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
-미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
-개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
-
-## 본문
-
-## 1. 지금 무슨 일이 있었나
-
-이번 글의 출발점은 `Bitcoin nears seven-week high as stocks ignore Iran strikes, Trump 10% tariff plans`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
-여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `공식 발표 날짜와 핵심 문구`, 다른 하나는 `달러·금리·주식·코인 중 먼저 반응한 자산`입니다.
-쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
-
-## 2. 왜 시장이 반응했나
-
-시장은 뉴스의 좋고 나쁨보다 그 뉴스가 다음 기대를 얼마나 바꾸는지에 먼저 반응합니다.
-투자자 언어로 다시 풀면, 결국 중요한 건 이 숫자가 시장 기대를 얼마나 바꾸는지 쪽이 실제 자산 가격에 얼마나 빨리 반영되는지입니다.
-특히 `공식 발표 날짜와 핵심 문구` 쪽 변화가 먼저 나오고 `달러·금리·주식·코인 중 먼저 반응한 자산` 흐름이 따라오는지, 아니면 가격만 먼저 튀는지를 나눠 보면 뉴스의 질이 달라 보입니다.
-
-## 3. 개인 투자자가 바로 확인할 지표
-
-첫째로 볼 것은 `공식 발표 날짜와 핵심 문구`입니다. 이 지표가 같은 방향으로 며칠 이어지면 단순 반응보다 흐름일 가능성이 커집니다.
-둘째는 `달러·금리·주식·코인 중 먼저 반응한 자산`입니다. 거시 환경이 받쳐주지 않으면 좋은 뉴스도 오래 버티기 어렵습니다.
-셋째는 `거래량과 자금 흐름`입니다. 한 자산만 움직이는지, 관련 자산으로 확산되는지에 따라 해석이 완전히 달라집니다.
-추가로 `다음 경제지표 또는 정책 일정`까지 확인하면 다음 글감과 투자 판단의 기준선이 더 선명해집니다.
-
-## 4. 내 포트폴리오와 연결해서 보는 법
-
-이걸 내 돈 관점에서 보면 지금 필요한 건 예측보다 체크리스트입니다.
-예를 들어 이미 관련 자산 비중이 높다면 새로 맞히는 것보다 변동성이 커질 때 어느 구간에서 흔들릴지 먼저 생각해야 합니다.
-반대로 아직 관망 중이라면 지금 당장 따라가기보다 다음 확인 지표가 같은 방향으로 쌓이는지 보는 편이 더 실전적입니다.
-
-## 상승 시나리오와 리스크
-
-- 상승 시나리오: 관련 자산들이 같은 방향으로 움직이고 후속 데이터가 확인되면 시장 해석은 더 빠르게 굳어질 수 있습니다.
-- 리스크 시나리오: 반응이 한 자산에만 머물거나 다음 지표가 반대로 나오면 초기 해석은 쉽게 흔들릴 수 있습니다.
-
-## 자주 하는 오해
-
-헤드라인 하나만 보고 방향을 단정하는 것입니다.
-
-## 체크포인트 3개
-
-1. `공식 발표 날짜와 핵심 문구`: 발표 직후뿐 아니라 다음 거래일에도 같은 방향인지 확인하기
-2. `달러·금리·주식·코인 중 먼저 반응한 자산`와 `거래량과 자금 흐름`: 서로 엇갈리는지, 같이 움직이는지 비교하기
-3. `다음 경제지표 또는 정책 일정` 전까지 상승 시나리오와 리스크 시나리오를 따로 메모해두기
-
-## FAQ 2개
-
-### 이 이슈를 볼 때 가장 먼저 확인할 것은 무엇인가요?
-핵심 숫자와 발표 시점, 그리고 시장이 그 숫자를 어떻게 해석하는지까지 함께 보는 편이 좋습니다.
-
-### 개인 투자자는 어떤 식으로 접근해야 하나요?
-단정적으로 결론 내리기보다 시나리오를 나눠 보고, 다음 확인 포인트를 정해 두는 방식이 더 현실적입니다.
-
-## 출처 체크
-
-- 주요 참고 소스: Cointelegraph, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
-- 발행 전 재확인: 관세/무역 조치 공식 문서나 발표문 확인
-- 발행 전 재확인: 시장 영향은 조건형 문장으로 서술
-- 발행 전 재확인: 정치적 해석 과잉 여부 점검
-
-## 이 글에서 같이 봐야 할 관점
-
-- 왜 지금 이 이슈가 개인 투자자에게 중요한지 한 문장 설명
-- 달러, 금리, 주식, 코인 중 최소 2개와 연결한 해석
-- 다만/반면 같은 균형 문장
-
-
-## CTA
-
-이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
-다음 글에서는 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 오늘 시장이 반응한 이유와 확인할 3가지 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
 
 ## 면책문구
 

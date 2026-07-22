@@ -91,7 +91,7 @@
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -109,15 +109,16 @@
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CNBC Top News",
+    "CoinDesk RSS",
     "Financial Times YouTube",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "OpenAI, Anthropic boost lobbying as legacy tech and defense spending slips",
-    "Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel",
-    "Bessent says U.S. could sanction China over AI model 'theft'",
-    "Wall St gains on chip stocks recovery; earnings draw focus - Reuters",
-    "Silicon shadows: inside the black market for AI chips | FT Film"
+    "Live updates: Bitcoin under $66,000 as traders await Alphabet earnings to gauge AI trade",
+    "Bitcoin holds near $66,300 as chips extend their rally and the yen hits a 40-year low",
+    "Trump's push for American-made AI chips hits TSMC's margins",
+    "The Fed rang the alarm about Anthropic's Mythos AI model — but had to go months without it",
+    "Morning Bid: The new ad for chips? An AI model Breaking Bad - Reuters"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -180,12 +181,12 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 76.0,
-    "search_score": 18,
-    "timeliness_score": 18,
-    "explanatory_score": 18,
+    "total_score": 83.0,
+    "search_score": 24,
+    "timeliness_score": 20,
+    "explanatory_score": 19,
     "monetization_score": 15,
-    "risk_score": 7
+    "risk_score": 5
   },
   "reference_editorial_pattern_name": "search_explainer",
   "reference_editorial_pattern": {

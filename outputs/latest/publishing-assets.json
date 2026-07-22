@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T17:00:44.969485+00:00",
+  "generated_at": "2026-07-22T09:34:05.907874+00:00",
   "packets_json": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/draft-packets.json",
   "items": [
     {
@@ -20,7 +20,7 @@
         "거시경제",
         "미국증시"
       ],
-      "recommended_publish_date": "2026-07-25",
+      "recommended_publish_date": "2026-07-22",
       "internal_links": [
         "site-foundation/hub-macro.md",
         "site-foundation/about.md",
@@ -30,8 +30,7 @@
       ],
       "ad_slot_recommendations": [
         "after_intro",
-        "after_first_h2",
-        "before_faq",
+        "mid_article",
         "before_related_links"
       ],
       "follow_up_posts": [
@@ -65,7 +64,7 @@
       ],
       "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
       "trust_footer_note": "이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.",
-      "summary_angle": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
+      "summary_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "image_plan": [
         {
           "slot": "hero",
@@ -136,7 +135,7 @@
         "코인",
         "암호화폐"
       ],
-      "recommended_publish_date": "2026-07-22",
+      "recommended_publish_date": "2026-07-23",
       "internal_links": [
         "site-foundation/hub-crypto.md",
         "site-foundation/about.md",
@@ -180,7 +179,7 @@
       ],
       "cta": "비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.",
       "trust_footer_note": "이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.",
-      "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "image_plan": [
         {
           "slot": "hero",
@@ -252,7 +251,7 @@
         "섹터분석",
         "미국증시"
       ],
-      "recommended_publish_date": "2026-07-23",
+      "recommended_publish_date": "2026-07-24",
       "internal_links": [
         "site-foundation/hub-global-sector.md",
         "site-foundation/about.md",
@@ -296,7 +295,7 @@
       ],
       "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
       "trust_footer_note": "이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.",
-      "summary_angle": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "summary_angle": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "image_plan": [
         {
           "slot": "hero",
@@ -367,7 +366,7 @@
         "무역",
         "세계흐름"
       ],
-      "recommended_publish_date": "2026-07-24",
+      "recommended_publish_date": "2026-07-25",
       "internal_links": [
         "site-foundation/hub-global-sector.md",
         "site-foundation/about.md",
@@ -380,10 +379,38 @@
         "mid_article",
         "before_related_links"
       ],
-      "follow_up_posts": [],
+      "follow_up_posts": [
+        {
+          "title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기",
+          "slug": "관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-관련-대표-종목-한눈에-보기",
+          "role": "evergreen_seo",
+          "post_type": "evergreen_sector_guide",
+          "search_intent": "섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자",
+          "monetization_goal": "섹터형 검색 유입 누적",
+          "cta_focus": "대표 종목 글과 허브 글 연결"
+        },
+        {
+          "title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나",
+          "slug": "관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-공급망-정리-누가-수혜를-보나",
+          "role": "follow_up",
+          "post_type": "follow_up_analysis",
+          "search_intent": "테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
+          "monetization_goal": "체류시간과 페이지뷰 확대",
+          "cta_focus": "실적 해설과 글로벌 섹터 허브 연결"
+        },
+        {
+          "title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 정리",
+          "slug": "관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-etf-지수-대표-기업-정리",
+          "role": "evergreen_seo",
+          "post_type": "evergreen_sector_guide",
+          "search_intent": "개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자",
+          "monetization_goal": "광고 노출과 장기 검색 유입 확보",
+          "cta_focus": "섹터 허브와 후속 비교 글 연결"
+        }
+      ],
       "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
       "trust_footer_note": "이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.",
-      "summary_angle": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "summary_angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
       "image_plan": [
         {
           "slot": "hero",
