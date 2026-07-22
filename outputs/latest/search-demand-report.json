@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-07-22T09:34:05.907874+00:00",
+  "generated_at": "2026-07-22T17:00:14.602294+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 0,
+    "matched_keyword_count": 5,
+    "unmatched_market_trend_count": 1,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "us_big_tech",
+      "trend_count": 1,
+      "traffic_score_sum": 500,
+      "max_approx_traffic": 500,
+      "trend_queries": [
+        "amazon prime subscription lawsuit payout"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 700,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,21 +30,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6800,
+      "demand_signal_score": 5100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 56,
-      "source_count": 3,
+      "source_snapshot_score": 39,
+      "source_count": 4,
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults",
-        "Live updates: Bitcoin under $66,000 as traders await Alphabet earnings to gauge AI trade",
-        "AI models escaped OpenAI’s sandbox and hit Hugging Face. Crypto is where that gets dangerous"
+        "Crypto Long & Short: The crypto question isn't what to own — it's what you can survive holding",
+        "U.S. seeks forfeiture of $25 million in crypto tied to romance and investment scams",
+        "Forget Nvidia: The next big AI trade could be crypto and blockchain"
       ]
     },
     {
@@ -38,16 +55,17 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3900,
+      "demand_signal_score": 4000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 27,
-      "source_count": 3,
+      "source_snapshot_score": 28,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
@@ -62,23 +80,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3800,
+      "demand_signal_score": 2900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 26,
+      "source_snapshot_score": 17,
       "source_count": 6,
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
-        "Financial Times World",
         "Financial Times YouTube",
+        "MarketWatch Breaking News",
         "NYT Business"
       ],
       "sample_titles": [
-        "Oil prices jump 4% as Rubio says Iran 'not serious' about peace talks",
+        "Houthis deploy missiles and drones to attack ships in southern Red Sea, naval group says",
         "The US has collected about $13bn of Venezuela’s oil money. Where is it?",
-        "Oil rises to highest level in six weeks as Middle East war escalates"
+        "Rising oil prices weigh on US futures ahead of Big Tech results - Reuters"
       ]
     },
     {
@@ -88,24 +106,34 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3400,
+      "demand_signal_score": 2300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 22,
+      "source_snapshot_score": 11,
       "source_count": 4,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Financial Times YouTube",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Live updates: Bitcoin under $66,000 as traders await Alphabet earnings to gauge AI trade",
-        "Bitcoin holds near $66,300 as chips extend their rally and the yen hits a 40-year low",
-        "Trump's push for American-made AI chips hits TSMC's margins"
+        "Forget Nvidia: The next big AI trade could be crypto and blockchain",
+        "Morning Bid: The new ad for chips? An AI model Breaking Bad - Reuters",
+        "AMD plans to invest to up $5 billion into Anthropic as it seeks to cut into Nvidia’s dominance"
       ]
     }
   ],
-  "unmatched_market_trends": []
+  "unmatched_market_trends": [
+    {
+      "query": "spacex ipo stock performance",
+      "region": "US",
+      "approx_traffic": "1000+",
+      "traffic_score": 1000,
+      "market_relevance_score": 1,
+      "brand_identity_match": true,
+      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
+    }
+  ]
 }

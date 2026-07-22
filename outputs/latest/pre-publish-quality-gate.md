@@ -3,8 +3,8 @@
 발행 전에 신뢰, 내부링크, 구조화 데이터, 재방문 장치가 빠졌는지 자동 점검하는 품질 게이트입니다.
 
 - item_count: `8`
-- pass_count: `8`
-- review_before_publish_count: `0`
+- pass_count: `7`
+- review_before_publish_count: `1`
 - needs_fix_count: `0`
 
 ## Readiness Checklist Reference
@@ -94,12 +94,12 @@
 - fail / `low` / `newsletter_ready`: 뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다.
 - fail / `low` / `ga4_ready`: GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다.
 
-## 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+## 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 
-- keyword: `tariffs_trade`
+- keyword: `china`
 - source_group: `main`
-- status: `pass`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기.html`
+- status: `review_before_publish`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -111,7 +111,7 @@
 - ok / `medium` / `fact_check_box_present`: 핵심 숫자와 날짜를 재확인하는 박스는 helpful content 신뢰도에 중요합니다.
 - ok / `medium` / `source_strength`: 공식 자료나 신뢰 가능한 매체 소스가 직접 보이면 글 신뢰도가 높아집니다.
 - ok / `medium` / `internal_links_minimum`: 관련 허브/정책/소개 글 내부링크 최소 2개는 재방문과 체류시간에 유리합니다.
-- ok / `medium` / `follow_up_posts_present`: 후속 글 연결이 있어야 검색 유입이 사이트 내 순환으로 이어집니다.
+- fail / `medium` / `follow_up_posts_present`: 후속 글 연결이 있어야 검색 유입이 사이트 내 순환으로 이어집니다.
 - ok / `medium` / `hero_image_selected`: 대표 이미지 1장은 체류시간과 썸네일 완성도에 유리하므로 발행 전 선택해 두는 편이 좋습니다.
 - ok / `medium` / `crypto_market_signal_present`: 코인 글은 가격/거래량/공포탐욕지수 같은 실제 시장 신호가 있어야 정보 전달력이 생깁니다.
 - ok / `low` / `image_license_review_ready`: 라이선스가 확인된 이미지 후보와 alt 문구가 같이 준비되어야 운영 속도가 안정적입니다.
@@ -122,7 +122,7 @@
 
 ## AI 반도체 주식 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_ai_semiconductors_6`
+- keyword: `seo_ai_semiconductors_9`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-ai-반도체-주식-관련-대표-종목-한눈에-보기.html`
@@ -146,12 +146,12 @@
 - fail / `low` / `newsletter_ready`: 뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다.
 - fail / `low` / `ga4_ready`: GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다.
 
-## 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기
+## 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_tariffs_trade_11`
+- keyword: `seo_china_12`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-관련-대표-종목-한눈에-보기.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -172,12 +172,12 @@
 - fail / `low` / `newsletter_ready`: 뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다.
 - fail / `low` / `ga4_ready`: GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다.
 
-## 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나
+## 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 
-- keyword: `seo_tariffs_trade_12`
+- keyword: `seo_china_13`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-공급망-정리-누가-수혜를-보나.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -198,12 +198,12 @@
 - fail / `low` / `newsletter_ready`: 뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다.
 - fail / `low` / `ga4_ready`: GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다.
 
-## 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 정리
+## 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 
-- keyword: `seo_tariffs_trade_13`
+- keyword: `seo_china_14`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-etf-지수-대표-기업-정리.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.

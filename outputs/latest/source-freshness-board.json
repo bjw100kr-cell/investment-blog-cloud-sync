@@ -1,99 +1,39 @@
 {
-  "generated_at": "2026-07-22T09:34:15.129954+00:00",
-  "snapshot_generated_at": "2026-07-22T09:34:05.907874+00:00",
+  "generated_at": "2026-07-22T17:00:19.412710+00:00",
+  "snapshot_generated_at": "2026-07-22T17:00:14.602294+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 2,
+    "fresh": 3,
     "aging": 0,
-    "stale": 1,
+    "stale": 0,
     "unknown": 0
   },
   "items": [
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-07-22",
-      "freshness_status": "stale",
-      "newest_evidence_iso": "2026-07-09T19:00:00+00:00",
-      "oldest_evidence_iso": "2026-04-29T18:00:00+00:00",
-      "newest_evidence_age_days": 12.6,
-      "source_count": 3,
-      "demand_signal_score": 3900,
-      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
-      "recovery_mode": "full_refresh_needed",
-      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
-      "recovery_command": "bash scripts/run_pipeline.sh",
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-07-24",
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "publish_date": "2026-07-25",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-22T05:03:39+00:00",
-      "oldest_evidence_iso": "2026-07-21T23:24:18+00:00",
-      "newest_evidence_age_days": 0.2,
-      "source_count": 4,
-      "demand_signal_score": 3400,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "newest_evidence_iso": "2026-07-22T14:00:30+00:00",
+      "oldest_evidence_iso": "2026-07-22T14:00:30+00:00",
+      "newest_evidence_age_days": 0.1,
+      "source_count": 1,
+      "demand_signal_score": 0,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Mercedes risks US sales ban under Senate China bill",
+      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Silicon shadows: inside the black market for AI chips | FT Film",
-          "source_name": "Financial Times YouTube",
-          "published": "41K views",
-          "published_iso": "41K views",
-          "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
-          "source_type": "youtube_channel"
-        },
-        {
-          "title": "Bitcoin holds near $66,300 as chips extend their rally and the yen hits a 40-year low",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 22 Jul 2026 05:03:39 +0000",
-          "published_iso": "2026-07-22T05:03:39+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/22/bitcoin-holds-near-usd66-300-as-chips-extend-their-rally-and-the-yen-hits-a-40-year-low",
-          "source_type": "rss"
-        },
-        {
-          "title": "Trump's push for American-made AI chips hits TSMC's margins",
-          "source_name": "CNBC Top News",
-          "published": "Wed, 22 Jul 2026 05:00:01 GMT",
-          "published_iso": "2026-07-22T05:00:01+00:00",
-          "link": "https://www.cnbc.com/2026/07/22/trump-pressure-ai-chips-us-tsmc-margins.html",
+          "title": "Mercedes risks US sales ban under Senate China bill",
+          "source_name": "Financial Times Home",
+          "published": "Wed, 22 Jul 2026 14:00:30 GMT",
+          "published_iso": "2026-07-22T14:00:30+00:00",
+          "link": "https://www.ft.com/content/b7e572e2-ac26-4842-82ee-1c355ac7c848?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ]
@@ -105,38 +45,81 @@
       "ready_now": true,
       "publish_date": "2026-07-23",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-22T09:01:54+00:00",
-      "oldest_evidence_iso": "2026-07-22T05:03:39+00:00",
+      "newest_evidence_iso": "2026-07-22T15:55:20+00:00",
+      "oldest_evidence_iso": "2026-07-22T07:07:08+00:00",
       "newest_evidence_age_days": 0.0,
-      "source_count": 3,
-      "demand_signal_score": 6800,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults",
+      "source_count": 4,
+      "demand_signal_score": 5100,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin price avoids major Iran jitters as S&P 500 ‘short squeeze’ on horizon",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 22 Jul 2026 09:01:54 +0000",
-          "published_iso": "2026-07-22T09:01:54+00:00",
-          "link": "https://www.coindesk.com/tech/2026/07/22/balance-stablecoin-collapses-99-after-usd1-million-exploit-drains-its-bitcoin-vaults",
-          "source_type": "rss"
-        },
-        {
-          "title": "Live updates: Bitcoin under $66,000 as traders await Alphabet earnings to gauge AI trade",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 22 Jul 2026 08:13:28 +0000",
-          "published_iso": "2026-07-22T08:13:28+00:00",
-          "link": "https://www.coindesk.com/tech/2026/07/22/live-updates-bitcoin-under-usd66-000-as-traders-await-alphabet-earnings-to-gauge-ai-trade",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin ETFs extend inflow streak to 6 days with $203M added",
+          "title": "Bitcoin price avoids major Iran jitters as S&P 500 ‘short squeeze’ on horizon",
           "source_name": "Cointelegraph",
-          "published": "Wed, 22 Jul 2026 07:57:03 +0000",
-          "published_iso": "2026-07-22T07:57:03+00:00",
-          "link": "https://cointelegraph.com/news/bitcoin-etfs-203-million-inflow-streak-six-days?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Wed, 22 Jul 2026 15:55:20 +0000",
+          "published_iso": "2026-07-22T15:55:20+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-avoids-major-iran-jitters-as-sp-500-short-squeeze-on-horizon?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin analysis eyes ‘serious volume’ after Binance sees 9K BTC daily outflow",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 22 Jul 2026 11:55:21 +0000",
+          "published_iso": "2026-07-22T11:55:21+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-analysis-eyes-serious-volume-after-binance-sees-9k-btc-daily-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin subdued near $66k with focus on CLARITY Act, Iran tensions",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-22 13:53:24",
+          "published_iso": "2026-07-22 13:53:24",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-steadies-near-66k-with-focus-on-clarity-act-iran-tensions-4804751",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-07-24",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-07-22T16:58:00+00:00",
+      "oldest_evidence_iso": "2026-07-22T04:36:00+00:00",
+      "newest_evidence_age_days": 0.0,
+      "source_count": 4,
+      "demand_signal_score": 2300,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Silicon shadows: inside the black market for AI chips | FT Film",
+          "source_name": "Financial Times YouTube",
+          "published": "42K views",
+          "published_iso": "42K views",
+          "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "AMD plans to invest to up $5 billion into Anthropic as it seeks to cut into Nvidia’s dominance",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Wed, 22 Jul 2026 16:58:00 GMT",
+          "published_iso": "2026-07-22T16:58:00+00:00",
+          "link": "https://www.marketwatch.com/story/amd-is-investing-5-billion-into-anthropic-as-it-seeks-to-cut-into-nvidias-dominance-b882654d?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
+          "title": "Forget Nvidia: The next big AI trade could be crypto and blockchain",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 22 Jul 2026 13:32:40 +0000",
+          "published_iso": "2026-07-22T13:32:40+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/21/forget-nvidia-the-next-big-ai-trade-could-be-crypto-and-blockchain",
           "source_type": "rss"
         }
       ]
