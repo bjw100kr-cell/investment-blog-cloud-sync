@@ -1,6 +1,6 @@
 # Daily 200 Visitor Action Board
 
-- 생성 시각: `2026-07-22T17:00:18.785701+00:00`
+- 생성 시각: `2026-07-23T09:15:28.088733+00:00`
 - 목표: 하루 `200`명
 - 상태: `measurement_missing_keep_building`
 - 실측 방문자: `0`
@@ -9,7 +9,7 @@
 
 ## 오늘 운영 상한
 
-- 품질 통과 글: `6`
+- 품질 통과 글: `7`
 - Blogger 준비 글: `1`
 - 다음 실행 권장 게시 수: `1`
 - 규칙: 품질 게이트 통과 글만 실행당 최대 3건
@@ -23,13 +23,6 @@
 - supporting_queries: 비트코인 ETF 자금 흐름, 비트코인 하락 이유, 비트코인 오늘 시세 보는법
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
-### FOMC 일정
-
-- mapped_keyword: `fomc`
-- suggested_title: FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: FOMC 발표 시간, FOMC 이후 주식 영향, 연준 금리 발표 비트코인 영향
-- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
-
 ### 국제유가 전망
 
 - mapped_keyword: `oil`
@@ -37,24 +30,18 @@
 - supporting_queries: 유가 상승 주식 영향, WTI 유가 보는법, 원유 가격 인플레이션 영향
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
+### FOMC 일정
+
+- mapped_keyword: `fomc`
+- suggested_title: FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: FOMC 발표 시간, FOMC 이후 주식 영향, 연준 금리 발표 비트코인 영향
+- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
+
 ### AI 반도체 주식
 
 - mapped_keyword: `ai_semiconductors`
 - suggested_title: AI 반도체 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리
 - supporting_queries: 엔비디아 주가 영향, 반도체 사이클 전망, AI 데이터센터 수혜주
-- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
-
-### 미국 빅테크 주식
-
-- mapped_keyword: `us_big_tech`
-- suggested_title: 미국 빅테크 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: 애플 주가 영향, 테슬라 주가 전망, 마이크로소프트 AI 투자, amazon prime subscription lawsuit payout
-- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
-
-### spacex ipo stock performance
-
-- mapped_keyword: ``
-- suggested_title: spacex ipo stock performance 왜 검색이 급증했나: 투자자 관점 핵심 정리
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
 ## 공개 URL 배포 액션

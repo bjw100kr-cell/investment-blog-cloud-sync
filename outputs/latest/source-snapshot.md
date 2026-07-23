@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-22T17:00:14.602294+00:00`
+- 생성 시각: `2026-07-23T09:15:23.756144+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,6 +25,19 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / Super 301 Invoked
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=VlfsV2wvdhk! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / A Good Company and a Good Stock Are Different
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=xucMhqLOKeo! This is most likely caused by:
@@ -90,66 +103,51 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / The 3 Temptations from Satan (Sunday School Binge)
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=hyodIJXUPHA! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `bitcoin`: score 39, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 28, source_count 4, sources CNBC Top News, Federal Reserve Monetary Policy Press, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `oil`: score 17, source_count 6, sources CNBC Top News, Financial Times Home, Financial Times YouTube, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `us_big_tech`: score 12, source_count 2, sources Google Trends US, NYT Business
-- `ai_semiconductors`: score 11, source_count 4, sources CoinDesk RSS, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `cpi`: score 8, source_count 3, sources CNBC Top News, Financial Times World, MarketWatch Breaking News
-- `treasury_yields`: score 7, source_count 2, sources CNBC Top News, CoinDesk RSS
-- `dollar`: score 6, source_count 1, sources Reuters Markets via Google News RSS
-- `us_index_flow`: score 5, source_count 2, sources Cointelegraph, NYT Business
-- `crypto_etf`: score 3, source_count 1, sources Investing.com Crypto News
+- `bitcoin`: score 55, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
+- `oil`: score 37, source_count 8, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, Financial Times YouTube, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 25, source_count 3, sources Federal Reserve Monetary Policy Press, Financial Times World, MarketWatch Breaking News
+- `ai_semiconductors`: score 9, source_count 3, sources CoinDesk RSS, Financial Times YouTube, Reuters Markets via Google News RSS
+- `us_big_tech`: score 8, source_count 2, sources CNBC Top News, NYT Business
+- `cpi`: score 6, source_count 2, sources Financial Times Home, Financial Times World
+- `treasury_yields`: score 5, source_count 2, sources Financial Times Home, MarketWatch Breaking News
+- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
+- `tariffs_trade`: score 3, source_count 1, sources Financial Times Home
+- `china`: score 3, source_count 1, sources Financial Times Home
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 39, headlines 12
-  - Crypto Long & Short: The crypto question isn't what to own — it's what you can survive holding
-  - U.S. seeks forfeiture of $25 million in crypto tied to romance and investment scams
-  - Forget Nvidia: The next big AI trade could be crypto and blockchain
-- `fomc`: score 28, headlines 7
+- `bitcoin`: score 55, headlines 17
+  - Live markets: Bitcoin trades above $65,000 as Alphabet's bigger AI bill props up the chip trade
+  - BitMEX, the exchange that invented perps, is shutting down
+  - South Korea's oldest crypto exchange is now part of the $1 trillion Mirae Group family
+- `oil`: score 37, headlines 13
+  - Bitcoin wilts as oil and rates rise. Clarity Act odds tumble to 38%
+  - Houthis claim strikes on Saudi Arabian oil tankers as Rubio says Iran not ready to make a deal
+  - Oil tops $98 after tankers struck off Saudi Arabia, Trump escalates Iran threats
+- `fomc`: score 25, headlines 6
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- `oil`: score 17, headlines 7
-  - Houthis deploy missiles and drones to attack ships in southern Red Sea, naval group says
-  - The US has collected about $13bn of Venezuela’s oil money. Where is it?
-  - Rising oil prices weigh on US futures ahead of Big Tech results - Reuters
-- `us_big_tech`: score 12, headlines 2
-  - amazon prime subscription lawsuit payout
-  - Global Oil Price Jumps as War Threats Intensify
-- `ai_semiconductors`: score 11, headlines 4
-  - Forget Nvidia: The next big AI trade could be crypto and blockchain
-  - Morning Bid: The new ad for chips? An AI model Breaking Bad - Reuters
-  - AMD plans to invest to up $5 billion into Anthropic as it seeks to cut into Nvidia’s dominance
-- `cpi`: score 8, headlines 3
-  - Kevin Warsh has homed in on three key phrases. How Fed watchers interpret them
-  - Fed’s favorite inflation tracker is getting an overhaul — just as the central bank weighs interest-rate hikes. What’s going on?
-  - Inflation and interest rates tracker: see how your country compares
-- `treasury_yields`: score 7, headlines 2
-  - UK digital bond plans hinge on one missing piece: onchain cash
-  - Mortgage rates are rising again, but homebuyers are seeing some advantages
-- `dollar`: score 6, headlines 2
-  - Gold firms to two-week peak on softer dollar; Fed outlook in focus - Reuters
-  - Dollar dips after four-day streak of gains, yen holds near 40-year low - Reuters
-- `us_index_flow`: score 5, headlines 2
-  - Bitcoin price avoids major Iran jitters as S&P 500 ‘short squeeze’ on horizon
-  - Stocks and the Economy Are Increasingly Relying on the A.I. Boom
+- `ai_semiconductors`: score 9, headlines 3
+  - Live markets: Bitcoin trades above $65,000 as Alphabet's bigger AI bill props up the chip trade
+  - EXCLUSIVE: Intel, AMD sign long-term server CPU deals with Chinese clients as prices surge, sources say - Reuters
+  - Silicon shadows: inside the black market for AI chips | FT Film
+- `us_big_tech`: score 8, headlines 3
+  - Tesla and Alphabet shares slump in premarket trading as AI spending concerns spook investors
+  - Tesla misses on earnings, as free cash flow turns negative and margins slide
+  - Tesla Profit Falls Even as Car Sales Rebound
+- `cpi`: score 6, headlines 2
+  - Oil price surge drives global bond sell-off
+  - Household inflation expectations in the US are worryingly high
+- `treasury_yields`: score 5, headlines 2
+  - Oil price surge drives global bond sell-off
+  - The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies
+- `ethereum`: score 4, headlines 1
+  - Bitcoin, Ethereum-linked protocols lose $35 million in multiple attacks hours apart
 - `china`: score 3, headlines 1
-  - Mercedes risks US sales ban under Senate China bill
+  - Why the US is losing Chinese AI stars
+- `tariffs_trade`: score 3, headlines 1
+  - Is Trump winning the tariff wars?
