@@ -1,6 +1,6 @@
 # Daily 200 Visitor Action Board
 
-- 생성 시각: `2026-07-23T09:15:28.088733+00:00`
+- 생성 시각: `2026-07-23T17:04:12.231106+00:00`
 - 목표: 하루 `200`명
 - 상태: `measurement_missing_keep_building`
 - 실측 방문자: `0`
@@ -37,11 +37,18 @@
 - supporting_queries: FOMC 발표 시간, FOMC 이후 주식 영향, 연준 금리 발표 비트코인 영향
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
-### AI 반도체 주식
+### 미국채 금리 상승 이유
 
-- mapped_keyword: `ai_semiconductors`
-- suggested_title: AI 반도체 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: 엔비디아 주가 영향, 반도체 사이클 전망, AI 데이터센터 수혜주
+- mapped_keyword: `treasury_yields`
+- suggested_title: 미국채 금리 상승 이유 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 10년물 국채금리 주식 영향, 국채금리 비트코인 영향, 금리 상승 성장주 영향
+- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
+
+### 미국 빅테크 주식
+
+- mapped_keyword: `us_big_tech`
+- suggested_title: 미국 빅테크 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 애플 주가 영향, 테슬라 주가 전망, 마이크로소프트 AI 투자, tesla stock
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
 ## 공개 URL 배포 액션
@@ -51,9 +58,8 @@
 - 공개 SEO 확장 글 수: `14`
 - 전체 수동 배포 잠재 방문자: `560`
 
-- `fomc`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 - `bitcoin`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
-- `ai_semiconductors`: 0개 체크 / 예상 0명 / 첫 채널  / 
+- `fomc`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 - `china`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
 - `seo_ai_semiconductors_11`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html
 - `seo_us_big_tech_10`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/07/5.html

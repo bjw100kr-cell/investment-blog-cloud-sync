@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-07-23T09:15:23.756144+00:00",
+  "generated_at": "2026-07-23T17:04:07.646784+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "us_big_tech",
+      "trend_count": 1,
+      "traffic_score_sum": 1000,
+      "max_approx_traffic": 1000,
+      "trend_queries": [
+        "tesla stock"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 1200,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,22 +30,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6700,
+      "demand_signal_score": 6000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 55,
-      "source_count": 4,
+      "source_snapshot_score": 48,
+      "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "NYT Business"
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Live markets: Bitcoin trades above $65,000 as Alphabet's bigger AI bill props up the chip trade",
-        "BitMEX, the exchange that invented perps, is shutting down",
-        "South Korea's oldest crypto exchange is now part of the $1 trillion Mirae Group family"
+        "Crypto for Advisors: It’s time for tokenization to get to work",
+        "Goldman Sachs CEO backs Clarity Act despite banking industry's concerns over stablecoin rules",
+        "BlackRock, Coinbase, Strategy in a new group pledging $15 million to prepare Bitcoin for quantum threats"
       ]
     },
     {
@@ -39,23 +54,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4900,
+      "demand_signal_score": 4400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 37,
-      "source_count": 8,
+      "source_snapshot_score": 32,
+      "source_count": 7,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
         "Financial Times Home",
         "Financial Times World",
-        "Financial Times YouTube"
+        "Financial Times YouTube",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Bitcoin wilts as oil and rates rise. Clarity Act odds tumble to 38%",
-        "Houthis claim strikes on Saudi Arabian oil tankers as Rubio says Iran not ready to make a deal",
-        "Oil tops $98 after tankers struck off Saudi Arabia, Trump escalates Iran threats"
+        "Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'",
+        "Oil hits $100 for first time since May while US stocks slide",
+        "Houthi attacks threaten Saudi Arabia’s oil lifeline"
       ]
     },
     {
@@ -65,16 +80,14 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3700,
+      "demand_signal_score": 3200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 25,
-      "source_count": 3,
+      "source_snapshot_score": 20,
+      "source_count": 1,
       "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
-        "MarketWatch Breaking News"
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
@@ -83,7 +96,7 @@
       ]
     },
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -96,14 +109,13 @@
       "source_snapshot_score": 9,
       "source_count": 3,
       "source_names": [
-        "CoinDesk RSS",
-        "Financial Times YouTube",
-        "Reuters Markets via Google News RSS"
+        "Cointelegraph",
+        "Financial Times Home",
+        "Financial Times World"
       ],
       "sample_titles": [
-        "Live markets: Bitcoin trades above $65,000 as Alphabet's bigger AI bill props up the chip trade",
-        "EXCLUSIVE: Intel, AMD sign long-term server CPU deals with Chinese clients as prices surge, sources say - Reuters",
-        "Silicon shadows: inside the black market for AI chips | FT Film"
+        "BTC treasury firm Empery Digital invests $20M in AI data center developer Cardinal Data Power",
+        "Oil price surge drives global bond sell-off"
       ]
     }
   ],

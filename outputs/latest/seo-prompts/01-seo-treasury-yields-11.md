@@ -85,33 +85,42 @@
 
 ```json
 {
-  "keyword": "tariffs_trade",
-  "recommended_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+  "keyword": "seo_treasury_yields_11",
+  "source_keyword": "treasury_yields",
+  "recommended_title": "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지",
   "alternate_titles": [
-    "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유",
-    "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기"
+    "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지: 초보 투자자 기준으로 다시 보기",
+    "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "미국채 금리 상승 이유에서 이어지는 후속 글로, `미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
   "outline": [
-    "왜 지금 이 이슈가 중요한가",
-    "실제로 발표되거나 벌어진 일",
-    "주식·코인·달러·금리에 주는 영향",
-    "앞으로 체크할 변수",
-    "개인 투자자가 볼 포인트"
+    "이전 메인 글에서 이어지는 핵심 질문",
+    "이번에 추가로 확인된 내용",
+    "개인 투자자가 체크할 숫자와 일정",
+    "강세/약세 시나리오 나눠 보기",
+    "다음 후속 글 연결"
   ],
-  "reference_takeaways": [],
+  "reference_takeaways": [
+    "메인 연결 글: 미국채 금리 상승 이유",
+    "검색 의도: `미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
+    "수익화 목표: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
+    "검색어 후보: 미국채 금리 상승 이유, 10년물 국채금리 주식 영향, 국채금리 비트코인 영향, 금리 상승 성장주 영향",
+    "수요 신뢰도: medium_low - Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다."
+  ],
   "fact_checks": [
-    "관세/무역 조치 공식 문서나 발표문 확인",
-    "시장 영향은 조건형 문장으로 서술",
-    "정치적 해석 과잉 여부 점검"
+    "관련 공식 발표문과 날짜 재확인",
+    "달러, 금리, 주식, 코인 연결 문장이 과장되지 않았는지 점검",
+    "초보 독자가 오해할 수 있는 용어에 짧은 설명 추가"
   ],
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
-  "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
+  "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
   "source_names": [
-    "Financial Times Home"
+    "Cointelegraph",
+    "Financial Times Home",
+    "Financial Times World"
   ],
   "reference_headlines": [
-    "Is Trump winning the tariff wars?"
+    "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -174,102 +183,36 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 47.0,
-    "search_score": 4,
-    "timeliness_score": 5,
-    "explanatory_score": 18,
-    "monetization_score": 13,
-    "risk_score": 7
+    "total_score": 105.77,
+    "search_score": 105.77,
+    "timeliness_score": 0,
+    "explanatory_score": 0,
+    "monetization_score": 0,
+    "risk_score": 0
   },
-  "reference_editorial_pattern_name": "news_what_it_means",
-  "reference_editorial_pattern": {
-    "when_to_use": [
-      "당일 발표 직후",
-      "시장 급변",
-      "정책 발언",
-      "코인 규제 헤드라인"
-    ],
-    "must_have": [
-      "무슨 일이 있었는지 1문단 요약",
-      "왜 시장이 반응하는지 해석",
-      "주식, 달러, 금리, 코인 중 최소 2개와 연결",
-      "지금 단정할 수 없는 변수도 함께 표기"
+  "internal_link_plan": {
+    "primary": "site-foundation/hub-macro.md",
+    "secondary": [
+      "site-foundation/about.md",
+      "site-foundation/editorial-policy.md",
+      "site-foundation/disclosure.md"
     ]
   },
-  "reference_editorial_sources": [
-    {
-      "name": "Investopedia",
-      "source_type": "official_site_plus_similarweb",
-      "focus": "검색 유입형 투자 설명글과 용어 해설",
-      "evidence": [
-        "Investopedia mission page",
-        "Similarweb May 2026: Organic Search 59.88 percent, Investing category rank #23"
-      ],
-      "transferable_strengths": [
-        "검색 의도를 바로 만족하는 제목",
-        "용어 정의 후 바로 실전 해석으로 연결",
-        "초보 독자도 이해할 수 있는 설명형 문단 구조"
-      ]
-    },
-    {
-      "name": "CoinDesk",
-      "source_type": "official_site_plus_similarweb",
-      "focus": "코인 뉴스와 거시/정책 해설의 결합",
-      "evidence": [
-        "CoinDesk homepage promise: crypto news, analysis, video and price data",
-        "Similarweb May 2026: Direct 54.33 percent, US audience 45.09 percent"
-      ],
-      "transferable_strengths": [
-        "속보를 바로 해설형 글로 연결",
-        "가격 자체보다 정책, 자금 흐름, 시장 구조를 같이 설명",
-        "브랜드 신뢰를 만드는 차분한 톤"
-      ]
-    },
-    {
-      "name": "Cointelegraph",
-      "source_type": "similarweb_comparison",
-      "focus": "체류시간이 긴 코인 스토리텔링형 기사",
-      "evidence": [
-        "Similarweb comparison May 2026: Avg Visit Duration 00:03:28, Pages per Visit 2.71"
-      ],
-      "transferable_strengths": [
-        "한 기사 안에서 후속 질문까지 같이 풀어주는 구조",
-        "본문 흐름이 길어도 끊기지 않도록 섹션을 촘촘히 나누는 방식",
-        "독자가 다음 섹션을 계속 읽게 만드는 서브헤드 구성"
-      ]
-    },
-    {
-      "name": "MarketWatch",
-      "source_type": "official_site",
-      "focus": "시장 속보를 개인 투자자 관점으로 빠르게 번역",
-      "evidence": [
-        "MarketWatch homepage current market-news framing"
-      ],
-      "transferable_strengths": [
-        "헤드라인에서 바로 왜 중요한지 드러냄",
-        "당일 시장 변화와 개인 자산에 미치는 영향을 짧게 연결",
-        "숫자보다 의미를 먼저 이해시키는 짧은 문단"
-      ]
-    },
-    {
-      "name": "CoinNess",
-      "source_type": "official_site",
-      "focus": "빠른 속보성과 모바일 친화형 코인 정보 소비",
-      "evidence": [
-        "CoinNess official site: fast and accurate crypto investment news platform"
-      ],
-      "transferable_strengths": [
-        "짧은 핵심 요약을 먼저 제시",
-        "속보형 키워드와 투자자 반응 포인트를 빠르게 연결",
-        "반복 방문을 만드는 체크포인트 중심 구성"
-      ]
-    }
+  "labels": [
+    "투자",
+    "경제",
+    "시장해설",
+    "미국채 금리 상승 이유"
   ],
-  "style_translation_rules": [
-    "특정 사이트의 표현이나 문장 구조를 복사하지 않는다.",
-    "전달력과 구조만 참고하고, 한국어 개인 투자자 독자에게 맞게 다시 쓴다.",
-    "검색형 설명글과 재방문형 해설글을 함께 설계한다.",
-    "뉴스 요약만 하지 말고 항상 '그래서 내 돈 관점에서 왜 중요한가'를 답한다."
-  ]
+  "search_intent": "`미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
+  "monetization_goal": "새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
+  "reader_search_queries": [
+    "미국채 금리 상승 이유",
+    "10년물 국채금리 주식 영향",
+    "국채금리 비트코인 영향",
+    "금리 상승 성장주 영향"
+  ],
+  "demand_confidence": "medium_low",
+  "demand_confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다."
 }
 ```

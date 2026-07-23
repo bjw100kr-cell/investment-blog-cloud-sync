@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-07-23T09:15:26.449233+00:00`
+- generated_at: `2026-07-23T17:04:10.638196+00:00`
 
 ## fomc
 
@@ -20,20 +20,20 @@
 - meta_description: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 이슈를 가격보다 수급, ETF, 달러, 규제 구조 중심으로 차분하게 해설합니다.
 - follow_up_post_count: 3
 
-## ai_semiconductors
+## us_big_tech
 
 - ready: True
 - reason: ok
-- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html
-- meta_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- meta_description: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
-- follow_up_post_count: 3
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html
+- meta_title: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+- meta_description: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
+- follow_up_post_count: 0
 
-## tariffs_trade
+## china
 
 - ready: True
 - reason: ok
-- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기.html
-- meta_title: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
-- meta_description: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html
+- meta_title: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- meta_description: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 0
