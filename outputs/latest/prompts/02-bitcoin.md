@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Mirae plans to turn crypto exchange Korbit into something Korea hasn't seen before",
-    "Bitcoin holds near $65,000 as $800 billion AI selloff leaves crypto largely untouched",
-    "Clarity Act expected to miss its window before Congress' summer break, leadership says",
-    "South Korea’s Korbit to rebrand as Digital X under Mirae: Report",
-    "Bitcoin mining pool Poolin files for Chapter 11 bankruptcy"
+    "Senate Dems should accept the victory they won on Trump's crypto limits: White House",
+    "Institutional crypto trading platform LMAX is exploring sale, IPO",
+    "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists",
+    "EU hits Russia with massive 21st sanctions package targeting $120B crypto network",
+    "Crypto market maker B2C2 held sale talks with multiple potential buyers"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
