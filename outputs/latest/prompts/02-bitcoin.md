@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Crypto for Advisors: It’s time for tokenization to get to work",
-    "Goldman Sachs CEO backs Clarity Act despite banking industry's concerns over stablecoin rules",
-    "BlackRock, Coinbase, Strategy in a new group pledging $15 million to prepare Bitcoin for quantum threats",
-    "Goldman Sachs CEO backs ‘not perfect’ CLARITY Act as vote expected soon",
-    "Here’s why the CLARITY Act’s ethics deal may be so hard to reach"
+    "Mirae plans to turn crypto exchange Korbit into something Korea hasn't seen before",
+    "Bitcoin holds near $65,000 as $800 billion AI selloff leaves crypto largely untouched",
+    "Clarity Act expected to miss its window before Congress' summer break, leadership says",
+    "South Korea’s Korbit to rebrand as Digital X under Mirae: Report",
+    "Bitcoin mining pool Poolin files for Chapter 11 bankruptcy"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

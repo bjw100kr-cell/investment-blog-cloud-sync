@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T17:04:07.646784+00:00",
+  "generated_at": "2026-07-24T09:12:06.297420+00:00",
   "items": [
     {
       "keyword": "fomc",
@@ -21,12 +21,14 @@
       },
       "capture_route": "breaking_to_evergreen",
       "capture_route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 3200,
+      "demand_signal_score": 3900,
       "trend_queries": [],
       "source_names": [
-        "Federal Reserve Monetary Policy Press"
+        "CoinDesk RSS",
+        "Federal Reserve Monetary Policy Press",
+        "Reuters Markets via Google News RSS"
       ],
-      "search_intent_angle": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
+      "search_intent_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -55,7 +57,7 @@
       },
       "capture_route": "breaking_to_evergreen",
       "capture_route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 6000,
+      "demand_signal_score": 6300,
       "trend_queries": [],
       "source_names": [
         "CoinDesk RSS",
@@ -92,16 +94,13 @@
       },
       "capture_route": "sector_hub_to_followups",
       "capture_route_description": "섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.",
-      "demand_signal_score": 1200,
-      "trend_queries": [
-        "tesla stock"
-      ],
+      "demand_signal_score": 0,
+      "trend_queries": [],
       "source_names": [
-        "CNBC Top News",
-        "Google Trends KR",
-        "NYT Business"
+        "CoinDesk RSS",
+        "MarketWatch Breaking News"
       ],
-      "search_intent_angle": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (tesla stock)",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -111,8 +110,8 @@
       ]
     },
     {
-      "keyword": "china",
-      "recommended_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "keyword": "tariffs_trade",
+      "recommended_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
       "pattern_name": "search_explainer",
       "pattern_rules": {
         "when_to_use": [
@@ -131,13 +130,16 @@
       },
       "capture_route": "search_entry_to_internal_links",
       "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 0,
+      "demand_signal_score": 3100,
       "trend_queries": [],
       "source_names": [
+        "CNBC Top News",
         "Financial Times Home",
+        "Financial Times World",
+        "Investing.com Crypto News",
         "NYT Business"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -167,18 +169,16 @@
       },
       "capture_route": "search_entry_to_internal_links",
       "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 4400,
+      "demand_signal_score": 3600,
       "trend_queries": [],
       "source_names": [
-        "CNBC Top News",
         "Financial Times Home",
         "Financial Times World",
         "Financial Times YouTube",
-        "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",

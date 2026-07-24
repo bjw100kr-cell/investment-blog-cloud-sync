@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-07-23T17:04:07.646784+00:00`
+- 생성 시각: `2026-07-24T09:12:06.297420+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
-- 점수: 86.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,6 +70,7 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
   - Federal Reserve issues FOMC statement
+  - Live updates: Dogecoin and ether lead pullback as investors digest tech earnings
 
 ## 2. bitcoin
 
@@ -135,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Crypto for Advisors: It’s time for tokenization to get to work
-  - Goldman Sachs CEO backs Clarity Act despite banking industry's concerns over stablecoin rules
-  - BlackRock, Coinbase, Strategy in a new group pledging $15 million to prepare Bitcoin for quantum threats
-  - Goldman Sachs CEO backs ‘not perfect’ CLARITY Act as vote expected soon
-  - Here’s why the CLARITY Act’s ethics deal may be so hard to reach
+  - Mirae plans to turn crypto exchange Korbit into something Korea hasn't seen before
+  - Bitcoin holds near $65,000 as $800 billion AI selloff leaves crypto largely untouched
+  - Clarity Act expected to miss its window before Congress' summer break, leadership says
+  - South Korea’s Korbit to rebrand as Digital X under Mirae: Report
+  - Bitcoin mining pool Poolin files for Chapter 11 bankruptcy
 
 ## 3. us_big_tech
 
 - 추천 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (tesla stock)
-- 점수: 85.0
+- 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 55.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -205,21 +206,19 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - tesla stock
-  - Amazon and Microsoft pivot cloud gaming strategies to target different players
-  - Tesla falls 13%, Alphabet sinks 7% as AI spending concerns spook investors
-  - Ford Will Use Apple Maps in New Self-Driving System
+  - Bitcoin holds near $65,000 as $800 billion AI selloff leaves crypto largely untouched
+  - S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft
 
-## 4. china
+## 4. tariffs_trade
 
-- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 55.0
+- 추천 제목: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 83.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유
+  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -268,11 +267,14 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 정책 발표 또는 인터뷰 원문 여부 확인
-  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
-  - 한국/미국 시장 영향은 시나리오형으로 서술
+  - 관세/무역 조치 공식 문서나 발표문 확인
+  - 시장 영향은 조건형 문장으로 서술
+  - 정치적 해석 과잉 여부 점검
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Why the US is losing Chinese AI stars
-  - China Rewrites the ‘Soft Power’ Playbook for the A.I. Age
+  - Trump's new global tariff draws rebukes from trade partners over forced-labor justification
+  - Trump to slap 'sweeping' new tariffs on 60 trade partners as global duties expire
+  - Bitcoin falls to $65.3k on Iran tensions, US tariff jitters
+  - US hits 60 countries with new duties as Trump rebuilds tariff wall
+  - US hits 60 countries with new duties as Trump rebuilds tariff wall

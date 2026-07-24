@@ -1,28 +1,12 @@
 {
-  "generated_at": "2026-07-23T17:04:07.646784+00:00",
+  "generated_at": "2026-07-24T09:12:06.297420+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "us_big_tech",
-      "trend_count": 1,
-      "traffic_score_sum": 1000,
-      "max_approx_traffic": 1000,
-      "trend_queries": [
-        "tesla stock"
-      ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 1200,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -30,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6000,
+      "demand_signal_score": 6300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 48,
+      "source_snapshot_score": 51,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -42,35 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Crypto for Advisors: It’s time for tokenization to get to work",
-        "Goldman Sachs CEO backs Clarity Act despite banking industry's concerns over stablecoin rules",
-        "BlackRock, Coinbase, Strategy in a new group pledging $15 million to prepare Bitcoin for quantum threats"
-      ]
-    },
-    {
-      "keyword": "oil",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 4400,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 32,
-      "source_count": 7,
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "Financial Times YouTube",
-        "MarketWatch Breaking News"
-      ],
-      "sample_titles": [
-        "Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'",
-        "Oil hits $100 for first time since May while US stocks slide",
-        "Houthi attacks threaten Saudi Arabia’s oil lifeline"
+        "Mirae plans to turn crypto exchange Korbit into something Korea hasn't seen before",
+        "Bitcoin holds near $65,000 as $800 billion AI selloff leaves crypto largely untouched",
+        "Clarity Act expected to miss its window before Congress' summer break, leadership says"
       ]
     },
     {
@@ -80,14 +38,16 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 3900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 1,
+      "source_snapshot_score": 27,
+      "source_count": 3,
       "source_names": [
-        "Federal Reserve Monetary Policy Press"
+        "CoinDesk RSS",
+        "Federal Reserve Monetary Policy Press",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
@@ -96,26 +56,55 @@
       ]
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "oil",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2100,
+      "demand_signal_score": 3600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 9,
-      "source_count": 3,
+      "source_snapshot_score": 24,
+      "source_count": 5,
       "source_names": [
-        "Cointelegraph",
         "Financial Times Home",
-        "Financial Times World"
+        "Financial Times World",
+        "Financial Times YouTube",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "BTC treasury firm Empery Digital invests $20M in AI data center developer Cardinal Data Power",
-        "Oil price surge drives global bond sell-off"
+        "Oil hovers near $100 as Trump weighs ‘massive attack’",
+        "Morning Bid: Oil batters bonds as AI burns cash - Reuters",
+        "Asian stocks sink, bonds struggle as oil spike stokes rate risks - Reuters"
+      ]
+    },
+    {
+      "keyword": "tariffs_trade",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3100,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 19,
+      "source_count": 5,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "Investing.com Crypto News",
+        "NYT Business"
+      ],
+      "sample_titles": [
+        "Trump's new global tariff draws rebukes from trade partners over forced-labor justification",
+        "Trump to slap 'sweeping' new tariffs on 60 trade partners as global duties expire",
+        "Bitcoin falls to $65.3k on Iran tensions, US tariff jitters"
       ]
     }
   ],

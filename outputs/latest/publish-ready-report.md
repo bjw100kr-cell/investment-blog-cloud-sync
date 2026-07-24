@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-07-23T17:04:10.638196+00:00`
+- generated_at: `2026-07-24T09:12:09.311429+00:00`
 
 ## fomc
 
@@ -27,13 +27,13 @@
 - html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html
 - meta_title: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 - meta_description: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
-- follow_up_post_count: 0
+- follow_up_post_count: 3
 
-## china
+## tariffs_trade
 
 - ready: True
 - reason: ok
-- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html
-- meta_title: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- meta_description: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기.html
+- meta_title: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- meta_description: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 0
