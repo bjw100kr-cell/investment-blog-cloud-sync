@@ -8,7 +8,7 @@ GitHub Actions의 `Run workflow`를 눌러도 되는지 사전에 확인하는 �
 - github_status: `needs_gh_cli`
 - has_commit: `True`
 - approved_ready_count: `1`
-- quality_ready_count: `5`
+- quality_ready_count: `1`
 - review_approval_state: `{"user_confirmed_all": false, "user_confirmed_keywords": ["bitcoin"]}`
 - next_action: `GitHub Actions -> Daily Investment Intake -> Run workflow`
 

@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-07-25T07:35:02.315852+00:00",
+  "generated_at": "2026-07-25T13:53:25.000052+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 4
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "us_big_tech",
+      "trend_count": 1,
+      "traffic_score_sum": 500,
+      "max_approx_traffic": 500,
+      "trend_queries": [
+        "apple iphone"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 700,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,11 +30,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6300,
+      "demand_signal_score": 6500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 51,
+      "source_snapshot_score": 53,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +42,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
+        "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case",
         "Senate Dems should accept the victory they won on Trump's crypto limits: White House",
-        "Institutional crypto trading platform LMAX is exploring sale, IPO",
-        "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists"
+        "Institutional crypto trading platform LMAX is exploring sale, IPO"
       ]
     },
     {
@@ -38,14 +54,17 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3500,
+      "demand_signal_score": 4300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
-      "source_count": 2,
+      "source_snapshot_score": 31,
+      "source_count": 5,
       "source_names": [
         "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
+        "Financial Times World",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
@@ -61,44 +80,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2500,
+      "demand_signal_score": 3100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
-      "source_count": 3,
+      "source_snapshot_score": 19,
+      "source_count": 5,
       "source_names": [
+        "Financial Times Home",
+        "Financial Times World",
         "Financial Times YouTube",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
+        "Investors increase bets on Federal Reserve rate rise after oil price surge",
         "Stagflation talk returns to rattle markets as oil rebounds to $100 - Reuters",
-        "Morning Bid: Oil batters bonds as AI burns cash - Reuters",
-        "Stocks mixed as oil prices pause climb but yields hover near highs - Reuters"
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2000,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 8,
-      "source_count": 2,
-      "source_names": [
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Nasdaq lags on angst over AI spending ahead of earnings reports - Reuters",
-        "Wall St Week Ahead US stocks face tests from Fed decision, tech-led earnings deluge - Reuters",
-        "The stock market is completely unprepared for a 6% yield on the 30-year Treasury"
+        "Gold edges up as Brent eases, Mideast developments in focus ahead of Fed meet - Reuters"
       ]
     }
   ],

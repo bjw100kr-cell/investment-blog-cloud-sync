@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case",
     "Senate Dems should accept the victory they won on Trump's crypto limits: White House",
     "Institutional crypto trading platform LMAX is exploring sale, IPO",
     "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists",
-    "EU hits Russia with massive 21st sanctions package targeting $120B crypto network",
-    "Crypto market maker B2C2 held sale talks with multiple potential buyers"
+    "EU hits Russia with massive 21st sanctions package targeting $120B crypto network"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,7 +180,7 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 85.0,
+    "total_score": 83.0,
     "search_score": 29,
     "timeliness_score": 18,
     "explanatory_score": 17,

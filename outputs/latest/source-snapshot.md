@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-25T07:35:02.315852+00:00`
+- 생성 시각: `2026-07-25T13:53:25.000052+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -100,47 +100,45 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 51, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `oil`: score 13, source_count 3, sources Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
-- `us_index_flow`: score 8, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `treasury_yields`: score 5, source_count 2, sources Cointelegraph, MarketWatch Breaking News
-- `tariffs_trade`: score 5, source_count 2, sources CNBC Top News, NYT Business
-- `ai_semiconductors`: score 5, source_count 2, sources Financial Times Home, Financial Times YouTube
-- `crypto_etf`: score 3, source_count 1, sources Cointelegraph
-- `us_big_tech`: score 3, source_count 1, sources CNBC Top News
+- `bitcoin`: score 53, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 31, source_count 5, sources Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `oil`: score 19, source_count 5, sources Financial Times Home, Financial Times World, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
+- `us_big_tech`: score 10, source_count 1, sources Google Trends US
+- `ai_semiconductors`: score 7, source_count 3, sources Financial Times Home, Financial Times YouTube, NYT Business
+- `treasury_yields`: score 6, source_count 2, sources CNBC Top News, Cointelegraph
+- `ethereum`: score 3, source_count 1, sources Cointelegraph
+- `us_index_flow`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 - `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
+- `tariffs_trade`: score 2, source_count 1, sources NYT Business
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 51, headlines 15
+- `bitcoin`: score 53, headlines 16
+  - Democratizing weather derivatives through tokenization could be crypto's most important real-world use case
   - Senate Dems should accept the victory they won on Trump's crypto limits: White House
   - Institutional crypto trading platform LMAX is exploring sale, IPO
-  - Saylor and team overhaul Strategy's bitcoin metrics as bear market persists
-- `fomc`: score 23, headlines 5
+- `fomc`: score 31, headlines 8
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- `oil`: score 13, headlines 5
+- `oil`: score 19, headlines 7
+  - Investors increase bets on Federal Reserve rate rise after oil price surge
   - Stagflation talk returns to rattle markets as oil rebounds to $100 - Reuters
-  - Morning Bid: Oil batters bonds as AI burns cash - Reuters
-  - Stocks mixed as oil prices pause climb but yields hover near highs - Reuters
-- `us_index_flow`: score 8, headlines 3
-  - Nasdaq lags on angst over AI spending ahead of earnings reports - Reuters
-  - Wall St Week Ahead US stocks face tests from Fed decision, tech-led earnings deluge - Reuters
-  - The stock market is completely unprepared for a 6% yield on the 30-year Treasury
-- `ai_semiconductors`: score 5, headlines 2
+  - Gold edges up as Brent eases, Mideast developments in focus ahead of Fed meet - Reuters
+- `us_big_tech`: score 10, headlines 1
+  - apple iphone
+- `ai_semiconductors`: score 7, headlines 3
   - Why this philosopher turned down Anthropic
   - Silicon shadows: inside the black market for AI chips | FT Film
-- `tariffs_trade`: score 5, headlines 2
-  - Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants
-  - A Global Economy Jolted by an Oil Shock Now Gets a Tariff Reminder
-- `treasury_yields`: score 5, headlines 2
+  - Blockbuster I.P.O.s Are Creating New Millionaires. Philanthropies Want a Cut.
+- `treasury_yields`: score 6, headlines 2
   - Strive’s SATA recovers most of June decline, trades within 3% of par
-  - The stock market is completely unprepared for a 6% yield on the 30-year Treasury
-- `crypto_etf`: score 3, headlines 1
-  - Crypto Biz: Is the AI-to-crypto rotation underway?
-- `us_big_tech`: score 3, headlines 1
-  - Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants
+  - Why bond investors are pushing up some of your interest rates
+- `ethereum`: score 3, headlines 1
+  - Ethereum ETFs close week in red, end 5-day inflow streak
+- `us_index_flow`: score 3, headlines 1
+  - Nasdaq lags on angst over AI spending ahead of earnings reports - Reuters
 - `ai_growth_stocks`: score 2, headlines 1
   - Palantir: profits, procurement and power | FT Film
+- `dollar`: score 2, headlines 1
+  - F.D.A. Panel’s Vote on Peptides Raises Concerns About a Prescribing Boom

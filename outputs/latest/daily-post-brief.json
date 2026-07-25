@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T07:35:02.315852+00:00",
+  "generated_at": "2026-07-25T13:53:25.000052+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -58,28 +58,31 @@
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
         "Federal Reserve issues FOMC statement",
-        "Wall St Week Ahead US stocks face tests from Fed decision, tech-led earnings deluge - Reuters"
+        "Investors increase bets on Federal Reserve rate rise after oil price surge"
       ],
       "reference_takeaways": [],
       "source_names": [
         "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
+        "Financial Times World",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3500,
-      "search_score": 23,
+      "demand_signal_score": 4300,
+      "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
       "monetization_score": 15,
       "risk_score": 8,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 2,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 91.0,
+      "total_score": 94.0,
       "format": "macro_explainer"
     },
     {
@@ -100,11 +103,11 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
+        "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case",
         "Senate Dems should accept the victory they won on Trump's crypto limits: White House",
         "Institutional crypto trading platform LMAX is exploring sale, IPO",
         "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists",
-        "EU hits Russia with massive 21st sanctions package targeting $120B crypto network",
-        "Crypto market maker B2C2 held sale talks with multiple potential buyers"
+        "EU hits Russia with massive 21st sanctions package targeting $120B crypto network"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -115,7 +118,7 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 6300,
+      "demand_signal_score": 6500,
       "search_score": 29,
       "timeliness_score": 18,
       "explanatory_score": 17,
@@ -123,24 +126,22 @@
       "risk_score": 3,
       "performance_bonus": 0.0,
       "search_demand_bonus": 3,
-      "crypto_market_signal_bonus": 3,
+      "crypto_market_signal_bonus": 1,
       "crypto_market_sentiment": "mixed",
-      "crypto_market_signal_notes": [
-        "BTCUSDT 24h change -2.00%"
-      ],
-      "total_score": 85.0,
+      "crypto_market_signal_notes": [],
+      "total_score": 83.0,
       "format": "crypto_analysis"
     },
     {
-      "keyword": "us_index_flow",
+      "keyword": "ai_semiconductors",
       "category": "global-sector",
       "brand_lane": "us-stocks",
       "title_candidates": [
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -149,30 +150,31 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Nasdaq lags on angst over AI spending ahead of earnings reports - Reuters",
-        "Wall St Week Ahead US stocks face tests from Fed decision, tech-led earnings deluge - Reuters",
-        "The stock market is completely unprepared for a 6% yield on the 30-year Treasury"
+        "Why this philosopher turned down Anthropic",
+        "Silicon shadows: inside the black market for AI chips | FT Film",
+        "Blockbuster I.P.O.s Are Creating New Millionaires. Philanthropies Want a Cut."
       ],
       "reference_takeaways": [],
       "source_names": [
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "Financial Times Home",
+        "Financial Times YouTube",
+        "NYT Business"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2000,
+      "demand_signal_score": 0,
       "search_score": 11,
-      "timeliness_score": 13,
+      "timeliness_score": 12,
       "explanatory_score": 18,
       "monetization_score": 15,
-      "risk_score": 8,
+      "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 65.0,
+      "total_score": 63.0,
       "format": "sector_analysis"
     },
     {
@@ -184,7 +186,7 @@
         "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유",
         "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -193,29 +195,27 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants",
         "A Global Economy Jolted by an Oil Shock Now Gets a Tariff Reminder"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
         "NYT Business"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 8,
-      "timeliness_score": 10,
+      "search_score": 3,
+      "timeliness_score": 5,
       "explanatory_score": 18,
-      "monetization_score": 14,
+      "monetization_score": 13,
       "risk_score": 7,
       "performance_bonus": 0.0,
       "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 57.0,
+      "total_score": 46.0,
       "format": "macro_explainer"
     },
     {
@@ -227,7 +227,7 @@
         "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유",
         "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -236,14 +236,16 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
+        "Investors increase bets on Federal Reserve rate rise after oil price surge",
         "Stagflation talk returns to rattle markets as oil rebounds to $100 - Reuters",
-        "Morning Bid: Oil batters bonds as AI burns cash - Reuters",
+        "Gold edges up as Brent eases, Mideast developments in focus ahead of Fed meet - Reuters",
         "Stocks mixed as oil prices pause climb but yields hover near highs - Reuters",
-        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film",
-        "A Global Economy Jolted by an Oil Shock Now Gets a Tariff Reminder"
+        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "Financial Times Home",
+        "Financial Times World",
         "Financial Times YouTube",
         "NYT Business",
         "Reuters Markets via Google News RSS"
@@ -251,9 +253,9 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2500,
-      "search_score": 17,
-      "timeliness_score": 18,
+      "demand_signal_score": 3100,
+      "search_score": 22,
+      "timeliness_score": 21,
       "explanatory_score": 17,
       "monetization_score": 14,
       "risk_score": 7,
@@ -262,7 +264,7 @@
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 73.0,
+      "total_score": 81.0,
       "format": "macro_explainer"
     }
   ]

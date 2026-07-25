@@ -1,6 +1,6 @@
 # 7일 편집 캘린더
 
-- 생성 시각: `2026-07-25T07:35:02.315852+00:00`
+- 생성 시각: `2026-07-25T13:53:25.000052+00:00`
 - 목적: stale 뉴스는 직접 발행에서 빼고, 거시경제·코인·미국주식·세계 흐름 레인을 주간 단위로 균형 있게 유지
 
 ## 레인 커버리지
@@ -12,9 +12,9 @@
 
 ## 이번 주 배치 메모
 
-- lane `macro` / keyword `fomc` / mode `direct` / freshness `unknown` / target_share `0.3`
+- lane `macro` / keyword `oil` / mode `direct` / freshness `unknown` / target_share `0.3`
 - lane `crypto` / keyword `bitcoin` / mode `direct` / freshness `fresh` / target_share `0.3`
-- lane `us-stocks` / keyword `us_index_flow` / mode `direct` / freshness `unknown` / target_share `0.2`
+- lane `us-stocks` / keyword `ai_semiconductors` / mode `direct` / freshness `unknown` / target_share `0.2`
 - lane `world-flow` / keyword `tariffs_trade` / mode `direct` / freshness `unknown` / target_share `0.2`
 
 ## Day 1 · 2026-07-25 · lane_focus_macro
@@ -23,13 +23,13 @@
 - planning_mode: direct
 - freshness_status: unknown
 - 포스트 유형: breaking_explainer
-- 타깃 키워드: fomc
-- 작업 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 글 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 타깃 키워드: oil
+- 작업 제목: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+- 글 각도: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- 근거 소스/연결 키워드: Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- 내부링크 대상: Financial Times Home, Financial Times World, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: Financial Times Home, Financial Times World, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
 - 발행 메모: 당일 이슈 해설형 글
 
 ## Day 2 · 2026-07-26 · lane_focus_crypto
@@ -53,13 +53,13 @@
 - planning_mode: direct
 - freshness_status: unknown
 - 포스트 유형: breaking_explainer
-- 타깃 키워드: us_index_flow
-- 작업 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 글 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 타깃 키워드: ai_semiconductors
+- 작업 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+- 글 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: MarketWatch Breaking News, Reuters Markets via Google News RSS
-- 근거 소스/연결 키워드: MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 내부링크 대상: Financial Times Home, Financial Times YouTube, NYT Business
+- 근거 소스/연결 키워드: Financial Times Home, Financial Times YouTube, NYT Business
 - 발행 메모: 당일 이슈 해설형 글
 
 ## Day 4 · 2026-07-28 · lane_focus_world-flow
@@ -70,11 +70,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: tariffs_trade
 - 작업 제목: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
-- 글 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 글 각도: 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, NYT Business
-- 근거 소스/연결 키워드: CNBC Top News, NYT Business
+- 내부링크 대상: NYT Business
+- 근거 소스/연결 키워드: NYT Business
 - 발행 메모: 당일 이슈 해설형 글
 
 ## Day 5 · 2026-07-29 · evergreen_support
@@ -113,11 +113,11 @@
 - planning_mode: recap
 - freshness_status: mixed
 - 포스트 유형: weekly_macro_recap
-- 타깃 키워드: fomc, bitcoin, us_index_flow
+- 타깃 키워드: oil, bitcoin, ai_semiconductors
 - 작업 제목: 이번 주 주식·코인·거시 흐름 한 번에 정리
 - 글 각도: 상위 이슈 3개를 한 글에서 연결해 재방문 독자와 체류 시간을 늘리는 회고형 글
 - 검색 의도: 이번 주 시장 흐름을 짧게 복기하고 다음 주 포인트를 잡고 싶은 독자
 - 수익화 경로: 주간 회고형 콘텐츠로 페이지뷰 누적과 내부 링크 허브 역할
-- 내부링크 대상: fomc, bitcoin, us_index_flow
-- 근거 소스/연결 키워드: fomc, bitcoin, us_index_flow
+- 내부링크 대상: oil, bitcoin, ai_semiconductors
+- 근거 소스/연결 키워드: oil, bitcoin, ai_semiconductors
 - 발행 메모: 주간 정리형 글로 카테고리 허브 역할 수행

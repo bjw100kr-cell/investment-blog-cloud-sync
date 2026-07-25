@@ -1,63 +1,8 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
   "cards": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-07-25",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ],
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
-      "hard_blocking_checks": []
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -69,11 +14,19 @@
       "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
+        "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case",
         "Senate Dems should accept the victory they won on Trump's crypto limits: White House",
-        "Institutional crypto trading platform LMAX is exploring sale, IPO",
-        "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists"
+        "Institutional crypto trading platform LMAX is exploring sale, IPO"
       ],
       "recent_evidence": [
+        {
+          "title": "Bitcoin price falls below $64,000 as stablecoin inflows weaken",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-25 08:57:43",
+          "published_iso": "2026-07-25 08:57:43",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-falls-below-64000-as-stablecoin-inflows-weaken-4812755",
+          "source_type": "rss"
+        },
         {
           "title": "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists",
           "source_name": "CoinDesk RSS",
@@ -88,14 +41,6 @@
           "published": "2026-07-24 21:21:55",
           "published_iso": "2026-07-24 21:21:55",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-to-653k-on-iran-tensions-us-tariff-jitters-4810588",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin tests $63,457 support amid bearish signals: Live levels",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-07-24 19:09:59",
-          "published_iso": "2026-07-24 19:09:59",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-64k-range-doji-at-resistance-live-levels-93CH-4800901",
           "source_type": "rss"
         }
       ],
@@ -114,58 +59,103 @@
       "hard_blocking_checks": []
     },
     {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "publish_date": "2026-07-27",
       "review_verdict": "approve",
       "quality_status": "review_before_publish",
       "ready_now": false,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Nasdaq lags on angst over AI spending ahead of earnings reports - Reuters",
-        "Wall St Week Ahead US stocks face tests from Fed decision, tech-led earnings deluge - Reuters",
-        "The stock market is completely unprepared for a 6% yield on the 30-year Treasury"
+        "Why this philosopher turned down Anthropic",
+        "Silicon shadows: inside the black market for AI chips | FT Film",
+        "Blockbuster I.P.O.s Are Creating New Millionaires. Philanthropies Want a Cut."
       ],
       "recent_evidence": [
         {
-          "title": "Nasdaq lags on angst over AI spending ahead of earnings reports - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Fri, 24 Jul 2026 22:32:28 GMT",
-          "published_iso": "2026-07-24T22:32:28+00:00",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRVFoS0pPSjU4OTY3YzBVSFdHN3kzZWd2UjZ0WGRiX0pEUXhzNnZ1UjU2eDBnN3hlZHdhWnJvSWhEMEpJbUVhM01ETXdrbTFkSGVoX2ktUVVhckI5Qmlha2wzcDZmbkZmc0dZeGhnb0tYZW5RS29tUGlYWU5salVBOFRkYmQ2enhOcktIYmx5UHBUNjlVSUF5b3RyTDgwS0NvVmlJQ0hn?oc=5",
-          "source_type": "rss"
+          "title": "Silicon shadows: inside the black market for AI chips | FT Film",
+          "source_name": "Financial Times YouTube",
+          "published": "44K views",
+          "published_iso": "44K views",
+          "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
+          "source_type": "youtube_channel"
         },
         {
-          "title": "The stock market is completely unprepared for a 6% yield on the 30-year Treasury",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Fri, 24 Jul 2026 21:38:00 GMT",
-          "published_iso": "2026-07-24T21:38:00+00:00",
-          "link": "https://www.marketwatch.com/story/the-30-year-treasury-yield-is-closing-in-on-5-2-a-surge-to-6-could-slam-stocks-fa9631fb?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "Wall St Week Ahead US stocks face tests from Fed decision, tech-led earnings deluge - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Fri, 24 Jul 2026 20:16:10 GMT",
-          "published_iso": "2026-07-24T20:16:10+00:00",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQajIyMHNIZTNQeFlkNHB6ekVuZjNtbFhOcXgtRFhXR095VXRnaUJHSDhwRjFaX19BVTY2RlBoY0d2bEk0cEdxSXlxZ2otVHcwUDNjbGtMWi12U182MkhIR1FrS2dWY1p3NEdSZHAxSmFDZ1BWT2sxSU8tYWxDd255TmpTUGFBeWY3M3VUWlBJb3ZybDdnWm8tM2tGT25XbUZQZmkwX1NlU3BjZl9pcUVHWTBQWDBpTEZrQmFTSVNXaw?oc=5",
+          "title": "Why this philosopher turned down Anthropic",
+          "source_name": "Financial Times Home",
+          "published": "Sat, 25 Jul 2026 04:00:27 GMT",
+          "published_iso": "2026-07-25T04:00:27+00:00",
+          "link": "https://www.ft.com/content/bdb3b820-905b-431e-82c0-386535755af1",
           "source_type": "rss"
         }
       ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-index-flow.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-%EB%AF%B8%EA%B5%AD-%EC%A6%9D%EC%8B%9C-%EC%A7%80%EC%88%98-%ED%9D%90%EB%A6%84-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow",
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-semiconductors.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EA%B0%80%EB%A5%BC-%EB%B3%BC-%EB%95%8C-%EC%8B%A4%EC%A0%81%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%ED%99%95%EC%9D%B8%ED%95%A0-3%EA%B0%80%EC%A7%80.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors",
       "next_action": "사용자 최종 확인 후 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors",
       "followup_commands": [
         "python3 scripts/build_platform_publish_plan.py",
         "python3 scripts/upload_blogger_drafts.py",
         "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
       ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply",
+      "hard_blocking_checks": []
+    },
+    {
+      "keyword": "tariffs_trade",
+      "title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+      "publish_date": "2026-07-28",
+      "review_verdict": "approve",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "hero_image_selected": true,
+      "reason": "섹터/세계 흐름 연결 해설 가능",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "A Global Economy Jolted by an Oil Shock Now Gets a Tariff Reminder"
+      ],
+      "recent_evidence": [
+        {
+          "title": "A Global Economy Jolted by an Oil Shock Now Gets a Tariff Reminder",
+          "source_name": "NYT Business",
+          "published": "Sat, 25 Jul 2026 04:00:07 +0000",
+          "published_iso": "2026-07-25T04:00:07+00:00",
+          "link": "https://www.nytimes.com/2026/07/25/business/economy/trump-tariffs-iran-war-inflation.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Trump sued hours after new tariffs take effect, as experts say they may not hold up",
+          "source_name": "CNBC Top News",
+          "published": "Sat, 25 Jul 2026 00:18:53 GMT",
+          "published_iso": "2026-07-25T00:18:53+00:00",
+          "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-lawsuit-301-ieepa.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin slips 1.5% on Iran tensions and U.S. tariffs, but set for mild weekly gain",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-24 21:21:55",
+          "published_iso": "2026-07-24 21:21:55",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-to-653k-on-iran-tensions-us-tariff-jitters-4810588",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-tariffs-trade.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EA%B4%80%EC%84%B8%EC%99%80-%EB%AC%B4%EC%97%AD-%EA%B0%88%EB%93%B1%EC%9D%B4-%EC%A6%9D%EC%8B%9C%EC%97%90-%EB%AF%B8%EC%B9%98%EB%8A%94-%EC%98%81%ED%96%A5-%ED%99%98%EC%9C%A8%EA%B3%BC-%EA%B3%B5%EA%B8%89%EB%A7%9D%EA%B9%8C%EC%A7%80-%EB%B3%B4%EA%B8%B0.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords tariffs_trade",
+      "next_action": "사용자 최종 확인 후 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords tariffs_trade",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword tariffs_trade",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword tariffs_trade --apply",
       "hard_blocking_checks": []
     }
   ]
