@@ -1,8 +1,8 @@
 # Publish Ready Report
 
-- generated_at: `2026-07-25T13:53:28.453211+00:00`
+- generated_at: `2026-07-26T03:33:34.592990+00:00`
 
-## seo_tariffs_trade_12
+## seo_tariffs_trade_11
 
 - ready: True
 - reason: ok
@@ -11,7 +11,7 @@
 - meta_description: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 2
 
-## seo_tariffs_trade_13
+## seo_tariffs_trade_12
 
 - ready: True
 - reason: ok
@@ -20,7 +20,7 @@
 - meta_description: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 2
 
-## seo_tariffs_trade_14
+## seo_tariffs_trade_13
 
 - ready: True
 - reason: ok

@@ -67,7 +67,7 @@
 ## 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기
 
 - source_group: `seo`
-- keyword: `seo_tariffs_trade_12`
+- keyword: `seo_tariffs_trade_11`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `technology stocks office finance abstract` / search https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - license: Unsplash License / https://unsplash.com/license
@@ -81,7 +81,7 @@
 ## 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나
 
 - source_group: `seo`
-- keyword: `seo_tariffs_trade_13`
+- keyword: `seo_tariffs_trade_12`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `technology stocks office finance abstract` / search https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - license: Unsplash License / https://unsplash.com/license
@@ -95,7 +95,7 @@
 ## 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 정리
 
 - source_group: `seo`
-- keyword: `seo_tariffs_trade_14`
+- keyword: `seo_tariffs_trade_13`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `technology stocks office finance abstract` / search https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - license: Unsplash License / https://unsplash.com/license
