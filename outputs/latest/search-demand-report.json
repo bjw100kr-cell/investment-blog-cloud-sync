@@ -1,27 +1,35 @@
 {
-  "generated_at": "2026-07-26T03:33:30.731999+00:00",
+  "generated_at": "2026-07-26T13:46:00.976657+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
       "keyword": "bitcoin",
-      "trend_count": 1,
-      "traffic_score_sum": 500,
-      "max_approx_traffic": 500,
-      "trend_queries": [
-        "비트코인"
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 5900,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 47,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
       ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 700,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+      "sample_titles": [
+        "Europe's high regulatory bar could spark new crypto industry M&A wave",
+        "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58%",
+        "Russia’s largest bank Sberbank plans crypto trading infrastructure by December"
+      ]
     },
     {
       "keyword": "fomc",
@@ -30,15 +38,17 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4100,
+      "demand_signal_score": 4300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 29,
-      "source_count": 3,
+      "source_snapshot_score": 31,
+      "source_count": 5,
       "source_names": [
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
+        "Financial Times World",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
@@ -48,43 +58,17 @@
       ]
     },
     {
-      "keyword": "ai_semiconductors",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2800,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 16,
-      "source_count": 5,
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "Financial Times YouTube",
-        "NYT Business"
-      ],
-      "sample_titles": [
-        "Nvidia locks down memory supply from SK Hynix as part of $500 billion AI deal",
-        "Why this philosopher turned down Anthropic",
-        "Top Democrat says Trump administration is worsening chip shortage"
-      ]
-    },
-    {
       "keyword": "oil",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2700,
+      "demand_signal_score": 3000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 15,
+      "source_snapshot_score": 18,
       "source_count": 5,
       "source_names": [
         "Financial Times Home",
@@ -94,9 +78,32 @@
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Investors increase bets on Federal Reserve rate rise after oil price surge",
-        "Stocks mixed as oil prices pause climb but yields hover near highs - Reuters",
-        "Gold edges up as Brent eases, Mideast developments in focus ahead of Fed meet - Reuters"
+        "China pours funding into green energy deals as Iran war hits oil demand",
+        "Investors fret that spiking oil prices and rising yields could threaten stock rally - Reuters",
+        "Morning Bid: Oil batters bonds as AI burns cash - Reuters"
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2000,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 8,
+      "source_count": 2,
+      "source_names": [
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Nasdaq lags on angst over AI spending ahead of earnings reports - Reuters",
+        "Wall St Week Ahead US stocks face tests from Fed decision, tech-led earnings deluge - Reuters",
+        "There’s a technical ‘triple threat’ for stocks, but also places investors can hide"
       ]
     }
   ],

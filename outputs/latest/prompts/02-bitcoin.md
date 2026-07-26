@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed), 실제 급상승 검색어 반영 (비트코인)",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -108,18 +108,16 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.",
   "source_names": [
-    "CNBC Top News",
     "CoinDesk RSS",
     "Cointelegraph",
-    "Google Trends KR",
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "비트코인",
+    "Europe's high regulatory bar could spark new crypto industry M&A wave",
+    "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58%",
     "Russia’s largest bank Sberbank plans crypto trading infrastructure by December",
     "North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto",
-    "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case",
-    "Senate Dems should accept the victory they won on Trump's crypto limits: White House"
+    "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -182,10 +180,10 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 86.0,
-    "search_score": 28,
-    "timeliness_score": 21,
-    "explanatory_score": 18,
+    "total_score": 83.0,
+    "search_score": 29,
+    "timeliness_score": 18,
+    "explanatory_score": 17,
     "monetization_score": 15,
     "risk_score": 3
   },

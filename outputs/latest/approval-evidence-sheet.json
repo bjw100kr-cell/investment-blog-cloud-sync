@@ -1,114 +1,61 @@
 {
-  "generated_at": "2026-07-26T03:33:30.731999+00:00",
+  "generated_at": "2026-07-26T13:46:00.976657+00:00",
   "item_count": 3,
   "items": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-07-26",
-      "priority_score": 137.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
-      "format": "macro_explainer",
-      "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_headlines": [
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Investors increase bets on Federal Reserve rate rise after oil price surge"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 4100,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 3,
-      "search_score": 26,
-      "timeliness_score": 25,
-      "monetization_score": 15,
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Thu, 9 Jul 2026 19:00:00 GMT",
-          "published_iso": "2026-07-09T19:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 8 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-08T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "publish_date": "2026-07-27",
-      "priority_score": 119.0,
+      "priority_score": 122.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed), 실제 급상승 검색어 반영 (비트코인)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "format": "crypto_analysis",
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Google Trends KR",
         "Investing.com Crypto News"
       ],
       "sample_headlines": [
-        "비트코인",
+        "Europe's high regulatory bar could spark new crypto industry M&A wave",
+        "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58%",
         "Russia’s largest bank Sberbank plans crypto trading infrastructure by December",
         "North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto",
-        "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case",
-        "Senate Dems should accept the victory they won on Trump's crypto limits: White House"
+        "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case"
       ],
-      "trend_queries": [
-        "비트코인"
-      ],
-      "trend_regions": [
-        "KR"
-      ],
-      "demand_signal_score": 700,
-      "fallback_source": "trend_match",
-      "source_count": 5,
-      "search_score": 28,
-      "timeliness_score": 21,
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 5900,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 3,
+      "search_score": 29,
+      "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
+        {
+          "title": "Bitcoin OG selling eases as dormant BTC movement hits 4-year low: Thorn",
+          "source_name": "Cointelegraph",
+          "published": "Sun, 26 Jul 2026 13:04:35 +0000",
+          "published_iso": "2026-07-26T13:04:35+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-og-dormant-btc-movement-thorn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin price holds above $64,000 as traders brace for upcoming Fed decision",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-26 08:55:40",
+          "published_iso": "2026-07-26 08:55:40",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-64000-as-traders-brace-for-upcoming-fed-decision-4812846",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin bull flag compresses at $64K: Hourly levels",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-26 07:02:24",
+          "published_iso": "2026-07-26 07:02:24",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-64k-range-doji-at-resistance-live-levels-93CH-4800901",
+          "source_type": "rss"
+        },
         {
           "title": "Bitcoin advocacy group to join US State Department’s ‘digital freedom’ program",
           "source_name": "Cointelegraph",
@@ -124,94 +71,93 @@
           "published_iso": "2026-07-25 21:12:25",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-falls-below-64000-as-stablecoin-inflows-weaken-4812755",
           "source_type": "rss"
-        },
+        }
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "publish_date": "2026-07-28",
+      "priority_score": 100.0,
+      "ready_now": false,
+      "quality_status": "review_before_publish",
+      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "format": "sector_analysis",
+      "source_names": [
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_headlines": [
+        "Nasdaq lags on angst over AI spending ahead of earnings reports - Reuters",
+        "Wall St Week Ahead US stocks face tests from Fed decision, tech-led earnings deluge - Reuters",
+        "There’s a technical ‘triple threat’ for stocks, but also places investors can hide"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 2000,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 2,
+      "search_score": 11,
+      "timeliness_score": 13,
+      "monetization_score": 15,
+      "recent_evidence": [
         {
-          "title": "Bitcoin coils in $63,800-$65,500 range: Live levels",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-07-25 19:04:18",
-          "published_iso": "2026-07-25 19:04:18",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-64k-range-doji-at-resistance-live-levels-93CH-4800901",
+          "title": "Nasdaq lags on angst over AI spending ahead of earnings reports - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Fri, 24 Jul 2026 22:32:28 GMT",
+          "published_iso": "2026-07-24T22:32:28+00:00",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRVFoS0pPSjU4OTY3YzBVSFdHN3kzZWd2UjZ0WGRiX0pEUXhzNnZ1UjU2eDBnN3hlZHdhWnJvSWhEMEpJbUVhM01ETXdrbTFkSGVoX2ktUVVhckI5Qmlha2wzcDZmbkZmc0dZeGhnb0tYZW5RS29tUGlYWU5salVBOFRkYmQ2enhOcktIYmx5UHBUNjlVSUF5b3RyTDgwS0NvVmlJQ0hn?oc=5",
           "source_type": "rss"
         },
         {
-          "title": "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 24 Jul 2026 13:15:15 +0000",
-          "published_iso": "2026-07-24T13:15:15+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/24/saylor-and-team-overhaul-strategy-s-bitcoin-metrics-as-bear-market-persists",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin slips 1.5% on Iran tensions and U.S. tariffs, but set for mild weekly gain",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-07-24 21:21:55",
-          "published_iso": "2026-07-24 21:21:55",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-to-653k-on-iran-tensions-us-tariff-jitters-4810588",
+          "title": "Wall St Week Ahead US stocks face tests from Fed decision, tech-led earnings deluge - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Fri, 24 Jul 2026 10:05:00 GMT",
+          "published_iso": "2026-07-24T10:05:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQajIyMHNIZTNQeFlkNHB6ekVuZjNtbFhOcXgtRFhXR095VXRnaUJHSDhwRjFaX19BVTY2RlBoY0d2bEk0cEdxSXlxZ2otVHcwUDNjbGtMWi12U182MkhIR1FrS2dWY1p3NEdSZHAxSmFDZ1BWT2sxSU8tYWxDd255TmpTUGFBeWY3M3VUWlBJb3ZybDdnWm8tM2tGT25XbUZQZmkwX1NlU3BjZl9pcUVHWTBQWDBpTEZrQmFTSVNXaw?oc=5",
           "source_type": "rss"
         }
       ]
     },
     {
-      "keyword": "ai_semiconductors",
-      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "publish_date": "2026-07-28",
-      "priority_score": 115.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
-      "format": "sector_analysis",
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "publish_date": "2026-07-29",
+      "priority_score": 74.0,
+      "ready_now": false,
+      "quality_status": "review_before_publish",
+      "reason": "섹터/세계 흐름 연결 해설 가능",
+      "format": "macro_explainer",
       "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "Financial Times YouTube",
-        "NYT Business"
+        "Financial Times Home"
       ],
       "sample_headlines": [
-        "Nvidia locks down memory supply from SK Hynix as part of $500 billion AI deal",
-        "Why this philosopher turned down Anthropic",
-        "Top Democrat says Trump administration is worsening chip shortage",
-        "Silicon shadows: inside the black market for AI chips | FT Film"
+        "China pours funding into green energy deals as Iran war hits oil demand",
+        "How China exploits EU divisions over trade"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 2800,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 5,
-      "search_score": 19,
-      "timeliness_score": 21,
-      "monetization_score": 15,
+      "demand_signal_score": 0,
+      "fallback_source": "mapped_candidate",
+      "source_count": 1,
+      "search_score": 6,
+      "timeliness_score": 8,
+      "monetization_score": 12,
       "recent_evidence": [
         {
-          "title": "Silicon shadows: inside the black market for AI chips | FT Film",
-          "source_name": "Financial Times YouTube",
-          "published": "44K views",
-          "published_iso": "44K views",
-          "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
-          "source_type": "youtube_channel"
-        },
-        {
-          "title": "Top Democrat says Trump administration is worsening chip shortage",
+          "title": "How China exploits EU divisions over trade",
           "source_name": "Financial Times Home",
-          "published": "Sat, 25 Jul 2026 19:33:15 GMT",
-          "published_iso": "2026-07-25T19:33:15+00:00",
-          "link": "https://www.ft.com/content/5bd259ca-d278-498a-a03d-7b4556d9fa8f?syn-25a6b1a6=1",
+          "published": "Sun, 26 Jul 2026 04:00:08 GMT",
+          "published_iso": "2026-07-26T04:00:08+00:00",
+          "link": "https://www.ft.com/content/ccf8b73f-c798-46d8-a00b-47df2a6c6859?syn-25a6b1a6=1",
           "source_type": "rss"
         },
         {
-          "title": "Nvidia locks down memory supply from SK Hynix as part of $500 billion AI deal",
-          "source_name": "CNBC Top News",
-          "published": "Sat, 25 Jul 2026 08:49:00 GMT",
-          "published_iso": "2026-07-25T08:49:00+00:00",
-          "link": "https://www.cnbc.com/2026/07/25/nvidia-locks-down-memory-from-sk-hynix-as-part-of-500-billion-ai-deal.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Why this philosopher turned down Anthropic",
+          "title": "China pours funding into green energy deals as Iran war hits oil demand",
           "source_name": "Financial Times Home",
-          "published": "Sat, 25 Jul 2026 04:00:27 GMT",
-          "published_iso": "2026-07-25T04:00:27+00:00",
-          "link": "https://www.ft.com/content/bdb3b820-905b-431e-82c0-386535755af1",
+          "published": "Sun, 26 Jul 2026 04:00:07 GMT",
+          "published_iso": "2026-07-26T04:00:07+00:00",
+          "link": "https://www.ft.com/content/221aac60-807e-4bdd-b76d-dd451255e685?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ]
