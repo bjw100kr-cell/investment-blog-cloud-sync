@@ -1,8 +1,8 @@
 # Publish Ready Report
 
-- generated_at: `2026-07-27T03:41:30.871087+00:00`
+- generated_at: `2026-07-27T14:54:07.567929+00:00`
 
-## seo_china_8
+## seo_china_6
 
 - ready: True
 - reason: ok
@@ -11,7 +11,7 @@
 - meta_description: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 2
 
-## seo_china_9
+## seo_china_8
 
 - ready: True
 - reason: ok

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T03:41:25.608724+00:00",
+  "generated_at": "2026-07-27T14:54:03.707585+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -58,18 +58,21 @@
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
         "Federal Reserve issues FOMC statement",
-        "Bitcoin price holds above $64,000 as traders brace for upcoming Fed decision"
+        "Federal Reserve is likely to hold interest rates steady. Here's what that means for consumers"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
         "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3700,
+      "demand_signal_score": 4500,
       "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
@@ -92,7 +95,7 @@
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -101,25 +104,24 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "2 weeks left for Clarity: State of Crypto",
-        "Europe's high regulatory bar could spark new crypto industry M&A wave",
-        "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58%",
-        "Russia’s largest bank Sberbank plans crypto trading infrastructure by December",
-        "North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto"
+        "Fanatics buys regulated exchange in bid to grow prediction markets business",
+        "Cantor is advising crypto bank AMINA on path to potential public listing",
+        "Crypto is rewriting how Wall Street traders spend their weekends",
+        "Bitmine buys more ether as Tom Lee says rising ETH/BTC ratio points to stronger crypto prices",
+        "Hong Kong crypto giant HashKey merges regional exchange into one"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times Home",
         "Investing.com Crypto News"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 5900,
+      "demand_signal_score": 6400,
       "search_score": 29,
-      "timeliness_score": 20,
+      "timeliness_score": 18,
       "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 3,
@@ -128,7 +130,7 @@
       "crypto_market_signal_bonus": 1,
       "crypto_market_sentiment": "mixed",
       "crypto_market_signal_notes": [],
-      "total_score": 85.0,
+      "total_score": 83.0,
       "format": "crypto_analysis"
     },
     {
@@ -140,7 +142,7 @@
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -149,31 +151,35 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Nvidia in talks with OpenAI to guarantee $250 billion financing for data center, WSJ reports - Reuters",
-        "Silicon shadows: inside the black market for AI chips | FT Film",
-        "Blockbuster I.P.O.s Are Creating New Millionaires. Philanthropies Want a Cut."
+        "Nvidia forms 37-member AI security alliance without OpenAI, Anthropic or Google",
+        "Nvidia, SpaceX, Microsoft launch AI safety initiative as OpenAI cyberattack fallout continues",
+        "Chinese chip champion CXMT soars 466% in market debut",
+        "Morning Bid: China chip champ - Reuters",
+        "Silicon shadows: inside the black market for AI chips | FT Film"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
         "Financial Times YouTube",
-        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 11,
-      "timeliness_score": 12,
-      "explanatory_score": 18,
+      "search_score": 18,
+      "timeliness_score": 21,
+      "explanatory_score": 19,
       "monetization_score": 15,
-      "risk_score": 7,
+      "risk_score": 5,
       "performance_bonus": 0.0,
       "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 63.0,
+      "total_score": 78.0,
       "format": "sector_analysis"
     },
     {
@@ -185,7 +191,7 @@
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -194,31 +200,35 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "China memory chipmaker CXMT skyrockets 500% in blockbuster Shanghai debut",
-        "China industrial profit growth slows again in June as retreating oil prices sap earnings lift",
-        "Investors use crypto exchanges to avoid Chinese controls on AI stocks",
-        "China pours funding into green energy deals as Iran war hits oil demand"
+        "Why Trump's new tariff blitz is very different this time around",
+        "Chipmaker CXMT’s 466% market debut surge makes it the most valuable China-listed company",
+        "Chinese chip champion CXMT soars 466% in market debut",
+        "Morning Bid: China chip champ - Reuters",
+        "Chipmaker CXMT vaults to top of China's valuation with 466% surge in Shanghai debut - Reuters"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home"
+        "Financial Times Home",
+        "NYT Business",
+        "Reuters Markets via Google News RSS",
+        "무역킹 Trade King YouTube"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2400,
-      "search_score": 14,
-      "timeliness_score": 16,
-      "explanatory_score": 17,
-      "monetization_score": 13,
+      "demand_signal_score": 3200,
+      "search_score": 23,
+      "timeliness_score": 21,
+      "explanatory_score": 18,
+      "monetization_score": 14,
       "risk_score": 7,
       "performance_bonus": 0.0,
       "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 67.0,
+      "total_score": 83.0,
       "format": "macro_explainer"
     },
     {
@@ -230,7 +240,7 @@
         "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유",
         "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지"
       ],
-      "reason": "복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -239,37 +249,35 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "Oil slides 5% as Iran reportedly signals halt to attacks if U.S. pause holds",
-        "China industrial profit growth slows again in June as retreating oil prices sap earnings lift",
-        "Oil prices fall as Iran and US pause strikes over Strait of Hormuz tensions",
-        "China pours funding into green energy deals as Iran war hits oil demand",
-        "Shares, bonds bounce as oil skid offers inflation relief - Reuters"
+        "Oil tumbles as Iran and US pause strikes over Strait of Hormuz",
+        "Falling oil prices spark relief rally in global stocks, bonds - Reuters",
+        "Crude oil futures are pricing market adaptability, not hopeful Iran peace - Reuters",
+        "Gold rises as oil retreats on pause in US-Iran strikes; Fed rate decision in focus - Reuters",
+        "Dollar retreats as oil slumps on pause in Middle East conflict - Reuters"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
         "Financial Times Home",
         "Financial Times World",
         "Financial Times YouTube",
         "MarketWatch Breaking News",
-        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 4700,
-      "search_score": 26,
+      "demand_signal_score": 3400,
+      "search_score": 24,
       "timeliness_score": 21,
       "explanatory_score": 17,
       "monetization_score": 14,
       "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 2,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 85.0,
+      "total_score": 83.0,
       "format": "macro_explainer"
     }
   ]

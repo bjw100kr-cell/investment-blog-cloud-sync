@@ -1,6 +1,6 @@
 # Daily 200 Visitor Action Board
 
-- 생성 시각: `2026-07-27T03:41:31.838904+00:00`
+- 생성 시각: `2026-07-27T14:54:08.481297+00:00`
 - 목표: 하루 `200`명
 - 상태: `measurement_missing_keep_building`
 - 실측 방문자: `0`
@@ -23,18 +23,18 @@
 - supporting_queries: 비트코인 ETF 자금 흐름, 비트코인 하락 이유, 비트코인 오늘 시세 보는법
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
-### 국제유가 전망
-
-- mapped_keyword: `oil`
-- suggested_title: 국제유가 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: 유가 상승 주식 영향, WTI 유가 보는법, 원유 가격 인플레이션 영향
-- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
-
 ### FOMC 일정
 
 - mapped_keyword: `fomc`
 - suggested_title: FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리
 - supporting_queries: FOMC 발표 시간, FOMC 이후 주식 영향, 연준 금리 발표 비트코인 영향
+- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
+
+### 국제유가 전망
+
+- mapped_keyword: `oil`
+- suggested_title: 국제유가 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 유가 상승 주식 영향, WTI 유가 보는법, 원유 가격 인플레이션 영향
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
 ### 중국 경기부양 수혜주
@@ -54,6 +54,7 @@
 - `fomc`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 - `bitcoin`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
 - `china`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
+- `ai_semiconductors`: 0개 체크 / 예상 0명 / 첫 채널  / 
 - `seo_ai_semiconductors_11`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html
 - `seo_us_big_tech_10`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/07/5.html
 - `us_index_flow`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html

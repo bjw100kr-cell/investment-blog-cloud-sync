@@ -67,7 +67,7 @@
 ## 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
 - source_group: `seo`
-- keyword: `seo_china_8`
+- keyword: `seo_china_6`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `technology stocks office finance abstract` / search https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - license: Unsplash License / https://unsplash.com/license
@@ -81,7 +81,7 @@
 ## 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 
 - source_group: `seo`
-- keyword: `seo_china_9`
+- keyword: `seo_china_8`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `technology stocks office finance abstract` / search https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - license: Unsplash License / https://unsplash.com/license
