@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T13:46:00.976657+00:00",
+  "generated_at": "2026-07-27T03:41:25.608724+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -63,15 +63,13 @@
       "reference_takeaways": [],
       "source_names": [
         "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
         "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "MarketWatch Breaking News"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 4300,
+      "demand_signal_score": 3700,
       "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
@@ -94,7 +92,7 @@
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -103,16 +101,17 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
+        "2 weeks left for Clarity: State of Crypto",
         "Europe's high regulatory bar could spark new crypto industry M&A wave",
         "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58%",
         "Russia’s largest bank Sberbank plans crypto trading infrastructure by December",
-        "North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto",
-        "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case"
+        "North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
+        "Financial Times Home",
         "Investing.com Crypto News"
       ],
       "trend_queries": [],
@@ -120,7 +119,7 @@
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 5900,
       "search_score": 29,
-      "timeliness_score": 18,
+      "timeliness_score": 20,
       "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 3,
@@ -129,19 +128,19 @@
       "crypto_market_signal_bonus": 1,
       "crypto_market_sentiment": "mixed",
       "crypto_market_signal_notes": [],
-      "total_score": 83.0,
+      "total_score": 85.0,
       "format": "crypto_analysis"
     },
     {
-      "keyword": "us_index_flow",
+      "keyword": "ai_semiconductors",
       "category": "global-sector",
       "brand_lane": "us-stocks",
       "title_candidates": [
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -150,30 +149,31 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Nasdaq lags on angst over AI spending ahead of earnings reports - Reuters",
-        "Wall St Week Ahead US stocks face tests from Fed decision, tech-led earnings deluge - Reuters",
-        "There’s a technical ‘triple threat’ for stocks, but also places investors can hide"
+        "Nvidia in talks with OpenAI to guarantee $250 billion financing for data center, WSJ reports - Reuters",
+        "Silicon shadows: inside the black market for AI chips | FT Film",
+        "Blockbuster I.P.O.s Are Creating New Millionaires. Philanthropies Want a Cut."
       ],
       "reference_takeaways": [],
       "source_names": [
-        "MarketWatch Breaking News",
+        "Financial Times YouTube",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2000,
+      "demand_signal_score": 0,
       "search_score": 11,
-      "timeliness_score": 13,
+      "timeliness_score": 12,
       "explanatory_score": 18,
       "monetization_score": 15,
-      "risk_score": 8,
+      "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 65.0,
+      "total_score": 63.0,
       "format": "sector_analysis"
     },
     {
@@ -185,7 +185,7 @@
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -194,28 +194,31 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "China pours funding into green energy deals as Iran war hits oil demand",
-        "How China exploits EU divisions over trade"
+        "China memory chipmaker CXMT skyrockets 500% in blockbuster Shanghai debut",
+        "China industrial profit growth slows again in June as retreating oil prices sap earnings lift",
+        "Investors use crypto exchanges to avoid Chinese controls on AI stocks",
+        "China pours funding into green energy deals as Iran war hits oil demand"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
         "Financial Times Home"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 6,
-      "timeliness_score": 8,
+      "demand_signal_score": 2400,
+      "search_score": 14,
+      "timeliness_score": 16,
       "explanatory_score": 17,
-      "monetization_score": 12,
+      "monetization_score": 13,
       "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 50.0,
+      "total_score": 67.0,
       "format": "macro_explainer"
     },
     {
@@ -227,7 +230,7 @@
         "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유",
         "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지"
       ],
-      "reason": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -236,15 +239,17 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
+        "Oil slides 5% as Iran reportedly signals halt to attacks if U.S. pause holds",
+        "China industrial profit growth slows again in June as retreating oil prices sap earnings lift",
+        "Oil prices fall as Iran and US pause strikes over Strait of Hormuz tensions",
         "China pours funding into green energy deals as Iran war hits oil demand",
-        "Investors fret that spiking oil prices and rising yields could threaten stock rally - Reuters",
-        "Morning Bid: Oil batters bonds as AI burns cash - Reuters",
-        "Breakingviews - Oil price safety net is beginning to fray - Reuters",
-        "There’s a technical ‘triple threat’ for stocks, but also places investors can hide"
+        "Shares, bonds bounce as oil skid offers inflation relief - Reuters"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
         "Financial Times Home",
+        "Financial Times World",
         "Financial Times YouTube",
         "MarketWatch Breaking News",
         "NYT Business",
@@ -253,18 +258,18 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3000,
-      "search_score": 21,
+      "demand_signal_score": 4700,
+      "search_score": 26,
       "timeliness_score": 21,
       "explanatory_score": 17,
       "monetization_score": 14,
       "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 2,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 80.0,
+      "total_score": 85.0,
       "format": "macro_explainer"
     }
   ]
