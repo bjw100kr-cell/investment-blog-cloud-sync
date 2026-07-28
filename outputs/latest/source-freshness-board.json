@@ -1,55 +1,99 @@
 {
-  "generated_at": "2026-07-27T14:54:09.109066+00:00",
-  "snapshot_generated_at": "2026-07-27T14:54:03.707585+00:00",
+  "generated_at": "2026-07-28T03:13:17.820516+00:00",
+  "snapshot_generated_at": "2026-07-28T03:13:12.354221+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 3,
+    "fresh": 2,
     "aging": 0,
-    "stale": 0,
+    "stale": 1,
     "unknown": 0
   },
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-07-28",
+      "freshness_status": "stale",
+      "newest_evidence_iso": "2026-07-09T19:00:00+00:00",
+      "oldest_evidence_iso": "2026-04-29T18:00:00+00:00",
+      "newest_evidence_age_days": 18.3,
+      "source_count": 5,
+      "demand_signal_score": 4400,
+      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "recovery_mode": "full_refresh_needed",
+      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
+          "published_iso": "2026-04-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-07-28",
+      "publish_date": "2026-07-29",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-27T13:54:05+00:00",
-      "oldest_evidence_iso": "2026-07-26T19:02:07+00:00",
-      "newest_evidence_age_days": 0.0,
+      "newest_evidence_iso": "2026-07-27T21:24:41+00:00",
+      "oldest_evidence_iso": "2026-07-27T12:03:05+00:00",
+      "newest_evidence_age_days": 0.2,
       "source_count": 3,
-      "demand_signal_score": 6400,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Rate path still divides investors: Five things to know in Bitcoin this week",
+      "demand_signal_score": 6700,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin shrugs off AI selloff but high-stakes Fed meeting could determine what's next",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Rate path still divides investors: Five things to know in Bitcoin this week",
+          "title": "Bitcoin shrugs off AI selloff but high-stakes Fed meeting could determine what's next",
+          "source_name": "CoinDesk RSS",
+          "published": "Mon, 27 Jul 2026 19:55:45 +0000",
+          "published_iso": "2026-07-27T19:55:45+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/27/bitcoin-shrugs-off-ai-selloff-but-high-stakes-fed-meeting-could-determine-what-s-next",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitmine keeps buying Ether as ETH outperforms Bitcoin",
           "source_name": "Cointelegraph",
-          "published": "Mon, 27 Jul 2026 13:31:07 +0000",
-          "published_iso": "2026-07-27T13:31:07+00:00",
-          "link": "https://cointelegraph.com/markets/rate-path-still-divides-investors-five-things-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Mon, 27 Jul 2026 19:22:59 +0000",
+          "published_iso": "2026-07-27T19:22:59+00:00",
+          "link": "https://cointelegraph.com/news/bitmine-keeps-buying-ether-as-eth-outperforms-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin climbs above $65k as easing Middle East tensions lift risk appetite",
+          "title": "Bitcoin rises about 1% as U.S. and Iran pause fighting, lifting risk appetite",
           "source_name": "Investing.com Crypto News",
-          "published": "2026-07-27 13:54:05",
-          "published_iso": "2026-07-27 13:54:05",
+          "published": "2026-07-27 21:24:41",
+          "published_iso": "2026-07-27 21:24:41",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rises-above-65k-as-easing-middle-east-tensions-lift-risk-appetite-4812982",
-          "source_type": "rss"
-        },
-        {
-          "title": "Strategy sells MSTR shares, doesn’t buy bitcoin",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-07-27 12:03:05",
-          "published_iso": "2026-07-27 12:03:05",
-          "link": "https://www.investing.com/news/cryptocurrency-news/strategy-sells-mstr-shares-doesnt-buy-bitcoin-432SI-4813916",
           "source_type": "rss"
         }
       ]
@@ -59,13 +103,13 @@
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-07-29",
+      "publish_date": "2026-07-30",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-27T14:19:43+00:00",
-      "oldest_evidence_iso": "2026-07-27T10:54:19+00:00",
+      "newest_evidence_iso": "2026-07-28T02:41:03+00:00",
+      "oldest_evidence_iso": "2026-07-28T00:56:00+00:00",
       "newest_evidence_age_days": 0.0,
-      "source_count": 5,
-      "demand_signal_score": 0,
+      "source_count": 6,
+      "demand_signal_score": 3500,
       "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
@@ -80,62 +124,19 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "Chipmaker CXMT’s 466% market debut surge makes it the most valuable China-listed company",
+          "title": "Shares of SK Hynix plunge 10% in Seoul as semiconductor sell-off deepens",
           "source_name": "CNBC Top News",
-          "published": "Mon, 27 Jul 2026 14:19:43 GMT",
-          "published_iso": "2026-07-27T14:19:43+00:00",
-          "link": "https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html",
+          "published": "Tue, 28 Jul 2026 02:41:03 GMT",
+          "published_iso": "2026-07-28T02:41:03+00:00",
+          "link": "https://www.cnbc.com/2026/07/28/sk-hynix-plunges-semiconductor-selloff-deepens-samsung-softbank.html",
           "source_type": "rss"
         },
         {
-          "title": "Nvidia forms 37-member AI security alliance without OpenAI, Anthropic or Google",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 27 Jul 2026 13:25:58 +0000",
-          "published_iso": "2026-07-27T13:25:58+00:00",
-          "link": "https://www.coindesk.com/tech/2026/07/27/nvidia-forms-37-member-ai-security-alliance-without-openai-anthropic-or-google",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-07-30",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-27T14:23:30+00:00",
-      "oldest_evidence_iso": "2026-07-26T23:44:00+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 5,
-      "demand_signal_score": 3200,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Even China’s A.I. Powerhouses Can’t Figure Out How to Profit Off A.I.",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "Even China’s A.I. Powerhouses Can’t Figure Out How to Profit Off A.I.",
-          "source_name": "NYT Business",
-          "published": "Mon, 27 Jul 2026 14:23:30 +0000",
-          "published_iso": "2026-07-27T14:23:30+00:00",
-          "link": "https://www.nytimes.com/2026/07/27/business/china-ai-alibaba-bytedance.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Chipmaker CXMT’s 466% market debut surge makes it the most valuable China-listed company",
-          "source_name": "CNBC Top News",
-          "published": "Mon, 27 Jul 2026 14:19:43 GMT",
-          "published_iso": "2026-07-27T14:19:43+00:00",
-          "link": "https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Morning Bid: China chip champ - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Mon, 27 Jul 2026 10:54:19 GMT",
-          "published_iso": "2026-07-27T10:54:19+00:00",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUTRoU0xKbG1VaWljZWE0Vkd5akUyckxHM1ZLSXlCX1Fsb0FvODQ0U2dCVmkzYkpRV1VldktYeEZTQ2RJSEtLVU5VRmtvZF82WklMbGJnM2JVNk9vVy1LekpKWjlRRFVrSTFYRXZJVDhrbEhULVZjcWxJejNaamFvVGZDRkpMSE9lSmlDVGJiMGx3QjVCWTVz?oc=5",
+          "title": "AI stock sell-off deepens as investors dump chipmakers",
+          "source_name": "Financial Times Home",
+          "published": "Tue, 28 Jul 2026 02:21:14 GMT",
+          "published_iso": "2026-07-28T02:21:14+00:00",
+          "link": "https://www.ft.com/content/f8c03b5b-e194-4236-82c3-389b6f5dd7ae?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ]
