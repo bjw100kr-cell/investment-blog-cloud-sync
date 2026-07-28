@@ -1,12 +1,45 @@
 {
-  "generated_at": "2026-07-28T03:13:12.354221+00:00",
+  "generated_at": "2026-07-28T14:27:56.527061+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 4
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "us_index_flow",
+      "trend_count": 1,
+      "traffic_score_sum": 5000,
+      "max_approx_traffic": 5000,
+      "trend_queries": [
+        "stock market"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 5200,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
+    {
+      "keyword": "us_big_tech",
+      "trend_count": 2,
+      "traffic_score_sum": 2500,
+      "max_approx_traffic": 2000,
+      "trend_queries": [
+        "apple stock",
+        "apple upgrade"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 2900,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,21 +47,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6700,
+      "demand_signal_score": 6800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 55,
-      "source_count": 3,
+      "source_snapshot_score": 56,
+      "source_count": 4,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "NYT Business"
       ],
       "sample_titles": [
-        "U.S. Senate puts off crypto Clarity Act for now as it focuses limited bandwidth elsewhere",
-        "Bitcoin shrugs off AI selloff but high-stakes Fed meeting could determine what's next",
-        "Crypto’s favorite $90 trillion trading product is coming to Wall Street, but big banks are taking it slow"
+        "Core Scientific lands AMD AI deal as bitcoin mining operation winds down",
+        "Binance makes fighting crypto crime more difficult, says new report",
+        "Apple kept fake bitcoin wallet on App Store after $875,000 theft report, lawsuit alleges"
       ]
     },
     {
@@ -38,17 +72,16 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4400,
+      "demand_signal_score": 4500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 32,
-      "source_count": 5,
+      "source_snapshot_score": 33,
+      "source_count": 4,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "NYT Business",
+        "Investing.com Crypto News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
@@ -73,39 +106,14 @@
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
-        "Financial Times World",
         "Financial Times YouTube",
-        "MarketWatch Breaking News"
+        "MarketWatch Breaking News",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Bitcoin shrugs off AI selloff but high-stakes Fed meeting could determine what's next",
-        "Apple ends day as world's most valuable company, passing Nvidia",
-        "Shares of SK Hynix plunge 10% in Seoul as semiconductor sell-off deepens"
-      ]
-    },
-    {
-      "keyword": "us_big_tech",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2900,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 17,
-      "source_count": 4,
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News"
-      ],
-      "sample_titles": [
-        "Apple ends day as world's most valuable company, passing Nvidia",
-        "SpaceX has now lost the equivalent of a full Tesla in market capitalization",
-        "OpenAI hacking incident is ‘warning shot’ on cyber security, Microsoft’s AI chief warns"
+        "Core Scientific lands AMD AI deal as bitcoin mining operation winds down",
+        "AMD, Micron and Nvidia extend losses as chip stocks get clobbered",
+        "World stocks hit one-month low as chip rout worsens - Reuters"
       ]
     }
   ],

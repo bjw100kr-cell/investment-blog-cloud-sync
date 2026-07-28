@@ -108,12 +108,13 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
-    "NYT Business",
-    "Reuters Markets via Google News RSS"
+    "MarketWatch Breaking News",
+    "NYT Business"
   ],
   "reference_headlines": [
-    "Morning Bid: China chip champ - Reuters",
-    "Even China’s A.I. Powerhouses Can’t Figure Out How to Profit Off A.I."
+    "Micron’s stock sinks toward worst monthly drop in 11 years as China fears escalate",
+    "Tech Stocks Tumble on Worries About A.I. Spending and China’s Chip Competition",
+    "He Served China’s Police State of Xinjiang. He Says It Imprisoned Him, Too."
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -176,9 +177,9 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 55.0,
+    "total_score": 58.0,
     "search_score": 8,
-    "timeliness_score": 10,
+    "timeliness_score": 13,
     "explanatory_score": 17,
     "monetization_score": 13,
     "risk_score": 7
