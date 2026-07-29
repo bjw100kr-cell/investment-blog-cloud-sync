@@ -1,45 +1,12 @@
 {
-  "generated_at": "2026-07-28T14:27:56.527061+00:00",
+  "generated_at": "2026-07-29T03:16:33.892021+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "us_index_flow",
-      "trend_count": 1,
-      "traffic_score_sum": 5000,
-      "max_approx_traffic": 5000,
-      "trend_queries": [
-        "stock market"
-      ],
-      "regions": [
-        "US"
-      ],
-      "demand_signal_score": 5200,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
-    {
-      "keyword": "us_big_tech",
-      "trend_count": 2,
-      "traffic_score_sum": 2500,
-      "max_approx_traffic": 2000,
-      "trend_queries": [
-        "apple stock",
-        "apple upgrade"
-      ],
-      "regions": [
-        "US"
-      ],
-      "demand_signal_score": 2900,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -47,22 +14,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6800,
+      "demand_signal_score": 5900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 56,
-      "source_count": 4,
+      "source_snapshot_score": 47,
+      "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "NYT Business"
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Core Scientific lands AMD AI deal as bitcoin mining operation winds down",
-        "Binance makes fighting crypto crime more difficult, says new report",
-        "Apple kept fake bitcoin wallet on App Store after $875,000 theft report, lawsuit alleges"
+        "'Anything remotely dovish' from Fed could be good for bitcoin, says analyst",
+        "Wall Street veteran Don Wilson says regulators are getting perps all wrong",
+        "BlackRock, Fidelity, other Wall Street giants back the Clarity Act"
       ]
     },
     {
@@ -72,16 +38,17 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4500,
+      "demand_signal_score": 4700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 33,
-      "source_count": 4,
+      "source_snapshot_score": 35,
+      "source_count": 5,
       "source_names": [
         "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
         "Investing.com Crypto News",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
@@ -97,23 +64,48 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3500,
+      "demand_signal_score": 2700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
-      "source_count": 6,
+      "source_snapshot_score": 15,
+      "source_count": 5,
       "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times World",
         "Financial Times YouTube",
         "MarketWatch Breaking News",
-        "NYT Business"
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Core Scientific lands AMD AI deal as bitcoin mining operation winds down",
-        "AMD, Micron and Nvidia extend losses as chip stocks get clobbered",
-        "World stocks hit one-month low as chip rout worsens - Reuters"
+        "SK Hynix shares slide despite sixfold profits surge",
+        "Morning Bid: Chip rout snowballs - Reuters",
+        "Micron’s stock sinks toward worst monthly drop in 11 years as China fears escalate"
+      ]
+    },
+    {
+      "keyword": "us_big_tech",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2400,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 12,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
+        "Mark Zuckerberg says US should not ban Chinese AI",
+        "Apple briefly tops $5 trillion market value for first time - Reuters"
       ]
     }
   ],
