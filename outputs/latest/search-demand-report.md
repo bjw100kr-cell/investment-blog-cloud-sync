@@ -1,25 +1,25 @@
 # 검색 수요 신호 리포트
 
-- 생성 시각: `2026-07-29T03:16:33.892021+00:00`
+- 생성 시각: `2026-07-29T14:26:08.159304+00:00`
 - 트렌드 아이템 수: `16`
 - 매칭된 키워드 수: `4`
 - 약한 트렌드 fallback 수: `4`
 
 ## 키워드별 트렌드 수요
 
-- `bitcoin`: demand 5900 / trend_count 0 / traffic_sum 0 / regions unknown
+- `fomc`: demand 6300 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 47 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: demand 4700 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 51 / sources CoinDesk RSS, Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News, NYT Business
+- `bitcoin`: demand 5800 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 35 / sources CoinDesk RSS, Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `ai_semiconductors`: demand 2700 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 46 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `oil`: demand 3000 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 15 / sources Financial Times Home, Financial Times World, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `us_big_tech`: demand 2400 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 18 / sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times YouTube, MarketWatch Breaking News
+- `ai_semiconductors`: demand 2800 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 12 / sources CNBC Top News, Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
+  - fallback: source snapshot score 16 / sources Financial Times Home, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
 
 ## 아직 못 주운 시장성 트렌드
 
-- 현재 추가 분류가 필요한 시장성 트렌드가 없음
+- `ford stock` (US): traffic 2000+ / relevance 1

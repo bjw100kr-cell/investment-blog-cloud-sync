@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "'Anything remotely dovish' from Fed could be good for bitcoin, says analyst",
-    "Wall Street veteran Don Wilson says regulators are getting perps all wrong",
-    "BlackRock, Fidelity, other Wall Street giants back the Clarity Act",
-    "Russia outlines new digital depository rules ahead of fall crypto framework roll-out",
-    "Hyperliquid is taking crypto perps deep into DeFi’s ‘money LEGO’ land"
+    "The inside story of how a hike in Hong Kong changed crypto trading forever",
+    "3 reasons Wednesday's Fed meeting is pivotal for BTC",
+    "Bitcoin steadies above $64,000 as crypto looks to Fed interest-rate decision",
+    "Binance offers gold and silver options after commodity futures pull in billions in daily volume",
+    "Here’s what happened in crypto today"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

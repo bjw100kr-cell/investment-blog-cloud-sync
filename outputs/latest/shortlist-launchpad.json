@@ -1,63 +1,8 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
   "cards": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-07-29",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ],
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Apr 2026 18:00:00 GMT",
-          "published_iso": "2026-04-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
-      "hard_blocking_checks": []
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -69,32 +14,32 @@
       "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "'Anything remotely dovish' from Fed could be good for bitcoin, says analyst",
-        "Wall Street veteran Don Wilson says regulators are getting perps all wrong",
-        "BlackRock, Fidelity, other Wall Street giants back the Clarity Act"
+        "The inside story of how a hike in Hong Kong changed crypto trading forever",
+        "3 reasons Wednesday's Fed meeting is pivotal for BTC",
+        "Bitcoin steadies above $64,000 as crypto looks to Fed interest-rate decision"
       ],
       "recent_evidence": [
         {
-          "title": "'Anything remotely dovish' from Fed could be good for bitcoin, says analyst",
+          "title": "Bitcoin steadies above $64,000 as crypto looks to Fed interest-rate decision",
           "source_name": "CoinDesk RSS",
-          "published": "Tue, 28 Jul 2026 20:23:31 +0000",
-          "published_iso": "2026-07-28T20:23:31+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/28/remotely-dovish-fed-could-be-good-for-bitcoin-says-analyst",
+          "published": "Wed, 29 Jul 2026 10:34:18 +0000",
+          "published_iso": "2026-07-29T10:34:18+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/29/bitcoin-steadies-above-usd64-000-as-crypto-looks-to-fed-interest-rate-decision",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin briefly slips below $62k amid tech sell-off, Fed decision uncertainty",
+          "title": "Bitcoin hovers above $64k ahead of Fed decision, shrugs off AI-led tech weakness",
           "source_name": "Investing.com Crypto News",
-          "published": "2026-07-28 21:32:39",
-          "published_iso": "2026-07-28 21:32:39",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-to-10day-low-near-63k-as-tech-selloff-fed-uncertainty-weigh-4815471",
+          "published": "2026-07-29 13:26:38",
+          "published_iso": "2026-07-29 13:26:38",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rises-to-64k-ahead-of-fed-decision-shrugs-off-ailed-tech-weakness-4818621",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin consolidates at $63,100 make-or-break support: Live now",
+          "title": "Bitcoin coiled between SMAs at $64,408: Live levels",
           "source_name": "Investing.com Crypto News",
-          "published": "2026-07-28 19:06:06",
-          "published_iso": "2026-07-28 19:06:06",
+          "published": "2026-07-29 07:04:01",
+          "published_iso": "2026-07-29 07:04:01",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-bull-flag-85-complete-at-65414-live-levels-93CH-4813067",
           "source_type": "rss"
         }
@@ -121,12 +66,12 @@
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "SK Hynix shares slide despite sixfold profits surge",
-        "Morning Bid: Chip rout snowballs - Reuters",
-        "Micron’s stock sinks toward worst monthly drop in 11 years as China fears escalate"
+        "Tech rout roils markets after SK Hynix profits disappoint",
+        "‘Anti-tech’ index shines in global chip rout",
+        "Wall St opens lower ahead of Fed decision; chip stocks wobble - reuters.com"
       ],
       "recent_evidence": [
         {
@@ -138,19 +83,19 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "Leveraged ETFs tied to SK Hynix are getting hammered as chip wreck deepens",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Tue, 28 Jul 2026 21:08:00 GMT",
-          "published_iso": "2026-07-28T21:08:00+00:00",
-          "link": "https://www.marketwatch.com/story/leveraged-etfs-tied-to-sk-hynix-are-getting-hammered-as-chip-wreck-deepens-5303c33c?mod=mw_rss_topstories",
+          "title": "Wall St opens lower ahead of Fed decision; chip stocks wobble - reuters.com",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Wed, 29 Jul 2026 13:35:43 GMT",
+          "published_iso": "2026-07-29T13:35:43+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYTBjTkgxdmttOW1mOFd3NHRiOHNOdEhqMG12bzU1WWVOcm1pTGNuazF6OGU2VkJya1dZd3lKSXRmZ0V3NFJ6eXJGbGk1SzgtQ2E1NzI0YmJQZk9uZ1lmWTZqNHpEY3lrYVZtYlNIYXllOWNYUDdxT1owV3FnX1ZUNHdyMGN4VlM0QVZpbV9PYzkzT1ktVXZLRWx6dmMtNnRIMnVIUzBfakZmMl9kS25ldGQxbw?oc=5",
           "source_type": "rss"
         },
         {
-          "title": "Morning Bid: Chip rout snowballs - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Tue, 28 Jul 2026 10:45:36 GMT",
-          "published_iso": "2026-07-28T10:45:36+00:00",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZW9iMWY1Y0lHSmlTamFZeVZDY2RYUWxmUGY1dXlNcTJBdnJybDlrTDhHYTBQTHhxSjJLSFFoUy1aRFViNWZvWWNiTHM2NExUREdrbTJVTDBYNFR1TGlITHBxRm95ZmdmcmEwSFdjLXlVNjA4OHFUYmZoUnN0VWxVdDhGa212eFloZFlsZnpLRmJ5YThFQVNN?oc=5",
+          "title": "The Chips That Will Decide A.I.’s Future",
+          "source_name": "NYT Business",
+          "published": "Wed, 29 Jul 2026 10:45:53 +0000",
+          "published_iso": "2026-07-29T10:45:53+00:00",
+          "link": "https://www.nytimes.com/video/business/100000011045522/ai-chips-nvidia.html",
           "source_type": "rss"
         }
       ],
@@ -166,6 +111,61 @@
       ],
       "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors",
       "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply",
+      "hard_blocking_checks": []
+    },
+    {
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "publish_date": "2026-08-01",
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "ready_now": true,
+      "hero_image_selected": true,
+      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "Nike was once China's sneaker king. Here's why its sales have fallen 30%",
+        "Ferrari EV designed by Jony Ive has already hit 2026 sales target",
+        "3. The Final Chapter on the Northern Sea Route: The Complex Motives of South Korea, China, and Japan"
+      ],
+      "recent_evidence": [
+        {
+          "title": "Nike was once China's sneaker king. Here's why its sales have fallen 30%",
+          "source_name": "CNBC Top News",
+          "published": "Wed, 29 Jul 2026 11:46:44 GMT",
+          "published_iso": "2026-07-29T11:46:44+00:00",
+          "link": "https://www.cnbc.com/2026/07/29/nike-china-sales-decline.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Trump’s Tariffs Are Sending Some Companies Back to China",
+          "source_name": "NYT Business",
+          "published": "Wed, 29 Jul 2026 09:02:02 +0000",
+          "published_iso": "2026-07-29T09:02:02+00:00",
+          "link": "https://www.nytimes.com/2026/07/29/business/economy/trump-tariffs-china.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "3. The Final Chapter on the Northern Sea Route: The Complex Motives of South Korea, China, and Japan",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "10K views",
+          "published_iso": "10K views",
+          "link": "https://www.youtube.com/watch?v=VVBG08rm-08",
+          "source_type": "youtube_channel"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
       "hard_blocking_checks": []
     }
   ]

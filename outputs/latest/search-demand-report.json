@@ -1,36 +1,12 @@
 {
-  "generated_at": "2026-07-29T03:16:33.892021+00:00",
+  "generated_at": "2026-07-29T14:26:08.159304+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 0,
+    "unmatched_market_trend_count": 1,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 5900,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 47,
-      "source_count": 3,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "'Anything remotely dovish' from Fed could be good for bitcoin, says analyst",
-        "Wall Street veteran Don Wilson says regulators are getting perps all wrong",
-        "BlackRock, Fidelity, other Wall Street giants back the Clarity Act"
-      ]
-    },
     {
       "keyword": "fomc",
       "trend_count": 0,
@@ -38,23 +14,73 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4700,
+      "demand_signal_score": 6300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 35,
-      "source_count": 5,
+      "source_snapshot_score": 51,
+      "source_count": 6,
       "source_names": [
         "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
         "Investing.com Crypto News",
         "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "NYT Business"
       ],
       "sample_titles": [
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+      ]
+    },
+    {
+      "keyword": "bitcoin",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 5800,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 46,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": [
+        "The inside story of how a hike in Hong Kong changed crypto trading forever",
+        "3 reasons Wednesday's Fed meeting is pivotal for BTC",
+        "Bitcoin steadies above $64,000 as crypto looks to Fed interest-rate decision"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3000,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 18,
+      "source_count": 6,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times YouTube",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "Bitcoin steadies above $64,000 as crypto looks to Fed interest-rate decision",
+        "Oil prices jump more than 6% after Trump says U.S. will hit Iran hard",
+        "‘Anti-tech’ index shines in global chip rout"
       ]
     },
     {
@@ -64,50 +90,34 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2700,
+      "demand_signal_score": 2800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 15,
-      "source_count": 5,
-      "source_names": [
-        "Financial Times Home",
-        "Financial Times World",
-        "Financial Times YouTube",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "SK Hynix shares slide despite sixfold profits surge",
-        "Morning Bid: Chip rout snowballs - Reuters",
-        "Micron’s stock sinks toward worst monthly drop in 11 years as China fears escalate"
-      ]
-    },
-    {
-      "keyword": "us_big_tech",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2400,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
+      "source_snapshot_score": 16,
       "source_count": 4,
       "source_names": [
-        "CNBC Top News",
         "Financial Times Home",
-        "Financial Times World",
+        "Financial Times YouTube",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
-        "Mark Zuckerberg says US should not ban Chinese AI",
-        "Apple briefly tops $5 trillion market value for first time - Reuters"
+        "Tech rout roils markets after SK Hynix profits disappoint",
+        "‘Anti-tech’ index shines in global chip rout",
+        "Wall St opens lower ahead of Fed decision; chip stocks wobble - reuters.com"
       ]
     }
   ],
-  "unmatched_market_trends": []
+  "unmatched_market_trends": [
+    {
+      "query": "ford stock",
+      "region": "US",
+      "approx_traffic": "2000+",
+      "traffic_score": 2000,
+      "market_relevance_score": 1,
+      "brand_identity_match": true,
+      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
+    }
+  ]
 }
