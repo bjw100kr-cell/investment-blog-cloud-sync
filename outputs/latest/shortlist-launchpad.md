@@ -30,33 +30,33 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - sample_headlines:
-  - Senators ready to send stricter ethics rules on Trump's crypto ventures to White House, sources say
-  - Robinhood slides 4% despite earnings beat as crypto revenue cools
-  - As crypto perpetual futures boom, Ethereum’s role is shifting
+  - JPMorgan says fading Clarity Act odds weigh on crypto outlook
+  - Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings
+  - Bitcoin ETFs on track for the smallest monthly inflows ever
 - recent_evidence:
-  - Investing.com Crypto News | 2026-07-29 22:45:15 | Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold
-  - Investing.com Crypto News | 2026-07-29 19:06:14 | Bitcoin trapped at $64,547 in Ichimoku cloud: Hourly levels
-  - Investing.com Crypto News | 2026-07-28 21:32:39 | Bitcoin briefly slips below $62k amid tech sell-off, Fed decision uncertainty
+  - Cointelegraph | 2026-07-30T11:29:03+00:00 | Hedge fund with $1.1B in Bitcoin miner stocks seeks capital after AI sell-off: FT
+  - CoinDesk RSS | 2026-07-30T11:18:34+00:00 | Bitcoin ETFs on track for the smallest monthly inflows ever
+  - Cointelegraph | 2026-07-30T07:28:57+00:00 | Chinese newspaper warns of Bitcoin extortion scam using its name
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 3. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
-- keyword `us_big_tech` / publish `2026-08-01` / verdict `approve` / quality `review_before_publish`
+- keyword `us_index_flow` / publish `` / verdict `approve` / quality `needs_fix`
 - ready_now: `False` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- intent: 
+- why_now: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (qqq stock, qqq)
 - sample_headlines:
-  - Zuckerberg lays out Meta's AI capacity dilemma: What to sell vs. what to keep
-  - Microsoft jumps 8% as it boosts capital spending plans, citing demand
-  - Inside India newsletter: Meta's clout in the world's largest democracy is surging — inviting scrutiny
+  - qqq stock
+  - qqq
+  - Crypto's resilience tested as oil rises after Iran strikes, Fed signals rates could still rise
 - recent_evidence:
-  - CNBC Top News | 2026-07-30T01:58:00+00:00 | Inside India newsletter: Meta's clout in the world's largest democracy is surging — inviting scrutiny
-  - CNBC Top News | 2026-07-30T01:15:08+00:00 | Microsoft jumps 8% as it boosts capital spending plans, citing demand
-  - Financial Times Home | 2026-07-30T01:05:29+00:00 | Microsoft signs $130bn in data centre leases as it races to meet AI demand
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply`
+  - Cointelegraph | 2026-07-30T14:10:31+00:00 | South Korean crypto trading surges amid stock market plunge
+  - Reuters Markets via Google News RSS | 2026-07-30T10:11:20+00:00 | Mapping the Market: Nasdaq selloff breaks key support levels after Fed - Reuters
+  - Google Trends US | 2026-07-30T07:10:00-07:00 | qqq stock
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply`

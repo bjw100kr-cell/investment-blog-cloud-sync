@@ -76,7 +76,7 @@
 
 - `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / keyword `fomc` / verdict `approve` / publish `2026-07-30`
 - `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / verdict `approve` / publish `2026-07-31`
-- `미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자` / keyword `us_big_tech` / verdict `approve` / publish `2026-08-01`
+- `미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유` / keyword `us_index_flow` / verdict `approve` / publish ``
 
 ## 1.5. 하루 200명 목표
 

@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Senators ready to send stricter ethics rules on Trump's crypto ventures to White House, sources say",
-    "Robinhood slides 4% despite earnings beat as crypto revenue cools",
-    "As crypto perpetual futures boom, Ethereum’s role is shifting",
-    "Coinbase hit by spot trading slump: Wall Street trims expectations ahead of earnings",
-    "Crypto Long & Short: What this year's $972 million crypto hacks actually tell us about security"
+    "JPMorgan says fading Clarity Act odds weigh on crypto outlook",
+    "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings",
+    "Bitcoin ETFs on track for the smallest monthly inflows ever",
+    "South Korea plans to tax crypto gains over $1,740 as political battle moves to parliament",
+    "Crypto's resilience tested as oil rises after Iran strikes, Fed signals rates could still rise"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

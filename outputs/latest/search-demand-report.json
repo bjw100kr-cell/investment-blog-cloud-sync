@@ -1,37 +1,28 @@
 {
-  "generated_at": "2026-07-30T02:49:27.043063+00:00",
+  "generated_at": "2026-07-30T14:24:11.464497+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 0,
+    "matched_keyword_count": 5,
+    "unmatched_market_trend_count": 1,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "fomc",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 7500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 63,
-      "source_count": 7,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Investing.com Crypto News"
+      "keyword": "us_index_flow",
+      "trend_count": 2,
+      "traffic_score_sum": 2500,
+      "max_approx_traffic": 2000,
+      "trend_queries": [
+        "qqq stock",
+        "qqq"
       ],
-      "sample_titles": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ]
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 2900,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
     },
     {
       "keyword": "bitcoin",
@@ -40,11 +31,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6500,
+      "demand_signal_score": 7100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 53,
+      "source_snapshot_score": 59,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -52,9 +43,35 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Senators ready to send stricter ethics rules on Trump's crypto ventures to White House, sources say",
-        "Robinhood slides 4% despite earnings beat as crypto revenue cools",
-        "As crypto perpetual futures boom, Ethereum’s role is shifting"
+        "JPMorgan says fading Clarity Act odds weigh on crypto outlook",
+        "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings",
+        "Bitcoin ETFs on track for the smallest monthly inflows ever"
+      ]
+    },
+    {
+      "keyword": "fomc",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 6800,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 56,
+      "source_count": 7,
+      "source_names": [
+        "CoinDesk RSS",
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
       ]
     },
     {
@@ -64,49 +81,60 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3600,
+      "demand_signal_score": 3000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 24,
-      "source_count": 4,
+      "source_snapshot_score": 18,
+      "source_count": 6,
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
         "Financial Times World",
-        "Reuters Markets via Google News RSS"
+        "MarketWatch Breaking News",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Zuckerberg lays out Meta's AI capacity dilemma: What to sell vs. what to keep",
-        "Microsoft jumps 8% as it boosts capital spending plans, citing demand",
-        "Inside India newsletter: Meta's clout in the world's largest democracy is surging — inviting scrutiny"
+        "Meta tanks 9%, continuing record losing streak, while Microsoft jumps 14% as AI trade splits",
+        "Meta shares tumble as Zuckerberg tries to sell his vision for AI ‘agents’",
+        "Wall St opens higher as Microsoft's results temper some AI jitters - Reuters"
       ]
     },
     {
-      "keyword": "cpi",
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2800,
+      "demand_signal_score": 2600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 16,
+      "source_snapshot_score": 14,
       "source_count": 4,
       "source_names": [
-        "CNBC Top News",
         "Financial Times Home",
         "Financial Times World",
-        "NYT Business"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Analysis: Fed Chairman Warsh's credibility in question after leaving interest rates unchanged",
-        "US borrowing costs hit 19-year high as Fed defies inflation fears",
-        "Fed’s favourite inflation gauge to be lowered by stats agency change"
+        "Warsh’s stripped-back Fed communication ‘already backfiring’, say investors",
+        "Morning Bid: Bond markets doing the Fed's work - Reuters",
+        "Stocks gain on tech support, US 30-year yield near 2007 high - Reuters"
       ]
     }
   ],
-  "unmatched_market_trends": []
+  "unmatched_market_trends": [
+    {
+      "query": "sandisk stock",
+      "region": "US",
+      "approx_traffic": "2000+",
+      "traffic_score": 2000,
+      "market_relevance_score": 1,
+      "brand_identity_match": true,
+      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
+    }
+  ]
 }

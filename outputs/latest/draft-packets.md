@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-07-30T02:49:27.043063+00:00`
+- 생성 시각: `2026-07-30T14:24:11.464497+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
-- 점수: 98.0
+- 점수: 97.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,7 +70,7 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Fed holds rates steady, extending pause as markets await Kevin Warsh's policy roadmap
+  - Crypto's resilience tested as oil rises after Iran strikes, Fed signals rates could still rise
 
 ## 2. bitcoin
 
@@ -136,22 +136,22 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Senators ready to send stricter ethics rules on Trump's crypto ventures to White House, sources say
-  - Robinhood slides 4% despite earnings beat as crypto revenue cools
-  - As crypto perpetual futures boom, Ethereum’s role is shifting
-  - Coinbase hit by spot trading slump: Wall Street trims expectations ahead of earnings
-  - Crypto Long & Short: What this year's $972 million crypto hacks actually tell us about security
+  - JPMorgan says fading Clarity Act odds weigh on crypto outlook
+  - Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings
+  - Bitcoin ETFs on track for the smallest monthly inflows ever
+  - South Korea plans to tax crypto gains over $1,740 as political battle moves to parliament
+  - Crypto's resilience tested as oil rises after Iran strikes, Fed signals rates could still rise
 
-## 3. us_big_tech
+## 3. us_index_flow
 
-- 추천 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- 각도: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 84.0
+- 추천 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (qqq stock, qqq)
+- 점수: 91.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -200,28 +200,28 @@
   - 해설: 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.
   - 마무리: 반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다.
 - 팩트체크:
-  - 대표 종목 가격 변동률과 기준 시각 재확인
-  - 실적/가격 인상/공급망 뉴스 원문 링크 확인
-  - 개별 종목 이슈를 시장 전체 흐름처럼 과장하지 않기
+  - 나스닥/S&P/미국 증시 수치와 기준 시각 재확인
+  - 지수 하락/상승 원인을 한 문장으로 단정하지 않기
+  - 채권·달러·빅테크와의 연결 문장 교차 점검
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Zuckerberg lays out Meta's AI capacity dilemma: What to sell vs. what to keep
-  - Microsoft jumps 8% as it boosts capital spending plans, citing demand
-  - Inside India newsletter: Meta's clout in the world's largest democracy is surging — inviting scrutiny
-  - Meta shares tumble as Zuckerberg tries to sell his vision for AI ‘agents’
-  - Microsoft signs $130bn in data centre leases as it races to meet AI demand
+  - qqq stock
+  - qqq
+  - Crypto's resilience tested as oil rises after Iran strikes, Fed signals rates could still rise
+  - South Korean crypto trading surges amid stock market plunge
+  - Mapping the Market: Nasdaq selloff breaks key support levels after Fed - Reuters
 
-## 4. tariffs_trade
+## 4. china
 
-- 추천 제목: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
-- 각도: 섹터/세계 흐름 연결 해설 가능
-- 점수: 46.0
+- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 62.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유
-  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -270,10 +270,12 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 관세/무역 조치 공식 문서나 발표문 확인
-  - 시장 영향은 조건형 문장으로 서술
-  - 정치적 해석 과잉 여부 점검
+  - 정책 발표 또는 인터뷰 원문 여부 확인
+  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
+  - 한국/미국 시장 영향은 시나리오형으로 서술
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Sanctions Bill Would Give Trump Sweeping New Tariff Powers
+  - Chinese newspaper warns of Bitcoin extortion scam using its name
+  - 3. The Final Chapter on the Northern Sea Route: The Complex Motives of South Korea, China, and Japan
+  - China, Its Economy Stumbling, Signals Only Cautious Support

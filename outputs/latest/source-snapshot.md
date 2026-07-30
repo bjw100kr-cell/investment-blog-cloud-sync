@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-07-30T02:49:27.043063+00:00`
+- 생성 시각: `2026-07-30T14:24:11.464497+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,11 +25,37 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / It's a different kind of muscle
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ZJ6ousbHaSM! This is most likely caused by:
+
+The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / Record Profits, but Cash Flow is Negative?
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=TIstJa9odus! This is most likely caused by:
 
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+- `무역킹 Trade King YouTube` / Stop Getting Confused by Deep State, Globalists, Illuminati, and Freemasons
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=G2y78jPLp3k! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / Being Nice Isn't Always a Good Thing
@@ -71,80 +97,56 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / Eli Lilly: What Individual Investors Should Really Be Watching
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=HDCWc0dofZ0! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 2. Arctic Sea Route Special: The Significance of the U.S.-Russia Alaska Meeting and South Korea
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=a782lmYVX2E! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `fomc`: score 63, source_count 7, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Financial Times Home, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: score 53, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `us_big_tech`: score 24, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
-- `cpi`: score 16, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, NYT Business
-- `treasury_yields`: score 11, source_count 4, sources CNBC Top News, Financial Times World, NYT Business, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 10, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times YouTube, MarketWatch Breaking News
-- `oil`: score 10, source_count 4, sources Financial Times Home, Financial Times YouTube, Investing.com Crypto News, MarketWatch Breaking News
-- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `us_index_flow`: score 3, source_count 1, sources Reuters Markets via Google News RSS
-- `china`: score 3, source_count 1, sources 무역킹 Trade King YouTube
+- `bitcoin`: score 59, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 56, source_count 7, sources CoinDesk RSS, Federal Reserve Monetary Policy Press, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `us_index_flow`: score 45, source_count 4, sources CoinDesk RSS, Cointelegraph, Google Trends US, Reuters Markets via Google News RSS
+- `us_big_tech`: score 18, source_count 6, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `treasury_yields`: score 14, source_count 4, sources Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- `oil`: score 11, source_count 4, sources CoinDesk RSS, Financial Times YouTube, Investing.com Crypto News, NYT Business
+- `cpi`: score 11, source_count 3, sources CNBC Top News, MarketWatch Breaking News, NYT Business
+- `china`: score 8, source_count 3, sources Cointelegraph, NYT Business, 무역킹 Trade King YouTube
+- `ai_growth_stocks`: score 5, source_count 2, sources Cointelegraph, Financial Times YouTube
+- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
 
 ## 오늘의 글감 후보
 
-- `fomc`: score 63, headlines 20
+- `bitcoin`: score 59, headlines 18
+  - JPMorgan says fading Clarity Act odds weigh on crypto outlook
+  - Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings
+  - Bitcoin ETFs on track for the smallest monthly inflows ever
+- `fomc`: score 56, headlines 17
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `bitcoin`: score 53, headlines 16
-  - Senators ready to send stricter ethics rules on Trump's crypto ventures to White House, sources say
-  - Robinhood slides 4% despite earnings beat as crypto revenue cools
-  - As crypto perpetual futures boom, Ethereum’s role is shifting
-- `us_big_tech`: score 24, headlines 8
-  - Zuckerberg lays out Meta's AI capacity dilemma: What to sell vs. what to keep
-  - Microsoft jumps 8% as it boosts capital spending plans, citing demand
-  - Inside India newsletter: Meta's clout in the world's largest democracy is surging — inviting scrutiny
-- `cpi`: score 16, headlines 6
-  - Analysis: Fed Chairman Warsh's credibility in question after leaving interest rates unchanged
-  - US borrowing costs hit 19-year high as Fed defies inflation fears
-  - Fed’s favourite inflation gauge to be lowered by stats agency change
-- `treasury_yields`: score 11, headlines 4
-  - Analysis: Fed Chairman Warsh's credibility in question after leaving interest rates unchanged
-  - Warsh-led Fed leaves rates on hold and a bond market scratching its head - Reuters
-  - Summer slowdown ‘sharper than usual’ for UK property sales
-- `ai_semiconductors`: score 10, headlines 4
-  - Samsung Electronics second-quarter operating profit beats estimates on soaring AI chip demand
-  - Qualcomm posts shrinking sales and profits as chip costs hurt smartphone market
-  - Qualcomm’s stock falls as memory woes weigh on earnings
-- `oil`: score 10, headlines 4
+- `us_index_flow`: score 45, headlines 5
+  - qqq stock
+  - qqq
+  - Crypto's resilience tested as oil rises after Iran strikes, Fed signals rates could still rise
+- `us_big_tech`: score 18, headlines 7
+  - Meta tanks 9%, continuing record losing streak, while Microsoft jumps 14% as AI trade splits
+  - Meta shares tumble as Zuckerberg tries to sell his vision for AI ‘agents’
+  - Wall St opens higher as Microsoft's results temper some AI jitters - Reuters
+- `treasury_yields`: score 14, headlines 5
+  - Warsh’s stripped-back Fed communication ‘already backfiring’, say investors
+  - Morning Bid: Bond markets doing the Fed's work - Reuters
+  - Stocks gain on tech support, US 30-year yield near 2007 high - Reuters
+- `cpi`: score 11, headlines 5
+  - U.S. economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3%
+  - PCE inflation gauge falls for the first time since the pandemic. The danger is far from over.
+  - Fed’s Preferred Inflation Gauge Eased During Pause in Iran War
+- `oil`: score 11, headlines 4
+  - Crypto's resilience tested as oil rises after Iran strikes, Fed signals rates could still rise
   - Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold
-  - US oil inventories fall to ‘precariously low’ level as Iran war disrupts supply
-  - Why the USO oil ETF is a better buy than crude futures as the Iran war rages
-- `ethereum`: score 7, headlines 2
-  - As crypto perpetual futures boom, Ethereum’s role is shifting
-  - Ethereum Foundation adds SEAL 911 co-founder to board as privacy focus grows
-- `china`: score 3, headlines 1
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+- `china`: score 8, headlines 3
+  - Chinese newspaper warns of Bitcoin extortion scam using its name
   - 3. The Final Chapter on the Northern Sea Route: The Complex Motives of South Korea, China, and Japan
-- `us_index_flow`: score 3, headlines 1
-  - Magnificent 7 results set to test broadening US stock market - Reuters
+  - China, Its Economy Stumbling, Signals Only Cautious Support
+- `ai_growth_stocks`: score 5, headlines 2
+  - Hedge fund with $1.1B in Bitcoin miner stocks seeks capital after AI sell-off: FT
+  - Palantir: profits, procurement and power | FT Film
+- `ethereum`: score 4, headlines 1
+  - Ethereum enters its second decade after a year of upheaval at the foundation

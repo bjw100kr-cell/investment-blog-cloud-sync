@@ -8,7 +8,7 @@
   - reason: no_live_followup_urls
 - `bitcoin` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls
-- `us_big_tech` / applied `False` / changed `False` / live picks `0`
+- `china` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls
-- `tariffs_trade` / applied `False` / changed `False` / live picks `0`
+- `us_index_flow` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls
