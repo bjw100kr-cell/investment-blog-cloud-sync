@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Strategy books $8.2 billion Q2 loss on bitcoin price decline",
-    "Ondo Finance weighs acquisition worth up to $500 million",
-    "Crypto for Advisors: Is the Clarity Act dead?",
-    "JPMorgan says fading Clarity Act odds weigh on crypto outlook",
-    "Coldcard issues Mk3 warning as experts examine $38M Bitcoin wallet drain"
+    "Circle secures New York trust charter as crypto regulatory push accelerates",
+    "Coinbase's weak quarter leaves Wall Street split on timing of a recovery",
+    "RWA perps will outpace tokenization",
+    "Dubai-based crypto exchange tied to $4 billion Iran sanctioned-evasion network",
+    "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,7 +180,7 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 85.0,
+    "total_score": 87.0,
     "search_score": 29,
     "timeliness_score": 18,
     "explanatory_score": 17,

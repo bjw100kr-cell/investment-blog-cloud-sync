@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T03:32:27.949760+00:00",
+  "generated_at": "2026-07-31T14:26:50.554625+00:00",
   "target_daily_visitors": 200,
   "status": "measurement_missing_keep_building",
   "proof": {
@@ -9,7 +9,7 @@
     "measurement_missing": true
   },
   "publishing_capacity": {
-    "quality_ready_count": 7,
+    "quality_ready_count": 5,
     "blogger_ready_count": 1,
     "recommended_posts_next_run": 1,
     "rule": "품질 게이트 통과 글만 실행당 최대 3건"
@@ -34,25 +34,6 @@
       ]
     },
     {
-      "mapped_keyword": "ai_semiconductors",
-      "primary_query": "AI 반도체 주식",
-      "supporting_queries": [
-        "엔비디아 주가 영향",
-        "반도체 사이클 전망",
-        "AI 데이터센터 수혜주",
-        "cathie wood nvidia stock purchase"
-      ],
-      "suggested_title": "AI 반도체 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 5200,
-      "use_in": [
-        "title",
-        "first_h2",
-        "meta_description",
-        "internal_link_anchor",
-        "social_share_copy"
-      ]
-    },
-    {
       "mapped_keyword": "fomc",
       "primary_query": "FOMC 일정",
       "supporting_queries": [
@@ -61,7 +42,7 @@
         "연준 금리 발표 비트코인 영향"
       ],
       "suggested_title": "FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 4200,
+      "demand_signal_score": 5000,
       "use_in": [
         "title",
         "first_h2",
@@ -79,7 +60,7 @@
         "마이크로소프트 AI 투자"
       ],
       "suggested_title": "미국 빅테크 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 3000,
+      "demand_signal_score": 2500,
       "use_in": [
         "title",
         "first_h2",
@@ -89,16 +70,25 @@
       ]
     },
     {
-      "mapped_keyword": "dollar",
-      "primary_query": "달러 인덱스 보는법",
-      "supporting_queries": [
-        "달러 강세 주식 영향",
-        "환율 상승 코인 영향",
-        "원달러 환율 전망",
-        "달러원환율"
-      ],
-      "suggested_title": "달러 인덱스 보는법 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 300,
+      "mapped_keyword": "cpi",
+      "primary_query": "cpi",
+      "supporting_queries": [],
+      "suggested_title": "cpi 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "demand_signal_score": 2200,
+      "use_in": [
+        "title",
+        "first_h2",
+        "meta_description",
+        "internal_link_anchor",
+        "social_share_copy"
+      ]
+    },
+    {
+      "mapped_keyword": "",
+      "primary_query": "rddt stock",
+      "supporting_queries": [],
+      "suggested_title": "rddt stock 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "demand_signal_score": 5000,
       "use_in": [
         "title",
         "first_h2",
@@ -257,7 +247,7 @@
   "distribution_summary": {
     "planned_public_url_count": 16,
     "manual_checklist_item_count": 48,
-    "published_expansion_item_count": 13
+    "published_expansion_item_count": 14
   },
   "manual_distribution_potential_visitors": 560,
   "measurement_action": {

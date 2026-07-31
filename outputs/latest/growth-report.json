@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T03:32:23.889532+00:00",
+  "generated_at": "2026-07-31T14:26:46.187077+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -14,12 +14,15 @@
     {
       "keyword": "fomc",
       "recommended_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
-      "total_score": 94.0,
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음",
+      "total_score": 96.0,
       "monetization_score": 15,
       "source_names": [
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
+        "Financial Times World",
         "Investing.com Crypto News",
+        "MarketWatch Breaking News",
         "NYT Business"
       ]
     },
@@ -27,7 +30,7 @@
       "keyword": "bitcoin",
       "recommended_title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
-      "total_score": 85.0,
+      "total_score": 87.0,
       "monetization_score": 15,
       "source_names": [
         "CoinDesk RSS",
@@ -36,16 +39,15 @@
       ]
     },
     {
-      "keyword": "ai_semiconductors",
-      "recommended_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (cathie wood nvidia stock purchase)",
-      "total_score": 88.0,
+      "keyword": "us_big_tech",
+      "recommended_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "total_score": 73.0,
       "monetization_score": 15,
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times YouTube",
-        "Google Trends US"
+        "Financial Times World",
+        "MarketWatch Breaking News"
       ]
     }
   ],
@@ -61,19 +63,19 @@
     },
     {
       "category": "global-sector",
-      "post_count": 2,
+      "post_count": 1,
       "keywords": [
-        "ai_semiconductors",
-        "china"
+        "us_big_tech"
       ],
-      "avg_monetization_score": 14.5,
-      "weighted_priority_score": 15.23
+      "avg_monetization_score": 15.0,
+      "weighted_priority_score": 15.75
     },
     {
       "category": "macro",
-      "post_count": 1,
+      "post_count": 2,
       "keywords": [
-        "fomc"
+        "fomc",
+        "cpi"
       ],
       "avg_monetization_score": 15.0,
       "weighted_priority_score": 15.0
@@ -83,9 +85,10 @@
     {
       "brand_lane": "macro",
       "label": "거시경제",
-      "post_count": 1,
+      "post_count": 2,
       "keywords": [
-        "fomc"
+        "fomc",
+        "cpi"
       ],
       "avg_monetization_score": 15.0
     },
@@ -103,46 +106,13 @@
       "label": "미국주식",
       "post_count": 1,
       "keywords": [
-        "ai_semiconductors"
+        "us_big_tech"
       ],
       "avg_monetization_score": 15.0
-    },
-    {
-      "brand_lane": "world-flow",
-      "label": "세계 흐름",
-      "post_count": 1,
-      "keywords": [
-        "china"
-      ],
-      "avg_monetization_score": 14.0
     }
   ],
   "query_watchlist": [],
   "trend_watchlist": [
-    {
-      "keyword": "ai_semiconductors",
-      "trend_queries": [
-        "cathie wood nvidia stock purchase"
-      ],
-      "trend_count": 1,
-      "traffic_score_sum": 5000,
-      "regions": [
-        "US"
-      ],
-      "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
-    },
-    {
-      "keyword": "dollar",
-      "trend_queries": [
-        "달러원환율"
-      ],
-      "trend_count": 1,
-      "traffic_score_sum": 100,
-      "regions": [
-        "KR"
-      ],
-      "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
-    },
     {
       "keyword": "bitcoin",
       "trend_queries": [],
@@ -166,6 +136,14 @@
       "traffic_score_sum": 0,
       "regions": [],
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
+    },
+    {
+      "keyword": "cpi",
+      "trend_queries": [],
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "regions": [],
+      "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     }
   ],
   "schedule_mix": {
@@ -173,14 +151,14 @@
       "lane_focus_macro": 1,
       "lane_focus_crypto": 1,
       "lane_focus_us-stocks": 1,
-      "lane_focus_world-flow": 1,
+      "support": 1,
       "evergreen_support": 1,
       "secondary_lane_support": 1,
       "weekly_recap": 1
     },
     "post_types": {
-      "breaking_explainer": 4,
-      "evergreen_explainer": 2,
+      "breaking_explainer": 3,
+      "evergreen_explainer": 3,
       "weekly_macro_recap": 1
     },
     "days_scheduled": 7
@@ -218,7 +196,7 @@
         ],
         "paragraph_count": 32,
         "short_paragraphs": 23,
-        "long_paragraphs": 2,
+        "long_paragraphs": 3,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
         "dominant_sentence_ending_ratio": 0.106
@@ -255,8 +233,8 @@
         "dominant_sentence_ending_ratio": 0.094
       },
       {
-        "keyword": "ai_semiconductors",
-        "recommended_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "keyword": "us_big_tech",
+        "recommended_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
         "score": 92,
         "robotic_phrase_hits": [],
         "reader_bridge_hits": [
@@ -281,15 +259,15 @@
           "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
         ],
         "paragraph_count": 32,
-        "short_paragraphs": 22,
+        "short_paragraphs": 23,
         "long_paragraphs": 3,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
-        "dominant_sentence_ending_ratio": 0.092
+        "dominant_sentence_ending_ratio": 0.094
       },
       {
-        "keyword": "china",
-        "recommended_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+        "keyword": "cpi",
+        "recommended_title": "CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유",
         "score": 92,
         "robotic_phrase_hits": [],
         "reader_bridge_hits": [
@@ -298,7 +276,7 @@
         ],
         "direct_address_hits": [
           "개인 투자자 입장에서는",
-          "독자 입장에서 중요한 건"
+          "이걸 내 돈 관점에서 보면"
         ],
         "interpretation_hits": [
           "투자자 언어로 다시 풀면"
@@ -307,18 +285,17 @@
           "가능성",
           "시나리오",
           "다만",
-          "반면",
-          "변수"
+          "반면"
         ],
         "warnings": [
           "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
         ],
         "paragraph_count": 32,
         "short_paragraphs": 22,
-        "long_paragraphs": 2,
+        "long_paragraphs": 3,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
-        "dominant_sentence_ending_ratio": 0.138
+        "dominant_sentence_ending_ratio": 0.109
       }
     ]
   },

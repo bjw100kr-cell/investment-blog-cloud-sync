@@ -1,44 +1,12 @@
 {
-  "generated_at": "2026-07-31T03:32:23.889532+00:00",
+  "generated_at": "2026-07-31T14:26:46.187077+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 6,
-    "unmatched_market_trend_count": 0,
+    "matched_keyword_count": 4,
+    "unmatched_market_trend_count": 1,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "ai_semiconductors",
-      "trend_count": 1,
-      "traffic_score_sum": 5000,
-      "max_approx_traffic": 5000,
-      "trend_queries": [
-        "cathie wood nvidia stock purchase"
-      ],
-      "regions": [
-        "US"
-      ],
-      "demand_signal_score": 5200,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
-    {
-      "keyword": "dollar",
-      "trend_count": 1,
-      "traffic_score_sum": 100,
-      "max_approx_traffic": 100,
-      "trend_queries": [
-        "달러원환율"
-      ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 300,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -58,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Strategy books $8.2 billion Q2 loss on bitcoin price decline",
-        "Ondo Finance weighs acquisition worth up to $500 million",
-        "Crypto for Advisors: Is the Clarity Act dead?"
+        "Circle secures New York trust charter as crypto regulatory push accelerates",
+        "Coinbase's weak quarter leaves Wall Street split on timing of a recovery",
+        "RWA perps will outpace tokenization"
       ]
     },
     {
@@ -70,16 +38,18 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4200,
+      "demand_signal_score": 5000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 30,
-      "source_count": 3,
+      "source_snapshot_score": 38,
+      "source_count": 6,
       "source_names": [
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
+        "Financial Times World",
         "Investing.com Crypto News",
-        "NYT Business"
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -94,48 +64,58 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3000,
+      "demand_signal_score": 2500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 18,
-      "source_count": 4,
+      "source_snapshot_score": 13,
+      "source_count": 3,
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
         "Financial Times World",
-        "Reuters Markets via Google News RSS"
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Amazon hikes 2026 capex to $220 billion due to higher memory costs",
-        "Tim Cook sees Apple's hybrid AI strategy as a 'competitive weapon'",
-        "Big Tech AI spending spree tops $1tn"
+        "Dwindling cash and soaring memory costs: Tech's AI buildout has ballooning price tag",
+        "Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more",
+        "Apple heads for $460 billion wipeout with its stock seeing worst post-earnings drop in 13 years"
       ]
     },
     {
-      "keyword": "china",
+      "keyword": "cpi",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2300,
+      "demand_signal_score": 2200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 11,
-      "source_count": 3,
+      "source_snapshot_score": 10,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
-        "NYT Business",
-        "무역킹 Trade King YouTube"
+        "Financial Times World",
+        "MarketWatch Breaking News",
+        "NYT Business"
       ],
       "sample_titles": [
-        "China’s U.S.-bound shipments fall in July after brief recovery, survey shows",
-        "China's factory activity unexpectedly contracts in July as export rush fades",
-        "3. The Final Chapter on the Northern Sea Route: The Complex Motives of South Korea, China, and Japan"
+        "Fed officials who voted to hike rates say action is needed now against inflation",
+        "Why 3 Fed dissenters say waiting to raise interest rates could make inflation harder to tame",
+        "Fed dissenters warn of challenges in taming inflation"
       ]
     }
   ],
-  "unmatched_market_trends": []
+  "unmatched_market_trends": [
+    {
+      "query": "rddt stock",
+      "region": "US",
+      "approx_traffic": "5000+",
+      "traffic_score": 5000,
+      "market_relevance_score": 1,
+      "brand_identity_match": true,
+      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
+    }
+  ]
 }

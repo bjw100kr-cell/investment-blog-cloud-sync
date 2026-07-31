@@ -9,7 +9,7 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `fomc` / publish `2026-07-31` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
 - sample_headlines:
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
@@ -30,33 +30,33 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - sample_headlines:
-  - Strategy books $8.2 billion Q2 loss on bitcoin price decline
-  - Ondo Finance weighs acquisition worth up to $500 million
-  - Crypto for Advisors: Is the Clarity Act dead?
+  - Circle secures New York trust charter as crypto regulatory push accelerates
+  - Coinbase's weak quarter leaves Wall Street split on timing of a recovery
+  - RWA perps will outpace tokenization
 - recent_evidence:
-  - Cointelegraph | 2026-07-31T02:38:09+00:00 | Coldcard issues Mk3 warning as experts examine $38M Bitcoin wallet drain
-  - Cointelegraph | 2026-07-31T00:31:21+00:00 | Bhutan’s Gelephu taps 3iQ to manage part of Bitcoin treasury
-  - Cointelegraph | 2026-07-30T21:36:39+00:00 | Strategy posts $8.2B Q2 loss as Bitcoin slump drives unrealized losses
+  - CoinDesk RSS | 2026-07-31T11:58:33+00:00 | U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships
+  - CoinDesk RSS | 2026-07-31T11:36:45+00:00 | ​Traders brace for an August crypto pull-back as protection against $60,000 bitcoin dip becomes top trade
+  - CoinDesk RSS | 2026-07-31T11:07:52+00:00 | Bitcoin, ether fall, equities rally with broader crypto market on track for best month in a year
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+## 3. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
-- keyword `ai_semiconductors` / publish `2026-08-02` / verdict `approve` / quality `review_before_publish`
+- keyword `us_big_tech` / publish `` / verdict `approve` / quality `needs_fix`
 - ready_now: `False` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (cathie wood nvidia stock purchase)
+- intent: 
+- why_now: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - sample_headlines:
-  - cathie wood nvidia stock purchase
-  - SK Hynix shares surge 25%, while Samsung soars over 20% as AI rally roars back
-  - Anthropic’s Claude AI models hack into 3 outside groups during testing
+  - Dwindling cash and soaring memory costs: Tech's AI buildout has ballooning price tag
+  - Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more
+  - Apple heads for $460 billion wipeout with its stock seeing worst post-earnings drop in 13 years
 - recent_evidence:
-  - Financial Times YouTube | 48K views | Silicon shadows: inside the black market for AI chips | FT Film
-  - Financial Times Home | 2026-07-31T00:55:13+00:00 | Anthropic’s Claude AI models hack into 3 outside groups during testing
-  - Google Trends US | 2026-07-30T20:00:00-07:00 | cathie wood nvidia stock purchase
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`
+  - Financial Times World | 2026-07-31T14:07:46+00:00 | Apple shares tumble as AI build-out hits supply chains and growth
+  - MarketWatch Breaking News | 2026-07-31T13:51:00+00:00 | Apple heads for $460 billion wipeout with its stock seeing worst post-earnings drop in 13 years
+  - Financial Times World | 2026-07-31T13:47:26+00:00 | Amazon increases AI infrastructure spending to $220bn this year
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply`
