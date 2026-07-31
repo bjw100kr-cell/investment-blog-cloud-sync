@@ -1,25 +1,40 @@
 {
-  "generated_at": "2026-07-30T14:24:11.464497+00:00",
+  "generated_at": "2026-07-31T03:32:23.889532+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
-    "unmatched_market_trend_count": 1,
+    "matched_keyword_count": 6,
+    "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "us_index_flow",
-      "trend_count": 2,
-      "traffic_score_sum": 2500,
-      "max_approx_traffic": 2000,
+      "keyword": "ai_semiconductors",
+      "trend_count": 1,
+      "traffic_score_sum": 5000,
+      "max_approx_traffic": 5000,
       "trend_queries": [
-        "qqq stock",
-        "qqq"
+        "cathie wood nvidia stock purchase"
       ],
       "regions": [
         "US"
       ],
-      "demand_signal_score": 2900,
+      "demand_signal_score": 5200,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
+    {
+      "keyword": "dollar",
+      "trend_count": 1,
+      "traffic_score_sum": 100,
+      "max_approx_traffic": 100,
+      "trend_queries": [
+        "달러원환율"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 300,
       "fallback_source": "trend_match",
       "confidence": "high",
       "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
@@ -31,11 +46,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 7100,
+      "demand_signal_score": 6400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 59,
+      "source_snapshot_score": 52,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -43,9 +58,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "JPMorgan says fading Clarity Act odds weigh on crypto outlook",
-        "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings",
-        "Bitcoin ETFs on track for the smallest monthly inflows ever"
+        "Strategy books $8.2 billion Q2 loss on bitcoin price decline",
+        "Ondo Finance weighs acquisition worth up to $500 million",
+        "Crypto for Advisors: Is the Clarity Act dead?"
       ]
     },
     {
@@ -55,18 +70,16 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6800,
+      "demand_signal_score": 4200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 56,
-      "source_count": 7,
+      "source_snapshot_score": 30,
+      "source_count": 3,
       "source_names": [
-        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
         "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "NYT Business"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -86,55 +99,43 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 18,
-      "source_count": 6,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
         "Financial Times World",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Meta tanks 9%, continuing record losing streak, while Microsoft jumps 14% as AI trade splits",
-        "Meta shares tumble as Zuckerberg tries to sell his vision for AI ‘agents’",
-        "Wall St opens higher as Microsoft's results temper some AI jitters - Reuters"
+        "Amazon hikes 2026 capex to $220 billion due to higher memory costs",
+        "Tim Cook sees Apple's hybrid AI strategy as a 'competitive weapon'",
+        "Big Tech AI spending spree tops $1tn"
       ]
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "china",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2600,
+      "demand_signal_score": 2300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
-      "source_count": 4,
+      "source_snapshot_score": 11,
+      "source_count": 3,
       "source_names": [
-        "Financial Times Home",
-        "Financial Times World",
+        "CNBC Top News",
         "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
-        "Warsh’s stripped-back Fed communication ‘already backfiring’, say investors",
-        "Morning Bid: Bond markets doing the Fed's work - Reuters",
-        "Stocks gain on tech support, US 30-year yield near 2007 high - Reuters"
+        "China’s U.S.-bound shipments fall in July after brief recovery, survey shows",
+        "China's factory activity unexpectedly contracts in July as export rush fades",
+        "3. The Final Chapter on the Northern Sea Route: The Complex Motives of South Korea, China, and Japan"
       ]
     }
   ],
-  "unmatched_market_trends": [
-    {
-      "query": "sandisk stock",
-      "region": "US",
-      "approx_traffic": "2000+",
-      "traffic_score": 2000,
-      "market_relevance_score": 1,
-      "brand_identity_match": true,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    }
-  ]
+  "unmatched_market_trends": []
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T14:24:11.464497+00:00",
+  "generated_at": "2026-07-31T03:32:23.889532+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -14,24 +14,20 @@
     {
       "keyword": "fomc",
       "recommended_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
-      "total_score": 97.0,
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "total_score": 94.0,
       "monetization_score": 15,
       "source_names": [
-        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
         "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "NYT Business"
       ]
     },
     {
       "keyword": "bitcoin",
       "recommended_title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
-      "total_score": 83.0,
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "total_score": 85.0,
       "monetization_score": 15,
       "source_names": [
         "CoinDesk RSS",
@@ -40,16 +36,16 @@
       ]
     },
     {
-      "keyword": "us_index_flow",
-      "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (qqq stock, qqq)",
-      "total_score": 91.0,
+      "keyword": "ai_semiconductors",
+      "recommended_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (cathie wood nvidia stock purchase)",
+      "total_score": 88.0,
       "monetization_score": 15,
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Google Trends US",
-        "Reuters Markets via Google News RSS"
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times YouTube",
+        "Google Trends US"
       ]
     }
   ],
@@ -67,7 +63,7 @@
       "category": "global-sector",
       "post_count": 2,
       "keywords": [
-        "us_index_flow",
+        "ai_semiconductors",
         "china"
       ],
       "avg_monetization_score": 14.5,
@@ -107,7 +103,7 @@
       "label": "미국주식",
       "post_count": 1,
       "keywords": [
-        "us_index_flow"
+        "ai_semiconductors"
       ],
       "avg_monetization_score": 15.0
     },
@@ -124,15 +120,26 @@
   "query_watchlist": [],
   "trend_watchlist": [
     {
-      "keyword": "us_index_flow",
+      "keyword": "ai_semiconductors",
       "trend_queries": [
-        "qqq stock",
-        "qqq"
+        "cathie wood nvidia stock purchase"
       ],
-      "trend_count": 2,
-      "traffic_score_sum": 2500,
+      "trend_count": 1,
+      "traffic_score_sum": 5000,
       "regions": [
         "US"
+      ],
+      "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
+    },
+    {
+      "keyword": "dollar",
+      "trend_queries": [
+        "달러원환율"
+      ],
+      "trend_count": 1,
+      "traffic_score_sum": 100,
+      "regions": [
+        "KR"
       ],
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
@@ -154,14 +161,6 @@
     },
     {
       "keyword": "us_big_tech",
-      "trend_queries": [],
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "regions": [],
-      "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
-    },
-    {
-      "keyword": "treasury_yields",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -219,7 +218,7 @@
         ],
         "paragraph_count": 32,
         "short_paragraphs": 23,
-        "long_paragraphs": 3,
+        "long_paragraphs": 2,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
         "dominant_sentence_ending_ratio": 0.106
@@ -256,8 +255,8 @@
         "dominant_sentence_ending_ratio": 0.094
       },
       {
-        "keyword": "us_index_flow",
-        "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+        "keyword": "ai_semiconductors",
+        "recommended_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
         "score": 92,
         "robotic_phrase_hits": [],
         "reader_bridge_hits": [
@@ -286,7 +285,7 @@
         "long_paragraphs": 3,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
-        "dominant_sentence_ending_ratio": 0.094
+        "dominant_sentence_ending_ratio": 0.092
       },
       {
         "keyword": "china",

@@ -1,37 +1,33 @@
 {
-  "generated_at": "2026-07-30T14:24:11.464497+00:00",
+  "generated_at": "2026-07-31T03:32:23.889532+00:00",
   "item_count": 3,
   "items": [
     {
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-07-30",
-      "priority_score": 140.0,
+      "publish_date": "2026-07-31",
+      "priority_score": 137.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "format": "macro_explainer",
       "source_names": [
-        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
         "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "NYT Business"
       ],
       "sample_headlines": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Crypto's resilience tested as oil rises after Iran strikes, Fed signals rates could still rise"
+        "Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 6800,
+      "demand_signal_score": 4200,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 7,
-      "search_score": 29,
+      "source_count": 3,
+      "search_score": 26,
       "timeliness_score": 25,
       "monetization_score": 15,
       "recent_evidence": [
@@ -80,11 +76,11 @@
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-07-31",
-      "priority_score": 122.0,
+      "publish_date": "2026-08-01",
+      "priority_score": 124.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "format": "crypto_analysis",
       "source_names": [
         "CoinDesk RSS",
@@ -92,15 +88,15 @@
         "Investing.com Crypto News"
       ],
       "sample_headlines": [
+        "Strategy books $8.2 billion Q2 loss on bitcoin price decline",
+        "Ondo Finance weighs acquisition worth up to $500 million",
+        "Crypto for Advisors: Is the Clarity Act dead?",
         "JPMorgan says fading Clarity Act odds weigh on crypto outlook",
-        "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings",
-        "Bitcoin ETFs on track for the smallest monthly inflows ever",
-        "South Korea plans to tax crypto gains over $1,740 as political battle moves to parliament",
-        "Crypto's resilience tested as oil rises after Iran strikes, Fed signals rates could still rise"
+        "Coldcard issues Mk3 warning as experts examine $38M Bitcoin wallet drain"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 7100,
+      "demand_signal_score": 6400,
       "fallback_source": "source_snapshot_rank",
       "source_count": 3,
       "search_score": 29,
@@ -108,112 +104,102 @@
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Hedge fund with $1.1B in Bitcoin miner stocks seeks capital after AI sell-off: FT",
+          "title": "Coldcard issues Mk3 warning as experts examine $38M Bitcoin wallet drain",
           "source_name": "Cointelegraph",
-          "published": "Thu, 30 Jul 2026 11:29:03 +0000",
-          "published_iso": "2026-07-30T11:29:03+00:00",
-          "link": "https://cointelegraph.com/markets/hedge-fund-with-11b-in-bitcoin-miner-stocks-seeks-capital-after-ai-sell-off-ft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Fri, 31 Jul 2026 02:38:09 +0000",
+          "published_iso": "2026-07-31T02:38:09+00:00",
+          "link": "https://cointelegraph.com/news/coldcard-mk3-warning-594-btc-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin ETFs on track for the smallest monthly inflows ever",
+          "title": "Bhutan’s Gelephu taps 3iQ to manage part of Bitcoin treasury",
+          "source_name": "Cointelegraph",
+          "published": "Fri, 31 Jul 2026 00:31:21 +0000",
+          "published_iso": "2026-07-31T00:31:21+00:00",
+          "link": "https://cointelegraph.com/news/bhutan-gelephu-3iq-bitcoin-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Strategy posts $8.2B Q2 loss as Bitcoin slump drives unrealized losses",
+          "source_name": "Cointelegraph",
+          "published": "Thu, 30 Jul 2026 21:36:39 +0000",
+          "published_iso": "2026-07-30T21:36:39+00:00",
+          "link": "https://cointelegraph.com/news/strategy-reports-q2-2026-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Strategy books $8.2 billion Q2 loss on bitcoin price decline",
           "source_name": "CoinDesk RSS",
-          "published": "Thu, 30 Jul 2026 11:18:34 +0000",
-          "published_iso": "2026-07-30T11:18:34+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/07/30/bitcoin-etfs-on-track-for-the-smallest-monthly-inflows-ever",
+          "published": "Thu, 30 Jul 2026 20:32:13 +0000",
+          "published_iso": "2026-07-30T20:32:13+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/30/strategy-books-usd8-2-billion-second-quarter-loss-on-bitcoin-price-decline",
           "source_type": "rss"
         },
         {
-          "title": "Chinese newspaper warns of Bitcoin extortion scam using its name",
-          "source_name": "Cointelegraph",
-          "published": "Thu, 30 Jul 2026 07:28:57 +0000",
-          "published_iso": "2026-07-30T07:28:57+00:00",
-          "link": "https://cointelegraph.com/news/chinese-newspaper-bitcoin-extortion-scam-name?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin ETF inflows return as Ether funds slip into outflows",
-          "source_name": "Cointelegraph",
-          "published": "Thu, 30 Jul 2026 07:05:23 +0000",
-          "published_iso": "2026-07-30T07:05:23+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-etf-inflows-return-ether-funds-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin slightly up near $65k amid rates, Iran jitters; Strategy earnings on tap",
+          "title": "Bitcoin caught up in broader risk asset rally; Strategy swings to quarterly loss",
           "source_name": "Investing.com Crypto News",
-          "published": "2026-07-30 13:11:21",
-          "published_iso": "2026-07-30 13:11:21",
+          "published": "2026-07-30 22:04:06",
+          "published_iso": "2026-07-30 22:04:06",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-to-64k-amid-rates-iran-jitters-strategy-earnings-on-tap-4822491",
           "source_type": "rss"
         }
       ]
     },
     {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "publish_date": "",
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "publish_date": "2026-08-02",
       "priority_score": 123.0,
       "ready_now": false,
-      "quality_status": "needs_fix",
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (qqq stock, qqq)",
+      "quality_status": "review_before_publish",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (cathie wood nvidia stock purchase)",
       "format": "sector_analysis",
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Google Trends US",
-        "Reuters Markets via Google News RSS"
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times YouTube",
+        "Google Trends US"
       ],
       "sample_headlines": [
-        "qqq stock",
-        "qqq",
-        "Crypto's resilience tested as oil rises after Iran strikes, Fed signals rates could still rise",
-        "South Korean crypto trading surges amid stock market plunge",
-        "Mapping the Market: Nasdaq selloff breaks key support levels after Fed - Reuters"
+        "cathie wood nvidia stock purchase",
+        "SK Hynix shares surge 25%, while Samsung soars over 20% as AI rally roars back",
+        "Anthropic’s Claude AI models hack into 3 outside groups during testing",
+        "Silicon shadows: inside the black market for AI chips | FT Film"
       ],
       "trend_queries": [
-        "qqq stock",
-        "qqq"
+        "cathie wood nvidia stock purchase"
       ],
       "trend_regions": [
         "US"
       ],
-      "demand_signal_score": 2900,
+      "demand_signal_score": 5200,
       "fallback_source": "trend_match",
       "source_count": 4,
       "search_score": 30,
-      "timeliness_score": 20,
+      "timeliness_score": 17,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "South Korean crypto trading surges amid stock market plunge",
-          "source_name": "Cointelegraph",
-          "published": "Thu, 30 Jul 2026 14:10:31 +0000",
-          "published_iso": "2026-07-30T14:10:31+00:00",
-          "link": "https://cointelegraph.com/markets/south-korean-crypto-trading-surges-amid-stock-market-plunge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Silicon shadows: inside the black market for AI chips | FT Film",
+          "source_name": "Financial Times YouTube",
+          "published": "48K views",
+          "published_iso": "48K views",
+          "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "Anthropic’s Claude AI models hack into 3 outside groups during testing",
+          "source_name": "Financial Times Home",
+          "published": "Fri, 31 Jul 2026 00:55:13 GMT",
+          "published_iso": "2026-07-31T00:55:13+00:00",
+          "link": "https://www.ft.com/content/1a841f08-8e59-49d9-9561-0ed20e9190df?syn-25a6b1a6=1",
           "source_type": "rss"
         },
         {
-          "title": "Mapping the Market: Nasdaq selloff breaks key support levels after Fed - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Thu, 30 Jul 2026 10:11:20 GMT",
-          "published_iso": "2026-07-30T10:11:20+00:00",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWmxxTG9xVmtTTGttZEwwMEtlWXZCSlZzd0Vjejl6dTFTM2VXZGhkbnZyUjAyY2RzY19LM1JxVFJhQkI2cXJIZzJacGZrb1o2R2ZUSk8zNVdaS29DSDBqbkhCdmdGYnNaSzM1Y3dEN0M5UU1pbU9wZnRRZnhoaWZkS3Nacw?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "qqq stock",
+          "title": "cathie wood nvidia stock purchase",
           "source_name": "Google Trends US",
-          "published": "Thu, 30 Jul 2026 07:10:00 -0700",
-          "published_iso": "2026-07-30T07:10:00-07:00",
-          "link": "https://trends.google.com/trending/rss?geo=US",
-          "source_type": "rss"
-        },
-        {
-          "title": "qqq",
-          "source_name": "Google Trends US",
-          "published": "Thu, 30 Jul 2026 07:00:00 -0700",
-          "published_iso": "2026-07-30T07:00:00-07:00",
+          "published": "Thu, 30 Jul 2026 20:00:00 -0700",
+          "published_iso": "2026-07-30T20:00:00-07:00",
           "link": "https://trends.google.com/trending/rss?geo=US",
           "source_type": "rss"
         }

@@ -9,18 +9,18 @@
 
 ## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword `fomc` / publish `2026-07-30` / priority `140.0`
+- keyword `fomc` / publish `2026-07-31` / priority `137.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
-- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
-- evidence score: demand `6800` / fallback `source_snapshot_rank` / format `macro_explainer`
-- source_names: CoinDesk RSS, Federal Reserve Monetary Policy Press, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- evidence score: demand `4200` / fallback `source_snapshot_rank` / format `macro_explainer`
+- source_names: Federal Reserve Monetary Policy Press, Investing.com Crypto News, NYT Business
 - sample_headlines:
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Crypto's resilience tested as oil rises after Iran strikes, Fed signals rates could still rise
+  - Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold
 - recent_evidence:
   - Federal Reserve Monetary Policy Press | 2026-07-29T18:00:00+00:00 | Federal Reserve issues FOMC statement
   - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve issues FOMC statement
@@ -45,10 +45,10 @@
 
 ## 도입부
 
-2026년 7월 30일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 7월 31일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 공식 발표 자료, 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+쉽게 말해 공식 발표 자료, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
 예를 들어 `Federal Reserve issues FOMC statement` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
@@ -103,7 +103,7 @@
 
 ## 출처 체크
 
-- 주요 참고 소스: CoinDesk RSS, Federal Reserve Monetary Policy Press, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 주요 참고 소스: Federal Reserve Monetary Policy Press, Investing.com Crypto News, NYT Business
 - 발행 전 재확인: FOMC 성명서 원문 날짜와 발표 시각 확인
 - 발행 전 재확인: 점도표/경제전망 최신 버전 확인
 - 발행 전 재확인: 달러, 미국채 금리, 나스닥 관련 수치 재확인
@@ -127,23 +127,23 @@
 
 ## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-07-31` / priority `122.0`
+- keyword `bitcoin` / publish `2026-08-01` / priority `124.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
-- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- evidence score: demand `7100` / fallback `source_snapshot_rank` / format `crypto_analysis`
+- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- evidence score: demand `6400` / fallback `source_snapshot_rank` / format `crypto_analysis`
 - source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - sample_headlines:
+  - Strategy books $8.2 billion Q2 loss on bitcoin price decline
+  - Ondo Finance weighs acquisition worth up to $500 million
+  - Crypto for Advisors: Is the Clarity Act dead?
   - JPMorgan says fading Clarity Act odds weigh on crypto outlook
-  - Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings
-  - Bitcoin ETFs on track for the smallest monthly inflows ever
-  - South Korea plans to tax crypto gains over $1,740 as political battle moves to parliament
 - recent_evidence:
-  - Cointelegraph | 2026-07-30T11:29:03+00:00 | Hedge fund with $1.1B in Bitcoin miner stocks seeks capital after AI sell-off: FT
-  - CoinDesk RSS | 2026-07-30T11:18:34+00:00 | Bitcoin ETFs on track for the smallest monthly inflows ever
-  - Cointelegraph | 2026-07-30T07:28:57+00:00 | Chinese newspaper warns of Bitcoin extortion scam using its name
-  - Cointelegraph | 2026-07-30T07:05:23+00:00 | Bitcoin ETF inflows return as Ether funds slip into outflows
+  - Cointelegraph | 2026-07-31T02:38:09+00:00 | Coldcard issues Mk3 warning as experts examine $38M Bitcoin wallet drain
+  - Cointelegraph | 2026-07-31T00:31:21+00:00 | Bhutan’s Gelephu taps 3iQ to manage part of Bitcoin treasury
+  - Cointelegraph | 2026-07-30T21:36:39+00:00 | Strategy posts $8.2B Q2 loss as Bitcoin slump drives unrealized losses
+  - CoinDesk RSS | 2026-07-30T20:32:13+00:00 | Strategy books $8.2 billion Q2 loss on bitcoin price decline
 - image_slots:
   - 대표 이미지 / Pexels / `bitcoin blockchain abstract blue finance` / Pexels License
   - 본문 보조 이미지 / Unsplash / `crypto market data abstract` / Unsplash License
@@ -163,17 +163,17 @@
 
 ## 도입부
 
-2026년 7월 30일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 7월 31일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `JPMorgan says fading Clarity Act odds weigh on crypto outlook` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+예를 들어 `Strategy books $8.2 billion Q2 loss on bitcoin price decline` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `JPMorgan says fading Clarity Act odds weigh on crypto outlook`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Strategy books $8.2 billion Q2 loss on bitcoin price decline`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `현물 ETF 순유입/순유출`, 다른 하나는 `달러 인덱스와 미국채 금리`입니다.
 한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -243,33 +243,32 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 ```
 
-## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword `us_index_flow` / publish `` / priority `123.0`
-- review `approve` score `100` / quality `needs_fix` / ready_now `False`
-- intent: 
+- keyword `ai_semiconductors` / publish `2026-08-02` / priority `123.0`
+- review `approve` score `100` / quality `review_before_publish` / ready_now `False`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
-- reason: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (qqq stock, qqq)
-- evidence score: demand `2900` / fallback `trend_match` / format `sector_analysis`
-- source_names: CoinDesk RSS, Cointelegraph, Google Trends US, Reuters Markets via Google News RSS
+- reason: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (cathie wood nvidia stock purchase)
+- evidence score: demand `5200` / fallback `trend_match` / format `sector_analysis`
+- source_names: CNBC Top News, Financial Times Home, Financial Times YouTube, Google Trends US
 - sample_headlines:
-  - qqq stock
-  - qqq
-  - Crypto's resilience tested as oil rises after Iran strikes, Fed signals rates could still rise
-  - South Korean crypto trading surges amid stock market plunge
+  - cathie wood nvidia stock purchase
+  - SK Hynix shares surge 25%, while Samsung soars over 20% as AI rally roars back
+  - Anthropic’s Claude AI models hack into 3 outside groups during testing
+  - Silicon shadows: inside the black market for AI chips | FT Film
 - recent_evidence:
-  - Cointelegraph | 2026-07-30T14:10:31+00:00 | South Korean crypto trading surges amid stock market plunge
-  - Reuters Markets via Google News RSS | 2026-07-30T10:11:20+00:00 | Mapping the Market: Nasdaq selloff breaks key support levels after Fed - Reuters
-  - Google Trends US | 2026-07-30T07:10:00-07:00 | qqq stock
-  - Google Trends US | 2026-07-30T07:00:00-07:00 | qqq
+  - Financial Times YouTube | 48K views | Silicon shadows: inside the black market for AI chips | FT Film
+  - Financial Times Home | 2026-07-31T00:55:13+00:00 | Anthropic’s Claude AI models hack into 3 outside groups during testing
+  - Google Trends US | 2026-07-30T20:00:00-07:00 | cathie wood nvidia stock purchase
 - image_slots:
-  - 대표 이미지 / Unsplash / `technology stocks office finance abstract` / Unsplash License
-  - 본문 보조 이미지 / Pexels / `semiconductor data center abstract` / Pexels License
+  - 대표 이미지 / Unsplash / `semiconductor chip blue abstract` / Unsplash License
+  - 본문 보조 이미지 / Pexels / `ai server data center abstract` / Pexels License
 
 ### Draft Body
 
 ```md
-# 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+# AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
 한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 
@@ -281,17 +280,17 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 도입부
 
-2026년 7월 30일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 7월 31일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사, 실시간 검색 흐름를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `qqq stock` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+쉽게 말해 해외 주요 매체 보도, 유튜브 해설, 실시간 검색 흐름를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `cathie wood nvidia stock purchase` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `qqq stock`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `cathie wood nvidia stock purchase`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `나스닥과 S&P500 상대 강도`, 다른 하나는 `미국채 10년물 금리`입니다.
 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -331,18 +330,18 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## FAQ 2개
 
-### 이 이슈를 볼 때 가장 먼저 확인할 것은 무엇인가요?
-핵심 숫자와 발표 시점, 그리고 시장이 그 숫자를 어떻게 해석하는지까지 함께 보는 편이 좋습니다.
+### AI 반도체는 엔비디아만 보면 되나요?
+그렇게 단순하게 보기는 어렵습니다. 메모리, 파운드리, 네트워크, 서버 공급망까지 같이 봐야 흐름이 더 잘 보입니다.
 
-### 개인 투자자는 어떤 식으로 접근해야 하나요?
-단정적으로 결론 내리기보다 시나리오를 나눠 보고, 다음 확인 포인트를 정해 두는 방식이 더 현실적입니다.
+### 섹터 강세가 이어질지 보려면 무엇을 확인해야 하나요?
+실적 숫자, 가이던스, CAPEX, 고객사 주문 흐름처럼 실제 수요가 이어지는 신호가 있는지 확인해야 합니다.
 
 ## 출처 체크
 
-- 주요 참고 소스: CoinDesk RSS, Cointelegraph, Google Trends US, Reuters Markets via Google News RSS
-- 발행 전 재확인: 나스닥/S&P/미국 증시 수치와 기준 시각 재확인
-- 발행 전 재확인: 지수 하락/상승 원인을 한 문장으로 단정하지 않기
-- 발행 전 재확인: 채권·달러·빅테크와의 연결 문장 교차 점검
+- 주요 참고 소스: CNBC Top News, Financial Times Home, Financial Times YouTube, Google Trends US
+- 발행 전 재확인: 기업 실적/가이던스 수치 원문 확인
+- 발행 전 재확인: 반도체 섹터 전반 일반화 과장 여부 점검
+- 발행 전 재확인: 대표 종목 티커와 실적 날짜 재확인
 
 ## 이 글에서 같이 봐야 할 관점
 
@@ -354,7 +353,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 ## CTA
 
 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
-다음 글에서는 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
+다음 글에서는 AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
 
 ## 면책문구
 

@@ -1,14 +1,14 @@
 # 발행 우선순위 큐
 
-- 생성 시각: `2026-07-30T14:24:11.464497+00:00`
+- 생성 시각: `2026-07-31T03:32:23.889532+00:00`
 - 큐 개수: `4`
 - 업로드 가능 글 수: `4`
 
 ## 1. fomc
 
 - 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 우선순위 점수: 140.0
-- 발행일: 2026-07-30 / 버킷: today_or_overdue
+- 우선순위 점수: 137.0
+- 발행일: 2026-07-31 / 버킷: today_or_overdue
 - 역할: lane_focus_macro / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
@@ -21,8 +21,8 @@
 ## 2. bitcoin
 
 - 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 우선순위 점수: 122.0
-- 발행일: 2026-07-31 / 버킷: tomorrow
+- 우선순위 점수: 124.0
+- 발행일: 2026-08-01 / 버킷: tomorrow
 - 역할: lane_focus_crypto / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
@@ -32,11 +32,26 @@
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크: site-foundation/hub-crypto.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 
-## 3. china
+## 3. ai_semiconductors
+
+- 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+- 우선순위 점수: 123.0
+- 발행일: 2026-08-02 / 버킷: this_week
+- 역할: lane_focus_us-stocks / 타입: breaking_explainer
+- 업로드 가능: True
+- 수익화 목표: 페이지뷰와 체류시간 균형 확보
+- CTA 초점: 실적·공급망·대표 종목 글로 연결
+- 광고 슬롯 추천: after_intro, mid_article, before_related_links
+- 트렌드 쿼리: cathie wood nvidia stock purchase
+- 발행 메모: 당일 이슈 해설형 글
+- 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
+- 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
+
+## 4. china
 
 - 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 우선순위 점수: 88.0
-- 발행일: 2026-08-02 / 버킷: this_week
+- 우선순위 점수: 103.0
+- 발행일: 2026-08-03 / 버킷: this_week
 - 역할: lane_focus_world-flow / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
@@ -44,19 +59,4 @@
 - 광고 슬롯 추천: after_intro, mid_article, before_related_links
 - 발행 메모: 당일 이슈 해설형 글
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
-
-## 4. us_index_flow
-
-- 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 우선순위 점수: 123.0
-- 발행일: 미정 / 버킷: later
-- 역할: unplanned / 타입: breaking_explainer
-- 업로드 가능: True
-- 수익화 목표: 페이지뷰와 체류시간 균형 확보
-- CTA 초점: 실적·공급망·대표 종목 글로 연결
-- 광고 슬롯 추천: after_intro, mid_article, before_related_links
-- 트렌드 쿼리: qqq stock, qqq
-- 발행 메모: 
-- 수익화 경로: 
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
