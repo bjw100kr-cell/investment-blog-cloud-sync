@@ -59,4 +59,4 @@
 
 - 현재 사용자 최종 확인 전 실제 업로드는 계속 차단됩니다.
 - bitcoin이 direct publish 기준 1순위이고, stale fomc는 direct path에서 제외된 상태입니다.
-- blogger blockers observed `5`
+- blogger blockers observed `7`

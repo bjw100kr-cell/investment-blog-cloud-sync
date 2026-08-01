@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-31T14:26:46.187077+00:00",
+  "generated_at": "2026-08-01T03:31:42.696841+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 1,
+    "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
@@ -14,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6400,
+      "demand_signal_score": 7300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 52,
+      "source_snapshot_score": 61,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Circle secures New York trust charter as crypto regulatory push accelerates",
-        "Coinbase's weak quarter leaves Wall Street split on timing of a recovery",
-        "RWA perps will outpace tokenization"
+        "Bitcoin holds monthly gain, faces 'choppy' August as 'forced-selling' exhausted, analysts say",
+        "Tether posts $1.5 billion operating profit in Q2 as reserve buffer falls by half",
+        "The good and the bad of perps, according to crypto traders"
       ]
     },
     {
@@ -38,18 +38,18 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5000,
+      "demand_signal_score": 6000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 38,
-      "source_count": 6,
+      "source_snapshot_score": 48,
+      "source_count": 7,
       "source_names": [
         "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
         "Financial Times World",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -58,64 +58,56 @@
       ]
     },
     {
-      "keyword": "us_big_tech",
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2500,
+      "demand_signal_score": 3900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
-      "source_count": 3,
+      "source_snapshot_score": 27,
+      "source_count": 4,
       "source_names": [
-        "CNBC Top News",
+        "Cointelegraph",
+        "Financial Times Home",
         "Financial Times World",
-        "MarketWatch Breaking News"
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Dwindling cash and soaring memory costs: Tech's AI buildout has ballooning price tag",
-        "Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more",
-        "Apple heads for $460 billion wipeout with its stock seeing worst post-earnings drop in 13 years"
+        "Tether earns $1.5B in Q2 as US Treasury holdings fuel profits",
+        "US Treasury yields rise as TIPS challenge the inflation narrative",
+        "US Treasury undertakes historic intervention in yen market"
       ]
     },
     {
-      "keyword": "cpi",
+      "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2200,
+      "demand_signal_score": 2700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 10,
-      "source_count": 4,
+      "source_snapshot_score": 15,
+      "source_count": 5,
       "source_names": [
         "CNBC Top News",
-        "Financial Times World",
+        "Cointelegraph",
+        "Financial Times YouTube",
         "MarketWatch Breaking News",
-        "NYT Business"
+        "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
-        "Fed officials who voted to hike rates say action is needed now against inflation",
-        "Why 3 Fed dissenters say waiting to raise interest rates could make inflation harder to tame",
-        "Fed dissenters warn of challenges in taming inflation"
+        "Bybit adds tokenized Nvidia, Apple, Tesla stocks as loan collateral",
+        "Trump's AI executive order nears key deadline as regulation debate intensifies",
+        "Why has the NVIDIA stock been so quiet lately?"
       ]
     }
   ],
-  "unmatched_market_trends": [
-    {
-      "query": "rddt stock",
-      "region": "US",
-      "approx_traffic": "5000+",
-      "traffic_score": 5000,
-      "market_relevance_score": 1,
-      "brand_identity_match": true,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    }
-  ]
+  "unmatched_market_trends": []
 }

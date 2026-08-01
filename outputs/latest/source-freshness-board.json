@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-31T14:26:51.136393+00:00",
-  "snapshot_generated_at": "2026-07-31T14:26:46.187077+00:00",
+  "generated_at": "2026-08-01T03:31:47.555790+00:00",
+  "snapshot_generated_at": "2026-08-01T03:31:42.696841+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 3,
-    "aging": 0,
+    "fresh": 2,
+    "aging": 1,
     "stale": 0,
     "unknown": 0
   },
@@ -16,17 +16,18 @@
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-07-31",
-      "freshness_status": "fresh",
+      "publish_date": "2026-08-01",
+      "freshness_status": "aging",
       "newest_evidence_iso": "2026-07-29T18:00:00+00:00",
       "oldest_evidence_iso": "2026-06-17T18:00:00+00:00",
-      "newest_evidence_age_days": 1.9,
-      "source_count": 6,
-      "demand_signal_score": 5000,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "newest_evidence_age_days": 2.4,
+      "source_count": 7,
+      "demand_signal_score": 6000,
+      "summary_line": "아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.",
+      "recovery_mode": "refresh_before_publish",
+      "recovery_summary": "발행 직전 전체 파이프라인을 다시 돌려 headline과 숫자를 최신 상태로 갱신하는 편이 안전합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
       "recent_evidence": [
         {
           "title": "Federal Reserve issues FOMC statement",
@@ -55,87 +56,87 @@
       ]
     },
     {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-08-01",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-31T13:04:04+00:00",
-      "oldest_evidence_iso": "2026-07-31T07:04:03+00:00",
-      "newest_evidence_age_days": 0.1,
-      "source_count": 3,
-      "demand_signal_score": 6400,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 31 Jul 2026 11:58:33 +0000",
-          "published_iso": "2026-07-31T11:58:33+00:00",
-          "link": "https://www.coindesk.com/policy/2026/07/31/u-s-sanctions-iran-linked-bitcoin-insurance-scheme-for-strait-of-hormuz-ships",
-          "source_type": "rss"
-        },
-        {
-          "title": "​Traders brace for an August crypto pull-back as protection against $60,000 bitcoin dip becomes top trade",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 31 Jul 2026 11:36:45 +0000",
-          "published_iso": "2026-07-31T11:36:45+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/07/31/bitcoin-usd60-000-put-leads-the-pack-as-mood-swings-bearish-for-august",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin, ether fall, equities rally with broader crypto market on track for best month in a year",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 31 Jul 2026 11:07:52 +0000",
-          "published_iso": "2026-07-31T11:07:52+00:00",
-          "link": "https://www.coindesk.com/markets/2026/07/31/bitcoin-ether-fall-equities-rally-with-broader-crypto-market-on-track-for-best-month-in-a-year",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "us_big_tech",
-      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-      "quality_status": "needs_fix",
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "quality_status": "review_before_publish",
       "ready_now": false,
-      "publish_date": "",
+      "publish_date": "2026-08-03",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-07-31T14:07:46+00:00",
-      "oldest_evidence_iso": "2026-07-31T13:47:26+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 3,
-      "demand_signal_score": 2500,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Apple shares tumble as AI build-out hits supply chains and growth",
+      "newest_evidence_iso": "2026-07-31T20:23:00+00:00",
+      "oldest_evidence_iso": "2026-07-31T16:23:21+00:00",
+      "newest_evidence_age_days": 0.3,
+      "source_count": 5,
+      "demand_signal_score": 2700,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Why has the NVIDIA stock been so quiet lately?",
       "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Apple shares tumble as AI build-out hits supply chains and growth",
-          "source_name": "Financial Times World",
-          "published": "Fri, 31 Jul 2026 14:07:46 GMT",
-          "published_iso": "2026-07-31T14:07:46+00:00",
-          "link": "https://www.ft.com/content/762a504e-fca8-49d0-9f2e-b2f142fd749a?syn-25a6b1a6=1",
-          "source_type": "rss"
+          "title": "Why has the NVIDIA stock been so quiet lately?",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "7.4K views",
+          "published_iso": "7.4K views",
+          "link": "https://www.youtube.com/watch?v=AgxP3WdHkh0",
+          "source_type": "youtube_channel"
         },
         {
-          "title": "Apple heads for $460 billion wipeout with its stock seeing worst post-earnings drop in 13 years",
+          "title": "Silicon shadows: inside the black market for AI chips | FT Film",
+          "source_name": "Financial Times YouTube",
+          "published": "48K views",
+          "published_iso": "48K views",
+          "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "Did China build a top-tier AI model by itself? A new report suggests Nvidia chips played a role.",
           "source_name": "MarketWatch Breaking News",
-          "published": "Fri, 31 Jul 2026 13:51:00 GMT",
-          "published_iso": "2026-07-31T13:51:00+00:00",
-          "link": "https://www.marketwatch.com/story/apple-heads-for-460-billion-wipeout-with-its-stock-seeing-worst-post-earnings-drop-in-13-years-a438d16c?mod=mw_rss_topstories",
+          "published": "Fri, 31 Jul 2026 20:23:00 GMT",
+          "published_iso": "2026-07-31T20:23:00+00:00",
+          "link": "https://www.marketwatch.com/story/did-china-build-a-top-tier-ai-model-by-itself-a-new-report-suggests-nvidia-chips-played-a-role-ad4644cd?mod=mw_rss_topstories",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-08-02",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-07-31T21:45:54+00:00",
+      "oldest_evidence_iso": "2026-07-30T22:04:06+00:00",
+      "newest_evidence_age_days": 0.2,
+      "source_count": 3,
+      "demand_signal_score": 7300,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin holds monthly gain, faces 'choppy' August as 'forced-selling' exhausted, analysts say",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Bitcoin holds monthly gain, faces 'choppy' August as 'forced-selling' exhausted, analysts say",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 31 Jul 2026 20:50:58 +0000",
+          "published_iso": "2026-07-31T20:50:58+00:00",
+          "link": "https://www.coindesk.com/markets/2026/07/31/bitcoin-holds-onto-july-gain-as-forced-selling-fuel-was-already-spent-analysts-say",
           "source_type": "rss"
         },
         {
-          "title": "Amazon increases AI infrastructure spending to $220bn this year",
-          "source_name": "Financial Times World",
-          "published": "Fri, 31 Jul 2026 13:47:26 GMT",
-          "published_iso": "2026-07-31T13:47:26+00:00",
-          "link": "https://www.ft.com/content/fddc42a9-4c57-4689-abde-75bbe79622e9?syn-25a6b1a6=1",
+          "title": "Bitcoin price sinks to 2-week lows as US stocks fail to copy Asia rebound",
+          "source_name": "Cointelegraph",
+          "published": "Fri, 31 Jul 2026 15:57:03 +0000",
+          "published_iso": "2026-07-31T15:57:03+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-two-week-lows-us-stocks-fail-copy-asia-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin slips amid Fed uncertainty & Iran tensions, but set for solid July rebound",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-07-31 21:45:54",
+          "published_iso": "2026-07-31 21:45:54",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-steady-near-64k-with-fed-uncertainty-iran-tensions-in-focus-4826791",
           "source_type": "rss"
         }
       ]
