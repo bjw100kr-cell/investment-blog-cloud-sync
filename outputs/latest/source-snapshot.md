@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-01T03:31:42.696841+00:00`
+- 생성 시각: `2026-08-01T13:45:13.330024+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -100,53 +100,41 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 61, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 48, source_count 7, sources CNBC Top News, Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- `treasury_yields`: score 27, source_count 4, sources Cointelegraph, Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 15, source_count 5, sources CNBC Top News, Cointelegraph, Financial Times YouTube, MarketWatch Breaking News, 무역킹 Trade King YouTube
-- `us_big_tech`: score 12, source_count 4, sources CNBC Top News, Cointelegraph, Financial Times World, Reuters Markets via Google News RSS
-- `cpi`: score 11, source_count 4, sources CNBC Top News, Cointelegraph, NYT Business, Reuters Markets via Google News RSS
+- `bitcoin`: score 63, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 37, source_count 6, sources CNBC Top News, Federal Reserve Monetary Policy Press, Financial Times Home, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- `treasury_yields`: score 21, source_count 4, sources CNBC Top News, Cointelegraph, Financial Times Home, Reuters Markets via Google News RSS
+- `us_big_tech`: score 8, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - `oil`: score 8, source_count 3, sources Financial Times YouTube, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `us_index_flow`: score 7, source_count 2, sources Cointelegraph, MarketWatch Breaking News
-- `dollar`: score 6, source_count 2, sources Financial Times Home, Financial Times World
-- `china`: score 2, source_count 1, sources MarketWatch Breaking News
+- `ai_semiconductors`: score 5, source_count 2, sources Financial Times YouTube, 무역킹 Trade King YouTube
+- `us_index_flow`: score 2, source_count 1, sources MarketWatch Breaking News
+- `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 61, headlines 18
-  - Bitcoin holds monthly gain, faces 'choppy' August as 'forced-selling' exhausted, analysts say
-  - Tether posts $1.5 billion operating profit in Q2 as reserve buffer falls by half
-  - The good and the bad of perps, according to crypto traders
-- `fomc`: score 48, headlines 14
+- `bitcoin`: score 63, headlines 19
+  - Solana Foundation's new CISO warns AI is making crypto scams more convincing
+  - Everyone has the perps convergence backwards
+  - How bitcoin cold wallets lost $70 million in an attack that never touched the devices
+- `fomc`: score 37, headlines 10
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 27, headlines 9
+- `treasury_yields`: score 21, headlines 7
   - Tether earns $1.5B in Q2 as US Treasury holdings fuel profits
-  - US Treasury yields rise as TIPS challenge the inflation narrative
-  - US Treasury undertakes historic intervention in yen market
-- `ai_semiconductors`: score 15, headlines 6
-  - Bybit adds tokenized Nvidia, Apple, Tesla stocks as loan collateral
-  - Trump's AI executive order nears key deadline as regulation debate intensifies
-  - Why has the NVIDIA stock been so quiet lately?
-- `us_big_tech`: score 12, headlines 4
-  - Bybit adds tokenized Nvidia, Apple, Tesla stocks as loan collateral
-  - Alphabet, Amazon and Microsoft added nearly $1.5 trillion in combined value this week
-  - Wall Street ends higher as Amazon soothes AI jitters - Reuters
-- `cpi`: score 11, headlines 4
-  - US Treasury yields rise as TIPS challenge the inflation narrative
-  - As Warsh’s Fed faces pressure to act on inflation, these indicators show it’s at its lowest in years
-  - Fed chief Warsh faces hard choice on inflation after bond market's 'red flag' - Reuters
+  - Investors may want to focus on front end of yield curve — as Street anticipates next Fed meetings
+  - Bond sell-off sent warning on Fed’s credibility, says top central bank official
 - `oil`: score 8, headlines 3
   - Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold
   - Oil price rises after Iran says it stops ships in Hormuz - Reuters
   - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-- `us_index_flow`: score 7, headlines 3
-  - Bitcoin price sinks to 2-week lows as US stocks fail to copy Asia rebound
-  - The S&P 500 is making a change by adding this little-known industrial stock
-  - S&P 500 ends with its first July decline since 2014. Here are the stocks that led the selloff.
-- `dollar`: score 6, headlines 2
-  - Why South Korea’s won is one of world’s best performers
-  - Why South Korea’s won is one of world’s best performers
+- `us_big_tech`: score 8, headlines 3
+  - As Americans go direct with GLP-1 prescriptions, Walmart, Costco, Amazon will be big weight-loss winners
+  - Wall Street ends higher as Amazon soothes AI jitters - Reuters
+  - Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more
+- `ai_semiconductors`: score 5, headlines 2
+  - Why has the NVIDIA stock been so quiet lately?
+  - Silicon shadows: inside the black market for AI chips | FT Film
 - `ai_growth_stocks`: score 2, headlines 1
   - Palantir: profits, procurement and power | FT Film
+- `us_index_flow`: score 2, headlines 1
+  - 3 Wall Street strategists on the question every investor is asking: Is the worst over for the stock market?
