@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T13:45:13.330024+00:00",
+  "generated_at": "2026-08-02T03:31:23.357793+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -14,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 7500,
+      "demand_signal_score": 7100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 63,
+      "source_snapshot_score": 59,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Solana Foundation's new CISO warns AI is making crypto scams more convincing",
-        "Everyone has the perps convergence backwards",
-        "How bitcoin cold wallets lost $70 million in an attack that never touched the devices"
+        "Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million",
+        "Bitcoin mining difficulty shrinks 14% from this year's high as plunging revenues force operators to pivot",
+        "SEC to review Nasdaq bitcoin options approval after CME challenge"
       ]
     },
     {
@@ -38,23 +38,44 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4900,
+      "demand_signal_score": 4100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 37,
-      "source_count": 6,
+      "source_snapshot_score": 29,
+      "source_count": 3,
       "source_names": [
-        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Investing.com Crypto News",
-        "NYT Business"
+        "Financial Times World",
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2300,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 11,
+      "source_count": 2,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS"
+      ],
+      "sample_titles": [
+        "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
+        "SEC to review Nasdaq bitcoin options approval after CME challenge",
+        "Berkshire Hathaway shares hit eight-month high"
       ]
     },
     {
@@ -64,46 +85,20 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3300,
+      "demand_signal_score": 2100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 21,
-      "source_count": 4,
+      "source_snapshot_score": 9,
+      "source_count": 2,
       "source_names": [
-        "CNBC Top News",
-        "Cointelegraph",
-        "Financial Times Home",
+        "Financial Times World",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Tether earns $1.5B in Q2 as US Treasury holdings fuel profits",
-        "Investors may want to focus on front end of yield curve — as Street anticipates next Fed meetings",
-        "Bond sell-off sent warning on Fed’s credibility, says top central bank official"
-      ]
-    },
-    {
-      "keyword": "us_big_tech",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2000,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 8,
-      "source_count": 3,
-      "source_names": [
-        "CNBC Top News",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "As Americans go direct with GLP-1 prescriptions, Walmart, Costco, Amazon will be big weight-loss winners",
-        "Wall Street ends higher as Amazon soothes AI jitters - Reuters",
-        "Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more"
+        "US Treasury intervenes to support yen after Japan steps in, FT reports - Reuters",
+        "US Treasury informed banks that it may intervene in Japan's yen, source says - Reuters",
+        "US Treasury undertakes historic intervention in yen market"
       ]
     }
   ],

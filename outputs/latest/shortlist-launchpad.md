@@ -2,22 +2,22 @@
 
 shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어가기 위한 시작 화면입니다.
 - 원칙: 먼저 글을 읽고, 그 다음 confirm command 또는 helper apply command를 실행합니다.
-- item_count: `2`
+- item_count: `3`
 
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-08-02` / verdict `approve` / quality `pass`
+- keyword `bitcoin` / publish `2026-08-03` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - sample_headlines:
-  - Solana Foundation's new CISO warns AI is making crypto scams more convincing
-  - Everyone has the perps convergence backwards
-  - How bitcoin cold wallets lost $70 million in an attack that never touched the devices
+  - Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million
+  - Bitcoin mining difficulty shrinks 14% from this year's high as plunging revenues force operators to pivot
+  - SEC to review Nasdaq bitcoin options approval after CME challenge
 - recent_evidence:
-  - Cointelegraph | 2026-08-01T09:23:56+00:00 | Coldcard Bitcoin loss estimate rises to $70M after Galaxy analysis
-  - Cointelegraph | 2026-08-01T07:23:07+00:00 | Bitcoin ETFs end July in the green despite late-month selling
-  - CoinDesk RSS | 2026-08-01T05:55:46+00:00 | How bitcoin cold wallets lost $70 million in an attack that never touched the devices
+  - CoinDesk RSS | 2026-08-01T20:10:54+00:00 | Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million
+  - CoinDesk RSS | 2026-08-01T15:51:10+00:00 | Bitcoin mining difficulty shrinks 14% from this year's high as plunging revenues force operators to pivot
+  - CoinDesk RSS | 2026-08-01T15:48:27+00:00 | SEC to review Nasdaq bitcoin options approval after CME challenge
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
@@ -25,10 +25,10 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 
 ## 2. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword `fomc` / publish `2026-08-01` / verdict `approve` / quality `pass`
+- keyword `fomc` / publish `2026-08-02` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
+- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
 - sample_headlines:
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
@@ -41,3 +41,21 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
+
+## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+
+- keyword `us_index_flow` / publish `2026-08-04` / verdict `approve` / quality `review_before_publish`
+- ready_now: `False` / hero_image_selected: `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- why_now: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- sample_headlines:
+  - Tokenized stock trading surged 288% in July, but one QQQ token drove most of it
+  - SEC to review Nasdaq bitcoin options approval after CME challenge
+  - Berkshire Hathaway shares hit eight-month high
+- recent_evidence:
+  - CoinDesk RSS | 2026-08-01T16:51:35+00:00 | Tokenized stock trading surged 288% in July, but one QQQ token drove most of it
+  - CoinDesk RSS | 2026-08-01T15:48:27+00:00 | SEC to review Nasdaq bitcoin options approval after CME challenge
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply`

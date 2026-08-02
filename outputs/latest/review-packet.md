@@ -4,8 +4,8 @@
 
 - 사용자 최종 확인 파일: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/review-approvals.json`
 - 사용자 확인 헬퍼: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin` 또는 `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --all`
-- 총 검토 대상: `9`
-- 바로 최종 확인 가능: `9`
+- 총 검토 대상: `7`
+- 바로 최종 확인 가능: `7`
 - 주의 검토: `0`
 - 수정 권장: `0`
 
@@ -13,7 +13,7 @@
 
 - keyword: `fomc`
 - type: `main_post` / role `lane_focus_macro`
-- publish date: `2026-08-01`
+- publish date: `2026-08-02`
 - priority: `137.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
@@ -35,8 +35,8 @@
 
 - keyword: `bitcoin`
 - type: `main_post` / role `lane_focus_crypto`
-- publish date: `2026-08-02`
-- priority: `123.0`
+- publish date: `2026-08-03`
+- priority: `122.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
@@ -53,15 +53,37 @@
   한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
   - 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
 
+## 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+
+- keyword: `us_index_flow`
+- type: `main_post` / role `lane_focus_us-stocks`
+- publish date: `2026-08-04`
+- priority: `101.0`
+- internal review: `approve` / score `100`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- CTA focus: 실적·공급망·대표 종목 글로 연결
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-index-flow.md`
+- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html`
+- image review required: `True`
+- image 대표 이미지: Unsplash / query `technology stocks office finance abstract` / license Unsplash License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_index_flow --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 본문 보조 이미지: Pexels / query `semiconductor data center abstract` / license Pexels License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_index_flow --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- preview:
+  한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+  - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
+
 ## 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 
 - keyword: `treasury_yields`
 - type: `main_post` / role `support`
-- publish date: `2026-08-04`
-- priority: `118.0`
+- publish date: `2026-08-05`
+- priority: `99.0`
 - internal review: `approve` / score `100`
 - intent: FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `환율·금리·미국증시 evergreen 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
 - draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-treasury-yields.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유.html`
 - image review required: `True`
@@ -73,57 +95,19 @@
   한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
 
-## 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-
-- keyword: `us_big_tech`
-- type: `main_post` / role `unplanned`
-- publish date: `unscheduled`
-- priority: `98.0`
-- internal review: `approve` / score `100`
-- intent: 
-- CTA focus: 실적·공급망·대표 종목 글로 연결
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-big-tech.md`
-- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html`
-- image review required: `True`
-- image 대표 이미지: Unsplash / query `technology stocks office city abstract` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_big_tech --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- image 본문 보조 이미지: Pexels / query `semiconductor server data center abstract` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_big_tech --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- preview:
-  한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-  - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
-
 ## 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향
 
-- keyword: `seo_treasury_yields_6`
+- keyword: `seo_treasury_yields_8`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-08-04`
-- priority: `117.5`
+- publish date: `2026-08-05`
+- priority: `98.5`
 - internal review: `approve` / score `100`
 - intent: 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자
 - CTA focus: 거시 허브와 당일 해설 글로 연결
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/01-seo-treasury-yields-6.md`
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `환율·금리·미국증시 evergreen 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/01-seo-treasury-yields-8.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유가-주식과-코인에-미치는-영향.html`
-- image review required: `True`
-- image 대표 이미지: Unsplash / query `central bank finance city skyline market data` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_6 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- image 본문 보조 이미지: Pexels / query `interest rate macro economy data screen` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_6 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- preview:
-  한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
-
-## 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지
-
-- keyword: `seo_treasury_yields_8`
-- type: `seo_followup` / role `follow_up`
-- publish date: `2026-08-04`
-- priority: `114.5`
-- internal review: `approve` / score `100`
-- intent: 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자
-- CTA focus: 다음 이벤트 캘린더와 관련 거시 글로 연결
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/02-seo-treasury-yields-8.md`
-- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유에서-다음으로-봐야-할-체크포인트-5가지.html`
 - image review required: `True`
 - image 대표 이미지: Unsplash / query `central bank finance city skyline market data` / license Unsplash License
 - image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_8 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
@@ -131,64 +115,48 @@
 - image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_8 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - preview:
   한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
+
+## 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지
+
+- keyword: `seo_treasury_yields_10`
+- type: `seo_followup` / role `follow_up`
+- publish date: `2026-08-05`
+- priority: `95.5`
+- internal review: `approve` / score `100`
+- intent: 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자
+- CTA focus: 다음 이벤트 캘린더와 관련 거시 글로 연결
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `환율·금리·미국증시 evergreen 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/02-seo-treasury-yields-10.md`
+- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유에서-다음으로-봐야-할-체크포인트-5가지.html`
+- image review required: `True`
+- image 대표 이미지: Unsplash / query `central bank finance city skyline market data` / license Unsplash License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_10 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 본문 보조 이미지: Pexels / query `interest rate macro economy data screen` / license Pexels License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_10 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- preview:
+  한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
 
 ## 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지
 
-- keyword: `seo_treasury_yields_9`
+- keyword: `seo_treasury_yields_12`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-08-04`
-- priority: `111.5`
+- publish date: `2026-08-05`
+- priority: `92.5`
 - internal review: `approve` / score `100`
 - intent: 기초 개념을 처음부터 이해하고 싶은 초보 독자
 - CTA focus: About, 허브 글, 후속 해설 글로 연결
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/03-seo-treasury-yields-9.md`
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `환율·금리·미국증시 evergreen 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/03-seo-treasury-yields-12.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유-초보자-가이드-용어부터-시장-반응까지.html`
 - image review required: `True`
 - image 대표 이미지: Unsplash / query `central bank finance city skyline market data` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_9 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_12 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - image 본문 보조 이미지: Pexels / query `interest rate macro economy data screen` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_9 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_12 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - preview:
   한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
-
-## 미국 빅테크 주식 관련 대표 종목 한눈에 보기
-
-- keyword: `seo_us_big_tech_10`
-- type: `seo_followup` / role `evergreen_seo`
-- publish date: `unscheduled`
-- priority: `97.5`
-- internal review: `approve` / score `100`
-- intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
-- CTA focus: 대표 종목 글과 허브 글 연결
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/04-seo-us-big-tech-10.md`
-- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-미국-빅테크-주식-관련-대표-종목-한눈에-보기.html`
-- image review required: `True`
-- image 대표 이미지: Unsplash / query `technology stocks office city abstract` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_us_big_tech_10 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- image 본문 보조 이미지: Pexels / query `semiconductor server data center abstract` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_us_big_tech_10 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- preview:
-  한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-  - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
-
-## 미국 빅테크 주식 공급망 정리: 누가 수혜를 보나
-
-- keyword: `seo_us_big_tech_11`
-- type: `seo_followup` / role `follow_up`
-- publish date: `unscheduled`
-- priority: `94.5`
-- internal review: `approve` / score `100`
-- intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
-- CTA focus: 실적 해설과 글로벌 섹터 허브 연결
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/05-seo-us-big-tech-11.md`
-- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-미국-빅테크-주식-공급망-정리-누가-수혜를-보나.html`
-- image review required: `True`
-- image 대표 이미지: Unsplash / query `technology stocks office city abstract` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_us_big_tech_11 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- image 본문 보조 이미지: Pexels / query `semiconductor server data center abstract` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_us_big_tech_11 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- preview:
-  한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-  - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
