@@ -11,19 +11,38 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - sample_headlines:
+  - The reverse bridge: Crypto meets Wall Street using perps
+  - Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges
   - Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million
-  - Bitcoin mining difficulty shrinks 14% from this year's high as plunging revenues force operators to pivot
-  - SEC to review Nasdaq bitcoin options approval after CME challenge
 - recent_evidence:
-  - CoinDesk RSS | 2026-08-01T20:10:54+00:00 | Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million
-  - CoinDesk RSS | 2026-08-01T15:51:10+00:00 | Bitcoin mining difficulty shrinks 14% from this year's high as plunging revenues force operators to pivot
-  - CoinDesk RSS | 2026-08-01T15:48:27+00:00 | SEC to review Nasdaq bitcoin options approval after CME challenge
+  - CoinDesk RSS | 2026-08-02T12:03:51+00:00 | Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges
+  - Investing.com Crypto News | 2026-08-02 09:46:11 | Bitcoin holds above $63,000 as Coldcard losses near $89 million
+  - Investing.com Crypto News | 2026-08-02 07:02:14 | Bitcoin consolidates at $63,477 below key resistance: Live levels
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 2. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+## 2. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+
+- keyword `us_index_flow` / publish `2026-08-04` / verdict `approve` / quality `pass`
+- ready_now: `True` / hero_image_selected: `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- why_now: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- sample_headlines:
+  - Tokenized stock trading surged 288% in July, but one QQQ token drove most of it
+  - SEC to review Nasdaq bitcoin options approval after CME challenge
+  - Wall St Week Ahead Teetering US stock market faces jobs report, big earnings week - Reuters
+- recent_evidence:
+  - CoinDesk RSS | 2026-08-01T16:51:35+00:00 | Tokenized stock trading surged 288% in July, but one QQQ token drove most of it
+  - CoinDesk RSS | 2026-08-01T15:48:27+00:00 | SEC to review Nasdaq bitcoin options approval after CME challenge
+  - Reuters Markets via Google News RSS | 2026-07-31T10:02:00+00:00 | Wall St Week Ahead Teetering US stock market faces jobs report, big earnings week - Reuters
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply`
+
+## 3. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 - keyword `fomc` / publish `2026-08-02` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
@@ -41,21 +60,3 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
-
-## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-
-- keyword `us_index_flow` / publish `2026-08-04` / verdict `approve` / quality `review_before_publish`
-- ready_now: `False` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- sample_headlines:
-  - Tokenized stock trading surged 288% in July, but one QQQ token drove most of it
-  - SEC to review Nasdaq bitcoin options approval after CME challenge
-  - Berkshire Hathaway shares hit eight-month high
-- recent_evidence:
-  - CoinDesk RSS | 2026-08-01T16:51:35+00:00 | Tokenized stock trading surged 288% in July, but one QQQ token drove most of it
-  - CoinDesk RSS | 2026-08-01T15:48:27+00:00 | SEC to review Nasdaq bitcoin options approval after CME challenge
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply`

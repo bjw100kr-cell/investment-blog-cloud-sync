@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T03:31:23.357793+00:00",
+  "generated_at": "2026-08-02T13:44:43.383909+00:00",
   "summary": {
     "breaking_candidate_count": 5,
     "seo_followup_count": 6,
@@ -13,12 +13,12 @@
       "format": "macro_explainer",
       "total_score": 94.0,
       "search_score": 26,
-      "demand_signal_score": 4100,
+      "demand_signal_score": 3700,
       "trend_queries": [],
       "source_names": [
         "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ],
       "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "urgency": "publish_now",
@@ -52,6 +52,29 @@
     },
     {
       "rank": 3,
+      "keyword": "us_big_tech",
+      "suggested_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "format": "sector_analysis",
+      "total_score": 75.0,
+      "search_score": 17,
+      "demand_signal_score": 2500,
+      "trend_queries": [],
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "reason": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "urgency": "watch",
+      "operator_action": "카테고리 보강용 후보로 계속 추적합니다.",
+      "queue_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "queue_publish_date": "",
+      "queue_publish_bucket": "later",
+      "ready_to_upload": true
+    },
+    {
+      "rank": 4,
       "keyword": "us_index_flow",
       "suggested_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
       "format": "sector_analysis",
@@ -60,8 +83,8 @@
       "demand_signal_score": 2300,
       "trend_queries": [],
       "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS"
+        "CoinDesk RSS",
+        "Reuters Markets via Google News RSS"
       ],
       "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "urgency": "watch",
@@ -72,40 +95,18 @@
       "ready_to_upload": true
     },
     {
-      "rank": 4,
+      "rank": 5,
       "keyword": "treasury_yields",
       "suggested_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
       "format": "macro_explainer",
-      "total_score": 65.0,
-      "search_score": 12,
-      "demand_signal_score": 2100,
-      "trend_queries": [],
-      "source_names": [
-        "Financial Times World",
-        "Reuters Markets via Google News RSS"
-      ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
-      "urgency": "watch",
-      "operator_action": "카테고리 보강용 후보로 계속 추적합니다.",
-      "queue_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
-      "queue_publish_date": "2026-08-05",
-      "queue_publish_bucket": "this_week",
-      "ready_to_upload": true
-    },
-    {
-      "rank": 5,
-      "keyword": "us_big_tech",
-      "suggested_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-      "format": "sector_analysis",
-      "total_score": 56.0,
-      "search_score": 8,
+      "total_score": 59.0,
+      "search_score": 9,
       "demand_signal_score": 0,
       "trend_queries": [],
       "source_names": [
-        "CNBC Top News",
         "Reuters Markets via Google News RSS"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "거시 해설형 글로 전환 가치 높음",
       "urgency": "watch",
       "operator_action": "카테고리 보강용 후보로 계속 추적합니다.",
       "queue_title": "",
@@ -202,7 +203,7 @@
       "query": "FOMC 일정",
       "mapped_keyword": "fomc",
       "query_type": "mapped_keyword_demand",
-      "demand_signal_score": 4100,
+      "demand_signal_score": 3700,
       "regions": [],
       "reader_search_queries": [
         "FOMC 일정",
@@ -211,6 +212,21 @@
         "연준 금리 발표 비트코인 영향"
       ],
       "suggested_title": "FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "note": "기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다."
+    },
+    {
+      "query": "미국 빅테크 주식",
+      "mapped_keyword": "us_big_tech",
+      "query_type": "mapped_keyword_demand",
+      "demand_signal_score": 2500,
+      "regions": [],
+      "reader_search_queries": [
+        "미국 빅테크 주식",
+        "애플 주가 영향",
+        "테슬라 주가 전망",
+        "마이크로소프트 AI 투자"
+      ],
+      "suggested_title": "미국 빅테크 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리",
       "note": "기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다."
     },
     {
@@ -226,21 +242,6 @@
         "미국 주식 금리 영향"
       ],
       "suggested_title": "미국 증시 오늘 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "note": "기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다."
-    },
-    {
-      "query": "미국채 금리 상승 이유",
-      "mapped_keyword": "treasury_yields",
-      "query_type": "mapped_keyword_demand",
-      "demand_signal_score": 2100,
-      "regions": [],
-      "reader_search_queries": [
-        "미국채 금리 상승 이유",
-        "10년물 국채금리 주식 영향",
-        "국채금리 비트코인 영향",
-        "금리 상승 성장주 영향"
-      ],
-      "suggested_title": "미국채 금리 상승 이유 왜 검색이 급증했나: 투자자 관점 핵심 정리",
       "note": "기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다."
     }
   ]

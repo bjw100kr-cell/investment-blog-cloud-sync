@@ -109,8 +109,8 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "Federal Reserve Monetary Policy Press",
-    "Financial Times World",
-    "Investing.com Crypto News"
+    "Investing.com Crypto News",
+    "MarketWatch Breaking News"
   ],
   "reference_headlines": [
     "Federal Reserve issues FOMC statement",

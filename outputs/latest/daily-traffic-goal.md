@@ -1,23 +1,24 @@
 # Daily Traffic Goal
 
 - 목표: 하루 최소 `200`명 방문
-- 현재 예상 합계: `266`명
+- 현재 예상 합계: `268`명
 - 목표까지 부족분: `0`명
 - 상태: `estimated_on_track_measurement_missing`
 
 ## 200명 목표를 위한 오늘의 글 경로
 
-1. `fomc` FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 예상 `95`명 / 수요 `4100` / 품질 `pass`
+1. `fomc` FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 예상 `95`명 / 수요 `3700` / 품질 `pass`
    - action: 금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결
 2. `bitcoin` 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 예상 `95`명 / 수요 `7100` / 품질 `pass`
    - action: 코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행
-3. `treasury_yields` 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 / 예상 `76`명 / 수요 `2100` / 품질 `pass`
-   - action: 금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결
+3. `us_index_flow` 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 / 예상 `78`명 / 수요 `2300` / 품질 `pass`
+   - action: 대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장
 
 ## 병목
 
 - GA4/Search Console 연결 전이라 실제 200명 달성 여부를 자동 측정하기 어렵습니다.
 - 뉴스레터/텔레그램 재방문 동선이 없어 첫 방문자를 반복 방문으로 쌓기 어렵습니다.
+- 품질 게이트 needs_fix 글이 있어 발행 후보가 줄어듭니다.
 
 ## 다음 액션
 
@@ -29,6 +30,6 @@
 
 - `fomc` lane `macro` / 예상 `95`명 / ready `True` / quality `pass`
 - `bitcoin` lane `crypto` / 예상 `95`명 / ready `True` / quality `pass`
-- `treasury_yields` lane `macro` / 예상 `76`명 / ready `True` / quality `pass`
-- `us_index_flow` lane `us-stocks` / 예상 `0`명 / ready `True` / quality `review_before_publish`
-- `us_big_tech` lane `us-stocks` / 예상 `0`명 / ready `False` / quality `unknown`
+- `us_index_flow` lane `us-stocks` / 예상 `78`명 / ready `True` / quality `pass`
+- `us_big_tech` lane `us-stocks` / 예상 `0`명 / ready `True` / quality `needs_fix`
+- `treasury_yields` lane `macro` / 예상 `0`명 / ready `False` / quality `unknown`

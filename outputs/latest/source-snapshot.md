@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-02T03:31:23.357793+00:00`
+- 생성 시각: `2026-08-02T13:44:43.383909+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `111`
 
@@ -107,42 +107,40 @@ If you are sure that the described cause is not responsible for this error and t
 ## 상위 키워드
 
 - `bitcoin`: score 59, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 29, source_count 3, sources Federal Reserve Monetary Policy Press, Financial Times World, Investing.com Crypto News
-- `us_index_flow`: score 11, source_count 2, sources CNBC Top News, CoinDesk RSS
-- `treasury_yields`: score 9, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
-- `oil`: score 8, source_count 3, sources Financial Times YouTube, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `us_big_tech`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
-- `ai_growth_stocks`: score 5, source_count 2, sources Financial Times YouTube, Reuters Markets via Google News RSS
+- `fomc`: score 25, source_count 3, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News
+- `us_big_tech`: score 13, source_count 4, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_index_flow`: score 11, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
+- `treasury_yields`: score 9, source_count 1, sources Reuters Markets via Google News RSS
 - `ai_semiconductors`: score 5, source_count 2, sources Financial Times YouTube, 무역킹 Trade King YouTube
+- `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
+- `oil`: score 2, source_count 1, sources Financial Times YouTube
 
 ## 오늘의 글감 후보
 
 - `bitcoin`: score 59, headlines 18
+  - The reverse bridge: Crypto meets Wall Street using perps
+  - Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges
   - Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million
-  - Bitcoin mining difficulty shrinks 14% from this year's high as plunging revenues force operators to pivot
-  - SEC to review Nasdaq bitcoin options approval after CME challenge
-- `fomc`: score 29, headlines 7
+- `fomc`: score 25, headlines 6
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
+- `us_big_tech`: score 13, headlines 5
+  - As Americans go direct with GLP-1 prescriptions, Walmart, Costco, Amazon will be big weight-loss winners
+  - Apple struggles to keep pace with AI ‘bug’ hunters
+  - Wall Street ends higher as Amazon soothes AI jitters - Reuters
 - `us_index_flow`: score 11, headlines 3
   - Tokenized stock trading surged 288% in July, but one QQQ token drove most of it
   - SEC to review Nasdaq bitcoin options approval after CME challenge
-  - Berkshire Hathaway shares hit eight-month high
+  - Wall St Week Ahead Teetering US stock market faces jobs report, big earnings week - Reuters
 - `treasury_yields`: score 9, headlines 3
   - US Treasury intervenes to support yen after Japan steps in, FT reports - Reuters
   - US Treasury informed banks that it may intervene in Japan's yen, source says - Reuters
-  - US Treasury undertakes historic intervention in yen market
-- `oil`: score 8, headlines 3
-  - Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold
-  - Oil price rises after Iran says it stops ships in Hormuz - Reuters
-  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-- `us_big_tech`: score 6, headlines 2
-  - As Americans go direct with GLP-1 prescriptions, Walmart, Costco, Amazon will be big weight-loss winners
-  - Wall Street ends higher as Amazon soothes AI jitters - Reuters
-- `ai_growth_stocks`: score 5, headlines 2
-  - Situational Awareness' portfolio sinks 67% in July on AI stock rout, letter shows - Reuters
-  - Palantir: profits, procurement and power | FT Film
+  - Stocks boosted by tech earnings; bond yields hit multi-year highs - Reuters
 - `ai_semiconductors`: score 5, headlines 2
   - Why has the NVIDIA stock been so quiet lately?
   - Silicon shadows: inside the black market for AI chips | FT Film
+- `ai_growth_stocks`: score 2, headlines 1
+  - Palantir: profits, procurement and power | FT Film
+- `oil`: score 2, headlines 1
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T03:31:23.357793+00:00",
+  "generated_at": "2026-08-02T13:44:43.383909+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -26,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million",
-        "Bitcoin mining difficulty shrinks 14% from this year's high as plunging revenues force operators to pivot",
-        "SEC to review Nasdaq bitcoin options approval after CME challenge"
+        "The reverse bridge: Crypto meets Wall Street using perps",
+        "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges",
+        "Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million"
       ]
     },
     {
@@ -38,21 +38,46 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4100,
+      "demand_signal_score": 3700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 29,
+      "source_snapshot_score": 25,
       "source_count": 3,
       "source_names": [
         "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+      ]
+    },
+    {
+      "keyword": "us_big_tech",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2500,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 13,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "As Americans go direct with GLP-1 prescriptions, Walmart, Costco, Amazon will be big weight-loss winners",
+        "Apple struggles to keep pace with AI ‘bug’ hunters",
+        "Wall Street ends higher as Amazon soothes AI jitters - Reuters"
       ]
     },
     {
@@ -69,36 +94,13 @@
       "source_snapshot_score": 11,
       "source_count": 2,
       "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS"
+        "CoinDesk RSS",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
         "SEC to review Nasdaq bitcoin options approval after CME challenge",
-        "Berkshire Hathaway shares hit eight-month high"
-      ]
-    },
-    {
-      "keyword": "treasury_yields",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2100,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 9,
-      "source_count": 2,
-      "source_names": [
-        "Financial Times World",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "US Treasury intervenes to support yen after Japan steps in, FT reports - Reuters",
-        "US Treasury informed banks that it may intervene in Japan's yen, source says - Reuters",
-        "US Treasury undertakes historic intervention in yen market"
+        "Wall St Week Ahead Teetering US stock market faces jobs report, big earnings week - Reuters"
       ]
     }
   ],

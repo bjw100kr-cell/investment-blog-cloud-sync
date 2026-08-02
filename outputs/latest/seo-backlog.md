@@ -80,7 +80,46 @@
 - 보조 내부링크: site-foundation/hub-crypto.md, site-foundation/about.md, site-foundation/disclosure.md
 - 추천 라벨: 투자, 경제, 시장해설, 비트코인, 코인, 암호화폐
 
-## 7. 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기
+## 7. 미국 빅테크 주식 관련 대표 종목 한눈에 보기
+
+- 출발 글: us_big_tech / 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+- 카테고리: global-sector
+- 역할: evergreen_seo / 타입: evergreen_sector_guide
+- 우선순위 점수: 106.5
+- 검색 의도: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
+- 수익화 목표: 섹터형 검색 유입 누적
+- CTA 초점: 대표 종목 글과 허브 글 연결
+- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html
+- 보조 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md
+- 추천 라벨: 투자, 경제, 시장해설, 미국증시, 빅테크, 애플
+
+## 8. 미국 빅테크 주식 공급망 정리: 누가 수혜를 보나
+
+- 출발 글: us_big_tech / 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+- 카테고리: global-sector
+- 역할: follow_up / 타입: follow_up_analysis
+- 우선순위 점수: 103.5
+- 검색 의도: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
+- 수익화 목표: 체류시간과 페이지뷰 확대
+- CTA 초점: 실적 해설과 글로벌 섹터 허브 연결
+- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html
+- 보조 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md
+- 추천 라벨: 투자, 경제, 시장해설, 미국증시, 빅테크, 애플
+
+## 9. 미국 빅테크 주식 ETF·지수·대표 기업 정리
+
+- 출발 글: us_big_tech / 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+- 카테고리: global-sector
+- 역할: evergreen_seo / 타입: evergreen_sector_guide
+- 우선순위 점수: 100.5
+- 검색 의도: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
+- 수익화 목표: 광고 노출과 장기 검색 유입 확보
+- CTA 초점: 섹터 허브와 후속 비교 글 연결
+- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html
+- 보조 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md
+- 추천 라벨: 투자, 경제, 시장해설, 미국증시, 빅테크, 애플
+
+## 10. 미국 증시 지수 흐름 관련 대표 종목 한눈에 보기
 
 - 출발 글: us_index_flow / 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - 카테고리: global-sector
@@ -89,24 +128,11 @@
 - 검색 의도: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 - 수익화 목표: 섹터형 검색 유입 누적
 - CTA 초점: 대표 종목 글과 허브 글 연결
-- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html
+- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국-증시-지수-흐름-해설.html
 - 보조 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md
 - 추천 라벨: 투자, 경제, 시장해설, 미국증시, 나스닥, S&P500
 
-## 8. 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향
-
-- 출발 글: treasury_yields / 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-- 카테고리: macro
-- 역할: evergreen_seo / 타입: evergreen_explainer
-- 우선순위 점수: 98.5
-- 검색 의도: 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자
-- 수익화 목표: 검색 유입 누적과 첫 방문 독자 확보
-- CTA 초점: 거시 허브와 당일 해설 글로 연결
-- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유.html
-- 보조 내부링크: site-foundation/hub-macro.md, site-foundation/about.md, site-foundation/disclosure.md
-- 추천 라벨: 투자, 경제, 시장해설, 미국채금리, 거시경제, 금리
-
-## 9. 미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나
+## 11. 미국 증시 지수 흐름 공급망 정리: 누가 수혜를 보나
 
 - 출발 글: us_index_flow / 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - 카테고리: global-sector
@@ -115,24 +141,11 @@
 - 검색 의도: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 - 수익화 목표: 체류시간과 페이지뷰 확대
 - CTA 초점: 실적 해설과 글로벌 섹터 허브 연결
-- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html
+- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국-증시-지수-흐름-해설.html
 - 보조 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md
 - 추천 라벨: 투자, 경제, 시장해설, 미국증시, 나스닥, S&P500
 
-## 10. 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지
-
-- 출발 글: treasury_yields / 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-- 카테고리: macro
-- 역할: follow_up / 타입: follow_up_analysis
-- 우선순위 점수: 95.5
-- 검색 의도: 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자
-- 수익화 목표: 재방문과 내부링크 순환 강화
-- CTA 초점: 다음 이벤트 캘린더와 관련 거시 글로 연결
-- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유.html
-- 보조 내부링크: site-foundation/hub-macro.md, site-foundation/about.md, site-foundation/disclosure.md
-- 추천 라벨: 투자, 경제, 시장해설, 미국채금리, 거시경제, 금리
-
-## 11. 미국 증시 지수 흐름 ETF·지수·대표 기업 정리
+## 12. 미국 증시 지수 흐름 ETF·지수·대표 기업 정리
 
 - 출발 글: us_index_flow / 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - 카테고리: global-sector
@@ -141,19 +154,6 @@
 - 검색 의도: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 - 수익화 목표: 광고 노출과 장기 검색 유입 확보
 - CTA 초점: 섹터 허브와 후속 비교 글 연결
-- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html
+- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국-증시-지수-흐름-해설.html
 - 보조 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md
 - 추천 라벨: 투자, 경제, 시장해설, 미국증시, 나스닥, S&P500
-
-## 12. 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지
-
-- 출발 글: treasury_yields / 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-- 카테고리: macro
-- 역할: evergreen_seo / 타입: evergreen_explainer
-- 우선순위 점수: 92.5
-- 검색 의도: 기초 개념을 처음부터 이해하고 싶은 초보 독자
-- 수익화 목표: 광범위한 초보 검색 수요 흡수
-- CTA 초점: About, 허브 글, 후속 해설 글로 연결
-- 메인 연결 글: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유.html
-- 보조 내부링크: site-foundation/hub-macro.md, site-foundation/about.md, site-foundation/disclosure.md
-- 추천 라벨: 투자, 경제, 시장해설, 미국채금리, 거시경제, 금리

@@ -1,6 +1,6 @@
 # 오늘의 키워드 기회판
 
-- 생성 시각: `2026-08-02T03:31:23.357793+00:00`
+- 생성 시각: `2026-08-02T13:44:43.383909+00:00`
 - 당일 브레이킹 후보: `5`
 - SEO 후속 후보: `6`
 - 검색어 워치리스트: `4`
@@ -11,7 +11,7 @@
 
 - keyword: fomc
 - urgency: publish_now
-- score: 94.0 / search 26 / demand 4100
+- score: 94.0 / search 26 / demand 3700
 - ready_to_upload: True
 - queue_publish: 2026-08-02 (today_or_overdue)
 - reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
@@ -27,7 +27,17 @@
 - reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - action: 초안과 메타 설명을 오늘 마무리해 두고 다음 발행 슬롯에 올립니다.
 
-### 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+### 3. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+
+- keyword: us_big_tech
+- urgency: watch
+- score: 75.0 / search 17 / demand 2500
+- ready_to_upload: True
+- queue_publish: 미정 (later)
+- reason: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- action: 카테고리 보강용 후보로 계속 추적합니다.
+
+### 4. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
 - keyword: us_index_flow
 - urgency: watch
@@ -37,24 +47,14 @@
 - reason: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
-### 4. 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+### 5. 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 
 - keyword: treasury_yields
 - urgency: watch
-- score: 65.0 / search 12 / demand 2100
-- ready_to_upload: True
-- queue_publish: 2026-08-05 (this_week)
-- reason: 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- action: 카테고리 보강용 후보로 계속 추적합니다.
-
-### 5. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-
-- keyword: us_big_tech
-- urgency: watch
-- score: 56.0 / search 8 / demand 0
+- score: 59.0 / search 9 / demand 0
 - ready_to_upload: False
 - queue_publish: 미정 (queue 없음)
-- reason: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- reason: 거시 해설형 글로 전환 가치 높음
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
 ## 검색형 후속 SEO 후보
@@ -119,15 +119,15 @@
   - reader_search_queries: 비트코인 전망, 비트코인 ETF 자금 흐름, 비트코인 하락 이유, 비트코인 오늘 시세 보는법
   - suggested_title: 비트코인 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.
-- `FOMC 일정`: type mapped_keyword_demand / mapped fomc / demand 4100 / regions unknown
+- `FOMC 일정`: type mapped_keyword_demand / mapped fomc / demand 3700 / regions unknown
   - reader_search_queries: FOMC 일정, FOMC 발표 시간, FOMC 이후 주식 영향, 연준 금리 발표 비트코인 영향
   - suggested_title: FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리
+  - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.
+- `미국 빅테크 주식`: type mapped_keyword_demand / mapped us_big_tech / demand 2500 / regions unknown
+  - reader_search_queries: 미국 빅테크 주식, 애플 주가 영향, 테슬라 주가 전망, 마이크로소프트 AI 투자
+  - suggested_title: 미국 빅테크 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.
 - `미국 증시 오늘`: type mapped_keyword_demand / mapped us_index_flow / demand 2300 / regions unknown
   - reader_search_queries: 미국 증시 오늘, 나스닥 하락 이유, S&P500 전망, 미국 주식 금리 영향
   - suggested_title: 미국 증시 오늘 왜 검색이 급증했나: 투자자 관점 핵심 정리
-  - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.
-- `미국채 금리 상승 이유`: type mapped_keyword_demand / mapped treasury_yields / demand 2100 / regions unknown
-  - reader_search_queries: 미국채 금리 상승 이유, 10년물 국채금리 주식 영향, 국채금리 비트코인 영향, 금리 상승 성장주 영향
-  - suggested_title: 미국채 금리 상승 이유 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.
