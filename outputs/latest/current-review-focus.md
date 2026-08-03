@@ -19,9 +19,9 @@
 - CTA focus: ETF·규제·초보 가이드 글로 연결
 - final retention CTA: 비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.
 - later revisit CTA: 코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- demand_signal_score: `7100`
+- demand_signal_score: `6800`
 - freshness: `fresh` / newest evidence age `0.1` days
-- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges
+- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Suspected 4th Coldcard attack wave sweeps 389 Bitcoin: Galaxy’s Thorn
 - freshness_recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - sources: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - advisory_checks: canonical_url_present, newsletter_ready, ga4_ready
@@ -35,9 +35,9 @@
 - excerpt: - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
 - preview: 한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
+- evidence: Cointelegraph / 2026-08-03T01:57:40+00:00 / Suspected 4th Coldcard attack wave sweeps 389 Bitcoin: Galaxy’s Thorn
+- evidence: Cointelegraph / 2026-08-02T23:44:04+00:00 / Coldcard exploit sparks Bitcoin flight, ‘bullish’ crypto consolidation: Hodler’s Digest, August 2
 - evidence: CoinDesk RSS / 2026-08-02T12:03:51+00:00 / Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges
-- evidence: Investing.com Crypto News / 2026-08-02 09:46:11 / Bitcoin holds above $63,000 as Coldcard losses near $89 million
-- evidence: Investing.com Crypto News / 2026-08-02 07:02:14 / Bitcoin consolidates at $63,477 below key resistance: Live levels
 - hero_image_search: `bitcoin blockchain abstract blue finance` / https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/
 - hero_image_apply_helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword bitcoin --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md`
@@ -53,11 +53,11 @@
 - CTA focus: 실적·공급망·대표 종목 글로 연결
 - final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
 - later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- demand_signal_score: `2300`
-- freshness: `fresh` / newest evidence age `0.9` days
-- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Tokenized stock trading surged 288% in July, but one QQQ token drove most of it
+- demand_signal_score: `0`
+- freshness: `fresh` / newest evidence age `0.6` days
+- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: S&P 500 profit growth is getting even wilder as Amazon makes its mark
 - freshness_recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
-- sources: CoinDesk RSS, Reuters Markets via Google News RSS
+- sources: CoinDesk RSS, Financial Times World, MarketWatch Breaking News
 - advisory_checks: canonical_url_present, newsletter_ready, ga4_ready
 - next_action: 사용자 최종 확인 후 Blogger draft 업로드
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
@@ -69,10 +69,9 @@
 - excerpt: - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
 - preview: 한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
+- evidence: MarketWatch Breaking News / 2026-08-02T14:00:00+00:00 / S&P 500 profit growth is getting even wilder as Amazon makes its mark
 - evidence: CoinDesk RSS / 2026-08-01T16:51:35+00:00 / Tokenized stock trading surged 288% in July, but one QQQ token drove most of it
-- evidence: CoinDesk RSS / 2026-08-01T15:48:27+00:00 / SEC to review Nasdaq bitcoin options approval after CME challenge
-- evidence: Reuters Markets via Google News RSS / 2026-07-31T10:02:00+00:00 / Wall St Week Ahead Teetering US stock market faces jobs report, big earnings week - Reuters
 - hero_image_search: `technology stocks office finance abstract` / https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - hero_image_apply_helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_index_flow --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-us-index-flow.md`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국-증시-지수-흐름-해설.html`
+- draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-index-flow.md`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html`

@@ -41,19 +41,19 @@
       ],
       "recent_evidence": [
         {
-          "title": "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges",
-          "source_name": "CoinDesk RSS",
-          "published": "Sun, 02 Aug 2026 12:03:51 +0000",
-          "published_iso": "2026-08-02T12:03:51+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/02/unlike-the-ftx-collapse-the-usd88-million-coldcard-exploit-has-investors-sending-bitcoin-back-to-exchanges",
+          "title": "Suspected 4th Coldcard attack wave sweeps 389 Bitcoin: Galaxy’s Thorn",
+          "source_name": "Cointelegraph",
+          "published": "Mon, 03 Aug 2026 01:57:40 +0000",
+          "published_iso": "2026-08-03T01:57:40+00:00",
+          "link": "https://cointelegraph.com/news/suspected-4th-coldcard-attack-wave-sweeps-389-bitcoin-galaxys-thorn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin holds above $63,000 as Coldcard losses near $89 million",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-08-02 09:46:11",
-          "published_iso": "2026-08-02 09:46:11",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-63000-as-coldcard-losses-near-89-million-4829683",
+          "title": "Coldcard exploit sparks Bitcoin flight, ‘bullish’ crypto consolidation: Hodler’s Digest, August 2",
+          "source_name": "Cointelegraph",
+          "published": "Sun, 02 Aug 2026 23:44:04 +0000",
+          "published_iso": "2026-08-02T23:44:04+00:00",
+          "link": "https://cointelegraph.com/magazine/coldcard-exploit-sparks-bitcoin-flight-clarity-act-no-vote-or-no-vote-hodlers-digest-august-2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ],
@@ -81,7 +81,7 @@
         "cluster_name": "us_index_flow 클러스터",
         "source_keyword": "us_index_flow",
         "main_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-        "main_ready_to_upload": false,
+        "main_ready_to_upload": true,
         "cta_focus": "실적·공급망·대표 종목 글로 연결",
         "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
         "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
@@ -89,13 +89,8 @@
         "newsletter_subject_seed": "[오늘의 투자 브리핑] 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
         "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
         "followup_titles": [],
-        "next_action": "사용자 검토 후 승인 대기",
-        "blockers": [
-          "main_quality=review_before_publish",
-          "follow_up_posts_present",
-          "canonical_url_present",
-          "newsletter_ready"
-        ]
+        "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
+        "blockers": []
       },
       "freshness_status": "fresh",
       "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
@@ -112,19 +107,19 @@
       ],
       "recent_evidence": [
         {
+          "title": "S&P 500 profit growth is getting even wilder as Amazon makes its mark",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Sun, 02 Aug 2026 14:00:00 GMT",
+          "published_iso": "2026-08-02T14:00:00+00:00",
+          "link": "https://www.marketwatch.com/story/s-p-500-profit-growth-is-getting-even-wilder-as-amazon-makes-its-mark-5ddf2082?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
           "title": "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
           "source_name": "CoinDesk RSS",
           "published": "Sat, 01 Aug 2026 16:51:35 +0000",
           "published_iso": "2026-08-01T16:51:35+00:00",
           "link": "https://www.coindesk.com/markets/2026/08/01/tokenized-stock-trading-surged-288-in-july-but-one-qqq-token-drove-most-of-it",
-          "source_type": "rss"
-        },
-        {
-          "title": "SEC to review Nasdaq bitcoin options approval after CME challenge",
-          "source_name": "CoinDesk RSS",
-          "published": "Sat, 01 Aug 2026 15:48:27 +0000",
-          "published_iso": "2026-08-01T15:48:27+00:00",
-          "link": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge",
           "source_type": "rss"
         }
       ],
@@ -136,8 +131,8 @@
       "recovery_image_apply_helper": "",
       "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow",
       "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_index_flow --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-us-index-flow.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국-증시-지수-흐름-해설.html"
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-index-flow.md",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html"
     }
   ],
   "reply_examples": [

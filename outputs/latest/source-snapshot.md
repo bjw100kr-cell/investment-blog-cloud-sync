@@ -1,8 +1,8 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-02T13:44:43.383909+00:00`
+- 생성 시각: `2026-08-03T03:33:31.581144+00:00`
 - 수집 성공 소스: `14`
-- 수집 아이템 수: `111`
+- 수집 아이템 수: `112`
 
 ## 소스 상태
 
@@ -14,7 +14,7 @@
 - `OK` Cointelegraph (rss): 8 items
 - `OK` CNBC Top News (rss): 8 items
 - `OK` Investing.com Crypto News (rss): 8 items
-- `OK` Financial Times Home (rss): 7 items
+- `OK` Financial Times Home (rss): 8 items
 - `OK` Reuters Markets via Google News RSS (rss): 8 items
 - `OK` 무역킹 Trade King YouTube (youtube_channel): 8 items
 - `OK` MarketWatch Breaking News (rss): 8 items
@@ -106,41 +106,51 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 59, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 25, source_count 3, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News
-- `us_big_tech`: score 13, source_count 4, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `us_index_flow`: score 11, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
-- `treasury_yields`: score 9, source_count 1, sources Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 5, source_count 2, sources Financial Times YouTube, 무역킹 Trade King YouTube
+- `bitcoin`: score 56, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News
+- `oil`: score 16, source_count 6, sources CNBC Top News, Financial Times Home, Financial Times World, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
+- `treasury_yields`: score 11, source_count 3, sources CNBC Top News, NYT Business, Reuters Markets via Google News RSS
+- `us_index_flow`: score 9, source_count 3, sources CoinDesk RSS, Financial Times World, MarketWatch Breaking News
+- `ai_semiconductors`: score 7, source_count 3, sources Financial Times YouTube, MarketWatch Breaking News, 무역킹 Trade King YouTube
+- `china`: score 6, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
+- `us_big_tech`: score 6, source_count 1, sources MarketWatch Breaking News
+- `cpi`: score 3, source_count 1, sources Financial Times World
 - `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
-- `oil`: score 2, source_count 1, sources Financial Times YouTube
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 59, headlines 18
+- `bitcoin`: score 56, headlines 17
+  - Counting down the days: State of Crypto
+  - The future of crypto payments won't include on-ramps or bridges, Fun CEO says
   - The reverse bridge: Crypto meets Wall Street using perps
-  - Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges
-  - Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million
-- `fomc`: score 25, headlines 6
+- `fomc`: score 23, headlines 5
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `us_big_tech`: score 13, headlines 5
-  - As Americans go direct with GLP-1 prescriptions, Walmart, Costco, Amazon will be big weight-loss winners
-  - Apple struggles to keep pace with AI ‘bug’ hunters
-  - Wall Street ends higher as Amazon soothes AI jitters - Reuters
-- `us_index_flow`: score 11, headlines 3
-  - Tokenized stock trading surged 288% in July, but one QQQ token drove most of it
-  - SEC to review Nasdaq bitcoin options approval after CME challenge
-  - Wall St Week Ahead Teetering US stock market faces jobs report, big earnings week - Reuters
-- `treasury_yields`: score 9, headlines 3
+- `oil`: score 16, headlines 6
+  - Oil drops over 4% as Middle East tensions ebb on diplomatic efforts
+  - Trump says Iran talks to resume after US called off major attack
+  - Oil slumps on hopes of Iran deal, yen spikes suddenly after intervention - Reuters
+- `treasury_yields`: score 11, headlines 4
+  - U.S., Japan confirm coordinated yen intervention, signal readiness for more
   - US Treasury intervenes to support yen after Japan steps in, FT reports - Reuters
   - US Treasury informed banks that it may intervene in Japan's yen, source says - Reuters
-  - Stocks boosted by tech earnings; bond yields hit multi-year highs - Reuters
-- `ai_semiconductors`: score 5, headlines 2
+- `us_index_flow`: score 9, headlines 3
+  - Tokenized stock trading surged 288% in July, but one QQQ token drove most of it
+  - S&P 500 profit growth is getting even wilder as Amazon makes its mark
+  - America’s biggest companies report ‘rock solid’ profits as consumers face higher costs
+- `ai_semiconductors`: score 7, headlines 3
   - Why has the NVIDIA stock been so quiet lately?
+  - S&P 500 profit growth is getting even wilder as Amazon makes its mark
   - Silicon shadows: inside the black market for AI chips | FT Film
+- `us_big_tech`: score 6, headlines 3
+  - Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more
+  - S&P 500 profit growth is getting even wilder as Amazon makes its mark
+  - How Apple’s cheap MacBook Neo sparked a war in budget laptops
+- `china`: score 6, headlines 2
+  - China's Chery to invest $75 mln in Korea's KG Mobility, eyes overseas markets - Reuters
+  - Earnings season reaches a peak
+- `cpi`: score 3, headlines 1
+  - Earnings season reaches a peak
 - `ai_growth_stocks`: score 2, headlines 1
   - Palantir: profits, procurement and power | FT Film
-- `oil`: score 2, headlines 1
-  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film

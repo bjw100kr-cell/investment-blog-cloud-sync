@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Counting down the days: State of Crypto",
+    "The future of crypto payments won't include on-ramps or bridges, Fun CEO says",
     "The reverse bridge: Crypto meets Wall Street using perps",
     "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges",
-    "Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million",
-    "Bitcoin mining difficulty shrinks 14% from this year's high as plunging revenues force operators to pivot",
-    "SEC to review Nasdaq bitcoin options approval after CME challenge"
+    "Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

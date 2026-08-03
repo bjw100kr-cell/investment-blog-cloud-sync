@@ -1,14 +1,14 @@
 # 발행 우선순위 큐
 
-- 생성 시각: `2026-08-02T13:44:43.383909+00:00`
+- 생성 시각: `2026-08-03T03:33:31.581144+00:00`
 - 큐 개수: `4`
 - 업로드 가능 글 수: `4`
 
 ## 1. fomc
 
 - 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 우선순위 점수: 137.0
-- 발행일: 2026-08-02 / 버킷: today_or_overdue
+- 우선순위 점수: 134.0
+- 발행일: 2026-08-03 / 버킷: today_or_overdue
 - 역할: lane_focus_macro / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
@@ -22,7 +22,7 @@
 
 - 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - 우선순위 점수: 122.0
-- 발행일: 2026-08-03 / 버킷: tomorrow
+- 발행일: 2026-08-04 / 버킷: tomorrow
 - 역할: lane_focus_crypto / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
@@ -35,27 +35,27 @@
 ## 3. us_index_flow
 
 - 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 우선순위 점수: 101.0
-- 발행일: 2026-08-04 / 버킷: this_week
+- 우선순위 점수: 95.0
+- 발행일: 2026-08-05 / 버킷: this_week
 - 역할: lane_focus_us-stocks / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
 - CTA 초점: 실적·공급망·대표 종목 글로 연결
 - 광고 슬롯 추천: after_intro, mid_article, before_related_links
-- 발행 메모: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
+- 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 
-## 4. us_big_tech
+## 4. china
 
-- 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- 우선순위 점수: 107.0
-- 발행일: 미정 / 버킷: later
-- 역할: unplanned / 타입: breaking_explainer
+- 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- 우선순위 점수: 80.0
+- 발행일: 2026-08-06 / 버킷: this_week
+- 역할: lane_focus_world-flow / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
 - CTA 초점: 실적·공급망·대표 종목 글로 연결
 - 광고 슬롯 추천: after_intro, mid_article, before_related_links
-- 발행 메모: 
-- 수익화 경로: 
+- 발행 메모: 당일 이슈 해설형 글
+- 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md

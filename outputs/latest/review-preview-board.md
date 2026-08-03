@@ -8,7 +8,7 @@
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
-- publish_date: `2026-08-03`
+- publish_date: `2026-08-04`
 - priority_score: `122.0`
 - review_verdict: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
@@ -28,15 +28,15 @@
 ## 2. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
 - keyword: `us_index_flow`
-- publish_date: `2026-08-04`
-- priority_score: `101.0`
+- publish_date: `2026-08-05`
+- priority_score: `95.0`
 - review_verdict: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
 - final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
 - later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-us-index-flow.md`
-- html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국-증시-지수-흐름-해설.html`
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-index-flow.md`
+- html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html`
 - image review required: `True`
 - image 대표 이미지: Unsplash / `technology stocks office finance abstract` / Unsplash License
 - image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_index_flow --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
@@ -48,8 +48,8 @@
 ## 3. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 - keyword: `fomc`
-- publish_date: `2026-08-02`
-- priority_score: `137.0`
+- publish_date: `2026-08-03`
+- priority_score: `134.0`
 - review_verdict: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결

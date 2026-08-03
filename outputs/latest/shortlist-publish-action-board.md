@@ -8,7 +8,7 @@ shortlist 글 기준으로 지금 남은 blocker와 다음 한 줄 실행만 따
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
-- publish_date: `2026-08-03`
+- publish_date: `2026-08-04`
 - quality_status: `pass`
 - ready_now: `True`
 - hero_image_selected: `True`
@@ -30,12 +30,12 @@ shortlist 글 기준으로 지금 남은 blocker와 다음 한 줄 실행만 따
 ## 2. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
 - keyword: `us_index_flow`
-- publish_date: `2026-08-04`
+- publish_date: `2026-08-05`
 - quality_status: `pass`
 - ready_now: `True`
 - hero_image_selected: `True`
 - freshness_status: `fresh`
-- freshness_recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
+- freshness_recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - hard_blocking_checks: none
 - advisory_checks: canonical_url_present, newsletter_ready, ga4_ready
 - recovery_mode: `publish_direct`
@@ -52,7 +52,7 @@ shortlist 글 기준으로 지금 남은 blocker와 다음 한 줄 실행만 따
 ## 3. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 - keyword: `fomc`
-- publish_date: `2026-08-02`
+- publish_date: `2026-08-03`
 - quality_status: `pass`
 - ready_now: `True`
 - hero_image_selected: `True`
