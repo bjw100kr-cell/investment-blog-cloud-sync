@@ -1,21 +1,20 @@
 # 7일 편집 캘린더
 
-- 생성 시각: `2026-08-03T03:33:31.581144+00:00`
+- 생성 시각: `2026-08-03T15:08:31.358781+00:00`
 - 목적: stale 뉴스는 직접 발행에서 빼고, 거시경제·코인·미국주식·세계 흐름 레인을 주간 단위로 균형 있게 유지
 
 ## 레인 커버리지
 
 - `거시경제` / target `0.3` / scheduled_count `2` / actual_share `0.33` / status `covered`
-- `코인` / target `0.3` / scheduled_count `2` / actual_share `0.33` / status `covered`
+- `코인` / target `0.3` / scheduled_count `3` / actual_share `0.5` / status `covered`
 - `미국주식` / target `0.2` / scheduled_count `1` / actual_share `0.17` / status `covered`
-- `세계 흐름` / target `0.2` / scheduled_count `1` / actual_share `0.17` / status `covered`
+- `세계 흐름` / target `0.2` / scheduled_count `0` / actual_share `0.0` / status `gap`
 
 ## 이번 주 배치 메모
 
 - lane `macro` / keyword `fomc` / mode `direct` / freshness `aging` / target_share `0.3`
 - lane `crypto` / keyword `bitcoin` / mode `direct` / freshness `fresh` / target_share `0.3`
 - lane `us-stocks` / keyword `us_index_flow` / mode `direct` / freshness `fresh` / target_share `0.2`
-- lane `world-flow` / keyword `china` / mode `direct` / freshness `unknown` / target_share `0.2`
 
 ## Day 1 · 2026-08-03 · lane_focus_macro
 
@@ -25,11 +24,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: fomc
 - 작업 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 글 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 글 각도: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: Federal Reserve Monetary Policy Press, Investing.com Crypto News
-- 근거 소스/연결 키워드: Federal Reserve Monetary Policy Press, Investing.com Crypto News
+- 내부링크 대상: Federal Reserve Monetary Policy Press
+- 근거 소스/연결 키워드: Federal Reserve Monetary Policy Press
 - 발행 메모: 초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.
 
 ## Day 2 · 2026-08-04 · lane_focus_crypto
@@ -55,29 +54,14 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: us_index_flow
 - 작업 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 글 각도: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 글 각도: 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CoinDesk RSS, Financial Times World, MarketWatch Breaking News
-- 근거 소스/연결 키워드: CoinDesk RSS, Financial Times World, MarketWatch Breaking News
+- 내부링크 대상: CoinDesk RSS
+- 근거 소스/연결 키워드: CoinDesk RSS
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
-## Day 4 · 2026-08-06 · lane_focus_world-flow
-
-- 브랜드 레인: 세계 흐름
-- planning_mode: direct
-- freshness_status: unknown
-- 포스트 유형: breaking_explainer
-- 타깃 키워드: china
-- 작업 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 글 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: Financial Times World, Reuters Markets via Google News RSS
-- 근거 소스/연결 키워드: Financial Times World, Reuters Markets via Google News RSS
-- 발행 메모: 당일 이슈 해설형 글
-
-## Day 5 · 2026-08-07 · evergreen_support
+## Day 4 · 2026-08-06 · support
 
 - 브랜드 레인: 거시경제
 - planning_mode: evergreen
@@ -92,7 +76,7 @@
 - 근거 소스/연결 키워드: fomc, cpi, pce, jobs, treasury_yields, dollar
 - 발행 메모: 검색 저변을 넓히는 설명형 글
 
-## Day 6 · 2026-08-08 · secondary_lane_support
+## Day 5 · 2026-08-07 · evergreen_support
 
 - 브랜드 레인: 코인
 - planning_mode: evergreen
@@ -105,6 +89,21 @@
 - 수익화 경로: 거시 입문 검색 유입, 환율/금리/미국증시 내부링크 허브
 - 내부링크 대상: fomc_guide, cpi_guide, treasury_guide
 - 근거 소스/연결 키워드: dollar, treasury_yields, fomc, oil, china
+- 발행 메모: 검색 저변을 넓히는 설명형 글
+
+## Day 6 · 2026-08-08 · secondary_lane_support
+
+- 브랜드 레인: 코인
+- planning_mode: evergreen
+- freshness_status: evergreen
+- 포스트 유형: evergreen_explainer
+- 타깃 키워드: 미국 cpi 뜻
+- 작업 제목: 미국 CPI 뜻, 발표 일정, 주식과 코인 영향 정리
+- 글 각도: 인플레이션 지표가 금리 기대와 위험자산 흐름에 연결되는 구조 설명
+- 검색 의도: 미국 CPI 발표가 왜 시장을 흔드는지 이해하려는 검색자
+- 수익화 경로: 지속 검색형 경제 키워드 유입, 거시 카테고리 체류 시간 확대
+- 내부링크 대상: fomc_guide, dollar_guide
+- 근거 소스/연결 키워드: cpi, pce, fomc, dollar, oil
 - 발행 메모: 검색 저변을 넓히는 설명형 글
 
 ## Day 7 · 2026-08-09 · weekly_recap

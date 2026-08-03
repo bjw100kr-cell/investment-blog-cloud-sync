@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T03:33:31.581144+00:00",
+  "generated_at": "2026-08-03T15:08:31.358781+00:00",
   "lane_order": [
     "macro",
     "crypto",
@@ -19,8 +19,8 @@
       "brand_lane": "crypto",
       "label": "코인",
       "target_share": 0.3,
-      "scheduled_count": 2,
-      "actual_share": 0.33,
+      "scheduled_count": 3,
+      "actual_share": 0.5,
       "status": "covered"
     },
     {
@@ -35,9 +35,9 @@
       "brand_lane": "world-flow",
       "label": "세계 흐름",
       "target_share": 0.2,
-      "scheduled_count": 1,
-      "actual_share": 0.17,
-      "status": "covered"
+      "scheduled_count": 0,
+      "actual_share": 0.0,
+      "status": "gap"
     }
   ],
   "planning_notes": [
@@ -61,13 +61,6 @@
       "selected_keyword": "us_index_flow",
       "selected_mode": "direct",
       "freshness_status": "fresh"
-    },
-    {
-      "lane": "world-flow",
-      "target_share": 0.2,
-      "selected_keyword": "china",
-      "selected_mode": "direct",
-      "freshness_status": "unknown"
     }
   ],
   "schedule": [
@@ -78,16 +71,14 @@
       "post_type": "breaking_explainer",
       "target_keyword": "fomc",
       "working_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "angle": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
-        "Federal Reserve Monetary Policy Press",
-        "Investing.com Crypto News"
+        "Federal Reserve Monetary Policy Press"
       ],
       "source_basis": [
-        "Federal Reserve Monetary Policy Press",
-        "Investing.com Crypto News"
+        "Federal Reserve Monetary Policy Press"
       ],
       "publish_note": "초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.",
       "brand_lane": "macro",
@@ -126,18 +117,14 @@
       "post_type": "breaking_explainer",
       "target_keyword": "us_index_flow",
       "working_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "angle": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "angle": "검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
-        "CoinDesk RSS",
-        "Financial Times World",
-        "MarketWatch Breaking News"
+        "CoinDesk RSS"
       ],
       "source_basis": [
-        "CoinDesk RSS",
-        "Financial Times World",
-        "MarketWatch Breaking News"
+        "CoinDesk RSS"
       ],
       "publish_note": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "brand_lane": "us-stocks",
@@ -147,30 +134,7 @@
     {
       "date": "2026-08-06",
       "slot": 4,
-      "role": "lane_focus_world-flow",
-      "post_type": "breaking_explainer",
-      "target_keyword": "china",
-      "working_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
-      "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
-      "internal_link_targets": [
-        "Financial Times World",
-        "Reuters Markets via Google News RSS"
-      ],
-      "source_basis": [
-        "Financial Times World",
-        "Reuters Markets via Google News RSS"
-      ],
-      "publish_note": "당일 이슈 해설형 글",
-      "brand_lane": "world-flow",
-      "freshness_status": "unknown",
-      "planning_mode": "direct"
-    },
-    {
-      "date": "2026-08-07",
-      "slot": 5,
-      "role": "evergreen_support",
+      "role": "support",
       "post_type": "evergreen_explainer",
       "target_keyword": "fomc 뜻",
       "working_title": "FOMC 뜻부터 시장 영향까지 한 번에 정리",
@@ -196,9 +160,9 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-08-08",
-      "slot": 6,
-      "role": "secondary_lane_support",
+      "date": "2026-08-07",
+      "slot": 5,
+      "role": "evergreen_support",
       "post_type": "evergreen_explainer",
       "target_keyword": "달러 인덱스 보는법",
       "working_title": "달러 인덱스 보는 법과 주식·코인 영향 정리",
@@ -216,6 +180,32 @@
         "fomc",
         "oil",
         "china"
+      ],
+      "publish_note": "검색 저변을 넓히는 설명형 글",
+      "brand_lane": "crypto",
+      "freshness_status": "evergreen",
+      "planning_mode": "evergreen"
+    },
+    {
+      "date": "2026-08-08",
+      "slot": 6,
+      "role": "secondary_lane_support",
+      "post_type": "evergreen_explainer",
+      "target_keyword": "미국 cpi 뜻",
+      "working_title": "미국 CPI 뜻, 발표 일정, 주식과 코인 영향 정리",
+      "angle": "인플레이션 지표가 금리 기대와 위험자산 흐름에 연결되는 구조 설명",
+      "search_intent": "미국 CPI 발표가 왜 시장을 흔드는지 이해하려는 검색자",
+      "monetization_path": "지속 검색형 경제 키워드 유입, 거시 카테고리 체류 시간 확대",
+      "internal_link_targets": [
+        "fomc_guide",
+        "dollar_guide"
+      ],
+      "source_basis": [
+        "cpi",
+        "pce",
+        "fomc",
+        "dollar",
+        "oil"
       ],
       "publish_note": "검색 저변을 넓히는 설명형 글",
       "brand_lane": "crypto",

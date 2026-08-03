@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Counting down the days: State of Crypto",
-    "The future of crypto payments won't include on-ramps or bridges, Fun CEO says",
-    "The reverse bridge: Crypto meets Wall Street using perps",
-    "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges",
-    "Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million"
+    "U.S.-Japan intervention revives yen carry trade fears for bitcoin",
+    "Bernstein sees another leg lower for crypto markets if Clarity Act stalls",
+    "Tom Lee's Bitmine bought more ether, added to stock buyback last week",
+    "Strategy sold another $105 million of bitcoin last week, repurchased $81.2 million of STRC",
+    "Bitget set to exit Japan, close all remaining positions by year-end"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 83.0,
-    "search_score": 29,
+    "total_score": 84.0,
+    "search_score": 30,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,

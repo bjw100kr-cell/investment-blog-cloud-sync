@@ -1,17 +1,17 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-08-03T03:33:35.991103+00:00`
-- snapshot_generated_at: `2026-08-03T03:33:31.581144+00:00`
+- generated_at: `2026-08-03T15:08:36.299410+00:00`
+- snapshot_generated_at: `2026-08-03T15:08:31.358781+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
-- counts: fresh `2` / aging `1` / stale `0` / unknown `0`
+- counts: fresh `1` / aging `1` / stale `0` / unknown `0`
 
 ## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 - keyword: `fomc`
 - freshness_status: `aging`
-- newest_evidence_age_days: `4.4`
+- newest_evidence_age_days: `4.9`
 - newest_evidence_iso: `2026-07-29T18:00:00+00:00`
 - quality_status: `pass` / ready_now `True`
 - summary: 아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Federal Reserve issues FOMC statement
@@ -23,31 +23,17 @@
 - evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve issues FOMC statement
 - evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
 
-## 2. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-
-- keyword: `us_index_flow`
-- freshness_status: `fresh`
-- newest_evidence_age_days: `0.6`
-- newest_evidence_iso: `2026-08-02T14:00:00+00:00`
-- quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: S&P 500 profit growth is getting even wilder as Amazon makes its mark
-- recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
-- recovery_mode: `publish_direct`
-- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: MarketWatch Breaking News / 2026-08-02T14:00:00+00:00 / S&P 500 profit growth is getting even wilder as Amazon makes its mark
-- evidence: CoinDesk RSS / 2026-08-01T16:51:35+00:00 / Tokenized stock trading surged 288% in July, but one QQQ token drove most of it
-
-## 3. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.1`
-- newest_evidence_iso: `2026-08-03T01:57:40+00:00`
+- newest_evidence_age_days: `0.0`
+- newest_evidence_iso: `2026-08-03T14:46:08+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Suspected 4th Coldcard attack wave sweeps 389 Bitcoin: Galaxy’s Thorn
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: U.S.-Japan intervention revives yen carry trade fears for bitcoin
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Cointelegraph / 2026-08-03T01:57:40+00:00 / Suspected 4th Coldcard attack wave sweeps 389 Bitcoin: Galaxy’s Thorn
-- evidence: Cointelegraph / 2026-08-02T23:44:04+00:00 / Coldcard exploit sparks Bitcoin flight, ‘bullish’ crypto consolidation: Hodler’s Digest, August 2
-- evidence: CoinDesk RSS / 2026-08-02T12:03:51+00:00 / Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges
+- evidence: CoinDesk RSS / 2026-08-03T14:46:08+00:00 / U.S.-Japan intervention revives yen carry trade fears for bitcoin
+- evidence: Cointelegraph / 2026-08-03T14:11:26+00:00 / US hints at more yen intervention: Five things to know in Bitcoin this week
+- evidence: Cointelegraph / 2026-08-03T12:27:07+00:00 / Strategy sells 1,638 Bitcoin to fund dividends and STRC repurchases

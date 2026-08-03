@@ -2,7 +2,7 @@
 
 오늘 어떤 글 순서로 올려야 수익화에 더 유리한지 보여주는 운영 카드입니다.
 
-- generated_at: `2026-08-03T03:33:31.581144+00:00`
+- generated_at: `2026-08-03T15:08:31.358781+00:00`
 - path_policy: main post는 현재 최적 단건 후보를 유지하고, next slot은 가능하면 다른 브랜드 레인에서 선택
 
 ## Today Path
@@ -23,8 +23,8 @@
   - keyword: us_index_flow
   - brand_lane: us-stocks (미국주식)
   - urgency: watch
-  - why_revenue: 페이지뷰와 체류시간 균형 확보
-  - cta_focus: 실적·공급망·대표 종목 글로 연결
+  - why_revenue: 카테고리 보강과 내부링크 확장으로 장기 검색 유입 기반을 만드는 역할
+  - cta_focus: 
 
 ## Approval Commands
 

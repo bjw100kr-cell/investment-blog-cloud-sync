@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T03:33:35.497754+00:00",
+  "generated_at": "2026-08-03T15:08:35.696036+00:00",
   "target_daily_visitors": 200,
   "status": "measurement_missing_keep_building",
   "proof": {
@@ -9,7 +9,7 @@
     "measurement_missing": true
   },
   "publishing_capacity": {
-    "quality_ready_count": 7,
+    "quality_ready_count": 5,
     "blogger_ready_count": 1,
     "recommended_posts_next_run": 1,
     "rule": "품질 게이트 통과 글만 실행당 최대 3건"
@@ -24,7 +24,7 @@
         "비트코인 오늘 시세 보는법"
       ],
       "suggested_title": "비트코인 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 6800,
+      "demand_signal_score": 7200,
       "use_in": [
         "title",
         "first_h2",
@@ -42,7 +42,25 @@
         "연준 금리 발표 비트코인 영향"
       ],
       "suggested_title": "FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 3500,
+      "demand_signal_score": 3200,
+      "use_in": [
+        "title",
+        "first_h2",
+        "meta_description",
+        "internal_link_anchor",
+        "social_share_copy"
+      ]
+    },
+    {
+      "mapped_keyword": "dollar",
+      "primary_query": "달러 인덱스 보는법",
+      "supporting_queries": [
+        "달러 강세 주식 영향",
+        "환율 상승 코인 영향",
+        "원달러 환율 전망"
+      ],
+      "suggested_title": "달러 인덱스 보는법 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "demand_signal_score": 2500,
       "use_in": [
         "title",
         "first_h2",
@@ -60,25 +78,7 @@
         "원유 가격 인플레이션 영향"
       ],
       "suggested_title": "국제유가 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 2800,
-      "use_in": [
-        "title",
-        "first_h2",
-        "meta_description",
-        "internal_link_anchor",
-        "social_share_copy"
-      ]
-    },
-    {
-      "mapped_keyword": "treasury_yields",
-      "primary_query": "미국채 금리 상승 이유",
-      "supporting_queries": [
-        "10년물 국채금리 주식 영향",
-        "국채금리 비트코인 영향",
-        "금리 상승 성장주 영향"
-      ],
-      "suggested_title": "미국채 금리 상승 이유 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 2300,
+      "demand_signal_score": 2200,
       "use_in": [
         "title",
         "first_h2",
@@ -237,7 +237,7 @@
   "distribution_summary": {
     "planned_public_url_count": 16,
     "manual_checklist_item_count": 48,
-    "published_expansion_item_count": 13
+    "published_expansion_item_count": 14
   },
   "manual_distribution_potential_visitors": 560,
   "measurement_action": {
