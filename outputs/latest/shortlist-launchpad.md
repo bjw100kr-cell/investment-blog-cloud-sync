@@ -11,52 +11,48 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - sample_headlines:
-  - U.S. FBI intelligence agent arrested in connection with theft of $1 million in crypto
-  - Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy
-  - U.S.-Japan intervention revives yen carry trade fears for bitcoin
+  - Intesa Sanpaolo slashed IBIT stake by 94% in 2Q, tripled ether ETF holding as crypto prices slumped
+  - As Clarity Act teeters, mystery group hammers away at crypto in Washington ads
+  - BNY to add crypto staking to digital asset custody platform
 - recent_evidence:
-  - CoinDesk RSS | 2026-08-03T15:24:45+00:00 | Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy
-  - CoinDesk RSS | 2026-08-03T14:46:08+00:00 | U.S.-Japan intervention revives yen carry trade fears for bitcoin
-  - CoinDesk RSS | 2026-08-03T12:17:10+00:00 | Strategy sold another $105 million of bitcoin last week, repurchased $81.2 million of STRC
+  - Cointelegraph | 2026-08-04T13:30:00+00:00 | Sorry everyone, Bitcoin is headed down to $43,500: Michael Terpin
+  - CoinDesk RSS | 2026-08-04T12:00:25+00:00 | Coldcard urges users to move bitcoin as exploit is still in progress
+  - CoinDesk RSS | 2026-08-04T11:23:33+00:00 | The bitcoin market has plenty of reasons to freak out, yet calm pervades
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 2. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword `fomc` / publish `2026-08-04` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- sample_headlines:
-  - Federal Reserve issues FOMC statement
-  - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- recent_evidence:
-  - Federal Reserve Monetary Policy Press | 2026-07-29T18:00:00+00:00 | Federal Reserve issues FOMC statement
-  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve issues FOMC statement
-  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
-
-## 3. AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담
-
-- keyword `ai_growth_stocks` / publish `2026-08-06` / verdict `approve` / quality `review_before_publish`
+- keyword `ai_semiconductors` / publish `2026-08-06` / verdict `approve` / quality `review_before_publish`
 - ready_now: `False` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- why_now: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
 - sample_headlines:
-  - Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%
-  - Palantir forecasts greater demand from US groups for its AI software
-  - Palantir’s stock climbs after earnings, as AI drives turbocharged growth
+  - AMD earnings are a key test for chips and momentum stocks. Here's what the options market is saying
+  - Inside Google’s $200bn Wall Street finance machine for Anthropic
+  - Why has the NVIDIA stock been so quiet lately?
 - recent_evidence:
-  - Financial Times Home | 2026-08-03T23:35:43+00:00 | Palantir forecasts greater demand from US groups for its AI software
-  - CNBC Top News | 2026-08-03T22:47:54+00:00 | Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%
-  - MarketWatch Breaking News | 2026-08-03T21:59:00+00:00 | Palantir’s stock climbs after earnings, as AI drives turbocharged growth
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_growth_stocks`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_growth_stocks`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_growth_stocks`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_growth_stocks --apply`
+  - Financial Times YouTube | 49K views | Silicon shadows: inside the black market for AI chips | FT Film
+  - CNBC Top News | 2026-08-04T13:55:51+00:00 | AMD earnings are a key test for chips and momentum stocks. Here's what the options market is saying
+  - Financial Times Home | 2026-08-04T04:00:16+00:00 | Inside Google’s $200bn Wall Street finance machine for Anthropic
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`
+
+## 3. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+
+- keyword `china` / publish `2026-08-07` / verdict `approve` / quality `review_before_publish`
+- ready_now: `False` / hero_image_selected: `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- why_now: 섹터/세계 흐름 연결 해설 가능
+- sample_headlines:
+  - China's EV export boom is starting to show up in the gasoline market - Reuters
+- recent_evidence:
+  - Reuters Markets via Google News RSS | 2026-08-04T12:01:04+00:00 | China's EV export boom is starting to show up in the gasoline market - Reuters
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply`

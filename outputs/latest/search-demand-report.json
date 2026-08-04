@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-08-04T03:16:33.953696+00:00",
+  "generated_at": "2026-08-04T14:33:53.101233+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "jobs",
+      "trend_count": 1,
+      "traffic_score_sum": 500,
+      "max_approx_traffic": 500,
+      "trend_queries": [
+        "고용노동부"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 700,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,11 +30,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6900,
+      "demand_signal_score": 7200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 57,
+      "source_snapshot_score": 60,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +42,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "U.S. FBI intelligence agent arrested in connection with theft of $1 million in crypto",
-        "Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy",
-        "U.S.-Japan intervention revives yen carry trade fears for bitcoin"
+        "Intesa Sanpaolo slashed IBIT stake by 94% in 2Q, tripled ether ETF holding as crypto prices slumped",
+        "As Clarity Act teeters, mystery group hammers away at crypto in Washington ads",
+        "BNY to add crypto staking to digital asset custody platform"
       ]
     },
     {
@@ -38,15 +54,17 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3500,
+      "demand_signal_score": 4100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
-      "source_count": 2,
+      "source_snapshot_score": 29,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times World",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -55,55 +73,54 @@
       ]
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "oil",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2900,
+      "demand_signal_score": 3600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 17,
-      "source_count": 5,
+      "source_snapshot_score": 24,
+      "source_count": 6,
       "source_names": [
-        "CNBC Top News",
-        "Cointelegraph",
-        "Financial Times Home",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Mastercard completes $1.8B BVNK acquisition in stablecoin push",
-        "Bessent’s top crypto adviser Tyler Williams exits US Treasury: Report",
-        "Analysis: Federal Reserve may be pulled into Bessent’s effort to support Japan’s yen"
-      ]
-    },
-    {
-      "keyword": "ai_growth_stocks",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
-      "source_count": 5,
-      "source_names": [
-        "CNBC Top News",
         "Financial Times Home",
         "Financial Times World",
         "Financial Times YouTube",
-        "MarketWatch Breaking News"
+        "MarketWatch Breaking News",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
-        "Palantir forecasts greater demand from US groups for its AI software",
-        "Palantir’s stock climbs after earnings, as AI drives turbocharged growth"
+        "Oil falls after Bessent says deal to reopen Strait of Hormuz is imminent",
+        "Stocks rise despite higher oil prices as Iran tensions persist - Reuters",
+        "Gold rises on softer oil prices; US jobs data, Fed rate outlook on tap - Reuters"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2300,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 11,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times YouTube",
+        "무역킹 Trade King YouTube"
+      ],
+      "sample_titles": [
+        "AMD earnings are a key test for chips and momentum stocks. Here's what the options market is saying",
+        "Inside Google’s $200bn Wall Street finance machine for Anthropic",
+        "Why has the NVIDIA stock been so quiet lately?"
       ]
     }
   ],

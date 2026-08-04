@@ -6,9 +6,9 @@
 
 - `bitcoin` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls
+- `ai_semiconductors` / applied `False` / changed `False` / live picks `0`
+  - reason: no_live_followup_urls
+- `china` / applied `False` / changed `False` / live picks `0`
+  - reason: no_live_followup_urls
 - `fomc` / applied `False` / changed `False` / live picks `0`
-  - reason: no_live_followup_urls
-- `ai_growth_stocks` / applied `False` / changed `False` / live picks `0`
-  - reason: no_live_followup_urls
-- `tariffs_trade` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls

@@ -85,13 +85,13 @@
 
 ```json
 {
-  "keyword": "ai_growth_stocks",
-  "recommended_title": "AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담",
+  "keyword": "ai_semiconductors",
+  "recommended_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
   "alternate_titles": [
-    "AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담: 지금 시장이 반응하는 이유",
-    "AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담"
+    "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
+    "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -101,25 +101,23 @@
   ],
   "reference_takeaways": [],
   "fact_checks": [
-    "팔란티어/AI 성장주 관련 수치와 날짜 재확인",
-    "단기 검색 급증과 중장기 펀더멘털을 구분해 서술",
-    "섹터 자금 흐름 연결 문장 과장 여부 점검"
+    "기업 실적/가이던스 수치 원문 확인",
+    "반도체 섹터 전반 일반화 과장 여부 점검",
+    "대표 종목 티커와 실적 날짜 재확인"
   ],
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CNBC Top News",
     "Financial Times Home",
-    "Financial Times World",
     "Financial Times YouTube",
-    "MarketWatch Breaking News"
+    "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
-    "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
-    "Palantir forecasts greater demand from US groups for its AI software",
-    "Palantir’s stock climbs after earnings, as AI drives turbocharged growth",
-    "Palantir: profits, procurement and power | FT Film",
-    "Palantir forecasts greater demand from US groups for its AI software"
+    "AMD earnings are a key test for chips and momentum stocks. Here's what the options market is saying",
+    "Inside Google’s $200bn Wall Street finance machine for Anthropic",
+    "Why has the NVIDIA stock been so quiet lately?",
+    "Silicon shadows: inside the black market for AI chips | FT Film"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -182,10 +180,10 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 77.0,
-    "search_score": 17,
-    "timeliness_score": 21,
-    "explanatory_score": 17,
+    "total_score": 70.0,
+    "search_score": 15,
+    "timeliness_score": 14,
+    "explanatory_score": 19,
     "monetization_score": 15,
     "risk_score": 7
   },

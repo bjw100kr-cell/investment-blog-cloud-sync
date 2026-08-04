@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "U.S. FBI intelligence agent arrested in connection with theft of $1 million in crypto",
-    "Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy",
-    "U.S.-Japan intervention revives yen carry trade fears for bitcoin",
-    "Bernstein sees another leg lower for crypto markets if Clarity Act stalls",
-    "Tom Lee's Bitmine bought more ether, added to stock buyback last week"
+    "Intesa Sanpaolo slashed IBIT stake by 94% in 2Q, tripled ether ETF holding as crypto prices slumped",
+    "As Clarity Act teeters, mystery group hammers away at crypto in Washington ads",
+    "BNY to add crypto staking to digital asset custody platform",
+    "Coldcard urges users to move bitcoin as exploit is still in progress",
+    "The bitcoin market has plenty of reasons to freak out, yet calm pervades"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 85.0,
-    "search_score": 29,
+    "total_score": 86.0,
+    "search_score": 30,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,
