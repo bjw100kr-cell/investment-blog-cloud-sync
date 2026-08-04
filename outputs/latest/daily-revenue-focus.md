@@ -2,7 +2,7 @@
 
 오늘 어떤 글 순서로 올려야 수익화에 더 유리한지 보여주는 운영 카드입니다.
 
-- generated_at: `2026-08-03T15:08:31.358781+00:00`
+- generated_at: `2026-08-04T03:16:33.953696+00:00`
 - path_policy: main post는 현재 최적 단건 후보를 유지하고, next slot은 가능하면 다른 브랜드 레인에서 선택
 
 ## Today Path
@@ -19,12 +19,12 @@
   - urgency: follow_after_main
   - why_revenue: 초보 검색 유입과 긴 체류시간 확보
   - cta_focus: 코인 허브와 규제/ETF 글 연결
-- `next_slot` / `미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유`
-  - keyword: us_index_flow
-  - brand_lane: us-stocks (미국주식)
-  - urgency: watch
-  - why_revenue: 카테고리 보강과 내부링크 확장으로 장기 검색 유입 기반을 만드는 역할
-  - cta_focus: 
+- `next_slot` / `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지`
+  - keyword: fomc
+  - brand_lane: macro (거시경제)
+  - urgency: publish_now
+  - why_revenue: 페이지뷰와 체류시간 균형 확보
+  - cta_focus: 환율·금리·미국증시 evergreen 글로 연결
 
 ## Approval Commands
 

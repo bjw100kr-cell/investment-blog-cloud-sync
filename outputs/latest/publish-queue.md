@@ -1,14 +1,14 @@
 # 발행 우선순위 큐
 
-- 생성 시각: `2026-08-03T15:08:31.358781+00:00`
+- 생성 시각: `2026-08-04T03:16:33.953696+00:00`
 - 큐 개수: `4`
 - 업로드 가능 글 수: `4`
 
 ## 1. fomc
 
 - 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 우선순위 점수: 128.0
-- 발행일: 2026-08-03 / 버킷: today_or_overdue
+- 우선순위 점수: 134.0
+- 발행일: 2026-08-04 / 버킷: today_or_overdue
 - 역할: lane_focus_macro / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
@@ -21,8 +21,8 @@
 ## 2. bitcoin
 
 - 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 우선순위 점수: 123.0
-- 발행일: 2026-08-04 / 버킷: tomorrow
+- 우선순위 점수: 124.0
+- 발행일: 2026-08-05 / 버킷: tomorrow
 - 역할: lane_focus_crypto / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
@@ -32,30 +32,30 @@
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크: site-foundation/hub-crypto.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 
-## 3. dollar
+## 3. ai_growth_stocks
 
-- 제목: 달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법
-- 우선순위 점수: 104.0
+- 제목: AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담
+- 우선순위 점수: 112.0
 - 발행일: 2026-08-06 / 버킷: this_week
-- 역할: support / 타입: evergreen_explainer
-- 업로드 가능: True
-- 수익화 목표: 페이지뷰와 체류시간 균형 확보
-- CTA 초점: 환율·금리·미국증시 evergreen 글로 연결
-- 광고 슬롯 추천: after_intro, after_first_h2, before_faq, before_related_links
-- 발행 메모: 검색 저변을 넓히는 설명형 글
-- 수익화 경로: 광고 친화적인 초보 투자자 검색 유입, 연관 거시 글 내부링크 강화
-- 내부링크: site-foundation/hub-macro.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
-
-## 4. ai_semiconductors
-
-- 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 우선순위 점수: 85.0
-- 발행일: 미정 / 버킷: later
-- 역할: unplanned / 타입: breaking_explainer
+- 역할: lane_focus_us-stocks / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
 - CTA 초점: 실적·공급망·대표 종목 글로 연결
 - 광고 슬롯 추천: after_intro, mid_article, before_related_links
-- 발행 메모: 
-- 수익화 경로: 
+- 발행 메모: 당일 이슈 해설형 글
+- 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
+- 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
+
+## 4. tariffs_trade
+
+- 제목: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- 우선순위 점수: 72.0
+- 발행일: 2026-08-07 / 버킷: this_week
+- 역할: lane_focus_world-flow / 타입: breaking_explainer
+- 업로드 가능: True
+- 수익화 목표: 페이지뷰와 체류시간 균형 확보
+- CTA 초점: 실적·공급망·대표 종목 글로 연결
+- 광고 슬롯 추천: after_intro, mid_article, before_related_links
+- 발행 메모: 당일 이슈 해설형 글
+- 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md

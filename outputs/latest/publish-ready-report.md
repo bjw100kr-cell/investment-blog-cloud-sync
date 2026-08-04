@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-08-03T15:08:34.140020+00:00`
+- generated_at: `2026-08-04T03:16:36.389855+00:00`
 
 ## fomc
 
@@ -20,20 +20,20 @@
 - meta_description: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 이슈를 가격보다 수급, ETF, 달러, 규제 구조 중심으로 차분하게 해설합니다.
 - follow_up_post_count: 3
 
-## ai_semiconductors
+## ai_growth_stocks
 
 - ready: True
 - reason: ok
-- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html
-- meta_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- meta_description: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-성장주를-볼-때-놓치기-쉬운-리스크-매출-성장과-금리-부담.html
+- meta_title: AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담
+- meta_description: AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 0
 
-## dollar
+## tariffs_trade
 
 - ready: True
 - reason: ok
-- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-달러-강세가-주식과-비트코인에-주는-영향-환율부터-보는-법.html
-- meta_title: 달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법
-- meta_description: 달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기.html
+- meta_title: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- meta_description: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 0

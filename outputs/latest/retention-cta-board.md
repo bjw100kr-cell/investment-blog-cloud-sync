@@ -19,26 +19,7 @@
 - newsletter_preview_seed: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 - next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
 
-## 2. dollar 클러스터
-
-- source_keyword: `dollar`
-- main_title: `달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법`
-- main_ready_to_upload: `False`
-- cta_focus: 환율·금리·미국증시 evergreen 글로 연결
-- inline_cta_now: 이 글과 함께 아래 읽을거리까지 보면 `환율·금리·미국증시 evergreen 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
-- telegram_cta_later: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- newsletter_cta_later: 다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.
-- newsletter_subject_seed: [오늘의 투자 브리핑] 달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법
-- newsletter_preview_seed: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
-- followup_title: 달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법이 주식과 코인에 미치는 영향
-- followup_title: 달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법에서 다음으로 봐야 할 체크포인트 5가지
-- next_action: 사용자 검토 후 승인 대기
-- blocker: main_quality=review_before_publish
-- blocker: follow_up_posts_present
-- blocker: canonical_url_present
-- blocker: newsletter_ready
-
-## 3. 거시 이벤트 해설 클러스터
+## 2. 거시 이벤트 해설 클러스터
 
 - source_keyword: `fomc`
 - main_title: `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지`
@@ -51,16 +32,40 @@
 - newsletter_preview_seed: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 - next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
 
-## 4. ai_semiconductors 클러스터
+## 3. ai_growth_stocks 클러스터
 
-- source_keyword: `ai_semiconductors`
-- main_title: `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지`
+- source_keyword: `ai_growth_stocks`
+- main_title: `AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담`
 - main_ready_to_upload: `False`
 - cta_focus: 실적·공급망·대표 종목 글로 연결
 - inline_cta_now: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
 - telegram_cta_later: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
 - newsletter_cta_later: 다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.
-- newsletter_subject_seed: [오늘의 투자 브리핑] AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+- newsletter_subject_seed: [오늘의 투자 브리핑] AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담
 - newsletter_preview_seed: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
+- followup_title: AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담 관련 대표 종목 한눈에 보기
+- followup_title: AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담 공급망 정리: 누가 수혜를 보나
 - next_action: 사용자 검토 후 승인 대기
-- blocker: main_quality=needs_fix
+- blocker: main_quality=review_before_publish
+- blocker: follow_up_posts_present
+- blocker: canonical_url_present
+- blocker: newsletter_ready
+
+## 4. tariffs_trade 클러스터
+
+- source_keyword: `tariffs_trade`
+- main_title: `관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기`
+- main_ready_to_upload: `False`
+- cta_focus: 실적·공급망·대표 종목 글로 연결
+- inline_cta_now: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- telegram_cta_later: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
+- newsletter_cta_later: 다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.
+- newsletter_subject_seed: [오늘의 투자 브리핑] 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- newsletter_preview_seed: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
+- followup_title: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기
+- followup_title: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나
+- next_action: 사용자 검토 후 승인 대기
+- blocker: main_quality=review_before_publish
+- blocker: follow_up_posts_present
+- blocker: canonical_url_present
+- blocker: newsletter_ready

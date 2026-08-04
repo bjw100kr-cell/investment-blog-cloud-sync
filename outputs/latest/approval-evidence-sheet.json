@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-03T15:08:31.358781+00:00",
-  "item_count": 2,
+  "generated_at": "2026-08-04T03:16:33.953696+00:00",
+  "item_count": 3,
   "items": [
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-08-04",
-      "priority_score": 123.0,
+      "publish_date": "2026-08-05",
+      "priority_score": 124.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "format": "crypto_analysis",
       "source_names": [
         "CoinDesk RSS",
@@ -17,43 +17,35 @@
         "Investing.com Crypto News"
       ],
       "sample_headlines": [
+        "U.S. FBI intelligence agent arrested in connection with theft of $1 million in crypto",
+        "Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy",
         "U.S.-Japan intervention revives yen carry trade fears for bitcoin",
         "Bernstein sees another leg lower for crypto markets if Clarity Act stalls",
-        "Tom Lee's Bitmine bought more ether, added to stock buyback last week",
-        "Strategy sold another $105 million of bitcoin last week, repurchased $81.2 million of STRC",
-        "Bitget set to exit Japan, close all remaining positions by year-end"
+        "Tom Lee's Bitmine bought more ether, added to stock buyback last week"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 7200,
+      "demand_signal_score": 6900,
       "fallback_source": "source_snapshot_rank",
       "source_count": 3,
-      "search_score": 30,
+      "search_score": 29,
       "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
+        {
+          "title": "Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy",
+          "source_name": "CoinDesk RSS",
+          "published": "Mon, 03 Aug 2026 15:24:45 +0000",
+          "published_iso": "2026-08-03T15:24:45+00:00",
+          "link": "https://www.coindesk.com/business/2026/08/03/trump-linked-american-bitcoin-president-matt-prusak-departs-for-giga-energy",
+          "source_type": "rss"
+        },
         {
           "title": "U.S.-Japan intervention revives yen carry trade fears for bitcoin",
           "source_name": "CoinDesk RSS",
           "published": "Mon, 03 Aug 2026 14:46:08 +0000",
           "published_iso": "2026-08-03T14:46:08+00:00",
           "link": "https://www.coindesk.com/markets/2026/08/03/u-s-japan-intervention-revives-yen-carry-trade-fears-for-bitcoin",
-          "source_type": "rss"
-        },
-        {
-          "title": "US hints at more yen intervention: Five things to know in Bitcoin this week",
-          "source_name": "Cointelegraph",
-          "published": "Mon, 03 Aug 2026 14:11:26 +0000",
-          "published_iso": "2026-08-03T14:11:26+00:00",
-          "link": "https://cointelegraph.com/markets/us-hints-at-more-yen-intervention-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Strategy sells 1,638 Bitcoin to fund dividends and STRC repurchases",
-          "source_name": "Cointelegraph",
-          "published": "Mon, 03 Aug 2026 12:27:07 +0000",
-          "published_iso": "2026-08-03T12:27:07+00:00",
-          "link": "https://cointelegraph.com/news/strategy-sells-bitcoin-dividend-strc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
@@ -65,11 +57,19 @@
           "source_type": "rss"
         },
         {
-          "title": "Trumps’ American Bitcoin reports record BTC output, narrower Q2 loss",
-          "source_name": "Cointelegraph",
-          "published": "Mon, 03 Aug 2026 11:40:09 +0000",
-          "published_iso": "2026-08-03T11:40:09+00:00",
-          "link": "https://cointelegraph.com/news/trumps-american-bitcoin-output-narrower-q2-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Bitcoin recovers slightly from Coldcard hack losses, gaining marginally above $63k",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-08-03 21:34:56",
+          "published_iso": "2026-08-03 21:34:56",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-63k-as-coldcard-hack-overshadows-usiran-hopes-4829856",
+          "source_type": "rss"
+        },
+        {
+          "title": "Strategy sold 1,638 bitcoin last week",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-08-03 12:12:05",
+          "published_iso": "2026-08-03 12:12:05",
+          "link": "https://www.investing.com/news/cryptocurrency-news/strategy-sold-1638-bitcoin-last-week-432SI-4831000",
           "source_type": "rss"
         }
       ]
@@ -77,28 +77,30 @@
     {
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-08-03",
-      "priority_score": 128.0,
+      "publish_date": "2026-08-04",
+      "priority_score": 134.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
       "format": "macro_explainer",
       "source_names": [
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press"
       ],
       "sample_headlines": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "Analysis: Federal Reserve may be pulled into Bessent’s effort to support Japan’s yen"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 1,
-      "search_score": 19,
+      "source_count": 2,
+      "search_score": 23,
       "timeliness_score": 25,
-      "monetization_score": 14,
+      "monetization_score": 15,
       "recent_evidence": [
         {
           "title": "Federal Reserve issues FOMC statement",
@@ -139,6 +141,71 @@
           "published_iso": "2026-07-08T18:00:00+00:00",
           "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
           "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "ai_growth_stocks",
+      "title": "AI 성장주를 볼 때 놓치기 쉬운 리스크: 매출 성장과 금리 부담",
+      "publish_date": "2026-08-06",
+      "priority_score": 112.0,
+      "ready_now": false,
+      "quality_status": "review_before_publish",
+      "reason": "복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "format": "sector_analysis",
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "Financial Times YouTube",
+        "MarketWatch Breaking News"
+      ],
+      "sample_headlines": [
+        "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
+        "Palantir forecasts greater demand from US groups for its AI software",
+        "Palantir’s stock climbs after earnings, as AI drives turbocharged growth",
+        "Palantir: profits, procurement and power | FT Film"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 2500,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 5,
+      "search_score": 17,
+      "timeliness_score": 21,
+      "monetization_score": 15,
+      "recent_evidence": [
+        {
+          "title": "Palantir forecasts greater demand from US groups for its AI software",
+          "source_name": "Financial Times Home",
+          "published": "Mon, 03 Aug 2026 23:35:43 GMT",
+          "published_iso": "2026-08-03T23:35:43+00:00",
+          "link": "https://www.ft.com/content/3240e7c4-ba29-4ff3-83e5-cf2b3a5ff0ca?syn-25a6b1a6=1",
+          "source_type": "rss"
+        },
+        {
+          "title": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
+          "source_name": "CNBC Top News",
+          "published": "Mon, 03 Aug 2026 22:47:54 GMT",
+          "published_iso": "2026-08-03T22:47:54+00:00",
+          "link": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Palantir’s stock climbs after earnings, as AI drives turbocharged growth",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Mon, 03 Aug 2026 21:59:00 GMT",
+          "published_iso": "2026-08-03T21:59:00+00:00",
+          "link": "https://www.marketwatch.com/story/palantirs-stock-gains-as-ai-drives-turbocharged-growth-e006b70a?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
+          "title": "Palantir: profits, procurement and power | FT Film",
+          "source_name": "Financial Times YouTube",
+          "published": "137K views",
+          "published_iso": "137K views",
+          "link": "https://www.youtube.com/watch?v=kJ5XRl7PWxM",
+          "source_type": "youtube_channel"
         }
       ]
     }

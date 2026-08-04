@@ -1,12 +1,12 @@
 # Traffic Amplification Plan
 
 - 목표 방문자: `200`
-- 기본 예상 방문자: `185`
+- 기본 예상 방문자: `189`
 - 실행 전 배포 추가 예상 방문자: `0`
 - 수동 실행 시 추가 잠재 방문자: `1200`
-- 실행 전 배포 포함 예상 방문자: `185`
-- 수동 실행 시 잠재 방문자: `1385`
-- 남은 부족분: `15`
+- 실행 전 배포 포함 예상 방문자: `189`
+- 수동 실행 시 잠재 방문자: `1389`
+- 남은 부족분: `11`
 - 상태: `amplification_plan_ready_manual_execution_required`
 
 ## 운영 규칙
@@ -196,7 +196,7 @@ bitcoin 후속 글 후보: bitcoin 후속 글 1개를 먼저 생성하거나, �
 
 - keyword: `fomc`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
-- base_search_estimate: `90`
+- base_search_estimate: `94`
 - amplification_expected_before_execution: `0`
 - amplification_potential_if_executed: `75`
 - manual_execution_required: `True`
