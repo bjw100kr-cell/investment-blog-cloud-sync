@@ -1,28 +1,12 @@
 {
-  "generated_at": "2026-08-04T14:33:53.101233+00:00",
+  "generated_at": "2026-08-05T02:57:25.224845+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "jobs",
-      "trend_count": 1,
-      "traffic_score_sum": 500,
-      "max_approx_traffic": 500,
-      "trend_queries": [
-        "고용노동부"
-      ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 700,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -30,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 7200,
+      "demand_signal_score": 6100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 60,
+      "source_snapshot_score": 49,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -42,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Intesa Sanpaolo slashed IBIT stake by 94% in 2Q, tripled ether ETF holding as crypto prices slumped",
-        "As Clarity Act teeters, mystery group hammers away at crypto in Washington ads",
-        "BNY to add crypto staking to digital asset custody platform"
+        "SpaceX tops Wall Street revenue forecast, posts $540 million loss on bitcoin holdings",
+        "Samsung is poised to become a dominant stablecoin distributor, analysts say",
+        "Bitcoin’s $63,000 zone emerges as key battleground for buyers: Glassnode"
       ]
     },
     {
@@ -54,48 +38,19 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4100,
+      "demand_signal_score": 3200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 29,
-      "source_count": 4,
+      "source_snapshot_score": 20,
+      "source_count": 1,
       "source_names": [
-        "CNBC Top News",
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
-        "Reuters Markets via Google News RSS"
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ]
-    },
-    {
-      "keyword": "oil",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3600,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 24,
-      "source_count": 6,
-      "source_names": [
-        "Financial Times Home",
-        "Financial Times World",
-        "Financial Times YouTube",
-        "MarketWatch Breaking News",
-        "NYT Business"
-      ],
-      "sample_titles": [
-        "Oil falls after Bessent says deal to reopen Strait of Hormuz is imminent",
-        "Stocks rise despite higher oil prices as Iran tensions persist - Reuters",
-        "Gold rises on softer oil prices; US jobs data, Fed rate outlook on tap - Reuters"
       ]
     },
     {
@@ -105,22 +60,49 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2300,
+      "demand_signal_score": 2600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 11,
-      "source_count": 4,
+      "source_snapshot_score": 14,
+      "source_count": 5,
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
+        "Financial Times World",
         "Financial Times YouTube",
         "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
-        "AMD earnings are a key test for chips and momentum stocks. Here's what the options market is saying",
-        "Inside Google’s $200bn Wall Street finance machine for Anthropic",
+        "AMD's revenue climbs 50% and data center sales doubled, but the stock is down",
+        "OpenAI and Anthropic models went rogue in cyber tests, UK watchdog says",
         "Why has the NVIDIA stock been so quiet lately?"
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2500,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 13,
+      "source_count": 5,
+      "source_names": [
+        "Cointelegraph",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Bitcoin coils at $64K as Hormuz reopening timeline sends S&P 500 to $70T record",
+        "US stocks jump after Bessent says deal to reopen Hormuz is imminent",
+        "Dow, S&P 500 close at record on AI-linked earnings, Mideast deal hopes - Reuters"
       ]
     }
   ],

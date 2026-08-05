@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-04T14:33:53.101233+00:00`
+- 생성 시각: `2026-08-05T02:57:25.224845+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -29,7 +29,13 @@
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=TyIgDwc06uI! This is most likely caused by:
 
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / 60,000 Refugees in One Day: Is Morocco Weaponizing Migration to Pressure Spain?
@@ -100,48 +106,49 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 60, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 29, source_count 4, sources CNBC Top News, Federal Reserve Monetary Policy Press, Financial Times World, Reuters Markets via Google News RSS
-- `oil`: score 24, source_count 6, sources Financial Times Home, Financial Times World, Financial Times YouTube, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times YouTube, 무역킹 Trade King YouTube
-- `jobs`: score 10, source_count 1, sources Google Trends KR
-- `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `us_big_tech`: score 6, source_count 2, sources CNBC Top News, Financial Times Home
-- `ai_growth_stocks`: score 5, source_count 2, sources CNBC Top News, Financial Times YouTube
-- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
-- `us_index_flow`: score 4, source_count 2, sources MarketWatch Breaking News, NYT Business
+- `bitcoin`: score 49, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
+- `ai_semiconductors`: score 14, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, Financial Times YouTube, 무역킹 Trade King YouTube
+- `us_index_flow`: score 13, source_count 5, sources Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `treasury_yields`: score 9, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
+- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `china`: score 6, source_count 1, sources CNBC Top News
+- `oil`: score 5, source_count 2, sources Cointelegraph, Financial Times YouTube
+- `dollar`: score 4, source_count 1, sources CoinDesk RSS
+- `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 60, headlines 18
-  - Intesa Sanpaolo slashed IBIT stake by 94% in 2Q, tripled ether ETF holding as crypto prices slumped
-  - As Clarity Act teeters, mystery group hammers away at crypto in Washington ads
-  - BNY to add crypto staking to digital asset custody platform
-- `fomc`: score 29, headlines 7
+- `bitcoin`: score 49, headlines 15
+  - SpaceX tops Wall Street revenue forecast, posts $540 million loss on bitcoin holdings
+  - Samsung is poised to become a dominant stablecoin distributor, analysts say
+  - Bitcoin’s $63,000 zone emerges as key battleground for buyers: Glassnode
+- `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `oil`: score 24, headlines 9
-  - Oil falls after Bessent says deal to reopen Strait of Hormuz is imminent
-  - Stocks rise despite higher oil prices as Iran tensions persist - Reuters
-  - Gold rises on softer oil prices; US jobs data, Fed rate outlook on tap - Reuters
-- `ai_semiconductors`: score 11, headlines 4
-  - AMD earnings are a key test for chips and momentum stocks. Here's what the options market is saying
-  - Inside Google’s $200bn Wall Street finance machine for Anthropic
+- `ai_semiconductors`: score 14, headlines 5
+  - AMD's revenue climbs 50% and data center sales doubled, but the stock is down
+  - OpenAI and Anthropic models went rogue in cyber tests, UK watchdog says
   - Why has the NVIDIA stock been so quiet lately?
-- `jobs`: score 10, headlines 1
-  - 고용노동부
-- `crypto_etf`: score 7, headlines 2
+- `us_index_flow`: score 13, headlines 5
+  - Bitcoin coils at $64K as Hormuz reopening timeline sends S&P 500 to $70T record
+  - US stocks jump after Bessent says deal to reopen Hormuz is imminent
+  - Dow, S&P 500 close at record on AI-linked earnings, Mideast deal hopes - Reuters
+- `treasury_yields`: score 9, headlines 3
+  - BNY to offer institutional crypto staking through Galaxy partnership
+  - US yen intervention signals perfect storm rising in FX and bond markets - Reuters
+  - US economy is overstimulated — and bond markets fear it - Reuters
+- `ethereum`: score 7, headlines 2
   - Intesa Sanpaolo slashed IBIT stake by 94% in 2Q, tripled ether ETF holding as crypto prices slumped
-  - Italy’s biggest bank triples staked Ether ETF holdings while cutting IBIT shares
-- `us_big_tech`: score 6, headlines 2
-  - Jeff Bezos just filed to sell $4 billion in Amazon. The shares are falling
-  - OpenAI hits back at Apple over ‘oddly personal’ trade secrets fight
-- `ai_growth_stocks`: score 5, headlines 2
-  - Palantir jumps 20% on 'otherworldly' commercial revenue — here's what's driving the demand
-  - Palantir: profits, procurement and power | FT Film
-- `us_index_flow`: score 4, headlines 2
-  - The stock market’s brutal summer reset is finally over. Here is why Citadel Securities says it is time to buy again.
-  - Why Wall Street Is Feeling So Bullish
-- `ethereum`: score 4, headlines 1
+  - Ethereum researchers want to rein in staking, critics say it could backfire
+- `china`: score 6, headlines 2
+  - GM, Chinese automaker extend joint venture for 20 years despite geopolitical tensions with U.S.
+  - China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts
+- `oil`: score 5, headlines 2
+  - Bitcoin coils at $64K as Hormuz reopening timeline sends S&P 500 to $70T record
+  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+- `crypto_etf`: score 4, headlines 1
   - Intesa Sanpaolo slashed IBIT stake by 94% in 2Q, tripled ether ETF holding as crypto prices slumped
+- `dollar`: score 4, headlines 1
+  - Open USD rattled Circle's stock, but its key backers still support USDC
