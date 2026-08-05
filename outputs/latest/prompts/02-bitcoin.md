@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "SpaceX tops Wall Street revenue forecast, posts $540 million loss on bitcoin holdings",
-    "Samsung is poised to become a dominant stablecoin distributor, analysts say",
-    "Bitcoin’s $63,000 zone emerges as key battleground for buyers: Glassnode",
-    "Intesa Sanpaolo slashed IBIT stake by 94% in 2Q, tripled ether ETF holding as crypto prices slumped",
-    "Here’s what happened in crypto today"
+    "Crypto may have institutionalized, but it still trades like a rumor mill",
+    "SpaceX extends decline to 11% on lockup expiration and capex spending fears",
+    "The $120 million Coldcard hack lights up Bitcoin's memory pool",
+    "Crypto whales accumulate as bear market nears late stage: CryptoQuant",
+    "Do the Coldcard attacks mean all hardware wallets are now insecure?"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

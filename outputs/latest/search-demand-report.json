@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-05T02:57:25.224845+00:00",
+  "generated_at": "2026-08-05T14:26:45.675057+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 0,
+    "unmatched_market_trend_count": 1,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
@@ -14,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6100,
+      "demand_signal_score": 6000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 49,
+      "source_snapshot_score": 48,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "SpaceX tops Wall Street revenue forecast, posts $540 million loss on bitcoin holdings",
-        "Samsung is poised to become a dominant stablecoin distributor, analysts say",
-        "Bitcoin’s $63,000 zone emerges as key battleground for buyers: Glassnode"
+        "Crypto may have institutionalized, but it still trades like a rumor mill",
+        "SpaceX extends decline to 11% on lockup expiration and capex spending fears",
+        "The $120 million Coldcard hack lights up Bitcoin's memory pool"
       ]
     },
     {
@@ -38,13 +38,14 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 1,
+      "source_snapshot_score": 23,
+      "source_count": 2,
       "source_names": [
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
@@ -60,51 +61,58 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2600,
+      "demand_signal_score": 2100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
-      "source_count": 5,
+      "source_snapshot_score": 9,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
         "Financial Times YouTube",
-        "무역킹 Trade King YouTube"
+        "MarketWatch Breaking News",
+        "NYT Business"
       ],
       "sample_titles": [
-        "AMD's revenue climbs 50% and data center sales doubled, but the stock is down",
-        "OpenAI and Anthropic models went rogue in cyber tests, UK watchdog says",
-        "Why has the NVIDIA stock been so quiet lately?"
+        "Anthropic's Mythos created fake identities to fool humans in new cyber incident",
+        "3 reasons AMD’s stock is falling in the face of its latest earnings report",
+        "Silicon shadows: inside the black market for AI chips | FT Film"
       ]
     },
     {
-      "keyword": "us_index_flow",
+      "keyword": "china",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2500,
+      "demand_signal_score": 2000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
-      "source_count": 5,
+      "source_snapshot_score": 8,
+      "source_count": 3,
       "source_names": [
-        "Cointelegraph",
         "Financial Times Home",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "Financial Times World",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Bitcoin coils at $64K as Hormuz reopening timeline sends S&P 500 to $70T record",
-        "US stocks jump after Bessent says deal to reopen Hormuz is imminent",
-        "Dow, S&P 500 close at record on AI-linked earnings, Mideast deal hopes - Reuters"
+        "China launches global tax hunt going back decades",
+        "China hits back at US with sanctions and tighter drone export rules",
+        "How China’s A.I. Is Surging Across Africa"
       ]
     }
   ],
-  "unmatched_market_trends": []
+  "unmatched_market_trends": [
+    {
+      "query": "zeta stock",
+      "region": "US",
+      "approx_traffic": "1000+",
+      "traffic_score": 1000,
+      "market_relevance_score": 1,
+      "brand_identity_match": true,
+      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
+    }
+  ]
 }
