@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Crypto firm RedotPay says it will defend itself ‘vigorously’ against Binance lawsuit",
-    "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
-    "Coldcard exploit could boost demand for regulated bitcoin exposure, analysts say",
-    "Crypto Long & Short: Putting the bitcoin sizing question to the test",
-    "Strategy’s STRC rebounds 30% as company builds cash reserve, bitcoin price stabilizes"
+    "JPMorgan says Hyperliquid ETF inflows have stalled as competition mounts",
+    "Bitcoin’s low volatility doesn’t necessarily mean low risk",
+    "Free Markets and Innovation, Sort Of",
+    "Why Sandisk and Western Digital crashed 10% and what it means for bitcoin",
+    "Bitcoin, ether benefit as traders seek safety of largest tokens"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 86.0,
-    "search_score": 30,
+    "total_score": 85.0,
+    "search_score": 29,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,
