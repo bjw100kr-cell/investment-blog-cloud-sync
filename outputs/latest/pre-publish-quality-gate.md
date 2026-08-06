@@ -3,9 +3,9 @@
 발행 전에 신뢰, 내부링크, 구조화 데이터, 재방문 장치가 빠졌는지 자동 점검하는 품질 게이트입니다.
 
 - item_count: `7`
-- pass_count: `6`
+- pass_count: `7`
 - review_before_publish_count: `0`
-- needs_fix_count: `1`
+- needs_fix_count: `0`
 
 ## Readiness Checklist Reference
 
@@ -72,11 +72,11 @@
 
 - keyword: `ai_semiconductors`
 - source_group: `main`
-- status: `needs_fix`
+- status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
-- fail / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
+- ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
 - ok / `high` / `disclaimer_present`: 면책/운영 원칙 문구가 있어야 투자 해설 블로그 신뢰도에 유리합니다.
 - ok / `high` / `profitable_article_structure`: 수익형 금융 글은 첫 화면 요약, 시나리오, 리스크, 오해 정리, 체크포인트가 있어야 체류와 검색 만족도가 올라갑니다.
 - ok / `high` / `specific_information_density`: 달러, 금리, ETF 자금, 규제 일정, 대표 종목, 경제지표 같은 구체 체크 대상이 부족하면 정보 전달력이 약합니다.
@@ -122,7 +122,7 @@
 
 ## 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_china_9`
+- keyword: `seo_china_10`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html`

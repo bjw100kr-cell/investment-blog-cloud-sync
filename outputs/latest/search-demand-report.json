@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-05T14:26:45.675057+00:00",
+  "generated_at": "2026-08-06T03:14:56.773780+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 1,
-    "weak_trend_fallback_count": 4
+    "matched_keyword_count": 3,
+    "unmatched_market_trend_count": 0,
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
     {
@@ -14,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6000,
+      "demand_signal_score": 7200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 48,
+      "source_snapshot_score": 60,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Crypto may have institutionalized, but it still trades like a rumor mill",
-        "SpaceX extends decline to 11% on lockup expiration and capex spending fears",
-        "The $120 million Coldcard hack lights up Bitcoin's memory pool"
+        "Crypto firm RedotPay says it will defend itself ‘vigorously’ against Binance lawsuit",
+        "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
+        "Coldcard exploit could boost demand for regulated bitcoin exposure, analysts say"
       ]
     },
     {
@@ -38,15 +38,16 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3500,
+      "demand_signal_score": 3800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
-      "source_count": 2,
+      "source_snapshot_score": 26,
+      "source_count": 3,
       "source_names": [
         "CNBC Top News",
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -61,58 +62,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2100,
+      "demand_signal_score": 2200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 9,
-      "source_count": 4,
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times YouTube",
-        "MarketWatch Breaking News",
-        "NYT Business"
-      ],
-      "sample_titles": [
-        "Anthropic's Mythos created fake identities to fool humans in new cyber incident",
-        "3 reasons AMD’s stock is falling in the face of its latest earnings report",
-        "Silicon shadows: inside the black market for AI chips | FT Film"
-      ]
-    },
-    {
-      "keyword": "china",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2000,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 8,
+      "source_snapshot_score": 10,
       "source_count": 3,
       "source_names": [
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
+        "Cointelegraph",
+        "Financial Times YouTube",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "China launches global tax hunt going back decades",
-        "China hits back at US with sanctions and tighter drone export rules",
-        "How China’s A.I. Is Surging Across Africa"
+        "Mysten Labs tech chief joins Anthropic to work on AI security",
+        "Senator Warren questions US AI chip policy after Trump crypto investment: Report",
+        "Nvidia’s stock is basking in the glow of a high-profile endorsement"
       ]
     }
   ],
-  "unmatched_market_trends": [
-    {
-      "query": "zeta stock",
-      "region": "US",
-      "approx_traffic": "1000+",
-      "traffic_score": 1000,
-      "market_relevance_score": 1,
-      "brand_identity_match": true,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    }
-  ]
+  "unmatched_market_trends": []
 }

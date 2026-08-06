@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T14:26:45.675057+00:00",
+  "generated_at": "2026-08-06T03:14:56.773780+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -58,28 +58,29 @@
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Fed's Kashkari says 'now is the time to start slowly moving' rates up"
+        "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3500,
-      "search_score": 23,
+      "demand_signal_score": 3800,
+      "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
       "monetization_score": 15,
       "risk_score": 8,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 2,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 91.0,
+      "total_score": 94.0,
       "format": "macro_explainer"
     },
     {
@@ -91,7 +92,7 @@
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -100,11 +101,11 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "Crypto may have institutionalized, but it still trades like a rumor mill",
-        "SpaceX extends decline to 11% on lockup expiration and capex spending fears",
-        "The $120 million Coldcard hack lights up Bitcoin's memory pool",
-        "Crypto whales accumulate as bear market nears late stage: CryptoQuant",
-        "Do the Coldcard attacks mean all hardware wallets are now insecure?"
+        "Crypto firm RedotPay says it will defend itself ‘vigorously’ against Binance lawsuit",
+        "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
+        "Coldcard exploit could boost demand for regulated bitcoin exposure, analysts say",
+        "Crypto Long & Short: Putting the bitcoin sizing question to the test",
+        "Strategy’s STRC rebounds 30% as company builds cash reserve, bitcoin price stabilizes"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -115,18 +116,20 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 6000,
-      "search_score": 29,
+      "demand_signal_score": 7200,
+      "search_score": 30,
       "timeliness_score": 18,
       "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 3,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 3,
-      "crypto_market_signal_bonus": 1,
-      "crypto_market_sentiment": "mixed",
-      "crypto_market_signal_notes": [],
-      "total_score": 83.0,
+      "search_demand_bonus": 4,
+      "crypto_market_signal_bonus": 3,
+      "crypto_market_sentiment": "extreme_fear",
+      "crypto_market_signal_notes": [
+        "Fear/Greed 25: Extreme Fear zone"
+      ],
+      "total_score": 86.0,
       "format": "crypto_analysis"
     },
     {
@@ -138,7 +141,7 @@
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -147,33 +150,32 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Anthropic's Mythos created fake identities to fool humans in new cyber incident",
-        "3 reasons AMD’s stock is falling in the face of its latest earnings report",
-        "Silicon shadows: inside the black market for AI chips | FT Film",
-        "The Winners of Trump’s A.I. Safety Plan"
+        "Mysten Labs tech chief joins Anthropic to work on AI security",
+        "Senator Warren questions US AI chip policy after Trump crypto investment: Report",
+        "Nvidia’s stock is basking in the glow of a high-profile endorsement",
+        "Silicon shadows: inside the black market for AI chips | FT Film"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
+        "Cointelegraph",
         "Financial Times YouTube",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "MarketWatch Breaking News"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2100,
-      "search_score": 14,
-      "timeliness_score": 17,
-      "explanatory_score": 18,
+      "demand_signal_score": 2200,
+      "search_score": 15,
+      "timeliness_score": 15,
+      "explanatory_score": 19,
       "monetization_score": 15,
-      "risk_score": 7,
+      "risk_score": 5,
       "performance_bonus": 0.0,
       "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 71.0,
+      "total_score": 69.0,
       "format": "sector_analysis"
     },
     {
@@ -185,7 +187,7 @@
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -194,31 +196,27 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "China launches global tax hunt going back decades",
-        "China hits back at US with sanctions and tighter drone export rules",
-        "How China’s A.I. Is Surging Across Africa"
+        "FirstFT: China launches global tax hunt"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
+        "Financial Times World"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2000,
-      "search_score": 13,
-      "timeliness_score": 15,
+      "demand_signal_score": 0,
+      "search_score": 4,
+      "timeliness_score": 5,
       "explanatory_score": 17,
-      "monetization_score": 14,
+      "monetization_score": 12,
       "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 66.0,
+      "total_score": 45.0,
       "format": "macro_explainer"
     },
     {
@@ -239,13 +237,13 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Saudi wealth fund and Jared Kushner's Affinity finalize $55 billion EA Sports deal",
-        "The S&P 500 just hit a new high. ‘Big Short’ investor Michael Burry thinks it could bring a 1987-style fall."
+        "US stock market could ride earnings strength to more gains after S&P 500 hits record - Reuters",
+        "What the Stock Market’s Record Rally Has to Do With Rescuing the Yen"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
-        "MarketWatch Breaking News"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
