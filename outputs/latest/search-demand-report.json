@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-08-07T02:55:09.981449+00:00",
+  "generated_at": "2026-08-07T13:20:22.456738+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
+      "trend_queries": [
+        "amd"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,21 +30,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6900,
+      "demand_signal_score": 6800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 57,
-      "source_count": 3,
+      "source_snapshot_score": 56,
+      "source_count": 4,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Senate won't vote on crypto Clarity Act before its summer break",
-        "Crypto for Advisors: Europe's crypto rules, U.S. Preview",
-        "JPMorgan says Hyperliquid ETF inflows have stalled as competition mounts"
+        "After a Clarity Act funeral, the crypto world would keep turning",
+        "Why Bitcoin's BIP-110 refuses to die despite near-zero miner support",
+        "Bitcoin’s volatility has nearly disappeared. The risk hasn’t."
       ]
     },
     {
@@ -38,15 +55,18 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3500,
+      "demand_signal_score": 4900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
-      "source_count": 2,
+      "source_snapshot_score": 37,
+      "source_count": 5,
       "source_names": [
+        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home"
+        "Financial Times Home",
+        "Financial Times World",
+        "NYT Business"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -61,46 +81,48 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2900,
+      "demand_signal_score": 3600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 17,
-      "source_count": 4,
+      "source_snapshot_score": 24,
+      "source_count": 5,
       "source_names": [
-        "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times World",
         "Financial Times YouTube",
         "Investing.com Crypto News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Oil rises amid supply disruption fears following Iran's restrictive draft plan for the Strait of Hormuz",
+        "Bitcoin hovers below $65,000 as Middle East tensions escalate further",
         "Bitcoin slightly lower, holds at $64k amid hit to risk sentiment from oil prices",
-        "Oil rises on concerns over Strait of Hormuz reopening plans - reuters.com"
+        "Stocks, dollar steady ahead of US jobs report; oil wobbles - Reuters"
       ]
     },
     {
-      "keyword": "us_big_tech",
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2000,
+      "demand_signal_score": 2200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 8,
-      "source_count": 3,
+      "source_snapshot_score": 10,
+      "source_count": 4,
       "source_names": [
-        "CNBC Top News",
-        "NYT Business",
-        "무역킹 Trade King YouTube"
+        "Financial Times Home",
+        "Financial Times World",
+        "MarketWatch Breaking News",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Meta ordered to pay $567 million into abatement fund as remedy to child harms case in New Mexico",
-        "Why is Amazon the only one not rising?",
-        "Follow the Markets and Track Stocks With These Free Apps"
+        "The curious case of the Japanese government bond yields",
+        "There are good reasons higher bond yields are here to stay, this strategist says",
+        "UK housing market in ‘suspended animation’"
       ]
     }
   ],
