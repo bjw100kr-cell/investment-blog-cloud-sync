@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T14:29:36.452541+00:00",
+  "generated_at": "2026-08-07T02:55:09.981449+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -91,7 +91,7 @@
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -100,11 +100,11 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
+        "Senate won't vote on crypto Clarity Act before its summer break",
+        "Crypto for Advisors: Europe's crypto rules, U.S. Preview",
         "JPMorgan says Hyperliquid ETF inflows have stalled as competition mounts",
         "Bitcoin’s low volatility doesn’t necessarily mean low risk",
-        "Free Markets and Innovation, Sort Of",
-        "Why Sandisk and Western Digital crashed 10% and what it means for bitcoin",
-        "Bitcoin, ether benefit as traders seek safety of largest tokens"
+        "Free Markets and Innovation, Sort Of"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -115,7 +115,7 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 6300,
+      "demand_signal_score": 6900,
       "search_score": 29,
       "timeliness_score": 18,
       "explanatory_score": 17,
@@ -123,24 +123,22 @@
       "risk_score": 3,
       "performance_bonus": 0.0,
       "search_demand_bonus": 3,
-      "crypto_market_signal_bonus": 3,
-      "crypto_market_sentiment": "extreme_fear",
-      "crypto_market_signal_notes": [
-        "Fear/Greed 25: Extreme Fear zone"
-      ],
-      "total_score": 85.0,
+      "crypto_market_signal_bonus": 1,
+      "crypto_market_sentiment": "mixed",
+      "crypto_market_signal_notes": [],
+      "total_score": 83.0,
       "format": "crypto_analysis"
     },
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "us_big_tech",
       "category": "global-sector",
       "brand_lane": "us-stocks",
       "title_candidates": [
-        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
-        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
+        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유",
+        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -149,27 +147,27 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "The deal that saved Intel",
-        "S&P 500 flat as chip, software weakness offsets broader gains - Reuters",
-        "Silicon shadows: inside the black market for AI chips | FT Film"
+        "Meta ordered to pay $567 million into abatement fund as remedy to child harms case in New Mexico",
+        "Why is Amazon the only one not rising?",
+        "Follow the Markets and Track Stocks With These Free Apps"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Financial Times Home",
-        "Financial Times YouTube",
-        "Reuters Markets via Google News RSS"
+        "CNBC Top News",
+        "NYT Business",
+        "무역킹 Trade King YouTube"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 12,
+      "demand_signal_score": 2000,
+      "search_score": 13,
       "timeliness_score": 12,
-      "explanatory_score": 18,
+      "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
@@ -177,15 +175,15 @@
       "format": "sector_analysis"
     },
     {
-      "keyword": "tariffs_trade",
+      "keyword": "china",
       "category": "global-sector",
       "brand_lane": "world-flow",
       "title_candidates": [
-        "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
-        "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유",
-        "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기"
+        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
+        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "검색 트렌드 반응 존재, 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (무역)",
+      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -194,31 +192,29 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "무역"
+        "China's exports jump 23% in July, beating estimates; imports cool",
+        "China’s Unitree Prices IPO in Bet Investors Are Ready for Humanoid Robots"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Google Trends KR"
+        "CNBC Top News",
+        "NYT Business"
       ],
-      "trend_queries": [
-        "무역"
-      ],
-      "trend_regions": [
-        "KR"
-      ],
+      "trend_queries": [],
+      "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 400,
-      "search_score": 11,
-      "timeliness_score": 5,
-      "explanatory_score": 18,
-      "monetization_score": 15,
+      "demand_signal_score": 0,
+      "search_score": 8,
+      "timeliness_score": 10,
+      "explanatory_score": 17,
+      "monetization_score": 13,
       "risk_score": 7,
       "performance_bonus": 0.0,
       "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 56.0,
+      "total_score": 55.0,
       "format": "macro_explainer"
     },
     {
@@ -230,7 +226,7 @@
         "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유",
         "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지"
       ],
-      "reason": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -239,35 +235,34 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "Live updates: BTC holding just above $64,000 ahead of Friday's key jobs data",
-        "Ukraine’s military hits one of Russia’s biggest oil refineries in long-range drone attack",
-        "Oil traders double down on Iran deal bet as odds worsen - Reuters",
-        "Oil gains as investors cautious over Iran-Oman talks - Reuters",
-        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
+        "Oil rises amid supply disruption fears following Iran's restrictive draft plan for the Strait of Hormuz",
+        "Bitcoin slightly lower, holds at $64k amid hit to risk sentiment from oil prices",
+        "Oil rises on concerns over Strait of Hormuz reopening plans - reuters.com",
+        "Stocks fall ahead of Friday's US jobs data; oil gains on Iran concerns - reuters.com",
+        "Gold pares gains to trade steady as oil rises on Iran proposal to bar 'hostile' vessels in Hormuz - reuters.com"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
-        "Financial Times World",
         "Financial Times YouTube",
+        "Investing.com Crypto News",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3000,
-      "search_score": 21,
-      "timeliness_score": 21,
-      "explanatory_score": 18,
+      "demand_signal_score": 2900,
+      "search_score": 20,
+      "timeliness_score": 20,
+      "explanatory_score": 17,
       "monetization_score": 14,
-      "risk_score": 5,
+      "risk_score": 7,
       "performance_bonus": 0.0,
       "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 79.0,
+      "total_score": 78.0,
       "format": "macro_explainer"
     }
   ]

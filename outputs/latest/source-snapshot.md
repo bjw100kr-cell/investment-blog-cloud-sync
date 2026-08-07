@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-06T14:29:36.452541+00:00`
+- 생성 시각: `2026-08-07T02:55:09.981449+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,51 +106,48 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 51, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `bitcoin`: score 57, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Financial Times Home
-- `oil`: score 18, source_count 5, sources CNBC Top News, CoinDesk RSS, Financial Times World, Financial Times YouTube, Reuters Markets via Google News RSS
-- `treasury_yields`: score 11, source_count 4, sources CoinDesk RSS, Cointelegraph, MarketWatch Breaking News, NYT Business
-- `dollar`: score 10, source_count 3, sources CoinDesk RSS, Financial Times Home, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 8, source_count 3, sources Financial Times Home, Financial Times YouTube, Reuters Markets via Google News RSS
-- `tariffs_trade`: score 7, source_count 1, sources Google Trends KR
-- `us_index_flow`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `jobs`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `us_big_tech`: score 5, source_count 2, sources NYT Business, 무역킹 Trade King YouTube
+- `oil`: score 17, source_count 4, sources CNBC Top News, Financial Times YouTube, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `us_big_tech`: score 8, source_count 3, sources CNBC Top News, NYT Business, 무역킹 Trade King YouTube
+- `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `ai_semiconductors`: score 7, source_count 3, sources Financial Times Home, Financial Times YouTube, MarketWatch Breaking News
+- `china`: score 5, source_count 2, sources CNBC Top News, NYT Business
+- `treasury_yields`: score 2, source_count 1, sources MarketWatch Breaking News
+- `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
+- `dollar`: score 2, source_count 1, sources NYT Business
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 51, headlines 15
+- `bitcoin`: score 57, headlines 17
+  - Senate won't vote on crypto Clarity Act before its summer break
+  - Crypto for Advisors: Europe's crypto rules, U.S. Preview
   - JPMorgan says Hyperliquid ETF inflows have stalled as competition mounts
-  - Bitcoin’s low volatility doesn’t necessarily mean low risk
-  - Free Markets and Innovation, Sort Of
 - `fomc`: score 23, headlines 5
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `oil`: score 18, headlines 6
-  - Live updates: BTC holding just above $64,000 ahead of Friday's key jobs data
-  - Ukraine’s military hits one of Russia’s biggest oil refineries in long-range drone attack
-  - Oil traders double down on Iran deal bet as odds worsen - Reuters
-- `treasury_yields`: score 11, headlines 4
-  - Live updates: BTC holding just above $64,000 ahead of Friday's key jobs data
-  - Bitcoin treasury trade ‘breaking’ and fund holdings drop 10%: Analysis
-  - How to earn a 9% dividend yield while cutting your risk in the stock market
-- `dollar`: score 10, headlines 3
-  - Live updates: BTC holding just above $64,000 ahead of Friday's key jobs data
-  - ‘Every dollar is mobile’: California’s rich snap up New Zealand ‘golden visas’
-  - Dollar ticks up as markets await Iran deal news, look towards payrolls - Reuters
-- `ai_semiconductors`: score 8, headlines 3
-  - The deal that saved Intel
-  - S&P 500 flat as chip, software weakness offsets broader gains - Reuters
-  - Silicon shadows: inside the black market for AI chips | FT Film
-- `tariffs_trade`: score 7, headlines 1
-  - 무역
-- `jobs`: score 5, headlines 2
-  - Dollar ticks up as markets await Iran deal news, look towards payrolls - Reuters
-  - Layoffs fall to the lowest level since the U.S. put men on the moon. Here’s what that says about the economy.
-- `us_big_tech`: score 5, headlines 2
+- `oil`: score 17, headlines 6
+  - Oil rises amid supply disruption fears following Iran's restrictive draft plan for the Strait of Hormuz
+  - Bitcoin slightly lower, holds at $64k amid hit to risk sentiment from oil prices
+  - Oil rises on concerns over Strait of Hormuz reopening plans - reuters.com
+- `us_big_tech`: score 8, headlines 3
+  - Meta ordered to pay $567 million into abatement fund as remedy to child harms case in New Mexico
   - Why is Amazon the only one not rising?
   - Follow the Markets and Track Stocks With These Free Apps
-- `us_index_flow`: score 5, headlines 2
-  - S&P 500 flat as chip, software weakness offsets broader gains - Reuters
-  - How to earn a 9% dividend yield while cutting your risk in the stock market
+- `ai_semiconductors`: score 7, headlines 3
+  - The deal that saved Intel
+  - Micron’s stock falls but is spared the worst of the memory-chip selloff
+  - Silicon shadows: inside the black market for AI chips | FT Film
+- `crypto_etf`: score 7, headlines 2
+  - JPMorgan says Hyperliquid ETF inflows have stalled as competition mounts
+  - Bitcoin ETF inflows surge after Coldcard hack, but link is unclear: Bloomberg analyst
+- `china`: score 5, headlines 2
+  - China's exports jump 23% in July, beating estimates; imports cool
+  - China’s Unitree Prices IPO in Bet Investors Are Ready for Humanoid Robots
+- `ai_growth_stocks`: score 2, headlines 1
+  - Palantir: profits, procurement and power | FT Film
+- `dollar`: score 2, headlines 1
+  - FIFA Executives Were Given Ultimatum to Approve World Cup Privatization Plan
+- `treasury_yields`: score 2, headlines 1
+  - As Alphabet burns through cash on AI, it’s turning back to the bond market

@@ -1,28 +1,12 @@
 {
-  "generated_at": "2026-08-06T14:29:36.452541+00:00",
+  "generated_at": "2026-08-07T02:55:09.981449+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
-    "unmatched_market_trend_count": 2,
+    "matched_keyword_count": 4,
+    "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "tariffs_trade",
-      "trend_count": 1,
-      "traffic_score_sum": 200,
-      "max_approx_traffic": 200,
-      "trend_queries": [
-        "무역"
-      ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 400,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -30,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6300,
+      "demand_signal_score": 6900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 51,
+      "source_snapshot_score": 57,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -42,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "JPMorgan says Hyperliquid ETF inflows have stalled as competition mounts",
-        "Bitcoin’s low volatility doesn’t necessarily mean low risk",
-        "Free Markets and Innovation, Sort Of"
+        "Senate won't vote on crypto Clarity Act before its summer break",
+        "Crypto for Advisors: Europe's crypto rules, U.S. Preview",
+        "JPMorgan says Hyperliquid ETF inflows have stalled as competition mounts"
       ]
     },
     {
@@ -77,69 +61,48 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3000,
+      "demand_signal_score": 2900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 18,
-      "source_count": 5,
+      "source_snapshot_score": 17,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
-        "Financial Times World",
         "Financial Times YouTube",
+        "Investing.com Crypto News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Live updates: BTC holding just above $64,000 ahead of Friday's key jobs data",
-        "Ukraine’s military hits one of Russia’s biggest oil refineries in long-range drone attack",
-        "Oil traders double down on Iran deal bet as odds worsen - Reuters"
+        "Oil rises amid supply disruption fears following Iran's restrictive draft plan for the Strait of Hormuz",
+        "Bitcoin slightly lower, holds at $64k amid hit to risk sentiment from oil prices",
+        "Oil rises on concerns over Strait of Hormuz reopening plans - reuters.com"
       ]
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "us_big_tech",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2300,
+      "demand_signal_score": 2000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 11,
-      "source_count": 4,
+      "source_snapshot_score": 8,
+      "source_count": 3,
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "CNBC Top News",
+        "NYT Business",
+        "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
-        "Live updates: BTC holding just above $64,000 ahead of Friday's key jobs data",
-        "Bitcoin treasury trade ‘breaking’ and fund holdings drop 10%: Analysis",
-        "How to earn a 9% dividend yield while cutting your risk in the stock market"
+        "Meta ordered to pay $567 million into abatement fund as remedy to child harms case in New Mexico",
+        "Why is Amazon the only one not rising?",
+        "Follow the Markets and Track Stocks With These Free Apps"
       ]
     }
   ],
-  "unmatched_market_trends": [
-    {
-      "query": "app stock",
-      "region": "US",
-      "approx_traffic": "5000+",
-      "traffic_score": 5000,
-      "market_relevance_score": 1,
-      "brand_identity_match": true,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    },
-    {
-      "query": "wdc stock",
-      "region": "US",
-      "approx_traffic": "5000+",
-      "traffic_score": 5000,
-      "market_relevance_score": 1,
-      "brand_identity_match": true,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    }
-  ]
+  "unmatched_market_trends": []
 }
