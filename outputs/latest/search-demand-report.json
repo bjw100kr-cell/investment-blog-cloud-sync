@@ -1,53 +1,12 @@
 {
-  "generated_at": "2026-08-07T13:20:22.456738+00:00",
+  "generated_at": "2026-08-08T02:00:40.178612+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "ai_semiconductors",
-      "trend_count": 1,
-      "traffic_score_sum": 200,
-      "max_approx_traffic": 200,
-      "trend_queries": [
-        "amd"
-      ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 400,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
-    {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 6800,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 56,
-      "source_count": 4,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
-      ],
-      "sample_titles": [
-        "After a Clarity Act funeral, the crypto world would keep turning",
-        "Why Bitcoin's BIP-110 refuses to die despite near-zero miner support",
-        "Bitcoin’s volatility has nearly disappeared. The risk hasn’t."
-      ]
-    },
     {
       "keyword": "fomc",
       "trend_count": 0,
@@ -55,18 +14,18 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4900,
+      "demand_signal_score": 6600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 37,
-      "source_count": 5,
+      "source_snapshot_score": 54,
+      "source_count": 9,
       "source_names": [
-        "CoinDesk RSS",
+        "CNBC Top News",
+        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
         "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
+        "Financial Times World"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -75,29 +34,28 @@
       ]
     },
     {
-      "keyword": "oil",
+      "keyword": "bitcoin",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3600,
+      "demand_signal_score": 6100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 24,
-      "source_count": 5,
+      "source_snapshot_score": 49,
+      "source_count": 4,
       "source_names": [
         "CoinDesk RSS",
-        "Financial Times World",
-        "Financial Times YouTube",
-        "Investing.com Crypto News",
-        "Reuters Markets via Google News RSS"
+        "Cointelegraph",
+        "Financial Times Home",
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Bitcoin hovers below $65,000 as Middle East tensions escalate further",
-        "Bitcoin slightly lower, holds at $64k amid hit to risk sentiment from oil prices",
-        "Stocks, dollar steady ahead of US jobs report; oil wobbles - Reuters"
+        "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
+        "Trump-Backed American Bitcoin director Justin Mateen buys nearly $2 million of ABTC stock",
+        "U.S. widens Iran crypto crackdown with sanctions on two exchanges"
       ]
     },
     {
@@ -107,22 +65,47 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2200,
+      "demand_signal_score": 3400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 10,
+      "source_snapshot_score": 22,
       "source_count": 4,
       "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
         "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News",
         "NYT Business"
       ],
       "sample_titles": [
-        "The curious case of the Japanese government bond yields",
-        "There are good reasons higher bond yields are here to stay, this strategist says",
-        "UK housing market in ‘suspended animation’"
+        "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
+        "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
+        "Donald Trump’s media company to terminate Crypto.com deal"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2600,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 14,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times World",
+        "Financial Times YouTube",
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": [
+        "Trump teased an Iran deal that didn't come, but markets soared. Here’s why it keeps happening",
+        "Russia sanctions bill honoring Lindsey Graham breezes through Senate, heads to House",
+        "Bitcoin slightly lower, holds at $64k amid hit to risk sentiment from oil prices"
       ]
     }
   ],
