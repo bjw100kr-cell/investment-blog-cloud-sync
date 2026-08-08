@@ -91,7 +91,7 @@
     "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
     "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -108,16 +108,15 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
+    "CNBC Top News",
     "Financial Times Home",
-    "Financial Times World",
-    "NYT Business",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
+    "A record-breaking week for options powers S&P 500 surge; volatility gauge is near 2026 low",
     "Moonshot shake-up seeks to win Beijing nod for stock market debut",
     "S&P closes at record high as soft jobs report eases rate-hike concerns - Reuters",
-    "Moonshot shake-up seeks to win Beijing nod for stock market debut",
-    "The Bond Market Is Signaling Rising Risks. Investors Should Listen."
+    "Wall St Week Ahead: Inflation data to test record-setting US stocks, Fed rate views - Reuters"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -180,9 +179,9 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 75.0,
-    "search_score": 14,
-    "timeliness_score": 20,
+    "total_score": 74.0,
+    "search_score": 15,
+    "timeliness_score": 18,
     "explanatory_score": 18,
     "monetization_score": 15,
     "risk_score": 8

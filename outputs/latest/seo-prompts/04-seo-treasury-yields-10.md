@@ -85,27 +85,27 @@
 
 ```json
 {
-  "keyword": "seo_treasury_yields_7",
+  "keyword": "seo_treasury_yields_10",
   "source_keyword": "treasury_yields",
-  "recommended_title": "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지",
+  "recommended_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지",
   "alternate_titles": [
-    "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지: 초보 투자자 기준으로 다시 보기",
-    "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지: 지금 읽어야 하는 이유"
+    "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지: 초보 투자자 기준으로 다시 보기",
+    "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "미국채 금리 상승 이유에서 이어지는 후속 글로, `미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
+  "summary_angle": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 이어지는 후속 글로, 기초 개념을 처음부터 이해하고 싶은 초보 독자",
   "outline": [
-    "이전 메인 글에서 이어지는 핵심 질문",
-    "이번에 추가로 확인된 내용",
-    "개인 투자자가 체크할 숫자와 일정",
-    "강세/약세 시나리오 나눠 보기",
-    "다음 후속 글 연결"
+    "먼저 이 개념을 왜 알아야 하나",
+    "핵심 구조를 가장 쉽게 풀어보기",
+    "실전 투자에서는 어디를 같이 보면 좋은가",
+    "많이 헷갈리는 포인트 정리",
+    "다음에 이어서 볼 글"
   ],
   "reference_takeaways": [
-    "메인 연결 글: 미국채 금리 상승 이유",
-    "검색 의도: `미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
-    "수익화 목표: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
-    "검색어 후보: 미국채 금리 상승 이유, 10년물 국채금리 주식 영향, 국채금리 비트코인 영향, 금리 상승 성장주 영향",
-    "수요 신뢰도: medium_low - Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다."
+    "메인 연결 글: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+    "검색 의도: 기초 개념을 처음부터 이해하고 싶은 초보 독자",
+    "수익화 목표: 광범위한 초보 검색 수요 흡수",
+    "검색어 후보: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지",
+    "수요 신뢰도: existing_publish_queue - 기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
   ],
   "fact_checks": [
     "관련 공식 발표문과 날짜 재확인",
@@ -116,12 +116,10 @@
   "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
   "source_names": [
     "CoinDesk RSS",
-    "Cointelegraph",
-    "Financial Times Home",
-    "NYT Business"
+    "Cointelegraph"
   ],
   "reference_headlines": [
-    "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지"
+    "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -184,18 +182,18 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 111.07,
-    "search_score": 111.07,
+    "total_score": 105.5,
+    "search_score": 105.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "site-foundation/hub-macro.md",
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유.html",
     "secondary": [
+      "site-foundation/hub-macro.md",
       "site-foundation/about.md",
-      "site-foundation/editorial-policy.md",
       "site-foundation/disclosure.md"
     ]
   },
@@ -203,17 +201,14 @@
     "투자",
     "경제",
     "시장해설",
-    "미국채 금리 상승 이유"
+    "미국채금리",
+    "거시경제",
+    "금리"
   ],
-  "search_intent": "`미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
-  "monetization_goal": "새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
-  "reader_search_queries": [
-    "미국채 금리 상승 이유",
-    "10년물 국채금리 주식 영향",
-    "국채금리 비트코인 영향",
-    "금리 상승 성장주 영향"
-  ],
-  "demand_confidence": "medium_low",
-  "demand_confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다."
+  "search_intent": "기초 개념을 처음부터 이해하고 싶은 초보 독자",
+  "monetization_goal": "광범위한 초보 검색 수요 흡수",
+  "reader_search_queries": [],
+  "demand_confidence": "existing_publish_queue",
+  "demand_confidence_note": "기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
 }
 ```

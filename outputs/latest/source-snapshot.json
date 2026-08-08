@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T02:00:40.178612+00:00",
+  "generated_at": "2026-08-08T13:04:23.835582+00:00",
   "summary": {
     "ok_sources": 14,
     "item_count": 112
@@ -152,15 +152,31 @@
   ],
   "ranked_keywords": [
     {
-      "keyword": "fomc",
-      "score": 54,
-      "source_count": 9,
+      "keyword": "bitcoin",
+      "score": 67,
+      "source_count": 5,
       "sources": [
-        "CNBC Top News",
+        "CoinDesk RSS",
         "Cointelegraph",
-        "Federal Reserve Monetary Policy Press",
         "Financial Times Home",
         "Financial Times World",
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": [
+        "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF",
+        "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month",
+        "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
+        "Bitcoin holders risk losing real BTC if they sell coins from BIP-110 fork, says developer",
+        "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal"
+      ]
+    },
+    {
+      "keyword": "fomc",
+      "score": 41,
+      "source_count": 6,
+      "sources": [
+        "Cointelegraph",
+        "Federal Reserve Monetary Policy Press",
         "Investing.com Crypto News",
         "MarketWatch Breaking News",
         "NYT Business",
@@ -171,90 +187,99 @@
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
         "Bitcoin price tags $65.3K August high as low US jobs numbers cool Fed rate bets",
-        "Trump revives effort to fire Fed's Lisa Cook"
-      ]
-    },
-    {
-      "keyword": "bitcoin",
-      "score": 49,
-      "source_count": 4,
-      "sources": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Financial Times Home",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
-        "Trump-Backed American Bitcoin director Justin Mateen buys nearly $2 million of ABTC stock",
-        "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
-        "OKX's Rafique doubts Clarity Act will pass, warns optimism is already priced into bitcoin",
-        "Donald Trump’s media company to terminate Crypto.com deal"
+        "Bitcoin heads for 3% weekly gain as risk assets rally, Fed rate hike bets ease"
       ]
     },
     {
       "keyword": "treasury_yields",
-      "score": 22,
-      "source_count": 4,
+      "score": 14,
+      "source_count": 2,
       "sources": [
         "CoinDesk RSS",
-        "Cointelegraph",
-        "Financial Times Home",
-        "NYT Business"
+        "Cointelegraph"
       ],
       "sample_titles": [
         "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
         "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
         "Donald Trump’s media company to terminate Crypto.com deal",
-        "US Treasury’s OFAC sanctions 2 Iran-linked crypto exchanges",
-        "Crypto Biz: Crypto’s biggest business is starting to look a lot like banking"
+        "US Treasury’s OFAC sanctions 2 Iran-linked crypto exchanges"
+      ]
+    },
+    {
+      "keyword": "dollar",
+      "score": 12,
+      "source_count": 3,
+      "sources": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF",
+        "Domestic stablecoins could boost demand for dollar-backed tokens: IMF",
+        "Donald Trump’s media company to terminate Crypto.com deal",
+        "The smart way to invest in gold right now as the dollar slips"
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "score": 12,
+      "source_count": 3,
+      "sources": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "A record-breaking week for options powers S&P 500 surge; volatility gauge is near 2026 low",
+        "Moonshot shake-up seeks to win Beijing nod for stock market debut",
+        "S&P closes at record high as soft jobs report eases rate-hike concerns - Reuters",
+        "Wall St Week Ahead: Inflation data to test record-setting US stocks, Fed rate views - Reuters"
       ]
     },
     {
       "keyword": "oil",
-      "score": 14,
-      "source_count": 4,
+      "score": 8,
+      "source_count": 3,
       "sources": [
         "CNBC Top News",
-        "Financial Times World",
         "Financial Times YouTube",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
         "Trump teased an Iran deal that didn't come, but markets soared. Here’s why it keeps happening",
-        "Russia sanctions bill honoring Lindsey Graham breezes through Senate, heads to House",
         "Bitcoin slightly lower, holds at $64k amid hit to risk sentiment from oil prices",
-        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film",
-        "Iran’s oil exports stall and Kharg Island idles under US blockade"
+        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
       ]
     },
     {
-      "keyword": "us_index_flow",
-      "score": 11,
-      "source_count": 4,
-      "sources": [
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Moonshot shake-up seeks to win Beijing nod for stock market debut",
-        "S&P closes at record high as soft jobs report eases rate-hike concerns - Reuters",
-        "The Bond Market Is Signaling Rising Risks. Investors Should Listen."
-      ]
-    },
-    {
-      "keyword": "jobs",
-      "score": 6,
-      "source_count": 2,
+      "keyword": "ai_semiconductors",
+      "score": 7,
+      "source_count": 3,
       "sources": [
         "CNBC Top News",
-        "Cointelegraph"
+        "Financial Times YouTube",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Bitcoin price tags $65.3K August high as low US jobs numbers cool Fed rate bets",
-        "Here are three key takeaways from the disappointing July jobs report"
+        "Hugging Face hack marks start of dangerous AI cyber era and many firms 'don't even know it'",
+        "SpaceX’s Nvidia deal could be bad news for neoclouds like CoreWeave and Nebius, analysts say",
+        "Silicon shadows: inside the black market for AI chips | FT Film"
+      ]
+    },
+    {
+      "keyword": "ai_growth_stocks",
+      "score": 7,
+      "source_count": 3,
+      "sources": [
+        "CNBC Top News",
+        "Financial Times YouTube",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "Elevator giant Otis wants to be a defensive play in an volatile market. It has to prove itself first",
+        "Palantir’s stock stages best week since 2024 — showing it’s no longer an ‘AI loser’",
+        "Palantir: profits, procurement and power | FT Film"
       ]
     },
     {
@@ -262,92 +287,65 @@
       "score": 6,
       "source_count": 2,
       "sources": [
-        "Financial Times World",
+        "CNBC Top News",
         "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
-        "Why is Amazon the only one not rising?",
-        "Rightwing populist ‘El Tigre’ sworn in as Colombia’s president"
+        "Hugging Face hack marks start of dangerous AI cyber era and many firms 'don't even know it'",
+        "Why is Amazon the only one not rising?"
       ]
     },
     {
-      "keyword": "dollar",
+      "keyword": "cpi",
       "score": 5,
       "source_count": 2,
       "sources": [
-        "Cointelegraph",
-        "MarketWatch Breaking News"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Donald Trump’s media company to terminate Crypto.com deal",
-        "The smart way to invest in gold right now as the dollar slips"
+        "Wall St Week Ahead: Inflation data to test record-setting US stocks, Fed rate views - Reuters",
+        "Weak Jobs Report Does Not Eliminate Prospects of Interest Rate Rise"
       ]
     },
     {
-      "keyword": "ai_growth_stocks",
+      "keyword": "crypto_etf",
       "score": 4,
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
-        "Financial Times YouTube",
-        "MarketWatch Breaking News"
+        "CoinDesk RSS"
       ],
       "sample_titles": [
-        "Palantir’s stock stages best week since 2024 — showing it’s no longer an ‘AI loser’",
-        "Palantir: profits, procurement and power | FT Film"
+        "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF"
       ]
     },
     {
-      "keyword": "ai_semiconductors",
-      "score": 4,
-      "source_count": 2,
-      "sources": [
-        "Financial Times YouTube",
-        "MarketWatch Breaking News"
-      ],
-      "sample_titles": [
-        "Two reasons why Nvidia’s stock saw its biggest weekly surge in more than a year",
-        "Silicon shadows: inside the black market for AI chips | FT Film"
-      ]
-    },
-    {
-      "keyword": "ethereum",
+      "keyword": "jobs",
       "score": 3,
       "source_count": 1,
       "sources": [
         "Cointelegraph"
       ],
       "sample_titles": [
-        "Fierce backlash to Ethereum’s EIP-8363 staking proposal"
-      ]
-    },
-    {
-      "keyword": "china",
-      "score": 3,
-      "source_count": 1,
-      "sources": [
-        "Financial Times World"
-      ],
-      "sample_titles": [
-        "China’s biggest travel site grapples with watchdog’s reservations"
-      ]
-    },
-    {
-      "keyword": "cpi",
-      "score": 2,
-      "source_count": 1,
-      "sources": [
-        "NYT Business"
-      ],
-      "sample_titles": [
-        "Weak Jobs Report Does Not Eliminate Prospects of Interest Rate Rise"
+        "Bitcoin price tags $65.3K August high as low US jobs numbers cool Fed rate bets"
       ]
     }
   ],
   "topic_candidates": [
     {
+      "keyword": "bitcoin",
+      "score": 67,
+      "headline_count": 20,
+      "sample_titles": [
+        "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF",
+        "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month",
+        "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers"
+      ]
+    },
+    {
       "keyword": "fomc",
-      "score": 54,
-      "headline_count": 17,
+      "score": 41,
+      "headline_count": 12,
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
@@ -355,19 +353,9 @@
       ]
     },
     {
-      "keyword": "bitcoin",
-      "score": 49,
-      "headline_count": 15,
-      "sample_titles": [
-        "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
-        "Trump-Backed American Bitcoin director Justin Mateen buys nearly $2 million of ABTC stock",
-        "U.S. widens Iran crypto crackdown with sanctions on two exchanges"
-      ]
-    },
-    {
       "keyword": "treasury_yields",
-      "score": 22,
-      "headline_count": 7,
+      "score": 14,
+      "headline_count": 4,
       "sample_titles": [
         "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
         "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
@@ -375,32 +363,53 @@
       ]
     },
     {
-      "keyword": "oil",
-      "score": 14,
-      "headline_count": 5,
+      "keyword": "dollar",
+      "score": 12,
+      "headline_count": 4,
       "sample_titles": [
-        "Trump teased an Iran deal that didn't come, but markets soared. Here’s why it keeps happening",
-        "Russia sanctions bill honoring Lindsey Graham breezes through Senate, heads to House",
-        "Bitcoin slightly lower, holds at $64k amid hit to risk sentiment from oil prices"
+        "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF",
+        "Domestic stablecoins could boost demand for dollar-backed tokens: IMF",
+        "Donald Trump’s media company to terminate Crypto.com deal"
       ]
     },
     {
       "keyword": "us_index_flow",
-      "score": 11,
+      "score": 12,
       "headline_count": 4,
       "sample_titles": [
+        "A record-breaking week for options powers S&P 500 surge; volatility gauge is near 2026 low",
         "Moonshot shake-up seeks to win Beijing nod for stock market debut",
-        "S&P closes at record high as soft jobs report eases rate-hike concerns - Reuters",
-        "Moonshot shake-up seeks to win Beijing nod for stock market debut"
+        "S&P closes at record high as soft jobs report eases rate-hike concerns - Reuters"
       ]
     },
     {
-      "keyword": "jobs",
-      "score": 6,
-      "headline_count": 2,
+      "keyword": "oil",
+      "score": 8,
+      "headline_count": 3,
       "sample_titles": [
-        "Bitcoin price tags $65.3K August high as low US jobs numbers cool Fed rate bets",
-        "Here are three key takeaways from the disappointing July jobs report"
+        "Trump teased an Iran deal that didn't come, but markets soared. Here’s why it keeps happening",
+        "Bitcoin slightly lower, holds at $64k amid hit to risk sentiment from oil prices",
+        "Can Kazakhstan’s oil boom survive Putin’s War? | FT Film"
+      ]
+    },
+    {
+      "keyword": "ai_growth_stocks",
+      "score": 7,
+      "headline_count": 3,
+      "sample_titles": [
+        "Elevator giant Otis wants to be a defensive play in an volatile market. It has to prove itself first",
+        "Palantir’s stock stages best week since 2024 — showing it’s no longer an ‘AI loser’",
+        "Palantir: profits, procurement and power | FT Film"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "score": 7,
+      "headline_count": 3,
+      "sample_titles": [
+        "Hugging Face hack marks start of dangerous AI cyber era and many firms 'don't even know it'",
+        "SpaceX’s Nvidia deal could be bad news for neoclouds like CoreWeave and Nebius, analysts say",
+        "Silicon shadows: inside the black market for AI chips | FT Film"
       ]
     },
     {
@@ -408,70 +417,44 @@
       "score": 6,
       "headline_count": 2,
       "sample_titles": [
-        "Why is Amazon the only one not rising?",
-        "Rightwing populist ‘El Tigre’ sworn in as Colombia’s president"
-      ]
-    },
-    {
-      "keyword": "dollar",
-      "score": 5,
-      "headline_count": 2,
-      "sample_titles": [
-        "Donald Trump’s media company to terminate Crypto.com deal",
-        "The smart way to invest in gold right now as the dollar slips"
-      ]
-    },
-    {
-      "keyword": "ai_growth_stocks",
-      "score": 4,
-      "headline_count": 2,
-      "sample_titles": [
-        "Palantir’s stock stages best week since 2024 — showing it’s no longer an ‘AI loser’",
-        "Palantir: profits, procurement and power | FT Film"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "score": 4,
-      "headline_count": 2,
-      "sample_titles": [
-        "Two reasons why Nvidia’s stock saw its biggest weekly surge in more than a year",
-        "Silicon shadows: inside the black market for AI chips | FT Film"
-      ]
-    },
-    {
-      "keyword": "china",
-      "score": 3,
-      "headline_count": 1,
-      "sample_titles": [
-        "China’s biggest travel site grapples with watchdog’s reservations"
-      ]
-    },
-    {
-      "keyword": "ethereum",
-      "score": 3,
-      "headline_count": 1,
-      "sample_titles": [
-        "Fierce backlash to Ethereum’s EIP-8363 staking proposal"
+        "Hugging Face hack marks start of dangerous AI cyber era and many firms 'don't even know it'",
+        "Why is Amazon the only one not rising?"
       ]
     },
     {
       "keyword": "cpi",
-      "score": 2,
+      "score": 5,
+      "headline_count": 2,
+      "sample_titles": [
+        "Wall St Week Ahead: Inflation data to test record-setting US stocks, Fed rate views - Reuters",
+        "Weak Jobs Report Does Not Eliminate Prospects of Interest Rate Rise"
+      ]
+    },
+    {
+      "keyword": "crypto_etf",
+      "score": 4,
       "headline_count": 1,
       "sample_titles": [
-        "Weak Jobs Report Does Not Eliminate Prospects of Interest Rate Rise"
+        "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF"
+      ]
+    },
+    {
+      "keyword": "jobs",
+      "score": 3,
+      "headline_count": 1,
+      "sample_titles": [
+        "Bitcoin price tags $65.3K August high as low US jobs numbers cool Fed rate bets"
       ]
     }
   ],
   "naver_datalab": null,
   "items": [
     {
-      "title": "천성호",
+      "title": "로또1236",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Fri, 7 Aug 2026 17:40:00 -0700",
+      "published": "Sat, 8 Aug 2026 05:00:00 -0700",
       "description": "",
-      "approx_traffic": "200+",
+      "approx_traffic": "2000+",
       "source_id": "google_trends_kr",
       "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
@@ -479,81 +462,9 @@
       "source_weight": 5
     },
     {
-      "title": "대전광역시",
+      "title": "오윤아",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Fri, 7 Aug 2026 17:30:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "엘리베이터",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Fri, 7 Aug 2026 17:30:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "샤이니",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Fri, 7 Aug 2026 17:20:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "보조금",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Fri, 7 Aug 2026 17:20:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "경마공원",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Fri, 7 Aug 2026 17:20:00 -0700",
-      "description": "",
-      "approx_traffic": "100+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "테니스",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Fri, 7 Aug 2026 17:10:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "관리종목",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Fri, 7 Aug 2026 17:00:00 -0700",
+      "published": "Sat, 8 Aug 2026 05:00:00 -0700",
       "description": "",
       "approx_traffic": "500+",
       "source_id": "google_trends_kr",
@@ -563,81 +474,81 @@
       "source_weight": 5
     },
     {
-      "title": "tigres uanl",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Fri, 7 Aug 2026 18:40:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "ben stiller",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Fri, 7 Aug 2026 18:40:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "liam neeson",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Fri, 7 Aug 2026 18:30:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "reese witherspoon",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Fri, 7 Aug 2026 18:30:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "steven kwan",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Fri, 7 Aug 2026 18:30:00 -0700",
+      "title": "김승대",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sat, 8 Aug 2026 05:00:00 -0700",
       "description": "",
       "approx_traffic": "200+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
       "source_type": "rss",
       "source_weight": 5
     },
     {
-      "title": "tigers vs giants",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Fri, 7 Aug 2026 18:20:00 -0700",
+      "title": "제임스 매디슨",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sat, 8 Aug 2026 04:50:00 -0700",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "기마랑이스",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sat, 8 Aug 2026 04:50:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "첼시 대 밀란",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sat, 8 Aug 2026 04:40:00 -0700",
+      "description": "",
+      "approx_traffic": "1000+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "전당 대회",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sat, 8 Aug 2026 04:20:00 -0700",
       "description": "",
       "approx_traffic": "5000+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
       "source_type": "rss",
       "source_weight": 5
     },
     {
-      "title": "randy orton",
+      "title": "순항 미사일 잠수함",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sat, 8 Aug 2026 04:20:00 -0700",
+      "description": "",
+      "approx_traffic": "2000+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "strait of hormuz news",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Fri, 7 Aug 2026 18:20:00 -0700",
+      "published": "Sat, 8 Aug 2026 05:50:00 -0700",
       "description": "",
       "approx_traffic": "2000+",
       "source_id": "google_trends_us",
@@ -647,11 +558,83 @@
       "source_weight": 5
     },
     {
-      "title": "canadá sub-20 - méxico sub-20",
+      "title": "little league world series 2026",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Fri, 7 Aug 2026 18:20:00 -0700",
+      "published": "Sat, 8 Aug 2026 05:50:00 -0700",
       "description": "",
       "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "minnesota vikings",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sat, 8 Aug 2026 05:50:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "porter airlines victoria flight cancelled",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sat, 8 Aug 2026 05:40:00 -0700",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "kalshi",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sat, 8 Aug 2026 05:30:00 -0700",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "pittsburgh steelers",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sat, 8 Aug 2026 05:30:00 -0700",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "2027 social security increase forecast",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sat, 8 Aug 2026 05:30:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "college football schedule",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sat, 8 Aug 2026 05:10:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -755,6 +738,66 @@
       "source_weight": 5
     },
     {
+      "title": "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF",
+      "link": "https://www.coindesk.com/markets/2026/08/06/why-trillion-dollar-asset-manager-t-rowe-price-put-memecoins-in-its-crypto-etf",
+      "published": "Sat, 08 Aug 2026 13:00:00 +0000",
+      "description": "The $1.9 trillion asset manager says excluding established memecoins on principle would undermine its active approach to crypto investing.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month",
+      "link": "https://www.coindesk.com/policy/2026/08/08/u-s-senate-opens-first-stage-of-crypto-clarity-act-voting-to-give-bill-a-chance-next-month",
+      "published": "Sat, 08 Aug 2026 09:07:24 +0000",
+      "description": "The majority leader opened the multi-stage process the Senate follows when trying to get a bill over its 60-vote hurdle, so it's still got a shot in September.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
+      "link": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes",
+      "published": "Sat, 08 Aug 2026 07:46:04 +0000",
+      "description": "BTCPay told users running LND to update immediately or take servers offline after attackers stole credentials that can control Lightning wallets and move funds.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
+      "link": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets",
+      "published": "Sat, 08 Aug 2026 03:30:00 +0000",
+      "description": "A new XRPL amendment proposal would let institutions encrypt token balances and transfer amounts while still giving issuers, auditors and regulators selective access.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "Bitcoin holders risk losing real BTC if they sell coins from BIP-110 fork, says developer",
+      "link": "https://www.coindesk.com/tech/2026/08/08/bitcoin-holders-risk-losing-real-btc-if-they-sell-coins-from-bip-110-fork-says-developer",
+      "published": "Sat, 08 Aug 2026 02:30:00 +0000",
+      "description": "If a minority chain appears this weekend, buyers could replay signed fork-coin sales on bitcoin itself, making doing nothing the safest move until the chains can be separated.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
       "title": "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
       "link": "https://www.coindesk.com/business/2026/08/07/trump-media-pulls-back-from-crypto-scraps-crypto-com-cro-treasury-deal",
       "published": "Fri, 07 Aug 2026 21:13:21 +0000",
@@ -791,64 +834,28 @@
       "source_weight": 4
     },
     {
-      "title": "BitMEX sale collapsed as buyers balked at founder ownership and shrinking business",
-      "link": "https://www.coindesk.com/business/2026/07/31/bitmex-sale-collapsed-as-buyers-balked-at-founder-ownership-and-shrinking-business",
-      "published": "Fri, 07 Aug 2026 16:53:56 +0000",
-      "description": "Potential buyers, including Exodus, passed on BitMEX amid concerns over founder ownership and its shrinking business, according to a source familiar.",
+      "title": "Domestic stablecoins could boost demand for dollar-backed tokens: IMF",
+      "link": "https://cointelegraph.com/news/imf-domestic-stablecoins-dollar-token-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 08 Aug 2026 06:21:08 +0000",
+      "description": "IMF first deputy managing director Dan Katz says users may favor digital dollars for their liquidity, network effects and cross-border acceptance.",
       "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
+      "source_id": "cointelegraph_rss",
+      "source_name": "Cointelegraph",
       "source_category": "crypto_media",
       "source_type": "rss",
-      "source_weight": 4
+      "source_weight": 3
     },
     {
-      "title": "Bybit sues North Korea and Lazarus Group over $1.5 billion hack, secures asset freeze",
-      "link": "https://www.coindesk.com/policy/2026/08/07/bybit-sues-north-korea-and-lazarus-group-over-usd1-5-billion-hack-secures-asset-freeze",
-      "published": "Fri, 07 Aug 2026 16:32:41 +0000",
-      "description": "The exchange has secured a preliminary injunction freezing stolen assets.",
+      "title": "US court backs Bybit’s bid to trace funds from $1.5B North Korea hack",
+      "link": "https://cointelegraph.com/news/bybit-us-court-trace-funds-north-korea-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 08 Aug 2026 04:11:53 +0000",
+      "description": "Expedited discovery allows the exchange to seek account identities, balances and transaction histories from platforms with US operations.",
       "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
+      "source_id": "cointelegraph_rss",
+      "source_name": "Cointelegraph",
       "source_category": "crypto_media",
       "source_type": "rss",
-      "source_weight": 4
-    },
-    {
-      "title": "OKX's Rafique doubts Clarity Act will pass, warns optimism is already priced into bitcoin",
-      "link": "https://www.coindesk.com/policy/2026/08/04/okx-s-rafique-doubts-clarity-act-will-pass-warns-optimism-is-already-priced-into-bitcoin",
-      "published": "Fri, 07 Aug 2026 15:22:44 +0000",
-      "description": "The OKX executive says Democrats have little incentive to hand Republicans a crypto victory before the midterms.",
-      "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 4
-    },
-    {
-      "title": "How a five-second trick let traders drain millions from Polymarket",
-      "link": "https://www.coindesk.com/business/2026/08/07/how-a-five-second-trick-let-traders-drain-millions-from-polymarket",
-      "published": "Fri, 07 Aug 2026 15:09:07 +0000",
-      "description": "After months of public warnings from onchain analysts, the prediction market is moving to time-weighted prices to make artificial price pushes too costly.",
-      "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 4
-    },
-    {
-      "title": "A part of FTX survived, and it’s the case for the CLARITY Act",
-      "link": "https://www.coindesk.com/opinion/2026/08/07/a-part-of-ftx-survived-and-it-s-the-case-for-the-clarity-act",
-      "published": "Fri, 07 Aug 2026 14:30:25 +0000",
-      "description": "When FTX collapsed, the parts of it bound by law survived. Mainstream finance is now converging with digital assets, and the law built to protect it the same way is the one the Senate did not pass this week, argues Bullish's Randi Abernethy.",
-      "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 4
+      "source_weight": 3
     },
     {
       "title": "Donald Trump’s media company to terminate Crypto.com deal",
@@ -923,30 +930,6 @@
       "source_weight": 3
     },
     {
-      "title": "Crypto Biz: Crypto’s biggest business is starting to look a lot like banking",
-      "link": "https://cointelegraph.com/news/crypto-biz-crypto-business-converges-traditional-banking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 07 Aug 2026 15:07:49 +0000",
-      "description": "Crypto business is converging with banking as stablecoin reserves, tokenized funds, Treasury income and balance sheet management become key profit drivers.",
-      "approx_traffic": "",
-      "source_id": "cointelegraph_rss",
-      "source_name": "Cointelegraph",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Fierce backlash to Ethereum’s EIP-8363 staking proposal",
-      "link": "https://cointelegraph.com/magazine/fierce-backlash-to-ethereums-latest-staking-proposal-eip-8363?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 07 Aug 2026 13:30:00 +0000",
-      "description": "Ethereum’s proposed EIP-8363 staking overhaul aims to reduce issuance, but critics say it could hurt DeFi, decentralization and institutional adoption.",
-      "approx_traffic": "",
-      "source_id": "cointelegraph_rss",
-      "source_name": "Cointelegraph",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
       "title": "Trump teased an Iran deal that didn't come, but markets soared. Here’s why it keeps happening",
       "link": "https://www.cnbc.com/2026/08/07/trump-iran-hormuz-deal-stocks-oil.html",
       "published": "Fri, 07 Aug 2026 17:50:12 GMT",
@@ -959,10 +942,58 @@
       "source_weight": 3
     },
     {
-      "title": "Here are three key takeaways from the disappointing July jobs report",
-      "link": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
-      "published": "Fri, 07 Aug 2026 18:09:18 GMT",
-      "description": "Nonfarm payrolls in the U.S. unexpectedly declined in July, but so did the unemployment rate, leaving investors with mixed signals.",
+      "title": "Hugging Face hack marks start of dangerous AI cyber era and many firms 'don't even know it'",
+      "link": "https://www.cnbc.com/2026/08/08/hugging-face-ai-hack-cybersecurity-black-hat.html",
+      "published": "Sat, 08 Aug 2026 12:00:01 GMT",
+      "description": "The Black Hat cybersecurity conference in Las Vegas couldn't have come at a better time, with AI agent hacks stacking up from Anthropic, Meta and OpenAI.",
+      "approx_traffic": "",
+      "source_id": "cnbc_top_news",
+      "source_name": "CNBC Top News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Cyclospora fears lead consumers to lose their appetite for salads",
+      "link": "https://www.cnbc.com/2026/08/08/cyclospora-salads-lettuce-restaurants.html",
+      "published": "Sat, 08 Aug 2026 12:00:01 GMT",
+      "description": "Traffic to salad chains has fallen as consumers avoid greens due to the ongoing cyclospora outbreaks across the U.S.",
+      "approx_traffic": "",
+      "source_id": "cnbc_top_news",
+      "source_name": "CNBC Top News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Inside the startup drone maker powering Ukraine's deep-strike campaign",
+      "link": "https://www.cnbc.com/2026/08/08/ukraine-russia-war-fire-point-drones.html",
+      "published": "Sat, 08 Aug 2026 05:21:12 GMT",
+      "description": "Fire Point CEO Iryna Terekh says Ukraine has \"learned the hard way\" that military leverage is integral to to bringing diplomacy within reach.",
+      "approx_traffic": "",
+      "source_id": "cnbc_top_news",
+      "source_name": "CNBC Top News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Elevator giant Otis wants to be a defensive play in an volatile market. It has to prove itself first",
+      "link": "https://www.cnbc.com/2026/08/08/elevator-giant-otis-stock-wall-street.html",
+      "published": "Sat, 08 Aug 2026 12:00:01 GMT",
+      "description": "Otis positions itself as a long-term growth stock, but shares are down due to setbacks in its elevator service business and investors chasing the AI trade.",
+      "approx_traffic": "",
+      "source_id": "cnbc_top_news",
+      "source_name": "CNBC Top News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "How cleaning up space debris could grow to become a big business",
+      "link": "https://www.cnbc.com/2026/08/08/space-debris-junk-spacex-rocket-moon-crash.html",
+      "published": "Sat, 08 Aug 2026 12:04:15 GMT",
+      "description": "As Earth’s orbit gets more crowded, companies are betting that cleaning up space junk could become a lucrative new business.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -983,10 +1014,10 @@
       "source_weight": 3
     },
     {
-      "title": "Cassidy supports Todd Blanche, rescuing Trump's embattled attorney general pick",
-      "link": "https://www.cnbc.com/2026/08/07/blanche-ag-trump-cassidy-senate-confirmation.html",
-      "published": "Fri, 07 Aug 2026 16:55:42 GMT",
-      "description": "Attorney General nominee Todd Blanche needs at least 50 votes on the Senate floor to be confirmed after clearing the Senate Judiciary Committee.",
+      "title": "A record-breaking week for options powers S&P 500 surge; volatility gauge is near 2026 low",
+      "link": "https://www.cnbc.com/2026/08/08/record-breaking-week-for-options-powers-sp-500-surge.html",
+      "published": "Sat, 08 Aug 2026 11:49:22 GMT",
+      "description": "The broad market benchmark soared to records this week, benefiting from options activity and a calmer VIX.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -995,57 +1026,9 @@
       "source_weight": 3
     },
     {
-      "title": "Burger King overtakes Wendy's as the nation's second-largest burger chain",
-      "link": "https://www.cnbc.com/2026/08/07/burger-king-wendys-hamburger-restaurants.html",
-      "published": "Fri, 07 Aug 2026 18:19:39 GMT",
-      "description": "Burger King is once again the second-largest burger chain in the U.S. by system-wide sales.",
-      "approx_traffic": "",
-      "source_id": "cnbc_top_news",
-      "source_name": "CNBC Top News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Trump revives effort to fire Fed's Lisa Cook",
-      "link": "https://www.cnbc.com/2026/08/07/trump-lisa-cook-federal-reserve.html",
-      "published": "Fri, 07 Aug 2026 18:38:17 GMT",
-      "description": "Trump aide Dan Scavino told Cook there is \"sufficient reason to believe that you made false statements on one or more mortgage agreements.\"",
-      "approx_traffic": "",
-      "source_id": "cnbc_top_news",
-      "source_name": "CNBC Top News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Chesky says Airbnb will spend ‘a lot more’ on AI as earnings beat and stock surges 15%",
-      "link": "https://www.cnbc.com/2026/08/07/chesky-airbnb-ai-earnings.html",
-      "published": "Fri, 07 Aug 2026 16:28:54 GMT",
-      "description": "Airbnb CEO Brian Chesky wasn’t sure AI would help the company, but a year later, he says it’s the reason growth is back.",
-      "approx_traffic": "",
-      "source_id": "cnbc_top_news",
-      "source_name": "CNBC Top News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Russia sanctions bill honoring Lindsey Graham breezes through Senate, heads to House",
-      "link": "https://www.cnbc.com/2026/08/07/russia-sanctions-bill-lindsey-graham-senate.html",
-      "published": "Fri, 07 Aug 2026 19:21:22 GMT",
-      "description": "A measure to impose new sanctions on Russian oil purchasers easily cleared the Senate and heads to the House.",
-      "approx_traffic": "",
-      "source_id": "cnbc_top_news",
-      "source_name": "CNBC Top News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Bitcoin heads for 3% weekly gain as risk assets rally, Fed rate hike bets ease",
-      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-stalls-at-64k-as-payrolls-test-looms-4845206",
-      "published": "2026-08-07 21:23:53",
+      "title": "Bitcoin rises toward $65,000 as fresh security risks hit infrastructure",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rises-toward-65000-as-fresh-security-risks-hit-infrastructure-4847628",
+      "published": "2026-08-08 08:51:16",
       "description": "",
       "approx_traffic": "",
       "source_id": "investing_news",
@@ -1055,9 +1038,21 @@
       "source_weight": 3
     },
     {
-      "title": "Bitcoin tests $65K resistance with exhaustion signals: Live levels",
+      "title": "Bitcoin stalls at $65,156 resistance as ADX warns of bull trap: Live levels",
       "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-tests-62k-support-with-breakout-looming-live-levels-93CH-4829888",
-      "published": "2026-08-07 19:06:46",
+      "published": "2026-08-08 07:02:11",
+      "description": "",
+      "approx_traffic": "",
+      "source_id": "investing_news",
+      "source_name": "Investing.com Crypto News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Bitcoin heads for 3% weekly gain as risk assets rally, Fed rate hike bets ease",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-stalls-at-64k-as-payrolls-test-looms-4845206",
+      "published": "2026-08-07 21:23:53",
       "description": "",
       "approx_traffic": "",
       "source_id": "investing_news",
@@ -1127,22 +1122,10 @@
       "source_weight": 3
     },
     {
-      "title": "Sui Adopts Post-Quantum Signature Schemes In Move Toward Quantum Readiness",
-      "link": "https://www.investing.com/news/cryptocurrency-news/sui-adopts-postquantum-signature-schemes-in-move-toward-quantum-readiness-4842596",
-      "published": "2026-08-06 13:30:33",
-      "description": "",
-      "approx_traffic": "",
-      "source_id": "investing_news",
-      "source_name": "Investing.com Crypto News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Moonshot shake-up seeks to win Beijing nod for stock market debut",
-      "link": "https://www.ft.com/content/9c0d4f0d-d2c6-4189-b4bb-200d17a4720f?syn-25a6b1a6=1",
-      "published": "Fri, 07 Aug 2026 23:00:07 GMT",
-      "description": "Chinese AI start-up targets Hong Kong listing to raise fresh funding for next phase of development",
+      "title": "Greg Abel finally puts Buffett’s cash pile to work",
+      "link": "https://www.ft.com/content/e164e244-f6de-4e3b-8a67-6bebee1b7bf4?syn-25a6b1a6=1",
+      "published": "Sat, 08 Aug 2026 12:22:38 GMT",
+      "description": "Berkshire Hathaway’s chief ends more than three-year selling streak as he ploughs a net $20bn into stocks",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1151,10 +1134,10 @@
       "source_weight": 3
     },
     {
-      "title": "Jeanine Pirro, Trump’s legal crusader goes off script",
-      "link": "https://www.ft.com/content/f9804df6-2380-495a-9981-007d95c7dad6?syn-25a6b1a6=1",
-      "published": "Fri, 07 Aug 2026 17:00:06 GMT",
-      "description": "The US attorney’s relationship with the president is on thin ice after her office rejected claims of vandalism at the Reflecting Pool",
+      "title": "Forget Asimov. Philip K Dick saw the future",
+      "link": "https://www.ft.com/content/bdcf7729-3b03-49ec-82fb-b5773fdaa990",
+      "published": "Sat, 08 Aug 2026 04:00:23 GMT",
+      "description": "His 1960s science-fiction visions are a guide to our age of erratic billionaires, wild space fantasies and glitchy, invasive technology",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1163,10 +1146,46 @@
       "source_weight": 3
     },
     {
-      "title": "Youngkin’s swing-state school campaign fuels White House speculation",
-      "link": "https://www.ft.com/content/1e749b77-db33-4281-91f3-13e8bf6bf433",
-      "published": "Fri, 07 Aug 2026 11:03:56 GMT",
-      "description": "Billionaire mega-donor Thomas Peterffy backs former Republican governor of Virginia for presidential run in 2028",
+      "title": "The exciting boring decade",
+      "link": "https://www.ft.com/content/10f9922c-4667-4fb9-b2a0-6f3264ef0b09?syn-25a6b1a6=1",
+      "published": "Sat, 08 Aug 2026 04:00:41 GMT",
+      "description": "Why hasn’t all the chaos in the real world inspired more interesting art?",
+      "approx_traffic": "",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "The US bares its financial weak spot",
+      "link": "https://www.ft.com/content/fb49381a-3e09-4666-85b0-7a171e01394e?syn-25a6b1a6=1",
+      "published": "Sat, 08 Aug 2026 04:00:41 GMT",
+      "description": "Yen intervention points to the squishy underbelly of American weakness",
+      "approx_traffic": "",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Spain reinstates border controls on Italy as tensions rise over migrants",
+      "link": "https://www.ft.com/content/f3050d94-6b78-4cf2-8b07-cf8903aacc7f?syn-25a6b1a6=1",
+      "published": "Sat, 08 Aug 2026 09:45:12 GMT",
+      "description": "Decision widens rift between Pedro Sánchez’s government and rightwing Italian premier Giorgia Meloni",
+      "approx_traffic": "",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Landmark crypto bill stalls in US Senate despite $225mn spending push",
+      "link": "https://www.ft.com/content/352a15ac-53c4-46eb-b75e-957f0388dc79?syn-25a6b1a6=1",
+      "published": "Sat, 08 Aug 2026 11:00:03 GMT",
+      "description": "Lobby struggles to pass top priority in Congress as lawmakers spar over legislation",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1187,46 +1206,10 @@
       "source_weight": 3
     },
     {
-      "title": "Trump revives threat to sack Fed governor Lisa Cook",
-      "link": "https://www.ft.com/content/0012c7c9-fb31-4c90-a2e7-e65bd4629b22?syn-25a6b1a6=1",
-      "published": "Fri, 07 Aug 2026 19:56:51 GMT",
-      "description": "Move comes after Supreme Court ruled in June that policymaker could remain in her position while case is resolved",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Spain reinstates border controls on Italy as tensions rise over migrants",
-      "link": "https://www.ft.com/content/f3050d94-6b78-4cf2-8b07-cf8903aacc7f?syn-25a6b1a6=1",
-      "published": "Fri, 07 Aug 2026 22:06:08 GMT",
-      "description": "Move widens rift between Pedro Sánchez’s government and rightwing Italian premier Giorgia Meloni",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "US economy unexpectedly sheds 23,000 jobs in July",
-      "link": "https://www.ft.com/content/54adfc90-f555-44d3-8a81-4f39a07b5473?syn-25a6b1a6=1",
-      "published": "Fri, 07 Aug 2026 20:02:22 GMT",
-      "description": "Lacklustre figure prompts traders to scale back bets on Fed rate rises",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "The curious case of the Japanese government bond yields",
-      "link": "https://www.ft.com/content/22a6bce7-ccec-4e7d-a31b-ca8d67b1bcb6",
-      "published": "Fri, 07 Aug 2026 05:00:04 GMT",
-      "description": "Maybe not as high as you think",
+      "title": "Moonshot shake-up seeks to win Beijing nod for stock market debut",
+      "link": "https://www.ft.com/content/9c0d4f0d-d2c6-4189-b4bb-200d17a4720f?syn-25a6b1a6=1",
+      "published": "Fri, 07 Aug 2026 23:00:07 GMT",
+      "description": "Chinese AI start-up targets Hong Kong listing to raise fresh funding for next phase of development",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1271,9 +1254,21 @@
       "source_weight": 3
     },
     {
+      "title": "Wall St Week Ahead: Inflation data to test record-setting US stocks, Fed rate views - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT2tydC12dWhpUnJJXzhSQXpxNFR2S2VQamVXcTAwMms4YWNSZnVwSnJEeEtMMi1WZW1EQkc2dzJwSEt0V0hBc3N1VUxHODRfZkhodk5teVg0NHBGS2xBNHVTczA2U1NvTE4xR1Y0dlVDVE5mOWpqbnIzczZiZ1drb3d5V3VWX0xOLUgwakItMF9jTXZzR3hhNWZjRXlnaklZcFg4MDZzOGtZd2RaZkhsT1laaXpST3NUR2JtVFlCNEo?oc=5",
+      "published": "Fri, 07 Aug 2026 10:02:00 GMT",
+      "description": "Wall St Week Ahead: Inflation data to test record-setting US stocks, Fed rate views &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
       "title": "Vessel traffic through Hormuz dwindles this week as markets watch Iran-Oman talks - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYjdYbS1fZXZGWktSZkVpMk4temZNOUY1cEFsQUxTRXRNQnJUai1lY2xTMDE5dmFMZjUyUzZQclRyQUJuVTFVXzB6RGtpeXlFeU8xZjNiVWp4dVVNTkVWcVhCVEpsVVdTa1lsZEVfVUlSWHBlMjh0UDNYdkpjS3BHVjA2MUUtSXU0OTNEZ1lCUW9iYkliLUxSN2JSTTlFbEktaGRTb2UzcUxNMjlaZGtQSmt1S1FWYzlvdlkwdDM3WjY0dHZTRU9VWFFB?oc=5",
-      "published": "Fri, 07 Aug 2026 04:41:15 GMT",
+      "published": "Fri, 07 Aug 2026 04:33:00 GMT",
       "description": "Vessel traffic through Hormuz dwindles this week as markets watch Iran-Oman talks &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
@@ -1283,10 +1278,10 @@
       "source_weight": 3
     },
     {
-      "title": "Japan's yen surges after US jobs data, traders wary of intervention risk - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNkZHWWdaZTdUOHY1bE13eUctREd5LUpqWGt4U0VCNEc4RFZybjZqSzEzVVUtS1lGU1FMNC1oTVh1dDV5OWY5RlQ0RGFFTHUxckZHdDRVM3FCQzZpTVg5Si1sdUFSUFR1VmdBV2d4dlhGd3lkS0xVXzkzZjhOQUxNQWItTVY2Y19oMWJFenAwNTJXUjg1V1paYUFGRFVjLWdid2VwdUItSWxiSG51QnpqVFRIYTBTU0xVLUhjZHpn?oc=5",
-      "published": "Fri, 07 Aug 2026 13:03:43 GMT",
-      "description": "Japan's yen surges after US jobs data, traders wary of intervention risk &nbsp;&nbsp; Reuters",
+      "title": "Take Five: Markets aren't going on a summer holiday - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95bFE4bk1VbURLVUdtX3lfYVA1SEZnNzVfb3ZHR2ZPQVdxT2ZEVjVmSGNSM0JuX2tzcWxVcGNSaDI1ajk5ZElPcFpzQUhWcHA0T2pCeUJ0enpRTFFpQm14dmtLZmtnaU9RS2swdnlKQ041cEo1dDlMN1hwenRQQQ?oc=5",
+      "published": "Fri, 07 Aug 2026 12:09:37 GMT",
+      "description": "Take Five: Markets aren't going on a summer holiday &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1307,18 +1302,6 @@
       "source_weight": 3
     },
     {
-      "title": "Korean 'ants' swarm back to Wall Street as KOSPI rout dents homecoming drive - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZS10NkNDSzZNU0hhVHhjcVJ5RFN1YUVXVFl4Skt5bEd6cDE4RDE1NDNKc2E5OXVIV01SWEVDN28xQTBFLWp5MWc3aW44OVBuaXNOZVR0dk5nWF8wR1NKRkdEOXFOaGphdnVFZmlYQ0xGSW8wYnplMi1nSzZDVDdTV21obTBoREpmcjBXZ1N0S1FVVEw3TG01Q2FKRXlEckxyb3k1NFdobFBDUTUxRjRHcmZQSVNXRlFCODhScUJYMFU?oc=5",
-      "published": "Fri, 07 Aug 2026 09:26:29 GMT",
-      "description": "Korean 'ants' swarm back to Wall Street as KOSPI rout dents homecoming drive &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
       "title": "VIEW Soft July jobs report fuels skepticism over possible Fed rate hike - Reuters",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNM1lYeDhMVGR3MWxnLVFXeE8yMmstOGEyZGRNOUJQVThCdnQwQkh0ZExXc0NOWFVlVVdwTG9YWjNWR0llLTIxaGJDbTNrampsWFBNaHVmbjUzV1ZYN1lUbnFXanlaZDJoWkJ1a1lBYURMMVVEbmZjQS1INExZeC11SUNiQmE0YVhWRzZzVkV2ZDBvZ2JyUVRfd1oxbTlrbGZwYzd0ZWdrMVNtUjRWdWJudWdrUjdMZEk?oc=5",
       "published": "Fri, 07 Aug 2026 13:31:56 GMT",
@@ -1331,9 +1314,30 @@
       "source_weight": 3
     },
     {
+      "title": "2. Zeitgeist",
+      "link": "https://www.youtube.com/watch?v=tAz_ROEpp0c",
+      "published": "3.1K views",
+      "description": "",
+      "approx_traffic": "",
+      "video_id": "tAz_ROEpp0c",
+      "transcript_available": false,
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=tAz_ROEpp0c! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_language": "",
+      "transcript_language_code": "",
+      "transcript_is_generated": false,
+      "transcript_mode": "",
+      "transcript_excerpt": "",
+      "transcript_digest_points": [],
+      "source_id": "trade_king_youtube",
+      "source_name": "무역킹 Trade King YouTube",
+      "source_category": "youtube_macro",
+      "source_type": "youtube_channel",
+      "source_weight": 3
+    },
+    {
       "title": "1. Zeitgeist",
       "link": "https://www.youtube.com/watch?v=0DQCyS0tRkw",
-      "published": "3.2K views",
+      "published": "16K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "0DQCyS0tRkw",
@@ -1352,30 +1356,9 @@
       "source_weight": 3
     },
     {
-      "title": "2. Zeitgeist",
-      "link": "https://www.youtube.com/watch?v=tAz_ROEpp0c",
-      "published": "10 hours ago",
-      "description": "",
-      "approx_traffic": "",
-      "video_id": "tAz_ROEpp0c",
-      "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=tAz_ROEpp0c! This is most likely caused by:\n\nThe video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
-      "transcript_language": "",
-      "transcript_language_code": "",
-      "transcript_is_generated": false,
-      "transcript_mode": "",
-      "transcript_excerpt": "",
-      "transcript_digest_points": [],
-      "source_id": "trade_king_youtube",
-      "source_name": "무역킹 Trade King YouTube",
-      "source_category": "youtube_macro",
-      "source_type": "youtube_channel",
-      "source_weight": 3
-    },
-    {
       "title": "Is Gemini actually good?",
       "link": "https://www.youtube.com/watch?v=sqlv0pidQSg",
-      "published": "5.6K views",
+      "published": "6.7K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "sqlv0pidQSg",
@@ -1396,7 +1379,7 @@
     {
       "title": "Caught Red-Handed: Surveillance Data on Foreigners",
       "link": "https://www.youtube.com/watch?v=p4jmWE79Y4M",
-      "published": "23K views",
+      "published": "26K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "p4jmWE79Y4M",
@@ -1417,7 +1400,7 @@
     {
       "title": "Giving Feedback This Way Will Ruin People",
       "link": "https://www.youtube.com/watch?v=RaJHQosXwIo",
-      "published": "3.4K views",
+      "published": "4.1K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "RaJHQosXwIo",
@@ -1438,7 +1421,7 @@
     {
       "title": "Why is Amazon the only one not rising?",
       "link": "https://www.youtube.com/watch?v=MtE_S2nbeCs",
-      "published": "7.1K views",
+      "published": "7.3K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "MtE_S2nbeCs",
@@ -1459,7 +1442,7 @@
     {
       "title": "We got one too lol",
       "link": "https://www.youtube.com/watch?v=A1bsyI55f28",
-      "published": "27K views",
+      "published": "28K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "A1bsyI55f28",
@@ -1480,7 +1463,7 @@
     {
       "title": "Signs of quiet quitting",
       "link": "https://www.youtube.com/watch?v=2uIshYn0xVU",
-      "published": "8.9K views",
+      "published": "9K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "2uIshYn0xVU",
@@ -1497,6 +1480,66 @@
       "source_category": "youtube_macro",
       "source_type": "youtube_channel",
       "source_weight": 3
+    },
+    {
+      "title": "‘This has been an emotionally difficult time’: My brother has cancer and my father is 94. How do I shoulder this responsibility?",
+      "link": "https://www.marketwatch.com/story/this-has-been-an-emotionally-difficult-time-my-brother-has-cancer-and-my-father-is-94-how-do-i-shoulder-this-responsibility-9da09dc4?mod=mw_rss_topstories",
+      "published": "Sat, 08 Aug 2026 12:00:00 GMT",
+      "description": "“My father placed his $600,000 Wisconsin home into a revocable trust, naming my brother as beneficiary.”",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "How can we minimize taxes in retirement with a $2.3 million nest egg — while buying homes in Florida and New England?",
+      "link": "https://www.marketwatch.com/story/how-can-we-minimize-taxes-in-retirement-with-a-2-3-million-nest-egg-while-buying-homes-in-florida-and-new-england-9e2449aa?mod=mw_rss_topstories",
+      "published": "Sat, 08 Aug 2026 12:00:00 GMT",
+      "description": "Timing is everything when balancing retirement distributions and moving across state lines.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Here’s why Wendy’s is losing the burger wars",
+      "link": "https://www.marketwatch.com/story/heres-why-wendys-is-losing-the-burger-wars-bf79deba?mod=mw_rss_topstories",
+      "published": "Sat, 08 Aug 2026 11:30:00 GMT",
+      "description": "Wendy’s new CEO is embarking on a turnaround initiative, while acknowledging that issues around food quality and service have turned customers away.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "My brother asked me to sign as his executor, but wouldn’t let me read the document. Should I have refused?",
+      "link": "https://www.marketwatch.com/story/my-brother-asked-me-to-sign-as-his-executor-but-wouldnt-let-me-read-the-document-should-i-have-refused-1b53d9bc?mod=mw_rss_topstories",
+      "published": "Sat, 08 Aug 2026 11:00:00 GMT",
+      "description": "“I imagine scenarios like this happen more often than people realize.”",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "SpaceX’s Nvidia deal could be bad news for neoclouds like CoreWeave and Nebius, analysts say",
+      "link": "https://www.marketwatch.com/story/spacexs-nvidia-deal-could-be-bad-news-for-neoclouds-like-coreweave-and-nebius-analysts-say-168c9ed1?mod=mw_rss_topstories",
+      "published": "Sat, 08 Aug 2026 11:00:00 GMT",
+      "description": "Nvidia could bump SpaceX to “the front of the line” when it comes to its limited supply of chips, according to Bernstein.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
     },
     {
       "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.",
@@ -1527,66 +1570,6 @@
       "link": "https://www.marketwatch.com/story/palantirs-stock-stages-best-week-since-2024-showing-its-no-longer-an-ai-loser-2fc6c32b?mod=mw_rss_topstories",
       "published": "Fri, 07 Aug 2026 20:54:00 GMT",
       "description": "Booming demand for Palantir’s AI solutions is restoring confidence in the company.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Two reasons why Nvidia’s stock saw its biggest weekly surge in more than a year",
-      "link": "https://www.marketwatch.com/story/two-reasons-why-nvidias-stock-saw-its-biggest-weekly-surge-in-more-than-a-year-644875c8?mod=mw_rss_topstories",
-      "published": "Fri, 07 Aug 2026 20:41:00 GMT",
-      "description": "The chip maker recorded its largest-ever weekly increase in market capitalization.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "SpaceX’s stock just had one of its best days ever — with the first lockup expiration now behind it",
-      "link": "https://www.marketwatch.com/story/spacexs-stock-is-having-one-of-its-best-days-ever-with-the-first-lockup-expiration-now-behind-it-cd55946c?mod=mw_rss_topstories",
-      "published": "Fri, 07 Aug 2026 20:38:00 GMT",
-      "description": "Stocks often come under pressure once insiders are able to unload shares — but in the case of SpaceX, that risk may have been already priced in.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
-      "link": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
-      "published": "Fri, 07 Aug 2026 20:30:00 GMT",
-      "description": "A reader writes: “I will likely be in a position to decline my benefits.”",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "I got two email invitations from friends. Is this a phishing scam — or am I suddenly popular?",
-      "link": "https://www.marketwatch.com/story/i-got-two-email-invitations-from-friends-is-this-a-phishing-scam-or-am-i-suddenly-popular-d9680aa8?mod=mw_rss_topstories",
-      "published": "Fri, 07 Aug 2026 20:15:00 GMT",
-      "description": "“I was surprised — and flattered — to find myself on the guest list.”",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Are target date funds aggressive enough to give Americans retirement savings that last their lifetimes",
-      "link": "https://www.marketwatch.com/story/are-target-date-funds-hurting-americans-as-they-live-longer-929f4f92?mod=mw_rss_topstories",
-      "published": "Fri, 07 Aug 2026 20:04:00 GMT",
-      "description": "The popular default investments may need to be more aggressive in order to fund decades of retirement.",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
       "source_name": "MarketWatch Breaking News",
@@ -1681,7 +1664,7 @@
     {
       "title": "Palantir: profits, procurement and power | FT Film",
       "link": "https://www.youtube.com/watch?v=kJ5XRl7PWxM",
-      "published": "141K views",
+      "published": "142K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "kJ5XRl7PWxM",
@@ -1763,10 +1746,10 @@
       "source_weight": 2
     },
     {
-      "title": "Myanmar junta looks to come in from the cold with Aung San Suu Kyi photos",
-      "link": "https://www.ft.com/content/3b04edbe-f546-4883-8aeb-a1b32f0fe2fe?syn-25a6b1a6=1",
-      "published": "Sat, 08 Aug 2026 00:54:45 GMT",
-      "description": "Regime offers proof of life of jailed democracy icon as it steps up campaign to end international isolation",
+      "title": "Greg Abel finally puts Buffett’s cash pile to work",
+      "link": "https://www.ft.com/content/e164e244-f6de-4e3b-8a67-6bebee1b7bf4?syn-25a6b1a6=1",
+      "published": "Sat, 08 Aug 2026 12:57:56 GMT",
+      "description": "Berkshire Hathaway chief ends more than three-year selling streak as he ploughs a net $20bn into stocks",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1775,10 +1758,10 @@
       "source_weight": 3
     },
     {
-      "title": "China’s biggest travel site grapples with watchdog’s reservations",
-      "link": "https://www.ft.com/content/2b3726f6-8149-4a74-a58e-eaaa20c9f2b9?syn-25a6b1a6=1",
-      "published": "Sat, 08 Aug 2026 00:54:25 GMT",
-      "description": "Probe concludes that Trip.com abused its power as platform handling more than half of country’s hotel bookings",
+      "title": "Solar eclipse threatens to tighten Europe’s electricity squeeze",
+      "link": "https://www.ft.com/content/06a25d8d-77d8-4dd5-8cd6-a105423544b2?syn-25a6b1a6=1",
+      "published": "Sat, 08 Aug 2026 12:00:03 GMT",
+      "description": "Continent’s power system already under stress from heatwaves",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1787,10 +1770,10 @@
       "source_weight": 3
     },
     {
-      "title": "Rightwing populist ‘El Tigre’ sworn in as Colombia’s president",
-      "link": "https://www.ft.com/content/84bc6cc5-a19f-4b23-a907-e493eedd9e9d",
-      "published": "Sat, 08 Aug 2026 00:10:34 GMT",
-      "description": "Political neophyte Abelardo de la Espriella promises to crush organised crime and build Amazon mega-jails",
+      "title": "First Brands urges court to approve bankruptcy settlement",
+      "link": "https://www.ft.com/content/e1f2e2b9-6f52-44fc-a659-e981d2fc923e?syn-25a6b1a6=1",
+      "published": "Sat, 08 Aug 2026 11:21:34 GMT",
+      "description": "Plan would fund lawsuits to pursue billions of dollars in claims arising from alleged fraud scheme at collapsed car-parts maker",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1799,10 +1782,10 @@
       "source_weight": 3
     },
     {
-      "title": "Moonshot shake-up seeks to win Beijing nod for stock market debut",
-      "link": "https://www.ft.com/content/9c0d4f0d-d2c6-4189-b4bb-200d17a4720f?syn-25a6b1a6=1",
-      "published": "Fri, 07 Aug 2026 23:00:07 GMT",
-      "description": "Chinese AI start-up targets Hong Kong listing to raise fresh funding for next phase of development",
+      "title": "Landmark crypto bill stalls in US Senate despite $225mn spending push",
+      "link": "https://www.ft.com/content/352a15ac-53c4-46eb-b75e-957f0388dc79?syn-25a6b1a6=1",
+      "published": "Sat, 08 Aug 2026 11:00:03 GMT",
+      "description": "Lobby struggles to pass top priority in Congress as lawmakers spar over legislation",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1811,10 +1794,10 @@
       "source_weight": 3
     },
     {
-      "title": "Police investigating Ann Widdecombe murder reopen inquiry into attempted burglary",
-      "link": "https://www.ft.com/content/798623be-8da1-490d-9494-11b3d5f58ac8?syn-25a6b1a6=1",
-      "published": "Fri, 07 Aug 2026 22:44:34 GMT",
-      "description": "Counterterror officers had identified ‘relevant’ information missed during an investigation last year",
+      "title": "Pfizer grapples with ‘a world of hurt’ after Covid triumph",
+      "link": "https://www.ft.com/content/a371dc43-0584-4fcc-b064-80596727d5b5?syn-25a6b1a6=1",
+      "published": "Sat, 08 Aug 2026 10:00:03 GMT",
+      "description": "Sliding vaccine revenues and fears it overpaid for new drugs pile pressure on boss Albert Bourla",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1825,8 +1808,8 @@
     {
       "title": "Spain reinstates border controls on Italy as tensions rise over migrants",
       "link": "https://www.ft.com/content/f3050d94-6b78-4cf2-8b07-cf8903aacc7f?syn-25a6b1a6=1",
-      "published": "Fri, 07 Aug 2026 22:06:08 GMT",
-      "description": "Move widens rift between Pedro Sánchez’s government and rightwing Italian premier Giorgia Meloni",
+      "published": "Sat, 08 Aug 2026 09:45:12 GMT",
+      "description": "Decision widens rift between Pedro Sánchez’s government and rightwing Italian premier Giorgia Meloni",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1835,10 +1818,10 @@
       "source_weight": 3
     },
     {
-      "title": "Iran’s oil exports stall and Kharg Island idles under US blockade",
-      "link": "https://www.ft.com/content/6bc9c93d-1b75-4512-8bc2-ba33cc3c4a53?syn-25a6b1a6=1",
-      "published": "Fri, 07 Aug 2026 21:12:17 GMT",
-      "description": "Naval interdiction appears to be halting tankers from carrying Tehran’s crude",
+      "title": "Currency interventions have a mixed record",
+      "link": "https://www.ft.com/content/d2248ee9-edb5-445c-b89b-425e033a19fa?syn-25a6b1a6=1",
+      "published": "Sat, 08 Aug 2026 09:30:02 GMT",
+      "description": "You can’t fight macro with FX interventions",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1847,16 +1830,64 @@
       "source_weight": 3
     },
     {
-      "title": "US economy unexpectedly sheds 23,000 jobs in July",
-      "link": "https://www.ft.com/content/54adfc90-f555-44d3-8a81-4f39a07b5473?syn-25a6b1a6=1",
-      "published": "Fri, 07 Aug 2026 20:02:22 GMT",
-      "description": "Lacklustre figure prompts traders to scale back bets on Fed rate rises",
+      "title": "US Senate narrowly confirms Todd Blanche as US attorney-general",
+      "link": "https://www.ft.com/content/4f1f4150-3e5b-4015-ad44-5f596e0287a5",
+      "published": "Sat, 08 Aug 2026 09:16:56 GMT",
+      "description": "Vote follows tense fight that exposed bipartisan concerns about installing an ally of President Donald Trump",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
       "source_category": "global_media",
       "source_type": "rss",
       "source_weight": 3
+    },
+    {
+      "title": "Think It’s Cool to Wear Fancy Sneakers to Work? You Might Be Old.",
+      "link": "https://www.nytimes.com/2026/08/08/business/dealbook/loafers-sneakers-work.html",
+      "published": "Sat, 08 Aug 2026 12:00:02 +0000",
+      "description": "After years of office casual, young people are embracing loafers, derbies and oxfords.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Medicare Advantage’s Perks Are Getting Scrutiny",
+      "link": "https://www.nytimes.com/2026/08/08/business/medicare-advantage-benefits.html",
+      "published": "Sat, 08 Aug 2026 09:00:54 +0000",
+      "description": "Officials said no to health plans that wanted to expand extra benefits to cover medical marijuana, streaming services and shopping clubs. More changes are coming in 2027.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "How an N.F.L.-Backed Plan to Revitalize Canton, Ohio, Faltered",
+      "link": "https://www.nytimes.com/2026/08/08/business/nfl-canton-hall-of-fame-village.html",
+      "published": "Sat, 08 Aug 2026 09:00:36 +0000",
+      "description": "The “Hall of Fame Village” was pitched in 2014 as a boon to the city. But hundreds of millions were spent, the N.F.L. backed out, and the project is unfinished.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Can Netflix Save a Summer Slump With a Stunt on Sunset Boulevard?",
+      "link": "https://www.nytimes.com/2026/08/07/business/media/netflix-billboard-marketing-strategy.html",
+      "published": "Sat, 08 Aug 2026 02:56:32 +0000",
+      "description": "The streaming giant, still looking for this year’s blockbuster, paid an actor to spend three days inside a billboard in Los Angeles to promote an upcoming film.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
     },
     {
       "title": "Canada Offers U.S. Concessions in Trade Talks but Demands a Comprehensive Deal",
@@ -1899,54 +1930,6 @@
       "link": "https://www.nytimes.com/2026/08/07/your-money/debt-bills.html",
       "published": "Fri, 07 Aug 2026 13:00:07 +0000",
       "description": "Nonprofit financial counselors say there has been a significant increase this year in the number of borrowers seeking their advice.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "The Bond Market Is Signaling Rising Risks. Investors Should Listen.",
-      "link": "https://www.nytimes.com/2026/08/07/business/bonds-stocks-federal-reserve-interest-rates.html",
-      "published": "Fri, 07 Aug 2026 16:58:58 +0000",
-      "description": "While the Fed didn’t raise rates, the bond market did. That means hardship for home buyers and higher hurdles for A.I. data centers and the stock market. But it’s also a boon for retirees.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Jobs Report Poses New Test for Warsh and the Fed",
-      "link": "https://www.nytimes.com/2026/08/07/business/dealbook/jobs-warsh-fed-rates.html",
-      "published": "Fri, 07 Aug 2026 11:03:15 +0000",
-      "description": "Friday’s jobs report comes as investors increasingly expect the Federal Reserve to begin raising interest rates as soon as next month.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Labor Market Shifts Into Reverse as Employers Balk at Hiring",
-      "link": "https://www.nytimes.com/2026/08/07/business/economy/heres-the-latest.html",
-      "published": "Fri, 07 Aug 2026 18:35:32 +0000",
-      "description": "A spring surge rapidly faded as the summer brought higher prices and more uncertainty for businesses, even as they avoided layoffs.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Pope Leo XIV Was Elected. The Chicago White Sox Were Resurrected.",
-      "link": "https://www.nytimes.com/2026/08/07/business/pope-leo-chicago-white-sox.html",
-      "published": "Fri, 07 Aug 2026 10:58:03 +0000",
-      "description": "The elevation of Pope Leo XIV, a Chicago native and lifelong supporter of the Sox, was a godsend for a team failing on the field and with fans.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",
