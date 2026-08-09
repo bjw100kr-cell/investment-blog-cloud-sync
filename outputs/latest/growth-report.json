@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T13:04:23.835582+00:00",
+  "generated_at": "2026-08-09T02:08:46.281519+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -14,14 +14,12 @@
     {
       "keyword": "fomc",
       "recommended_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음",
-      "total_score": 96.0,
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "total_score": 94.0,
       "monetization_score": 15,
       "source_names": [
-        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
         "Investing.com Crypto News",
-        "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ]
@@ -43,12 +41,11 @@
     {
       "keyword": "us_index_flow",
       "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
-      "total_score": 74.0,
+      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "total_score": 71.0,
       "monetization_score": 15,
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
         "Reuters Markets via Google News RSS"
       ]
     }
@@ -64,26 +61,35 @@
       "weighted_priority_score": 16.5
     },
     {
-      "category": "global-sector",
+      "category": "macro",
       "post_count": 1,
       "keywords": [
-        "us_index_flow"
+        "fomc"
       ],
       "avg_monetization_score": 15.0,
-      "weighted_priority_score": 15.75
+      "weighted_priority_score": 15.0
     },
     {
-      "category": "macro",
+      "category": "global-sector",
       "post_count": 2,
       "keywords": [
-        "fomc",
-        "treasury_yields"
+        "us_index_flow",
+        "china"
       ],
-      "avg_monetization_score": 14.5,
-      "weighted_priority_score": 14.5
+      "avg_monetization_score": 13.5,
+      "weighted_priority_score": 14.18
     }
   ],
   "brand_lane_summary": [
+    {
+      "brand_lane": "macro",
+      "label": "거시경제",
+      "post_count": 1,
+      "keywords": [
+        "fomc"
+      ],
+      "avg_monetization_score": 15.0
+    },
     {
       "brand_lane": "crypto",
       "label": "코인",
@@ -103,14 +109,13 @@
       "avg_monetization_score": 15.0
     },
     {
-      "brand_lane": "macro",
-      "label": "거시경제",
-      "post_count": 2,
+      "brand_lane": "world-flow",
+      "label": "세계 흐름",
+      "post_count": 1,
       "keywords": [
-        "fomc",
-        "treasury_yields"
+        "china"
       ],
-      "avg_monetization_score": 14.5
+      "avg_monetization_score": 12.0
     }
   ],
   "query_watchlist": [],
@@ -132,7 +137,7 @@
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "us_index_flow",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -153,14 +158,14 @@
       "lane_focus_macro": 1,
       "lane_focus_crypto": 1,
       "lane_focus_us-stocks": 1,
-      "support": 1,
+      "lane_focus_world-flow": 1,
       "evergreen_support": 1,
       "secondary_lane_support": 1,
       "weekly_recap": 1
     },
     "post_types": {
-      "breaking_explainer": 3,
-      "evergreen_explainer": 3,
+      "breaking_explainer": 4,
+      "evergreen_explainer": 2,
       "weekly_macro_recap": 1
     },
     "days_scheduled": 7
@@ -198,7 +203,7 @@
         ],
         "paragraph_count": 32,
         "short_paragraphs": 23,
-        "long_paragraphs": 3,
+        "long_paragraphs": 2,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
         "dominant_sentence_ending_ratio": 0.106
@@ -268,8 +273,8 @@
         "dominant_sentence_ending_ratio": 0.094
       },
       {
-        "keyword": "treasury_yields",
-        "recommended_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+        "keyword": "china",
+        "recommended_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
         "score": 92,
         "robotic_phrase_hits": [],
         "reader_bridge_hits": [
@@ -278,7 +283,7 @@
         ],
         "direct_address_hits": [
           "개인 투자자 입장에서는",
-          "이걸 내 돈 관점에서 보면"
+          "독자 입장에서 중요한 건"
         ],
         "interpretation_hits": [
           "투자자 언어로 다시 풀면"
@@ -287,23 +292,24 @@
           "가능성",
           "시나리오",
           "다만",
-          "반면"
+          "반면",
+          "변수"
         ],
         "warnings": [
           "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
         ],
         "paragraph_count": 32,
         "short_paragraphs": 22,
-        "long_paragraphs": 3,
+        "long_paragraphs": 2,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
-        "dominant_sentence_ending_ratio": 0.109
+        "dominant_sentence_ending_ratio": 0.138
       }
     ]
   },
   "performance_feedback_available": false,
   "next_actions": [
-    "다음 7일은 `코인` 레인을 메인 허브로 밀고, 다른 레인은 보조 내부링크와 후속 글로 연결합니다.",
+    "다음 7일은 `거시경제` 레인을 메인 허브로 밀고, 다른 레인은 보조 내부링크와 후속 글로 연결합니다.",
     "Search Console 데이터가 아직 약하니, Google Trends와 당일 헤드라인으로 1차 주제 발굴을 이어갑니다.",
     "문체 평균 점수 `92.0`로 기준 이상이므로, 이제는 제목 클릭률과 내부링크 동선을 더 키웁니다.",
     "당일 속보 1개와 검색형 evergreen 1개를 짝으로 묶어, 트래픽과 누적 검색 유입을 동시에 노립니다."

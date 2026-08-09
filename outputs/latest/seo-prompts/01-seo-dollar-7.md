@@ -85,7 +85,7 @@
 
 ```json
 {
-  "keyword": "seo_dollar_9",
+  "keyword": "seo_dollar_7",
   "source_keyword": "dollar",
   "recommended_title": "달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지",
   "alternate_titles": [
@@ -116,8 +116,7 @@
   "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
   "source_names": [
     "CoinDesk RSS",
-    "Cointelegraph",
-    "MarketWatch Breaking News"
+    "Cointelegraph"
   ],
   "reference_headlines": [
     "달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지"
@@ -183,8 +182,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 108.07,
-    "search_score": 108.07,
+    "total_score": 107.87,
+    "search_score": 107.87,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,

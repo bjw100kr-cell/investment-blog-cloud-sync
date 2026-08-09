@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-08-08T13:04:23.835582+00:00`
+- 생성 시각: `2026-08-09T02:08:46.281519+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
-- 점수: 96.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,7 +70,7 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Bitcoin price tags $65.3K August high as low US jobs numbers cool Fed rate bets
+  - Bitcoin heads for 3% weekly gain as risk assets rally, Fed rate hike bets ease
 
 ## 2. bitcoin
 
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins
+  - Hardware wallet sales in Russia more than double as new crypto rules near
+  - Brazil's central bank orders exchanges to delay large crypto transfers abroad
+  - Trillions in institutional money to flow into bitcoin, says Bitwise's Matt Hougan
   - Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF
-  - U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month
-  - Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers
-  - Bitcoin holders risk losing real BTC if they sell coins from BIP-110 fork, says developer
-  - Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal
 
 ## 3. us_index_flow
 
 - 추천 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 74.0
+- 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 71.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,21 +206,21 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - A record-breaking week for options powers S&P 500 surge; volatility gauge is near 2026 low
-  - Moonshot shake-up seeks to win Beijing nod for stock market debut
-  - S&P closes at record high as soft jobs report eases rate-hike concerns - Reuters
+  - For retirees, staying in the stock market is critical. How much exposure is the make-or-break question
   - Wall St Week Ahead: Inflation data to test record-setting US stocks, Fed rate views - Reuters
+  - S&P closes at record high as soft jobs report eases rate-hike concerns - Reuters
+  - US stocks, bonds rally after soft jobs report; yen bounces back - Reuters
 
-## 4. treasury_yields
+## 4. china
 
-- 추천 제목: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-- 각도: 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 70.0
+- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 45.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -269,13 +269,10 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 미국채 2년/10년 금리 수치 재확인
-  - 기준 시각과 비교 기준 명시
-  - 주식/코인 반응 인과관계 과장 여부 점검
+  - 정책 발표 또는 인터뷰 원문 여부 확인
+  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
+  - 한국/미국 시장 영향은 시나리오형으로 서술
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal
-  - U.S. widens Iran crypto crackdown with sanctions on two exchanges
-  - Donald Trump’s media company to terminate Crypto.com deal
-  - US Treasury’s OFAC sanctions 2 Iran-linked crypto exchanges
+  - The bank behind China’s AI listings bonanza

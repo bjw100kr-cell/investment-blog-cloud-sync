@@ -115,11 +115,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF",
-    "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month",
-    "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
-    "Bitcoin holders risk losing real BTC if they sell coins from BIP-110 fork, says developer",
-    "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal"
+    "Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins",
+    "Hardware wallet sales in Russia more than double as new crypto rules near",
+    "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
+    "Trillions in institutional money to flow into bitcoin, says Bitwise's Matt Hougan",
+    "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
