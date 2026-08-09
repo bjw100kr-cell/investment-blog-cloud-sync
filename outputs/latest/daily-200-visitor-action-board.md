@@ -1,6 +1,6 @@
 # Daily 200 Visitor Action Board
 
-- 생성 시각: `2026-08-09T02:08:51.145163+00:00`
+- 생성 시각: `2026-08-09T13:06:41.451765+00:00`
 - 목표: 하루 `200`명
 - 상태: `measurement_missing_keep_building`
 - 실측 방문자: `0`
@@ -9,7 +9,7 @@
 
 ## 오늘 운영 상한
 
-- 품질 통과 글: `7`
+- 품질 통과 글: `6`
 - Blogger 준비 글: `1`
 - 다음 실행 권장 게시 수: `1`
 - 규칙: 품질 게이트 통과 글만 실행당 최대 3건
@@ -37,18 +37,18 @@
 - supporting_queries: 나스닥 하락 이유, S&P500 전망, 미국 주식 금리 영향
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
-### 달러 인덱스 보는법
+### 국제유가 전망
 
-- mapped_keyword: `dollar`
-- suggested_title: 달러 인덱스 보는법 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: 달러 강세 주식 영향, 환율 상승 코인 영향, 원달러 환율 전망
+- mapped_keyword: `oil`
+- suggested_title: 국제유가 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 유가 상승 주식 영향, WTI 유가 보는법, 원유 가격 인플레이션 영향
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
 ## 공개 URL 배포 액션
 
 - 공개 URL 수: `16`
 - 수동 체크리스트 수: `48`
-- 공개 SEO 확장 글 수: `13`
+- 공개 SEO 확장 글 수: `12`
 - 전체 수동 배포 잠재 방문자: `560`
 
 - `fomc`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/fomc.html

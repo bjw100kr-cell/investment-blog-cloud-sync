@@ -18,7 +18,7 @@
 - current_title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - recommended_title: FOMC 이후 시장 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `4500`
+- demand_signal_score: `4400`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 
 ### Variants
@@ -40,7 +40,7 @@
 - current_title: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - recommended_title: 비트코인 가격보다 먼저 볼 것: ETF 자금과 달러 흐름
 - recommended_angle: `fund-flow`
-- demand_signal_score: `7900`
+- demand_signal_score: `8000`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
 
 ### Variants
@@ -62,7 +62,7 @@
 - current_title: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - recommended_title: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - recommended_angle: `macro-link`
-- demand_signal_score: `2400`
+- demand_signal_score: `2300`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
 
 ### Variants
@@ -100,24 +100,24 @@
 - `china-v4` score `50` angle `explainer`: 중국 변수와 시장 영향이 시장에 번지는 경로: 주식, 코인, 원자재 체크
   - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
 
-## 5. dollar
+## 5. oil
 
 - lane: `macro`
-- current_title: 달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법
-- recommended_title: 달러 강세가 주식과 비트코인에 주는 영향 체크포인트 3가지: 금리, 달러, 위험자산
+- current_title: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+- recommended_title: 유가 상승이 물가와 증시에 번지는 경로 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `2200`
+- demand_signal_score: `2000`
 - public_url: `missing`
 
 ### Variants
 
-- `dollar-v4` score `85` angle `macro-link`: 달러 강세가 주식과 비트코인에 주는 영향 체크포인트 3가지: 금리, 달러, 위험자산
+- `oil-v4` score `85` angle `macro-link`: 유가 상승이 물가와 증시에 번지는 경로 체크포인트 3가지: 금리, 달러, 위험자산
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `dollar-v3` score `77` angle `macro-link`: 달러 강세가 주식과 비트코인에 주는 영향, 지금 주식과 코인이 같이 흔들리는 이유
+- `oil-v2` score `73` angle `checklist`: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
+  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
+- `oil-v3` score `65` angle `explainer`: 유가 상승이 물가와 증시에 번지는 경로, 지금 주식과 코인이 같이 흔들리는 이유
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `dollar-v2` score `77` angle `macro-link`: 달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법: 지금 시장이 반응하는 이유
+- `oil-v5` score `65` angle `explainer`: 유가 상승이 물가와 증시에 번지는 경로을 투자자가 봐야 하는 이유: 오늘 확인할 숫자들
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `dollar-v5` score `77` angle `macro-link`: 달러 강세가 주식과 비트코인에 주는 영향을 투자자가 봐야 하는 이유: 오늘 확인할 숫자들
-  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `dollar-v1` score `62` angle `macro-link`: 달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법
-  - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
+- `oil-v1` score `58` angle `checklist`: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.

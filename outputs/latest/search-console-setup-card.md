@@ -43,8 +43,8 @@
 ## First URLs To Inspect
 
 - `us_index_flow` / 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
-- `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 - `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
+- `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 - `china` / 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
 - `seo_ai_semiconductors_11` / AI 반도체 주식 관련 대표 종목 한눈에 보기: https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html
 - `seo_ai_semiconductors_11` / AI 반도체 주식 ETF·지수·대표 기업 정리: https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html
