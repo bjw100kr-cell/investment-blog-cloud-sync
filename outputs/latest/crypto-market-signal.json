@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T13:06:38+00:00",
+  "generated_at": "2026-08-10T02:14:01+00:00",
   "status": "ok",
   "providers": {
     "binance_plugin": false,
@@ -9,68 +9,68 @@
   },
   "market": {
     "sentiment": "mixed",
-    "average_change_percent_24h": 0.32,
-    "tracked_quote_volume_24h": 18265272312.0,
+    "average_change_percent_24h": 0.12,
+    "tracked_quote_volume_24h": 20560236717.0,
     "signal_strength": 2
   },
   "fear_greed": {
-    "value": 31,
+    "value": 30,
     "label": "Fear",
     "source": "alternative.me",
-    "timestamp": "1786233600"
+    "timestamp": "1786320000"
   },
   "tickers": [
     {
       "symbol": "BTCUSDT",
       "keyword": "bitcoin",
-      "last_price": 64948.0,
-      "price_change_percent_24h": 0.0,
-      "quote_volume_24h": 12108841709.0,
+      "last_price": 65077.0,
+      "price_change_percent_24h": 0.3,
+      "quote_volume_24h": 13422385160.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "ETHUSDT",
       "keyword": "ethereum",
-      "last_price": 1917.38,
-      "price_change_percent_24h": -0.2,
-      "quote_volume_24h": 3469419720.0,
+      "last_price": 1921.32,
+      "price_change_percent_24h": 0.3,
+      "quote_volume_24h": 4485967682.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "SOLUSDT",
       "keyword": "crypto_etf",
-      "last_price": 76.41,
+      "last_price": 76.74,
       "price_change_percent_24h": 1.1,
-      "quote_volume_24h": 1133681439.0,
-      "trade_count_24h": 0,
-      "provider": "coingecko_public_api"
-    },
-    {
-      "symbol": "BNBUSDT",
-      "keyword": "crypto_etf",
-      "last_price": 604.38,
-      "price_change_percent_24h": 1.4,
-      "quote_volume_24h": 615081454.0,
+      "quote_volume_24h": 1162274132.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "XRPUSDT",
       "keyword": "crypto_etf",
-      "last_price": 1.037,
-      "price_change_percent_24h": 0.0,
-      "quote_volume_24h": 598456490.0,
+      "last_price": 1.035,
+      "price_change_percent_24h": -0.3,
+      "quote_volume_24h": 681108896.0,
+      "trade_count_24h": 0,
+      "provider": "coingecko_public_api"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "keyword": "crypto_etf",
+      "last_price": 603.61,
+      "price_change_percent_24h": 0.1,
+      "quote_volume_24h": 516158108.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "DOGEUSDT",
       "keyword": "crypto_etf",
-      "last_price": 0.070155,
-      "price_change_percent_24h": -0.4,
-      "quote_volume_24h": 339791500.0,
+      "last_price": 0.069827,
+      "price_change_percent_24h": -0.8,
+      "quote_volume_24h": 292342739.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     }
@@ -109,8 +109,8 @@
       "market_signal_notes": [],
       "tracked_symbols": [
         "SOLUSDT",
-        "BNBUSDT",
         "XRPUSDT",
+        "BNBUSDT",
         "DOGEUSDT"
       ],
       "market_sentiment": "mixed"

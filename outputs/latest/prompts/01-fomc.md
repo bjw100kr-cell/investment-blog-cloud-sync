@@ -117,7 +117,7 @@
     "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
     "Federal Reserve issues FOMC statement",
     "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-    "Bitcoin heads for 3% weekly gain as risk assets rally, Fed rate hike bets ease"
+    "Bitcoin heads for 2% weekly gain as risk assets rally, Fed rate hike bets ease"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [

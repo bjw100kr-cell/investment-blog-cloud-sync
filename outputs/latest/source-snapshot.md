@@ -1,8 +1,8 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-09T13:06:37.420441+00:00`
+- 생성 시각: `2026-08-10T02:13:59.965399+00:00`
 - 수집 성공 소스: `14`
-- 수집 아이템 수: `110`
+- 수집 아이템 수: `111`
 
 ## 소스 상태
 
@@ -14,7 +14,7 @@
 - `OK` Cointelegraph (rss): 8 items
 - `OK` CNBC Top News (rss): 8 items
 - `OK` Investing.com Crypto News (rss): 8 items
-- `OK` Financial Times Home (rss): 6 items
+- `OK` Financial Times Home (rss): 7 items
 - `OK` Reuters Markets via Google News RSS (rss): 8 items
 - `OK` 무역킹 Trade King YouTube (youtube_channel): 8 items
 - `OK` MarketWatch Breaking News (rss): 8 items
@@ -106,48 +106,48 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 68, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 32, source_count 3, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `us_index_flow`: score 11, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `oil`: score 8, source_count 3, sources Financial Times YouTube, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
+- `bitcoin`: score 58, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 29, source_count 3, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `oil`: score 13, source_count 5, sources CNBC Top News, Financial Times YouTube, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- `us_index_flow`: score 13, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - `us_big_tech`: score 6, source_count 2, sources CNBC Top News, 무역킹 Trade King YouTube
-- `cpi`: score 6, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
+- `china`: score 6, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
 - `ai_semiconductors`: score 5, source_count 2, sources CNBC Top News, Financial Times YouTube
-- `dollar`: score 4, source_count 1, sources CoinDesk RSS
-- `china`: score 3, source_count 1, sources Financial Times Home
+- `cpi`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `crypto_etf`: score 3, source_count 1, sources Investing.com Crypto News
+- `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 68, headlines 20
+- `bitcoin`: score 58, headlines 17
+  - Is Clarity's delay a blessing in disguise?: State of Crypto
+  - Bitcoin investors pour $853 million into spot ETFs. BlackRock’s IBIT claims the bulk
   - Crypto is going through a massive dot-com style shakeout as over 100 projects fold in 2026
-  - Controversial Bitcoin fork BIP-110 mines two blocks, then stops
-  - Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins
-- `fomc`: score 32, headlines 8
+- `fomc`: score 29, headlines 7
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `us_index_flow`: score 11, headlines 4
-  - For retirees, staying in the stock market is critical. How much exposure is the make-or-break question
-  - Wall St Week Ahead: Inflation data to test record-setting US stocks, Fed rate views - Reuters
-  - S&P closes at record high as soft jobs report eases rate-hike concerns - Reuters
-- `oil`: score 8, headlines 3
+- `oil`: score 13, headlines 5
+  - Oil rises amid uncertainty over U.S.-Iran Strait of Hormuz deal
   - Bitcoin slightly lower, holds at $64k amid hit to risk sentiment from oil prices
-  - Brent climbs $1 on uncertainty over end to Iran war - Reuters
-  - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
-- `crypto_etf`: score 7, headlines 2
-  - Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF
-  - Bitcoin slips below $65,000 as ETF inflows offset fork concerns
-- `cpi`: score 6, headlines 2
-  - Wall St Week Ahead: Inflation data to test record-setting US stocks, Fed rate views - Reuters
-  - Will US inflation be cool enough to trim bets on a September rate rise?
+  - Asia stocks edge higher, oil up amid Gulf confusion - Reuters
+- `us_index_flow`: score 13, headlines 5
+  - For retirees, staying in the stock market is critical. How much exposure is the make-or-break question
+  - Wall St Week Ahead Inflation data to test record-setting US stocks, Fed rate views - Reuters
+  - S&P closes at record high as soft jobs report eases rate-hike concerns - Reuters
+- `china`: score 6, headlines 2
+  - German trade deficit with China grows as Beijing relies less on European industry - Reuters
+  - FirstFT: Ex-CIA officials warn Donald Trump is dismantling US guardrails
 - `us_big_tech`: score 6, headlines 2
   - How a small Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta
   - Why is Amazon the only one not rising?
 - `ai_semiconductors`: score 5, headlines 2
   - How a small Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta
   - Silicon shadows: inside the black market for AI chips | FT Film
-- `dollar`: score 4, headlines 1
-  - Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF
-- `china`: score 3, headlines 1
-  - The bank behind China’s AI listings bonanza
+- `cpi`: score 5, headlines 2
+  - Wall St Week Ahead Inflation data to test record-setting US stocks, Fed rate views - Reuters
+  - U.S. stock futures dip as investors await inflation data, grapple with more Iran uncertainty
+- `crypto_etf`: score 3, headlines 1
+  - Bitcoin slips below $65,000 as ETF inflows offset fork concerns
+- `ai_growth_stocks`: score 2, headlines 1
+  - Palantir: profits, procurement and power | FT Film

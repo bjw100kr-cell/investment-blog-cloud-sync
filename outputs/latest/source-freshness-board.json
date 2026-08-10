@@ -1,39 +1,56 @@
 {
-  "generated_at": "2026-08-09T13:06:42.029289+00:00",
-  "snapshot_generated_at": "2026-08-09T13:06:37.420441+00:00",
+  "generated_at": "2026-08-10T02:14:05.128543+00:00",
+  "snapshot_generated_at": "2026-08-10T02:13:59.965399+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 3,
+    "fresh": 2,
     "aging": 0,
-    "stale": 0,
+    "stale": 1,
     "unknown": 0
   },
   "items": [
     {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-08-12",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-09T01:22:52+00:00",
-      "oldest_evidence_iso": "2026-08-09T01:22:52+00:00",
-      "newest_evidence_age_days": 0.5,
-      "source_count": 1,
-      "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: The bank behind China’s AI listings bonanza",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "publish_date": "2026-08-10",
+      "freshness_status": "stale",
+      "newest_evidence_iso": "2026-07-29T18:00:00+00:00",
+      "oldest_evidence_iso": "2026-06-17T18:00:00+00:00",
+      "newest_evidence_age_days": 11.3,
+      "source_count": 3,
+      "demand_signal_score": 4100,
+      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "recovery_mode": "full_refresh_needed",
+      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
       "recent_evidence": [
         {
-          "title": "The bank behind China’s AI listings bonanza",
-          "source_name": "Financial Times Home",
-          "published": "Sun, 09 Aug 2026 01:22:52 GMT",
-          "published_iso": "2026-08-09T01:22:52+00:00",
-          "link": "https://www.ft.com/content/657249de-f5bd-4648-9a1c-77315cd5a1c9?syn-25a6b1a6=1",
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
           "source_type": "rss"
         }
       ]
@@ -43,18 +60,26 @@
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-08-10",
+      "publish_date": "2026-08-11",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-09T11:00:53+00:00",
-      "oldest_evidence_iso": "2026-08-08T21:17:08+00:00",
-      "newest_evidence_age_days": 0.1,
+      "newest_evidence_iso": "2026-08-09T19:02:19+00:00",
+      "oldest_evidence_iso": "2026-08-09T05:08:20+00:00",
+      "newest_evidence_age_days": 0.3,
       "source_count": 3,
-      "demand_signal_score": 8000,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: BIP-110 Bitcoin branch stalls after two blocks as gap widens",
+      "demand_signal_score": 7000,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin investors pour $853 million into spot ETFs. BlackRock’s IBIT claims the bulk",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
+        {
+          "title": "Bitcoin investors pour $853 million into spot ETFs. BlackRock’s IBIT claims the bulk",
+          "source_name": "CoinDesk RSS",
+          "published": "Sun, 09 Aug 2026 14:19:35 +0000",
+          "published_iso": "2026-08-09T14:19:35+00:00",
+          "link": "https://www.coindesk.com/markets/2026/08/09/bitcoin-investors-pour-usd853-million-into-spot-etfs-blackrock-s-ibit-claims-the-bulk",
+          "source_type": "rss"
+        },
         {
           "title": "BIP-110 Bitcoin branch stalls after two blocks as gap widens",
           "source_name": "Cointelegraph",
@@ -70,14 +95,6 @@
           "published_iso": "2026-08-09T05:08:20+00:00",
           "link": "https://www.coindesk.com/tech/2026/08/09/controversial-bitcoin-fork-bip-110-mines-two-blocks-then-stops",
           "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin slips below $65,000 as ETF inflows offset fork concerns",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-08-09 08:51:48",
-          "published_iso": "2026-08-09 08:51:48",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-65000-as-etf-inflows-offset-fork-concerns-4847718",
-          "source_type": "rss"
         }
       ]
     },
@@ -86,13 +103,13 @@
       "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-08-11",
+      "publish_date": "2026-08-12",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-09T13:00:00+00:00",
+      "newest_evidence_iso": "2026-08-09T19:11:00+00:00",
       "oldest_evidence_iso": "2026-08-07T09:54:00+00:00",
-      "newest_evidence_age_days": 0.0,
+      "newest_evidence_age_days": 0.3,
       "source_count": 3,
-      "demand_signal_score": 2300,
+      "demand_signal_score": 2500,
       "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
@@ -101,9 +118,17 @@
         {
           "title": "The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.",
           "source_name": "MarketWatch Breaking News",
-          "published": "Sun, 09 Aug 2026 13:00:00 GMT",
-          "published_iso": "2026-08-09T13:00:00+00:00",
+          "published": "Sun, 09 Aug 2026 19:11:00 GMT",
+          "published_iso": "2026-08-09T19:11:00+00:00",
           "link": "https://www.marketwatch.com/story/the-number-of-stocks-beating-the-s-p-500-is-the-highest-in-4-years-why-that-number-should-rise-b9bd05b3?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
+          "title": "S&P 500 sales growth is at a nearly 5-year high. Here’s what’s behind the surge.",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Sun, 09 Aug 2026 14:00:00 GMT",
+          "published_iso": "2026-08-09T14:00:00+00:00",
+          "link": "https://www.marketwatch.com/story/s-p-500-sales-growth-is-at-a-nearly-5-year-high-heres-whats-behind-the-surge-a4ccf06d?mod=mw_rss_topstories",
           "source_type": "rss"
         },
         {
@@ -112,14 +137,6 @@
           "published": "Sat, 08 Aug 2026 13:00:01 GMT",
           "published_iso": "2026-08-08T13:00:01+00:00",
           "link": "https://www.cnbc.com/2026/08/08/retirement-investing-equity-income-stocks.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Wall St Week Ahead: Inflation data to test record-setting US stocks, Fed rate views - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Fri, 07 Aug 2026 10:02:00 GMT",
-          "published_iso": "2026-08-07T10:02:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT2tydC12dWhpUnJJXzhSQXpxNFR2S2VQamVXcTAwMms4YWNSZnVwSnJEeEtMMi1WZW1EQkc2dzJwSEt0V0hBc3N1VUxHODRfZkhodk5teVg0NHBGS2xBNHVTczA2U1NvTE4xR1Y0dlVDVE5mOWpqbnIzczZiZ1drb3d5V3VWX0xOLUgwakItMF9jTXZzR3hhNWZjRXlnaklZcFg4MDZzOGtZd2RaZkhsT1laaXpST3NUR2JtVFlCNEo?oc=5",
           "source_type": "rss"
         }
       ]

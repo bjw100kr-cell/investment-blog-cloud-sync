@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-08-09T13:06:37.420441+00:00`
+- 생성 시각: `2026-08-10T02:13:59.965399+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -27,14 +27,14 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Bitcoin heads for 3% weekly gain as risk assets rally, Fed rate hike bets ease
+  - Bitcoin heads for 2% weekly gain as risk assets rally, Fed rate hike bets ease
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `84.0`
-- 점수 구성: 검색성 30 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 4 / 코인시장신호 1
+- 총점: `83.0`
+- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
@@ -48,18 +48,18 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Is Clarity's delay a blessing in disguise?: State of Crypto
+  - Bitcoin investors pour $853 million into spot ETFs. BlackRock’s IBIT claims the bulk
   - Crypto is going through a massive dot-com style shakeout as over 100 projects fold in 2026
   - Controversial Bitcoin fork BIP-110 mines two blocks, then stops
   - Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins
-  - Hardware wallet sales in Russia more than double as new crypto rules near
-  - Brazil's central bank orders exchanges to delay large crypto transfers abroad
 
 ## 3. us_index_flow
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `74.0`
-- 점수 구성: 검색성 15 / 시의성 18 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `76.0`
+- 점수 구성: 검색성 17 / 시의성 18 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - 소스: CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 제목 후보:
@@ -74,18 +74,19 @@
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
   - For retirees, staying in the stock market is critical. How much exposure is the make-or-break question
-  - Wall St Week Ahead: Inflation data to test record-setting US stocks, Fed rate views - Reuters
+  - Wall St Week Ahead Inflation data to test record-setting US stocks, Fed rate views - Reuters
   - S&P closes at record high as soft jobs report eases rate-hike concerns - Reuters
   - The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.
+  - S&P 500 sales growth is at a nearly 5-year high. Here’s what’s behind the surge.
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `45.0`
-- 점수 구성: 검색성 4 / 시의성 5 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times Home
+- 총점: `55.0`
+- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 17 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 소스: Financial Times World, Reuters Markets via Google News RSS
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -97,16 +98,17 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - The bank behind China’s AI listings bonanza
+  - German trade deficit with China grows as Beijing relies less on European industry - Reuters
+  - FirstFT: Ex-CIA officials warn Donald Trump is dismantling US guardrails
 
 ## 5. oil
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `60.0`
-- 점수 구성: 검색성 13 / 시의성 9 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 소스: Financial Times YouTube, Investing.com Crypto News, Reuters Markets via Google News RSS
+- 총점: `73.0`
+- 점수 구성: 검색성 17 / 시의성 18 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Financial Times YouTube, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
   - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
@@ -118,6 +120,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
+  - Oil rises amid uncertainty over U.S.-Iran Strait of Hormuz deal
   - Bitcoin slightly lower, holds at $64k amid hit to risk sentiment from oil prices
-  - Brent climbs $1 on uncertainty over end to Iran war - Reuters
+  - Asia stocks edge higher, oil up amid Gulf confusion - Reuters
   - Can Kazakhstan’s oil boom survive Putin’s War? | FT Film
+  - Oil Prices Climb and Stocks Dip on Stalemate in Iran War

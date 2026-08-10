@@ -124,10 +124,46 @@
     <section class="hero">
       <h1>Shortlist Launchpad</h1>
       <p class="muted">처음엔 이 화면 하나만 보면 됩니다. shortlist 글 2개 기준으로 왜 지금 올리는지, 무엇이 막고 있는지, 바로 쓸 명령이 무엇인지 모아 둔 시작 화면입니다.</p>
-      <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin</code>
-      <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin</code>
+      <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc</code>
+      <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin</code>
     </section>
     
+    <section class="card">
+      <div class="top">
+        <div class="pill-row">
+          <span class="pill">fomc</span>
+          <span class="pill alt">approve</span>
+          <span class="pill">pass</span>
+        </div>
+        <h2>FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지</h2>
+        <p><strong>Publish</strong> 2026-08-10 / <strong>Ready</strong> True</p>
+        <p><strong>Hero image</strong> True / <strong>Hard blocker</strong> none</p>
+        <p><strong>Why now</strong> 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음</p>
+        <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
+        <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html' target='_blank' rel='noreferrer'>HTML Preview</a></p>
+      </div>
+      <div class="grid">
+        <div class="panel">
+          <h3>Quick Evidence</h3>
+          <ul><li><strong>Federal Reserve Monetary Policy Press</strong> <span class='tiny'>2026-07-29T18:00:00+00:00</span><br>Federal Reserve issues FOMC statement</li><li><strong>Federal Reserve Monetary Policy Press</strong> <span class='tiny'>2026-06-17T18:00:00+00:00</span><br>Federal Reserve issues FOMC statement</li><li><strong>Federal Reserve Monetary Policy Press</strong> <span class='tiny'>2026-06-17T18:00:00+00:00</span><br>Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting</li></ul>
+        </div>
+        <div class="panel">
+          <h3>Sample Headlines</h3>
+          <ul><li>Federal Reserve issues FOMC statement</li><li>Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy</li><li>Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting</li></ul>
+        </div>
+      </div>
+      <div class="panel">
+        <h3>Do This Next</h3>
+        <p>사용자 최종 확인 후 Blogger draft 업로드</p>
+        <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword fomc</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply</code>
+      </div>
+      <div class="panel">
+        <h3>Followup Chain</h3>
+        <ul><li><code>python3 scripts/build_platform_publish_plan.py</code></li><li><code>python3 scripts/upload_blogger_drafts.py</code></li><li><code>python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state</code></li></ul>
+      </div>
+    </section>
+    
+
     <section class="card">
       <div class="top">
         <div class="pill-row">
@@ -136,7 +172,7 @@
           <span class="pill">pass</span>
         </div>
         <h2>비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트</h2>
-        <p><strong>Publish</strong> 2026-08-10 / <strong>Ready</strong> True</p>
+        <p><strong>Publish</strong> 2026-08-11 / <strong>Ready</strong> True</p>
         <p><strong>Hero image</strong> True / <strong>Hard blocker</strong> none</p>
         <p><strong>Why now</strong> 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)</p>
         <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
@@ -145,11 +181,11 @@
       <div class="grid">
         <div class="panel">
           <h3>Quick Evidence</h3>
-          <ul><li><strong>Cointelegraph</strong> <span class='tiny'>2026-08-09T11:00:53+00:00</span><br>BIP-110 Bitcoin branch stalls after two blocks as gap widens</li><li><strong>CoinDesk RSS</strong> <span class='tiny'>2026-08-09T05:08:20+00:00</span><br>Controversial Bitcoin fork BIP-110 mines two blocks, then stops</li><li><strong>Investing.com Crypto News</strong> <span class='tiny'>2026-08-09 08:51:48</span><br>Bitcoin slips below $65,000 as ETF inflows offset fork concerns</li></ul>
+          <ul><li><strong>CoinDesk RSS</strong> <span class='tiny'>2026-08-09T14:19:35+00:00</span><br>Bitcoin investors pour $853 million into spot ETFs. BlackRock’s IBIT claims the bulk</li><li><strong>Cointelegraph</strong> <span class='tiny'>2026-08-09T11:00:53+00:00</span><br>BIP-110 Bitcoin branch stalls after two blocks as gap widens</li><li><strong>CoinDesk RSS</strong> <span class='tiny'>2026-08-09T05:08:20+00:00</span><br>Controversial Bitcoin fork BIP-110 mines two blocks, then stops</li></ul>
         </div>
         <div class="panel">
           <h3>Sample Headlines</h3>
-          <ul><li>Crypto is going through a massive dot-com style shakeout as over 100 projects fold in 2026</li><li>Controversial Bitcoin fork BIP-110 mines two blocks, then stops</li><li>Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins</li></ul>
+          <ul><li>Is Clarity&#x27;s delay a blessing in disguise?: State of Crypto</li><li>Bitcoin investors pour $853 million into spot ETFs. BlackRock’s IBIT claims the bulk</li><li>Crypto is going through a massive dot-com style shakeout as over 100 projects fold in 2026</li></ul>
         </div>
       </div>
       <div class="panel">
@@ -172,7 +208,7 @@
           <span class="pill">pass</span>
         </div>
         <h2>미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유</h2>
-        <p><strong>Publish</strong> 2026-08-11 / <strong>Ready</strong> True</p>
+        <p><strong>Publish</strong> 2026-08-12 / <strong>Ready</strong> True</p>
         <p><strong>Hero image</strong> True / <strong>Hard blocker</strong> none</p>
         <p><strong>Why now</strong> 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능</p>
         <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
@@ -181,53 +217,17 @@
       <div class="grid">
         <div class="panel">
           <h3>Quick Evidence</h3>
-          <ul><li><strong>MarketWatch Breaking News</strong> <span class='tiny'>2026-08-09T13:00:00+00:00</span><br>The number of stocks beating the S&amp;P 500 is the highest in 4 years. Why that number should rise.</li><li><strong>CNBC Top News</strong> <span class='tiny'>2026-08-08T13:00:01+00:00</span><br>For retirees, staying in the stock market is critical. How much exposure is the make-or-break question</li><li><strong>Reuters Markets via Google News RSS</strong> <span class='tiny'>2026-08-07T10:02:00+00:00</span><br>Wall St Week Ahead: Inflation data to test record-setting US stocks, Fed rate views - Reuters</li></ul>
+          <ul><li><strong>MarketWatch Breaking News</strong> <span class='tiny'>2026-08-09T19:11:00+00:00</span><br>The number of stocks beating the S&amp;P 500 is the highest in 4 years. Why that number should rise.</li><li><strong>MarketWatch Breaking News</strong> <span class='tiny'>2026-08-09T14:00:00+00:00</span><br>S&amp;P 500 sales growth is at a nearly 5-year high. Here’s what’s behind the surge.</li><li><strong>CNBC Top News</strong> <span class='tiny'>2026-08-08T13:00:01+00:00</span><br>For retirees, staying in the stock market is critical. How much exposure is the make-or-break question</li></ul>
         </div>
         <div class="panel">
           <h3>Sample Headlines</h3>
-          <ul><li>For retirees, staying in the stock market is critical. How much exposure is the make-or-break question</li><li>Wall St Week Ahead: Inflation data to test record-setting US stocks, Fed rate views - Reuters</li><li>S&amp;P closes at record high as soft jobs report eases rate-hike concerns - Reuters</li></ul>
+          <ul><li>For retirees, staying in the stock market is critical. How much exposure is the make-or-break question</li><li>Wall St Week Ahead Inflation data to test record-setting US stocks, Fed rate views - Reuters</li><li>S&amp;P closes at record high as soft jobs report eases rate-hike concerns - Reuters</li></ul>
         </div>
       </div>
       <div class="panel">
         <h3>Do This Next</h3>
         <p>사용자 최종 확인 후 Blogger draft 업로드</p>
         <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply</code>
-      </div>
-      <div class="panel">
-        <h3>Followup Chain</h3>
-        <ul><li><code>python3 scripts/build_platform_publish_plan.py</code></li><li><code>python3 scripts/upload_blogger_drafts.py</code></li><li><code>python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state</code></li></ul>
-      </div>
-    </section>
-    
-
-    <section class="card">
-      <div class="top">
-        <div class="pill-row">
-          <span class="pill">china</span>
-          <span class="pill alt">approve</span>
-          <span class="pill">pass</span>
-        </div>
-        <h2>중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유</h2>
-        <p><strong>Publish</strong> 2026-08-12 / <strong>Ready</strong> True</p>
-        <p><strong>Hero image</strong> True / <strong>Hard blocker</strong> none</p>
-        <p><strong>Why now</strong> 섹터/세계 흐름 연결 해설 가능</p>
-        <p><strong>Intent</strong> 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자</p>
-        <p class="links"><a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md' target='_blank' rel='noreferrer'>Draft</a> <a href='file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html' target='_blank' rel='noreferrer'>HTML Preview</a></p>
-      </div>
-      <div class="grid">
-        <div class="panel">
-          <h3>Quick Evidence</h3>
-          <ul><li><strong>Financial Times Home</strong> <span class='tiny'>2026-08-09T01:22:52+00:00</span><br>The bank behind China’s AI listings bonanza</li></ul>
-        </div>
-        <div class="panel">
-          <h3>Sample Headlines</h3>
-          <ul><li>The bank behind China’s AI listings bonanza</li></ul>
-        </div>
-      </div>
-      <div class="panel">
-        <h3>Do This Next</h3>
-        <p>사용자 최종 확인 후 Blogger draft 업로드</p>
-        <code>python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword china</code><code>python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply</code>
       </div>
       <div class="panel">
         <h3>Followup Chain</h3>
