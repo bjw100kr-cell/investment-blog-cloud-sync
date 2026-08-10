@@ -4,59 +4,57 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - 원칙: 먼저 글을 읽고, 그 다음 confirm command 또는 helper apply command를 실행합니다.
 - item_count: `3`
 
-## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-
-- keyword `fomc` / publish `2026-08-10` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- sample_headlines:
-  - Federal Reserve issues FOMC statement
-  - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- recent_evidence:
-  - Federal Reserve Monetary Policy Press | 2026-07-29T18:00:00+00:00 | Federal Reserve issues FOMC statement
-  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve issues FOMC statement
-  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
-
-## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword `bitcoin` / publish `2026-08-11` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - sample_headlines:
-  - Is Clarity's delay a blessing in disguise?: State of Crypto
-  - Bitcoin investors pour $853 million into spot ETFs. BlackRock’s IBIT claims the bulk
-  - Crypto is going through a massive dot-com style shakeout as over 100 projects fold in 2026
+  - Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares
+  - Crypto exchange Coinsbuy loses $8 million in coordinated two-blockchain attack
+  - Bitcoin's BIP-110 episode is free-market capitalism in purest form
 - recent_evidence:
-  - CoinDesk RSS | 2026-08-09T14:19:35+00:00 | Bitcoin investors pour $853 million into spot ETFs. BlackRock’s IBIT claims the bulk
-  - Cointelegraph | 2026-08-09T11:00:53+00:00 | BIP-110 Bitcoin branch stalls after two blocks as gap widens
-  - CoinDesk RSS | 2026-08-09T05:08:20+00:00 | Controversial Bitcoin fork BIP-110 mines two blocks, then stops
+  - Cointelegraph | 2026-08-10T13:07:42+00:00 | Bitdeer increased Bitcoin mining output by nearly fivefold in Q2
+  - CoinDesk RSS | 2026-08-10T12:09:26+00:00 | Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares
+  - CoinDesk RSS | 2026-08-10T11:31:29+00:00 | Bitcoin's BIP-110 episode is free-market capitalism in purest form
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+## 2. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 
-- keyword `us_index_flow` / publish `2026-08-12` / verdict `approve` / quality `pass`
+- keyword `china` / publish `2026-08-13` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- why_now: 섹터/세계 흐름 연결 해설 가능
 - sample_headlines:
-  - For retirees, staying in the stock market is critical. How much exposure is the make-or-break question
-  - Wall St Week Ahead Inflation data to test record-setting US stocks, Fed rate views - Reuters
-  - S&P closes at record high as soft jobs report eases rate-hike concerns - Reuters
+  - China bypasses shipping chokepoints with ‘Ice Silk Road’ through Arctic
+  - Hong Kong’s plan to clear rural villages for a new gateway to China
 - recent_evidence:
-  - MarketWatch Breaking News | 2026-08-09T19:11:00+00:00 | The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.
-  - MarketWatch Breaking News | 2026-08-09T14:00:00+00:00 | S&P 500 sales growth is at a nearly 5-year high. Here’s what’s behind the surge.
-  - CNBC Top News | 2026-08-08T13:00:01+00:00 | For retirees, staying in the stock market is critical. How much exposure is the make-or-break question
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply`
+  - Financial Times Home | 2026-08-10T07:57:31+00:00 | Hong Kong’s plan to clear rural villages for a new gateway to China
+  - Financial Times Home | 2026-08-10T04:00:07+00:00 | China bypasses shipping chokepoints with ‘Ice Silk Road’ through Arctic
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply`
+
+## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+
+- keyword `ai_semiconductors` / publish `2026-08-12` / verdict `approve` / quality `review_before_publish`
+- ready_now: `False` / hero_image_selected: `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- why_now: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- sample_headlines:
+  - Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic
+  - World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand
+  - House Dems call for AI companies to testify on recent hacks: ‘Clear risk to safety’
+- recent_evidence:
+  - Financial Times YouTube | 51K views | Silicon shadows: inside the black market for AI chips | FT Film
+  - CNBC Top News | 2026-08-10T12:40:36+00:00 | Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic
+  - CNBC Top News | 2026-08-10T10:29:27+00:00 | World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`
