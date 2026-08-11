@@ -1,17 +1,17 @@
 # Daily Traffic Goal
 
 - 목표: 하루 최소 `200`명 방문
-- 현재 예상 합계: `277`명
+- 현재 예상 합계: `271`명
 - 목표까지 부족분: `0`명
 - 상태: `estimated_on_track_measurement_missing`
 
 ## 200명 목표를 위한 오늘의 글 경로
 
-1. `bitcoin` 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 예상 `95`명 / 수요 `6400` / 품질 `pass`
-   - action: 코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행
-2. `fomc` FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 예상 `94`명 / 수요 `3500` / 품질 `pass`
+1. `fomc` FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 예상 `95`명 / 수요 `4000` / 품질 `pass`
    - action: 금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결
-3. `ai_semiconductors` AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 예상 `88`명 / 수요 `3100` / 품질 `pass`
+2. `bitcoin` 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 예상 `95`명 / 수요 `7200` / 품질 `pass`
+   - action: 코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행
+3. `ai_semiconductors` AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 예상 `81`명 / 수요 `2500` / 품질 `pass`
    - action: 대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장
 
 ## 병목
@@ -27,8 +27,8 @@
 
 ## 후보 전체
 
+- `fomc` lane `macro` / 예상 `95`명 / ready `True` / quality `pass`
 - `bitcoin` lane `crypto` / 예상 `95`명 / ready `True` / quality `pass`
-- `fomc` lane `macro` / 예상 `94`명 / ready `True` / quality `pass`
-- `ai_semiconductors` lane `us-stocks` / 예상 `88`명 / ready `True` / quality `pass`
-- `us_big_tech` lane `us-stocks` / 예상 `0`명 / ready `False` / quality `unknown`
-- `tariffs_trade` lane `world-flow` / 예상 `0`명 / ready `True` / quality `review_before_publish`
+- `ai_semiconductors` lane `us-stocks` / 예상 `81`명 / ready `True` / quality `pass`
+- `oil` lane `macro` / 예상 `0`명 / ready `False` / quality `unknown`
+- `china` lane `world-flow` / 예상 `0`명 / ready `True` / quality `review_before_publish`

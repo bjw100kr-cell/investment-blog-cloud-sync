@@ -1,103 +1,16 @@
 {
-  "generated_at": "2026-08-11T02:07:48.015745+00:00",
-  "snapshot_generated_at": "2026-08-11T02:07:43.229270+00:00",
+  "generated_at": "2026-08-11T13:22:01.510524+00:00",
+  "snapshot_generated_at": "2026-08-11T13:21:55.612749+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 2,
+    "fresh": 3,
     "aging": 0,
-    "stale": 1,
+    "stale": 0,
     "unknown": 0
   },
   "items": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-08-11",
-      "freshness_status": "stale",
-      "newest_evidence_iso": "2026-07-29T18:00:00+00:00",
-      "oldest_evidence_iso": "2026-06-17T18:00:00+00:00",
-      "newest_evidence_age_days": 12.3,
-      "source_count": 2,
-      "demand_signal_score": 3500,
-      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
-      "recovery_mode": "full_refresh_needed",
-      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
-      "recovery_command": "bash scripts/run_pipeline.sh",
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-08-12",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-10T21:12:07+00:00",
-      "oldest_evidence_iso": "2026-08-10T13:07:42+00:00",
-      "newest_evidence_age_days": 0.2,
-      "source_count": 5,
-      "demand_signal_score": 6400,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Trump Media’s bitcoin holdings shrink as crypto losses hit $361 million",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "Trump Media’s bitcoin holdings shrink as crypto losses hit $361 million",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 10 Aug 2026 21:12:07 +0000",
-          "published_iso": "2026-08-10T21:12:07+00:00",
-          "link": "https://www.coindesk.com/business/2026/08/10/trump-media-s-bitcoin-holdings-shrink-as-crypto-losses-hit-usd361-million",
-          "source_type": "rss"
-        },
-        {
-          "title": "Strategy builds $4.75 billion cash cushion as only bitcoin isn’t enough for investors",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 10 Aug 2026 20:03:24 +0000",
-          "published_iso": "2026-08-10T20:03:24+00:00",
-          "link": "https://www.coindesk.com/coindesk-news/2026/08/10/strategy-builds-usd4-75-billion-cash-cushion-as-only-bitcoin-isn-t-enough-for-investors",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin price slip wipes weekend gains as oil surge hits 5% on Hormuz disappointment",
-          "source_name": "Cointelegraph",
-          "published": "Mon, 10 Aug 2026 16:14:58 +0000",
-          "published_iso": "2026-08-10T16:14:58+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-wipes-weekend-gains-as-oil-nears-5-surge-on-hormuz-disappointment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        }
-      ]
-    },
     {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
@@ -105,11 +18,11 @@
       "ready_now": true,
       "publish_date": "2026-08-13",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-11T02:03:00+00:00",
-      "oldest_evidence_iso": "2026-08-10T21:42:54+00:00",
-      "newest_evidence_age_days": 0.0,
+      "newest_evidence_iso": "2026-08-11T08:00:26+00:00",
+      "oldest_evidence_iso": "2026-08-11T08:00:26+00:00",
+      "newest_evidence_age_days": 0.2,
       "source_count": 5,
-      "demand_signal_score": 3100,
+      "demand_signal_score": 2500,
       "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
@@ -124,19 +37,97 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Tue, 11 Aug 2026 02:03:00 GMT",
-          "published_iso": "2026-08-11T02:03:00+00:00",
-          "link": "https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories",
+          "title": "South Korean Semiconductor Emergency!!!!",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "4.6K views",
+          "published_iso": "4.6K views",
+          "link": "https://www.youtube.com/watch?v=aPH5t72P8GM",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "Anthropic strikes $9B compute deal with Bitcoin miner Riot: Report",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 11 Aug 2026 08:00:26 +0000",
+          "published_iso": "2026-08-11T08:00:26+00:00",
+          "link": "https://cointelegraph.com/news/anthropic-9b-deal-bitcoin-miner-riot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-08-12",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-08-11T12:09:38+00:00",
+      "oldest_evidence_iso": "2026-08-11T10:48:08+00:00",
+      "newest_evidence_age_days": 0.1,
+      "source_count": 3,
+      "demand_signal_score": 7200,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Russia proposes exchange trading of Bitcoin, Ether and Tether’s USDT",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Russia proposes exchange trading of Bitcoin, Ether and Tether’s USDT",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 11 Aug 2026 12:09:38 +0000",
+          "published_iso": "2026-08-11T12:09:38+00:00",
+          "link": "https://cointelegraph.com/news/bank-of-russia-trading-bitcoin-ether-tether-usdt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "This Nvidia change could spell good news for Micron",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Mon, 10 Aug 2026 22:42:00 GMT",
-          "published_iso": "2026-08-10T22:42:00+00:00",
-          "link": "https://www.marketwatch.com/story/this-nvidia-change-could-spell-good-news-for-micron-80449e59?mod=mw_rss_topstories",
+          "title": "When safe assets compete with risk. Lessons from the 1960s–90s for bitcoin and stocks.",
+          "source_name": "CoinDesk RSS",
+          "published": "Tue, 11 Aug 2026 11:13:55 +0000",
+          "published_iso": "2026-08-11T11:13:55+00:00",
+          "link": "https://www.coindesk.com/daybook-us/2026/08/11/when-safe-assets-compete-with-risk-lessons-from-the-1960s-90s-for-bitcoin-and-stocks",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin-backed lending is entering its institutional era: Two Prime",
+          "source_name": "CoinDesk RSS",
+          "published": "Tue, 11 Aug 2026 11:04:28 +0000",
+          "published_iso": "2026-08-11T11:04:28+00:00",
+          "link": "https://www.coindesk.com/markets/2026/08/11/bitcoin-backed-lending-is-entering-its-institutional-era-two-prime",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "publish_date": "2026-08-14",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-08-11T12:44:14+00:00",
+      "oldest_evidence_iso": "2026-08-11T10:13:16+00:00",
+      "newest_evidence_age_days": 0.0,
+      "source_count": 3,
+      "demand_signal_score": 0,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: China tightens grip on Europe’s car supply chain",
+      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "China tightens grip on Europe’s car supply chain",
+          "source_name": "Financial Times Home",
+          "published": "Tue, 11 Aug 2026 12:44:14 GMT",
+          "published_iso": "2026-08-11T12:44:14+00:00",
+          "link": "https://www.ft.com/content/9f700b37-ac05-434c-9b70-3a7fe065c87e?syn-25a6b1a6=1",
+          "source_type": "rss"
+        },
+        {
+          "title": "China's car sales extend slide as shift accelerates to overseas markets - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Tue, 11 Aug 2026 10:13:16 GMT",
+          "published_iso": "2026-08-11T10:13:16+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaTYwb00xY1NfcjFuMXpQZ1lFWklIN0ZESEVoazVxR1dIbkRSR1NqQS1IM3JQNTI2LXgtcW5GYS1PeEN3VTlLLV9UWkFILXNJYjFPWThEU2FGdHZzZ3ljNHVGLUkwZnBlUElSZjVNTmlER1hmNWtXTF80ODZJTzRJT0FzRHdtanRsRnZaTHVFaG5IaEIwMkxDUVdUTlNHeHVTblN6LVNtN0JLTFRiaW9JVVg2YXkyVmNreTUw?oc=5",
           "source_type": "rss"
         }
       ]

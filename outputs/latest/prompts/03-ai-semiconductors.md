@@ -109,17 +109,17 @@
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "Financial Times Home",
+    "Cointelegraph",
     "Financial Times YouTube",
-    "MarketWatch Breaking News",
-    "NYT Business"
+    "NYT Business",
+    "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
-    "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are ‘investable asset’",
-    "Wall Street giants partner with Nvidia on $500bn AI financing deal",
-    "Mark Zuckerberg attacks ‘closed’ AI rivals as Meta returns to open models",
-    "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
-    "Intel plans to sell $15 billion worth of stock after it has risen 400% in a year"
+    "Anthropic strikes $9B compute deal with Bitcoin miner Riot: Report",
+    "Wall Street just endorsed Jensen Huang's 'big concept' for AI. What now?",
+    "South Korean Semiconductor Emergency!!!!",
+    "Silicon shadows: inside the black market for AI chips | FT Film",
+    "Wall St. Wants Another Half-Trillion Dollars for the A.I. Boom"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -182,12 +182,12 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 83.0,
-    "search_score": 22,
-    "timeliness_score": 21,
-    "explanatory_score": 18,
+    "total_score": 74.0,
+    "search_score": 17,
+    "timeliness_score": 18,
+    "explanatory_score": 19,
     "monetization_score": 15,
-    "risk_score": 7
+    "risk_score": 5
   },
   "reference_editorial_pattern_name": "search_explainer",
   "reference_editorial_pattern": {
