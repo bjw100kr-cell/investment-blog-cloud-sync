@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T13:26:25.129779+00:00",
+  "generated_at": "2026-08-11T02:07:47.499366+00:00",
   "target_daily_visitors": 200,
   "status": "measurement_missing_keep_building",
   "proof": {
@@ -9,7 +9,7 @@
     "measurement_missing": true
   },
   "publishing_capacity": {
-    "quality_ready_count": 5,
+    "quality_ready_count": 7,
     "blogger_ready_count": 1,
     "recommended_posts_next_run": 1,
     "rule": "품질 게이트 통과 글만 실행당 최대 3건"
@@ -24,7 +24,7 @@
         "비트코인 오늘 시세 보는법"
       ],
       "suggested_title": "비트코인 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 8200,
+      "demand_signal_score": 6400,
       "use_in": [
         "title",
         "first_h2",
@@ -42,7 +42,7 @@
         "연준 금리 발표 비트코인 영향"
       ],
       "suggested_title": "FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 3800,
+      "demand_signal_score": 3500,
       "use_in": [
         "title",
         "first_h2",
@@ -60,7 +60,7 @@
         "AI 데이터센터 수혜주"
       ],
       "suggested_title": "AI 반도체 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 2800,
+      "demand_signal_score": 3100,
       "use_in": [
         "title",
         "first_h2",
@@ -70,11 +70,15 @@
       ]
     },
     {
-      "mapped_keyword": "cpi",
-      "primary_query": "cpi",
-      "supporting_queries": [],
-      "suggested_title": "cpi 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 2500,
+      "mapped_keyword": "dollar",
+      "primary_query": "달러 인덱스 보는법",
+      "supporting_queries": [
+        "달러 강세 주식 영향",
+        "환율 상승 코인 영향",
+        "원달러 환율 전망"
+      ],
+      "suggested_title": "달러 인덱스 보는법 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "demand_signal_score": 2300,
       "use_in": [
         "title",
         "first_h2",
@@ -86,6 +90,15 @@
   ],
   "distribution_actions": [
     {
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
+      "manual_checklist_items": 3,
+      "expected_manual_visitors": 35,
+      "first_channel": "x_threads_or_short_social",
+      "first_copy_variant": "question_hook"
+    },
+    {
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/fomc.html",
@@ -95,13 +108,13 @@
       "first_copy_variant": "question_hook"
     },
     {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "public_url": "https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html",
-      "manual_checklist_items": 3,
-      "expected_manual_visitors": 35,
-      "first_channel": "x_threads_or_short_social",
-      "first_copy_variant": "question_hook"
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "public_url": "",
+      "manual_checklist_items": 0,
+      "expected_manual_visitors": 0,
+      "first_channel": "",
+      "first_copy_variant": ""
     },
     {
       "keyword": "china",
@@ -233,7 +246,7 @@
   "distribution_summary": {
     "planned_public_url_count": 16,
     "manual_checklist_item_count": 48,
-    "published_expansion_item_count": 13
+    "published_expansion_item_count": 14
   },
   "manual_distribution_potential_visitors": 560,
   "measurement_action": {

@@ -1,37 +1,141 @@
 {
-  "generated_at": "2026-08-10T13:26:20.813781+00:00",
+  "generated_at": "2026-08-11T02:07:43.229270+00:00",
   "item_count": 3,
   "items": [
     {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "publish_date": "2026-08-11",
-      "priority_score": 123.0,
+      "priority_score": 134.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
-      "format": "crypto_analysis",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "format": "macro_explainer",
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
+        "CNBC Top News",
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_headlines": [
-        "Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares",
-        "Crypto exchange Coinsbuy loses $8 million in coordinated two-blockchain attack",
-        "Bitcoin's BIP-110 episode is free-market capitalism in purest form",
-        "Bitcoin steadies above $65,000 as Iran-Oman deal talk eases Hormuz concerns, lifts risk assets",
-        "Bitcoin volatility is in meltdown, but downside protection still commands a premium"
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "Trump says he spoke recently to Fed Chairman Warsh, denies regular calls"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 8200,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 3,
-      "search_score": 30,
-      "timeliness_score": 18,
+      "source_count": 2,
+      "search_score": 23,
+      "timeliness_score": 25,
       "monetization_score": 15,
       "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Thu, 9 Jul 2026 19:00:00 GMT",
+          "published_iso": "2026-07-09T19:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 8 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-08T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "publish_date": "2026-08-12",
+      "priority_score": 125.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "format": "crypto_analysis",
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_headlines": [
+        "Trump Media’s bitcoin holdings shrink as crypto losses hit $361 million",
+        "Strategy builds $4.75 billion cash cushion as only bitcoin isn’t enough for investors",
+        "Bitmine’s ETH buying slows as Tom Lee's firm shifts capital to share buybacks",
+        "Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares",
+        "UK money laundering suspect bought $100M in Trump crypto business: NYT"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 6400,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 5,
+      "search_score": 29,
+      "timeliness_score": 21,
+      "monetization_score": 15,
+      "recent_evidence": [
+        {
+          "title": "Trump Media’s bitcoin holdings shrink as crypto losses hit $361 million",
+          "source_name": "CoinDesk RSS",
+          "published": "Mon, 10 Aug 2026 21:12:07 +0000",
+          "published_iso": "2026-08-10T21:12:07+00:00",
+          "link": "https://www.coindesk.com/business/2026/08/10/trump-media-s-bitcoin-holdings-shrink-as-crypto-losses-hit-usd361-million",
+          "source_type": "rss"
+        },
+        {
+          "title": "Strategy builds $4.75 billion cash cushion as only bitcoin isn’t enough for investors",
+          "source_name": "CoinDesk RSS",
+          "published": "Mon, 10 Aug 2026 20:03:24 +0000",
+          "published_iso": "2026-08-10T20:03:24+00:00",
+          "link": "https://www.coindesk.com/coindesk-news/2026/08/10/strategy-builds-usd4-75-billion-cash-cushion-as-only-bitcoin-isn-t-enough-for-investors",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin price slip wipes weekend gains as oil surge hits 5% on Hormuz disappointment",
+          "source_name": "Cointelegraph",
+          "published": "Mon, 10 Aug 2026 16:14:58 +0000",
+          "published_iso": "2026-08-10T16:14:58+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-wipes-weekend-gains-as-oil-nears-5-surge-on-hormuz-disappointment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "BlackRock launches two Canada ETFs, with one allocating 3% to Bitcoin",
+          "source_name": "Cointelegraph",
+          "published": "Mon, 10 Aug 2026 15:59:06 +0000",
+          "published_iso": "2026-08-10T15:59:06+00:00",
+          "link": "https://cointelegraph.com/news/blackrock-launches-two-canada-etfs-with-one-allocating-3-to-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
         {
           "title": "Bitdeer increased Bitcoin mining output by nearly fivefold in Q2",
           "source_name": "Cointelegraph",
@@ -39,137 +143,79 @@
           "published_iso": "2026-08-10T13:07:42+00:00",
           "link": "https://cointelegraph.com/news/bitdeer-bitcoin-mining-output-fivefold-q2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
-        },
-        {
-          "title": "Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 10 Aug 2026 12:09:26 +0000",
-          "published_iso": "2026-08-10T12:09:26+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/10/strategy-sells-1-690-bitcoin-raises-usd653-million-from-mstr-shares",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin's BIP-110 episode is free-market capitalism in purest form",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 10 Aug 2026 11:31:29 +0000",
-          "published_iso": "2026-08-10T11:31:29+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/08/10/bitcoin-s-bip-110-episode-is-free-market-capitalism-in-purest-form",
-          "source_type": "rss"
-        },
-        {
-          "title": "Markets flip for Fed rate-hike pause into CPI: Five things to know in Bitcoin this week",
-          "source_name": "Cointelegraph",
-          "published": "Mon, 10 Aug 2026 11:13:40 +0000",
-          "published_iso": "2026-08-10T11:13:40+00:00",
-          "link": "https://cointelegraph.com/markets/markets-drop-september-rate-hike-bet-into-cpi-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin steadies above $65,000 as Iran-Oman deal talk eases Hormuz concerns, lifts risk assets",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 10 Aug 2026 10:45:43 +0000",
-          "published_iso": "2026-08-10T10:45:43+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/10/bitcoin-steadies-above-usd65-000-as-iran-oman-deal-talk-eases-hormuz-concerns-lifts-risk-assets",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "publish_date": "2026-08-13",
-      "priority_score": 74.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "섹터/세계 흐름 연결 해설 가능",
-      "format": "macro_explainer",
-      "source_names": [
-        "Financial Times Home"
-      ],
-      "sample_headlines": [
-        "China bypasses shipping chokepoints with ‘Ice Silk Road’ through Arctic",
-        "Hong Kong’s plan to clear rural villages for a new gateway to China"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 0,
-      "fallback_source": "mapped_candidate",
-      "source_count": 1,
-      "search_score": 6,
-      "timeliness_score": 8,
-      "monetization_score": 12,
-      "recent_evidence": [
-        {
-          "title": "Hong Kong’s plan to clear rural villages for a new gateway to China",
-          "source_name": "Financial Times Home",
-          "published": "Mon, 10 Aug 2026 07:57:31 GMT",
-          "published_iso": "2026-08-10T07:57:31+00:00",
-          "link": "https://www.ft.com/content/61a23058-730d-4b13-bbbe-d491770d2a76?syn-25a6b1a6=1",
-          "source_type": "rss"
-        },
-        {
-          "title": "China bypasses shipping chokepoints with ‘Ice Silk Road’ through Arctic",
-          "source_name": "Financial Times Home",
-          "published": "Mon, 10 Aug 2026 04:00:07 GMT",
-          "published_iso": "2026-08-10T04:00:07+00:00",
-          "link": "https://www.ft.com/content/4456f475-f2c8-4cb7-8312-0c47c5f781b8?syn-25a6b1a6=1",
-          "source_type": "rss"
         }
       ]
     },
     {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "publish_date": "2026-08-12",
-      "priority_score": 114.0,
-      "ready_now": false,
-      "quality_status": "review_before_publish",
-      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "publish_date": "2026-08-13",
+      "priority_score": 118.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
       "format": "sector_analysis",
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
         "Financial Times YouTube",
-        "MarketWatch Breaking News"
+        "MarketWatch Breaking News",
+        "NYT Business"
       ],
       "sample_headlines": [
-        "Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic",
-        "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
-        "House Dems call for AI companies to testify on recent hacks: ‘Clear risk to safety’",
+        "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are ‘investable asset’",
+        "Wall Street giants partner with Nvidia on $500bn AI financing deal",
         "Mark Zuckerberg attacks ‘closed’ AI rivals as Meta returns to open models",
+        "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
         "Intel plans to sell $15 billion worth of stock after it has risen 400% in a year"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 2800,
+      "demand_signal_score": 3100,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 4,
-      "search_score": 19,
-      "timeliness_score": 20,
+      "source_count": 5,
+      "search_score": 22,
+      "timeliness_score": 21,
       "monetization_score": 15,
       "recent_evidence": [
         {
           "title": "Silicon shadows: inside the black market for AI chips | FT Film",
           "source_name": "Financial Times YouTube",
-          "published": "51K views",
-          "published_iso": "51K views",
+          "published": "52K views",
+          "published_iso": "52K views",
           "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
           "source_type": "youtube_channel"
         },
         {
-          "title": "Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic",
-          "source_name": "CNBC Top News",
-          "published": "Mon, 10 Aug 2026 12:40:36 GMT",
-          "published_iso": "2026-08-10T12:40:36+00:00",
-          "link": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
+          "title": "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Tue, 11 Aug 2026 02:03:00 GMT",
+          "published_iso": "2026-08-11T02:03:00+00:00",
+          "link": "https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories",
           "source_type": "rss"
         },
         {
-          "title": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
+          "title": "This Nvidia change could spell good news for Micron",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Mon, 10 Aug 2026 22:42:00 GMT",
+          "published_iso": "2026-08-10T22:42:00+00:00",
+          "link": "https://www.marketwatch.com/story/this-nvidia-change-could-spell-good-news-for-micron-80449e59?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
+          "title": "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are ‘investable asset’",
           "source_name": "CNBC Top News",
-          "published": "Mon, 10 Aug 2026 10:29:27 GMT",
-          "published_iso": "2026-08-10T10:29:27+00:00",
-          "link": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html",
+          "published": "Mon, 10 Aug 2026 22:09:00 GMT",
+          "published_iso": "2026-08-10T22:09:00+00:00",
+          "link": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Wall Street giants partner with Nvidia on $500bn AI financing deal",
+          "source_name": "Financial Times Home",
+          "published": "Mon, 10 Aug 2026 21:42:54 GMT",
+          "published_iso": "2026-08-10T21:42:54+00:00",
+          "link": "https://www.ft.com/content/98a8fd17-15b6-4f67-9cb4-825722b11348?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ]

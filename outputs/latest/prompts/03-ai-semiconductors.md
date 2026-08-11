@@ -91,7 +91,7 @@
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -111,13 +111,14 @@
     "CNBC Top News",
     "Financial Times Home",
     "Financial Times YouTube",
-    "MarketWatch Breaking News"
+    "MarketWatch Breaking News",
+    "NYT Business"
   ],
   "reference_headlines": [
-    "Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic",
-    "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
-    "House Dems call for AI companies to testify on recent hacks: ‘Clear risk to safety’",
+    "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are ‘investable asset’",
+    "Wall Street giants partner with Nvidia on $500bn AI financing deal",
     "Mark Zuckerberg attacks ‘closed’ AI rivals as Meta returns to open models",
+    "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
     "Intel plans to sell $15 billion worth of stock after it has risen 400% in a year"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
@@ -181,9 +182,9 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 79.0,
-    "search_score": 19,
-    "timeliness_score": 20,
+    "total_score": 83.0,
+    "search_score": 22,
+    "timeliness_score": 21,
     "explanatory_score": 18,
     "monetization_score": 15,
     "risk_score": 7

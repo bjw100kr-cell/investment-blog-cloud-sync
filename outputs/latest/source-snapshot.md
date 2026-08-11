@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-10T13:26:20.813781+00:00`
+- 생성 시각: `2026-08-11T02:07:43.229270+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,52 +106,49 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 70, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 26, source_count 3, sources Cointelegraph, Federal Reserve Monetary Policy Press, Investing.com Crypto News
-- `ai_semiconductors`: score 16, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times YouTube, MarketWatch Breaking News
-- `cpi`: score 13, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `us_big_tech`: score 10, source_count 4, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business
-- `oil`: score 8, source_count 3, sources Financial Times Home, Financial Times World, NYT Business
-- `dollar`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `us_index_flow`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
-- `treasury_yields`: score 6, source_count 1, sources Cointelegraph
-- `china`: score 6, source_count 1, sources Financial Times Home
+- `bitcoin`: score 52, source_count 5, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `fomc`: score 23, source_count 2, sources CNBC Top News, Federal Reserve Monetary Policy Press
+- `ai_semiconductors`: score 19, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times YouTube, MarketWatch Breaking News, NYT Business
+- `dollar`: score 11, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
+- `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `us_big_tech`: score 7, source_count 3, sources Financial Times Home, MarketWatch Breaking News, NYT Business
+- `oil`: score 6, source_count 2, sources Cointelegraph, Investing.com Crypto News
+- `us_index_flow`: score 6, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
+- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
+- `treasury_yields`: score 3, source_count 1, sources Cointelegraph
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 70, headlines 21
-  - Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares
-  - Crypto exchange Coinsbuy loses $8 million in coordinated two-blockchain attack
-  - Bitcoin's BIP-110 episode is free-market capitalism in purest form
-- `fomc`: score 26, headlines 6
+- `bitcoin`: score 52, headlines 16
+  - Trump Media’s bitcoin holdings shrink as crypto losses hit $361 million
+  - Strategy builds $4.75 billion cash cushion as only bitcoin isn’t enough for investors
+  - Bitmine’s ETH buying slows as Tom Lee's firm shifts capital to share buybacks
+- `fomc`: score 23, headlines 5
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `ai_semiconductors`: score 16, headlines 6
-  - Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic
-  - World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand
-  - House Dems call for AI companies to testify on recent hacks: ‘Clear risk to safety’
-- `cpi`: score 13, headlines 4
-  - U.S. CPI inflation, Securitize, Gemini among earnings reports: Crypto Week Ahead
-  - Markets flip for Fed rate-hike pause into CPI: Five things to know in Bitcoin this week
-  - Bitcoin steady above $65k with U.S. inflation, Iran risks in focus
-- `us_big_tech`: score 10, headlines 4
-  - Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic
+- `ai_semiconductors`: score 19, headlines 8
+  - Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are ‘investable asset’
+  - Wall Street giants partner with Nvidia on $500bn AI financing deal
+  - Mark Zuckerberg attacks ‘closed’ AI rivals as Meta returns to open models
+- `dollar`: score 11, headlines 3
+  - Solana lending giant Jupiter now lets the same dollar earn twice
+  - Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares
+  - Dollar gains, yen weakens as markets eye US CPI - Reuters
+- `us_big_tech`: score 7, headlines 3
   - Mark Zuckerberg attacks ‘closed’ AI rivals as Meta returns to open models
   - Apple’s stock could underperform, especially without an ‘all-glass’ iPhone, this analyst warns
-- `oil`: score 8, headlines 3
-  - Ukrainian drone strike on oil-refining city in central Russia kills 13
-  - Ukrainian drone strike on oil-refining city in central Russia kills 13
-  - Oil Prices Climb on Stalemate in Strait of Hormuz
-- `dollar`: score 7, headlines 2
-  - Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares
-  - Strategy turns 1,690 BTC into $108.6M STRC buyback
-- `us_index_flow`: score 7, headlines 2
-  - Bitcoin steadies above $65,000 as Iran-Oman deal talk eases Hormuz concerns, lifts risk assets
+  - Why Meta Is Betting Big on Open A.I.
+- `crypto_etf`: score 7, headlines 2
+  - Grayscale quietly drops Cardano, Polkadot and Hedera ETF plans
+  - BlackRock launches two Canada ETFs, with one allocating 3% to Bitcoin
+- `oil`: score 6, headlines 2
+  - Bitcoin price slip wipes weekend gains as oil surge hits 5% on Hormuz disappointment
+  - Bitcoin falls below $65k as rising oil prices dents sentiment for risky assets
+- `us_index_flow`: score 6, headlines 2
+  - Bitcoin price slip wipes weekend gains as oil surge hits 5% on Hormuz disappointment
   - J.P. Morgan lifts 2026-end target for S&P 500 to 8,000 on AI, earnings strength - Reuters
-- `china`: score 6, headlines 2
-  - China bypasses shipping chokepoints with ‘Ice Silk Road’ through Arctic
-  - Hong Kong’s plan to clear rural villages for a new gateway to China
-- `treasury_yields`: score 6, headlines 2
-  - Bitdeer increased Bitcoin mining output by nearly fivefold in Q2
-  - H100 becomes Europe’s No. 2 Bitcoin treasury after 2,455 BTC deal
+- `ethereum`: score 4, headlines 1
+  - Bitmine’s ETH buying slows as Tom Lee's firm shifts capital to share buybacks
+- `china`: score 3, headlines 1
+  - CNBC's The China Connection newsletter: 'Spider-Man' and 'The Odyssey' come courting the massive filmgoer market

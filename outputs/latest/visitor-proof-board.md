@@ -20,9 +20,9 @@
 
 ## Projection Is Not Proof
 
-- projected_daily_visitors: `241`
-- projected_with_amplification: `241`
-- potential_with_manual_amplification: `1441`
+- projected_daily_visitors: `277`
+- projected_with_amplification: `277`
+- potential_with_manual_amplification: `1477`
 - projection_is_proof: `False`
 
 ## Measurement Blockers
