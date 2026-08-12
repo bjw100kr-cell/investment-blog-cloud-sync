@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-08-11T13:21:55.612749+00:00",
+  "generated_at": "2026-08-12T02:25:34.523901+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "treasury_yields",
+      "trend_count": 1,
+      "traffic_score_sum": 1000,
+      "max_approx_traffic": 1000,
+      "trend_queries": [
+        "국채"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 1200,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,11 +30,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 7200,
+      "demand_signal_score": 6300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 60,
+      "source_snapshot_score": 51,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +42,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Pokémon cards are becoming multibillion dollar market. Crypto wants to fix how they trade",
-        "MoneyGram expands on Solana with global crypto-to-cash service",
-        "Coinbase picks Abu Dhabi for its global tokenized asset push"
+        "Bitcoin stuck as ETF inflows offset selling, but inflation data could spark a move",
+        "EToro reports second quarter crypto loss even as total profit beats estimates",
+        "If crypto goes back to the congressional drawing board, 3 Democrat women loom large"
       ]
     },
     {
@@ -38,22 +54,44 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4000,
+      "demand_signal_score": 3200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 28,
-      "source_count": 4,
+      "source_snapshot_score": 20,
+      "source_count": 1,
       "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+      ]
+    },
+    {
+      "keyword": "china",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2600,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 14,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times World",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "EVs dominate China’s car market: 5 takeaways from the country's latest auto sales data",
+        "Why Jensen Huang’s $500 billion AI financing plan faces a big risk from China",
+        "China's car sales extend slide as shift accelerates to overseas markets - Reuters"
       ]
     },
     {
@@ -63,49 +101,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3000,
+      "demand_signal_score": 2300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 18,
-      "source_count": 6,
+      "source_snapshot_score": 11,
+      "source_count": 4,
       "source_names": [
-        "CoinDesk RSS",
+        "CNBC Top News",
         "Financial Times Home",
-        "Financial Times World",
         "Investing.com Crypto News",
         "NYT Business"
       ],
       "sample_titles": [
-        "Bitcoin stuck below $65,000 as Hormuz hopes evaporate, XRP close to dropping below $1",
+        "U.S. oil rises above $83 a barrel as Iran says Strait of Hormuz won't open until conditions are met",
         "Bitcoin falls below $65k as rising oil prices dents sentiment for risky assets",
         "Volatility tumbles as markets shrug off Middle East risks"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
-      "source_count": 5,
-      "source_names": [
-        "CNBC Top News",
-        "Cointelegraph",
-        "Financial Times YouTube",
-        "NYT Business",
-        "무역킹 Trade King YouTube"
-      ],
-      "sample_titles": [
-        "Anthropic strikes $9B compute deal with Bitcoin miner Riot: Report",
-        "Wall Street just endorsed Jensen Huang's 'big concept' for AI. What now?",
-        "South Korean Semiconductor Emergency!!!!"
       ]
     }
   ],
