@@ -113,7 +113,7 @@
     "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
-    "Why Jensen Huang’s $500 billion AI financing plan faces a big risk from China",
+    "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
     "South Korean Semiconductor Emergency!!!!",
     "Silicon shadows: inside the black market for AI chips | FT Film"
   ],

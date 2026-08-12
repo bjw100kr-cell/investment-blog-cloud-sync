@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T02:25:34.523901+00:00",
+  "generated_at": "2026-08-12T13:27:06.114359+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -57,27 +57,30 @@
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "Poorer Americans are struggling to make ‘ends meet’, top Fed official says"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
+        "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3200,
-      "search_score": 19,
+      "demand_signal_score": 3800,
+      "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
-      "monetization_score": 14,
+      "monetization_score": 15,
       "risk_score": 8,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 2,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 86.0,
+      "total_score": 94.0,
       "format": "macro_explainer"
     },
     {
@@ -98,11 +101,11 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "Bitcoin stuck as ETF inflows offset selling, but inflation data could spark a move",
-        "EToro reports second quarter crypto loss even as total profit beats estimates",
-        "If crypto goes back to the congressional drawing board, 3 Democrat women loom large",
-        "Crypto-friendly bank Erebor in talks to raise $1.5 billion at $9.5 billion valuation: FT",
-        "Pokémon cards are becoming multibillion dollar market. Crypto wants to fix how they trade"
+        "U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000",
+        "Russia moves to restrict retail crypto trading to bitcoin, ether and USDT",
+        "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins",
+        "Bitcoin miners earn under 0.7% of revenue from fees in new 10-year low",
+        "Crypto companies urge AI firms to give Bitcoin developers early access"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -113,18 +116,18 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 6300,
-      "search_score": 29,
+      "demand_signal_score": 4800,
+      "search_score": 26,
       "timeliness_score": 18,
       "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 3,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 3,
+      "search_demand_bonus": 2,
       "crypto_market_signal_bonus": 1,
       "crypto_market_sentiment": "mixed",
       "crypto_market_signal_notes": [],
-      "total_score": 83.0,
+      "total_score": 80.0,
       "format": "crypto_analysis"
     },
     {
@@ -145,7 +148,7 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Why Jensen Huang’s $500 billion AI financing plan faces a big risk from China",
+        "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
         "South Korean Semiconductor Emergency!!!!",
         "Silicon shadows: inside the black market for AI chips | FT Film"
       ],
@@ -181,7 +184,7 @@
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -190,25 +193,23 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "EVs dominate China’s car market: 5 takeaways from the country's latest auto sales data",
-        "Why Jensen Huang’s $500 billion AI financing plan faces a big risk from China",
-        "China's car sales extend slide as shift accelerates to overseas markets - Reuters",
-        "FirstFT: China tightens grip on Europe’s auto supply chain",
-        "G.M.’s ‘Car Guy’ Talks Electrics, China and Nepotism"
+        "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
+        "China’s great jobs squeeze",
+        "HSBC’s global insurance head steps down",
+        "The west has given China the keys to the medicine cabinet"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
-        "Financial Times World",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "Financial Times Home",
+        "Financial Times World"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2600,
-      "search_score": 18,
-      "timeliness_score": 20,
+      "demand_signal_score": 2400,
+      "search_score": 16,
+      "timeliness_score": 18,
       "explanatory_score": 17,
       "monetization_score": 14,
       "risk_score": 7,
@@ -217,19 +218,19 @@
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 76.0,
+      "total_score": 72.0,
       "format": "macro_explainer"
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "cpi",
       "category": "macro",
       "brand_lane": "macro",
       "title_candidates": [
-        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
-        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유",
-        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기"
+        "CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유",
+        "CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 지금 시장이 반응하는 이유",
+        "CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음, 실제 급상승 검색어 반영 (국채)",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음, 실제 급상승 검색어 반영 (cpi 발표)",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -238,33 +239,42 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "국채",
-        "Morning Bid: Long bond bother - Reuters"
+        "cpi 발표",
+        "U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000",
+        "XRP trading could get spicy after CPI report as futures bets hit highest since October",
+        "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins",
+        "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times World",
         "Google Trends KR",
+        "Investing.com Crypto News",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [
-        "국채"
+        "cpi 발표"
       ],
       "trend_regions": [
         "KR"
       ],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 1200,
-      "search_score": 22,
-      "timeliness_score": 10,
-      "explanatory_score": 19,
+      "demand_signal_score": 700,
+      "search_score": 28,
+      "timeliness_score": 21,
+      "explanatory_score": 20,
       "monetization_score": 15,
-      "risk_score": 8,
+      "risk_score": 6,
       "performance_bonus": 0.0,
       "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 74.0,
+      "total_score": 90.0,
       "format": "macro_explainer"
     }
   ]

@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-08-12T02:25:34.523901+00:00`
+- 생성 시각: `2026-08-12T13:27:06.114359+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `86.0`
-- 점수 구성: 검색성 19 / 시의성 25 / 설명가치 20 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press
+- 총점: `94.0`
+- 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 소스: Federal Reserve Monetary Policy Press, Financial Times Home, Reuters Markets via Google News RSS
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,13 +27,14 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+  - Poorer Americans are struggling to make ‘ends meet’, top Fed official says
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `83.0`
-- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
+- 총점: `80.0`
+- 점수 구성: 검색성 26 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 1
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
@@ -47,11 +48,11 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - Bitcoin stuck as ETF inflows offset selling, but inflation data could spark a move
-  - EToro reports second quarter crypto loss even as total profit beats estimates
-  - If crypto goes back to the congressional drawing board, 3 Democrat women loom large
-  - Crypto-friendly bank Erebor in talks to raise $1.5 billion at $9.5 billion valuation: FT
-  - Pokémon cards are becoming multibillion dollar market. Crypto wants to fix how they trade
+  - U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000
+  - Russia moves to restrict retail crypto trading to bitcoin, ether and USDT
+  - Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins
+  - Bitcoin miners earn under 0.7% of revenue from fees in new 10-year low
+  - Crypto companies urge AI firms to give Bitcoin developers early access
 
 ## 3. ai_semiconductors
 
@@ -72,7 +73,7 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Why Jensen Huang’s $500 billion AI financing plan faces a big risk from China
+  - Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs
   - South Korean Semiconductor Emergency!!!!
   - Silicon shadows: inside the black market for AI chips | FT Film
 
@@ -80,10 +81,10 @@
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `76.0`
-- 점수 구성: 검색성 18 / 시의성 20 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- 총점: `72.0`
+- 점수 구성: 검색성 16 / 시의성 18 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Financial Times Home, Financial Times World
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -95,25 +96,24 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - EVs dominate China’s car market: 5 takeaways from the country's latest auto sales data
-  - Why Jensen Huang’s $500 billion AI financing plan faces a big risk from China
-  - China's car sales extend slide as shift accelerates to overseas markets - Reuters
-  - FirstFT: China tightens grip on Europe’s auto supply chain
-  - G.M.’s ‘Car Guy’ Talks Electrics, China and Nepotism
+  - Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs
+  - China’s great jobs squeeze
+  - HSBC’s global insurance head steps down
+  - The west has given China the keys to the medicine cabinet
 
-## 5. treasury_yields
+## 5. cpi
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `74.0`
-- 점수 구성: 검색성 22 / 시의성 10 / 설명가치 19 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음, 실제 급상승 검색어 반영 (국채)
-- 소스: Google Trends KR, Reuters Markets via Google News RSS
-- 트렌드 쿼리: 국채
+- 총점: `90.0`
+- 점수 구성: 검색성 28 / 시의성 21 / 설명가치 20 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음, 실제 급상승 검색어 반영 (cpi 발표)
+- 소스: CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, Google Trends KR, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- 트렌드 쿼리: cpi 발표
 - 제목 후보:
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
+  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
+  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 지금 시장이 반응하는 이유
+  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -121,5 +121,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - 국채
-  - Morning Bid: Long bond bother - Reuters
+  - cpi 발표
+  - U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000
+  - XRP trading could get spicy after CPI report as futures bets hit highest since October
+  - Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins
+  - Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%

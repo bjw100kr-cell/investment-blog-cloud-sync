@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T02:25:34.523901+00:00",
+  "generated_at": "2026-08-12T13:27:06.114359+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 5,
@@ -8,17 +8,17 @@
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "treasury_yields",
+      "keyword": "cpi",
       "trend_count": 1,
-      "traffic_score_sum": 1000,
-      "max_approx_traffic": 1000,
+      "traffic_score_sum": 500,
+      "max_approx_traffic": 500,
       "trend_queries": [
-        "국채"
+        "cpi 발표"
       ],
       "regions": [
         "KR"
       ],
-      "demand_signal_score": 1200,
+      "demand_signal_score": 700,
       "fallback_source": "trend_match",
       "confidence": "high",
       "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
@@ -30,11 +30,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6300,
+      "demand_signal_score": 4800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 51,
+      "source_snapshot_score": 36,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -42,9 +42,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Bitcoin stuck as ETF inflows offset selling, but inflation data could spark a move",
-        "EToro reports second quarter crypto loss even as total profit beats estimates",
-        "If crypto goes back to the congressional drawing board, 3 Democrat women loom large"
+        "U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000",
+        "Russia moves to restrict retail crypto trading to bitcoin, ether and USDT",
+        "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins"
       ]
     },
     {
@@ -54,44 +54,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 3800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 1,
+      "source_snapshot_score": 26,
+      "source_count": 3,
       "source_names": [
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ]
-    },
-    {
-      "keyword": "china",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2600,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
-      "source_count": 4,
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times World",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "EVs dominate China’s car market: 5 takeaways from the country's latest auto sales data",
-        "Why Jensen Huang’s $500 billion AI financing plan faces a big risk from China",
-        "China's car sales extend slide as shift accelerates to overseas markets - Reuters"
       ]
     },
     {
@@ -101,22 +78,47 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2300,
+      "demand_signal_score": 2700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 11,
-      "source_count": 4,
+      "source_snapshot_score": 15,
+      "source_count": 5,
+      "source_names": [
+        "CoinDesk RSS",
+        "Financial Times World",
+        "Investing.com Crypto News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins",
+        "Bitcoin falls below $65k as rising oil prices dents sentiment for risky assets",
+        "Global stocks inch up, oil steady before US CPI - Reuters"
+      ]
+    },
+    {
+      "keyword": "china",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2400,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 12,
+      "source_count": 3,
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
-        "Investing.com Crypto News",
-        "NYT Business"
+        "Financial Times World"
       ],
       "sample_titles": [
-        "U.S. oil rises above $83 a barrel as Iran says Strait of Hormuz won't open until conditions are met",
-        "Bitcoin falls below $65k as rising oil prices dents sentiment for risky assets",
-        "Volatility tumbles as markets shrug off Middle East risks"
+        "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
+        "China’s great jobs squeeze",
+        "HSBC’s global insurance head steps down"
       ]
     }
   ],
