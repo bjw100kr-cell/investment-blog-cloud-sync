@@ -18,7 +18,7 @@
 - current_title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - recommended_title: FOMC 이후 시장 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `4100`
+- demand_signal_score: `4600`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 
 ### Variants
@@ -40,7 +40,7 @@
 - current_title: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - recommended_title: 비트코인 가격보다 먼저 볼 것: ETF 자금과 달러 흐름
 - recommended_angle: `fund-flow`
-- demand_signal_score: `5500`
+- demand_signal_score: `5300`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
 
 ### Variants
@@ -62,7 +62,7 @@
 - current_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - recommended_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - recommended_angle: `stock-market`
-- demand_signal_score: `2000`
+- demand_signal_score: `0`
 - public_url: `missing`
 
 ### Variants
@@ -100,24 +100,24 @@
 - `china-v4` score `50` angle `explainer`: 중국 변수와 시장 영향이 시장에 번지는 경로: 주식, 코인, 원자재 체크
   - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
 
-## 5. oil
+## 5. treasury_yields
 
 - lane: `macro`
-- current_title: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
-- recommended_title: 유가 상승이 물가와 증시에 번지는 경로 체크포인트 3가지: 금리, 달러, 위험자산
+- current_title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+- recommended_title: 미국채 금리 상승이 나스닥과 코인에 부담이 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `700`
+- demand_signal_score: `3200`
 - public_url: `missing`
 
 ### Variants
 
-- `oil-v4` score `85` angle `macro-link`: 유가 상승이 물가와 증시에 번지는 경로 체크포인트 3가지: 금리, 달러, 위험자산
+- `treasury_yields-v5` score `90` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 체크포인트 3가지: 금리, 달러, 위험자산
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `oil-v2` score `73` angle `checklist`: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
-  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `oil-v3` score `65` angle `explainer`: 유가 상승이 물가와 증시에 번지는 경로, 지금 주식과 코인이 같이 흔들리는 이유
+- `treasury_yields-v1` score `82` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `oil-v5` score `65` angle `explainer`: 유가 상승이 물가와 증시에 번지는 경로을 투자자가 봐야 하는 이유: 오늘 확인할 숫자들
+- `treasury_yields-v3` score `82` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `oil-v1` score `58` angle `checklist`: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
-  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
+- `treasury_yields-v2` score `82` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
+  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
+- `treasury_yields-v4` score `82` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이, 지금 주식과 코인이 같이 흔들리는 이유
+  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.

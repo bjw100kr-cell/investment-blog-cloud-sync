@@ -85,41 +85,44 @@
 
 ```json
 {
-  "keyword": "bitcoin",
-  "recommended_title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+  "keyword": "seo_china_13",
+  "source_keyword": "china",
+  "recommended_title": "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나",
   "alternate_titles": [
-    "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
-    "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
+    "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나: 초보 투자자 기준으로 다시 보기",
+    "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+  "summary_angle": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유에서 이어지는 후속 글로, 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
   "outline": [
-    "오늘 코인 시장 핵심 변화",
-    "가격이 아니라 구조상 중요한 포인트",
-    "ETF/유동성/규제/온체인과의 연결",
-    "강세 시나리오와 리스크",
-    "내일 확인할 체크포인트"
+    "이전 메인 글에서 이어지는 핵심 질문",
+    "이번에 추가로 확인된 내용",
+    "개인 투자자가 체크할 숫자와 일정",
+    "강세/약세 시나리오 나눠 보기",
+    "다음 후속 글 연결"
   ],
-  "reference_takeaways": [],
+  "reference_takeaways": [
+    "메인 연결 글: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+    "검색 의도: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
+    "수익화 목표: 체류시간과 페이지뷰 확대",
+    "검색어 후보: 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나",
+    "수요 신뢰도: existing_publish_queue - 기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
+  ],
   "fact_checks": [
-    "BTC 가격 기준 시각 재확인",
-    "ETF 자금 유입 여부 공식/신뢰 소스 재확인",
-    "단정적 가격 전망 문장 제거"
+    "대표 기업명과 티커 재확인",
+    "실적/가이던스/공급망 숫자 출처 점검",
+    "섹터 전체 일반화 표현 과장 여부 점검"
   ],
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
-  "cta": "비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.",
+  "cta": "대표 종목, 실적 일정, 공급망 글까지 이어서 보면 섹터 흐름이 더 잘 보입니다.",
   "source_names": [
-    "CoinDesk RSS",
-    "Cointelegraph",
-    "Investing.com Crypto News"
+    "Financial Times World",
+    "NYT Business",
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Strategy, Metaplanet unrealized bitcoin losses highlight risk of concentrating on just one token",
-    "Bitcoin holds steady near $64,000 as monero, hyperliquid outperform",
-    "Brazil’s largest bitcoin treasury firm plans ETF with 95% allocation to Strategy's STRC",
-    "Live updates: Bitcoin continues flat near $63,500 as U.S. PPI softer than forecast in July",
-    "Bitcoin treasury company Metaplanet unveils BitBonds with $1.3 million private debt sale"
+    "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나"
   ],
-  "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
+  "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
     "도입부 첫 3문장 안에 독자 관점 문장 1개를 넣는다.",
     "본문 어딘가에 '왜 이게 중요한지'를 말로 풀어주는 문장을 넣는다.",
@@ -170,112 +173,43 @@
     "minimum_interpretation_hits": 2
   },
   "must_include_style_points": [
-    "가격 자체보다 수급 또는 규제 구조 설명",
-    "강세 시나리오와 리스크를 둘 다 언급",
-    "단정적 전망 금지"
+    "대표 기업 사례 1개 이상",
+    "섹터 흐름과 거시 변수 연결",
+    "독자가 다음에 체크할 일정 또는 변수"
   ],
   "voice_examples": {
-    "intro_example": "비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.",
-    "analysis_example": "한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다.",
-    "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
+    "intro_example": "반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.",
+    "analysis_example": "이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.",
+    "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 82.0,
-    "search_score": 28,
-    "timeliness_score": 18,
-    "explanatory_score": 17,
-    "monetization_score": 15,
-    "risk_score": 3
+    "total_score": 87.5,
+    "search_score": 87.5,
+    "timeliness_score": 0,
+    "explanatory_score": 0,
+    "monetization_score": 0,
+    "risk_score": 0
   },
-  "reference_editorial_pattern_name": "news_what_it_means",
-  "reference_editorial_pattern": {
-    "when_to_use": [
-      "당일 발표 직후",
-      "시장 급변",
-      "정책 발언",
-      "코인 규제 헤드라인"
-    ],
-    "must_have": [
-      "무슨 일이 있었는지 1문단 요약",
-      "왜 시장이 반응하는지 해석",
-      "주식, 달러, 금리, 코인 중 최소 2개와 연결",
-      "지금 단정할 수 없는 변수도 함께 표기"
+  "internal_link_plan": {
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html",
+    "secondary": [
+      "site-foundation/hub-global-sector.md",
+      "site-foundation/about.md",
+      "site-foundation/disclosure.md"
     ]
   },
-  "reference_editorial_sources": [
-    {
-      "name": "Investopedia",
-      "source_type": "official_site_plus_similarweb",
-      "focus": "검색 유입형 투자 설명글과 용어 해설",
-      "evidence": [
-        "Investopedia mission page",
-        "Similarweb May 2026: Organic Search 59.88 percent, Investing category rank #23"
-      ],
-      "transferable_strengths": [
-        "검색 의도를 바로 만족하는 제목",
-        "용어 정의 후 바로 실전 해석으로 연결",
-        "초보 독자도 이해할 수 있는 설명형 문단 구조"
-      ]
-    },
-    {
-      "name": "CoinDesk",
-      "source_type": "official_site_plus_similarweb",
-      "focus": "코인 뉴스와 거시/정책 해설의 결합",
-      "evidence": [
-        "CoinDesk homepage promise: crypto news, analysis, video and price data",
-        "Similarweb May 2026: Direct 54.33 percent, US audience 45.09 percent"
-      ],
-      "transferable_strengths": [
-        "속보를 바로 해설형 글로 연결",
-        "가격 자체보다 정책, 자금 흐름, 시장 구조를 같이 설명",
-        "브랜드 신뢰를 만드는 차분한 톤"
-      ]
-    },
-    {
-      "name": "Cointelegraph",
-      "source_type": "similarweb_comparison",
-      "focus": "체류시간이 긴 코인 스토리텔링형 기사",
-      "evidence": [
-        "Similarweb comparison May 2026: Avg Visit Duration 00:03:28, Pages per Visit 2.71"
-      ],
-      "transferable_strengths": [
-        "한 기사 안에서 후속 질문까지 같이 풀어주는 구조",
-        "본문 흐름이 길어도 끊기지 않도록 섹션을 촘촘히 나누는 방식",
-        "독자가 다음 섹션을 계속 읽게 만드는 서브헤드 구성"
-      ]
-    },
-    {
-      "name": "MarketWatch",
-      "source_type": "official_site",
-      "focus": "시장 속보를 개인 투자자 관점으로 빠르게 번역",
-      "evidence": [
-        "MarketWatch homepage current market-news framing"
-      ],
-      "transferable_strengths": [
-        "헤드라인에서 바로 왜 중요한지 드러냄",
-        "당일 시장 변화와 개인 자산에 미치는 영향을 짧게 연결",
-        "숫자보다 의미를 먼저 이해시키는 짧은 문단"
-      ]
-    },
-    {
-      "name": "CoinNess",
-      "source_type": "official_site",
-      "focus": "빠른 속보성과 모바일 친화형 코인 정보 소비",
-      "evidence": [
-        "CoinNess official site: fast and accurate crypto investment news platform"
-      ],
-      "transferable_strengths": [
-        "짧은 핵심 요약을 먼저 제시",
-        "속보형 키워드와 투자자 반응 포인트를 빠르게 연결",
-        "반복 방문을 만드는 체크포인트 중심 구성"
-      ]
-    }
+  "labels": [
+    "투자",
+    "경제",
+    "시장해설",
+    "중국",
+    "세계흐름",
+    "거시경제"
   ],
-  "style_translation_rules": [
-    "특정 사이트의 표현이나 문장 구조를 복사하지 않는다.",
-    "전달력과 구조만 참고하고, 한국어 개인 투자자 독자에게 맞게 다시 쓴다.",
-    "검색형 설명글과 재방문형 해설글을 함께 설계한다.",
-    "뉴스 요약만 하지 말고 항상 '그래서 내 돈 관점에서 왜 중요한가'를 답한다."
-  ]
+  "search_intent": "테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자",
+  "monetization_goal": "체류시간과 페이지뷰 확대",
+  "reader_search_queries": [],
+  "demand_confidence": "existing_publish_queue",
+  "demand_confidence_note": "기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
 }
 ```
