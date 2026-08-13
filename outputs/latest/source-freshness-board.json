@@ -1,28 +1,115 @@
 {
-  "generated_at": "2026-08-12T13:27:12.098832+00:00",
-  "snapshot_generated_at": "2026-08-12T13:27:06.114359+00:00",
+  "generated_at": "2026-08-13T02:26:42.804719+00:00",
+  "snapshot_generated_at": "2026-08-13T02:26:38.577822+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 3,
+    "fresh": 2,
     "aging": 0,
-    "stale": 0,
+    "stale": 1,
     "unknown": 0
   },
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-08-13",
+      "freshness_status": "stale",
+      "newest_evidence_iso": "2026-07-29T18:00:00+00:00",
+      "oldest_evidence_iso": "2026-06-17T18:00:00+00:00",
+      "newest_evidence_age_days": 14.4,
+      "source_count": 4,
+      "demand_signal_score": 4100,
+      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "recovery_mode": "full_refresh_needed",
+      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-08-14",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-08-12T21:38:43+00:00",
+      "oldest_evidence_iso": "2026-08-10T21:04:18+00:00",
+      "newest_evidence_age_days": 0.2,
+      "source_count": 3,
+      "demand_signal_score": 5500,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 12 Aug 2026 17:21:03 +0000",
+          "published_iso": "2026-08-12T17:21:03+00:00",
+          "link": "https://www.coindesk.com/business/2026/08/12/goldman-sachs-leaps-into-bitcoin-income-etfs-with-usd2-25-billion-neos-buyout",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin unable to shake off the doldrums even as Fed rate hike bets pared",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-08-12 21:38:43",
+          "published_iso": "2026-08-12 21:38:43",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-flat-at-63k-as-iran-hopes-dither-cpi-awaited-4853755",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin hovers at $62,500 support in downtrend: Live levels",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-08-12 19:20:19",
+          "published_iso": "2026-08-12 19:20:19",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-635k655k-squeeze-hourly-levels-93CH-4847929",
+          "source_type": "rss"
+        }
+      ]
+    },
     {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-08-14",
+      "publish_date": "2026-08-15",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-12T12:00:01+00:00",
-      "oldest_evidence_iso": "2026-08-12T12:00:01+00:00",
-      "newest_evidence_age_days": 0.1,
+      "newest_evidence_iso": "2026-08-12T21:11:50+00:00",
+      "oldest_evidence_iso": "2026-08-12T21:11:50+00:00",
+      "newest_evidence_age_days": 0.2,
       "source_count": 3,
-      "demand_signal_score": 0,
+      "demand_signal_score": 2000,
       "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
@@ -37,97 +124,11 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
-          "source_name": "CNBC Top News",
-          "published": "Wed, 12 Aug 2026 12:00:01 GMT",
-          "published_iso": "2026-08-12T12:00:01+00:00",
-          "link": "https://www.cnbc.com/2026/08/12/meta-nvidia-open-weight-ai-race-china.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "South Korean Semiconductor Emergency!!!!",
-          "source_name": "무역킹 Trade King YouTube",
-          "published": "18K views",
-          "published_iso": "18K views",
-          "link": "https://www.youtube.com/watch?v=aPH5t72P8GM",
-          "source_type": "youtube_channel"
-        }
-      ]
-    },
-    {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-08-13",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-12T12:44:39+00:00",
-      "oldest_evidence_iso": "2026-08-12T09:03:01+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 3,
-      "demand_signal_score": 4800,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 12 Aug 2026 12:44:39 +0000",
-          "published_iso": "2026-08-12T12:44:39+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/12/u-s-cpi-inflation-edges-lower-to-3-4-as-expected",
-          "source_type": "rss"
-        },
-        {
-          "title": "Russia moves to restrict retail crypto trading to bitcoin, ether and USDT",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 12 Aug 2026 11:19:32 +0000",
-          "published_iso": "2026-08-12T11:19:32+00:00",
-          "link": "https://www.coindesk.com/policy/2026/08/12/russia-moves-to-restrict-retail-crypto-trading-to-bitcoin-ether-and-usdt",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 12 Aug 2026 10:30:10 +0000",
-          "published_iso": "2026-08-12T10:30:10+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/12/bitcoin-holds-near-usd64-000-as-u-s-inflation-data-looms-harmony-exploit-rattles-altcoins",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-08-15",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-12T13:00:03+00:00",
-      "oldest_evidence_iso": "2026-08-12T04:00:19+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 3,
-      "demand_signal_score": 2400,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: The west has given China the keys to the medicine cabinet",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "The west has given China the keys to the medicine cabinet",
-          "source_name": "Financial Times World",
-          "published": "Wed, 12 Aug 2026 13:00:03 GMT",
-          "published_iso": "2026-08-12T13:00:03+00:00",
-          "link": "https://www.ft.com/content/5924d083-b5a4-4f95-8c2d-400f2b914159",
-          "source_type": "rss"
-        },
-        {
-          "title": "China’s great jobs squeeze",
+          "title": "Wall Street giants bet Nvidia’s AI chips will defy the laws of finance",
           "source_name": "Financial Times Home",
-          "published": "Wed, 12 Aug 2026 04:00:19 GMT",
-          "published_iso": "2026-08-12T04:00:19+00:00",
-          "link": "https://www.ft.com/content/a3803e70-cb4d-444f-a31e-05be2f2c44f6?syn-25a6b1a6=1",
+          "published": "Wed, 12 Aug 2026 21:11:50 GMT",
+          "published_iso": "2026-08-12T21:11:50+00:00",
+          "link": "https://www.ft.com/content/3b522281-0119-47c9-a95a-f2c8d04e6212?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ]

@@ -2,75 +2,76 @@
 
 사용자가 초안을 최종 확인하기 전에, 왜 이 글이 오늘 올라올 가치가 있는지 근거를 빠르게 보는 시트입니다.
 - 원칙: 초안 내용과 함께 근거 소스, 검색 수요, 시의성을 같이 보고 최종 확인합니다.
-- generated_at: `2026-08-12T13:27:06.114359+00:00`
+- generated_at: `2026-08-13T02:26:38.577822+00:00`
 - item_count: `3`
 
-## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+- keyword: `fomc`
+- publish_date: `2026-08-13`
+- priority_score: `137.0`
+- ready_now: `True` / quality_status `pass`
+- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- format: `macro_explainer`
+- demand_signal_score: `4100`
+- fallback_source: `source_snapshot_rank`
+- source_count: `4`
+- score_breakdown: search `26` / timeliness `25` / monetization `15`
+- source_names: Federal Reserve Monetary Policy Press, Financial Times Home, Investing.com Crypto News, Reuters Markets via Google News RSS
+- sample_headlines:
+  - Federal Reserve issues FOMC statement
+  - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
+  - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+  - Bitcoin unable to shake off the doldrums even as Fed rate hike bets pared
+- recent_evidence:
+  - Federal Reserve Monetary Policy Press | 2026-07-29T18:00:00+00:00 | Federal Reserve issues FOMC statement | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm
+  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve issues FOMC statement | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm
+  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm
+  - Federal Reserve Monetary Policy Press | 2026-07-09T19:00:00+00:00 | Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm
+  - Federal Reserve Monetary Policy Press | 2026-07-08T18:00:00+00:00 | Minutes of the Federal Open Market Committee, June 16-17, 2026 | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm
+
+## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
-- publish_date: `2026-08-13`
-- priority_score: `119.0`
+- publish_date: `2026-08-14`
+- priority_score: `122.0`
 - ready_now: `True` / quality_status `pass`
 - reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - format: `crypto_analysis`
-- demand_signal_score: `4800`
+- demand_signal_score: `5500`
 - fallback_source: `source_snapshot_rank`
 - source_count: `3`
-- score_breakdown: search `26` / timeliness `18` / monetization `15`
+- score_breakdown: search `29` / timeliness `18` / monetization `15`
 - source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - sample_headlines:
-  - U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000
-  - Russia moves to restrict retail crypto trading to bitcoin, ether and USDT
-  - Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins
-  - Bitcoin miners earn under 0.7% of revenue from fees in new 10-year low
-  - Crypto companies urge AI firms to give Bitcoin developers early access
+  - Morgan Stanley's infrastructure partner Zerohash rebuffed in pitch to be U.S. trust bank
+  - Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout
+  - Wintermute plans $1 billion AI push beyond crypto: Bloomberg
+  - Crypto Long & Short: When capital can't move fast enough, markets pay the price
+  - Arizona crypto ATM law helps 35 scam victims recover $171K
 - recent_evidence:
-  - CoinDesk RSS | 2026-08-12T12:44:39+00:00 | U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000 | https://www.coindesk.com/markets/2026/08/12/u-s-cpi-inflation-edges-lower-to-3-4-as-expected
-  - CoinDesk RSS | 2026-08-12T11:19:32+00:00 | Russia moves to restrict retail crypto trading to bitcoin, ether and USDT | https://www.coindesk.com/policy/2026/08/12/russia-moves-to-restrict-retail-crypto-trading-to-bitcoin-ether-and-usdt
-  - CoinDesk RSS | 2026-08-12T10:30:10+00:00 | Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins | https://www.coindesk.com/markets/2026/08/12/bitcoin-holds-near-usd64-000-as-u-s-inflation-data-looms-harmony-exploit-rattles-altcoins
-  - Cointelegraph | 2026-08-12T10:06:05+00:00 | Bitcoin miners earn under 0.7% of revenue from fees in new 10-year low | https://cointelegraph.com/markets/bitcoin-miners-earn-under-07-of-revenue-from-fees-in-new-10-year-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  - Cointelegraph | 2026-08-12T09:03:01+00:00 | Crypto companies urge AI firms to give Bitcoin developers early access | https://cointelegraph.com/news/crypto-companies-ai-firms-bitcoin-developers-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-
-## 2. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-
-- keyword: `china`
-- publish_date: `2026-08-15`
-- priority_score: `106.0`
-- ready_now: `True` / quality_status `pass`
-- reason: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- format: `macro_explainer`
-- demand_signal_score: `2400`
-- fallback_source: `source_snapshot_rank`
-- source_count: `3`
-- score_breakdown: search `16` / timeliness `18` / monetization `14`
-- source_names: CNBC Top News, Financial Times Home, Financial Times World
-- sample_headlines:
-  - Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs
-  - China’s great jobs squeeze
-  - HSBC’s global insurance head steps down
-  - The west has given China the keys to the medicine cabinet
-- recent_evidence:
-  - Financial Times World | 2026-08-12T13:00:03+00:00 | The west has given China the keys to the medicine cabinet | https://www.ft.com/content/5924d083-b5a4-4f95-8c2d-400f2b914159
-  - Financial Times Home | 2026-08-12T04:00:19+00:00 | China’s great jobs squeeze | https://www.ft.com/content/a3803e70-cb4d-444f-a31e-05be2f2c44f6?syn-25a6b1a6=1
+  - CoinDesk RSS | 2026-08-12T17:21:03+00:00 | Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout | https://www.coindesk.com/business/2026/08/12/goldman-sachs-leaps-into-bitcoin-income-etfs-with-usd2-25-billion-neos-buyout
+  - Investing.com Crypto News | 2026-08-12 21:38:43 | Bitcoin unable to shake off the doldrums even as Fed rate hike bets pared | https://www.investing.com/news/cryptocurrency-news/bitcoin-flat-at-63k-as-iran-hopes-dither-cpi-awaited-4853755
+  - Investing.com Crypto News | 2026-08-12 19:20:19 | Bitcoin hovers at $62,500 support in downtrend: Live levels | https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-635k655k-squeeze-hourly-levels-93CH-4847929
+  - Investing.com Crypto News | 2026-08-11 21:29:55 | Bitcoin slips below $64k amid uncertainty over Hormuz deal, Strategy sale | https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-below-64k-as-hormuz-hopes-fade-strategy-sells-more-coins-4850798
+  - Investing.com Crypto News | 2026-08-10 21:04:18 | Bitcoin falls below $65k as rising oil prices dents sentiment for risky assets | https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-65k-with-us-inflation-iran-risks-in-focus-4847903
 
 ## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - keyword: `ai_semiconductors`
-- publish_date: `2026-08-14`
-- priority_score: `89.0`
+- publish_date: `2026-08-15`
+- priority_score: `100.0`
 - ready_now: `True` / quality_status `pass`
 - reason: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - format: `sector_analysis`
-- demand_signal_score: `0`
-- fallback_source: `mapped_candidate`
+- demand_signal_score: `2000`
+- fallback_source: `source_snapshot_rank`
 - source_count: `3`
-- score_breakdown: search `12` / timeliness `9` / monetization `15`
-- source_names: CNBC Top News, Financial Times YouTube, 무역킹 Trade King YouTube
+- score_breakdown: search `13` / timeliness `12` / monetization `15`
+- source_names: Financial Times Home, Financial Times World, Financial Times YouTube
 - sample_headlines:
-  - Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs
-  - South Korean Semiconductor Emergency!!!!
+  - Wall Street giants bet Nvidia’s AI chips will defy the laws of finance
   - Silicon shadows: inside the black market for AI chips | FT Film
 - recent_evidence:
   - Financial Times YouTube | 52K views | Silicon shadows: inside the black market for AI chips | FT Film | https://www.youtube.com/watch?v=kFcWmQevQo8
-  - CNBC Top News | 2026-08-12T12:00:01+00:00 | Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs | https://www.cnbc.com/2026/08/12/meta-nvidia-open-weight-ai-race-china.html
-  - 무역킹 Trade King YouTube | 18K views | South Korean Semiconductor Emergency!!!! | https://www.youtube.com/watch?v=aPH5t72P8GM
+  - Financial Times Home | 2026-08-12T21:11:50+00:00 | Wall Street giants bet Nvidia’s AI chips will defy the laws of finance | https://www.ft.com/content/3b522281-0119-47c9-a95a-f2c8d04e6212?syn-25a6b1a6=1

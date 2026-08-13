@@ -91,7 +91,7 @@
     "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
     "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+  "summary_angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
   "outline": [
     "왜 지금 이 이슈가 중요한가",
     "실제로 발표되거나 벌어진 일",
@@ -110,6 +110,7 @@
   "source_names": [
     "Federal Reserve Monetary Policy Press",
     "Financial Times Home",
+    "Investing.com Crypto News",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
@@ -117,7 +118,7 @@
     "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
     "Federal Reserve issues FOMC statement",
     "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-    "Poorer Americans are struggling to make ‘ends meet’, top Fed official says"
+    "Bitcoin unable to shake off the doldrums even as Fed rate hike bets pared"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [

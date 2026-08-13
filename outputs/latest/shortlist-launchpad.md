@@ -4,57 +4,56 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - 원칙: 먼저 글을 읽고, 그 다음 confirm command 또는 helper apply command를 실행합니다.
 - item_count: `3`
 
-## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword `bitcoin` / publish `2026-08-13` / verdict `approve` / quality `pass`
+- keyword `fomc` / publish `2026-08-13` / verdict `approve` / quality `pass`
+- ready_now: `True` / hero_image_selected: `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- sample_headlines:
+  - Federal Reserve issues FOMC statement
+  - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
+  - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+- recent_evidence:
+  - Federal Reserve Monetary Policy Press | 2026-07-29T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
+
+## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+
+- keyword `bitcoin` / publish `2026-08-14` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - sample_headlines:
-  - U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000
-  - Russia moves to restrict retail crypto trading to bitcoin, ether and USDT
-  - Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins
+  - Morgan Stanley's infrastructure partner Zerohash rebuffed in pitch to be U.S. trust bank
+  - Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout
+  - Wintermute plans $1 billion AI push beyond crypto: Bloomberg
 - recent_evidence:
-  - CoinDesk RSS | 2026-08-12T12:44:39+00:00 | U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000
-  - CoinDesk RSS | 2026-08-12T11:19:32+00:00 | Russia moves to restrict retail crypto trading to bitcoin, ether and USDT
-  - CoinDesk RSS | 2026-08-12T10:30:10+00:00 | Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins
+  - CoinDesk RSS | 2026-08-12T17:21:03+00:00 | Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout
+  - Investing.com Crypto News | 2026-08-12 21:38:43 | Bitcoin unable to shake off the doldrums even as Fed rate hike bets pared
+  - Investing.com Crypto News | 2026-08-12 19:20:19 | Bitcoin hovers at $62,500 support in downtrend: Live levels
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 2. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-
-- keyword `china` / publish `2026-08-15` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- sample_headlines:
-  - Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs
-  - China’s great jobs squeeze
-  - HSBC’s global insurance head steps down
-- recent_evidence:
-  - Financial Times World | 2026-08-12T13:00:03+00:00 | The west has given China the keys to the medicine cabinet
-  - Financial Times Home | 2026-08-12T04:00:19+00:00 | China’s great jobs squeeze
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply`
-
 ## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword `ai_semiconductors` / publish `2026-08-14` / verdict `approve` / quality `pass`
+- keyword `ai_semiconductors` / publish `2026-08-15` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - sample_headlines:
-  - Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs
-  - South Korean Semiconductor Emergency!!!!
+  - Wall Street giants bet Nvidia’s AI chips will defy the laws of finance
   - Silicon shadows: inside the black market for AI chips | FT Film
 - recent_evidence:
   - Financial Times YouTube | 52K views | Silicon shadows: inside the black market for AI chips | FT Film
-  - CNBC Top News | 2026-08-12T12:00:01+00:00 | Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs
-  - 무역킹 Trade King YouTube | 18K views | South Korean Semiconductor Emergency!!!!
+  - Financial Times Home | 2026-08-12T21:11:50+00:00 | Wall Street giants bet Nvidia’s AI chips will defy the laws of finance
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`

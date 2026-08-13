@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T13:27:06.114359+00:00",
+  "generated_at": "2026-08-13T02:26:38.577822+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 5,
@@ -8,15 +8,15 @@
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "cpi",
+      "keyword": "oil",
       "trend_count": 1,
       "traffic_score_sum": 500,
       "max_approx_traffic": 500,
       "trend_queries": [
-        "cpi 발표"
+        "brent headrick"
       ],
       "regions": [
-        "KR"
+        "US"
       ],
       "demand_signal_score": 700,
       "fallback_source": "trend_match",
@@ -30,11 +30,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4800,
+      "demand_signal_score": 5500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 36,
+      "source_snapshot_score": 43,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -42,9 +42,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000",
-        "Russia moves to restrict retail crypto trading to bitcoin, ether and USDT",
-        "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins"
+        "Morgan Stanley's infrastructure partner Zerohash rebuffed in pitch to be U.S. trust bank",
+        "Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout",
+        "Wintermute plans $1 billion AI push beyond crypto: Bloomberg"
       ]
     },
     {
@@ -54,15 +54,16 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3800,
+      "demand_signal_score": 4100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 26,
-      "source_count": 3,
+      "source_snapshot_score": 29,
+      "source_count": 4,
       "source_names": [
         "Federal Reserve Monetary Policy Press",
         "Financial Times Home",
+        "Investing.com Crypto News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
@@ -72,53 +73,50 @@
       ]
     },
     {
-      "keyword": "oil",
+      "keyword": "cpi",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2700,
+      "demand_signal_score": 3300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 15,
-      "source_count": 5,
+      "source_snapshot_score": 21,
+      "source_count": 3,
       "source_names": [
-        "CoinDesk RSS",
+        "Financial Times Home",
         "Financial Times World",
-        "Investing.com Crypto News",
-        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins",
-        "Bitcoin falls below $65k as rising oil prices dents sentiment for risky assets",
-        "Global stocks inch up, oil steady before US CPI - Reuters"
+        "Poorer Americans are struggling to make ‘ends meet’, top Fed official says",
+        "US inflation falls to 3.4% in July",
+        "Asian stocks rise as US inflation data dents September Fed hike bets - Reuters"
       ]
     },
     {
-      "keyword": "china",
+      "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2400,
+      "demand_signal_score": 2000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
+      "source_snapshot_score": 8,
       "source_count": 3,
       "source_names": [
-        "CNBC Top News",
         "Financial Times Home",
-        "Financial Times World"
+        "Financial Times World",
+        "Financial Times YouTube"
       ],
       "sample_titles": [
-        "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
-        "China’s great jobs squeeze",
-        "HSBC’s global insurance head steps down"
+        "Wall Street giants bet Nvidia’s AI chips will defy the laws of finance",
+        "Silicon shadows: inside the black market for AI chips | FT Film"
       ]
     }
   ],

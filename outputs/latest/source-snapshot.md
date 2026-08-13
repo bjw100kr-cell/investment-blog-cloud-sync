@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-12T13:27:06.114359+00:00`
+- 생성 시각: `2026-08-13T02:26:38.577822+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,7 +25,14 @@
 
 ## 유튜브 transcript 포인트
 
-- `무역킹 Trade King YouTube` / 6G 후딱 추진시켜!!
+- `무역킹 Trade King YouTube` / 2. Why the U.S. is more desperate than ever
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=kAlG6A6dKVA! This is most likely caused by:
+
+The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+- `무역킹 Trade King YouTube` / 1. Get 6G moving already!!
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=pnFXYSUQ1eY! This is most likely caused by:
 
@@ -78,62 +85,52 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / It's right in the middle of the Iran conflict, so why is it so quiet? 🌴
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=qkygDVx1Wkk! This is most likely caused by:
-
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `cpi`: score 53, source_count 8, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, Google Trends KR, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: score 36, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 26, source_count 3, sources Federal Reserve Monetary Policy Press, Financial Times Home, Reuters Markets via Google News RSS
-- `oil`: score 15, source_count 5, sources CoinDesk RSS, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- `china`: score 12, source_count 3, sources CNBC Top News, Financial Times Home, Financial Times World
-- `treasury_yields`: score 9, source_count 3, sources CNBC Top News, CoinDesk RSS, MarketWatch Breaking News
-- `ai_semiconductors`: score 8, source_count 3, sources CNBC Top News, Financial Times YouTube, 무역킹 Trade King YouTube
-- `dollar`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
-- `crypto_etf`: score 6, source_count 2, sources Cointelegraph, Financial Times World
-- `ethereum`: score 3, source_count 1, sources Cointelegraph
+- `bitcoin`: score 43, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 29, source_count 4, sources Federal Reserve Monetary Policy Press, Financial Times Home, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `oil`: score 24, source_count 6, sources CNBC Top News, Financial Times World, Google Trends US, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- `cpi`: score 21, source_count 3, sources Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 8, source_count 3, sources Financial Times Home, Financial Times World, Financial Times YouTube
+- `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `us_index_flow`: score 6, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
+- `china`: score 5, source_count 2, sources Financial Times World, MarketWatch Breaking News
+- `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
+- `treasury_yields`: score 2, source_count 1, sources NYT Business
 
 ## 오늘의 글감 후보
 
-- `cpi`: score 53, headlines 15
-  - cpi 발표
-  - U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000
-  - XRP trading could get spicy after CPI report as futures bets hit highest since October
-- `bitcoin`: score 36, headlines 11
-  - U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000
-  - Russia moves to restrict retail crypto trading to bitcoin, ether and USDT
-  - Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins
-- `fomc`: score 26, headlines 6
+- `bitcoin`: score 43, headlines 13
+  - Morgan Stanley's infrastructure partner Zerohash rebuffed in pitch to be U.S. trust bank
+  - Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout
+  - Wintermute plans $1 billion AI push beyond crypto: Bloomberg
+- `fomc`: score 29, headlines 7
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `oil`: score 15, headlines 5
-  - Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins
+- `oil`: score 24, headlines 6
+  - brent headrick
+  - Oil rises on worries over supply disruptions as spill near Oman worsens
   - Bitcoin falls below $65k as rising oil prices dents sentiment for risky assets
-  - Global stocks inch up, oil steady before US CPI - Reuters
-- `china`: score 12, headlines 4
-  - Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs
-  - China’s great jobs squeeze
-  - HSBC’s global insurance head steps down
-- `treasury_yields`: score 9, headlines 3
-  - U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000
-  - Mortgage rates finally stop rising, causing demand to trickle back
-  - The $30 trillion Treasury market is facing a painful reckoning. How rising yields could squeeze your portfolio.
+- `cpi`: score 21, headlines 7
+  - Poorer Americans are struggling to make ‘ends meet’, top Fed official says
+  - US inflation falls to 3.4% in July
+  - Asian stocks rise as US inflation data dents September Fed hike bets - Reuters
 - `ai_semiconductors`: score 8, headlines 3
-  - Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs
-  - South Korean Semiconductor Emergency!!!!
+  - Wall Street giants bet Nvidia’s AI chips will defy the laws of finance
   - Silicon shadows: inside the black market for AI chips | FT Film
-- `dollar`: score 7, headlines 2
-  - Standard Chartered-led Anchorpoint launches Hong Kong dollar stablecoin
-  - Dollar ticks up on Iran tension, with US data in focus - Reuters
-- `crypto_etf`: score 6, headlines 2
-  - Fidelity files with SEC to add staking to Ethereum ETF
-  - Goldman Sachs to acquire ETF provider Neos for up to $2.3bn
-- `ethereum`: score 3, headlines 1
-  - Fidelity files with SEC to add staking to Ethereum ETF
+  - Wall Street giants bet Nvidia’s AI chips will defy the laws of finance
+- `crypto_etf`: score 7, headlines 2
+  - Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout
+  - Goldman Sachs to acquire ETF manager NEOS in $2.25B deal
+- `us_index_flow`: score 6, headlines 2
+  - Kraken adds S&P 500 to funded trading program, commodities to follow
+  - S&P 500 ends higher as CoreWeave results fuel AI optimism - Reuters
+- `china`: score 5, headlines 2
+  - China’s next economic ambition: workshop for the Muslim world
+  - FirstFT: Taiwan hit by unprecedented ‘autonomous’ AI hack linked to China
+- `ai_growth_stocks`: score 2, headlines 1
+  - Palantir: profits, procurement and power | FT Film
+- `treasury_yields`: score 2, headlines 1
+  - Treasury Scales Back Scrutiny of U.S. Shell Companies
