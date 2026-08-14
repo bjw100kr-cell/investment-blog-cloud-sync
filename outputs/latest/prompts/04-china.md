@@ -109,11 +109,11 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "NYT Business"
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
     "Uber partners with China's Pony.ai for 2,000 robotaxis in Europe",
-    "In a Chinese Leader’s Death, Mourning for a More Hopeful Time"
+    "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - reuters.com"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
