@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Strategy, Metaplanet unrealized bitcoin losses highlight risk of concentrating on just one token",
-    "Bitcoin holds steady near $64,000 as monero, hyperliquid outperform",
-    "Brazil’s largest bitcoin treasury firm plans ETF with 95% allocation to Strategy's STRC",
-    "Live updates: Bitcoin continues flat near $63,500 as U.S. PPI softer than forecast in July",
-    "Bitcoin treasury company Metaplanet unveils BitBonds with $1.3 million private debt sale"
+    "U.S. SEC to again delay 'innovation exemption' for tokenization amid Wall Street, White House concerns",
+    "SEC cancels long-awaited proposal of Reg Crypto, postponing meeting without new date",
+    "Forecasts for $1 million bitcoin price likely look too ambitious, key ratio suggests",
+    "Crypto for Advisors: The crypto advice gap",
+    "B2C2 taps Schroders veteran to chase Asia’s growing crypto wealth"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
