@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-15T01:37:00.167838+00:00`
+- 생성 시각: `2026-08-15T12:52:17.188724+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,20 +106,20 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 60, source_count 5, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times World, Investing.com Crypto News
+- `bitcoin`: score 50, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `cpi`: score 12, source_count 4, sources CoinDesk RSS, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, Financial Times YouTube
-- `us_index_flow`: score 9, source_count 2, sources Financial Times Home, Reuters Markets via Google News RSS
-- `treasury_yields`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
-- `crypto_etf`: score 6, source_count 1, sources Cointelegraph
-- `dollar`: score 6, source_count 1, sources Reuters Markets via Google News RSS
-- `ethereum`: score 3, source_count 1, sources Cointelegraph
-- `oil`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `treasury_yields`: score 13, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Reuters Markets via Google News RSS
+- `us_big_tech`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, NYT Business
+- `us_index_flow`: score 9, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `china`: score 9, source_count 3, sources CNBC Top News, Financial Times Home, Financial Times World
+- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `ai_semiconductors`: score 5, source_count 2, sources CNBC Top News, Financial Times YouTube
+- `cpi`: score 5, source_count 2, sources NYT Business, Reuters Markets via Google News RSS
+- `crypto_etf`: score 3, source_count 1, sources Cointelegraph
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 60, headlines 18
+- `bitcoin`: score 50, headlines 15
   - Trump expected to attend White House meeting with crypto CEOs, sources say
   - Tokenization stocks slip as SEC delay puts 'speed bump' in crypto’s Wall Street push
   - Strategy says MSCI should measure markets, not dictate corporate assets
@@ -127,28 +127,30 @@ If you are sure that the described cause is not responsible for this error and t
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `cpi`: score 12, headlines 4
-  - Bitcoin slips as U.S. inflation fails to spark gains, ETFs see August's first two-day drawdown
-  - Investors pile back into US stocks as bullishness returns to Wall Street
-  - Gold rises on weaker dollar as inflation data cements rate-hold bets - Reuters
-- `ai_semiconductors`: score 11, headlines 4
-  - Nvidia discloses $21 billion stake in SpaceX at end of second quarter
-  - Investors pile back into US stocks as bullishness returns to Wall Street
-  - Silicon shadows: inside the black market for AI chips | FT Film
+- `treasury_yields`: score 13, headlines 4
+  - Strategy says MSCI should measure markets, not dictate corporate assets
+  - Galaxy lowers CLARITY Act odds to 10%
+  - Between earn-nothing cash, broken long-term bonds, these are the safety trades of 2026 market
+- `us_big_tech`: score 11, headlines 4
+  - I drove Tesla FSD, Rivian Autonomy+ ‘hands-free’ driving systems. Here’s how they compare
+  - China poised to lift travel ban on Manus founders
+  - China poised to lift travel ban on Manus founders
+- `china`: score 9, headlines 3
+  - Beijing is said to move to clarify tax rules stoking confusion among China's ultra-wealthy
+  - China poised to lift travel ban on Manus founders
+  - China poised to lift travel ban on Manus founders
 - `us_index_flow`: score 9, headlines 3
-  - Investors pile back into US stocks as bullishness returns to Wall Street
+  - Between earn-nothing cash, broken long-term bonds, these are the safety trades of 2026 market
   - S&P 500 ends lower as investors weigh data, Middle East tensions - Reuters
   - Reddit surges on S&P 500 inclusion, set to replace AvalonBay - Reuters
-- `treasury_yields`: score 7, headlines 2
-  - Strategy says MSCI should measure markets, not dictate corporate assets
-  - AI-driven surge in bond yields could be next risk for markets and growth - Reuters
-- `crypto_etf`: score 6, headlines 2
+- `ethereum`: score 7, headlines 2
+  - Wall Street's private blockchain obsession is a 'race to the bottom,' Ethereum advocate Raman warns
   - Dartmouth endowment’s crypto exposure drops by $2M amid falling prices
-  - Crypto Biz: Bitcoin’s $116M self-custody wake-up call
-- `dollar`: score 6, headlines 2
+- `ai_semiconductors`: score 5, headlines 2
+  - Nvidia discloses $21 billion stake in SpaceX at end of second quarter
+  - Silicon shadows: inside the black market for AI chips | FT Film
+- `cpi`: score 5, headlines 2
   - Gold rises on weaker dollar as inflation data cements rate-hold bets - Reuters
-  - Dollar falls on surprise drop in US retail sales - Reuters
-- `china`: score 3, headlines 1
-  - US accuses more than 40 countries of helping China avoid Trump’s tariffs
-- `ethereum`: score 3, headlines 1
+  - Worker Pay Isn’t Keeping Up With Inflation Once Again
+- `crypto_etf`: score 3, headlines 1
   - Dartmouth endowment’s crypto exposure drops by $2M amid falling prices
