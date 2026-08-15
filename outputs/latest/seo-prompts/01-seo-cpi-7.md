@@ -85,7 +85,7 @@
 
 ```json
 {
-  "keyword": "seo_cpi_8",
+  "keyword": "seo_cpi_7",
   "source_keyword": "cpi",
   "recommended_title": "cpi: 지금 투자자가 확인할 체크포인트 5가지",
   "alternate_titles": [
@@ -116,6 +116,8 @@
   "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
   "source_names": [
     "CoinDesk RSS",
+    "Financial Times Home",
+    "NYT Business",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
@@ -182,8 +184,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 108.27,
-    "search_score": 108.27,
+    "total_score": 110.07,
+    "search_score": 110.07,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,

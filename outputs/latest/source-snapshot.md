@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-14T13:23:28.617277+00:00`
+- 생성 시각: `2026-08-15T01:37:00.167838+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,6 +25,19 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / 2. Why the U.S. is more desperate than ever
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=kAlG6A6dKVA! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / The Demographic Cliff: What's Scarier Than a Market Crash
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=bSChSdUacGU! This is most likely caused by:
@@ -77,13 +90,6 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 2. Why the U.S. is more desperate than ever
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=kAlG6A6dKVA! This is most likely caused by:
-
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / In a Small Company, One Bad Hire Can Be Game Over!
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=RDirhHXqP00! This is most likely caused by:
@@ -100,51 +106,49 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 41, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `treasury_yields`: score 18, source_count 6, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `cpi`: score 14, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
-- `oil`: score 13, source_count 3, sources CoinDesk RSS, Financial Times World, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 10, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times YouTube, MarketWatch Breaking News
-- `us_big_tech`: score 10, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `china`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
-- `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
-- `tariffs_trade`: score 3, source_count 1, sources CNBC Top News
+- `bitcoin`: score 60, source_count 5, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times World, Investing.com Crypto News
+- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `cpi`: score 12, source_count 4, sources CoinDesk RSS, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, Financial Times YouTube
+- `us_index_flow`: score 9, source_count 2, sources Financial Times Home, Reuters Markets via Google News RSS
+- `treasury_yields`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
+- `crypto_etf`: score 6, source_count 1, sources Cointelegraph
+- `dollar`: score 6, source_count 1, sources Reuters Markets via Google News RSS
+- `ethereum`: score 3, source_count 1, sources Cointelegraph
+- `oil`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 41, headlines 12
-  - Fear is fading across markets, be it bitcoin, stocks, gold or bonds
-  - Bitcoin slips as U.S. inflation fails to spark gains, ETFs see August's first two-day drawdown
-  - Live updates: Bitcoin slips below $63,000 as oil, yields climb
-- `fomc`: score 20, headlines 4
+- `bitcoin`: score 60, headlines 18
+  - Trump expected to attend White House meeting with crypto CEOs, sources say
+  - Tokenization stocks slip as SEC delay puts 'speed bump' in crypto’s Wall Street push
+  - Strategy says MSCI should measure markets, not dictate corporate assets
+- `fomc`: score 23, headlines 5
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 18, headlines 6
-  - Live updates: Bitcoin slips below $63,000 as oil, yields climb
-  - Shinhan Asset Management partners with Plume on tokenized fund pilot
-  - 10-year Treasury yield is little changed after weak retail sales data
-- `cpi`: score 14, headlines 4
+- `cpi`: score 12, headlines 4
   - Bitcoin slips as U.S. inflation fails to spark gains, ETFs see August's first two-day drawdown
-  - Live updates: Bitcoin slips below $63,000 as oil, yields climb
-  - Gold steadies from two-month peak as inflation-led rally loses steam - reuters.com
-- `oil`: score 13, headlines 4
-  - Live updates: Bitcoin slips below $63,000 as oil, yields climb
-  - Stocks nudge at record highs; cooler US inflation eclipses oil rally - reuters.com
-  - Indian shares end week lower as higher crude tempers risk appetite - reuters.com
-- `ai_semiconductors`: score 10, headlines 4
-  - Anthropic's investor talks, Workday's stock surge, Apple's new facility and more in Morning Squawk
-  - OpenAI and Anthropic in price war as Chinese AI rivals gain ground
-  - Applied Materials shares are down on guidance and margin concerns. Analysts call it time to buy.
-- `us_big_tech`: score 10, headlines 4
-  - Anthropic's investor talks, Workday's stock surge, Apple's new facility and more in Morning Squawk
-  - EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - reuters.com
-  - Retail sales slump. Cheaper gas and Amazon Prime hangover are the chief culprits.
-- `china`: score 6, headlines 2
-  - Uber partners with China's Pony.ai for 2,000 robotaxis in Europe
-  - EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - reuters.com
-- `crypto_etf`: score 4, headlines 1
-  - Cluster of headwinds weigh on bitcoin. XRP teeters near $1
-- `dollar`: score 3, headlines 1
-  - OpenAI and Anthropic in price war as Chinese AI rivals gain ground
+  - Investors pile back into US stocks as bullishness returns to Wall Street
+  - Gold rises on weaker dollar as inflation data cements rate-hold bets - Reuters
+- `ai_semiconductors`: score 11, headlines 4
+  - Nvidia discloses $21 billion stake in SpaceX at end of second quarter
+  - Investors pile back into US stocks as bullishness returns to Wall Street
+  - Silicon shadows: inside the black market for AI chips | FT Film
+- `us_index_flow`: score 9, headlines 3
+  - Investors pile back into US stocks as bullishness returns to Wall Street
+  - S&P 500 ends lower as investors weigh data, Middle East tensions - Reuters
+  - Reddit surges on S&P 500 inclusion, set to replace AvalonBay - Reuters
+- `treasury_yields`: score 7, headlines 2
+  - Strategy says MSCI should measure markets, not dictate corporate assets
+  - AI-driven surge in bond yields could be next risk for markets and growth - Reuters
+- `crypto_etf`: score 6, headlines 2
+  - Dartmouth endowment’s crypto exposure drops by $2M amid falling prices
+  - Crypto Biz: Bitcoin’s $116M self-custody wake-up call
+- `dollar`: score 6, headlines 2
+  - Gold rises on weaker dollar as inflation data cements rate-hold bets - Reuters
+  - Dollar falls on surprise drop in US retail sales - Reuters
+- `china`: score 3, headlines 1
+  - US accuses more than 40 countries of helping China avoid Trump’s tariffs
+- `ethereum`: score 3, headlines 1
+  - Dartmouth endowment’s crypto exposure drops by $2M amid falling prices

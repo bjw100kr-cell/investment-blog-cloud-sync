@@ -1,37 +1,125 @@
 {
-  "generated_at": "2026-08-14T13:23:28.617277+00:00",
+  "generated_at": "2026-08-15T01:37:00.167838+00:00",
   "item_count": 3,
   "items": [
     {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "publish_date": "2026-08-15",
-      "priority_score": 121.0,
+      "priority_score": 134.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
-      "format": "crypto_analysis",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "format": "macro_explainer",
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
+        "Federal Reserve Monetary Policy Press",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
-        "Fear is fading across markets, be it bitcoin, stocks, gold or bonds",
-        "Bitcoin slips as U.S. inflation fails to spark gains, ETFs see August's first two-day drawdown",
-        "Live updates: Bitcoin slips below $63,000 as oil, yields climb",
-        "Cluster of headwinds weigh on bitcoin. XRP teeters near $1",
-        "Bitcoin holders Strategy and Metaplanet face stock-index exclusion under MSCI’s new proposal"
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "Oil prices rally, US data dents chances of Fed rate hike - Reuters"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 5300,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 3,
-      "search_score": 28,
-      "timeliness_score": 18,
+      "source_count": 2,
+      "search_score": 23,
+      "timeliness_score": 25,
       "monetization_score": 15,
       "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Thu, 9 Jul 2026 19:00:00 GMT",
+          "published_iso": "2026-07-09T19:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 8 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-08T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "publish_date": "2026-08-16",
+      "priority_score": 126.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "format": "crypto_analysis",
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Financial Times World",
+        "Investing.com Crypto News"
+      ],
+      "sample_headlines": [
+        "Trump expected to attend White House meeting with crypto CEOs, sources say",
+        "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto’s Wall Street push",
+        "Strategy says MSCI should measure markets, not dictate corporate assets",
+        "Israel’s largest bank to offer crypto trading with Galaxy",
+        "Fear is fading across markets, be it bitcoin, stocks, gold or bonds"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 7200,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 5,
+      "search_score": 30,
+      "timeliness_score": 21,
+      "monetization_score": 15,
+      "recent_evidence": [
+        {
+          "title": "Israel’s largest bank taps Galaxy to offer Bitcoin, Ether, Solana trading",
+          "source_name": "Cointelegraph",
+          "published": "Fri, 14 Aug 2026 15:41:49 +0000",
+          "published_iso": "2026-08-14T15:41:49+00:00",
+          "link": "https://cointelegraph.com/news/israels-largest-bank-taps-galaxy-to-offer-bitcoin-ether-and-solana-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Crypto Biz: Bitcoin’s $116M self-custody wake-up call",
+          "source_name": "Cointelegraph",
+          "published": "Fri, 14 Aug 2026 15:29:13 +0000",
+          "published_iso": "2026-08-14T15:29:13+00:00",
+          "link": "https://cointelegraph.com/news/crypto-biz-bitcoin-self-custody-etf-inflows-strategy-riot-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
         {
           "title": "Fear is fading across markets, be it bitcoin, stocks, gold or bonds",
           "source_name": "CoinDesk RSS",
@@ -49,27 +137,11 @@
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin eyes new August lows as Binance longs face ‘cleanout’",
-          "source_name": "Cointelegraph",
-          "published": "Fri, 14 Aug 2026 10:43:57 +0000",
-          "published_iso": "2026-08-14T10:43:57+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-liquidation-cleanout-open-interest-falls-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Live updates: Bitcoin slips below $63,000 as oil, yields climb",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 14 Aug 2026 08:51:48 +0000",
-          "published_iso": "2026-08-14T08:51:48+00:00",
-          "link": "https://www.coindesk.com/tech/2026/08/14/live-updates-bitcoin-slips-below-usd63-000-as-oil-yields-climb",
-          "source_type": "rss"
-        },
-        {
-          "title": "Cluster of headwinds weigh on bitcoin. XRP teeters near $1",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 14 Aug 2026 07:14:37 +0000",
-          "published_iso": "2026-08-14T07:14:37+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/14/cluster-of-headwinds-weigh-on-bitcoin-xrp-teeters-near-usd1",
+          "title": "Bitcoin under $63k as regulatory delays offset rate cheer, heads for weekly loss",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-08-14 21:19:44",
+          "published_iso": "2026-08-14 21:19:44",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-to-633k-as-regulatory-delays-offset-rate-cheer-4859819",
           "source_type": "rss"
         }
       ]
@@ -77,8 +149,8 @@
     {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "publish_date": "2026-08-16",
-      "priority_score": 98.0,
+      "publish_date": "2026-08-17",
+      "priority_score": 107.0,
       "ready_now": true,
       "quality_status": "pass",
       "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
@@ -86,21 +158,21 @@
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
-        "Financial Times YouTube",
-        "MarketWatch Breaking News"
+        "Financial Times World",
+        "Financial Times YouTube"
       ],
       "sample_headlines": [
-        "Anthropic's investor talks, Workday's stock surge, Apple's new facility and more in Morning Squawk",
-        "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-        "Applied Materials shares are down on guidance and margin concerns. Analysts call it time to buy.",
-        "Silicon shadows: inside the black market for AI chips | FT Film"
+        "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
+        "Investors pile back into US stocks as bullishness returns to Wall Street",
+        "Silicon shadows: inside the black market for AI chips | FT Film",
+        "Nvidia discloses $21bn stake in SpaceX"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 0,
-      "fallback_source": "mapped_candidate",
+      "demand_signal_score": 2300,
+      "fallback_source": "source_snapshot_rank",
       "source_count": 4,
-      "search_score": 14,
+      "search_score": 15,
       "timeliness_score": 17,
       "monetization_score": 15,
       "recent_evidence": [
@@ -113,63 +185,19 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "Anthropic's investor talks, Workday's stock surge, Apple's new facility and more in Morning Squawk",
-          "source_name": "CNBC Top News",
-          "published": "Fri, 14 Aug 2026 12:17:42 GMT",
-          "published_iso": "2026-08-14T12:17:42+00:00",
-          "link": "https://www.cnbc.com/2026/08/14/5-things-to-know-before-the-market-opens.html",
+          "title": "Nvidia discloses $21bn stake in SpaceX",
+          "source_name": "Financial Times World",
+          "published": "Fri, 14 Aug 2026 22:28:02 GMT",
+          "published_iso": "2026-08-14T22:28:02+00:00",
+          "link": "https://www.ft.com/content/6f66a76d-0b2d-4301-886c-87ecc046731b?syn-25a6b1a6=1",
           "source_type": "rss"
         },
         {
-          "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-          "source_name": "Financial Times Home",
-          "published": "Fri, 14 Aug 2026 04:00:14 GMT",
-          "published_iso": "2026-08-14T04:00:14+00:00",
-          "link": "https://www.ft.com/content/32a70a3c-7d28-40b4-808e-36edb58c7d01?syn-25a6b1a6=1",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "publish_date": "2026-08-17",
-      "priority_score": 80.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
-      "format": "macro_explainer",
-      "source_names": [
-        "CNBC Top News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_headlines": [
-        "Uber partners with China's Pony.ai for 2,000 robotaxis in Europe",
-        "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - reuters.com"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 0,
-      "fallback_source": "mapped_candidate",
-      "source_count": 2,
-      "search_score": 8,
-      "timeliness_score": 10,
-      "monetization_score": 13,
-      "recent_evidence": [
-        {
-          "title": "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - reuters.com",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Fri, 14 Aug 2026 04:21:00 GMT",
-          "published_iso": "2026-08-14T04:21:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVDU1cndzcnNhVERISGg5M3psalAyTEVrR2JKSEExUTVoV0JkSjJZZVRIOW40N1lweld1bXEzYWRrNEZxb2w2YzctanRaNnRnckRJLWRINnlpVnlnbXZvSUxBRFN6QUNvb01UMXhXVmp3MDNDTnN2TGZveTdlam9Gem93RFFaZVFSazRzWUpmZXI0VlV3VU56cjZPUUNXQk9GTzFTdkpzMTdvRnF6RUllb1NMbm02OFFiUEJhQXhab1JjZ0w3QWhPT0VqUVZpc0xEYXBV?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "Uber partners with China's Pony.ai for 2,000 robotaxis in Europe",
+          "title": "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
           "source_name": "CNBC Top News",
-          "published": "Fri, 14 Aug 2026 01:02:39 GMT",
-          "published_iso": "2026-08-14T01:02:39+00:00",
-          "link": "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html",
+          "published": "Fri, 14 Aug 2026 21:45:19 GMT",
+          "published_iso": "2026-08-14T21:45:19+00:00",
+          "link": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html",
           "source_type": "rss"
         }
       ]

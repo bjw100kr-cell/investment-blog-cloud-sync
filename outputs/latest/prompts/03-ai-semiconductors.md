@@ -110,14 +110,14 @@
   "source_names": [
     "CNBC Top News",
     "Financial Times Home",
-    "Financial Times YouTube",
-    "MarketWatch Breaking News"
+    "Financial Times World",
+    "Financial Times YouTube"
   ],
   "reference_headlines": [
-    "Anthropic's investor talks, Workday's stock surge, Apple's new facility and more in Morning Squawk",
-    "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-    "Applied Materials shares are down on guidance and margin concerns. Analysts call it time to buy.",
-    "Silicon shadows: inside the black market for AI chips | FT Film"
+    "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
+    "Investors pile back into US stocks as bullishness returns to Wall Street",
+    "Silicon shadows: inside the black market for AI chips | FT Film",
+    "Nvidia discloses $21bn stake in SpaceX"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 71.0,
-    "search_score": 14,
+    "total_score": 72.0,
+    "search_score": 15,
     "timeliness_score": 17,
     "explanatory_score": 18,
     "monetization_score": 15,

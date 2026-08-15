@@ -1,6 +1,6 @@
 # Daily 200 Visitor Action Board
 
-- 생성 시각: `2026-08-14T13:23:32.903893+00:00`
+- 생성 시각: `2026-08-15T01:37:04.584767+00:00`
 - 목표: 하루 `200`명
 - 상태: `measurement_missing_keep_building`
 - 실측 방문자: `0`
@@ -30,17 +30,17 @@
 - supporting_queries: FOMC 발표 시간, FOMC 이후 주식 영향, 연준 금리 발표 비트코인 영향
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
-### 미국채 금리 상승 이유
-
-- mapped_keyword: `treasury_yields`
-- suggested_title: 미국채 금리 상승 이유 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: 10년물 국채금리 주식 영향, 국채금리 비트코인 영향, 금리 상승 성장주 영향
-- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
-
 ### cpi
 
 - mapped_keyword: `cpi`
 - suggested_title: cpi 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
+
+### AI 반도체 주식
+
+- mapped_keyword: `ai_semiconductors`
+- suggested_title: AI 반도체 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 엔비디아 주가 영향, 반도체 사이클 전망, AI 데이터센터 수혜주
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
 ## 공개 URL 배포 액션
