@@ -1,6 +1,6 @@
 # Cross-Platform Publish Pack
 
-- generated_at: `2026-08-16T01:43:12.329692+00:00`
+- generated_at: `2026-08-16T12:53:29.312136+00:00`
 - selected_count: `1`
 - manual_selected_count: `1`
 - automation_policy: `automation-first`

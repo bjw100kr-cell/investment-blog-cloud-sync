@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "The 'long bitcoin, short the bankers' era is officially over as TradFi giants embrace digital assets",
     "Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options",
     "Why the world’s second-largest Bitcoin mining power is shutting down rigs in its capital city",
     "Paul Tudor Jones’ investment firm increases stake in BlackRock's bitcoin ETF after year of selling",
-    "The $11.2 billion in 2026 funding that killed crypto’s permissionless era",
-    "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 stories"
+    "The $11.2 billion in 2026 funding that killed crypto’s permissionless era"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

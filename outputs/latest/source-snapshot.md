@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-16T01:43:09.006856+00:00`
+- 생성 시각: `2026-08-16T12:53:25.121034+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -107,51 +107,50 @@ If you are sure that the described cause is not responsible for this error and t
 ## 상위 키워드
 
 - `bitcoin`: score 45, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `us_big_tech`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
-- `treasury_yields`: score 9, source_count 3, sources CNBC Top News, Cointelegraph, Reuters Markets via Google News RSS
+- `fomc`: score 29, source_count 3, sources Federal Reserve Monetary Policy Press, Financial Times World, Reuters Markets via Google News RSS
+- `oil`: score 9, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
 - `crypto_etf`: score 8, source_count 1, sources CoinDesk RSS
-- `ai_semiconductors`: score 8, source_count 2, sources CNBC Top News, Financial Times YouTube
 - `us_index_flow`: score 8, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `oil`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
-- `china`: score 6, source_count 2, sources Financial Times Home, Reuters Markets via Google News RSS
-- `cpi`: score 5, source_count 2, sources NYT Business, Reuters Markets via Google News RSS
+- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `cpi`: score 7, source_count 3, sources MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `treasury_yields`: score 6, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 5, source_count 2, sources CNBC Top News, Financial Times YouTube
+- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, NYT Business
 
 ## 오늘의 글감 후보
 
 - `bitcoin`: score 45, headlines 13
+  - The 'long bitcoin, short the bankers' era is officially over as TradFi giants embrace digital assets
   - Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options
   - Why the world’s second-largest Bitcoin mining power is shutting down rigs in its capital city
-  - Paul Tudor Jones’ investment firm increases stake in BlackRock's bitcoin ETF after year of selling
-- `fomc`: score 23, headlines 5
+- `fomc`: score 29, headlines 7
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `us_big_tech`: score 11, headlines 4
-  - I drove Tesla FSD, Rivian Autonomy+ ‘hands-free’ driving systems. Here’s how they compare
-  - China poised to lift travel ban on Manus founders
-  - EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - Reuters
-- `treasury_yields`: score 9, headlines 3
-  - Galaxy lowers CLARITY Act odds to 10%
-  - Between earn-nothing cash, broken long-term bonds, these are the safety trades of 2026 market
-  - AI-driven surge in bond yields could be next risk for markets and growth - Reuters
-- `ai_semiconductors`: score 8, headlines 3
-  - Anthropic revenue reportedly jumps to more than $11.5 billion in second quarter
-  - Nvidia discloses $21 billion stake in SpaceX at end of second quarter
-  - Silicon shadows: inside the black market for AI chips | FT Film
+- `oil`: score 9, headlines 3
+  - Depleted strategic oil reserve nears level that raises concerns about damage to caverns, operations
+  - Oil prices rally, US data dents chances of Fed rate hike - Reuters
+  - Indian shares end week lower as higher crude tempers risk appetite - Reuters
 - `us_index_flow`: score 8, headlines 3
-  - Between earn-nothing cash, broken long-term bonds, these are the safety trades of 2026 market
+  - Secret outperformer: Dispelling the 'myths' about an unloved stock market
   - S&P 500 ends lower as investors weigh data, Middle East tensions - Reuters
   - An active fund holding a whopping 800 stocks is beating major indexes. Here’s how.
 - `crypto_etf`: score 8, headlines 2
   - Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options
   - Paul Tudor Jones’ investment firm increases stake in BlackRock's bitcoin ETF after year of selling
-- `china`: score 6, headlines 2
-  - China poised to lift travel ban on Manus founders
-  - EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - Reuters
-- `oil`: score 6, headlines 2
-  - Depleted strategic oil reserve nears level that raises concerns about damage to caverns, operations
-  - Oil prices rally, US data dents chances of Fed rate hike - Reuters
-- `cpi`: score 5, headlines 2
+- `cpi`: score 7, headlines 3
   - Gold rises on weaker dollar as inflation data cements rate-hold bets - Reuters
+  - Walmart and Target are about to reveal the health of the U.S. consumer
   - Worker Pay Isn’t Keeping Up With Inflation Once Again
+- `ethereum`: score 7, headlines 2
+  - Wall Street's private blockchain obsession is a 'race to the bottom,' Ethereum advocate Raman warns
+  - Ethereum devs to narrow 66 proposals tied to Hegotá upgrade
+- `treasury_yields`: score 6, headlines 2
+  - Galaxy lowers CLARITY Act odds to 10%
+  - AI-driven surge in bond yields could be next risk for markets and growth - Reuters
+- `ai_semiconductors`: score 5, headlines 2
+  - Anthropic revenue reportedly jumps to more than $11.5 billion in second quarter
+  - Silicon shadows: inside the black market for AI chips | FT Film
+- `us_big_tech`: score 5, headlines 2
+  - I drove Tesla FSD, Rivian Autonomy+ ‘hands-free’ driving systems. Here’s how they compare
+  - The Cutthroat Wearables Battle Is About More Than Tracking Your Fitness

@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-08-16T01:43:09.006856+00:00`
+- 생성 시각: `2026-08-16T12:53:25.121034+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 91.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,22 +136,22 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - The 'long bitcoin, short the bankers' era is officially over as TradFi giants embrace digital assets
   - Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options
   - Why the world’s second-largest Bitcoin mining power is shutting down rigs in its capital city
   - Paul Tudor Jones’ investment firm increases stake in BlackRock's bitcoin ETF after year of selling
   - The $11.2 billion in 2026 funding that killed crypto’s permissionless era
-  - Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 stories
 
-## 3. us_big_tech
+## 3. us_index_flow
 
-- 추천 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- 각도: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 73.0
+- 추천 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+- 각도: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 68.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -200,27 +200,26 @@
   - 해설: 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.
   - 마무리: 반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다.
 - 팩트체크:
-  - 대표 종목 가격 변동률과 기준 시각 재확인
-  - 실적/가격 인상/공급망 뉴스 원문 링크 확인
-  - 개별 종목 이슈를 시장 전체 흐름처럼 과장하지 않기
+  - 나스닥/S&P/미국 증시 수치와 기준 시각 재확인
+  - 지수 하락/상승 원인을 한 문장으로 단정하지 않기
+  - 채권·달러·빅테크와의 연결 문장 교차 점검
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - I drove Tesla FSD, Rivian Autonomy+ ‘hands-free’ driving systems. Here’s how they compare
-  - China poised to lift travel ban on Manus founders
-  - EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - Reuters
-  - The Cutthroat Wearables Battle Is About More Than Tracking Your Fitness
+  - Secret outperformer: Dispelling the 'myths' about an unloved stock market
+  - S&P 500 ends lower as investors weigh data, Middle East tensions - Reuters
+  - An active fund holding a whopping 800 stocks is beating major indexes. Here’s how.
 
-## 4. china
+## 4. cpi
 
-- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 55.0
+- 추천 제목: CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
+- 각도: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 점수: 67.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 지금 시장이 반응하는 이유
+  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -269,11 +268,12 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 정책 발표 또는 인터뷰 원문 여부 확인
-  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
-  - 한국/미국 시장 영향은 시나리오형으로 서술
+  - CPI headline/core 수치 재확인
+  - 발표 월 기준과 전년동월/전월 비교 구분 확인
+  - 나스닥, 달러, 미국채 반응 수치 재확인
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - China poised to lift travel ban on Manus founders
-  - EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - Reuters
+  - Gold rises on weaker dollar as inflation data cements rate-hold bets - Reuters
+  - Walmart and Target are about to reveal the health of the U.S. consumer
+  - Worker Pay Isn’t Keeping Up With Inflation Once Again

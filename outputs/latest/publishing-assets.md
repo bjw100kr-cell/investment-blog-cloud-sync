@@ -1,6 +1,6 @@
 # 퍼블리싱 자산
 
-- 생성 시각: `2026-08-16T01:43:09.006856+00:00`
+- 생성 시각: `2026-08-16T12:53:25.121034+00:00`
 
 ## 1. fomc
 
@@ -9,12 +9,12 @@
 - meta title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - meta description: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
 - 카테고리: macro
-- 추천 발행일: 2026-08-16
+- 추천 발행일: 2026-08-19
 - labels: 투자, 경제, 시장해설, FOMC, 연준, 거시경제, 미국증시
 - 내부링크: site-foundation/hub-macro.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 - 이미지 추천: 대표 이미지(Unsplash / central bank meeting finance city skyline), 본문 보조 이미지(Pexels / interest rate macro economy abstract)
 - 후속 글 후보: FOMC 이후 시장이 주식과 코인에 미치는 영향, FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지, FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
-- 광고 슬롯: after_intro, mid_article, before_related_links
+- 광고 슬롯: after_intro, after_first_h2, before_faq, before_related_links
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.
 
@@ -34,34 +34,32 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.
 
-## 3. us_big_tech
+## 3. us_index_flow
 
-- 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- slug: `미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자`
-- meta title: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- meta description: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
+- 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+- slug: `미국-증시-지수-흐름-해설`
+- meta title: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+- meta description: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - 카테고리: global-sector
 - 추천 발행일: 2026-08-18
-- labels: 투자, 경제, 시장해설, 미국증시, 빅테크, 애플, 실적, 섹터분석
+- labels: 투자, 경제, 시장해설, 미국증시, 나스닥, S&P500, 지수해설
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
-- 이미지 추천: 대표 이미지(Unsplash / technology stocks office city abstract), 본문 보조 이미지(Pexels / semiconductor server data center abstract)
-- 후속 글 후보: 미국 빅테크 주식 관련 대표 종목 한눈에 보기, 미국 빅테크 주식 공급망 정리: 누가 수혜를 보나, 미국 빅테크 주식 ETF·지수·대표 기업 정리
+- 이미지 추천: 대표 이미지(Unsplash / technology stocks office finance abstract), 본문 보조 이미지(Pexels / semiconductor data center abstract)
 - 광고 슬롯: after_intro, mid_article, before_related_links
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.
 
-## 4. china
+## 4. cpi
 
-- 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- slug: `중국-변수와-시장-영향-해설`
-- meta title: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- meta description: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
-- 카테고리: global-sector
-- 추천 발행일: 2026-08-19
-- labels: 투자, 경제, 시장해설, 중국, 세계흐름, 거시경제
-- 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
-- 이미지 추천: 대표 이미지(Unsplash / technology stocks office finance abstract), 본문 보조 이미지(Pexels / semiconductor data center abstract)
-- 후속 글 후보: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기, 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나, 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
+- 제목: CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
+- slug: `cpi-발표-후-금리와-나스닥-비트코인이-같이-움직이는-이유`
+- meta title: CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
+- meta description: CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
+- 카테고리: macro
+- 추천 발행일: 2026-08-16
+- labels: 투자, 경제, 시장해설, CPI, 인플레이션, 거시경제, 미국증시
+- 내부링크: site-foundation/hub-macro.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
+- 이미지 추천: 대표 이미지(Unsplash / inflation shopping finance data abstract), 본문 보조 이미지(Pexels / macro economy market data abstract)
 - 광고 슬롯: after_intro, mid_article, before_related_links
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.
