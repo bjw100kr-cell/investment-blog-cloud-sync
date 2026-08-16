@@ -117,8 +117,8 @@
   "source_names": [
     "CNBC Top News",
     "Financial Times Home",
-    "Financial Times World",
-    "NYT Business"
+    "NYT Business",
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
     "미국 빅테크 주식 관련 대표 종목 한눈에 보기"

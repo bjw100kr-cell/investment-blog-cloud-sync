@@ -2,11 +2,45 @@
 
 - item_count: `10`
 
-## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+- inventory_type: `main_post`
+- publish_bucket: `today_or_overdue`
+- priority_score: `134.0`
+- hook_line: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+
+### X / Threads
+
+FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+오늘 시장을 볼 때 핵심은 이것입니다.
+- 독자 관점: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- 한 줄 포인트: 환율·금리·미국증시 evergreen 글로 연결
+
+짧고 이해하기 쉽게 정리했습니다.
+
+### Telegram / Kakao Channel
+
+[lane_focus_macro] FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.
+핵심 포인트: 환율·금리·미국증시 evergreen 글로 연결
+
+### Community
+
+FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+이번 글은 '당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 환율·금리·미국증시 evergreen 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
+
+### Newsletter
+
+- subject: [오늘의 투자 브리핑] FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+- preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
+
+## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - inventory_type: `main_post`
 - publish_bucket: `tomorrow`
-- priority_score: `124.0`
+- priority_score: `122.0`
 - hook_line: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -36,7 +70,7 @@
 - subject: [오늘의 투자 브리핑] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 
-## 2. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+## 3. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
@@ -70,11 +104,11 @@
 - subject: [오늘의 투자 브리핑] 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 - preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 
-## 3. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+## 4. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
-- priority_score: `92.0`
+- priority_score: `80.0`
 - hook_line: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -104,45 +138,11 @@
 - subject: [오늘의 투자 브리핑] 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 
-## 4. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-
-- inventory_type: `main_post`
-- publish_bucket: `later`
-- priority_score: `123.0`
-- hook_line: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 | FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
-
-### X / Threads
-
-FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-
-오늘 시장을 볼 때 핵심은 이것입니다.
-- 독자 관점: FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
-- 한 줄 포인트: 환율·금리·미국증시 evergreen 글로 연결
-
-짧고 이해하기 쉽게 정리했습니다.
-
-### Telegram / Kakao Channel
-
-[evergreen_support] FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.
-핵심 포인트: 환율·금리·미국증시 evergreen 글로 연결
-
-### Community
-
-FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-
-이번 글은 'FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자'에 맞춰 정리한 해설입니다. 읽고 나면 환율·금리·미국증시 evergreen 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
-
-### Newsletter
-
-- subject: [오늘의 투자 브리핑] FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
-
 ## 5. 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `110.17`
+- priority_score: `107.77`
 - hook_line: 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지 | `미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
 
 ### X / Threads
@@ -244,7 +244,7 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `91.5`
+- priority_score: `79.5`
 - hook_line: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기 | 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 
 ### X / Threads
@@ -278,7 +278,7 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `88.5`
+- priority_score: `76.5`
 - hook_line: 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나 | 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 
 ### X / Threads
@@ -312,7 +312,7 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `85.5`
+- priority_score: `73.5`
 - hook_line: 중국 변수와 시장 영향 ETF·지수·대표 기업 정리 | 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 
 ### X / Threads

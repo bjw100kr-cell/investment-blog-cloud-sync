@@ -110,13 +110,13 @@
   "source_names": [
     "CNBC Top News",
     "Financial Times Home",
-    "Financial Times World",
-    "NYT Business"
+    "NYT Business",
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
     "I drove Tesla FSD, Rivian Autonomy+ ‘hands-free’ driving systems. Here’s how they compare",
     "China poised to lift travel ban on Manus founders",
-    "China poised to lift travel ban on Manus founders",
+    "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - Reuters",
     "The Cutthroat Wearables Battle Is About More Than Tracking Your Fitness"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",

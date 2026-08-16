@@ -117,8 +117,8 @@
   "source_names": [
     "CNBC Top News",
     "Financial Times Home",
-    "Financial Times World",
-    "NYT Business"
+    "NYT Business",
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
     "미국 빅테크 주식 공급망 정리: 누가 수혜를 보나"

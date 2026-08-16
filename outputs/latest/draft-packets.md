@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-08-15T12:52:17.188724+00:00`
+- 생성 시각: `2026-08-16T01:43:09.006856+00:00`
 
 ## 1. fomc
 
@@ -75,8 +75,8 @@
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 점수: 85.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 점수: 83.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,11 +136,11 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Trump expected to attend White House meeting with crypto CEOs, sources say
-  - Tokenization stocks slip as SEC delay puts 'speed bump' in crypto’s Wall Street push
-  - Strategy says MSCI should measure markets, not dictate corporate assets
-  - Israel’s largest bank to offer crypto trading with Galaxy
-  - Fear is fading across markets, be it bitcoin, stocks, gold or bonds
+  - Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options
+  - Why the world’s second-largest Bitcoin mining power is shutting down rigs in its capital city
+  - Paul Tudor Jones’ investment firm increases stake in BlackRock's bitcoin ETF after year of selling
+  - The $11.2 billion in 2026 funding that killed crypto’s permissionless era
+  - Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 stories
 
 ## 3. us_big_tech
 
@@ -208,14 +208,14 @@
 - 참고 헤드라인:
   - I drove Tesla FSD, Rivian Autonomy+ ‘hands-free’ driving systems. Here’s how they compare
   - China poised to lift travel ban on Manus founders
-  - China poised to lift travel ban on Manus founders
+  - EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - Reuters
   - The Cutthroat Wearables Battle Is About More Than Tracking Your Fitness
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 66.0
+- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 55.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -275,6 +275,5 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Beijing is said to move to clarify tax rules stoking confusion among China's ultra-wealthy
   - China poised to lift travel ban on Manus founders
-  - China poised to lift travel ban on Manus founders
+  - EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - Reuters

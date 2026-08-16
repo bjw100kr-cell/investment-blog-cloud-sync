@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T12:52:17.188724+00:00",
+  "generated_at": "2026-08-16T01:43:09.006856+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -14,22 +14,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6200,
+      "demand_signal_score": 5700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 50,
-      "source_count": 4,
+      "source_snapshot_score": 45,
+      "source_count": 3,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Trump expected to attend White House meeting with crypto CEOs, sources say",
-        "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto’s Wall Street push",
-        "Strategy says MSCI should measure markets, not dictate corporate assets"
+        "Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options",
+        "Why the world’s second-largest Bitcoin mining power is shutting down rigs in its capital city",
+        "Paul Tudor Jones’ investment firm increases stake in BlackRock's bitcoin ETF after year of selling"
       ]
     },
     {
@@ -56,31 +55,6 @@
       ]
     },
     {
-      "keyword": "treasury_yields",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
-      "source_count": 4,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Strategy says MSCI should measure markets, not dictate corporate assets",
-        "Galaxy lowers CLARITY Act odds to 10%",
-        "Between earn-nothing cash, broken long-term bonds, these are the safety trades of 2026 market"
-      ]
-    },
-    {
       "keyword": "us_big_tech",
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -96,13 +70,37 @@
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "I drove Tesla FSD, Rivian Autonomy+ ‘hands-free’ driving systems. Here’s how they compare",
         "China poised to lift travel ban on Manus founders",
-        "The Cutthroat Wearables Battle Is About More Than Tracking Your Fitness"
+        "EXCLUSIVE: Apple trains its own AI model for China market with Alibaba's support, sources say - Reuters"
+      ]
+    },
+    {
+      "keyword": "treasury_yields",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2100,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 9,
+      "source_count": 3,
+      "source_names": [
+        "CNBC Top News",
+        "Cointelegraph",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Galaxy lowers CLARITY Act odds to 10%",
+        "Between earn-nothing cash, broken long-term bonds, these are the safety trades of 2026 market",
+        "AI-driven surge in bond yields could be next risk for markets and growth - Reuters"
       ]
     }
   ],
