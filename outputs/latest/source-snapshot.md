@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-17T01:41:12.176025+00:00`
+- 생성 시각: `2026-08-17T12:58:17.256873+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,46 +106,50 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 55, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 22, source_count 2, sources Federal Reserve Monetary Policy Press, MarketWatch Breaking News
-- `us_big_tech`: score 8, source_count 3, sources CNBC Top News, Cointelegraph, NYT Business
+- `bitcoin`: score 53, source_count 4, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News
+- `fomc`: score 28, source_count 3, sources Federal Reserve Monetary Policy Press, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `china`: score 11, source_count 4, sources Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- `dollar`: score 10, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
+- `treasury_yields`: score 9, source_count 3, sources Cointelegraph, Financial Times World, Reuters Markets via Google News RSS
 - `us_index_flow`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
-- `china`: score 6, source_count 1, sources Financial Times World
-- `oil`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
-- `treasury_yields`: score 4, source_count 1, sources CoinDesk RSS
+- `oil`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, NYT Business
+- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
 - `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
-- `cpi`: score 4, source_count 2, sources MarketWatch Breaking News, NYT Business
-- `ethereum`: score 3, source_count 1, sources Cointelegraph
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 55, headlines 16
-  - The SEC meeting that wasn't: State of Crypto
-  - Crypto investors are looking past market-cap rankings and back to fundamentals
-  - Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info
-- `fomc`: score 22, headlines 5
+- `bitcoin`: score 53, headlines 16
+  - No change in bitcoin holdings as Strategy boosted dollar reserve, bought back more STRC last week
+  - Israel’s largest crypto broker Bits of Gold hit by data breach affecting 200,000 customers
+  - Bitcoin options remain expensive despite summer calm. Here's why it matters
+- `fomc`: score 28, headlines 7
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `us_big_tech`: score 8, headlines 3
-  - DefiLlama delayed mobile launch over phishing apps on Apple Store, founder says
-  - I drove Tesla FSD, Rivian Autonomy+ ‘hands-free’ driving systems. Here’s how they compare
-  - The Cutthroat Wearables Battle Is About More Than Tracking Your Fitness
-- `china`: score 6, headlines 2
+- `china`: score 11, headlines 4
   - The next China shock will come from open-source AI
-  - China’s energy strategy vindicated by Iran war
+  - China surprises oil markets again with a return to stockpiling in July - reuters.com
+  - China investment slump deepens as economy shows signs of weakness
+- `dollar`: score 10, headlines 3
+  - No change in bitcoin holdings as Strategy boosted dollar reserve, bought back more STRC last week
+  - Shares steady, dollar slips as markets pare Fed rate risks - reuters.com
+  - Dollar falls to lowest since early June as rate hike bets fade - reuters.com
+- `treasury_yields`: score 9, headlines 3
+  - Greenlane’s $70M BERA treasury ends Q2 valued at $16M
+  - From kangaroos to dim sum, foreign borrowers rush into Asia-Pacific bond markets - reuters.com
+  - Reform UK vows to block foreign nationals from claiming benefits if it wins power
+- `oil`: score 6, headlines 2
+  - Vista Energy up 5% after billionaire Peter Thiel buys stake in the Argentine shale oil producer
+  - China surprises oil markets again with a return to stockpiling in July - reuters.com
 - `us_index_flow`: score 6, headlines 2
-  - Secret outperformer: Dispelling the 'myths' about an unloved stock market
-  - Global Market Headlines | Breaking Stock Market News - Reuters
-- `oil`: score 5, headlines 2
-  - Depleted strategic oil reserve nears level that raises concerns about damage to caverns, operations
-  - Here’s the real reason oil prices aren’t moving higher
-- `cpi`: score 4, headlines 2
-  - Walmart and Target are about to reveal the health of the U.S. consumer
-  - Worker Pay Isn’t Keeping Up With Inflation Once Again
+  - Santoli: Earnings bonanza that lifted market to record may not be all that it appears to be
+  - S&P 500, Nasdaq futures rise on tech boost - reuters.com
+- `us_big_tech`: score 5, headlines 2
+  - Meta faces ‘astronomical’ consequences as legal fight reaches critical moment in California
+  - The Cutthroat Wearables Battle Is About More Than Tracking Your Fitness
+- `ai_growth_stocks`: score 4, headlines 2
+  - Investor dubbed ‘AI stock god’ had 56% of his funds in these two stocks before the July blow-up
+  - Palantir: profits, procurement and power | FT Film
 - `crypto_etf`: score 4, headlines 1
-  - Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options
-- `treasury_yields`: score 4, headlines 1
-  - The stablecoin yield clash that won't go away has banks, crypto battling over tradition
-- `ethereum`: score 3, headlines 1
-  - Ethereum devs to narrow 66 proposals tied to Hegotá upgrade
+  - Bitcoin tracks equity bounce, but $390 million ETF outflow week keeps bulls on back foot
