@@ -26,9 +26,9 @@
 ## Posts
 
 - ready posts: `4`
-- first draft upload target: `cpi`
-- first draft upload target: `bitcoin`
 - first draft upload target: `fomc`
+- first draft upload target: `bitcoin`
+- first draft upload target: `china`
 
 ## Automated Channels
 
