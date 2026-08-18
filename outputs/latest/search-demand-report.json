@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-08-18T01:36:57.310962+00:00",
+  "generated_at": "2026-08-18T12:59:34.037486+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "oil",
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
+      "trend_queries": [
+        "brent jindra"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,11 +30,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5900,
+      "demand_signal_score": 6600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 47,
+      "source_snapshot_score": 54,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,33 +42,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Tom Lee's Bitmine now owns 4.8% of Ethereum supply after latest ETH purchase",
-        "How a bug in Coldcard’s code went unnoticed for years, leading to $100 million in hacked funds",
-        "OCC approves Trump family crypto company for trust charter"
-      ]
-    },
-    {
-      "keyword": "fomc",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3800,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 26,
-      "source_count": 3,
-      "source_names": [
-        "CNBC Top News",
-        "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+        "The 'crack' in the energy market is wider than ever. Bitcoin might feel it.",
+        "South Korea joins more than 30 jurisdictions restricting Polymarket access",
+        "Bitcoin pauses at $64,000 as rising yields, oil drag equities lower"
       ]
     },
     {
@@ -62,48 +54,71 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3400,
+      "demand_signal_score": 4400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 22,
-      "source_count": 4,
+      "source_snapshot_score": 32,
+      "source_count": 7,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
-        "Cointelegraph",
+        "Financial Times Home",
+        "Financial Times World",
         "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "U.S. Treasury Department proposes GENIUS Act stablecoin rule",
-        "Tom Lee's Bitmine now owns 4.8% of Ethereum supply after latest ETH purchase",
-        "US Treasury moves forward with rules on GENIUS Act after July deadline"
+        "Live updates: Bitcoin holds $64,000 as surging yields and rising oil drain risk appetite",
+        "30-year Treasury yield tops 5.33%, new 19-year high on inflation, spending concerns",
+        "Global bond sell-off deepens"
       ]
     },
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "fomc",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2800,
+      "demand_signal_score": 3600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 16,
-      "source_count": 5,
+      "source_snapshot_score": 24,
+      "source_count": 2,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
-        "Financial Times World",
-        "Financial Times YouTube",
-        "MarketWatch Breaking News"
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
-        "Kraken parent Payward joins Anthropic’s Project Glasswing for AI security push",
-        "Anthropic tells investors annualized revenue run rate climbed to $65 billion in July",
-        "Micron, Sandisk and other chip stocks climb as investors get more confident about AI spending"
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+      ]
+    },
+    {
+      "keyword": "cpi",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2400,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 12,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "30-year Treasury yield tops 5.33%, new 19-year high on inflation, spending concerns",
+        "Global bond sell-off deepens",
+        "Bond markets from US to Japan whacked as inflation and fiscal worries take hold - Reuters"
       ]
     }
   ],

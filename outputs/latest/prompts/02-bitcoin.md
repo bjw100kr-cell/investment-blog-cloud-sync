@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Tom Lee's Bitmine now owns 4.8% of Ethereum supply after latest ETH purchase",
-    "How a bug in Coldcard’s code went unnoticed for years, leading to $100 million in hacked funds",
-    "OCC approves Trump family crypto company for trust charter",
-    "Binance to plan UK relaunch with FCA license application: Report",
-    "Bitcoin hits $64K as gold gains while oil shakes off Trump Oman threat"
+    "The 'crack' in the energy market is wider than ever. Bitcoin might feel it.",
+    "South Korea joins more than 30 jurisdictions restricting Polymarket access",
+    "Bitcoin pauses at $64,000 as rising yields, oil drag equities lower",
+    "Bitcoin scores a rare win over S&P 500 with 2.6% rise versus 0.5% fall",
+    "Live updates: Bitcoin holds $64,000 as surging yields and rising oil drain risk appetite"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,7 +180,7 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 85.0,
+    "total_score": 83.0,
     "search_score": 29,
     "timeliness_score": 18,
     "explanatory_score": 17,
