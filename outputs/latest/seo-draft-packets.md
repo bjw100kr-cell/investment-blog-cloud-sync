@@ -2,10 +2,10 @@
 
 - packet_count: `4`
 
-## 1. 달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지
+## 1. 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지
 
-- source_keyword: dollar
-- search_intent: `달러 인덱스 보는법`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
+- source_keyword: treasury_yields
+- search_intent: `미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
 - monetization_goal: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결
 - voice_profile: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - primary_internal_link: site-foundation/hub-macro.md

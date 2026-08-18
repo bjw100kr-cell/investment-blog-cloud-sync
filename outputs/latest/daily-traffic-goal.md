@@ -1,17 +1,17 @@
 # Daily Traffic Goal
 
 - 목표: 하루 최소 `200`명 방문
-- 현재 예상 합계: `266`명
+- 현재 예상 합계: `245`명
 - 목표까지 부족분: `0`명
 - 상태: `estimated_on_track_measurement_missing`
 
 ## 200명 목표를 위한 오늘의 글 경로
 
-1. `fomc` FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 예상 `95`명 / 수요 `4000` / 품질 `pass`
+1. `fomc` FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 예상 `95`명 / 수요 `3800` / 품질 `pass`
    - action: 금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결
-2. `bitcoin` 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 예상 `95`명 / 수요 `6500` / 품질 `pass`
+2. `bitcoin` 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 예상 `95`명 / 수요 `5900` / 품질 `pass`
    - action: 코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행
-3. `china` 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 / 예상 `76`명 / 수요 `2300` / 품질 `pass`
+3. `china` 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 / 예상 `55`명 / 수요 `0` / 품질 `pass`
    - action: 세계 흐름 해설 뒤 관련 섹터/환율 글로 연결
 
 ## 병목
@@ -29,6 +29,7 @@
 
 - `fomc` lane `macro` / 예상 `95`명 / ready `True` / quality `pass`
 - `bitcoin` lane `crypto` / 예상 `95`명 / ready `True` / quality `pass`
-- `china` lane `world-flow` / 예상 `76`명 / ready `True` / quality `pass`
+  - crypto signal: BTCUSDT 24h change 2.30%
+- `china` lane `world-flow` / 예상 `55`명 / ready `True` / quality `pass`
 - `treasury_yields` lane `macro` / 예상 `0`명 / ready `False` / quality `unknown`
-- `us_index_flow` lane `us-stocks` / 예상 `0`명 / ready `True` / quality `review_before_publish`
+- `ai_semiconductors` lane `us-stocks` / 예상 `0`명 / ready `True` / quality `review_before_publish`

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T12:58:17.256873+00:00",
+  "generated_at": "2026-08-18T01:36:57.310962+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -58,18 +58,18 @@
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Shares steady, dollar slips as markets pare Fed rate risks - reuters.com"
+        "30-year Treasury yield tops 5.31%, the highest in 19 years"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
-        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 4000,
+      "demand_signal_score": 3800,
       "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
@@ -92,7 +92,7 @@
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -101,46 +101,47 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "No change in bitcoin holdings as Strategy boosted dollar reserve, bought back more STRC last week",
-        "Israel’s largest crypto broker Bits of Gold hit by data breach affecting 200,000 customers",
-        "Bitcoin options remain expensive despite summer calm. Here's why it matters",
-        "Bitcoin's biggest holders, Strategy and Metaplanet, are betting on math, not price",
-        "Bitcoin tracks equity bounce, but $390 million ETF outflow week keeps bulls on back foot"
+        "Tom Lee's Bitmine now owns 4.8% of Ethereum supply after latest ETH purchase",
+        "How a bug in Coldcard’s code went unnoticed for years, leading to $100 million in hacked funds",
+        "OCC approves Trump family crypto company for trust charter",
+        "Binance to plan UK relaunch with FCA license application: Report",
+        "Bitcoin hits $64K as gold gains while oil shakes off Trump Oman threat"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times Home",
         "Investing.com Crypto News"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 6500,
+      "demand_signal_score": 5900,
       "search_score": 29,
-      "timeliness_score": 20,
+      "timeliness_score": 18,
       "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 3,
       "performance_bonus": 0.0,
       "search_demand_bonus": 3,
-      "crypto_market_signal_bonus": 1,
+      "crypto_market_signal_bonus": 3,
       "crypto_market_sentiment": "mixed",
-      "crypto_market_signal_notes": [],
+      "crypto_market_signal_notes": [
+        "BTCUSDT 24h change 2.30%"
+      ],
       "total_score": 85.0,
       "format": "crypto_analysis"
     },
     {
-      "keyword": "us_index_flow",
+      "keyword": "ai_semiconductors",
       "category": "global-sector",
       "brand_lane": "us-stocks",
       "title_candidates": [
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
+        "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -149,29 +150,35 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Santoli: Earnings bonanza that lifted market to record may not be all that it appears to be",
-        "S&P 500, Nasdaq futures rise on tech boost - reuters.com"
+        "Kraken parent Payward joins Anthropic’s Project Glasswing for AI security push",
+        "Anthropic tells investors annualized revenue run rate climbed to $65 billion in July",
+        "Micron, Sandisk and other chip stocks climb as investors get more confident about AI spending",
+        "SpaceX’s stock is rising, and that’s a good sign for Nvidia and Google",
+        "Silicon shadows: inside the black market for AI chips | FT Film"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
-        "Reuters Markets via Google News RSS"
+        "CoinDesk RSS",
+        "Financial Times World",
+        "Financial Times YouTube",
+        "MarketWatch Breaking News"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 8,
-      "timeliness_score": 10,
-      "explanatory_score": 18,
+      "demand_signal_score": 2800,
+      "search_score": 19,
+      "timeliness_score": 21,
+      "explanatory_score": 19,
       "monetization_score": 15,
-      "risk_score": 8,
+      "risk_score": 5,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 59.0,
+      "total_score": 79.0,
       "format": "sector_analysis"
     },
     {
@@ -183,7 +190,7 @@
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -192,14 +199,12 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "The next China shock will come from open-source AI",
-        "China surprises oil markets again with a return to stockpiling in July - reuters.com",
-        "China investment slump deepens as economy shows signs of weakness",
+        "China surprises oil markets again with a return to stockpiling in July - Reuters",
+        "FirstFT: Trump’s eleventh-hour demand to reduce drills rattles Seoul",
         "As China Hunts for Scientific Talent, the US Makes It Easier"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Financial Times Home",
         "Financial Times World",
         "NYT Business",
         "Reuters Markets via Google News RSS"
@@ -207,18 +212,18 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2300,
-      "search_score": 15,
-      "timeliness_score": 20,
+      "demand_signal_score": 0,
+      "search_score": 12,
+      "timeliness_score": 15,
       "explanatory_score": 17,
       "monetization_score": 14,
       "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 73.0,
+      "total_score": 65.0,
       "format": "macro_explainer"
     },
     {
@@ -230,7 +235,7 @@
         "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유",
         "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -239,31 +244,34 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "Greenlane’s $70M BERA treasury ends Q2 valued at $16M",
-        "From kangaroos to dim sum, foreign borrowers rush into Asia-Pacific bond markets - reuters.com",
-        "Reform UK vows to block foreign nationals from claiming benefits if it wins power"
+        "U.S. Treasury Department proposes GENIUS Act stablecoin rule",
+        "Tom Lee's Bitmine now owns 4.8% of Ethereum supply after latest ETH purchase",
+        "US Treasury moves forward with rules on GENIUS Act after July deadline",
+        "Bitmine nears 5% of Ethereum supply despite $8.4B in unrealized losses",
+        "30-year Treasury yield tops 5.31%, the highest in 19 years"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times World",
-        "Reuters Markets via Google News RSS"
+        "MarketWatch Breaking News"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 13,
-      "timeliness_score": 15,
+      "demand_signal_score": 3400,
+      "search_score": 24,
+      "timeliness_score": 20,
       "explanatory_score": 19,
       "monetization_score": 15,
       "risk_score": 6,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 68.0,
+      "total_score": 84.0,
       "format": "macro_explainer"
     }
   ]
