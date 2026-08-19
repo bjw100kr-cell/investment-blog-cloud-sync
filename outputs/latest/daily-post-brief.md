@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-08-19T01:38:45.639395+00:00`
+- 생성 시각: `2026-08-19T13:00:45.814568+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `86.0`
-- 점수 구성: 검색성 19 / 시의성 25 / 설명가치 20 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press
+- 총점: `94.0`
+- 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,15 +27,16 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+  - Fed decision making comes into focus as bitcoin holds steady, bond yields surge
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `86.0`
-- 점수 구성: 검색성 30 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 4 / 코인시장신호 1
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 총점: `83.0`
+- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
@@ -47,20 +48,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - ‘It has to pass’: Andrew Cuomo warns U.S. is falling behind on crypto rules
-  - U.S. SEC proposes first major crypto rule in surprise announcement
-  - Bitcoin has gone quiet as traders chase ‘5x or 10x’ payoffs elsewhere
-  - Kraken adds U.S. stocks in Europe as TradFi-crypto divide blurs
-  - Why the Trump-backed crypto venture is distancing itself from Hong Kong AI aggregator WorldClaw
+  - Bitcoin is flashing 8 of 12 capitulation signals, but bottom's not yet in, says VanEck
+  - A year after losing $1.46 billion, Bybit says AI helped it save $700 million
+  - Fed decision making comes into focus as bitcoin holds steady, bond yields surge
+  - Bitcoin stuck in a six-week range as global bond yields hit highest levels for decades
+  - Sweden’s H100 reports $26M H1 loss driven by falling Bitcoin value
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `84.0`
-- 점수 구성: 검색성 23 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times Home, Financial Times World, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `63.0`
+- 점수 구성: 검색성 12 / 시의성 12 / 설명가치 19 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CoinDesk RSS, Financial Times YouTube, MarketWatch Breaking News
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -72,20 +73,18 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - US chip stocks slide as government borrowing costs hit multiyear highs
-  - AI chip startup Etched doubles valuation to $21 billion in under a month - Reuters
-  - Chip designer Velaura AI valued at more than $1 billion in funding round - Reuters
-  - Cerebras’s stock has been a post-IPO bust. Its comeback hinges on this new chip.
-  - AI chip stocks were riding high. Here’s why Micron and others are now pulling back.
+  - OpenAI trails Anthropic as losses deepen and Altman pauses frontier AI training
+  - SK Hynix suggests its stock is too cheap as it embarks on $29 billion buyback
+  - Silicon shadows: inside the black market for AI chips | FT Film
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `45.0`
-- 점수 구성: 검색성 4 / 시의성 5 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times World
+- 총점: `64.0`
+- 점수 구성: 검색성 12 / 시의성 15 / 설명가치 18 / 수익성 14 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CoinDesk RSS, MarketWatch Breaking News, NYT Business
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -97,16 +96,18 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - FirstFT: Surge in diesel prices deals powerful blow to industrial America
+  - China triples its e-CNY network in 2026 as 8 more banks join the CBDC push this week
+  - Chinese robotic company’s stock soars over 600% in trading debut
+  - Europe Hurries to Fund More Cutting-Edge Businesses to Compete With China and U.S.
 
 ## 5. treasury_yields
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `84.0`
-- 점수 구성: 검색성 23 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- 소스: Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `87.0`
+- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
@@ -118,8 +119,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Metaplanet expands Bitcoin treasury strategy to US with 2,100-BTC Nasdaq play
-  - US chip stocks slide as government borrowing costs hit multiyear highs
-  - Explainer: Treasury yields are rising - why does it matter? - Reuters
-  - Global bond markets put governments on notice over fiscal, inflation risks - Reuters
-  - Tech selloff weighs down Wall Street as bond yields climb - Reuters
+  - Fed decision making comes into focus as bitcoin holds steady, bond yields surge
+  - Bitcoin stuck in a six-week range as global bond yields hit highest levels for decades
+  - Sweden’s H100 reports $26M H1 loss driven by falling Bitcoin value
+  - Treasury announces upscaled buyback operation for longer-term debt, sending yields lower
+  - Treasury yields pull back from multi-year highs ahead of FOMC minutes
