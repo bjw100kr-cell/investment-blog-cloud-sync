@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T01:37:17.129647+00:00",
+  "generated_at": "2026-08-20T13:03:35.231048+00:00",
   "summary": {
     "queue_count": 4,
     "ready_count": 4
@@ -32,9 +32,9 @@
         "site-foundation/editorial-policy.md"
       ],
       "trend_queries": [],
-      "demand_signal_score": 4300,
+      "demand_signal_score": 3800,
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "publish_note": "당일 이슈 해설형 글",
+      "publish_note": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "readiness_checklist": [
         "제목과 메타 설명이 검색 의도와 맞는지 점검",
@@ -74,7 +74,7 @@
         "site-foundation/editorial-policy.md"
       ],
       "trend_queries": [],
-      "demand_signal_score": 6200,
+      "demand_signal_score": 7100,
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "publish_note": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
@@ -88,6 +88,48 @@
       ],
       "publish_priority_score": 126.0,
       "upload_sequence": 2
+    },
+    {
+      "keyword": "tariffs_trade",
+      "title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+      "slug": "관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기",
+      "category": "global-sector",
+      "recommended_publish_date": "2026-08-23",
+      "publish_bucket": "this_week",
+      "role": "lane_focus_world-flow",
+      "post_type": "breaking_explainer",
+      "ready_to_upload": true,
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기.html",
+      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기.json",
+      "revenue_objective": "페이지뷰와 체류시간 균형 확보",
+      "cta_focus": "실적·공급망·대표 종목 글로 연결",
+      "ad_slot_recommendations": [
+        "after_intro",
+        "mid_article",
+        "before_related_links"
+      ],
+      "internal_link_targets": [
+        "site-foundation/hub-global-sector.md",
+        "site-foundation/about.md",
+        "site-foundation/disclosure.md",
+        "site-foundation/privacy-policy.md",
+        "site-foundation/editorial-policy.md"
+      ],
+      "trend_queries": [],
+      "demand_signal_score": 0,
+      "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "publish_note": "당일 이슈 해설형 글",
+      "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
+      "readiness_checklist": [
+        "제목과 메타 설명이 검색 의도와 맞는지 점검",
+        "첫 문단에서 왜 지금 읽어야 하는지 말했는지 점검",
+        "핵심 숫자와 날짜를 발행 직전 다시 확인",
+        "관련 허브/evergreen 글 내부링크 최소 2개 연결",
+        "광고를 넣더라도 첫 화면 과밀 배치 피하기",
+        "면책문구와 운영 주체 표시 확인"
+      ],
+      "publish_priority_score": 83.0,
+      "upload_sequence": 3
     },
     {
       "keyword": "ai_semiconductors",
@@ -116,48 +158,6 @@
         "site-foundation/editorial-policy.md"
       ],
       "trend_queries": [],
-      "demand_signal_score": 2400,
-      "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "publish_note": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
-      "readiness_checklist": [
-        "제목과 메타 설명이 검색 의도와 맞는지 점검",
-        "첫 문단에서 왜 지금 읽어야 하는지 말했는지 점검",
-        "핵심 숫자와 날짜를 발행 직전 다시 확인",
-        "관련 허브/evergreen 글 내부링크 최소 2개 연결",
-        "광고를 넣더라도 첫 화면 과밀 배치 피하기",
-        "면책문구와 운영 주체 표시 확인"
-      ],
-      "publish_priority_score": 109.0,
-      "upload_sequence": 3
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "slug": "중국-변수와-시장-영향-해설",
-      "category": "global-sector",
-      "recommended_publish_date": "2026-08-23",
-      "publish_bucket": "this_week",
-      "role": "lane_focus_world-flow",
-      "post_type": "breaking_explainer",
-      "ready_to_upload": true,
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.json",
-      "revenue_objective": "페이지뷰와 체류시간 균형 확보",
-      "cta_focus": "실적·공급망·대표 종목 글로 연결",
-      "ad_slot_recommendations": [
-        "after_intro",
-        "mid_article",
-        "before_related_links"
-      ],
-      "internal_link_targets": [
-        "site-foundation/hub-global-sector.md",
-        "site-foundation/about.md",
-        "site-foundation/disclosure.md",
-        "site-foundation/privacy-policy.md",
-        "site-foundation/editorial-policy.md"
-      ],
-      "trend_queries": [],
       "demand_signal_score": 0,
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "publish_note": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
@@ -170,7 +170,7 @@
         "광고를 넣더라도 첫 화면 과밀 배치 피하기",
         "면책문구와 운영 주체 표시 확인"
       ],
-      "publish_priority_score": 97.0,
+      "publish_priority_score": 71.0,
       "upload_sequence": 4
     }
   ]

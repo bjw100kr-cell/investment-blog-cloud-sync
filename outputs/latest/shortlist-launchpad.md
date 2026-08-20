@@ -9,7 +9,7 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `fomc` / publish `2026-08-20` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
+- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
 - sample_headlines:
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
@@ -30,13 +30,13 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)
 - sample_headlines:
-  - Bitcoin briefly hits $70,000 for the first time since June. Here is why
-  - Trump pushes Congress to move on Clarity Act during White House crypto event
-  - Crypto campaign fund Fairshake faces $2 million setback in Florida primaries
+  - Fed liquidity promises, dollar weakness could determine bitcoin's next move
+  - Bitcoin rally sparks debate whether Clarity Act is already priced in
+  - Bitcoin breaks out of six-week range, tops $71,000 as $3 billion in shorts get wiped out
 - recent_evidence:
-  - CoinDesk RSS | 2026-08-19T22:26:01+00:00 | Bitcoin briefly hits $70,000 for the first time since June. Here is why
-  - Cointelegraph | 2026-08-19T20:33:51+00:00 | Bitcoin.com integrates UAE-registered US dollar stablecoin into self-custodial wallet
-  - CoinDesk RSS | 2026-08-19T16:18:04+00:00 | Bitcoin surges above $68,000, liquidating $1.4 billion shorts as Treasury buybacks boost risk appetite
+  - CoinDesk RSS | 2026-08-20T11:31:10+00:00 | Fed liquidity promises, dollar weakness could determine bitcoin's next move
+  - Cointelegraph | 2026-08-20T11:16:41+00:00 | Bitcoin ETFs draw $517M in largest one-day inflow since early May
+  - CoinDesk RSS | 2026-08-20T10:47:35+00:00 | Bitcoin rally sparks debate whether Clarity Act is already priced in
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
@@ -47,15 +47,11 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `ai_semiconductors` / publish `2026-08-22` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- why_now: 섹터/세계 흐름 연결 해설 가능
 - sample_headlines:
-  - Japan exports beat estimates in July as robust chip shipments power fifth straight month of gains
-  - Inside India newsletter: Chip squeeze hits Chinese smartphones in India as Apple, Samsung gain an edge
-  - The chip-stock rally hits a speed bump — but these analysts see reason to be hopeful
+  - Silicon shadows: inside the black market for AI chips | FT Film
 - recent_evidence:
   - Financial Times YouTube | 54K views | Silicon shadows: inside the black market for AI chips | FT Film
-  - CNBC Top News | 2026-08-20T00:30:32+00:00 | Japan exports beat estimates in July as robust chip shipments power fifth straight month of gains
-  - CNBC Top News | 2026-08-20T00:17:08+00:00 | Inside India newsletter: Chip squeeze hits Chinese smartphones in India as Apple, Samsung gain an edge
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`

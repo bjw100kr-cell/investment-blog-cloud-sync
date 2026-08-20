@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-08-20T01:37:17.129647+00:00",
+  "generated_at": "2026-08-20T13:03:35.231048+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 4
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "treasury_yields",
+      "trend_count": 1,
+      "traffic_score_sum": 2000,
+      "max_approx_traffic": 2000,
+      "trend_queries": [
+        "u.s. bond market sell-off"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 2200,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,52 +30,26 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6200,
+      "demand_signal_score": 7100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 50,
+      "source_snapshot_score": 59,
       "source_count": 4,
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "NYT Business"
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Bitcoin briefly hits $70,000 for the first time since June. Here is why",
-        "Trump pushes Congress to move on Clarity Act during White House crypto event",
-        "Crypto campaign fund Fairshake faces $2 million setback in Florida primaries"
+        "Fed liquidity promises, dollar weakness could determine bitcoin's next move",
+        "Bitcoin rally sparks debate whether Clarity Act is already priced in",
+        "Bitcoin breaks out of six-week range, tops $71,000 as $3 billion in shorts get wiped out"
       ]
     },
     {
       "keyword": "fomc",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 4300,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 31,
-      "source_count": 5,
-      "source_names": [
-        "CNBC Top News",
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
-      ],
-      "sample_titles": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ]
-    },
-    {
-      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -70,42 +60,40 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 26,
-      "source_count": 7,
+      "source_count": 3,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
-        "Cointelegraph",
-        "Financial Times Home",
-        "MarketWatch Breaking News"
+        "Federal Reserve Monetary Policy Press",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Bitcoin surges above $68,000, liquidating $1.4 billion shorts as Treasury buybacks boost risk appetite",
-        "Standard Chartered analyst eyes $100K BTC as US Treasury doubles long-end buybacks",
-        "Bessent moves to curb Treasury yields, putting new pressure on Warsh's Fed"
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
       ]
     },
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "oil",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2400,
+      "demand_signal_score": 2300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
+      "source_snapshot_score": 11,
       "source_count": 3,
       "source_names": [
         "CNBC Top News",
-        "Financial Times YouTube",
-        "MarketWatch Breaking News"
+        "Financial Times World",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Japan exports beat estimates in July as robust chip shipments power fifth straight month of gains",
-        "Inside India newsletter: Chip squeeze hits Chinese smartphones in India as Apple, Samsung gain an edge",
-        "The chip-stock rally hits a speed bump — but these analysts see reason to be hopeful"
+        "Oil prices rise 3% as Trump sharpens Iran rhetoric amid talks impasse",
+        "Investors cut bets on US and UK rate rises",
+        "FirstFT: Backlash over law firms’ ‘crazy’ early hiring"
       ]
     }
   ],

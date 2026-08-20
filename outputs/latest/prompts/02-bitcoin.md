@@ -108,17 +108,17 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.",
   "source_names": [
+    "CNBC Top News",
     "CoinDesk RSS",
     "Cointelegraph",
-    "Investing.com Crypto News",
-    "NYT Business"
+    "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Bitcoin briefly hits $70,000 for the first time since June. Here is why",
-    "Trump pushes Congress to move on Clarity Act during White House crypto event",
-    "Crypto campaign fund Fairshake faces $2 million setback in Florida primaries",
-    "Bitcoin surges above $68,000, liquidating $1.4 billion shorts as Treasury buybacks boost risk appetite",
-    "Bitcoin nears key technical breakout that could propel prices to $76,000"
+    "Fed liquidity promises, dollar weakness could determine bitcoin's next move",
+    "Bitcoin rally sparks debate whether Clarity Act is already priced in",
+    "Bitcoin breaks out of six-week range, tops $71,000 as $3 billion in shorts get wiped out",
+    "BitGo secures South Korea virtual asset license, says it's the first global crypto company to do so",
+    "Bitcoin hits $72,000 as Strategy and Coinbase continue rally"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

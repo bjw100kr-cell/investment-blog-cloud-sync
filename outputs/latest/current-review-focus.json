@@ -45,7 +45,7 @@
         "blockers": []
       },
       "freshness_status": "fresh",
-      "newest_evidence_age_days": 0.3,
+      "newest_evidence_age_days": 0.8,
       "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Federal Reserve issues FOMC statement",
       "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recent_evidence": [
@@ -75,18 +75,18 @@
         }
       ],
       "source_names": [
-        "CNBC Top News",
+        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home"
+        "NYT Business"
       ],
-      "demand_signal_score": 4300,
+      "demand_signal_score": 3800,
       "fallback_source": "source_snapshot_rank",
       "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
       "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
       "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
       "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
-      "recovery_mode": "",
+      "recovery_mode": "publish_direct",
       "recovery_title": "",
       "recovery_confirm_command": "",
       "recovery_image_search_url": "",
@@ -144,40 +144,40 @@
       },
       "freshness_status": "fresh",
       "newest_evidence_age_days": 0.1,
-      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin briefly hits $70,000 for the first time since June. Here is why",
+      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Fed liquidity promises, dollar weakness could determine bitcoin's next move",
       "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin briefly hits $70,000 for the first time since June. Here is why",
+          "title": "Fed liquidity promises, dollar weakness could determine bitcoin's next move",
           "source_name": "CoinDesk RSS",
-          "published": "Wed, 19 Aug 2026 22:26:01 +0000",
-          "published_iso": "2026-08-19T22:26:01+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/19/bitcoin-briefly-hits-usd70-000-for-the-first-time-since-june-here-is-why",
+          "published": "Thu, 20 Aug 2026 11:31:10 +0000",
+          "published_iso": "2026-08-20T11:31:10+00:00",
+          "link": "https://www.coindesk.com/daybook-us/2026/08/20/fed-liquidity-promises-dollar-weakness-could-determine-bitcoin-s-next-move",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin.com integrates UAE-registered US dollar stablecoin into self-custodial wallet",
+          "title": "Bitcoin ETFs draw $517M in largest one-day inflow since early May",
           "source_name": "Cointelegraph",
-          "published": "Wed, 19 Aug 2026 20:33:51 +0000",
-          "published_iso": "2026-08-19T20:33:51+00:00",
-          "link": "https://cointelegraph.com/news/bitcoincom-integrates-uae-registered-usdu-stablecoin-into-self-custodial-wallet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Thu, 20 Aug 2026 11:16:41 +0000",
+          "published_iso": "2026-08-20T11:16:41+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-etfs-largest-daily-inflow-since-early-may?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin surges above $68,000, liquidating $1.4 billion shorts as Treasury buybacks boost risk appetite",
+          "title": "Bitcoin rally sparks debate whether Clarity Act is already priced in",
           "source_name": "CoinDesk RSS",
-          "published": "Wed, 19 Aug 2026 16:18:04 +0000",
-          "published_iso": "2026-08-19T16:18:04+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/19/bitcoin-surges-above-usd68-000-liquidating-usd1-4-billion-shorts-as-treasury-buybacks-boost-risk-appetite",
+          "published": "Thu, 20 Aug 2026 10:47:35 +0000",
+          "published_iso": "2026-08-20T10:47:35+00:00",
+          "link": "https://www.coindesk.com/markets/2026/08/20/crypto-s-bottom-is-near-as-ai-hype-fades-okx-europe-ceo-says",
           "source_type": "rss"
         }
       ],
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
+        "Cointelegraph"
       ],
-      "demand_signal_score": 6200,
+      "demand_signal_score": 7100,
       "fallback_source": "source_snapshot_rank",
       "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
