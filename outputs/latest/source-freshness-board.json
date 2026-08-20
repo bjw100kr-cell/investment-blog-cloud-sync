@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T13:00:50.958865+00:00",
-  "snapshot_generated_at": "2026-08-19T13:00:45.814568+00:00",
+  "generated_at": "2026-08-20T01:37:21.928057+00:00",
+  "snapshot_generated_at": "2026-08-20T01:37:17.129647+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
@@ -12,17 +12,103 @@
   },
   "items": [
     {
-      "keyword": "ai_semiconductors",
-      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-08-20",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-08-19T18:00:00+00:00",
+      "oldest_evidence_iso": "2026-06-17T18:00:00+00:00",
+      "newest_evidence_age_days": 0.3,
+      "source_count": 5,
+      "demand_signal_score": 4300,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "quality_status": "pass",
       "ready_now": true,
       "publish_date": "2026-08-21",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-19T09:10:22+00:00",
-      "oldest_evidence_iso": "2026-08-19T09:10:22+00:00",
-      "newest_evidence_age_days": 0.2,
+      "newest_evidence_iso": "2026-08-19T22:26:01+00:00",
+      "oldest_evidence_iso": "2026-08-19T15:22:47+00:00",
+      "newest_evidence_age_days": 0.1,
+      "source_count": 4,
+      "demand_signal_score": 6200,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin briefly hits $70,000 for the first time since June. Here is why",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Bitcoin briefly hits $70,000 for the first time since June. Here is why",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 19 Aug 2026 22:26:01 +0000",
+          "published_iso": "2026-08-19T22:26:01+00:00",
+          "link": "https://www.coindesk.com/markets/2026/08/19/bitcoin-briefly-hits-usd70-000-for-the-first-time-since-june-here-is-why",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin.com integrates UAE-registered US dollar stablecoin into self-custodial wallet",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 19 Aug 2026 20:33:51 +0000",
+          "published_iso": "2026-08-19T20:33:51+00:00",
+          "link": "https://cointelegraph.com/news/bitcoincom-integrates-uae-registered-usdu-stablecoin-into-self-custodial-wallet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin surges above $68,000, liquidating $1.4 billion shorts as Treasury buybacks boost risk appetite",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 19 Aug 2026 16:18:04 +0000",
+          "published_iso": "2026-08-19T16:18:04+00:00",
+          "link": "https://www.coindesk.com/markets/2026/08/19/bitcoin-surges-above-usd68-000-liquidating-usd1-4-billion-shorts-as-treasury-buybacks-boost-risk-appetite",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-08-22",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-08-20T00:30:32+00:00",
+      "oldest_evidence_iso": "2026-08-19T21:26:00+00:00",
+      "newest_evidence_age_days": 0.0,
       "source_count": 3,
-      "demand_signal_score": 0,
+      "demand_signal_score": 2400,
       "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
@@ -37,89 +123,19 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "OpenAI trails Anthropic as losses deepen and Altman pauses frontier AI training",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 19 Aug 2026 09:10:22 +0000",
-          "published_iso": "2026-08-19T09:10:22+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/19/openai-trails-anthropic-as-losses-deepen-and-altman-pauses-frontier-ai-training",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-08-20",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-19T12:45:35+00:00",
-      "oldest_evidence_iso": "2026-08-19T10:29:57+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 3,
-      "demand_signal_score": 6400,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin is flashing 8 of 12 capitulation signals, but bottom's not yet in, says VanEck",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "Bitcoin is flashing 8 of 12 capitulation signals, but bottom's not yet in, says VanEck",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 19 Aug 2026 12:45:35 +0000",
-          "published_iso": "2026-08-19T12:45:35+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/19/bitcoin-is-flashing-8-of-12-capitulation-signals-but-its-not-a-bottom-yet",
+          "title": "Japan exports beat estimates in July as robust chip shipments power fifth straight month of gains",
+          "source_name": "CNBC Top News",
+          "published": "Thu, 20 Aug 2026 00:30:32 GMT",
+          "published_iso": "2026-08-20T00:30:32+00:00",
+          "link": "https://www.cnbc.com/2026/08/20/japan-exports-imports-july-chip-ai.html",
           "source_type": "rss"
         },
         {
-          "title": "Sweden’s H100 reports $26M H1 loss driven by falling Bitcoin value",
-          "source_name": "Cointelegraph",
-          "published": "Wed, 19 Aug 2026 11:59:30 +0000",
-          "published_iso": "2026-08-19T11:59:30+00:00",
-          "link": "https://cointelegraph.com/news/swedens-h100-26m-h1-loss-falling-bitcoin-value?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Fed decision making comes into focus as bitcoin holds steady, bond yields surge",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 19 Aug 2026 11:14:50 +0000",
-          "published_iso": "2026-08-19T11:14:50+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/08/19/fed-decision-making-comes-into-focus-as-bitcoin-holds-steady-bond-yields-surge",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-08-22",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-19T11:55:45+00:00",
-      "oldest_evidence_iso": "2026-08-19T09:02:53+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 3,
-      "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: China triples its e-CNY network in 2026 as 8 more banks join the CBDC push this week",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "China triples its e-CNY network in 2026 as 8 more banks join the CBDC push this week",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 19 Aug 2026 11:55:45 +0000",
-          "published_iso": "2026-08-19T11:55:45+00:00",
-          "link": "https://www.coindesk.com/business/2026/08/19/china-triples-digital-yuan-bank-roster-year-to-date-as-eight-more-banks-join-network",
-          "source_type": "rss"
-        },
-        {
-          "title": "Europe Hurries to Fund More Cutting-Edge Businesses to Compete With China and U.S.",
-          "source_name": "NYT Business",
-          "published": "Wed, 19 Aug 2026 09:02:53 +0000",
-          "published_iso": "2026-08-19T09:02:53+00:00",
-          "link": "https://www.nytimes.com/2026/08/19/business/economy/europe-investment-innovation-competition-us-china.html",
+          "title": "Inside India newsletter: Chip squeeze hits Chinese smartphones in India as Apple, Samsung gain an edge",
+          "source_name": "CNBC Top News",
+          "published": "Thu, 20 Aug 2026 00:17:08 GMT",
+          "published_iso": "2026-08-20T00:17:08+00:00",
+          "link": "https://www.cnbc.com/2026/08/20/india-apple-samsung-china-smartphone-chip-inflation.html",
           "source_type": "rss"
         }
       ]

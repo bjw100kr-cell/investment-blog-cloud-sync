@@ -1,46 +1,101 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
   "cards": [
     {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "publish_date": "2026-08-20",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Bitcoin is flashing 8 of 12 capitulation signals, but bottom's not yet in, says VanEck",
-        "A year after losing $1.46 billion, Bybit says AI helped it save $700 million",
-        "Fed decision making comes into focus as bitcoin holds steady, bond yields surge"
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
       ],
       "recent_evidence": [
         {
-          "title": "Bitcoin is flashing 8 of 12 capitulation signals, but bottom's not yet in, says VanEck",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 19 Aug 2026 12:45:35 +0000",
-          "published_iso": "2026-08-19T12:45:35+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/19/bitcoin-is-flashing-8-of-12-capitulation-signals-but-its-not-a-bottom-yet",
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
           "source_type": "rss"
         },
         {
-          "title": "Sweden’s H100 reports $26M H1 loss driven by falling Bitcoin value",
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
+      "hard_blocking_checks": []
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "publish_date": "2026-08-21",
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "ready_now": true,
+      "hero_image_selected": true,
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "Bitcoin briefly hits $70,000 for the first time since June. Here is why",
+        "Trump pushes Congress to move on Clarity Act during White House crypto event",
+        "Crypto campaign fund Fairshake faces $2 million setback in Florida primaries"
+      ],
+      "recent_evidence": [
+        {
+          "title": "Bitcoin briefly hits $70,000 for the first time since June. Here is why",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 19 Aug 2026 22:26:01 +0000",
+          "published_iso": "2026-08-19T22:26:01+00:00",
+          "link": "https://www.coindesk.com/markets/2026/08/19/bitcoin-briefly-hits-usd70-000-for-the-first-time-since-june-here-is-why",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin.com integrates UAE-registered US dollar stablecoin into self-custodial wallet",
           "source_name": "Cointelegraph",
-          "published": "Wed, 19 Aug 2026 11:59:30 +0000",
-          "published_iso": "2026-08-19T11:59:30+00:00",
-          "link": "https://cointelegraph.com/news/swedens-h100-26m-h1-loss-falling-bitcoin-value?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Wed, 19 Aug 2026 20:33:51 +0000",
+          "published_iso": "2026-08-19T20:33:51+00:00",
+          "link": "https://cointelegraph.com/news/bitcoincom-integrates-uae-registered-usdu-stablecoin-into-self-custodial-wallet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Fed decision making comes into focus as bitcoin holds steady, bond yields surge",
+          "title": "Bitcoin surges above $68,000, liquidating $1.4 billion shorts as Treasury buybacks boost risk appetite",
           "source_name": "CoinDesk RSS",
-          "published": "Wed, 19 Aug 2026 11:14:50 +0000",
-          "published_iso": "2026-08-19T11:14:50+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/08/19/fed-decision-making-comes-into-focus-as-bitcoin-holds-steady-bond-yields-surge",
+          "published": "Wed, 19 Aug 2026 16:18:04 +0000",
+          "published_iso": "2026-08-19T16:18:04+00:00",
+          "link": "https://www.coindesk.com/markets/2026/08/19/bitcoin-surges-above-usd68-000-liquidating-usd1-4-billion-shorts-as-treasury-buybacks-boost-risk-appetite",
           "source_type": "rss"
         }
       ],
@@ -61,7 +116,7 @@
     {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "publish_date": "2026-08-21",
+      "publish_date": "2026-08-22",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
@@ -69,9 +124,9 @@
       "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "OpenAI trails Anthropic as losses deepen and Altman pauses frontier AI training",
-        "SK Hynix suggests its stock is too cheap as it embarks on $29 billion buyback",
-        "Silicon shadows: inside the black market for AI chips | FT Film"
+        "Japan exports beat estimates in July as robust chip shipments power fifth straight month of gains",
+        "Inside India newsletter: Chip squeeze hits Chinese smartphones in India as Apple, Samsung gain an edge",
+        "The chip-stock rally hits a speed bump — but these analysts see reason to be hopeful"
       ],
       "recent_evidence": [
         {
@@ -83,11 +138,19 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "OpenAI trails Anthropic as losses deepen and Altman pauses frontier AI training",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 19 Aug 2026 09:10:22 +0000",
-          "published_iso": "2026-08-19T09:10:22+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/19/openai-trails-anthropic-as-losses-deepen-and-altman-pauses-frontier-ai-training",
+          "title": "Japan exports beat estimates in July as robust chip shipments power fifth straight month of gains",
+          "source_name": "CNBC Top News",
+          "published": "Thu, 20 Aug 2026 00:30:32 GMT",
+          "published_iso": "2026-08-20T00:30:32+00:00",
+          "link": "https://www.cnbc.com/2026/08/20/japan-exports-imports-july-chip-ai.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Inside India newsletter: Chip squeeze hits Chinese smartphones in India as Apple, Samsung gain an edge",
+          "source_name": "CNBC Top News",
+          "published": "Thu, 20 Aug 2026 00:17:08 GMT",
+          "published_iso": "2026-08-20T00:17:08+00:00",
+          "link": "https://www.cnbc.com/2026/08/20/india-apple-samsung-china-smartphone-chip-inflation.html",
           "source_type": "rss"
         }
       ],
@@ -103,53 +166,6 @@
       ],
       "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors",
       "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply",
-      "hard_blocking_checks": []
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "publish_date": "2026-08-22",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "China triples its e-CNY network in 2026 as 8 more banks join the CBDC push this week",
-        "Chinese robotic company’s stock soars over 600% in trading debut",
-        "Europe Hurries to Fund More Cutting-Edge Businesses to Compete With China and U.S."
-      ],
-      "recent_evidence": [
-        {
-          "title": "China triples its e-CNY network in 2026 as 8 more banks join the CBDC push this week",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 19 Aug 2026 11:55:45 +0000",
-          "published_iso": "2026-08-19T11:55:45+00:00",
-          "link": "https://www.coindesk.com/business/2026/08/19/china-triples-digital-yuan-bank-roster-year-to-date-as-eight-more-banks-join-network",
-          "source_type": "rss"
-        },
-        {
-          "title": "Europe Hurries to Fund More Cutting-Edge Businesses to Compete With China and U.S.",
-          "source_name": "NYT Business",
-          "published": "Wed, 19 Aug 2026 09:02:53 +0000",
-          "published_iso": "2026-08-19T09:02:53+00:00",
-          "link": "https://www.nytimes.com/2026/08/19/business/economy/europe-investment-innovation-competition-us-china.html",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
       "hard_blocking_checks": []
     }
   ]

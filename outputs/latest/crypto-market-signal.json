@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T13:00:47+00:00",
+  "generated_at": "2026-08-20T01:37:18+00:00",
   "status": "ok",
   "providers": {
     "binance_plugin": false,
@@ -8,69 +8,69 @@
     "alternative_fear_greed": true
   },
   "market": {
-    "sentiment": "mixed",
-    "average_change_percent_24h": 1.32,
-    "tracked_quote_volume_24h": 27701126523.0,
-    "signal_strength": 2
+    "sentiment": "risk_on",
+    "average_change_percent_24h": 9.68,
+    "tracked_quote_volume_24h": 84866998788.0,
+    "signal_strength": 4
   },
   "fear_greed": {
-    "value": 46,
-    "label": "Fear",
+    "value": 62,
+    "label": "Greed",
     "source": "alternative.me",
-    "timestamp": "1787097600"
+    "timestamp": "1787184000"
   },
   "tickers": [
     {
       "symbol": "BTCUSDT",
       "keyword": "bitcoin",
-      "last_price": 64803.0,
-      "price_change_percent_24h": 0.8,
-      "quote_volume_24h": 17884828141.0,
+      "last_price": 69513.0,
+      "price_change_percent_24h": 7.4,
+      "quote_volume_24h": 46148244391.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "ETHUSDT",
       "keyword": "ethereum",
-      "last_price": 1935.35,
-      "price_change_percent_24h": 1.8,
-      "quote_volume_24h": 6625766117.0,
+      "last_price": 2260.19,
+      "price_change_percent_24h": 18.2,
+      "quote_volume_24h": 29129536883.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "SOLUSDT",
       "keyword": "crypto_etf",
-      "last_price": 78.32,
-      "price_change_percent_24h": 2.6,
-      "quote_volume_24h": 1591615309.0,
+      "last_price": 84.94,
+      "price_change_percent_24h": 10.4,
+      "quote_volume_24h": 4566413627.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "XRPUSDT",
       "keyword": "crypto_etf",
-      "last_price": 1.01,
-      "price_change_percent_24h": 1.3,
-      "quote_volume_24h": 832541750.0,
+      "last_price": 1.11,
+      "price_change_percent_24h": 10.7,
+      "quote_volume_24h": 2966318203.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "BNBUSDT",
       "keyword": "crypto_etf",
-      "last_price": 603.91,
-      "price_change_percent_24h": 0.4,
-      "quote_volume_24h": 486911142.0,
+      "last_price": 625.36,
+      "price_change_percent_24h": 4.3,
+      "quote_volume_24h": 1247135973.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "DOGEUSDT",
       "keyword": "crypto_etf",
-      "last_price": 0.0706,
-      "price_change_percent_24h": 1.0,
-      "quote_volume_24h": 279464064.0,
+      "last_price": 0.075184,
+      "price_change_percent_24h": 7.1,
+      "quote_volume_24h": 809349711.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     }
@@ -89,25 +89,32 @@
   },
   "keyword_signals": {
     "bitcoin": {
-      "signal_score_bonus": 1,
-      "market_signal_notes": [],
+      "signal_score_bonus": 3,
+      "market_signal_notes": [
+        "BTCUSDT 24h change 7.40%"
+      ],
       "tracked_symbols": [
         "BTCUSDT"
       ],
-      "market_sentiment": "mixed"
+      "market_sentiment": "risk_on"
     },
     "ethereum": {
-      "signal_score_bonus": 1,
-      "market_signal_notes": [],
+      "signal_score_bonus": 3,
+      "market_signal_notes": [
+        "ETHUSDT 24h change 18.20%"
+      ],
       "tracked_symbols": [
         "ETHUSDT"
       ],
-      "market_sentiment": "mixed"
+      "market_sentiment": "risk_on"
     },
     "crypto_etf": {
-      "signal_score_bonus": 6,
+      "signal_score_bonus": 8,
       "market_signal_notes": [
-        "SOLUSDT 24h change 2.60%"
+        "SOLUSDT 24h change 10.40%",
+        "XRPUSDT 24h change 10.70%",
+        "BNBUSDT 24h change 4.30%",
+        "DOGEUSDT 24h change 7.10%"
       ],
       "tracked_symbols": [
         "SOLUSDT",
@@ -115,7 +122,7 @@
         "BNBUSDT",
         "DOGEUSDT"
       ],
-      "market_sentiment": "mixed"
+      "market_sentiment": "risk_on"
     }
   }
 }

@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-08-19T13:00:49.366584+00:00`
+- generated_at: `2026-08-20T01:37:20.419754+00:00`
 
 ## seo_treasury_yields_7
 
@@ -11,7 +11,7 @@
 - meta_description: 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
 - follow_up_post_count: 2
 
-## seo_china_10
+## seo_china_11
 
 - ready: True
 - reason: ok
@@ -29,7 +29,7 @@
 - meta_description: 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 2
 
-## seo_china_14
+## seo_china_13
 
 - ready: True
 - reason: ok

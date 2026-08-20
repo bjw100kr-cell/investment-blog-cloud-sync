@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-19T13:00:45.814568+00:00`
+- 생성 시각: `2026-08-20T01:37:17.129647+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,47 +106,48 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 52, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 34, source_count 4, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `treasury_yields`: score 30, source_count 6, sources CNBC Top News, CoinDesk RSS, Cointelegraph, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `oil`: score 12, source_count 3, sources CNBC Top News, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `china`: score 8, source_count 3, sources CoinDesk RSS, MarketWatch Breaking News, NYT Business
-- `ai_semiconductors`: score 8, source_count 3, sources CoinDesk RSS, Financial Times YouTube, MarketWatch Breaking News
-- `tariffs_trade`: score 6, source_count 2, sources CNBC Top News, Financial Times World
-- `dollar`: score 6, source_count 1, sources Reuters Markets via Google News RSS
+- `bitcoin`: score 50, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
+- `fomc`: score 31, source_count 5, sources CNBC Top News, Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, NYT Business
+- `treasury_yields`: score 26, source_count 7, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 12, source_count 3, sources CNBC Top News, Financial Times YouTube, MarketWatch Breaking News
+- `cpi`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, NYT Business
+- `china`: score 10, source_count 4, sources Cointelegraph, Financial Times World, MarketWatch Breaking News, NYT Business
+- `dollar`: score 3, source_count 1, sources Cointelegraph
+- `us_big_tech`: score 3, source_count 1, sources CNBC Top News
+- `ethereum`: score 3, source_count 1, sources Investing.com Crypto News
 - `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 52, headlines 16
-  - Bitcoin is flashing 8 of 12 capitulation signals, but bottom's not yet in, says VanEck
-  - A year after losing $1.46 billion, Bybit says AI helped it save $700 million
-  - Fed decision making comes into focus as bitcoin holds steady, bond yields surge
-- `fomc`: score 34, headlines 8
+- `bitcoin`: score 50, headlines 15
+  - Bitcoin briefly hits $70,000 for the first time since June. Here is why
+  - Trump pushes Congress to move on Clarity Act during White House crypto event
+  - Crypto campaign fund Fairshake faces $2 million setback in Florida primaries
+- `fomc`: score 31, headlines 8
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 30, headlines 10
-  - Fed decision making comes into focus as bitcoin holds steady, bond yields surge
-  - Bitcoin stuck in a six-week range as global bond yields hit highest levels for decades
-  - Sweden’s H100 reports $26M H1 loss driven by falling Bitcoin value
-- `oil`: score 12, headlines 4
-  - World’s largest olive oil company surges over 20% as rivals circle in takeover battle
-  - Bitcoin muted amid rising oil, yields; SEC proposes rules for some crypto assets
-  - Bonds selloff pressures Europe, oil climbs further - reuters.com
-- `ai_semiconductors`: score 8, headlines 3
-  - OpenAI trails Anthropic as losses deepen and Altman pauses frontier AI training
-  - SK Hynix suggests its stock is too cheap as it embarks on $29 billion buyback
-  - Silicon shadows: inside the black market for AI chips | FT Film
-- `china`: score 8, headlines 3
-  - China triples its e-CNY network in 2026 as 8 more banks join the CBDC push this week
-  - Chinese robotic company’s stock soars over 600% in trading debut
-  - Europe Hurries to Fund More Cutting-Edge Businesses to Compete With China and U.S.
-- `dollar`: score 6, headlines 2
-  - Gold rises as dollar weakens, bond yields ease - reuters.com
-  - Dollar softens as bond market steadies ahead of Fed minutes - reuters.com
-- `tariffs_trade`: score 6, headlines 2
-  - Target hikes outlook as sales rebound and huge tariff refund boosts bottom line
-  - Target profits double after $1bn tariff refund
+- `treasury_yields`: score 26, headlines 9
+  - Bitcoin surges above $68,000, liquidating $1.4 billion shorts as Treasury buybacks boost risk appetite
+  - Standard Chartered analyst eyes $100K BTC as US Treasury doubles long-end buybacks
+  - Bessent moves to curb Treasury yields, putting new pressure on Warsh's Fed
+- `ai_semiconductors`: score 12, headlines 5
+  - Japan exports beat estimates in July as robust chip shipments power fifth straight month of gains
+  - Inside India newsletter: Chip squeeze hits Chinese smartphones in India as Apple, Samsung gain an edge
+  - The chip-stock rally hits a speed bump — but these analysts see reason to be hopeful
+- `cpi`: score 11, headlines 4
+  - Bessent moves to curb Treasury yields, putting new pressure on Warsh's Fed
+  - Fed officials express rising concern over persistently high inflation
+  - Fed’s July minutes revealed growing concerns over elevated inflation
+- `china`: score 10, headlines 4
+  - Trump pushes for CLARITY Act passage alongside crypto leaders
+  - A $420 camera for $10: China’s young consumers would rather rent than buy. Beijing has a problem.
+  - FirstFT: Moderna’s ‘landmark’ cancer treatment leads to share price surge
+- `dollar`: score 3, headlines 1
+  - Bitcoin.com integrates UAE-registered US dollar stablecoin into self-custodial wallet
+- `ethereum`: score 3, headlines 1
+  - Ethereum Climbs 10% In Rally
+- `us_big_tech`: score 3, headlines 1
+  - Inside India newsletter: Chip squeeze hits Chinese smartphones in India as Apple, Samsung gain an edge
 - `ai_growth_stocks`: score 2, headlines 1
   - Palantir: profits, procurement and power | FT Film
