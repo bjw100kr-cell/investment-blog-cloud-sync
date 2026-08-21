@@ -1,25 +1,25 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-08-20T13:03:35.231048+00:00`
+- 생성 시각: `2026-08-21T01:42:09.148768+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
 - `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 점수 94.0 / 수익화 15
   - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-  - 근거 소스: CoinDesk RSS, Federal Reserve Monetary Policy Press, NYT Business
+  - 근거 소스: CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press
 - `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 87.0 / 수익화 15
   - 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)
-  - 근거 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `ai_semiconductors`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 점수 44.0 / 수익화 15
-  - 이유: 섹터/세계 흐름 연결 해설 가능
-  - 근거 소스: Financial Times YouTube
+  - 근거 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
+- `ai_semiconductors`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 점수 55.0 / 수익화 15
+  - 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+  - 근거 소스: Financial Times Home, Financial Times YouTube
 
 ## 브랜드 레인 우선순위
 
 - `거시경제`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 fomc
 - `코인`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 bitcoin
 - `미국주식`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 ai_semiconductors
-- `세계 흐름`: 평균 수익화 14.0 / 게시 예정 1개 / 키워드 tariffs_trade
+- `세계 흐름`: 평균 수익화 13.0 / 게시 예정 1개 / 키워드 tariffs_trade
 
 ## 검색 수요 감지 키워드
 
@@ -27,10 +27,10 @@
 
 ## 무료 트렌드 수요 신호
 
-- `treasury_yields`: trend_count 1, traffic_sum 2000, regions US / 쿼리 u.s. bond market sell-off
+- `treasury_yields`: trend_count 1, traffic_sum 200, regions US / 쿼리 lewis bond
+- `us_big_tech`: trend_count 1, traffic_sum 200, regions US / 쿼리 apple martin
 - `bitcoin`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 - `fomc`: trend_count 0, traffic_sum 0, regions  / 쿼리 
-- `oil`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 
 ## 다음 7일 실행 포인트
 

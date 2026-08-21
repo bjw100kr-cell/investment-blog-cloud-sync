@@ -1,24 +1,40 @@
 {
-  "generated_at": "2026-08-20T13:03:35.231048+00:00",
+  "generated_at": "2026-08-21T01:42:09.148768+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "weak_trend_fallback_count": 2
   },
   "ranked_keyword_demand": [
     {
       "keyword": "treasury_yields",
       "trend_count": 1,
-      "traffic_score_sum": 2000,
-      "max_approx_traffic": 2000,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
       "trend_queries": [
-        "u.s. bond market sell-off"
+        "lewis bond"
       ],
       "regions": [
         "US"
       ],
-      "demand_signal_score": 2200,
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
+    {
+      "keyword": "us_big_tech",
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
+      "trend_queries": [
+        "apple martin"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 400,
       "fallback_source": "trend_match",
       "confidence": "high",
       "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
@@ -37,15 +53,15 @@
       "source_snapshot_score": 59,
       "source_count": 4,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Fed liquidity promises, dollar weakness could determine bitcoin's next move",
-        "Bitcoin rally sparks debate whether Clarity Act is already priced in",
-        "Bitcoin breaks out of six-week range, tops $71,000 as $3 billion in shorts get wiped out"
+        "U.S. CFTC chief puts staff on notice to create crypto regulations if Clarity Act fails",
+        "Treasury buybacks could set up Bitcoin’s next move toward $180,000, says strategist",
+        "Bitcoin's jump above $71,000 sets up bullish golden cross pattern"
       ]
     },
     {
@@ -55,45 +71,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3800,
+      "demand_signal_score": 3900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 26,
+      "source_snapshot_score": 27,
       "source_count": 3,
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
-        "Federal Reserve Monetary Policy Press",
-        "NYT Business"
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ]
-    },
-    {
-      "keyword": "oil",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2300,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 11,
-      "source_count": 3,
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times World",
-        "NYT Business"
-      ],
-      "sample_titles": [
-        "Oil prices rise 3% as Trump sharpens Iran rhetoric amid talks impasse",
-        "Investors cut bets on US and UK rate rises",
-        "FirstFT: Backlash over law firms’ ‘crazy’ early hiring"
       ]
     }
   ],

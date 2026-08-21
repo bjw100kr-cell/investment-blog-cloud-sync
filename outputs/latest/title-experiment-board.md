@@ -18,7 +18,7 @@
 - current_title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - recommended_title: FOMC 이후 시장 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `3800`
+- demand_signal_score: `3900`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 
 ### Variants
@@ -106,7 +106,7 @@
 - current_title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 - recommended_title: 미국채 금리 상승이 나스닥과 코인에 부담이 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `2200`
+- demand_signal_score: `400`
 - public_url: `missing`
 
 ### Variants

@@ -1,8 +1,8 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-20T13:03:35.231048+00:00`
-- 수집 성공 소스: `13`
-- 수집 아이템 수: `104`
+- 생성 시각: `2026-08-21T01:42:09.148768+00:00`
+- 수집 성공 소스: `14`
+- 수집 아이템 수: `112`
 
 ## 소스 상태
 
@@ -15,7 +15,7 @@
 - `OK` CNBC Top News (rss): 8 items
 - `OK` Investing.com Crypto News (rss): 8 items
 - `OK` Financial Times Home (rss): 8 items
-- `SKIP` Reuters Markets via Google News RSS (rss): 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Areuters.com+markets&hl=en-US&gl=US&ceid=US%3Aen
+- `OK` Reuters Markets via Google News RSS (rss): 8 items
 - `OK` 무역킹 Trade King YouTube (youtube_channel): 8 items
 - `OK` MarketWatch Breaking News (rss): 8 items
 - `OK` Financial Times YouTube (youtube_channel): 8 items
@@ -106,45 +106,44 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 59, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `treasury_yields`: score 42, source_count 5, sources CNBC Top News, Financial Times World, Google Trends US, MarketWatch Breaking News, NYT Business
-- `fomc`: score 26, source_count 3, sources CoinDesk RSS, Federal Reserve Monetary Policy Press, NYT Business
-- `oil`: score 11, source_count 3, sources CNBC Top News, Financial Times World, NYT Business
-- `tariffs_trade`: score 6, source_count 2, sources CNBC Top News, Financial Times World
-- `dollar`: score 4, source_count 1, sources CoinDesk RSS
-- `ethereum`: score 3, source_count 1, sources Cointelegraph
-- `china`: score 2, source_count 1, sources MarketWatch Breaking News
-- `ai_semiconductors`: score 2, source_count 1, sources Financial Times YouTube
-- `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
+- `bitcoin`: score 59, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
+- `treasury_yields`: score 55, source_count 9, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Google Trends US, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 27, source_count 3, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press
+- `us_big_tech`: score 7, source_count 1, sources Google Trends US
+- `dollar`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `ai_semiconductors`: score 5, source_count 2, sources Financial Times Home, Financial Times YouTube
+- `cpi`: score 3, source_count 1, sources CNBC Top News
+- `oil`: score 3, source_count 1, sources Financial Times Home
+- `us_index_flow`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `tariffs_trade`: score 3, source_count 1, sources Financial Times World
 
 ## 오늘의 글감 후보
 
 - `bitcoin`: score 59, headlines 18
-  - Fed liquidity promises, dollar weakness could determine bitcoin's next move
-  - Bitcoin rally sparks debate whether Clarity Act is already priced in
-  - Bitcoin breaks out of six-week range, tops $71,000 as $3 billion in shorts get wiped out
-- `treasury_yields`: score 42, headlines 8
-  - u.s. bond market sell-off
-  - Treasury yields rebound, wiping out the decline following Bessent's intervention
-  - Treasury proposes low-cost investment rules for Trump Accounts
-- `fomc`: score 26, headlines 6
+  - U.S. CFTC chief puts staff on notice to create crypto regulations if Clarity Act fails
+  - Treasury buybacks could set up Bitcoin’s next move toward $180,000, says strategist
+  - Bitcoin's jump above $71,000 sets up bullish golden cross pattern
+- `treasury_yields`: score 55, headlines 18
+  - lewis bond
+  - Treasury buybacks could set up Bitcoin’s next move toward $180,000, says strategist
+  - Bitcoin breaks above 200-day moving average for first time since November
+- `fomc`: score 27, headlines 6
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `oil`: score 11, headlines 4
-  - Oil prices rise 3% as Trump sharpens Iran rhetoric amid talks impasse
-  - Investors cut bets on US and UK rate rises
-  - FirstFT: Backlash over law firms’ ‘crazy’ early hiring
-- `tariffs_trade`: score 6, headlines 2
-  - Walmart hikes full-year outlook, says it will use huge tariff refund to keep prices low
-  - Walmart pledges price cuts as sales growth slows to six-year low
-- `dollar`: score 4, headlines 1
+- `dollar`: score 7, headlines 2
   - Fed liquidity promises, dollar weakness could determine bitcoin's next move
-- `ethereum`: score 3, headlines 1
-  - GnosisDAO approves Gnosis Chain for Ethereum Economic Zone
-- `ai_growth_stocks`: score 2, headlines 1
-  - Palantir: profits, procurement and power | FT Film
-- `ai_semiconductors`: score 2, headlines 1
+  - US debt tops $40T stoking debate on what it means for Bitcoin
+- `us_big_tech`: score 7, headlines 1
+  - apple martin
+- `ai_semiconductors`: score 5, headlines 2
+  - Nvidia looks well placed to benefit from the next stage of the AI boom
   - Silicon shadows: inside the black market for AI chips | FT Film
-- `china`: score 2, headlines 1
-  - A $420 camera for $10: China’s young consumers would rather rent than buy. It’s a problem for the government and the economy.
+- `cpi`: score 3, headlines 1
+  - Japan headline inflation rate hits highest this year as energy prices bite
+- `oil`: score 3, headlines 1
+  - War comes to Putin’s favourite Black Sea resort
+- `tariffs_trade`: score 3, headlines 1
+  - Walmart shares tumble as sales growth slows to six-year low
+- `us_index_flow`: score 3, headlines 1
+  - Gains in AI company stakes juice second-quarter earnings for S&P 500 - Reuters

@@ -75,8 +75,8 @@
 - excerpt: - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다.
 - preview: 한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
-- evidence: CoinDesk RSS / 2026-08-20T11:31:10+00:00 / Fed liquidity promises, dollar weakness could determine bitcoin's next move
-- evidence: Cointelegraph / 2026-08-20T11:16:41+00:00 / Bitcoin ETFs draw $517M in largest one-day inflow since early May
+- evidence: Cointelegraph / 2026-08-20T21:03:21+00:00 / Bitcoin breaks above 200-day moving average for first time since November
+- evidence: Cointelegraph / 2026-08-20T17:43:58+00:00 / US debt tops $40T stoking debate on what it means for Bitcoin
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - recovery_mode: `publish_direct`

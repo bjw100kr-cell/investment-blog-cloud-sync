@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T13:03:35.231048+00:00",
+  "generated_at": "2026-08-21T01:42:09.148768+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -18,9 +18,9 @@
       "total_score": 94.0,
       "monetization_score": 15,
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
-        "Federal Reserve Monetary Policy Press",
-        "NYT Business"
+        "Federal Reserve Monetary Policy Press"
       ]
     },
     {
@@ -30,19 +30,20 @@
       "total_score": 87.0,
       "monetization_score": 15,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "NYT Business"
       ]
     },
     {
       "keyword": "ai_semiconductors",
       "recommended_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "reason": "섹터/세계 흐름 연결 해설 가능",
-      "total_score": 44.0,
+      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "total_score": 55.0,
       "monetization_score": 15,
       "source_names": [
+        "Financial Times Home",
         "Financial Times YouTube"
       ]
     }
@@ -58,16 +59,6 @@
       "weighted_priority_score": 16.5
     },
     {
-      "category": "global-sector",
-      "post_count": 2,
-      "keywords": [
-        "ai_semiconductors",
-        "tariffs_trade"
-      ],
-      "avg_monetization_score": 14.5,
-      "weighted_priority_score": 15.23
-    },
-    {
       "category": "macro",
       "post_count": 1,
       "keywords": [
@@ -75,6 +66,16 @@
       ],
       "avg_monetization_score": 15.0,
       "weighted_priority_score": 15.0
+    },
+    {
+      "category": "global-sector",
+      "post_count": 2,
+      "keywords": [
+        "ai_semiconductors",
+        "tariffs_trade"
+      ],
+      "avg_monetization_score": 14.0,
+      "weighted_priority_score": 14.7
     }
   ],
   "brand_lane_summary": [
@@ -112,7 +113,7 @@
       "keywords": [
         "tariffs_trade"
       ],
-      "avg_monetization_score": 14.0
+      "avg_monetization_score": 13.0
     }
   ],
   "query_watchlist": [],
@@ -120,10 +121,22 @@
     {
       "keyword": "treasury_yields",
       "trend_queries": [
-        "u.s. bond market sell-off"
+        "lewis bond"
       ],
       "trend_count": 1,
-      "traffic_score_sum": 2000,
+      "traffic_score_sum": 200,
+      "regions": [
+        "US"
+      ],
+      "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
+    },
+    {
+      "keyword": "us_big_tech",
+      "trend_queries": [
+        "apple martin"
+      ],
+      "trend_count": 1,
+      "traffic_score_sum": 200,
       "regions": [
         "US"
       ],
@@ -139,14 +152,6 @@
     },
     {
       "keyword": "fomc",
-      "trend_queries": [],
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "regions": [],
-      "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
-    },
-    {
-      "keyword": "oil",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
