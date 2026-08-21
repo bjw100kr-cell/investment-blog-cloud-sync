@@ -33,10 +33,10 @@
 - next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
 - pick: `관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기` / `tariffs_trade` / `main_pick` / ready `True` / 지금 이 클러스터를 대표하는 메인 글
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기.html`
-- pick: `관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기` / `seo_tariffs_trade_12` / `followup_pick_1` / ready `True` / 검색형 유입을 받기 좋은 주제
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-관련-대표-종목-한눈에-보기.html`
-- pick: `관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나` / `seo_tariffs_trade_13` / `followup_pick_2` / ready `True` / 페이지 체류시간을 늘리기 좋은 주제
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-공급망-정리-누가-수혜를-보나.html`
+- pick: `관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기` / `seo_tariffs_trade_13` / `followup_pick_1` / ready `True` / 검색형 유입을 받기 좋은 주제
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-관련-대표-종목-한눈에-보기.html`
+- pick: `관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나` / `seo_tariffs_trade_14` / `followup_pick_2` / ready `True` / 페이지 체류시간을 늘리기 좋은 주제
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-공급망-정리-누가-수혜를-보나.html`
 
 ## 4. treasury_yields 클러스터
 

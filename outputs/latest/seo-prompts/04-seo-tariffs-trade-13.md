@@ -85,7 +85,7 @@
 
 ```json
 {
-  "keyword": "seo_tariffs_trade_12",
+  "keyword": "seo_tariffs_trade_13",
   "source_keyword": "tariffs_trade",
   "recommended_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기",
   "alternate_titles": [
@@ -115,7 +115,7 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "대표 종목, 실적 일정, 공급망 글까지 이어서 보면 섹터 흐름이 더 잘 보입니다.",
   "source_names": [
-    "Financial Times World"
+    "CNBC Top News"
   ],
   "reference_headlines": [
     "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기"

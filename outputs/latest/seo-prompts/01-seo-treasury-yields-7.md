@@ -105,7 +105,7 @@
     "검색 의도: `미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
     "수익화 목표: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
     "검색어 후보: 미국채 금리 상승 이유, 10년물 국채금리 주식 영향, 국채금리 비트코인 영향, 금리 상승 성장주 영향",
-    "수요 신뢰도: high - Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    "수요 신뢰도: medium_low - Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다."
   ],
   "fact_checks": [
     "관련 공식 발표문과 날짜 재확인",
@@ -115,7 +115,11 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
   "source_names": [
-    "Google Trends US"
+    "CNBC Top News",
+    "CoinDesk RSS",
+    "Cointelegraph",
+    "Financial Times Home",
+    "Financial Times World"
   ],
   "reference_headlines": [
     "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지"
@@ -181,8 +185,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 112.07,
-    "search_score": 112.07,
+    "total_score": 111.87,
+    "search_score": 111.87,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
@@ -210,7 +214,7 @@
     "국채금리 비트코인 영향",
     "금리 상승 성장주 영향"
   ],
-  "demand_confidence": "high",
-  "demand_confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+  "demand_confidence": "medium_low",
+  "demand_confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다."
 }
 ```

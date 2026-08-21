@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T01:42:13.412691+00:00",
+  "generated_at": "2026-08-21T13:02:27.427223+00:00",
   "target_daily_visitors": 200,
   "status": "measurement_missing_keep_building",
   "proof": {
@@ -9,22 +9,22 @@
     "measurement_missing": true
   },
   "publishing_capacity": {
-    "quality_ready_count": 8,
+    "quality_ready_count": 10,
     "blogger_ready_count": 1,
     "recommended_posts_next_run": 1,
     "rule": "품질 게이트 통과 글만 실행당 최대 3건"
   },
   "keyword_capture_actions": [
     {
-      "mapped_keyword": "bitcoin",
-      "primary_query": "비트코인 전망",
+      "mapped_keyword": "treasury_yields",
+      "primary_query": "미국채 금리 상승 이유",
       "supporting_queries": [
-        "비트코인 ETF 자금 흐름",
-        "비트코인 하락 이유",
-        "비트코인 오늘 시세 보는법"
+        "10년물 국채금리 주식 영향",
+        "국채금리 비트코인 영향",
+        "금리 상승 성장주 영향"
       ],
-      "suggested_title": "비트코인 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 7100,
+      "suggested_title": "미국채 금리 상승 이유 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "demand_signal_score": 4200,
       "use_in": [
         "title",
         "first_h2",
@@ -42,7 +42,7 @@
         "연준 금리 발표 비트코인 영향"
       ],
       "suggested_title": "FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 3900,
+      "demand_signal_score": 3500,
       "use_in": [
         "title",
         "first_h2",
@@ -52,15 +52,33 @@
       ]
     },
     {
-      "mapped_keyword": "us_big_tech",
-      "primary_query": "미국 빅테크 주식",
+      "mapped_keyword": "dollar",
+      "primary_query": "달러 인덱스 보는법",
       "supporting_queries": [
-        "애플 주가 영향",
-        "테슬라 주가 전망",
-        "마이크로소프트 AI 투자",
-        "apple martin"
+        "달러 강세 주식 영향",
+        "환율 상승 코인 영향",
+        "원달러 환율 전망"
       ],
-      "suggested_title": "미국 빅테크 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "suggested_title": "달러 인덱스 보는법 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "demand_signal_score": 2700,
+      "use_in": [
+        "title",
+        "first_h2",
+        "meta_description",
+        "internal_link_anchor",
+        "social_share_copy"
+      ]
+    },
+    {
+      "mapped_keyword": "bitcoin",
+      "primary_query": "비트코인 전망",
+      "supporting_queries": [
+        "비트코인 ETF 자금 흐름",
+        "비트코인 하락 이유",
+        "비트코인 오늘 시세 보는법",
+        "fidelity bitcoin etf"
+      ],
+      "suggested_title": "비트코인 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리",
       "demand_signal_score": 400,
       "use_in": [
         "title",
@@ -71,15 +89,15 @@
       ]
     },
     {
-      "mapped_keyword": "treasury_yields",
-      "primary_query": "미국채 금리 상승 이유",
+      "mapped_keyword": "crypto_etf",
+      "primary_query": "비트코인 현물 ETF 자금 유입",
       "supporting_queries": [
-        "10년물 국채금리 주식 영향",
-        "국채금리 비트코인 영향",
-        "금리 상승 성장주 영향",
-        "lewis bond"
+        "이더리움 ETF 승인 영향",
+        "코인 ETF란",
+        "ETF 자금 유출 비트코인 영향",
+        "fidelity bitcoin etf"
       ],
-      "suggested_title": "미국채 금리 상승 이유 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "suggested_title": "비트코인 현물 ETF 자금 유입 왜 검색이 급증했나: 투자자 관점 핵심 정리",
       "demand_signal_score": 400,
       "use_in": [
         "title",

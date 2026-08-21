@@ -18,7 +18,7 @@
 - current_title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - recommended_title: FOMC 이후 시장 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `3900`
+- demand_signal_score: `3500`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 
 ### Variants
@@ -40,20 +40,20 @@
 - current_title: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - recommended_title: 비트코인 가격보다 먼저 볼 것: ETF 자금과 달러 흐름
 - recommended_angle: `fund-flow`
-- demand_signal_score: `7100`
+- demand_signal_score: `400`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
 
 ### Variants
 
-- `bitcoin-v3` score `85` angle `fund-flow`: 비트코인 가격보다 먼저 볼 것: ETF 자금과 달러 흐름
+- `bitcoin-v3` score `77` angle `fund-flow`: 비트코인 가격보다 먼저 볼 것: ETF 자금과 달러 흐름
   - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
-- `bitcoin-v1` score `85` angle `fund-flow`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+- `bitcoin-v1` score `77` angle `fund-flow`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `bitcoin-v2` score `85` angle `fund-flow`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
+- `bitcoin-v2` score `77` angle `fund-flow`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `bitcoin-v4` score `81` angle `risk-check`: 비트코인, 공포 구간에서 확인할 리스크 체크포인트 5가지
+- `bitcoin-v4` score `73` angle `risk-check`: 비트코인, 공포 구간에서 확인할 리스크 체크포인트 5가지
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `bitcoin-v5` score `70` angle `fund-flow`: 비트코인 투자자가 오늘 놓치면 안 되는 규제와 자금 흐름
+- `bitcoin-v5` score `62` angle `fund-flow`: 비트코인 투자자가 오늘 놓치면 안 되는 규제와 자금 흐름
   - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
 
 ## 3. ai_semiconductors
@@ -106,18 +106,18 @@
 - current_title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 - recommended_title: 미국채 금리 상승이 나스닥과 코인에 부담이 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `400`
+- demand_signal_score: `4200`
 - public_url: `missing`
 
 ### Variants
 
-- `treasury_yields-v5` score `85` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 체크포인트 3가지: 금리, 달러, 위험자산
+- `treasury_yields-v5` score `90` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 체크포인트 3가지: 금리, 달러, 위험자산
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `treasury_yields-v1` score `77` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+- `treasury_yields-v1` score `82` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `treasury_yields-v3` score `77` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
+- `treasury_yields-v3` score `82` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `treasury_yields-v2` score `77` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
+- `treasury_yields-v2` score `82` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `treasury_yields-v4` score `77` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이, 지금 주식과 코인이 같이 흔들리는 이유
+- `treasury_yields-v4` score `82` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이, 지금 주식과 코인이 같이 흔들리는 이유
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.

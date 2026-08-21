@@ -1,67 +1,68 @@
 {
-  "generated_at": "2026-08-21T01:42:09.148768+00:00",
+  "generated_at": "2026-08-21T13:02:23.056174+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 2
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "treasury_yields",
-      "trend_count": 1,
-      "traffic_score_sum": 200,
-      "max_approx_traffic": 200,
-      "trend_queries": [
-        "lewis bond"
-      ],
-      "regions": [
-        "US"
-      ],
-      "demand_signal_score": 400,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
-    {
-      "keyword": "us_big_tech",
-      "trend_count": 1,
-      "traffic_score_sum": 200,
-      "max_approx_traffic": 200,
-      "trend_queries": [
-        "apple martin"
-      ],
-      "regions": [
-        "US"
-      ],
-      "demand_signal_score": 400,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
-    {
       "keyword": "bitcoin",
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
+      "trend_queries": [
+        "fidelity bitcoin etf"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
+    {
+      "keyword": "crypto_etf",
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
+      "trend_queries": [
+        "fidelity bitcoin etf"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
+    {
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 7100,
+      "demand_signal_score": 4200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 59,
-      "source_count": 4,
+      "source_snapshot_score": 30,
+      "source_count": 7,
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "NYT Business"
+        "Financial Times Home",
+        "Financial Times World"
       ],
       "sample_titles": [
-        "U.S. CFTC chief puts staff on notice to create crypto regulations if Clarity Act fails",
-        "Treasury buybacks could set up Bitcoin’s next move toward $180,000, says strategist",
-        "Bitcoin's jump above $71,000 sets up bullish golden cross pattern"
+        "Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.",
+        "Strategy Bitcoin treasury hits breakeven point as BTC price passes $77K",
+        "Gold rebounds as bond jitters, debt fears and weaker dollar revive bullion demand"
       ]
     },
     {
@@ -71,21 +72,44 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3900,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 27,
-      "source_count": 3,
+      "source_snapshot_score": 23,
+      "source_count": 2,
       "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times World"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+      ]
+    },
+    {
+      "keyword": "dollar",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2700,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 15,
+      "source_count": 3,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Gold rebounds as bond jitters, debt fears and weaker dollar revive bullion demand",
+        "Bitcoin and gold surge as Bessent’s bond market intervention weighs on dollar",
+        "Dollar wobbles as Treasury's bond market buybacks raise fresh concerns - Reuters"
       ]
     }
   ],

@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-08-21T01:42:09.148768+00:00`
+- 생성 시각: `2026-08-21T13:02:23.056174+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `94.0`
-- 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press
+- 총점: `91.0`
+- 점수 구성: 검색성 23 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 소스: Federal Reserve Monetary Policy Press, Financial Times World
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,17 +27,18 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Fed liquidity promises, dollar weakness could determine bitcoin's next move
+  - FTAV Q&A: Darrell Duffie
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `87.0`
-- 점수 구성: 검색성 29 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 3
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)
-- 코인 시장 신호: BTCUSDT 24h change 6.10%
-- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
+- 총점: `88.0`
+- 점수 구성: 검색성 28 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 3
+- 추천 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on), 실제 급상승 검색어 반영 (fidelity bitcoin etf)
+- 코인 시장 신호: BTCUSDT 24h change 7.30%
+- 소스: CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Google Trends US, Investing.com Crypto News
+- 트렌드 쿼리: fidelity bitcoin etf
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
@@ -49,20 +50,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - U.S. CFTC chief puts staff on notice to create crypto regulations if Clarity Act fails
-  - Treasury buybacks could set up Bitcoin’s next move toward $180,000, says strategist
-  - Bitcoin's jump above $71,000 sets up bullish golden cross pattern
-  - Crypto for Advisors: What are tokenized deposits?
-  - Fed liquidity promises, dollar weakness could determine bitcoin's next move
+  - fidelity bitcoin etf
+  - Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs
+  - Analysts split on whether Bitcoin's surge past key levels signals a new bull run
+  - The hard truth is that the Clarity Act is an anti-crypto bill
+  - Bitcoin faces $80,000 test as thinner weekend liquidity looms
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `55.0`
-- 점수 구성: 검색성 8 / 시의성 7 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 총점: `58.0`
+- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times Home, Financial Times YouTube
+- 소스: Financial Times YouTube, MarketWatch Breaking News
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -74,7 +75,8 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Nvidia looks well placed to benefit from the next stage of the AI boom
+  - When it comes to stock buybacks, anything SK Hynix can do, Samsung can do bigger
+  - Nvidia earnings could rescue a stalled-out stock market — if the AI chip maker breaks this trend
   - Silicon shadows: inside the black market for AI chips | FT Film
 
 ## 4. tariffs_trade
@@ -84,7 +86,7 @@
 - 총점: `47.0`
 - 점수 구성: 검색성 4 / 시의성 5 / 설명가치 18 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
 - 추천 이유: 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times World
+- 소스: CNBC Top News
 - 제목 후보:
   - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
   - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유
@@ -96,17 +98,16 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Walmart shares tumble as sales growth slows to six-year low
+  - U.S., Canada near final trade deal as Trump tariff deadline looms
 
 ## 5. treasury_yields
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `90.0`
-- 점수 구성: 검색성 28 / 시의성 21 / 설명가치 20 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (9개), 거시 해설형 글로 전환 가치 높음, 실제 급상승 검색어 반영 (lewis bond)
-- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Google Trends US, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- 트렌드 쿼리: lewis bond
+- 총점: `87.0`
+- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
@@ -118,8 +119,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - lewis bond
-  - Treasury buybacks could set up Bitcoin’s next move toward $180,000, says strategist
-  - Bitcoin breaks above 200-day moving average for first time since November
-  - US debt tops $40T stoking debate on what it means for Bitcoin
-  - Warsh faces Fed independence test as Bessent moves in on central bank's turf
+  - Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.
+  - Strategy Bitcoin treasury hits breakeven point as BTC price passes $77K
+  - Gold rebounds as bond jitters, debt fears and weaker dollar revive bullion demand
+  - Bitcoin and gold surge as Bessent’s bond market intervention weighs on dollar
+  - Bessent takes on bond vigilantes in $32tn Treasury market

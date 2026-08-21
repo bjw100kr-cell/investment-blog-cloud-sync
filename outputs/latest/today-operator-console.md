@@ -81,12 +81,12 @@
 ## 1.5. 하루 200명 목표
 
 - target: `200`
-- projected: `296`
+- projected: `269`
 - gap: `0`
 - status: `estimated_on_track_measurement_missing`
-- `fomc` 예상 `95`명: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- `bitcoin` 예상 `95`명: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- `ai_semiconductors` 예상 `56`명: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+- `fomc` 예상 `94`명: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+- `bitcoin` 예상 `68`명: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+- `ai_semiconductors` 예상 `57`명: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - `tariffs_trade` 예상 `50`명: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
 - actual_verified: `0`
 - proof_status: `measurement_missing`
