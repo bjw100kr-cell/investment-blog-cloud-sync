@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-21T13:02:23.056174+00:00`
+- 생성 시각: `2026-08-22T01:36:02.918301+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,7 +25,20 @@
 
 ## 유튜브 transcript 포인트
 
-- `무역킹 Trade King YouTube` / 이것도 해결법이 있긴 합니다
+- `무역킹 Trade King YouTube` / The Hidden Reasons Behind Human Sacrifice
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=z0QSnCsaPqQ! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+- `무역킹 Trade King YouTube` / There is a way to solve this too
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=wEmto6gg4Es! This is most likely caused by:
 
@@ -38,7 +51,7 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 북한군 파병, 신의 한 수였다? (몰아보기)
+- `무역킹 Trade King YouTube` / Was the North Korean troop deployment a masterstroke? (Binge-watch)
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=NrFvhBw1Mds! This is most likely caused by:
 
@@ -56,13 +69,6 @@ YouTube is blocking requests from your IP. This usually is due to one of the fol
 There are two things you can do to work around this:
 1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / The Hidden Reasons Behind Human Sacrifice
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=z0QSnCsaPqQ! This is most likely caused by:
-
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / The Sham Marriage That Got Busted Right in New York
@@ -94,48 +100,48 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 75, source_count 6, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Google Trends US, Investing.com Crypto News
-- `treasury_yields`: score 30, source_count 7, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
-- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Financial Times World
-- `dollar`: score 15, source_count 3, sources CNBC Top News, Financial Times Home, Reuters Markets via Google News RSS
-- `crypto_etf`: score 13, source_count 2, sources Cointelegraph, Google Trends US
-- `ai_semiconductors`: score 6, source_count 2, sources Financial Times YouTube, MarketWatch Breaking News
-- `tariffs_trade`: score 3, source_count 1, sources CNBC Top News
-- `china`: score 3, source_count 1, sources CNBC Top News
+- `bitcoin`: score 57, source_count 5, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News
+- `treasury_yields`: score 26, source_count 5, sources CNBC Top News, Cointelegraph, Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `fomc`: score 22, source_count 2, sources Federal Reserve Monetary Policy Press, MarketWatch Breaking News
+- `ai_semiconductors`: score 8, source_count 3, sources CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
+- `china`: score 8, source_count 3, sources CNBC Top News, Financial Times World, NYT Business
+- `us_big_tech`: score 7, source_count 3, sources CNBC Top News, MarketWatch Breaking News, NYT Business
+- `us_index_flow`: score 3, source_count 1, sources CNBC Top News
+- `cpi`: score 3, source_count 1, sources CNBC Top News
 - `ethereum`: score 3, source_count 1, sources Investing.com Crypto News
-- `cpi`: score 3, source_count 1, sources Financial Times World
+- `dollar`: score 3, source_count 1, sources Financial Times Home
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 75, headlines 21
-  - fidelity bitcoin etf
+- `bitcoin`: score 57, headlines 17
+  - Crypto advocates join in suing Illinois over digital asset tax
   - Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs
   - Analysts split on whether Bitcoin's surge past key levels signals a new bull run
-- `treasury_yields`: score 30, headlines 10
-  - Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.
-  - Strategy Bitcoin treasury hits breakeven point as BTC price passes $77K
-  - Gold rebounds as bond jitters, debt fears and weaker dollar revive bullion demand
-- `fomc`: score 23, headlines 5
+- `treasury_yields`: score 26, headlines 9
+  - Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump
+  - Crypto Biz: Treasury’s ‘Not-QE’ playbook sends Bitcoin higher
+  - Bessent's bond gambit aimed at calming markets is instead stirring inflation worries
+- `fomc`: score 22, headlines 5
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `dollar`: score 15, headlines 5
-  - Gold rebounds as bond jitters, debt fears and weaker dollar revive bullion demand
-  - Bitcoin and gold surge as Bessent’s bond market intervention weighs on dollar
-  - Dollar wobbles as Treasury's bond market buybacks raise fresh concerns - Reuters
-- `crypto_etf`: score 13, headlines 3
-  - fidelity bitcoin etf
-  - Standard Chartered wavers on $100K Bitcoin year-end call, says it may be ‘too low’
-  - Bitcoin ETFs draw $608M as Ether ETFs see largest inflow since October
-- `ai_semiconductors`: score 6, headlines 3
-  - When it comes to stock buybacks, anything SK Hynix can do, Samsung can do bigger
-  - Nvidia earnings could rescue a stalled-out stock market — if the AI chip maker breaks this trend
+- `ai_semiconductors`: score 8, headlines 3
+  - Anthropic IPO filing will show AI backlash as a risk factor, sources say
+  - Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally - Reuters
   - Silicon shadows: inside the black market for AI chips | FT Film
-- `china`: score 3, headlines 1
-  - Why some of America's biggest brands are losing ground in China
+- `china`: score 8, headlines 3
+  - Tesla recalls 3 million vehicles in China over doorhandle safety, driver monitoring
+  - China’s robots rock, box and mix drinks. Can they outperform humans?
+  - In China’s Biggest Car Recall, Tesla and 8 Others Will Address Door Safety
+- `us_big_tech`: score 7, headlines 3
+  - Tesla recalls 3 million vehicles in China over doorhandle safety, driver monitoring
+  - Tesla’s stock jumps as the company gets cleared for a Las Vegas robotaxi launch
+  - In China’s Biggest Car Recall, Tesla and 8 Others Will Address Door Safety
 - `cpi`: score 3, headlines 1
-  - Food inflation adds pressure for Bank of Japan to act
+  - Bessent's bond gambit aimed at calming markets is instead stirring inflation worries
+- `dollar`: score 3, headlines 1
+  - Bitcoin and gold surge as Bessent’s intervention in bond market hits dollar
 - `ethereum`: score 3, headlines 1
   - Aligned Launches $ALIGN, the Native Token of Its Full Ethereum Stack
-- `tariffs_trade`: score 3, headlines 1
-  - U.S., Canada near final trade deal as Trump tariff deadline looms
+- `oil`: score 3, headlines 1
+  - Global stocks close out a tough week as bond yields, oil stay high - Reuters

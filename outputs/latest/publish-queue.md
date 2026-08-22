@@ -1,14 +1,14 @@
 # 발행 우선순위 큐
 
-- 생성 시각: `2026-08-21T13:02:23.056174+00:00`
+- 생성 시각: `2026-08-22T01:36:02.918301+00:00`
 - 큐 개수: `4`
 - 업로드 가능 글 수: `4`
 
 ## 1. fomc
 
 - 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 우선순위 점수: 134.0
-- 발행일: 2026-08-21 / 버킷: today_or_overdue
+- 우선순위 점수: 133.0
+- 발행일: 2026-08-22 / 버킷: today_or_overdue
 - 역할: lane_focus_macro / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
@@ -21,14 +21,13 @@
 ## 2. bitcoin
 
 - 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 우선순위 점수: 120.0
-- 발행일: 2026-08-22 / 버킷: tomorrow
+- 우선순위 점수: 127.0
+- 발행일: 2026-08-23 / 버킷: tomorrow
 - 역할: lane_focus_crypto / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
 - CTA 초점: ETF·규제·초보 가이드 글로 연결
 - 광고 슬롯 추천: after_intro, mid_article, before_related_links
-- 트렌드 쿼리: fidelity bitcoin etf
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크: site-foundation/hub-crypto.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
@@ -36,8 +35,8 @@
 ## 3. ai_semiconductors
 
 - 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 우선순위 점수: 85.0
-- 발행일: 2026-08-23 / 버킷: this_week
+- 우선순위 점수: 100.0
+- 발행일: 2026-08-24 / 버킷: this_week
 - 역할: lane_focus_us-stocks / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
@@ -47,11 +46,11 @@
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 
-## 4. tariffs_trade
+## 4. china
 
-- 제목: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
-- 우선순위 점수: 72.0
-- 발행일: 2026-08-24 / 버킷: this_week
+- 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- 우선순위 점수: 91.0
+- 발행일: 2026-08-25 / 버킷: this_week
 - 역할: lane_focus_world-flow / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보

@@ -8,7 +8,7 @@ shortlist 글 기준으로 지금 남은 blocker와 다음 한 줄 실행만 따
 ## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 - keyword: `fomc`
-- publish_date: `2026-08-21`
+- publish_date: `2026-08-22`
 - quality_status: `pass`
 - ready_now: `True`
 - hero_image_selected: `True`
@@ -30,7 +30,7 @@ shortlist 글 기준으로 지금 남은 blocker와 다음 한 줄 실행만 따
 ## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
-- publish_date: `2026-08-22`
+- publish_date: `2026-08-23`
 - quality_status: `pass`
 - ready_now: `True`
 - hero_image_selected: `True`
@@ -52,7 +52,7 @@ shortlist 글 기준으로 지금 남은 blocker와 다음 한 줄 실행만 따
 ## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - keyword: `ai_semiconductors`
-- publish_date: `2026-08-23`
+- publish_date: `2026-08-24`
 - quality_status: `pass`
 - ready_now: `True`
 - hero_image_selected: `True`

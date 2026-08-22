@@ -116,10 +116,10 @@
   "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
   "source_names": [
     "CNBC Top News",
-    "CoinDesk RSS",
     "Cointelegraph",
     "Financial Times Home",
-    "Financial Times World"
+    "MarketWatch Breaking News",
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
     "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지"
@@ -185,8 +185,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 111.87,
-    "search_score": 111.87,
+    "total_score": 113.47,
+    "search_score": 113.47,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,

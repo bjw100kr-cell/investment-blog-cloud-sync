@@ -1,43 +1,37 @@
 {
-  "generated_at": "2026-08-21T13:02:23.056174+00:00",
+  "generated_at": "2026-08-22T01:36:02.918301+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
       "keyword": "bitcoin",
-      "trend_count": 1,
-      "traffic_score_sum": 200,
-      "max_approx_traffic": 200,
-      "trend_queries": [
-        "fidelity bitcoin etf"
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 6900,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 57,
+      "source_count": 5,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Financial Times Home",
+        "Investing.com Crypto News"
       ],
-      "regions": [
-        "US"
-      ],
-      "demand_signal_score": 400,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
-    {
-      "keyword": "crypto_etf",
-      "trend_count": 1,
-      "traffic_score_sum": 200,
-      "max_approx_traffic": 200,
-      "trend_queries": [
-        "fidelity bitcoin etf"
-      ],
-      "regions": [
-        "US"
-      ],
-      "demand_signal_score": 400,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+      "sample_titles": [
+        "Crypto advocates join in suing Illinois over digital asset tax",
+        "Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs",
+        "Analysts split on whether Bitcoin's surge past key levels signals a new bull run"
+      ]
     },
     {
       "keyword": "treasury_yields",
@@ -46,23 +40,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4200,
+      "demand_signal_score": 3800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 30,
-      "source_count": 7,
+      "source_snapshot_score": 26,
+      "source_count": 5,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
         "Cointelegraph",
         "Financial Times Home",
-        "Financial Times World"
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.",
-        "Strategy Bitcoin treasury hits breakeven point as BTC price passes $77K",
-        "Gold rebounds as bond jitters, debt fears and weaker dollar revive bullion demand"
+        "Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump",
+        "Crypto Biz: Treasury’s ‘Not-QE’ playbook sends Bitcoin higher",
+        "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries"
       ]
     },
     {
@@ -72,15 +66,15 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3500,
+      "demand_signal_score": 3400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
+      "source_snapshot_score": 22,
       "source_count": 2,
       "source_names": [
         "Federal Reserve Monetary Policy Press",
-        "Financial Times World"
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -89,27 +83,27 @@
       ]
     },
     {
-      "keyword": "dollar",
+      "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2700,
+      "demand_signal_score": 2000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 15,
+      "source_snapshot_score": 8,
       "source_count": 3,
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
+        "Financial Times YouTube",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Gold rebounds as bond jitters, debt fears and weaker dollar revive bullion demand",
-        "Bitcoin and gold surge as Bessent’s bond market intervention weighs on dollar",
-        "Dollar wobbles as Treasury's bond market buybacks raise fresh concerns - Reuters"
+        "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+        "Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally - Reuters",
+        "Silicon shadows: inside the black market for AI chips | FT Film"
       ]
     }
   ],

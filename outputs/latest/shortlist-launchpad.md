@@ -6,7 +6,7 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 
 ## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword `fomc` / publish `2026-08-21` / verdict `approve` / quality `pass`
+- keyword `fomc` / publish `2026-08-22` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
@@ -25,18 +25,18 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 
 ## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-08-22` / verdict `approve` / quality `pass`
+- keyword `bitcoin` / publish `2026-08-23` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on), 실제 급상승 검색어 반영 (fidelity bitcoin etf)
+- why_now: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)
 - sample_headlines:
-  - fidelity bitcoin etf
+  - Crypto advocates join in suing Illinois over digital asset tax
   - Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs
   - Analysts split on whether Bitcoin's surge past key levels signals a new bull run
 - recent_evidence:
-  - Financial Times Home | 2026-08-21T12:42:56+00:00 | Bitcoin and gold surge as Bessent’s bond market intervention weighs on dollar
-  - CoinDesk RSS | 2026-08-21T12:10:55+00:00 | Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs
-  - Cointelegraph | 2026-08-21T11:58:10+00:00 | Standard Chartered wavers on $100K Bitcoin year-end call, says it may be ‘too low’
+  - Financial Times Home | 2026-08-21T21:46:46+00:00 | Bitcoin and gold surge as Bessent’s intervention in bond market hits dollar
+  - Cointelegraph | 2026-08-21T20:26:16+00:00 | Bitget CEO sees Bitcoin near current levels at year-end, doubts US will buy BTC
+  - CNBC Top News | 2026-08-21T20:19:21+00:00 | Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
@@ -44,17 +44,18 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 
 ## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword `ai_semiconductors` / publish `2026-08-23` / verdict `approve` / quality `pass`
+- keyword `ai_semiconductors` / publish `2026-08-24` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- why_now: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - sample_headlines:
-  - When it comes to stock buybacks, anything SK Hynix can do, Samsung can do bigger
-  - Nvidia earnings could rescue a stalled-out stock market — if the AI chip maker breaks this trend
+  - Anthropic IPO filing will show AI backlash as a risk factor, sources say
+  - Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally - Reuters
   - Silicon shadows: inside the black market for AI chips | FT Film
 - recent_evidence:
   - Financial Times YouTube | 54K views | Silicon shadows: inside the black market for AI chips | FT Film
-  - MarketWatch Breaking News | 2026-08-21T10:54:00+00:00 | Nvidia earnings could rescue a stalled-out stock market — if the AI chip maker breaks this trend
+  - CNBC Top News | 2026-08-21T22:03:39+00:00 | Anthropic IPO filing will show AI backlash as a risk factor, sources say
+  - Reuters Markets via Google News RSS | 2026-08-21T10:15:25+00:00 | Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally - Reuters
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`

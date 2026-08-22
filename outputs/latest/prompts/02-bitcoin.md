@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on), 실제 급상승 검색어 반영 (fidelity bitcoin etf)",
+  "summary_angle": "복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -108,15 +108,14 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.",
   "source_names": [
+    "CNBC Top News",
     "CoinDesk RSS",
     "Cointelegraph",
     "Financial Times Home",
-    "Financial Times World",
-    "Google Trends US",
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "fidelity bitcoin etf",
+    "Crypto advocates join in suing Illinois over digital asset tax",
     "Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs",
     "Analysts split on whether Bitcoin's surge past key levels signals a new bull run",
     "The hard truth is that the Clarity Act is an anti-crypto bill",
@@ -184,9 +183,9 @@
   },
   "score_breakdown": {
     "total_score": 88.0,
-    "search_score": 28,
+    "search_score": 29,
     "timeliness_score": 21,
-    "explanatory_score": 18,
+    "explanatory_score": 17,
     "monetization_score": 15,
     "risk_score": 3
   },
