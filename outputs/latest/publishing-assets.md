@@ -1,20 +1,20 @@
 # 퍼블리싱 자산
 
-- 생성 시각: `2026-08-22T01:36:02.918301+00:00`
+- 생성 시각: `2026-08-22T12:53:29.384484+00:00`
 
-## 1. fomc
+## 1. treasury_yields
 
-- 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- slug: `fomc-이후-시장-해설`
-- meta title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- meta description: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
+- 제목: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+- slug: `미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유`
+- meta title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+- meta description: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
 - 카테고리: macro
-- 추천 발행일: 2026-08-22
-- labels: 투자, 경제, 시장해설, FOMC, 연준, 거시경제, 미국증시
+- 추천 발행일: 2026-08-26
+- labels: 투자, 경제, 시장해설, 미국채금리, 거시경제, 금리
 - 내부링크: site-foundation/hub-macro.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
-- 이미지 추천: 대표 이미지(Unsplash / central bank meeting finance city skyline), 본문 보조 이미지(Pexels / interest rate macro economy abstract)
-- 후속 글 후보: FOMC 이후 시장이 주식과 코인에 미치는 영향, FOMC 이후 시장에서 다음으로 봐야 할 체크포인트 5가지, FOMC 이후 시장 초보자 가이드: 용어부터 시장 반응까지
-- 광고 슬롯: after_intro, mid_article, before_related_links
+- 이미지 추천: 대표 이미지(Unsplash / central bank finance city skyline market data), 본문 보조 이미지(Pexels / interest rate macro economy data screen)
+- 후속 글 후보: 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지
+- 광고 슬롯: after_intro, after_first_h2, before_faq, before_related_links
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.
 
@@ -50,15 +50,15 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.
 
-## 4. china
+## 4. tariffs_trade
 
-- 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- slug: `중국-변수와-시장-영향-해설`
-- meta title: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- meta description: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
+- 제목: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- slug: `관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기`
+- meta title: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- meta description: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - 카테고리: global-sector
 - 추천 발행일: 2026-08-25
-- labels: 투자, 경제, 시장해설, 중국, 세계흐름, 거시경제
+- labels: 투자, 경제, 시장해설, 관세, 무역, 세계흐름
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 - 이미지 추천: 대표 이미지(Unsplash / technology stocks office finance abstract), 본문 보조 이미지(Pexels / semiconductor data center abstract)
 - 광고 슬롯: after_intro, mid_article, before_related_links

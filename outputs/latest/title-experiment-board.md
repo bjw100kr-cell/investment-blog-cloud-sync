@@ -12,27 +12,27 @@
 - Search Console 연결 후 노출은 높고 CTR이 낮은 글부터 recommended_title로 교체 테스트합니다.
 - 급등/매수 유도형 제목은 제외하고 체크포인트/이유/자금 흐름 중심으로 테스트합니다.
 
-## 1. fomc
+## 1. treasury_yields
 
 - lane: `macro`
-- current_title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- recommended_title: FOMC 이후 시장 체크포인트 3가지: 금리, 달러, 위험자산
+- current_title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+- recommended_title: 미국채 금리 상승이 나스닥과 코인에 부담이 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `3400`
-- public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
+- demand_signal_score: `5000`
+- public_url: `missing`
 
 ### Variants
 
-- `fomc-v4` score `90` angle `macro-link`: FOMC 이후 시장 체크포인트 3가지: 금리, 달러, 위험자산
+- `treasury_yields-v5` score `93` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 체크포인트 3가지: 금리, 달러, 위험자산
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `fomc-v1` score `78` angle `checklist`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `fomc-v3` score `78` angle `checklist`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기
-  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `fomc-v2` score `78` angle `checklist`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
-  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `fomc-v6` score `70` angle `explainer`: FOMC 이후 투자자가 오늘 확인할 숫자들
-  - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
+- `treasury_yields-v1` score `85` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
+- `treasury_yields-v3` score `85` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
+  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
+- `treasury_yields-v2` score `85` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
+  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
+- `treasury_yields-v4` score `85` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이, 지금 주식과 코인이 같이 흔들리는 이유
+  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
 
 ## 2. bitcoin
 
@@ -62,7 +62,7 @@
 - current_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - recommended_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - recommended_angle: `stock-market`
-- demand_signal_score: `2000`
+- demand_signal_score: `0`
 - public_url: `missing`
 
 ### Variants
@@ -78,46 +78,46 @@
 - `ai_semiconductors-v5` score `77` angle `macro-link`: AI 반도체 주가를 볼 때 실적보다 먼저 확 체크포인트: 금리, 실적, 섹터 폭을 같이 봐야 하는 이유
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
 
-## 4. china
+## 4. tariffs_trade
 
 - lane: `world-flow`
-- current_title: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- recommended_title: 중국 변수와 시장 영향, 환율과 원자재까지 같이 봐야 하는 이유
+- current_title: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- recommended_title: 관세와 무역 갈등이 증시에 미치는 영향, 환율과 원자재까지 같이 봐야 하는 이유
 - recommended_angle: `macro-link`
 - demand_signal_score: `0`
-- public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
-
-### Variants
-
-- `china-v3` score `77` angle `macro-link`: 중국 변수와 시장 영향, 환율과 원자재까지 같이 봐야 하는 이유
-  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `china-v1` score `77` angle `macro-link`: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `china-v2` score `77` angle `macro-link`: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `china-v5` score `70` angle `macro-link`: 중국 변수와 시장 영향 핵심 변수 3가지: 경기부양, 환율, 수요
-  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `china-v4` score `50` angle `explainer`: 중국 변수와 시장 영향이 시장에 번지는 경로: 주식, 코인, 원자재 체크
-  - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
-
-## 5. treasury_yields
-
-- lane: `macro`
-- current_title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-- recommended_title: 미국채 금리 상승이 나스닥과 코인에 부담이 체크포인트 3가지: 금리, 달러, 위험자산
-- recommended_angle: `macro-link`
-- demand_signal_score: `3800`
 - public_url: `missing`
 
 ### Variants
 
-- `treasury_yields-v5` score `90` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 체크포인트 3가지: 금리, 달러, 위험자산
+- `tariffs_trade-v3` score `77` angle `macro-link`: 관세와 무역 갈등이 증시에 미치는 영향, 환율과 원자재까지 같이 봐야 하는 이유
+  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
+- `tariffs_trade-v2` score `77` angle `macro-link`: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유
+  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
+- `tariffs_trade-v5` score `70` angle `macro-link`: 관세와 무역 갈등이 증시에 미치는 영향 핵심 변수 3가지: 경기부양, 환율, 수요
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `treasury_yields-v1` score `82` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `treasury_yields-v3` score `82` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
-  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `treasury_yields-v2` score `82` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
-  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `treasury_yields-v4` score `82` angle `macro-link`: 미국채 금리 상승이 나스닥과 코인에 부담이, 지금 주식과 코인이 같이 흔들리는 이유
-  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
+- `tariffs_trade-v1` score `62` angle `macro-link`: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+  - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
+- `tariffs_trade-v4` score `50` angle `explainer`: 관세와 무역 갈등이 증시에 미치는 영향이 시장에 번지는 경로: 주식, 코인, 원자재 체크
+  - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
+
+## 5. fomc
+
+- lane: `macro`
+- current_title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+- recommended_title: FOMC 이후 시장 체크포인트 3가지: 금리, 달러, 위험자산
+- recommended_angle: `macro-link`
+- demand_signal_score: `3200`
+- public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
+
+### Variants
+
+- `fomc-v4` score `90` angle `macro-link`: FOMC 이후 시장 체크포인트 3가지: 금리, 달러, 위험자산
+  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
+- `fomc-v1` score `78` angle `checklist`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
+- `fomc-v3` score `78` angle `checklist`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기
+  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
+- `fomc-v2` score `78` angle `checklist`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
+  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
+- `fomc-v6` score `70` angle `explainer`: FOMC 이후 투자자가 오늘 확인할 숫자들
+  - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
