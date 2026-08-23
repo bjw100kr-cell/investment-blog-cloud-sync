@@ -1,6 +1,6 @@
 # 발행 우선순위 큐
 
-- 생성 시각: `2026-08-23T01:45:32.408389+00:00`
+- 생성 시각: `2026-08-23T12:54:23.059982+00:00`
 - 큐 개수: `4`
 - 업로드 가능 글 수: `4`
 
@@ -32,24 +32,25 @@
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크: site-foundation/hub-crypto.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 
-## 3. ai_semiconductors
+## 3. us_big_tech
 
-- 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 우선순위 점수: 91.0
+- 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+- 우선순위 점수: 111.0
 - 발행일: 2026-08-25 / 버킷: this_week
 - 역할: lane_focus_us-stocks / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
 - CTA 초점: 실적·공급망·대표 종목 글로 연결
 - 광고 슬롯 추천: after_intro, mid_article, before_related_links
-- 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
+- 트렌드 쿼리: apple tv
+- 발행 메모: 당일 이슈 해설형 글
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 
 ## 4. tariffs_trade
 
 - 제목: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
-- 우선순위 점수: 71.0
+- 우선순위 점수: 83.0
 - 발행일: 2026-08-26 / 버킷: this_week
 - 역할: lane_focus_world-flow / 타입: breaking_explainer
 - 업로드 가능: True

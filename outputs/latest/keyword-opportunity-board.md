@@ -1,9 +1,9 @@
 # 오늘의 키워드 기회판
 
-- 생성 시각: `2026-08-23T01:45:32.408389+00:00`
+- 생성 시각: `2026-08-23T12:54:23.059982+00:00`
 - 당일 브레이킹 후보: `5`
 - SEO 후속 후보: `6`
-- 검색어 워치리스트: `4`
+- 검색어 워치리스트: `5`
 
 ## 오늘 바로 볼 브레이킹 후보
 
@@ -11,40 +11,41 @@
 
 - keyword: treasury_yields
 - urgency: publish_now
-- score: 87.0 / search 26 / demand 4900
+- score: 87.0 / search 26 / demand 3700
 - ready_to_upload: True
 - queue_publish: 2026-08-23 (today_or_overdue)
-- reason: 복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음
+- reason: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
 - action: 오늘 메인 글로 바로 발행하고, 후속 SEO 글 1~2개로 내부링크를 같이 준비합니다.
 
 ### 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: bitcoin
 - urgency: prep_today
-- score: 85.0 / search 29 / demand 6400
+- score: 85.0 / search 29 / demand 6700
 - ready_to_upload: True
 - queue_publish: 2026-08-24 (tomorrow)
 - reason: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - action: 초안과 메타 설명을 오늘 마무리해 두고 다음 발행 슬롯에 올립니다.
 
-### 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+### 3. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
-- keyword: ai_semiconductors
+- keyword: us_big_tech
 - urgency: watch
-- score: 64.0 / search 12 / demand 0
+- score: 80.0 / search 26 / demand 1200
 - ready_to_upload: True
 - queue_publish: 2026-08-25 (this_week)
-- reason: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- action: 카테고리 보강용 후보로 계속 추적합니다.
+- trend_queries: apple tv
+- reason: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (apple tv)
+- action: 검색 반응을 더 본 뒤 제목형 후속 글로 빼는 편이 좋습니다.
 
 ### 4. 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
 
 - keyword: tariffs_trade
 - urgency: watch
-- score: 46.0 / search 3 / demand 0
+- score: 57.0 / search 8 / demand 0
 - ready_to_upload: True
 - queue_publish: 2026-08-26 (this_week)
-- reason: 섹터/세계 흐름 연결 해설 가능
+- reason: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
 - action: 카테고리 보강용 후보로 계속 추적합니다.
 
 ### 5. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
@@ -115,11 +116,11 @@
 
 ## 검색어 워치리스트
 
-- `비트코인 전망`: type mapped_keyword_demand / mapped bitcoin / demand 6400 / regions unknown
+- `비트코인 전망`: type mapped_keyword_demand / mapped bitcoin / demand 6700 / regions unknown
   - reader_search_queries: 비트코인 전망, 비트코인 ETF 자금 흐름, 비트코인 하락 이유, 비트코인 오늘 시세 보는법
   - suggested_title: 비트코인 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.
-- `미국채 금리 상승 이유`: type mapped_keyword_demand / mapped treasury_yields / demand 4900 / regions unknown
+- `미국채 금리 상승 이유`: type mapped_keyword_demand / mapped treasury_yields / demand 3700 / regions unknown
   - reader_search_queries: 미국채 금리 상승 이유, 10년물 국채금리 주식 영향, 국채금리 비트코인 영향, 금리 상승 성장주 영향
   - suggested_title: 미국채 금리 상승 이유 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.
@@ -130,4 +131,8 @@
 - `국제유가 전망`: type mapped_keyword_demand / mapped oil / demand 2100 / regions unknown
   - reader_search_queries: 국제유가 전망, 유가 상승 주식 영향, WTI 유가 보는법, 원유 가격 인플레이션 영향
   - suggested_title: 국제유가 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리
+  - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.
+- `미국 빅테크 주식`: type mapped_keyword_demand / mapped us_big_tech / demand 1200 / regions US
+  - reader_search_queries: 미국 빅테크 주식, 애플 주가 영향, 테슬라 주가 전망, 마이크로소프트 AI 투자, apple tv
+  - suggested_title: 미국 빅테크 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리
   - note: 기존 핵심 키워드와 연결된 사람 검색형 문구입니다. 제목, 소제목, 배포문구, 내부링크 앵커에 우선 사용합니다.

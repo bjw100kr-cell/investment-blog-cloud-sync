@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T01:45:32.408389+00:00",
+  "generated_at": "2026-08-23T12:54:23.059982+00:00",
   "summary": {
     "ok_sources": 14,
     "item_count": 112
@@ -153,13 +153,13 @@
   "ranked_keywords": [
     {
       "keyword": "bitcoin",
-      "score": 52,
+      "score": 55,
       "source_count": 4,
       "sources": [
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "NYT Business"
       ],
       "sample_titles": [
         "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
@@ -171,14 +171,11 @@
     },
     {
       "keyword": "treasury_yields",
-      "score": 37,
-      "source_count": 8,
+      "score": 25,
+      "source_count": 5,
       "sources": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times Home",
-        "Financial Times World",
         "Investing.com Crypto News",
         "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
@@ -187,8 +184,23 @@
         "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
         "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
         "Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump",
-        "Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'",
-        "Bitcoin holds above $77,000 after Treasury-fuelled short squeeze"
+        "Bitcoin holds above $77,000 after Treasury-fuelled short squeeze",
+        "Trump says he did not direct Bessent to intervene in bond market - Reuters"
+      ]
+    },
+    {
+      "keyword": "us_big_tech",
+      "score": 20,
+      "source_count": 3,
+      "sources": [
+        "CNBC Top News",
+        "Google Trends US",
+        "NYT Business"
+      ],
+      "sample_titles": [
+        "apple tv",
+        "Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway",
+        "How Big Tech Captured American Schools"
       ]
     },
     {
@@ -207,14 +219,15 @@
     {
       "keyword": "oil",
       "score": 9,
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
+        "Financial Times World",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "EXCLUSIVE: Tankers stack up as Venezuela sells oil faster than its ports can handle - Reuters",
         "Global stocks close out a tough week as bond yields, oil stay high - Reuters",
-        "Indian shares log weekly losses as higher oil, bond yields dent risk appetite - Reuters"
+        "Oil rises as Trump threatens sanctions on Iran partners - Reuters",
+        "Occidental tries to free itself from the messy legacy of Anadarko deal"
       ]
     },
     {
@@ -222,26 +235,27 @@
       "score": 8,
       "source_count": 3,
       "sources": [
-        "CNBC Top News",
+        "Financial Times Home",
         "Financial Times YouTube",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Nvidia customers reportedly warned about AI-related price hikes",
+        "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
         "Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally - Reuters",
         "Silicon shadows: inside the black market for AI chips | FT Film"
       ]
     },
     {
-      "keyword": "us_big_tech",
-      "score": 6,
-      "source_count": 1,
+      "keyword": "tariffs_trade",
+      "score": 5,
+      "source_count": 2,
       "sources": [
-        "CNBC Top News"
+        "Financial Times World",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway",
-        "Meta is the latest tech giant to land in her courtroom. Meet Judge Yvonne Gonzalez Rogers"
+        "Mark Carney says Canada ‘at war’ with US over trade",
+        "U.S. Economy Could Feel the Sting From Trade War With Canada"
       ]
     },
     {
@@ -257,14 +271,13 @@
     },
     {
       "keyword": "dollar",
-      "score": 4,
+      "score": 2,
       "source_count": 1,
       "sources": [
         "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Canada announces retaliatory tariffs on U.S. goods after trade talks break down",
-        "Why an announcement from the Treasury sparked a rally in gold and bitcoin this week"
+        "Canada announces retaliatory tariffs on U.S. goods after trade talks break down"
       ]
     },
     {
@@ -277,24 +290,13 @@
       "sample_titles": [
         "Palantir: profits, procurement and power | FT Film"
       ]
-    },
-    {
-      "keyword": "tariffs_trade",
-      "score": 2,
-      "source_count": 1,
-      "sources": [
-        "NYT Business"
-      ],
-      "sample_titles": [
-        "U.S. Economy Could Feel the Sting From Trade War With Canada"
-      ]
     }
   ],
   "topic_candidates": [
     {
       "keyword": "bitcoin",
-      "score": 52,
-      "headline_count": 16,
+      "score": 55,
+      "headline_count": 17,
       "sample_titles": [
         "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
         "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
@@ -303,8 +305,8 @@
     },
     {
       "keyword": "treasury_yields",
-      "score": 37,
-      "headline_count": 12,
+      "score": 25,
+      "headline_count": 8,
       "sample_titles": [
         "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
         "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
@@ -322,13 +324,23 @@
       ]
     },
     {
+      "keyword": "us_big_tech",
+      "score": 20,
+      "headline_count": 3,
+      "sample_titles": [
+        "apple tv",
+        "Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway",
+        "How Big Tech Captured American Schools"
+      ]
+    },
+    {
       "keyword": "oil",
       "score": 9,
       "headline_count": 3,
       "sample_titles": [
-        "EXCLUSIVE: Tankers stack up as Venezuela sells oil faster than its ports can handle - Reuters",
         "Global stocks close out a tough week as bond yields, oil stay high - Reuters",
-        "Indian shares log weekly losses as higher oil, bond yields dent risk appetite - Reuters"
+        "Oil rises as Trump threatens sanctions on Iran partners - Reuters",
+        "Occidental tries to free itself from the messy legacy of Anadarko deal"
       ]
     },
     {
@@ -336,27 +348,18 @@
       "score": 8,
       "headline_count": 3,
       "sample_titles": [
-        "Nvidia customers reportedly warned about AI-related price hikes",
+        "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
         "Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally - Reuters",
         "Silicon shadows: inside the black market for AI chips | FT Film"
       ]
     },
     {
-      "keyword": "us_big_tech",
-      "score": 6,
+      "keyword": "tariffs_trade",
+      "score": 5,
       "headline_count": 2,
       "sample_titles": [
-        "Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway",
-        "Meta is the latest tech giant to land in her courtroom. Meet Judge Yvonne Gonzalez Rogers"
-      ]
-    },
-    {
-      "keyword": "dollar",
-      "score": 4,
-      "headline_count": 2,
-      "sample_titles": [
-        "Canada announces retaliatory tariffs on U.S. goods after trade talks break down",
-        "Why an announcement from the Treasury sparked a rally in gold and bitcoin this week"
+        "Mark Carney says Canada ‘at war’ with US over trade",
+        "U.S. Economy Could Feel the Sting From Trade War With Canada"
       ]
     },
     {
@@ -376,80 +379,20 @@
       ]
     },
     {
-      "keyword": "tariffs_trade",
+      "keyword": "dollar",
       "score": 2,
       "headline_count": 1,
       "sample_titles": [
-        "U.S. Economy Could Feel the Sting From Trade War With Canada"
+        "Canada announces retaliatory tariffs on U.S. goods after trade talks break down"
       ]
     }
   ],
   "naver_datalab": null,
   "items": [
     {
-      "title": "bangladesh vs australia",
+      "title": "중간 선거",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 22 Aug 2026 17:30:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "inter miami vs toronto",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 22 Aug 2026 17:00:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "연차",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 22 Aug 2026 16:30:00 -0700",
-      "description": "",
-      "approx_traffic": "1000+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "남편",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 22 Aug 2026 16:30:00 -0700",
-      "description": "",
-      "approx_traffic": "1000+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "그랜드 테프트 오토 vi",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 22 Aug 2026 16:30:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "전북 현대 모터스 fc",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 22 Aug 2026 16:20:00 -0700",
+      "published": "Sun, 23 Aug 2026 04:50:00 -0700",
       "description": "",
       "approx_traffic": "100+",
       "source_id": "google_trends_kr",
@@ -459,9 +402,9 @@
       "source_weight": 5
     },
     {
-      "title": "lg에너지솔루션",
+      "title": "스마트폰",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 22 Aug 2026 16:00:00 -0700",
+      "published": "Sun, 23 Aug 2026 04:50:00 -0700",
       "description": "",
       "approx_traffic": "200+",
       "source_id": "google_trends_kr",
@@ -471,11 +414,11 @@
       "source_weight": 5
     },
     {
-      "title": "롯데 자이언츠",
+      "title": "치매",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 22 Aug 2026 16:00:00 -0700",
+      "published": "Sun, 23 Aug 2026 04:40:00 -0700",
       "description": "",
-      "approx_traffic": "500+",
+      "approx_traffic": "10000+",
       "source_id": "google_trends_kr",
       "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
@@ -483,57 +426,69 @@
       "source_weight": 5
     },
     {
-      "title": "sara bejlek",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 22 Aug 2026 18:30:00 -0700",
+      "title": "코로나",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 23 Aug 2026 04:20:00 -0700",
       "description": "",
-      "approx_traffic": "10000+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
       "source_type": "rss",
       "source_weight": 5
     },
     {
-      "title": "bella mir",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 22 Aug 2026 18:30:00 -0700",
+      "title": "카라스코",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 23 Aug 2026 04:20:00 -0700",
       "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
+      "approx_traffic": "100+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
       "source_type": "rss",
       "source_weight": 5
     },
     {
-      "title": "charlotte fc",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 22 Aug 2026 18:30:00 -0700",
+      "title": "수능원서접수",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 23 Aug 2026 04:10:00 -0700",
       "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
       "source_type": "rss",
       "source_weight": 5
     },
     {
-      "title": "rdr",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 22 Aug 2026 18:30:00 -0700",
+      "title": "지석진",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 23 Aug 2026 03:40:00 -0700",
       "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
+      "approx_traffic": "1000+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
       "source_type": "rss",
       "source_weight": 5
     },
     {
-      "title": "bejlek tennis",
+      "title": "나 혼자 산다",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 23 Aug 2026 03:40:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "man city",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 22 Aug 2026 18:30:00 -0700",
+      "published": "Sun, 23 Aug 2026 05:40:00 -0700",
       "description": "",
       "approx_traffic": "2000+",
       "source_id": "google_trends_us",
@@ -543,11 +498,11 @@
       "source_weight": 5
     },
     {
-      "title": "rob lowe",
+      "title": "alex palou",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 22 Aug 2026 18:30:00 -0700",
+      "published": "Sun, 23 Aug 2026 05:40:00 -0700",
       "description": "",
-      "approx_traffic": "500+",
+      "approx_traffic": "2000+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -555,9 +510,9 @@
       "source_weight": 5
     },
     {
-      "title": "casey mize",
+      "title": "apple tv",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 22 Aug 2026 18:30:00 -0700",
+      "published": "Sun, 23 Aug 2026 05:40:00 -0700",
       "description": "",
       "approx_traffic": "1000+",
       "source_id": "google_trends_us",
@@ -567,9 +522,57 @@
       "source_weight": 5
     },
     {
-      "title": "by any means movie",
+      "title": "ollie watkins",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 22 Aug 2026 18:30:00 -0700",
+      "published": "Sun, 23 Aug 2026 05:40:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "davina michelle",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sun, 23 Aug 2026 05:40:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "zandvoort f1",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sun, 23 Aug 2026 05:40:00 -0700",
+      "description": "",
+      "approx_traffic": "100+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "cole hauser",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sun, 23 Aug 2026 05:30:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "psv vs groningen",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sun, 23 Aug 2026 05:30:00 -0700",
       "description": "",
       "approx_traffic": "200+",
       "source_id": "google_trends_us",
@@ -867,10 +870,10 @@
       "source_weight": 3
     },
     {
-      "title": "Inside Coca-Cola’s secretive innovation labs: How the beverage giant wants to automate dirty soda and refreshers",
-      "link": "https://www.cnbc.com/2026/08/22/coca-cola-innovation-labs-dirty-sodas-refreshers.html",
-      "published": "Sat, 22 Aug 2026 12:00:01 GMT",
-      "description": "From McDonald's to Wendy's, longtime Coke customers have been expanding their beverage offerings to boost their profit margins.",
+      "title": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
+      "link": "https://www.cnbc.com/2026/08/23/united-airlines-ceo-scott-kirby.html",
+      "published": "Sun, 23 Aug 2026 12:00:01 GMT",
+      "description": "United Airlines CEO Scott Kirby talked to CNBC in a wide-ranging interview about his proposed airline megadeals, AI and the future of the carrier.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -879,10 +882,10 @@
       "source_weight": 3
     },
     {
-      "title": "As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8",
-      "link": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
-      "published": "Sat, 22 Aug 2026 20:18:15 GMT",
-      "description": "New 50% Trump administration tariffs on some Canadian exports went into place after the U.S. and Canada failed to reach a deal on Friday.",
+      "title": "Wells Fargo and Citigroup have room to buy a big bank. These 5 regionals fit the bill",
+      "link": "https://www.cnbc.com/2026/08/23/wells-fargo-citigroup-deals-regional-banks.html",
+      "published": "Sun, 23 Aug 2026 12:00:01 GMT",
+      "description": "Citigroup and Wells Fargo have room to buy a big regional bank as regulators have opened the door to megadeals. Five regional banks make sense as targets.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -903,10 +906,10 @@
       "source_weight": 3
     },
     {
-      "title": "Paramount, California AG office reportedly plan to meet Monday to discuss settling WBD lawsuit",
-      "link": "https://www.cnbc.com/2026/08/22/paramount-california-ag-said-to-plan-meeting-on-settling-wbd-suit-.html",
-      "published": "Sat, 22 Aug 2026 20:34:13 GMT",
-      "description": "Paramount and the California A.G. office are set to meet Monday to discuss a settlement of the antitrust lawsuit over Paramount's Warner Bros. Discovery deal.",
+      "title": "Inside Coca-Cola’s secretive innovation labs: How the beverage giant wants to automate dirty soda and refreshers",
+      "link": "https://www.cnbc.com/2026/08/22/coca-cola-innovation-labs-dirty-sodas-refreshers.html",
+      "published": "Sat, 22 Aug 2026 12:00:01 GMT",
+      "description": "From McDonald's to Wendy's, longtime Coke customers have been expanding their beverage offerings to boost their profit margins.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -915,10 +918,10 @@
       "source_weight": 3
     },
     {
-      "title": "Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'",
-      "link": "https://www.cnbc.com/2026/08/22/iran-criticizes-us-sanctions-extraterritorial-sovereignty.html",
-      "published": "Sat, 22 Aug 2026 10:34:23 GMT",
-      "description": "U.S. Treasury Secretary Scott Bessent told CNBC on Thursday that the proposed economic measures will likely negate the need for major U.S. military operations.",
+      "title": "As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8",
+      "link": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
+      "published": "Sun, 23 Aug 2026 06:39:00 GMT",
+      "description": "New 50% Trump administration tariffs on some Canadian exports went into place after the U.S. and Canada failed to reach a deal on Friday.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -927,10 +930,10 @@
       "source_weight": 3
     },
     {
-      "title": "Nvidia customers reportedly warned about AI-related price hikes",
-      "link": "https://www.cnbc.com/2026/08/22/nvidia-customers-reportedly-warned-about-ai-related-price-hikes-.html",
-      "published": "Sat, 22 Aug 2026 20:26:44 GMT",
-      "description": "The chipmaker has told some of its largest customers that the prices of servers containing its AI chips could move more than 15% higher, Bloomberg News reported.",
+      "title": "Top Wall Street analysts believe in the growth potential of these 3 stocks",
+      "link": "https://www.cnbc.com/2026/08/23/top-analysts-believe-in-the-growth-potential-of-these-3-stocks.html",
+      "published": "Sun, 23 Aug 2026 11:29:05 GMT",
+      "description": "Analysts are bullish on the prospects of several stocks due to their long-term growth potential and exposure to lucrative areas, such as artificial intelligence.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -939,10 +942,10 @@
       "source_weight": 3
     },
     {
-      "title": "Meta is the latest tech giant to land in her courtroom. Meet Judge Yvonne Gonzalez Rogers",
-      "link": "https://www.cnbc.com/2026/08/22/meet-yvonne-gonzalez-rogers-judge-taking-on-meta.html",
-      "published": "Sat, 22 Aug 2026 12:12:03 GMT",
-      "description": "Judge Yvonne Gonzalez Rogers has presided over a series of landmark tech trials and is now overseeing a case that could have a huge impact on Meta's future.",
+      "title": "Small UK power generator shut down after cyberattack linked to Iran: Telegraph",
+      "link": "https://www.cnbc.com/2026/08/23/small-uk-power-plant-shut-down-after-iran-linked-cyberattack-report.html",
+      "published": "Sun, 23 Aug 2026 12:46:01 GMT",
+      "description": "The U.K. government says the incident did not pose a risk to the country's energy system, adding that it briefed CEOs of companies in the sector with advice.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -951,10 +954,10 @@
       "source_weight": 3
     },
     {
-      "title": "38-year-old runs a mobile pizzeria out of his Smart car in New York City: It's 'like a circus or a magic act'",
-      "link": "https://www.cnbc.com/2026/08/22/bradley-alvelo-runs-pizza-pod-mobile-pizzeria-smart-car-new-york-city.html",
-      "published": "Sat, 22 Aug 2026 14:00:01 GMT",
-      "description": "\"Pizza Pod started with a pretty ridiculous idea: What if I could turn a tiny Smart car into a mobile pizzeria?\" says founder Bradley Alvelo.",
+      "title": "Emergency savings shortfall signals 'danger' for working households, Suze Orman says",
+      "link": "https://www.cnbc.com/2026/08/22/emergency-savings-workers-financial-strain.html",
+      "published": "Sat, 22 Aug 2026 13:30:01 GMT",
+      "description": "A new survey shows even a $500 unexpected expense may throw households off track when it comes to big life goals like saving for retirement.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -963,9 +966,45 @@
       "source_weight": 3
     },
     {
-      "title": "Bitcoin hits RSI 83.7 with MFI maxed out: Live levels",
+      "title": "Bitcoin slips under $77,000 as rally boosts mining economics",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-under-77000-as-rally-boosts-mining-economics-4872436",
+      "published": "2026-08-23 09:58:05",
+      "description": "",
+      "approx_traffic": "",
+      "source_id": "investing_news",
+      "source_name": "Investing.com Crypto News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Bitcoin surges past $76K with overbought RSI: Live levels",
       "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-coiled-at-63591-with-volatility-at-6month-lows-live-levels-93CH-4862234",
-      "published": "2026-08-22 19:02:09",
+      "published": "2026-08-23 07:02:36",
+      "description": "",
+      "approx_traffic": "",
+      "source_id": "investing_news",
+      "source_name": "Investing.com Crypto News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "XRP Falls 11% In Bearish Trade",
+      "link": "https://www.investing.com/news/cryptocurrency-news/xrp-falls-11-in-bearish-trade-4872415",
+      "published": "2026-08-23 04:01:01",
+      "description": "",
+      "approx_traffic": "",
+      "source_id": "investing_news",
+      "source_name": "Investing.com Crypto News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Cardano Falls 10% In Bearish Trade",
+      "link": "https://www.investing.com/news/cryptocurrency-news/cardano-falls-10-in-bearish-trade-4872414",
+      "published": "2026-08-23 03:40:55",
       "description": "",
       "approx_traffic": "",
       "source_id": "investing_news",
@@ -1023,46 +1062,10 @@
       "source_weight": 3
     },
     {
-      "title": "XRP Climbs 10% In Rally",
-      "link": "https://www.investing.com/news/cryptocurrency-news/xrp-climbs-10-in-rally-4872157",
-      "published": "2026-08-21 21:00:03",
-      "description": "",
-      "approx_traffic": "",
-      "source_id": "investing_news",
-      "source_name": "Investing.com Crypto News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "XRP price outlook: Can it clear $1.50? Key levels to watch before buying",
-      "link": "https://www.investing.com/news/cryptocurrency-news/xrp-price-outlook-can-it-clear-150-key-levels-to-watch-before-buying-93CH-4871679",
-      "published": "2026-08-21 13:16:04",
-      "description": "",
-      "approx_traffic": "",
-      "source_id": "investing_news",
-      "source_name": "Investing.com Crypto News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "EOS Climbs 12% In a Green Day",
-      "link": "https://www.investing.com/news/cryptocurrency-news/eos-climbs-12-in-a-green-day-4871617",
-      "published": "2026-08-21 12:52:03",
-      "description": "",
-      "approx_traffic": "",
-      "source_id": "investing_news",
-      "source_name": "Investing.com Crypto News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Mark Carney says Canada is now ‘at war’ with US over trade",
-      "link": "https://www.ft.com/content/e3b5c236-bd5f-45c2-8ddf-5279a7375d3f?syn-25a6b1a6=1",
-      "published": "Sat, 22 Aug 2026 17:22:54 GMT",
-      "description": "Prime Minister says Donald Trump miscalculated by escalating his tariffs attack on the country",
+      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "link": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245?syn-25a6b1a6=1",
+      "published": "Sun, 23 Aug 2026 08:23:24 GMT",
+      "description": "AI lab’s Fable 5 has met with sluggish demand from corporate clients",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1071,10 +1074,10 @@
       "source_weight": 3
     },
     {
-      "title": "Who counts in Trump’s America?",
-      "link": "https://www.ft.com/content/7c9cd212-58c6-44e1-b515-022271e4390d?syn-25a6b1a6=1",
-      "published": "Sat, 22 Aug 2026 04:00:29 GMT",
-      "description": "Gillian Tett on the president’s bid to reform the 10-year census, and the explosive politics behind who gets included and who gets to decide",
+      "title": "Government can bring robotics to life",
+      "link": "https://www.ft.com/content/a4147c6b-5634-4035-b1a8-ac7bf1eb497d?syn-25a6b1a6=1",
+      "published": "Sun, 23 Aug 2026 11:15:07 GMT",
+      "description": "Without policy, there are few incentives to automate business functions where labour costs are low",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1083,10 +1086,10 @@
       "source_weight": 3
     },
     {
-      "title": "Europe’s fatal beauty",
-      "link": "https://www.ft.com/content/ff65daca-59bb-48f2-a6d1-e177a6409459?syn-25a6b1a6=1",
-      "published": "Sat, 22 Aug 2026 04:00:38 GMT",
-      "description": "A less seductive continent would not attract so many enemies",
+      "title": "Alibaba announces $10.2bn share placement as Chinese companies expand AI investment",
+      "link": "https://www.ft.com/content/e4ab027e-ed41-48b7-89ac-8250d3054ae6?syn-25a6b1a6=1",
+      "published": "Sun, 23 Aug 2026 08:33:27 GMT",
+      "description": "Equity issuance follows a strong reception for its latest Qwen 3.8-Max model",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1095,10 +1098,10 @@
       "source_weight": 3
     },
     {
-      "title": "Trump’s challenge: $40tn debt, 6.7% mortgages and $5 diesel",
-      "link": "https://www.ft.com/content/6cb399fa-9fba-4806-98a3-9572fe319622?syn-25a6b1a6=1",
-      "published": "Sat, 22 Aug 2026 04:00:38 GMT",
-      "description": "The president’s agenda is under strain as the Iran war pushes up prices and America’s finances worsen",
+      "title": "Are America’s vast Gulf bases worth rebuilding?",
+      "link": "https://www.ft.com/content/6f664a31-ca24-4a16-a6e9-5978fdf2512c?syn-25a6b1a6=1",
+      "published": "Sun, 23 Aug 2026 04:00:15 GMT",
+      "description": "Iran’s attacks exposed vulnerability of US military footprint spanning the region since the 1990s",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1107,10 +1110,34 @@
       "source_weight": 3
     },
     {
-      "title": "Bossing the bond market around never works",
-      "link": "https://www.ft.com/content/b9e7a620-1018-4004-a3b0-3c85d494d21d?syn-25a6b1a6=1",
-      "published": "Sat, 22 Aug 2026 04:00:38 GMT",
-      "description": "Despite Scott Bessent’s efforts, investors worry something is up",
+      "title": "Trump’s South Korea snub raises questions in the Asia-Pacific",
+      "link": "https://www.ft.com/content/22530c4a-65b7-49f7-890d-1c8900f63853?syn-25a6b1a6=1",
+      "published": "Sun, 23 Aug 2026 11:00:07 GMT",
+      "description": "Scaling back military exercises has undermined faith in America’s reliability",
+      "approx_traffic": "",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Europe can do better than US-style air conditioning",
+      "link": "https://www.ft.com/content/fe9be519-ceae-4279-83b1-220f9505d6a9",
+      "published": "Sun, 23 Aug 2026 04:00:08 GMT",
+      "description": "The instinct is to bolt a dripping box to every building but there is a smarter, cooler way",
+      "approx_traffic": "",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Zelenskyy rejects election call from fired defence minister",
+      "link": "https://www.ft.com/content/14eeeead-647f-486a-a8dc-7ca2610f3d35",
+      "published": "Sun, 23 Aug 2026 11:26:39 GMT",
+      "description": "President says wartime vote would ‘split Ukraine apart’ as he seeks to reassert authority",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1123,30 +1150,6 @@
       "link": "https://www.ft.com/content/d770cdbf-46b1-4928-9ec7-e1155db679d2",
       "published": "Sat, 22 Aug 2026 18:17:56 GMT",
       "description": "Washington’s ambassador to Ankara says attack on air base could have been ‘aggressive . . . pre-election concept’ ahead of October polls",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Russian ‘double-tap’ attack on Ukrainian shopping mall kills at least 16",
-      "link": "https://www.ft.com/content/a7837e1c-6865-42bd-9902-3d4c4b7f37ef?syn-25a6b1a6=1",
-      "published": "Sat, 22 Aug 2026 19:29:26 GMT",
-      "description": "Volodymyr Zelenskyy calls on allies to pile ‘real pressure’ on Moscow to end the war",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Germany becomes Europe’s largest regulated cannabis market",
-      "link": "https://www.ft.com/content/6541cb37-1bc7-4f52-a8ef-f503d13be4ce",
-      "published": "Sat, 22 Aug 2026 04:00:09 GMT",
-      "description": "Critics are calling for legislation to be tightened two years after the drug was partially liberalised",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1179,10 +1182,10 @@
       "source_weight": 3
     },
     {
-      "title": "Wall St rises on the day but falls for the week; bond yields and Iran in focus - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5",
-      "published": "Fri, 21 Aug 2026 22:58:54 GMT",
-      "description": "Wall St rises on the day but falls for the week; bond yields and Iran in focus &nbsp;&nbsp; Reuters",
+      "title": "Let there be sunlight: Vatican plans solar and agriculture plant to cover its electricity needs - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWGw0X0lOUmZESVVqMWhVeV84V3ptaFJTWDhqSzdPUm9CUEF5QmppQUExYWVwN09OZjhqYnpOcUxaRDZHdngzTHNaWWtPZy1namVHODNULWtCNkpSV0hvSmRfMkRFeXQ2bkNIR05qQUFSdzc4bWV4ZFZud0ppWWVGQVVnbTR0ZXhSMUVWQ3Y5ZXluc1VrUXh6NUhmNEJ2RDAzdElkMjZKS3lqMXNHdHR1ZlJB?oc=5",
+      "published": "Sat, 22 Aug 2026 21:46:16 GMT",
+      "description": "Let there be sunlight: Vatican plans solar and agriculture plant to cover its electricity needs &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1203,10 +1206,22 @@
       "source_weight": 3
     },
     {
-      "title": "EXCLUSIVE: Tankers stack up as Venezuela sells oil faster than its ports can handle - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcmstT2tWcUdBLXhnOE9WcUlmOWdfSzdyZTVPeGoyVVBVQVVVS2piRVZKT1g4X2RLNG9QMWxETllURmVYbndfLTFhaTJMWnBubTlRdmpHX3dndzcwTW1Yd0hreE9QQ25RdXVEMFA4YV9LY3k3OF92NUx5b0xWaG1BNGRmaGt4ZURmemE5TENmWWl1SzY2ZkRxMFNUaUdRVWVtTnExZzBESFFkMGltdjNtYV9pMldubjVzWnR2YVBR?oc=5",
-      "published": "Fri, 21 Aug 2026 10:01:44 GMT",
-      "description": "EXCLUSIVE: Tankers stack up as Venezuela sells oil faster than its ports can handle &nbsp;&nbsp; Reuters",
+      "title": "Global stocks close out a tough week as bond yields, oil stay high - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTFQMW56em9GbmdpNkt2Y1pGekxZbWNTT2I5bHZDNUJCaFFYem9uWVlkSEd3dzBHQ19mSHA0QzZlUmMzWHJtOEtJX09qRmVaNFdYaC1wZzQ4VmJCdFdlWnFDSkhRLVkwYXRidHJPaVk2ZXFyeVNzU0dCbzNRZnhNc0dLcw?oc=5",
+      "published": "Fri, 21 Aug 2026 01:23:00 GMT",
+      "description": "Global stocks close out a tough week as bond yields, oil stay high &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Oil rises as Trump threatens sanctions on Iran partners - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEh1QVJmcTNtSE1PMURxNmRBT3RIWHhVTmtwZDRiMk5yUzJtc2xuNHFlQXF1a3VJS3FQckxIY3Y2VjhFejlkNDZnLTY0R0prazZHb194Y19sRDdjUVJtNHlMT0lwSHRRcU5UM2VBTFZpVHBDZEl1OGFWbUkxX1pacWhMYUtFQ0pRbGVRYVNYcy1zSUNZVWtxNW4zczc0YVhZVkFWUHJwRWlFQl8zQUR3dFNIU1o?oc=5",
+      "published": "Fri, 21 Aug 2026 23:26:38 GMT",
+      "description": "Oil rises as Trump threatens sanctions on Iran partners &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1227,22 +1242,10 @@
       "source_weight": 3
     },
     {
-      "title": "Global stocks close out a tough week as bond yields, oil stay high - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTFQMW56em9GbmdpNkt2Y1pGekxZbWNTT2I5bHZDNUJCaFFYem9uWVlkSEd3dzBHQ19mSHA0QzZlUmMzWHJtOEtJX09qRmVaNFdYaC1wZzQ4VmJCdFdlWnFDSkhRLVkwYXRidHJPaVk2ZXFyeVNzU0dCbzNRZnhNc0dLcw?oc=5",
-      "published": "Fri, 21 Aug 2026 01:23:00 GMT",
-      "description": "Global stocks close out a tough week as bond yields, oil stay high &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Indian shares log weekly losses as higher oil, bond yields dent risk appetite - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORTRaUnV1SklLS1c2TjZIUTAyV0Q5aHI1NDJDLUhYMUNfTUt1SzRzMl9ubnV5ejB1RV9pQnU4YXBrU0piZHF4eXZ5WjBDcnRZdy04LTMxcWs3X0RPaHV5Y3lHRGRScWwzX3pRRjZ6TWRlV0dBNWlHbExJbXlOM2liYjZRQ1pWZ1B5bFRWNXU3b3ZuQkpGeU1senpXZm1MeVJvUXk2SHNRMkdWVFlZZ0NGazlNTnY?oc=5",
-      "published": "Fri, 21 Aug 2026 02:26:00 GMT",
-      "description": "Indian shares log weekly losses as higher oil, bond yields dent risk appetite &nbsp;&nbsp; Reuters",
+      "title": "Wall St rises on the day but falls for the week; bond yields and Iran in focus - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5",
+      "published": "Fri, 21 Aug 2026 22:58:54 GMT",
+      "description": "Wall St rises on the day but falls for the week; bond yields and Iran in focus &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1253,7 +1256,7 @@
     {
       "title": "Was the North Korean troop deployment a masterstroke? (Binge-watch)",
       "link": "https://www.youtube.com/watch?v=NrFvhBw1Mds",
-      "published": "1.8K views",
+      "published": "7.3K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "NrFvhBw1Mds",
@@ -1274,7 +1277,7 @@
     {
       "title": "The Hidden Reasons Behind Human Sacrifice",
       "link": "https://www.youtube.com/watch?v=z0QSnCsaPqQ",
-      "published": "26K views",
+      "published": "31K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "z0QSnCsaPqQ",
@@ -1295,7 +1298,7 @@
     {
       "title": "There is a way to solve this too",
       "link": "https://www.youtube.com/watch?v=wEmto6gg4Es",
-      "published": "3.3K views",
+      "published": "3.4K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "wEmto6gg4Es",
@@ -1316,7 +1319,7 @@
     {
       "title": "How to Protect Your Money as a South Korean Citizen",
       "link": "https://www.youtube.com/watch?v=kc_D9Oby2OY",
-      "published": "11K views",
+      "published": "12K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "kc_D9Oby2OY",
@@ -1337,7 +1340,7 @@
     {
       "title": "The Sham Marriage That Got Busted Right in New York",
       "link": "https://www.youtube.com/watch?v=WN7yuPA5JBI",
-      "published": "32K views",
+      "published": "34K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "WN7yuPA5JBI",
@@ -1358,7 +1361,7 @@
     {
       "title": "How IMAX Makes Money: Lessons Learned from Trying to Watch 'Oppenheimer'",
       "link": "https://www.youtube.com/watch?v=AHmPn0QG4Kk",
-      "published": "5.9K views",
+      "published": "6.2K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "AHmPn0QG4Kk",
@@ -1379,7 +1382,7 @@
     {
       "title": "Neighboring countries are walking on eggshells around North Korea;",
       "link": "https://www.youtube.com/watch?v=q9XLn6XIoFw",
-      "published": "16K views",
+      "published": "17K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "q9XLn6XIoFw",
@@ -1419,6 +1422,54 @@
       "source_weight": 3
     },
     {
+      "title": "We’re in our 50s and have $1.5 million in traditional 401(k)s. Is it too early to start Roth conversions?",
+      "link": "https://www.marketwatch.com/story/were-in-our-50s-and-have-1-5-million-in-traditional-401-k-s-is-it-too-early-to-start-roth-conversions-2d0f9287?mod=mw_rss_topstories",
+      "published": "Sun, 23 Aug 2026 12:00:00 GMT",
+      "description": "“The last adviser we worked with lost a significant portion of our portfolio.”",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "The Treasury’s bond-market intervention isn’t working. So what comes next?",
+      "link": "https://www.marketwatch.com/story/the-treasurys-bond-market-intervention-isnt-working-so-what-comes-next-ba5e132a?mod=mw_rss_topstories",
+      "published": "Sun, 23 Aug 2026 12:00:00 GMT",
+      "description": "You can’t just sweep $40 trillion in U.S. national debt under a rug and forget about it — or so the bond market appears to be telling Treasury Secretary Scott Bessent.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "I’m turning 70. Here’s how I’m making this decade the richest of my retirement.",
+      "link": "https://www.marketwatch.com/story/im-turning-70-heres-how-im-making-this-decade-the-richest-of-my-retirement-ae351f90?mod=mw_rss_topstories",
+      "published": "Sun, 23 Aug 2026 12:00:00 GMT",
+      "description": "Tweaking my finances, work and life as I go from the “go-go” years to the “slow-go” years.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "‘She looked into COBRA’: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
+      "link": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
+      "published": "Sun, 23 Aug 2026 11:00:00 GMT",
+      "description": "“The cost is absolutely ridiculous.”",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
       "title": "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
       "link": "https://www.marketwatch.com/story/its-truly-a-tragedy-my-daughter-hasnt-spoken-to-me-for-4-years-but-it-has-nothing-to-do-with-politics-86c4bcf6?mod=mw_rss_topstories",
       "published": "Sat, 22 Aug 2026 20:45:00 GMT",
@@ -1455,58 +1506,10 @@
       "source_weight": 2
     },
     {
-      "title": "‘She looked into COBRA’: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
-      "link": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
-      "published": "Sat, 22 Aug 2026 20:15:00 GMT",
-      "description": "“The cost is absolutely ridiculous.”",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
       "title": "I hold my mother-in-law’s power of attorney. I’m also her executor and trustee. Do I have too much power over her affairs?",
       "link": "https://www.marketwatch.com/story/im-my-mother-in-laws-power-of-attorney-executor-and-trustee-do-i-hold-all-the-power-a11968a2?mod=mw_rss_topstories",
       "published": "Sat, 22 Aug 2026 17:00:00 GMT",
       "description": "“There is a lot of legal and financial power in my hands.”",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "‘I’m running out of time’: I sold my $300,000 rental property at a $75,000 loss. Should I buy another one to avoid taxes?",
-      "link": "https://www.marketwatch.com/story/im-running-out-of-time-i-sold-my-300-000-rental-property-at-a-75-000-loss-should-i-buy-another-one-to-avoid-taxes-f214c172?mod=mw_rss_topstories",
-      "published": "Sat, 22 Aug 2026 16:00:00 GMT",
-      "description": "“My CPA hasn’t gotten back to me.”",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Our 4-year-old son has $100,000 in his 529 account. Is a bull market a bad time to buy him stocks instead?",
-      "link": "https://www.marketwatch.com/story/our-4-year-old-son-has-100-000-in-his-529-account-should-we-buy-him-stocks-instead-3ca745b2?mod=mw_rss_topstories",
-      "published": "Sat, 22 Aug 2026 13:01:00 GMT",
-      "description": "“I’d love for our son to be able to attend college without needing to take out student loans.”",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Why an announcement from the Treasury sparked a rally in gold and bitcoin this week",
-      "link": "https://www.marketwatch.com/story/why-an-announcement-from-the-treasury-sparked-a-rally-in-gold-and-bitcoin-this-week-d9d5972b?mod=mw_rss_topstories",
-      "published": "Sat, 22 Aug 2026 13:00:00 GMT",
-      "description": "Cryptocurrencies and precious metals shot higher, while the U.S. dollar weakened, after the Treasury Department said it planned to double its bond buybacks.",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
       "source_name": "MarketWatch Breaking News",
@@ -1538,7 +1541,7 @@
     {
       "title": "How to cure an ailing antibiotics business? | FT Rethink",
       "link": "https://www.youtube.com/watch?v=acvmOKC8A0Q",
-      "published": "32K views",
+      "published": "34K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "acvmOKC8A0Q",
@@ -1601,7 +1604,7 @@
     {
       "title": "Silicon shadows: inside the black market for AI chips | FT Film",
       "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
-      "published": "54K views",
+      "published": "55K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "kFcWmQevQo8",
@@ -1683,34 +1686,10 @@
       "source_weight": 2
     },
     {
-      "title": "Russian ‘double-tap’ attack on Ukrainian shopping mall kills at least 16",
-      "link": "https://www.ft.com/content/a7837e1c-6865-42bd-9902-3d4c4b7f37ef?syn-25a6b1a6=1",
-      "published": "Sat, 22 Aug 2026 19:29:26 GMT",
-      "description": "Volodymyr Zelenskyy calls on allies to pile ‘real pressure’ on Moscow to end the war",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Israel’s Syria strike may have been bid to provoke Turkey conflict, US envoy says",
-      "link": "https://www.ft.com/content/d770cdbf-46b1-4928-9ec7-e1155db679d2",
-      "published": "Sat, 22 Aug 2026 18:17:56 GMT",
-      "description": "Washington’s ambassador to Ankara says attack on air base could have been ‘aggressive . . . pre-election concept’ ahead of October polls",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Mark Carney says Canada is now ‘at war’ with US over trade",
+      "title": "Mark Carney says Canada ‘at war’ with US over trade",
       "link": "https://www.ft.com/content/e3b5c236-bd5f-45c2-8ddf-5279a7375d3f?syn-25a6b1a6=1",
-      "published": "Sat, 22 Aug 2026 17:22:54 GMT",
-      "description": "Prime Minister says Donald Trump miscalculated by escalating his tariffs attack on the country",
+      "published": "Sun, 23 Aug 2026 11:58:38 GMT",
+      "description": "Prime Minister tells country Donald Trump ‘miscalculated’ by escalating tariff attack",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1719,10 +1698,10 @@
       "source_weight": 3
     },
     {
-      "title": "‘Appeasement is not a strategy’: how media is fighting back against Trump’s legal threats",
-      "link": "https://www.ft.com/content/ccd02363-0e4d-4fca-8bd1-46a153d19aee?syn-25a6b1a6=1",
-      "published": "Sat, 22 Aug 2026 13:45:35 GMT",
-      "description": "US president juggles multiple cases against news and entertainment groups",
+      "title": "Zelenskyy rejects election call from fired defence minister",
+      "link": "https://www.ft.com/content/14eeeead-647f-486a-a8dc-7ca2610f3d35",
+      "published": "Sun, 23 Aug 2026 11:26:39 GMT",
+      "description": "President says wartime vote would ‘split Ukraine apart’ as he seeks to reassert authority",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1731,10 +1710,10 @@
       "source_weight": 3
     },
     {
-      "title": "Lula turns to Trump as unlikely ally in Brazil’s clash with Marco Rubio",
-      "link": "https://www.ft.com/content/da43f854-8083-4ec1-86da-76b47c84e64a?syn-25a6b1a6=1",
-      "published": "Sat, 22 Aug 2026 11:00:09 GMT",
-      "description": "Brazil’s president and US secretary of state exchange barbs ahead of the South American country’s election",
+      "title": "Government can bring robotics to life",
+      "link": "https://www.ft.com/content/a4147c6b-5634-4035-b1a8-ac7bf1eb497d?syn-25a6b1a6=1",
+      "published": "Sun, 23 Aug 2026 11:15:07 GMT",
+      "description": "Without policy, there are few incentives to automate business functions where labour costs are low",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1743,10 +1722,10 @@
       "source_weight": 3
     },
     {
-      "title": "Canada vows to match US tariffs as trade talks collapse",
-      "link": "https://www.ft.com/content/24f9c08e-e23f-434e-b0f4-fc1eb55a7b04?syn-25a6b1a6=1",
-      "published": "Sat, 22 Aug 2026 04:51:58 GMT",
-      "description": "Mark Carney rejects ‘unfair’ deal as top Washington envoy criticises ‘missed opportunity’",
+      "title": "Trump’s South Korea snub raises questions in the Asia-Pacific",
+      "link": "https://www.ft.com/content/22530c4a-65b7-49f7-890d-1c8900f63853?syn-25a6b1a6=1",
+      "published": "Sun, 23 Aug 2026 11:00:07 GMT",
+      "description": "Scaling back military exercises has undermined faith in America’s reliability",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1755,10 +1734,10 @@
       "source_weight": 3
     },
     {
-      "title": "Bossing the bond market around never works",
-      "link": "https://www.ft.com/content/b9e7a620-1018-4004-a3b0-3c85d494d21d?syn-25a6b1a6=1",
-      "published": "Sat, 22 Aug 2026 04:00:38 GMT",
-      "description": "Despite Scott Bessent’s efforts, investors worry something is up",
+      "title": "Occidental tries to free itself from the messy legacy of Anadarko deal",
+      "link": "https://www.ft.com/content/65e41dc2-aeb6-4a2b-976a-cc3f5f990dd5?syn-25a6b1a6=1",
+      "published": "Sun, 23 Aug 2026 10:00:08 GMT",
+      "description": "Oil and gas group charts a steadier course seven years after Vicki Hollub’s notorious Berkshire-backed acquisition",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1767,22 +1746,94 @@
       "source_weight": 3
     },
     {
-      "title": "Mark Walter’s unravelling empire tests the insurance trade behind private credit’s rise",
-      "link": "https://www.ft.com/content/2099aab6-2492-4b86-b028-38e103d9104d?syn-25a6b1a6=1",
-      "published": "Sat, 22 Aug 2026 04:00:38 GMT",
-      "description": "Private capital saw an opportunity to make insurance much more profitable. At what risk?",
+      "title": "Burnham to allow English mayors to ‘call in’ big local planning decisions",
+      "link": "https://www.ft.com/content/8ac695be-2803-4e91-84b3-9cffe2e6d0e3?syn-25a6b1a6=1",
+      "published": "Sun, 23 Aug 2026 09:29:06 GMT",
+      "description": "Shake-up is intended to promote growth and take on ‘Nimby’ opposition to projects",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
       "source_category": "global_media",
       "source_type": "rss",
       "source_weight": 3
+    },
+    {
+      "title": "Alibaba announces $10.2bn share placement as Chinese companies expand AI investment",
+      "link": "https://www.ft.com/content/e4ab027e-ed41-48b7-89ac-8250d3054ae6?syn-25a6b1a6=1",
+      "published": "Sun, 23 Aug 2026 08:33:27 GMT",
+      "description": "Equity issuance follows a strong reception for its latest Qwen 3.8-Max model",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "US buyers snap up Europe’s asset managers at fastest rate in decades",
+      "link": "https://www.ft.com/content/dd605c6f-8a6e-4664-970b-f4c07ea7a4d2?syn-25a6b1a6=1",
+      "published": "Sun, 23 Aug 2026 04:30:05 GMT",
+      "description": "European fund groups struggle as firms race to bulk up and expand globally",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Dr. Dre and Jimmy Iovine Think A.I. Is Good for Music",
+      "link": "https://www.nytimes.com/2026/08/23/business/jimmy-iovine-dr-dre-beats-usc.html",
+      "published": "Sun, 23 Aug 2026 09:01:07 +0000",
+      "description": "The hit-making duo turned tech moguls also have thoughts about why corporate America isn’t collaborative enough.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "How Big Tech Captured American Schools",
+      "link": "https://www.nytimes.com/2026/08/23/business/schools-big-tech-google-microsoft.html",
+      "published": "Sun, 23 Aug 2026 11:13:40 +0000",
+      "description": "Companies like Google and Microsoft have used their money, their might and their massive reach to influence nearly every step of the education supply chain.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "The U.S. Start-Up Making Low-Cost Interceptors for the Iran War",
+      "link": "https://www.nytimes.com/2026/08/23/business/powerus-counter-drone-iran-war.html",
+      "published": "Sun, 23 Aug 2026 09:00:19 +0000",
+      "description": "For Florida-based Powerus, becoming a global supplier of counterdrone technology has meant involving the Trumps, a golf course and a new way of doing business.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.",
+      "link": "https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html",
+      "published": "Sun, 23 Aug 2026 09:16:36 +0000",
+      "description": "The mysterious collapse of a European cryptocurrency exchange helps to explain why the industry hasn’t shaken off its reputation as a magnet for criminals.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
     },
     {
       "title": "Trump’s Top Trade Representative Details Offer That Canada Rejected",
       "link": "https://www.nytimes.com/2026/08/22/business/economy/greer-us-canada-trade-deal.html",
-      "published": "Sat, 22 Aug 2026 23:02:27 +0000",
-      "description": "In an interview, Jamieson Greer, President’s Trump’s trade representative, laid out details of what the United States offered to Canada before talks crumbled.",
+      "published": "Sun, 23 Aug 2026 12:39:05 +0000",
+      "description": "In an interview, Jamieson Greer, President Trump’s trade representative, laid out details of what the United States offered to Canada before talks crumbled.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",
@@ -1819,54 +1870,6 @@
       "link": "https://www.nytimes.com/2026/08/22/business/dealbook/harvard-ai-faculty.html",
       "published": "Sat, 22 Aug 2026 21:08:07 +0000",
       "description": "To create a new bootcamp for entrepreneurs, Harvard Business School made A.I. avatars of its instructors.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "The Economy Got Used to Low Borrowing Costs. Their Exit Could Pose Risks.",
-      "link": "https://www.nytimes.com/2026/08/22/business/bonds-borrowing-costs-economy.html",
-      "published": "Sat, 22 Aug 2026 09:02:32 +0000",
-      "description": "After roughly two decades of ultralow interest rates, a period of rapid readjustment is ahead for the United States, the world’s largest economy and most important financial system.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Sick of Constant Pings, They’re Sending Texts at the Speed of Carrier Pigeon",
-      "link": "https://www.nytimes.com/2026/08/22/technology/carrier-pigeon-app-texting-technology.html",
-      "published": "Sat, 22 Aug 2026 15:34:31 +0000",
-      "description": "Apps that let users send digital messages at ultraslow speeds have taken off, with users reveling in a slower pace of life. (Just don’t use the them to make dinner plans.)",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Gen Z Is Building Wealth By Investing Instead of Buying Homes",
-      "link": "https://www.nytimes.com/2026/08/22/business/gen-z-houses-investing.html",
-      "published": "Sat, 22 Aug 2026 09:01:46 +0000",
-      "description": "When it comes to building wealth, Gen Z is more focused on investment apps and their retirement accounts than they are in building equity in a home.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Universal’s New Coaster Is a Scream. That’s the Problem.",
-      "link": "https://www.nytimes.com/2026/08/22/business/media/universal-roller-coaster-screams.html",
-      "published": "Sat, 22 Aug 2026 09:01:09 +0000",
-      "description": "The Hollywood theme park built a “whisper quiet” ride to avoid angering nearby neighbors. They didn’t fully account for the enthusiasm of the riders.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",

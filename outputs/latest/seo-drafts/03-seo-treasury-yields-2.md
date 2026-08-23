@@ -72,7 +72,7 @@
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 주요 참고 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 발행 전 재확인: 관련 공식 발표문과 날짜 재확인
 - 발행 전 재확인: 달러, 금리, 주식, 코인 연결 문장이 과장되지 않았는지 점검
 - 발행 전 재확인: 초보 독자가 오해할 수 있는 용어에 짧은 설명 추가

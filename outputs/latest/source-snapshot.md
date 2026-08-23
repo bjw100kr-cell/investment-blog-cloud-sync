@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-23T01:45:32.408389+00:00`
+- 생성 시각: `2026-08-23T12:54:23.059982+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,24 +106,24 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 52, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
-- `treasury_yields`: score 37, source_count 8, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `bitcoin`: score 55, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
+- `treasury_yields`: score 25, source_count 5, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_big_tech`: score 20, source_count 3, sources CNBC Top News, Google Trends US, NYT Business
 - `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `oil`: score 9, source_count 1, sources Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 8, source_count 3, sources CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
-- `us_big_tech`: score 6, source_count 1, sources CNBC Top News
+- `oil`: score 9, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 8, source_count 3, sources Financial Times Home, Financial Times YouTube, Reuters Markets via Google News RSS
+- `tariffs_trade`: score 5, source_count 2, sources Financial Times World, NYT Business
 - `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
-- `dollar`: score 4, source_count 1, sources MarketWatch Breaking News
+- `dollar`: score 2, source_count 1, sources MarketWatch Breaking News
 - `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
-- `tariffs_trade`: score 2, source_count 1, sources NYT Business
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 52, headlines 16
+- `bitcoin`: score 55, headlines 17
   - Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown
   - Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories
   - Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz
-- `treasury_yields`: score 37, headlines 12
+- `treasury_yields`: score 25, headlines 8
   - Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories
   - How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days
   - Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump
@@ -131,23 +131,24 @@ If you are sure that the described cause is not responsible for this error and t
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
+- `us_big_tech`: score 20, headlines 3
+  - apple tv
+  - Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway
+  - How Big Tech Captured American Schools
 - `oil`: score 9, headlines 3
-  - EXCLUSIVE: Tankers stack up as Venezuela sells oil faster than its ports can handle - Reuters
   - Global stocks close out a tough week as bond yields, oil stay high - Reuters
-  - Indian shares log weekly losses as higher oil, bond yields dent risk appetite - Reuters
+  - Oil rises as Trump threatens sanctions on Iran partners - Reuters
+  - Occidental tries to free itself from the messy legacy of Anadarko deal
 - `ai_semiconductors`: score 8, headlines 3
-  - Nvidia customers reportedly warned about AI-related price hikes
+  - Anthropic’s best AI model struggles to attract users as cheaper tools thrive
   - Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally - Reuters
   - Silicon shadows: inside the black market for AI chips | FT Film
-- `us_big_tech`: score 6, headlines 2
-  - Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway
-  - Meta is the latest tech giant to land in her courtroom. Meet Judge Yvonne Gonzalez Rogers
-- `dollar`: score 4, headlines 2
-  - Canada announces retaliatory tariffs on U.S. goods after trade talks break down
-  - Why an announcement from the Treasury sparked a rally in gold and bitcoin this week
+- `tariffs_trade`: score 5, headlines 2
+  - Mark Carney says Canada ‘at war’ with US over trade
+  - U.S. Economy Could Feel the Sting From Trade War With Canada
 - `crypto_etf`: score 4, headlines 1
   - Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz
 - `ai_growth_stocks`: score 2, headlines 1
   - Palantir: profits, procurement and power | FT Film
-- `tariffs_trade`: score 2, headlines 1
-  - U.S. Economy Could Feel the Sting From Trade War With Canada
+- `dollar`: score 2, headlines 1
+  - Canada announces retaliatory tariffs on U.S. goods after trade talks break down

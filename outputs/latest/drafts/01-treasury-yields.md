@@ -68,7 +68,7 @@
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 주요 참고 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 발행 전 재확인: 미국채 2년/10년 금리 수치 재확인
 - 발행 전 재확인: 기준 시각과 비교 기준 명시
 - 발행 전 재확인: 주식/코인 반응 인과관계 과장 여부 점검

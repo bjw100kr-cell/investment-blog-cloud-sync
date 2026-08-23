@@ -111,7 +111,7 @@
     "CoinDesk RSS",
     "Cointelegraph",
     "Investing.com Crypto News",
-    "MarketWatch Breaking News"
+    "NYT Business"
   ],
   "reference_headlines": [
     "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",

@@ -1,25 +1,25 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-08-23T01:45:32.408389+00:00`
+- 생성 시각: `2026-08-23T12:54:23.059982+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
 - `treasury_yields`: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 / 점수 87.0 / 수익화 15
-  - 이유: 복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음
-  - 근거 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+  - 이유: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
+  - 근거 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 85.0 / 수익화 15
   - 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-  - 근거 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
-- `ai_semiconductors`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 점수 64.0 / 수익화 15
-  - 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-  - 근거 소스: CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
+  - 근거 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
+- `us_big_tech`: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 / 점수 80.0 / 수익화 15
+  - 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (apple tv)
+  - 근거 소스: CNBC Top News, Google Trends US, NYT Business
 
 ## 브랜드 레인 우선순위
 
 - `거시경제`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 treasury_yields
 - `코인`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 bitcoin
-- `미국주식`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 ai_semiconductors
-- `세계 흐름`: 평균 수익화 13.0 / 게시 예정 1개 / 키워드 tariffs_trade
+- `미국주식`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 us_big_tech
+- `세계 흐름`: 평균 수익화 14.0 / 게시 예정 1개 / 키워드 tariffs_trade
 
 ## 검색 수요 감지 키워드
 
@@ -27,6 +27,7 @@
 
 ## 무료 트렌드 수요 신호
 
+- `us_big_tech`: trend_count 1, traffic_sum 1000, regions US / 쿼리 apple tv
 - `bitcoin`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 - `treasury_yields`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 - `fomc`: trend_count 0, traffic_sum 0, regions  / 쿼리 

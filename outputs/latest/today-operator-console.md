@@ -76,17 +76,17 @@
 
 - `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유` / keyword `treasury_yields` / verdict `approve` / publish `2026-08-23`
 - `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / verdict `approve` / publish `2026-08-24`
-- `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지` / keyword `ai_semiconductors` / verdict `approve` / publish `2026-08-25`
+- `미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자` / keyword `us_big_tech` / verdict `approve` / publish `2026-08-25`
 
 ## 1.5. 하루 200명 목표
 
 - target: `200`
-- projected: `249`
+- projected: `242`
 - gap: `0`
 - status: `estimated_on_track_measurement_missing`
-- `treasury_yields` 예상 `95`명: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 - `bitcoin` 예상 `95`명: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- `ai_semiconductors` 예상 `59`명: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+- `treasury_yields` 예상 `94`명: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+- `tariffs_trade` 예상 `53`명: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
 - actual_verified: `0`
 - proof_status: `measurement_missing`
 - proof_gap: `200`

@@ -47,7 +47,7 @@
 - excerpt: - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다.
 - preview: 한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
-- evidence: MarketWatch Breaking News / 2026-08-22T13:00:00+00:00 / Why an announcement from the Treasury sparked a rally in gold and bitcoin this week
+- evidence: MarketWatch Breaking News / 2026-08-23T12:00:00+00:00 / The Treasury’s bond-market intervention isn’t working. So what comes next?
 - evidence: CoinDesk RSS / 2026-08-22T05:05:13+00:00 / How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields`
@@ -75,8 +75,8 @@
 - excerpt: - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다.
 - preview: 한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
-- evidence: MarketWatch Breaking News / 2026-08-22T13:00:00+00:00 / Why an announcement from the Treasury sparked a rally in gold and bitcoin this week
-- evidence: CoinDesk RSS / 2026-08-22T12:00:00+00:00 / Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories
+- evidence: Investing.com Crypto News / 2026-08-23 09:58:05 / Bitcoin slips under $77,000 as rally boosts mining economics
+- evidence: Investing.com Crypto News / 2026-08-23 07:02:36 / Bitcoin surges past $76K with overbought RSI: Live levels
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - recovery_mode: `publish_direct`

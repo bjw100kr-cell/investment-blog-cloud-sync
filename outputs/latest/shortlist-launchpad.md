@@ -9,15 +9,15 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `treasury_yields` / publish `2026-08-23` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음
+- why_now: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
 - sample_headlines:
   - Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories
   - How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days
   - Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump
 - recent_evidence:
-  - MarketWatch Breaking News | 2026-08-22T13:00:00+00:00 | Why an announcement from the Treasury sparked a rally in gold and bitcoin this week
+  - MarketWatch Breaking News | 2026-08-23T12:00:00+00:00 | The Treasury’s bond-market intervention isn’t working. So what comes next?
   - CoinDesk RSS | 2026-08-22T05:05:13+00:00 | How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days
-  - Financial Times Home | 2026-08-22T04:00:38+00:00 | Bossing the bond market around never works
+  - Investing.com Crypto News | 2026-08-22 10:01:31 | Bitcoin holds above $77,000 after Treasury-fuelled short squeeze
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword treasury_yields`
@@ -34,29 +34,28 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
   - Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories
   - Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz
 - recent_evidence:
-  - MarketWatch Breaking News | 2026-08-22T13:00:00+00:00 | Why an announcement from the Treasury sparked a rally in gold and bitcoin this week
+  - Investing.com Crypto News | 2026-08-23 09:58:05 | Bitcoin slips under $77,000 as rally boosts mining economics
+  - Investing.com Crypto News | 2026-08-23 07:02:36 | Bitcoin surges past $76K with overbought RSI: Live levels
   - CoinDesk RSS | 2026-08-22T12:00:00+00:00 | Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories
-  - CoinDesk RSS | 2026-08-22T05:37:43+00:00 | Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+## 3. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
-- keyword `ai_semiconductors` / publish `2026-08-25` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
+- keyword `us_big_tech` / publish `2026-08-25` / verdict `approve` / quality `review_before_publish`
+- ready_now: `False` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- why_now: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (apple tv)
 - sample_headlines:
-  - Nvidia customers reportedly warned about AI-related price hikes
-  - Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally - Reuters
-  - Silicon shadows: inside the black market for AI chips | FT Film
+  - apple tv
+  - Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway
+  - How Big Tech Captured American Schools
 - recent_evidence:
-  - Financial Times YouTube | 54K views | Silicon shadows: inside the black market for AI chips | FT Film
-  - CNBC Top News | 2026-08-22T20:26:44+00:00 | Nvidia customers reportedly warned about AI-related price hikes
-  - Reuters Markets via Google News RSS | 2026-08-21T10:15:25+00:00 | Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally - Reuters
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`
+  - Google Trends US | 2026-08-23T05:40:00-07:00 | apple tv
+  - CNBC Top News | 2026-08-22T18:57:46+00:00 | Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply`
