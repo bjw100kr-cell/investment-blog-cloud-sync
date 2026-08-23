@@ -2,7 +2,7 @@
 
 GitHub 연결 전에도 로컬에서 첫 Blogger draft 검증까지 바로 확인할 수 있습니다.
 
-- main_candidate: `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+- main_candidate: `treasury_yields` / 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 
 ## Shortcut Flow
 

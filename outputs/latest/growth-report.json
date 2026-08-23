@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T12:53:29.384484+00:00",
+  "generated_at": "2026-08-23T01:45:32.408389+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -14,8 +14,8 @@
     {
       "keyword": "treasury_yields",
       "recommended_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
-      "reason": "복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
-      "total_score": 89.0,
+      "reason": "복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음",
+      "total_score": 87.0,
       "monetization_score": 15,
       "source_names": [
         "CNBC Top News",
@@ -24,29 +24,31 @@
         "Financial Times Home",
         "Financial Times World",
         "Investing.com Crypto News",
+        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ]
     },
     {
       "keyword": "bitcoin",
       "recommended_title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)",
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "total_score": 85.0,
       "monetization_score": 15,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ]
     },
     {
       "keyword": "ai_semiconductors",
       "recommended_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
-      "total_score": 55.0,
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "total_score": 64.0,
       "monetization_score": 15,
       "source_names": [
+        "CNBC Top News",
         "Financial Times YouTube",
         "Reuters Markets via Google News RSS"
       ]
@@ -145,6 +147,14 @@
       "traffic_score_sum": 0,
       "regions": [],
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
+    },
+    {
+      "keyword": "oil",
+      "trend_queries": [],
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "regions": [],
+      "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     }
   ],
   "schedule_mix": {
@@ -197,7 +207,7 @@
         ],
         "paragraph_count": 32,
         "short_paragraphs": 22,
-        "long_paragraphs": 3,
+        "long_paragraphs": 4,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
         "dominant_sentence_ending_ratio": 0.109
@@ -292,7 +302,7 @@
           "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
         ],
         "paragraph_count": 32,
-        "short_paragraphs": 22,
+        "short_paragraphs": 23,
         "long_paragraphs": 3,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",

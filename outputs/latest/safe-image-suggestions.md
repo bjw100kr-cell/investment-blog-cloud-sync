@@ -78,7 +78,7 @@
 ## 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향
 
 - source_group: `seo`
-- keyword: `seo_treasury_yields_3`
+- keyword: `seo_treasury_yields_1`
 - category: `macro`
 - 대표 이미지: Unsplash / query `central bank finance city skyline market data` / search https://unsplash.com/s/photos/central+bank+finance+city+skyline+market+data
 - license: Unsplash License / https://unsplash.com/license
@@ -92,7 +92,7 @@
 ## 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지
 
 - source_group: `seo`
-- keyword: `seo_treasury_yields_5`
+- keyword: `seo_treasury_yields_2`
 - category: `macro`
 - 대표 이미지: Unsplash / query `central bank finance city skyline market data` / search https://unsplash.com/s/photos/central+bank+finance+city+skyline+market+data
 - license: Unsplash License / https://unsplash.com/license
@@ -106,7 +106,7 @@
 ## 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지
 
 - source_group: `seo`
-- keyword: `seo_treasury_yields_6`
+- keyword: `seo_treasury_yields_4`
 - category: `macro`
 - 대표 이미지: Unsplash / query `central bank finance city skyline market data` / search https://unsplash.com/s/photos/central+bank+finance+city+skyline+market+data
 - license: Unsplash License / https://unsplash.com/license
@@ -120,7 +120,7 @@
 ## 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기
 
 - source_group: `seo`
-- keyword: `seo_tariffs_trade_11`
+- keyword: `seo_tariffs_trade_12`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `technology stocks office finance abstract` / search https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - license: Unsplash License / https://unsplash.com/license
@@ -134,7 +134,7 @@
 ## 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나
 
 - source_group: `seo`
-- keyword: `seo_tariffs_trade_12`
+- keyword: `seo_tariffs_trade_13`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `technology stocks office finance abstract` / search https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - license: Unsplash License / https://unsplash.com/license
@@ -148,7 +148,7 @@
 ## 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 정리
 
 - source_group: `seo`
-- keyword: `seo_tariffs_trade_13`
+- keyword: `seo_tariffs_trade_14`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `technology stocks office finance abstract` / search https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - license: Unsplash License / https://unsplash.com/license

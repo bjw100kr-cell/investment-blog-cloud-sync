@@ -91,7 +91,7 @@
     "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유",
     "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
+  "summary_angle": "복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음",
   "outline": [
     "왜 지금 이 이슈가 중요한가",
     "실제로 발표되거나 벌어진 일",
@@ -114,14 +114,15 @@
     "Financial Times Home",
     "Financial Times World",
     "Investing.com Crypto News",
+    "MarketWatch Breaking News",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto week in 5 stories",
+    "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
     "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
     "Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump",
-    "Crypto Biz: Treasury’s ‘Not-QE’ playbook sends Bitcoin higher",
-    "Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'"
+    "Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'",
+    "Bitcoin holds above $77,000 after Treasury-fuelled short squeeze"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -184,8 +185,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 89.0,
-    "search_score": 28,
+    "total_score": 87.0,
+    "search_score": 26,
     "timeliness_score": 21,
     "explanatory_score": 19,
     "monetization_score": 15,

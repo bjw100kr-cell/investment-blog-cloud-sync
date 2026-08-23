@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T12:53:32.513559+00:00",
+  "generated_at": "2026-08-23T01:45:35.523153+00:00",
   "base_url": "",
   "packets_json": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-draft-packets.json",
   "publishing_json": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publishing-assets.json",
@@ -20,7 +20,7 @@
         "미국증시"
       ],
       "category": "macro",
-      "recommended_publish_date": "2026-08-22",
+      "recommended_publish_date": "2026-08-27",
       "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-fomc-일정-지금-투자자가-확인할-체크포인트-5가지.html",
       "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-fomc-일정-지금-투자자가-확인할-체크포인트-5가지.json",
       "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/01-seo-fomc-7.md",
@@ -83,25 +83,12 @@
       "ga4_enabled": false,
       "ad_slot_recommendations": [
         "after_intro",
-        "mid_article",
+        "after_first_h2",
+        "before_faq",
         "before_related_links"
       ],
-      "retention_cta": {
-        "cluster_name": "거시 이벤트 해설 클러스터",
-        "source_keyword": "fomc",
-        "main_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-        "main_ready_to_upload": true,
-        "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-        "inline_cta_now": "FOMC 흐름이 여기서 끝이 아닙니다. 아래 체크포인트 글과 초보자 가이드까지 같이 보면 다음 일정에서 뭘 봐야 할지 훨씬 선명해집니다.",
-        "telegram_cta_later": "거시 이벤트를 놓치지 않으려면 다음 체크포인트 글까지 같이 보고, 이후에는 텔레그램/구독 채널로 이어 받아보세요.",
-        "newsletter_cta_later": "거시 이벤트 해설을 한 번에 받고 싶다면 뉴스레터 구독 동선으로 이어 붙입니다.",
-        "newsletter_subject_seed": "[오늘의 투자 브리핑] FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
-        "followup_titles": [],
-        "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
-        "blockers": []
-      },
-      "retention_cta_enabled": true,
+      "retention_cta": {},
+      "retention_cta_enabled": false,
       "image_plan": [
         {
           "slot": "hero",
@@ -158,7 +145,7 @@
       "image_selection_file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/image-selections.json"
     },
     {
-      "keyword": "seo_treasury_yields_3",
+      "keyword": "seo_treasury_yields_1",
       "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향",
       "slug": "미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유가-주식과-코인에-미치는-영향",
       "meta_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향",
@@ -172,10 +159,10 @@
         "금리"
       ],
       "category": "macro",
-      "recommended_publish_date": "2026-08-26",
+      "recommended_publish_date": "2026-08-23",
       "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유가-주식과-코인에-미치는-영향.html",
       "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유가-주식과-코인에-미치는-영향.json",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/02-seo-treasury-yields-3.md",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/02-seo-treasury-yields-1.md",
       "ready": true,
       "reason": "ok",
       "author_name": "Global Flow Note 운영팀",
@@ -235,28 +222,26 @@
       "ga4_enabled": false,
       "ad_slot_recommendations": [
         "after_intro",
-        "after_first_h2",
-        "before_faq",
+        "mid_article",
         "before_related_links"
       ],
       "retention_cta": {
         "cluster_name": "treasury_yields 클러스터",
         "source_keyword": "treasury_yields",
-        "main_title": "",
-        "main_ready_to_upload": false,
-        "cta_focus": "",
-        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `` 흐름이 훨씬 더 잘 이어집니다.",
+        "main_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+        "main_ready_to_upload": true,
+        "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `환율·금리·미국증시 evergreen 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
         "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
         "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
-        "newsletter_subject_seed": "",
-        "newsletter_preview_seed": "",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
         "followup_titles": [
-          "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지"
+          "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향",
+          "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지"
         ],
-        "next_action": "사용자 검토 후 승인 대기",
-        "blockers": [
-          "main_quality=unknown"
-        ]
+        "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
+        "blockers": []
       },
       "retention_cta_enabled": true,
       "image_plan": [
@@ -315,7 +300,7 @@
       "image_selection_file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/image-selections.json"
     },
     {
-      "keyword": "seo_treasury_yields_5",
+      "keyword": "seo_treasury_yields_2",
       "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지",
       "slug": "미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유에서-다음으로-봐야-할-체크포인트-5가지",
       "meta_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지",
@@ -329,10 +314,10 @@
         "금리"
       ],
       "category": "macro",
-      "recommended_publish_date": "2026-08-26",
+      "recommended_publish_date": "2026-08-23",
       "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유에서-다음으로-봐야-할-체크포인트-5가지.html",
       "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유에서-다음으로-봐야-할-체크포인트-5가지.json",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/03-seo-treasury-yields-5.md",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/03-seo-treasury-yields-2.md",
       "ready": true,
       "reason": "ok",
       "author_name": "Global Flow Note 운영팀",
@@ -392,28 +377,26 @@
       "ga4_enabled": false,
       "ad_slot_recommendations": [
         "after_intro",
-        "after_first_h2",
-        "before_faq",
+        "mid_article",
         "before_related_links"
       ],
       "retention_cta": {
         "cluster_name": "treasury_yields 클러스터",
         "source_keyword": "treasury_yields",
-        "main_title": "",
-        "main_ready_to_upload": false,
-        "cta_focus": "",
-        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `` 흐름이 훨씬 더 잘 이어집니다.",
+        "main_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+        "main_ready_to_upload": true,
+        "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `환율·금리·미국증시 evergreen 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
         "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
         "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
-        "newsletter_subject_seed": "",
-        "newsletter_preview_seed": "",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
         "followup_titles": [
-          "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지"
+          "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향",
+          "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지"
         ],
-        "next_action": "사용자 검토 후 승인 대기",
-        "blockers": [
-          "main_quality=unknown"
-        ]
+        "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
+        "blockers": []
       },
       "retention_cta_enabled": true,
       "image_plan": [
@@ -472,7 +455,7 @@
       "image_selection_file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/image-selections.json"
     },
     {
-      "keyword": "seo_treasury_yields_6",
+      "keyword": "seo_treasury_yields_4",
       "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지",
       "slug": "미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유-초보자-가이드-용어부터-시장-반응까지",
       "meta_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지",
@@ -486,10 +469,10 @@
         "금리"
       ],
       "category": "macro",
-      "recommended_publish_date": "2026-08-26",
+      "recommended_publish_date": "2026-08-23",
       "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유-초보자-가이드-용어부터-시장-반응까지.html",
       "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유-초보자-가이드-용어부터-시장-반응까지.json",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/04-seo-treasury-yields-6.md",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/04-seo-treasury-yields-4.md",
       "ready": true,
       "reason": "ok",
       "author_name": "Global Flow Note 운영팀",
@@ -549,28 +532,26 @@
       "ga4_enabled": false,
       "ad_slot_recommendations": [
         "after_intro",
-        "after_first_h2",
-        "before_faq",
+        "mid_article",
         "before_related_links"
       ],
       "retention_cta": {
         "cluster_name": "treasury_yields 클러스터",
         "source_keyword": "treasury_yields",
-        "main_title": "",
-        "main_ready_to_upload": false,
-        "cta_focus": "",
-        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `` 흐름이 훨씬 더 잘 이어집니다.",
+        "main_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+        "main_ready_to_upload": true,
+        "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `환율·금리·미국증시 evergreen 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
         "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
         "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
-        "newsletter_subject_seed": "",
-        "newsletter_preview_seed": "",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
         "followup_titles": [
-          "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지"
+          "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향",
+          "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지"
         ],
-        "next_action": "사용자 검토 후 승인 대기",
-        "blockers": [
-          "main_quality=unknown"
-        ]
+        "next_action": "메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비",
+        "blockers": []
       },
       "retention_cta_enabled": true,
       "image_plan": [
@@ -629,7 +610,7 @@
       "image_selection_file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/image-selections.json"
     },
     {
-      "keyword": "seo_tariffs_trade_11",
+      "keyword": "seo_tariffs_trade_12",
       "title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기",
       "slug": "관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-관련-대표-종목-한눈에-보기",
       "meta_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기",
@@ -643,10 +624,10 @@
         "세계흐름"
       ],
       "category": "global-sector",
-      "recommended_publish_date": "2026-08-25",
+      "recommended_publish_date": "2026-08-26",
       "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-관련-대표-종목-한눈에-보기.html",
       "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-관련-대표-종목-한눈에-보기.json",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/05-seo-tariffs-trade-11.md",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/05-seo-tariffs-trade-12.md",
       "ready": true,
       "reason": "ok",
       "author_name": "Global Flow Note 운영팀",
@@ -709,8 +690,30 @@
         "mid_article",
         "before_related_links"
       ],
-      "retention_cta": {},
-      "retention_cta_enabled": false,
+      "retention_cta": {
+        "cluster_name": "tariffs_trade 클러스터",
+        "source_keyword": "tariffs_trade",
+        "main_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+        "main_ready_to_upload": false,
+        "cta_focus": "실적·공급망·대표 종목 글로 연결",
+        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
+        "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
+        "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
+        "followup_titles": [
+          "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기",
+          "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나"
+        ],
+        "next_action": "사용자 검토 후 승인 대기",
+        "blockers": [
+          "main_quality=review_before_publish",
+          "follow_up_posts_present",
+          "canonical_url_present",
+          "newsletter_ready"
+        ]
+      },
+      "retention_cta_enabled": true,
       "image_plan": [
         {
           "slot": "hero",
@@ -767,7 +770,7 @@
       "image_selection_file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/image-selections.json"
     },
     {
-      "keyword": "seo_tariffs_trade_12",
+      "keyword": "seo_tariffs_trade_13",
       "title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나",
       "slug": "관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-공급망-정리-누가-수혜를-보나",
       "meta_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나",
@@ -781,10 +784,10 @@
         "세계흐름"
       ],
       "category": "global-sector",
-      "recommended_publish_date": "2026-08-25",
+      "recommended_publish_date": "2026-08-26",
       "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-공급망-정리-누가-수혜를-보나.html",
       "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/06-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-공급망-정리-누가-수혜를-보나.json",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/06-seo-tariffs-trade-12.md",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/06-seo-tariffs-trade-13.md",
       "ready": true,
       "reason": "ok",
       "author_name": "Global Flow Note 운영팀",
@@ -847,8 +850,30 @@
         "mid_article",
         "before_related_links"
       ],
-      "retention_cta": {},
-      "retention_cta_enabled": false,
+      "retention_cta": {
+        "cluster_name": "tariffs_trade 클러스터",
+        "source_keyword": "tariffs_trade",
+        "main_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+        "main_ready_to_upload": false,
+        "cta_focus": "실적·공급망·대표 종목 글로 연결",
+        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
+        "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
+        "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
+        "followup_titles": [
+          "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기",
+          "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나"
+        ],
+        "next_action": "사용자 검토 후 승인 대기",
+        "blockers": [
+          "main_quality=review_before_publish",
+          "follow_up_posts_present",
+          "canonical_url_present",
+          "newsletter_ready"
+        ]
+      },
+      "retention_cta_enabled": true,
       "image_plan": [
         {
           "slot": "hero",
@@ -905,7 +930,7 @@
       "image_selection_file": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/image-selections.json"
     },
     {
-      "keyword": "seo_tariffs_trade_13",
+      "keyword": "seo_tariffs_trade_14",
       "title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 정리",
       "slug": "관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-etf-지수-대표-기업-정리",
       "meta_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 정리",
@@ -919,10 +944,10 @@
         "세계흐름"
       ],
       "category": "global-sector",
-      "recommended_publish_date": "2026-08-25",
+      "recommended_publish_date": "2026-08-26",
       "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/07-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-etf-지수-대표-기업-정리.html",
       "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/07-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-etf-지수-대표-기업-정리.json",
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/07-seo-tariffs-trade-13.md",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/07-seo-tariffs-trade-14.md",
       "ready": true,
       "reason": "ok",
       "author_name": "Global Flow Note 운영팀",
@@ -985,8 +1010,30 @@
         "mid_article",
         "before_related_links"
       ],
-      "retention_cta": {},
-      "retention_cta_enabled": false,
+      "retention_cta": {
+        "cluster_name": "tariffs_trade 클러스터",
+        "source_keyword": "tariffs_trade",
+        "main_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+        "main_ready_to_upload": false,
+        "cta_focus": "실적·공급망·대표 종목 글로 연결",
+        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
+        "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
+        "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+        "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
+        "followup_titles": [
+          "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기",
+          "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나"
+        ],
+        "next_action": "사용자 검토 후 승인 대기",
+        "blockers": [
+          "main_quality=review_before_publish",
+          "follow_up_posts_present",
+          "canonical_url_present",
+          "newsletter_ready"
+        ]
+      },
+      "retention_cta_enabled": true,
       "image_plan": [
         {
           "slot": "hero",
