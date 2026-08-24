@@ -1,51 +1,68 @@
 {
-  "generated_at": "2026-08-23T12:54:23.059982+00:00",
+  "generated_at": "2026-08-24T01:42:58.166479+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 6,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "us_big_tech",
+      "keyword": "jobs",
       "trend_count": 1,
-      "traffic_score_sum": 1000,
-      "max_approx_traffic": 1000,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
       "trend_queries": [
-        "apple tv"
+        "고용노동부"
       ],
       "regions": [
-        "US"
+        "KR"
       ],
-      "demand_signal_score": 1200,
+      "demand_signal_score": 400,
       "fallback_source": "trend_match",
       "confidence": "high",
       "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
     },
     {
       "keyword": "bitcoin",
+      "trend_count": 1,
+      "traffic_score_sum": 100,
+      "max_approx_traffic": 100,
+      "trend_queries": [
+        "빗썸"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 300,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
+    {
+      "keyword": "fomc",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6700,
+      "demand_signal_score": 4400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 55,
-      "source_count": 4,
+      "source_snapshot_score": 32,
+      "source_count": 5,
       "source_names": [
-        "CoinDesk RSS",
+        "CNBC Top News",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "NYT Business"
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
+        "Financial Times World"
       ],
       "sample_titles": [
-        "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
-        "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
-        "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz"
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
       ]
     },
     {
@@ -55,45 +72,49 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3700,
+      "demand_signal_score": 3100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 25,
+      "source_snapshot_score": 19,
       "source_count": 5,
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
-        "Cointelegraph",
+        "Financial Times World",
         "Investing.com Crypto News",
-        "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
-        "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
-        "Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump"
+        "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
+        "Treasury Secretary to announce Iran sanctions as Tehran dismisses economic warfare threat",
+        "Bitcoin holds above $77,000 after Treasury-fuelled short squeeze"
       ]
     },
     {
-      "keyword": "fomc",
+      "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 2800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 1,
+      "source_snapshot_score": 16,
+      "source_count": 6,
       "source_names": [
-        "Federal Reserve Monetary Policy Press"
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "Financial Times YouTube",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+        "Here are the 2 big things we're watching in the stock market this week",
+        "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+        "Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally - Reuters"
       ]
     },
     {
@@ -103,20 +124,20 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2100,
+      "demand_signal_score": 2700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 9,
+      "source_snapshot_score": 15,
       "source_count": 2,
       "source_names": [
-        "Financial Times World",
+        "CNBC Top News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Global stocks close out a tough week as bond yields, oil stay high - Reuters",
-        "Oil rises as Trump threatens sanctions on Iran partners - Reuters",
-        "Occidental tries to free itself from the messy legacy of Anadarko deal"
+        "Oil prices fall as investors await 'toughest' U.S. sanctions on Iran",
+        "Oil falls ahead of US announcement on new Iran sanctions - Reuters",
+        "Gulf markets rise as oil gains lift sentiment - Reuters"
       ]
     }
   ],

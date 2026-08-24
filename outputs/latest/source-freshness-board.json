@@ -1,133 +1,99 @@
 {
-  "generated_at": "2026-08-23T12:54:28.171820+00:00",
-  "snapshot_generated_at": "2026-08-23T12:54:23.059982+00:00",
+  "generated_at": "2026-08-24T01:43:03.011889+00:00",
+  "snapshot_generated_at": "2026-08-24T01:42:58.166479+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
-  "item_count": 3,
+  "item_count": 2,
   "counts": {
-    "fresh": 3,
-    "aging": 0,
+    "fresh": 1,
+    "aging": 1,
     "stale": 0,
     "unknown": 0
   },
   "items": [
     {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-08-28",
+      "freshness_status": "aging",
+      "newest_evidence_iso": "2026-08-19T18:00:00+00:00",
+      "oldest_evidence_iso": "2026-06-17T18:00:00+00:00",
+      "newest_evidence_age_days": 4.3,
+      "source_count": 5,
+      "demand_signal_score": 4400,
+      "summary_line": "아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.",
+      "recovery_mode": "refresh_before_publish",
+      "recovery_summary": "발행 직전 전체 파이프라인을 다시 돌려 headline과 숫자를 최신 상태로 갱신하는 편이 안전합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-08-24",
+      "publish_date": "2026-08-25",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-23T09:58:05+00:00",
-      "oldest_evidence_iso": "2026-08-22T05:05:13+00:00",
+      "newest_evidence_iso": "2026-08-23T23:56:00+00:00",
+      "oldest_evidence_iso": "2026-08-21T20:26:16+00:00",
       "newest_evidence_age_days": 0.1,
-      "source_count": 4,
-      "demand_signal_score": 6700,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin slips under $77,000 as rally boosts mining economics",
+      "source_count": 5,
+      "demand_signal_score": 300,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: We are so back! Bitcoin’s 23% rally on US debt policy: Hodler’s Digest",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin slips under $77,000 as rally boosts mining economics",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-08-23 09:58:05",
-          "published_iso": "2026-08-23 09:58:05",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-under-77000-as-rally-boosts-mining-economics-4872436",
+          "title": "We are so back! Bitcoin’s 23% rally on US debt policy: Hodler’s Digest",
+          "source_name": "Cointelegraph",
+          "published": "Sun, 23 Aug 2026 23:56:00 +0000",
+          "published_iso": "2026-08-23T23:56:00+00:00",
+          "link": "https://cointelegraph.com/magazine/we-are-back-bitcoins-23-rally-on-us-debt-policy-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin surges past $76K with overbought RSI: Live levels",
+          "title": "Bitcoin coils in bull flag near $77K: Live levels",
           "source_name": "Investing.com Crypto News",
-          "published": "2026-08-23 07:02:36",
-          "published_iso": "2026-08-23 07:02:36",
+          "published": "2026-08-23 19:02:13",
+          "published_iso": "2026-08-23 19:02:13",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-coiled-at-63591-with-volatility-at-6month-lows-live-levels-93CH-4862234",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
-          "source_name": "CoinDesk RSS",
-          "published": "Sat, 22 Aug 2026 12:00:00 +0000",
-          "published_iso": "2026-08-22T12:00:00+00:00",
-          "link": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "treasury_yields",
-      "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-08-23",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-23T12:00:00+00:00",
-      "oldest_evidence_iso": "2026-08-21T22:58:54+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 5,
-      "demand_signal_score": 3700,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: The Treasury’s bond-market intervention isn’t working. So what comes next?",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "The Treasury’s bond-market intervention isn’t working. So what comes next?",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Sun, 23 Aug 2026 12:00:00 GMT",
-          "published_iso": "2026-08-23T12:00:00+00:00",
-          "link": "https://www.marketwatch.com/story/the-treasurys-bond-market-intervention-isnt-working-so-what-comes-next-ba5e132a?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
-          "source_name": "CoinDesk RSS",
-          "published": "Sat, 22 Aug 2026 05:05:13 +0000",
-          "published_iso": "2026-08-22T05:05:13+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin holds above $77,000 after Treasury-fuelled short squeeze",
+          "title": "Bitcoin pares losses as recent rally finds fresh momentum",
           "source_name": "Investing.com Crypto News",
-          "published": "2026-08-22 10:01:31",
-          "published_iso": "2026-08-22 10:01:31",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-77000-after-treasuryfuelled-short-squeeze-4872323",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "us_big_tech",
-      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-      "quality_status": "review_before_publish",
-      "ready_now": false,
-      "publish_date": "2026-08-25",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-23T12:40:00+00:00",
-      "oldest_evidence_iso": "2026-08-22T18:57:46+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 3,
-      "demand_signal_score": 1200,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: apple tv",
-      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "apple tv",
-          "source_name": "Google Trends US",
-          "published": "Sun, 23 Aug 2026 05:40:00 -0700",
-          "published_iso": "2026-08-23T05:40:00-07:00",
-          "link": "https://trends.google.com/trending/rss?geo=US",
-          "source_type": "rss"
-        },
-        {
-          "title": "Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway",
-          "source_name": "CNBC Top News",
-          "published": "Sat, 22 Aug 2026 18:57:46 GMT",
-          "published_iso": "2026-08-22T18:57:46+00:00",
-          "link": "https://www.cnbc.com/2026/08/22/trump-reshuffled-his-portfolio-in-june-selling-names-like-meta-and-buying-berkshire-hathaway.html",
+          "published": "2026-08-23 15:17:37",
+          "published_iso": "2026-08-23 15:17:37",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-under-77000-as-rally-boosts-mining-economics-4872436",
           "source_type": "rss"
         }
       ]

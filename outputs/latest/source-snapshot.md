@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-23T12:54:23.059982+00:00`
+- 생성 시각: `2026-08-24T01:42:58.166479+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,49 +106,50 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 55, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
-- `treasury_yields`: score 25, source_count 5, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `us_big_tech`: score 20, source_count 3, sources CNBC Top News, Google Trends US, NYT Business
-- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `oil`: score 9, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 8, source_count 3, sources Financial Times Home, Financial Times YouTube, Reuters Markets via Google News RSS
-- `tariffs_trade`: score 5, source_count 2, sources Financial Times World, NYT Business
-- `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
-- `dollar`: score 2, source_count 1, sources MarketWatch Breaking News
-- `ai_growth_stocks`: score 2, source_count 1, sources Financial Times YouTube
+- `bitcoin`: score 60, source_count 5, sources CoinDesk RSS, Cointelegraph, Google Trends KR, Investing.com Crypto News, NYT Business
+- `fomc`: score 32, source_count 5, sources CNBC Top News, Cointelegraph, Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World
+- `treasury_yields`: score 19, source_count 5, sources CNBC Top News, CoinDesk RSS, Financial Times World, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 16, source_count 6, sources CNBC Top News, Financial Times Home, Financial Times World, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `oil`: score 15, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `jobs`: score 7, source_count 1, sources Google Trends KR
+- `tariffs_trade`: score 7, source_count 3, sources Financial Times Home, MarketWatch Breaking News, NYT Business
+- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, NYT Business
+- `us_index_flow`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
+- `china`: score 3, source_count 1, sources Financial Times Home
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 55, headlines 17
-  - Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown
-  - Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories
-  - Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz
-- `treasury_yields`: score 25, headlines 8
-  - Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories
-  - How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days
-  - Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump
-- `fomc`: score 20, headlines 4
+- `bitcoin`: score 60, headlines 18
+  - 빗썸
+  - Regulation Crypto is here: State of Crypto
+  - Crypto card spending tops $1 billion as stablecoins move into everyday purchases
+- `fomc`: score 32, headlines 8
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `us_big_tech`: score 20, headlines 3
-  - apple tv
-  - Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway
-  - How Big Tech Captured American Schools
-- `oil`: score 9, headlines 3
-  - Global stocks close out a tough week as bond yields, oil stay high - Reuters
-  - Oil rises as Trump threatens sanctions on Iran partners - Reuters
-  - Occidental tries to free itself from the messy legacy of Anadarko deal
-- `ai_semiconductors`: score 8, headlines 3
+- `treasury_yields`: score 19, headlines 6
+  - XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes
+  - Treasury Secretary to announce Iran sanctions as Tehran dismisses economic warfare threat
+  - Bitcoin holds above $77,000 after Treasury-fuelled short squeeze
+- `ai_semiconductors`: score 16, headlines 6
+  - Here are the 2 big things we're watching in the stock market this week
   - Anthropic’s best AI model struggles to attract users as cheaper tools thrive
   - Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally - Reuters
-  - Silicon shadows: inside the black market for AI chips | FT Film
-- `tariffs_trade`: score 5, headlines 2
-  - Mark Carney says Canada ‘at war’ with US over trade
+- `oil`: score 15, headlines 5
+  - Oil prices fall as investors await 'toughest' U.S. sanctions on Iran
+  - Oil falls ahead of US announcement on new Iran sanctions - Reuters
+  - Gulf markets rise as oil gains lift sentiment - Reuters
+- `tariffs_trade`: score 7, headlines 3
+  - Trump accused of risking more pain for Americans with Canada trade war
+  - Stock futures flat as U.S. and Canada appear headed for trade war
   - U.S. Economy Could Feel the Sting From Trade War With Canada
-- `crypto_etf`: score 4, headlines 1
-  - Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz
-- `ai_growth_stocks`: score 2, headlines 1
-  - Palantir: profits, procurement and power | FT Film
-- `dollar`: score 2, headlines 1
-  - Canada announces retaliatory tariffs on U.S. goods after trade talks break down
+- `jobs`: score 7, headlines 1
+  - 고용노동부
+- `us_big_tech`: score 5, headlines 2
+  - Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway
+  - How Big Tech Captured American Schools
+- `us_index_flow`: score 5, headlines 2
+  - Here are the 2 big things we're watching in the stock market this week
+  - Nvidia is the beating heart of the AI boom and the stock market — which sets up a big test
+- `china`: score 3, headlines 1
+  - China’s Alibaba plans $10.2bn share placement in AI push

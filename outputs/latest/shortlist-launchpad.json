@@ -1,101 +1,46 @@
 {
-  "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields bitcoin",
+  "item_count": 2,
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
   "cards": [
-    {
-      "keyword": "treasury_yields",
-      "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
-      "publish_date": "2026-08-23",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
-        "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
-        "Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump"
-      ],
-      "recent_evidence": [
-        {
-          "title": "The Treasury’s bond-market intervention isn’t working. So what comes next?",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Sun, 23 Aug 2026 12:00:00 GMT",
-          "published_iso": "2026-08-23T12:00:00+00:00",
-          "link": "https://www.marketwatch.com/story/the-treasurys-bond-market-intervention-isnt-working-so-what-comes-next-ba5e132a?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
-          "source_name": "CoinDesk RSS",
-          "published": "Sat, 22 Aug 2026 05:05:13 +0000",
-          "published_iso": "2026-08-22T05:05:13+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin holds above $77,000 after Treasury-fuelled short squeeze",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-08-22 10:01:31",
-          "published_iso": "2026-08-22 10:01:31",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-77000-after-treasuryfuelled-short-squeeze-4872323",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-treasury-yields.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-%EB%AF%B8%EA%B5%AD%EC%B1%84-%EA%B8%88%EB%A6%AC-%EC%83%81%EC%8A%B9%EC%9D%B4-%EB%82%98%EC%8A%A4%EB%8B%A5%EA%B3%BC-%EC%BD%94%EC%9D%B8%EC%97%90-%EB%B6%80%EB%8B%B4%EC%9D%B4-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword treasury_yields",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword treasury_yields --apply",
-      "hard_blocking_checks": []
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-08-24",
+      "publish_date": "2026-08-25",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed), 실제 급상승 검색어 반영 (빗썸)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
-        "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
-        "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz"
+        "빗썸",
+        "Regulation Crypto is here: State of Crypto",
+        "Crypto card spending tops $1 billion as stablecoins move into everyday purchases"
       ],
       "recent_evidence": [
         {
-          "title": "Bitcoin slips under $77,000 as rally boosts mining economics",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-08-23 09:58:05",
-          "published_iso": "2026-08-23 09:58:05",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-under-77000-as-rally-boosts-mining-economics-4872436",
+          "title": "We are so back! Bitcoin’s 23% rally on US debt policy: Hodler’s Digest",
+          "source_name": "Cointelegraph",
+          "published": "Sun, 23 Aug 2026 23:56:00 +0000",
+          "published_iso": "2026-08-23T23:56:00+00:00",
+          "link": "https://cointelegraph.com/magazine/we-are-back-bitcoins-23-rally-on-us-debt-policy-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin surges past $76K with overbought RSI: Live levels",
+          "title": "Bitcoin coils in bull flag near $77K: Live levels",
           "source_name": "Investing.com Crypto News",
-          "published": "2026-08-23 07:02:36",
-          "published_iso": "2026-08-23 07:02:36",
+          "published": "2026-08-23 19:02:13",
+          "published_iso": "2026-08-23 19:02:13",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-coiled-at-63591-with-volatility-at-6month-lows-live-levels-93CH-4862234",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
-          "source_name": "CoinDesk RSS",
-          "published": "Sat, 22 Aug 2026 12:00:00 +0000",
-          "published_iso": "2026-08-22T12:00:00+00:00",
-          "link": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
+          "title": "Bitcoin pares losses as recent rally finds fresh momentum",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-08-23 15:17:37",
+          "published_iso": "2026-08-23 15:17:37",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-under-77000-as-rally-boosts-mining-economics-4872436",
           "source_type": "rss"
         }
       ],
@@ -114,50 +59,58 @@
       "hard_blocking_checks": []
     },
     {
-      "keyword": "us_big_tech",
-      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-      "publish_date": "2026-08-25",
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "publish_date": "2026-08-28",
       "review_verdict": "approve",
-      "quality_status": "review_before_publish",
-      "ready_now": false,
+      "quality_status": "pass",
+      "ready_now": true,
       "hero_image_selected": true,
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (apple tv)",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "intent": "FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자",
       "sample_headlines": [
-        "apple tv",
-        "Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway",
-        "How Big Tech Captured American Schools"
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
       ],
       "recent_evidence": [
         {
-          "title": "apple tv",
-          "source_name": "Google Trends US",
-          "published": "Sun, 23 Aug 2026 05:40:00 -0700",
-          "published_iso": "2026-08-23T05:40:00-07:00",
-          "link": "https://trends.google.com/trending/rss?geo=US",
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
           "source_type": "rss"
         },
         {
-          "title": "Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway",
-          "source_name": "CNBC Top News",
-          "published": "Sat, 22 Aug 2026 18:57:46 GMT",
-          "published_iso": "2026-08-22T18:57:46+00:00",
-          "link": "https://www.cnbc.com/2026/08/22/trump-reshuffled-his-portfolio-in-june-selling-names-like-meta-and-buying-berkshire-hathaway.html",
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
           "source_type": "rss"
         }
       ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-big-tech.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-%EB%AF%B8%EA%B5%AD-%EB%B9%85%ED%85%8C%ED%81%AC-%EC%A3%BC%EA%B0%80%EA%B0%80-%ED%9D%94%EB%93%A4%EB%A6%B4-%EB%95%8C-%ED%99%95%EC%9D%B8%ED%95%A0-%EA%B2%83-%EC%8B%A4%EC%A0%81-%EA%B8%88%EB%A6%AC-ai-%ED%88%AC%EC%9E%90.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
-      "next_action": "사용자 최종 확인 후 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
       "followup_commands": [
         "python3 scripts/build_platform_publish_plan.py",
         "python3 scripts/upload_blogger_drafts.py",
         "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
       ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
       "hard_blocking_checks": []
     }
   ]
