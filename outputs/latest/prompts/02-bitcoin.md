@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed), 실제 급상승 검색어 반영 (빗썸)",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -110,16 +110,14 @@
   "source_names": [
     "CoinDesk RSS",
     "Cointelegraph",
-    "Google Trends KR",
-    "Investing.com Crypto News",
-    "NYT Business"
+    "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "빗썸",
-    "Regulation Crypto is here: State of Crypto",
-    "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
-    "Crypto’s next billion users might be AI agents, and they’re paying with stablecoins",
-    "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown"
+    "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
+    "Pakistan kicks off crypto licensing regime with Sept. 5 registration deadline",
+    "Financial repression: The new buzzword for bitcoin bulls",
+    "Gemini strikes Apex deal to widen prediction markets reach",
+    "Bitcoin steadies near $78,000 as gold rallies, altcoins consolidate after best week in 3 years"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -182,10 +180,10 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 86.0,
-    "search_score": 28,
-    "timeliness_score": 21,
-    "explanatory_score": 18,
+    "total_score": 85.0,
+    "search_score": 29,
+    "timeliness_score": 18,
+    "explanatory_score": 17,
     "monetization_score": 15,
     "risk_score": 3
   },

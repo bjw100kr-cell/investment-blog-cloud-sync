@@ -2,7 +2,7 @@
 
 현재 잡힌 키워드를 어떤 글 타입과 내부링크 경로로 받아먹을지 정리한 운영 카드입니다.
 
-- generated_at: `2026-08-24T01:42:58.166479+00:00`
+- generated_at: `2026-08-24T13:04:55.978560+00:00`
 
 ## 1. fomc
 
@@ -10,8 +10,8 @@
 - pattern_name: `news_what_it_means`
 - capture_route: `breaking_to_evergreen`
 - route_description: 당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.
-- demand_signal_score: `4400`
-- search_intent_angle: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
+- demand_signal_score: `3800`
+- search_intent_angle: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
 - pattern_must_have:
   - 무슨 일이 있었는지 1문단 요약
   - 왜 시장이 반응하는지 해석
@@ -24,8 +24,6 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - sources:
-  - CNBC Top News
-  - Cointelegraph
   - Federal Reserve Monetary Policy Press
   - Financial Times Home
   - Financial Times World
@@ -36,9 +34,8 @@
 - pattern_name: `news_what_it_means`
 - capture_route: `breaking_to_evergreen`
 - route_description: 당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.
-- demand_signal_score: `300`
-- trend_queries: 빗썸
-- search_intent_angle: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed), 실제 급상승 검색어 반영 (빗썸)
+- demand_signal_score: `6500`
+- search_intent_angle: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - pattern_must_have:
   - 무슨 일이 있었는지 1문단 요약
   - 왜 시장이 반응하는지 해석
@@ -53,18 +50,16 @@
 - sources:
   - CoinDesk RSS
   - Cointelegraph
-  - Google Trends KR
   - Investing.com Crypto News
-  - NYT Business
 
-## 3. ai_semiconductors
+## 3. us_index_flow
 
-- recommended_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+- recommended_title: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - pattern_name: `search_explainer`
-- capture_route: `sector_hub_to_followups`
-- route_description: 섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.
-- demand_signal_score: `2800`
-- search_intent_angle: 복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능
+- capture_route: `search_entry_to_internal_links`
+- route_description: 검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.
+- demand_signal_score: `0`
+- search_intent_angle: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - pattern_must_have:
   - 제목에서 핵심 키워드와 독자 질문을 함께 드러낼 것
   - 도입 3문장 안에 왜 지금 읽어야 하는지 답할 것
@@ -77,20 +72,17 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - sources:
-  - CNBC Top News
-  - Financial Times Home
-  - Financial Times World
-  - Financial Times YouTube
   - MarketWatch Breaking News
+  - Reuters Markets via Google News RSS
 
-## 4. tariffs_trade
+## 4. china
 
-- recommended_title: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- recommended_title: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - pattern_name: `search_explainer`
 - capture_route: `search_entry_to_internal_links`
 - route_description: 검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.
 - demand_signal_score: `0`
-- search_intent_angle: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- search_intent_angle: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
 - pattern_must_have:
   - 제목에서 핵심 키워드와 독자 질문을 함께 드러낼 것
   - 도입 3문장 안에 왜 지금 읽어야 하는지 답할 것
@@ -103,8 +95,7 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - sources:
-  - Financial Times Home
-  - MarketWatch Breaking News
+  - Financial Times World
   - NYT Business
 
 ## 5. treasury_yields
@@ -113,7 +104,7 @@
 - pattern_name: `search_explainer`
 - capture_route: `search_entry_to_internal_links`
 - route_description: 검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.
-- demand_signal_score: `3100`
+- demand_signal_score: `3700`
 - search_intent_angle: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
 - pattern_must_have:
   - 제목에서 핵심 키워드와 독자 질문을 함께 드러낼 것
@@ -129,6 +120,6 @@
 - sources:
   - CNBC Top News
   - CoinDesk RSS
-  - Financial Times World
-  - Investing.com Crypto News
+  - MarketWatch Breaking News
+  - NYT Business
   - Reuters Markets via Google News RSS

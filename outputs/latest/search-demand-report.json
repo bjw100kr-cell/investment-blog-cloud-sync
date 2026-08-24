@@ -1,43 +1,35 @@
 {
-  "generated_at": "2026-08-24T01:42:58.166479+00:00",
+  "generated_at": "2026-08-24T13:04:55.978560+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 6,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "jobs",
-      "trend_count": 1,
-      "traffic_score_sum": 200,
-      "max_approx_traffic": 200,
-      "trend_queries": [
-        "고용노동부"
-      ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 400,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
-    {
       "keyword": "bitcoin",
-      "trend_count": 1,
-      "traffic_score_sum": 100,
-      "max_approx_traffic": 100,
-      "trend_queries": [
-        "빗썸"
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 6500,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 53,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
       ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 300,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+      "sample_titles": [
+        "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
+        "Pakistan kicks off crypto licensing regime with Sept. 5 registration deadline",
+        "Financial repression: The new buzzword for bitcoin bulls"
+      ]
     },
     {
       "keyword": "fomc",
@@ -46,15 +38,13 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4400,
+      "demand_signal_score": 3800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 32,
-      "source_count": 5,
+      "source_snapshot_score": 26,
+      "source_count": 3,
       "source_names": [
-        "CNBC Top News",
-        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
         "Financial Times Home",
         "Financial Times World"
@@ -72,72 +62,48 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3100,
+      "demand_signal_score": 3700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 19,
+      "source_snapshot_score": 25,
       "source_count": 5,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
-        "Financial Times World",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
+        "Bitcoin steadies near $78,000 as gold rallies, altcoins consolidate after best week in 3 years",
+        "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said"
+      ]
+    },
+    {
+      "keyword": "dollar",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2900,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 17,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
         "Investing.com Crypto News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
-        "Treasury Secretary to announce Iran sanctions as Tehran dismisses economic warfare threat",
-        "Bitcoin holds above $77,000 after Treasury-fuelled short squeeze"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2800,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 16,
-      "source_count": 6,
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "Financial Times YouTube",
-        "MarketWatch Breaking News"
-      ],
-      "sample_titles": [
-        "Here are the 2 big things we're watching in the stock market this week",
-        "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
-        "Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally - Reuters"
-      ]
-    },
-    {
-      "keyword": "oil",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2700,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 15,
-      "source_count": 2,
-      "source_names": [
-        "CNBC Top News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Oil prices fall as investors await 'toughest' U.S. sanctions on Iran",
-        "Oil falls ahead of US announcement on new Iran sanctions - Reuters",
-        "Gulf markets rise as oil gains lift sentiment - Reuters"
+        "Strategy raises $2 billion through MSTR sales and creates new USD Cash pool",
+        "Standard Chartered becomes first bank to distribute Hong Kong dollar stablecoin",
+        "'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war"
       ]
     }
   ],

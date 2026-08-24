@@ -1,7 +1,7 @@
 {
-  "item_count": 2,
+  "item_count": 3,
   "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin fomc",
   "cards": [
     {
       "keyword": "bitcoin",
@@ -11,36 +11,36 @@
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed), 실제 급상승 검색어 반영 (빗썸)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "빗썸",
-        "Regulation Crypto is here: State of Crypto",
-        "Crypto card spending tops $1 billion as stablecoins move into everyday purchases"
+        "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
+        "Pakistan kicks off crypto licensing regime with Sept. 5 registration deadline",
+        "Financial repression: The new buzzword for bitcoin bulls"
       ],
       "recent_evidence": [
         {
-          "title": "We are so back! Bitcoin’s 23% rally on US debt policy: Hodler’s Digest",
+          "title": "First bear-market trend line reclaim since 2025: Five things to know in Bitcoin this week",
           "source_name": "Cointelegraph",
-          "published": "Sun, 23 Aug 2026 23:56:00 +0000",
-          "published_iso": "2026-08-23T23:56:00+00:00",
-          "link": "https://cointelegraph.com/magazine/we-are-back-bitcoins-23-rally-on-us-debt-policy-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Mon, 24 Aug 2026 11:23:58 +0000",
+          "published_iso": "2026-08-24T11:23:58+00:00",
+          "link": "https://cointelegraph.com/markets/first-bear-market-trend-line-reclaim-since-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin coils in bull flag near $77K: Live levels",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-08-23 19:02:13",
-          "published_iso": "2026-08-23 19:02:13",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-coiled-at-63591-with-volatility-at-6month-lows-live-levels-93CH-4862234",
+          "title": "Financial repression: The new buzzword for bitcoin bulls",
+          "source_name": "CoinDesk RSS",
+          "published": "Mon, 24 Aug 2026 11:15:00 +0000",
+          "published_iso": "2026-08-24T11:15:00+00:00",
+          "link": "https://www.coindesk.com/daybook-us/2026/08/24/financial-repression-the-new-buzzword-for-bitcoin-bulls",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin pares losses as recent rally finds fresh momentum",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-08-23 15:17:37",
-          "published_iso": "2026-08-23 15:17:37",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-under-77000-as-rally-boosts-mining-economics-4872436",
+          "title": "Bitcoin steadies near $78,000 as gold rallies, altcoins consolidate after best week in 3 years",
+          "source_name": "CoinDesk RSS",
+          "published": "Mon, 24 Aug 2026 10:41:46 +0000",
+          "published_iso": "2026-08-24T10:41:46+00:00",
+          "link": "https://www.coindesk.com/markets/2026/08/24/bitcoin-steadies-near-usd78-000-as-gold-rallies-altcoins-consolidate-after-best-week-in-3-years",
           "source_type": "rss"
         }
       ],
@@ -61,13 +61,13 @@
     {
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-08-28",
+      "publish_date": "2026-08-24",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
-      "intent": "FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
@@ -111,6 +111,44 @@
       ],
       "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
       "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
+      "hard_blocking_checks": []
+    },
+    {
+      "keyword": "us_index_flow",
+      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "publish_date": "2026-08-26",
+      "review_verdict": "approve",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "hero_image_selected": true,
+      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "S&P, Nasdaq futures slip as markets await Iran sanctions, Nvidia results - Reuters",
+        "This market shift resembles the post–World War II era — and bond yields could have room to go higher, says Morgan Stanley"
+      ],
+      "recent_evidence": [
+        {
+          "title": "S&P, Nasdaq futures slip as markets await Iran sanctions, Nvidia results - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Mon, 24 Aug 2026 10:10:11 GMT",
+          "published_iso": "2026-08-24T10:10:11+00:00",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-index-flow.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-%EB%AF%B8%EA%B5%AD-%EC%A6%9D%EC%8B%9C-%EC%A7%80%EC%88%98-%ED%9D%90%EB%A6%84-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow",
+      "next_action": "사용자 최종 확인 후 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply",
       "hard_blocking_checks": []
     }
   ]
