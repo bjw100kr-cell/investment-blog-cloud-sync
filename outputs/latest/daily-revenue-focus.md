@@ -2,7 +2,7 @@
 
 오늘 어떤 글 순서로 올려야 수익화에 더 유리한지 보여주는 운영 카드입니다.
 
-- generated_at: `2026-08-24T13:04:55.978560+00:00`
+- generated_at: `2026-08-25T01:38:08.916997+00:00`
 - path_policy: main post는 현재 최적 단건 후보를 유지하고, next slot은 가능하면 다른 브랜드 레인에서 선택
 
 ## Today Path
@@ -22,14 +22,14 @@
 - `next_slot` / `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지`
   - keyword: fomc
   - brand_lane: macro (거시경제)
-  - urgency: publish_now
-  - why_revenue: 페이지뷰와 체류시간 균형 확보
-  - cta_focus: 환율·금리·미국증시 evergreen 글로 연결
+  - urgency: watch
+  - why_revenue: 카테고리 보강과 내부링크 확장으로 장기 검색 유입 기반을 만드는 역할
+  - cta_focus: 
 
 ## Approval Commands
 
 - single: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin fomc`
+- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 
 ## Monetization Gaps
 

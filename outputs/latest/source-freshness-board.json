@@ -1,126 +1,98 @@
 {
-  "generated_at": "2026-08-24T13:05:00.680494+00:00",
-  "snapshot_generated_at": "2026-08-24T13:04:55.978560+00:00",
+  "generated_at": "2026-08-25T01:38:13.107949+00:00",
+  "snapshot_generated_at": "2026-08-25T01:38:08.916997+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
-  "item_count": 3,
+  "item_count": 2,
   "counts": {
     "fresh": 2,
-    "aging": 1,
+    "aging": 0,
     "stale": 0,
     "unknown": 0
   },
   "items": [
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-08-24",
-      "freshness_status": "aging",
-      "newest_evidence_iso": "2026-08-19T18:00:00+00:00",
-      "oldest_evidence_iso": "2026-06-17T18:00:00+00:00",
-      "newest_evidence_age_days": 4.8,
-      "source_count": 3,
-      "demand_signal_score": 3800,
-      "summary_line": "아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.",
-      "recovery_mode": "refresh_before_publish",
-      "recovery_summary": "발행 직전 전체 파이프라인을 다시 돌려 headline과 숫자를 최신 상태로 갱신하는 편이 안전합니다.",
-      "recovery_command": "bash scripts/run_pipeline.sh",
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "quality_status": "review_before_publish",
-      "ready_now": false,
-      "publish_date": "2026-08-26",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-24T10:10:11+00:00",
-      "oldest_evidence_iso": "2026-08-24T10:10:11+00:00",
-      "newest_evidence_age_days": 0.1,
-      "source_count": 2,
-      "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: S&P, Nasdaq futures slip as markets await Iran sanctions, Nvidia results - Reuters",
-      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "S&P, Nasdaq futures slip as markets await Iran sanctions, Nvidia results - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Mon, 24 Aug 2026 10:10:11 GMT",
-          "published_iso": "2026-08-24T10:10:11+00:00",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-08-25",
+      "publish_date": "2026-08-26",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-08-24T12:14:02+00:00",
-      "oldest_evidence_iso": "2026-08-24T08:56:52+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 3,
-      "demand_signal_score": 6500,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: First bear-market trend line reclaim since 2025: Five things to know in Bitcoin this week",
+      "newest_evidence_iso": "2026-08-24T21:49:10+00:00",
+      "oldest_evidence_iso": "2026-08-24T16:44:55+00:00",
+      "newest_evidence_age_days": 0.2,
+      "source_count": 4,
+      "demand_signal_score": 6700,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin has beaten stocks and gold over six months. Now it’s closing in on $80,000.",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "First bear-market trend line reclaim since 2025: Five things to know in Bitcoin this week",
+          "title": "Bitcoin has beaten stocks and gold over six months. Now it’s closing in on $80,000.",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Mon, 24 Aug 2026 20:53:00 GMT",
+          "published_iso": "2026-08-24T20:53:00+00:00",
+          "link": "https://www.marketwatch.com/story/bitcoin-has-beaten-stocks-and-gold-over-six-months-now-its-closing-in-on-80-000-b8aa48f9?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin nears $80,000, but analysts say the next pullback will be key",
+          "source_name": "CoinDesk RSS",
+          "published": "Mon, 24 Aug 2026 19:36:36 +0000",
+          "published_iso": "2026-08-24T19:36:36+00:00",
+          "link": "https://www.coindesk.com/markets/2026/08/24/bitcoin-nears-usd80-000-but-analysts-say-the-next-pullback-will-be-key",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M",
           "source_name": "Cointelegraph",
-          "published": "Mon, 24 Aug 2026 11:23:58 +0000",
-          "published_iso": "2026-08-24T11:23:58+00:00",
-          "link": "https://cointelegraph.com/markets/first-bear-market-trend-line-reclaim-since-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Mon, 24 Aug 2026 17:48:44 +0000",
+          "published_iso": "2026-08-24T17:48:44+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-hits-80k-as-24-hour-crypto-short-liquidations-pass-m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "treasury_yields",
+      "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-08-29",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-08-24T21:07:43+00:00",
+      "oldest_evidence_iso": "2026-08-24T00:49:00+00:00",
+      "newest_evidence_age_days": 0.2,
+      "source_count": 7,
+      "demand_signal_score": 3500,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech - Reuters",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Mon, 24 Aug 2026 21:07:43 GMT",
+          "published_iso": "2026-08-24T21:07:43+00:00",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnNlclhfMG4yZE9OTExTUEQ4Zi1sUml5RFdoUVZiU2tXd3EtaTJSc0E4YlRBQUp4T1hvSzdmVHRBeFhobTMxV1hodmhsRl80Zm4zSldlTzBWTGJMeTNEd0RnekpmLV9RaVprUWp4SlBCQXJheXc1ZUt4NEx2T3pON0NQQTVlQTlldVA0SWRWdmN6OWVwc25jUlRBeGFTUFIzaC1YNlRQSzFrREtrQ3FXWQ?oc=5",
           "source_type": "rss"
         },
         {
-          "title": "Financial repression: The new buzzword for bitcoin bulls",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 24 Aug 2026 11:15:00 +0000",
-          "published_iso": "2026-08-24T11:15:00+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/08/24/financial-repression-the-new-buzzword-for-bitcoin-bulls",
+          "title": "What’s Behind the U.S. Treasury’s Latest Attempt to Lower Interest Rates",
+          "source_name": "NYT Business",
+          "published": "Mon, 24 Aug 2026 20:03:52 +0000",
+          "published_iso": "2026-08-24T20:03:52+00:00",
+          "link": "https://www.nytimes.com/2026/08/24/business/treasury-bond-buybacks-impact.html",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin steadies near $78,000 as gold rallies, altcoins consolidate after best week in 3 years",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 24 Aug 2026 10:41:46 +0000",
-          "published_iso": "2026-08-24T10:41:46+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/24/bitcoin-steadies-near-usd78-000-as-gold-rallies-altcoins-consolidate-after-best-week-in-3-years",
+          "title": "Treasury market interventions are only a band-aid",
+          "source_name": "Financial Times Home",
+          "published": "Mon, 24 Aug 2026 17:16:47 GMT",
+          "published_iso": "2026-08-24T17:16:47+00:00",
+          "link": "https://www.ft.com/content/d6c9e705-ef30-4896-880b-8e88941e0f58?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ]

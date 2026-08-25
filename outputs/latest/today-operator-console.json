@@ -9,8 +9,8 @@
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-08-25",
-      "priority_score": 124.0,
+      "publish_date": "2026-08-26",
+      "priority_score": 126.0,
       "review_verdict": "approve",
       "quality_status": "pass",
       "hero_image_selected": true,
@@ -33,61 +33,35 @@
       ]
     },
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-08-24",
-      "priority_score": 137.0,
+      "keyword": "treasury_yields",
+      "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+      "publish_date": "2026-08-29",
+      "priority_score": 118.0,
       "review_verdict": "approve",
       "quality_status": "pass",
       "hero_image_selected": true,
       "ready_now": true,
       "brand_lane": "macro",
       "brand_lane_label": "거시경제",
-      "freshness_status": "aging",
-      "freshness_recommendation": "초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.",
-      "hero_image_provider": "Unsplash",
-      "hero_image_search_query": "central bank meeting finance city skyline",
-      "hero_image_search_url": "https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline",
-      "hero_image_license_label": "Unsplash License",
-      "hero_image_license_url": "https://unsplash.com/license",
-      "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
-      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "preview": [
-        "한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다. - 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다. - 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다."
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "publish_date": "2026-08-26",
-      "priority_score": 86.0,
-      "review_verdict": "approve",
-      "quality_status": "review_before_publish",
-      "hero_image_selected": true,
-      "ready_now": false,
-      "brand_lane": "us-stocks",
-      "brand_lane_label": "미국주식",
       "freshness_status": "",
       "freshness_recommendation": "",
       "hero_image_provider": "Unsplash",
-      "hero_image_search_query": "technology stocks office finance abstract",
-      "hero_image_search_url": "https://unsplash.com/s/photos/technology+stocks+office+finance+abstract",
+      "hero_image_search_query": "central bank finance city skyline market data",
+      "hero_image_search_url": "https://unsplash.com/s/photos/central+bank+finance+city+skyline+market+data",
       "hero_image_license_label": "Unsplash License",
       "hero_image_license_url": "https://unsplash.com/license",
-      "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_index_flow --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
-      "cta_focus": "실적·공급망·대표 종목 글로 연결",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword treasury_yields --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
+      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
+      "intent": "FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자",
       "preview": [
-        "한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다."
+        "한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다."
       ]
     }
   ],
   "approval": {
     "single_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-    "batch_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin fomc"
+    "batch_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin"
   },
   "review_board": {
     "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/review-preview-board.html",
@@ -171,9 +145,9 @@
       "step": "next_slot",
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "why_revenue": "페이지뷰와 체류시간 균형 확보",
-      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-      "urgency": "publish_now",
+      "why_revenue": "카테고리 보강과 내부링크 확장으로 장기 검색 유입 기반을 만드는 역할",
+      "cta_focus": "",
+      "urgency": "watch",
       "brand_lane": "macro",
       "brand_lane_label": "거시경제",
       "selection_mode": "direct",
@@ -181,70 +155,24 @@
     }
   ],
   "traffic_goal": {
-    "generated_at": "2026-08-24T13:04:55.978560+00:00",
+    "generated_at": "2026-08-25T01:38:08.916997+00:00",
     "target_daily_visitors": 200,
-    "projected_daily_visitors": 190,
-    "gap_to_target": 10,
+    "projected_daily_visitors": 188,
+    "gap_to_target": 12,
     "status": "needs_more_distribution",
     "top_path": [
       {
-        "keyword": "fomc",
-        "brand_lane": "macro",
-        "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-        "demand_signal_score": 3800,
-        "total_score": 94.0,
-        "quality_status": "pass",
-        "ready_to_upload": true,
-        "crypto_market_signal_bonus": 0,
-        "crypto_market_sentiment": "",
-        "crypto_market_signal_notes": [],
-        "estimated_daily_visitors": 95,
-        "recommended_action": "금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결"
-      },
-      {
         "keyword": "bitcoin",
         "brand_lane": "crypto",
         "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-        "demand_signal_score": 6500,
-        "total_score": 85.0,
+        "demand_signal_score": 6700,
+        "total_score": 87.0,
         "quality_status": "pass",
         "ready_to_upload": true,
         "crypto_market_signal_bonus": 3,
         "crypto_market_sentiment": "mixed",
         "crypto_market_signal_notes": [
-          "BTCUSDT 24h change 2.43%"
-        ],
-        "estimated_daily_visitors": 95,
-        "recommended_action": "코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행"
-      }
-    ],
-    "topic_items": [
-      {
-        "keyword": "fomc",
-        "brand_lane": "macro",
-        "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-        "demand_signal_score": 3800,
-        "total_score": 94.0,
-        "quality_status": "pass",
-        "ready_to_upload": true,
-        "crypto_market_signal_bonus": 0,
-        "crypto_market_sentiment": "",
-        "crypto_market_signal_notes": [],
-        "estimated_daily_visitors": 95,
-        "recommended_action": "금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결"
-      },
-      {
-        "keyword": "bitcoin",
-        "brand_lane": "crypto",
-        "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-        "demand_signal_score": 6500,
-        "total_score": 85.0,
-        "quality_status": "pass",
-        "ready_to_upload": true,
-        "crypto_market_signal_bonus": 3,
-        "crypto_market_sentiment": "mixed",
-        "crypto_market_signal_notes": [
-          "BTCUSDT 24h change 2.43%"
+          "BTCUSDT 24h change 3.17%"
         ],
         "estimated_daily_visitors": 95,
         "recommended_action": "코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행"
@@ -253,8 +181,54 @@
         "keyword": "treasury_yields",
         "brand_lane": "macro",
         "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
-        "demand_signal_score": 3700,
+        "demand_signal_score": 3500,
+        "total_score": 86.0,
+        "quality_status": "pass",
+        "ready_to_upload": true,
+        "crypto_market_signal_bonus": 0,
+        "crypto_market_sentiment": "",
+        "crypto_market_signal_notes": [],
+        "estimated_daily_visitors": 93,
+        "recommended_action": "금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결"
+      }
+    ],
+    "topic_items": [
+      {
+        "keyword": "bitcoin",
+        "brand_lane": "crypto",
+        "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+        "demand_signal_score": 6700,
         "total_score": 87.0,
+        "quality_status": "pass",
+        "ready_to_upload": true,
+        "crypto_market_signal_bonus": 3,
+        "crypto_market_sentiment": "mixed",
+        "crypto_market_signal_notes": [
+          "BTCUSDT 24h change 3.17%"
+        ],
+        "estimated_daily_visitors": 95,
+        "recommended_action": "코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행"
+      },
+      {
+        "keyword": "treasury_yields",
+        "brand_lane": "macro",
+        "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+        "demand_signal_score": 3500,
+        "total_score": 86.0,
+        "quality_status": "pass",
+        "ready_to_upload": true,
+        "crypto_market_signal_bonus": 0,
+        "crypto_market_sentiment": "",
+        "crypto_market_signal_notes": [],
+        "estimated_daily_visitors": 93,
+        "recommended_action": "금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결"
+      },
+      {
+        "keyword": "fomc",
+        "brand_lane": "macro",
+        "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+        "demand_signal_score": 3200,
+        "total_score": 86.0,
         "quality_status": "unknown",
         "ready_to_upload": false,
         "crypto_market_signal_bonus": 0,
@@ -264,25 +238,11 @@
         "recommended_action": "발행 가능한 manifest/이미지/신선도 상태 보강"
       },
       {
-        "keyword": "us_index_flow",
-        "brand_lane": "us-stocks",
-        "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-        "demand_signal_score": 0,
-        "total_score": 59.0,
-        "quality_status": "review_before_publish",
-        "ready_to_upload": true,
-        "crypto_market_signal_bonus": 0,
-        "crypto_market_sentiment": "",
-        "crypto_market_signal_notes": [],
-        "estimated_daily_visitors": 0,
-        "recommended_action": "대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장"
-      },
-      {
-        "keyword": "china",
+        "keyword": "tariffs_trade",
         "brand_lane": "world-flow",
-        "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "demand_signal_score": 0,
-        "total_score": 55.0,
+        "title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+        "demand_signal_score": 2600,
+        "total_score": 78.0,
         "quality_status": "review_before_publish",
         "ready_to_upload": true,
         "crypto_market_signal_bonus": 0,
@@ -290,6 +250,20 @@
         "crypto_market_signal_notes": [],
         "estimated_daily_visitors": 0,
         "recommended_action": "세계 흐름 해설 뒤 관련 섹터/환율 글로 연결"
+      },
+      {
+        "keyword": "ai_semiconductors",
+        "brand_lane": "us-stocks",
+        "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+        "demand_signal_score": 0,
+        "total_score": 75.0,
+        "quality_status": "review_before_publish",
+        "ready_to_upload": true,
+        "crypto_market_signal_bonus": 0,
+        "crypto_market_sentiment": "",
+        "crypto_market_signal_notes": [],
+        "estimated_daily_visitors": 0,
+        "recommended_action": "대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장"
       }
     ],
     "ready_topic_count": 2,
@@ -316,10 +290,10 @@
       "status": "ok",
       "sentiment": "mixed",
       "fear_greed": {
-        "value": 73,
+        "value": 74,
         "label": "Greed",
         "source": "alternative.me",
-        "timestamp": "1787529600"
+        "timestamp": "1787616000"
       },
       "providers": {
         "binance_plugin": false,
@@ -329,7 +303,7 @@
       }
     },
     "bottlenecks": [
-      "상위 4개 글 예상 합계가 190명으로 목표보다 10명 부족합니다.",
+      "상위 4개 글 예상 합계가 188명으로 목표보다 12명 부족합니다.",
       "GA4/Search Console 연결 전이라 실제 200명 달성 여부를 자동 측정하기 어렵습니다.",
       "뉴스레터/텔레그램 재방문 동선이 없어 첫 방문자를 반복 방문으로 쌓기 어렵습니다."
     ],
@@ -341,7 +315,7 @@
     ]
   },
   "visitor_proof": {
-    "generated_at": "2026-08-24T13:05:00.027903+00:00",
+    "generated_at": "2026-08-25T01:38:12.599439+00:00",
     "target_daily_visitors": 200,
     "actual_verified_visitors": 0,
     "actual_verified_impressions": 0,
@@ -379,9 +353,9 @@
       ]
     },
     "projection_summary": {
-      "projected_daily_visitors": 190,
-      "projected_with_amplification": 190,
-      "potential_with_manual_amplification": 1390,
+      "projected_daily_visitors": 188,
+      "projected_with_amplification": 188,
+      "potential_with_manual_amplification": 1388,
       "projection_is_proof": false,
       "traffic_goal_status": "needs_more_distribution",
       "amplification_status": "amplification_plan_ready_manual_execution_required"
@@ -412,7 +386,7 @@
       "gate": "첫 draft 검증 성공 후 3~7일 운영",
       "focus": "검색 유입용 메인 글과 후속 SEO 글이 반복 루프로 굴러가는지 확인",
       "tasks": [
-        "`비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` -> SEO 후속 글 -> `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유` 흐름 반복",
+        "`비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` -> SEO 후속 글 -> `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` 흐름 반복",
         "daily-revenue-focus 기준으로 매일 1순위 글과 후속 글 연결",
         "승인 keyword 운영이 과도하게 번거롭지 않은지 체크"
       ],
@@ -433,7 +407,7 @@
   "image_upgrade_queue": [],
   "image_leverage_lanes": [],
   "cross_platform_publish_pack": {
-    "generated_at": "2026-08-24T13:04:59.534599+00:00",
+    "generated_at": "2026-08-25T01:38:12.230855+00:00",
     "automation_policy": "automation-first",
     "primary_channel": "blogger",
     "secondary_channel": "wordpress",
@@ -465,14 +439,14 @@
         "quality_note": "수동 채널은 품질 게이트 상태와 상관없이 수동 발행 후보로 노출됩니다.",
         "items": [
           {
-            "inventory_sequence": 2,
+            "inventory_sequence": 1,
             "inventory_type": "main_post",
             "keyword": "bitcoin",
             "source_keyword": "bitcoin",
             "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
             "publish_bucket": "tomorrow",
-            "recommended_publish_date": "2026-08-25",
-            "priority_score": 124.0,
+            "recommended_publish_date": "2026-08-26",
+            "priority_score": 126.0,
             "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
             "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
             "quality_status": "pass"
@@ -502,14 +476,14 @@
         "ready_item_count": 1,
         "items": [
           {
-            "inventory_sequence": 2,
+            "inventory_sequence": 1,
             "inventory_type": "main_post",
             "keyword": "bitcoin",
             "source_keyword": "bitcoin",
             "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
             "publish_bucket": "tomorrow",
-            "recommended_publish_date": "2026-08-25",
-            "priority_score": 124.0,
+            "recommended_publish_date": "2026-08-26",
+            "priority_score": 126.0,
             "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
             "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
             "quality_status": "pass"
@@ -527,14 +501,14 @@
         "ready_item_count": 1,
         "items": [
           {
-            "inventory_sequence": 2,
+            "inventory_sequence": 1,
             "inventory_type": "main_post",
             "keyword": "bitcoin",
             "source_keyword": "bitcoin",
             "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
             "publish_bucket": "tomorrow",
-            "recommended_publish_date": "2026-08-25",
-            "priority_score": 124.0,
+            "recommended_publish_date": "2026-08-26",
+            "priority_score": 126.0,
             "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
             "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
             "quality_status": "unknown"
@@ -550,14 +524,14 @@
         "ready_item_count": 1,
         "items": [
           {
-            "inventory_sequence": 2,
+            "inventory_sequence": 1,
             "inventory_type": "main_post",
             "keyword": "bitcoin",
             "source_keyword": "bitcoin",
             "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
             "publish_bucket": "tomorrow",
-            "recommended_publish_date": "2026-08-25",
-            "priority_score": 124.0,
+            "recommended_publish_date": "2026-08-26",
+            "priority_score": 126.0,
             "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
             "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
             "quality_status": "unknown"

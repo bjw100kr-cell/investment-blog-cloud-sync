@@ -8,7 +8,7 @@
   - reason: no_live_followup_urls
 - `fomc` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls
-- `china` / applied `False` / changed `False` / live picks `0`
-  - reason: no_live_followup_urls
 - `treasury_yields` / applied `False` / changed `False` / live picks `0`
+  - reason: no_live_followup_urls
+- `tariffs_trade` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls

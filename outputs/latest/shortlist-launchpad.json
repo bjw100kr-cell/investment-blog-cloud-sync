@@ -1,46 +1,46 @@
 {
-  "item_count": 3,
+  "item_count": 2,
   "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin fomc",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
   "cards": [
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-08-25",
+      "publish_date": "2026-08-26",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
-        "Pakistan kicks off crypto licensing regime with Sept. 5 registration deadline",
-        "Financial repression: The new buzzword for bitcoin bulls"
+        "Bitcoin nears $80,000, but analysts say the next pullback will be key",
+        "Crypto political group details list of U.S. congressional allies its backing this year",
+        "Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain"
       ],
       "recent_evidence": [
         {
-          "title": "First bear-market trend line reclaim since 2025: Five things to know in Bitcoin this week",
+          "title": "Bitcoin has beaten stocks and gold over six months. Now it’s closing in on $80,000.",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Mon, 24 Aug 2026 20:53:00 GMT",
+          "published_iso": "2026-08-24T20:53:00+00:00",
+          "link": "https://www.marketwatch.com/story/bitcoin-has-beaten-stocks-and-gold-over-six-months-now-its-closing-in-on-80-000-b8aa48f9?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin nears $80,000, but analysts say the next pullback will be key",
+          "source_name": "CoinDesk RSS",
+          "published": "Mon, 24 Aug 2026 19:36:36 +0000",
+          "published_iso": "2026-08-24T19:36:36+00:00",
+          "link": "https://www.coindesk.com/markets/2026/08/24/bitcoin-nears-usd80-000-but-analysts-say-the-next-pullback-will-be-key",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M",
           "source_name": "Cointelegraph",
-          "published": "Mon, 24 Aug 2026 11:23:58 +0000",
-          "published_iso": "2026-08-24T11:23:58+00:00",
-          "link": "https://cointelegraph.com/markets/first-bear-market-trend-line-reclaim-since-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Financial repression: The new buzzword for bitcoin bulls",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 24 Aug 2026 11:15:00 +0000",
-          "published_iso": "2026-08-24T11:15:00+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/08/24/financial-repression-the-new-buzzword-for-bitcoin-bulls",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin steadies near $78,000 as gold rallies, altcoins consolidate after best week in 3 years",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 24 Aug 2026 10:41:46 +0000",
-          "published_iso": "2026-08-24T10:41:46+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/24/bitcoin-steadies-near-usd78-000-as-gold-rallies-altcoins-consolidate-after-best-week-in-3-years",
+          "published": "Mon, 24 Aug 2026 17:48:44 +0000",
+          "published_iso": "2026-08-24T17:48:44+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-hits-80k-as-24-hour-crypto-short-liquidations-pass-m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ],
@@ -59,96 +59,58 @@
       "hard_blocking_checks": []
     },
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-08-24",
+      "keyword": "treasury_yields",
+      "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+      "publish_date": "2026-08-29",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "reason": "복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
+      "intent": "FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자",
       "sample_headlines": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+        "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
+        "Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%",
+        "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said"
       ],
       "recent_evidence": [
         {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
-      "hard_blocking_checks": []
-    },
-    {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "publish_date": "2026-08-26",
-      "review_verdict": "approve",
-      "quality_status": "review_before_publish",
-      "ready_now": false,
-      "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "S&P, Nasdaq futures slip as markets await Iran sanctions, Nvidia results - Reuters",
-        "This market shift resembles the post–World War II era — and bond yields could have room to go higher, says Morgan Stanley"
-      ],
-      "recent_evidence": [
-        {
-          "title": "S&P, Nasdaq futures slip as markets await Iran sanctions, Nvidia results - Reuters",
+          "title": "Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech - Reuters",
           "source_name": "Reuters Markets via Google News RSS",
-          "published": "Mon, 24 Aug 2026 10:10:11 GMT",
-          "published_iso": "2026-08-24T10:10:11+00:00",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5",
+          "published": "Mon, 24 Aug 2026 21:07:43 GMT",
+          "published_iso": "2026-08-24T21:07:43+00:00",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnNlclhfMG4yZE9OTExTUEQ4Zi1sUml5RFdoUVZiU2tXd3EtaTJSc0E4YlRBQUp4T1hvSzdmVHRBeFhobTMxV1hodmhsRl80Zm4zSldlTzBWTGJMeTNEd0RnekpmLV9RaVprUWp4SlBCQXJheXc1ZUt4NEx2T3pON0NQQTVlQTlldVA0SWRWdmN6OWVwc25jUlRBeGFTUFIzaC1YNlRQSzFrREtrQ3FXWQ?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "What’s Behind the U.S. Treasury’s Latest Attempt to Lower Interest Rates",
+          "source_name": "NYT Business",
+          "published": "Mon, 24 Aug 2026 20:03:52 +0000",
+          "published_iso": "2026-08-24T20:03:52+00:00",
+          "link": "https://www.nytimes.com/2026/08/24/business/treasury-bond-buybacks-impact.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Treasury market interventions are only a band-aid",
+          "source_name": "Financial Times Home",
+          "published": "Mon, 24 Aug 2026 17:16:47 GMT",
+          "published_iso": "2026-08-24T17:16:47+00:00",
+          "link": "https://www.ft.com/content/d6c9e705-ef30-4896-880b-8e88941e0f58?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-index-flow.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-%EB%AF%B8%EA%B5%AD-%EC%A6%9D%EC%8B%9C-%EC%A7%80%EC%88%98-%ED%9D%90%EB%A6%84-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow",
-      "next_action": "사용자 최종 확인 후 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow",
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-treasury-yields.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-%EB%AF%B8%EA%B5%AD%EC%B1%84-%EA%B8%88%EB%A6%AC-%EC%83%81%EC%8A%B9%EC%9D%B4-%EB%82%98%EC%8A%A4%EB%8B%A5%EA%B3%BC-%EC%BD%94%EC%9D%B8%EC%97%90-%EB%B6%80%EB%8B%B4%EC%9D%B4-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields",
       "followup_commands": [
         "python3 scripts/build_platform_publish_plan.py",
         "python3 scripts/upload_blogger_drafts.py",
         "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
       ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword treasury_yields",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword treasury_yields --apply",
       "hard_blocking_checks": []
     }
   ]

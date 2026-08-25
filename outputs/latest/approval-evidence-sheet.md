@@ -2,75 +2,57 @@
 
 사용자가 초안을 최종 확인하기 전에, 왜 이 글이 오늘 올라올 가치가 있는지 근거를 빠르게 보는 시트입니다.
 - 원칙: 초안 내용과 함께 근거 소스, 검색 수요, 시의성을 같이 보고 최종 확인합니다.
-- generated_at: `2026-08-24T13:04:55.978560+00:00`
-- item_count: `3`
+- generated_at: `2026-08-25T01:38:08.916997+00:00`
+- item_count: `2`
 
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
-- publish_date: `2026-08-25`
-- priority_score: `124.0`
+- publish_date: `2026-08-26`
+- priority_score: `126.0`
 - ready_now: `True` / quality_status `pass`
-- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- reason: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - format: `crypto_analysis`
-- demand_signal_score: `6500`
+- demand_signal_score: `6700`
 - fallback_source: `source_snapshot_rank`
-- source_count: `3`
-- score_breakdown: search `29` / timeliness `18` / monetization `15`
-- source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- source_count: `4`
+- score_breakdown: search `29` / timeliness `20` / monetization `15`
+- source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
 - sample_headlines:
+  - Bitcoin nears $80,000, but analysts say the next pullback will be key
+  - Crypto political group details list of U.S. congressional allies its backing this year
+  - Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain
   - Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July
   - Pakistan kicks off crypto licensing regime with Sept. 5 registration deadline
-  - Financial repression: The new buzzword for bitcoin bulls
-  - Gemini strikes Apex deal to widen prediction markets reach
-  - Bitcoin steadies near $78,000 as gold rallies, altcoins consolidate after best week in 3 years
 - recent_evidence:
-  - Cointelegraph | 2026-08-24T11:23:58+00:00 | First bear-market trend line reclaim since 2025: Five things to know in Bitcoin this week | https://cointelegraph.com/markets/first-bear-market-trend-line-reclaim-since-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  - CoinDesk RSS | 2026-08-24T11:15:00+00:00 | Financial repression: The new buzzword for bitcoin bulls | https://www.coindesk.com/daybook-us/2026/08/24/financial-repression-the-new-buzzword-for-bitcoin-bulls
-  - CoinDesk RSS | 2026-08-24T10:41:46+00:00 | Bitcoin steadies near $78,000 as gold rallies, altcoins consolidate after best week in 3 years | https://www.coindesk.com/markets/2026/08/24/bitcoin-steadies-near-usd78-000-as-gold-rallies-altcoins-consolidate-after-best-week-in-3-years
-  - Cointelegraph | 2026-08-24T08:56:52+00:00 | Bitcoin ETF inflows hit $1.9B in strongest week since October 2025 | https://cointelegraph.com/markets/bitcoin-etf-inflows-billion-strongest-week-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  - Investing.com Crypto News | 2026-08-24 12:14:02 | Strategy adds USD Cash pool, holds 840,447 bitcoin as of Aug. 23 | https://www.investing.com/news/cryptocurrency-news/strategy-adds-usd-cash-pool-holds-840447-bitcoin-as-of-aug-23-432SI-4873422
+  - MarketWatch Breaking News | 2026-08-24T20:53:00+00:00 | Bitcoin has beaten stocks and gold over six months. Now it’s closing in on $80,000. | https://www.marketwatch.com/story/bitcoin-has-beaten-stocks-and-gold-over-six-months-now-its-closing-in-on-80-000-b8aa48f9?mod=mw_rss_topstories
+  - CoinDesk RSS | 2026-08-24T19:36:36+00:00 | Bitcoin nears $80,000, but analysts say the next pullback will be key | https://www.coindesk.com/markets/2026/08/24/bitcoin-nears-usd80-000-but-analysts-say-the-next-pullback-will-be-key
+  - Cointelegraph | 2026-08-24T17:48:44+00:00 | Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M | https://cointelegraph.com/markets/bitcoin-price-hits-80k-as-24-hour-crypto-short-liquidations-pass-m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  - Cointelegraph | 2026-08-24T16:44:55+00:00 | Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11% | https://cointelegraph.com/news/strive-buys-1110-bitcoin-for-815m-holdings-top-21k-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  - Investing.com Crypto News | 2026-08-24 21:49:10 | Bitcoin eyes $80k for first time since mid-May after best week in over three years | https://www.investing.com/news/cryptocurrency-news/bitcoin-steadies-above-77k-after-regulatory-hopes-fuel-strong-rebound-4872711
 
-## 2. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+## 2. 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 
-- keyword: `fomc`
-- publish_date: `2026-08-24`
-- priority_score: `137.0`
+- keyword: `treasury_yields`
+- publish_date: `2026-08-29`
+- priority_score: `118.0`
 - ready_now: `True` / quality_status `pass`
-- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- reason: 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
 - format: `macro_explainer`
-- demand_signal_score: `3800`
+- demand_signal_score: `3500`
 - fallback_source: `source_snapshot_rank`
-- source_count: `3`
-- score_breakdown: search `26` / timeliness `25` / monetization `15`
-- source_names: Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World
+- source_count: `7`
+- score_breakdown: search `25` / timeliness `21` / monetization `15`
+- source_names: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - sample_headlines:
-  - Federal Reserve issues FOMC statement
-  - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Warsh seeks to soothe investors’ nerves as signs of economic strain mount
+  - Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July
+  - Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%
+  - Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said
+  - Treasury market interventions are only a band-aid
+  - Scott Bessent threatens Iran’s economic partners with more sanctions
 - recent_evidence:
-  - Federal Reserve Monetary Policy Press | 2026-07-29T18:00:00+00:00 | Federal Reserve issues FOMC statement | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm
-  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve issues FOMC statement | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm
-  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm
-  - Federal Reserve Monetary Policy Press | 2026-08-19T18:00:00+00:00 | Minutes of the Federal Open Market Committee, July 28–29, 2026 | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm
-  - Federal Reserve Monetary Policy Press | 2026-07-09T19:00:00+00:00 | Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm
-
-## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-
-- keyword: `us_index_flow`
-- publish_date: `2026-08-26`
-- priority_score: `86.0`
-- ready_now: `False` / quality_status `review_before_publish`
-- reason: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- format: `sector_analysis`
-- demand_signal_score: `0`
-- fallback_source: `mapped_candidate`
-- source_count: `2`
-- score_breakdown: search `8` / timeliness `10` / monetization `15`
-- source_names: MarketWatch Breaking News, Reuters Markets via Google News RSS
-- sample_headlines:
-  - S&P, Nasdaq futures slip as markets await Iran sanctions, Nvidia results - Reuters
-  - This market shift resembles the post–World War II era — and bond yields could have room to go higher, says Morgan Stanley
-- recent_evidence:
-  - Reuters Markets via Google News RSS | 2026-08-24T10:10:11+00:00 | S&P, Nasdaq futures slip as markets await Iran sanctions, Nvidia results - Reuters | https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5
+  - Reuters Markets via Google News RSS | 2026-08-24T21:07:43+00:00 | Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech - Reuters | https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnNlclhfMG4yZE9OTExTUEQ4Zi1sUml5RFdoUVZiU2tXd3EtaTJSc0E4YlRBQUp4T1hvSzdmVHRBeFhobTMxV1hodmhsRl80Zm4zSldlTzBWTGJMeTNEd0RnekpmLV9RaVprUWp4SlBCQXJheXc1ZUt4NEx2T3pON0NQQTVlQTlldVA0SWRWdmN6OWVwc25jUlRBeGFTUFIzaC1YNlRQSzFrREtrQ3FXWQ?oc=5
+  - NYT Business | 2026-08-24T20:03:52+00:00 | What’s Behind the U.S. Treasury’s Latest Attempt to Lower Interest Rates | https://www.nytimes.com/2026/08/24/business/treasury-bond-buybacks-impact.html
+  - Financial Times Home | 2026-08-24T17:16:47+00:00 | Treasury market interventions are only a band-aid | https://www.ft.com/content/d6c9e705-ef30-4896-880b-8e88941e0f58?syn-25a6b1a6=1
+  - CNBC Top News | 2026-08-24T13:17:35+00:00 | Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said | https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html
+  - Reuters Markets via Google News RSS | 2026-08-24T00:49:00+00:00 | Shares dip with pressure from technology, yields and oil fall - Reuters | https://news.google.com/rss/articles/CBMigwFBVV95cUxPMG83ZmMxSkVxZFI2eFdsTkhlblVtbE82OFd5SmxFekFOZmtQZEVLSzZOZU1tckZxd2QyOU9vYmRuWGhXeDIzVDhkQ1RaUF96T1hRZkg1SVRHWHAxcGVMTWxmMXBsSjVONURWaEFhMWp2dWdKM0piSGtyWVF1bkJ0YWFxWQ?oc=5
