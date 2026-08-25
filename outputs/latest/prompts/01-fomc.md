@@ -85,13 +85,13 @@
 
 ```json
 {
-  "keyword": "treasury_yields",
-  "recommended_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+  "keyword": "fomc",
+  "recommended_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
   "alternate_titles": [
-    "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유",
-    "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기"
+    "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
+    "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
+  "summary_angle": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
   "outline": [
     "왜 지금 이 이슈가 중요한가",
     "실제로 발표되거나 벌어진 일",
@@ -101,27 +101,20 @@
   ],
   "reference_takeaways": [],
   "fact_checks": [
-    "미국채 2년/10년 금리 수치 재확인",
-    "기준 시각과 비교 기준 명시",
-    "주식/코인 반응 인과관계 과장 여부 점검"
+    "FOMC 성명서 원문 날짜와 발표 시각 확인",
+    "점도표/경제전망 최신 버전 확인",
+    "달러, 미국채 금리, 나스닥 관련 수치 재확인"
   ],
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
-    "CNBC Top News",
-    "CoinDesk RSS",
-    "Cointelegraph",
-    "Financial Times Home",
-    "MarketWatch Breaking News",
-    "NYT Business",
-    "Reuters Markets via Google News RSS"
+    "Federal Reserve Monetary Policy Press"
   ],
   "reference_headlines": [
-    "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
-    "Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%",
-    "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
-    "Treasury market interventions are only a band-aid",
-    "Scott Bessent threatens Iran’s economic partners with more sanctions"
+    "Federal Reserve issues FOMC statement",
+    "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+    "Federal Reserve issues FOMC statement",
+    "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -185,11 +178,11 @@
   },
   "score_breakdown": {
     "total_score": 86.0,
-    "search_score": 25,
-    "timeliness_score": 21,
-    "explanatory_score": 19,
-    "monetization_score": 15,
-    "risk_score": 6
+    "search_score": 19,
+    "timeliness_score": 25,
+    "explanatory_score": 20,
+    "monetization_score": 14,
+    "risk_score": 8
   },
   "reference_editorial_pattern_name": "news_what_it_means",
   "reference_editorial_pattern": {

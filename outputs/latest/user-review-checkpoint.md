@@ -17,8 +17,8 @@
 - quality_status: `pass`
 - draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
-- freshness: `fresh` / newest evidence age `0.2` days
-- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin has beaten stocks and gold over six months. Now it’s closing in on $80,000.
+- freshness: `fresh` / newest evidence age `0.1` days
+- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin's surging price faces 1 key level that could signal if the bear market is really over
 - freshness_recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - next_action: 사용자 최종 확인 후 Blogger draft 업로드
 - final retention CTA: 비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.
@@ -33,5 +33,5 @@
 
 ## 다음 후보
 
-- `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유` / keyword `treasury_yields` / ready `True` / quality `pass` / freshness `fresh`
+- `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / keyword `fomc` / ready `True` / quality `pass` / freshness `stale`
   next action: 사용자 최종 확인 후 Blogger draft 업로드

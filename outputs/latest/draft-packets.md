@@ -1,17 +1,17 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-08-25T01:38:08.916997+00:00`
+- 생성 시각: `2026-08-25T13:01:40.005547+00:00`
 
-## 1. treasury_yields
+## 1. fomc
 
-- 추천 제목: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-- 각도: 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
+- 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+- 각도: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
 - 점수: 86.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
+  - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
+  - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -60,22 +60,21 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 미국채 2년/10년 금리 수치 재확인
-  - 기준 시각과 비교 기준 명시
-  - 주식/코인 반응 인과관계 과장 여부 점검
+  - FOMC 성명서 원문 날짜와 발표 시각 확인
+  - 점도표/경제전망 최신 버전 확인
+  - 달러, 미국채 금리, 나스닥 관련 수치 재확인
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July
-  - Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%
-  - Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said
-  - Treasury market interventions are only a band-aid
-  - Scott Bessent threatens Iran’s economic partners with more sanctions
+  - Federal Reserve issues FOMC statement
+  - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
+  - Federal Reserve issues FOMC statement
+  - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 각도: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - 점수: 87.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
@@ -136,17 +135,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bitcoin nears $80,000, but analysts say the next pullback will be key
-  - Crypto political group details list of U.S. congressional allies its backing this year
-  - Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain
-  - Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July
-  - Pakistan kicks off crypto licensing regime with Sept. 5 registration deadline
+  - MiCA revolutionised European crypto, and left Poland licking its wounds
+  - Las Vegas businessman convicted in $24 million 'AI supercomputer' crypto Ponzi scheme
+  - Bitcoin's surging price faces 1 key level that could signal if the bear market is really over
+  - A bitcoin short squeeze for the ages as futures open interest collapses
+  - Bitcoin extends 7-day advance to roughly 25%
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 75.0
+- 점수: 80.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,22 +205,22 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain
-  - Coinbase tokenized stocks go live on Base with Chainlink price feeds
-  - SpaceX plans to put Nvidia-powered AI satellites in orbit next year
-  - It’s time to bet big on Nvidia’s stock, says this analyst who thinks the market has it all wrong
-  - Silicon shadows: inside the black market for AI chips | FT Film
+  - Nvidia’s dependence on hyperscalers faces big test in earnings report
+  - JPMorgan eases approach on lending against shares to court AI’s new wealth
+  - US stock futures rise on tech rebound before Nvidia, inflation tests - Reuters
+  - Nvidia shares set for $280 billion price swing after earnings, options show - Reuters
+  - Morning Bid: Waiting on Nvidia for next leg of AI rally - Reuters
 
-## 4. tariffs_trade
+## 4. china
 
-- 추천 제목: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 78.0
+- 점수: 77.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유
-  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -270,14 +269,14 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 관세/무역 조치 공식 문서나 발표문 확인
-  - 시장 영향은 조건형 문장으로 서술
-  - 정치적 해석 과잉 여부 점검
+  - 정책 발표 또는 인터뷰 원문 여부 확인
+  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
+  - 한국/미국 시장 영향은 시나리오형으로 서술
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates
-  - U.S. Trade Rep Greer blames Canada for failed tariff talks: 'They wanted more'
-  - Canadian businesses fear ‘vortex of downward pressures’ from Trump’s tariffs
-  - FirstFT: Shein targets $27bn valuation in Hong Kong IPO
-  - Trump Threatens New 50% Tariffs on Cars, Trucks and Steel as U.S.-Canada Trade War Unfolds
+  - China needs U.S. dollars but is building a hedge against Washington’s sanctions
+  - China warns US it could retaliate over Iran sanctions
+  - It's Not About China(?): U.S.-Iran Economic Sanctions Edition
+  - FirstFT: China warns US it could retaliate over Iran sanctions
+  - China warns US it could retaliate over Iran sanctions

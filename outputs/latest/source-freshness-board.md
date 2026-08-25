@@ -1,38 +1,39 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-08-25T01:38:13.107949+00:00`
-- snapshot_generated_at: `2026-08-25T01:38:08.916997+00:00`
+- generated_at: `2026-08-25T13:01:44.765893+00:00`
+- snapshot_generated_at: `2026-08-25T13:01:40.005547+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
-- counts: fresh `2` / aging `0` / stale `0` / unknown `0`
+- counts: fresh `1` / aging `0` / stale `1` / unknown `0`
 
-## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+- keyword: `fomc`
+- freshness_status: `stale`
+- newest_evidence_age_days: `5.8`
+- newest_evidence_iso: `2026-08-19T18:00:00+00:00`
+- quality_status: `pass` / ready_now `True`
+- summary: 핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement
+- recommendation: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
+- recovery_mode: `full_refresh_needed`
+- recovery_summary: 현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.
+- recovery_command: `bash scripts/run_pipeline.sh`
+- evidence: Federal Reserve Monetary Policy Press / 2026-07-29T18:00:00+00:00 / Federal Reserve issues FOMC statement
+- evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve issues FOMC statement
+- evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+
+## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.2`
-- newest_evidence_iso: `2026-08-24T21:49:10+00:00`
+- newest_evidence_age_days: `0.1`
+- newest_evidence_iso: `2026-08-25T11:15:02+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin has beaten stocks and gold over six months. Now it’s closing in on $80,000.
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin's surging price faces 1 key level that could signal if the bear market is really over
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: MarketWatch Breaking News / 2026-08-24T20:53:00+00:00 / Bitcoin has beaten stocks and gold over six months. Now it’s closing in on $80,000.
-- evidence: CoinDesk RSS / 2026-08-24T19:36:36+00:00 / Bitcoin nears $80,000, but analysts say the next pullback will be key
-- evidence: Cointelegraph / 2026-08-24T17:48:44+00:00 / Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M
-
-## 2. 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-
-- keyword: `treasury_yields`
-- freshness_status: `fresh`
-- newest_evidence_age_days: `0.2`
-- newest_evidence_iso: `2026-08-24T21:07:43+00:00`
-- quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech - Reuters
-- recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
-- recovery_mode: `publish_direct`
-- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Reuters Markets via Google News RSS / 2026-08-24T21:07:43+00:00 / Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech - Reuters
-- evidence: NYT Business / 2026-08-24T20:03:52+00:00 / What’s Behind the U.S. Treasury’s Latest Attempt to Lower Interest Rates
-- evidence: Financial Times Home / 2026-08-24T17:16:47+00:00 / Treasury market interventions are only a band-aid
+- evidence: CoinDesk RSS / 2026-08-25T11:15:02+00:00 / Bitcoin's surging price faces 1 key level that could signal if the bear market is really over
+- evidence: CoinDesk RSS / 2026-08-25T10:57:02+00:00 / A bitcoin short squeeze for the ages as futures open interest collapses
+- evidence: CoinDesk RSS / 2026-08-25T10:52:03+00:00 / Bitcoin extends 7-day advance to roughly 25%

@@ -9,35 +9,35 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `bitcoin` / publish `2026-08-26` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- why_now: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - sample_headlines:
-  - Bitcoin nears $80,000, but analysts say the next pullback will be key
-  - Crypto political group details list of U.S. congressional allies its backing this year
-  - Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain
+  - MiCA revolutionised European crypto, and left Poland licking its wounds
+  - Las Vegas businessman convicted in $24 million 'AI supercomputer' crypto Ponzi scheme
+  - Bitcoin's surging price faces 1 key level that could signal if the bear market is really over
 - recent_evidence:
-  - MarketWatch Breaking News | 2026-08-24T20:53:00+00:00 | Bitcoin has beaten stocks and gold over six months. Now it’s closing in on $80,000.
-  - CoinDesk RSS | 2026-08-24T19:36:36+00:00 | Bitcoin nears $80,000, but analysts say the next pullback will be key
-  - Cointelegraph | 2026-08-24T17:48:44+00:00 | Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M
+  - CoinDesk RSS | 2026-08-25T11:15:02+00:00 | Bitcoin's surging price faces 1 key level that could signal if the bear market is really over
+  - CoinDesk RSS | 2026-08-25T10:57:02+00:00 | A bitcoin short squeeze for the ages as futures open interest collapses
+  - CoinDesk RSS | 2026-08-25T10:52:03+00:00 | Bitcoin extends 7-day advance to roughly 25%
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 2. 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+## 2. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword `treasury_yields` / publish `2026-08-29` / verdict `approve` / quality `pass`
+- keyword `fomc` / publish `2026-08-29` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
-- why_now: 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
+- why_now: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
 - sample_headlines:
-  - Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July
-  - Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%
-  - Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said
+  - Federal Reserve issues FOMC statement
+  - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
+  - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
 - recent_evidence:
-  - Reuters Markets via Google News RSS | 2026-08-24T21:07:43+00:00 | Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech - Reuters
-  - NYT Business | 2026-08-24T20:03:52+00:00 | What’s Behind the U.S. Treasury’s Latest Attempt to Lower Interest Rates
-  - Financial Times Home | 2026-08-24T17:16:47+00:00 | Treasury market interventions are only a band-aid
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword treasury_yields`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword treasury_yields --apply`
+  - Federal Reserve Monetary Policy Press | 2026-07-29T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`

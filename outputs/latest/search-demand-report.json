@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T01:38:08.916997+00:00",
+  "generated_at": "2026-08-25T13:01:40.005547+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -14,48 +14,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6700,
+      "demand_signal_score": 7400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 55,
-      "source_count": 4,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
-      ],
-      "sample_titles": [
-        "Bitcoin nears $80,000, but analysts say the next pullback will be key",
-        "Crypto political group details list of U.S. congressional allies its backing this year",
-        "Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain"
-      ]
-    },
-    {
-      "keyword": "treasury_yields",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
-      "source_count": 7,
+      "source_snapshot_score": 62,
+      "source_count": 5,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times Home",
-        "MarketWatch Breaking News"
+        "Investing.com Crypto News",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
-        "Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%",
-        "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said"
+        "MiCA revolutionised European crypto, and left Poland licking its wounds",
+        "Las Vegas businessman convicted in $24 million 'AI supercomputer' crypto Ponzi scheme",
+        "Bitcoin's surging price faces 1 key level that could signal if the bear market is really over"
       ]
     },
     {
@@ -81,28 +56,53 @@
       ]
     },
     {
-      "keyword": "tariffs_trade",
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2600,
+      "demand_signal_score": 2900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
+      "source_snapshot_score": 17,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "A 3% token move just triggered $36 million in Ethereum DeFi liquidations",
+        "The 'debasement trade' returns after Bessent bond maneuver. Crypto and gold are back in style",
+        "Dollar edges higher as investors weigh Iran sanctions, Treasury buybacks - Reuters"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2900,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 17,
       "source_count": 4,
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
+        "Financial Times YouTube",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates",
-        "U.S. Trade Rep Greer blames Canada for failed tariff talks: 'They wanted more'",
-        "Canadian businesses fear ‘vortex of downward pressures’ from Trump’s tariffs"
+        "Nvidia’s dependence on hyperscalers faces big test in earnings report",
+        "JPMorgan eases approach on lending against shares to court AI’s new wealth",
+        "US stock futures rise on tech rebound before Nvidia, inflation tests - Reuters"
       ]
     }
   ],

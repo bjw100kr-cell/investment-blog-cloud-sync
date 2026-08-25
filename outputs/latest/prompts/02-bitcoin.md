@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+  "summary_angle": "복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -108,17 +108,18 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.",
   "source_names": [
+    "CNBC Top News",
     "CoinDesk RSS",
     "Cointelegraph",
     "Investing.com Crypto News",
-    "MarketWatch Breaking News"
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Bitcoin nears $80,000, but analysts say the next pullback will be key",
-    "Crypto political group details list of U.S. congressional allies its backing this year",
-    "Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain",
-    "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
-    "Pakistan kicks off crypto licensing regime with Sept. 5 registration deadline"
+    "MiCA revolutionised European crypto, and left Poland licking its wounds",
+    "Las Vegas businessman convicted in $24 million 'AI supercomputer' crypto Ponzi scheme",
+    "Bitcoin's surging price faces 1 key level that could signal if the bear market is really over",
+    "A bitcoin short squeeze for the ages as futures open interest collapses",
+    "Bitcoin extends 7-day advance to roughly 25%"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -182,8 +183,8 @@
   },
   "score_breakdown": {
     "total_score": 87.0,
-    "search_score": 29,
-    "timeliness_score": 20,
+    "search_score": 30,
+    "timeliness_score": 21,
     "explanatory_score": 17,
     "monetization_score": 15,
     "risk_score": 3

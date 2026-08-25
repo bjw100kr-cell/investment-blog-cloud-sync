@@ -13,19 +13,19 @@
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
-- reason: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- evidence score: demand `6700` / fallback `source_snapshot_rank` / format `crypto_analysis`
-- source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
+- reason: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- evidence score: demand `7400` / fallback `source_snapshot_rank` / format `crypto_analysis`
+- source_names: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
 - sample_headlines:
-  - Bitcoin nears $80,000, but analysts say the next pullback will be key
-  - Crypto political group details list of U.S. congressional allies its backing this year
-  - Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain
-  - Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July
+  - MiCA revolutionised European crypto, and left Poland licking its wounds
+  - Las Vegas businessman convicted in $24 million 'AI supercomputer' crypto Ponzi scheme
+  - Bitcoin's surging price faces 1 key level that could signal if the bear market is really over
+  - A bitcoin short squeeze for the ages as futures open interest collapses
 - recent_evidence:
-  - MarketWatch Breaking News | 2026-08-24T20:53:00+00:00 | Bitcoin has beaten stocks and gold over six months. Now it’s closing in on $80,000.
-  - CoinDesk RSS | 2026-08-24T19:36:36+00:00 | Bitcoin nears $80,000, but analysts say the next pullback will be key
-  - Cointelegraph | 2026-08-24T17:48:44+00:00 | Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M
-  - Cointelegraph | 2026-08-24T16:44:55+00:00 | Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%
+  - CoinDesk RSS | 2026-08-25T11:15:02+00:00 | Bitcoin's surging price faces 1 key level that could signal if the bear market is really over
+  - CoinDesk RSS | 2026-08-25T10:57:02+00:00 | A bitcoin short squeeze for the ages as futures open interest collapses
+  - CoinDesk RSS | 2026-08-25T10:52:03+00:00 | Bitcoin extends 7-day advance to roughly 25%
+  - Cointelegraph | 2026-08-25T10:49:43+00:00 | Bitcoin RSI bullish divergence draws 2022 comparisons as analysis weighs new price trend
 - image_slots:
   - 대표 이미지 / Pexels / `bitcoin blockchain abstract blue finance` / Pexels License
   - 본문 보조 이미지 / Unsplash / `crypto market data abstract` / Unsplash License
@@ -49,13 +49,13 @@
 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Bitcoin nears $80,000, but analysts say the next pullback will be key` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+예를 들어 `MiCA revolutionised European crypto, and left Poland licking its wounds` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Bitcoin nears $80,000, but analysts say the next pullback will be key`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `MiCA revolutionised European crypto, and left Poland licking its wounds`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `현물 ETF 순유입/순유출`, 다른 하나는 `달러 인덱스와 미국채 금리`입니다.
 한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -103,7 +103,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
+- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
 - 발행 전 재확인: BTC 가격 기준 시각 재확인
 - 발행 전 재확인: ETF 자금 유입 여부 공식/신뢰 소스 재확인
 - 발행 전 재확인: 단정적 가격 전망 문장 제거
@@ -125,106 +125,105 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 ```
 
-## 2. 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+## 2. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword `treasury_yields` / publish `2026-08-29` / priority `118.0`
+- keyword `fomc` / publish `2026-08-29` / priority `117.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
-- reason: 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
-- evidence score: demand `3500` / fallback `source_snapshot_rank` / format `macro_explainer`
-- source_names: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- reason: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- evidence score: demand `3200` / fallback `source_snapshot_rank` / format `macro_explainer`
+- source_names: Federal Reserve Monetary Policy Press
 - sample_headlines:
-  - Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July
-  - Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%
-  - Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said
-  - Treasury market interventions are only a band-aid
+  - Federal Reserve issues FOMC statement
+  - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
+  - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
 - recent_evidence:
-  - Reuters Markets via Google News RSS | 2026-08-24T21:07:43+00:00 | Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech - Reuters
-  - NYT Business | 2026-08-24T20:03:52+00:00 | What’s Behind the U.S. Treasury’s Latest Attempt to Lower Interest Rates
-  - Financial Times Home | 2026-08-24T17:16:47+00:00 | Treasury market interventions are only a band-aid
-  - CNBC Top News | 2026-08-24T13:17:35+00:00 | Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said
+  - Federal Reserve Monetary Policy Press | 2026-07-29T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+  - Federal Reserve Monetary Policy Press | 2026-08-19T18:00:00+00:00 | Minutes of the Federal Open Market Committee, July 28–29, 2026
 - image_slots:
-  - 대표 이미지 / Unsplash / `central bank finance city skyline market data` / Unsplash License
-  - 본문 보조 이미지 / Pexels / `interest rate macro economy data screen` / Pexels License
+  - 대표 이미지 / Unsplash / `central bank meeting finance city skyline` / Unsplash License
+  - 본문 보조 이미지 / Pexels / `interest rate macro economy abstract` / Pexels License
 
 ### Draft Body
 
 ```md
-# 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 오늘 시장이 반응한 이유와 확인할 3가지
+# FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 
 ## 오늘 핵심 3줄
 
-- 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다.
-- 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다.
-- 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
+- FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다.
+- 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다.
+- 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다.
 
 ## 도입부
 
 2026년 8월 25일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
-개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
+쉽게 말해 공식 발표 자료를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `Federal Reserve issues FOMC statement` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
-여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `공식 발표 날짜와 핵심 문구`, 다른 하나는 `달러·금리·주식·코인 중 먼저 반응한 자산`입니다.
+이번 글의 출발점은 `Federal Reserve issues FOMC statement`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `달러 인덱스`, 다른 하나는 `미국채 2년물/10년물 금리`입니다.
 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
 ## 2. 왜 시장이 반응했나
 
-시장은 뉴스의 좋고 나쁨보다 그 뉴스가 다음 기대를 얼마나 바꾸는지에 먼저 반응합니다.
-투자자 언어로 다시 풀면, 결국 중요한 건 이 숫자가 시장 기대를 얼마나 바꾸는지 쪽이 실제 자산 가격에 얼마나 빨리 반영되는지입니다.
-특히 `공식 발표 날짜와 핵심 문구` 쪽 변화가 먼저 나오고 `달러·금리·주식·코인 중 먼저 반응한 자산` 흐름이 따라오는지, 아니면 가격만 먼저 튀는지를 나눠 보면 뉴스의 질이 달라 보입니다.
+금리 경로가 바뀌면 돈값이 달라지고, 돈값이 달라지면 성장주와 코인처럼 미래 기대를 크게 반영하는 자산의 할인율도 함께 흔들립니다.
+이 대목을 투자자 언어로 바꾸면, 금리 자체보다 연준이 앞으로 얼마나 빨리 방향을 바꿀 수 있는지에 대한 기대가 먼저 가격을 흔들고 있다는 뜻에 가깝습니다.
+특히 `달러 인덱스` 쪽 변화가 먼저 나오고 `미국채 2년물/10년물 금리` 흐름이 따라오는지, 아니면 가격만 먼저 튀는지를 나눠 보면 뉴스의 질이 달라 보입니다.
 
 ## 3. 개인 투자자가 바로 확인할 지표
 
-첫째로 볼 것은 `공식 발표 날짜와 핵심 문구`입니다. 이 지표가 같은 방향으로 며칠 이어지면 단순 반응보다 흐름일 가능성이 커집니다.
-둘째는 `달러·금리·주식·코인 중 먼저 반응한 자산`입니다. 거시 환경이 받쳐주지 않으면 좋은 뉴스도 오래 버티기 어렵습니다.
-셋째는 `거래량과 자금 흐름`입니다. 한 자산만 움직이는지, 관련 자산으로 확산되는지에 따라 해석이 완전히 달라집니다.
-추가로 `다음 경제지표 또는 정책 일정`까지 확인하면 다음 글감과 투자 판단의 기준선이 더 선명해집니다.
+첫째로 볼 것은 `달러 인덱스`입니다. 이 지표가 같은 방향으로 며칠 이어지면 단순 반응보다 흐름일 가능성이 커집니다.
+둘째는 `미국채 2년물/10년물 금리`입니다. 거시 환경이 받쳐주지 않으면 좋은 뉴스도 오래 버티기 어렵습니다.
+셋째는 `나스닥과 비트코인 동시 반응`입니다. 한 자산만 움직이는지, 관련 자산으로 확산되는지에 따라 해석이 완전히 달라집니다.
+추가로 `다음 CPI/PCE/고용지표`까지 확인하면 다음 글감과 투자 판단의 기준선이 더 선명해집니다.
 
 ## 4. 내 포트폴리오와 연결해서 보는 법
 
-이걸 내 돈 관점에서 보면 지금 필요한 건 예측보다 체크리스트입니다.
+이걸 내 돈 관점에서 보면 FOMC는 매수·매도 신호라기보다 포트폴리오의 위험 노출을 점검하는 날에 가깝습니다.
 예를 들어 이미 관련 자산 비중이 높다면 새로 맞히는 것보다 변동성이 커질 때 어느 구간에서 흔들릴지 먼저 생각해야 합니다.
 반대로 아직 관망 중이라면 지금 당장 따라가기보다 다음 확인 지표가 같은 방향으로 쌓이는지 보는 편이 더 실전적입니다.
 
 ## 상승 시나리오와 리스크
 
-- 상승 시나리오: 관련 자산들이 같은 방향으로 움직이고 후속 데이터가 확인되면 시장 해석은 더 빠르게 굳어질 수 있습니다.
-- 리스크 시나리오: 반응이 한 자산에만 머물거나 다음 지표가 반대로 나오면 초기 해석은 쉽게 흔들릴 수 있습니다.
+- 상승 시나리오: 달러와 단기금리가 안정되고 나스닥, 비트코인, 반도체 같은 위험자산이 같은 방향으로 반응하면 시장은 완화 기대를 더 강하게 읽을 수 있습니다.
+- 리스크 시나리오: 반대로 연준 발언이 물가 경계 쪽으로 기울거나 다음 물가 지표가 다시 강하게 나오면, 발표 직후 반등은 빠르게 되돌려질 수 있습니다.
 
 ## 자주 하는 오해
 
-헤드라인 하나만 보고 방향을 단정하는 것입니다.
+금리 동결을 곧바로 호재로만 해석하는 것입니다. 시장은 동결 여부보다 앞으로 몇 번, 언제, 어떤 속도로 움직일지를 더 크게 봅니다.
 
 ## 체크포인트 3개
 
-1. `공식 발표 날짜와 핵심 문구`: 발표 직후뿐 아니라 다음 거래일에도 같은 방향인지 확인하기
-2. `달러·금리·주식·코인 중 먼저 반응한 자산`와 `거래량과 자금 흐름`: 서로 엇갈리는지, 같이 움직이는지 비교하기
-3. `다음 경제지표 또는 정책 일정` 전까지 상승 시나리오와 리스크 시나리오를 따로 메모해두기
+1. `달러 인덱스`: 발표 직후뿐 아니라 다음 거래일에도 같은 방향인지 확인하기
+2. `미국채 2년물/10년물 금리`와 `나스닥과 비트코인 동시 반응`: 서로 엇갈리는지, 같이 움직이는지 비교하기
+3. `다음 CPI/PCE/고용지표` 전까지 상승 시나리오와 리스크 시나리오를 따로 메모해두기
 
 ## FAQ 2개
 
-### 이 이슈를 볼 때 가장 먼저 확인할 것은 무엇인가요?
-핵심 숫자와 발표 시점, 그리고 시장이 그 숫자를 어떻게 해석하는지까지 함께 보는 편이 좋습니다.
+### FOMC가 왜 주식과 코인에 동시에 영향을 주나요?
+금리 방향이 달러와 유동성 기대를 바꾸기 때문입니다. 그래서 성장주와 코인처럼 유동성에 민감한 자산이 함께 반응하는 경우가 많습니다.
 
-### 개인 투자자는 어떤 식으로 접근해야 하나요?
-단정적으로 결론 내리기보다 시나리오를 나눠 보고, 다음 확인 포인트를 정해 두는 방식이 더 현실적입니다.
+### 이번 발표에서 개인 투자자가 가장 먼저 볼 것은 무엇인가요?
+성명서 문구 자체보다 점도표, 기자회견 톤, 그리고 이후 금리 인하 기대가 얼마나 바뀌는지를 함께 보는 편이 더 중요합니다.
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- 발행 전 재확인: 미국채 2년/10년 금리 수치 재확인
-- 발행 전 재확인: 기준 시각과 비교 기준 명시
-- 발행 전 재확인: 주식/코인 반응 인과관계 과장 여부 점검
+- 주요 참고 소스: Federal Reserve Monetary Policy Press
+- 발행 전 재확인: FOMC 성명서 원문 날짜와 발표 시각 확인
+- 발행 전 재확인: 점도표/경제전망 최신 버전 확인
+- 발행 전 재확인: 달러, 미국채 금리, 나스닥 관련 수치 재확인
 
 ## 이 글에서 같이 봐야 할 관점
 
@@ -236,7 +235,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 ## CTA
 
 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
-다음 글에서는 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 오늘 시장이 반응한 이유와 확인할 3가지 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
+다음 글에서는 FOMC 이후 달러, 미국채 금리, 나스닥 가운데 무엇을 먼저 보면 되는지 더 실전적으로 풀어보겠습니다.
 
 ## 면책문구
 
