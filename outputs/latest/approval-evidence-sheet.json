@@ -1,15 +1,90 @@
 {
-  "generated_at": "2026-08-26T01:43:00.329145+00:00",
+  "generated_at": "2026-08-26T13:06:33.690287+00:00",
   "item_count": 3,
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "publish_date": "2026-08-26",
+      "priority_score": 139.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
+      "format": "macro_explainer",
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
+        "Financial Times World",
+        "MarketWatch Breaking News",
+        "NYT Business"
+      ],
+      "sample_headlines": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "Dallas Fed warns tokenized deposits could strip $700 billion from U.S. banks' lending capacity"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 5100,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 7,
+      "search_score": 28,
+      "timeliness_score": 25,
+      "monetization_score": 15,
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 19 Aug 2026 18:00:00 GMT",
+          "published_iso": "2026-08-19T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Thu, 9 Jul 2026 19:00:00 GMT",
+          "published_iso": "2026-07-09T19:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "publish_date": "2026-08-27",
-      "priority_score": 122.0,
+      "priority_score": 121.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "format": "crypto_analysis",
       "source_names": [
         "CoinDesk RSS",
@@ -17,59 +92,59 @@
         "Investing.com Crypto News"
       ],
       "sample_headlines": [
-        "Zerohash back for second effort at OCC trust bank charter",
-        "LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges",
-        "Bitwise turns Coinbase's tokenized stocks into automated AI, robotics and tech portfolios",
-        "Crypto custody firm Copper has potential buyers. But offers are way below its $500 million asking price",
-        "MiCA revolutionised European crypto, and left Poland licking its wounds"
+        "The 3 catalysts that could define bitcoin's next move",
+        "Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady",
+        "Strategy cuts net leverage to near zero as cash nearly matches convertible debt",
+        "Students want crypto classes but learn on social media: OKX survey",
+        "Bernstein forecasts Bitcoin to reclaim $125K by late 2026 ahead of cycle peak"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 6500,
+      "demand_signal_score": 5100,
       "fallback_source": "source_snapshot_rank",
       "source_count": 3,
-      "search_score": 29,
+      "search_score": 28,
       "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Bitcoin enters ‘initial phase’ of new bull market, but $83K remains key: CryptoQuant",
+          "title": "Bernstein forecasts Bitcoin to reclaim $125K by late 2026 ahead of cycle peak",
           "source_name": "Cointelegraph",
-          "published": "Tue, 25 Aug 2026 18:13:11 +0000",
-          "published_iso": "2026-08-25T18:13:11+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-enters-initial-phase-of-new-bull-market-but-83k-remains-key-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Wed, 26 Aug 2026 12:32:36 +0000",
+          "published_iso": "2026-08-26T12:32:36+00:00",
+          "link": "https://cointelegraph.com/markets/bernstein-predicts-bitcoin-reclaim-125000-year-end?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Strategy’s $66B Bitcoin machine hinges on capital markets, not BTC price: Report",
-          "source_name": "Cointelegraph",
-          "published": "Tue, 25 Aug 2026 16:47:40 +0000",
-          "published_iso": "2026-08-25T16:47:40+00:00",
-          "link": "https://cointelegraph.com/news/strategy-financing-risk-not-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "The 3 catalysts that could define bitcoin's next move",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 26 Aug 2026 11:02:33 +0000",
+          "published_iso": "2026-08-26T11:02:33+00:00",
+          "link": "https://www.coindesk.com/daybook-us/2026/08/26/the-3-catalysts-that-could-define-bitcoin-s-next-move",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin slips from $80K as gold cools with falling US bond yields",
+          "title": "Supply absorption ‘key question’ as Bitcoin fails to reclaim $80K: Analysis",
           "source_name": "Cointelegraph",
-          "published": "Tue, 25 Aug 2026 15:15:35 +0000",
-          "published_iso": "2026-08-25T15:15:35+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-slips-from-80k-as-gold-cools-with-falling-us-bond-yields?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Wed, 26 Aug 2026 10:49:26 +0000",
+          "published_iso": "2026-08-26T10:49:26+00:00",
+          "link": "https://cointelegraph.com/markets/supply-absorption-key-question-as-bitcoin-fails-to-reclaim-80k-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin takes a beat after debasement trade sparks best week in over three years",
+          "title": "Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 26 Aug 2026 10:45:29 +0000",
+          "published_iso": "2026-08-26T10:45:29+00:00",
+          "link": "https://www.coindesk.com/markets/2026/08/26/bitcoin-takes-a-breather-after-adding-23-in-7-days-as-etf-demand-holds-steady",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bernstein’s Chhugani sees Bitcoin hitting $300k by end of 2029",
           "source_name": "Investing.com Crypto News",
-          "published": "2026-08-25 22:11:50",
-          "published_iso": "2026-08-25 22:11:50",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rallies-past-80k-as-debasement-trade-dents-dollar-4874510",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin hits max overbought on 5h chart: Live levels",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-08-25 19:19:25",
-          "published_iso": "2026-08-25 19:19:25",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-stalls-below-78500-resistance-live-hourly-levels-93CH-4872743",
+          "published": "2026-08-26 10:25:58",
+          "published_iso": "2026-08-26 10:25:58",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bernsteins-chhugani-sees-bitcoin-hitting-300k-by-end-of-2029-4876677",
           "source_type": "rss"
         }
       ]
@@ -78,45 +153,31 @@
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "publish_date": "2026-08-28",
-      "priority_score": 115.0,
+      "priority_score": 96.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (엔비디아 실적)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "format": "sector_analysis",
       "source_names": [
-        "Financial Times World",
         "Financial Times YouTube",
-        "Google Trends KR",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
-        "엔비디아 실적",
-        "Wall Street ends higher as tech rebounds before Nvidia results - Reuters",
-        "Nvidia shares set for $280 billion price swing after earnings, options show - Reuters",
-        "Morning Bid: Waiting on Nvidia for next leg of AI rally - Reuters",
-        "Silicon shadows: inside the black market for AI chips | FT Film"
+        "World stocks inch up as oil drops on Hormuz hopes ahead of data, Nvidia results - Reuters",
+        "Wall St futures subdued as Nvidia results, inflation take center stage - Reuters",
+        "Silicon shadows: inside the black market for AI chips | FT Film",
+        "Wall St. Scrutinizes Nvidia’s Deal Machine"
       ],
-      "trend_queries": [
-        "엔비디아 실적"
-      ],
-      "trend_regions": [
-        "KR"
-      ],
-      "demand_signal_score": 300,
-      "fallback_source": "trend_match",
-      "source_count": 4,
-      "search_score": 26,
-      "timeliness_score": 20,
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 0,
+      "fallback_source": "mapped_candidate",
+      "source_count": 3,
+      "search_score": 14,
+      "timeliness_score": 15,
       "monetization_score": 15,
       "recent_evidence": [
-        {
-          "title": "엔비디아 실적",
-          "source_name": "Google Trends KR",
-          "published": "Tue, 25 Aug 2026 16:00:00 -0700",
-          "published_iso": "2026-08-25T16:00:00-07:00",
-          "link": "https://trends.google.com/trending/rss?geo=KR",
-          "source_type": "rss"
-        },
         {
           "title": "Silicon shadows: inside the black market for AI chips | FT Film",
           "source_name": "Financial Times YouTube",
@@ -126,92 +187,28 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "Wall Street ends higher as tech rebounds before Nvidia results - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Tue, 25 Aug 2026 23:14:21 GMT",
-          "published_iso": "2026-08-25T23:14:21+00:00",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdmhxOE10Q2J5RzR6U1lxZjRCX0FUYmdxdkl5SE5fT1N2SG5RSmMxb0xPekZ2eDNjbVhyVE54N0FIOTByZEdrMFUtSmp0U3A0R2RLVldRczJ2aW5PU2QzUzZ6Y0FYUThQU01jdEJOdzdtbndvdThwXzhUbDAzQ2lHeVIwbHE4dkZITlhxZ0JLLWVEVHdzZmcxYTdub3dWRjh1QnRNUzRhU0V3bnJZV2c?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "Nvidia shares set for $280 billion price swing after earnings, options show - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Tue, 25 Aug 2026 05:01:00 GMT",
-          "published_iso": "2026-08-25T05:01:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPa182VERRNl9ULTg3MXh0Z004aGNnVW9HQW9TLTI3R01YZzRMeWZEMFhramsxeHVLNGE1ZXAwYTRZcWxMbGF5YTB5dkl6OHVyT2FrTks2ODRFdlNPSTNmUE1MM0ZhaF9LT1JRZEdVX1ZJU2NMNlZiQWlQZ0toUWk1WmVSbXdYTWJva3NxTG92LVJrczhfQzVnLTZ4aE1yYTAwVHVucFNQbHRxSDN6OGJZcjZNVHo?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "Morning Bid: Waiting on Nvidia for next leg of AI rally - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Tue, 25 Aug 2026 04:40:00 GMT",
-          "published_iso": "2026-08-25T04:40:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9nRzR6dW5TVWtzeEswZlh0SHpjT09mZWlsd0VMSFRGb0dSSlJ2WXNnZ0NtYnV6STFLMkJLN3dWalhmSEtCSThLTVNIaElWR3Bld204dnExYkZNNlJtQk1qdU1XcnItQ2hQRWhpeUxET19oZ0NidDFMWm01X1ZtN2M?oc=5",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "publish_date": "2026-08-29",
-      "priority_score": 105.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
-      "format": "macro_explainer",
-      "source_names": [
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business",
-        "무역킹 Trade King YouTube"
-      ],
-      "sample_headlines": [
-        "South Korea challenges China on Arctic trade route",
-        "It's Not About China(?): U.S.-Iran Economic Sanctions Edition",
-        "FirstFT: China warns US it could retaliate over Iran sanctions",
-        "China Pushes Back After Trump Tightens the Screws on Iran"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 2300,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 4,
-      "search_score": 15,
-      "timeliness_score": 17,
-      "monetization_score": 14,
-      "recent_evidence": [
-        {
-          "title": "South Korea challenges China on Arctic trade route",
-          "source_name": "Financial Times Home",
-          "published": "Wed, 26 Aug 2026 01:24:46 GMT",
-          "published_iso": "2026-08-26T01:24:46+00:00",
-          "link": "https://www.ft.com/content/3b4c4dc2-3b26-4973-b1c3-4286bc072bb2",
-          "source_type": "rss"
-        },
-        {
-          "title": "FirstFT: China warns US it could retaliate over Iran sanctions",
-          "source_name": "Financial Times World",
-          "published": "Tue, 25 Aug 2026 21:48:15 GMT",
-          "published_iso": "2026-08-25T21:48:15+00:00",
-          "link": "https://www.ft.com/content/49f9f010-9ac9-4f6b-8b41-e8d959558785?syn-25a6b1a6=1",
-          "source_type": "rss"
-        },
-        {
-          "title": "China Pushes Back After Trump Tightens the Screws on Iran",
+          "title": "Wall St. Scrutinizes Nvidia’s Deal Machine",
           "source_name": "NYT Business",
-          "published": "Tue, 25 Aug 2026 14:59:39 +0000",
-          "published_iso": "2026-08-25T14:59:39+00:00",
-          "link": "https://www.nytimes.com/2026/08/25/business/us-bessent-china-iran.html",
+          "published": "Wed, 26 Aug 2026 11:48:27 +0000",
+          "published_iso": "2026-08-26T11:48:27+00:00",
+          "link": "https://www.nytimes.com/2026/08/26/business/dealbook/nvidia-earnings-ai-investments.html",
           "source_type": "rss"
         },
         {
-          "title": "It's Not About China(?): U.S.-Iran Economic Sanctions Edition",
-          "source_name": "무역킹 Trade King YouTube",
-          "published": "10K views",
-          "published_iso": "10K views",
-          "link": "https://www.youtube.com/watch?v=gGZ7LoEwAR0",
-          "source_type": "youtube_channel"
+          "title": "Wall St futures subdued as Nvidia results, inflation take center stage - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Wed, 26 Aug 2026 11:33:17 GMT",
+          "published_iso": "2026-08-26T11:33:17+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV3N4UlJubUVvNndNbHlFSTFtWlpoek1URGE5c3J4SDJEYlZ2aWYzaUNRWDluMnRua19BSENVRWdZZEFzZEh0VWFINF9Va3RPYVEtamhja1Rud3hVUFFWQUZBS1JlWE5wMk0yZUEyQ3lpV3pETVRMMnUxLWZ4Rm92OGZmVGpjY3BVZXl1dDBrR3RtX3RWZG9DOEFEMzFlV2NRSTVKYkxQb0hCZU0?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "World stocks inch up as oil drops on Hormuz hopes ahead of data, Nvidia results - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Wed, 26 Aug 2026 02:17:00 GMT",
+          "published_iso": "2026-08-26T02:17:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91T2JHeEdCeW1LQUVJbHFFd0lzWkxUXzZjUWZodDZET0tTdWZYbEtpWnpPNGRsNzRZSjF1dUs5ZWNDV0t0a3F6YlBCdWJWTlRKc2F6NVV3T3ltWWl6Um9tbFlvVWRIZDk1dHFpNU5aUFo0UGVibk10NFE5dw?oc=5",
+          "source_type": "rss"
         }
       ]
     }

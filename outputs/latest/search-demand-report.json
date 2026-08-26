@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T01:43:00.329145+00:00",
+  "generated_at": "2026-08-26T13:06:33.690287+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 5,
@@ -8,44 +8,20 @@
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "pce",
       "trend_count": 1,
-      "traffic_score_sum": 100,
-      "max_approx_traffic": 100,
+      "traffic_score_sum": 2000,
+      "max_approx_traffic": 2000,
       "trend_queries": [
-        "엔비디아 실적"
+        "pce"
       ],
       "regions": [
-        "KR"
+        "US"
       ],
-      "demand_signal_score": 300,
+      "demand_signal_score": 2200,
       "fallback_source": "trend_match",
       "confidence": "high",
       "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
-    {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 6500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 53,
-      "source_count": 3,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Zerohash back for second effort at OCC trust bank charter",
-        "LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges",
-        "Bitwise turns Coinbase's tokenized stocks into automated AI, robotics and tech portfolios"
-      ]
     },
     {
       "keyword": "fomc",
@@ -54,14 +30,18 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 5100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 1,
+      "source_snapshot_score": 39,
+      "source_count": 7,
       "source_names": [
-        "Federal Reserve Monetary Policy Press"
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
+        "Financial Times World"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -70,28 +50,53 @@
       ]
     },
     {
-      "keyword": "china",
+      "keyword": "bitcoin",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2300,
+      "demand_signal_score": 5100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 11,
-      "source_count": 4,
+      "source_snapshot_score": 39,
+      "source_count": 3,
       "source_names": [
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business",
-        "무역킹 Trade King YouTube"
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "South Korea challenges China on Arctic trade route",
-        "It's Not About China(?): U.S.-Iran Economic Sanctions Edition",
-        "FirstFT: China warns US it could retaliate over Iran sanctions"
+        "The 3 catalysts that could define bitcoin's next move",
+        "Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady",
+        "Strategy cuts net leverage to near zero as cash nearly matches convertible debt"
+      ]
+    },
+    {
+      "keyword": "cpi",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3900,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 27,
+      "source_count": 6,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News",
+        "NYT Business"
+      ],
+      "sample_titles": [
+        "Fed’s preferred inflation gauge shows core prices rose 3.3% annually in July",
+        "Bitcoin falls to $79k as rebound rally cools ahead of U.S. inflation data",
+        "Bessent’s bond intervention puts US Treasury on collision course with Fed"
       ]
     },
     {
@@ -101,21 +106,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2000,
+      "demand_signal_score": 2900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 8,
-      "source_count": 3,
+      "source_snapshot_score": 17,
+      "source_count": 5,
       "source_names": [
-        "Cointelegraph",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times World",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Bitcoin slips from $80K as gold cools with falling US bond yields",
-        "Explainer: Why the bond market may be resetting expectations about the US - Reuters",
-        "The Heat on Treasury Secretary Scott Bessent Grows"
+        "Strategy cuts net leverage to near zero as cash nearly matches convertible debt",
+        "Mortgage rates hit highest level in 3 weeks, weakening demand further",
+        "Bessent’s bond intervention puts US Treasury on collision course with Fed"
       ]
     }
   ],

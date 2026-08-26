@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-08-26T01:43:00.329145+00:00`
+- 생성 시각: `2026-08-26T13:06:33.690287+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
-- 점수: 86.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
+- 점수: 96.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,12 +70,13 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+  - Dallas Fed warns tokenized deposits could strip $700 billion from U.S. banks' lending capacity
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
-- 점수: 83.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 점수: 82.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -135,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Zerohash back for second effort at OCC trust bank charter
-  - LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges
-  - Bitwise turns Coinbase's tokenized stocks into automated AI, robotics and tech portfolios
-  - Crypto custody firm Copper has potential buyers. But offers are way below its $500 million asking price
-  - MiCA revolutionised European crypto, and left Poland licking its wounds
+  - The 3 catalysts that could define bitcoin's next move
+  - Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady
+  - Strategy cuts net leverage to near zero as cash nearly matches convertible debt
+  - Students want crypto classes but learn on social media: OKX survey
+  - Bernstein forecasts Bitcoin to reclaim $125K by late 2026 ahead of cycle peak
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (엔비디아 실적)
-- 점수: 87.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 69.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -205,17 +206,16 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - 엔비디아 실적
-  - Wall Street ends higher as tech rebounds before Nvidia results - Reuters
-  - Nvidia shares set for $280 billion price swing after earnings, options show - Reuters
-  - Morning Bid: Waiting on Nvidia for next leg of AI rally - Reuters
+  - World stocks inch up as oil drops on Hormuz hopes ahead of data, Nvidia results - Reuters
+  - Wall St futures subdued as Nvidia results, inflation take center stage - Reuters
   - Silicon shadows: inside the black market for AI chips | FT Film
+  - Wall St. Scrutinizes Nvidia’s Deal Machine
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 71.0
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 42.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -275,7 +275,4 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - South Korea challenges China on Arctic trade route
   - It's Not About China(?): U.S.-Iran Economic Sanctions Edition
-  - FirstFT: China warns US it could retaliate over Iran sanctions
-  - China Pushes Back After Trump Tightens the Screws on Iran
