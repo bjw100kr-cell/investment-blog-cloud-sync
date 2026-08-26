@@ -1,8 +1,8 @@
 # Publish Ready Report
 
-- generated_at: `2026-08-25T13:01:43.266999+00:00`
+- generated_at: `2026-08-26T01:43:03.618893+00:00`
 
-## seo_treasury_yields_8
+## seo_treasury_yields_10
 
 - ready: True
 - reason: ok

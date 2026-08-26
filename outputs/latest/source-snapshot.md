@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-25T13:01:40.005547+00:00`
+- 생성 시각: `2026-08-26T01:43:00.329145+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,52 +106,51 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 62, source_count 5, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `bitcoin`: score 53, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `ai_semiconductors`: score 20, source_count 4, sources Financial Times World, Financial Times YouTube, Google Trends KR, Reuters Markets via Google News RSS
 - `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `treasury_yields`: score 17, source_count 4, sources CNBC Top News, CoinDesk RSS, NYT Business, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 17, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times YouTube, Reuters Markets via Google News RSS
-- `china`: score 15, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, 무역킹 Trade King YouTube
-- `dollar`: score 15, source_count 3, sources Financial Times World, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `oil`: score 12, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, MarketWatch Breaking News
-- `cpi`: score 8, source_count 3, sources Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
-- `crypto_etf`: score 3, source_count 1, sources Cointelegraph
+- `china`: score 11, source_count 4, sources Financial Times Home, Financial Times World, NYT Business, 무역킹 Trade King YouTube
+- `treasury_yields`: score 8, source_count 3, sources Cointelegraph, NYT Business, Reuters Markets via Google News RSS
+- `oil`: score 8, source_count 3, sources CNBC Top News, NYT Business, Reuters Markets via Google News RSS
+- `us_big_tech`: score 8, source_count 3, sources CNBC Top News, MarketWatch Breaking News, 무역킹 Trade King YouTube
+- `tariffs_trade`: score 6, source_count 1, sources Financial Times Home
+- `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
+- `dollar`: score 3, source_count 1, sources Investing.com Crypto News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 62, headlines 19
-  - MiCA revolutionised European crypto, and left Poland licking its wounds
-  - Las Vegas businessman convicted in $24 million 'AI supercomputer' crypto Ponzi scheme
-  - Bitcoin's surging price faces 1 key level that could signal if the bear market is really over
+- `bitcoin`: score 53, headlines 16
+  - Zerohash back for second effort at OCC trust bank charter
+  - LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges
+  - Bitwise turns Coinbase's tokenized stocks into automated AI, robotics and tech portfolios
+- `ai_semiconductors`: score 20, headlines 6
+  - 엔비디아 실적
+  - Wall Street ends higher as tech rebounds before Nvidia results - Reuters
+  - Nvidia shares set for $280 billion price swing after earnings, options show - Reuters
 - `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `ai_semiconductors`: score 17, headlines 6
-  - Nvidia’s dependence on hyperscalers faces big test in earnings report
-  - JPMorgan eases approach on lending against shares to court AI’s new wealth
-  - US stock futures rise on tech rebound before Nvidia, inflation tests - Reuters
-- `treasury_yields`: score 17, headlines 6
-  - A 3% token move just triggered $36 million in Ethereum DeFi liquidations
-  - The 'debasement trade' returns after Bessent bond maneuver. Crypto and gold are back in style
-  - Dollar edges higher as investors weigh Iran sanctions, Treasury buybacks - Reuters
-- `china`: score 15, headlines 5
-  - China needs U.S. dollars but is building a hedge against Washington’s sanctions
-  - China warns US it could retaliate over Iran sanctions
+- `china`: score 11, headlines 4
+  - South Korea challenges China on Arctic trade route
   - It's Not About China(?): U.S.-Iran Economic Sanctions Edition
-- `dollar`: score 15, headlines 5
-  - Bitcoin extends gains to $79k as ‘debasement trade’ dents dollar
+  - FirstFT: China warns US it could retaliate over Iran sanctions
+- `oil`: score 8, headlines 3
+  - Oil falls on easing concerns of renewed tensions as the U.S. pivots to economic pressure on Iran
+  - Trading Day: Oil, yields slide - Reuters
+  - U.S. ‘Economic D-Day’ Targets More Than Just Iranian Oil
+- `treasury_yields`: score 8, headlines 3
+  - Bitcoin slips from $80K as gold cools with falling US bond yields
+  - Explainer: Why the bond market may be resetting expectations about the US - Reuters
+  - The Heat on Treasury Secretary Scott Bessent Grows
+- `us_big_tech`: score 8, headlines 3
+  - Amazon service Bezos once called 'artificial artificial intelligence' is shutting down
+  - Why Tesla's stock rose despite the massive recall
+  - Why Meta’s stock could see a 50% rally, thanks to an overlooked AI wild card
+- `tariffs_trade`: score 6, headlines 2
+  - Canada announces $20bn retaliatory tariffs as US trade war escalates
+  - ‘Embarrassing’: US officials recoil from Trump’s Canada attacks
+- `crypto_etf`: score 4, headlines 1
+  - Bitwise turns Coinbase's tokenized stocks into automated AI, robotics and tech portfolios
+- `dollar`: score 3, headlines 1
   - Strategy adds USD Cash pool, holds 840,447 bitcoin as of Aug. 23
-  - Bitcoin rises above $80,000 as soft dollar, debasement fears boost momentum - Reuters
-- `oil`: score 12, headlines 4
-  - Las Vegas businessman convicted in $24 million 'AI supercomputer' crypto Ponzi scheme
-  - Business owner faces up to 280 years over $24M crypto Ponzi scheme
-  - Oil drops more than 3% on report U.S. plans to return evacuated diplomats to Middle East
-- `cpi`: score 8, headlines 3
-  - Iranians queue for petrol as US blockade bites
-  - US stock futures rise on tech rebound before Nvidia, inflation tests - Reuters
-  - Stick with value stocks until everyone starts talking about them — they’re still under the radar, this Wall Street firm says
-- `ethereum`: score 4, headlines 1
-  - A 3% token move just triggered $36 million in Ethereum DeFi liquidations
-- `ai_growth_stocks`: score 3, headlines 1
-  - The little-known French company trying to unseat Palantir in Europe

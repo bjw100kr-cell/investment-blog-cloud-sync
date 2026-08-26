@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-08-25T13:01:40.005547+00:00`
+- 생성 시각: `2026-08-26T01:43:00.329145+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -32,10 +32,10 @@
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `87.0`
-- 점수 구성: 검색성 30 / 시의성 21 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 4 / 코인시장신호 1
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
+- 총점: `83.0`
+- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
+- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
@@ -47,20 +47,21 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Zerohash back for second effort at OCC trust bank charter
+  - LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges
+  - Bitwise turns Coinbase's tokenized stocks into automated AI, robotics and tech portfolios
+  - Crypto custody firm Copper has potential buyers. But offers are way below its $500 million asking price
   - MiCA revolutionised European crypto, and left Poland licking its wounds
-  - Las Vegas businessman convicted in $24 million 'AI supercomputer' crypto Ponzi scheme
-  - Bitcoin's surging price faces 1 key level that could signal if the bear market is really over
-  - A bitcoin short squeeze for the ages as futures open interest collapses
-  - Bitcoin extends 7-day advance to roughly 25%
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `80.0`
-- 점수 구성: 검색성 20 / 시의성 20 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, Financial Times YouTube, Reuters Markets via Google News RSS
+- 총점: `87.0`
+- 점수 구성: 검색성 26 / 시의성 20 / 설명가치 19 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (엔비디아 실적)
+- 소스: Financial Times World, Financial Times YouTube, Google Trends KR, Reuters Markets via Google News RSS
+- 트렌드 쿼리: 엔비디아 실적
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -72,20 +73,20 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Nvidia’s dependence on hyperscalers faces big test in earnings report
-  - JPMorgan eases approach on lending against shares to court AI’s new wealth
-  - US stock futures rise on tech rebound before Nvidia, inflation tests - Reuters
+  - 엔비디아 실적
+  - Wall Street ends higher as tech rebounds before Nvidia results - Reuters
   - Nvidia shares set for $280 billion price swing after earnings, options show - Reuters
   - Morning Bid: Waiting on Nvidia for next leg of AI rally - Reuters
+  - Silicon shadows: inside the black market for AI chips | FT Film
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `77.0`
-- 점수 구성: 검색성 18 / 시의성 20 / 설명가치 18 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 총점: `71.0`
+- 점수 구성: 검색성 15 / 시의성 17 / 설명가치 18 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, Financial Times World, 무역킹 Trade King YouTube
+- 소스: Financial Times Home, Financial Times World, NYT Business, 무역킹 Trade King YouTube
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -97,20 +98,19 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - China needs U.S. dollars but is building a hedge against Washington’s sanctions
-  - China warns US it could retaliate over Iran sanctions
+  - South Korea challenges China on Arctic trade route
   - It's Not About China(?): U.S.-Iran Economic Sanctions Edition
   - FirstFT: China warns US it could retaliate over Iran sanctions
-  - China warns US it could retaliate over Iran sanctions
+  - China Pushes Back After Trump Tightens the Screws on Iran
 
 ## 5. treasury_yields
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `80.0`
-- 점수 구성: 검색성 20 / 시의성 20 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, CoinDesk RSS, NYT Business, Reuters Markets via Google News RSS
+- 총점: `68.0`
+- 점수 구성: 검색성 13 / 시의성 15 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 소스: Cointelegraph, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
@@ -122,8 +122,6 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - A 3% token move just triggered $36 million in Ethereum DeFi liquidations
-  - The 'debasement trade' returns after Bessent bond maneuver. Crypto and gold are back in style
-  - Dollar edges higher as investors weigh Iran sanctions, Treasury buybacks - Reuters
-  - US Treasury to stick to debt auction schedule despite bigger buybacks, Bessent says - Reuters
+  - Bitcoin slips from $80K as gold cools with falling US bond yields
+  - Explainer: Why the bond market may be resetting expectations about the US - Reuters
   - The Heat on Treasury Secretary Scott Bessent Grows

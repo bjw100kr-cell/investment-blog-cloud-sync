@@ -13,8 +13,8 @@
 
 - keyword: `bitcoin`
 - type: `main_post` / role `lane_focus_crypto`
-- publish date: `2026-08-26`
-- priority: `126.0`
+- publish date: `2026-08-27`
+- priority: `122.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
@@ -35,7 +35,7 @@
 
 - keyword: `ai_semiconductors`
 - type: `main_post` / role `lane_focus_us-stocks`
-- publish date: `2026-08-27`
+- publish date: `2026-08-28`
 - priority: `115.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
@@ -55,11 +55,13 @@
 
 - keyword: `china`
 - type: `main_post` / role `lane_focus_world-flow`
-- publish date: `2026-08-28`
-- priority: `103.0`
+- publish date: `2026-08-29`
+- priority: `105.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
 - draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html`
 - image review required: `True`
@@ -75,7 +77,7 @@
 
 - keyword: `fomc`
 - type: `main_post` / role `evergreen_support`
-- publish date: `2026-08-29`
+- publish date: `2026-08-30`
 - priority: `117.0`
 - internal review: `approve` / score `100`
 - intent: FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
@@ -95,22 +97,22 @@
 
 ## 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지
 
-- keyword: `seo_treasury_yields_8`
+- keyword: `seo_treasury_yields_10`
 - type: `seo_followup` / role `search_demand_capture`
-- publish date: `2026-08-25`
-- priority: `110.57`
+- publish date: `2026-08-26`
+- priority: `105.67`
 - internal review: `approve` / score `100`
 - intent: `미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
 - CTA focus: 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결
-- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `환율·금리·미국증시 evergreen 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `` 흐름이 훨씬 더 잘 이어집니다.
 - later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/01-seo-treasury-yields-8.md`
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/01-seo-treasury-yields-10.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국채-금리-상승-이유-지금-투자자가-확인할-체크포인트-5가지.html`
 - image review required: `True`
 - image 대표 이미지: Unsplash / query `central bank finance city skyline market data` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_8 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_10 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - image 본문 보조 이미지: Pexels / query `interest rate macro economy data screen` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_8 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_10 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - preview:
   한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
   - 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
@@ -119,11 +121,13 @@
 
 - keyword: `seo_china_11`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-08-28`
-- priority: `102.5`
+- publish date: `2026-08-29`
+- priority: `104.5`
 - internal review: `approve` / score `100`
 - intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 - CTA focus: 대표 종목 글과 허브 글 연결
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
 - draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/02-seo-china-11.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html`
 - image review required: `True`
@@ -139,11 +143,13 @@
 
 - keyword: `seo_china_12`
 - type: `seo_followup` / role `follow_up`
-- publish date: `2026-08-28`
-- priority: `99.5`
+- publish date: `2026-08-29`
+- priority: `101.5`
 - internal review: `approve` / score `100`
 - intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 - CTA focus: 실적 해설과 글로벌 섹터 허브 연결
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
 - draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/03-seo-china-12.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html`
 - image review required: `True`
@@ -159,11 +165,13 @@
 
 - keyword: `seo_china_13`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-08-28`
-- priority: `96.5`
+- publish date: `2026-08-29`
+- priority: `98.5`
 - internal review: `approve` / score `100`
 - intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 - CTA focus: 섹터 허브와 후속 비교 글 연결
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
 - draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/04-seo-china-13.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html`
 - image review required: `True`
