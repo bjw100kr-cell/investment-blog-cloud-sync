@@ -1,101 +1,46 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
   "cards": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-08-26",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ],
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
-      "hard_blocking_checks": []
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-08-27",
+      "publish_date": "2026-08-28",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed), 실제 급상승 검색어 반영 (fidelity bitcoin etf)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "The 3 catalysts that could define bitcoin's next move",
-        "Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady",
-        "Strategy cuts net leverage to near zero as cash nearly matches convertible debt"
+        "fidelity bitcoin etf",
+        "Bitcoin researchers propose quantum fix that would not crowd out transactions",
+        "Bitcoin below $79,000, XRP leads losses as traders start betting on a Fed hike"
       ],
       "recent_evidence": [
         {
-          "title": "Bernstein forecasts Bitcoin to reclaim $125K by late 2026 ahead of cycle peak",
-          "source_name": "Cointelegraph",
-          "published": "Wed, 26 Aug 2026 12:32:36 +0000",
-          "published_iso": "2026-08-26T12:32:36+00:00",
-          "link": "https://cointelegraph.com/markets/bernstein-predicts-bitcoin-reclaim-125000-year-end?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "The 3 catalysts that could define bitcoin's next move",
+          "title": "Bitcoin researchers propose quantum fix that would not crowd out transactions",
           "source_name": "CoinDesk RSS",
-          "published": "Wed, 26 Aug 2026 11:02:33 +0000",
-          "published_iso": "2026-08-26T11:02:33+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/08/26/the-3-catalysts-that-could-define-bitcoin-s-next-move",
+          "published": "Thu, 27 Aug 2026 07:15:57 +0000",
+          "published_iso": "2026-08-27T07:15:57+00:00",
+          "link": "https://www.coindesk.com/tech/2026/08/27/bitcoin-researchers-propose-quantum-fix-that-would-not-crowd-out-transactions",
           "source_type": "rss"
         },
         {
-          "title": "Supply absorption ‘key question’ as Bitcoin fails to reclaim $80K: Analysis",
+          "title": "Bitcoin ETF inflows slow to $232M as BTC holds under $80K",
           "source_name": "Cointelegraph",
-          "published": "Wed, 26 Aug 2026 10:49:26 +0000",
-          "published_iso": "2026-08-26T10:49:26+00:00",
-          "link": "https://cointelegraph.com/markets/supply-absorption-key-question-as-bitcoin-fails-to-reclaim-80k-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Thu, 27 Aug 2026 07:01:19 +0000",
+          "published_iso": "2026-08-27T07:01:19+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-etf-inflows-slow-232-million-btc-under-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin below $79,000, XRP leads losses as traders start betting on a Fed hike",
+          "source_name": "CoinDesk RSS",
+          "published": "Thu, 27 Aug 2026 04:35:18 +0000",
+          "published_iso": "2026-08-27T04:35:18+00:00",
+          "link": "https://www.coindesk.com/markets/2026/08/27/bitcoin-below-usd79-000-xrp-leads-losses-as-traders-start-betting-on-a-fed-hike",
           "source_type": "rss"
         }
       ],
@@ -116,17 +61,17 @@
     {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "publish_date": "2026-08-28",
+      "publish_date": "2026-08-29",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "World stocks inch up as oil drops on Hormuz hopes ahead of data, Nvidia results - Reuters",
-        "Wall St futures subdued as Nvidia results, inflation take center stage - Reuters",
-        "Silicon shadows: inside the black market for AI chips | FT Film"
+        "Nvidia shares rise after earnings top estimates, guides to $108 billion in revenue next quarter",
+        "Nvidia jumps 7% in after blockbuster earnings boost AI confidence",
+        "Nvidia agrees to buy Hugging Face for $12.9 billion, report says"
       ],
       "recent_evidence": [
         {
@@ -138,19 +83,19 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "Wall St. Scrutinizes Nvidia’s Deal Machine",
-          "source_name": "NYT Business",
-          "published": "Wed, 26 Aug 2026 11:48:27 +0000",
-          "published_iso": "2026-08-26T11:48:27+00:00",
-          "link": "https://www.nytimes.com/2026/08/26/business/dealbook/nvidia-earnings-ai-investments.html",
+          "title": "Nvidia jumps 7% in after blockbuster earnings boost AI confidence",
+          "source_name": "CNBC Top News",
+          "published": "Thu, 27 Aug 2026 08:28:05 GMT",
+          "published_iso": "2026-08-27T08:28:05+00:00",
+          "link": "https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html",
           "source_type": "rss"
         },
         {
-          "title": "Wall St futures subdued as Nvidia results, inflation take center stage - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Wed, 26 Aug 2026 11:33:17 GMT",
-          "published_iso": "2026-08-26T11:33:17+00:00",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV3N4UlJubUVvNndNbHlFSTFtWlpoek1URGE5c3J4SDJEYlZ2aWYzaUNRWDluMnRua19BSENVRWdZZEFzZEh0VWFINF9Va3RPYVEtamhja1Rud3hVUFFWQUZBS1JlWE5wMk0yZUEyQ3lpV3pETVRMMnUxLWZ4Rm92OGZmVGpjY3BVZXl1dDBrR3RtX3RWZG9DOEFEMzFlV2NRSTVKYkxQb0hCZU0?oc=5",
+          "title": "Nvidia agrees to buy Hugging Face for $12.9 billion, report says",
+          "source_name": "CNBC Top News",
+          "published": "Thu, 27 Aug 2026 07:29:46 GMT",
+          "published_iso": "2026-08-27T07:29:46+00:00",
+          "link": "https://www.cnbc.com/2026/08/27/nvidia-hugging-face-acquisition.html",
           "source_type": "rss"
         }
       ],
@@ -166,6 +111,53 @@
       ],
       "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors",
       "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply",
+      "hard_blocking_checks": []
+    },
+    {
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "publish_date": "2026-08-30",
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "ready_now": true,
+      "hero_image_selected": true,
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "OPEC+ loses oil market sway in Iran war as China gains influence - Reuters",
+        "It's Not About China(?): U.S.-Iran Economic Sanctions Edition",
+        "Up to 1,300 people missing after Nepal flood disaster"
+      ],
+      "recent_evidence": [
+        {
+          "title": "OPEC+ loses oil market sway in Iran war as China gains influence - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Thu, 27 Aug 2026 07:14:25 GMT",
+          "published_iso": "2026-08-27T07:14:25+00:00",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdzQ5cjA0LVhLZTN3aEpkcDBvMXNmV3BnTHVtMFBzZnFfN05PSXFjZFAyUTZ3OEtBTnVCRDhIQXkwbGMwUFZSSTBLek9IbmNqTG16bGdlVlVjOHZ1ZER2c3Z5aXJuaV95ZFFObV9XZlYwNHNqdXcxN2FzeVRkSDF1OURPRThrUHhjOThzTEFyY1NBSG10Zlh4VXRTQWhzMXg3TGJINkRyWGhHLTd1NHc?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "It's Not About China(?): U.S.-Iran Economic Sanctions Edition",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "14K views",
+          "published_iso": "14K views",
+          "link": "https://www.youtube.com/watch?v=gGZ7LoEwAR0",
+          "source_type": "youtube_channel"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
       "hard_blocking_checks": []
     }
   ]

@@ -1,27 +1,69 @@
 {
-  "generated_at": "2026-08-26T13:06:33.690287+00:00",
+  "generated_at": "2026-08-27T08:40:57.090764+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 6,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "pce",
+      "keyword": "bitcoin",
       "trend_count": 1,
-      "traffic_score_sum": 2000,
-      "max_approx_traffic": 2000,
+      "traffic_score_sum": 100,
+      "max_approx_traffic": 100,
       "trend_queries": [
-        "pce"
+        "fidelity bitcoin etf"
       ],
       "regions": [
         "US"
       ],
-      "demand_signal_score": 2200,
+      "demand_signal_score": 300,
       "fallback_source": "trend_match",
       "confidence": "high",
       "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
+    {
+      "keyword": "crypto_etf",
+      "trend_count": 1,
+      "traffic_score_sum": 100,
+      "max_approx_traffic": 100,
+      "trend_queries": [
+        "fidelity bitcoin etf"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 300,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 4900,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 37,
+      "source_count": 7,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times World",
+        "Financial Times YouTube"
+      ],
+      "sample_titles": [
+        "Nvidia shares rise after earnings top estimates, guides to $108 billion in revenue next quarter",
+        "Nvidia jumps 7% in after blockbuster earnings boost AI confidence",
+        "Nvidia agrees to buy Hugging Face for $12.9 billion, report says"
+      ]
     },
     {
       "keyword": "fomc",
@@ -30,18 +72,18 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5100,
+      "demand_signal_score": 4300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 39,
-      "source_count": 7,
+      "source_snapshot_score": 31,
+      "source_count": 5,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
+        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Financial Times World"
+        "MarketWatch Breaking News",
+        "NYT Business"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -50,79 +92,50 @@
       ]
     },
     {
-      "keyword": "bitcoin",
+      "keyword": "oil",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5100,
+      "demand_signal_score": 2100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 39,
+      "source_snapshot_score": 9,
+      "source_count": 2,
+      "source_names": [
+        "CNBC Top News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Qatari PM heads to Iran to 'de-escalate tensions' as tanker attack tests Trump’s Hormuz claim",
+        "OPEC+ loses oil market sway in Iran war as China gains influence - Reuters",
+        "Indian shares muted as HDFC Bank counters oil-led optimism - Reuters"
+      ]
+    },
+    {
+      "keyword": "china",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2100,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 9,
       "source_count": 3,
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "The 3 catalysts that could define bitcoin's next move",
-        "Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady",
-        "Strategy cuts net leverage to near zero as cash nearly matches convertible debt"
-      ]
-    },
-    {
-      "keyword": "cpi",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3900,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 27,
-      "source_count": 6,
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "NYT Business"
-      ],
-      "sample_titles": [
-        "Fed’s preferred inflation gauge shows core prices rose 3.3% annually in July",
-        "Bitcoin falls to $79k as rebound rally cools ahead of U.S. inflation data",
-        "Bessent’s bond intervention puts US Treasury on collision course with Fed"
-      ]
-    },
-    {
-      "keyword": "treasury_yields",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2900,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 17,
-      "source_count": 5,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Financial Times Home",
         "Financial Times World",
-        "NYT Business"
+        "Reuters Markets via Google News RSS",
+        "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
-        "Strategy cuts net leverage to near zero as cash nearly matches convertible debt",
-        "Mortgage rates hit highest level in 3 weeks, weakening demand further",
-        "Bessent’s bond intervention puts US Treasury on collision course with Fed"
+        "OPEC+ loses oil market sway in Iran war as China gains influence - Reuters",
+        "It's Not About China(?): U.S.-Iran Economic Sanctions Edition",
+        "Up to 1,300 people missing after Nepal flood disaster"
       ]
     }
   ],
