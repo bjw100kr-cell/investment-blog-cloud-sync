@@ -1,52 +1,54 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-08-27T08:41:02.384038+00:00`
-- snapshot_generated_at: `2026-08-27T08:40:57.090764+00:00`
+- generated_at: `2026-08-27T22:11:05.790529+00:00`
+- snapshot_generated_at: `2026-08-27T22:10:58.300627+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
-- counts: fresh `3` / aging `0` / stale `0` / unknown `0`
+- counts: fresh `2` / aging `0` / stale `1` / unknown `0`
 
-## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+- keyword: `fomc`
+- freshness_status: `stale`
+- newest_evidence_age_days: `8.2`
+- newest_evidence_iso: `2026-08-19T18:00:00+00:00`
+- quality_status: `pass` / ready_now `True`
+- summary: 핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement
+- recommendation: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
+- recovery_mode: `full_refresh_needed`
+- recovery_summary: 현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.
+- recovery_command: `bash scripts/run_pipeline.sh`
+- evidence: Federal Reserve Monetary Policy Press / 2026-07-29T18:00:00+00:00 / Federal Reserve issues FOMC statement
+- evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve issues FOMC statement
+- evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+
+## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - freshness_status: `fresh`
 - newest_evidence_age_days: `0.1`
-- newest_evidence_iso: `2026-08-27T07:15:57+00:00`
+- newest_evidence_iso: `2026-08-27T19:19:51+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin researchers propose quantum fix that would not crowd out transactions
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Grayscale says Zcash can challenge Bitcoin’s network effects as privacy demand grows
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: CoinDesk RSS / 2026-08-27T07:15:57+00:00 / Bitcoin researchers propose quantum fix that would not crowd out transactions
-- evidence: Cointelegraph / 2026-08-27T07:01:19+00:00 / Bitcoin ETF inflows slow to $232M as BTC holds under $80K
-- evidence: CoinDesk RSS / 2026-08-27T04:35:18+00:00 / Bitcoin below $79,000, XRP leads losses as traders start betting on a Fed hike
-
-## 2. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-
-- keyword: `china`
-- freshness_status: `fresh`
-- newest_evidence_age_days: `0.1`
-- newest_evidence_iso: `2026-08-27T07:14:25+00:00`
-- quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: OPEC+ loses oil market sway in Iran war as China gains influence - Reuters
-- recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
-- recovery_mode: `publish_direct`
-- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Reuters Markets via Google News RSS / 2026-08-27T07:14:25+00:00 / OPEC+ loses oil market sway in Iran war as China gains influence - Reuters
-- evidence: 무역킹 Trade King YouTube / 14K views / It's Not About China(?): U.S.-Iran Economic Sanctions Edition
+- evidence: Cointelegraph / 2026-08-27T18:51:02+00:00 / Grayscale says Zcash can challenge Bitcoin’s network effects as privacy demand grows
+- evidence: Cointelegraph / 2026-08-27T17:15:43+00:00 / Bitcoin eyes $81K as Nvidia earnings beat boosts risk assets
+- evidence: Cointelegraph / 2026-08-27T16:04:15+00:00 / Bitcoin’s 23% rally sends beaten-down miners soaring past AI stocks
 
 ## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - keyword: `ai_semiconductors`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.0`
-- newest_evidence_iso: `2026-08-27T08:28:05+00:00`
+- newest_evidence_age_days: `0.1`
+- newest_evidence_iso: `2026-08-27T20:24:00+00:00`
 - quality_status: `pass` / ready_now `True`
 - summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Financial Times YouTube / 55K views / Silicon shadows: inside the black market for AI chips | FT Film
-- evidence: CNBC Top News / 2026-08-27T08:28:05+00:00 / Nvidia jumps 7% in after blockbuster earnings boost AI confidence
-- evidence: CNBC Top News / 2026-08-27T07:29:46+00:00 / Nvidia agrees to buy Hugging Face for $12.9 billion, report says
+- evidence: Financial Times YouTube / 55K / Silicon shadows: inside the black market for AI chips | FT Film
+- evidence: MarketWatch Breaking News / 2026-08-27T20:24:00+00:00 / Nvidia is getting too big, and that’s a problem
+- evidence: Financial Times World / 2026-08-27T19:20:48+00:00 / Anthropic launches tool that can manipulate laboratory tools

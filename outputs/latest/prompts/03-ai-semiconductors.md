@@ -91,7 +91,7 @@
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -109,19 +109,18 @@
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "CoinDesk RSS",
-    "Financial Times Home",
+    "Cointelegraph",
     "Financial Times World",
     "Financial Times YouTube",
     "MarketWatch Breaking News",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Nvidia shares rise after earnings top estimates, guides to $108 billion in revenue next quarter",
-    "Nvidia jumps 7% in after blockbuster earnings boost AI confidence",
-    "Nvidia agrees to buy Hugging Face for $12.9 billion, report says",
-    "Z.ai shares surge 8% after releasing new AI model running only on Chinese chips",
-    "Jensen Huang defends Nvidia's growing financial support for AI ecosystem, says 'the risk is low'"
+    "Bitcoin eyes $81K as Nvidia earnings beat boosts risk assets",
+    "Salesforce rockets 22% for second-best day ever, leading software rally",
+    "COMMENTARY: Morning Bid: Nvidia vaults over high bar - Reuters",
+    "Stock indexes gain as Nvidia boost offsets caution on Middle East, Fed events - Reuters",
+    "Marvell is boosting its forecasts, but that’s not enough to lift its stock"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -184,8 +183,8 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 86.0,
-    "search_score": 26,
+    "total_score": 83.0,
+    "search_score": 23,
     "timeliness_score": 21,
     "explanatory_score": 19,
     "monetization_score": 15,
