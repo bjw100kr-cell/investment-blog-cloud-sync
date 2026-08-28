@@ -1,101 +1,46 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
   "cards": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-08-27",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ],
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
-      "hard_blocking_checks": []
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-08-28",
+      "publish_date": "2026-08-29",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)",
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Polish Olympic chief arrested as prosecutors probe suspected crypto-linked bribe",
-        "MoonPay’s newest integration lets AI agents handle crypto lending on Solana",
-        "240 UK taxpayers made more than $1.3 million each from crypto holdings in fiscal 2025"
+        "Bitcoin hits highest level in 3 months before pulling back as altcoins consolidate",
+        "Visa doubles down on South Korea with Upbit operator Dunamu on stablecoin payments",
+        "Kraken users briefly locked out after a flood of sanctioned crypto transactions"
       ],
       "recent_evidence": [
         {
-          "title": "Grayscale says Zcash can challenge Bitcoin’s network effects as privacy demand grows",
-          "source_name": "Cointelegraph",
-          "published": "Thu, 27 Aug 2026 18:51:02 +0000",
-          "published_iso": "2026-08-27T18:51:02+00:00",
-          "link": "https://cointelegraph.com/markets/zcash-bitcoin-network-effects-grayscale-privacy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Bitcoin hits highest level in 3 months before pulling back as altcoins consolidate",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 28 Aug 2026 10:37:35 +0000",
+          "published_iso": "2026-08-28T10:37:35+00:00",
+          "link": "https://www.coindesk.com/markets/2026/08/28/bitcoin-hits-highest-level-in-3-months-before-pulling-back-as-altcoins-consolidate",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin eyes $81K as Nvidia earnings beat boosts risk assets",
-          "source_name": "Cointelegraph",
-          "published": "Thu, 27 Aug 2026 17:15:43 +0000",
-          "published_iso": "2026-08-27T17:15:43+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-eyes-81k-as-nvidia-earnings-beat-boosts-risk-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Live updates: Markets turn cautious before Warsh speech as bitcoin loses overnight gains",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 28 Aug 2026 09:09:07 +0000",
+          "published_iso": "2026-08-28T09:09:07+00:00",
+          "link": "https://www.coindesk.com/business/2026/08/28/live-updates-bitcoin-options-worth-usd6-4-billion-just-expired-as-prices-hover-near-usd80-000",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin’s 23% rally sends beaten-down miners soaring past AI stocks",
-          "source_name": "Cointelegraph",
-          "published": "Thu, 27 Aug 2026 16:04:15 +0000",
-          "published_iso": "2026-08-27T16:04:15+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-miner-stocks-rally-crypto-demand-ai-hpc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Here’s why Warsh’s Jackson Hole speech is a major event for bitcoin and gold",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 28 Aug 2026 06:30:10 +0000",
+          "published_iso": "2026-08-28T06:30:10+00:00",
+          "link": "https://www.coindesk.com/markets/2026/08/28/here-s-why-warsh-s-jackson-hole-speech-is-a-major-event-for-bitcoin-and-gold",
           "source_type": "rss"
         }
       ],
@@ -116,41 +61,41 @@
     {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "publish_date": "2026-08-29",
+      "publish_date": "2026-08-30",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (anthropic)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Bitcoin eyes $81K as Nvidia earnings beat boosts risk assets",
-        "Salesforce rockets 22% for second-best day ever, leading software rally",
-        "COMMENTARY: Morning Bid: Nvidia vaults over high bar - Reuters"
+        "anthropic",
+        "Nasdaq, S&P 500 lifted by Nvidia's forecast; investors eye speech by Fed's Warsh - Reuters",
+        "Is Anthropic worth $2 trillion? Here’s how the company is trading in a new tokenized market."
       ],
       "recent_evidence": [
         {
           "title": "Silicon shadows: inside the black market for AI chips | FT Film",
           "source_name": "Financial Times YouTube",
-          "published": "55K",
-          "published_iso": "55K",
+          "published": "55K views",
+          "published_iso": "55K views",
           "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
           "source_type": "youtube_channel"
         },
         {
-          "title": "Nvidia is getting too big, and that’s a problem",
+          "title": "Is Anthropic worth $2 trillion? Here’s how the company is trading in a new tokenized market.",
           "source_name": "MarketWatch Breaking News",
-          "published": "Thu, 27 Aug 2026 20:24:00 GMT",
-          "published_iso": "2026-08-27T20:24:00+00:00",
-          "link": "https://www.marketwatch.com/story/nvidia-is-getting-too-big-and-thats-a-problem-e1edabff?mod=mw_rss_topstories",
+          "published": "Fri, 28 Aug 2026 10:29:00 GMT",
+          "published_iso": "2026-08-28T10:29:00+00:00",
+          "link": "https://www.marketwatch.com/story/is-anthropic-worth-2-trillion-heres-how-the-company-is-trading-in-a-new-tokenized-market-390bc152?mod=mw_rss_topstories",
           "source_type": "rss"
         },
         {
-          "title": "Anthropic launches tool that can manipulate laboratory tools",
-          "source_name": "Financial Times World",
-          "published": "Thu, 27 Aug 2026 19:20:48 GMT",
-          "published_iso": "2026-08-27T19:20:48+00:00",
-          "link": "https://www.ft.com/content/dd069af7-a2a2-4984-8d9a-5edeaf54f2f8?syn-25a6b1a6=1",
+          "title": "anthropic",
+          "source_name": "Google Trends US",
+          "published": "Fri, 28 Aug 2026 03:30:00 -0700",
+          "published_iso": "2026-08-28T03:30:00-07:00",
+          "link": "https://trends.google.com/trending/rss?geo=US",
           "source_type": "rss"
         }
       ],
@@ -166,6 +111,61 @@
       ],
       "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors",
       "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply",
+      "hard_blocking_checks": []
+    },
+    {
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "publish_date": "2026-08-31",
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "ready_now": true,
+      "hero_image_selected": true,
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "Trump ratchets up rhetoric against Beijing as U.S.-China officials meet for Xi's Washington visit",
+        "The devastating forces behind the deadly Himalayan flood",
+        "Is China’s ‘wise camel’ the winner from the US-Iran war?"
+      ],
+      "recent_evidence": [
+        {
+          "title": "China suspends Himalaya flood rescue efforts as lake overflows",
+          "source_name": "Financial Times Home",
+          "published": "Fri, 28 Aug 2026 09:10:55 GMT",
+          "published_iso": "2026-08-28T09:10:55+00:00",
+          "link": "https://www.ft.com/content/65478d4a-7edd-45b6-884e-144b22b50a0f?syn-25a6b1a6=1",
+          "source_type": "rss"
+        },
+        {
+          "title": "Is China’s ‘wise camel’ the winner from the US-Iran war?",
+          "source_name": "Financial Times Home",
+          "published": "Fri, 28 Aug 2026 04:00:16 GMT",
+          "published_iso": "2026-08-28T04:00:16+00:00",
+          "link": "https://www.ft.com/content/42935d28-2998-4c1b-a2f3-82ec0e462ec4?syn-25a6b1a6=1",
+          "source_type": "rss"
+        },
+        {
+          "title": "China bets on exports of cheap 3D-printed drone killers",
+          "source_name": "Financial Times Home",
+          "published": "Fri, 28 Aug 2026 01:37:21 GMT",
+          "published_iso": "2026-08-28T01:37:21+00:00",
+          "link": "https://www.ft.com/content/547e5366-b476-4695-81e6-579fc452bed6?syn-25a6b1a6=1",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
       "hard_blocking_checks": []
     }
   ]

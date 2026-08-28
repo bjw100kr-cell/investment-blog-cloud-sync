@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-27T22:10:58.300627+00:00`
+- 생성 시각: `2026-08-28T10:53:00.556796+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,123 +25,128 @@
 
 ## 유튜브 transcript 포인트
 
-- `무역킹 Trade King YouTube` / How to Avoid Being Complacently Laid Off
+- `무역킹 Trade King YouTube` / 2. Human sacrifice... does this even make sense?
   - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=oJEUuHOh8kk! This is most likely caused by:
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=qxWdMYVHYjI! This is most likely caused by:
 
 YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
 - You have done too many requests and your IP has been blocked by YouTube
 - You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
 
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / Where is the soldiers' money going now? (Part 1)
+- `무역킹 Trade King YouTube` / 3. The History of Human Sacrifice: What Sets It Apart?
   - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=frkEzdZh1n8! This is most likely caused by:
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=YlpheggSnpw! This is most likely caused by:
 
 YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
 - You have done too many requests and your IP has been blocked by YouTube
 - You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
 
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 1. The Future of Banks: What’s Next for Banking
+- `무역킹 Trade King YouTube` / The U.S. Caught Maduro, So Why Let His Right-Hand Person Go? (Full Recap)
   - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=C3A0I_XyKnA! This is most likely caused by:
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=nodT-lK9JJo! This is most likely caused by:
 
 YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
 - You have done too many requests and your IP has been blocked by YouTube
 - You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
 
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+- `무역킹 Trade King YouTube` / Choco Pies hit record sales during the war. Who gets the money?
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=F2p1GLLpvjY! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / 2. The Future of Banking: An Era Where AI Decides My Money?
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=UoejSZuFBwo! This is most likely caused by:
 
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / Trade King finally goes live..!
+- `무역킹 Trade King YouTube` / Never be a slave again
   - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Atcd59Ek7dI! This is most likely caused by:
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=rmuxlthJki0! This is most likely caused by:
 
 YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
 - You have done too many requests and your IP has been blocked by YouTube
 - You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
 
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
 
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / The Work Policy That Will Ruin Your Company If You’re Unprepared
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=z0esqFrgcHw! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `bitcoin`: score 49, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 26, source_count 3, sources CNBC Top News, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 21, source_count 6, sources CNBC Top News, Cointelegraph, Financial Times World, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `treasury_yields`: score 9, source_count 3, sources Cointelegraph, Financial Times Home, Investing.com Crypto News
-- `china`: score 9, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
-- `us_big_tech`: score 6, source_count 1, sources NYT Business
-- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
-- `tariffs_trade`: score 3, source_count 1, sources CNBC Top News
-- `pce`: score 3, source_count 1, sources Investing.com Crypto News
-- `jobs`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `bitcoin`: score 48, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 33, source_count 4, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `china`: score 18, source_count 3, sources CNBC Top News, Financial Times Home, Financial Times World
+- `ai_semiconductors`: score 14, source_count 4, sources Financial Times YouTube, Google Trends US, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `treasury_yields`: score 13, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `us_index_flow`: score 10, source_count 3, sources CNBC Top News, CoinDesk RSS, Reuters Markets via Google News RSS
+- `ethereum`: score 6, source_count 1, sources Cointelegraph
+- `oil`: score 6, source_count 2, sources MarketWatch Breaking News, NYT Business
+- `dollar`: score 5, source_count 2, sources NYT Business, Reuters Markets via Google News RSS
+- `us_big_tech`: score 4, source_count 1, sources NYT Business
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 49, headlines 15
-  - Polish Olympic chief arrested as prosecutors probe suspected crypto-linked bribe
-  - MoonPay’s newest integration lets AI agents handle crypto lending on Solana
-  - 240 UK taxpayers made more than $1.3 million each from crypto holdings in fiscal 2025
-- `fomc`: score 26, headlines 6
+- `bitcoin`: score 48, headlines 14
+  - Bitcoin hits highest level in 3 months before pulling back as altcoins consolidate
+  - Visa doubles down on South Korea with Upbit operator Dunamu on stablecoin payments
+  - Kraken users briefly locked out after a flood of sanctioned crypto transactions
+- `fomc`: score 33, headlines 8
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `ai_semiconductors`: score 21, headlines 8
-  - Bitcoin eyes $81K as Nvidia earnings beat boosts risk assets
-  - Salesforce rockets 22% for second-best day ever, leading software rally
-  - COMMENTARY: Morning Bid: Nvidia vaults over high bar - Reuters
-- `china`: score 9, headlines 3
-  - OPEC+ loses oil market sway in Iran war as China gains influence - Reuters
-  - Deadly flood a brutal reminder of growing Himalayan hazards
-  - More than 1,400 people missing after Nepal flood disaster
-- `treasury_yields`: score 9, headlines 3
+- `china`: score 18, headlines 6
+  - Trump ratchets up rhetoric against Beijing as U.S.-China officials meet for Xi's Washington visit
+  - The devastating forces behind the deadly Himalayan flood
+  - Is China’s ‘wise camel’ the winner from the US-Iran war?
+- `ai_semiconductors`: score 14, headlines 4
+  - anthropic
+  - Nasdaq, S&P 500 lifted by Nvidia's forecast; investors eye speech by Fed's Warsh - Reuters
+  - Is Anthropic worth $2 trillion? Here’s how the company is trading in a new tokenized market.
+- `treasury_yields`: score 13, headlines 4
+  - Here’s why Warsh’s Jackson Hole speech is a major event for bitcoin and gold
+  - The Sandbox pledges 1:1 repayment after $700K bridge exploit
   - Virtu, Tradeweb complete onchain repo using Marshall Islands digital bond
-  - YZi Labs Backs TermMax to Advance On-Chain Bond Market Infrastructure
-  - Don’t draw the wrong conclusion from Treasury yields
-- `us_big_tech`: score 6, headlines 3
+- `us_index_flow`: score 10, headlines 3
+  - Bitcoin hits highest level in 3 months before pulling back as altcoins consolidate
+  - UAE ‘spy sheikh’ backs 49% stake in Trump family’s crypto bank venture, WSJ reports
+  - Nasdaq, S&P 500 lifted by Nvidia's forecast; investors eye speech by Fed's Warsh - Reuters
+- `oil`: score 6, headlines 3
+  - On the six-month anniversary of the Iran war, divisions appear on Wall Street over the trajectory for oil prices
+  - How 6 Months of War in Iran Jolted Oil, Gas, Stocks and More
+  - Why These Giant Storage Tanks Increasingly Hold Very Little Oil
+- `ethereum`: score 6, headlines 2
+  - OneKey reproduces transaction replacement attack on outdated Ledger Ethereum app
+  - The Sandbox pledges 1:1 repayment after $700K bridge exploit
+- `dollar`: score 5, headlines 2
+  - Dollar flat near one-week high as investors await Warsh's Jackson Hole debut - Reuters
+  - Dollar Tree and Dollar General Report Sales Gains as Shoppers Cut Costs
+- `us_big_tech`: score 4, headlines 2
   - Benjamin Rosen, Who Brought Venture Capital to Tech, Dies at 93
   - “Anxious Generation” Author Jonathan Haidt on the Meta Settlement
-  - Did Meta’s Big Settlement Actually Help It?
-- `ethereum`: score 4, headlines 1
-  - Crypto for Advisors: How staking on Ethereum is changing in 2026
-- `jobs`: score 3, headlines 1
-  - US jobless claims dip in latest week; goods trade deficit widens in July - Reuters
-- `oil`: score 3, headlines 1
-  - OPEC+ loses oil market sway in Iran war as China gains influence - Reuters
-- `pce`: score 3, headlines 1
-  - Bitcoin hovers above $78k as rebound rally loses some steam after U.S. PCE data

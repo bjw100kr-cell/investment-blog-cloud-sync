@@ -148,7 +148,7 @@
 
 ## 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_china_11`
+- keyword: `seo_china_7`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html`
@@ -174,7 +174,7 @@
 
 ## 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 
-- keyword: `seo_china_12`
+- keyword: `seo_china_8`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html`
@@ -200,7 +200,7 @@
 
 ## 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 
-- keyword: `seo_china_13`
+- keyword: `seo_china_11`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html`
