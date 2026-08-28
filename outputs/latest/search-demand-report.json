@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T10:53:00.556796+00:00",
+  "generated_at": "2026-08-28T22:11:03.752602+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 5,
@@ -8,12 +8,12 @@
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "us_big_tech",
       "trend_count": 1,
       "traffic_score_sum": 200,
       "max_approx_traffic": 200,
       "trend_queries": [
-        "anthropic"
+        "apple watch ultra 4"
       ],
       "regions": [
         "US"
@@ -24,48 +24,24 @@
       "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
     },
     {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 6000,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 48,
-      "source_count": 4,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Bitcoin hits highest level in 3 months before pulling back as altcoins consolidate",
-        "Visa doubles down on South Korea with Upbit operator Dunamu on stablecoin payments",
-        "Kraken users briefly locked out after a flood of sanctioned crypto transactions"
-      ]
-    },
-    {
       "keyword": "fomc",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4500,
+      "demand_signal_score": 5700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 33,
-      "source_count": 4,
+      "source_snapshot_score": 45,
+      "source_count": 8,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
+        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
+        "Financial Times Home",
+        "Financial Times World"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -74,7 +50,57 @@
       ]
     },
     {
-      "keyword": "china",
+      "keyword": "bitcoin",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 4700,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 35,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": [
+        "Ethena looks beyond crypto to squeeze yield from booming equity perpetuals",
+        "Bitcoin is outperforming stocks and correlating with gold just when it matters most",
+        "Here’s what happened in crypto today"
+      ]
+    },
+    {
+      "keyword": "cpi",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3700,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 25,
+      "source_count": 6,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
+        "NYT Business"
+      ],
+      "sample_titles": [
+        "Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
+        "Solana validators approve proposal to accelerate SOL disinflation",
+        "Bitcoin dips to $78.4K as Fed’s Warsh downplays softer inflation prints"
+      ]
+    },
+    {
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -85,40 +111,18 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 18,
-      "source_count": 3,
+      "source_count": 5,
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World"
-      ],
-      "sample_titles": [
-        "Trump ratchets up rhetoric against Beijing as U.S.-China officials meet for Xi's Washington visit",
-        "The devastating forces behind the deadly Himalayan flood",
-        "Is China’s ‘wise camel’ the winner from the US-Iran war?"
-      ]
-    },
-    {
-      "keyword": "treasury_yields",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
-      "source_count": 3,
-      "source_names": [
         "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
+        "Financial Times Home",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Here’s why Warsh’s Jackson Hole speech is a major event for bitcoin and gold",
-        "The Sandbox pledges 1:1 repayment after $700K bridge exploit",
-        "Virtu, Tradeweb complete onchain repo using Marshall Islands digital bond"
+        "Ethena looks beyond crypto to squeeze yield from booming equity perpetuals",
+        "Bessent attacks Warren over yen intervention query, offers ‘Foreign Exchange for Dummies’ lesson",
+        "Treasury moves to sanction UAE branch of Egyptian bank over Iran ties"
       ]
     }
   ],
