@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T22:11:03.752602+00:00",
+  "generated_at": "2026-08-29T06:40:16.138430+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -18,11 +18,11 @@
       "total_score": 97.0,
       "monetization_score": 15,
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
         "Financial Times Home",
-        "Financial Times World",
         "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
@@ -32,7 +32,7 @@
       "keyword": "bitcoin",
       "recommended_title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
-      "total_score": 82.0,
+      "total_score": 84.0,
       "monetization_score": 15,
       "source_names": [
         "CoinDesk RSS",
@@ -41,14 +41,14 @@
       ]
     },
     {
-      "keyword": "us_big_tech",
-      "recommended_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (apple watch ultra 4)",
-      "total_score": 73.0,
+      "keyword": "ai_semiconductors",
+      "recommended_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "total_score": 63.0,
       "monetization_score": 15,
       "source_names": [
-        "CNBC Top News",
-        "Google Trends US",
+        "CoinDesk RSS",
+        "Financial Times YouTube",
         "MarketWatch Breaking News"
       ]
     }
@@ -76,7 +76,7 @@
       "category": "global-sector",
       "post_count": 2,
       "keywords": [
-        "us_big_tech",
+        "ai_semiconductors",
         "china"
       ],
       "avg_monetization_score": 14.0,
@@ -107,7 +107,7 @@
       "label": "미국주식",
       "post_count": 1,
       "keywords": [
-        "us_big_tech"
+        "ai_semiconductors"
       ],
       "avg_monetization_score": 15.0
     },
@@ -123,18 +123,6 @@
   ],
   "query_watchlist": [],
   "trend_watchlist": [
-    {
-      "keyword": "us_big_tech",
-      "trend_queries": [
-        "apple watch ultra 4"
-      ],
-      "trend_count": 1,
-      "traffic_score_sum": 200,
-      "regions": [
-        "US"
-      ],
-      "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
-    },
     {
       "keyword": "fomc",
       "trend_queries": [],
@@ -255,8 +243,8 @@
         "dominant_sentence_ending_ratio": 0.094
       },
       {
-        "keyword": "us_big_tech",
-        "recommended_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+        "keyword": "ai_semiconductors",
+        "recommended_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
         "score": 92,
         "robotic_phrase_hits": [],
         "reader_bridge_hits": [
@@ -281,11 +269,11 @@
           "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
         ],
         "paragraph_count": 32,
-        "short_paragraphs": 23,
+        "short_paragraphs": 22,
         "long_paragraphs": 3,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
-        "dominant_sentence_ending_ratio": 0.094
+        "dominant_sentence_ending_ratio": 0.092
       },
       {
         "keyword": "china",

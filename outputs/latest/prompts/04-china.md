@@ -112,8 +112,7 @@
     "NYT Business"
   ],
   "reference_headlines": [
-    "China’s actors written out of dramas as AI doubles ready to take their roles",
-    "‘In a flash, everything was gone’: Nepal rushes to rescue flash-flood survivors",
+    "‘In a flash, everything was gone’: Nepal rushes to rescue flood survivors",
     "China Sees Opportunity in America’s Recent A.I. Security Scares"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
@@ -177,9 +176,9 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 60.0,
-    "search_score": 10,
-    "timeliness_score": 13,
+    "total_score": 55.0,
+    "search_score": 8,
+    "timeliness_score": 10,
     "explanatory_score": 17,
     "monetization_score": 13,
     "risk_score": 7
