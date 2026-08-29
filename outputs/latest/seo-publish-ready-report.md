@@ -1,23 +1,23 @@
 # Publish Ready Report
 
-- generated_at: `2026-08-29T06:40:21.522437+00:00`
+- generated_at: `2026-08-29T16:38:41.424163+00:00`
 
-## seo_cpi_7
-
-- ready: True
-- reason: ok
-- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-cpi-지금-투자자가-확인할-체크포인트-5가지.html
-- meta_title: cpi: 지금 투자자가 확인할 체크포인트 5가지
-- meta_description: cpi: 지금 투자자가 확인할 체크포인트 5가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
-- follow_up_post_count: 0
-
-## seo_treasury_yields_8
+## seo_dollar_7
 
 - ready: True
 - reason: ok
-- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-미국채-금리-상승-이유-지금-투자자가-확인할-체크포인트-5가지.html
-- meta_title: 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지
-- meta_description: 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-달러-인덱스-보는법-지금-투자자가-확인할-체크포인트-5가지.html
+- meta_title: 달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지
+- meta_description: 달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
+- follow_up_post_count: 2
+
+## seo_us_big_tech_9
+
+- ready: True
+- reason: ok
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-미국-빅테크-주식-관련-대표-종목-한눈에-보기.html
+- meta_title: 미국 빅테크 주식 관련 대표 종목 한눈에 보기
+- meta_description: 미국 빅테크 주식 관련 대표 종목 한눈에 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 2
 
 ## seo_china_12

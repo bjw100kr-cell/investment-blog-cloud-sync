@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T06:40:16.138430+00:00",
+  "generated_at": "2026-08-29T16:38:38.703572+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -8,24 +8,47 @@
   },
   "ranked_keyword_demand": [
     {
+      "keyword": "bitcoin",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 5300,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 41,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": [
+        "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
+        "Swift’s $1.5 quadrillion network faces a blockchain test",
+        "The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet"
+      ]
+    },
+    {
       "keyword": "fomc",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5500,
+      "demand_signal_score": 4400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 43,
-      "source_count": 8,
+      "source_snapshot_score": 32,
+      "source_count": 4,
       "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home"
+        "Financial Times Home",
+        "Financial Times World",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -34,78 +57,53 @@
       ]
     },
     {
-      "keyword": "bitcoin",
+      "keyword": "dollar",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5100,
+      "demand_signal_score": 2800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 39,
-      "source_count": 3,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
-        "Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives",
-        "Ethena looks beyond crypto to squeeze yield from booming equity perpetuals"
-      ]
-    },
-    {
-      "keyword": "cpi",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3800,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 26,
-      "source_count": 8,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Financial Times Home",
-        "Financial Times World"
-      ],
-      "sample_titles": [
-        "Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
-        "Solana validators approve proposal to accelerate SOL disinflation",
-        "Bitcoin dips to $78.4K as Fed’s Warsh downplays softer inflation prints"
-      ]
-    },
-    {
-      "keyword": "treasury_yields",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2400,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
+      "source_snapshot_score": 16,
       "source_count": 4,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "Cointelegraph",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Ethena looks beyond crypto to squeeze yield from booming equity perpetuals",
-        "Bessent attacks Warren over yen intervention query, offers ‘Foreign Exchange for Dummies’ lesson",
-        "altFINS Partners with BitPath Holdings to Launch Gen 2 Digital Asset Treasury Strategy Powered by AI Analytics"
+        "The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet",
+        "Bullish provides USD.AI $100M stablecoin facility for GPU-backed lending",
+        "Iran trade falls as Supreme Leader Khamenei urges less reliance on the U.S. dollar"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2300,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 11,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "NYT Business"
+      ],
+      "sample_titles": [
+        "Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves",
+        "Trump says US to take control of 65bn barrels of Venezuelan oil",
+        "Trump Says U.S. Struck Deal for Control of More Than 65 Billion Barrels of Venezuela’s Oil"
       ]
     }
   ],

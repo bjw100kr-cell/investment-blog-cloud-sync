@@ -85,14 +85,14 @@
 
 ```json
 {
-  "keyword": "seo_cpi_7",
-  "source_keyword": "cpi",
-  "recommended_title": "cpi: 지금 투자자가 확인할 체크포인트 5가지",
+  "keyword": "seo_dollar_7",
+  "source_keyword": "dollar",
+  "recommended_title": "달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지",
   "alternate_titles": [
-    "cpi: 지금 투자자가 확인할 체크포인트 5가지: 초보 투자자 기준으로 다시 보기",
-    "cpi: 지금 투자자가 확인할 체크포인트 5가지: 지금 읽어야 하는 이유"
+    "달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지: 초보 투자자 기준으로 다시 보기",
+    "달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "cpi에서 이어지는 후속 글로, `cpi`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
+  "summary_angle": "달러 인덱스 보는법에서 이어지는 후속 글로, `달러 인덱스 보는법`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
   "outline": [
     "이전 메인 글에서 이어지는 핵심 질문",
     "이번에 추가로 확인된 내용",
@@ -101,10 +101,10 @@
     "다음 후속 글 연결"
   ],
   "reference_takeaways": [
-    "메인 연결 글: cpi",
-    "검색 의도: `cpi`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
+    "메인 연결 글: 달러 인덱스 보는법",
+    "검색 의도: `달러 인덱스 보는법`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
     "수익화 목표: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
-    "검색어 후보: cpi: 지금 투자자가 확인할 체크포인트 5가지",
+    "검색어 후보: 달러 인덱스 보는법, 달러 강세 주식 영향, 환율 상승 코인 영향, 원달러 환율 전망",
     "수요 신뢰도: medium_low - Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다."
   ],
   "fact_checks": [
@@ -118,11 +118,10 @@
     "CNBC Top News",
     "CoinDesk RSS",
     "Cointelegraph",
-    "Financial Times Home",
-    "Financial Times World"
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "cpi: 지금 투자자가 확인할 체크포인트 5가지"
+    "달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -185,8 +184,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 111.47,
-    "search_score": 111.47,
+    "total_score": 110.47,
+    "search_score": 110.47,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
@@ -204,11 +203,16 @@
     "투자",
     "경제",
     "시장해설",
-    "cpi"
+    "달러 인덱스 보는법"
   ],
-  "search_intent": "`cpi`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
+  "search_intent": "`달러 인덱스 보는법`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
   "monetization_goal": "새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
-  "reader_search_queries": [],
+  "reader_search_queries": [
+    "달러 인덱스 보는법",
+    "달러 강세 주식 영향",
+    "환율 상승 코인 영향",
+    "원달러 환율 전망"
+  ],
   "demand_confidence": "medium_low",
   "demand_confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다."
 }

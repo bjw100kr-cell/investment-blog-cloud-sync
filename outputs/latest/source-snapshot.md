@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-29T06:40:16.138430+00:00`
+- 생성 시각: `2026-08-29T16:38:38.703572+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -94,51 +94,49 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `fomc`: score 43, source_count 8, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: score 39, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `cpi`: score 26, source_count 8, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `treasury_yields`: score 12, source_count 4, sources CNBC Top News, CoinDesk RSS, Investing.com Crypto News, MarketWatch Breaking News
-- `oil`: score 10, source_count 3, sources CNBC Top News, Financial Times Home, NYT Business
-- `ai_semiconductors`: score 8, source_count 3, sources CoinDesk RSS, Financial Times YouTube, MarketWatch Breaking News
-- `us_big_tech`: score 8, source_count 2, sources CNBC Top News, MarketWatch Breaking News
-- `china`: score 5, source_count 2, sources Financial Times World, NYT Business
+- `bitcoin`: score 41, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 32, source_count 4, sources Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
+- `dollar`: score 16, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Reuters Markets via Google News RSS
+- `oil`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, NYT Business
+- `treasury_yields`: score 9, source_count 3, sources CNBC Top News, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 6, source_count 2, sources CoinDesk RSS, Financial Times YouTube
+- `cpi`: score 6, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
+- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
 - `ethereum`: score 4, source_count 1, sources CoinDesk RSS
-- `dollar`: score 3, source_count 1, sources Cointelegraph
+- `us_index_flow`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `fomc`: score 43, headlines 12
+- `bitcoin`: score 41, headlines 12
+  - Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing
+  - Swift’s $1.5 quadrillion network faces a blockchain test
+  - The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet
+- `fomc`: score 32, headlines 8
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `bitcoin`: score 39, headlines 12
-  - Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges
-  - Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives
-  - Ethena looks beyond crypto to squeeze yield from booming equity perpetuals
-- `cpi`: score 26, headlines 9
-  - Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation
-  - Solana validators approve proposal to accelerate SOL disinflation
-  - Bitcoin dips to $78.4K as Fed’s Warsh downplays softer inflation prints
-- `treasury_yields`: score 12, headlines 4
-  - Ethena looks beyond crypto to squeeze yield from booming equity perpetuals
-  - Bessent attacks Warren over yen intervention query, offers ‘Foreign Exchange for Dummies’ lesson
-  - altFINS Partners with BitPath Holdings to Launch Gen 2 Digital Asset Treasury Strategy Powered by AI Analytics
-- `oil`: score 10, headlines 4
+- `dollar`: score 16, headlines 5
+  - The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet
+  - Bullish provides USD.AI $100M stablecoin facility for GPU-backed lending
+  - Iran trade falls as Supreme Leader Khamenei urges less reliance on the U.S. dollar
+- `oil`: score 11, headlines 4
   - Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves
   - Trump says US to take control of 65bn barrels of Venezuelan oil
-  - Trump Says U.S. Has Deal for Control of Large Share of Venezuela’s Oil
-- `ai_semiconductors`: score 8, headlines 3
+  - Trump says US to take control of 65bn barrels of Venezuelan oil
+- `treasury_yields`: score 9, headlines 3
+  - Bessent attacks Warren over yen intervention query, offers ‘Foreign Exchange for Dummies’ lesson
+  - altFINS Partners with BitPath Holdings to Launch Gen 2 Digital Asset Treasury Strategy Powered by AI Analytics
+  - Stocks fall while dollar, bond yields rise as Warsh prompts rate hike bets - Reuters
+- `ai_semiconductors`: score 6, headlines 2
   - Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives
-  - Nvidia’s revenue forecast is so huge that Wall Street wonders if SpaceX is the reason
   - Silicon shadows: inside the black market for AI chips | FT Film
-- `us_big_tech`: score 8, headlines 3
-  - Meta’s $18 billion settlement puts TikTok and YouTube on notice. Who's next on the firing line?
-  - Apple hikes subscription prices for Apple TV and Apple One in the U.S.
-  - Microsoft’s stock seals its longest winning streak of the year as AI software fears fade
-- `china`: score 5, headlines 2
-  - ‘In a flash, everything was gone’: Nepal rushes to rescue flood survivors
-  - China Sees Opportunity in America’s Recent A.I. Security Scares
+- `cpi`: score 6, headlines 2
+  - Solana validators approve proposal to accelerate SOL disinflation
+  - Wall Street ends lower after Fed Chair Warsh reaffirms inflation fight - Reuters
+- `us_big_tech`: score 5, headlines 2
+  - Tech backlash reaches fever pitch as AI angst collides with social media fears
+  - Tim Cook wasn’t a ‘product guy’ — so he re-engineered Apple instead
 - `ethereum`: score 4, headlines 1
   - Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives
-- `dollar`: score 3, headlines 1
-  - Bullish provides USD.AI $100M stablecoin facility for GPU-backed lending
+- `china`: score 3, headlines 1
+  - ‘In a flash, everything was gone’: Nepal rushes to rescue flood survivors
