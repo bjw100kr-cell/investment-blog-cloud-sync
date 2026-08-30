@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000",
+    "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
     "A $1.1 million crypto card hack crashed a neobank's token 49%",
     "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
-    "Inside the high-stakes battle between digital dollars and Swift's massive money engine",
-    "The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet",
-    "Bitcoin wallets untouched for 10 years moved $40 million worth of coins"
+    "Inside the high-stakes battle between digital dollars and Swift's massive money engine"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

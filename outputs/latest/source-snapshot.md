@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-30T04:53:11.374943+00:00`
+- 생성 시각: `2026-08-30T16:33:46.717135+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -101,50 +101,46 @@ If you are sure that the described cause is not responsible for this error and t
 ## 상위 키워드
 
 - `bitcoin`: score 42, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 25, source_count 3, sources Federal Reserve Monetary Policy Press, NYT Business, Reuters Markets via Google News RSS
-- `treasury_yields`: score 14, source_count 5, sources Financial Times Home, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- `dollar`: score 13, source_count 3, sources CNBC Top News, CoinDesk RSS, Reuters Markets via Google News RSS
-- `oil`: score 11, source_count 3, sources CNBC Top News, Financial Times Home, NYT Business
-- `cpi`: score 8, source_count 3, sources Cointelegraph, NYT Business, Reuters Markets via Google News RSS
-- `us_big_tech`: score 8, source_count 2, sources CNBC Top News, MarketWatch Breaking News
-- `ai_semiconductors`: score 6, source_count 2, sources CoinDesk RSS, Financial Times YouTube
-- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
-- `us_index_flow`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `fomc`: score 28, source_count 4, sources Federal Reserve Monetary Policy Press, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- `treasury_yields`: score 17, source_count 5, sources CoinDesk RSS, Financial Times Home, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- `dollar`: score 12, source_count 3, sources CoinDesk RSS, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `oil`: score 11, source_count 3, sources Financial Times Home, Financial Times World, NYT Business
+- `tariffs_trade`: score 6, source_count 1, sources CNBC Top News
+- `us_big_tech`: score 3, source_count 1, sources CNBC Top News
+- `us_index_flow`: score 2, source_count 1, sources MarketWatch Breaking News
+- `ai_semiconductors`: score 2, source_count 1, sources Financial Times YouTube
+- `cpi`: score 2, source_count 1, sources NYT Business
 
 ## 오늘의 글감 후보
 
 - `bitcoin`: score 42, headlines 12
+  - Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000
+  - Crypto market makers are cashing in on bitcoin's rally - without betting on direction
   - A $1.1 million crypto card hack crashed a neobank's token 49%
-  - Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing
-  - Inside the high-stakes battle between digital dollars and Swift's massive money engine
-- `fomc`: score 25, headlines 6
+- `fomc`: score 28, headlines 7
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 14, headlines 5
+- `treasury_yields`: score 17, headlines 6
+  - Crypto market makers are cashing in on bitcoin's rally - without betting on direction
   - altFINS Partners with BitPath Holdings to Launch Gen 2 Digital Asset Treasury Strategy Powered by AI Analytics
   - Rising bond yields add tens of billions to G7 countries’ debt costs
-  - Stocks fall while dollar, bond yields rise as Warsh prompts rate hike bets - Reuters
-- `dollar`: score 13, headlines 4
+- `dollar`: score 12, headlines 4
   - The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet
-  - Iran trade falls as Supreme Leader Khamenei urges less reliance on the U.S. dollar
   - Dollar jumps after Warsh comments, set for weekly gain - Reuters
+  - Stocks fall while dollar, bond yields rise as Warsh prompts rate hike bets - Reuters
 - `oil`: score 11, headlines 4
-  - Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves
+  - Controversial Venezuelan executive courts investors after Trump oil deal
   - US oil deal denounced by both sides of Venezuelan politics
-  - ‘SmashCos’: Europe’s oil majors create new generation of independent companies
-- `cpi`: score 8, headlines 3
-  - Solana validators approve proposal to accelerate SOL disinflation
-  - Wall Street ends lower after Fed Chair Warsh reaffirms inflation fight - Reuters
-  - Warsh, After Talking Tough on Inflation, Faces a ‘No-Win Situation’ on Rates
-- `us_big_tech`: score 8, headlines 3
-  - Tech backlash reaches fever pitch as AI angst collides with social media fears
-  - Meta’s $18 billion settlement puts TikTok and YouTube on notice. Who's next on the firing line?
-  - Tim Cook wasn’t a ‘product guy’ — so he re-engineered Apple instead
-- `ai_semiconductors`: score 6, headlines 2
-  - Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives
+  - Controversial Venezuelan executive courts investors after Trump oil deal
+- `tariffs_trade`: score 6, headlines 2
+  - The 'choose your own adventure' earnings: Why retailers are handling tariff refunds so differently
+  - What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals
+- `us_big_tech`: score 3, headlines 1
+  - He beat Big Tobacco. Will the same playbook work against Meta and social media?
+- `ai_semiconductors`: score 2, headlines 1
   - Silicon shadows: inside the black market for AI chips | FT Film
-- `ethereum`: score 4, headlines 1
-  - Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives
-- `us_index_flow`: score 3, headlines 1
-  - Wall St Week Ahead Jobs report, Broadcom results pose next hurdles for stock market rally - Reuters
+- `cpi`: score 2, headlines 1
+  - Warsh, After Talking Tough on Inflation, Faces a ‘No-Win Situation’ on Rates
+- `us_index_flow`: score 2, headlines 1
+  - These charts show how leverage-happy investors are transforming the stock market

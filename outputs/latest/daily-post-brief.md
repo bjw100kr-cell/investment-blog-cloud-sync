@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-08-30T04:53:11.374943+00:00`
+- 생성 시각: `2026-08-30T16:33:46.717135+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -10,8 +10,8 @@
 - 브랜드 레인: `macro` (거시경제)
 - 총점: `94.0`
 - 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press, NYT Business, Reuters Markets via Google News RSS
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 소스: Federal Reserve Monetary Policy Press, Financial Times World, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,7 +27,7 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Wall Street ends lower after Fed Chair Warsh reaffirms inflation fight - Reuters
+  - Gulf stocks fall as Fed rate-hike bets rise after Warsh remarks - Reuters
 
 ## 2. bitcoin
 
@@ -48,24 +48,24 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000
+  - Crypto market makers are cashing in on bitcoin's rally - without betting on direction
   - A $1.1 million crypto card hack crashed a neobank's token 49%
   - Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing
   - Inside the high-stakes battle between digital dollars and Swift's massive money engine
-  - The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet
-  - Bitcoin wallets untouched for 10 years moved $40 million worth of coins
 
-## 3. us_big_tech
+## 3. us_index_flow
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `61.0`
-- 점수 구성: 검색성 10 / 시의성 13 / 설명가치 16 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: CNBC Top News, MarketWatch Breaking News
+- 총점: `48.0`
+- 점수 구성: 검색성 3 / 시의성 5 / 설명가치 18 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: MarketWatch Breaking News
 - 제목 후보:
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -73,18 +73,38 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Tech backlash reaches fever pitch as AI angst collides with social media fears
-  - Meta’s $18 billion settlement puts TikTok and YouTube on notice. Who's next on the firing line?
-  - Tim Cook wasn’t a ‘product guy’ — so he re-engineered Apple instead
+  - These charts show how leverage-happy investors are transforming the stock market
 
-## 4. treasury_yields
+## 4. tariffs_trade
+
+- 카테고리: `global-sector`
+- 브랜드 레인: `world-flow` (세계 흐름)
+- 총점: `52.0`
+- 점수 구성: 검색성 6 / 시의성 8 / 설명가치 18 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News
+- 제목 후보:
+  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유
+  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- 글 구조:
+  - 왜 지금 이 이슈가 중요한가
+  - 실제로 발표되거나 벌어진 일
+  - 주식·코인·달러·금리에 주는 영향
+  - 앞으로 체크할 변수
+  - 개인 투자자가 볼 포인트
+- 참고 헤드라인:
+  - The 'choose your own adventure' earnings: Why retailers are handling tariff refunds so differently
+  - What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals
+
+## 5. treasury_yields
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `80.0`
-- 점수 구성: 검색성 18 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `81.0`
+- 점수 구성: 검색성 20 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- 소스: Financial Times Home, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- 소스: CoinDesk RSS, Financial Times Home, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
@@ -96,30 +116,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
+  - Crypto market makers are cashing in on bitcoin's rally - without betting on direction
   - altFINS Partners with BitPath Holdings to Launch Gen 2 Digital Asset Treasury Strategy Powered by AI Analytics
   - Rising bond yields add tens of billions to G7 countries’ debt costs
   - Stocks fall while dollar, bond yields rise as Warsh prompts rate hike bets - Reuters
-  - Rising bond yields add tens of billions to G7 countries’ debt costs
-  - Treasury Bars Some Reporters From G20 Finance Meeting
-
-## 5. ai_semiconductors
-
-- 카테고리: `global-sector`
-- 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `53.0`
-- 점수 구성: 검색성 8 / 시의성 7 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CoinDesk RSS, Financial Times YouTube
-- 제목 후보:
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기
-- 글 구조:
-  - 지금 이 섹터가 왜 움직이는가
-  - 핵심 뉴스와 시장 반응
-  - 대표 종목과 자금 흐름
-  - 거시 변수와 연결
-  - 다음 실적/정책 이벤트
-- 참고 헤드라인:
-  - Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives
-  - Silicon shadows: inside the black market for AI chips | FT Film
+  - U.A.E. To Review Banque Misr, Targeted by Iran Sanctions
