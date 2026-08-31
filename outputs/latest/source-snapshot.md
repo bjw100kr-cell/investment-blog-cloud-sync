@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-30T16:33:46.717135+00:00`
+- 생성 시각: `2026-08-31T04:56:48.778387+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -100,47 +100,47 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 42, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 28, source_count 4, sources Federal Reserve Monetary Policy Press, Financial Times World, NYT Business, Reuters Markets via Google News RSS
-- `treasury_yields`: score 17, source_count 5, sources CoinDesk RSS, Financial Times Home, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- `dollar`: score 12, source_count 3, sources CoinDesk RSS, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `oil`: score 11, source_count 3, sources Financial Times Home, Financial Times World, NYT Business
-- `tariffs_trade`: score 6, source_count 1, sources CNBC Top News
-- `us_big_tech`: score 3, source_count 1, sources CNBC Top News
-- `us_index_flow`: score 2, source_count 1, sources MarketWatch Breaking News
+- `bitcoin`: score 58, source_count 4, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News
+- `oil`: score 27, source_count 6, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 25, source_count 3, sources CNBC Top News, Federal Reserve Monetary Policy Press, NYT Business
+- `treasury_yields`: score 20, source_count 5, sources CNBC Top News, CoinDesk RSS, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- `dollar`: score 13, source_count 4, sources CoinDesk RSS, Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
+- `us_big_tech`: score 9, source_count 3, sources CNBC Top News, Financial Times Home, Financial Times World
+- `china`: score 6, source_count 1, sources CNBC Top News
+- `cpi`: score 5, source_count 2, sources Cointelegraph, NYT Business
 - `ai_semiconductors`: score 2, source_count 1, sources Financial Times YouTube
-- `cpi`: score 2, source_count 1, sources NYT Business
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 42, headlines 12
-  - Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000
+- `bitcoin`: score 58, headlines 17
+  - Bitcoin barely blinks as U.S. hits Iran, sending oil higher and stocks lower
+  - Michael Saylor hints at first bitcoin purchase in two months
   - Crypto market makers are cashing in on bitcoin's rally - without betting on direction
-  - A $1.1 million crypto card hack crashed a neobank's token 49%
-- `fomc`: score 28, headlines 7
+- `oil`: score 27, headlines 9
+  - Bitcoin barely blinks as U.S. hits Iran, sending oil higher and stocks lower
+  - Trump threatens to blow up Iran's Kharg Island oil hub as hostilities escalate once again
+  - Oil rises over 1% after U.S. forces strike two Iranian rocket launchers on Larak Island
+- `fomc`: score 25, headlines 6
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 17, headlines 6
+- `treasury_yields`: score 20, headlines 7
   - Crypto market makers are cashing in on bitcoin's rally - without betting on direction
-  - altFINS Partners with BitPath Holdings to Launch Gen 2 Digital Asset Treasury Strategy Powered by AI Analytics
-  - Rising bond yields add tens of billions to G7 countries’ debt costs
-- `dollar`: score 12, headlines 4
+  - Jackson Hole analyst roundup: Warsh's speech sends hike chances higher, may put Fed `at odds' with Treasury
+  - Trump criticizes NBC over election comment as Treasury denies some NYT, WSJ and Bloomberg reporters G20 credentials
+- `dollar`: score 13, headlines 4
   - The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet
-  - Dollar jumps after Warsh comments, set for weekly gain - Reuters
-  - Stocks fall while dollar, bond yields rise as Warsh prompts rate hike bets - Reuters
-- `oil`: score 11, headlines 4
-  - Controversial Venezuelan executive courts investors after Trump oil deal
-  - US oil deal denounced by both sides of Venezuelan politics
-  - Controversial Venezuelan executive courts investors after Trump oil deal
-- `tariffs_trade`: score 6, headlines 2
-  - The 'choose your own adventure' earnings: Why retailers are handling tariff refunds so differently
-  - What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals
-- `us_big_tech`: score 3, headlines 1
+  - Will financial innovation dethrone the dollar?
+  - Dollar near two-week high as Warsh boosts rate-hike bets; yen slips past 160 - Reuters
+- `us_big_tech`: score 9, headlines 3
   - He beat Big Tobacco. Will the same playbook work against Meta and social media?
+  - Tim Cook’s legacy by the numbers
+  - Tim Cook’s legacy by the numbers
+- `china`: score 6, headlines 2
+  - BYD shares slide as fierce China competition dents first-half earnings
+  - China's factory activity shrinks for second straight month, contracting less than expected
+- `cpi`: score 5, headlines 2
+  - Bitcoin’s new quantum defenses, 18.9M SOL cancelled: Hodler’s Digest
+  - Warsh, After Talking Tough on Inflation, Faces a ‘No-Win Situation’ on Rates
 - `ai_semiconductors`: score 2, headlines 1
   - Silicon shadows: inside the black market for AI chips | FT Film
-- `cpi`: score 2, headlines 1
-  - Warsh, After Talking Tough on Inflation, Faces a ‘No-Win Situation’ on Rates
-- `us_index_flow`: score 2, headlines 1
-  - These charts show how leverage-happy investors are transforming the stock market

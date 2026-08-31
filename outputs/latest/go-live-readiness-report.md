@@ -27,8 +27,8 @@
 
 - ready posts: `4`
 - first draft upload target: `bitcoin`
-- first draft upload target: `tariffs_trade`
-- first draft upload target: `us_index_flow`
+- first draft upload target: `us_big_tech`
+- first draft upload target: `china`
 
 ## Automated Channels
 

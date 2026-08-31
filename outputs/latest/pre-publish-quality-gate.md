@@ -68,12 +68,12 @@
 - fail / `low` / `newsletter_ready`: 뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다.
 - fail / `low` / `ga4_ready`: GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다.
 
-## 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+## 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
-- keyword: `us_index_flow`
+- keyword: `us_big_tech`
 - source_group: `main`
 - status: `review_before_publish`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -94,12 +94,12 @@
 - fail / `low` / `newsletter_ready`: 뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다.
 - fail / `low` / `ga4_ready`: GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다.
 
-## 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+## 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 
-- keyword: `tariffs_trade`
+- keyword: `china`
 - source_group: `main`
 - status: `review_before_publish`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -122,7 +122,7 @@
 
 ## 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지
 
-- keyword: `seo_treasury_yields_7`
+- keyword: `seo_treasury_yields_8`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국채-금리-상승-이유-지금-투자자가-확인할-체크포인트-5가지.html`
@@ -146,12 +146,12 @@
 - fail / `low` / `newsletter_ready`: 뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다.
 - fail / `low` / `ga4_ready`: GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다.
 
-## 달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지
+## 미국 빅테크 주식 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_dollar_8`
+- keyword: `seo_us_big_tech_9`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-달러-인덱스-보는법-지금-투자자가-확인할-체크포인트-5가지.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-미국-빅테크-주식-관련-대표-종목-한눈에-보기.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -172,12 +172,12 @@
 - fail / `low` / `newsletter_ready`: 뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다.
 - fail / `low` / `ga4_ready`: GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다.
 
-## 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기
+## 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_tariffs_trade_9`
+- keyword: `seo_china_12`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-관련-대표-종목-한눈에-보기.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -198,12 +198,12 @@
 - fail / `low` / `newsletter_ready`: 뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다.
 - fail / `low` / `ga4_ready`: GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다.
 
-## 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나
+## 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 
-- keyword: `seo_tariffs_trade_10`
+- keyword: `seo_china_13`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-공급망-정리-누가-수혜를-보나.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.
@@ -224,12 +224,12 @@
 - fail / `low` / `newsletter_ready`: 뉴스레터 구독 동선은 재방문과 수익화 확장에 도움이 됩니다.
 - fail / `low` / `ga4_ready`: GA4가 있어야 실제 체류/유입 성과를 계량적으로 볼 수 있습니다.
 
-## 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 정리
+## 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 
-- keyword: `seo_tariffs_trade_12`
+- keyword: `seo_china_14`
 - source_group: `seo`
 - status: `pass`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-etf-지수-대표-기업-정리.html`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/05-중국-변수와-시장-영향-etf-지수-대표-기업-정리.html`
 - ok / `high` / `meta_description_present`: 메타 설명이 비어 있으면 검색 클릭률에 직접 악영향을 줄 수 있습니다.
 - ok / `high` / `author_box_present`: 작성 정보와 운영 주체가 노출되어야 신뢰 신호가 유지됩니다.
 - ok / `high` / `publish_date_present`: 발행 기준일이 있어야 시의성과 업데이트 신호를 확인하기 쉽습니다.

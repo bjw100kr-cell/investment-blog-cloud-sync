@@ -1,39 +1,50 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-08-30T16:33:50.700599+00:00`
-- snapshot_generated_at: `2026-08-30T16:33:46.717135+00:00`
+- generated_at: `2026-08-31T04:56:52.533435+00:00`
+- snapshot_generated_at: `2026-08-31T04:56:48.778387+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
-- counts: fresh `1` / aging `0` / stale `1` / unknown `0`
+- counts: fresh `3` / aging `0` / stale `0` / unknown `0`
 
-## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+## 1. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
-- keyword: `fomc`
-- freshness_status: `stale`
-- newest_evidence_age_days: `10.9`
-- newest_evidence_iso: `2026-08-19T18:00:00+00:00`
-- quality_status: `pass` / ready_now `True`
-- summary: 핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement
-- recommendation: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
-- recovery_mode: `full_refresh_needed`
-- recovery_summary: 현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.
-- recovery_command: `bash scripts/run_pipeline.sh`
-- evidence: Federal Reserve Monetary Policy Press / 2026-07-29T18:00:00+00:00 / Federal Reserve issues FOMC statement
-- evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve issues FOMC statement
-- evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+- keyword: `us_big_tech`
+- freshness_status: `fresh`
+- newest_evidence_age_days: `0.5`
+- newest_evidence_iso: `2026-08-30T15:48:10+00:00`
+- quality_status: `review_before_publish` / ready_now `False`
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: He beat Big Tobacco. Will the same playbook work against Meta and social media?
+- recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
+- recovery_mode: `publish_direct`
+- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
+- evidence: CNBC Top News / 2026-08-30T15:48:10+00:00 / He beat Big Tobacco. Will the same playbook work against Meta and social media?
 
 ## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - freshness_status: `fresh`
 - newest_evidence_age_days: `0.0`
-- newest_evidence_iso: `2026-08-30T15:39:55+00:00`
+- newest_evidence_iso: `2026-08-31T04:29:10+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin barely blinks as U.S. hits Iran, sending oil higher and stocks lower
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: CoinDesk RSS / 2026-08-30T15:39:55+00:00 / Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000
-- evidence: CoinDesk RSS / 2026-08-30T12:00:00+00:00 / Crypto market makers are cashing in on bitcoin's rally - without betting on direction
-- evidence: Investing.com Crypto News / 2026-08-30 08:56:50 / Bitcoin hovers near $78,000 as global ETFs access shapes next adoption wave
+- evidence: CoinDesk RSS / 2026-08-31T04:29:10+00:00 / Bitcoin barely blinks as U.S. hits Iran, sending oil higher and stocks lower
+- evidence: Cointelegraph / 2026-08-30T23:36:16+00:00 / Bitcoin’s new quantum defenses, 18.9M SOL cancelled: Hodler’s Digest
+- evidence: Cointelegraph / 2026-08-30T17:59:00+00:00 / Saylor signals Strategy is ‘Back’ to Bitcoin buying
+
+## 3. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+
+- keyword: `china`
+- freshness_status: `fresh`
+- newest_evidence_age_days: `0.0`
+- newest_evidence_iso: `2026-08-31T04:01:47+00:00`
+- quality_status: `review_before_publish` / ready_now `False`
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: BYD shares slide as fierce China competition dents first-half earnings
+- recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
+- recovery_mode: `publish_direct`
+- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
+- evidence: CNBC Top News / 2026-08-31T04:01:47+00:00 / BYD shares slide as fierce China competition dents first-half earnings
+- evidence: CNBC Top News / 2026-08-31T03:15:01+00:00 / China's factory activity shrinks for second straight month, contracting less than expected

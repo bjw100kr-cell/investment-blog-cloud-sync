@@ -7,9 +7,9 @@
 
 ## 200명 목표를 위한 오늘의 글 경로
 
-1. `fomc` FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 예상 `95`명 / 수요 `4000` / 품질 `pass`
+1. `fomc` FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 예상 `95`명 / 수요 `3700` / 품질 `pass`
    - action: 금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결
-2. `bitcoin` 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 예상 `95`명 / 수요 `5400` / 품질 `pass`
+2. `bitcoin` 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 예상 `95`명 / 수요 `7000` / 품질 `pass`
    - action: 코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행
 
 ## 병목
@@ -30,5 +30,5 @@
 - `fomc` lane `macro` / 예상 `95`명 / ready `True` / quality `pass`
 - `bitcoin` lane `crypto` / 예상 `95`명 / ready `True` / quality `pass`
 - `treasury_yields` lane `macro` / 예상 `0`명 / ready `False` / quality `unknown`
-- `tariffs_trade` lane `world-flow` / 예상 `0`명 / ready `True` / quality `review_before_publish`
-- `us_index_flow` lane `us-stocks` / 예상 `0`명 / ready `True` / quality `review_before_publish`
+- `us_big_tech` lane `us-stocks` / 예상 `0`명 / ready `True` / quality `review_before_publish`
+- `china` lane `world-flow` / 예상 `0`명 / ready `True` / quality `review_before_publish`
