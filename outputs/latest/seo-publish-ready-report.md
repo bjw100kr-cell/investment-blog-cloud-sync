@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-08-31T04:56:51.364366+00:00`
+- generated_at: `2026-08-31T19:05:07.074418+00:00`
 
 ## seo_treasury_yields_8
 
@@ -20,7 +20,7 @@
 - meta_description: 미국 빅테크 주식 관련 대표 종목 한눈에 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 2
 
-## seo_china_12
+## seo_china_11
 
 - ready: True
 - reason: ok

@@ -1,8 +1,63 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
   "cards": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "publish_date": "2026-08-31",
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "ready_now": true,
+      "hero_image_selected": true,
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+      ],
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
+      "hard_blocking_checks": []
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -11,36 +66,36 @@
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Bitcoin barely blinks as U.S. hits Iran, sending oil higher and stocks lower",
-        "Michael Saylor hints at first bitcoin purchase in two months",
-        "Crypto market makers are cashing in on bitcoin's rally - without betting on direction"
+        "Ireland bars crypto from new tax-advantaged investment accounts",
+        "Bitmine makes largest ether purchase since June as Tom Lee points to crypto's strong Q3",
+        "Strategy returns to bitcoin buys, adding $370 million of BTC last week"
       ],
       "recent_evidence": [
         {
-          "title": "Bitcoin barely blinks as U.S. hits Iran, sending oil higher and stocks lower",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 31 Aug 2026 04:29:10 +0000",
-          "published_iso": "2026-08-31T04:29:10+00:00",
-          "link": "https://www.coindesk.com/markets/2026/08/31/bitcoin-barely-blinks-as-u-s-hits-iran-sending-oil-higher-and-stocks-lower",
+          "title": "Bitcoin begins volatile monthly close as US bond yields eye new 20-year high",
+          "source_name": "Cointelegraph",
+          "published": "Mon, 31 Aug 2026 16:38:51 +0000",
+          "published_iso": "2026-08-31T16:38:51+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-begins-volatile-monthly-close-as-us-bond-yields-eye-new-20-year-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin’s new quantum defenses, 18.9M SOL cancelled: Hodler’s Digest",
+          "title": "Strive buys 1,800 Bitcoin for $143M, becomes fifth-biggest corporate holder",
           "source_name": "Cointelegraph",
-          "published": "Sun, 30 Aug 2026 23:36:16 +0000",
-          "published_iso": "2026-08-30T23:36:16+00:00",
-          "link": "https://cointelegraph.com/magazine/bitcoins-new-quantum-defenses-189m-sol-cancelled-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Mon, 31 Aug 2026 15:08:12 +0000",
+          "published_iso": "2026-08-31T15:08:12+00:00",
+          "link": "https://cointelegraph.com/news/strive-buys-1800-bitcoin-143m-btc-purchase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Saylor signals Strategy is ‘Back’ to Bitcoin buying",
+          "title": "Mystery surrounds why an OG burned $1M in Bitcoin",
           "source_name": "Cointelegraph",
-          "published": "Sun, 30 Aug 2026 17:59:00 +0000",
-          "published_iso": "2026-08-30T17:59:00+00:00",
-          "link": "https://cointelegraph.com/news/saylor-signals-strategy-is-back-to-bitcoin-buying?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Mon, 31 Aug 2026 13:30:00 +0000",
+          "published_iso": "2026-08-31T13:30:00+00:00",
+          "link": "https://cointelegraph.com/magazine/mystery-surrounds-why-an-og-burned-1m-in-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ],
@@ -63,29 +118,46 @@
       "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
       "publish_date": "2026-09-02",
       "review_verdict": "approve",
-      "quality_status": "review_before_publish",
-      "ready_now": false,
+      "quality_status": "pass",
+      "ready_now": true,
       "hero_image_selected": true,
       "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "He beat Big Tobacco. Will the same playbook work against Meta and social media?",
-        "Tim Cook’s legacy by the numbers"
+        "FTC sues Amazon, accusing the e-commerce giant of misleading advertisers",
+        "Tim Cook’s Apple legacy by the numbers",
+        "Tesla’s stock is leading S&P 500 gainers as investors prepare for a Cybercab launch"
       ],
       "recent_evidence": [
         {
-          "title": "He beat Big Tobacco. Will the same playbook work against Meta and social media?",
+          "title": "FTC sues Amazon, accusing the e-commerce giant of misleading advertisers",
           "source_name": "CNBC Top News",
-          "published": "Sun, 30 Aug 2026 15:48:10 GMT",
-          "published_iso": "2026-08-30T15:48:10+00:00",
-          "link": "https://www.cnbc.com/2026/08/30/mike-moore-ag-social-media-settlement-big-tobacco.html",
+          "published": "Mon, 31 Aug 2026 19:02:09 GMT",
+          "published_iso": "2026-08-31T19:02:09+00:00",
+          "link": "https://www.cnbc.com/2026/08/31/amazon-ftc-lawsuit-advertisers.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Tesla’s stock is leading S&P 500 gainers as investors prepare for a Cybercab launch",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Mon, 31 Aug 2026 18:41:00 GMT",
+          "published_iso": "2026-08-31T18:41:00+00:00",
+          "link": "https://www.marketwatch.com/story/teslas-stock-is-leading-s-p-500-gainers-as-investors-prepare-for-a-cybercab-launch-f23a0d52?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
+          "title": "Meta’s stock looks too cheap, analysts say. Why it’s now set up for a Google-style rally.",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Mon, 31 Aug 2026 18:12:00 GMT",
+          "published_iso": "2026-08-31T18:12:00+00:00",
+          "link": "https://www.marketwatch.com/story/metas-stock-looks-too-cheap-analysts-say-why-its-now-set-up-for-a-google-style-rally-1935f056?mod=mw_rss_topstories",
           "source_type": "rss"
         }
       ],
       "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-big-tech.md",
       "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-%EB%AF%B8%EA%B5%AD-%EB%B9%85%ED%85%8C%ED%81%AC-%EC%A3%BC%EA%B0%80%EA%B0%80-%ED%9D%94%EB%93%A4%EB%A6%B4-%EB%95%8C-%ED%99%95%EC%9D%B8%ED%95%A0-%EA%B2%83-%EC%8B%A4%EC%A0%81-%EA%B8%88%EB%A6%AC-ai-%ED%88%AC%EC%9E%90.html",
       "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
-      "next_action": "사용자 최종 확인 후 업로드",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
       "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
       "followup_commands": [
         "python3 scripts/build_platform_publish_plan.py",
@@ -94,52 +166,6 @@
       ],
       "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech",
       "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply",
-      "hard_blocking_checks": []
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "publish_date": "2026-09-03",
-      "review_verdict": "approve",
-      "quality_status": "review_before_publish",
-      "ready_now": false,
-      "hero_image_selected": true,
-      "reason": "섹터/세계 흐름 연결 해설 가능",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "BYD shares slide as fierce China competition dents first-half earnings",
-        "China's factory activity shrinks for second straight month, contracting less than expected"
-      ],
-      "recent_evidence": [
-        {
-          "title": "BYD shares slide as fierce China competition dents first-half earnings",
-          "source_name": "CNBC Top News",
-          "published": "Mon, 31 Aug 2026 04:01:47 GMT",
-          "published_iso": "2026-08-31T04:01:47+00:00",
-          "link": "https://www.cnbc.com/2026/08/31/byd-shares-slide-as-fierce-china-competition-dents-first-half-earnings.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "China's factory activity shrinks for second straight month, contracting less than expected",
-          "source_name": "CNBC Top News",
-          "published": "Mon, 31 Aug 2026 03:15:01 GMT",
-          "published_iso": "2026-08-31T03:15:01+00:00",
-          "link": "https://www.cnbc.com/2026/08/31/china-pmi-august-economy-slowdown.html",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
-      "next_action": "사용자 최종 확인 후 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
       "hard_blocking_checks": []
     }
   ]

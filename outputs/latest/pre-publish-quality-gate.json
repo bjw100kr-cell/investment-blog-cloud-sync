@@ -1,8 +1,8 @@
 {
   "summary": {
     "item_count": 9,
-    "pass_count": 7,
-    "review_before_publish_count": 2,
+    "pass_count": 9,
+    "review_before_publish_count": 0,
     "needs_fix_count": 0
   },
   "items": [
@@ -273,7 +273,7 @@
     {
       "keyword": "us_big_tech",
       "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-      "status": "review_before_publish",
+      "status": "pass",
       "checklist_reference": [
         "제목과 메타 설명이 검색 의도와 맞는지 점검",
         "첫 문단에서 왜 지금 읽어야 하는지 말했는지 점검",
@@ -351,7 +351,7 @@
         },
         {
           "name": "follow_up_posts_present",
-          "ok": false,
+          "ok": true,
           "severity": "medium",
           "detail": "후속 글 연결이 있어야 검색 유입이 사이트 내 순환으로 이어집니다."
         },
@@ -405,7 +405,7 @@
     {
       "keyword": "china",
       "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "status": "review_before_publish",
+      "status": "pass",
       "checklist_reference": [
         "제목과 메타 설명이 검색 의도와 맞는지 점검",
         "첫 문단에서 왜 지금 읽어야 하는지 말했는지 점검",
@@ -483,7 +483,7 @@
         },
         {
           "name": "follow_up_posts_present",
-          "ok": false,
+          "ok": true,
           "severity": "medium",
           "detail": "후속 글 연결이 있어야 검색 유입이 사이트 내 순환으로 이어집니다."
         },
@@ -799,7 +799,7 @@
       "source_group": "seo"
     },
     {
-      "keyword": "seo_china_12",
+      "keyword": "seo_china_11",
       "title": "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
       "status": "pass",
       "checklist_reference": [

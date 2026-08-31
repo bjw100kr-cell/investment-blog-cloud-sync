@@ -110,12 +110,13 @@
   "source_names": [
     "CNBC Top News",
     "Financial Times Home",
-    "Financial Times World"
+    "MarketWatch Breaking News"
   ],
   "reference_headlines": [
-    "He beat Big Tobacco. Will the same playbook work against Meta and social media?",
-    "Tim Cook’s legacy by the numbers",
-    "Tim Cook’s legacy by the numbers"
+    "FTC sues Amazon, accusing the e-commerce giant of misleading advertisers",
+    "Tim Cook’s Apple legacy by the numbers",
+    "Tesla’s stock is leading S&P 500 gainers as investors prepare for a Cybercab launch",
+    "Meta’s stock looks too cheap, analysts say. Why it’s now set up for a Google-style rally."
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -178,9 +179,9 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 66.0,
-    "search_score": 13,
-    "timeliness_score": 15,
+    "total_score": 70.0,
+    "search_score": 14,
+    "timeliness_score": 18,
     "explanatory_score": 16,
     "monetization_score": 15,
     "risk_score": 7

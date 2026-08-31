@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-08-31T04:56:48.778387+00:00`
+- 생성 시각: `2026-08-31T19:05:03.898540+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 점수: 94.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 점수: 91.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,13 +70,13 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Jackson Hole analyst roundup: Warsh's speech sends hike chances higher, may put Fed `at odds' with Treasury
+  - Barclays sees two more Fed rate hikes this year after Warsh speech - Reuters
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 점수: 85.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 점수: 83.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bitcoin barely blinks as U.S. hits Iran, sending oil higher and stocks lower
-  - Michael Saylor hints at first bitcoin purchase in two months
-  - Crypto market makers are cashing in on bitcoin's rally - without betting on direction
-  - A $1.1 million crypto card hack crashed a neobank's token 49%
-  - Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing
+  - Ireland bars crypto from new tax-advantaged investment accounts
+  - Bitmine makes largest ether purchase since June as Tom Lee points to crypto's strong Q3
+  - Strategy returns to bitcoin buys, adding $370 million of BTC last week
+  - Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report
+  - Here's 1 metric on U.S. debt that makes bitcoin's bull case look stronger than ever
 
 ## 3. us_big_tech
 
 - 추천 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 - 각도: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 66.0
+- 점수: 70.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,15 +206,16 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - He beat Big Tobacco. Will the same playbook work against Meta and social media?
-  - Tim Cook’s legacy by the numbers
-  - Tim Cook’s legacy by the numbers
+  - FTC sues Amazon, accusing the e-commerce giant of misleading advertisers
+  - Tim Cook’s Apple legacy by the numbers
+  - Tesla’s stock is leading S&P 500 gainers as investors prepare for a Cybercab launch
+  - Meta’s stock looks too cheap, analysts say. Why it’s now set up for a Google-style rally.
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 섹터/세계 흐름 연결 해설 가능
-- 점수: 50.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 65.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -274,5 +275,6 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - BYD shares slide as fierce China competition dents first-half earnings
-  - China's factory activity shrinks for second straight month, contracting less than expected
+  - Trump says U.S. communities opposing AI data centers could end up 'backwards and poor'
+  - China reins in rising yuan as weak domestic demand clouds outlook - Reuters
+  - G20 Finance Officials Gather in U.S. as Iran War Grips Global Economy
