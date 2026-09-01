@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-08-31T19:05:03.898540+00:00`
+- 생성 시각: `2026-09-01T04:35:52.896225+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,52 +106,49 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 59, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `oil`: score 24, source_count 5, sources CNBC Top News, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `treasury_yields`: score 18, source_count 3, sources CNBC Top News, Cointelegraph, Reuters Markets via Google News RSS
-- `ethereum`: score 11, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `us_big_tech`: score 10, source_count 3, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News
-- `china`: score 8, source_count 3, sources CNBC Top News, NYT Business, Reuters Markets via Google News RSS
-- `cpi`: score 8, source_count 3, sources CNBC Top News, NYT Business, Reuters Markets via Google News RSS
-- `dollar`: score 3, source_count 1, sources Cointelegraph
-- `tariffs_trade`: score 3, source_count 1, sources Financial Times World
+- `bitcoin`: score 55, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `oil`: score 26, source_count 4, sources CNBC Top News, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 24, source_count 2, sources CoinDesk RSS, Federal Reserve Monetary Policy Press
+- `treasury_yields`: score 15, source_count 4, sources CNBC Top News, Cointelegraph, Financial Times Home, Reuters Markets via Google News RSS
+- `us_big_tech`: score 10, source_count 3, sources Financial Times Home, Financial Times World, MarketWatch Breaking News
+- `us_index_flow`: score 6, source_count 1, sources MarketWatch Breaking News
+- `cpi`: score 6, source_count 1, sources Financial Times World
+- `ethereum`: score 3, source_count 1, sources Cointelegraph
+- `tariffs_trade`: score 3, source_count 1, sources CNBC Top News
+- `ai_semiconductors`: score 2, source_count 1, sources Financial Times YouTube
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 59, headlines 18
+- `bitcoin`: score 55, headlines 17
+  - Bitcoin steady above $78,000, HYPE leads as majors slip on hawkish Fed bets
+  - North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform
   - Ireland bars crypto from new tax-advantaged investment accounts
-  - Bitmine makes largest ether purchase since June as Tom Lee points to crypto's strong Q3
-  - Strategy returns to bitcoin buys, adding $370 million of BTC last week
-- `oil`: score 24, headlines 9
-  - Trump announced a massive oil deal with Venezuela. Why it won't lower gas prices anytime soon
-  - Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up
-  - Wall Street dips as spiking crude prices revive fears of inflation, rate hike - Reuters
-- `fomc`: score 23, headlines 5
+- `oil`: score 26, headlines 9
+  - Venezuela grants U.S.-backed oil firm NABEP 100-year concessions for 17 oil fields, White House says
+  - Tanker struck in Hormuz, raising worries over escalation, as Trump vows to hit Iran 'hard'
+  - Indian PM Modi implores Putin to end Ukraine war amid U.S. tariff threat on Russian oil
+- `fomc`: score 24, headlines 5
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 18, headlines 6
+- `treasury_yields`: score 15, headlines 5
   - Bitcoin begins volatile monthly close as US bond yields eye new 20-year high
-  - Metaplanet moves 4,800 BTC worth $377M to Coinbase
-  - Bessent pushes back on Druckenmiller critique of bond intervention
-- `ethereum`: score 11, headlines 3
-  - Robinhood Chain beats Ethereum in daily revenue as memecoin trading takes over
-  - Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report
-  - Bitmine now controls 4.9% of Ethereum supply after adding 53.5K ETH
+  - Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up
+  - Japan’s benchmark bond yield hits 3% for first time since 1996
 - `us_big_tech`: score 10, headlines 4
-  - FTC sues Amazon, accusing the e-commerce giant of misleading advertisers
-  - Tim Cook’s Apple legacy by the numbers
-  - Tesla’s stock is leading S&P 500 gainers as investors prepare for a Cybercab launch
-- `china`: score 8, headlines 3
-  - Trump says U.S. communities opposing AI data centers could end up 'backwards and poor'
-  - China reins in rising yuan as weak domestic demand clouds outlook - Reuters
-  - G20 Finance Officials Gather in U.S. as Iran War Grips Global Economy
-- `cpi`: score 8, headlines 3
-  - Waiting for homebuying to get more affordable? Here's what to expect in 2027
-  - Wall Street dips as spiking crude prices revive fears of inflation, rate hike - Reuters
-  - A $480,000-a-Year Pill Reflects a New Normal for Cancer Drugs
-- `dollar`: score 3, headlines 1
-  - Mystery surrounds why an OG burned $1M in Bitcoin
+  - The Meta settlement is regulation by enforcement
+  - Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees
+  - Tesla’s stock among S&P 500’s top gainers as investors prepare for a Cybercab launch
+- `us_index_flow`: score 6, headlines 3
+  - The S&P 500 usually falls in September. Why this year should be different.
+  - Vanguard’s S&P 500 index fund changed how we invest — but there may be a smarter way to get into the market
+  - Tesla’s stock among S&P 500’s top gainers as investors prepare for a Cybercab launch
+- `cpi`: score 6, headlines 2
+  - FirstFT: Big Law urged to cut fees amid AI
+  - ‘Conflict of attrition’ in Iran could keep inflation high, ECB policymaker warns
+- `ethereum`: score 3, headlines 1
+  - Bitmine now controls 4.9% of Ethereum supply after adding 53.5K ETH
 - `tariffs_trade`: score 3, headlines 1
-  - Trump’s tariff fix leaves US trade policy in permanent flux
+  - Indian PM Modi implores Putin to end Ukraine war amid U.S. tariff threat on Russian oil
+- `ai_semiconductors`: score 2, headlines 1
+  - Silicon shadows: inside the black market for AI chips | FT Film

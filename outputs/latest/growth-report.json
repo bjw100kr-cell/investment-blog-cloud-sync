@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T19:05:03.898540+00:00",
+  "generated_at": "2026-09-01T04:35:52.896225+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -15,11 +15,11 @@
       "keyword": "fomc",
       "recommended_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
-      "total_score": 91.0,
+      "total_score": 92.0,
       "monetization_score": 15,
       "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
+        "CoinDesk RSS",
+        "Federal Reserve Monetary Policy Press"
       ]
     },
     {
@@ -41,8 +41,8 @@
       "total_score": 70.0,
       "monetization_score": 15,
       "source_names": [
-        "CNBC Top News",
         "Financial Times Home",
+        "Financial Times World",
         "MarketWatch Breaking News"
       ]
     }
@@ -58,16 +58,6 @@
       "weighted_priority_score": 16.5
     },
     {
-      "category": "global-sector",
-      "post_count": 2,
-      "keywords": [
-        "us_big_tech",
-        "china"
-      ],
-      "avg_monetization_score": 14.5,
-      "weighted_priority_score": 15.23
-    },
-    {
       "category": "macro",
       "post_count": 1,
       "keywords": [
@@ -75,6 +65,16 @@
       ],
       "avg_monetization_score": 15.0,
       "weighted_priority_score": 15.0
+    },
+    {
+      "category": "global-sector",
+      "post_count": 2,
+      "keywords": [
+        "us_big_tech",
+        "tariffs_trade"
+      ],
+      "avg_monetization_score": 14.0,
+      "weighted_priority_score": 14.7
     }
   ],
   "brand_lane_summary": [
@@ -110,9 +110,9 @@
       "label": "세계 흐름",
       "post_count": 1,
       "keywords": [
-        "china"
+        "tariffs_trade"
       ],
-      "avg_monetization_score": 14.0
+      "avg_monetization_score": 13.0
     }
   ],
   "query_watchlist": [],
@@ -270,8 +270,8 @@
         "dominant_sentence_ending_ratio": 0.094
       },
       {
-        "keyword": "china",
-        "recommended_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+        "keyword": "tariffs_trade",
+        "recommended_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
         "score": 92,
         "robotic_phrase_hits": [],
         "reader_bridge_hits": [
@@ -280,7 +280,7 @@
         ],
         "direct_address_hits": [
           "개인 투자자 입장에서는",
-          "독자 입장에서 중요한 건"
+          "이걸 내 돈 관점에서 보면"
         ],
         "interpretation_hits": [
           "투자자 언어로 다시 풀면"
@@ -289,18 +289,17 @@
           "가능성",
           "시나리오",
           "다만",
-          "반면",
-          "변수"
+          "반면"
         ],
         "warnings": [
           "숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함"
         ],
         "paragraph_count": 32,
-        "short_paragraphs": 22,
-        "long_paragraphs": 2,
+        "short_paragraphs": 23,
+        "long_paragraphs": 3,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
-        "dominant_sentence_ending_ratio": 0.138
+        "dominant_sentence_ending_ratio": 0.109
       }
     ]
   },

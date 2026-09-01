@@ -4,37 +4,36 @@
 
 - 전체 검토 대상: `9`
 - 메인 글 수: `4`
-- 곧 발행할 메인 글 수: `2`
+- 곧 발행할 메인 글 수: `1`
 - 미국 빅테크 라인 글 수: `2`
-- 지금 바로 발행 가까운 글 수: `9`
+- 지금 바로 발행 가까운 글 수: `8`
 - 원칙: 사용자 최종 확인 전에는 실제 업로드를 실행하지 않습니다.
 
 ## 가장 먼저 볼 메인 글
 
 - reason: 발행일이 오늘 또는 내일인 메인 글이며, 품질/이미지 준비가 된 글을 위로 올렸습니다.
-- ready_now_count: `2`
-- user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin`
-- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / lane_focus_crypto / publish 2026-09-01 / priority 122.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`
-- `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / main_post / lane_focus_macro / publish 2026-08-31 / priority 134.0 / freshness `unknown` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- ready_now_count: `1`
+- user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
+- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / lane_focus_crypto / publish 2026-09-02 / priority 122.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`
 
 ## 미국 빅테크 수익 라인
 
 - reason: 메인 글 1개와 후속 SEO 글 3개를 묶어 미국 주식 검색 유입을 노립니다.
 - ready_now_count: `2`
 - user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech seo_us_big_tech_9`
-- `us_big_tech` / 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 / main_post / lane_focus_us-stocks / publish 2026-09-02 / priority 97.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`
-- `seo_us_big_tech_9` / 미국 빅테크 주식 관련 대표 종목 한눈에 보기 / seo_followup / evergreen_seo / publish 2026-09-02 / priority 96.5 / freshness `unknown` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `us_big_tech` / 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 / main_post / lane_focus_us-stocks / publish 2026-09-03 / priority 97.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `seo_us_big_tech_9` / 미국 빅테크 주식 관련 대표 종목 한눈에 보기 / seo_followup / evergreen_seo / publish 2026-09-03 / priority 96.5 / freshness `unknown` / quality `pass` / hero_image_selected `True` / ready_now `True`
 
 ## 거시 해설 라인
 
 - reason: FOMC 메인 글과 후속 설명형 글 묶음입니다.
 - ready_now_count: `1`
 - user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / main_post / lane_focus_macro / publish 2026-08-31 / priority 134.0 / freshness `unknown` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / main_post / evergreen_support / publish 2026-09-05 / priority 124.0 / freshness `stale` / quality `pass` / hero_image_selected `True` / ready_now `True`
 
 ## 코인 해설 라인
 
 - reason: 비트코인 메인 글과 후속 검색형 글 묶음입니다.
 - ready_now_count: `1`
 - user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / lane_focus_crypto / publish 2026-09-01 / priority 122.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / lane_focus_crypto / publish 2026-09-02 / priority 122.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`

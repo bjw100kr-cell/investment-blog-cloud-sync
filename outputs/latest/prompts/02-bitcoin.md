@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bitcoin steady above $78,000, HYPE leads as majors slip on hawkish Fed bets",
+    "North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform",
     "Ireland bars crypto from new tax-advantaged investment accounts",
     "Bitmine makes largest ether purchase since June as Tom Lee points to crypto's strong Q3",
-    "Strategy returns to bitcoin buys, adding $370 million of BTC last week",
-    "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
-    "Here's 1 metric on U.S. debt that makes bitcoin's bull case look stronger than ever"
+    "Thailand SEC proposes retail access to regulated overseas crypto derivatives"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

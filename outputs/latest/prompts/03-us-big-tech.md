@@ -108,15 +108,15 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
-    "CNBC Top News",
     "Financial Times Home",
+    "Financial Times World",
     "MarketWatch Breaking News"
   ],
   "reference_headlines": [
-    "FTC sues Amazon, accusing the e-commerce giant of misleading advertisers",
-    "Tim Cook’s Apple legacy by the numbers",
-    "Tesla’s stock is leading S&P 500 gainers as investors prepare for a Cybercab launch",
-    "Meta’s stock looks too cheap, analysts say. Why it’s now set up for a Google-style rally."
+    "The Meta settlement is regulation by enforcement",
+    "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees",
+    "Tesla’s stock among S&P 500’s top gainers as investors prepare for a Cybercab launch",
+    "Apple’s new boss starts out asset-light and option-rich"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
