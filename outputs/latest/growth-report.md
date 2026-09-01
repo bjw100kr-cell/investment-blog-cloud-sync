@@ -1,25 +1,24 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-09-01T04:35:52.896225+00:00`
+- 생성 시각: `2026-09-01T16:29:34.110699+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
-- `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 점수 92.0 / 수익화 15
-  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-  - 근거 소스: CoinDesk RSS, Federal Reserve Monetary Policy Press
-- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 83.0 / 수익화 15
-  - 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-  - 근거 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `us_big_tech`: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 / 점수 70.0 / 수익화 15
-  - 이유: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-  - 근거 소스: Financial Times Home, Financial Times World, MarketWatch Breaking News
+- `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 점수 94.0 / 수익화 15
+  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+  - 근거 소스: CNBC Top News, Federal Reserve Monetary Policy Press, Financial Times World
+- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 84.0 / 수익화 15
+  - 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+  - 근거 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `us_big_tech`: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 / 점수 62.0 / 수익화 15
+  - 이유: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+  - 근거 소스: CNBC Top News, Financial Times World
 
 ## 브랜드 레인 우선순위
 
-- `거시경제`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 fomc
+- `거시경제`: 평균 수익화 15.0 / 게시 예정 2개 / 키워드 fomc, treasury_yields
 - `코인`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 bitcoin
 - `미국주식`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 us_big_tech
-- `세계 흐름`: 평균 수익화 13.0 / 게시 예정 1개 / 키워드 tariffs_trade
 
 ## 검색 수요 감지 키워드
 
@@ -28,9 +27,9 @@
 ## 무료 트렌드 수요 신호
 
 - `bitcoin`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `treasury_yields`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 - `oil`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 - `fomc`: trend_count 0, traffic_sum 0, regions  / 쿼리 
-- `treasury_yields`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 
 ## 다음 7일 실행 포인트
 

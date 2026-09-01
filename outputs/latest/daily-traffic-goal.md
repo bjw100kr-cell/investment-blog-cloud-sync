@@ -1,17 +1,19 @@
 # Daily Traffic Goal
 
 - 목표: 하루 최소 `200`명 방문
-- 현재 예상 합계: `250`명
+- 현재 예상 합계: `343`명
 - 목표까지 부족분: `0`명
 - 상태: `estimated_on_track_measurement_missing`
 
 ## 200명 목표를 위한 오늘의 글 경로
 
-1. `fomc` FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 예상 `95`명 / 수요 `3600` / 품질 `pass`
+1. `fomc` FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 예상 `95`명 / 수요 `3800` / 품질 `pass`
    - action: 금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결
-2. `bitcoin` 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 예상 `95`명 / 수요 `6700` / 품질 `pass`
+2. `treasury_yields` 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 / 예상 `95`명 / 수요 `5000` / 품질 `pass`
+   - action: 금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결
+3. `bitcoin` 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 예상 `95`명 / 수요 `5300` / 품질 `pass`
    - action: 코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행
-3. `us_big_tech` 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 / 예상 `60`명 / 수요 `0` / 품질 `pass`
+4. `us_big_tech` 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 / 예상 `58`명 / 수요 `0` / 품질 `pass`
    - action: 대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장
 
 ## 병목
@@ -28,7 +30,7 @@
 ## 후보 전체
 
 - `fomc` lane `macro` / 예상 `95`명 / ready `True` / quality `pass`
+- `treasury_yields` lane `macro` / 예상 `95`명 / ready `True` / quality `pass`
 - `bitcoin` lane `crypto` / 예상 `95`명 / ready `True` / quality `pass`
-- `us_big_tech` lane `us-stocks` / 예상 `60`명 / ready `True` / quality `pass`
-- `oil` lane `macro` / 예상 `0`명 / ready `False` / quality `unknown`
-- `tariffs_trade` lane `world-flow` / 예상 `0`명 / ready `True` / quality `review_before_publish`
+- `us_big_tech` lane `us-stocks` / 예상 `58`명 / ready `True` / quality `pass`
+- `ai_semiconductors` lane `us-stocks` / 예상 `0`명 / ready `False` / quality `unknown`

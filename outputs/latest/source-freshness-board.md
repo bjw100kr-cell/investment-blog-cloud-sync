@@ -1,51 +1,53 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-09-01T04:35:57.518940+00:00`
-- snapshot_generated_at: `2026-09-01T04:35:52.896225+00:00`
+- generated_at: `2026-09-01T16:29:41.039589+00:00`
+- snapshot_generated_at: `2026-09-01T16:29:34.110699+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
-- counts: fresh `3` / aging `0` / stale `0` / unknown `0`
+- counts: fresh `2` / aging `0` / stale `1` / unknown `0`
 
-## 1. 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword: `tariffs_trade`
-- freshness_status: `fresh`
-- newest_evidence_age_days: `0.1`
-- newest_evidence_iso: `2026-09-01T01:51:28+00:00`
-- quality_status: `review_before_publish` / ready_now `False`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Indian PM Modi implores Putin to end Ukraine war amid U.S. tariff threat on Russian oil
-- recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
-- recovery_mode: `publish_direct`
-- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: CNBC Top News / 2026-09-01T01:51:28+00:00 / Indian PM Modi implores Putin to end Ukraine war amid U.S. tariff threat on Russian oil
+- keyword: `fomc`
+- freshness_status: `stale`
+- newest_evidence_age_days: `12.9`
+- newest_evidence_iso: `2026-08-19T18:00:00+00:00`
+- quality_status: `pass` / ready_now `True`
+- summary: 핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement
+- recommendation: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
+- recovery_mode: `full_refresh_needed`
+- recovery_summary: 현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.
+- recovery_command: `bash scripts/run_pipeline.sh`
+- evidence: Federal Reserve Monetary Policy Press / 2026-07-29T18:00:00+00:00 / Federal Reserve issues FOMC statement
+- evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve issues FOMC statement
+- evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
 
 ## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - freshness_status: `fresh`
 - newest_evidence_age_days: `0.0`
-- newest_evidence_iso: `2026-09-01T04:30:28+00:00`
+- newest_evidence_iso: `2026-09-01T15:34:00+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin steady above $78,000, HYPE leads as majors slip on hawkish Fed bets
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin stays flat as global bond bear market rages on, pushing JGB to high
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: CoinDesk RSS / 2026-09-01T04:30:28+00:00 / Bitcoin steady above $78,000, HYPE leads as majors slip on hawkish Fed bets
-- evidence: Cointelegraph / 2026-08-31T16:38:51+00:00 / Bitcoin begins volatile monthly close as US bond yields eye new 20-year high
-- evidence: Cointelegraph / 2026-08-31T15:08:12+00:00 / Strive buys 1,800 Bitcoin for $143M, becomes fifth-biggest corporate holder
+- evidence: Cointelegraph / 2026-09-01T15:34:00+00:00 / Bitcoin stays flat as global bond bear market rages on, pushing JGB to high
+- evidence: CoinDesk RSS / 2026-09-01T13:55:26+00:00 / Bitcoin enters ‘Rektember’ as rate-hike risk combines with seasonality to threaten rally
+- evidence: Cointelegraph / 2026-09-01T13:30:00+00:00 / Does the Bitcoin rally mean we haven’t wasted our lives in crypto?
 
 ## 3. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
 - keyword: `us_big_tech`
 - freshness_status: `fresh`
 - newest_evidence_age_days: `0.0`
-- newest_evidence_iso: `2026-09-01T04:00:29+00:00`
+- newest_evidence_iso: `2026-09-01T16:27:54+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: The Meta settlement is regulation by enforcement
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Apple enters John Ternus era as AI challenges and memory crunch intensify
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Financial Times Home / 2026-09-01T04:00:29+00:00 / The Meta settlement is regulation by enforcement
-- evidence: Financial Times World / 2026-09-01T04:00:29+00:00 / Apple’s new boss starts out asset-light and option-rich
-- evidence: MarketWatch Breaking News / 2026-08-31T22:24:00+00:00 / Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees
+- evidence: CNBC Top News / 2026-09-01T16:27:54+00:00 / Apple enters John Ternus era as AI challenges and memory crunch intensify
+- evidence: Investing.com Crypto News / 2026-09-01 14:31:02 / Alkemya Metacore Secures $50M via Tokenised Equity to Scale Nickel Energy and Security Tech
