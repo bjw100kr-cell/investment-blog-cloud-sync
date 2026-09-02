@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T03:58:24.548968+00:00",
+  "generated_at": "2026-09-02T16:27:34.639561+00:00",
   "lane_order": [
     "macro",
     "crypto",
@@ -46,7 +46,7 @@
       "target_share": 0.3,
       "selected_keyword": "treasury_yields",
       "selected_mode": "direct",
-      "freshness_status": "unknown"
+      "freshness_status": "fresh"
     },
     {
       "lane": "crypto",
@@ -82,24 +82,24 @@
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Financial Times Home",
         "Financial Times World",
-        "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "source_basis": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Financial Times Home",
         "Financial Times World",
-        "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
-      "publish_note": "당일 이슈 해설형 글",
+      "publish_note": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "brand_lane": "macro",
-      "freshness_status": "unknown",
+      "freshness_status": "fresh",
       "planning_mode": "direct"
     },
     {
@@ -134,20 +134,16 @@
       "post_type": "breaking_explainer",
       "target_keyword": "us_big_tech",
       "working_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-      "angle": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "angle": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
         "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News"
+        "Financial Times World"
       ],
       "source_basis": [
         "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News"
+        "Financial Times World"
       ],
       "publish_note": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "brand_lane": "us-stocks",
@@ -161,20 +157,14 @@
       "post_type": "breaking_explainer",
       "target_keyword": "china",
       "working_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "angle": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "angle": "섹터/세계 흐름 연결 해설 가능",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
+        "Financial Times Home"
       ],
       "source_basis": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
+        "Financial Times Home"
       ],
       "publish_note": "당일 이슈 해설형 글",
       "brand_lane": "world-flow",

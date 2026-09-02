@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T03:58:24.548968+00:00",
+  "generated_at": "2026-09-02T16:27:34.639561+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -14,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4700,
+      "demand_signal_score": 6000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 35,
+      "source_snapshot_score": 48,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,13 +26,39 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Robinhood's new crypto network is printing cash, and it's sending Arbitrum's token soaring",
-        "Musk’s X hit by wave of unsolicited password reset emails",
-        "Firelight raises $8 million, expands beyond XRP as it aims to make DeFi less scary for fintechs"
+        "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline",
+        "CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years",
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back"
       ]
     },
     {
       "keyword": "treasury_yields",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 4800,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 36,
+      "source_count": 6,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times World",
+        "NYT Business"
+      ],
+      "sample_titles": [
+        "Capital B aims to add 376 BTC to bitcoin treasury following $8.8 million Adam Back investment",
+        "Bitcoin slips below $76,500 as U.S. strikes on Iran send oil above $93",
+        "New York Fed's Williams says yield surge due to strong economic prospects"
+      ]
+    },
+    {
+      "keyword": "fomc",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -43,18 +69,17 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 29,
-      "source_count": 6,
+      "source_count": 4,
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "Federal Reserve Monetary Policy Press",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Firelight raises $8 million, expands beyond XRP as it aims to make DeFi less scary for fintechs",
-        "Ethena pushes stablecoins into everyday banking with high-yield savings, cards and payments",
-        "US launches further strikes on Iran as conflict flares up"
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
       ]
     },
     {
@@ -64,44 +89,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3600,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 24,
-      "source_count": 4,
+      "source_snapshot_score": 23,
+      "source_count": 6,
       "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
         "Financial Times Home",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "Financial Times World",
+        "NYT Business"
       ],
       "sample_titles": [
-        "US launches further strikes on Iran as conflict flares up",
-        "Saudi and South Korean oil tankers hit in Strait of Hormuz",
-        "Asian markets tumble as US-Iran fighting lifts oil and bond yields - Reuters"
-      ]
-    },
-    {
-      "keyword": "fomc",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3200,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 1,
-      "source_names": [
-        "Federal Reserve Monetary Policy Press"
-      ],
-      "sample_titles": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+        "Bitcoin slips below $76,500 as U.S. strikes on Iran send oil above $93",
+        "Energy Secretary Chris Wright tells CNBC more than 17 million barrels of oil transited Hormuz on Monday",
+        "Trump floats renaming Strait of Hormuz the 'Trump Strait'"
       ]
     }
   ],

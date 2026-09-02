@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T03:58:24.548968+00:00",
+  "generated_at": "2026-09-02T16:27:34.639561+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -37,15 +37,15 @@
   },
   "top_briefs": [
     {
-      "keyword": "treasury_yields",
+      "keyword": "fomc",
       "category": "macro",
       "brand_lane": "macro",
       "title_candidates": [
-        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
-        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유",
-        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기"
+        "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+        "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
+        "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -54,36 +54,34 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "Firelight raises $8 million, expands beyond XRP as it aims to make DeFi less scary for fintechs",
-        "Ethena pushes stablecoins into everyday banking with high-yield savings, cards and payments",
-        "US launches further strikes on Iran as conflict flares up",
-        "Asian markets tumble as US-Iran fighting lifts oil and bond yields - Reuters",
-        "Explainer: What's behind the selloff in world bond markets? - Reuters"
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "A Fed rate increase would be a mistake, some observers say as bitcoin, gold, stocks fall"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "Federal Reserve Monetary Policy Press",
+        "MarketWatch Breaking News"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 4100,
       "search_score": 26,
-      "timeliness_score": 21,
-      "explanatory_score": 19,
+      "timeliness_score": 25,
+      "explanatory_score": 20,
       "monetization_score": 15,
-      "risk_score": 6,
+      "risk_score": 8,
       "performance_bonus": 0.0,
       "search_demand_bonus": 2,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 87.0,
+      "total_score": 94.0,
       "format": "macro_explainer"
     },
     {
@@ -104,11 +102,11 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "Robinhood's new crypto network is printing cash, and it's sending Arbitrum's token soaring",
-        "Musk’s X hit by wave of unsolicited password reset emails",
-        "Firelight raises $8 million, expands beyond XRP as it aims to make DeFi less scary for fintechs",
-        "Bitcoin enters ‘Rektember’ as rate-hike risk combines with seasonality to threaten rally",
-        "UK’s crime agency freezes Premier League $13.5 million account in crypto crime probe"
+        "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline",
+        "CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years",
+        "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back",
+        "Capital B aims to add 376 BTC to bitcoin treasury following $8.8 million Adam Back investment",
+        "A Fed rate increase would be a mistake, some observers say as bitcoin, gold, stocks fall"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -119,18 +117,18 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 4700,
-      "search_score": 26,
+      "demand_signal_score": 6000,
+      "search_score": 29,
       "timeliness_score": 18,
       "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 3,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 2,
+      "search_demand_bonus": 3,
       "crypto_market_signal_bonus": 1,
       "crypto_market_sentiment": "mixed",
       "crypto_market_signal_notes": [],
-      "total_score": 80.0,
+      "total_score": 83.0,
       "format": "crypto_analysis"
     },
     {
@@ -142,7 +140,7 @@
         "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유",
         "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -151,25 +149,20 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Dell surges 9% after lifting fiscal 2027 forecast on AI server strength",
-        "Apple enters John Ternus era as AI challenges and memory crunch intensify",
-        "Tim Cook handed $47mn pay deal as Apple’s executive chair",
-        "Dell’s AI servers drive a stellar earnings performance, and a raised outlook",
-        "Tim Cook handed $47mn pay deal as Apple’s executive chair"
+        "Apple shares are doing something they haven't done in 20 years. Here’s what’s happening",
+        "Students and opposition activists targeted with spyware in Serbia"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News"
+        "Financial Times World"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 17,
-      "timeliness_score": 20,
+      "search_score": 8,
+      "timeliness_score": 10,
       "explanatory_score": 16,
       "monetization_score": 15,
       "risk_score": 7,
@@ -178,7 +171,7 @@
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 75.0,
+      "total_score": 56.0,
       "format": "sector_analysis"
     },
     {
@@ -190,7 +183,7 @@
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -199,46 +192,39 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "China dissented from G20 statement opposing 'cheap exports' flooding market, Bessent says",
-        "China’s real robot revolution is not about humanoids",
-        "China derails consensus on communiqué after US-hosted G20",
-        "China derails consensus on communiqué after US-hosted G20",
-        "China’s real robot revolution is not about humanoids"
+        "China derails consensus after US-hosted G20"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
+        "Financial Times Home"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 19,
-      "timeliness_score": 20,
+      "search_score": 4,
+      "timeliness_score": 5,
       "explanatory_score": 17,
-      "monetization_score": 14,
+      "monetization_score": 12,
       "risk_score": 7,
       "performance_bonus": 0.0,
       "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 77.0,
+      "total_score": 45.0,
       "format": "macro_explainer"
     },
     {
-      "keyword": "fomc",
+      "keyword": "treasury_yields",
       "category": "macro",
       "brand_lane": "macro",
       "title_candidates": [
-        "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-        "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
-        "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
+        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유",
+        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -247,30 +233,36 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+        "Capital B aims to add 376 BTC to bitcoin treasury following $8.8 million Adam Back investment",
+        "Bitcoin slips below $76,500 as U.S. strikes on Iran send oil above $93",
+        "New York Fed's Williams says yield surge due to strong economic prospects",
+        "Energy price surge hits bond markets as European gas reaches three-year high",
+        "Rising Treasury yields could rattle US stocks as earnings season ends - Reuters"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Federal Reserve Monetary Policy Press"
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times World",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3200,
-      "search_score": 19,
-      "timeliness_score": 25,
-      "explanatory_score": 20,
-      "monetization_score": 14,
-      "risk_score": 8,
+      "demand_signal_score": 4800,
+      "search_score": 26,
+      "timeliness_score": 21,
+      "explanatory_score": 19,
+      "monetization_score": 15,
+      "risk_score": 6,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 2,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 86.0,
+      "total_score": 87.0,
       "format": "macro_explainer"
     }
   ]

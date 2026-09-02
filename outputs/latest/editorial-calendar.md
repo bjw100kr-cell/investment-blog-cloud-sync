@@ -1,6 +1,6 @@
 # 7일 편집 캘린더
 
-- 생성 시각: `2026-09-02T03:58:24.548968+00:00`
+- 생성 시각: `2026-09-02T16:27:34.639561+00:00`
 - 목적: stale 뉴스는 직접 발행에서 빼고, 거시경제·코인·미국주식·세계 흐름 레인을 주간 단위로 균형 있게 유지
 
 ## 레인 커버리지
@@ -12,7 +12,7 @@
 
 ## 이번 주 배치 메모
 
-- lane `macro` / keyword `treasury_yields` / mode `direct` / freshness `unknown` / target_share `0.3`
+- lane `macro` / keyword `treasury_yields` / mode `direct` / freshness `fresh` / target_share `0.3`
 - lane `crypto` / keyword `bitcoin` / mode `direct` / freshness `fresh` / target_share `0.3`
 - lane `us-stocks` / keyword `us_big_tech` / mode `direct` / freshness `fresh` / target_share `0.2`
 - lane `world-flow` / keyword `china` / mode `direct` / freshness `unknown` / target_share `0.2`
@@ -21,16 +21,16 @@
 
 - 브랜드 레인: 거시경제
 - planning_mode: direct
-- freshness_status: unknown
+- freshness_status: fresh
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: treasury_yields
 - 작업 제목: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 - 글 각도: 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- 근거 소스/연결 키워드: CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- 발행 메모: 당일 이슈 해설형 글
+- 내부링크 대상: CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
 ## Day 2 · 2026-09-03 · lane_focus_crypto
 
@@ -55,11 +55,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: us_big_tech
 - 작업 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- 글 각도: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 글 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
-- 근거 소스/연결 키워드: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
+- 내부링크 대상: CNBC Top News, Financial Times World
+- 근거 소스/연결 키워드: CNBC Top News, Financial Times World
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
 ## Day 4 · 2026-09-05 · lane_focus_world-flow
@@ -70,11 +70,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: china
 - 작업 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 글 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 글 각도: 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Financial Times Home, Financial Times World, NYT Business
-- 근거 소스/연결 키워드: CNBC Top News, Financial Times Home, Financial Times World, NYT Business
+- 내부링크 대상: Financial Times Home
+- 근거 소스/연결 키워드: Financial Times Home
 - 발행 메모: 당일 이슈 해설형 글
 
 ## Day 5 · 2026-09-06 · evergreen_support
