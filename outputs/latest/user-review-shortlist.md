@@ -9,12 +9,12 @@
 - 원칙: 여기서 먼저 읽고 확인한 글만 업로드 후보로 넘깁니다.
 
 
-## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+## 1. 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 
-- keyword: `fomc`
+- keyword: `treasury_yields`
 - brand_lane: `macro` (거시경제)
-- publish_date: `2026-09-01`
-- priority_score: `137.0`
+- publish_date: `2026-09-02`
+- priority_score: `130.0`
 - review_verdict: `approve`
 - freshness_status: ``
 - quality_status: `pass`
@@ -23,15 +23,15 @@
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
 - recommendation: 지금 이 글부터 확인하면 바로 발행 후보로 넘기기 가장 쉽습니다.
-- preview: 한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-- preview: - FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다. - 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다. - 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다.
+- preview: 한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+- preview: - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
 
 ## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - brand_lane: `crypto` (코인)
-- publish_date: `2026-09-02`
-- priority_score: `123.0`
+- publish_date: `2026-09-03`
+- priority_score: `119.0`
 - review_verdict: `approve`
 - freshness_status: `fresh`
 - quality_status: `pass`
@@ -48,8 +48,8 @@
 
 - keyword: `us_big_tech`
 - brand_lane: `us-stocks` (미국주식)
-- publish_date: `2026-09-03`
-- priority_score: `89.0`
+- publish_date: `2026-09-04`
+- priority_score: `102.0`
 - review_verdict: `approve`
 - freshness_status: `fresh`
 - quality_status: `pass`
@@ -64,5 +64,5 @@
 
 ## User Confirmation Commands
 
-- single: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin`
+- single: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields`
+- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields bitcoin`

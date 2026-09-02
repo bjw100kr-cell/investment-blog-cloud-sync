@@ -1,17 +1,17 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-09-01T16:29:34.110699+00:00`
+- 생성 시각: `2026-09-02T03:58:24.548968+00:00`
 
-## 1. fomc
+## 1. treasury_yields
 
-- 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 점수: 94.0
+- 추천 제목: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+- 각도: 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
+- 점수: 87.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
-  - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -60,23 +60,23 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - FOMC 성명서 원문 날짜와 발표 시각 확인
-  - 점도표/경제전망 최신 버전 확인
-  - 달러, 미국채 금리, 나스닥 관련 수치 재확인
+  - 미국채 2년/10년 금리 수치 재확인
+  - 기준 시각과 비교 기준 명시
+  - 주식/코인 반응 인과관계 과장 여부 점검
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Federal Reserve issues FOMC statement
-  - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Federal Reserve issues FOMC statement
-  - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Fed Governor Barr says he'll support rate hike if inflation doesn't ease
+  - Firelight raises $8 million, expands beyond XRP as it aims to make DeFi less scary for fintechs
+  - Ethena pushes stablecoins into everyday banking with high-yield savings, cards and payments
+  - US launches further strikes on Iran as conflict flares up
+  - Asian markets tumble as US-Iran fighting lifts oil and bond yields - Reuters
+  - Explainer: What's behind the selloff in world bond markets? - Reuters
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 점수: 84.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 점수: 80.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -145,8 +145,8 @@
 ## 3. us_big_tech
 
 - 추천 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 62.0
+- 각도: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 75.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,20 +206,22 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Waymo and Zoox expand into more U.S. markets as robotaxi race heats up
+  - Dell surges 9% after lifting fiscal 2027 forecast on AI server strength
   - Apple enters John Ternus era as AI challenges and memory crunch intensify
-  - Trump touts data centre build-out despite voter backlash
+  - Tim Cook handed $47mn pay deal as Apple’s executive chair
+  - Dell’s AI servers drive a stellar earnings performance, and a raised outlook
+  - Tim Cook handed $47mn pay deal as Apple’s executive chair
 
-## 4. treasury_yields
+## 4. china
 
-- 추천 제목: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-- 각도: 복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음
-- 점수: 89.0
+- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 77.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -268,14 +270,14 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 미국채 2년/10년 금리 수치 재확인
-  - 기준 시각과 비교 기준 명시
-  - 주식/코인 반응 인과관계 과장 여부 점검
+  - 정책 발표 또는 인터뷰 원문 여부 확인
+  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
+  - 한국/미국 시장 영향은 시나리오형으로 서술
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Firelight raises $8 million, expands beyond XRP as it aims to make DeFi less scary for fintechs
-  - Ethena pushes stablecoins into everyday banking with high-yield savings, cards and payments
-  - Bitcoin stays flat as global bond bear market rages on, pushing JGB to high
-  - 10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries
-  - Global bond sell-off deepens amid inflation fears
+  - China dissented from G20 statement opposing 'cheap exports' flooding market, Bessent says
+  - China’s real robot revolution is not about humanoids
+  - China derails consensus on communiqué after US-hosted G20
+  - China derails consensus on communiqué after US-hosted G20
+  - China’s real robot revolution is not about humanoids

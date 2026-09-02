@@ -85,7 +85,7 @@
 
 ```json
 {
-  "keyword": "seo_treasury_yields_8",
+  "keyword": "seo_treasury_yields_3",
   "source_keyword": "treasury_yields",
   "recommended_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지",
   "alternate_titles": [
@@ -115,9 +115,7 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
   "source_names": [
-    "CNBC Top News",
     "CoinDesk RSS",
-    "Cointelegraph",
     "Financial Times Home",
     "Financial Times World",
     "MarketWatch Breaking News",
@@ -188,15 +186,15 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 117.5,
-    "search_score": 117.5,
+    "total_score": 123.5,
+    "search_score": 123.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유.html",
+    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유.html",
     "secondary": [
       "site-foundation/hub-macro.md",
       "site-foundation/about.md",

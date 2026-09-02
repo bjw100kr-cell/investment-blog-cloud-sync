@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-01T16:29:34.110699+00:00`
+- 생성 시각: `2026-09-02T03:58:24.548968+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,48 +106,52 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 41, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `treasury_yields`: score 38, source_count 8, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `oil`: score 27, source_count 6, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `fomc`: score 26, source_count 3, sources CNBC Top News, Federal Reserve Monetary Policy Press, Financial Times World
-- `cpi`: score 17, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
-- `dollar`: score 11, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
-- `us_big_tech`: score 9, source_count 2, sources CNBC Top News, Financial Times World
-- `ai_semiconductors`: score 6, source_count 2, sources CoinDesk RSS, Financial Times YouTube
-- `us_index_flow`: score 2, source_count 1, sources MarketWatch Breaking News
+- `bitcoin`: score 35, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `treasury_yields`: score 29, source_count 6, sources CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `oil`: score 24, source_count 4, sources Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
+- `china`: score 17, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, NYT Business
+- `dollar`: score 14, source_count 3, sources CoinDesk RSS, Cointelegraph, Reuters Markets via Google News RSS
+- `us_big_tech`: score 14, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
+- `cpi`: score 8, source_count 3, sources CNBC Top News, Financial Times Home, NYT Business
+- `us_index_flow`: score 3, source_count 1, sources Cointelegraph
+- `ai_semiconductors`: score 2, source_count 1, sources Financial Times YouTube
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 41, headlines 12
+- `bitcoin`: score 35, headlines 10
   - Robinhood's new crypto network is printing cash, and it's sending Arbitrum's token soaring
   - Musk’s X hit by wave of unsolicited password reset emails
   - Firelight raises $8 million, expands beyond XRP as it aims to make DeFi less scary for fintechs
-- `treasury_yields`: score 38, headlines 13
+- `treasury_yields`: score 29, headlines 10
   - Firelight raises $8 million, expands beyond XRP as it aims to make DeFi less scary for fintechs
   - Ethena pushes stablecoins into everyday banking with high-yield savings, cards and payments
-  - Bitcoin stays flat as global bond bear market rages on, pushing JGB to high
-- `oil`: score 27, headlines 10
-  - 10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries
-  - The pitfalls in Trump’s Venezuela oil play
+  - US launches further strikes on Iran as conflict flares up
+- `oil`: score 24, headlines 9
+  - US launches further strikes on Iran as conflict flares up
   - Saudi and South Korean oil tankers hit in Strait of Hormuz
-- `fomc`: score 26, headlines 6
+  - Asian markets tumble as US-Iran fighting lifts oil and bond yields - Reuters
+- `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `cpi`: score 17, headlines 6
-  - 10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries
-  - Fed Governor Barr says he'll support rate hike if inflation doesn't ease
-  - Global bond sell-off deepens amid inflation fears
-- `dollar`: score 11, headlines 3
+- `china`: score 17, headlines 6
+  - China dissented from G20 statement opposing 'cheap exports' flooding market, Bessent says
+  - China’s real robot revolution is not about humanoids
+  - China derails consensus on communiqué after US-hosted G20
+- `us_big_tech`: score 14, headlines 5
+  - Dell surges 9% after lifting fiscal 2027 forecast on AI server strength
+  - Apple enters John Ternus era as AI challenges and memory crunch intensify
+  - Tim Cook handed $47mn pay deal as Apple’s executive chair
+- `dollar`: score 14, headlines 4
   - Citi, Goldman, other global banks and asset managers team up on stablecoin venture
   - Ethena pushes stablecoins into everyday banking with high-yield savings, cards and payments
-  - Gold falls to two-week low as rising Treasury yields, dollar weigh - Reuters
-- `us_big_tech`: score 9, headlines 3
-  - Waymo and Zoox expand into more U.S. markets as robotaxi race heats up
-  - Apple enters John Ternus era as AI challenges and memory crunch intensify
-  - Trump touts data centre build-out despite voter backlash
-- `ai_semiconductors`: score 6, headlines 2
-  - Hut 8's Texas power site sits inside Anthropic’s $35 billion AI deal
+  - BofA, Citi, Goldman Sachs among 21 institutions planning stablecoin launch
+- `cpi`: score 8, headlines 3
+  - Australia posts second-quarter growth of 2.1%, beating expectations
+  - US launches further strikes on Iran as conflict flares up
+  - Bond Sell-Off Threatens to Squeeze Borrowers Around the World
+- `us_index_flow`: score 3, headlines 1
+  - Binance expands TradFi push with options on 1,000 US stocks, ETFs
+- `ai_semiconductors`: score 2, headlines 1
   - Silicon shadows: inside the black market for AI chips | FT Film
-- `us_index_flow`: score 2, headlines 1
-  - Vanguard’s S&P 500 index fund changed how we invest — but there may be a smarter way to get a piece of the market
