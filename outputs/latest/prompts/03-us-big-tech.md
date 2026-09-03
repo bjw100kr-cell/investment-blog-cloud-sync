@@ -109,11 +109,13 @@
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "Financial Times World"
+    "MarketWatch Breaking News"
   ],
   "reference_headlines": [
+    "Microsoft to start disclosing Azure quarterly revenue as company consolidates business units",
     "Apple shares are doing something they haven't done in 20 years. Here’s what’s happening",
-    "Students and opposition activists targeted with spyware in Serbia"
+    "HPE follows in Dell’s footsteps as it rides the AI server boom to a big earnings beat",
+    "Nvidia’s stock is climbing as investors get more confidence in an expanding base of AI customers"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -176,9 +178,9 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 56.0,
-    "search_score": 8,
-    "timeliness_score": 10,
+    "total_score": 67.0,
+    "search_score": 13,
+    "timeliness_score": 16,
     "explanatory_score": 16,
     "monetization_score": 15,
     "risk_score": 7

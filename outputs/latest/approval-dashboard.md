@@ -14,25 +14,25 @@
 - reason: 발행일이 오늘 또는 내일인 메인 글이며, 품질/이미지 준비가 된 글을 위로 올렸습니다.
 - ready_now_count: `1`
 - user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / lane_focus_crypto / publish 2026-09-03 / priority 122.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / lane_focus_crypto / publish 2026-09-04 / priority 122.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`
 
 ## 미국 빅테크 수익 라인
 
 - reason: 메인 글 1개와 후속 SEO 글 3개를 묶어 미국 주식 검색 유입을 노립니다.
 - ready_now_count: `1`
 - user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
-- `us_big_tech` / 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 / main_post / lane_focus_us-stocks / publish 2026-09-04 / priority 83.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `us_big_tech` / 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 / main_post / lane_focus_us-stocks / publish 2026-09-05 / priority 102.0 / freshness `unknown` / quality `pass` / hero_image_selected `True` / ready_now `True`
 
 ## 거시 해설 라인
 
 - reason: FOMC 메인 글과 후속 설명형 글 묶음입니다.
 - ready_now_count: `1`
 - user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / main_post / evergreen_support / publish 2026-09-06 / priority 126.0 / freshness `unknown` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / main_post / evergreen_support / publish 2026-09-07 / priority 117.0 / freshness `stale` / quality `pass` / hero_image_selected `True` / ready_now `True`
 
 ## 코인 해설 라인
 
 - reason: 비트코인 메인 글과 후속 검색형 글 묶음입니다.
 - ready_now_count: `1`
 - user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / lane_focus_crypto / publish 2026-09-03 / priority 122.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / lane_focus_crypto / publish 2026-09-04 / priority 122.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`

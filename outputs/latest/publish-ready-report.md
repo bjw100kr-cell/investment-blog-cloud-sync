@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-09-02T16:27:37.689449+00:00`
+- generated_at: `2026-09-03T03:57:43.483979+00:00`
 
 ## fomc
 
@@ -9,7 +9,7 @@
 - html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html
 - meta_title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - meta_description: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
-- follow_up_post_count: 1
+- follow_up_post_count: 3
 
 ## bitcoin
 

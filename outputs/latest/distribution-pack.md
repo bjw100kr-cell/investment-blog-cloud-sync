@@ -40,7 +40,7 @@
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
-- priority_score: `83.0`
+- priority_score: `102.0`
 - hook_line: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -74,7 +74,7 @@
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
-- priority_score: `69.0`
+- priority_score: `85.0`
 - hook_line: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -108,7 +108,7 @@
 
 - inventory_type: `main_post`
 - publish_bucket: `later`
-- priority_score: `126.0`
+- priority_score: `117.0`
 - hook_line: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 | FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
 
 ### X / Threads
@@ -142,7 +142,7 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `114.47`
+- priority_score: `108.67`
 - hook_line: 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지 | `미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
 
 ### X / Threads
@@ -176,7 +176,7 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `68.5`
+- priority_score: `84.5`
 - hook_line: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기 | 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 
 ### X / Threads
@@ -210,7 +210,7 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `65.5`
+- priority_score: `81.5`
 - hook_line: 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나 | 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 
 ### X / Threads
@@ -244,7 +244,7 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `62.5`
+- priority_score: `78.5`
 - hook_line: 중국 변수와 시장 영향 ETF·지수·대표 기업 정리 | 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 
 ### X / Threads

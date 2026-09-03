@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T16:27:34.639561+00:00",
+  "generated_at": "2026-09-03T03:57:41.054399+00:00",
   "lane_order": [
     "macro",
     "crypto",
@@ -46,7 +46,7 @@
       "target_share": 0.3,
       "selected_keyword": "treasury_yields",
       "selected_mode": "direct",
-      "freshness_status": "fresh"
+      "freshness_status": "unknown"
     },
     {
       "lane": "crypto",
@@ -60,7 +60,7 @@
       "target_share": 0.2,
       "selected_keyword": "us_big_tech",
       "selected_mode": "direct",
-      "freshness_status": "fresh"
+      "freshness_status": "unknown"
     },
     {
       "lane": "world-flow",
@@ -72,38 +72,34 @@
   ],
   "schedule": [
     {
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "slot": 1,
       "role": "lane_focus_macro",
       "post_type": "breaking_explainer",
       "target_keyword": "treasury_yields",
       "working_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
-      "angle": "복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음",
+      "angle": "복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Financial Times Home",
-        "Financial Times World",
+        "Cointelegraph",
+        "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "source_basis": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Financial Times Home",
-        "Financial Times World",
+        "Cointelegraph",
+        "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
-      "publish_note": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "publish_note": "당일 이슈 해설형 글",
       "brand_lane": "macro",
-      "freshness_status": "fresh",
+      "freshness_status": "unknown",
       "planning_mode": "direct"
     },
     {
-      "date": "2026-09-03",
+      "date": "2026-09-04",
       "slot": 2,
       "role": "lane_focus_crypto",
       "post_type": "breaking_explainer",
@@ -128,7 +124,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-09-04",
+      "date": "2026-09-05",
       "slot": 3,
       "role": "lane_focus_us-stocks",
       "post_type": "breaking_explainer",
@@ -139,32 +135,32 @@
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
         "CNBC Top News",
-        "Financial Times World"
+        "MarketWatch Breaking News"
       ],
       "source_basis": [
         "CNBC Top News",
-        "Financial Times World"
+        "MarketWatch Breaking News"
       ],
-      "publish_note": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "publish_note": "당일 이슈 해설형 글",
       "brand_lane": "us-stocks",
-      "freshness_status": "fresh",
+      "freshness_status": "unknown",
       "planning_mode": "direct"
     },
     {
-      "date": "2026-09-05",
+      "date": "2026-09-06",
       "slot": 4,
       "role": "lane_focus_world-flow",
       "post_type": "breaking_explainer",
       "target_keyword": "china",
       "working_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "angle": "섹터/세계 흐름 연결 해설 가능",
+      "angle": "검색 트렌드 반응 존재, 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (중국공산당)",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
-        "Financial Times Home"
+        "Google Trends KR"
       ],
       "source_basis": [
-        "Financial Times Home"
+        "Google Trends KR"
       ],
       "publish_note": "당일 이슈 해설형 글",
       "brand_lane": "world-flow",
@@ -172,7 +168,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-09-06",
+      "date": "2026-09-07",
       "slot": 5,
       "role": "evergreen_support",
       "post_type": "evergreen_explainer",
@@ -200,7 +196,7 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-09-07",
+      "date": "2026-09-08",
       "slot": 6,
       "role": "secondary_lane_support",
       "post_type": "evergreen_explainer",
@@ -227,7 +223,7 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "slot": 7,
       "role": "weekly_recap",
       "post_type": "weekly_macro_recap",

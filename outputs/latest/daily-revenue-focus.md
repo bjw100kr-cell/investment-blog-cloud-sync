@@ -2,7 +2,7 @@
 
 오늘 어떤 글 순서로 올려야 수익화에 더 유리한지 보여주는 운영 카드입니다.
 
-- generated_at: `2026-09-02T16:27:34.639561+00:00`
+- generated_at: `2026-09-03T03:57:41.054399+00:00`
 - path_policy: main post는 현재 최적 단건 후보를 유지하고, next slot은 가능하면 다른 브랜드 레인에서 선택
 
 ## Today Path
@@ -19,12 +19,12 @@
   - urgency: follow_after_main
   - why_revenue: 초보 검색 유입과 긴 체류시간 확보
   - cta_focus: 코인 허브와 규제/ETF 글 연결
-- `next_slot` / `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유`
-  - keyword: treasury_yields
-  - brand_lane: macro (거시경제)
+- `next_slot` / `중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유`
+  - keyword: china
+  - brand_lane: world-flow (세계 흐름)
   - urgency: watch
-  - why_revenue: 카테고리 보강과 내부링크 확장으로 장기 검색 유입 기반을 만드는 역할
-  - cta_focus: 
+  - why_revenue: 페이지뷰와 체류시간 균형 확보
+  - cta_focus: 실적·공급망·대표 종목 글로 연결
 
 ## Approval Commands
 

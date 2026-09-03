@@ -1,19 +1,19 @@
 # Crypto Market Signal
 
-- 생성 시각: `2026-09-02T16:27:36+00:00`
+- 생성 시각: `2026-09-03T03:57:41+00:00`
 - 상태: `ok`
 - 시장 분위기: `mixed`
-- 추적 코인 평균 24h 변동률: `-0.78%`
-- Fear/Greed: `63` (Greed)
+- 추적 코인 평균 24h 변동률: `0.69%`
+- Fear/Greed: `65` (Greed)
 
 ## Tracked Tickers
 
-- `BTCUSDT`: 24h `-0.10%`, quote volume `29780319815`
-- `ETHUSDT`: 24h `-1.27%`, quote volume `14914810420`
-- `SOLUSDT`: 24h `-1.58%`, quote volume `3361244862`
-- `XRPUSDT`: 24h `-1.79%`, quote volume `2461681496`
-- `BNBUSDT`: 24h `0.54%`, quote volume `862365885`
-- `DOGEUSDT`: 24h `-0.51%`, quote volume `571581359`
+- `BTCUSDT`: 24h `0.27%`, quote volume `26896008783`
+- `ETHUSDT`: 24h `-0.39%`, quote volume `12769066117`
+- `SOLUSDT`: 24h `0.44%`, quote volume `3029608645`
+- `XRPUSDT`: 24h `1.27%`, quote volume `2420151064`
+- `BNBUSDT`: 24h `0.77%`, quote volume `703915337`
+- `DOGEUSDT`: 24h `1.77%`, quote volume `608135377`
 
 ## Keyword Signals
 

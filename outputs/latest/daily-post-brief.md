@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-09-02T16:27:34.639561+00:00`
+- 생성 시각: `2026-09-03T03:57:41.054399+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `94.0`
-- 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, MarketWatch Breaking News
+- 총점: `86.0`
+- 점수 구성: 검색성 19 / 시의성 25 / 설명가치 20 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- 소스: Federal Reserve Monetary Policy Press
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,7 +27,6 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - A Fed rate increase would be a mistake, some observers say as bitcoin, gold, stocks fall
 
 ## 2. bitcoin
 
@@ -48,20 +47,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - DOJ says Hamas crypto seizures reached $560,000 as FBI took over fundraising sites
+  - Kraken parent Payward delays IPO to second quarter of 2027 at earliest
+  - Crypto made new friends in U.S. primaries, but focus now shifts to general election
   - Crypto Long & Short: Crypto VCs are mistaking consensus for discipline
   - CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years
-  - The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back
-  - Capital B aims to add 376 BTC to bitcoin treasury following $8.8 million Adam Back investment
-  - A Fed rate increase would be a mistake, some observers say as bitcoin, gold, stocks fall
 
 ## 3. us_big_tech
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `56.0`
-- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 16 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 총점: `67.0`
+- 점수 구성: 검색성 13 / 시의성 16 / 설명가치 16 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: CNBC Top News, Financial Times World
+- 소스: CNBC Top News, MarketWatch Breaking News
 - 제목 후보:
   - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
   - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
@@ -73,17 +72,20 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
+  - Microsoft to start disclosing Azure quarterly revenue as company consolidates business units
   - Apple shares are doing something they haven't done in 20 years. Here’s what’s happening
-  - Students and opposition activists targeted with spyware in Serbia
+  - HPE follows in Dell’s footsteps as it rides the AI server boom to a big earnings beat
+  - Nvidia’s stock is climbing as investors get more confidence in an expanding base of AI customers
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `45.0`
-- 점수 구성: 검색성 4 / 시의성 5 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times Home
+- 총점: `57.0`
+- 점수 구성: 검색성 14 / 시의성 5 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 검색 트렌드 반응 존재, 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (중국공산당)
+- 소스: Google Trends KR
+- 트렌드 쿼리: 중국공산당
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -95,16 +97,16 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - China derails consensus after US-hosted G20
+  - 중국공산당
 
 ## 5. treasury_yields
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `87.0`
-- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- 총점: `81.0`
+- 점수 구성: 검색성 21 / 시의성 20 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 소스: Cointelegraph, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
@@ -116,8 +118,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Capital B aims to add 376 BTC to bitcoin treasury following $8.8 million Adam Back investment
-  - Bitcoin slips below $76,500 as U.S. strikes on Iran send oil above $93
-  - New York Fed's Williams says yield surge due to strong economic prospects
-  - Energy price surge hits bond markets as European gas reaches three-year high
+  - Bitcoin’s apparent demand turns negative as price struggles with $77K
   - Rising Treasury yields could rattle US stocks as earnings season ends - Reuters
+  - Bond selloff deepens as oil prices and public debt fears jolt markets - Reuters
+  - How Japan's bond rout is turning the tide of global capital - Reuters
+  - Palantir’s stock is slumping. Why bond yields and Google may be to blame.

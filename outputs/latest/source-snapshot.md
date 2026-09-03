@@ -1,8 +1,8 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-02T16:27:34.639561+00:00`
+- 생성 시각: `2026-09-03T03:57:41.054399+00:00`
 - 수집 성공 소스: `14`
-- 수집 아이템 수: `112`
+- 수집 아이템 수: `111`
 
 ## 소스 상태
 
@@ -14,7 +14,7 @@
 - `OK` Cointelegraph (rss): 8 items
 - `OK` CNBC Top News (rss): 8 items
 - `OK` Investing.com Crypto News (rss): 8 items
-- `OK` Financial Times Home (rss): 8 items
+- `OK` Financial Times Home (rss): 7 items
 - `OK` Reuters Markets via Google News RSS (rss): 8 items
 - `OK` 무역킹 Trade King YouTube (youtube_channel): 8 items
 - `OK` MarketWatch Breaking News (rss): 8 items
@@ -100,49 +100,48 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 48, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `treasury_yields`: score 36, source_count 6, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
-- `fomc`: score 29, source_count 4, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, MarketWatch Breaking News
-- `oil`: score 23, source_count 6, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
-- `ethereum`: score 10, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `us_big_tech`: score 6, source_count 2, sources CNBC Top News, Financial Times World
-- `us_index_flow`: score 6, source_count 1, sources Reuters Markets via Google News RSS
-- `cpi`: score 4, source_count 2, sources MarketWatch Breaking News, NYT Business
-- `china`: score 3, source_count 1, sources Financial Times Home
-- `ai_semiconductors`: score 2, source_count 1, sources Financial Times YouTube
+- `bitcoin`: score 45, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
+- `treasury_yields`: score 18, source_count 4, sources Cointelegraph, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `china`: score 10, source_count 1, sources Google Trends KR
+- `us_big_tech`: score 10, source_count 2, sources CNBC Top News, MarketWatch Breaking News
+- `oil`: score 10, source_count 3, sources Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 7, source_count 3, sources CNBC Top News, Financial Times YouTube, MarketWatch Breaking News
+- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
+- `us_index_flow`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `dollar`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 48, headlines 14
-  - Crypto Long & Short: Crypto VCs are mistaking consensus for discipline
-  - CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years
-  - The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back
-- `treasury_yields`: score 36, headlines 12
-  - Capital B aims to add 376 BTC to bitcoin treasury following $8.8 million Adam Back investment
-  - Bitcoin slips below $76,500 as U.S. strikes on Iran send oil above $93
-  - New York Fed's Williams says yield surge due to strong economic prospects
-- `fomc`: score 29, headlines 7
+- `bitcoin`: score 45, headlines 13
+  - DOJ says Hamas crypto seizures reached $560,000 as FBI took over fundraising sites
+  - Kraken parent Payward delays IPO to second quarter of 2027 at earliest
+  - Crypto made new friends in U.S. primaries, but focus now shifts to general election
+- `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `oil`: score 23, headlines 8
-  - Bitcoin slips below $76,500 as U.S. strikes on Iran send oil above $93
-  - Energy Secretary Chris Wright tells CNBC more than 17 million barrels of oil transited Hormuz on Monday
-  - Trump floats renaming Strait of Hormuz the 'Trump Strait'
-- `ethereum`: score 10, headlines 3
-  - CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years
-  - BTC will hit $1M by 2030... but Arthur Hayes is buying ETH instead
-  - Japan’s Remixpoint dumps altcoins, leaves 1,506 BTC as sole crypto bet
-- `us_big_tech`: score 6, headlines 2
-  - Apple shares are doing something they haven't done in 20 years. Here’s what’s happening
-  - Students and opposition activists targeted with spyware in Serbia
-- `us_index_flow`: score 6, headlines 2
+- `treasury_yields`: score 18, headlines 7
+  - Bitcoin’s apparent demand turns negative as price struggles with $77K
   - Rising Treasury yields could rattle US stocks as earnings season ends - Reuters
-  - S&P 500, Dow rise as AI boost counters US-Iran tensions - Reuters
-- `cpi`: score 4, headlines 2
-  - Fed’s Williams ‘is opening options’ to interest-rate hikes. Why that could be ‘a bad trade.’
-  - Investors Still on Edge Over War, Debt and Inflation
-- `china`: score 3, headlines 1
-  - China derails consensus after US-hosted G20
-- `ai_semiconductors`: score 2, headlines 1
+  - Bond selloff deepens as oil prices and public debt fears jolt markets - Reuters
+- `oil`: score 10, headlines 4
+  - Bond selloff deepens as oil prices and public debt fears jolt markets - Reuters
+  - Chevron to double Venezuela oil production with $7bn pledge
+  - Chevron Expansion in Venezuela Extends U.S. Influence Over Oil Riches
+- `us_big_tech`: score 10, headlines 4
+  - Microsoft to start disclosing Azure quarterly revenue as company consolidates business units
+  - Apple shares are doing something they haven't done in 20 years. Here’s what’s happening
+  - HPE follows in Dell’s footsteps as it rides the AI server boom to a big earnings beat
+- `china`: score 10, headlines 1
+  - 중국공산당
+- `ai_semiconductors`: score 7, headlines 3
+  - South Korea's semiconductor exports just tripled year-over-year. Is it too much of a good thing?
+  - Nvidia’s stock is climbing as investors get more confidence in an expanding base of AI customers
   - Silicon shadows: inside the black market for AI chips | FT Film
+- `ethereum`: score 4, headlines 1
+  - CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years
+- `dollar`: score 3, headlines 1
+  - Stocks climb and US yields ease; yen jumps against dollar - Reuters
+- `us_index_flow`: score 3, headlines 1
+  - Rising Treasury yields could rattle US stocks as earnings season ends - Reuters

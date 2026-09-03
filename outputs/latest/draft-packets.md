@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-09-02T16:27:34.639561+00:00`
+- 생성 시각: `2026-09-03T03:57:41.054399+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
-- 점수: 94.0
+- 각도: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- 점수: 86.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,7 +70,6 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - A Fed rate increase would be a mistake, some observers say as bitcoin, gold, stocks fall
 
 ## 2. bitcoin
 
@@ -136,17 +135,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - DOJ says Hamas crypto seizures reached $560,000 as FBI took over fundraising sites
+  - Kraken parent Payward delays IPO to second quarter of 2027 at earliest
+  - Crypto made new friends in U.S. primaries, but focus now shifts to general election
   - Crypto Long & Short: Crypto VCs are mistaking consensus for discipline
   - CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years
-  - The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back
-  - Capital B aims to add 376 BTC to bitcoin treasury following $8.8 million Adam Back investment
-  - A Fed rate increase would be a mistake, some observers say as bitcoin, gold, stocks fall
 
 ## 3. us_big_tech
 
 - 추천 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 - 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 56.0
+- 점수: 67.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,14 +205,16 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Microsoft to start disclosing Azure quarterly revenue as company consolidates business units
   - Apple shares are doing something they haven't done in 20 years. Here’s what’s happening
-  - Students and opposition activists targeted with spyware in Serbia
+  - HPE follows in Dell’s footsteps as it rides the AI server boom to a big earnings beat
+  - Nvidia’s stock is climbing as investors get more confidence in an expanding base of AI customers
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 섹터/세계 흐름 연결 해설 가능
-- 점수: 45.0
+- 각도: 검색 트렌드 반응 존재, 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (중국공산당)
+- 점수: 57.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -273,4 +274,4 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - China derails consensus after US-hosted G20
+  - 중국공산당

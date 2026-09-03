@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "DOJ says Hamas crypto seizures reached $560,000 as FBI took over fundraising sites",
+    "Kraken parent Payward delays IPO to second quarter of 2027 at earliest",
+    "Crypto made new friends in U.S. primaries, but focus now shifts to general election",
     "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline",
-    "CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years",
-    "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back",
-    "Capital B aims to add 376 BTC to bitcoin treasury following $8.8 million Adam Back investment",
-    "A Fed rate increase would be a mistake, some observers say as bitcoin, gold, stocks fall"
+    "CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
