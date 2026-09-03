@@ -1,28 +1,12 @@
 {
-  "generated_at": "2026-09-03T03:57:41.054399+00:00",
+  "generated_at": "2026-09-03T16:18:13.032886+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "china",
-      "trend_count": 1,
-      "traffic_score_sum": 500,
-      "max_approx_traffic": 500,
-      "trend_queries": [
-        "중국공산당"
-      ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 700,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -30,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5700,
+      "demand_signal_score": 6100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 45,
+      "source_snapshot_score": 49,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -42,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "DOJ says Hamas crypto seizures reached $560,000 as FBI took over fundraising sites",
-        "Kraken parent Payward delays IPO to second quarter of 2027 at earliest",
-        "Crypto made new friends in U.S. primaries, but focus now shifts to general election"
+        "Standard Chartered brings spot crypto trading to Dubai FX platform",
+        "Crypto for Advisors: Why crypto earnings reports can be misleading",
+        "A memecoin making app becomes crypto’s top fee generators as Robinhood Chain activity explodes"
       ]
     },
     {
@@ -54,14 +38,18 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 4700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 1,
+      "source_snapshot_score": 35,
+      "source_count": 5,
       "source_names": [
-        "Federal Reserve Monetary Policy Press"
+        "CoinDesk RSS",
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -70,7 +58,7 @@
       ]
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -81,40 +69,43 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 18,
-      "source_count": 4,
+      "source_count": 5,
       "source_names": [
+        "CNBC Top News",
         "Cointelegraph",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "Financial Times Home",
+        "Financial Times YouTube",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Bitcoin’s apparent demand turns negative as price struggles with $77K",
-        "Rising Treasury yields could rattle US stocks as earnings season ends - Reuters",
-        "Bond selloff deepens as oil prices and public debt fears jolt markets - Reuters"
+        "Nvidia buys Hugging Face for $12.9B in push into AI software",
+        "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC",
+        "Anthropic's distillation battle turns to the dark web as China concerns swell"
       ]
     },
     {
-      "keyword": "us_big_tech",
+      "keyword": "dollar",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2200,
+      "demand_signal_score": 2900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 10,
-      "source_count": 2,
+      "source_snapshot_score": 17,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
-        "MarketWatch Breaking News"
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Financial Times Home"
       ],
       "sample_titles": [
-        "Microsoft to start disclosing Azure quarterly revenue as company consolidates business units",
-        "Apple shares are doing something they haven't done in 20 years. Here’s what’s happening",
-        "HPE follows in Dell’s footsteps as it rides the AI server boom to a big earnings beat"
+        "The yen is surging and it’s helping bitcoin, for now",
+        "Live updates: Bitcoin jumps above $81,000 as rates fall, dollar weakens",
+        "Kraken parent Payward partners with SoFi on stablecoin, 24/7 settlement"
       ]
     }
   ],
