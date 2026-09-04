@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "U.S. banking agency gives blockchain bank OpenReserve initial OK to operate",
     "Standard Chartered brings spot crypto trading to Dubai FX platform",
     "Crypto for Advisors: Why crypto earnings reports can be misleading",
     "A memecoin making app becomes crypto’s top fee generators as Robinhood Chain activity explodes",
-    "SoFi, Kraken tie up as crypto and banking push into each other's turf",
-    "FX has stopped reading bond yields the old way. Bitcoin should too."
+    "SoFi, Kraken tie up as crypto and banking push into each other's turf"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
