@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T03:59:15.874478+00:00",
+  "generated_at": "2026-09-04T16:13:31.683233+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -58,13 +58,16 @@
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "Vance says Fed should lower interest rates: 'Would be nice to have some help'"
+        "U.S. added stronger than expected 162,000 jobs in August as labor market bounced back"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
+        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
+        "Financial Times Home",
+        "Financial Times World",
+        "NYT Business"
       ],
       "trend_queries": [],
       "trend_regions": [],
@@ -92,7 +95,7 @@
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -101,11 +104,11 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "U.S. banking agency gives blockchain bank OpenReserve initial OK to operate",
-        "Standard Chartered brings spot crypto trading to Dubai FX platform",
-        "Crypto for Advisors: Why crypto earnings reports can be misleading",
-        "A memecoin making app becomes crypto’s top fee generators as Robinhood Chain activity explodes",
-        "SoFi, Kraken tie up as crypto and banking push into each other's turf"
+        "From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs",
+        "U.S. Sheriff’s association shifts opposition stance to Clarity Act to 'neutral'",
+        "We checked 6 years of bitcoin data. The NFP report isn't big price mover",
+        "Bitcoin clears $81,000 as privacy coins lead a broad crypto rally",
+        "IMF confirms El Salvador’s bitcoin growth was funded by private donations, not public money"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -116,7 +119,7 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 6300,
+      "demand_signal_score": 5600,
       "search_score": 29,
       "timeliness_score": 18,
       "explanatory_score": 17,
@@ -124,12 +127,10 @@
       "risk_score": 3,
       "performance_bonus": 0.0,
       "search_demand_bonus": 3,
-      "crypto_market_signal_bonus": 3,
-      "crypto_market_sentiment": "risk_on",
-      "crypto_market_signal_notes": [
-        "BTCUSDT 24h change 4.12%"
-      ],
-      "total_score": 85.0,
+      "crypto_market_signal_bonus": 1,
+      "crypto_market_sentiment": "mixed",
+      "crypto_market_signal_notes": [],
+      "total_score": 83.0,
       "format": "crypto_analysis"
     },
     {
@@ -141,7 +142,7 @@
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -150,13 +151,12 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC",
+        "Anthropic’s $2tn IPO puts powerful external trustees in spotlight",
         "OpenAI says it has overtaken Anthropic with its latest AI model",
         "Silicon shadows: inside the black market for AI chips | FT Film"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
         "Financial Times Home",
         "Financial Times YouTube"
       ],
@@ -164,8 +164,8 @@
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 12,
-      "timeliness_score": 12,
+      "search_score": 10,
+      "timeliness_score": 10,
       "explanatory_score": 18,
       "monetization_score": 15,
       "risk_score": 7,
@@ -174,7 +174,7 @@
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 64.0,
+      "total_score": 60.0,
       "format": "sector_analysis"
     },
     {
@@ -186,7 +186,7 @@
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -195,29 +195,27 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "Europe’s seven fantasy M&A deals",
-        "Volkswagen Plans to Cut 50,000 Jobs"
+        "Russia’s Sechin says China, not OPEC, calls shots on global energy markets - Reuters"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Financial Times Home",
-        "NYT Business"
+        "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 8,
-      "timeliness_score": 10,
+      "search_score": 4,
+      "timeliness_score": 5,
       "explanatory_score": 17,
-      "monetization_score": 13,
+      "monetization_score": 12,
       "risk_score": 7,
       "performance_bonus": 0.0,
       "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 55.0,
+      "total_score": 45.0,
       "format": "macro_explainer"
     },
     {
@@ -229,7 +227,7 @@
         "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유",
         "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -238,33 +236,34 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "FX has stopped reading bond yields the old way. Bitcoin should too.",
-        "Bond selloff is likely amplified by obscure economic rate - Reuters",
-        "Bond yields fall, stocks rally as Fed's Waller comments curb rate hike bets - Reuters",
-        "Mortgage Rates Hit 6.71%, Their Highest Level Since July 2025",
-        "Bessent Blames Ukraine for High Energy Prices"
+        "World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings",
+        "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them",
+        "Norway's $2 trillion sovereign fund proposes deep cuts to US Treasury holdings - Reuters",
+        "Here’s how people are building their nest eggs using ‘rent and invest’ strategies",
+        "Jobs and Iran add to Trump’s midterm headaches. Why that’s good for bonds and bad for energy stocks."
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CoinDesk RSS",
+        "CNBC Top News",
+        "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2600,
-      "search_score": 18,
-      "timeliness_score": 18,
-      "explanatory_score": 19,
+      "demand_signal_score": 2700,
+      "search_score": 19,
+      "timeliness_score": 20,
+      "explanatory_score": 18,
       "monetization_score": 15,
-      "risk_score": 6,
+      "risk_score": 8,
       "performance_bonus": 0.0,
       "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 76.0,
+      "total_score": 80.0,
       "format": "macro_explainer"
     }
   ]

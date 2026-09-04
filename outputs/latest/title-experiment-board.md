@@ -4,7 +4,7 @@
 
 - status: `ready_for_manual_title_ab_testing`
 - measurement_note: Search Console 연결 전에는 실제 CTR 검증이 불가하므로, 검색 의도 기반 후보를 준비합니다.
-- crypto_market_sentiment: `risk_on`
+- crypto_market_sentiment: `mixed`
 
 ## Next Actions
 
@@ -40,7 +40,7 @@
 - current_title: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - recommended_title: 비트코인 가격보다 먼저 볼 것: ETF 자금과 달러 흐름
 - recommended_angle: `fund-flow`
-- demand_signal_score: `6300`
+- demand_signal_score: `5600`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
 
 ### Variants
@@ -106,7 +106,7 @@
 - current_title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 - recommended_title: 미국채 금리 상승이 나스닥과 코인에 부담이 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `2600`
+- demand_signal_score: `2700`
 - public_url: `missing`
 
 ### Variants
