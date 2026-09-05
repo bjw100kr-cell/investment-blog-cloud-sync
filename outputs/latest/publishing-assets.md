@@ -1,6 +1,6 @@
 # 퍼블리싱 자산
 
-- 생성 시각: `2026-09-05T03:56:22.201845+00:00`
+- 생성 시각: `2026-09-05T15:01:26.220613+00:00`
 
 ## 1. fomc
 
@@ -50,18 +50,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.
 
-## 4. china
+## 4. tariffs_trade
 
-- 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- slug: `중국-변수와-시장-영향-해설`
-- meta title: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- meta description: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
+- 제목: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- slug: `관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기`
+- meta title: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- meta description: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - 카테고리: global-sector
 - 추천 발행일: 2026-09-08
-- labels: 투자, 경제, 시장해설, 중국, 세계흐름, 거시경제
+- labels: 투자, 경제, 시장해설, 관세, 무역, 세계흐름
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 - 이미지 추천: 대표 이미지(Unsplash / technology stocks office finance abstract), 본문 보조 이미지(Pexels / semiconductor data center abstract)
-- 후속 글 후보: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기, 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나, 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 - 광고 슬롯: after_intro, mid_article, before_related_links
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.

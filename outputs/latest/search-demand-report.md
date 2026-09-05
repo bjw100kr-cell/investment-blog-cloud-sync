@@ -1,27 +1,21 @@
 # 검색 수요 신호 리포트
 
-- 생성 시각: `2026-09-05T03:56:22.201845+00:00`
+- 생성 시각: `2026-09-05T15:01:26.220613+00:00`
 - 트렌드 아이템 수: `16`
-- 매칭된 키워드 수: `5`
-- 약한 트렌드 fallback 수: `4`
+- 매칭된 키워드 수: `3`
+- 약한 트렌드 fallback 수: `3`
 
 ## 키워드별 트렌드 수요
 
-- `jobs`: demand 400 / trend_count 1 / traffic_sum 200 / regions KR
-  - confidence: `high` / Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다.
-  - trend query: 실업급여
-- `bitcoin`: demand 6200 / trend_count 0 / traffic_sum 0 / regions unknown
+- `bitcoin`: demand 6800 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 50 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: demand 5900 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 56 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: demand 5600 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 47 / sources CNBC Top News, CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, Financial Times Home
-- `ai_semiconductors`: demand 2500 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 44 / sources CNBC Top News, CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, Investing.com Crypto News
+- `treasury_yields`: demand 2100 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 13 / sources Financial Times Home, Financial Times World, Financial Times YouTube, MarketWatch Breaking News
-- `us_big_tech`: demand 2400 / trend_count 0 / traffic_sum 0 / regions unknown
-  - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 12 / sources CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business
+  - fallback: source snapshot score 9 / sources Financial Times Home, Financial Times World
 
 ## 아직 못 주운 시장성 트렌드
 

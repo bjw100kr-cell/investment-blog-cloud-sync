@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-05T03:56:22.201845+00:00`
+- 생성 시각: `2026-09-05T15:01:26.220613+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,46 +106,42 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 50, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 47, source_count 9, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 13, source_count 4, sources Financial Times Home, Financial Times World, Financial Times YouTube, MarketWatch Breaking News
-- `us_big_tech`: score 12, source_count 4, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business
-- `jobs`: score 10, source_count 2, sources Cointelegraph, Google Trends KR
-- `cpi`: score 5, source_count 2, sources NYT Business, Reuters Markets via Google News RSS
-- `treasury_yields`: score 3, source_count 1, sources CNBC Top News
-- `dollar`: score 3, source_count 1, sources Reuters Markets via Google News RSS
-- `china`: score 3, source_count 1, sources Financial Times World
+- `bitcoin`: score 56, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 44, source_count 7, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- `treasury_yields`: score 9, source_count 2, sources Financial Times Home, Financial Times World
+- `jobs`: score 6, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
+- `tariffs_trade`: score 6, source_count 2, sources Financial Times Home, Financial Times World
+- `ai_semiconductors`: score 4, source_count 2, sources Financial Times YouTube, NYT Business
+- `crypto_etf`: score 3, source_count 1, sources Cointelegraph
+- `oil`: score 3, source_count 1, sources CNBC Top News
 - `us_index_flow`: score 2, source_count 1, sources MarketWatch Breaking News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 50, headlines 15
+- `bitcoin`: score 56, headlines 17
+  - British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million
+  - Southeast Asia’s crypto funding rebounds to $680 million as investors focus on mature firms
   - From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs
-  - U.S. Sheriff’s association shifts opposition stance to Clarity Act to 'neutral'
-  - We checked 6 years of bitcoin data. The NFP report isn't big price mover
-- `fomc`: score 47, headlines 13
+- `fomc`: score 44, headlines 12
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `ai_semiconductors`: score 13, headlines 5
-  - Anthropic close to awarding Morgan Stanley and Goldman top roles in $2tn IPO
-  - Anthropic’s $2tn IPO puts powerful external trustees in spotlight
-  - Micron is doubling down on AI memory chips. That could pay off big time for investors.
-- `us_big_tech`: score 12, headlines 5
-  - Tesla's stock drops 6% as Cybercab update 'underwhelms' Wall Street
-  - John Ternus, Apple’s new ‘wicked calm’ CEO
-  - Tesla’s stock falls as Cybercab launch lands with a thud
-- `jobs`: score 10, headlines 2
-  - 실업급여
+- `treasury_yields`: score 9, headlines 3
+  - Treasury sell-off piles pressure on weakest US borrowers
+  - The gloves are starting to come off in markets
+  - Treasury sell-off piles pressure on weakest US borrowers
+- `jobs`: score 6, headlines 2
   - Surprise nonfarm payrolls print sends Bitcoin back below 80K
-- `cpi`: score 5, headlines 2
-  - PODCAST: Waller's inflation signal - Reuters
-  - Robust Hiring Reinforces Strength of the U.S. Economy
-- `china`: score 3, headlines 1
-  - Maga’s favourite combat sport takes off in China
-- `dollar`: score 3, headlines 1
-  - EXCLUSIVE: Chinese banks purchasing Treasuries after wooing dollar deposits, sources say - Reuters
-- `treasury_yields`: score 3, headlines 1
-  - World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings
-- `oil`: score 2, headlines 1
-  - The U.S. Wants the Oil From These 17 Venezuelan Fields
+  - US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1% - Reuters
+- `tariffs_trade`: score 6, headlines 2
+  - Treasury sell-off piles pressure on weakest US borrowers
+  - Treasury sell-off piles pressure on weakest US borrowers
+- `ai_semiconductors`: score 4, headlines 2
+  - Silicon shadows: inside the black market for AI chips | FT Film
+  - Authors Wrangle With Publishers Over $1.5 Billion Anthropic A.I. Settlement
+- `crypto_etf`: score 3, headlines 1
+  - Bitcoin ETF inflows hit $3.8B in strongest three-week stretch of 2026
+- `oil`: score 3, headlines 1
+  - Trump’s state capitalism comes to the oil industry with his unprecedented Venezuela deal
+- `us_index_flow`: score 2, headlines 1
+  - Vanguard’s S&P 500 index fund changed how we invest — but there may be a smarter way to get a piece of the market
