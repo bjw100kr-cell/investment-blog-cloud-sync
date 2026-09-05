@@ -115,7 +115,7 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "대표 종목, 실적 일정, 공급망 글까지 이어서 보면 섹터 흐름이 더 잘 보입니다.",
   "source_names": [
-    "Reuters Markets via Google News RSS"
+    "Financial Times World"
   ],
   "reference_headlines": [
     "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나"

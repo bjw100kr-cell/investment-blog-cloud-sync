@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-09-04T16:13:31.683233+00:00",
+  "generated_at": "2026-09-05T03:56:22.201845+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "jobs",
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
+      "trend_queries": [
+        "실업급여"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,11 +30,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5600,
+      "demand_signal_score": 6200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 44,
+      "source_snapshot_score": 50,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -38,18 +54,18 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4700,
+      "demand_signal_score": 5900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 35,
-      "source_count": 6,
+      "source_snapshot_score": 47,
+      "source_count": 9,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
+        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Financial Times World"
+        "Financial Times Home"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -58,52 +74,53 @@
       ]
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2700,
+      "demand_signal_score": 2500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 15,
+      "source_snapshot_score": 13,
       "source_count": 4,
-      "source_names": [
-        "CNBC Top News",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings",
-        "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them",
-        "Norway's $2 trillion sovereign fund proposes deep cuts to US Treasury holdings - Reuters"
-      ]
-    },
-    {
-      "keyword": "oil",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2000,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 8,
-      "source_count": 3,
       "source_names": [
         "Financial Times Home",
         "Financial Times World",
+        "Financial Times YouTube",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "Anthropic close to awarding Morgan Stanley and Goldman top roles in $2tn IPO",
+        "Anthropic’s $2tn IPO puts powerful external trustees in spotlight",
+        "Micron is doubling down on AI memory chips. That could pay off big time for investors."
+      ]
+    },
+    {
+      "keyword": "us_big_tech",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2400,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 12,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
         "NYT Business"
       ],
       "sample_titles": [
-        "Trump-linked companies race to secure deals for Venezuela’s oil",
-        "Venezuela’s jumbo oil deal does little to appease its creditors",
-        "The U.S. Wants the Oil From These 17 Venezuelan Fields"
+        "Tesla's stock drops 6% as Cybercab update 'underwhelms' Wall Street",
+        "John Ternus, Apple’s new ‘wicked calm’ CEO",
+        "Tesla’s stock falls as Cybercab launch lands with a thud"
       ]
     }
   ],

@@ -1,18 +1,18 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-09-04T16:13:31.683233+00:00`
+- 생성 시각: `2026-09-05T03:56:22.201845+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
-- `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 점수 94.0 / 수익화 15
-  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
-  - 근거 소스: CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, NYT Business
+- `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 점수 97.0 / 수익화 15
+  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (9개), 거시 해설형 글로 전환 가치 높음
+  - 근거 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
 - `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 83.0 / 수익화 15
   - 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
   - 근거 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `ai_semiconductors`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 점수 60.0 / 수익화 15
-  - 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-  - 근거 소스: Financial Times Home, Financial Times YouTube
+- `ai_semiconductors`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 점수 77.0 / 수익화 15
+  - 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+  - 근거 소스: Financial Times Home, Financial Times World, Financial Times YouTube, MarketWatch Breaking News
 
 ## 브랜드 레인 우선순위
 
@@ -27,10 +27,11 @@
 
 ## 무료 트렌드 수요 신호
 
+- `jobs`: trend_count 1, traffic_sum 200, regions KR / 쿼리 실업급여
 - `bitcoin`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 - `fomc`: trend_count 0, traffic_sum 0, regions  / 쿼리 
-- `treasury_yields`: trend_count 0, traffic_sum 0, regions  / 쿼리 
-- `oil`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `ai_semiconductors`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `us_big_tech`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 
 ## 다음 7일 실행 포인트
 

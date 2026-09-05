@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-09-04T16:13:31.683233+00:00`
+- 생성 시각: `2026-09-05T03:56:22.201845+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
-- 점수: 94.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (9개), 거시 해설형 글로 전환 가치 높음
+- 점수: 97.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -145,8 +145,8 @@
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 60.0
+- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 77.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,9 +206,11 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Anthropic close to awarding Morgan Stanley and Goldman top roles in $2tn IPO
   - Anthropic’s $2tn IPO puts powerful external trustees in spotlight
-  - OpenAI says it has overtaken Anthropic with its latest AI model
+  - Micron is doubling down on AI memory chips. That could pay off big time for investors.
   - Silicon shadows: inside the black market for AI chips | FT Film
+  - Anthropic close to awarding Morgan Stanley and Goldman top roles in $2tn IPO
 
 ## 4. china
 
@@ -274,4 +276,4 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Russia’s Sechin says China, not OPEC, calls shots on global energy markets - Reuters
+  - Maga’s favourite combat sport takes off in China

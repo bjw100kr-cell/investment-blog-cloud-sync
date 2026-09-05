@@ -1,15 +1,15 @@
 # Publish Ready Report
 
-- generated_at: `2026-09-04T16:13:35.431477+00:00`
+- generated_at: `2026-09-05T03:56:26.085359+00:00`
 
-## seo_treasury_yields_7
+## seo_jobs_7
 
 - ready: True
 - reason: ok
-- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국채-금리-상승-이유-지금-투자자가-확인할-체크포인트-5가지.html
-- meta_title: 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지
-- meta_description: 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
-- follow_up_post_count: 2
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-jobs-지금-투자자가-확인할-체크포인트-5가지.html
+- meta_title: jobs: 지금 투자자가 확인할 체크포인트 5가지
+- meta_description: jobs: 지금 투자자가 확인할 체크포인트 5가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
+- follow_up_post_count: 0
 
 ## seo_china_12
 
