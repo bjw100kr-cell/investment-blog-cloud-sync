@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-09-05T15:01:28.800267+00:00`
+- generated_at: `2026-09-06T04:02:13.364231+00:00`
 
 ## fomc
 
@@ -29,11 +29,11 @@
 - meta_description: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 3
 
-## tariffs_trade
+## oil
 
 - ready: True
 - reason: ok
-- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기.html
-- meta_title: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
-- meta_description: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-유가-상승이-물가와-증시에-번지는-경로-투자자가-볼-3가지.html
+- meta_title: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+- meta_description: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
 - follow_up_post_count: 0

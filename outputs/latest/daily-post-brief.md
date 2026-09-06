@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-09-05T15:01:26.220613+00:00`
+- 생성 시각: `2026-09-06T04:02:09.957493+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `97.0`
-- 점수 구성: 검색성 29 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- 총점: `96.0`
+- 점수 구성: 검색성 28 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Cointelegraph, Federal Reserve Monetary Policy Press, Investing.com Crypto News, Reuters Markets via Google News RSS
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,7 +27,7 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - U.S. added stronger than expected 162,000 jobs in August as labor market bounced back
+  - Surprise nonfarm payrolls print sends Bitcoin back below 80K
 
 ## 2. bitcoin
 
@@ -48,11 +48,11 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Why crypto experts say buying and holding bitcoin easily beats trying to time the market
   - British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million
   - Southeast Asia’s crypto funding rebounds to $680 million as investors focus on mature firms
   - From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs
   - U.S. Sheriff’s association shifts opposition stance to Clarity Act to 'neutral'
-  - We checked 6 years of bitcoin data. The NFP report isn't big price mover
 
 ## 3. ai_semiconductors
 
@@ -76,40 +76,18 @@
   - Silicon shadows: inside the black market for AI chips | FT Film
   - Authors Wrangle With Publishers Over $1.5 Billion Anthropic A.I. Settlement
 
-## 4. tariffs_trade
-
-- 카테고리: `global-sector`
-- 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `57.0`
-- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 18 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times Home, Financial Times World
-- 제목 후보:
-  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
-  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유
-  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
-- 글 구조:
-  - 왜 지금 이 이슈가 중요한가
-  - 실제로 발표되거나 벌어진 일
-  - 주식·코인·달러·금리에 주는 영향
-  - 앞으로 체크할 변수
-  - 개인 투자자가 볼 포인트
-- 참고 헤드라인:
-  - Treasury sell-off piles pressure on weakest US borrowers
-  - Treasury sell-off piles pressure on weakest US borrowers
-
-## 5. treasury_yields
+## 4. oil
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `65.0`
-- 점수 구성: 검색성 12 / 시의성 13 / 설명가치 18 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `61.0`
+- 점수 구성: 검색성 12 / 시의성 13 / 설명가치 16 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 소스: Financial Times Home, Financial Times World
+- 소스: CNBC Top News, Financial Times World
 - 제목 후보:
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -117,6 +95,29 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Treasury sell-off piles pressure on weakest US borrowers
-  - The gloves are starting to come off in markets
-  - Treasury sell-off piles pressure on weakest US borrowers
+  - Trump’s state capitalism comes to the oil industry with his unprecedented Venezuela deal
+  - U.S. attacks 3 Iranian oil tankers after missiles target Navy warships
+  - US strikes three Iranian oil tankers in response to attacks on warships
+
+## 5. crypto_etf
+
+- 카테고리: `crypto`
+- 브랜드 레인: `crypto` (코인)
+- 총점: `60.0`
+- 점수 구성: 검색성 8 / 시의성 7 / 설명가치 18 / 수익성 15 / 리스크역점수 4 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 8
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)
+- 코인 시장 신호: SOLUSDT 24h change 4.09%; BNBUSDT 24h change 5.72%; DOGEUSDT 24h change 7.95%
+- 소스: Cointelegraph, Investing.com Crypto News
+- 제목 후보:
+  - 코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리
+  - 코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리: 지금 시장이 반응하는 이유
+  - 코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리
+- 글 구조:
+  - 오늘 코인 시장 핵심 변화
+  - 가격이 아니라 구조상 중요한 포인트
+  - ETF/유동성/규제/온체인과의 연결
+  - 강세 시나리오와 리스크
+  - 내일 확인할 체크포인트
+- 참고 헤드라인:
+  - Bitcoin ETF inflows hit $3.8B in strongest three-week stretch of 2026
+  - Bitcoin holds below $80,000 as jobs data lifts Fed hike bets; ETF inflows continue

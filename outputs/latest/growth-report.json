@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:01:26.220613+00:00",
+  "generated_at": "2026-09-06T04:02:09.957493+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -14,16 +14,14 @@
     {
       "keyword": "fomc",
       "recommended_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
-      "total_score": 97.0,
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "total_score": 96.0,
       "monetization_score": 15,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
         "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
         "Investing.com Crypto News",
-        "NYT Business",
         "Reuters Markets via Google News RSS"
       ]
     },
@@ -63,34 +61,25 @@
     },
     {
       "category": "global-sector",
-      "post_count": 2,
+      "post_count": 1,
       "keywords": [
-        "ai_semiconductors",
-        "tariffs_trade"
+        "ai_semiconductors"
       ],
-      "avg_monetization_score": 14.5,
-      "weighted_priority_score": 15.23
+      "avg_monetization_score": 15.0,
+      "weighted_priority_score": 15.75
     },
     {
       "category": "macro",
-      "post_count": 1,
+      "post_count": 2,
       "keywords": [
-        "fomc"
+        "fomc",
+        "oil"
       ],
-      "avg_monetization_score": 15.0,
-      "weighted_priority_score": 15.0
+      "avg_monetization_score": 14.0,
+      "weighted_priority_score": 14.0
     }
   ],
   "brand_lane_summary": [
-    {
-      "brand_lane": "macro",
-      "label": "거시경제",
-      "post_count": 1,
-      "keywords": [
-        "fomc"
-      ],
-      "avg_monetization_score": 15.0
-    },
     {
       "brand_lane": "crypto",
       "label": "코인",
@@ -110,11 +99,12 @@
       "avg_monetization_score": 15.0
     },
     {
-      "brand_lane": "world-flow",
-      "label": "세계 흐름",
-      "post_count": 1,
+      "brand_lane": "macro",
+      "label": "거시경제",
+      "post_count": 2,
       "keywords": [
-        "tariffs_trade"
+        "fomc",
+        "oil"
       ],
       "avg_monetization_score": 14.0
     }
@@ -138,7 +128,7 @@
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "oil",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -151,14 +141,14 @@
       "lane_focus_macro": 1,
       "lane_focus_crypto": 1,
       "lane_focus_us-stocks": 1,
-      "lane_focus_world-flow": 1,
+      "support": 1,
       "evergreen_support": 1,
       "secondary_lane_support": 1,
       "weekly_recap": 1
     },
     "post_types": {
-      "breaking_explainer": 4,
-      "evergreen_explainer": 2,
+      "breaking_explainer": 3,
+      "evergreen_explainer": 3,
       "weekly_macro_recap": 1
     },
     "days_scheduled": 7
@@ -196,7 +186,7 @@
         ],
         "paragraph_count": 32,
         "short_paragraphs": 23,
-        "long_paragraphs": 3,
+        "long_paragraphs": 2,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
         "dominant_sentence_ending_ratio": 0.106
@@ -266,8 +256,8 @@
         "dominant_sentence_ending_ratio": 0.092
       },
       {
-        "keyword": "tariffs_trade",
-        "recommended_title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+        "keyword": "oil",
+        "recommended_title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
         "score": 92,
         "robotic_phrase_hits": [],
         "reader_bridge_hits": [
@@ -295,13 +285,13 @@
         "long_paragraphs": 3,
         "intro_direct_address": true,
         "dominant_sentence_ending": "있습니다",
-        "dominant_sentence_ending_ratio": 0.109
+        "dominant_sentence_ending_ratio": 0.123
       }
     ]
   },
   "performance_feedback_available": false,
   "next_actions": [
-    "다음 7일은 `거시경제` 레인을 메인 허브로 밀고, 다른 레인은 보조 내부링크와 후속 글로 연결합니다.",
+    "다음 7일은 `코인` 레인을 메인 허브로 밀고, 다른 레인은 보조 내부링크와 후속 글로 연결합니다.",
     "Search Console 데이터가 아직 약하니, Google Trends와 당일 헤드라인으로 1차 주제 발굴을 이어갑니다.",
     "문체 평균 점수 `92.0`로 기준 이상이므로, 이제는 제목 클릭률과 내부링크 동선을 더 키웁니다.",
     "당일 속보 1개와 검색형 evergreen 1개를 짝으로 묶어, 트래픽과 누적 검색 유입을 동시에 노립니다."

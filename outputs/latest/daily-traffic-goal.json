@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:01:26.220613+00:00",
+  "generated_at": "2026-09-06T04:02:09.957493+00:00",
   "target_daily_visitors": 200,
   "projected_daily_visitors": 246,
   "gap_to_target": 0,
@@ -9,8 +9,8 @@
       "keyword": "fomc",
       "brand_lane": "macro",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "demand_signal_score": 5600,
-      "total_score": 97.0,
+      "demand_signal_score": 5000,
+      "total_score": 96.0,
       "quality_status": "pass",
       "ready_to_upload": true,
       "crypto_market_signal_bonus": 0,
@@ -53,8 +53,8 @@
       "keyword": "fomc",
       "brand_lane": "macro",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "demand_signal_score": 5600,
-      "total_score": 97.0,
+      "demand_signal_score": 5000,
+      "total_score": 96.0,
       "quality_status": "pass",
       "ready_to_upload": true,
       "crypto_market_signal_bonus": 0,
@@ -92,32 +92,36 @@
       "recommended_action": "대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장"
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "oil",
       "brand_lane": "macro",
-      "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+      "title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
       "demand_signal_score": 2100,
-      "total_score": 65.0,
-      "quality_status": "unknown",
-      "ready_to_upload": false,
-      "crypto_market_signal_bonus": 0,
-      "crypto_market_sentiment": "",
-      "crypto_market_signal_notes": [],
-      "estimated_daily_visitors": 0,
-      "recommended_action": "발행 가능한 manifest/이미지/신선도 상태 보강"
-    },
-    {
-      "keyword": "tariffs_trade",
-      "brand_lane": "world-flow",
-      "title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
-      "demand_signal_score": 0,
-      "total_score": 57.0,
+      "total_score": 61.0,
       "quality_status": "review_before_publish",
       "ready_to_upload": true,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
       "estimated_daily_visitors": 0,
-      "recommended_action": "세계 흐름 해설 뒤 관련 섹터/환율 글로 연결"
+      "recommended_action": "금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결"
+    },
+    {
+      "keyword": "crypto_etf",
+      "brand_lane": "crypto",
+      "title": "코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리",
+      "demand_signal_score": 0,
+      "total_score": 60.0,
+      "quality_status": "unknown",
+      "ready_to_upload": false,
+      "crypto_market_signal_bonus": 8,
+      "crypto_market_sentiment": "risk_on",
+      "crypto_market_signal_notes": [
+        "SOLUSDT 24h change 4.09%",
+        "BNBUSDT 24h change 5.72%",
+        "DOGEUSDT 24h change 7.95%"
+      ],
+      "estimated_daily_visitors": 0,
+      "recommended_action": "발행 가능한 manifest/이미지/신선도 상태 보강"
     }
   ],
   "ready_topic_count": 3,
@@ -147,7 +151,7 @@
       "value": 73,
       "label": "Greed",
       "source": "alternative.me",
-      "timestamp": "1788566400"
+      "timestamp": "1788652800"
     },
     "providers": {
       "binance_plugin": false,

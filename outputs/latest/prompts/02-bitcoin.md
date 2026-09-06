@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Why crypto experts say buying and holding bitcoin easily beats trying to time the market",
     "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
     "Southeast Asia’s crypto funding rebounds to $680 million as investors focus on mature firms",
     "From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs",
-    "U.S. Sheriff’s association shifts opposition stance to Clarity Act to 'neutral'",
-    "We checked 6 years of bitcoin data. The NFP report isn't big price mover"
+    "U.S. Sheriff’s association shifts opposition stance to Clarity Act to 'neutral'"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
