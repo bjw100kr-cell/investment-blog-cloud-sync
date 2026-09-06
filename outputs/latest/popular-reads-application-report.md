@@ -8,7 +8,7 @@
   - reason: no_live_followup_urls
 - `ai_semiconductors` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls
-- `oil` / applied `False` / changed `False` / live picks `0`
+- `china` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls
 - `fomc` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls

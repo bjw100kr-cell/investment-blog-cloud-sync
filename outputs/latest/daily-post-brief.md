@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-09-06T04:02:09.957493+00:00`
+- 생성 시각: `2026-09-06T15:21:48.463860+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -35,7 +35,7 @@
 - 브랜드 레인: `crypto` (코인)
 - 총점: `83.0`
 - 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
@@ -48,20 +48,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - Why crypto experts say buying and holding bitcoin easily beats trying to time the market
+  - Better and Coinbase’s bitcoin-backed mortgages can reuse borrowers’ collateral
+  - Timing the bitcoin market is exciting but nearly impossible. Here's why
   - British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million
   - Southeast Asia’s crypto funding rebounds to $680 million as investors focus on mature firms
   - From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs
-  - U.S. Sheriff’s association shifts opposition stance to Clarity Act to 'neutral'
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `54.0`
-- 점수 구성: 검색성 7 / 시의성 7 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times YouTube, NYT Business
+- 총점: `63.0`
+- 점수 구성: 검색성 11 / 시의성 12 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Financial Times YouTube, NYT Business
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -73,17 +73,39 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
+  - ‘Model fatigue’ sets in as AI labs race to roll out new versions at frenetic pace
   - Silicon shadows: inside the black market for AI chips | FT Film
-  - Authors Wrangle With Publishers Over $1.5 Billion Anthropic A.I. Settlement
+  - How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips
 
-## 4. oil
+## 4. china
+
+- 카테고리: `global-sector`
+- 브랜드 레인: `world-flow` (세계 흐름)
+- 총점: `44.0`
+- 점수 구성: 검색성 3 / 시의성 5 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 섹터/세계 흐름 연결 해설 가능
+- 소스: NYT Business
+- 제목 후보:
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- 글 구조:
+  - 왜 지금 이 이슈가 중요한가
+  - 실제로 발표되거나 벌어진 일
+  - 주식·코인·달러·금리에 주는 영향
+  - 앞으로 체크할 변수
+  - 개인 투자자가 볼 포인트
+- 참고 헤드라인:
+  - How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips
+
+## 5. oil
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `61.0`
-- 점수 구성: 검색성 12 / 시의성 13 / 설명가치 16 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, Financial Times World
+- 총점: `70.0`
+- 점수 구성: 검색성 15 / 시의성 18 / 설명가치 16 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
   - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
@@ -96,28 +118,6 @@
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
   - Trump’s state capitalism comes to the oil industry with his unprecedented Venezuela deal
-  - U.S. attacks 3 Iranian oil tankers after missiles target Navy warships
-  - US strikes three Iranian oil tankers in response to attacks on warships
-
-## 5. crypto_etf
-
-- 카테고리: `crypto`
-- 브랜드 레인: `crypto` (코인)
-- 총점: `60.0`
-- 점수 구성: 검색성 8 / 시의성 7 / 설명가치 18 / 수익성 15 / 리스크역점수 4 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 8
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)
-- 코인 시장 신호: SOLUSDT 24h change 4.09%; BNBUSDT 24h change 5.72%; DOGEUSDT 24h change 7.95%
-- 소스: Cointelegraph, Investing.com Crypto News
-- 제목 후보:
-  - 코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리
-  - 코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리: 지금 시장이 반응하는 이유
-  - 코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리
-- 글 구조:
-  - 오늘 코인 시장 핵심 변화
-  - 가격이 아니라 구조상 중요한 포인트
-  - ETF/유동성/규제/온체인과의 연결
-  - 강세 시나리오와 리스크
-  - 내일 확인할 체크포인트
-- 참고 헤드라인:
-  - Bitcoin ETF inflows hit $3.8B in strongest three-week stretch of 2026
-  - Bitcoin holds below $80,000 as jobs data lifts Fed hike bets; ETF inflows continue
+  - OPEC+ keeps oil output policy unchanged for October - Reuters
+  - OPEC Plus to Keep Oil Production Steady
+  - Iran’s Attacks Keep the Strait of Hormuz in a Lethal Stalemate

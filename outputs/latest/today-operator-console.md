@@ -76,17 +76,17 @@
 
 - `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / verdict `approve` / publish `2026-09-07`
 - `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지` / keyword `ai_semiconductors` / verdict `approve` / publish `2026-09-08`
-- `유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지` / keyword `oil` / verdict `approve` / publish `2026-09-06`
+- `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / keyword `fomc` / verdict `approve` / publish `2026-09-10`
 
 ## 1.5. 하루 200명 목표
 
 - target: `200`
-- projected: `246`
+- projected: `248`
 - gap: `0`
 - status: `estimated_on_track_measurement_missing`
 - `fomc` 예상 `95`명: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - `bitcoin` 예상 `95`명: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- `ai_semiconductors` 예상 `56`명: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+- `ai_semiconductors` 예상 `58`명: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - actual_verified: `0`
 - proof_status: `measurement_missing`
 - proof_gap: `200`
@@ -94,7 +94,7 @@
 ## 2. 사용자 확인 명령
 
 - single: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin oil`
+- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - review board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/review-preview-board.html`
 - reply preview: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행"`
 - reply apply: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행" --apply`
