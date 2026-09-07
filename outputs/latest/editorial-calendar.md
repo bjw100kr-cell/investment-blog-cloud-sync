@@ -1,6 +1,6 @@
 # 7일 편집 캘린더
 
-- 생성 시각: `2026-09-06T15:21:48.463860+00:00`
+- 생성 시각: `2026-09-07T04:01:14.745817+00:00`
 - 목적: stale 뉴스는 직접 발행에서 빼고, 거시경제·코인·미국주식·세계 흐름 레인을 주간 단위로 균형 있게 유지
 
 ## 레인 커버리지
@@ -12,27 +12,27 @@
 
 ## 이번 주 배치 메모
 
-- lane `macro` / keyword `oil` / mode `direct` / freshness `fresh` / target_share `0.3`
+- lane `macro` / keyword `oil` / mode `direct` / freshness `unknown` / target_share `0.3`
 - lane `crypto` / keyword `bitcoin` / mode `direct` / freshness `fresh` / target_share `0.3`
 - lane `us-stocks` / keyword `ai_semiconductors` / mode `direct` / freshness `fresh` / target_share `0.2`
 - lane `world-flow` / keyword `china` / mode `direct` / freshness `unknown` / target_share `0.2`
 
-## Day 1 · 2026-09-06 · lane_focus_macro
+## Day 1 · 2026-09-07 · lane_focus_macro
 
 - 브랜드 레인: 거시경제
 - planning_mode: direct
-- freshness_status: fresh
+- freshness_status: unknown
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: oil
 - 작업 제목: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
-- 글 각도: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 글 각도: 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, NYT Business, Reuters Markets via Google News RSS
-- 근거 소스/연결 키워드: CNBC Top News, NYT Business, Reuters Markets via Google News RSS
-- 발행 메모: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
+- 내부링크 대상: NYT Business, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: NYT Business, Reuters Markets via Google News RSS
+- 발행 메모: 당일 이슈 해설형 글
 
-## Day 2 · 2026-09-07 · lane_focus_crypto
+## Day 2 · 2026-09-08 · lane_focus_crypto
 
 - 브랜드 레인: 코인
 - planning_mode: direct
@@ -47,7 +47,7 @@
 - 근거 소스/연결 키워드: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
-## Day 3 · 2026-09-08 · lane_focus_us-stocks
+## Day 3 · 2026-09-09 · lane_focus_us-stocks
 
 - 브랜드 레인: 미국주식
 - planning_mode: direct
@@ -55,14 +55,14 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: ai_semiconductors
 - 작업 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 글 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 글 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (반도체 메모리)
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Financial Times YouTube, NYT Business
-- 근거 소스/연결 키워드: CNBC Top News, Financial Times YouTube, NYT Business
+- 내부링크 대상: Financial Times YouTube, Google Trends KR, NYT Business
+- 근거 소스/연결 키워드: Financial Times YouTube, Google Trends KR, NYT Business
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
-## Day 4 · 2026-09-09 · lane_focus_world-flow
+## Day 4 · 2026-09-10 · lane_focus_world-flow
 
 - 브랜드 레인: 세계 흐름
 - planning_mode: direct
@@ -77,7 +77,7 @@
 - 근거 소스/연결 키워드: NYT Business
 - 발행 메모: 당일 이슈 해설형 글
 
-## Day 5 · 2026-09-10 · evergreen_support
+## Day 5 · 2026-09-11 · evergreen_support
 
 - 브랜드 레인: 거시경제
 - planning_mode: evergreen
@@ -92,7 +92,7 @@
 - 근거 소스/연결 키워드: fomc, cpi, pce, jobs, treasury_yields, dollar
 - 발행 메모: 검색 저변을 넓히는 설명형 글
 
-## Day 6 · 2026-09-11 · secondary_lane_support
+## Day 6 · 2026-09-12 · secondary_lane_support
 
 - 브랜드 레인: 코인
 - planning_mode: evergreen
@@ -107,7 +107,7 @@
 - 근거 소스/연결 키워드: dollar, treasury_yields, fomc, oil, china
 - 발행 메모: 검색 저변을 넓히는 설명형 글
 
-## Day 7 · 2026-09-12 · weekly_recap
+## Day 7 · 2026-09-13 · weekly_recap
 
 - 브랜드 레인: 거시경제
 - planning_mode: recap

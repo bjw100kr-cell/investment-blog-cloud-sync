@@ -111,7 +111,7 @@
 - ok / `medium` / `fact_check_box_present`: 핵심 숫자와 날짜를 재확인하는 박스는 helpful content 신뢰도에 중요합니다.
 - fail / `medium` / `source_strength`: 공식 자료나 신뢰 가능한 매체 소스가 직접 보이면 글 신뢰도가 높아집니다.
 - ok / `medium` / `internal_links_minimum`: 관련 허브/정책/소개 글 내부링크 최소 2개는 재방문과 체류시간에 유리합니다.
-- fail / `medium` / `follow_up_posts_present`: 후속 글 연결이 있어야 검색 유입이 사이트 내 순환으로 이어집니다.
+- ok / `medium` / `follow_up_posts_present`: 후속 글 연결이 있어야 검색 유입이 사이트 내 순환으로 이어집니다.
 - ok / `medium` / `hero_image_selected`: 대표 이미지 1장은 체류시간과 썸네일 완성도에 유리하므로 발행 전 선택해 두는 편이 좋습니다.
 - ok / `medium` / `crypto_market_signal_present`: 코인 글은 가격/거래량/공포탐욕지수 같은 실제 시장 신호가 있어야 정보 전달력이 생깁니다.
 - ok / `low` / `image_license_review_ready`: 라이선스가 확인된 이미지 후보와 alt 문구가 같이 준비되어야 운영 속도가 안정적입니다.

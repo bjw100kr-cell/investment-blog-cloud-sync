@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'",
+    "Prediction markets inch closer to the Supreme Court: State of Crypto",
+    "Ukrainian police took down a crypto scam that stole up to $1 million a month",
     "Better and Coinbase’s bitcoin-backed mortgages can reuse borrowers’ collateral",
-    "Timing the bitcoin market is exciting but nearly impossible. Here's why",
-    "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
-    "Southeast Asia’s crypto funding rebounds to $680 million as investors focus on mature firms",
-    "From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs"
+    "Timing the bitcoin market is exciting but nearly impossible. Here's why"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

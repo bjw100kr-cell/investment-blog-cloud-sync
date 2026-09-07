@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-09-06T15:21:48.463860+00:00",
+  "generated_at": "2026-09-07T04:01:14.745817+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 3,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 1,
+      "traffic_score_sum": 500,
+      "max_approx_traffic": 500,
+      "trend_queries": [
+        "반도체 메모리"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 700,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,11 +30,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6500,
+      "demand_signal_score": 6900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 53,
+      "source_snapshot_score": 57,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +42,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Better and Coinbase’s bitcoin-backed mortgages can reuse borrowers’ collateral",
-        "Timing the bitcoin market is exciting but nearly impossible. Here's why",
-        "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million"
+        "Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'",
+        "Prediction markets inch closer to the Supreme Court: State of Crypto",
+        "Ukrainian police took down a crypto scam that stole up to $1 million a month"
       ]
     },
     {
@@ -38,14 +54,13 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5000,
+      "demand_signal_score": 4400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 38,
-      "source_count": 5,
+      "source_snapshot_score": 32,
+      "source_count": 4,
       "source_names": [
-        "CNBC Top News",
         "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
         "Investing.com Crypto News",
@@ -64,21 +79,20 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2200,
+      "demand_signal_score": 3000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 10,
-      "source_count": 3,
+      "source_snapshot_score": 18,
+      "source_count": 2,
       "source_names": [
-        "CNBC Top News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Trump’s state capitalism comes to the oil industry with his unprecedented Venezuela deal",
-        "OPEC+ keeps oil output policy unchanged for October - Reuters",
-        "OPEC Plus to Keep Oil Production Steady"
+        "Oil extends gains after US and Iran strike ships - Reuters",
+        "Asia shares bounce, others cautious as oil rises - Reuters",
+        "OPEC+ keeps oil output policy unchanged for October - Reuters"
       ]
     }
   ],

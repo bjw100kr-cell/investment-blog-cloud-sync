@@ -1,6 +1,6 @@
 # 발행 재고판
 
-- 생성 시각: `2026-09-06T15:21:52.390293+00:00`
+- 생성 시각: `2026-09-07T04:01:18.458928+00:00`
 - 전체 발행 후보: `7`
 - 업로드 가능 글 수: `7`
 - 메인 글 수: `4`
@@ -13,7 +13,7 @@
 - source_keyword: bitcoin
 - role/type: lane_focus_crypto / breaking_explainer
 - ready_to_upload: True
-- publish_date: 2026-09-07 / bucket: tomorrow
+- publish_date: 2026-09-08 / bucket: tomorrow
 - priority_score: 122.0
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - search_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
@@ -26,8 +26,8 @@
 - source_keyword: ai_semiconductors
 - role/type: lane_focus_us-stocks / breaking_explainer
 - ready_to_upload: True
-- publish_date: 2026-09-08 / bucket: this_week
-- priority_score: 90.0
+- publish_date: 2026-09-09 / bucket: this_week
+- priority_score: 103.0
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - search_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - cta_focus: 실적·공급망·대표 종목 글로 연결
@@ -39,7 +39,7 @@
 - source_keyword: china
 - role/type: lane_focus_world-flow / breaking_explainer
 - ready_to_upload: True
-- publish_date: 2026-09-09 / bucket: this_week
+- publish_date: 2026-09-10 / bucket: this_week
 - priority_score: 68.0
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - search_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
@@ -52,8 +52,8 @@
 - source_keyword: fomc
 - role/type: evergreen_support / evergreen_explainer
 - ready_to_upload: True
-- publish_date: 2026-09-10 / bucket: later
-- priority_score: 128.0
+- publish_date: 2026-09-11 / bucket: later
+- priority_score: 126.0
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - search_intent: FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
 - cta_focus: 환율·금리·미국증시 evergreen 글로 연결
@@ -65,7 +65,7 @@
 - source_keyword: china
 - role/type: evergreen_seo / evergreen_sector_guide
 - ready_to_upload: True
-- publish_date: 2026-09-09 / bucket: seo_backlog
+- publish_date: 2026-09-10 / bucket: seo_backlog
 - priority_score: 67.5
 - revenue_objective: 섹터형 검색 유입 누적
 - search_intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
@@ -78,7 +78,7 @@
 - source_keyword: china
 - role/type: follow_up / follow_up_analysis
 - ready_to_upload: True
-- publish_date: 2026-09-09 / bucket: seo_backlog
+- publish_date: 2026-09-10 / bucket: seo_backlog
 - priority_score: 64.5
 - revenue_objective: 체류시간과 페이지뷰 확대
 - search_intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
@@ -91,7 +91,7 @@
 - source_keyword: china
 - role/type: evergreen_seo / evergreen_sector_guide
 - ready_to_upload: True
-- publish_date: 2026-09-09 / bucket: seo_backlog
+- publish_date: 2026-09-10 / bucket: seo_backlog
 - priority_score: 61.5
 - revenue_objective: 광고 노출과 장기 검색 유입 확보
 - search_intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자

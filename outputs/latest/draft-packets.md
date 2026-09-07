@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-09-06T15:21:48.463860+00:00`
+- 생성 시각: `2026-09-07T04:01:14.745817+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- 점수: 96.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'
+  - Prediction markets inch closer to the Supreme Court: State of Crypto
+  - Ukrainian police took down a crypto scam that stole up to $1 million a month
   - Better and Coinbase’s bitcoin-backed mortgages can reuse borrowers’ collateral
   - Timing the bitcoin market is exciting but nearly impossible. Here's why
-  - British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million
-  - Southeast Asia’s crypto funding rebounds to $680 million as investors focus on mature firms
-  - From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 63.0
+- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (반도체 메모리)
+- 점수: 74.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,7 +206,7 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - ‘Model fatigue’ sets in as AI labs race to roll out new versions at frenetic pace
+  - 반도체 메모리
   - Silicon shadows: inside the black market for AI chips | FT Film
   - How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips
 

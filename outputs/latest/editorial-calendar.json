@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:21:48.463860+00:00",
+  "generated_at": "2026-09-07T04:01:14.745817+00:00",
   "lane_order": [
     "macro",
     "crypto",
@@ -46,7 +46,7 @@
       "target_share": 0.3,
       "selected_keyword": "oil",
       "selected_mode": "direct",
-      "freshness_status": "fresh"
+      "freshness_status": "unknown"
     },
     {
       "lane": "crypto",
@@ -72,32 +72,30 @@
   ],
   "schedule": [
     {
-      "date": "2026-09-06",
+      "date": "2026-09-07",
       "slot": 1,
       "role": "lane_focus_macro",
       "post_type": "breaking_explainer",
       "target_keyword": "oil",
       "working_title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
-      "angle": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "angle": "복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
-        "CNBC Top News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "source_basis": [
-        "CNBC Top News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
-      "publish_note": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
+      "publish_note": "당일 이슈 해설형 글",
       "brand_lane": "macro",
-      "freshness_status": "fresh",
+      "freshness_status": "unknown",
       "planning_mode": "direct"
     },
     {
-      "date": "2026-09-07",
+      "date": "2026-09-08",
       "slot": 2,
       "role": "lane_focus_crypto",
       "post_type": "breaking_explainer",
@@ -122,23 +120,23 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "slot": 3,
       "role": "lane_focus_us-stocks",
       "post_type": "breaking_explainer",
       "target_keyword": "ai_semiconductors",
       "working_title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "angle": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "angle": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (반도체 메모리)",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
-        "CNBC Top News",
         "Financial Times YouTube",
+        "Google Trends KR",
         "NYT Business"
       ],
       "source_basis": [
-        "CNBC Top News",
         "Financial Times YouTube",
+        "Google Trends KR",
         "NYT Business"
       ],
       "publish_note": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
@@ -147,7 +145,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "slot": 4,
       "role": "lane_focus_world-flow",
       "post_type": "breaking_explainer",
@@ -168,7 +166,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "slot": 5,
       "role": "evergreen_support",
       "post_type": "evergreen_explainer",
@@ -196,7 +194,7 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "slot": 6,
       "role": "secondary_lane_support",
       "post_type": "evergreen_explainer",
@@ -223,7 +221,7 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "slot": 7,
       "role": "weekly_recap",
       "post_type": "weekly_macro_recap",

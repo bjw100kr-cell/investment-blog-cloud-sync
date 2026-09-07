@@ -48,8 +48,8 @@
 - next_action: 사용자 검토 후 승인 대기
 - blocker: main_quality=review_before_publish
 - blocker: source_strength
-- blocker: follow_up_posts_present
 - blocker: canonical_url_present
+- blocker: newsletter_ready
 
 ## 4. 거시 이벤트 해설 클러스터
 

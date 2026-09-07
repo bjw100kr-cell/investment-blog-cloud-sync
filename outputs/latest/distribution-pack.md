@@ -40,7 +40,7 @@
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
-- priority_score: `90.0`
+- priority_score: `103.0`
 - hook_line: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -108,7 +108,7 @@ AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - inventory_type: `main_post`
 - publish_bucket: `later`
-- priority_score: `128.0`
+- priority_score: `126.0`
 - hook_line: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 | FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
 
 ### X / Threads
