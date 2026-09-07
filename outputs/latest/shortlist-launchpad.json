@@ -1,8 +1,63 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
   "cards": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "publish_date": "2026-09-07",
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "ready_now": true,
+      "hero_image_selected": true,
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+      ],
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
+      "hard_blocking_checks": []
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -14,33 +69,33 @@
       "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'",
-        "Prediction markets inch closer to the Supreme Court: State of Crypto",
-        "Ukrainian police took down a crypto scam that stole up to $1 million a month"
+        "Polish prosecutors charge fifth suspect in a massive crypto probe",
+        "Bitcoin blinks less than gold when Treasury yields move",
+        "Bitcoin fund flows show investors trading Fed rate path, not exiting market: CoinShares"
       ],
       "recent_evidence": [
         {
-          "title": "Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 07 Sep 2026 03:43:12 +0000",
-          "published_iso": "2026-09-07T03:43:12+00:00",
-          "link": "https://www.coindesk.com/markets/2026/09/07/bitcoin-network-used-by-exchanges-hit-by-usd320-million-exploit-hackers-claim-they-re-the-good-guys",
-          "source_type": "rss"
-        },
-        {
-          "title": "Better and Coinbase’s bitcoin-backed mortgages can reuse borrowers’ collateral",
-          "source_name": "CoinDesk RSS",
-          "published": "Sun, 06 Sep 2026 14:00:00 +0000",
-          "published_iso": "2026-09-06T14:00:00+00:00",
-          "link": "https://www.coindesk.com/business/2026/09/06/better-and-coinbase-s-bitcoin-backed-mortgages-can-reuse-borrowers-collateral",
-          "source_type": "rss"
-        },
-        {
-          "title": "Satoshi-era Bitcoin wakes after 16 years of dormancy as 600 BTC moves",
+          "title": "Bitcoin fund flows show investors trading Fed rate path, not exiting market: CoinShares",
           "source_name": "Cointelegraph",
-          "published": "Sun, 06 Sep 2026 13:03:00 +0000",
-          "published_iso": "2026-09-06T13:03:00+00:00",
-          "link": "https://cointelegraph.com/news/satoshi-era-bitcoin-wakes-16-years-600-btc-moves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Mon, 07 Sep 2026 17:29:27 +0000",
+          "published_iso": "2026-09-07T17:29:27+00:00",
+          "link": "https://cointelegraph.com/markets/crypto-fund-flows-show-investors-trading-fed-rate-path-not-exiting-market-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Capital B adds 376 Bitcoin in $29M purchase, boosting holdings to 3,521 BTC",
+          "source_name": "Cointelegraph",
+          "published": "Mon, 07 Sep 2026 16:42:49 +0000",
+          "published_iso": "2026-09-07T16:42:49+00:00",
+          "link": "https://cointelegraph.com/news/capital-b-adds-376-bitcoin-in-29m-purchase-holdings-reach-3521-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin chips away at weekend upside as $80K hangs in the balance",
+          "source_name": "Cointelegraph",
+          "published": "Mon, 07 Sep 2026 15:57:47 +0000",
+          "published_iso": "2026-09-07T15:57:47+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-chips-away-at-weekend-upside-as-80k-hangs-in-the-balance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ],
@@ -66,36 +121,36 @@
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (반도체 메모리)",
+      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "반도체 메모리",
-        "Silicon shadows: inside the black market for AI chips | FT Film",
-        "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips"
+        "Bitcoin chips away at weekend upside as $80K hangs in the balance",
+        "Chip stock investors beware — these charts could warn of further weakness ahead",
+        "Silicon shadows: inside the black market for AI chips | FT Film"
       ],
       "recent_evidence": [
         {
-          "title": "반도체 메모리",
-          "source_name": "Google Trends KR",
-          "published": "Sun, 6 Sep 2026 19:50:00 -0700",
-          "published_iso": "2026-09-06T19:50:00-07:00",
-          "link": "https://trends.google.com/trending/rss?geo=KR",
-          "source_type": "rss"
-        },
-        {
           "title": "Silicon shadows: inside the black market for AI chips | FT Film",
           "source_name": "Financial Times YouTube",
-          "published": "59K views",
-          "published_iso": "59K views",
+          "published": "59K",
+          "published_iso": "59K",
           "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
           "source_type": "youtube_channel"
         },
         {
-          "title": "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips",
-          "source_name": "NYT Business",
-          "published": "Sun, 06 Sep 2026 10:45:11 +0000",
-          "published_iso": "2026-09-06T10:45:11+00:00",
-          "link": "https://www.nytimes.com/2026/09/06/technology/ai-chips-china-blacklist.html",
+          "title": "Chip stock investors beware — these charts could warn of further weakness ahead",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Mon, 07 Sep 2026 16:00:00 GMT",
+          "published_iso": "2026-09-07T16:00:00+00:00",
+          "link": "https://www.marketwatch.com/story/chip-stock-investors-beware-these-charts-could-warn-of-further-weakness-ahead-1bd890cc?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin chips away at weekend upside as $80K hangs in the balance",
+          "source_name": "Cointelegraph",
+          "published": "Mon, 07 Sep 2026 15:57:47 +0000",
+          "published_iso": "2026-09-07T15:57:47+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-chips-away-at-weekend-upside-as-80k-hangs-in-the-balance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ],
@@ -111,34 +166,6 @@
       ],
       "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors",
       "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply",
-      "hard_blocking_checks": []
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "publish_date": "2026-09-10",
-      "review_verdict": "approve",
-      "quality_status": "review_before_publish",
-      "ready_now": false,
-      "hero_image_selected": true,
-      "reason": "섹터/세계 흐름 연결 해설 가능",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips"
-      ],
-      "recent_evidence": [],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
-      "next_action": "사용자 최종 확인 후 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
       "hard_blocking_checks": []
     }
   ]

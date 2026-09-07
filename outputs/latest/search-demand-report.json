@@ -1,52 +1,12 @@
 {
-  "generated_at": "2026-09-07T04:01:14.745817+00:00",
+  "generated_at": "2026-09-07T17:40:58.788674+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "ai_semiconductors",
-      "trend_count": 1,
-      "traffic_score_sum": 500,
-      "max_approx_traffic": 500,
-      "trend_queries": [
-        "반도체 메모리"
-      ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 700,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
-    {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 6900,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 57,
-      "source_count": 3,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'",
-        "Prediction markets inch closer to the Supreme Court: State of Crypto",
-        "Ukrainian police took down a crypto scam that stole up to $1 million a month"
-      ]
-    },
     {
       "keyword": "fomc",
       "trend_count": 0,
@@ -54,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4400,
+      "demand_signal_score": 5300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 32,
+      "source_snapshot_score": 41,
       "source_count": 4,
       "source_names": [
         "Cointelegraph",
@@ -73,26 +33,79 @@
       ]
     },
     {
+      "keyword": "bitcoin",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 5300,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 41,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": [
+        "Polish prosecutors charge fifth suspect in a massive crypto probe",
+        "Bitcoin blinks less than gold when Treasury yields move",
+        "Bitcoin fund flows show investors trading Fed rate path, not exiting market: CoinShares"
+      ]
+    },
+    {
       "keyword": "oil",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3000,
+      "demand_signal_score": 3800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 18,
-      "source_count": 2,
+      "source_snapshot_score": 26,
+      "source_count": 7,
       "source_names": [
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Oil extends gains after US and Iran strike ships - Reuters",
-        "Asia shares bounce, others cautious as oil rises - Reuters",
-        "OPEC+ keeps oil output policy unchanged for October - Reuters"
+        "Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit",
+        "Bitcoin slips below $80k as Fed hike bets, oil surge weigh",
+        "Oil closes in on $100 as renewed supply crunch looms"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2400,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 12,
+      "source_count": 5,
+      "source_names": [
+        "Cointelegraph",
+        "Financial Times World",
+        "Financial Times YouTube",
+        "MarketWatch Breaking News",
+        "NYT Business"
+      ],
+      "sample_titles": [
+        "Bitcoin chips away at weekend upside as $80K hangs in the balance",
+        "Chip stock investors beware — these charts could warn of further weakness ahead",
+        "Silicon shadows: inside the black market for AI chips | FT Film"
       ]
     }
   ],

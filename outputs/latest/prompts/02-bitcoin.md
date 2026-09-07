@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'",
-    "Prediction markets inch closer to the Supreme Court: State of Crypto",
-    "Ukrainian police took down a crypto scam that stole up to $1 million a month",
-    "Better and Coinbase’s bitcoin-backed mortgages can reuse borrowers’ collateral",
-    "Timing the bitcoin market is exciting but nearly impossible. Here's why"
+    "Polish prosecutors charge fifth suspect in a massive crypto probe",
+    "Bitcoin blinks less than gold when Treasury yields move",
+    "Bitcoin fund flows show investors trading Fed rate path, not exiting market: CoinShares",
+    "Capital B adds 376 Bitcoin in $29M purchase, boosting holdings to 3,521 BTC",
+    "Bitcoin chips away at weekend upside as $80K hangs in the balance"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 83.0,
-    "search_score": 29,
+    "total_score": 82.0,
+    "search_score": 28,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,
