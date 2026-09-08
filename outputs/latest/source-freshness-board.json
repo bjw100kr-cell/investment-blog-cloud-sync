@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-09-08T04:04:02.697157+00:00",
-  "snapshot_generated_at": "2026-09-08T04:03:58.137207+00:00",
+  "generated_at": "2026-09-08T16:31:14.932907+00:00",
+  "snapshot_generated_at": "2026-09-08T16:31:09.675392+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 3,
+    "fresh": 2,
     "aging": 0,
-    "stale": 0,
+    "stale": 1,
     "unknown": 0
   },
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-09-08",
+      "freshness_status": "stale",
+      "newest_evidence_iso": "2026-08-19T18:00:00+00:00",
+      "oldest_evidence_iso": "2026-06-17T18:00:00+00:00",
+      "newest_evidence_age_days": 19.9,
+      "source_count": 2,
+      "demand_signal_score": 3800,
+      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "recovery_mode": "full_refresh_needed",
+      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -18,38 +62,38 @@
       "ready_now": true,
       "publish_date": "2026-09-09",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-08T03:46:17+00:00",
-      "oldest_evidence_iso": "2026-09-07T11:15:00+00:00",
+      "newest_evidence_iso": "2026-09-08T15:41:11+00:00",
+      "oldest_evidence_iso": "2026-09-08T12:41:14+00:00",
       "newest_evidence_age_days": 0.0,
       "source_count": 3,
-      "demand_signal_score": 5000,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Liquid ‘white hats’ return $270M in Bitcoin as network prepares restart",
+      "demand_signal_score": 5800,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin faces key support test at $78.3K as US crude oil hits three-month high",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Liquid ‘white hats’ return $270M in Bitcoin as network prepares restart",
+          "title": "Bitcoin faces key support test at $78.3K as US crude oil hits three-month high",
           "source_name": "Cointelegraph",
-          "published": "Tue, 08 Sep 2026 03:46:17 +0000",
-          "published_iso": "2026-09-08T03:46:17+00:00",
-          "link": "https://cointelegraph.com/news/liquid-white-hats-return-270m-bitcoin-network-restart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Tue, 08 Sep 2026 15:41:11 +0000",
+          "published_iso": "2026-09-08T15:41:11+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-faces-key-support-test-at-783k-as-us-crude-oil-hits-three-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin fund flows show investors trading Fed rate path, not exiting market: CoinShares",
+          "title": "Is Bitcoin too volatile to risk your retirement on?",
           "source_name": "Cointelegraph",
-          "published": "Mon, 07 Sep 2026 17:29:27 +0000",
-          "published_iso": "2026-09-07T17:29:27+00:00",
-          "link": "https://cointelegraph.com/markets/crypto-fund-flows-show-investors-trading-fed-rate-path-not-exiting-market-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Tue, 08 Sep 2026 13:30:00 +0000",
+          "published_iso": "2026-09-08T13:30:00+00:00",
+          "link": "https://cointelegraph.com/magazine/is-bitcoin-too-volatile-to-risk-your-retirement-on?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Capital B adds 376 Bitcoin in $29M purchase, boosting holdings to 3,521 BTC",
-          "source_name": "Cointelegraph",
-          "published": "Mon, 07 Sep 2026 16:42:49 +0000",
-          "published_iso": "2026-09-07T16:42:49+00:00",
-          "link": "https://cointelegraph.com/news/capital-b-adds-376-bitcoin-in-29m-purchase-holdings-reach-3521-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Bitcoin rally has more room as volatility shorts unwind, Two Prime CEO says",
+          "source_name": "CoinDesk RSS",
+          "published": "Tue, 08 Sep 2026 13:18:21 +0000",
+          "published_iso": "2026-09-08T13:18:21+00:00",
+          "link": "https://www.coindesk.com/markets/2026/09/03/bitcoin-rally-has-more-room-as-volatility-shorts-unwind-two-prime-ceo-says",
           "source_type": "rss"
         }
       ]
@@ -61,10 +105,10 @@
       "ready_now": true,
       "publish_date": "2026-09-10",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-08T03:54:54+00:00",
-      "oldest_evidence_iso": "2026-09-07T16:00:00+00:00",
+      "newest_evidence_iso": "2026-09-08T15:56:46+00:00",
+      "oldest_evidence_iso": "2026-09-08T01:41:43+00:00",
       "newest_evidence_age_days": 0.0,
-      "source_count": 6,
+      "source_count": 5,
       "demand_signal_score": 0,
       "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
@@ -80,62 +124,19 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "Nvidia supplier Wistron's shares drop after it announces $1.5 billion global stock sale",
+          "title": "Qualcomm issues Amazon warrants to acquire $4 billion worth of chipmaker's stock as part of AI infrastructure deal",
           "source_name": "CNBC Top News",
-          "published": "Tue, 08 Sep 2026 03:54:54 GMT",
-          "published_iso": "2026-09-08T03:54:54+00:00",
-          "link": "https://www.cnbc.com/2026/09/08/nvidia-supplier-wistron-share-sale.html",
+          "published": "Tue, 08 Sep 2026 15:56:46 GMT",
+          "published_iso": "2026-09-08T15:56:46+00:00",
+          "link": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html",
           "source_type": "rss"
         },
         {
-          "title": "Huawei drives China’s push to make its own advanced chips",
+          "title": "Anthropic and OpenAI bankers push for top-tier credit ratings post-IPO",
           "source_name": "Financial Times Home",
-          "published": "Tue, 08 Sep 2026 02:57:46 GMT",
-          "published_iso": "2026-09-08T02:57:46+00:00",
-          "link": "https://www.ft.com/content/36333a53-4063-4aad-8df9-8d2f9d0048a3?syn-25a6b1a6=1",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-09-11",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-08T03:10:42+00:00",
-      "oldest_evidence_iso": "2026-09-07T09:04:03+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 4,
-      "demand_signal_score": 3700,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: China's imports in August miss estimates as exports pick up pace amid calls for rebalancing trade",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "China's imports in August miss estimates as exports pick up pace amid calls for rebalancing trade",
-          "source_name": "CNBC Top News",
-          "published": "Tue, 08 Sep 2026 03:10:42 GMT",
-          "published_iso": "2026-09-08T03:10:42+00:00",
-          "link": "https://www.cnbc.com/2026/09/08/china-exports-imports-august-trade-rebalance-demand-surplus-.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "China’s exports jump 25% in August in boost from AI build-out",
-          "source_name": "Financial Times Home",
-          "published": "Tue, 08 Sep 2026 03:00:21 GMT",
-          "published_iso": "2026-09-08T03:00:21+00:00",
-          "link": "https://www.ft.com/content/56bcc2fb-99eb-4ad9-af67-101c8d0382cb?syn-25a6b1a6=1",
-          "source_type": "rss"
-        },
-        {
-          "title": "Huawei drives China’s push to make its own advanced chips",
-          "source_name": "Financial Times Home",
-          "published": "Tue, 08 Sep 2026 02:57:46 GMT",
-          "published_iso": "2026-09-08T02:57:46+00:00",
-          "link": "https://www.ft.com/content/36333a53-4063-4aad-8df9-8d2f9d0048a3?syn-25a6b1a6=1",
+          "published": "Tue, 08 Sep 2026 04:00:17 GMT",
+          "published_iso": "2026-09-08T04:00:17+00:00",
+          "link": "https://www.ft.com/content/aa304856-cade-4ad8-a2bf-2dd34fa75b1b?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ]
