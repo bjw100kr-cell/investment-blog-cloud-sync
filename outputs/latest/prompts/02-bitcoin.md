@@ -115,9 +115,9 @@
   "reference_headlines": [
     "Polish prosecutors charge fifth suspect in a massive crypto probe",
     "Bitcoin blinks less than gold when Treasury yields move",
-    "Bitcoin fund flows show investors trading Fed rate path, not exiting market: CoinShares",
-    "Capital B adds 376 Bitcoin in $29M purchase, boosting holdings to 3,521 BTC",
-    "Bitcoin chips away at weekend upside as $80K hangs in the balance"
+    "Liquid ‘white hats’ return $270M in Bitcoin as network prepares restart",
+    "Here’s what happened in crypto today",
+    "Bitcoin fund flows show investors trading Fed rate path, not exiting market: CoinShares"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T17:40:58.788674+00:00",
+  "generated_at": "2026-09-08T04:03:58.137207+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -8,17 +8,41 @@
   },
   "ranked_keyword_demand": [
     {
+      "keyword": "bitcoin",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 5000,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 38,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": [
+        "Polish prosecutors charge fifth suspect in a massive crypto probe",
+        "Bitcoin blinks less than gold when Treasury yields move",
+        "Liquid ‘white hats’ return $270M in Bitcoin as network prepares restart"
+      ]
+    },
+    {
       "keyword": "fomc",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5300,
+      "demand_signal_score": 4700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 41,
+      "source_snapshot_score": 35,
       "source_count": 4,
       "source_names": [
         "Cointelegraph",
@@ -33,27 +57,28 @@
       ]
     },
     {
-      "keyword": "bitcoin",
+      "keyword": "china",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5300,
+      "demand_signal_score": 3700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 41,
-      "source_count": 3,
+      "source_snapshot_score": 25,
+      "source_count": 4,
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Polish prosecutors charge fifth suspect in a massive crypto probe",
-        "Bitcoin blinks less than gold when Treasury yields move",
-        "Bitcoin fund flows show investors trading Fed rate path, not exiting market: CoinShares"
+        "China's imports in August miss estimates as exports pick up pace amid calls for rebalancing trade",
+        "CNBC's The China Connection newsletter: China's weak consumer becomes the world's problem",
+        "Huawei drives China’s push to make its own advanced chips"
       ]
     },
     {
@@ -63,49 +88,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3800,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 26,
-      "source_count": 7,
+      "source_snapshot_score": 23,
+      "source_count": 6,
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
         "Financial Times World",
         "Investing.com Crypto News",
-        "MarketWatch Breaking News"
-      ],
-      "sample_titles": [
-        "Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit",
-        "Bitcoin slips below $80k as Fed hike bets, oil surge weigh",
-        "Oil closes in on $100 as renewed supply crunch looms"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2400,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
-      "source_count": 5,
-      "source_names": [
-        "Cointelegraph",
-        "Financial Times World",
-        "Financial Times YouTube",
         "MarketWatch Breaking News",
         "NYT Business"
       ],
       "sample_titles": [
-        "Bitcoin chips away at weekend upside as $80K hangs in the balance",
-        "Chip stock investors beware — these charts could warn of further weakness ahead",
-        "Silicon shadows: inside the black market for AI chips | FT Film"
+        "Oil extends gains as renewed Mideast hostilities raise worries of prolonged conflict",
+        "Bitcoin slips below $80k as Fed hike bets, oil surge weigh",
+        "Oil rises as risks of prolonged Mideast conflict heighten supply worries - Reuters"
       ]
     }
   ],
