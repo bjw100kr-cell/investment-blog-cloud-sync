@@ -1,8 +1,63 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
   "cards": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "publish_date": "2026-09-09",
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "ready_now": true,
+      "hero_image_selected": true,
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+      ],
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
+      "hard_blocking_checks": []
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -14,33 +69,33 @@
       "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Copper CEO Amar Kuchinad departs as search for a buyer enters a fourth month",
-        "Bitcoin rally has more room as volatility shorts unwind, Two Prime CEO says",
-        "Bitmine purchased another $69 million of ETH, with Tom DeMark expecting price uptrend to soon resume"
+        "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
+        "Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push",
+        "Crypto Long & Short: Inside the 300-to-1 onchain gap between the dollar and euro"
       ],
       "recent_evidence": [
         {
-          "title": "Bitcoin faces key support test at $78.3K as US crude oil hits three-month high",
-          "source_name": "Cointelegraph",
-          "published": "Tue, 08 Sep 2026 15:41:11 +0000",
-          "published_iso": "2026-09-08T15:41:11+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-faces-key-support-test-at-783k-as-us-crude-oil-hits-three-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 09 Sep 2026 15:30:00 +0000",
+          "published_iso": "2026-09-09T15:30:00+00:00",
+          "link": "https://www.coindesk.com/tech/2026/09/09/bitcoin-and-ethereum-race-quantum-clock-as-u-s-backs-usd300-million-hardware-push",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin rally has more room as volatility shorts unwind, Two Prime CEO says",
-          "source_name": "CoinDesk RSS",
-          "published": "Tue, 08 Sep 2026 13:18:21 +0000",
-          "published_iso": "2026-09-08T13:18:21+00:00",
-          "link": "https://www.coindesk.com/markets/2026/09/03/bitcoin-rally-has-more-room-as-volatility-shorts-unwind-two-prime-ceo-says",
+          "title": "Bitcoin recovers to $79.4k on Zcash ETF inflows; Fed, oil pressures limit rise",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-09-09 13:48:40",
+          "published_iso": "2026-09-09 13:48:40",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-above-79k-on-zcash-etf-inflows-fed-oil-pressures-limit-rise-4892730",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin’s complexity paradox: How layer-2 scalers became AI's main target",
-          "source_name": "CoinDesk RSS",
-          "published": "Tue, 08 Sep 2026 12:09:26 +0000",
-          "published_iso": "2026-09-08T12:09:26+00:00",
-          "link": "https://www.coindesk.com/markets/2026/09/08/bitcoin-security-risks-grow-as-ai-uncovers-hidden-vulnerabilities",
+          "title": "Bitcoin coils near $79,300 in tight range: Live levels",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-09-09 07:10:45",
+          "published_iso": "2026-09-09 07:10:45",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-775k822k-range-live-levels-93CH-4890481",
           "source_type": "rss"
         }
       ],
@@ -59,113 +114,58 @@
       "hard_blocking_checks": []
     },
     {
-      "keyword": "ai_semiconductors",
-      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "keyword": "us_big_tech",
+      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
       "publish_date": "2026-09-11",
       "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
+      "quality_status": "review_before_publish",
+      "ready_now": false,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (apple)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Anthropic withheld latest AI model from UK testing agency",
-        "Memory chips have come to rule the AI boom. Why Micron’s reign could be here to stay.",
-        "Qualcomm’s stock climbs as Amazon chip deal offers investors much-needed good news"
+        "apple",
+        "Amazon raises almost $6 billion in first sterling bond sale, lead manager says - Reuters",
+        "New Apple CEO to unveil $2,000 folding iPhone"
       ],
       "recent_evidence": [
         {
-          "title": "Silicon shadows: inside the black market for AI chips | FT Film",
-          "source_name": "Financial Times YouTube",
-          "published": "59K views",
-          "published_iso": "59K views",
-          "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
-          "source_type": "youtube_channel"
-        },
-        {
-          "title": "Anthropic withheld latest AI model from UK testing agency",
-          "source_name": "Financial Times Home",
-          "published": "Wed, 09 Sep 2026 04:00:25 GMT",
-          "published_iso": "2026-09-09T04:00:25+00:00",
-          "link": "https://www.ft.com/content/560e1c8b-f163-4fd6-b604-e905550ac870?syn-25a6b1a6=1",
+          "title": "apple",
+          "source_name": "Google Trends KR",
+          "published": "Wed, 9 Sep 2026 07:20:00 -0700",
+          "published_iso": "2026-09-09T07:20:00-07:00",
+          "link": "https://trends.google.com/trending/rss?geo=KR",
           "source_type": "rss"
         },
         {
-          "title": "Memory chips have come to rule the AI boom. Why Micron’s reign could be here to stay.",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Tue, 08 Sep 2026 21:51:00 GMT",
-          "published_iso": "2026-09-08T21:51:00+00:00",
-          "link": "https://www.marketwatch.com/story/memory-chips-have-come-to-rule-the-ai-boom-why-microns-reign-could-be-here-to-stay-607a4622?mod=mw_rss_topstories",
+          "title": "Amazon raises almost $6 billion in first sterling bond sale, lead manager says - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Wed, 09 Sep 2026 15:46:55 GMT",
+          "published_iso": "2026-09-09T15:46:55+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdlZhMHZ0RkVhaWNCVWdOa3N1aXVYdXJ1LS1tUTFFWU5hMlJYYTJaQkQ3SWc5RGhMcklmZkxrQlNZV0ozd1lnWTdZbjFVT1hYYzFRTkJYZVZiTEFNRjBlNWkxVGprb29nRnVEeHBlZ3dkVl9HdkNhcUg1bjBpYlo0dFVDbTl4YXA2MEllSXo5bS16N3lzYUh0TThldUJhci1jYTJiWXFOdU1teDAxZmVhbTRBOA?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "New Apple CEO to unveil $2,000 folding iPhone",
+          "source_name": "Financial Times World",
+          "published": "Wed, 09 Sep 2026 15:43:32 GMT",
+          "published_iso": "2026-09-09T15:43:32+00:00",
+          "link": "https://www.ft.com/content/dea481e8-d30b-4cbb-b535-5ff219c4e546?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-semiconductors.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EA%B0%80%EB%A5%BC-%EB%B3%BC-%EB%95%8C-%EC%8B%A4%EC%A0%81%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%ED%99%95%EC%9D%B8%ED%95%A0-3%EA%B0%80%EC%A7%80.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors",
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-big-tech.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-%EB%AF%B8%EA%B5%AD-%EB%B9%85%ED%85%8C%ED%81%AC-%EC%A3%BC%EA%B0%80%EA%B0%80-%ED%9D%94%EB%93%A4%EB%A6%B4-%EB%95%8C-%ED%99%95%EC%9D%B8%ED%95%A0-%EA%B2%83-%EC%8B%A4%EC%A0%81-%EA%B8%88%EB%A6%AC-ai-%ED%88%AC%EC%9E%90.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
+      "next_action": "사용자 최종 확인 후 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
       "followup_commands": [
         "python3 scripts/build_platform_publish_plan.py",
         "python3 scripts/upload_blogger_drafts.py",
         "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
       ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply",
-      "hard_blocking_checks": []
-    },
-    {
-      "keyword": "tariffs_trade",
-      "title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
-      "publish_date": "2026-09-12",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "Canada's retaliatory tariffs worth CA$27.6 billion take effect as trade rift with U.S. deepens",
-        "'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat",
-        "Bombardier’s stock drops as the U.S.-Canada trade war intensifies. Here’s what Trump is targeting next."
-      ],
-      "recent_evidence": [
-        {
-          "title": "Carney Says Retaliation Against U.S. Tariffs Was Unavoidable",
-          "source_name": "NYT Business",
-          "published": "Wed, 09 Sep 2026 02:33:37 +0000",
-          "published_iso": "2026-09-09T02:33:37+00:00",
-          "link": "https://www.nytimes.com/2026/09/08/world/canada/carney-tariffs-trade.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bombardier’s stock drops as the U.S.-Canada trade war intensifies. Here’s what Trump is targeting next.",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Wed, 09 Sep 2026 00:17:00 GMT",
-          "published_iso": "2026-09-09T00:17:00+00:00",
-          "link": "https://www.marketwatch.com/story/bombardiers-stock-drops-as-the-u-s-canada-trade-war-intensifies-heres-what-trump-may-target-next-b389065e?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "Canada's retaliatory tariffs worth CA$27.6 billion take effect as trade rift with U.S. deepens",
-          "source_name": "CNBC Top News",
-          "published": "Tue, 08 Sep 2026 17:11:11 GMT",
-          "published_iso": "2026-09-08T17:11:11+00:00",
-          "link": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-tariffs-trade.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EA%B4%80%EC%84%B8%EC%99%80-%EB%AC%B4%EC%97%AD-%EA%B0%88%EB%93%B1%EC%9D%B4-%EC%A6%9D%EC%8B%9C%EC%97%90-%EB%AF%B8%EC%B9%98%EB%8A%94-%EC%98%81%ED%96%A5-%ED%99%98%EC%9C%A8%EA%B3%BC-%EA%B3%B5%EA%B8%89%EB%A7%9D%EA%B9%8C%EC%A7%80-%EB%B3%B4%EA%B8%B0.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords tariffs_trade",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords tariffs_trade",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword tariffs_trade",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword tariffs_trade --apply",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply",
       "hard_blocking_checks": []
     }
   ]
