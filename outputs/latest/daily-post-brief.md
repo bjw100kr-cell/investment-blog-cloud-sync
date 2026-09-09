@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-09-08T16:31:09.675392+00:00`
+- 생성 시각: `2026-09-09T04:10:22.708394+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `92.0`
-- 점수 구성: 검색성 24 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press, Investing.com Crypto News
+- 총점: `94.0`
+- 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 소스: Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, Investing.com Crypto News
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,7 +27,7 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Bitcoin edges down to $78.5k as as Fed, oil pressures mount
+  - Bitcoin falls nearly 1% as Fed rate hike bets remain elevated, oil prices rise
 
 ## 2. bitcoin
 
@@ -52,16 +52,16 @@
   - Bitcoin rally has more room as volatility shorts unwind, Two Prime CEO says
   - Bitmine purchased another $69 million of ETH, with Tom DeMark expecting price uptrend to soon resume
   - Bitcoin’s complexity paradox: How layer-2 scalers became AI's main target
-  - Bitcoin faces key support test at $78.3K as US crude oil hits three-month high
+  - New York town weighs crypto mining and AI data center ban
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `77.0`
-- 점수 구성: 검색성 16 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `75.0`
+- 점수 구성: 검색성 15 / 시의성 20 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 소스: Financial Times Home, Financial Times World, Financial Times YouTube, MarketWatch Breaking News
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -73,18 +73,18 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Qualcomm issues Amazon warrants to acquire $4 billion worth of chipmaker's stock as part of AI infrastructure deal
-  - Anthropic and OpenAI bankers push for top-tier credit ratings post-IPO
-  - Nvidia-backed Firmus signs deal with OpenAI for Malaysia data centre capacity - Reuters
-  - Intel’s stock is rising as the company looks primed to boost prices even more
+  - Anthropic withheld latest AI model from UK testing agency
+  - Memory chips have come to rule the AI boom. Why Micron’s reign could be here to stay.
+  - Qualcomm’s stock climbs as Amazon chip deal offers investors much-needed good news
   - Silicon shadows: inside the black market for AI chips | FT Film
+  - Anthropic withheld latest AI model from UK testing agency
 
 ## 4. tariffs_trade
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `66.0`
-- 점수 구성: 검색성 11 / 시의성 15 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 총점: `72.0`
+- 점수 구성: 검색성 14 / 시의성 18 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - 소스: CNBC Top News, MarketWatch Breaking News, NYT Business
 - 제목 후보:
@@ -98,9 +98,10 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
+  - Canada's retaliatory tariffs worth CA$27.6 billion take effect as trade rift with U.S. deepens
   - 'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat
-  - Bombardier’s stock drops as the U.S.-Canada trade war intensifies. Here’s what Trump may target next.
-  - Bombardier, a Canadian Jet Maker, Is One Target in Trump’s Trade War
+  - Bombardier’s stock drops as the U.S.-Canada trade war intensifies. Here’s what Trump is targeting next.
+  - Bombardier Shares Down as Trump’s Trade War Targets Canadian Jet Maker
 
 ## 5. oil
 
@@ -122,7 +123,7 @@
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
   - Bitcoin faces key support test at $78.3K as US crude oil hits three-month high
-  - U.S. sanctions Iranian airlines in aim to tighten economic squeeze as war spreads, oil rises
-  - Bitcoin edges down to $78.5k as as Fed, oil pressures mount
+  - Iran says it hit American vessels, oil tankers in Hormuz in retaliation for U.S. strikes
+  - Brent crude nears $100 a barrel as U.S.-Iran tit-for-tat strikes stoke supply worries
+  - Bitcoin falls nearly 1% as Fed rate hike bets remain elevated, oil prices rise
   - Bitcoin slips below $80k as Fed hike bets, oil surge weigh
-  - Wall St slips as Gulf tensions send oil to over six-week high - Reuters

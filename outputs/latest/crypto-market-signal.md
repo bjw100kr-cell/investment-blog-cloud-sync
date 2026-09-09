@@ -1,27 +1,26 @@
 # Crypto Market Signal
 
-- 생성 시각: `2026-09-08T16:31:10+00:00`
+- 생성 시각: `2026-09-09T04:10:24+00:00`
 - 상태: `ok`
 - 시장 분위기: `mixed`
-- 추적 코인 평균 24h 변동률: `1.09%`
-- Fear/Greed: `69` (Greed)
+- 추적 코인 평균 24h 변동률: `0.77%`
+- Fear/Greed: `66` (Greed)
 
 ## Tracked Tickers
 
-- `BTCUSDT`: 24h `-0.24%`, quote volume `33406206718`
-- `ETHUSDT`: 24h `0.79%`, quote volume `11704396629`
-- `SOLUSDT`: 24h `0.35%`, quote volume `2847078010`
-- `XRPUSDT`: 24h `2.75%`, quote volume `2095853217`
-- `BNBUSDT`: 24h `2.34%`, quote volume `1189378020`
-- `DOGEUSDT`: 24h `0.56%`, quote volume `842678537`
+- `BTCUSDT`: 24h `-0.03%`, quote volume `37179903570`
+- `ETHUSDT`: 24h `0.58%`, quote volume `11778099387`
+- `SOLUSDT`: 24h `0.52%`, quote volume `2919539346`
+- `XRPUSDT`: 24h `2.03%`, quote volume `2509803405`
+- `BNBUSDT`: 24h `1.15%`, quote volume `1249849377`
+- `DOGEUSDT`: 24h `0.38%`, quote volume `842970725`
 
 ## Keyword Signals
 
 - `bitcoin`: bonus `1`, sentiment `mixed`, symbols `BTCUSDT`
 - `ethereum`: bonus `1`, sentiment `mixed`, symbols `ETHUSDT`
-- `crypto_etf`: bonus `8`, sentiment `mixed`, symbols `SOLUSDT, XRPUSDT, BNBUSDT, DOGEUSDT`
-  - XRPUSDT 24h change 2.75%
-  - BNBUSDT 24h change 2.34%
+- `crypto_etf`: bonus `6`, sentiment `mixed`, symbols `SOLUSDT, XRPUSDT, BNBUSDT, DOGEUSDT`
+  - XRPUSDT 24h change 2.03%
 
 ## Editorial Rule
 

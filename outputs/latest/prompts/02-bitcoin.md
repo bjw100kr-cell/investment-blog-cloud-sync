@@ -117,7 +117,7 @@
     "Bitcoin rally has more room as volatility shorts unwind, Two Prime CEO says",
     "Bitmine purchased another $69 million of ETH, with Tom DeMark expecting price uptrend to soon resume",
     "Bitcoin’s complexity paradox: How layer-2 scalers became AI's main target",
-    "Bitcoin faces key support test at $78.3K as US crude oil hits three-month high"
+    "New York town weighs crypto mining and AI data center ban"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

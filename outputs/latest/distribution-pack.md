@@ -2,41 +2,7 @@
 
 - item_count: `8`
 
-## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-
-- inventory_type: `main_post`
-- publish_bucket: `today_or_overdue`
-- priority_score: `135.0`
-- hook_line: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-
-### X / Threads
-
-FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-
-오늘 시장을 볼 때 핵심은 이것입니다.
-- 독자 관점: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- 한 줄 포인트: 환율·금리·미국증시 evergreen 글로 연결
-
-짧고 이해하기 쉽게 정리했습니다.
-
-### Telegram / Kakao Channel
-
-[lane_focus_macro] FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.
-핵심 포인트: 환율·금리·미국증시 evergreen 글로 연결
-
-### Community
-
-FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-
-이번 글은 '당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 환율·금리·미국증시 evergreen 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
-
-### Newsletter
-
-- subject: [오늘의 투자 브리핑] FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
-
-## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - inventory_type: `main_post`
 - publish_bucket: `tomorrow`
@@ -70,11 +36,11 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 - subject: [오늘의 투자 브리핑] 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 
-## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
-- priority_score: `104.0`
+- priority_score: `102.0`
 - hook_line: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -104,11 +70,11 @@ AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - subject: [오늘의 투자 브리핑] AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 
-## 4. 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+## 3. 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
-- priority_score: `93.0`
+- priority_score: `99.0`
 - hook_line: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -136,6 +102,40 @@ AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 ### Newsletter
 
 - subject: [오늘의 투자 브리핑] 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+- preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
+
+## 4. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+- inventory_type: `main_post`
+- publish_bucket: `later`
+- priority_score: `126.0`
+- hook_line: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 | FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
+
+### X / Threads
+
+FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+오늘 시장을 볼 때 핵심은 이것입니다.
+- 독자 관점: FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
+- 한 줄 포인트: 환율·금리·미국증시 evergreen 글로 연결
+
+짧고 이해하기 쉽게 정리했습니다.
+
+### Telegram / Kakao Channel
+
+[evergreen_support] FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.
+핵심 포인트: 환율·금리·미국증시 evergreen 글로 연결
+
+### Community
+
+FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+이번 글은 'FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자'에 맞춰 정리한 해설입니다. 읽고 나면 환율·금리·미국증시 evergreen 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
+
+### Newsletter
+
+- subject: [오늘의 투자 브리핑] FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - preview: 페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.
 
 ## 5. ethereum: 지금 투자자가 확인할 체크포인트 5가지
@@ -176,7 +176,7 @@ ethereum: 지금 투자자가 확인할 체크포인트 5가지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `92.5`
+- priority_score: `98.5`
 - hook_line: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기 | 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 
 ### X / Threads
@@ -210,7 +210,7 @@ ethereum: 지금 투자자가 확인할 체크포인트 5가지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `89.5`
+- priority_score: `95.5`
 - hook_line: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나 | 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 
 ### X / Threads
@@ -244,7 +244,7 @@ ethereum: 지금 투자자가 확인할 체크포인트 5가지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `86.5`
+- priority_score: `92.5`
 - hook_line: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 정리 | 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 
 ### X / Threads

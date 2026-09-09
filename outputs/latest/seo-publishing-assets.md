@@ -1,6 +1,6 @@
 # 퍼블리싱 자산
 
-- 생성 시각: `2026-09-08T16:31:12.956667+00:00`
+- 생성 시각: `2026-09-09T04:10:25.313930+00:00`
 
 ## 1. seo_ethereum_8
 
@@ -17,14 +17,14 @@
 - CTA: 기초 가이드와 ETF·규제 해설 글까지 이어서 보면 코인 흐름이 더 쉽게 정리됩니다.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.
 
-## 2. seo_tariffs_trade_12
+## 2. seo_tariffs_trade_11
 
 - 제목: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기
 - slug: `관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기-관련-대표-종목-한눈에-보기`
 - meta title: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기
 - meta description: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 관련 대표 종목 한눈에 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - 카테고리: global-sector
-- 추천 발행일: 2026-09-11
+- 추천 발행일: 2026-09-12
 - labels: 투자, 경제, 시장해설, 관세, 무역, 세계흐름
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 - 이미지 추천: 대표 이미지(Unsplash / technology stocks office finance abstract), 본문 보조 이미지(Pexels / semiconductor data center abstract)
@@ -40,7 +40,7 @@
 - meta title: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나
 - meta description: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 공급망 정리: 누가 수혜를 보나 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - 카테고리: global-sector
-- 추천 발행일: 2026-09-11
+- 추천 발행일: 2026-09-12
 - labels: 투자, 경제, 시장해설, 관세, 무역, 세계흐름
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 - 이미지 추천: 대표 이미지(Unsplash / technology stocks office finance abstract), 본문 보조 이미지(Pexels / semiconductor data center abstract)
@@ -56,7 +56,7 @@
 - meta title: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 정리
 - meta description: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 ETF·지수·대표 기업 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - 카테고리: global-sector
-- 추천 발행일: 2026-09-11
+- 추천 발행일: 2026-09-12
 - labels: 투자, 경제, 시장해설, 관세, 무역, 세계흐름
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 - 이미지 추천: 대표 이미지(Unsplash / technology stocks office finance abstract), 본문 보조 이미지(Pexels / semiconductor data center abstract)

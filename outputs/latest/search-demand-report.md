@@ -1,21 +1,21 @@
 # 검색 수요 신호 리포트
 
-- 생성 시각: `2026-09-08T16:31:09.675392+00:00`
+- 생성 시각: `2026-09-09T04:10:22.708394+00:00`
 - 트렌드 아이템 수: `16`
 - 매칭된 키워드 수: `4`
 - 약한 트렌드 fallback 수: `4`
 
 ## 키워드별 트렌드 수요
 
-- `bitcoin`: demand 5800 / trend_count 0 / traffic_sum 0 / regions unknown
+- `bitcoin`: demand 5500 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 46 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: demand 3800 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 43 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: demand 4400 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 26 / sources Federal Reserve Monetary Policy Press, Investing.com Crypto News
-- `oil`: demand 3700 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 32 / sources Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, Investing.com Crypto News
+- `oil`: demand 4000 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 25 / sources CNBC Top News, Cointelegraph, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+  - fallback: source snapshot score 28 / sources CNBC Top News, Cointelegraph, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
 - `ethereum`: demand 2600 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
   - fallback: source snapshot score 14 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
