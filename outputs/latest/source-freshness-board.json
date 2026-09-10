@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-09-10T04:07:37.312339+00:00",
-  "snapshot_generated_at": "2026-09-10T04:07:32.633351+00:00",
+  "generated_at": "2026-09-10T16:16:57.731717+00:00",
+  "snapshot_generated_at": "2026-09-10T16:16:52.959192+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 3,
+    "fresh": 2,
     "aging": 0,
-    "stale": 0,
+    "stale": 1,
     "unknown": 0
   },
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-09-10",
+      "freshness_status": "stale",
+      "newest_evidence_iso": "2026-08-19T18:00:00+00:00",
+      "oldest_evidence_iso": "2026-06-17T18:00:00+00:00",
+      "newest_evidence_age_days": 21.9,
+      "source_count": 2,
+      "demand_signal_score": 3500,
+      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "recovery_mode": "full_refresh_needed",
+      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -18,124 +62,81 @@
       "ready_now": true,
       "publish_date": "2026-09-11",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-09T20:47:59+00:00",
-      "oldest_evidence_iso": "2026-09-08T20:54:31+00:00",
-      "newest_evidence_age_days": 0.3,
-      "source_count": 5,
-      "demand_signal_score": 4900,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin fails to reclaim $80K as Bessent fuels yen strength around 153 per dollar",
+      "newest_evidence_iso": "2026-09-10T15:14:49+00:00",
+      "oldest_evidence_iso": "2026-09-10T07:53:38+00:00",
+      "newest_evidence_age_days": 0.0,
+      "source_count": 3,
+      "demand_signal_score": 4000,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin Bancorp snaps up thousands of defunct Bitcoin Depot ATMs for $620,000",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin fails to reclaim $80K as Bessent fuels yen strength around 153 per dollar",
-          "source_name": "Cointelegraph",
-          "published": "Wed, 09 Sep 2026 16:28:19 +0000",
-          "published_iso": "2026-09-09T16:28:19+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-fails-to-reclaim-80k-as-bessent-fuels-yen-strength-around-153-per-dollar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push",
+          "title": "Bitcoin Bancorp snaps up thousands of defunct Bitcoin Depot ATMs for $620,000",
           "source_name": "CoinDesk RSS",
-          "published": "Wed, 09 Sep 2026 15:30:00 +0000",
-          "published_iso": "2026-09-09T15:30:00+00:00",
-          "link": "https://www.coindesk.com/tech/2026/09/09/bitcoin-and-ethereum-race-quantum-clock-as-u-s-backs-usd300-million-hardware-push",
+          "published": "Thu, 10 Sep 2026 15:14:49 +0000",
+          "published_iso": "2026-09-10T15:14:49+00:00",
+          "link": "https://www.coindesk.com/business/2026/09/10/a-quarter-of-bankrupt-bitcoin-depot-s-atms-snapped-up-for-less-than-usd1-million",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin marginally lower to $78.3k as Brent tops $100 and U.S. bonds slide",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-09-09 20:47:59",
-          "published_iso": "2026-09-09 20:47:59",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-above-79k-on-zcash-etf-inflows-fed-oil-pressures-limit-rise-4892730",
+          "title": "Bitcoin falls on US PPI overshoot as 30-year bond yield hits new 19-year high",
+          "source_name": "Cointelegraph",
+          "published": "Thu, 10 Sep 2026 14:52:15 +0000",
+          "published_iso": "2026-09-10T14:52:15+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-falls-on-us-ppi-overshoot-as-30-year-bond-yield-hits-new-19-year-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Crypto researchers cut Bitcoin and Ethereum quantum attack estimate by 50%",
+          "source_name": "CoinDesk RSS",
+          "published": "Thu, 10 Sep 2026 13:00:00 +0000",
+          "published_iso": "2026-09-10T13:00:00+00:00",
+          "link": "https://www.coindesk.com/tech/2026/09/10/crypto-researchers-cut-bitcoin-and-ethereum-quantum-attack-estimate-by-50",
           "source_type": "rss"
         }
       ]
     },
     {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "keyword": "us_big_tech",
+      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
       "quality_status": "review_before_publish",
       "ready_now": false,
       "publish_date": "2026-09-12",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-09T23:06:18+00:00",
-      "oldest_evidence_iso": "2026-09-09T13:20:23+00:00",
-      "newest_evidence_age_days": 0.2,
-      "source_count": 3,
-      "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Stop looking for stock market secrets and do this instead",
-      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "Stop looking for stock market secrets and do this instead",
-          "source_name": "무역킹 Trade King YouTube",
-          "published": "24K views",
-          "published_iso": "24K views",
-          "link": "https://www.youtube.com/watch?v=mmfoe6xc1Wc",
-          "source_type": "youtube_channel"
-        },
-        {
-          "title": "S&P 500 ends down as oil tops $100 per barrel - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Wed, 09 Sep 2026 23:06:18 GMT",
-          "published_iso": "2026-09-09T23:06:18+00:00",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZExkRWJ1dThFMjNOZWdHdkJuSFd4UENUUko1cUI2aWJNMkQzb3FtYm5kNWUza3hVRVQ2Qlk0WjFGRnlGZWRhbzVMckNacFc4NDRXbzRqTmdyWWxTdVZoQ3pYNjY2Nm9pNHJRTUo0dlhkNkFzN2NSZ3BYR2Rqb1dfYkFjWHI1eW5USFlQd200RzI1cVVYY0VsdEZMbDdNQnZrLThZ?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "Fearless US stock market vulnerable to shocks as midterms loom - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Wed, 09 Sep 2026 13:20:23 GMT",
-          "published_iso": "2026-09-09T13:20:23+00:00",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOTRiSTVzTlAwaTR4T2ItUGVHUDBTSDJvT2ZJZERDZ25sQVhlaWFhbFhIdkk0Mzh0RVJhTnpRQkhvUmkxOER5NHlQbGhTZDUyR0VQa0FkcWpvOWRDMzRRekFJQTZnSnpYdnRNY2NzcWFhaTFnLVRZYzNKZHhfVGFabmxiMkZzdzloc3RKRmM3ME9FbW5TN1RkOGdIRmdGUU1ablVTQTFGbTQ1N2tUZ1E?oc=5",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "tariffs_trade",
-      "title": "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
-      "quality_status": "review_before_publish",
-      "ready_now": false,
-      "publish_date": "2026-09-13",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-10T04:00:28+00:00",
-      "oldest_evidence_iso": "2026-09-09T20:29:50+00:00",
+      "newest_evidence_iso": "2026-09-10T16:10:03+00:00",
+      "oldest_evidence_iso": "2026-09-10T14:30:36+00:00",
       "newest_evidence_age_days": 0.0,
-      "source_count": 3,
+      "source_count": 4,
       "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: IMF ditched top candidate for chief economist job over Trump tariff remarks",
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Polymarket names former Amazon finance chief Warren Jenson as its first CFO",
       "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "IMF ditched top candidate for chief economist job over Trump tariff remarks",
-          "source_name": "Financial Times World",
-          "published": "Thu, 10 Sep 2026 04:00:28 GMT",
-          "published_iso": "2026-09-10T04:00:28+00:00",
-          "link": "https://www.ft.com/content/98329c45-f5b7-4885-9911-e0c8a9c83c0a?syn-25a6b1a6=1",
+          "title": "Polymarket names former Amazon finance chief Warren Jenson as its first CFO",
+          "source_name": "CoinDesk RSS",
+          "published": "Thu, 10 Sep 2026 16:10:03 +0000",
+          "published_iso": "2026-09-10T16:10:03+00:00",
+          "link": "https://www.coindesk.com/markets/2026/09/10/polymarket-names-former-amazon-finance-chief-warren-jenson-as-its-first-cfo",
           "source_type": "rss"
         },
         {
-          "title": "Trump promises $5,000 checks if Republicans win the midterms. He also teased tariff and ‘DOGE’ dividends last year that never came.",
+          "title": "Meta is winning over Wall Street with its new Muse AI agent",
           "source_name": "MarketWatch Breaking News",
-          "published": "Thu, 10 Sep 2026 03:00:00 GMT",
-          "published_iso": "2026-09-10T03:00:00+00:00",
-          "link": "https://www.marketwatch.com/story/trump-promises-5-000-checks-if-republicans-win-the-midterms-but-he-also-promised-tariff-dividends-last-year-that-never-came-d062c602?mod=mw_rss_topstories",
+          "published": "Thu, 10 Sep 2026 15:23:00 GMT",
+          "published_iso": "2026-09-10T15:23:00+00:00",
+          "link": "https://www.marketwatch.com/story/meta-is-winning-over-wall-street-with-its-new-muse-ai-agent-0700ca87?mod=mw_rss_topstories",
           "source_type": "rss"
         },
         {
-          "title": "Trump’s Midterm Pitch Clouded by Iran War and Canada Tariffs",
-          "source_name": "NYT Business",
-          "published": "Wed, 09 Sep 2026 20:29:50 +0000",
-          "published_iso": "2026-09-09T20:29:50+00:00",
-          "link": "https://www.nytimes.com/2026/09/09/business/canada-iran-war-trump-midterms.html",
+          "title": "Apple makes biggest change to iPhone release cadence in 7 years in Ternus' first showcase as CEO",
+          "source_name": "CNBC Top News",
+          "published": "Thu, 10 Sep 2026 14:45:52 GMT",
+          "published_iso": "2026-09-10T14:45:52+00:00",
+          "link": "https://www.cnbc.com/2026/09/10/apple-makes-biggest-change-to-iphone-release-cadence-in-7-years.html",
           "source_type": "rss"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T04:07:33+00:00",
+  "generated_at": "2026-09-10T16:16:53+00:00",
   "status": "ok",
   "providers": {
     "binance_plugin": false,
@@ -8,9 +8,9 @@
     "alternative_fear_greed": true
   },
   "market": {
-    "sentiment": "mixed",
-    "average_change_percent_24h": -2.42,
-    "tracked_quote_volume_24h": 56810502959.0,
+    "sentiment": "risk_off",
+    "average_change_percent_24h": -3.76,
+    "tracked_quote_volume_24h": 55007226423.0,
     "signal_strength": 4
   },
   "fear_greed": {
@@ -23,54 +23,54 @@
     {
       "symbol": "BTCUSDT",
       "keyword": "bitcoin",
-      "last_price": 78352.0,
-      "price_change_percent_24h": -0.66853,
-      "quote_volume_24h": 35329815405.0,
+      "last_price": 76963.0,
+      "price_change_percent_24h": -2.00832,
+      "quote_volume_24h": 32585556156.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "ETHUSDT",
       "keyword": "ethereum",
-      "last_price": 2476.52,
-      "price_change_percent_24h": -0.97805,
-      "quote_volume_24h": 13713046385.0,
+      "last_price": 2437.58,
+      "price_change_percent_24h": -2.01834,
+      "quote_volume_24h": 14731218181.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "SOLUSDT",
       "keyword": "crypto_etf",
-      "last_price": 101.91,
-      "price_change_percent_24h": -1.90313,
-      "quote_volume_24h": 3310970405.0,
+      "last_price": 99.38,
+      "price_change_percent_24h": -3.42474,
+      "quote_volume_24h": 3243630523.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "XRPUSDT",
       "keyword": "crypto_etf",
-      "last_price": 1.39,
-      "price_change_percent_24h": -2.41053,
-      "quote_volume_24h": 2393300081.0,
+      "last_price": 1.35,
+      "price_change_percent_24h": -4.55759,
+      "quote_volume_24h": 2356463725.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "BNBUSDT",
       "keyword": "crypto_etf",
-      "last_price": 723.22,
-      "price_change_percent_24h": -3.78942,
-      "quote_volume_24h": 1140839574.0,
+      "last_price": 706.36,
+      "price_change_percent_24h": -4.39957,
+      "quote_volume_24h": 1178509615.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "DOGEUSDT",
       "keyword": "crypto_etf",
-      "last_price": 0.086026,
-      "price_change_percent_24h": -4.77918,
-      "quote_volume_24h": 922531109.0,
+      "last_price": 0.083346,
+      "price_change_percent_24h": -6.16405,
+      "quote_volume_24h": 911848223.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     }
@@ -89,27 +89,32 @@
   },
   "keyword_signals": {
     "bitcoin": {
-      "signal_score_bonus": 1,
-      "market_signal_notes": [],
+      "signal_score_bonus": 3,
+      "market_signal_notes": [
+        "BTCUSDT 24h change -2.01%"
+      ],
       "tracked_symbols": [
         "BTCUSDT"
       ],
-      "market_sentiment": "mixed"
+      "market_sentiment": "risk_off"
     },
     "ethereum": {
-      "signal_score_bonus": 1,
-      "market_signal_notes": [],
+      "signal_score_bonus": 3,
+      "market_signal_notes": [
+        "ETHUSDT 24h change -2.02%"
+      ],
       "tracked_symbols": [
         "ETHUSDT"
       ],
-      "market_sentiment": "mixed"
+      "market_sentiment": "risk_off"
     },
     "crypto_etf": {
       "signal_score_bonus": 8,
       "market_signal_notes": [
-        "XRPUSDT 24h change -2.41%",
-        "BNBUSDT 24h change -3.79%",
-        "DOGEUSDT 24h change -4.78%"
+        "SOLUSDT 24h change -3.42%",
+        "XRPUSDT 24h change -4.56%",
+        "BNBUSDT 24h change -4.40%",
+        "DOGEUSDT 24h change -6.16%"
       ],
       "tracked_symbols": [
         "SOLUSDT",
@@ -117,7 +122,7 @@
         "BNBUSDT",
         "DOGEUSDT"
       ],
-      "market_sentiment": "mixed"
+      "market_sentiment": "risk_off"
     }
   }
 }
