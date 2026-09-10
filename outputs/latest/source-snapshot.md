@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-09T16:27:30.816192+00:00`
+- 생성 시각: `2026-09-10T04:07:32.633351+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,55 +106,56 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `fomc`: score 39, source_count 5, sources Federal Reserve Monetary Policy Press, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `bitcoin`: score 39, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `oil`: score 38, source_count 6, sources CNBC Top News, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `treasury_yields`: score 22, source_count 7, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `china`: score 18, source_count 2, sources Google Trends US, 무역킹 Trade King YouTube
-- `us_big_tech`: score 16, source_count 3, sources Financial Times World, Google Trends KR, Reuters Markets via Google News RSS
-- `ethereum`: score 11, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
-- `dollar`: score 11, source_count 2, sources CoinDesk RSS, 무역킹 Trade King YouTube
-- `us_index_flow`: score 9, source_count 3, sources Financial Times Home, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
-- `ai_semiconductors`: score 8, source_count 3, sources CNBC Top News, Financial Times Home, Financial Times YouTube
+- `bitcoin`: score 37, source_count 5, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, NYT Business
+- `fomc`: score 31, source_count 4, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `oil`: score 31, source_count 4, sources CNBC Top News, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- `treasury_yields`: score 20, source_count 6, sources CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `dollar`: score 19, source_count 5, sources CoinDesk RSS, Cointelegraph, NYT Business, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
+- `ethereum`: score 14, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `us_index_flow`: score 12, source_count 3, sources Cointelegraph, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
+- `china`: score 9, source_count 2, sources Financial Times Home, 무역킹 Trade King YouTube
+- `cpi`: score 8, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 7, source_count 3, sources CNBC Top News, Financial Times YouTube, NYT Business
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 39, headlines 12
+- `bitcoin`: score 37, headlines 12
   - U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee
   - Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push
   - Crypto Long & Short: Inside the 300-to-1 onchain gap between the dollar and euro
-- `fomc`: score 39, headlines 11
+- `oil`: score 31, headlines 11
+  - Trump says oil and gas prices won't fall until 'right after' midterm election
+  - Bitcoin marginally lower to $78.3k as Brent tops $100 and U.S. bonds slide
+  - Bitcoin falls nearly 1% as Fed rate hike bets remain elevated, oil prices rise
+- `fomc`: score 31, headlines 8
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `oil`: score 38, headlines 14
-  - Brent crude oil tops $101 for first time since July as fighting escalates in Persian Gulf
-  - Trump's oil investments have gained millions during Iran war as his accounts keep trading
-  - U.S. denies claims Iran struck two American vessels in retaliation for earlier strikes
-- `treasury_yields`: score 22, headlines 8
+- `treasury_yields`: score 20, headlines 7
   - U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee
-  - Treasury Department to buy back up to $6 billion in longer-term debt, triple the normal level
-  - US Treasury yields jump as plans for $6bn buybacks disappoint investors
-- `china`: score 18, headlines 2
-  - puerto rico vs china
-  - Has China Finally Responded to the U.S. Lawsuit???
-- `us_big_tech`: score 16, headlines 3
-  - apple
-  - Amazon raises almost $6 billion in first sterling bond sale, lead manager says - Reuters
-  - New Apple CEO to unveil $2,000 folding iPhone
-- `dollar`: score 11, headlines 3
+  - Bitcoin fails to reclaim $80K as Bessent fuels yen strength around 153 per dollar
+  - Treasury yields jump as Bessent’s $6bn buyback plan disappoints investors
+- `dollar`: score 19, headlines 6
   - Crypto Long & Short: Inside the 300-to-1 onchain gap between the dollar and euro
   - PayPal expands stablecoin rails with custom token issuance platform
-  - You can call it Dollar Hegemony 2.0
-- `ethereum`: score 11, headlines 3
+  - Bitcoin fails to reclaim $80K as Bessent fuels yen strength around 153 per dollar
+- `ethereum`: score 14, headlines 4
   - Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push
   - Consensys to split MetaMask into its own firm while staying silent on IPO
-  - Frameless Gallery Launches Ethereum NFT Display Platform for TokenFrame and Browser-Capable Screen
-- `us_index_flow`: score 9, headlines 3
-  - US spy chief prepares for greater role in Russia-Ukraine talks
+  - Consensys to split into MetaMask and institutional blockchain company
+- `us_index_flow`: score 12, headlines 4
+  - Bitcoin fails to reclaim $80K as Bessent fuels yen strength around 153 per dollar
   - Fearless US stock market vulnerable to shocks as midterms loom - Reuters
-  - Stop looking for stock market secrets and do this instead
-- `ai_semiconductors`: score 8, headlines 3
+  - S&P 500 ends down as oil tops $100 per barrel - Reuters
+- `china`: score 9, headlines 3
+  - US-China borrowing costs diverge to widest level ever
+  - China warns bankers not to flood IPO market
+  - Has China Finally Responded to the U.S. Lawsuit???
+- `cpi`: score 8, headlines 3
+  - Currency markets subdued as oil shock lifts global yields; ECB, U.S. inflation eyed - Reuters
+  - Gold climbs on subdued US dollar as inflation data awaited amid oil rally - Reuters
+  - Diesel prices hit another record high. If you’re shocked, wait until you see your grocery bill.
+- `ai_semiconductors`: score 7, headlines 3
   - Experts weigh in as researcher says AI has more than 10% chance of 'killing all humans'
-  - Anthropic researcher quits over AI labs ‘gambling with our lives’
   - Silicon shadows: inside the black market for AI chips | FT Film
+  - Justice Dept. Investigates Nvidia Deal With Groq
