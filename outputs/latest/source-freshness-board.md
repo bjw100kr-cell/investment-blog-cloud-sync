@@ -1,53 +1,51 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-09-11T04:06:20.844564+00:00`
-- snapshot_generated_at: `2026-09-11T04:06:16.308544+00:00`
+- generated_at: `2026-09-11T16:21:06.797385+00:00`
+- snapshot_generated_at: `2026-09-11T16:21:02.100936+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
-- counts: fresh `3` / aging `0` / stale `0` / unknown `0`
+- counts: fresh `1` / aging `0` / stale `1` / unknown `1`
 
-## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+- keyword: `fomc`
+- freshness_status: `stale`
+- newest_evidence_age_days: `22.9`
+- newest_evidence_iso: `2026-08-19T18:00:00+00:00`
+- quality_status: `pass` / ready_now `True`
+- summary: 핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement
+- recommendation: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
+- recovery_mode: `full_refresh_needed`
+- recovery_summary: 현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.
+- recovery_command: `bash scripts/run_pipeline.sh`
+- evidence: Federal Reserve Monetary Policy Press / 2026-07-29T18:00:00+00:00 / Federal Reserve issues FOMC statement
+- evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve issues FOMC statement
+- evidence: Federal Reserve Monetary Policy Press / 2026-06-17T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
+
+## 2. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+
+- keyword: `us_index_flow`
+- freshness_status: `unknown`
+- newest_evidence_age_days: `None`
+- newest_evidence_iso: ``
+- quality_status: `review_before_publish` / ready_now `False`
+- summary: 대표 근거 시각을 읽지 못해 판단이 보류되었습니다.
+- recommendation: 최근 근거 시각을 다시 수집해 신선도를 먼저 확인하세요.
+- recovery_mode: `manual_check`
+- recovery_summary: 최근 근거 시각을 먼저 다시 확인한 뒤 다음 액션을 결정하세요.
+
+## 3. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.3`
-- newest_evidence_iso: `2026-09-10T21:43:48+00:00`
+- newest_evidence_age_days: `0.0`
+- newest_evidence_iso: `2026-09-11T16:03:37+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin Bancorp snaps up thousands of defunct Bitcoin Depot ATMs for $620,000
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: CoinDesk RSS / 2026-09-10T15:14:49+00:00 / Bitcoin Bancorp snaps up thousands of defunct Bitcoin Depot ATMs for $620,000
-- evidence: Cointelegraph / 2026-09-10T14:52:15+00:00 / Bitcoin falls on US PPI overshoot as 30-year bond yield hits new 19-year high
-- evidence: Investing.com Crypto News / 2026-09-10 21:43:48 / Bitcoin dips to $77.1k as PPI data boosts Fed rate hike bets, oil prices jump
-
-## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-
-- keyword: `ai_semiconductors`
-- freshness_status: `fresh`
-- newest_evidence_age_days: `0.1`
-- newest_evidence_iso: `2026-09-11T01:53:08+00:00`
-- quality_status: `review_before_publish` / ready_now `False`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film
-- recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
-- recovery_mode: `publish_direct`
-- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Financial Times YouTube / 60K views / Silicon shadows: inside the black market for AI chips | FT Film
-- evidence: CNBC Top News / 2026-09-11T01:53:08+00:00 / Chinese Nvidia rival Enflame soars 206% on stock market debut as AI demand stays hot
-- evidence: CNBC Top News / 2026-09-11T00:59:45+00:00 / Chinese AI labs secretly used millions of Claude exchanges to train their models, Anthropic says
-
-## 3. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-
-- keyword: `china`
-- freshness_status: `fresh`
-- newest_evidence_age_days: `0.0`
-- newest_evidence_iso: `2026-09-11T03:44:43+00:00`
-- quality_status: `review_before_publish` / ready_now `False`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Has China Finally Responded to the U.S. Lawsuit???
-- recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
-- recovery_mode: `publish_direct`
-- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: 무역킹 Trade King YouTube / 63K views / Has China Finally Responded to the U.S. Lawsuit???
-- evidence: CNBC Top News / 2026-09-11T03:44:43+00:00 / China-Philippines tensions simmer after Beijing rebukes Manila over Seoul clash
-- evidence: Financial Times World / 2026-09-11T03:17:24+00:00 / How China is extending its long arm abroad
+- evidence: Cointelegraph / 2026-09-11T16:03:37+00:00 / Bitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields
+- evidence: Cointelegraph / 2026-09-11T12:33:38+00:00 / Bitcoin ETF outflows accelerate as investors pull $449M in three days
+- evidence: CoinDesk RSS / 2026-09-11T11:20:26+00:00 / Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report
