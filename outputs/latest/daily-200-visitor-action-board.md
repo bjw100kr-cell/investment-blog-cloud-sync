@@ -1,6 +1,6 @@
 # Daily 200 Visitor Action Board
 
-- 생성 시각: `2026-09-11T16:21:06.171490+00:00`
+- 생성 시각: `2026-09-12T04:06:56.596976+00:00`
 - 목표: 하루 `200`명
 - 상태: `measurement_missing_keep_building`
 - 실측 방문자: `0`
@@ -9,18 +9,12 @@
 
 ## 오늘 운영 상한
 
-- 품질 통과 글: `3`
+- 품질 통과 글: `1`
 - Blogger 준비 글: `1`
 - 다음 실행 권장 게시 수: `1`
 - 규칙: 품질 게이트 통과 글만 실행당 최대 3건
 
 ## 검색 유입용 키워드 표현
-
-### cpi
-
-- mapped_keyword: `cpi`
-- suggested_title: cpi 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
 ### FOMC 일정
 
@@ -36,11 +30,17 @@
 - supporting_queries: 비트코인 ETF 자금 흐름, 비트코인 하락 이유, 비트코인 오늘 시세 보는법
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
-### 미국채 금리 상승 이유
+### 국제유가 전망
 
-- mapped_keyword: `treasury_yields`
-- suggested_title: 미국채 금리 상승 이유 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: 10년물 국채금리 주식 영향, 국채금리 비트코인 영향, 금리 상승 성장주 영향
+- mapped_keyword: `oil`
+- suggested_title: 국제유가 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 유가 상승 주식 영향, WTI 유가 보는법, 원유 가격 인플레이션 영향
+- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
+
+### cpi
+
+- mapped_keyword: `cpi`
+- suggested_title: cpi 왜 검색이 급증했나: 투자자 관점 핵심 정리
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
 ## 공개 URL 배포 액션

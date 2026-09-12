@@ -1,66 +1,22 @@
 {
-  "generated_at": "2026-09-11T16:21:06.797385+00:00",
-  "snapshot_generated_at": "2026-09-11T16:21:02.100936+00:00",
+  "generated_at": "2026-09-12T04:06:57.076765+00:00",
+  "snapshot_generated_at": "2026-09-12T04:06:52.118326+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 1,
+    "fresh": 2,
     "aging": 0,
-    "stale": 1,
+    "stale": 0,
     "unknown": 1
   },
   "items": [
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-09-11",
-      "freshness_status": "stale",
-      "newest_evidence_iso": "2026-08-19T18:00:00+00:00",
-      "oldest_evidence_iso": "2026-06-17T18:00:00+00:00",
-      "newest_evidence_age_days": 22.9,
-      "source_count": 9,
-      "demand_signal_score": 6600,
-      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
-      "recovery_mode": "full_refresh_needed",
-      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
-      "recovery_command": "bash scripts/run_pipeline.sh",
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
-          "published_iso": "2026-06-17T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
       "quality_status": "review_before_publish",
       "ready_now": false,
-      "publish_date": "2026-09-13",
+      "publish_date": "2026-09-15",
       "freshness_status": "unknown",
       "newest_evidence_iso": "",
       "oldest_evidence_iso": "",
@@ -71,25 +27,77 @@
       "recommendation": "최근 근거 시각을 다시 수집해 신선도를 먼저 확인하세요.",
       "recovery_mode": "manual_check",
       "recovery_summary": "최근 근거 시각을 먼저 다시 확인한 뒤 다음 액션을 결정하세요.",
-      "recent_evidence": []
+      "recent_evidence": [
+        {
+          "title": "China Sent a Note and Got Absolutely Roasted",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "48K views",
+          "published_iso": "48K views",
+          "link": "https://www.youtube.com/watch?v=UpuRGngaTl4",
+          "source_type": "youtube_channel"
+        }
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "publish_date": "2026-09-14",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-09-11T09:02:54+00:00",
+      "oldest_evidence_iso": "2026-09-11T09:02:54+00:00",
+      "newest_evidence_age_days": 0.8,
+      "source_count": 3,
+      "demand_signal_score": 0,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
+      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Silicon shadows: inside the black market for AI chips | FT Film",
+          "source_name": "Financial Times YouTube",
+          "published": "60K views",
+          "published_iso": "60K views",
+          "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "Houthis used Anthropic AI to try to build ballistic missiles",
+          "source_name": "Financial Times Home",
+          "published": "Fri, 11 Sep 2026 09:02:54 GMT",
+          "published_iso": "2026-09-11T09:02:54+00:00",
+          "link": "https://www.ft.com/content/8310cf56-ce60-4e6e-8254-5bb470e9a880?syn-25a6b1a6=1",
+          "source_type": "rss"
+        }
+      ]
     },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-09-12",
+      "publish_date": "2026-09-13",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-11T16:03:37+00:00",
-      "oldest_evidence_iso": "2026-09-11T10:50:47+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 3,
-      "demand_signal_score": 6100,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields",
+      "newest_evidence_iso": "2026-09-11T21:20:45+00:00",
+      "oldest_evidence_iso": "2026-09-11T11:20:26+00:00",
+      "newest_evidence_age_days": 0.3,
+      "source_count": 4,
+      "demand_signal_score": 5600,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin Suisse to shift up to half of Swiss jobs abroad",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
+        {
+          "title": "Bitcoin Suisse to shift up to half of Swiss jobs abroad",
+          "source_name": "Cointelegraph",
+          "published": "Fri, 11 Sep 2026 19:46:24 +0000",
+          "published_iso": "2026-09-11T19:46:24+00:00",
+          "link": "https://cointelegraph.com/news/bitcoin-suisse-to-shift-up-to-half-of-swiss-jobs-abroad?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
         {
           "title": "Bitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields",
           "source_name": "Cointelegraph",
@@ -104,14 +112,6 @@
           "published": "Fri, 11 Sep 2026 12:33:38 +0000",
           "published_iso": "2026-09-11T12:33:38+00:00",
           "link": "https://cointelegraph.com/markets/bitcoin-etfs-282m-biggest-outflow-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 11 Sep 2026 11:20:26 +0000",
-          "published_iso": "2026-09-11T11:20:26+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/09/11/rising-yields-oil-prices-leave-bitcoin-vulnerable-ahead-of-u-s-inflation-report",
           "source_type": "rss"
         }
       ]
