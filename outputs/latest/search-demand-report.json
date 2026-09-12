@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T04:06:52.118326+00:00",
+  "generated_at": "2026-09-12T15:26:15.856289+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -7,32 +7,6 @@
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "fomc",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 5600,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 44,
-      "source_count": 6,
-      "source_names": [
-        "CoinDesk RSS",
-        "Federal Reserve Monetary Policy Press",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "NYT Business"
-      ],
-      "sample_titles": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ]
-    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -53,9 +27,35 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
+        "Bitcoin activity, passports exposed after Revolut falls for fake government request",
         "Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value",
-        "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
         "Here’s what happened in crypto today"
+      ]
+    },
+    {
+      "keyword": "fomc",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 5000,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 38,
+      "source_count": 5,
+      "source_names": [
+        "CoinDesk RSS",
+        "Federal Reserve Monetary Policy Press",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
       ]
     },
     {
@@ -65,23 +65,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4200,
+      "demand_signal_score": 4100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 30,
-      "source_count": 7,
+      "source_snapshot_score": 29,
+      "source_count": 6,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
         "Financial Times Home",
         "Financial Times World",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
         "Saudi Arabia shut down East-West crude oil pipeline after multiple attacks by drones from Iraq",
-        "I went to Caracas for Venezuela’s new oil deals. Here’s what stood out"
+        "Oil's roundtrip back to $100. Why China could determine what happens next",
+        "Trump sees Iran war ending soon after mid-term elections, predicts oil prices will then fall sharply"
       ]
     },
     {
@@ -91,23 +91,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3400,
+      "demand_signal_score": 2600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 22,
-      "source_count": 5,
+      "source_snapshot_score": 14,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
         "Cointelegraph",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike",
-        "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
-        "Bitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields"
+        "Bitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields",
+        "Here’s the inflation breakdown for August 2026 — in one chart",
+        "S&P 500 ends higher as strong inflation data cements rate-hike bets - Reuters"
       ]
     }
   ],

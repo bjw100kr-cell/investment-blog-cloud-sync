@@ -18,7 +18,7 @@
 - current_title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - recommended_title: FOMC 이후 시장 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `5600`
+- demand_signal_score: `5000`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 
 ### Variants
@@ -100,24 +100,24 @@
 - `china-v4` score `50` angle `explainer`: 중국 변수와 시장 영향이 시장에 번지는 경로: 주식, 코인, 원자재 체크
   - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
 
-## 5. cpi
+## 5. oil
 
 - lane: `macro`
-- current_title: CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
-- recommended_title: CPI 발표 후 금리와 나스닥 체크포인트 3가지: 금리, 달러, 위험자산
+- current_title: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+- recommended_title: 유가 상승이 물가와 증시에 번지는 경로 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `3400`
+- demand_signal_score: `4100`
 - public_url: `missing`
 
 ### Variants
 
-- `cpi-v5` score `90` angle `macro-link`: CPI 발표 후 금리와 나스닥 체크포인트 3가지: 금리, 달러, 위험자산
+- `oil-v4` score `90` angle `macro-link`: 유가 상승이 물가와 증시에 번지는 경로 체크포인트 3가지: 금리, 달러, 위험자산
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `cpi-v1` score `82` angle `macro-link`: CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
+- `oil-v2` score `78` angle `checklist`: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
+  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
+- `oil-v3` score `70` angle `explainer`: 유가 상승이 물가와 증시에 번지는 경로, 지금 주식과 코인이 같이 흔들리는 이유
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `cpi-v4` score `82` angle `macro-link`: CPI 발표 후 금리와 나스닥, 지금 주식과 코인이 같이 흔들리는 이유
+- `oil-v5` score `70` angle `explainer`: 유가 상승이 물가와 증시에 번지는 경로을 투자자가 봐야 하는 이유: 오늘 확인할 숫자들
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `cpi-v6` score `82` angle `macro-link`: CPI 발표 후 금리와 나스닥을 투자자가 봐야 하는 이유: 오늘 확인할 숫자들
-  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `cpi-v3` score `82` angle `macro-link`: CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 주식·코인 흐름 함께 보기
-  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
+- `oil-v1` score `63` angle `checklist`: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.

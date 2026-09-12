@@ -114,8 +114,8 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bitcoin activity, passports exposed after Revolut falls for fake government request",
     "Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value",
-    "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
     "Here’s what happened in crypto today",
     "Bitcoin Suisse to shift up to half of Swiss jobs abroad",
     "Hyperliquid’s biggest risk is regulation, says Ran Neuner"
