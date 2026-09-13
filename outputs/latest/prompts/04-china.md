@@ -91,7 +91,7 @@
     "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
     "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "왜 지금 이 이슈가 중요한가",
     "실제로 발표되거나 벌어진 일",
@@ -109,16 +109,15 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "Financial Times World",
-    "NYT Business",
+    "Reuters Markets via Google News RSS",
     "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
-    "Oil's roundtrip back to $100. Why China could determine what happens next",
-    "GM plans U.S. battery development as Trump's DOT attacks Ford for China ties",
-    "China Sent a Note and Got Absolutely Roasted",
-    "Brics push for Gulf peace as war worries mount",
-    "India Wants to Buy Fewer Chinese Imports, but Keeps Needing More"
+    "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown",
+    "Xi says China will take lead to foster AI, tech cooperation among BRICS countries",
+    "China's Xi urges BRICS nations to work towards peace in the Middle East",
+    "German firms lift China investment as US outlays fall, IW study shows - Reuters",
+    "China Sent a Note and Got Absolutely Roasted"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -182,8 +181,8 @@
   },
   "score_breakdown": {
     "total_score": 76.0,
-    "search_score": 17,
-    "timeliness_score": 20,
+    "search_score": 19,
+    "timeliness_score": 18,
     "explanatory_score": 18,
     "monetization_score": 14,
     "risk_score": 7
