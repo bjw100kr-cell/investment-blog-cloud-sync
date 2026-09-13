@@ -1,6 +1,6 @@
 # Daily 200 Visitor Action Board
 
-- 생성 시각: `2026-09-12T15:26:20.374336+00:00`
+- 생성 시각: `2026-09-13T04:18:14.921185+00:00`
 - 목표: 하루 `200`명
 - 상태: `measurement_missing_keep_building`
 - 실측 방문자: `0`
@@ -37,10 +37,11 @@
 - supporting_queries: 유가 상승 주식 영향, WTI 유가 보는법, 원유 가격 인플레이션 영향
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
-### cpi
+### 미국채 금리 상승 이유
 
-- mapped_keyword: `cpi`
-- suggested_title: cpi 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- mapped_keyword: `treasury_yields`
+- suggested_title: 미국채 금리 상승 이유 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 10년물 국채금리 주식 영향, 국채금리 비트코인 영향, 금리 상승 성장주 영향
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
 ## 공개 URL 배포 액션

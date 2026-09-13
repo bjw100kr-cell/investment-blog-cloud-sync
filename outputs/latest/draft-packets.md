@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-09-12T15:26:15.856289+00:00`
+- 생성 시각: `2026-09-13T04:18:08.433151+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- 점수: 96.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,7 +70,7 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - With Fed rate hike all but assured, here's how markets might react
+  - Bitcoin set to snap three-week win streak on surging oil, tick up in Fed hike bets
 
 ## 2. bitcoin
 
@@ -136,11 +136,11 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Bitcoin Suisse plans to cut up to half its Swiss jobs as it shifts work abroad
+  - Nigel Farage’s Reform UK lands $97 million donations from two crypto billionaires in 24 hours
+  - Ditching bonds for bitcoin: How crypto can tackle the AI-heavy portfolio dilemma
   - Bitcoin activity, passports exposed after Revolut falls for fake government request
-  - Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value
   - Here’s what happened in crypto today
-  - Bitcoin Suisse to shift up to half of Swiss jobs abroad
-  - Hyperliquid’s biggest risk is regulation, says Ran Neuner
 
 ## 3. ai_semiconductors
 
@@ -206,9 +206,9 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Anthropic CEO calls for AI race to slow down citing safety. Musk and OpenAI's Altman agrees
   - Nvidia considers $10B investment in potential record Anthropic IPO: Reuters
-  - Why the AI race has its creators fearing human extinction
-  - Marvell is sitting on an incredibly ‘sticky’ business that could help it unlock a $30 billion opportunity
+  - Elon Musk backs Anthropic’s call to slow down AI progress before rogue bots take over the entire internet
   - Silicon shadows: inside the black market for AI chips | FT Film
 
 ## 4. china

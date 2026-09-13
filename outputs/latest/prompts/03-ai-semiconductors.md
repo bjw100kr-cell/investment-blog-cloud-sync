@@ -108,15 +108,15 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
+    "CoinDesk RSS",
     "Cointelegraph",
-    "Financial Times Home",
     "Financial Times YouTube",
     "MarketWatch Breaking News"
   ],
   "reference_headlines": [
+    "Anthropic CEO calls for AI race to slow down citing safety. Musk and OpenAI's Altman agrees",
     "Nvidia considers $10B investment in potential record Anthropic IPO: Reuters",
-    "Why the AI race has its creators fearing human extinction",
-    "Marvell is sitting on an incredibly ‘sticky’ business that could help it unlock a $30 billion opportunity",
+    "Elon Musk backs Anthropic’s call to slow down AI progress before rogue bots take over the entire internet",
     "Silicon shadows: inside the black market for AI chips | FT Film"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",

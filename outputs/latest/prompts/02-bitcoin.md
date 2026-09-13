@@ -114,11 +114,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bitcoin Suisse plans to cut up to half its Swiss jobs as it shifts work abroad",
+    "Nigel Farage’s Reform UK lands $97 million donations from two crypto billionaires in 24 hours",
+    "Ditching bonds for bitcoin: How crypto can tackle the AI-heavy portfolio dilemma",
     "Bitcoin activity, passports exposed after Revolut falls for fake government request",
-    "Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value",
-    "Here’s what happened in crypto today",
-    "Bitcoin Suisse to shift up to half of Swiss jobs abroad",
-    "Hyperliquid’s biggest risk is regulation, says Ran Neuner"
+    "Here’s what happened in crypto today"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

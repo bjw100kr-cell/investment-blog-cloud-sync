@@ -1,15 +1,15 @@
 # Publish Ready Report
 
-- generated_at: `2026-09-12T15:26:19.517077+00:00`
+- generated_at: `2026-09-13T04:18:14.219773+00:00`
 
-## seo_cpi_8
+## seo_treasury_yields_8
 
 - ready: True
 - reason: ok
-- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-cpi-지금-투자자가-확인할-체크포인트-5가지.html
-- meta_title: cpi: 지금 투자자가 확인할 체크포인트 5가지
-- meta_description: cpi: 지금 투자자가 확인할 체크포인트 5가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
-- follow_up_post_count: 0
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국채-금리-상승-이유-지금-투자자가-확인할-체크포인트-5가지.html
+- meta_title: 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지
+- meta_description: 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
+- follow_up_post_count: 2
 
 ## seo_china_9
 
