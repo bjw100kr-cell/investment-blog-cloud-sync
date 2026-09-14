@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-09-13T16:06:08.312377+00:00`
+- 생성 시각: `2026-09-14T04:24:44.728070+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- 점수: 96.0
+- 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Is Clarity dead? A vibes-based analysis: State of Crypto
   - Crypto's Clarity Act is a Schrödinger's cat in life-death limbo as U.S. Senate returns
   - Bitcoin Suisse plans to cut up to half its Swiss jobs as it shifts work abroad
   - Nigel Farage’s Reform UK lands $97 million donations from two crypto billionaires in 24 hours
-  - Here’s what happened in crypto today
-  - Farage’s Reform UK gets $97M from two crypto billionaires
+  - Crypto’s biggest week ever? Swarm fears prompt AI slowdown: Hodler’s Digest
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 78.0
+- 점수: 77.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,17 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Anthropic CEO calls for AI race to slow down citing safety. Musk and OpenAI's Altman agrees
   - Anthropic chief urges slowdown in AI development to safer pace
-  - Nvidia considers $10B investment in potential record Anthropic IPO: Reuters
+  - Anthropic walks tightrope to Nasdaq, pushing for a slowdown while pursuing $2 trillion valuation
   - Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown
+  - Anthropic tells investors it will be profitable for second straight quarter
   - Silicon shadows: inside the black market for AI chips | FT Film
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 76.0
+- 점수: 64.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -277,7 +277,5 @@
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
   - Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown
-  - Xi says China will take lead to foster AI, tech cooperation among BRICS countries
-  - China's Xi urges BRICS nations to work towards peace in the Middle East
   - German firms lift China investment as US outlays fall, IW study shows - Reuters
   - China Sent a Note and Got Absolutely Roasted

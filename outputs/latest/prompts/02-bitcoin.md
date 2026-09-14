@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Is Clarity dead? A vibes-based analysis: State of Crypto",
     "Crypto's Clarity Act is a Schrödinger's cat in life-death limbo as U.S. Senate returns",
     "Bitcoin Suisse plans to cut up to half its Swiss jobs as it shifts work abroad",
     "Nigel Farage’s Reform UK lands $97 million donations from two crypto billionaires in 24 hours",
-    "Here’s what happened in crypto today",
-    "Farage’s Reform UK gets $97M from two crypto billionaires"
+    "Crypto’s biggest week ever? Swarm fears prompt AI slowdown: Hodler’s Digest"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

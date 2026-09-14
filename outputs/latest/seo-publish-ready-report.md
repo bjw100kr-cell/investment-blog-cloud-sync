@@ -1,8 +1,8 @@
 # Publish Ready Report
 
-- generated_at: `2026-09-13T16:06:11.805731+00:00`
+- generated_at: `2026-09-14T04:24:48.588529+00:00`
 
-## seo_china_9
+## seo_china_11
 
 - ready: True
 - reason: ok
@@ -11,7 +11,7 @@
 - meta_description: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 2
 
-## seo_china_11
+## seo_china_12
 
 - ready: True
 - reason: ok
@@ -20,7 +20,7 @@
 - meta_description: 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - follow_up_post_count: 2
 
-## seo_china_12
+## seo_china_13
 
 - ready: True
 - reason: ok

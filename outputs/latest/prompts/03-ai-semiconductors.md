@@ -109,15 +109,15 @@
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "CoinDesk RSS",
     "Cointelegraph",
+    "Financial Times Home",
     "Financial Times YouTube"
   ],
   "reference_headlines": [
-    "Anthropic CEO calls for AI race to slow down citing safety. Musk and OpenAI's Altman agrees",
     "Anthropic chief urges slowdown in AI development to safer pace",
-    "Nvidia considers $10B investment in potential record Anthropic IPO: Reuters",
+    "Anthropic walks tightrope to Nasdaq, pushing for a slowdown while pursuing $2 trillion valuation",
     "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown",
+    "Anthropic tells investors it will be profitable for second straight quarter",
     "Silicon shadows: inside the black market for AI chips | FT Film"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
@@ -181,8 +181,8 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 78.0,
-    "search_score": 19,
+    "total_score": 77.0,
+    "search_score": 18,
     "timeliness_score": 20,
     "explanatory_score": 19,
     "monetization_score": 15,
