@@ -1,56 +1,84 @@
 {
-  "generated_at": "2026-09-15T04:25:23.772842+00:00",
-  "snapshot_generated_at": "2026-09-15T04:25:18.488615+00:00",
+  "generated_at": "2026-09-15T16:48:21.910811+00:00",
+  "snapshot_generated_at": "2026-09-15T16:48:17.310455+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 3,
+    "fresh": 1,
     "aging": 0,
-    "stale": 0,
-    "unknown": 0
+    "stale": 1,
+    "unknown": 1
   },
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-09-15",
+      "freshness_status": "stale",
+      "newest_evidence_iso": "2026-08-19T18:00:00+00:00",
+      "oldest_evidence_iso": "2026-06-17T18:00:00+00:00",
+      "newest_evidence_age_days": 27.0,
+      "source_count": 6,
+      "demand_signal_score": 5100,
+      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "recovery_mode": "full_refresh_needed",
+      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
     {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "quality_status": "pass",
       "ready_now": true,
       "publish_date": "2026-09-17",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-14T21:11:00+00:00",
-      "oldest_evidence_iso": "2026-09-14T09:16:00+00:00",
-      "newest_evidence_age_days": 0.3,
+      "freshness_status": "unknown",
+      "newest_evidence_iso": "",
+      "oldest_evidence_iso": "",
+      "newest_evidence_age_days": null,
       "source_count": 3,
       "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "summary_line": "대표 근거 시각을 읽지 못해 판단이 보류되었습니다.",
+      "recommendation": "최근 근거 시각을 다시 수집해 신선도를 먼저 확인하세요.",
+      "recovery_mode": "manual_check",
+      "recovery_summary": "최근 근거 시각을 먼저 다시 확인한 뒤 다음 액션을 결정하세요.",
       "recent_evidence": [
         {
           "title": "Silicon shadows: inside the black market for AI chips | FT Film",
           "source_name": "Financial Times YouTube",
-          "published": "61K views",
-          "published_iso": "61K views",
+          "published": "61K",
+          "published_iso": "61K",
           "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
           "source_type": "youtube_channel"
-        },
-        {
-          "title": "Chip stocks were a safe AI play. Now they’ve turned into the market’s pain trade.",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Mon, 14 Sep 2026 21:11:00 GMT",
-          "published_iso": "2026-09-14T21:11:00+00:00",
-          "link": "https://www.marketwatch.com/story/chip-stocks-were-a-safe-ai-play-now-theyve-turned-into-the-markets-pain-trade-6029df5e?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "Wall Street ends down, calls for AI slowdown pummel chipmakers - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Mon, 14 Sep 2026 09:16:00 GMT",
-          "published_iso": "2026-09-14T09:16:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYVB5TUc4VTc5MGdNMjVWcVYxUUszYjdXU3hrVnZXbVRCRm40Z3JBX3BhTElKaXVFQmU4SW82WWRwLVdxcGFTVVhPclllM25kSzR0MWdqUmU5YjQydl9MZDhLZ1MzQmF0b01UY3MxaWx0VkxOMjJUQzhmbHJPQjQzdXJMWkJ2OGs5R0ZQc2FjeVpEdjZkM2VqMC1aeGhXSm8?oc=5",
-          "source_type": "rss"
         }
       ]
     },
@@ -61,81 +89,38 @@
       "ready_now": true,
       "publish_date": "2026-09-16",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-15T03:23:28+00:00",
-      "oldest_evidence_iso": "2026-09-14T17:50:12+00:00",
+      "newest_evidence_iso": "2026-09-15T16:02:01+00:00",
+      "oldest_evidence_iso": "2026-09-15T09:30:31+00:00",
       "newest_evidence_age_days": 0.0,
       "source_count": 6,
-      "demand_signal_score": 8000,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb",
+      "demand_signal_score": 5500,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin price falls to $75.6K September low as global bonds hit multidecade highs",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb",
+          "title": "Bitcoin price falls to $75.6K September low as global bonds hit multidecade highs",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 15 Sep 2026 16:02:01 +0000",
+          "published_iso": "2026-09-15T16:02:01+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-falls-to-756k-september-low-as-global-bonds-hit-multidecade-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Standard Chartered says Arbitrum could outperform Bitcoin, Ether through 2030",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 15 Sep 2026 15:50:49 +0000",
+          "published_iso": "2026-09-15T15:50:49+00:00",
+          "link": "https://cointelegraph.com/news/standard-chartered-arbitrum-arb-price-10-2030?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "A hacker turned 25 cents of bitcoin into 46 billion fake BTC tokens on a DeFi bridge",
           "source_name": "CoinDesk RSS",
-          "published": "Tue, 15 Sep 2026 03:23:28 +0000",
-          "published_iso": "2026-09-15T03:23:28+00:00",
-          "link": "https://www.coindesk.com/markets/2026/09/15/bitcoin-slips-to-usd77-800-as-senate-clarity-act-vote-nears-and-oil-prices-climb",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin tops $79K, oil falls as Trump says Iran war could end",
-          "source_name": "Cointelegraph",
-          "published": "Mon, 14 Sep 2026 18:56:28 +0000",
-          "published_iso": "2026-09-14T18:56:28+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-passes-79k-oil-prices-cool-on-trump-iran-war-hints?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Strive adds 469 Bitcoin to reach 25,000 BTC treasury",
-          "source_name": "Cointelegraph",
-          "published": "Mon, 14 Sep 2026 17:50:12 +0000",
-          "published_iso": "2026-09-14T17:50:12+00:00",
-          "link": "https://cointelegraph.com/news/strive-adds-469-bitcoin-to-reach-25000-btc-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-09-18",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-15T04:06:17+00:00",
-      "oldest_evidence_iso": "2026-09-15T00:28:53+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 3,
-      "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: China's August retail sales miss forecast while investment slump deepens, piling pressure on Beijing",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "China's August retail sales miss forecast while investment slump deepens, piling pressure on Beijing",
-          "source_name": "CNBC Top News",
-          "published": "Tue, 15 Sep 2026 04:06:17 GMT",
-          "published_iso": "2026-09-15T04:06:17+00:00",
-          "link": "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "China’s economy shows signs of weakness as investment slumps",
-          "source_name": "Financial Times Home",
-          "published": "Tue, 15 Sep 2026 02:26:44 GMT",
-          "published_iso": "2026-09-15T02:26:44+00:00",
-          "link": "https://www.ft.com/content/d9158802-5836-441a-9969-47409044c503?syn-25a6b1a6=1",
-          "source_type": "rss"
-        },
-        {
-          "title": "China tightens control of overseas travel in sweeping new law",
-          "source_name": "Financial Times Home",
-          "published": "Tue, 15 Sep 2026 00:28:53 GMT",
-          "published_iso": "2026-09-15T00:28:53+00:00",
-          "link": "https://www.ft.com/content/3f2b2172-0c1a-4708-aba2-559eb37eabc8?syn-25a6b1a6=1",
+          "published": "Tue, 15 Sep 2026 13:43:50 +0000",
+          "published_iso": "2026-09-15T13:43:50+00:00",
+          "link": "https://www.coindesk.com/tech/2026/09/15/a-hacker-turned-25-cents-of-bitcoin-into-46-billion-fake-btc-tokens-on-a-defi-bridge",
           "source_type": "rss"
         }
       ]

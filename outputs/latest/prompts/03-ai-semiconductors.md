@@ -108,15 +108,13 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
-    "Cointelegraph",
+    "CNBC Top News",
     "Financial Times YouTube",
     "MarketWatch Breaking News"
   ],
   "reference_headlines": [
-    "Kraken brings DeFi yield to tokenized stocks and ETFs",
-    "The murky AI milestone that has some of the industry’s leading voices increasingly on edge",
-    "CrowdStrike and Palo Alto Networks lead software stocks to a never-before-seen feat",
-    "Chip stocks were a safe AI play. Now they’ve turned into the market’s pain trade.",
+    "Will AI really destroy humanity? Pioneers who created the tech weigh in",
+    "Wall Street may have gotten the ‘slower AI’ story all wrong",
     "Silicon shadows: inside the black market for AI chips | FT Film"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
@@ -180,12 +178,12 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 71.0,
-    "search_score": 14,
-    "timeliness_score": 18,
-    "explanatory_score": 19,
+    "total_score": 63.0,
+    "search_score": 11,
+    "timeliness_score": 12,
+    "explanatory_score": 18,
     "monetization_score": 15,
-    "risk_score": 5
+    "risk_score": 7
   },
   "reference_editorial_pattern_name": "search_explainer",
   "reference_editorial_pattern": {

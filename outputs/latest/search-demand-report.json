@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T04:25:18.488615+00:00",
+  "generated_at": "2026-09-15T16:48:17.310455+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -14,23 +14,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 8000,
+      "demand_signal_score": 5500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 68,
+      "source_snapshot_score": 43,
       "source_count": 6,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
         "Financial Times Home",
-        "Financial Times World",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "U.S. House panel shares crypto tax bill ahead of hearing later this week",
-        "Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb",
-        "Even if Clarity fails, Wall Street’s crypto push is unlikely to stop"
+        "Crypto Clarity Act barrels toward disappointment barring last-minute Senate turnaround",
+        "Clarity Act's odds of passing plunge as Republicans reject Democrats' counter-proposal",
+        "A hacker turned 25 cents of bitcoin into 46 billion fake BTC tokens on a DeFi bridge"
       ]
     },
     {
@@ -40,48 +40,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4700,
+      "demand_signal_score": 5100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 35,
-      "source_count": 4,
+      "source_snapshot_score": 39,
+      "source_count": 6,
       "source_names": [
         "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
         "Investing.com Crypto News",
-        "Reuters Markets via Google News RSS"
+        "MarketWatch Breaking News",
+        "NYT Business"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
-      ]
-    },
-    {
-      "keyword": "oil",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 4500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 33,
-      "source_count": 7,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Financial Times Home",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb",
-        "Bitcoin tops $79K, oil falls as Trump says Iran war could end",
-        "Oil and Treasury yields haven’t moved this closely in seven years. That’s bad news for markets"
       ]
     },
     {
@@ -91,22 +66,49 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2800,
+      "demand_signal_score": 3800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 16,
-      "source_count": 4,
+      "source_snapshot_score": 26,
+      "source_count": 6,
       "source_names": [
         "CNBC Top News",
         "Cointelegraph",
         "Financial Times Home",
+        "Financial Times World",
         "NYT Business"
       ],
       "sample_titles": [
-        "Kraken brings DeFi yield to tokenized stocks and ETFs",
-        "Strive adds 469 Bitcoin to reach 25,000 BTC treasury",
-        "Oil and Treasury yields haven’t moved this closely in seven years. That’s bad news for markets"
+        "Bitcoin price falls to $75.6K September low as global bonds hit multidecade highs",
+        "10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming",
+        "Treasury Secretary Bessent defends Trump economic record in contentious hearing"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3400,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 22,
+      "source_count": 5,
+      "source_names": [
+        "CNBC Top News",
+        "Cointelegraph",
+        "Financial Times Home",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "USDT payments feature in Polish energy giant’s failed $230M oil deal: FT",
+        "US seeks $61M in USDT allegedly tied to sanctioned Iranian oil sales",
+        "No one and done: The Fed will hike at least two times over the next year, according to CNBC survey"
       ]
     }
   ],

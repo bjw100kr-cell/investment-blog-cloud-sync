@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-09-15T04:25:18.488615+00:00`
+- 생성 시각: `2026-09-15T16:48:17.310455+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `94.0`
-- 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News, Reuters Markets via Google News RSS
+- 총점: `96.0`
+- 점수 구성: 검색성 28 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,16 +27,17 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike
+  - 10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `87.0`
-- 점수 구성: 검색성 30 / 시의성 21 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 4 / 코인시장신호 1
+- 총점: `88.0`
+- 점수 구성: 검색성 29 / 시의성 21 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 3
 - 추천 이유: 복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 소스: CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News
+- 코인 시장 신호: BTCUSDT 24h change -3.06%
+- 소스: CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, NYT Business
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
@@ -48,20 +49,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - U.S. House panel shares crypto tax bill ahead of hearing later this week
-  - Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb
-  - Even if Clarity fails, Wall Street’s crypto push is unlikely to stop
-  - SEC's Atkins backs Clarity Act but says agency will keep pushing crypto rules without it
-  - U.S. Senator Lummis says Democrats won't quit asking for more on crypto Clarity Act
+  - Crypto Clarity Act barrels toward disappointment barring last-minute Senate turnaround
+  - Clarity Act's odds of passing plunge as Republicans reject Democrats' counter-proposal
+  - A hacker turned 25 cents of bitcoin into 46 billion fake BTC tokens on a DeFi bridge
+  - Bitcoin price falls to $75.6K September low as global bonds hit multidecade highs
+  - Standard Chartered says Arbitrum could outperform Bitcoin, Ether through 2030
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `71.0`
-- 점수 구성: 검색성 14 / 시의성 18 / 설명가치 19 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 총점: `63.0`
+- 점수 구성: 검색성 11 / 시의성 12 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Cointelegraph, Financial Times YouTube, MarketWatch Breaking News
+- 소스: CNBC Top News, Financial Times YouTube, MarketWatch Breaking News
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -73,20 +74,18 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Kraken brings DeFi yield to tokenized stocks and ETFs
-  - The murky AI milestone that has some of the industry’s leading voices increasingly on edge
-  - CrowdStrike and Palo Alto Networks lead software stocks to a never-before-seen feat
-  - Chip stocks were a safe AI play. Now they’ve turned into the market’s pain trade.
+  - Will AI really destroy humanity? Pioneers who created the tech weigh in
+  - Wall Street may have gotten the ‘slower AI’ story all wrong
   - Silicon shadows: inside the black market for AI chips | FT Film
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `74.0`
-- 점수 구성: 검색성 18 / 시의성 18 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, Financial Times World
+- 총점: `50.0`
+- 점수 구성: 검색성 6 / 시의성 8 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 섹터/세계 흐름 연결 해설 가능
+- 소스: Financial Times Home
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -98,24 +97,21 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Trump goes scorched earth on AI warnings, raging about data center opposition and regulation
-  - China's August retail sales miss forecast while investment slump deepens, piling pressure on Beijing
   - China tightens control of overseas travel in sweeping new law
   - China’s economy shows signs of weakness as investment slumps
-  - China’s economy shows signs of weakness as investment slumps
 
-## 5. oil
+## 5. treasury_yields
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `83.0`
-- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 17 / 수익성 14 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `87.0`
+- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -123,8 +119,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb
-  - Bitcoin tops $79K, oil falls as Trump says Iran war could end
-  - Oil and Treasury yields haven’t moved this closely in seven years. That’s bad news for markets
-  - Oil extends gains following Houthi strikes on Saudi Arabia
-  - Bitcoin set to snap three-week win streak on surging oil, tick up in Fed hike bets
+  - Bitcoin price falls to $75.6K September low as global bonds hit multidecade highs
+  - 10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming
+  - Treasury Secretary Bessent defends Trump economic record in contentious hearing
+  - Scott Bessent’s wobbly house
+  - Ten-year Treasury yield hits highest level since 2007

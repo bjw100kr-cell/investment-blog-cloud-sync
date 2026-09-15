@@ -111,16 +111,16 @@
     "CoinDesk RSS",
     "Cointelegraph",
     "Financial Times Home",
-    "Financial Times World",
     "Investing.com Crypto News",
-    "MarketWatch Breaking News"
+    "MarketWatch Breaking News",
+    "NYT Business"
   ],
   "reference_headlines": [
-    "U.S. House panel shares crypto tax bill ahead of hearing later this week",
-    "Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb",
-    "Even if Clarity fails, Wall Street’s crypto push is unlikely to stop",
-    "SEC's Atkins backs Clarity Act but says agency will keep pushing crypto rules without it",
-    "U.S. Senator Lummis says Democrats won't quit asking for more on crypto Clarity Act"
+    "Crypto Clarity Act barrels toward disappointment barring last-minute Senate turnaround",
+    "Clarity Act's odds of passing plunge as Republicans reject Democrats' counter-proposal",
+    "A hacker turned 25 cents of bitcoin into 46 billion fake BTC tokens on a DeFi bridge",
+    "Bitcoin price falls to $75.6K September low as global bonds hit multidecade highs",
+    "Standard Chartered says Arbitrum could outperform Bitcoin, Ether through 2030"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -183,8 +183,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 87.0,
-    "search_score": 30,
+    "total_score": 88.0,
+    "search_score": 29,
     "timeliness_score": 21,
     "explanatory_score": 17,
     "monetization_score": 15,
