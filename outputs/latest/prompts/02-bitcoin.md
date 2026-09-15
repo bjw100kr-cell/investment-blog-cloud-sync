@@ -108,19 +108,19 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.",
   "source_names": [
-    "CNBC Top News",
     "CoinDesk RSS",
     "Cointelegraph",
+    "Financial Times Home",
+    "Financial Times World",
     "Investing.com Crypto News",
-    "MarketWatch Breaking News",
-    "Reuters Markets via Google News RSS"
+    "MarketWatch Breaking News"
   ],
   "reference_headlines": [
-    "Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote",
-    "A bipartisan coalition of 17 state attorneys generals urge Senate to reject Clarity Act",
-    "Clarity Act odds surge on prediction markets, but crypto bill still faces long road",
-    "Bitmine adds $68 million in ether as Tom Lee sees more upside catalysts ahead",
-    "CLARITY Act faces state AGs opposition ahead of key Senate vote"
+    "U.S. House panel shares crypto tax bill ahead of hearing later this week",
+    "Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb",
+    "Even if Clarity fails, Wall Street’s crypto push is unlikely to stop",
+    "SEC's Atkins backs Clarity Act but says agency will keep pushing crypto rules without it",
+    "U.S. Senator Lummis says Democrats won't quit asking for more on crypto Clarity Act"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -183,8 +183,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 88.0,
-    "search_score": 29,
+    "total_score": 87.0,
+    "search_score": 30,
     "timeliness_score": 21,
     "explanatory_score": 17,
     "monetization_score": 15,

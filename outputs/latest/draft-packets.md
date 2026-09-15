@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-09-14T18:01:15.833841+00:00`
+- 생성 시각: `2026-09-15T04:25:18.488615+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
-- 점수: 96.0
+- 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,13 +70,13 @@
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-  - Warsh's credibility is on the line this week as Trump policies put pressure on Fed to hike
+  - Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - 각도: 복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 점수: 88.0
+- 점수: 87.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote
-  - A bipartisan coalition of 17 state attorneys generals urge Senate to reject Clarity Act
-  - Clarity Act odds surge on prediction markets, but crypto bill still faces long road
-  - Bitmine adds $68 million in ether as Tom Lee sees more upside catalysts ahead
-  - CLARITY Act faces state AGs opposition ahead of key Senate vote
+  - U.S. House panel shares crypto tax bill ahead of hearing later this week
+  - Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb
+  - Even if Clarity fails, Wall Street’s crypto push is unlikely to stop
+  - SEC's Atkins backs Clarity Act but says agency will keep pushing crypto rules without it
+  - U.S. Senator Lummis says Democrats won't quit asking for more on crypto Clarity Act
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 84.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 71.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,17 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Trump says no need for more AI regulation, slams Anthropic CEO Dario Amodei
-  - Microsoft sets limits for future AI models as industry throttles frontier development
-  - What Amodei's AI slowdown could mean for Anthropic's imminent IPO
-  - US tech stocks fall after big AI groups call for slowdown
-  - Wall St falls as AI anxiety batters Nvidia, chipmakers - Reuters
+  - Kraken brings DeFi yield to tokenized stocks and ETFs
+  - The murky AI milestone that has some of the industry’s leading voices increasingly on edge
+  - CrowdStrike and Palo Alto Networks lead software stocks to a never-before-seen feat
+  - Chip stocks were a safe AI play. Now they’ve turned into the market’s pain trade.
+  - Silicon shadows: inside the black market for AI chips | FT Film
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 섹터/세계 흐름 연결 해설 가능
-- 점수: 45.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 74.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,4 +276,8 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Trump says no need for more AI regulation, slams Anthropic CEO Dario Amodei
+  - Trump goes scorched earth on AI warnings, raging about data center opposition and regulation
+  - China's August retail sales miss forecast while investment slump deepens, piling pressure on Beijing
+  - China tightens control of overseas travel in sweeping new law
+  - China’s economy shows signs of weakness as investment slumps
+  - China’s economy shows signs of weakness as investment slumps

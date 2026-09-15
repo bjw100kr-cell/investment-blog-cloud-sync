@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-14T18:01:15.833841+00:00`
+- 생성 시각: `2026-09-15T04:25:18.488615+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,52 +106,53 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 57, source_count 6, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `fomc`: score 41, source_count 4, sources CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `treasury_yields`: score 27, source_count 8, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 20, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, Financial Times YouTube, Reuters Markets via Google News RSS
-- `oil`: score 17, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News
-- `cpi`: score 14, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
-- `us_index_flow`: score 10, source_count 3, sources CNBC Top News, CoinDesk RSS, Cointelegraph
-- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, NYT Business
-- `china`: score 3, source_count 1, sources CNBC Top News
+- `bitcoin`: score 68, source_count 6, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News
+- `fomc`: score 35, source_count 4, sources CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `oil`: score 33, source_count 7, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `treasury_yields`: score 16, source_count 4, sources CNBC Top News, Cointelegraph, Financial Times Home, NYT Business
+- `china`: score 15, source_count 3, sources CNBC Top News, Financial Times Home, Financial Times World
+- `ai_semiconductors`: score 11, source_count 3, sources Cointelegraph, Financial Times YouTube, MarketWatch Breaking News
+- `cpi`: score 11, source_count 3, sources Financial Times Home, Financial Times World, NYT Business
+- `us_index_flow`: score 8, source_count 2, sources Cointelegraph, MarketWatch Breaking News
+- `us_big_tech`: score 5, source_count 2, sources Financial Times World, NYT Business
+- `dollar`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 57, headlines 18
-  - Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote
-  - A bipartisan coalition of 17 state attorneys generals urge Senate to reject Clarity Act
-  - Clarity Act odds surge on prediction markets, but crypto bill still faces long road
-- `fomc`: score 41, headlines 11
+- `bitcoin`: score 68, headlines 21
+  - U.S. House panel shares crypto tax bill ahead of hearing later this week
+  - Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb
+  - Even if Clarity fails, Wall Street’s crypto push is unlikely to stop
+- `fomc`: score 35, headlines 9
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 27, headlines 10
-  - Bitmine adds $68 million in ether as Tom Lee sees more upside catalysts ahead
-  - Bitmine projects $334M in annual staking revenue from $15.8B crypto treasury
-  - 10-year Treasury yield hits 5% before reversing as traders await Fed meeting
-- `ai_semiconductors`: score 20, headlines 7
-  - Trump says no need for more AI regulation, slams Anthropic CEO Dario Amodei
-  - Microsoft sets limits for future AI models as industry throttles frontier development
-  - What Amodei's AI slowdown could mean for Anthropic's imminent IPO
-- `oil`: score 17, headlines 6
-  - Warsh's credibility is on the line this week as Trump policies put pressure on Fed to hike
-  - Bitcoin set to snap three-week win streak on surging oil, tick up in Fed hike bets
-  - Bitcoin dips to $77.1k as PPI data boosts Fed rate hike bets, oil prices jump
-- `cpi`: score 14, headlines 5
-  - Warsh's credibility is on the line this week as Trump policies put pressure on Fed to hike
+- `oil`: score 33, headlines 11
+  - Bitcoin slips to $77,800 as Senate Clarity Act vote nears and oil prices climb
+  - Bitcoin tops $79K, oil falls as Trump says Iran war could end
+  - Oil and Treasury yields haven’t moved this closely in seven years. That’s bad news for markets
+- `treasury_yields`: score 16, headlines 6
+  - Kraken brings DeFi yield to tokenized stocks and ETFs
+  - Strive adds 469 Bitcoin to reach 25,000 BTC treasury
+  - Oil and Treasury yields haven’t moved this closely in seven years. That’s bad news for markets
+- `china`: score 15, headlines 5
+  - Trump goes scorched earth on AI warnings, raging about data center opposition and regulation
+  - China's August retail sales miss forecast while investment slump deepens, piling pressure on Beijing
+  - China tightens control of overseas travel in sweeping new law
+- `ai_semiconductors`: score 11, headlines 5
+  - Kraken brings DeFi yield to tokenized stocks and ETFs
+  - The murky AI milestone that has some of the industry’s leading voices increasingly on edge
+  - CrowdStrike and Palo Alto Networks lead software stocks to a never-before-seen feat
+- `cpi`: score 11, headlines 4
+  - US manufacturers hit by fresh burst of supply chain cost inflation
   - Ten-year Treasury yield hits 5% for first time since 2023
-  - Warsh and Trump on collision course
-- `us_index_flow`: score 10, headlines 3
-  - Kaiko extends Series B funding round to $110 million with S&P Global, BNP Paribas
+  - US manufacturers hit by fresh burst of supply chain cost inflation
+- `us_index_flow`: score 8, headlines 3
+  - Kraken brings DeFi yield to tokenized stocks and ETFs
   - S&P Global backs Kaiko as Series B reaches $110M
-  - The stock market could do something strange this week after the Fed decision
-- `ethereum`: score 7, headlines 2
-  - Bitmine adds $68 million in ether as Tom Lee sees more upside catalysts ahead
-  - Bitmine projects $334M in annual staking revenue from $15.8B crypto treasury
+  - AI doomsday fears are arriving at the worst possible time for the stock market
 - `us_big_tech`: score 5, headlines 2
-  - Microsoft sets limits for future AI models as industry throttles frontier development
+  - Private equity’s new AI overlords?
   - Amazon Suspends Flights With Airline Whose Plane Crashed in Miami
-- `china`: score 3, headlines 1
-  - Trump says no need for more AI regulation, slams Anthropic CEO Dario Amodei
+- `dollar`: score 3, headlines 1
+  - Dollar near two-week high as oil surge lifts yields, Fed hike bets - Reuters
