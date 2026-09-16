@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T16:48:17.310455+00:00",
+  "generated_at": "2026-09-16T04:20:51.684196+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -58,22 +58,21 @@
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-        "10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming"
+        "Fed should defy Trump with rate rise, top economists say"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
-        "Investing.com Crypto News",
+        "Financial Times Home",
+        "Financial Times World",
         "MarketWatch Breaking News",
-        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 5100,
-      "search_score": 28,
+      "demand_signal_score": 4900,
+      "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
       "monetization_score": 15,
@@ -83,7 +82,7 @@
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 96.0,
+      "total_score": 94.0,
       "format": "macro_explainer"
     },
     {
@@ -95,7 +94,7 @@
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
       ],
-      "reason": "복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -104,38 +103,38 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "Crypto Clarity Act barrels toward disappointment barring last-minute Senate turnaround",
-        "Clarity Act's odds of passing plunge as Republicans reject Democrats' counter-proposal",
-        "A hacker turned 25 cents of bitcoin into 46 billion fake BTC tokens on a DeFi bridge",
-        "Bitcoin price falls to $75.6K September low as global bonds hit multidecade highs",
-        "Standard Chartered says Arbitrum could outperform Bitcoin, Ether through 2030"
+        "Crypto longs worth $570 million wiped out as Clarity Act fails",
+        "XRP sinks 10% as the Clarity Act fails and bitcoin slides toward $76,000",
+        "Crypto stocks sink after Senate rejects Clarity Act",
+        "Crypto industry reacts after Clarity Act fails Senate vote",
+        "Crypto Clarity Act flames out in failed U.S. Senate vote"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times Home",
         "Investing.com Crypto News",
         "MarketWatch Breaking News",
-        "NYT Business"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 5500,
-      "search_score": 29,
+      "demand_signal_score": 7500,
+      "search_score": 30,
       "timeliness_score": 21,
       "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 3,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 3,
+      "search_demand_bonus": 4,
       "crypto_market_signal_bonus": 3,
-      "crypto_market_sentiment": "mixed",
+      "crypto_market_sentiment": "risk_off",
       "crypto_market_signal_notes": [
-        "BTCUSDT 24h change -3.06%"
+        "BTCUSDT 24h change -2.36%"
       ],
-      "total_score": 88.0,
+      "total_score": 89.0,
       "format": "crypto_analysis"
     },
     {
@@ -147,7 +146,7 @@
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -156,13 +155,16 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Will AI really destroy humanity? Pioneers who created the tech weigh in",
-        "Wall Street may have gotten the ‘slower AI’ story all wrong",
-        "Silicon shadows: inside the black market for AI chips | FT Film"
+        "Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
+        "Nvidia CEO Huang attending Trump's state dinner for China's Xi: Source",
+        "Nvidia and Meta bosses reject efforts to co-ordinate AI slowdown",
+        "These 4 stocks could benefit most from a $3.2 trillion semiconductor opportunity",
+        "AI stocks are rebounding. One analyst says there’s no spending slowdown in sight."
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
+        "Financial Times Home",
         "Financial Times YouTube",
         "MarketWatch Breaking News"
       ],
@@ -170,8 +172,8 @@
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 11,
-      "timeliness_score": 12,
+      "search_score": 18,
+      "timeliness_score": 20,
       "explanatory_score": 18,
       "monetization_score": 15,
       "risk_score": 7,
@@ -180,7 +182,7 @@
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 63.0,
+      "total_score": 78.0,
       "format": "sector_analysis"
     },
     {
@@ -192,7 +194,7 @@
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -201,78 +203,81 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "China tightens control of overseas travel in sweeping new law",
-        "China’s economy shows signs of weakness as investment slumps"
-      ],
-      "reference_takeaways": [],
-      "source_names": [
-        "Financial Times Home"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 6,
-      "timeliness_score": 8,
-      "explanatory_score": 17,
-      "monetization_score": 12,
-      "risk_score": 7,
-      "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
-      "crypto_market_signal_bonus": 0,
-      "crypto_market_sentiment": "",
-      "crypto_market_signal_notes": [],
-      "total_score": 50.0,
-      "format": "macro_explainer"
-    },
-    {
-      "keyword": "treasury_yields",
-      "category": "macro",
-      "brand_lane": "macro",
-      "title_candidates": [
-        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
-        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유",
-        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기"
-      ],
-      "reason": "복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음",
-      "outline": [
-        "왜 지금 이 이슈가 중요한가",
-        "실제로 발표되거나 벌어진 일",
-        "주식·코인·달러·금리에 주는 영향",
-        "앞으로 체크할 변수",
-        "개인 투자자가 볼 포인트"
-      ],
-      "sample_headlines": [
-        "Bitcoin price falls to $75.6K September low as global bonds hit multidecade highs",
-        "10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming",
-        "Treasury Secretary Bessent defends Trump economic record in contentious hearing",
-        "Scott Bessent’s wobbly house",
-        "Ten-year Treasury yield hits highest level since 2007"
+        "China's AI leaders keep quiet despite U.S. 'publicity' on tech risks",
+        "Nvidia CEO Huang attending Trump's state dinner for China's Xi: Source",
+        "Can the US and China work together on AI risks?",
+        "EU rebuffs Carney’s ‘unique alliance’ with Canada",
+        "EU rebuffs Carney’s ‘unique alliance’ with Canada"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
-        "Cointelegraph",
         "Financial Times Home",
-        "Financial Times World",
+        "Financial Times World"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "fallback_source": "mapped_candidate",
+      "demand_signal_score": 3000,
+      "search_score": 21,
+      "timeliness_score": 18,
+      "explanatory_score": 17,
+      "monetization_score": 14,
+      "risk_score": 7,
+      "performance_bonus": 0.0,
+      "search_demand_bonus": 1,
+      "crypto_market_signal_bonus": 0,
+      "crypto_market_sentiment": "",
+      "crypto_market_signal_notes": [],
+      "total_score": 77.0,
+      "format": "macro_explainer"
+    },
+    {
+      "keyword": "oil",
+      "category": "macro",
+      "brand_lane": "macro",
+      "title_candidates": [
+        "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
+        "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유",
+        "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지"
+      ],
+      "reason": "복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "outline": [
+        "왜 지금 이 이슈가 중요한가",
+        "실제로 발표되거나 벌어진 일",
+        "주식·코인·달러·금리에 주는 영향",
+        "앞으로 체크할 변수",
+        "개인 투자자가 볼 포인트"
+      ],
+      "sample_headlines": [
+        "Oil falls as U.S. crude inventories reportedly rise, traders weigh Saudi pipeline closure",
+        "U.S. oil tops $105 as Saudi Arabia reportedly cancels some crude cargoes after pipeline closure",
+        "Oil falls as US crude inventories rise despite Saudi supply concerns - Reuters",
+        "Indian shares seen opening higher after selloff; higher oil, Fed caution to cap gains - Reuters",
+        "How the Iran war is transforming the relationship between stocks, bonds and oil"
+      ],
+      "reference_takeaways": [],
+      "source_names": [
+        "CNBC Top News",
+        "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3800,
-      "search_score": 26,
-      "timeliness_score": 21,
-      "explanatory_score": 19,
-      "monetization_score": 15,
-      "risk_score": 6,
+      "demand_signal_score": 2800,
+      "search_score": 19,
+      "timeliness_score": 20,
+      "explanatory_score": 16,
+      "monetization_score": 14,
+      "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 2,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 87.0,
+      "total_score": 76.0,
       "format": "macro_explainer"
     }
   ]
