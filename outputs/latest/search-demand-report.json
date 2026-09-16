@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T04:20:51.684196+00:00",
+  "generated_at": "2026-09-16T16:41:10.167043+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -8,50 +8,24 @@
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 7500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 63,
-      "source_count": 6,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "NYT Business"
-      ],
-      "sample_titles": [
-        "Crypto longs worth $570 million wiped out as Clarity Act fails",
-        "XRP sinks 10% as the Clarity Act fails and bitcoin slides toward $76,000",
-        "Crypto stocks sink after Senate rejects Clarity Act"
-      ]
-    },
-    {
       "keyword": "fomc",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4900,
+      "demand_signal_score": 6000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 37,
-      "source_count": 5,
+      "source_snapshot_score": 48,
+      "source_count": 7,
       "source_names": [
+        "CNBC Top News",
+        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -60,27 +34,53 @@
       ]
     },
     {
-      "keyword": "china",
+      "keyword": "bitcoin",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3000,
+      "demand_signal_score": 4500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 18,
-      "source_count": 3,
+      "source_snapshot_score": 33,
+      "source_count": 4,
       "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World"
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "China's AI leaders keep quiet despite U.S. 'publicity' on tech risks",
-        "Nvidia CEO Huang attending Trump's state dinner for China's Xi: Source",
-        "Can the US and China work together on AI risks?"
+        "U.S. House's tax committee advances crypto tax bill in wake of Clarity Act loss",
+        "Crypto Long & Short: Six signs a crypto winter is ending",
+        "Bitcoin Core 32 enters final testing with faster validation, fee changes and security fixes"
+      ]
+    },
+    {
+      "keyword": "treasury_yields",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2400,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 12,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household",
+        "Bond market woes likely a factor for Fed, but intervention seen as unlikely - reuters.com",
+        "15 stocks that have grown dividends the most — and nearly all have beaten the S&P 500"
       ]
     },
     {
@@ -90,22 +90,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2800,
+      "demand_signal_score": 2400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 16,
+      "source_snapshot_score": 12,
       "source_count": 4,
       "source_names": [
         "CNBC Top News",
-        "MarketWatch Breaking News",
-        "NYT Business",
+        "Financial Times Home",
+        "Financial Times World",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Oil falls as U.S. crude inventories reportedly rise, traders weigh Saudi pipeline closure",
-        "U.S. oil tops $105 as Saudi Arabia reportedly cancels some crude cargoes after pipeline closure",
-        "Oil falls as US crude inventories rise despite Saudi supply concerns - Reuters"
+        "Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household",
+        "Chinese oil prices hit record highs after attacks on Saudi pipeline",
+        "Stocks rise as oil falls, bonds steady ahead of Fed decision - reuters.com"
       ]
     }
   ],

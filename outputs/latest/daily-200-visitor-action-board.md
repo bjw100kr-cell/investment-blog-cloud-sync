@@ -1,6 +1,6 @@
 # Daily 200 Visitor Action Board
 
-- 생성 시각: `2026-09-16T04:20:55.409786+00:00`
+- 생성 시각: `2026-09-16T16:41:14.279483+00:00`
 - 목표: 하루 `200`명
 - 상태: `measurement_missing_keep_building`
 - 실측 방문자: `0`
@@ -16,13 +16,6 @@
 
 ## 검색 유입용 키워드 표현
 
-### 비트코인 전망
-
-- mapped_keyword: `bitcoin`
-- suggested_title: 비트코인 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: 비트코인 ETF 자금 흐름, 비트코인 하락 이유, 비트코인 오늘 시세 보는법
-- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
-
 ### FOMC 일정
 
 - mapped_keyword: `fomc`
@@ -30,11 +23,11 @@
 - supporting_queries: FOMC 발표 시간, FOMC 이후 주식 영향, 연준 금리 발표 비트코인 영향
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
-### 중국 경기부양 수혜주
+### 비트코인 전망
 
-- mapped_keyword: `china`
-- suggested_title: 중국 경기부양 수혜주 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: 중국 증시 영향, 위안화 환율 시장 영향, 중국 부동산 리스크
+- mapped_keyword: `bitcoin`
+- suggested_title: 비트코인 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 비트코인 ETF 자금 흐름, 비트코인 하락 이유, 비트코인 오늘 시세 보는법
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
 ### 국제유가 전망
@@ -44,17 +37,24 @@
 - supporting_queries: 유가 상승 주식 영향, WTI 유가 보는법, 원유 가격 인플레이션 영향
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
+### 미국채 금리 상승 이유
+
+- mapped_keyword: `treasury_yields`
+- suggested_title: 미국채 금리 상승 이유 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 10년물 국채금리 주식 영향, 국채금리 비트코인 영향, 금리 상승 성장주 영향
+- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
+
 ## 공개 URL 배포 액션
 
 - 공개 URL 수: `16`
 - 수동 체크리스트 수: `48`
-- 공개 SEO 확장 글 수: `13`
+- 공개 SEO 확장 글 수: `14`
 - 전체 수동 배포 잠재 방문자: `560`
 
 - `fomc`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 - `bitcoin`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
-- `china`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
 - `ai_semiconductors`: 0개 체크 / 예상 0명 / 첫 채널  / 
+- `china`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
 - `seo_us_big_tech_10`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/07/5.html
 - `us_index_flow`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
 - `seo_ai_semiconductors_11`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html

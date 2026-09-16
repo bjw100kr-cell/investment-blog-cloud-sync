@@ -1,16 +1,60 @@
 {
-  "generated_at": "2026-09-16T04:20:56.202674+00:00",
-  "snapshot_generated_at": "2026-09-16T04:20:51.684196+00:00",
+  "generated_at": "2026-09-16T16:41:14.854468+00:00",
+  "snapshot_generated_at": "2026-09-16T16:41:10.167043+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 3,
+    "fresh": 2,
     "aging": 0,
-    "stale": 0,
+    "stale": 1,
     "unknown": 0
   },
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-09-16",
+      "freshness_status": "stale",
+      "newest_evidence_iso": "2026-08-19T18:00:00+00:00",
+      "oldest_evidence_iso": "2026-06-17T18:00:00+00:00",
+      "newest_evidence_age_days": 27.9,
+      "source_count": 7,
+      "demand_signal_score": 6000,
+      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "recovery_mode": "full_refresh_needed",
+      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+          "published_iso": "2026-06-17T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
     {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
@@ -18,10 +62,10 @@
       "ready_now": true,
       "publish_date": "2026-09-18",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-16T01:55:23+00:00",
-      "oldest_evidence_iso": "2026-09-15T21:40:00+00:00",
+      "newest_evidence_iso": "2026-09-16T13:27:04+00:00",
+      "oldest_evidence_iso": "2026-09-16T12:00:05+00:00",
       "newest_evidence_age_days": 0.1,
-      "source_count": 4,
+      "source_count": 3,
       "demand_signal_score": 0,
       "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
@@ -37,19 +81,19 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "Nvidia and Meta bosses reject efforts to co-ordinate AI slowdown",
+          "title": "Anthropic’s mother of all risk factors",
           "source_name": "Financial Times Home",
-          "published": "Wed, 16 Sep 2026 01:55:23 GMT",
-          "published_iso": "2026-09-16T01:55:23+00:00",
-          "link": "https://www.ft.com/content/2e20c674-3386-46ad-b07f-5cd8a013f67e?syn-25a6b1a6=1",
+          "published": "Wed, 16 Sep 2026 13:27:04 GMT",
+          "published_iso": "2026-09-16T13:27:04+00:00",
+          "link": "https://www.ft.com/content/29f0dac0-0523-46c4-a573-cd681a69b445",
           "source_type": "rss"
         },
         {
-          "title": "Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
-          "source_name": "CNBC Top News",
-          "published": "Tue, 15 Sep 2026 22:17:47 GMT",
-          "published_iso": "2026-09-15T22:17:47+00:00",
-          "link": "https://www.cnbc.com/2026/09/15/nvidia-and-anthropic-ceos-diverge-on-ai-safety-at-dreamforce.html",
+          "title": "AI bosses’ safety push sparks rift inside OpenAI and Anthropic",
+          "source_name": "Financial Times Home",
+          "published": "Wed, 16 Sep 2026 12:00:05 GMT",
+          "published_iso": "2026-09-16T12:00:05+00:00",
+          "link": "https://www.ft.com/content/d085adc5-977b-4c7e-9641-9824d1d345d3?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ]
@@ -61,81 +105,38 @@
       "ready_now": true,
       "publish_date": "2026-09-17",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-16T04:05:39+00:00",
-      "oldest_evidence_iso": "2026-09-15T19:45:43+00:00",
+      "newest_evidence_iso": "2026-09-16T15:30:49+00:00",
+      "oldest_evidence_iso": "2026-09-15T21:49:19+00:00",
       "newest_evidence_age_days": 0.0,
-      "source_count": 6,
-      "demand_signal_score": 7500,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin ETFs shed $450M in biggest outflow since June",
+      "source_count": 4,
+      "demand_signal_score": 4500,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin awaits Fed rate decision below $76K as analysis discounts ‘dovish surprise’ odds",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin ETFs shed $450M in biggest outflow since June",
+          "title": "Bitcoin awaits Fed rate decision below $76K as analysis discounts ‘dovish surprise’ odds",
           "source_name": "Cointelegraph",
-          "published": "Wed, 16 Sep 2026 04:05:39 +0000",
-          "published_iso": "2026-09-16T04:05:39+00:00",
-          "link": "https://cointelegraph.com/news/bitcoin-etfs-shed-450m-in-biggest-outflow-since-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Wed, 16 Sep 2026 15:30:49 +0000",
+          "published_iso": "2026-09-16T15:30:49+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-awaits-fed-rate-decision-below-76k-as-analysis-discounts-dovish-surprise-odds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "XRP sinks 10% as the Clarity Act fails and bitcoin slides toward $76,000",
+          "title": "Bitcoin Core 32 enters final testing with faster validation, fee changes and security fixes",
           "source_name": "CoinDesk RSS",
-          "published": "Wed, 16 Sep 2026 03:37:45 +0000",
-          "published_iso": "2026-09-16T03:37:45+00:00",
-          "link": "https://www.coindesk.com/markets/2026/09/16/xrp-sinks-10-as-the-clarity-act-fails-and-bitcoin-slides-toward-usd76-000",
+          "published": "Wed, 16 Sep 2026 12:00:41 +0000",
+          "published_iso": "2026-09-16T12:00:41+00:00",
+          "link": "https://www.coindesk.com/tech/2026/09/16/bitcoin-core-32-enters-final-testing-with-faster-validation-fee-changes-and-security-fixes",
           "source_type": "rss"
         },
         {
-          "title": "BIS paper finds major gap in Bitcoin onchain transfer estimates",
-          "source_name": "Cointelegraph",
-          "published": "Tue, 15 Sep 2026 21:23:00 +0000",
-          "published_iso": "2026-09-15T21:23:00+00:00",
-          "link": "https://cointelegraph.com/news/bis-paper-finds-major-gap-in-bitcoin-onchain-transfer-estimates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-09-19",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-16T04:01:59+00:00",
-      "oldest_evidence_iso": "2026-09-15T22:06:16+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 3,
-      "demand_signal_score": 3000,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: China's AI leaders keep quiet despite U.S. 'publicity' on tech risks",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "China's AI leaders keep quiet despite U.S. 'publicity' on tech risks",
-          "source_name": "CNBC Top News",
-          "published": "Wed, 16 Sep 2026 04:01:59 GMT",
-          "published_iso": "2026-09-16T04:01:59+00:00",
-          "link": "https://www.cnbc.com/2026/09/16/chinas-ai-leaders-keep-quiet-despite-us-publicity-on-tech-risks.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Can the US and China work together on AI risks?",
-          "source_name": "Financial Times Home",
-          "published": "Wed, 16 Sep 2026 01:18:40 GMT",
-          "published_iso": "2026-09-16T01:18:40+00:00",
-          "link": "https://www.ft.com/content/83023f2f-0c12-4239-bf27-99d8e378ec5d?syn-25a6b1a6=1",
-          "source_type": "rss"
-        },
-        {
-          "title": "Nvidia CEO Huang attending Trump's state dinner for China's Xi: Source",
-          "source_name": "CNBC Top News",
-          "published": "Tue, 15 Sep 2026 22:06:16 GMT",
-          "published_iso": "2026-09-15T22:06:16+00:00",
-          "link": "https://www.cnbc.com/2026/09/15/nvidia-jensen-huang-trump-xi.html",
+          "title": "Bitcoin drops below $76k as Clarity vote fails; Fed rate hike in focus",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-09-16 13:40:40",
+          "published_iso": "2026-09-16 13:40:40",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-below-76k-as-clarity-vote-fails-fed-rate-hike-in-focus-4902981",
           "source_type": "rss"
         }
       ]
