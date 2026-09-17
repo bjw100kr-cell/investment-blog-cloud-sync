@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-09-17T04:27:02.921842+00:00",
+  "generated_at": "2026-09-17T16:48:14.075347+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 4
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "us_index_flow",
+      "trend_count": 1,
+      "traffic_score_sum": 5000,
+      "max_approx_traffic": 5000,
+      "trend_queries": [
+        "dow jones stock market"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 5200,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "fomc",
       "trend_count": 0,
@@ -14,18 +30,18 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 9100,
+      "demand_signal_score": 6000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 79,
-      "source_count": 10,
+      "source_snapshot_score": 48,
+      "source_count": 7,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
         "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home"
+        "Financial Times World",
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -40,48 +56,26 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6200,
+      "demand_signal_score": 5800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 50,
-      "source_count": 3,
+      "source_snapshot_score": 46,
+      "source_count": 4,
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Revolut hackers demand $3 million in Monero, threaten to sell customer data",
-        "Celsius sues BitMEX for $495 million over 2020 crash liquidations",
-        "U.S. House's tax committee advances crypto tax bill in wake of Clarity Act loss"
+        "UK signals end of 'light-touch' era with multi-agency raid on peer-to-peer crypto hubs",
+        "U.S. SEC begins prepping for around-the-clock trading that crypto treats as the norm",
+        "Crypto for Advisors: Beyond bitcoin and ether"
       ]
     },
     {
-      "keyword": "treasury_yields",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2100,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 9,
-      "source_count": 2,
-      "source_names": [
-        "Financial Times World",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Fed's Warsh lays out forces driving up bond yields - Reuters",
-        "Bond market woes likely a factor for Fed, but intervention seen as unlikely - Reuters",
-        "Do inflation expectations matter in a social-media echo chamber?"
-      ]
-    },
-    {
-      "keyword": "us_big_tech",
+      "keyword": "oil",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -92,15 +86,15 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 8,
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "The Apple trust premium in the age of AI",
-        "Generac’s stock soars more than 30% after Amazon deal cements company’s status as an AI power player"
+        "Rising oil, rates and yields brew up stagflation cocktail for markets - reuters.com",
+        "Wall St rises as oil slide offers respite after Fed rate hike - reuters.com",
+        "China Stockpiled Oil, and Now It Could Dominate the Energy Landscape"
       ]
     }
   ],

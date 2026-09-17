@@ -109,11 +109,11 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "Financial Times Home",
-    "Financial Times World"
+    "NYT Business"
   ],
   "reference_headlines": [
-    "EU asks China to voluntarily limit car exports",
-    "EU asks China to voluntarily limit car exports"
+    "China’s AI labs must accelerate development, says Huawei chair",
+    "China Stockpiled Oil, and Now It Could Dominate the Energy Landscape"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [

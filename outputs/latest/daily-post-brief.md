@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-09-17T04:27:02.921842+00:00`
+- 생성 시각: `2026-09-17T16:48:14.075347+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `98.0`
-- 점수 구성: 검색성 30 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 5 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (10개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 총점: `97.0`
+- 점수 구성: 검색성 29 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Cointelegraph, Federal Reserve Monetary Policy Press, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,16 +27,16 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Goldman pivots, now forecasts Fed hike in October
+  - Bitcoin coils near $76.5K as US stocks rebound from Fed rate hike
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `83.0`
-- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 총점: `85.0`
+- 점수 구성: 검색성 29 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
@@ -48,24 +48,25 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - Revolut hackers demand $3 million in Monero, threaten to sell customer data
-  - Celsius sues BitMEX for $495 million over 2020 crash liquidations
-  - U.S. House's tax committee advances crypto tax bill in wake of Clarity Act loss
-  - Hamas military wing told donors to avoid sending crypto directly from Binance, DOJ filing shows
-  - Crypto Long & Short: Six signs a crypto winter is ending
+  - UK signals end of 'light-touch' era with multi-agency raid on peer-to-peer crypto hubs
+  - U.S. SEC begins prepping for around-the-clock trading that crypto treats as the norm
+  - Crypto for Advisors: Beyond bitcoin and ether
+  - Clarity Act failure may hamper U.S. crypto as industry seeks legal clarity elsewhere
+  - Bitcoin coils near $76.5K as US stocks rebound from Fed rate hike
 
-## 3. us_big_tech
+## 3. us_index_flow
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `66.0`
-- 점수 구성: 검색성 13 / 시의성 15 / 설명가치 16 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: Financial Times Home, Financial Times World, MarketWatch Breaking News
+- 총점: `91.0`
+- 점수 구성: 검색성 30 / 시의성 20 / 설명가치 20 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (dow jones stock market)
+- 소스: CoinDesk RSS, Cointelegraph, Financial Times Home, Google Trends US
+- 트렌드 쿼리: dow jones stock market
 - 제목 후보:
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -73,9 +74,11 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - The Apple trust premium in the age of AI
-  - Generac’s stock soars more than 30% after Amazon deal cements company’s status as an AI power player
-  - The Apple trust premium in the age of AI
+  - dow jones stock market
+  - Ratings giant S&P Global acquires OpenZeppelin in tokenized finance risk push
+  - Zcash miner Fortitude names former Hut 8 chief Jaime Leverton CEO ahead of Nasdaq deal
+  - Bitcoin coils near $76.5K as US stocks rebound from Fed rate hike
+  - S&P Global to acquire blockchain security platform OpenZeppelin
 
 ## 4. china
 
@@ -84,7 +87,7 @@
 - 총점: `55.0`
 - 점수 구성: 검색성 8 / 시의성 10 / 설명가치 17 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times Home, Financial Times World
+- 소스: Financial Times Home, NYT Business
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -96,17 +99,17 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - EU asks China to voluntarily limit car exports
-  - EU asks China to voluntarily limit car exports
+  - China’s AI labs must accelerate development, says Huawei chair
+  - China Stockpiled Oil, and Now It Could Dominate the Energy Landscape
 
 ## 5. cpi
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `67.0`
-- 점수 구성: 검색성 11 / 시의성 15 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 소스: Financial Times World, MarketWatch Breaking News, NYT Business
+- 총점: `62.0`
+- 점수 구성: 검색성 9 / 시의성 13 / 설명가치 18 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 소스: NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
   - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 지금 시장이 반응하는 이유
@@ -118,6 +121,6 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.
-  - Do inflation expectations matter in a social-media echo chamber?
-  - Takeaways From the Fed’s Decision to Raise Interest Rates
+  - Bank of England shifts tone toward rate hikes as inflation set to top 4% - reuters.com
+  - Bank of England Holds Rates Steady but Warns of Higher Inflation
+  - The Fed Raised Rates. What Comes Next?
