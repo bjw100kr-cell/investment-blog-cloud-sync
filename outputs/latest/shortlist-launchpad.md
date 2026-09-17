@@ -4,59 +4,53 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - 원칙: 먼저 글을 읽고, 그 다음 confirm command 또는 helper apply command를 실행합니다.
 - item_count: `3`
 
-## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `fomc` / publish `2026-09-16` / verdict `approve` / quality `pass`
+- keyword `bitcoin` / publish `2026-09-18` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
+- why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - sample_headlines:
-  - Federal Reserve issues FOMC statement
-  - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- recent_evidence:
-  - Federal Reserve Monetary Policy Press | 2026-07-29T18:00:00+00:00 | Federal Reserve issues FOMC statement
-  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve issues FOMC statement
-  - Federal Reserve Monetary Policy Press | 2026-06-17T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
-
-## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-
-- keyword `bitcoin` / publish `2026-09-17` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- sample_headlines:
+  - Revolut hackers demand $3 million in Monero, threaten to sell customer data
+  - Celsius sues BitMEX for $495 million over 2020 crash liquidations
   - U.S. House's tax committee advances crypto tax bill in wake of Clarity Act loss
-  - Crypto Long & Short: Six signs a crypto winter is ending
-  - Bitcoin Core 32 enters final testing with faster validation, fee changes and security fixes
 - recent_evidence:
-  - Cointelegraph | 2026-09-16T15:30:49+00:00 | Bitcoin awaits Fed rate decision below $76K as analysis discounts ‘dovish surprise’ odds
-  - CoinDesk RSS | 2026-09-16T12:00:41+00:00 | Bitcoin Core 32 enters final testing with faster validation, fee changes and security fixes
-  - Investing.com Crypto News | 2026-09-16 13:40:40 | Bitcoin drops below $76k as Clarity vote fails; Fed rate hike in focus
+  - Cointelegraph | 2026-09-17T02:52:08+00:00 | Bitcoin absorbs Fed rate hike as officials see more tightening
+  - Cointelegraph | 2026-09-17T00:23:44+00:00 | US lawmakers advance bill to lock Trump’s Bitcoin reserve into law
+  - Investing.com Crypto News | 2026-09-16 21:54:07 | Bitcoin turns slightly higher as traders digest Clarity Act failure, Fed rate hike
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+## 2. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
-- keyword `ai_semiconductors` / publish `2026-09-18` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
+- keyword `us_big_tech` / publish `2026-09-19` / verdict `approve` / quality `review_before_publish`
+- ready_now: `False` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- why_now: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - sample_headlines:
-  - AI bosses’ safety push sparks rift inside OpenAI and Anthropic
-  - Anthropic’s mother of all risk factors
-  - Silicon shadows: inside the black market for AI chips | FT Film
+  - The Apple trust premium in the age of AI
+  - Generac’s stock soars more than 30% after Amazon deal cements company’s status as an AI power player
 - recent_evidence:
-  - Financial Times YouTube | 61K views | Silicon shadows: inside the black market for AI chips | FT Film
-  - Financial Times Home | 2026-09-16T13:27:04+00:00 | Anthropic’s mother of all risk factors
-  - Financial Times Home | 2026-09-16T12:00:05+00:00 | AI bosses’ safety push sparks rift inside OpenAI and Anthropic
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`
+  - Financial Times Home | 2026-09-17T04:00:21+00:00 | The Apple trust premium in the age of AI
+  - MarketWatch Breaking News | 2026-09-16T21:56:00+00:00 | Generac’s stock soars more than 30% after Amazon deal cements company’s status as an AI power player
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply`
+
+## 3. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+
+- keyword `china` / publish `2026-09-20` / verdict `approve` / quality `review_before_publish`
+- ready_now: `False` / hero_image_selected: `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- why_now: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- sample_headlines:
+  - EU asks China to voluntarily limit car exports
+- recent_evidence:
+  - Financial Times Home | 2026-09-17T04:00:21+00:00 | EU asks China to voluntarily limit car exports
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply`
