@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T04:11:18.968407+00:00",
+  "generated_at": "2026-09-18T16:16:58.764929+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 5,
@@ -8,45 +8,20 @@
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "treasury_yields",
+      "keyword": "bitcoin",
       "trend_count": 1,
-      "traffic_score_sum": 200,
-      "max_approx_traffic": 200,
+      "traffic_score_sum": 100,
+      "max_approx_traffic": 100,
       "trend_queries": [
-        "일본 금리"
+        "비트코인 시세"
       ],
       "regions": [
         "KR"
       ],
-      "demand_signal_score": 400,
+      "demand_signal_score": 300,
       "fallback_source": "trend_match",
       "confidence": "high",
       "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
-    {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 6200,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 50,
-      "source_count": 4,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Financial Times Home",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Bank of Japan raises interest rates by 25 basis points. Bitcoin tops $77,000",
-        "Kevin O’Leary says Congress will revisit Clarity early next year as crypto tax bill advances",
-        "UK signals end of 'light-touch' era with multi-agency raid on peer-to-peer crypto hubs"
-      ]
     },
     {
       "keyword": "fomc",
@@ -55,22 +30,49 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4500,
+      "demand_signal_score": 4700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 33,
-      "source_count": 4,
+      "source_snapshot_score": 35,
+      "source_count": 6,
       "source_names": [
-        "Cointelegraph",
+        "CNBC Top News",
+        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Investing.com Crypto News",
-        "NYT Business"
+        "Financial Times Home",
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy"
+      ]
+    },
+    {
+      "keyword": "treasury_yields",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2700,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 15,
+      "source_count": 5,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Layer-2 and DeFi tokens lead broad crypto advance as post-Fed hike nerves fade",
+        "Bitcoin hits $81K as US bond yields rebound on global oil woes",
+        "Zama Opens Confidential Access to DeFi’s Existing Yield Venues"
       ]
     },
     {
@@ -80,21 +82,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2900,
+      "demand_signal_score": 2500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 17,
+      "source_snapshot_score": 13,
       "source_count": 3,
       "source_names": [
-        "CNBC Top News",
-        "NYT Business",
+        "CoinDesk RSS",
+        "Cointelegraph",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Oil prices fall as Saudi supply hopes outweigh fresh Houthi strikes",
-        "Oil prices fall 1% on hopes of limited supply disruptions - Reuters",
-        "JP Morgan says it has no clear oil market endgame as Iran conflict drags on - Reuters"
+        "Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls",
+        "Bitcoin hits $81K as US bond yields rebound on global oil woes",
+        "Oil pares losses as market weighs Saudi supply concerns, Middle East tensions - reuters.com"
       ]
     },
     {
@@ -104,22 +106,20 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2300,
+      "demand_signal_score": 2000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 11,
-      "source_count": 4,
+      "source_snapshot_score": 8,
+      "source_count": 2,
       "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Bank of Japan raises interest rates to 31-year high, flags concerns over inflation",
-        "Bank of Japan raises rates to highest since 1995",
-        "Bank of England Holds Rates Steady but Warns of Higher Inflation"
+        "Stocks and bonds dip as central banks jack up rates to tame inflation - reuters.com",
+        "BOJ lifts rates to 31-year high, pivots towards preemptive inflation fight - reuters.com",
+        "More U.S. Households Are Struggling Financially, Analysis Finds"
       ]
     }
   ],

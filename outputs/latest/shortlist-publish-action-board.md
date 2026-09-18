@@ -53,13 +53,16 @@ shortlist 글 기준으로 지금 남은 blocker와 다음 한 줄 실행만 따
 
 - keyword: `ai_semiconductors`
 - publish_date: `2026-09-20`
-- quality_status: `review_before_publish`
-- ready_now: `False`
+- quality_status: `pass`
+- ready_now: `True`
 - hero_image_selected: `True`
+- freshness_status: `fresh`
+- freshness_recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
 - hard_blocking_checks: none
-- advisory_checks: follow_up_posts_present, canonical_url_present, newsletter_ready, ga4_ready
+- advisory_checks: canonical_url_present, newsletter_ready, ga4_ready
+- recovery_mode: `publish_direct`
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- next_action: 사용자 최종 확인 후 업로드
+- next_action: 사용자 최종 확인 후 Blogger draft 업로드
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - followup_commands:
   - `python3 scripts/build_platform_publish_plan.py`

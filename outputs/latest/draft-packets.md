@@ -1,11 +1,11 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-09-18T04:11:18.968407+00:00`
+- 생성 시각: `2026-09-18T16:16:58.764929+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
 - 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
@@ -70,13 +70,13 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Bitcoin coils near $76.5K as US stocks rebound from Fed rate hike
+  - Layer-2 and DeFi tokens lead broad crypto advance as post-Fed hike nerves fade
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 점수: 85.0
+- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on), 실제 급상승 검색어 반영 (비트코인 시세)
+- 점수: 87.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bank of Japan raises interest rates by 25 basis points. Bitcoin tops $77,000
-  - Kevin O’Leary says Congress will revisit Clarity early next year as crypto tax bill advances
-  - UK signals end of 'light-touch' era with multi-agency raid on peer-to-peer crypto hubs
-  - U.S. SEC begins prepping for around-the-clock trading that crypto treats as the norm
-  - Crypto for Advisors: Beyond bitcoin and ether
+  - 비트코인 시세
+  - CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act
+  - Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost
+  - Layer-2 and DeFi tokens lead broad crypto advance as post-Fed hike nerves fade
+  - Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 69.0
+- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 54.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,21 +206,19 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Anthropic shares 3 metrics to help AI companies monitor pace of development
-  - OpenAI and Anthropic are making 10 times more revenue than all Chinese AI models combined, research group Rhodium says
-  - OpenAI breached by researchers using Anthropic models
   - Silicon shadows: inside the black market for AI chips | FT Film
+  - Amodei, Anthropic’s Leader, Exposed A.I.’s Dangers. It’s Time to Act.
 
-## 4. china
+## 4. treasury_yields
 
-- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 섹터/세계 흐름 연결 해설 가능
-- 점수: 44.0
+- 추천 제목: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+- 각도: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
+- 점수: 80.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -269,10 +267,14 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 정책 발표 또는 인터뷰 원문 여부 확인
-  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
-  - 한국/미국 시장 영향은 시나리오형으로 서술
+  - 미국채 2년/10년 금리 수치 재확인
+  - 기준 시각과 비교 기준 명시
+  - 주식/코인 반응 인과관계 과장 여부 점검
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - China Stockpiled Oil, and Now It Could Dominate the Energy Landscape
+  - Layer-2 and DeFi tokens lead broad crypto advance as post-Fed hike nerves fade
+  - Bitcoin hits $81K as US bond yields rebound on global oil woes
+  - Zama Opens Confidential Access to DeFi’s Existing Yield Venues
+  - Wall St slips as higher Treasury yields weigh on sentiment - reuters.com
+  - What Set Off the Rise in Interest Rates? Mainly, the Iran War.

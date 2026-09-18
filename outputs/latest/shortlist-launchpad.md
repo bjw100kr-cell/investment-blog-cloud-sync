@@ -9,7 +9,7 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `fomc` / publish `2026-09-18` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
 - sample_headlines:
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
@@ -28,15 +28,15 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `bitcoin` / publish `2026-09-19` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- why_now: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on), 실제 급상승 검색어 반영 (비트코인 시세)
 - sample_headlines:
-  - Bank of Japan raises interest rates by 25 basis points. Bitcoin tops $77,000
-  - Kevin O’Leary says Congress will revisit Clarity early next year as crypto tax bill advances
-  - UK signals end of 'light-touch' era with multi-agency raid on peer-to-peer crypto hubs
+  - 비트코인 시세
+  - CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act
+  - Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost
 - recent_evidence:
-  - CoinDesk RSS | 2026-09-18T03:03:38+00:00 | Bank of Japan raises interest rates by 25 basis points. Bitcoin tops $77,000
-  - Cointelegraph | 2026-09-18T01:33:54+00:00 | US sanctions Iran’s BitBank, saying it processes ‘Hormuz Safe’ Bitcoin payments
-  - Cointelegraph | 2026-09-17T16:22:23+00:00 | Bitcoin coils near $76.5K as US stocks rebound from Fed rate hike
+  - Cointelegraph | 2026-09-18T15:35:59+00:00 | Bitcoin hits $81K as US bond yields rebound on global oil woes
+  - Cointelegraph | 2026-09-18T10:46:17+00:00 | Bitcoin adds to bull-market hopes as price metric prints fourth-ever bullish cross
+  - CoinDesk RSS | 2026-09-18T10:07:33+00:00 | Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
@@ -44,18 +44,16 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 
 ## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword `ai_semiconductors` / publish `2026-09-20` / verdict `approve` / quality `review_before_publish`
-- ready_now: `False` / hero_image_selected: `True`
+- keyword `ai_semiconductors` / publish `2026-09-20` / verdict `approve` / quality `pass`
+- ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- why_now: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
 - sample_headlines:
-  - Anthropic shares 3 metrics to help AI companies monitor pace of development
-  - OpenAI and Anthropic are making 10 times more revenue than all Chinese AI models combined, research group Rhodium says
-  - OpenAI breached by researchers using Anthropic models
+  - Silicon shadows: inside the black market for AI chips | FT Film
+  - Amodei, Anthropic’s Leader, Exposed A.I.’s Dangers. It’s Time to Act.
 - recent_evidence:
   - Financial Times YouTube | 62K views | Silicon shadows: inside the black market for AI chips | FT Film
-  - Financial Times Home | 2026-09-18T03:31:31+00:00 | OpenAI breached by researchers using Anthropic models
-  - CNBC Top News | 2026-09-17T22:22:53+00:00 | Anthropic shares 3 metrics to help AI companies monitor pace of development
+  - NYT Business | 2026-09-18T14:23:19+00:00 | Amodei, Anthropic’s Leader, Exposed A.I.’s Dangers. It’s Time to Act.
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`

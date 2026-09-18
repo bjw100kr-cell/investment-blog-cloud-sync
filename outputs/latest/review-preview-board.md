@@ -29,7 +29,7 @@
 
 - keyword: `bitcoin`
 - publish_date: `2026-09-19`
-- priority_score: `124.0`
+- priority_score: `119.0`
 - review_verdict: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
@@ -49,7 +49,7 @@
 
 - keyword: `ai_semiconductors`
 - publish_date: `2026-09-20`
-- priority_score: `96.0`
+- priority_score: `81.0`
 - review_verdict: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
