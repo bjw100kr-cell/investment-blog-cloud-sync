@@ -1,53 +1,27 @@
 {
-  "generated_at": "2026-09-17T16:48:14.075347+00:00",
+  "generated_at": "2026-09-18T04:11:18.968407+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "us_index_flow",
+      "keyword": "treasury_yields",
       "trend_count": 1,
-      "traffic_score_sum": 5000,
-      "max_approx_traffic": 5000,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
       "trend_queries": [
-        "dow jones stock market"
+        "일본 금리"
       ],
       "regions": [
-        "US"
+        "KR"
       ],
-      "demand_signal_score": 5200,
+      "demand_signal_score": 400,
       "fallback_source": "trend_match",
       "confidence": "high",
       "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
-    {
-      "keyword": "fomc",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 6000,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 48,
-      "source_count": 7,
-      "source_names": [
-        "CNBC Top News",
-        "Cointelegraph",
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy"
-      ]
     },
     {
       "keyword": "bitcoin",
@@ -56,22 +30,47 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5800,
+      "demand_signal_score": 6200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 46,
+      "source_snapshot_score": 50,
       "source_count": 4,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
+        "Financial Times Home",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "UK signals end of 'light-touch' era with multi-agency raid on peer-to-peer crypto hubs",
-        "U.S. SEC begins prepping for around-the-clock trading that crypto treats as the norm",
-        "Crypto for Advisors: Beyond bitcoin and ether"
+        "Bank of Japan raises interest rates by 25 basis points. Bitcoin tops $77,000",
+        "Kevin O’Leary says Congress will revisit Clarity early next year as crypto tax bill advances",
+        "UK signals end of 'light-touch' era with multi-agency raid on peer-to-peer crypto hubs"
+      ]
+    },
+    {
+      "keyword": "fomc",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 4500,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 33,
+      "source_count": 4,
+      "source_names": [
+        "Cointelegraph",
+        "Federal Reserve Monetary Policy Press",
+        "Investing.com Crypto News",
+        "NYT Business"
+      ],
+      "sample_titles": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy"
       ]
     },
     {
@@ -81,20 +80,46 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2000,
+      "demand_signal_score": 2900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 8,
-      "source_count": 2,
+      "source_snapshot_score": 17,
+      "source_count": 3,
       "source_names": [
+        "CNBC Top News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Rising oil, rates and yields brew up stagflation cocktail for markets - reuters.com",
-        "Wall St rises as oil slide offers respite after Fed rate hike - reuters.com",
-        "China Stockpiled Oil, and Now It Could Dominate the Energy Landscape"
+        "Oil prices fall as Saudi supply hopes outweigh fresh Houthi strikes",
+        "Oil prices fall 1% on hopes of limited supply disruptions - Reuters",
+        "JP Morgan says it has no clear oil market endgame as Iran conflict drags on - Reuters"
+      ]
+    },
+    {
+      "keyword": "cpi",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2300,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 11,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "NYT Business"
+      ],
+      "sample_titles": [
+        "Bank of Japan raises interest rates to 31-year high, flags concerns over inflation",
+        "Bank of Japan raises rates to highest since 1995",
+        "Bank of England Holds Rates Steady but Warns of Higher Inflation"
       ]
     }
   ],

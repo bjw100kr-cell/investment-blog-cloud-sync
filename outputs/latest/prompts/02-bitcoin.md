@@ -108,17 +108,17 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.",
   "source_names": [
-    "CNBC Top News",
     "CoinDesk RSS",
     "Cointelegraph",
+    "Financial Times Home",
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bank of Japan raises interest rates by 25 basis points. Bitcoin tops $77,000",
+    "Kevin O’Leary says Congress will revisit Clarity early next year as crypto tax bill advances",
     "UK signals end of 'light-touch' era with multi-agency raid on peer-to-peer crypto hubs",
     "U.S. SEC begins prepping for around-the-clock trading that crypto treats as the norm",
-    "Crypto for Advisors: Beyond bitcoin and ether",
-    "Clarity Act failure may hamper U.S. crypto as industry seeks legal clarity elsewhere",
-    "Bitcoin coils near $76.5K as US stocks rebound from Fed rate hike"
+    "Crypto for Advisors: Beyond bitcoin and ether"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

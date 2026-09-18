@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-17T16:48:14.075347+00:00`
+- 생성 시각: `2026-09-18T04:11:18.968407+00:00`
 - 수집 성공 소스: `13`
 - 수집 아이템 수: `104`
 
@@ -106,48 +106,46 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `us_index_flow`: score 72, source_count 4, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Google Trends US
-- `fomc`: score 48, source_count 7, sources CNBC Top News, Cointelegraph, Federal Reserve Monetary Policy Press, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: score 46, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `oil`: score 8, source_count 2, sources NYT Business, Reuters Markets via Google News RSS
-- `cpi`: score 7, source_count 2, sources NYT Business, Reuters Markets via Google News RSS
-- `treasury_yields`: score 6, source_count 2, sources Cointelegraph, Investing.com Crypto News
-- `china`: score 5, source_count 2, sources Financial Times Home, NYT Business
-- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
-- `ai_growth_stocks`: score 3, source_count 1, sources CNBC Top News
-- `us_big_tech`: score 3, source_count 1, sources Financial Times Home
+- `bitcoin`: score 50, source_count 4, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News
+- `fomc`: score 33, source_count 4, sources Cointelegraph, Federal Reserve Monetary Policy Press, Investing.com Crypto News, NYT Business
+- `treasury_yields`: score 24, source_count 7, sources CNBC Top News, Cointelegraph, Financial Times World, Google Trends KR, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- `oil`: score 17, source_count 3, sources CNBC Top News, NYT Business, Reuters Markets via Google News RSS
+- `cpi`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, NYT Business
+- `ai_semiconductors`: score 11, source_count 3, sources CNBC Top News, Financial Times Home, Financial Times YouTube
+- `us_index_flow`: score 6, source_count 2, sources Cointelegraph, Financial Times Home
+- `us_big_tech`: score 3, source_count 1, sources Financial Times World
+- `china`: score 2, source_count 1, sources NYT Business
 
 ## 오늘의 글감 후보
 
-- `us_index_flow`: score 72, headlines 6
-  - dow jones stock market
-  - Ratings giant S&P Global acquires OpenZeppelin in tokenized finance risk push
-  - Zcash miner Fortitude names former Hut 8 chief Jaime Leverton CEO ahead of Nasdaq deal
-- `fomc`: score 48, headlines 14
+- `bitcoin`: score 50, headlines 15
+  - Bank of Japan raises interest rates by 25 basis points. Bitcoin tops $77,000
+  - Kevin O’Leary says Congress will revisit Clarity early next year as crypto tax bill advances
+  - UK signals end of 'light-touch' era with multi-agency raid on peer-to-peer crypto hubs
+- `fomc`: score 33, headlines 9
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `bitcoin`: score 46, headlines 14
-  - UK signals end of 'light-touch' era with multi-agency raid on peer-to-peer crypto hubs
-  - U.S. SEC begins prepping for around-the-clock trading that crypto treats as the norm
-  - Crypto for Advisors: Beyond bitcoin and ether
-- `oil`: score 8, headlines 3
-  - Rising oil, rates and yields brew up stagflation cocktail for markets - reuters.com
-  - Wall St rises as oil slide offers respite after Fed rate hike - reuters.com
-  - China Stockpiled Oil, and Now It Could Dominate the Energy Landscape
-- `cpi`: score 7, headlines 3
-  - Bank of England shifts tone toward rate hikes as inflation set to top 4% - reuters.com
-  - Bank of England Holds Rates Steady but Warns of Higher Inflation
-  - The Fed Raised Rates. What Comes Next?
-- `treasury_yields`: score 6, headlines 2
-  - Bitcoin treasury firms can outperform BTC... but is the risk worth taking?
-  - Zama Opens Confidential Access to DeFi’s Existing Yield Venues
-- `china`: score 5, headlines 2
-  - China’s AI labs must accelerate development, says Huawei chair
-  - China Stockpiled Oil, and Now It Could Dominate the Energy Landscape
-- `ethereum`: score 4, headlines 1
-  - Ethereum’s upcoming Glamsterdam upgrade clears rehearsal for a big jump in capacity
-- `ai_growth_stocks`: score 3, headlines 1
-  - AI needs to have 'reasonable guidelines,' Palantir's Karp tells CNBC
+- `treasury_yields`: score 24, headlines 7
+  - 일본 금리
+  - US sanctions Iran’s BitBank, saying it processes ‘Hormuz Safe’ Bitcoin payments
+  - Lawmakers must 'keep their options open' on Social Security reform, former Treasury Secretary Jack Lew says
+- `oil`: score 17, headlines 6
+  - Oil prices fall as Saudi supply hopes outweigh fresh Houthi strikes
+  - Oil prices fall 1% on hopes of limited supply disruptions - Reuters
+  - JP Morgan says it has no clear oil market endgame as Iran conflict drags on - Reuters
+- `ai_semiconductors`: score 11, headlines 4
+  - Anthropic shares 3 metrics to help AI companies monitor pace of development
+  - OpenAI and Anthropic are making 10 times more revenue than all Chinese AI models combined, research group Rhodium says
+  - OpenAI breached by researchers using Anthropic models
+- `cpi`: score 11, headlines 4
+  - Bank of Japan raises interest rates to 31-year high, flags concerns over inflation
+  - Bank of Japan raises rates to highest since 1995
+  - Bank of Japan raises rates to highest since 1995
+- `us_index_flow`: score 6, headlines 2
+  - Bitcoin coils near $76.5K as US stocks rebound from Fed rate hike
+  - Turkish authorities rush to stem fallout from stock market scandal
 - `us_big_tech`: score 3, headlines 1
-  - Apple’s most valuable product isn’t the iPhone
+  - Meta in Indian government’s crosshairs
+- `china`: score 2, headlines 1
+  - China Stockpiled Oil, and Now It Could Dominate the Energy Landscape
