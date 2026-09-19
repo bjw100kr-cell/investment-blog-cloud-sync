@@ -1,27 +1,36 @@
 {
-  "generated_at": "2026-09-18T16:16:58.764929+00:00",
+  "generated_at": "2026-09-19T04:08:09.530873+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
       "keyword": "bitcoin",
-      "trend_count": 1,
-      "traffic_score_sum": 100,
-      "max_approx_traffic": 100,
-      "trend_queries": [
-        "비트코인 시세"
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 6000,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 48,
+      "source_count": 4,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 300,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+      "sample_titles": [
+        "CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act",
+        "Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost",
+        "Layer-2 and DeFi tokens lead broad crypto advance as post-Fed hike nerves fade"
+      ]
     },
     {
       "keyword": "fomc",
@@ -30,18 +39,16 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4700,
+      "demand_signal_score": 3900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 35,
-      "source_count": 6,
+      "source_snapshot_score": 27,
+      "source_count": 3,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Investing.com Crypto News"
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -50,29 +57,28 @@
       ]
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2700,
+      "demand_signal_score": 3100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 15,
-      "source_count": 5,
+      "source_snapshot_score": 19,
+      "source_count": 4,
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times YouTube",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Layer-2 and DeFi tokens lead broad crypto advance as post-Fed hike nerves fade",
-        "Bitcoin hits $81K as US bond yields rebound on global oil woes",
-        "Zama Opens Confidential Access to DeFi’s Existing Yield Venues"
+        "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal",
+        "Elon Musk talks up AI safety while fighting regulation in wild week of strange alliances",
+        "Google’s Gemini hacked three companies in new AI safety incident"
       ]
     },
     {
@@ -96,30 +102,7 @@
       "sample_titles": [
         "Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls",
         "Bitcoin hits $81K as US bond yields rebound on global oil woes",
-        "Oil pares losses as market weighs Saudi supply concerns, Middle East tensions - reuters.com"
-      ]
-    },
-    {
-      "keyword": "cpi",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2000,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 8,
-      "source_count": 2,
-      "source_names": [
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Stocks and bonds dip as central banks jack up rates to tame inflation - reuters.com",
-        "BOJ lifts rates to 31-year high, pivots towards preemptive inflation fight - reuters.com",
-        "More U.S. Households Are Struggling Financially, Analysis Finds"
+        "Gold rises to one-week high, heads for weekly gain on easing oil prices - Reuters"
       ]
     }
   ],

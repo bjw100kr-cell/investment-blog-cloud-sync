@@ -28,7 +28,7 @@
 - ready posts: `4`
 - first draft upload target: `fomc`
 - first draft upload target: `bitcoin`
-- first draft upload target: `treasury_yields`
+- first draft upload target: `ai_semiconductors`
 
 ## Automated Channels
 

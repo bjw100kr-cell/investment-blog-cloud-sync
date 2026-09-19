@@ -8,7 +8,7 @@
   - reason: no_live_followup_urls
 - `bitcoin` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls
-- `treasury_yields` / applied `False` / changed `False` / live picks `0`
+- `china` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls
-- `cpi` / applied `False` / changed `False` / live picks `0`
+- `ai_semiconductors` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls

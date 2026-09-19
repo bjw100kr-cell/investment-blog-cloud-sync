@@ -39,8 +39,8 @@
 ## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - keyword: `ai_semiconductors`
-- ready_now: `False`
-- quality_status: `review_before_publish`
+- ready_now: `True`
+- quality_status: `pass`
 - human_tone_score: `92`
 - voice_focus: 뉴스를 투자자 언어로 다시 번역해주는 해설 톤
 - warning: 숫자/뉴스의 의미를 풀어주는 해석 문장이 부족함
