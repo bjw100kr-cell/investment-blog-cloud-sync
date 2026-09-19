@@ -1,6 +1,6 @@
 # 퍼블리싱 자산
 
-- 생성 시각: `2026-09-19T04:08:09.530873+00:00`
+- 생성 시각: `2026-09-19T15:47:26.436512+00:00`
 
 ## 1. fomc
 
@@ -61,6 +61,7 @@
 - labels: 투자, 경제, 시장해설, 중국, 세계흐름, 거시경제
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 - 이미지 추천: 대표 이미지(Unsplash / technology stocks office finance abstract), 본문 보조 이미지(Pexels / semiconductor data center abstract)
+- 후속 글 후보: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기, 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나, 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 - 광고 슬롯: after_intro, mid_article, before_related_links
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.

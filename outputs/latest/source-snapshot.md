@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-19T04:08:09.530873+00:00`
+- 생성 시각: `2026-09-19T15:47:26.436512+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -101,49 +101,44 @@ If you are sure that the described cause is not responsible for this error and t
 ## 상위 키워드
 
 - `bitcoin`: score 48, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
-- `fomc`: score 27, source_count 3, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press
-- `ai_semiconductors`: score 19, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times YouTube, NYT Business
-- `oil`: score 13, source_count 3, sources CoinDesk RSS, Cointelegraph, Reuters Markets via Google News RSS
-- `dollar`: score 10, source_count 3, sources CoinDesk RSS, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `treasury_yields`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `us_index_flow`: score 6, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
-- `china`: score 6, source_count 2, sources Financial Times Home, Reuters Markets via Google News RSS
-- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
-- `ethereum`: score 3, source_count 1, sources Cointelegraph
+- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
+- `ai_semiconductors`: score 19, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
+- `us_index_flow`: score 8, source_count 3, sources Cointelegraph, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `treasury_yields`: score 7, source_count 2, sources Cointelegraph, MarketWatch Breaking News
+- `oil`: score 6, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
+- `cpi`: score 6, source_count 1, sources Reuters Markets via Google News RSS
+- `dollar`: score 3, source_count 1, sources Investing.com Crypto News
+- `china`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
 - `bitcoin`: score 48, headlines 15
+  - 'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks
+  - 'The orange tie stays': Michael Saylor responds to venture capitalist's bitcoin obituary
   - CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act
-  - Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost
-  - Layer-2 and DeFi tokens lead broad crypto advance as post-Fed hike nerves fade
-- `fomc`: score 27, headlines 6
+- `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
 - `ai_semiconductors`: score 19, headlines 7
-  - Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal
-  - Elon Musk talks up AI safety while fighting regulation in wild week of strange alliances
+  - Anthropic and OpenAI need truly independent safety evaluators, experts say in public letter
+  - Investors warn Anthropic could struggle to sustain revenues post-IPO
   - Google’s Gemini hacked three companies in new AI safety incident
-- `oil`: score 13, headlines 4
-  - Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls
-  - Bitcoin hits $81K as US bond yields rebound on global oil woes
-  - Gold rises to one-week high, heads for weekly gain on easing oil prices - Reuters
-- `dollar`: score 10, headlines 3
-  - Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls
-  - Why is Bitcoin US Dollar stock climbing today?
-  - Dollar advances vs yen as BOJ dissent clouds rate-hike outlook - Reuters
-- `treasury_yields`: score 7, headlines 2
-  - Layer-2 and DeFi tokens lead broad crypto advance as post-Fed hike nerves fade
-  - Bitcoin hits $81K as US bond yields rebound on global oil woes
-- `china`: score 6, headlines 2
-  - Xi’s edge over Trump on AI
-  - Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - Reuters
-- `us_index_flow`: score 6, headlines 2
+- `us_index_flow`: score 8, headlines 3
   - Coinbase files to bring single-stock perpetual futures to US market
   - S&P 500, Nasdaq advance, turning the page on a tumultuous week - Reuters
-- `us_big_tech`: score 5, headlines 2
-  - OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC
-  - Amazon, Palantir and 12 more top tech stock picks from UBS analysts
-- `cpi`: score 3, headlines 1
+  - 15 stocks that have grown dividends the most — and nearly all have beaten the S&P 500
+- `treasury_yields`: score 7, headlines 3
+  - Bitcoin hits $81K as US bond yields rebound on global oil woes
+  - 15 stocks that have grown dividends the most — and nearly all have beaten the S&P 500
+  - Traditional bond investors have lost money for years. These five-star portfolio managers show a better way.
+- `cpi`: score 6, headlines 2
+  - Global equity fund outflows hit nine-month high on inflation fears - Reuters
   - Global shares edge higher as central banks double down on inflation fight - Reuters
+- `oil`: score 6, headlines 2
+  - Bitcoin hits $81K as US bond yields rebound on global oil woes
+  - Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - Reuters
+- `china`: score 3, headlines 1
+  - Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - Reuters
+- `dollar`: score 3, headlines 1
+  - Why is Bitcoin US Dollar stock climbing today?

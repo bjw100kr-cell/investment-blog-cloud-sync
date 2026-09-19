@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T04:08:13.475756+00:00",
-  "snapshot_generated_at": "2026-09-19T04:08:09.530873+00:00",
+  "generated_at": "2026-09-19T15:47:31.022082+00:00",
+  "snapshot_generated_at": "2026-09-19T15:47:26.436512+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
@@ -20,9 +20,9 @@
       "freshness_status": "aging",
       "newest_evidence_iso": "2026-09-16T18:00:00+00:00",
       "oldest_evidence_iso": "2026-07-09T19:00:00+00:00",
-      "newest_evidence_age_days": 2.4,
-      "source_count": 3,
-      "demand_signal_score": 3900,
+      "newest_evidence_age_days": 2.9,
+      "source_count": 1,
+      "demand_signal_score": 3200,
       "summary_line": "아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Federal Reserve issues FOMC statement",
       "recommendation": "초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.",
       "recovery_mode": "refresh_before_publish",
@@ -62,10 +62,10 @@
       "ready_now": true,
       "publish_date": "2026-09-21",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-19T00:23:01+00:00",
-      "oldest_evidence_iso": "2026-09-18T15:40:47+00:00",
-      "newest_evidence_age_days": 0.2,
-      "source_count": 4,
+      "newest_evidence_iso": "2026-09-19T04:00:24+00:00",
+      "oldest_evidence_iso": "2026-09-18T21:41:08+00:00",
+      "newest_evidence_age_days": 0.5,
+      "source_count": 5,
       "demand_signal_score": 3100,
       "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
@@ -81,19 +81,19 @@
           "source_type": "youtube_channel"
         },
         {
+          "title": "Investors warn Anthropic could struggle to sustain revenues post-IPO",
+          "source_name": "Financial Times Home",
+          "published": "Sat, 19 Sep 2026 04:00:24 GMT",
+          "published_iso": "2026-09-19T04:00:24+00:00",
+          "link": "https://www.ft.com/content/96d0a206-a37b-4166-b78d-b27ed24f7d57?syn-25a6b1a6=1",
+          "source_type": "rss"
+        },
+        {
           "title": "Anthropic Pursues IPO Despite Its A.I. Safety Warnings",
           "source_name": "NYT Business",
           "published": "Sat, 19 Sep 2026 00:23:01 +0000",
           "published_iso": "2026-09-19T00:23:01+00:00",
           "link": "https://www.nytimes.com/2026/09/18/technology/anthropic-ipo-ai-safety.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Anthropic brings in Accenture for AI safety testing",
-          "source_name": "Financial Times Home",
-          "published": "Fri, 18 Sep 2026 23:38:50 GMT",
-          "published_iso": "2026-09-18T23:38:50+00:00",
-          "link": "https://www.ft.com/content/26e3749b-be69-4cd4-8db1-fa8597fb6fb3?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ]
@@ -105,38 +105,38 @@
       "ready_now": true,
       "publish_date": "2026-09-20",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-19T03:19:14+00:00",
-      "oldest_evidence_iso": "2026-09-18T10:07:33+00:00",
-      "newest_evidence_age_days": 0.0,
+      "newest_evidence_iso": "2026-09-19T12:13:57+00:00",
+      "oldest_evidence_iso": "2026-09-18T15:35:59+00:00",
+      "newest_evidence_age_days": 0.1,
       "source_count": 4,
       "demand_signal_score": 6000,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin jumps above $81k as short squeeze offsets rate and regulatory pressure",
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: 'The orange tie stays': Michael Saylor responds to venture capitalist's bitcoin obituary",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
+        {
+          "title": "'The orange tie stays': Michael Saylor responds to venture capitalist's bitcoin obituary",
+          "source_name": "CoinDesk RSS",
+          "published": "Sat, 19 Sep 2026 12:13:57 +0000",
+          "published_iso": "2026-09-19T12:13:57+00:00",
+          "link": "https://www.coindesk.com/markets/2026/09/19/the-orange-tie-stays-michael-saylor-responds-to-venture-capitalist-s-bitcoin-obituary",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin hits $82,178 resistance with MFI 100: Live levels",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-09-19 07:02:25",
+          "published_iso": "2026-09-19 07:02:25",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-76k81k-rectangle-live-breakout-levels-93CH-4898873",
+          "source_type": "rss"
+        },
         {
           "title": "Bitcoin jumps above $81k as short squeeze offsets rate and regulatory pressure",
           "source_name": "Investing.com Crypto News",
           "published": "2026-09-19 03:19:14",
           "published_iso": "2026-09-19 03:19:14",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-jumps-above-81k-as-short-squeeze-offsets-rate-and-regulatory-pressure-4908041",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin hits $81K as US bond yields rebound on global oil woes",
-          "source_name": "Cointelegraph",
-          "published": "Fri, 18 Sep 2026 15:35:59 +0000",
-          "published_iso": "2026-09-18T15:35:59+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-hits-81k-as-us-bond-yields-rebound-on-global-oil-woes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 18 Sep 2026 10:07:33 +0000",
-          "published_iso": "2026-09-18T10:07:33+00:00",
-          "link": "https://www.coindesk.com/markets/2026/09/18/bitcoin-weathers-september-storm-as-rate-hikes-and-clarity-act-setback-test-bulls",
           "source_type": "rss"
         }
       ]
