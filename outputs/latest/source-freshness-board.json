@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20T04:26:54.363088+00:00",
-  "snapshot_generated_at": "2026-09-20T04:26:49.737874+00:00",
+  "generated_at": "2026-09-20T15:55:47.358754+00:00",
+  "snapshot_generated_at": "2026-09-20T15:55:42.480771+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
@@ -20,9 +20,9 @@
       "freshness_status": "aging",
       "newest_evidence_iso": "2026-09-16T18:00:00+00:00",
       "oldest_evidence_iso": "2026-07-09T19:00:00+00:00",
-      "newest_evidence_age_days": 3.4,
-      "source_count": 1,
-      "demand_signal_score": 3200,
+      "newest_evidence_age_days": 3.9,
+      "source_count": 2,
+      "demand_signal_score": 3400,
       "summary_line": "아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Federal Reserve issues FOMC statement",
       "recommendation": "초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.",
       "recovery_mode": "refresh_before_publish",
@@ -56,17 +56,60 @@
       ]
     },
     {
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-09-21",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-09-20T12:00:00+00:00",
+      "oldest_evidence_iso": "2026-09-19T12:13:57+00:00",
+      "newest_evidence_age_days": 0.2,
+      "source_count": 4,
+      "demand_signal_score": 5200,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Crypto traders braced for a total wipeout this week but Bitcoin had other plans",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Crypto traders braced for a total wipeout this week but Bitcoin had other plans",
+          "source_name": "CoinDesk RSS",
+          "published": "Sun, 20 Sep 2026 12:00:00 +0000",
+          "published_iso": "2026-09-20T12:00:00+00:00",
+          "link": "https://www.coindesk.com/markets/2026/09/18/crypto-traders-braced-for-a-total-wipeout-this-week-but-bitcoin-had-other-plans",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin trapped between $78.5K-$82K in breakout standoff: Live",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-09-20 07:02:23",
+          "published_iso": "2026-09-20 07:02:23",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-76k81k-rectangle-live-breakout-levels-93CH-4898873",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin holds above $80,000 as ETF inflows revive institutional demand",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-09-20 05:06:36",
+          "published_iso": "2026-09-20 05:06:36",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-80000-as-etf-inflows-revive-institutional-demand-4908141",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "quality_status": "pass",
       "ready_now": true,
       "publish_date": "2026-09-22",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-19T00:05:00+00:00",
-      "oldest_evidence_iso": "2026-09-18T17:02:32+00:00",
-      "newest_evidence_age_days": 1.2,
-      "source_count": 3,
-      "demand_signal_score": 2300,
+      "newest_evidence_iso": "2026-09-20T11:25:08+00:00",
+      "oldest_evidence_iso": "2026-09-19T00:05:00+00:00",
+      "newest_evidence_age_days": 0.2,
+      "source_count": 4,
+      "demand_signal_score": 0,
       "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
@@ -75,68 +118,25 @@
         {
           "title": "Silicon shadows: inside the black market for AI chips | FT Film",
           "source_name": "Financial Times YouTube",
-          "published": "62K views",
-          "published_iso": "62K views",
+          "published": "62K",
+          "published_iso": "62K",
           "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
           "source_type": "youtube_channel"
         },
         {
-          "title": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Sat, 19 Sep 2026 00:05:00 GMT",
-          "published_iso": "2026-09-19T00:05:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUhNb1VBaVJWRXQwZGlnTGk1N1B2UjFyNkltbzJUOGhxZThUdXhNN1BWSGxwNkRsMWVmTjFqSlZ6eFpLY3dkZ0VVVHdIN2NTTFNURVBPd3JZM0lQS1FVQUJ3UUJ0c3RmZXNwamkzV1pkXzduU1pVSFN6bjdON1JoQlFRMzJlNFdKTndsS2tJdzhxVG12cTBfbGREUjkwQTdIdDlhYzE3czdEMU5xMHc?oc=5",
+          "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+          "source_name": "CNBC Top News",
+          "published": "Sun, 20 Sep 2026 11:25:08 GMT",
+          "published_iso": "2026-09-20T11:25:08+00:00",
+          "link": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
           "source_type": "rss"
         },
         {
-          "title": "Nvidia-backed AI cloud firm Nscale reveals revenue surge in US IPO filing - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Fri, 18 Sep 2026 21:41:08 GMT",
-          "published_iso": "2026-09-18T21:41:08+00:00",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOX1dTamJ1aHFmSUJtU3ZXV1diZDd3RGROdl9lTEY4UEEzQmFicF85MzdFWXpoT01Xckp6MlZ5eU5RcEpsVWl6Qmw3Y0NoMXJtdzViV21DZ0h6aXhFRkRWWjNjYmk1ZTRCSnY0X052TWIxMEg3a05NMnh5MGtaMEpzYXNla1ZMeEU?oc=5",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-09-21",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-19T19:14:38+00:00",
-      "oldest_evidence_iso": "2026-09-18T21:49:51+00:00",
-      "newest_evidence_age_days": 0.4,
-      "source_count": 4,
-      "demand_signal_score": 5800,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive",
+          "title": "Anthropic tabs Accenture as embedded evaluator to help with AI slowdown proposal",
           "source_name": "Cointelegraph",
-          "published": "Sat, 19 Sep 2026 19:14:38 +0000",
-          "published_iso": "2026-09-19T19:14:38+00:00",
-          "link": "https://cointelegraph.com/news/rex-launches-2x-leveraged-etf-tied-to-bitcoin-treasury-firm-strive?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "'The orange tie stays': Michael Saylor responds to venture capitalist's bitcoin obituary",
-          "source_name": "CoinDesk RSS",
-          "published": "Sat, 19 Sep 2026 12:13:57 +0000",
-          "published_iso": "2026-09-19T12:13:57+00:00",
-          "link": "https://www.coindesk.com/markets/2026/09/19/the-orange-tie-stays-michael-saylor-responds-to-venture-capitalist-s-bitcoin-obituary",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin tests $82,178 resistance with RSI overbought: Live levels",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-09-19 19:01:46",
-          "published_iso": "2026-09-19 19:01:46",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-76k81k-rectangle-live-breakout-levels-93CH-4898873",
+          "published": "Sun, 20 Sep 2026 07:51:24 +0000",
+          "published_iso": "2026-09-20T07:51:24+00:00",
+          "link": "https://cointelegraph.com/news/anthropic-tabs-accenture-as-embedded-evaluator-to-help-with-ai-slowdown-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ]

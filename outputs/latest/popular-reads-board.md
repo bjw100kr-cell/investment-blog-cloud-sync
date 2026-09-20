@@ -33,10 +33,10 @@
 - next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
 - pick: `중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유` / `china` / `main_pick` / ready `True` / 지금 이 클러스터를 대표하는 메인 글
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html`
-- pick: `중국 변수와 시장 영향 관련 대표 종목 한눈에 보기` / `seo_china_9` / `followup_pick_1` / ready `True` / 검색형 유입을 받기 좋은 주제
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html`
-- pick: `중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나` / `seo_china_11` / `followup_pick_2` / ready `True` / 페이지 체류시간을 늘리기 좋은 주제
-  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html`
+- pick: `중국 변수와 시장 영향 관련 대표 종목 한눈에 보기` / `seo_china_10` / `followup_pick_1` / ready `True` / 검색형 유입을 받기 좋은 주제
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html`
+- pick: `중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나` / `seo_china_12` / `followup_pick_2` / ready `True` / 페이지 체류시간을 늘리기 좋은 주제
+  - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/04-중국-변수와-시장-영향-공급망-정리-누가-수혜를-보나.html`
 
 ## 4. 거시 이벤트 해설 클러스터
 

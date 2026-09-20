@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-09-20T04:26:49.737874+00:00`
+- 생성 시각: `2026-09-20T15:55:42.480771+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `86.0`
-- 점수 구성: 검색성 19 / 시의성 25 / 설명가치 20 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press
+- 총점: `90.0`
+- 점수 구성: 검색성 22 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 소스: Federal Reserve Monetary Policy Press, MarketWatch Breaking News
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,13 +27,14 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
+  - My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `85.0`
-- 점수 구성: 검색성 29 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
+- 총점: `84.0`
+- 점수 구성: 검색성 28 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 1
 - 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
 - 제목 후보:
@@ -47,20 +48,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Crypto platform Gemini’s stock is down 80% from its IPO. That’s reviving takeover speculation
+  - Crypto traders braced for a total wipeout this week but Bitcoin had other plans
   - Clarity Act, we hardly knew ye: We look at what was in the bill and what's replacing it
   - 'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks
   - 'The orange tie stays': Michael Saylor responds to venture capitalist's bitcoin obituary
-  - CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act
-  - Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
 - 총점: `70.0`
-- 점수 구성: 검색성 15 / 시의성 15 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
+- 점수 구성: 검색성 14 / 시의성 17 / 설명가치 19 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Cointelegraph, Financial Times YouTube, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -72,19 +73,19 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Anthropic and OpenAI need truly independent safety evaluators, experts say in public letter
+  - Anthropic tabs Accenture as embedded evaluator to help with AI slowdown proposal
+  - Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate
   - EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say - Reuters
-  - Nvidia-backed AI cloud firm Nscale reveals revenue surge in US IPO filing - Reuters
   - Silicon shadows: inside the black market for AI chips | FT Film
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `67.0`
-- 점수 구성: 검색성 14 / 시의성 16 / 설명가치 17 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times Home, Reuters Markets via Google News RSS
+- 총점: `70.0`
+- 점수 구성: 검색성 14 / 시의성 18 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -96,29 +97,32 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Saudi Arabia quits China-led cross-border currency platform
-  - China keeps benchmark lending rates unchanged for 16th month in September - Reuters
+  - US Treasury's Bessent and China's He launch talks on AI, trade and critical minerals - Reuters
   - China central bank adviser says AI could deepen supply-demand imbalance - Reuters
-  - Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - Reuters
+  - China is chasing SpaceX and setting its sights on the global space economy
+  - In China, A.I. Is Moving Forward While the Economy Lags Behind
 
-## 5. us_index_flow
+## 5. crypto_etf
 
-- 카테고리: `global-sector`
-- 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `58.0`
-- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: Cointelegraph, Reuters Markets via Google News RSS
+- 카테고리: `crypto`
+- 브랜드 레인: `crypto` (코인)
+- 총점: `76.0`
+- 점수 구성: 검색성 16 / 시의성 15 / 설명가치 18 / 수익성 15 / 리스크역점수 4 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 8
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 코인 시장 신호: SOLUSDT 24h change -2.86%; XRPUSDT 24h change -3.19%; DOGEUSDT 24h change -3.85%
+- 소스: CNBC Top News, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+  - 코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리
+  - 코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리: 지금 시장이 반응하는 이유
+  - 코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리
 - 글 구조:
-  - 지금 이 섹터가 왜 움직이는가
-  - 핵심 뉴스와 시장 반응
-  - 대표 종목과 자금 흐름
-  - 거시 변수와 연결
-  - 다음 실적/정책 이벤트
+  - 오늘 코인 시장 핵심 변화
+  - 가격이 아니라 구조상 중요한 포인트
+  - ETF/유동성/규제/온체인과의 연결
+  - 강세 시나리오와 리스크
+  - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - Coinbase files to bring single-stock perpetual futures to US market
-  - S&P 500, Nasdaq advance, turning the page on a tumultuous week - Reuters
+  - Grayscale’s Zcash ETF files for 3-for-1 forward share split
+  - REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive
+  - Caruso-Cabrera: The investing tailwinds for Latin America are the best in decades
+  - Bitcoin holds above $80,000 as ETF inflows revive institutional demand

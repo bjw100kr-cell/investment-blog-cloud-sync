@@ -1,6 +1,6 @@
 # 7일 편집 캘린더
 
-- 생성 시각: `2026-09-20T04:26:49.737874+00:00`
+- 생성 시각: `2026-09-20T15:55:42.480771+00:00`
 - 목적: stale 뉴스는 직접 발행에서 빼고, 거시경제·코인·미국주식·세계 흐름 레인을 주간 단위로 균형 있게 유지
 
 ## 레인 커버리지
@@ -25,11 +25,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: fomc
 - 작업 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 글 각도: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- 글 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: Federal Reserve Monetary Policy Press
-- 근거 소스/연결 키워드: Federal Reserve Monetary Policy Press
+- 내부링크 대상: Federal Reserve Monetary Policy Press, MarketWatch Breaking News
+- 근거 소스/연결 키워드: Federal Reserve Monetary Policy Press, MarketWatch Breaking News
 - 발행 메모: 초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.
 
 ## Day 2 · 2026-09-21 · lane_focus_crypto
@@ -55,11 +55,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: ai_semiconductors
 - 작업 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 글 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 글 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
-- 근거 소스/연결 키워드: CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
+- 내부링크 대상: CNBC Top News, Cointelegraph, Financial Times YouTube, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: CNBC Top News, Cointelegraph, Financial Times YouTube, Reuters Markets via Google News RSS
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
 ## Day 4 · 2026-09-23 · lane_focus_world-flow
@@ -70,11 +70,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: china
 - 작업 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 글 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 글 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: Financial Times Home, Reuters Markets via Google News RSS
-- 근거 소스/연결 키워드: Financial Times Home, Reuters Markets via Google News RSS
+- 내부링크 대상: MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 발행 메모: 당일 이슈 해설형 글
 
 ## Day 5 · 2026-09-24 · evergreen_support
