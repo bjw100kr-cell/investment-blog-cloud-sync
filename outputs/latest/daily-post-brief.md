@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-09-19T15:47:26.436512+00:00`
+- 생성 시각: `2026-09-20T04:26:49.737874+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -47,20 +47,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Clarity Act, we hardly knew ye: We look at what was in the bill and what's replacing it
   - 'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks
   - 'The orange tie stays': Michael Saylor responds to venture capitalist's bitcoin obituary
   - CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act
   - Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost
-  - Hong Kong jails former banker over $1.6B false credit, cryptocurrency bribes: Report
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `83.0`
-- 점수 구성: 검색성 22 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, Financial Times YouTube, NYT Business, Reuters Markets via Google News RSS
+- 총점: `70.0`
+- 점수 구성: 검색성 15 / 시의성 15 / 설명가치 18 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Financial Times YouTube, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -73,19 +73,18 @@
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
   - Anthropic and OpenAI need truly independent safety evaluators, experts say in public letter
-  - Investors warn Anthropic could struggle to sustain revenues post-IPO
-  - Google’s Gemini hacked three companies in new AI safety incident
   - EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say - Reuters
   - Nvidia-backed AI cloud firm Nscale reveals revenue surge in US IPO filing - Reuters
+  - Silicon shadows: inside the black market for AI chips | FT Film
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `45.0`
-- 점수 구성: 검색성 4 / 시의성 5 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 섹터/세계 흐름 연결 해설 가능
-- 소스: Reuters Markets via Google News RSS
+- 총점: `67.0`
+- 점수 구성: 검색성 14 / 시의성 16 / 설명가치 17 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 소스: Financial Times Home, Reuters Markets via Google News RSS
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -97,16 +96,19 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
+  - Saudi Arabia quits China-led cross-border currency platform
+  - China keeps benchmark lending rates unchanged for 16th month in September - Reuters
+  - China central bank adviser says AI could deepen supply-demand imbalance - Reuters
   - Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - Reuters
 
 ## 5. us_index_flow
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `68.0`
-- 점수 구성: 검색성 13 / 시의성 15 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: Cointelegraph, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `58.0`
+- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: Cointelegraph, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -120,4 +122,3 @@
 - 참고 헤드라인:
   - Coinbase files to bring single-stock perpetual futures to US market
   - S&P 500, Nasdaq advance, turning the page on a tumultuous week - Reuters
-  - 15 stocks that have grown dividends the most — and nearly all have beaten the S&P 500

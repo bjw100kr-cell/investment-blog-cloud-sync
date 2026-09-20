@@ -114,11 +114,11 @@
     "MarketWatch Breaking News"
   ],
   "reference_headlines": [
+    "Clarity Act, we hardly knew ye: We look at what was in the bill and what's replacing it",
     "'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks",
     "'The orange tie stays': Michael Saylor responds to venture capitalist's bitcoin obituary",
     "CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act",
-    "Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost",
-    "Hong Kong jails former banker over $1.6B false credit, cryptocurrency bribes: Report"
+    "Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

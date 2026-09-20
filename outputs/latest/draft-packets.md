@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-09-19T15:47:26.436512+00:00`
+- 생성 시각: `2026-09-20T04:26:49.737874+00:00`
 
 ## 1. fomc
 
@@ -135,17 +135,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Clarity Act, we hardly knew ye: We look at what was in the bill and what's replacing it
   - 'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks
   - 'The orange tie stays': Michael Saylor responds to venture capitalist's bitcoin obituary
   - CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act
   - Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost
-  - Hong Kong jails former banker over $1.6B false credit, cryptocurrency bribes: Report
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 83.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 70.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,16 +206,15 @@
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
   - Anthropic and OpenAI need truly independent safety evaluators, experts say in public letter
-  - Investors warn Anthropic could struggle to sustain revenues post-IPO
-  - Google’s Gemini hacked three companies in new AI safety incident
   - EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say - Reuters
   - Nvidia-backed AI cloud firm Nscale reveals revenue surge in US IPO filing - Reuters
+  - Silicon shadows: inside the black market for AI chips | FT Film
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 섹터/세계 흐름 연결 해설 가능
-- 점수: 45.0
+- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 67.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -275,4 +274,7 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Saudi Arabia quits China-led cross-border currency platform
+  - China keeps benchmark lending rates unchanged for 16th month in September - Reuters
+  - China central bank adviser says AI could deepen supply-demand imbalance - Reuters
   - Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - Reuters
