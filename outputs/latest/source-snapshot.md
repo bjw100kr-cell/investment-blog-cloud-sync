@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-20T15:55:42.480771+00:00`
+- 생성 시각: `2026-09-21T04:25:18.842472+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,51 +106,49 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 40, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
-- `fomc`: score 22, source_count 2, sources Federal Reserve Monetary Policy Press, MarketWatch Breaking News
-- `crypto_etf`: score 12, source_count 3, sources CNBC Top News, Cointelegraph, Investing.com Crypto News
-- `treasury_yields`: score 12, source_count 3, sources Cointelegraph, Financial Times Home, Reuters Markets via Google News RSS
-- `oil`: score 12, source_count 2, sources Financial Times Home, Financial Times World
-- `ai_semiconductors`: score 11, source_count 4, sources CNBC Top News, Cointelegraph, Financial Times YouTube, Reuters Markets via Google News RSS
-- `china`: score 10, source_count 3, sources MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `us_index_flow`: score 8, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `cpi`: score 8, source_count 3, sources Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `bitcoin`: score 47, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
+- `fomc`: score 25, source_count 3, sources Federal Reserve Monetary Policy Press, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `china`: score 21, source_count 6, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `treasury_yields`: score 17, source_count 5, sources CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, NYT Business
+- `oil`: score 15, source_count 3, sources CNBC Top News, Financial Times Home, Reuters Markets via Google News RSS
+- `crypto_etf`: score 9, source_count 2, sources Cointelegraph, Investing.com Crypto News
+- `ai_semiconductors`: score 8, source_count 3, sources Cointelegraph, Financial Times World, Financial Times YouTube
+- `cpi`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_index_flow`: score 5, source_count 2, sources Financial Times World, MarketWatch Breaking News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 40, headlines 12
+- `bitcoin`: score 47, headlines 14
+  - Bitcoin rises above $81,000, while NEAR jumps 23% on Zcash swap traffic
+  - Bitcoin’s price has cleared a key hurdle that has historically preceded major bull runs
   - Crypto platform Gemini’s stock is down 80% from its IPO. That’s reviving takeover speculation
-  - Crypto traders braced for a total wipeout this week but Bitcoin had other plans
-  - Clarity Act, we hardly knew ye: We look at what was in the bill and what's replacing it
-- `fomc`: score 22, headlines 5
+- `fomc`: score 25, headlines 6
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `crypto_etf`: score 12, headlines 4
-  - Grayscale’s Zcash ETF files for 3-for-1 forward share split
-  - REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive
-  - Caruso-Cabrera: The investing tailwinds for Latin America are the best in decades
-- `oil`: score 12, headlines 4
-  - Ukraine hits Moscow with ‘largest ever’ drone attack
-  - Chevron plans drilling spree as it overhauls oil and gas search
-  - Ukraine hits Moscow with ‘largest ever’ drone attack
-- `treasury_yields`: score 12, headlines 4
+- `china`: score 21, headlines 8
+  - Bessent calls meeting with China Vice Premier He Lifeng 'successful' ahead of Trump-Xi summit
+  - US and China agree to AI dialogue ahead of Trump-Xi meeting
+  - Bessent proposes US-China AI safety notifications in talks with Chinese vice premier - Reuters
+- `treasury_yields`: score 17, headlines 6
   - REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive
   - VanEck criticizes Metaplanet over executive dilution despite compensation cuts
-  - Wall Street expects US to issue about $1tn of short-term debt as borrowing costs climb
-- `ai_semiconductors`: score 11, headlines 4
-  - Anthropic tabs Accenture as embedded evaluator to help with AI slowdown proposal
-  - Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate
-  - EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say - Reuters
-- `china`: score 10, headlines 4
-  - US Treasury's Bessent and China's He launch talks on AI, trade and critical minerals - Reuters
-  - China central bank adviser says AI could deepen supply-demand imbalance - Reuters
-  - China is chasing SpaceX and setting its sights on the global space economy
-- `cpi`: score 8, headlines 3
-  - Global rate-hike cycle in view as central banks take on inflation - Reuters
+  - Bessent calls meeting with China Vice Premier He Lifeng 'successful' ahead of Trump-Xi summit
+- `oil`: score 15, headlines 5
+  - Oil falls as crude flows remain 'surprisingly strong'
+  - Ukraine hits Moscow with ‘largest ever’ drone attack
+  - Tech leads shares higher in Asia as oil slips - Reuters
+- `crypto_etf`: score 9, headlines 3
+  - Grayscale’s Zcash ETF files for 3-for-1 forward share split
+  - REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive
+  - Bitcoin slips 1% but above $80,000 as ETF inflows revive institutional demand
+- `ai_semiconductors`: score 8, headlines 3
+  - Anthropic taps Accenture as embedded evaluator to help with AI slowdown proposal
+  - Silicon shadows: inside the black market for AI chips | FT Film
+  - VW ejected from European blue-chip index in blow to crisis-hit carmaker
+- `cpi`: score 5, headlines 2
+  - Fed's Kashkari says inflation is still too high in 'all aspects' of US economy, in Fox News interview - Reuters
   - Record diesel prices are exposing pain points in the stock market and economy
-  - Is the Bank of Japan right to fear an overshoot in inflation?
-- `us_index_flow`: score 8, headlines 3
-  - Caruso-Cabrera: The investing tailwinds for Latin America are the best in decades
-  - S&P 500, Nasdaq advance, turning the page on a tumultuous week - Reuters
+- `us_index_flow`: score 5, headlines 2
   - Record diesel prices are exposing pain points in the stock market and economy
+  - Why the world’s hottest stock market is a national liability
