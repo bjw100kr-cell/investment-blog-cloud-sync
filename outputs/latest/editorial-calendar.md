@@ -1,6 +1,6 @@
 # 7일 편집 캘린더
 
-- 생성 시각: `2026-09-21T04:25:18.842472+00:00`
+- 생성 시각: `2026-09-21T18:09:57.290321+00:00`
 - 목적: stale 뉴스는 직접 발행에서 빼고, 거시경제·코인·미국주식·세계 흐름 레인을 주간 단위로 균형 있게 유지
 
 ## 레인 커버리지
@@ -28,8 +28,8 @@
 - 글 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: Federal Reserve Monetary Policy Press, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- 근거 소스/연결 키워드: Federal Reserve Monetary Policy Press, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 내부링크 대상: Federal Reserve Monetary Policy Press, Financial Times World, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: Federal Reserve Monetary Policy Press, Financial Times World, Reuters Markets via Google News RSS
 - 발행 메모: 초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.
 
 ## Day 2 · 2026-09-22 · lane_focus_crypto
@@ -40,11 +40,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: bitcoin
 - 작업 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 글 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 글 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
-- 근거 소스/연결 키워드: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
+- 내부링크 대상: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 근거 소스/연결 키워드: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
 ## Day 3 · 2026-09-23 · lane_focus_us-stocks
@@ -55,11 +55,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: ai_semiconductors
 - 작업 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 글 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 글 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: Cointelegraph, Financial Times World, Financial Times YouTube
-- 근거 소스/연결 키워드: Cointelegraph, Financial Times World, Financial Times YouTube
+- 내부링크 대상: CNBC Top News, Financial Times Home, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: CNBC Top News, Financial Times Home, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
 ## Day 4 · 2026-09-24 · lane_focus_world-flow
@@ -70,11 +70,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: china
 - 작업 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 글 각도: 복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능
+- 글 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- 근거 소스/연결 키워드: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 내부링크 대상: CNBC Top News, Financial Times Home, NYT Business
+- 근거 소스/연결 키워드: CNBC Top News, Financial Times Home, NYT Business
 - 발행 메모: 당일 이슈 해설형 글
 
 ## Day 5 · 2026-09-25 · evergreen_support

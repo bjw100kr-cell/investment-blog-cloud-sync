@@ -109,7 +109,7 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "Federal Reserve Monetary Policy Press",
-    "MarketWatch Breaking News",
+    "Financial Times World",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
@@ -117,7 +117,7 @@
     "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
     "Federal Reserve issues FOMC statement",
     "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-    "Fed's Kashkari says inflation is still too high in 'all aspects' of US economy, in Fox News interview - Reuters"
+    "Gold falls on rising odds of Fed rate hike, stronger dollar - Reuters"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [

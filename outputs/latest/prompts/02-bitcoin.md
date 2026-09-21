@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -110,15 +110,14 @@
   "source_names": [
     "CoinDesk RSS",
     "Cointelegraph",
-    "Investing.com Crypto News",
-    "MarketWatch Breaking News"
+    "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Bitcoin rises above $81,000, while NEAR jumps 23% on Zcash swap traffic",
-    "Bitcoin’s price has cleared a key hurdle that has historically preceded major bull runs",
-    "Crypto platform Gemini’s stock is down 80% from its IPO. That’s reviving takeover speculation",
-    "Crypto traders braced for a total wipeout this week but Bitcoin had other plans",
-    "Clarity Act, we hardly knew ye: We look at what was in the bill and what's replacing it"
+    "Crypto political group plans to spend $30 million against Sherrod Brown's Senate bid",
+    "Why banks and offshore hubs like Dubai are winners of the Senate killing the Clarity Act",
+    "Bitmine bought $75 million ether as Tom Lee says institutions are still underweight crypto",
+    "Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails",
+    "Strategy returns to bitcoin buys, adding $75 million of BTC last week"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -183,7 +182,7 @@
   "score_breakdown": {
     "total_score": 85.0,
     "search_score": 29,
-    "timeliness_score": 20,
+    "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,
     "risk_score": 3

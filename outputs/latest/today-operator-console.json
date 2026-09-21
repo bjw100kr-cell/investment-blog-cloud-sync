@@ -33,32 +33,6 @@
       ]
     },
     {
-      "keyword": "ai_semiconductors",
-      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "publish_date": "2026-09-23",
-      "priority_score": 90.0,
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "hero_image_selected": true,
-      "ready_now": true,
-      "brand_lane": "us-stocks",
-      "brand_lane_label": "미국주식",
-      "freshness_status": "fresh",
-      "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "hero_image_provider": "Unsplash",
-      "hero_image_search_query": "semiconductor chip blue abstract",
-      "hero_image_search_url": "https://unsplash.com/s/photos/semiconductor+chip+blue+abstract",
-      "hero_image_license_label": "Unsplash License",
-      "hero_image_license_url": "https://unsplash.com/license",
-      "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword ai_semiconductors --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve",
-      "cta_focus": "실적·공급망·대표 종목 글로 연결",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "preview": [
-        "한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다."
-      ]
-    },
-    {
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "publish_date": "2026-09-21",
@@ -171,8 +145,8 @@
       "step": "next_slot",
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "why_revenue": "페이지뷰와 체류시간 균형 확보",
-      "cta_focus": "실적·공급망·대표 종목 글로 연결",
+      "why_revenue": "카테고리 보강과 내부링크 확장으로 장기 검색 유입 기반을 만드는 역할",
+      "cta_focus": "",
       "urgency": "watch",
       "brand_lane": "us-stocks",
       "brand_lane_label": "미국주식",
@@ -181,9 +155,9 @@
     }
   ],
   "traffic_goal": {
-    "generated_at": "2026-09-21T04:25:18.842472+00:00",
+    "generated_at": "2026-09-21T18:09:57.290321+00:00",
     "target_daily_visitors": 200,
-    "projected_daily_visitors": 334,
+    "projected_daily_visitors": 246,
     "gap_to_target": 0,
     "status": "estimated_on_track_measurement_missing",
     "top_path": [
@@ -191,7 +165,7 @@
         "keyword": "fomc",
         "brand_lane": "macro",
         "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-        "demand_signal_score": 3700,
+        "demand_signal_score": 3800,
         "total_score": 94.0,
         "quality_status": "pass",
         "ready_to_upload": true,
@@ -205,13 +179,15 @@
         "keyword": "bitcoin",
         "brand_lane": "crypto",
         "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-        "demand_signal_score": 5900,
+        "demand_signal_score": 6300,
         "total_score": 85.0,
         "quality_status": "pass",
         "ready_to_upload": true,
-        "crypto_market_signal_bonus": 1,
-        "crypto_market_sentiment": "mixed",
-        "crypto_market_signal_notes": [],
+        "crypto_market_signal_bonus": 3,
+        "crypto_market_sentiment": "risk_on",
+        "crypto_market_signal_notes": [
+          "BTCUSDT 24h change 5.97%"
+        ],
         "estimated_daily_visitors": 95,
         "recommended_action": "코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행"
       },
@@ -219,29 +195,15 @@
         "keyword": "china",
         "brand_lane": "world-flow",
         "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "demand_signal_score": 3300,
-        "total_score": 82.0,
-        "quality_status": "pass",
-        "ready_to_upload": true,
-        "crypto_market_signal_bonus": 0,
-        "crypto_market_sentiment": "",
-        "crypto_market_signal_notes": [],
-        "estimated_daily_visitors": 86,
-        "recommended_action": "세계 흐름 해설 뒤 관련 섹터/환율 글로 연결"
-      },
-      {
-        "keyword": "ai_semiconductors",
-        "brand_lane": "us-stocks",
-        "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
         "demand_signal_score": 0,
-        "total_score": 63.0,
+        "total_score": 71.0,
         "quality_status": "pass",
         "ready_to_upload": true,
         "crypto_market_signal_bonus": 0,
         "crypto_market_sentiment": "",
         "crypto_market_signal_notes": [],
-        "estimated_daily_visitors": 58,
-        "recommended_action": "대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장"
+        "estimated_daily_visitors": 56,
+        "recommended_action": "세계 흐름 해설 뒤 관련 섹터/환율 글로 연결"
       }
     ],
     "topic_items": [
@@ -249,7 +211,7 @@
         "keyword": "fomc",
         "brand_lane": "macro",
         "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-        "demand_signal_score": 3700,
+        "demand_signal_score": 3800,
         "total_score": 94.0,
         "quality_status": "pass",
         "ready_to_upload": true,
@@ -263,13 +225,15 @@
         "keyword": "bitcoin",
         "brand_lane": "crypto",
         "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-        "demand_signal_score": 5900,
+        "demand_signal_score": 6300,
         "total_score": 85.0,
         "quality_status": "pass",
         "ready_to_upload": true,
-        "crypto_market_signal_bonus": 1,
-        "crypto_market_sentiment": "mixed",
-        "crypto_market_signal_notes": [],
+        "crypto_market_signal_bonus": 3,
+        "crypto_market_sentiment": "risk_on",
+        "crypto_market_signal_notes": [
+          "BTCUSDT 24h change 5.97%"
+        ],
         "estimated_daily_visitors": 95,
         "recommended_action": "코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행"
       },
@@ -277,36 +241,36 @@
         "keyword": "china",
         "brand_lane": "world-flow",
         "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "demand_signal_score": 3300,
-        "total_score": 82.0,
+        "demand_signal_score": 0,
+        "total_score": 71.0,
         "quality_status": "pass",
         "ready_to_upload": true,
         "crypto_market_signal_bonus": 0,
         "crypto_market_sentiment": "",
         "crypto_market_signal_notes": [],
-        "estimated_daily_visitors": 86,
+        "estimated_daily_visitors": 56,
         "recommended_action": "세계 흐름 해설 뒤 관련 섹터/환율 글로 연결"
+      },
+      {
+        "keyword": "us_big_tech",
+        "brand_lane": "us-stocks",
+        "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+        "demand_signal_score": 1200,
+        "total_score": 84.0,
+        "quality_status": "needs_fix",
+        "ready_to_upload": true,
+        "crypto_market_signal_bonus": 0,
+        "crypto_market_sentiment": "",
+        "crypto_market_signal_notes": [],
+        "estimated_daily_visitors": 0,
+        "recommended_action": "품질 게이트 수정 후 발행 후보로 복귀"
       },
       {
         "keyword": "ai_semiconductors",
         "brand_lane": "us-stocks",
         "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
         "demand_signal_score": 0,
-        "total_score": 63.0,
-        "quality_status": "pass",
-        "ready_to_upload": true,
-        "crypto_market_signal_bonus": 0,
-        "crypto_market_sentiment": "",
-        "crypto_market_signal_notes": [],
-        "estimated_daily_visitors": 58,
-        "recommended_action": "대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장"
-      },
-      {
-        "keyword": "treasury_yields",
-        "brand_lane": "macro",
-        "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
-        "demand_signal_score": 2900,
-        "total_score": 81.0,
+        "total_score": 77.0,
         "quality_status": "unknown",
         "ready_to_upload": false,
         "crypto_market_signal_bonus": 0,
@@ -316,16 +280,16 @@
         "recommended_action": "발행 가능한 manifest/이미지/신선도 상태 보강"
       }
     ],
-    "ready_topic_count": 4,
+    "ready_topic_count": 3,
     "search_demand_summary": {
       "trend_item_count": 16,
-      "matched_keyword_count": 4,
+      "matched_keyword_count": 5,
       "unmatched_market_trend_count": 0,
       "weak_trend_fallback_count": 4
     },
     "keyword_board_summary": {
       "breaking_candidates": 5,
-      "query_watchlist": 4
+      "query_watchlist": 5
     },
     "publishing_summary": {
       "blogger_ready": true,
@@ -338,7 +302,7 @@
     },
     "crypto_market_summary": {
       "status": "ok",
-      "sentiment": "mixed",
+      "sentiment": "risk_on",
       "fear_greed": {
         "value": 70,
         "label": "Greed",
@@ -354,7 +318,8 @@
     },
     "bottlenecks": [
       "GA4/Search Console 연결 전이라 실제 200명 달성 여부를 자동 측정하기 어렵습니다.",
-      "뉴스레터/텔레그램 재방문 동선이 없어 첫 방문자를 반복 방문으로 쌓기 어렵습니다."
+      "뉴스레터/텔레그램 재방문 동선이 없어 첫 방문자를 반복 방문으로 쌓기 어렵습니다.",
+      "품질 게이트 needs_fix 글이 있어 발행 후보가 줄어듭니다."
     ],
     "next_actions": [
       "오늘은 예상 방문자 기여도가 가장 큰 1개 글을 먼저 발행하고, 같은 클러스터 후속 글 2개를 내부링크로 묶습니다.",
@@ -363,7 +328,7 @@
     ]
   },
   "visitor_proof": {
-    "generated_at": "2026-09-21T04:25:23.720466+00:00",
+    "generated_at": "2026-09-21T18:10:01.189570+00:00",
     "target_daily_visitors": 200,
     "actual_verified_visitors": 0,
     "actual_verified_impressions": 0,
@@ -401,9 +366,9 @@
       ]
     },
     "projection_summary": {
-      "projected_daily_visitors": 334,
-      "projected_with_amplification": 334,
-      "potential_with_manual_amplification": 1534,
+      "projected_daily_visitors": 246,
+      "projected_with_amplification": 246,
+      "potential_with_manual_amplification": 1446,
       "projection_is_proof": false,
       "traffic_goal_status": "estimated_on_track_measurement_missing",
       "amplification_status": "amplification_plan_ready_manual_execution_required"
@@ -455,7 +420,7 @@
   "image_upgrade_queue": [],
   "image_leverage_lanes": [],
   "cross_platform_publish_pack": {
-    "generated_at": "2026-09-21T04:25:23.293299+00:00",
+    "generated_at": "2026-09-21T18:10:00.658679+00:00",
     "automation_policy": "automation-first",
     "primary_channel": "blogger",
     "secondary_channel": "wordpress",
