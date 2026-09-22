@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-21T18:09:57.290321+00:00`
+- 생성 시각: `2026-09-22T04:20:50.191710+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -100,52 +100,51 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 51, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 26, source_count 3, sources Federal Reserve Monetary Policy Press, Financial Times World, Reuters Markets via Google News RSS
-- `us_big_tech`: score 23, source_count 3, sources CoinDesk RSS, Google Trends US, MarketWatch Breaking News
-- `oil`: score 15, source_count 3, sources Cointelegraph, Financial Times Home, Reuters Markets via Google News RSS
-- `treasury_yields`: score 14, source_count 3, sources CoinDesk RSS, Financial Times Home, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 13, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times YouTube, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `china`: score 12, source_count 3, sources CNBC Top News, Financial Times Home, NYT Business
+- `bitcoin`: score 36, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
+- `fomc`: score 26, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `china`: score 12, source_count 3, sources Cointelegraph, Financial Times World, NYT Business
+- `treasury_yields`: score 11, source_count 2, sources CNBC Top News, CoinDesk RSS
+- `dollar`: score 10, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 8, source_count 3, sources Financial Times Home, Financial Times YouTube, Reuters Markets via Google News RSS
 - `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `dollar`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
-- `us_index_flow`: score 3, source_count 1, sources Cointelegraph
+- `us_index_flow`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
+- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
+- `oil`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 51, headlines 15
+- `bitcoin`: score 36, headlines 11
+  - Bitcoin could test $90,000 after shorts get squeezed, but traders warn leverage is building
   - Crypto political group plans to spend $30 million against Sherrod Brown's Senate bid
   - Why banks and offshore hubs like Dubai are winners of the Senate killing the Clarity Act
-  - Bitmine bought $75 million ether as Tom Lee says institutions are still underweight crypto
 - `fomc`: score 26, headlines 6
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `us_big_tech`: score 23, headlines 4
-  - meta stock
-  - Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails
-  - Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant
-- `oil`: score 15, headlines 5
-  - Bitcoin price tags $86K as analysis sees crypto in ‘new bull market’
-  - BTC price nears eight-month high above $85K: Five things to know in Bitcoin this week
-  - Battered government bonds rebound as oil falls below $100
-- `treasury_yields`: score 14, headlines 4
+- `china`: score 12, headlines 5
+  - Saudi Arabia exits China-backed mBridge CBDC project: FT
+  - AI energy demand accelerates China’s quest for nuclear fusion
+  - China’s Continued Control of Rare Earths Looms Over Trump-Xi Meeting
+- `treasury_yields`: score 11, headlines 3
   - Bitmine bought $75 million ether as Tom Lee says institutions are still underweight crypto
   - Treasury Secretary Scott Bessent champions dollar dominance across global markets and stablecoins
-  - Bessent hails US-China AI dialogue ahead of Trump-Xi meeting
-- `ai_semiconductors`: score 13, headlines 5
-  - AMD hits $1 trillion market cap for the first time as stock rides 5-day rally
-  - Lex in depth: the challenging maths of Anthropic’s IPO
-  - AMD joins $1 trillion club as chipmakers rally on AI-driven demand - Reuters
-- `china`: score 12, headlines 5
-  - Trump says DOJ will rein in AI 'if we have to'
-  - Bessent hails US-China AI dialogue ahead of Trump-Xi meeting
-  - Trump and Xi Meet Amid an Uneasy U.S.-China Trade Truce
-- `dollar`: score 7, headlines 2
+  - All Iranian airlines to be 'shut down' from Wednesday, Bessent tells CNBC
+- `dollar`: score 10, headlines 3
   - Treasury Secretary Scott Bessent champions dollar dominance across global markets and stablecoins
+  - Tech rally boosts Asian stocks, dollar firms on rate-hike wagers - Reuters
   - Gold falls on rising odds of Fed rate hike, stronger dollar - Reuters
+- `ai_semiconductors`: score 8, headlines 3
+  - AI staff complain of mental toll over fears of threat to society
+  - AMD joins $1 trillion club as chipmakers rally on AI-driven demand - Reuters
+  - Silicon shadows: inside the black market for AI chips | FT Film
 - `ethereum`: score 7, headlines 2
   - Bitmine bought $75 million ether as Tom Lee says institutions are still underweight crypto
-  - Kyle Samani predicts SOL flippening, claims ‘no one’ uses ETH
+  - Trueo prediction market moves from Base to Ethereum
+- `us_big_tech`: score 5, headlines 2
+  - Tesla makes a move on Southeast Asia's largest EV market. A homegrown giant awaits
+  - Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant
+- `us_index_flow`: score 5, headlines 2
+  - Investors rush into India’s National Stock Exchange IPO at valuation multiple above Nasdaq
+  - As the S&P 500 nears a new record high, there are signs of weakness below the surface
 - `cpi`: score 3, headlines 1
-  - Fed will need to be ‘aggressive’ on inflation, says top official
+  - EXCLUSIVE: Fed's Musalem says more rate hikes likely needed to quell inflation - Reuters

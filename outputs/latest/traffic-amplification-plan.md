@@ -1,11 +1,11 @@
 # Traffic Amplification Plan
 
 - 목표 방문자: `200`
-- 기본 예상 방문자: `246`
+- 기본 예상 방문자: `266`
 - 실행 전 배포 추가 예상 방문자: `0`
 - 수동 실행 시 추가 잠재 방문자: `1200`
-- 실행 전 배포 포함 예상 방문자: `246`
-- 수동 실행 시 잠재 방문자: `1446`
+- 실행 전 배포 포함 예상 방문자: `266`
+- 수동 실행 시 잠재 방문자: `1466`
 - 남은 부족분: `0`
 - 상태: `amplification_plan_ready_manual_execution_required`
 
@@ -372,7 +372,7 @@ bitcoin 후속 글 후보: bitcoin 후속 글 1개를 먼저 생성하거나, �
 
 - keyword: `china`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
-- base_search_estimate: `56`
+- base_search_estimate: `76`
 - amplification_expected_before_execution: `0`
 - amplification_potential_if_executed: `75`
 - manual_execution_required: `True`

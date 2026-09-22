@@ -108,16 +108,16 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
-    "CNBC Top News",
-    "Financial Times Home",
+    "Cointelegraph",
+    "Financial Times World",
     "NYT Business"
   ],
   "reference_headlines": [
-    "Trump says DOJ will rein in AI 'if we have to'",
-    "Bessent hails US-China AI dialogue ahead of Trump-Xi meeting",
+    "Saudi Arabia exits China-backed mBridge CBDC project: FT",
+    "AI energy demand accelerates China’s quest for nuclear fusion",
+    "China’s Continued Control of Rare Earths Looms Over Trump-Xi Meeting",
     "Trump and Xi Meet Amid an Uneasy U.S.-China Trade Truce",
-    "Bessent and China Hail Progress on A.I. Talks. Now Comes the Hard Part.",
-    "China Promised to Buy More U.S. Farm Goods. It Hasn’t Happened."
+    "Bessent and China Hail Progress on A.I. Talks. Now Comes the Hard Part."
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -181,11 +181,11 @@
   },
   "score_breakdown": {
     "total_score": 71.0,
-    "search_score": 15,
+    "search_score": 16,
     "timeliness_score": 18,
-    "explanatory_score": 17,
+    "explanatory_score": 18,
     "monetization_score": 14,
-    "risk_score": 7
+    "risk_score": 5
   },
   "reference_editorial_pattern_name": "news_what_it_means",
   "reference_editorial_pattern": {
