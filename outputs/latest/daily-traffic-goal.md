@@ -28,8 +28,7 @@
 ## 후보 전체
 
 - `bitcoin` lane `crypto` / 예상 `95`명 / ready `True` / quality `pass`
-  - crypto signal: Fear/Greed 78: Extreme Greed zone
 - `fomc` lane `macro` / 예상 `90`명 / ready `True` / quality `pass`
 - `china` lane `world-flow` / 예상 `52`명 / ready `True` / quality `pass`
 - `oil` lane `macro` / 예상 `0`명 / ready `False` / quality `unknown`
-- `us_big_tech` lane `us-stocks` / 예상 `0`명 / ready `True` / quality `review_before_publish`
+- `us_index_flow` lane `us-stocks` / 예상 `0`명 / ready `True` / quality `review_before_publish`

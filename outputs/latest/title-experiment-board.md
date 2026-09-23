@@ -4,7 +4,7 @@
 
 - status: `ready_for_manual_title_ab_testing`
 - measurement_note: Search Console 연결 전에는 실제 CTR 검증이 불가하므로, 검색 의도 기반 후보를 준비합니다.
-- crypto_market_sentiment: `extreme_greed`
+- crypto_market_sentiment: `mixed`
 
 ## Next Actions
 
@@ -56,27 +56,27 @@
 - `bitcoin-v5` score `70` angle `fund-flow`: 비트코인 투자자가 오늘 놓치면 안 되는 규제와 자금 흐름
   - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
 
-## 3. us_big_tech
+## 3. us_index_flow
 
 - lane: `us-stocks`
-- current_title: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- recommended_title: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+- current_title: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+- recommended_title: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - recommended_angle: `macro-link`
 - demand_signal_score: `0`
-- public_url: `missing`
+- public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
 
 ### Variants
 
-- `us_big_tech-v1` score `77` angle `macro-link`: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-  - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
-- `us_big_tech-v2` score `77` angle `macro-link`: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
+- `us_index_flow-v1` score `77` angle `macro-link`: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `us_big_tech-v4` score `77` angle `macro-link`: 미국 빅테크 주가가 흔들릴 때 확인할 것 체크포인트: 금리, 실적, 섹터 폭을 같이 봐야 하는 이유
+- `us_index_flow-v4` score `77` angle `macro-link`: 미국 증시 지수 흐름 체크포인트: 금리, 실적, 섹터 폭을 같이 봐야 하는 이유
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `us_big_tech-v5` score `73` angle `checklist`: 미국 빅테크 주가가 흔들릴 때 확인할 것이 내 주식 계좌에 주는 신호 3가지
-  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `us_big_tech-v3` score `65` angle `stock-market`: 미국 빅테크 주가가 흔들릴 때 확인할 것, 나스닥과 빅테크가 같이 움직이는 이유
+- `us_index_flow-v2` score `77` angle `macro-link`: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
+- `us_index_flow-v3` score `65` angle `stock-market`: 미국 증시 지수 흐름, 나스닥과 빅테크가 같이 움직이는 이유
+  - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
+- `us_index_flow-v5` score `58` angle `checklist`: 미국 증시 지수 흐름이 내 주식 계좌에 주는 신호 3가지
+  - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
 
 ## 4. china
 
@@ -106,7 +106,7 @@
 - current_title: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
 - recommended_title: 유가 상승이 물가와 증시에 번지는 경로 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `4000`
+- demand_signal_score: `4200`
 - public_url: `missing`
 
 ### Variants

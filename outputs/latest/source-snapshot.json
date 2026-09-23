@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T16:46:21.100746+00:00",
+  "generated_at": "2026-09-23T04:17:43.819842+00:00",
   "summary": {
     "ok_sources": 14,
     "item_count": 112
@@ -154,23 +154,24 @@
     {
       "keyword": "bitcoin",
       "score": 48,
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
+        "Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000",
+        "Democrats 'chose visceral hatred for' Donald Trump over crypto Clarity Act, Lummis says",
+        "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House",
         "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
-        "European central banks push to expand stablecoin yield ban to crypto lending and staking",
-        "Bitcoin, ether perpetual volumes on Kalshi are dominated by an unusual, repetitive trade, data shows",
-        "A $3.2 million 'bitcoin butterfly' option trade bets on $95,000 by the end of October",
-        "Bitcoin recovers from Asian-session lows as falling oil price supports risk appetite"
+        "European central banks push to expand stablecoin yield ban to crypto lending and staking"
       ]
     },
     {
       "keyword": "oil",
-      "score": 28,
+      "score": 30,
       "source_count": 7,
       "sources": [
         "CNBC Top News",
@@ -182,11 +183,11 @@
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Bitcoin recovers from Asian-session lows as falling oil price supports risk appetite",
-        "Live updates: Bitcoin trades near $86,000 as U.S. stocks post small gains",
+        "Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000",
         "Bitcoin price seeks $86K as new support after oil dips below $90",
-        "Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on",
-        "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure"
+        "Oil falls after U.S. and Iran talk for hours at UN meeting",
+        "US and Iran hold first talks since June as Trump threatens ‘annihilation’",
+        "Top UK graft prosecutors joined Trump’s Venezuela oil baron during Swiss probe"
       ]
     },
     {
@@ -204,52 +205,102 @@
     },
     {
       "keyword": "treasury_yields",
-      "score": 6,
-      "source_count": 2,
-      "sources": [
-        "CoinDesk RSS",
-        "MarketWatch Breaking News"
-      ],
-      "sample_titles": [
-        "European central banks push to expand stablecoin yield ban to crypto lending and staking",
-        "Tax-free bond yields are in a sweet spot. Get in before it’s too late."
-      ]
-    },
-    {
-      "keyword": "china",
-      "score": 5,
-      "source_count": 2,
+      "score": 14,
+      "source_count": 3,
       "sources": [
         "CNBC Top News",
-        "NYT Business"
+        "CoinDesk RSS",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch",
-        "Trump and Xi to Discuss A.I. Risks and Competition at US-China Summit"
+        "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House",
+        "European central banks push to expand stablecoin yield ban to crypto lending and staking",
+        "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says",
+        "Financial stocks fall with AI and flattening yield curve in focus - Reuters"
       ]
     },
     {
-      "keyword": "us_big_tech",
-      "score": 5,
-      "source_count": 2,
+      "keyword": "us_index_flow",
+      "score": 14,
+      "source_count": 4,
       "sources": [
+        "Financial Times Home",
+        "Financial Times World",
         "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
+        "Nasdaq 100 rises to new high as ‘AI Fomo’ returns",
+        "COMMENTARY: Trading Day: Oil slips, Nasdaq rips - Reuters",
+        "Nasdaq reaches record high close, AI stocks rally - Reuters",
+        "The Nasdaq’s rapid rise to a record is sending a message to investors: Don’t wait for a pullback to buy"
+      ]
+    },
+    {
+      "keyword": "us_big_tech",
+      "score": 10,
+      "source_count": 3,
+      "sources": [
+        "CNBC Top News",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
         "Wall Street expects Meta's AI agent to shape into a new revenue engine - Reuters",
-        "Could Meta’s viral Muse app be the company’s ChatGPT moment?"
+        "Could Meta’s viral Muse app be the company’s ChatGPT moment?",
+        "Why Apple could soon join Nvidia in the exclusive $5 trillion club"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "score": 7,
+      "source_count": 3,
+      "sources": [
+        "Cointelegraph",
+        "Financial Times YouTube",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "OpenAI, Anthropic to brief UN Security Council on AI risks: Reports",
+        "Why Apple could soon join Nvidia in the exclusive $5 trillion club",
+        "Silicon shadows: inside the black market for AI chips | FT Film"
       ]
     },
     {
       "keyword": "dollar",
+      "score": 6,
+      "source_count": 2,
+      "sources": [
+        "Cointelegraph",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Canada’s six largest banks explore tokenized Canadian dollar deposits",
+        "Dollar holds near 2-month high as markets weigh rate hikes, Iran diplomacy - Reuters"
+      ]
+    },
+    {
+      "keyword": "china",
+      "score": 6,
+      "source_count": 2,
+      "sources": [
+        "Financial Times Home",
+        "Financial Times World"
+      ],
+      "sample_titles": [
+        "Trump rejects ‘globalist scheme’ to control AI in blow to Burnham"
+      ]
+    },
+    {
+      "keyword": "cpi",
       "score": 4,
       "source_count": 1,
       "sources": [
         "CoinDesk RSS"
       ],
       "sample_titles": [
-        "Why Payward-backed Reap is betting on non-USD stablecoins for 24/7 cross-border FX settlement"
+        "Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000"
       ]
     },
     {
@@ -273,28 +324,6 @@
       "sample_titles": [
         "Margex Launches $2.7M ETH Airdrop Campaign Celebrating 4 Years of Proof of Stake"
       ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "score": 3,
-      "source_count": 1,
-      "sources": [
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Nasdaq hits intraday record high on Alphabet boost, Mideast negotiation hopes - Reuters"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "score": 2,
-      "source_count": 1,
-      "sources": [
-        "Financial Times YouTube"
-      ],
-      "sample_titles": [
-        "Silicon shadows: inside the black market for AI chips | FT Film"
-      ]
     }
   ],
   "topic_candidates": [
@@ -303,19 +332,19 @@
       "score": 48,
       "headline_count": 14,
       "sample_titles": [
-        "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
-        "European central banks push to expand stablecoin yield ban to crypto lending and staking",
-        "Bitcoin, ether perpetual volumes on Kalshi are dominated by an unusual, repetitive trade, data shows"
+        "Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000",
+        "Democrats 'chose visceral hatred for' Donald Trump over crypto Clarity Act, Lummis says",
+        "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House"
       ]
     },
     {
       "keyword": "oil",
-      "score": 28,
-      "headline_count": 9,
+      "score": 30,
+      "headline_count": 10,
       "sample_titles": [
-        "Bitcoin recovers from Asian-session lows as falling oil price supports risk appetite",
-        "Live updates: Bitcoin trades near $86,000 as U.S. stocks post small gains",
-        "Bitcoin price seeks $86K as new support after oil dips below $90"
+        "Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000",
+        "Bitcoin price seeks $86K as new support after oil dips below $90",
+        "Oil falls after U.S. and Iran talk for hours at UN meeting"
       ]
     },
     {
@@ -329,38 +358,69 @@
       ]
     },
     {
-      "keyword": "treasury_yields",
-      "score": 6,
-      "headline_count": 2,
+      "keyword": "us_index_flow",
+      "score": 14,
+      "headline_count": 5,
       "sample_titles": [
-        "European central banks push to expand stablecoin yield ban to crypto lending and staking",
-        "Tax-free bond yields are in a sweet spot. Get in before it’s too late."
+        "Nasdaq 100 rises to new high as ‘AI Fomo’ returns",
+        "COMMENTARY: Trading Day: Oil slips, Nasdaq rips - Reuters",
+        "Nasdaq reaches record high close, AI stocks rally - Reuters"
       ]
     },
     {
-      "keyword": "china",
-      "score": 5,
-      "headline_count": 2,
+      "keyword": "treasury_yields",
+      "score": 14,
+      "headline_count": 4,
       "sample_titles": [
-        "Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch",
-        "Trump and Xi to Discuss A.I. Risks and Competition at US-China Summit"
+        "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House",
+        "European central banks push to expand stablecoin yield ban to crypto lending and staking",
+        "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says"
       ]
     },
     {
       "keyword": "us_big_tech",
-      "score": 5,
-      "headline_count": 2,
+      "score": 10,
+      "headline_count": 4,
       "sample_titles": [
+        "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
         "Wall Street expects Meta's AI agent to shape into a new revenue engine - Reuters",
         "Could Meta’s viral Muse app be the company’s ChatGPT moment?"
       ]
     },
     {
+      "keyword": "ai_semiconductors",
+      "score": 7,
+      "headline_count": 3,
+      "sample_titles": [
+        "OpenAI, Anthropic to brief UN Security Council on AI risks: Reports",
+        "Why Apple could soon join Nvidia in the exclusive $5 trillion club",
+        "Silicon shadows: inside the black market for AI chips | FT Film"
+      ]
+    },
+    {
+      "keyword": "china",
+      "score": 6,
+      "headline_count": 2,
+      "sample_titles": [
+        "Trump rejects ‘globalist scheme’ to control AI in blow to Burnham",
+        "Trump rejects ‘globalist scheme’ to control AI in blow to Burnham"
+      ]
+    },
+    {
       "keyword": "dollar",
+      "score": 6,
+      "headline_count": 2,
+      "sample_titles": [
+        "Canada’s six largest banks explore tokenized Canadian dollar deposits",
+        "Dollar holds near 2-month high as markets weigh rate hikes, Iran diplomacy - Reuters"
+      ]
+    },
+    {
+      "keyword": "cpi",
       "score": 4,
       "headline_count": 1,
       "sample_titles": [
-        "Why Payward-backed Reap is betting on non-USD stablecoins for 24/7 cross-border FX settlement"
+        "Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000"
       ]
     },
     {
@@ -378,102 +438,14 @@
       "sample_titles": [
         "Margex Launches $2.7M ETH Airdrop Campaign Celebrating 4 Years of Proof of Stake"
       ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "score": 3,
-      "headline_count": 1,
-      "sample_titles": [
-        "Nasdaq hits intraday record high on Alphabet boost, Mideast negotiation hopes - Reuters"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "score": 2,
-      "headline_count": 1,
-      "sample_titles": [
-        "Silicon shadows: inside the black market for AI chips | FT Film"
-      ]
     }
   ],
   "naver_datalab": null,
   "items": [
     {
-      "title": "죽음",
+      "title": "김하성",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Tue, 22 Sep 2026 07:30:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "신병4",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Tue, 22 Sep 2026 07:30:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "김혜수",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Tue, 22 Sep 2026 06:40:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "무신사",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Tue, 22 Sep 2026 06:10:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "대통령",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Tue, 22 Sep 2026 05:40:00 -0700",
-      "description": "",
-      "approx_traffic": "500+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "편의점",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Tue, 22 Sep 2026 05:40:00 -0700",
-      "description": "",
-      "approx_traffic": "100+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "혼인",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Tue, 22 Sep 2026 05:30:00 -0700",
+      "published": "Tue, 22 Sep 2026 19:20:00 -0700",
       "description": "",
       "approx_traffic": "1000+",
       "source_id": "google_trends_kr",
@@ -483,11 +455,11 @@
       "source_weight": 5
     },
     {
-      "title": "박남정",
+      "title": "열대 저압 부",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Tue, 22 Sep 2026 05:20:00 -0700",
+      "published": "Tue, 22 Sep 2026 19:00:00 -0700",
       "description": "",
-      "approx_traffic": "200+",
+      "approx_traffic": "5000+",
       "source_id": "google_trends_kr",
       "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
@@ -495,45 +467,81 @@
       "source_weight": 5
     },
     {
-      "title": "taylor swift",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 22 Sep 2026 09:20:00 -0700",
+      "title": "신혼여행",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Tue, 22 Sep 2026 18:20:00 -0700",
+      "description": "",
+      "approx_traffic": "2000+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "김민국",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Tue, 22 Sep 2026 18:10:00 -0700",
+      "description": "",
+      "approx_traffic": "1000+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "암살자(들)",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Tue, 22 Sep 2026 17:50:00 -0700",
+      "description": "",
+      "approx_traffic": "1000+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "gpt 6 sol",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Tue, 22 Sep 2026 17:10:00 -0700",
+      "description": "",
+      "approx_traffic": "2000+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "김건우",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Tue, 22 Sep 2026 16:20:00 -0700",
+      "description": "",
+      "approx_traffic": "10000+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "추석인사",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Tue, 22 Sep 2026 16:20:00 -0700",
       "description": "",
       "approx_traffic": "500+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
       "source_type": "rss",
       "source_weight": 5
     },
     {
-      "title": "h&m",
+      "title": "jamie foxx",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 22 Sep 2026 08:50:00 -0700",
-      "description": "",
-      "approx_traffic": "100+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "icc",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 22 Sep 2026 08:40:00 -0700",
-      "description": "",
-      "approx_traffic": "100+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "united nations",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 22 Sep 2026 08:30:00 -0700",
+      "published": "Tue, 22 Sep 2026 20:50:00 -0700",
       "description": "",
       "approx_traffic": "2000+",
       "source_id": "google_trends_us",
@@ -543,11 +551,11 @@
       "source_weight": 5
     },
     {
-      "title": "hayden panettiere",
+      "title": "valkyries",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 22 Sep 2026 08:20:00 -0700",
+      "published": "Tue, 22 Sep 2026 20:50:00 -0700",
       "description": "",
-      "approx_traffic": "2000+",
+      "approx_traffic": "1000+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -555,11 +563,11 @@
       "source_weight": 5
     },
     {
-      "title": "schd",
+      "title": "ed gein",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 22 Sep 2026 08:00:00 -0700",
+      "published": "Tue, 22 Sep 2026 20:50:00 -0700",
       "description": "",
-      "approx_traffic": "100+",
+      "approx_traffic": "1000+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -567,9 +575,9 @@
       "source_weight": 5
     },
     {
-      "title": "halo",
+      "title": "portland fire",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 22 Sep 2026 07:50:00 -0700",
+      "published": "Tue, 22 Sep 2026 20:40:00 -0700",
       "description": "",
       "approx_traffic": "500+",
       "source_id": "google_trends_us",
@@ -579,11 +587,47 @@
       "source_weight": 5
     },
     {
-      "title": "maria sakkari",
+      "title": "padres score",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Tue, 22 Sep 2026 07:40:00 -0700",
+      "published": "Tue, 22 Sep 2026 20:40:00 -0700",
       "description": "",
-      "approx_traffic": "200+",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "cubs game today",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 22 Sep 2026 20:20:00 -0700",
+      "description": "",
+      "approx_traffic": "2000+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "cubs score",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 22 Sep 2026 20:20:00 -0700",
+      "description": "",
+      "approx_traffic": "2000+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "dodgers",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Tue, 22 Sep 2026 20:00:00 -0700",
+      "description": "",
+      "approx_traffic": "20000+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -687,6 +731,66 @@
       "source_weight": 5
     },
     {
+      "title": "Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000",
+      "link": "https://www.coindesk.com/markets/2026/09/23/zcash-leads-crypto-majors-with-a-10-gain-as-bitcoin-holds-near-usd87-000",
+      "published": "Wed, 23 Sep 2026 04:10:08 +0000",
+      "description": "Falling oil eased inflation worries through the Asian session, while a bill to make the government's bitcoin stockpile permanent moved further through Congress than any before it.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "U.S. regulator warns about cheating risks in 'mention markets' on prediction platforms",
+      "link": "https://www.coindesk.com/policy/2026/09/22/u-s-regulator-warns-about-cheating-risks-in-mention-markets-on-prediction-platforms",
+      "published": "Wed, 23 Sep 2026 00:00:45 +0000",
+      "description": "The Commodity Futures Trading Commission issued a new advisory to flag the unique dangers of markets based on individuals' behavior.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "Democrats 'chose visceral hatred for' Donald Trump over crypto Clarity Act, Lummis says",
+      "link": "https://www.coindesk.com/policy/2026/09/22/democrats-chose-visceral-hatred-for-donald-trump-over-crypto-clarity-act-lummis-says",
+      "published": "Tue, 22 Sep 2026 21:29:05 +0000",
+      "description": "Senator Cynthia Lummis said the crypto industry should \"pin it on the Democrats\" in her first public remarks after last week's failed Clarity Act vote.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House",
+      "link": "https://www.coindesk.com/policy/2026/09/22/crypto-market-structure-can-t-wait-for-shot-at-post-election-clarity-act-surge-white-house",
+      "published": "Tue, 22 Sep 2026 20:31:02 +0000",
+      "description": "White House and U.S. Treasury officials agree that despite some hope that Congress' \"lame duck\" session could see the bill again, the work's in regulators' hands.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "Canada's 'Big Six' banks to launch interbank tokenized deposit initiative",
+      "link": "https://www.coindesk.com/business/2026/09/22/canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative",
+      "published": "Tue, 22 Sep 2026 17:34:03 +0000",
+      "description": "Initial testing will focus on moving digital commercial deposits across participating institutions before linking to broader digital asset ecosystems.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
       "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
       "link": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody",
       "published": "Tue, 22 Sep 2026 15:21:28 +0000",
@@ -723,64 +827,76 @@
       "source_weight": 4
     },
     {
-      "title": "Why Payward-backed Reap is betting on non-USD stablecoins for 24/7 cross-border FX settlement",
-      "link": "https://www.coindesk.com/business/2026/09/22/visa-partner-reap-eyes-local-currency-stablecoins-in-several-countries-for-24-7-onchain-fx",
-      "published": "Tue, 22 Sep 2026 12:05:55 +0000",
-      "description": "Reap is preparing to add a Mexican peso stablecoin and is exploring Hong Kong dollar, euro, won and yen tokens for foreign exchange outside banking hours.",
+      "title": "OpenAI, Anthropic to brief UN Security Council on AI risks: Reports",
+      "link": "https://cointelegraph.com/news/openai-anthropic-to-brief-un-security-council-on-ai-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 23 Sep 2026 03:33:15 +0000",
+      "description": "Anthropic CEO Dario Amodei and OpenAI CEO Sam Altman are expected to brief the UN Security Council as it examines AI risks and global security.",
       "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
+      "source_id": "cointelegraph_rss",
+      "source_name": "Cointelegraph",
       "source_category": "crypto_media",
       "source_type": "rss",
-      "source_weight": 4
+      "source_weight": 3
     },
     {
-      "title": "A $3.2 million 'bitcoin butterfly' option trade bets on $95,000 by the end of October",
-      "link": "https://www.coindesk.com/daybook-us/2026/09/22/a-usd3-2-million-bitcoin-butterfly-option-trade-bets-on-usd95-000-by-the-end-of-october",
-      "published": "Tue, 22 Sep 2026 11:35:43 +0000",
-      "description": "Your day-ahead look for Sept. 22, 2026",
+      "title": "CFTC issues warning over risky prediction market ‘mention’ contracts",
+      "link": "https://cointelegraph.com/news/cftc-issues-warning-over-risky-prediction-market-mention-contracts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 23 Sep 2026 00:18:44 +0000",
+      "description": "The warning comes weeks after the CFTC fined a former White House teleprompter operator who made more than $107,000 trading prediction contracts tied to President Trump’s speeches.",
       "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
+      "source_id": "cointelegraph_rss",
+      "source_name": "Cointelegraph",
       "source_category": "crypto_media",
       "source_type": "rss",
-      "source_weight": 4
+      "source_weight": 3
     },
     {
-      "title": "Binance buys $100 million Circle stake in five-year USDC promotion deal",
-      "link": "https://www.coindesk.com/policy/2026/09/22/binance-buys-usd100-million-circle-stake-in-five-year-usdc-promotion-deal",
-      "published": "Tue, 22 Sep 2026 11:07:23 +0000",
-      "description": "Circle sold 1.24 million shares at $80.84 each and will pay Binance a monthly fee tied to USDC held through its wallet infrastructure.",
+      "title": "Arch Lending eyes tokenized stocks as next collateral market",
+      "link": "https://cointelegraph.com/news/arch-lending-eyes-tokenized-stocks-as-next-crypto-collateral-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 22 Sep 2026 21:06:52 +0000",
+      "description": "Arch Lending’s Himanshu Sahay said on Cointelegraph’s Chain Reaction podcast that the lender plans to move into tokenized equities as onchain stocks gain traction as collateral.",
       "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
+      "source_id": "cointelegraph_rss",
+      "source_name": "Cointelegraph",
       "source_category": "crypto_media",
       "source_type": "rss",
-      "source_weight": 4
+      "source_weight": 3
     },
     {
-      "title": "Bitcoin recovers from Asian-session lows as falling oil price supports risk appetite",
-      "link": "https://www.coindesk.com/markets/2026/09/22/bitcoin-recovers-from-asian-session-lows-as-falling-oil-price-supports-risk-appetite",
-      "published": "Tue, 22 Sep 2026 10:59:03 +0000",
-      "description": "Bitcoin traded near $86,000 as WTI crude dropped below $90 and strong stock markets supported risk appetite.",
+      "title": "Republican senator calls for probe into US presidents’ sons, citing crypto ventures",
+      "link": "https://cointelegraph.com/news/us-senator-probe-donald-trump-hunter-biden-crypto-business?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 22 Sep 2026 20:57:51 +0000",
+      "description": "Many Democrats have previously called for investigations into the Trump family’s crypto ventures, but now a Republican is asking for an inquiry based on ties to the presidency.",
       "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
+      "source_id": "cointelegraph_rss",
+      "source_name": "Cointelegraph",
       "source_category": "crypto_media",
       "source_type": "rss",
-      "source_weight": 4
+      "source_weight": 3
     },
     {
-      "title": "Live updates: Bitcoin trades near $86,000 as U.S. stocks post small gains",
-      "link": "https://www.coindesk.com/markets/2026/09/22/live-updates-oil-falls-as-iran-signals-possible-hormuz-reopening-bitcoin-holds-near-usd86-000",
-      "published": "Tue, 22 Sep 2026 10:20:12 +0000",
-      "description": "WTI crude oil dropped to $90 as reports suggested Iran could reopen the Strait of Hormuz within seven days.",
+      "title": "Here’s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 22 Sep 2026 20:03:30 +0000",
+      "description": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
+      "source_id": "cointelegraph_rss",
+      "source_name": "Cointelegraph",
       "source_category": "crypto_media",
       "source_type": "rss",
-      "source_weight": 4
+      "source_weight": 3
+    },
+    {
+      "title": "Canada’s six largest banks explore tokenized Canadian dollar deposits",
+      "link": "https://cointelegraph.com/news/canada-six-largest-banks-explore-tokenized-canadian-dollar-deposits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 22 Sep 2026 19:56:48 +0000",
+      "description": "The country’s largest financial institutions are exploring tokenized deposits for interbank payments, just weeks after regulators clarified how they should be treated.",
+      "approx_traffic": "",
+      "source_id": "cointelegraph_rss",
+      "source_name": "Cointelegraph",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 3
     },
     {
       "title": "Zcash gets first European ETP following US ETF launch",
@@ -807,82 +923,10 @@
       "source_weight": 3
     },
     {
-      "title": "CLARITY vote failure could stoke more crypto PAC spending in key races",
-      "link": "https://cointelegraph.com/news/failure-clarity-act-vote-us-lawmakers-2026-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 22 Sep 2026 15:55:37 +0000",
-      "description": "Control of the US House and Senate is up for grabs in 2026, and some advocates speculate that the crypto industry could ratchet up attempts to sway elections after the CLARITY vote.",
-      "approx_traffic": "",
-      "source_id": "cointelegraph_rss",
-      "source_name": "Cointelegraph",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "ECB, EU cenbanks seek changes in MiCA’s minimum bank deposit for stablecoins",
-      "link": "https://cointelegraph.com/news/escb-new-stablecoin-liquidity-rules-bank-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 22 Sep 2026 15:37:17 +0000",
-      "description": "The ECB and EU central banks want to replace MiCA’s stablecoin bank-deposit requirements with liquidity thresholds, warning that sudden withdrawals could strain lenders.",
-      "approx_traffic": "",
-      "source_id": "cointelegraph_rss",
-      "source_name": "Cointelegraph",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Big Questions: Does Satoshi actually own 1.1 million Bitcoin?",
-      "link": "https://cointelegraph.com/magazine/big-questions-does-satoshi-actually-own-1-million-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 22 Sep 2026 13:30:00 +0000",
-      "description": "Researchers can trace an estimated 1.1 million BTC to a distinctive early mining operation. The harder question is whether that miner was actually Satoshi.",
-      "approx_traffic": "",
-      "source_id": "cointelegraph_rss",
-      "source_name": "Cointelegraph",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 22 Sep 2026 13:12:25 +0000",
-      "description": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "approx_traffic": "",
-      "source_id": "cointelegraph_rss",
-      "source_name": "Cointelegraph",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Binance takes $100M stake in Circle under expanded USDC deal",
-      "link": "https://cointelegraph.com/news/binance-stake-circle-expanded-usdc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 22 Sep 2026 12:18:41 +0000",
-      "description": "Circle sold Binance $100 million in stock and agreed to pay monthly incentives under an expanded five-year partnership promoting USDC.",
-      "approx_traffic": "",
-      "source_id": "cointelegraph_rss",
-      "source_name": "Cointelegraph",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "ECB to put its own money into tokenized securities via new Pontes DLT",
-      "link": "https://cointelegraph.com/news/ecb-money-tokenized-securities-pontes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 22 Sep 2026 11:29:35 +0000",
-      "description": "The ECB aims to gain firsthand DLT market experience by buying tokenized public-sector securities and settling the trades through Pontes.",
-      "approx_traffic": "",
-      "source_id": "cointelegraph_rss",
-      "source_name": "Cointelegraph",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Trump slams Iran and Cuba, defends AI growth and recounts record in UN speech",
-      "link": "https://www.cnbc.com/2026/09/22/trump-un-speech-today.html",
-      "published": "Tue, 22 Sep 2026 16:14:00 GMT",
-      "description": "The U.S. \"will no longer permit threats to America to gain a foothold anywhere in the Western Hemisphere,\" Trump told the UN leaders.",
+      "title": "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says",
+      "link": "https://www.cnbc.com/2026/09/22/trump-diesel-export-ban-urkaine-russia-iran.html",
+      "published": "Tue, 22 Sep 2026 23:43:48 GMT",
+      "description": "Republican lawmakers have called for an export ban as high diesel prices hit farmers and truckers ahead of the November midterm elections.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -891,10 +935,10 @@
       "source_weight": 3
     },
     {
-      "title": "Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch",
-      "link": "https://www.cnbc.com/2026/09/21/trump-xi-china-summit-trade-tariffs.html",
-      "published": "Mon, 21 Sep 2026 22:25:33 GMT",
-      "description": "Trump, facing low approval on the economy ahead of the midterm election, has an added incentive to emerge from the summit with China's Xi touting trade wins.",
+      "title": "In photos: Key takeaways from day one of the UN General Assembly",
+      "link": "https://www.cnbc.com/2026/09/23/unga-trump-iran-china-greenland-ukraine-russia-.html",
+      "published": "Wed, 23 Sep 2026 03:13:02 GMT",
+      "description": "World leaders descended on New York for the annual United Nations General Assembly, where the agenda covers topics from wars to the risks posed by AI.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -903,10 +947,10 @@
       "source_weight": 3
     },
     {
-      "title": "Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on",
-      "link": "https://www.cnbc.com/2026/09/22/sullivan-wall-street-admits-it-doesnt-know-where-oil-is-headed-theres-one-stock-they-do-agree-on.html",
-      "published": "Tue, 22 Sep 2026 16:05:57 GMT",
-      "description": "JPMorgan’s commodity team admitted what many are thinking on the Iran situation and oil: We just don't know.",
+      "title": "Oil falls after U.S. and Iran talk for hours at UN meeting",
+      "link": "https://www.cnbc.com/2026/09/23/iran-us-talks-crude-oil-un-wti.html",
+      "published": "Wed, 23 Sep 2026 01:04:46 GMT",
+      "description": "Oil fell Wednesday, amid hopes of a diplomatic solution to the conflict in the Middle East after Iran and the U.S. had talks.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -915,10 +959,10 @@
       "source_weight": 3
     },
     {
-      "title": "Altman and Amodei expected to join UN Security Council meeting about AI",
-      "link": "https://www.cnbc.com/2026/09/22/altman-amodei-unga-ai-safety.html",
-      "published": "Tue, 22 Sep 2026 15:57:54 GMT",
-      "description": "President Donald Trump addressed the U.N. General Assembly on Tuesday and pledged to support AI, despite calls to pace advanced models.",
+      "title": "Trump administration removes around 760,000 Obamacare enrollments, alleging fraud",
+      "link": "https://www.cnbc.com/2026/09/22/trump-administration-removes-around-760000-obamacare-enrollments.html",
+      "published": "Tue, 22 Sep 2026 21:07:21 GMT",
+      "description": "Vice President JD Vance's White House Task Force to Eliminate Fraud estimates the action will save roughly $2.2 billion in taxpayer-funded subsidies.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -927,10 +971,10 @@
       "source_weight": 3
     },
     {
-      "title": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure",
-      "link": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
-      "published": "Tue, 22 Sep 2026 14:05:04 GMT",
-      "description": "The reports raised hopes of renewed U.S.-Iran diplomacy, with U.S. stock futures mixed and oil prices lower.",
+      "title": "South Korean solar stocks jump as curbs on Chinese sector expected to remain in place",
+      "link": "https://www.cnbc.com/2026/09/23/korean-solar-stocks-jump-as-curbs-on-china-expected-to-stay-in-place.html",
+      "published": "Wed, 23 Sep 2026 03:08:23 GMT",
+      "description": "South Korean solar stocks jumped as U.S. restrictions on Chinese solar products came into focus ahead of the Trump-Xi summit.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -939,10 +983,10 @@
       "source_weight": 3
     },
     {
-      "title": "Democrats lead the polls. Republicans lead in cash heading into the midterms",
-      "link": "https://www.cnbc.com/2026/09/22/republicans-democrats-election-fundraising-2026.html",
-      "published": "Tue, 22 Sep 2026 15:58:45 GMT",
-      "description": "Republicans hold a $103 million cash advantage across national party committees as the fight for control of Congress enters its final six weeks.",
+      "title": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
+      "link": "https://www.cnbc.com/2026/09/22/trump-trades-microsoft-amazon-july-financial-disclosure.html",
+      "published": "Tue, 22 Sep 2026 22:03:33 GMT",
+      "description": "Trump sold tech stocks including Amazon and Microsoft when the Mag 7 stocks popped on July 20, adding $291 billion in market value in one day.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -951,10 +995,10 @@
       "source_weight": 3
     },
     {
-      "title": "Here's who we know is going to the Trump-Xi dinner so far",
-      "link": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
-      "published": "Tue, 22 Sep 2026 16:13:06 GMT",
-      "description": "Very little is known about which Chinese business executives, if any, are expected to attend.",
+      "title": "U.S. regulators rush to write crypto rulebook after Clarity Act stalls in Senate",
+      "link": "https://www.cnbc.com/2026/09/22/clarity-act-crypto-rules-regulators.html",
+      "published": "Tue, 22 Sep 2026 20:46:52 GMT",
+      "description": "State and federal regulators are rushing to fill the void after comprehensive crypto rules failed to clear the Senate.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -965,7 +1009,7 @@
     {
       "title": "Peloton is revamping its treadmills with new features in the next phase of its turnaround",
       "link": "https://www.cnbc.com/2026/09/22/peloton-announces-new-tread-peloton-iq-features.html",
-      "published": "Tue, 22 Sep 2026 14:31:21 GMT",
+      "published": "Tue, 22 Sep 2026 18:49:14 GMT",
       "description": "With its new treadmills, Peloton aims to appeal to customers from casual workers to more serious athletes.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
@@ -975,9 +1019,33 @@
       "source_weight": 3
     },
     {
-      "title": "Bitcoin climbs above $86k as Strategy buys more coins",
+      "title": "Bitcoin takes a breather, halting a big rally that briefly took it above $87k",
       "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-surges-past-85k-as-strategy-buys-more-coins-4909921",
-      "published": "2026-09-22 15:27:04",
+      "published": "2026-09-22 22:16:25",
+      "description": "",
+      "approx_traffic": "",
+      "source_id": "investing_news",
+      "source_name": "Investing.com Crypto News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Bitcoin overbought at $86,550 with RSI 75 divergence: Live levels",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-tests-double-top-at-82179-with-mfi-maxed-live-levels-93CH-4908352",
+      "published": "2026-09-22 19:18:57",
+      "description": "",
+      "approx_traffic": "",
+      "source_id": "investing_news",
+      "source_name": "Investing.com Crypto News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "EOS Climbs 12% As Investors Gain Confidence",
+      "link": "https://www.investing.com/news/cryptocurrency-news/eos-climbs-12-as-investors-gain-confidence-4911434",
+      "published": "2026-09-22 18:03:00",
       "description": "",
       "approx_traffic": "",
       "source_id": "investing_news",
@@ -1002,18 +1070,6 @@
       "title": "Margex Launches $2.7M ETH Airdrop Campaign Celebrating 4 Years of Proof of Stake",
       "link": "https://www.investing.com/news/cryptocurrency-news/margex-launches-27m-eth-airdrop-campaign-celebrating-4-years-of-proof-of-stake-4910148",
       "published": "2026-09-22 09:31:24",
-      "description": "",
-      "approx_traffic": "",
-      "source_id": "investing_news",
-      "source_name": "Investing.com Crypto News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Bitcoin overbought at $87K high, mean-reversion risk: Live levels",
-      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-tests-double-top-at-82179-with-mfi-maxed-live-levels-93CH-4908352",
-      "published": "2026-09-22 07:11:43",
       "description": "",
       "approx_traffic": "",
       "source_id": "investing_news",
@@ -1059,82 +1115,10 @@
       "source_weight": 3
     },
     {
-      "title": "NOWPayments Releases Cross-Chain Payout Data Revealing Key Performance Benchmarks Across TRON, BNB Chain, and Solana",
-      "link": "https://www.investing.com/news/cryptocurrency-news/nowpayments-releases-crosschain-payout-data-revealing-key-performance-benchmarks-across-tron-bnb-chain-and-solana-4909411",
-      "published": "2026-09-21 16:00:37",
-      "description": "",
-      "approx_traffic": "",
-      "source_id": "investing_news",
-      "source_name": "Investing.com Crypto News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Trump threatens to ‘annihilate’ Iran in combative UN speech",
+      "title": "US and Iran hold first talks since June as Trump threatens ‘annihilation’",
       "link": "https://www.ft.com/content/1434496d-0eaf-4270-8ad3-87724cd3721e?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 16:27:59 GMT",
-      "description": "US president also suggests he could use further military force against America’s neighbours",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Trump lashes out at ‘globalist scheme’ to curb AI advances",
-      "link": "https://www.ft.com/content/16d676c9-94c4-4df1-8fa6-56966b2c9aa7",
-      "published": "Tue, 22 Sep 2026 16:18:13 GMT",
-      "description": "US president touted administration’s foreign and domestic achievements in address to UNGA",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "What Xi wants from his summit with Trump",
-      "link": "https://www.ft.com/content/9bea08f4-c9e8-450a-9d0f-0af0bf47b64e?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 04:00:12 GMT",
-      "description": "Chinese leader’s most urgent goal is extending trade truce with US, but he is also expected to discuss Taiwan, Iran and AI",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Kremlin-backed forgery scheme moved $6.9bn through global banks",
-      "link": "https://www.ft.com/content/3848a4ad-1426-4352-ba86-ef1279c4ffd1?syn-25a6b1a6=1",
-      "published": "Mon, 21 Sep 2026 20:00:08 GMT",
-      "description": "FT finds thousands of Russian payments received by Standard Chartered, Citigroup and other international groups in vast leak from inside fintech A7",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Trump is checking out of his presidency",
-      "link": "https://www.ft.com/content/571df338-895b-4c9b-9be3-c1d2b755221b?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 10:35:30 GMT",
-      "description": "With no way out of his war with Iran, he is increasingly obsessed with monuments to himself",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "How the cost of Japan’s money shapes the world",
-      "link": "https://www.ft.com/content/f11485ba-39fb-422c-b0ff-5e71e1fe4f44?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 04:00:02 GMT",
-      "description": "As the country’s central bank tightens monetary policy, investors who leveraged its currency for higher yields may be forced into a sell-off",
+      "published": "Wed, 23 Sep 2026 02:04:20 GMT",
+      "description": "Oil prices flat as president says Steve Witkoff and Jared Kushner had ‘good meeting’ with Iranian delegation on the sidelines of the UN gathering",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1155,10 +1139,10 @@
       "source_weight": 3
     },
     {
-      "title": "Saudi Arabia signals East-West pipeline reopening",
-      "link": "https://www.ft.com/content/5b4f8738-3b93-40c8-88d6-08c8ea684e83?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 15:18:53 GMT",
-      "description": "Key route for Saudi crude to reach Red Sea has been closed for two weeks following drone strikes",
+      "title": "Nasdaq 100 rises to new high as ‘AI Fomo’ returns",
+      "link": "https://www.ft.com/content/2c60812b-77b4-4de5-a276-5e3eb2ceb5c3?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 20:28:13 GMT",
+      "description": "Tech-heavy index recovers from summer sell-off",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1167,10 +1151,130 @@
       "source_weight": 3
     },
     {
+      "title": "Trump is checking out of his presidency",
+      "link": "https://www.ft.com/content/571df338-895b-4c9b-9be3-c1d2b755221b?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 10:35:30 GMT",
+      "description": "With no way out of his war with Iran, he is increasingly obsessed with monuments to himself",
+      "approx_traffic": "",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Why EU companies are helping their Chinese rivals",
+      "link": "https://www.ft.com/content/44ef48c9-13a4-4823-aa8f-cc9e2dfb5d17?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 23:01:06 GMT",
+      "description": "Many multinationals seem to be adopting an approach of ‘if you can’t beat them, join them’",
+      "approx_traffic": "",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "US government and Gulf billionaires back Todd Boehly bid for Lukoil assets",
+      "link": "https://www.ft.com/content/152aa77b-977f-4607-8a09-77291f85d2a0?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 20:00:05 GMT",
+      "description": "Consortium aims to unseat Carlyle, which struck deal to buy Russian group’s international business in January",
+      "approx_traffic": "",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Trump rejects ‘globalist scheme’ to control AI in blow to Burnham",
+      "link": "https://www.ft.com/content/0e03521f-c4f1-4242-8fff-0e34a27a26db?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 23:42:36 GMT",
+      "description": "President says US is ‘leading over China by a lot and everyone else, and we’re going to keep it that way’",
+      "approx_traffic": "",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Top UK graft prosecutors joined Trump’s Venezuela oil baron during Swiss probe",
+      "link": "https://www.ft.com/content/f2f37449-f9c7-4556-9f97-4cca735980e4?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 20:00:05 GMT",
+      "description": "Alejandro Betancourt was previously wanted by authorities in Switzerland as part of a money-laundering investigation",
+      "approx_traffic": "",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Asia stocks ride tech wave higher, oil stays subdued - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSzB2Vlh0Nm9MZUlDRnA2S1pIMUJXWmZtdlZEVUdFRDV2WEJ1U3pLQnJKUFNBU3YyZGxXZ0trVk1tdm9lVFp0aEh5N0VpVUdOZDNWYjRzOTdUVW84bEYwYnZHNEQ1X213dHl5OGlpQWNSUEFkdXRpRC1rUTRDaDRBMFh2Zw?oc=5",
+      "published": "Wed, 23 Sep 2026 01:51:00 GMT",
+      "description": "Asia stocks ride tech wave higher, oil stays subdued &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Ban on US diesel exports would hurt, not help fuel markets, analysts say - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcFVnODdXSGNuNWJSMGVVTjMySl9oT2l0enUxVmFDaVc2S3RYMG1mMndUTWF3U0RaYXdNNGZ0aWN0WlpjYjc5NGU4alB2MTk2eFBtWktwZFFvUG15NlpicEwyd0hLb181cVh2Z09kRmNjLWoteHQ4ZDQtRjJ4LThRQS0xSlE5VGxpNGJHNEljMXlXcXlWdFoya1c0YW9ZWkxya3BsVTJvTERZYTU3dHBrXzln?oc=5",
+      "published": "Tue, 22 Sep 2026 22:54:00 GMT",
+      "description": "Ban on US diesel exports would hurt, not help fuel markets, analysts say &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Dollar holds near 2-month high as markets weigh rate hikes, Iran diplomacy - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ09vVklTVy1TeFR1N3AzZE9MUHJnb0dWeTVVUXJOS1N1dE1lT0ZSX1BSZ3RnMzVoVTdXTHhldmxGZkhCYkVTaHRMLWFrU2FUQVJhbzZHWld6TnZ5OFdXTGNDWXNUbTl1NE9qSmV5a3ZiQ0FUa3laZUdZVjRZZmNwazFoNDlKVHlkdEVQdzVLM01pb3M0S0x2VkFqN0dJRzhOLVZkenlmQzNxTVRVVm9reFRUN1psM1ZkbW1ycUhYU0VMM28?oc=5",
+      "published": "Wed, 23 Sep 2026 01:43:00 GMT",
+      "description": "Dollar holds near 2-month high as markets weigh rate hikes, Iran diplomacy &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Financial stocks fall with AI and flattening yield curve in focus - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPejZNajQteTk5RElWNTZRWHR4YV8tdF90N19DelgxWHI0X0RSTFgtRm9GVVQ2bWIzaWJ4SEFwdi1DUmZ6cXQ3dm5rYVRZdjJQaGRxMDRsZ0IyZ19mVDdHN0VlUXdObko1Y2R1Qkx1ekNDYXNnY05oN3lsUnVwYjRobXFXU2hrUEx6T3BES3Vad25fTDk5cHBjWjVFQTE4VWZCWHlkMS1TRkltc281QUVWRw?oc=5",
+      "published": "Tue, 22 Sep 2026 20:52:00 GMT",
+      "description": "Financial stocks fall with AI and flattening yield curve in focus &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
       "title": "Wall Street expects Meta's AI agent to shape into a new revenue engine - Reuters",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSHZ3dUF2a3BDZVdNNW00Rm5jekRCZUlNeTdabXRaQUdNaHpqZG95QnlISWVGQTJYR3F0bWJ5MmkxUUZkYndqUkZsSG1EdXU4MFcwdE5taHp4UU1DTk16OWV0bWJDU0drdEVVb0FmMnJWUVdLbm5SRFdMdWtRMzd4NnRlUDB4bnVQd3d1Q1VmSmdVOFJQdlJtVTBQUExDeFVFdXRWbTRvVE9yTDFZdVE?oc=5",
-      "published": "Tue, 22 Sep 2026 13:40:59 GMT",
+      "published": "Tue, 22 Sep 2026 18:25:41 GMT",
       "description": "Wall Street expects Meta's AI agent to shape into a new revenue engine &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "COMMENTARY: Trading Day: Oil slips, Nasdaq rips - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSmQyVGpCeXVDQWRkR3E1WVlHeXB0Q3FEVkRXR0stbUx4ZVREU3BsdnQ4aG9yZVhvSklIR1RBOTM4NkFsQVM1emhhdTMzQUVpbnFFbGNvYzdpbWp1N2JtbmtBTWFPSVE1Y296NUlFOFlHNWZGLWhtQ3J1d1pHOXp1T2hyanRPaUpLUFR3Rk5XeGI4clJ6NVBzbVNMRnRlTEpjbXgtR21n?oc=5",
+      "published": "Tue, 22 Sep 2026 21:13:02 GMT",
+      "description": "COMMENTARY: Trading Day: Oil slips, Nasdaq rips &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1191,70 +1295,10 @@
       "source_weight": 3
     },
     {
-      "title": "As Trump and Xi meet, investors play both sides of AI divide - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQW45WkNOV0lEcDRQOFUxcGJRanlYNURFV2ZuNVg1MUk2dk4wMEhmMUp4VVd3NjBWN1RuOHY4c0QtQ3hxcWVITnpOblZJWl9KSTBWUUVDQUgycjdlRk9lMUhvVDAxN25hVHZXM09HOGZYdE1qdDRUX19DeVpwWXlwV2JNcmdpRDROMGVlNm95NFEyaEpTN1FDYk1CazdaOXNXWkZIekRMN2lCOUN5ZXFZ?oc=5",
-      "published": "Tue, 22 Sep 2026 10:56:12 GMT",
-      "description": "As Trump and Xi meet, investors play both sides of AI divide &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Novo CEO says pills could capture 50% of weight-loss market by 2030 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMzJXZTFqR3VERG9NRmU1X0hxSnZxaHU0bzFTUG1BRVFjcjNYWEZTcmVndHJiTFUtMjVrUnVQSW1GMHIzV3FrMVc5REJFVjV3UWU0a0diTzVqQzZzUWtVaFdjUlVlXzVrNGpJNGxPdDlNcnpVRi1palVneTZwWGtWTWR5enBNN2hORG1HSnVlcnh2SUMxek9PaHlzWUJfVkpiSDdXM3JfaVoxN0ZiajhoSGhWZUxSalk?oc=5",
-      "published": "Tue, 22 Sep 2026 15:16:22 GMT",
-      "description": "Novo CEO says pills could capture 50% of weight-loss market by 2030 &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Nasdaq hits intraday record high on Alphabet boost, Mideast negotiation hopes - Reuters",
+      "title": "Nasdaq reaches record high close, AI stocks rally - Reuters",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOUI2bTZ5ZFhnZUozYjg5LXM1WHhuT24xUS0zYmRRZkViWVBreE05ZTNMWFBDSGhHTXUyQ3ZyMWhsUFdxSUlxUXVUUXVHWGRVelg3Z2RuVXo3bndwaXJfRXhEUEFERFNSUVZoaDNERnFxdnhuNkxLdVhnNDRpRGhxYndETzVJdVNnZXJESmpMNmw5QVFQODFGY2w2NzVCcFl0bXBSNjRaTQ?oc=5",
-      "published": "Tue, 22 Sep 2026 14:32:22 GMT",
-      "description": "Nasdaq hits intraday record high on Alphabet boost, Mideast negotiation hopes &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Morning Bid: AI trade gets its Muse - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbWVmTk9ISjY1anlUUGF3V2E1MkpMcFZYZndPT21sdkRPZGxPTE1GNVZ6ZldRUU5KZlBkWndZNjFjUnNaNEIxNS00UVBRaTNENzRFQ0tJOVBqSk50aldlMGRFUktYOGlJaUk2RUlreWlvQUwxT2laRF8zOUVJWDRkZjZaNA?oc=5",
-      "published": "Tue, 22 Sep 2026 04:34:00 GMT",
-      "description": "Morning Bid: AI trade gets its Muse &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Stocks rally on AI optimism and oil below $100 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYNkdDWExac0tiSmtsc3Exd0ZHOTVDZFJCbTRtZW9jM3hTLU84b3JWbHQ1WmZsUE5pSmUzTHBFUXQzaHBnb01UQXV5ZUljTFl2cS1fbHhFMUtDblA3NHRjeXRzbEpYMjNZempPSmRPbEpIajV0T1BuRDl1SQ?oc=5",
-      "published": "Tue, 22 Sep 2026 02:08:00 GMT",
-      "description": "Stocks rally on AI optimism and oil below $100 &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Gold eases as traders cement bets for higher for longer interest rates - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbVA2UjFJM3dkZnhldzYxTHFKc3JKUndzZmw3LUZhR1dUOUQxYWRQanA0bHVPOEhuMk9XWk1uSXFyQXdvWnVXU2Q0ZUtjUktnb2tnLWhCa1ZRS3Vqemt3cFNEMXRqbTU3TnFUM0loWUJxUTc3Z0NOb0tHc09zOVZMOUFEOElkVUVrS3lzdHRib1g2YTJOdjZqYTVWWFk?oc=5",
-      "published": "Tue, 22 Sep 2026 02:19:00 GMT",
-      "description": "Gold eases as traders cement bets for higher for longer interest rates &nbsp;&nbsp; Reuters",
+      "published": "Tue, 22 Sep 2026 22:25:27 GMT",
+      "description": "Nasdaq reaches record high close, AI stocks rally &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1265,7 +1309,7 @@
     {
       "title": "The War for 6G Dominance Has Begun (Binge-Watch)",
       "link": "https://www.youtube.com/watch?v=hfU2cwFerrM",
-      "published": "5 hours ago",
+      "published": "17h ago",
       "description": "",
       "approx_traffic": "",
       "video_id": "hfU2cwFerrM",
@@ -1286,7 +1330,7 @@
     {
       "title": "Did Trump Just Stir Up Trouble for the UK?",
       "link": "https://www.youtube.com/watch?v=OJNdJjM9zA4",
-      "published": "7 hours ago",
+      "published": "18h ago",
       "description": "",
       "approx_traffic": "",
       "video_id": "OJNdJjM9zA4",
@@ -1307,7 +1351,7 @@
     {
       "title": "2. We might be fighting like StarCraft in the future..",
       "link": "https://www.youtube.com/watch?v=bjt2-fyvd4E",
-      "published": "15K views",
+      "published": "22K",
       "description": "",
       "approx_traffic": "",
       "video_id": "bjt2-fyvd4E",
@@ -1328,7 +1372,7 @@
     {
       "title": "When you feel wronged, just write it down",
       "link": "https://www.youtube.com/watch?v=FG9i3QgsjzA",
-      "published": "7.5K views",
+      "published": "7.8K",
       "description": "",
       "approx_traffic": "",
       "video_id": "FG9i3QgsjzA",
@@ -1349,7 +1393,7 @@
     {
       "title": "1. After the Space Force, it’s time to create an AI Force",
       "link": "https://www.youtube.com/watch?v=6LoQi-1sIcQ",
-      "published": "16K views",
+      "published": "17K",
       "description": "",
       "approx_traffic": "",
       "video_id": "6LoQi-1sIcQ",
@@ -1370,7 +1414,7 @@
     {
       "title": "9. Human Sacrifice? Who Cares (Human Sacrifice)",
       "link": "https://www.youtube.com/watch?v=qph793dxlC8",
-      "published": "84K views",
+      "published": "90K",
       "description": "",
       "approx_traffic": "",
       "video_id": "qph793dxlC8",
@@ -1391,7 +1435,7 @@
     {
       "title": "Is the Chinese company the whole world was obsessed with getting blocked from exporting to the US?",
       "link": "https://www.youtube.com/watch?v=QwYyc_8KoHo",
-      "published": "40K views",
+      "published": "41K",
       "description": "",
       "approx_traffic": "",
       "video_id": "QwYyc_8KoHo",
@@ -1412,7 +1456,7 @@
     {
       "title": "8. So, What Is the Cross? (Human Sacrifice)",
       "link": "https://www.youtube.com/watch?v=STpZhl3cajo",
-      "published": "42K views",
+      "published": "43K",
       "description": "",
       "approx_traffic": "",
       "video_id": "STpZhl3cajo",
@@ -1431,58 +1475,10 @@
       "source_weight": 3
     },
     {
-      "title": "Want to retire with more money? Leave the country for work early in your career.",
-      "link": "https://www.marketwatch.com/story/want-to-retire-with-more-money-leave-the-country-for-work-early-in-your-career-7e568d03?mod=mw_rss_topstories",
-      "published": "Tue, 22 Sep 2026 16:40:00 GMT",
-      "description": "Gain experiences, memories and a substantial contribution to your future nest egg.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Could Meta’s viral Muse app be the company’s ChatGPT moment?",
-      "link": "https://www.marketwatch.com/story/could-metas-viral-muse-app-be-the-companys-chatgpt-moment-8e7075aa?mod=mw_rss_topstories",
-      "published": "Tue, 22 Sep 2026 16:24:00 GMT",
-      "description": "Meta’s new assistant is topping App Store charts and beating ChatGPT’s early download pace, spurring renewed confidence in the company’s AI strategy",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
       "title": "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
       "link": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
-      "published": "Tue, 22 Sep 2026 16:15:00 GMT",
+      "published": "Wed, 23 Sep 2026 02:15:00 GMT",
       "description": "“I draw from my IRA as needed for household repairs, trips and other larger expenses.”",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Sandisk’s stock is rising: Why one analyst says AI could help it reach new heights",
-      "link": "https://www.marketwatch.com/story/sandisks-stock-is-rising-why-one-analyst-says-ai-could-help-it-reach-new-heights-5541ded8?mod=mw_rss_topstories",
-      "published": "Tue, 22 Sep 2026 15:48:00 GMT",
-      "description": "Larger AI models and inference are turning NAND from a commodity into a critical component, a Rosenblatt analyst said.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "This GLP-1 drug helped people maintain their weight loss in a clinical trial — even for those taking it once a month",
-      "link": "https://www.marketwatch.com/story/this-glp-1-drug-helped-people-maintain-their-weight-loss-in-a-clinical-trial-even-for-those-taking-it-once-a-month-f70929b5?mod=mw_rss_topstories",
-      "published": "Tue, 22 Sep 2026 15:46:00 GMT",
-      "description": "Viking Therapeutics is developing VK2735, a GLP-1/GIP drug that could compete with Eli Lilly’s Zepbound. Its stock is soaring.",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
       "source_name": "MarketWatch Breaking News",
@@ -1493,7 +1489,7 @@
     {
       "title": "‘She gave a neighbor $2,000’: Social Security overpaid my mother, 82, by $20,000. What else is hiding in her finances?",
       "link": "https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories",
-      "published": "Tue, 22 Sep 2026 15:45:00 GMT",
+      "published": "Wed, 23 Sep 2026 02:00:00 GMT",
       "description": "“My mother has a pension, Social Security, investments and a house probably worth over $1 million.”",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
@@ -1503,10 +1499,10 @@
       "source_weight": 2
     },
     {
-      "title": "Tax-free bond yields are in a sweet spot. Get in before it’s too late.",
-      "link": "https://www.marketwatch.com/story/tax-free-bond-yields-are-in-a-sweet-spot-get-in-before-its-too-late-94b8adac?mod=mw_rss_topstories",
-      "published": "Tue, 22 Sep 2026 15:39:00 GMT",
-      "description": "Yields on municipal bonds — adjusted for taxable-equivalent comparisons — have widened dramatically over those of corporate bonds over the past two months.",
+      "title": "The Nasdaq’s rapid rise to a record is sending a message to investors: Don’t wait for a pullback to buy",
+      "link": "https://www.marketwatch.com/story/the-nasdaqs-rapid-rise-to-a-record-is-sending-a-message-to-investors-dont-wait-for-a-pullback-to-buy-5f533ed8?mod=mw_rss_topstories",
+      "published": "Tue, 22 Sep 2026 21:44:00 GMT",
+      "description": "Some analysts say the upbeat data on the Nasdaq’s outlook is backed up by improving fundamentals.",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
       "source_name": "MarketWatch Breaking News",
@@ -1515,10 +1511,58 @@
       "source_weight": 2
     },
     {
-      "title": "My plan to pay off $7,500 in credit-card debt can work for you",
-      "link": "https://www.marketwatch.com/story/my-plan-to-pay-off-7-500-in-credit-card-debt-can-work-for-you-2260de1d?mod=mw_rss_topstories",
-      "published": "Tue, 22 Sep 2026 14:25:00 GMT",
-      "description": "I let my spending get away from me. Here’s how I’m getting back on track.",
+      "title": "Sandisk’s stock is rising: Why one analyst says AI could help it reach new heights",
+      "link": "https://www.marketwatch.com/story/sandisks-stock-is-rising-why-one-analyst-says-ai-could-help-it-reach-new-heights-5541ded8?mod=mw_rss_topstories",
+      "published": "Tue, 22 Sep 2026 21:30:00 GMT",
+      "description": "Larger AI models and inference are turning NAND from a commodity into a critical component, a Rosenblatt analyst said.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Want to bet on risky, high-beta stocks? Why you should wait for mid-October.",
+      "link": "https://www.marketwatch.com/story/want-to-bet-on-risky-high-beta-stocks-why-you-should-wait-for-this-week-in-october-d9094820?mod=mw_rss_topstories",
+      "published": "Tue, 22 Sep 2026 21:27:00 GMT",
+      "description": "Coming soon is one of the only weeks of the year in which aggressive traders should bet that the highest-beta stocks will beat the lowest ones.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Could Meta’s viral Muse app be the company’s ChatGPT moment?",
+      "link": "https://www.marketwatch.com/story/could-metas-viral-muse-app-be-the-companys-chatgpt-moment-8e7075aa?mod=mw_rss_topstories",
+      "published": "Tue, 22 Sep 2026 21:26:00 GMT",
+      "description": "Meta’s new assistant is topping App Store charts and beating ChatGPT’s early download pace, spurring renewed confidence in the company’s AI strategy",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Why Apple could soon join Nvidia in the exclusive $5 trillion club",
+      "link": "https://www.marketwatch.com/story/why-apple-could-soon-join-nvidia-in-the-exclusive-5-trillion-club-4e7724e7?mod=mw_rss_topstories",
+      "published": "Tue, 22 Sep 2026 20:54:00 GMT",
+      "description": "A new foldable iPhone and a disciplined AI-spending approach have sent Apple shares to new highs this year",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Want to retire with more money? Leave the U.S. early in your career — and then come back.",
+      "link": "https://www.marketwatch.com/story/want-to-retire-with-more-money-leave-the-country-for-work-early-in-your-career-7e568d03?mod=mw_rss_topstories",
+      "published": "Tue, 22 Sep 2026 20:46:00 GMT",
+      "description": "Gain experiences, memories and a substantial contribution to your future nest egg.",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
       "source_name": "MarketWatch Breaking News",
@@ -1550,7 +1594,7 @@
     {
       "title": "Are graduates prepared for the AI era? | FT Working It",
       "link": "https://www.youtube.com/watch?v=EsdqCEuoI8M",
-      "published": "377K views",
+      "published": "380K views",
       "description": "",
       "approx_traffic": "",
       "video_id": "EsdqCEuoI8M",
@@ -1695,10 +1739,10 @@
       "source_weight": 2
     },
     {
-      "title": "Trump threatens to ‘annihilate’ Iran in combative UN speech",
+      "title": "US and Iran hold first talks since June as Trump threatens ‘annihilation’",
       "link": "https://www.ft.com/content/1434496d-0eaf-4270-8ad3-87724cd3721e?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 16:27:59 GMT",
-      "description": "US president also suggests he could use further military force against America’s neighbours",
+      "published": "Wed, 23 Sep 2026 02:04:20 GMT",
+      "description": "Oil prices flat as president says Steve Witkoff and Jared Kushner had ‘good meeting’ with Iranian delegation on the sidelines of the UN gathering",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1707,10 +1751,10 @@
       "source_weight": 3
     },
     {
-      "title": "Trump lashes out at ‘globalist scheme’ to curb AI advances",
-      "link": "https://www.ft.com/content/16d676c9-94c4-4df1-8fa6-56966b2c9aa7",
-      "published": "Tue, 22 Sep 2026 16:18:13 GMT",
-      "description": "US president touted administration’s foreign and domestic achievements in address to UNGA",
+      "title": "Trump rejects ‘globalist scheme’ to control AI in blow to Burnham",
+      "link": "https://www.ft.com/content/0e03521f-c4f1-4242-8fff-0e34a27a26db?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 23:42:36 GMT",
+      "description": "President says US is ‘leading over China by a lot and everyone else, and we’re going to keep it that way’",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1719,10 +1763,10 @@
       "source_weight": 3
     },
     {
-      "title": "The next generation of American scientists is fading away",
-      "link": "https://www.ft.com/content/848b9daf-6fc0-436d-8d9e-45e7bcab9676?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 16:03:59 GMT",
-      "description": "While the Trump administration racks up ‘wins’ in its anti-woke crusade, the US is eroding its talent pipeline",
+      "title": "Qantas pushes ahead with new ultra-long flights despite high fuel prices",
+      "link": "https://www.ft.com/content/276f5264-c3e1-418b-8acc-cd3d4f1ed31b?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 23:18:27 GMT",
+      "description": "Chief executive Vanessa Hudson says Australian airline is confident demand for nonstop services is strong",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1731,10 +1775,10 @@
       "source_weight": 3
     },
     {
-      "title": "Ed Davey promises £17bn tax cuts as he warns Lib Dems are in ‘fight of our lives’",
-      "link": "https://www.ft.com/content/460dbb45-03b8-466e-98ef-80063b07189a?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 16:01:35 GMT",
-      "description": "Party leader outlines plans to increase tax-free personal allowance threshold",
+      "title": "Why EU companies are helping their Chinese rivals",
+      "link": "https://www.ft.com/content/44ef48c9-13a4-4823-aa8f-cc9e2dfb5d17?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 23:01:06 GMT",
+      "description": "Many multinationals seem to be adopting an approach of ‘if you can’t beat them, join them’",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1743,10 +1787,10 @@
       "source_weight": 3
     },
     {
-      "title": "US fighter jet crashes in Germany",
-      "link": "https://www.ft.com/content/15d68d49-5a31-4e2a-a108-f35baa391295?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 15:46:03 GMT",
-      "description": "Pilot injured in latest incident involving military aircraft",
+      "title": "Labour MPs call for end to loophole that trimmed billionaire’s tax bill by £18mn",
+      "link": "https://www.ft.com/content/1ca67e27-b6b6-454a-8d37-b957835201d7?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 21:36:59 GMT",
+      "description": "Quadrature Capital’s Suneil Setiya would have been liable for higher rate of stamp duty had he not bought five flats together with London mansion",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1755,10 +1799,10 @@
       "source_weight": 3
     },
     {
-      "title": "EU to lift sanctions on two Russian oligarchs",
-      "link": "https://www.ft.com/content/760091dd-20be-4152-aa0d-561475a99ee8?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 15:38:53 GMT",
-      "description": "Mikhail Fridman and Alisher Usmanov removed from bloc’s list under deal to extend curbs for three years",
+      "title": "Trump says he would back US diesel export ban",
+      "link": "https://www.ft.com/content/22d1154b-8bea-4f8d-bfc4-5db7761d3612?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 21:23:42 GMT",
+      "description": "President’s support for suspending foreign sales comes as conflicts in Middle East and Ukraine send price of vital fuel soaring",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1767,10 +1811,10 @@
       "source_weight": 3
     },
     {
-      "title": "Saudi Arabia signals East-West pipeline reopening",
-      "link": "https://www.ft.com/content/5b4f8738-3b93-40c8-88d6-08c8ea684e83?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 15:18:53 GMT",
-      "description": "Key route for Saudi crude to reach Red Sea has been closed for two weeks following drone strikes",
+      "title": "Nasdaq 100 rises to new high as ‘AI Fomo’ returns",
+      "link": "https://www.ft.com/content/2c60812b-77b4-4de5-a276-5e3eb2ceb5c3?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 20:28:13 GMT",
+      "description": "Tech-heavy index recovers from summer sell-off",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1779,21 +1823,93 @@
       "source_weight": 3
     },
     {
-      "title": "New ‘fire amoeba’ breaks heat survival record",
-      "link": "https://www.ft.com/content/83d1afcc-e43a-4245-a158-d4e5f1992542?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 15:00:04 GMT",
-      "description": "Organism found in California volcanic springs joins club of extremophiles that thrive in most severe environments",
+      "title": "Top UK graft prosecutors joined Trump’s Venezuela oil baron during Swiss probe",
+      "link": "https://www.ft.com/content/f2f37449-f9c7-4556-9f97-4cca735980e4?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 20:00:05 GMT",
+      "description": "Alejandro Betancourt was previously wanted by authorities in Switzerland as part of a money-laundering investigation",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
       "source_category": "global_media",
       "source_type": "rss",
       "source_weight": 3
+    },
+    {
+      "title": "Qantas’s New York-to-Sydney ‘Project Sunrise’ Flights to Take Off in 2028",
+      "link": "https://www.nytimes.com/2026/09/22/travel/qantas-project-sunrise-flights.html",
+      "published": "Tue, 22 Sep 2026 23:00:07 +0000",
+      "description": "Qantas Airways said the 18-hour flights, part of its Project Sunrise program, would come months after its 22-hour direct flights from Sydney to London begin.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Billy Bush Joins Fox News a Decade After ‘Access Hollywood’ Tape Scandal",
+      "link": "https://www.nytimes.com/2026/09/22/business/billy-bush-fox-news-trump-access-hollywood.html",
+      "published": "Tue, 22 Sep 2026 21:56:44 +0000",
+      "description": "He lost his job as a “Today” show anchor in 2016 after footage surfaced of Donald J. Trump joking with him about sexual assault. He will be a Fox contributor.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Trump Says He Supports Banning Diesel Exports to Bring Down Prices",
+      "link": "https://www.nytimes.com/2026/09/22/business/energy-environment/trump-diesel-exports-iran-war.html",
+      "published": "Tue, 22 Sep 2026 21:12:26 +0000",
+      "description": "Diesel prices have been setting records because of the war in Iran, but the oil industry say banning U.S. exports would not make the fuel cheaper.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Rosie O’Donnell Says ABC Delayed a Skit as It Readied Trump Suit",
+      "link": "https://www.nytimes.com/2026/09/22/business/rosie-odonnell-abc-trump-skit.html",
+      "published": "Tue, 22 Sep 2026 19:42:21 +0000",
+      "description": "The network asked the comedian to hold off on the sketch, which mocked the president, when she filled in as host of “Jimmy Kimmel Live!”",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "How Paramount Won Warner Bros.",
+      "link": "https://www.nytimes.com/2026/09/22/business/paramount-warner-bros-ellison-bonta.html",
+      "published": "Tue, 22 Sep 2026 20:22:14 +0000",
+      "description": "After months of legal and political wrangling, the media mogul David Ellison arrived at a deal with the coalition of states seeking to block his $111 billion acquisition of Warner Bros. Discovery.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Ella Langley’s ‘Choosin’ Texas’ Topples Mariah Carey’s Chart Record",
+      "link": "https://www.nytimes.com/2026/09/22/arts/music/ella-langley-choosin-texas-chart-record.html",
+      "published": "Tue, 22 Sep 2026 17:00:20 +0000",
+      "description": "The country ballad holds the No. 1 spot on the Billboard chart for a 23rd nonconsecutive week, besting the record set by “All I Want for Christmas Is You.”",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
     },
     {
       "title": "Trump Officials Eject 750,000 From Obamacare Markets, Claiming Fraud",
-      "link": "https://www.nytimes.com/2026/09/22/health/aca-obamacare-vance-fraud.html",
-      "published": "Tue, 22 Sep 2026 16:45:07 +0000",
+      "link": "https://www.nytimes.com/2026/09/22/us/politics/aca-obamacare-vance-fraud.html",
+      "published": "Tue, 22 Sep 2026 23:33:24 +0000",
       "description": "Vice President JD Vance said the measure would save the government $2.2 billion.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
@@ -1807,78 +1923,6 @@
       "link": "https://www.nytimes.com/2026/09/22/business/media/trump-tv-un-speech.html",
       "published": "Tue, 22 Sep 2026 16:21:14 +0000",
       "description": "A suspension of pool coverage remains in effect. But the in-house United Nations broadcaster provided a feed of the president’s remarks.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "An A.I. Image of Trump Kissing a Woman Was Fake. It Spread Anyway.",
-      "link": "https://www.nytimes.com/2026/09/22/business/trump-natalie-harp-photo-ai.html",
-      "published": "Tue, 22 Sep 2026 15:59:55 +0000",
-      "description": "Advances in artificial intelligence and the myriad ways content is shared online have made establishing authenticity even more difficult for users of social media.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "How Unions Are Confronting A.I. Threats in the Workplace",
-      "link": "https://www.nytimes.com/2026/09/22/business/economy/unions-ai-negotiations.html",
-      "published": "Tue, 22 Sep 2026 15:18:36 +0000",
-      "description": "The machinists union shows how workers are negotiating for a say in the ways artificial intelligence is used in their workplaces.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Trump and Xi to Discuss A.I. Risks and Competition at US-China Summit",
-      "link": "https://www.nytimes.com/2026/09/22/business/economy/us-china-ai-competition.html",
-      "published": "Tue, 22 Sep 2026 14:15:14 +0000",
-      "description": "Artificial intelligence is on the agenda when leaders from the United States and China meet this week. But with little consensus on a path forward, expectations are limited.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Patagonia Offers $100 to Customers Who Help Others Plan to Vote",
-      "link": "https://www.nytimes.com/2026/09/22/business/patagonia-midterms-voting-incentive.html",
-      "published": "Tue, 22 Sep 2026 16:08:42 +0000",
-      "description": "The outdoor apparel brand, which sued the Trump administration this month, is ramping up its environmental activism before the midterm elections.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "What’s Next for Paramount",
-      "link": "https://www.nytimes.com/2026/09/22/business/dealbook/paramount-warner-deal-settlement.html",
-      "published": "Tue, 22 Sep 2026 14:33:00 +0000",
-      "description": "Hollywood watchers believe the studio prevailed over states seeking to block its deal for Warner Bros. Discovery. It’s now free to reshape the media industry.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Global Oil Price Drops Below $100 a Barrel",
-      "link": "https://www.nytimes.com/2026/09/22/business/saudi-oil-pipeline-hormuz.html",
-      "published": "Tue, 22 Sep 2026 16:28:11 +0000",
-      "description": "Investors anticipated that a damaged Saudi Arabian pipeline may be close to reopening, allowing more oil from the region to reach world markets.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",

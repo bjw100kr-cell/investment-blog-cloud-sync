@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-22T16:46:21.100746+00:00`
+- 생성 시각: `2026-09-23T04:17:43.819842+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -94,45 +94,52 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 48, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `oil`: score 28, source_count 7, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- `bitcoin`: score 48, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `oil`: score 30, source_count 7, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
 - `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `treasury_yields`: score 6, source_count 2, sources CoinDesk RSS, MarketWatch Breaking News
-- `china`: score 5, source_count 2, sources CNBC Top News, NYT Business
-- `us_big_tech`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `dollar`: score 4, source_count 1, sources CoinDesk RSS
-- `crypto_etf`: score 3, source_count 1, sources Cointelegraph
-- `ethereum`: score 3, source_count 1, sources Investing.com Crypto News
-- `us_index_flow`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `treasury_yields`: score 14, source_count 3, sources CNBC Top News, CoinDesk RSS, Reuters Markets via Google News RSS
+- `us_index_flow`: score 14, source_count 4, sources Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_big_tech`: score 10, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 7, source_count 3, sources Cointelegraph, Financial Times YouTube, MarketWatch Breaking News
+- `dollar`: score 6, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
+- `china`: score 6, source_count 2, sources Financial Times Home, Financial Times World
+- `cpi`: score 4, source_count 1, sources CoinDesk RSS
 
 ## 오늘의 글감 후보
 
 - `bitcoin`: score 48, headlines 14
-  - Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody
-  - European central banks push to expand stablecoin yield ban to crypto lending and staking
-  - Bitcoin, ether perpetual volumes on Kalshi are dominated by an unusual, repetitive trade, data shows
-- `oil`: score 28, headlines 9
-  - Bitcoin recovers from Asian-session lows as falling oil price supports risk appetite
-  - Live updates: Bitcoin trades near $86,000 as U.S. stocks post small gains
+  - Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000
+  - Democrats 'chose visceral hatred for' Donald Trump over crypto Clarity Act, Lummis says
+  - Crypto market structure can't wait for shot at post-election Clarity Act surge: White House
+- `oil`: score 30, headlines 10
+  - Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000
   - Bitcoin price seeks $86K as new support after oil dips below $90
+  - Oil falls after U.S. and Iran talk for hours at UN meeting
 - `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 6, headlines 2
+- `us_index_flow`: score 14, headlines 5
+  - Nasdaq 100 rises to new high as ‘AI Fomo’ returns
+  - COMMENTARY: Trading Day: Oil slips, Nasdaq rips - Reuters
+  - Nasdaq reaches record high close, AI stocks rally - Reuters
+- `treasury_yields`: score 14, headlines 4
+  - Crypto market structure can't wait for shot at post-election Clarity Act surge: White House
   - European central banks push to expand stablecoin yield ban to crypto lending and staking
-  - Tax-free bond yields are in a sweet spot. Get in before it’s too late.
-- `china`: score 5, headlines 2
-  - Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch
-  - Trump and Xi to Discuss A.I. Risks and Competition at US-China Summit
-- `us_big_tech`: score 5, headlines 2
+  - Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says
+- `us_big_tech`: score 10, headlines 4
+  - Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon
   - Wall Street expects Meta's AI agent to shape into a new revenue engine - Reuters
   - Could Meta’s viral Muse app be the company’s ChatGPT moment?
-- `dollar`: score 4, headlines 1
-  - Why Payward-backed Reap is betting on non-USD stablecoins for 24/7 cross-border FX settlement
-- `crypto_etf`: score 3, headlines 1
-  - Zcash gets first European ETP following US ETF launch
-- `ethereum`: score 3, headlines 1
-  - Margex Launches $2.7M ETH Airdrop Campaign Celebrating 4 Years of Proof of Stake
-- `us_index_flow`: score 3, headlines 1
-  - Nasdaq hits intraday record high on Alphabet boost, Mideast negotiation hopes - Reuters
+- `ai_semiconductors`: score 7, headlines 3
+  - OpenAI, Anthropic to brief UN Security Council on AI risks: Reports
+  - Why Apple could soon join Nvidia in the exclusive $5 trillion club
+  - Silicon shadows: inside the black market for AI chips | FT Film
+- `china`: score 6, headlines 2
+  - Trump rejects ‘globalist scheme’ to control AI in blow to Burnham
+  - Trump rejects ‘globalist scheme’ to control AI in blow to Burnham
+- `dollar`: score 6, headlines 2
+  - Canada’s six largest banks explore tokenized Canadian dollar deposits
+  - Dollar holds near 2-month high as markets weigh rate hikes, Iran diplomacy - Reuters
+- `cpi`: score 4, headlines 1
+  - Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000

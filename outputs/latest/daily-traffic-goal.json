@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T16:46:21.100746+00:00",
+  "generated_at": "2026-09-23T04:17:43.819842+00:00",
   "target_daily_visitors": 200,
   "projected_daily_visitors": 237,
   "gap_to_target": 0,
@@ -13,11 +13,9 @@
       "total_score": 85.0,
       "quality_status": "pass",
       "ready_to_upload": true,
-      "crypto_market_signal_bonus": 3,
-      "crypto_market_sentiment": "extreme_greed",
-      "crypto_market_signal_notes": [
-        "Fear/Greed 78: Extreme Greed zone"
-      ],
+      "crypto_market_signal_bonus": 1,
+      "crypto_market_sentiment": "mixed",
+      "crypto_market_signal_notes": [],
       "estimated_daily_visitors": 95,
       "recommended_action": "코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행"
     },
@@ -59,11 +57,9 @@
       "total_score": 85.0,
       "quality_status": "pass",
       "ready_to_upload": true,
-      "crypto_market_signal_bonus": 3,
-      "crypto_market_sentiment": "extreme_greed",
-      "crypto_market_signal_notes": [
-        "Fear/Greed 78: Extreme Greed zone"
-      ],
+      "crypto_market_signal_bonus": 1,
+      "crypto_market_sentiment": "mixed",
+      "crypto_market_signal_notes": [],
       "estimated_daily_visitors": 95,
       "recommended_action": "코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행"
     },
@@ -99,7 +95,7 @@
       "keyword": "oil",
       "brand_lane": "macro",
       "title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
-      "demand_signal_score": 4000,
+      "demand_signal_score": 4200,
       "total_score": 83.0,
       "quality_status": "unknown",
       "ready_to_upload": false,
@@ -110,11 +106,11 @@
       "recommended_action": "발행 가능한 manifest/이미지/신선도 상태 보강"
     },
     {
-      "keyword": "us_big_tech",
+      "keyword": "us_index_flow",
       "brand_lane": "us-stocks",
-      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
       "demand_signal_score": 0,
-      "total_score": 56.0,
+      "total_score": 78.0,
       "quality_status": "review_before_publish",
       "ready_to_upload": true,
       "crypto_market_signal_bonus": 0,
@@ -127,13 +123,13 @@
   "ready_topic_count": 3,
   "search_demand_summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 3,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "weak_trend_fallback_count": 4
   },
   "keyword_board_summary": {
     "breaking_candidates": 5,
-    "query_watchlist": 3
+    "query_watchlist": 4
   },
   "publishing_summary": {
     "blogger_ready": true,
@@ -146,12 +142,12 @@
   },
   "crypto_market_summary": {
     "status": "ok",
-    "sentiment": "extreme_greed",
+    "sentiment": "mixed",
     "fear_greed": {
-      "value": 78,
-      "label": "Extreme Greed",
+      "value": 71,
+      "label": "Greed",
       "source": "alternative.me",
-      "timestamp": "1790035200"
+      "timestamp": "1790121600"
     },
     "providers": {
       "binance_plugin": false,

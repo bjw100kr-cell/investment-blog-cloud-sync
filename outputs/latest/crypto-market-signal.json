@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T16:46:21+00:00",
+  "generated_at": "2026-09-23T04:17:44+00:00",
   "status": "ok",
   "providers": {
     "binance_plugin": false,
@@ -8,69 +8,69 @@
     "alternative_fear_greed": true
   },
   "market": {
-    "sentiment": "extreme_greed",
-    "average_change_percent_24h": 0.99,
-    "tracked_quote_volume_24h": 79492675883.0,
+    "sentiment": "mixed",
+    "average_change_percent_24h": 2.26,
+    "tracked_quote_volume_24h": 72163594421.0,
     "signal_strength": 4
   },
   "fear_greed": {
-    "value": 78,
-    "label": "Extreme Greed",
+    "value": 71,
+    "label": "Greed",
     "source": "alternative.me",
-    "timestamp": "1790035200"
+    "timestamp": "1790121600"
   },
   "tickers": [
     {
       "symbol": "BTCUSDT",
       "keyword": "bitcoin",
-      "last_price": 86274.0,
-      "price_change_percent_24h": 0.472,
-      "quote_volume_24h": 46066582431.0,
+      "last_price": 86873.0,
+      "price_change_percent_24h": 1.53166,
+      "quote_volume_24h": 41724182129.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "ETHUSDT",
       "keyword": "ethereum",
-      "last_price": 2739.16,
-      "price_change_percent_24h": -0.73333,
-      "quote_volume_24h": 18027360828.0,
+      "last_price": 2778.62,
+      "price_change_percent_24h": 1.48477,
+      "quote_volume_24h": 15936015144.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "XRPUSDT",
       "keyword": "crypto_etf",
-      "last_price": 1.56,
-      "price_change_percent_24h": 4.64366,
-      "quote_volume_24h": 6275220109.0,
+      "last_price": 1.64,
+      "price_change_percent_24h": 8.058,
+      "quote_volume_24h": 6939154655.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "SOLUSDT",
       "keyword": "crypto_etf",
-      "last_price": 117.21,
-      "price_change_percent_24h": -0.25532,
-      "quote_volume_24h": 4923136931.0,
+      "last_price": 119.2,
+      "price_change_percent_24h": 2.02386,
+      "quote_volume_24h": 4374506199.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "DOGEUSDT",
       "keyword": "crypto_etf",
-      "last_price": 0.099199,
-      "price_change_percent_24h": 3.09211,
-      "quote_volume_24h": 2801608217.0,
+      "last_price": 0.103999,
+      "price_change_percent_24h": -0.45946,
+      "quote_volume_24h": 1976310160.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "BNBUSDT",
       "keyword": "crypto_etf",
-      "last_price": 788.25,
-      "price_change_percent_24h": -1.26,
-      "quote_volume_24h": 1398767367.0,
+      "last_price": 795.36,
+      "price_change_percent_24h": 0.94243,
+      "quote_volume_24h": 1213426134.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     }
@@ -89,31 +89,26 @@
   },
   "keyword_signals": {
     "bitcoin": {
-      "signal_score_bonus": 3,
-      "market_signal_notes": [
-        "Fear/Greed 78: Extreme Greed zone"
-      ],
+      "signal_score_bonus": 1,
+      "market_signal_notes": [],
       "tracked_symbols": [
         "BTCUSDT"
       ],
-      "market_sentiment": "extreme_greed"
+      "market_sentiment": "mixed"
     },
     "ethereum": {
-      "signal_score_bonus": 3,
-      "market_signal_notes": [
-        "Fear/Greed 78: Extreme Greed zone"
-      ],
+      "signal_score_bonus": 1,
+      "market_signal_notes": [],
       "tracked_symbols": [
         "ETHUSDT"
       ],
-      "market_sentiment": "extreme_greed"
+      "market_sentiment": "mixed"
     },
     "crypto_etf": {
       "signal_score_bonus": 8,
       "market_signal_notes": [
-        "XRPUSDT 24h change 4.64%",
-        "DOGEUSDT 24h change 3.09%",
-        "Fear/Greed 78: Extreme Greed zone"
+        "XRPUSDT 24h change 8.06%",
+        "SOLUSDT 24h change 2.02%"
       ],
       "tracked_symbols": [
         "XRPUSDT",
@@ -121,7 +116,7 @@
         "DOGEUSDT",
         "BNBUSDT"
       ],
-      "market_sentiment": "extreme_greed"
+      "market_sentiment": "mixed"
     }
   }
 }

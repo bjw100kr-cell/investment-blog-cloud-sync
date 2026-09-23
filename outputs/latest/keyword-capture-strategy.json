@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T16:46:21.100746+00:00",
+  "generated_at": "2026-09-23T04:17:43.819842+00:00",
   "items": [
     {
       "keyword": "fomc",
@@ -58,11 +58,12 @@
       "demand_signal_score": 6000,
       "trend_queries": [],
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_greed)",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -72,8 +73,8 @@
       ]
     },
     {
-      "keyword": "us_big_tech",
-      "recommended_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "keyword": "us_index_flow",
+      "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
       "pattern_name": "search_explainer",
       "pattern_rules": {
         "when_to_use": [
@@ -90,15 +91,17 @@
           "끝부분에 다음 체크포인트와 내부링크 연결"
         ]
       },
-      "capture_route": "sector_hub_to_followups",
-      "capture_route_description": "섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.",
+      "capture_route": "search_entry_to_internal_links",
+      "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
       "demand_signal_score": 0,
       "trend_queries": [],
       "source_names": [
+        "Financial Times Home",
+        "Financial Times World",
         "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -131,8 +134,8 @@
       "demand_signal_score": 0,
       "trend_queries": [],
       "source_names": [
-        "CNBC Top News",
-        "NYT Business"
+        "Financial Times Home",
+        "Financial Times World"
       ],
       "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
@@ -164,7 +167,7 @@
       },
       "capture_route": "search_entry_to_internal_links",
       "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 4000,
+      "demand_signal_score": 4200,
       "trend_queries": [],
       "source_names": [
         "CNBC Top News",
