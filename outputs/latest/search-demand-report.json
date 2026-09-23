@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-09-23T04:17:43.819842+00:00",
+  "generated_at": "2026-09-23T16:43:15.259932+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "us_big_tech",
+      "trend_count": 1,
+      "traffic_score_sum": 1000,
+      "max_approx_traffic": 1000,
+      "trend_queries": [
+        "apple lawsuit claim"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 1200,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,48 +30,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6000,
+      "demand_signal_score": 6200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 48,
+      "source_snapshot_score": 50,
       "source_count": 4,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000",
-        "Democrats 'chose visceral hatred for' Donald Trump over crypto Clarity Act, Lummis says",
-        "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House"
-      ]
-    },
-    {
-      "keyword": "oil",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 4200,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 30,
-      "source_count": 7,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Financial Times Home",
-        "Financial Times World"
-      ],
-      "sample_titles": [
-        "Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000",
-        "Bitcoin price seeks $86K as new support after oil dips below $90",
-        "Oil falls after U.S. and Iran talk for hours at UN meeting"
+        "Inside the FBI’s little-known annual crypto crime gathering",
+        "Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week",
+        "Bitcoin's $16 billion quarterly options settlement arrives with a 'call-heavy' book"
       ]
     },
     {
@@ -65,14 +55,17 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 4000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 1,
+      "source_snapshot_score": 28,
+      "source_count": 4,
       "source_names": [
-        "Federal Reserve Monetary Policy Press"
+        "CNBC Top News",
+        "Federal Reserve Monetary Policy Press",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -87,21 +80,47 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2600,
+      "demand_signal_score": 3100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
-      "source_count": 3,
+      "source_snapshot_score": 19,
+      "source_count": 6,
       "source_names": [
         "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "MarketWatch Breaking News",
+        "NYT Business"
+      ],
+      "sample_titles": [
+        "10-year Treasury yield leaps to fresh 19-year high after hot economic readings",
+        "Nearly 10% of borrowers opted for riskier mortgages last week, as rates soared over 7%",
+        "US Treasury yields soar after strong data fuels bets on further rate rises"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2700,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 15,
+      "source_count": 3,
+      "source_names": [
         "CoinDesk RSS",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House",
-        "European central banks push to expand stablecoin yield ban to crypto lending and staking",
-        "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says"
+        "Bitcoin consolidates near $86,000 as rally narrows and Brent slips below $100",
+        "PODCAST: Crude hopes - Reuters",
+        "Wall St falls as oil ticks up, yields rise ahead of US-China summit - Reuters"
       ]
     }
   ],
