@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T04:13:47+00:00",
+  "generated_at": "2026-09-24T17:00:21+00:00",
   "status": "ok",
   "providers": {
     "binance_plugin": false,
@@ -8,9 +8,9 @@
     "alternative_fear_greed": true
   },
   "market": {
-    "sentiment": "risk_off",
-    "average_change_percent_24h": -5.65,
-    "tracked_quote_volume_24h": 74613558926.0,
+    "sentiment": "mixed",
+    "average_change_percent_24h": 2.05,
+    "tracked_quote_volume_24h": 64196105638.0,
     "signal_strength": 4
   },
   "fear_greed": {
@@ -23,54 +23,54 @@
     {
       "symbol": "BTCUSDT",
       "keyword": "bitcoin",
-      "last_price": 83837.0,
-      "price_change_percent_24h": -3.44302,
-      "quote_volume_24h": 43403263511.0,
+      "last_price": 84495.0,
+      "price_change_percent_24h": 0.51934,
+      "quote_volume_24h": 39145577825.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "ETHUSDT",
       "keyword": "ethereum",
-      "last_price": 2672.71,
-      "price_change_percent_24h": -3.7308,
-      "quote_volume_24h": 17250608249.0,
+      "last_price": 2686.69,
+      "price_change_percent_24h": 0.95699,
+      "quote_volume_24h": 14255082894.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "XRPUSDT",
       "keyword": "crypto_etf",
-      "last_price": 1.49,
-      "price_change_percent_24h": -8.75663,
-      "quote_volume_24h": 5738869176.0,
+      "last_price": 1.53,
+      "price_change_percent_24h": 2.10389,
+      "quote_volume_24h": 4297207656.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "SOLUSDT",
       "keyword": "crypto_etf",
-      "last_price": 114.61,
-      "price_change_percent_24h": -3.8391,
-      "quote_volume_24h": 5139268602.0,
+      "last_price": 117.06,
+      "price_change_percent_24h": 2.32888,
+      "quote_volume_24h": 4234716986.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "DOGEUSDT",
       "keyword": "crypto_etf",
-      "last_price": 0.093174,
-      "price_change_percent_24h": -10.43169,
-      "quote_volume_24h": 1798590321.0,
+      "last_price": 0.096421,
+      "price_change_percent_24h": 4.31799,
+      "quote_volume_24h": 1247656720.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     },
     {
       "symbol": "BNBUSDT",
       "keyword": "crypto_etf",
-      "last_price": 765.89,
-      "price_change_percent_24h": -3.72271,
-      "quote_volume_24h": 1282959067.0,
+      "last_price": 781.07,
+      "price_change_percent_24h": 2.05696,
+      "quote_volume_24h": 1015863557.0,
       "trade_count_24h": 0,
       "provider": "coingecko_public_api"
     }
@@ -89,32 +89,28 @@
   },
   "keyword_signals": {
     "bitcoin": {
-      "signal_score_bonus": 3,
-      "market_signal_notes": [
-        "BTCUSDT 24h change -3.44%"
-      ],
+      "signal_score_bonus": 1,
+      "market_signal_notes": [],
       "tracked_symbols": [
         "BTCUSDT"
       ],
-      "market_sentiment": "risk_off"
+      "market_sentiment": "mixed"
     },
     "ethereum": {
-      "signal_score_bonus": 3,
-      "market_signal_notes": [
-        "ETHUSDT 24h change -3.73%"
-      ],
+      "signal_score_bonus": 1,
+      "market_signal_notes": [],
       "tracked_symbols": [
         "ETHUSDT"
       ],
-      "market_sentiment": "risk_off"
+      "market_sentiment": "mixed"
     },
     "crypto_etf": {
       "signal_score_bonus": 8,
       "market_signal_notes": [
-        "XRPUSDT 24h change -8.76%",
-        "SOLUSDT 24h change -3.84%",
-        "DOGEUSDT 24h change -10.43%",
-        "BNBUSDT 24h change -3.72%"
+        "XRPUSDT 24h change 2.10%",
+        "SOLUSDT 24h change 2.33%",
+        "DOGEUSDT 24h change 4.32%",
+        "BNBUSDT 24h change 2.06%"
       ],
       "tracked_symbols": [
         "XRPUSDT",
@@ -122,7 +118,7 @@
         "DOGEUSDT",
         "BNBUSDT"
       ],
-      "market_sentiment": "risk_off"
+      "market_sentiment": "mixed"
     }
   }
 }

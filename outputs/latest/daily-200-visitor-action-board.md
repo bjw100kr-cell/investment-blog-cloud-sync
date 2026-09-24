@@ -1,6 +1,6 @@
 # Daily 200 Visitor Action Board
 
-- 생성 시각: `2026-09-24T04:13:50.467010+00:00`
+- 생성 시각: `2026-09-24T17:00:24.907045+00:00`
 - 목표: 하루 `200`명
 - 상태: `measurement_missing_keep_building`
 - 실측 방문자: `0`
@@ -23,13 +23,6 @@
 - supporting_queries: 비트코인 ETF 자금 흐름, 비트코인 하락 이유, 비트코인 오늘 시세 보는법
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
-### FOMC 일정
-
-- mapped_keyword: `fomc`
-- suggested_title: FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: FOMC 발표 시간, FOMC 이후 주식 영향, 연준 금리 발표 비트코인 영향
-- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
-
 ### 미국채 금리 상승 이유
 
 - mapped_keyword: `treasury_yields`
@@ -37,11 +30,17 @@
 - supporting_queries: 10년물 국채금리 주식 영향, 국채금리 비트코인 영향, 금리 상승 성장주 영향
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
-### 국제유가 전망
+### FOMC 일정
 
-- mapped_keyword: `oil`
-- suggested_title: 국제유가 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: 유가 상승 주식 영향, WTI 유가 보는법, 원유 가격 인플레이션 영향
+- mapped_keyword: `fomc`
+- suggested_title: FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: FOMC 발표 시간, FOMC 이후 주식 영향, 연준 금리 발표 비트코인 영향
+- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
+
+### cpi
+
+- mapped_keyword: `cpi`
+- suggested_title: cpi 왜 검색이 급증했나: 투자자 관점 핵심 정리
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
 ## 공개 URL 배포 액션
@@ -53,6 +52,7 @@
 
 - `fomc`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 - `bitcoin`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
+- `ai_semiconductors`: 0개 체크 / 예상 0명 / 첫 채널  / 
 - `china`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
 - `us_index_flow`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
 - `seo_us_big_tech_10`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/07/5.html

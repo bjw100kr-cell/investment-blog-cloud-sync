@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-24T04:13:45.861247+00:00`
+- 생성 시각: `2026-09-24T17:00:19.530069+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -94,45 +94,50 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 48, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 32, source_count 4, sources CNBC Top News, Federal Reserve Monetary Policy Press, Financial Times Home, Reuters Markets via Google News RSS
-- `treasury_yields`: score 28, source_count 5, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
-- `oil`: score 25, source_count 5, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
-- `us_big_tech`: score 6, source_count 2, sources CNBC Top News, Financial Times World
-- `ai_semiconductors`: score 6, source_count 2, sources Financial Times YouTube, MarketWatch Breaking News
-- `cpi`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `china`: score 3, source_count 1, sources CNBC Top News
-- `us_index_flow`: score 2, source_count 1, sources MarketWatch Breaking News
+- `bitcoin`: score 34, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `treasury_yields`: score 30, source_count 6, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 29, source_count 3, sources CNBC Top News, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `cpi`: score 12, source_count 3, sources CNBC Top News, Financial Times Home, Financial Times World
+- `oil`: score 9, source_count 3, sources Financial Times Home, Financial Times World, Investing.com Crypto News
+- `ethereum`: score 8, source_count 1, sources CoinDesk RSS
+- `china`: score 8, source_count 3, sources CNBC Top News, Financial Times Home, NYT Business
+- `ai_semiconductors`: score 6, source_count 2, sources CoinDesk RSS, Financial Times YouTube
+- `tariffs_trade`: score 3, source_count 1, sources Financial Times Home
+- `jobs`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 48, headlines 14
-  - Dogecoin down 8%, bitcoin under $84,000 as Treasury yields hit highest level since 2007
-  - Former Hack VC partner Hsin-Ju Chuang found dead following public dispute with the firm
-  - White House adviser defends President Trump's crypto ties in wake of Clarity Act defeat
-- `fomc`: score 32, headlines 8
+- `bitcoin`: score 34, headlines 10
+  - Crypto casino Duelbits goes offline after $7 million hot wallet hack
+  - Bitcoin’s bear markets are getting milder. Bull markets may be next
+  - Crypto for Advisors:The hidden costs of holding your own bitcoin
+- `treasury_yields`: score 30, headlines 10
+  - Crypto investment firm RockawayX is betting $150 million on yield becoming next big use case
+  - 30-year Treasury yield hits highest level since 2004 as bond market rout continues
+  - Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy
+- `fomc`: score 29, headlines 7
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 28, headlines 9
-  - Dogecoin down 8%, bitcoin under $84,000 as Treasury yields hit highest level since 2007
-  - Historic day for global bonds as 10-year Treasury and JGB yields hit highest in decades
-  - 10-year Treasury yield rockets to 19-year high. Here's what's driving the spike
-- `oil`: score 25, headlines 8
-  - Dogecoin down 8%, bitcoin under $84,000 as Treasury yields hit highest level since 2007
-  - Oil falls on report Asia will import highest volume of crude since start of Iran war
-  - Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions
-- `ai_semiconductors`: score 6, headlines 3
-  - Micron’s stock has become a ‘battleground’ as the AI narrative shifts
-  - OpenAI and Anthropic’s CEOs just delivered this message to the U.N. as AI fears swirl
+- `cpi`: score 12, headlines 4
+  - Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy
+  - Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation
+  - US mortgage rates breach 7% as affordability pressures mount
+- `oil`: score 9, headlines 3
+  - Bitcoin retreats to $83.6k as yields, oil spike spook risk
+  - US mortgage rates breach 7% as affordability pressures mount
+  - US mortgage rates breach 7% as affordability pressures mount
+- `china`: score 8, headlines 3
+  - Trump, Xi to talk Taiwan, AI, trade and Iran as DC summit kicks off
+  - Xi says US-China competition should be ‘healthy’ at White House summit
+  - Trump Struggles to Find Leverage With Xi Over Chinese Exports
+- `ethereum`: score 8, headlines 2
+  - Crypto casino Duelbits goes offline after $7 million hot wallet hack
+  - Cathie Wood's ARK teams with Securitize to tokenize venture fund with OpenAI, Anthropic stakes
+- `ai_semiconductors`: score 6, headlines 2
+  - Cathie Wood's ARK teams with Securitize to tokenize venture fund with OpenAI, Anthropic stakes
   - Silicon shadows: inside the black market for AI chips | FT Film
-- `us_big_tech`: score 6, headlines 2
-  - Inside India newsletter: Apple set to take a bigger bite of the world’s second-largest smartphone market
-  - Apple’s ChatGPT tools ‘dramatically underperformed’, OpenAI claims
-- `cpi`: score 5, headlines 2
-  - Inflation pressures raise prospect of Fed rate hike on eve of elections - Reuters
-  - Inflation could cost Republicans the Senate — this chart shows how
-- `china`: score 3, headlines 1
-  - U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit
-- `us_index_flow`: score 2, headlines 1
-  - Is gridlock in Washington actually good for stocks? Here’s what historical market data says.
+- `jobs`: score 3, headlines 1
+  - US weekly jobless claims near 57-year lows as labor market regains footing - Reuters
+- `tariffs_trade`: score 3, headlines 1
+  - Xi says US-China competition should be ‘healthy’ at White House summit
