@@ -1,39 +1,118 @@
 {
-  "generated_at": "2026-09-23T16:43:20.102134+00:00",
-  "snapshot_generated_at": "2026-09-23T16:43:15.259932+00:00",
+  "generated_at": "2026-09-24T04:13:51.159146+00:00",
+  "snapshot_generated_at": "2026-09-24T04:13:45.861247+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 3,
+    "fresh": 2,
     "aging": 0,
-    "stale": 0,
+    "stale": 1,
     "unknown": 0
   },
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-09-24",
+      "freshness_status": "stale",
+      "newest_evidence_iso": "2026-09-16T18:00:00+00:00",
+      "oldest_evidence_iso": "2026-07-09T19:00:00+00:00",
+      "newest_evidence_age_days": 7.4,
+      "source_count": 4,
+      "demand_signal_score": 4400,
+      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "recovery_mode": "full_refresh_needed",
+      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "publish_date": "2026-09-26",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-09-23T21:27:00+00:00",
+      "oldest_evidence_iso": "2026-09-23T21:27:00+00:00",
+      "newest_evidence_age_days": 0.3,
+      "source_count": 2,
+      "demand_signal_score": 0,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
+      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Silicon shadows: inside the black market for AI chips | FT Film",
+          "source_name": "Financial Times YouTube",
+          "published": "63K",
+          "published_iso": "63K",
+          "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "OpenAI and Anthropic’s CEOs just delivered this message to the U.N. as AI fears swirl",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Wed, 23 Sep 2026 21:27:00 GMT",
+          "published_iso": "2026-09-23T21:27:00+00:00",
+          "link": "https://www.marketwatch.com/story/the-openai-and-anthropic-ceos-just-delivered-this-message-to-the-u-n-as-ai-fears-swirl-47b0e97b?mod=mw_rss_topstories",
+          "source_type": "rss"
+        }
+      ]
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-09-24",
+      "publish_date": "2026-09-25",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-23T14:52:11+00:00",
-      "oldest_evidence_iso": "2026-09-23T10:28:11+00:00",
-      "newest_evidence_age_days": 0.1,
-      "source_count": 4,
-      "demand_signal_score": 6200,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin long liquidations hit $280M as BTC price dips under $84K",
+      "newest_evidence_iso": "2026-09-24T04:13:01+00:00",
+      "oldest_evidence_iso": "2026-09-23T10:42:44+00:00",
+      "newest_evidence_age_days": 0.0,
+      "source_count": 3,
+      "demand_signal_score": 6000,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Dogecoin down 8%, bitcoin under $84,000 as Treasury yields hit highest level since 2007",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin long liquidations hit $280M as BTC price dips under $84K",
-          "source_name": "Cointelegraph",
-          "published": "Wed, 23 Sep 2026 14:52:11 +0000",
-          "published_iso": "2026-09-23T14:52:11+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-long-liquidations-hit-280m-as-btc-price-dips-under-84k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Dogecoin down 8%, bitcoin under $84,000 as Treasury yields hit highest level since 2007",
+          "source_name": "CoinDesk RSS",
+          "published": "Thu, 24 Sep 2026 04:13:01 +0000",
+          "published_iso": "2026-09-24T04:13:01+00:00",
+          "link": "https://www.coindesk.com/markets/2026/09/24/dogecoin-down-8-bitcoin-under-usd84-000-as-treasury-yields-hit-highest-level-since-2007",
           "source_type": "rss"
         },
         {
@@ -45,97 +124,11 @@
           "source_type": "rss"
         },
         {
-          "title": "Live updates: Bitcoin slips as higher rates and dollar pressure markets",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 23 Sep 2026 11:29:30 +0000",
-          "published_iso": "2026-09-23T11:29:30+00:00",
-          "link": "https://www.coindesk.com/business/2026/09/23/live-updates-bitcoin-slips-under-usd86-000-as-money-rotates-into-bch-and-zec",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-09-25",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-23T15:56:20+00:00",
-      "oldest_evidence_iso": "2026-09-23T01:51:00+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 4,
-      "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: NYSE, Blockchain.com in tie-up to bring tokenized US stocks to crypto users",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "NYSE, Blockchain.com in tie-up to bring tokenized US stocks to crypto users",
-          "source_name": "Cointelegraph",
-          "published": "Wed, 23 Sep 2026 15:56:20 +0000",
-          "published_iso": "2026-09-23T15:56:20+00:00",
-          "link": "https://cointelegraph.com/news/nyse-blockchaincom-team-up-to-bring-tokenized-us-stocks-to-crypto-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "The S&P 500 has a 'breadth' problem. Crypto doesn’t.",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 23 Sep 2026 11:28:50 +0000",
-          "published_iso": "2026-09-23T11:28:50+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/09/23/the-s-and-p-500-has-a-breadth-problem-crypto-doesn-t",
-          "source_type": "rss"
-        },
-        {
-          "title": "US stocks fall as 10-year Treasury yield hits highest since 2007 - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Wed, 23 Sep 2026 01:51:00 GMT",
-          "published_iso": "2026-09-23T01:51:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSzB2Vlh0Nm9MZUlDRnA2S1pIMUJXWmZtdlZEVUdFRDV2WEJ1U3pLQnJKUFNBU3YyZGxXZ0trVk1tdm9lVFp0aEh5N0VpVUdOZDNWYjRzOTdUVW84bEYwYnZHNEQ1X213dHl5OGlpQWNSUEFkdXRpRC1rUTRDaDRBMFh2Zw?oc=5",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-09-26",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-23T16:22:49+00:00",
-      "oldest_evidence_iso": "2026-09-23T14:23:34+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 4,
-      "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Trump faces Xi as strains with allies complicate U.S. pressure on China",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "Trump faces Xi as strains with allies complicate U.S. pressure on China",
-          "source_name": "CNBC Top News",
-          "published": "Wed, 23 Sep 2026 16:22:49 GMT",
-          "published_iso": "2026-09-23T16:22:49+00:00",
-          "link": "https://www.cnbc.com/2026/09/23/trump-xi-china-summit-allies.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Trump’s diesel ban would hurt America and help China",
-          "source_name": "Financial Times Home",
-          "published": "Wed, 23 Sep 2026 15:37:23 GMT",
-          "published_iso": "2026-09-23T15:37:23+00:00",
-          "link": "https://www.ft.com/content/3e480031-4ee7-4ded-9893-75c060aeef1a?syn-25a6b1a6=1",
-          "source_type": "rss"
-        },
-        {
-          "title": "Wall St falls as oil ticks up, yields rise ahead of US-China summit - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Wed, 23 Sep 2026 14:23:34 GMT",
-          "published_iso": "2026-09-23T14:23:34+00:00",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeEU4dTJoZV9XeFR4cENDYXhRMG1Tb3E4aHFNc1RoUEpHeVJNYmtnS1RHb0lVdzg5S1BKelZiUkR4eER2bkFZc0tjcWxlRFEyODRlVlRoNlNmblFabUhsZnJwTllqbmd2RUQ5NmI0M0JVc3B3aVkwcmt0SE9vTERyLVhFRzIybV9OMU94QlF6UGdORGhJZldzTUJ6X1F2TjhTRVpLNDZWeVN6WU1hR0ZLRw?oc=5",
+          "title": "Bitcoin slips nearly 2%, extends pullback after rally amid hit to risk sentiment",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-09-23 22:15:55",
+          "published_iso": "2026-09-23 22:15:55",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-steady-near-87k-as-etf-inflows-soar-trumpxi-summit-in-focus-4912118",
           "source_type": "rss"
         }
       ]

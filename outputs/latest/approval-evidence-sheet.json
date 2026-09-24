@@ -1,44 +1,115 @@
 {
-  "generated_at": "2026-09-23T16:43:15.259932+00:00",
+  "generated_at": "2026-09-24T04:13:45.861247+00:00",
   "item_count": 3,
   "items": [
     {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "publish_date": "2026-09-24",
-      "priority_score": 126.0,
+      "priority_score": 137.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "format": "macro_explainer",
+      "source_names": [
+        "CNBC Top News",
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_headlines": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 4400,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 4,
+      "search_score": 26,
+      "timeliness_score": 25,
+      "monetization_score": 15,
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 19 Aug 2026 18:00:00 GMT",
+          "published_iso": "2026-08-19T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Thu, 9 Jul 2026 19:00:00 GMT",
+          "published_iso": "2026-07-09T19:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "publish_date": "2026-09-25",
+      "priority_score": 124.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
       "format": "crypto_analysis",
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "Investing.com Crypto News"
       ],
       "sample_headlines": [
+        "Dogecoin down 8%, bitcoin under $84,000 as Treasury yields hit highest level since 2007",
+        "Former Hack VC partner Hsin-Ju Chuang found dead following public dispute with the firm",
+        "White House adviser defends President Trump's crypto ties in wake of Clarity Act defeat",
         "Inside the FBI’s little-known annual crypto crime gathering",
-        "Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week",
-        "Bitcoin's $16 billion quarterly options settlement arrives with a 'call-heavy' book",
-        "Live updates: Bitcoin slips as higher rates and dollar pressure markets",
-        "The S&P 500 has a 'breadth' problem. Crypto doesn’t."
+        "Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 6200,
+      "demand_signal_score": 6000,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 4,
+      "source_count": 3,
       "search_score": 29,
-      "timeliness_score": 20,
+      "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Bitcoin long liquidations hit $280M as BTC price dips under $84K",
-          "source_name": "Cointelegraph",
-          "published": "Wed, 23 Sep 2026 14:52:11 +0000",
-          "published_iso": "2026-09-23T14:52:11+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-long-liquidations-hit-280m-as-btc-price-dips-under-84k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Dogecoin down 8%, bitcoin under $84,000 as Treasury yields hit highest level since 2007",
+          "source_name": "CoinDesk RSS",
+          "published": "Thu, 24 Sep 2026 04:13:01 +0000",
+          "published_iso": "2026-09-24T04:13:01+00:00",
+          "link": "https://www.coindesk.com/markets/2026/09/24/dogecoin-down-8-bitcoin-under-usd84-000-as-treasury-yields-hit-highest-level-since-2007",
           "source_type": "rss"
         },
         {
@@ -50,138 +121,72 @@
           "source_type": "rss"
         },
         {
-          "title": "Live updates: Bitcoin slips as higher rates and dollar pressure markets",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 23 Sep 2026 11:29:30 +0000",
-          "published_iso": "2026-09-23T11:29:30+00:00",
-          "link": "https://www.coindesk.com/business/2026/09/23/live-updates-bitcoin-slips-under-usd86-000-as-money-rotates-into-bch-and-zec",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin consolidates near $86,000 as rally narrows and Brent slips below $100",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 23 Sep 2026 10:28:11 +0000",
-          "published_iso": "2026-09-23T10:28:11+00:00",
-          "link": "https://www.coindesk.com/markets/2026/09/23/bitcoin-consolidates-near-usd86-000-as-rally-narrows-and-brent-slips-below-usd100",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin steadies below $86k as ETF inflows soar; Trump-Xi summit in focus",
+          "title": "Bitcoin slips nearly 2%, extends pullback after rally amid hit to risk sentiment",
           "source_name": "Investing.com Crypto News",
-          "published": "2026-09-23 13:43:59",
-          "published_iso": "2026-09-23 13:43:59",
+          "published": "2026-09-23 22:15:55",
+          "published_iso": "2026-09-23 22:15:55",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-steady-near-87k-as-etf-inflows-soar-trumpxi-summit-in-focus-4912118",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin pinned at $84,328 as bearish momentum builds: Live levels",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-09-23 19:18:30",
+          "published_iso": "2026-09-23 19:18:30",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-tests-double-top-at-82179-with-mfi-maxed-live-levels-93CH-4908352",
+          "source_type": "rss"
+        },
+        {
+          "title": "Analyst says Bitcoin bull market is underway and sets 2029 target",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-09-23 10:42:44",
+          "published_iso": "2026-09-23 10:42:44",
+          "link": "https://www.investing.com/news/cryptocurrency-news/analyst-says-bitcoin-bull-market-is-underway-and-sets-2029-target-4912571",
           "source_type": "rss"
         }
       ]
     },
     {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "publish_date": "2026-09-25",
-      "priority_score": 102.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "publish_date": "2026-09-26",
+      "priority_score": 85.0,
+      "ready_now": false,
+      "quality_status": "review_before_publish",
+      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
       "format": "sector_analysis",
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "Financial Times YouTube",
+        "MarketWatch Breaking News"
       ],
       "sample_headlines": [
-        "The S&P 500 has a 'breadth' problem. Crypto doesn’t.",
-        "NYSE, Blockchain.com in tie-up to bring tokenized US stocks to crypto users",
-        "US stocks fall as 10-year Treasury yield hits highest since 2007 - Reuters",
-        "Bond yields surge as Wall Street fears more potential Federal Reserve rate hikes"
+        "Micron’s stock has become a ‘battleground’ as the AI narrative shifts",
+        "OpenAI and Anthropic’s CEOs just delivered this message to the U.N. as AI fears swirl",
+        "Silicon shadows: inside the black market for AI chips | FT Film"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "demand_signal_score": 0,
       "fallback_source": "mapped_candidate",
-      "source_count": 4,
-      "search_score": 15,
-      "timeliness_score": 20,
+      "source_count": 2,
+      "search_score": 8,
+      "timeliness_score": 10,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "NYSE, Blockchain.com in tie-up to bring tokenized US stocks to crypto users",
-          "source_name": "Cointelegraph",
-          "published": "Wed, 23 Sep 2026 15:56:20 +0000",
-          "published_iso": "2026-09-23T15:56:20+00:00",
-          "link": "https://cointelegraph.com/news/nyse-blockchaincom-team-up-to-bring-tokenized-us-stocks-to-crypto-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
+          "title": "Silicon shadows: inside the black market for AI chips | FT Film",
+          "source_name": "Financial Times YouTube",
+          "published": "63K",
+          "published_iso": "63K",
+          "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
+          "source_type": "youtube_channel"
         },
         {
-          "title": "The S&P 500 has a 'breadth' problem. Crypto doesn’t.",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 23 Sep 2026 11:28:50 +0000",
-          "published_iso": "2026-09-23T11:28:50+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/09/23/the-s-and-p-500-has-a-breadth-problem-crypto-doesn-t",
-          "source_type": "rss"
-        },
-        {
-          "title": "US stocks fall as 10-year Treasury yield hits highest since 2007 - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Wed, 23 Sep 2026 01:51:00 GMT",
-          "published_iso": "2026-09-23T01:51:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSzB2Vlh0Nm9MZUlDRnA2S1pIMUJXWmZtdlZEVUdFRDV2WEJ1U3pLQnJKUFNBU3YyZGxXZ0trVk1tdm9lVFp0aEh5N0VpVUdOZDNWYjRzOTdUVW84bEYwYnZHNEQ1X213dHl5OGlpQWNSUEFkdXRpRC1rUTRDaDRBMFh2Zw?oc=5",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "publish_date": "2026-09-26",
-      "priority_score": 99.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
-      "format": "macro_explainer",
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_headlines": [
-        "Trump faces Xi as strains with allies complicate U.S. pressure on China",
-        "Trump’s diesel ban would hurt America and help China",
-        "Wall St falls as oil ticks up, yields rise ahead of US-China summit - Reuters"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 0,
-      "fallback_source": "mapped_candidate",
-      "source_count": 4,
-      "search_score": 15,
-      "timeliness_score": 20,
-      "monetization_score": 14,
-      "recent_evidence": [
-        {
-          "title": "Trump faces Xi as strains with allies complicate U.S. pressure on China",
-          "source_name": "CNBC Top News",
-          "published": "Wed, 23 Sep 2026 16:22:49 GMT",
-          "published_iso": "2026-09-23T16:22:49+00:00",
-          "link": "https://www.cnbc.com/2026/09/23/trump-xi-china-summit-allies.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Trump’s diesel ban would hurt America and help China",
-          "source_name": "Financial Times Home",
-          "published": "Wed, 23 Sep 2026 15:37:23 GMT",
-          "published_iso": "2026-09-23T15:37:23+00:00",
-          "link": "https://www.ft.com/content/3e480031-4ee7-4ded-9893-75c060aeef1a?syn-25a6b1a6=1",
-          "source_type": "rss"
-        },
-        {
-          "title": "Wall St falls as oil ticks up, yields rise ahead of US-China summit - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Wed, 23 Sep 2026 14:23:34 GMT",
-          "published_iso": "2026-09-23T14:23:34+00:00",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeEU4dTJoZV9XeFR4cENDYXhRMG1Tb3E4aHFNc1RoUEpHeVJNYmtnS1RHb0lVdzg5S1BKelZiUkR4eER2bkFZc0tjcWxlRFEyODRlVlRoNlNmblFabUhsZnJwTllqbmd2RUQ5NmI0M0JVc3B3aVkwcmt0SE9vTERyLVhFRzIybV9OMU94QlF6UGdORGhJZldzTUJ6X1F2TjhTRVpLNDZWeVN6WU1hR0ZLRw?oc=5",
+          "title": "OpenAI and Anthropic’s CEOs just delivered this message to the U.N. as AI fears swirl",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Wed, 23 Sep 2026 21:27:00 GMT",
+          "published_iso": "2026-09-23T21:27:00+00:00",
+          "link": "https://www.marketwatch.com/story/the-openai-and-anthropic-ceos-just-delivered-this-message-to-the-u-n-as-ai-fears-swirl-47b0e97b?mod=mw_rss_topstories",
           "source_type": "rss"
         }
       ]
