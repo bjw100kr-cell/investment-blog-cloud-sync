@@ -91,7 +91,7 @@
     "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
     "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "왜 지금 이 이슈가 중요한가",
     "실제로 발표되거나 벌어진 일",
@@ -110,12 +110,15 @@
   "source_names": [
     "CNBC Top News",
     "Financial Times Home",
+    "Financial Times World",
     "NYT Business"
   ],
   "reference_headlines": [
-    "Trump, Xi to talk Taiwan, AI, trade and Iran as DC summit kicks off",
-    "Xi says US-China competition should be ‘healthy’ at White House summit",
-    "Trump Struggles to Find Leverage With Xi Over Chinese Exports"
+    "Atlanta is getting pandas: China's Xi revives a longtime diplomatic strategy at summit with U.S.",
+    "China's Xi urges U.S. to cooperate on AI",
+    "Trump, Xi to attend state dinner after White House meeting",
+    "Xi says US and China must ‘coexist in peace’",
+    "Xi says US and China must ‘coexist in peace’"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -178,9 +181,9 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 65.0,
-    "search_score": 12,
-    "timeliness_score": 15,
+    "total_score": 78.0,
+    "search_score": 20,
+    "timeliness_score": 20,
     "explanatory_score": 17,
     "monetization_score": 14,
     "risk_score": 7

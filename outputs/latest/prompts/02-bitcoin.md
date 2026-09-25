@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Crypto casino Duelbits goes offline after $7 million hot wallet hack",
-    "Bitcoin’s bear markets are getting milder. Bull markets may be next",
-    "Crypto for Advisors:The hidden costs of holding your own bitcoin",
-    "Crypto investment firm RockawayX is betting $150 million on yield becoming next big use case",
-    "Here’s what happened in crypto today"
+    "Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'",
+    "Bitcoin just topped a key long-term moving average. Here's what it might mean",
+    "Block brings Bitcoin Lightning payments to x402 for AI agents",
+    "Asia dominates Crypto Adoption Index, Bitget’s $352M hack: Asia Express",
+    "CFTC updates guidance on tokenized assets, blockchain records after failed vote"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
