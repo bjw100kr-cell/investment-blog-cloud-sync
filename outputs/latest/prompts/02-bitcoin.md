@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'",
-    "Bitcoin just topped a key long-term moving average. Here's what it might mean",
-    "Block brings Bitcoin Lightning payments to x402 for AI agents",
-    "Asia dominates Crypto Adoption Index, Bitget’s $352M hack: Asia Express",
-    "CFTC updates guidance on tokenized assets, blockchain records after failed vote"
+    "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
+    "Bond volatility surges while bitcoin and Wall Street stay calm",
+    "Bitcoin holders are cashing out, just not the way they did at prior market tops",
+    "Altcoins rally across the board as bitcoin consolidates near $84,000",
+    "Bitcoin ETF flows turn positive for 2026 after erasing $5.8 billion deficit"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 80.0,
-    "search_score": 26,
+    "total_score": 83.0,
+    "search_score": 29,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,

@@ -1,95 +1,16 @@
 {
-  "generated_at": "2026-09-25T04:26:26.885139+00:00",
-  "snapshot_generated_at": "2026-09-25T04:26:21.787384+00:00",
+  "generated_at": "2026-09-25T17:02:44.989127+00:00",
+  "snapshot_generated_at": "2026-09-25T17:02:39.982912+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 2,
+    "fresh": 3,
     "aging": 0,
-    "stale": 1,
+    "stale": 0,
     "unknown": 0
   },
   "items": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-09-25",
-      "freshness_status": "stale",
-      "newest_evidence_iso": "2026-09-16T18:00:00+00:00",
-      "oldest_evidence_iso": "2026-07-09T19:00:00+00:00",
-      "newest_evidence_age_days": 8.4,
-      "source_count": 5,
-      "demand_signal_score": 4800,
-      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
-      "recovery_mode": "full_refresh_needed",
-      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
-      "recovery_command": "bash scripts/run_pipeline.sh",
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "quality_status": "review_before_publish",
-      "ready_now": false,
-      "publish_date": "2026-09-27",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-24T23:30:37+00:00",
-      "oldest_evidence_iso": "2026-09-24T23:26:00+00:00",
-      "newest_evidence_age_days": 0.2,
-      "source_count": 2,
-      "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: S&P 500 ends marginally lower as investors focus on US-Iran war - Reuters",
-      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "S&P 500 ends marginally lower as investors focus on US-Iran war - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Thu, 24 Sep 2026 23:30:37 GMT",
-          "published_iso": "2026-09-24T23:30:37+00:00",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "The S&P 500’s newest tech stock is now its best performer",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Thu, 24 Sep 2026 23:26:00 GMT",
-          "published_iso": "2026-09-24T23:26:00+00:00",
-          "link": "https://www.marketwatch.com/story/the-s-p-500s-newest-tech-stock-is-now-its-best-performer-5bfeb6e2?mod=mw_rss_topstories",
-          "source_type": "rss"
-        }
-      ]
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -97,38 +18,116 @@
       "ready_now": true,
       "publish_date": "2026-09-26",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-25T02:00:54+00:00",
-      "oldest_evidence_iso": "2026-09-24T18:46:58+00:00",
-      "newest_evidence_age_days": 0.1,
+      "newest_evidence_iso": "2026-09-25T11:54:28+00:00",
+      "oldest_evidence_iso": "2026-09-25T09:13:01+00:00",
+      "newest_evidence_age_days": 0.2,
       "source_count": 3,
-      "demand_signal_score": 4400,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Block brings Bitcoin Lightning payments to x402 for AI agents",
+      "demand_signal_score": 6500,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bond volatility surges while bitcoin and Wall Street stay calm",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Block brings Bitcoin Lightning payments to x402 for AI agents",
-          "source_name": "Cointelegraph",
-          "published": "Fri, 25 Sep 2026 02:00:54 +0000",
-          "published_iso": "2026-09-25T02:00:54+00:00",
-          "link": "https://cointelegraph.com/news/block-brings-bitcoin-lightning-payments-to-x402-for-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin price steadies, ONDO rallies as US Treasury yields hit 2007 highs",
-          "source_name": "Cointelegraph",
-          "published": "Thu, 24 Sep 2026 20:32:16 +0000",
-          "published_iso": "2026-09-24T20:32:16+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-steadies-ondo-rallies-us-treasury-yields-hit-2007-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin just topped a key long-term moving average. Here's what it might mean",
+          "title": "Bond volatility surges while bitcoin and Wall Street stay calm",
           "source_name": "CoinDesk RSS",
-          "published": "Thu, 24 Sep 2026 18:46:58 +0000",
-          "published_iso": "2026-09-24T18:46:58+00:00",
-          "link": "https://www.coindesk.com/markets/2026/09/24/bitcoin-just-topped-a-key-long-term-moving-average-here-s-what-it-might-mean",
+          "published": "Fri, 25 Sep 2026 11:54:28 +0000",
+          "published_iso": "2026-09-25T11:54:28+00:00",
+          "link": "https://www.coindesk.com/markets/2026/09/25/bond-volatility-surges-while-bitcoin-and-wall-street-stay-calm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin holders are cashing out, just not the way they did at prior market tops",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 25 Sep 2026 11:29:04 +0000",
+          "published_iso": "2026-09-25T11:29:04+00:00",
+          "link": "https://www.coindesk.com/daybook-us/2026/09/25/bitcoin-holders-are-cashing-out-just-not-the-way-they-did-at-prior-market-tops",
+          "source_type": "rss"
+        },
+        {
+          "title": "IBIT options price trading more calmly after Bitcoin rebound",
+          "source_name": "Cointelegraph",
+          "published": "Fri, 25 Sep 2026 11:11:33 +0000",
+          "published_iso": "2026-09-25T11:11:33+00:00",
+          "link": "https://cointelegraph.com/markets/ibit-options-trading-bitcoins-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-09-28",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-09-25T16:38:21+00:00",
+      "oldest_evidence_iso": "2026-09-25T01:12:19+00:00",
+      "newest_evidence_age_days": 0.0,
+      "source_count": 3,
+      "demand_signal_score": 2700,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: China’s Truce With Trump Buys It Valuable Time",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "China’s Truce With Trump Buys It Valuable Time",
+          "source_name": "NYT Business",
+          "published": "Fri, 25 Sep 2026 16:38:21 +0000",
+          "published_iso": "2026-09-25T16:38:21+00:00",
+          "link": "https://www.nytimes.com/2026/09/25/business/china-trump-xi-truce.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "The case for talking to China is not a case for détente",
+          "source_name": "Financial Times World",
+          "published": "Fri, 25 Sep 2026 16:21:06 GMT",
+          "published_iso": "2026-09-25T16:21:06+00:00",
+          "link": "https://www.ft.com/content/08b4cf3d-3418-4159-b641-533fdb305d3e",
+          "source_type": "rss"
+        },
+        {
+          "title": "Details on U.S.-China trade negotiations coming Monday, USTR Greer says",
+          "source_name": "CNBC Top News",
+          "published": "Fri, 25 Sep 2026 16:20:40 GMT",
+          "published_iso": "2026-09-25T16:20:40+00:00",
+          "link": "https://www.cnbc.com/2026/09/25/trump-xi-china-trade-greer.html",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "publish_date": "2026-09-27",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-09-25T17:01:15+00:00",
+      "oldest_evidence_iso": "2026-09-25T17:01:15+00:00",
+      "newest_evidence_age_days": 0.0,
+      "source_count": 3,
+      "demand_signal_score": 0,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Silicon shadows: inside the black market for AI chips | FT Film",
+      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Silicon shadows: inside the black market for AI chips | FT Film",
+          "source_name": "Financial Times YouTube",
+          "published": "63K",
+          "published_iso": "63K",
+          "link": "https://www.youtube.com/watch?v=kFcWmQevQo8",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "U.S. appeals court upholds Pentagon designation of Anthropic as supply chain risk",
+          "source_name": "CNBC Top News",
+          "published": "Fri, 25 Sep 2026 17:01:15 GMT",
+          "published_iso": "2026-09-25T17:01:15+00:00",
+          "link": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
           "source_type": "rss"
         }
       ]

@@ -119,7 +119,7 @@
     "CoinDesk RSS",
     "Cointelegraph",
     "Financial Times Home",
-    "MarketWatch Breaking News"
+    "Financial Times World"
   ],
   "reference_headlines": [
     "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지"
@@ -185,8 +185,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 111.67,
-    "search_score": 111.67,
+    "total_score": 110.97,
+    "search_score": 110.97,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
