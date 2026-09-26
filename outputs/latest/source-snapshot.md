@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-26T04:30:43.871682+00:00`
+- 생성 시각: `2026-09-26T16:15:19.895747+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,42 +106,44 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 43, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 28, source_count 3, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News, NYT Business
-- `treasury_yields`: score 23, source_count 6, sources CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `bitcoin`: score 42, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 26, source_count 2, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News
+- `treasury_yields`: score 19, source_count 6, sources CNBC Top News, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `us_index_flow`: score 9, source_count 3, sources Cointelegraph, Financial Times Home, Financial Times World
 - `oil`: score 9, source_count 2, sources Investing.com Crypto News, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 7, source_count 3, sources CNBC Top News, Financial Times YouTube, MarketWatch Breaking News
-- `us_big_tech`: score 7, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `us_index_flow`: score 3, source_count 1, sources Cointelegraph
-- `dollar`: score 2, source_count 1, sources MarketWatch Breaking News
+- `us_big_tech`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `cpi`: score 3, source_count 1, sources CNBC Top News
+- `china`: score 3, source_count 1, sources CNBC Top News
+- `ai_semiconductors`: score 2, source_count 1, sources Financial Times YouTube
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 43, headlines 13
+- `bitcoin`: score 42, headlines 13
+  - Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange
   - Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules
   - U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week
-  - Blockchain Association sees leadership shift shortly after crypto Clarity Act fizzles
-- `fomc`: score 28, headlines 7
+- `fomc`: score 26, headlines 6
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 23, headlines 8
-  - Strategy seeks shareholder approval for daily preferred stock dividends
-  - History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'
+- `treasury_yields`: score 19, headlines 7
+  - The 10-year Treasury yield is at its highest in nearly two decades. How we got here
+  - Bitcoin holds near $84,000 as rising bond yields offset regulatory progress
   - Soaring bond yields ‘not even close’ to cooling red-hot US economy, investors say
 - `oil`: score 9, headlines 3
   - Bitcoin cuts losses, remains muted amid rising oil and yields, hawkish Fed signals
   - Battered bonds draw support from falling oil prices - Reuters
   - Oil prices slide about 2% as US, Iran explore path out of war - Reuters
-- `ai_semiconductors`: score 7, headlines 3
-  - U.S. appeals court upholds Pentagon designation of Anthropic as supply chain risk
-  - Micron investors should get ready for a seesaw ride, analyst says
-  - Silicon shadows: inside the black market for AI chips | FT Film
-- `us_big_tech`: score 7, headlines 3
-  - Wall Street ends higher as investors buy AI stocks; Microsoft rallies - Reuters
-  - Microsoft’s stock has roared back to life, closing at its highest level of the year
-  - Apple’s expensive new iPhones could be a double-edged sword for the company
-- `us_index_flow`: score 3, headlines 1
+- `us_index_flow`: score 9, headlines 3
   - OG.com seeks CFTC approval for single-stock perpetual futures
-- `dollar`: score 2, headlines 1
-  - A ‘death cross’ is coming for the dollar. Why Trump will be happy.
+  - Foreign capital flows into US stocks hit record as appetite for debt fades
+  - Foreign capital flows into US stocks hit record as appetite for debt fades
+- `us_big_tech`: score 6, headlines 2
+  - Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics
+  - Wall Street ends higher as investors buy AI stocks; Microsoft rallies - Reuters
+- `china`: score 3, headlines 1
+  - China wants in on U.S. AI data center boom. Here's why
+- `cpi`: score 3, headlines 1
+  - The 10-year Treasury yield is at its highest in nearly two decades. How we got here
+- `ai_semiconductors`: score 2, headlines 1
+  - Silicon shadows: inside the black market for AI chips | FT Film

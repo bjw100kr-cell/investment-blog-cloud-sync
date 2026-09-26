@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
     "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
     "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
-    "Blockchain Association sees leadership shift shortly after crypto Clarity Act fizzles",
-    "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
-    "OG.com seeks CFTC approval for single-stock perpetual futures"
+    "Here’s what happened in crypto today",
+    "SEC Commissioner Hester Peirce to leave post on Oct. 2"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
