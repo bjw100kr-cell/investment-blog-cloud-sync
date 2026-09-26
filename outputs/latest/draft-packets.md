@@ -1,11 +1,11 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-09-25T17:02:39.982912+00:00`
+- 생성 시각: `2026-09-26T04:30:43.871682+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
 - 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
@@ -70,7 +70,7 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Warsh's regime change at the Fed pushes ahead – and meets resistance
+  - Bitcoin cuts losses, remains muted amid rising oil and yields, hawkish Fed signals
 
 ## 2. bitcoin
 
@@ -136,11 +136,11 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules
+  - U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week
+  - Blockchain Association sees leadership shift shortly after crypto Clarity Act fizzles
   - Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist
-  - Bond volatility surges while bitcoin and Wall Street stay calm
-  - Bitcoin holders are cashing out, just not the way they did at prior market tops
-  - Altcoins rally across the board as bitcoin consolidates near $84,000
-  - Bitcoin ETF flows turn positive for 2026 after erasing $5.8 billion deficit
+  - OG.com seeks CFTC approval for single-stock perpetual futures
 
 ## 3. ai_semiconductors
 
@@ -210,16 +210,16 @@
   - Micron investors should get ready for a seesaw ride, analyst says
   - Silicon shadows: inside the black market for AI chips | FT Film
 
-## 4. china
+## 4. treasury_yields
 
-- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 75.0
+- 추천 제목: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+- 각도: 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
+- 점수: 86.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -268,14 +268,14 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 정책 발표 또는 인터뷰 원문 여부 확인
-  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
-  - 한국/미국 시장 영향은 시나리오형으로 서술
+  - 미국채 2년/10년 금리 수치 재확인
+  - 기준 시각과 비교 기준 명시
+  - 주식/코인 반응 인과관계 과장 여부 점검
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Details on U.S.-China trade negotiations coming Monday, USTR Greer says
-  - Atlanta is getting pandas: China's Xi revives a longtime diplomatic strategy at summit with U.S.
-  - The case for talking to China is not a case for détente
-  - China’s Truce With Trump Buys It Valuable Time
-  - Trump, Xi and the Tech Moguls
+  - Strategy seeks shareholder approval for daily preferred stock dividends
+  - History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'
+  - Soaring bond yields ‘not even close’ to cooling red-hot US economy, investors say
+  - US bond sell-off pushes long-term yields to highest since 2004
+  - Bond ructions point to new danger zone in markets

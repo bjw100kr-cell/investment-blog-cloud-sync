@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
+    "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
+    "Blockchain Association sees leadership shift shortly after crypto Clarity Act fizzles",
     "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
-    "Bond volatility surges while bitcoin and Wall Street stay calm",
-    "Bitcoin holders are cashing out, just not the way they did at prior market tops",
-    "Altcoins rally across the board as bitcoin consolidates near $84,000",
-    "Bitcoin ETF flows turn positive for 2026 after erasing $5.8 billion deficit"
+    "OG.com seeks CFTC approval for single-stock perpetual futures"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

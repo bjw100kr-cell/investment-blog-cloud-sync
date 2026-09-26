@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-25T17:02:39.982912+00:00`
+- 생성 시각: `2026-09-26T04:30:43.871682+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,6 +25,19 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / 십자가 사건도 인신제사 아님? (몰아보기)
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Azk9h_Nkrg0! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / USA, A Place That's Out of This World (Binge-Watch)
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ZLpmE1-E6So! This is most likely caused by:
@@ -90,59 +103,45 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / The War for 6G Dominance Has Begun (Binge-Watch)
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=hfU2cwFerrM! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `bitcoin`: score 53, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 31, source_count 4, sources CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News, NYT Business
-- `treasury_yields`: score 21, source_count 7, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `china`: score 15, source_count 3, sources CNBC Top News, Financial Times World, NYT Business
+- `bitcoin`: score 43, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 28, source_count 3, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News, NYT Business
+- `treasury_yields`: score 23, source_count 6, sources CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - `oil`: score 9, source_count 2, sources Investing.com Crypto News, Reuters Markets via Google News RSS
 - `ai_semiconductors`: score 7, source_count 3, sources CNBC Top News, Financial Times YouTube, MarketWatch Breaking News
-- `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
-- `us_big_tech`: score 4, source_count 1, sources MarketWatch Breaking News
+- `us_big_tech`: score 7, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_index_flow`: score 3, source_count 1, sources Cointelegraph
+- `dollar`: score 2, source_count 1, sources MarketWatch Breaking News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 53, headlines 16
-  - Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist
-  - Bond volatility surges while bitcoin and Wall Street stay calm
-  - Bitcoin holders are cashing out, just not the way they did at prior market tops
-- `fomc`: score 31, headlines 8
+- `bitcoin`: score 43, headlines 13
+  - Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules
+  - U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week
+  - Blockchain Association sees leadership shift shortly after crypto Clarity Act fizzles
+- `fomc`: score 28, headlines 7
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 21, headlines 7
-  - Bond volatility surges while bitcoin and Wall Street stay calm
+- `treasury_yields`: score 23, headlines 8
   - Strategy seeks shareholder approval for daily preferred stock dividends
   - History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'
-- `china`: score 15, headlines 6
-  - Details on U.S.-China trade negotiations coming Monday, USTR Greer says
-  - Atlanta is getting pandas: China's Xi revives a longtime diplomatic strategy at summit with U.S.
-  - The case for talking to China is not a case for détente
+  - Soaring bond yields ‘not even close’ to cooling red-hot US economy, investors say
 - `oil`: score 9, headlines 3
   - Bitcoin cuts losses, remains muted amid rising oil and yields, hawkish Fed signals
-  - Oil prices drop about 3% as US, Iran explore path out of war - Reuters
-  - Stocks weather bond volatility, oil eases slightly - Reuters
+  - Battered bonds draw support from falling oil prices - Reuters
+  - Oil prices slide about 2% as US, Iran explore path out of war - Reuters
 - `ai_semiconductors`: score 7, headlines 3
   - U.S. appeals court upholds Pentagon designation of Anthropic as supply chain risk
   - Micron investors should get ready for a seesaw ride, analyst says
   - Silicon shadows: inside the black market for AI chips | FT Film
-- `us_big_tech`: score 4, headlines 2
+- `us_big_tech`: score 7, headlines 3
+  - Wall Street ends higher as investors buy AI stocks; Microsoft rallies - Reuters
+  - Microsoft’s stock has roared back to life, closing at its highest level of the year
   - Apple’s expensive new iPhones could be a double-edged sword for the company
-  - Tesla’s stock falls as launch of Semi truck fails to excite investors
-- `crypto_etf`: score 4, headlines 1
-  - Bitcoin ETF flows turn positive for 2026 after erasing $5.8 billion deficit
+- `us_index_flow`: score 3, headlines 1
+  - OG.com seeks CFTC approval for single-stock perpetual futures
+- `dollar`: score 2, headlines 1
+  - A ‘death cross’ is coming for the dollar. Why Trump will be happy.
