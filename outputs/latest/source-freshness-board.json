@@ -1,39 +1,56 @@
 {
-  "generated_at": "2026-09-26T16:15:24.713329+00:00",
-  "snapshot_generated_at": "2026-09-26T16:15:19.895747+00:00",
+  "generated_at": "2026-09-27T04:48:58.129364+00:00",
+  "snapshot_generated_at": "2026-09-27T04:48:53.272542+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 3,
+    "fresh": 2,
     "aging": 0,
-    "stale": 0,
+    "stale": 1,
     "unknown": 0
   },
   "items": [
     {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "quality_status": "review_before_publish",
-      "ready_now": false,
-      "publish_date": "2026-09-28",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-26T10:00:04+00:00",
-      "oldest_evidence_iso": "2026-09-26T10:00:04+00:00",
-      "newest_evidence_age_days": 0.3,
-      "source_count": 3,
-      "demand_signal_score": 2100,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Foreign capital flows into US stocks hit record as appetite for debt fades",
-      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-09-27",
+      "freshness_status": "stale",
+      "newest_evidence_iso": "2026-09-16T18:00:00+00:00",
+      "oldest_evidence_iso": "2026-07-09T19:00:00+00:00",
+      "newest_evidence_age_days": 10.5,
+      "source_count": 2,
+      "demand_signal_score": 3800,
+      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "recovery_mode": "full_refresh_needed",
+      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
       "recent_evidence": [
         {
-          "title": "Foreign capital flows into US stocks hit record as appetite for debt fades",
-          "source_name": "Financial Times Home",
-          "published": "Sat, 26 Sep 2026 10:00:04 GMT",
-          "published_iso": "2026-09-26T10:00:04+00:00",
-          "link": "https://www.ft.com/content/a1a1318b-8051-4539-a485-5a4e1d021578?syn-25a6b1a6=1",
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
           "source_type": "rss"
         }
       ]
@@ -41,17 +58,17 @@
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-09-27",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "publish_date": "2026-09-28",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-26T12:27:32+00:00",
+      "newest_evidence_iso": "2026-09-26T19:02:45+00:00",
       "oldest_evidence_iso": "2026-09-24T22:01:14+00:00",
-      "newest_evidence_age_days": 0.2,
+      "newest_evidence_age_days": 0.4,
       "source_count": 3,
       "demand_signal_score": 5400,
       "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
@@ -64,46 +81,62 @@
           "source_type": "rss"
         },
         {
+          "title": "Bitcoin consolidates below ATH in tight range: Live levels",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-09-26 19:02:45",
+          "published_iso": "2026-09-26 19:02:45",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-tests-double-top-at-82179-with-mfi-maxed-live-levels-93CH-4908352",
+          "source_type": "rss"
+        },
+        {
           "title": "Bitcoin holds near $84,000 as rising bond yields offset regulatory progress",
           "source_name": "Investing.com Crypto News",
           "published": "2026-09-26 12:27:32",
           "published_iso": "2026-09-26 12:27:32",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-near-84000-as-rising-bond-yields-offset-regulatory-progress-4918445",
           "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin coiled in $83K-$84K range, breakout brewing: Live levels",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-09-26 07:01:53",
-          "published_iso": "2026-09-26 07:01:53",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-tests-double-top-at-82179-with-mfi-maxed-live-levels-93CH-4908352",
-          "source_type": "rss"
         }
       ]
     },
     {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "keyword": "us_big_tech",
+      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
       "quality_status": "review_before_publish",
       "ready_now": false,
       "publish_date": "2026-09-29",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-26T12:00:01+00:00",
-      "oldest_evidence_iso": "2026-09-26T12:00:01+00:00",
+      "newest_evidence_iso": "2026-09-27T01:00:08+00:00",
+      "oldest_evidence_iso": "2026-09-25T09:48:00+00:00",
       "newest_evidence_age_days": 0.2,
-      "source_count": 1,
-      "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: China wants in on U.S. AI data center boom. Here's why",
+      "source_count": 3,
+      "demand_signal_score": 2100,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Amazon wades into India’s fast delivery battleground: ‘DoorDash on steroids’",
       "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "China wants in on U.S. AI data center boom. Here's why",
+          "title": "Amazon wades into India’s fast delivery battleground: ‘DoorDash on steroids’",
+          "source_name": "Financial Times World",
+          "published": "Sun, 27 Sep 2026 01:00:08 GMT",
+          "published_iso": "2026-09-27T01:00:08+00:00",
+          "link": "https://www.ft.com/content/09cf09c4-c6e1-4560-a085-f8504bc74f58?syn-25a6b1a6=1",
+          "source_type": "rss"
+        },
+        {
+          "title": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
           "source_name": "CNBC Top News",
-          "published": "Sat, 26 Sep 2026 12:00:01 GMT",
-          "published_iso": "2026-09-26T12:00:01+00:00",
-          "link": "https://www.cnbc.com/2026/09/26/china-us-ai-data-centers.html",
+          "published": "Sat, 26 Sep 2026 16:57:57 GMT",
+          "published_iso": "2026-09-26T16:57:57+00:00",
+          "link": "https://www.cnbc.com/2026/09/26/apple-taction-technology-patent-infringement-verdict.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Wall Street ends higher as investors buy AI stocks; Microsoft rallies - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Fri, 25 Sep 2026 09:48:00 GMT",
+          "published_iso": "2026-09-25T09:48:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOazZwSUsxTDltUG1palRCRG1iQnVRWFQxSGRoVFNKbnVoWExJYk13bVFFMEtkSndpTlh5eVNGYVJlTXpWSmtJZXpTVXRDazdBaUw1eFlUcjdob21NWF9hT2NNWDllOW1fc0lHdjBrQVBmeXY0ZWJLS25xdEJZMFJMUkVsa3NwRS0xSG1LUGVJVkVuSEVOVDlQR2pwWnZjRzliZXNQSTdyREhFVlBuQ185VEYxUWRab01zcThMWUtvOFI?oc=5",
           "source_type": "rss"
         }
       ]

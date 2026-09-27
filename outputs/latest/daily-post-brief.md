@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-09-26T16:15:19.895747+00:00`
+- 생성 시각: `2026-09-27T04:48:53.272542+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -33,9 +33,9 @@
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `83.0`
-- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 총점: `82.0`
+- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
@@ -54,18 +54,18 @@
   - Here’s what happened in crypto today
   - SEC Commissioner Hester Peirce to leave post on Oct. 2
 
-## 3. us_index_flow
+## 3. us_big_tech
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `69.0`
-- 점수 구성: 검색성 14 / 시의성 15 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `67.0`
+- 점수 구성: 검색성 14 / 시의성 15 / 설명가치 16 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: Cointelegraph, Financial Times Home, Financial Times World
+- 소스: CNBC Top News, Financial Times World, Reuters Markets via Google News RSS
 - 제목 후보:
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
+  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -73,18 +73,18 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - OG.com seeks CFTC approval for single-stock perpetual futures
-  - Foreign capital flows into US stocks hit record as appetite for debt fades
-  - Foreign capital flows into US stocks hit record as appetite for debt fades
+  - Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics
+  - Wall Street ends higher as investors buy AI stocks; Microsoft rallies - Reuters
+  - Amazon wades into India’s fast delivery battleground: ‘DoorDash on steroids’
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `45.0`
-- 점수 구성: 검색성 4 / 시의성 5 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News
+- 총점: `55.0`
+- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 17 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 소스: Financial Times Home, Financial Times World
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -96,16 +96,17 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - China wants in on U.S. AI data center boom. Here's why
+  - Trump and Xi to meet twice more after summit fails to resolve tensions
+  - Trump and Xi to meet twice more after summit fails to resolve tensions
 
 ## 5. treasury_yields
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `84.0`
-- 점수 구성: 검색성 22 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 총점: `83.0`
+- 점수 구성: 검색성 21 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
@@ -118,7 +119,7 @@
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
   - The 10-year Treasury yield is at its highest in nearly two decades. How we got here
+  - History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'
   - Bitcoin holds near $84,000 as rising bond yields offset regulatory progress
-  - Soaring bond yields ‘not even close’ to cooling red-hot US economy, investors say
-  - Bond ructions point to new danger zone in markets
   - Japan's bond 'falling knife' stalls repatriation rush - Reuters
+  - A 10% risk-free yield? For some, yes.

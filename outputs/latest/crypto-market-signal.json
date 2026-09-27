@@ -1,78 +1,36 @@
 {
-  "generated_at": "2026-09-26T16:15:20+00:00",
-  "status": "ok",
+  "generated_at": "2026-09-27T04:48:53+00:00",
+  "status": "degraded",
   "providers": {
     "binance_plugin": false,
     "binance_public_api": false,
-    "coingecko_public_api": true,
+    "coingecko_public_api": false,
     "alternative_fear_greed": true
   },
   "market": {
     "sentiment": "mixed",
-    "average_change_percent_24h": -0.12,
-    "tracked_quote_volume_24h": 34535875464.0,
-    "signal_strength": 2
+    "average_change_percent_24h": 0,
+    "tracked_quote_volume_24h": 0,
+    "signal_strength": 1
   },
   "fear_greed": {
-    "value": 74,
+    "value": 70,
     "label": "Greed",
     "source": "alternative.me",
-    "timestamp": "1790380800"
+    "timestamp": "1790467200"
   },
   "tickers": [
     {
-      "symbol": "BTCUSDT",
-      "keyword": "bitcoin",
-      "last_price": 84116.0,
-      "price_change_percent_24h": 0.14855,
-      "quote_volume_24h": 19220218034.0,
-      "trade_count_24h": 0,
-      "provider": "coingecko_public_api"
-    },
-    {
-      "symbol": "ETHUSDT",
-      "keyword": "ethereum",
-      "last_price": 2690.96,
-      "price_change_percent_24h": -0.06349,
-      "quote_volume_24h": 6833973424.0,
-      "trade_count_24h": 0,
-      "provider": "coingecko_public_api"
-    },
-    {
-      "symbol": "SOLUSDT",
-      "keyword": "crypto_etf",
-      "last_price": 121.68,
-      "price_change_percent_24h": 0.74058,
-      "quote_volume_24h": 3806034466.0,
-      "trade_count_24h": 0,
-      "provider": "coingecko_public_api"
-    },
-    {
-      "symbol": "XRPUSDT",
-      "keyword": "crypto_etf",
-      "last_price": 1.55,
-      "price_change_percent_24h": -2.03757,
-      "quote_volume_24h": 3192090340.0,
-      "trade_count_24h": 0,
-      "provider": "coingecko_public_api"
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "keyword": "crypto_etf",
-      "last_price": 0.098446,
-      "price_change_percent_24h": 0.47243,
-      "quote_volume_24h": 813248439.0,
-      "trade_count_24h": 0,
-      "provider": "coingecko_public_api"
-    },
-    {
-      "symbol": "BNBUSDT",
-      "keyword": "crypto_etf",
-      "last_price": 774.15,
-      "price_change_percent_24h": -0.00757,
-      "quote_volume_24h": 670310761.0,
-      "trade_count_24h": 0,
-      "provider": "coingecko_public_api"
+      "error": "HTTP Error 451: ",
+      "fallback_errors": [
+        "BTCUSDT: HTTP Error 451: ",
+        "ETHUSDT: HTTP Error 451: ",
+        "BNBUSDT: HTTP Error 451: ",
+        "SOLUSDT: HTTP Error 451: ",
+        "XRPUSDT: HTTP Error 451: ",
+        "DOGEUSDT: HTTP Error 451: "
+      ],
+      "provider": "binance_public_api"
     }
   ],
   "plugin_overview": {
@@ -89,32 +47,21 @@
   },
   "keyword_signals": {
     "bitcoin": {
-      "signal_score_bonus": 1,
+      "signal_score_bonus": 0,
       "market_signal_notes": [],
-      "tracked_symbols": [
-        "BTCUSDT"
-      ],
+      "tracked_symbols": [],
       "market_sentiment": "mixed"
     },
     "ethereum": {
-      "signal_score_bonus": 1,
+      "signal_score_bonus": 0,
       "market_signal_notes": [],
-      "tracked_symbols": [
-        "ETHUSDT"
-      ],
+      "tracked_symbols": [],
       "market_sentiment": "mixed"
     },
     "crypto_etf": {
-      "signal_score_bonus": 6,
-      "market_signal_notes": [
-        "XRPUSDT 24h change -2.04%"
-      ],
-      "tracked_symbols": [
-        "SOLUSDT",
-        "XRPUSDT",
-        "DOGEUSDT",
-        "BNBUSDT"
-      ],
+      "signal_score_bonus": 0,
+      "market_signal_notes": [],
+      "tracked_symbols": [],
       "market_sentiment": "mixed"
     }
   }
