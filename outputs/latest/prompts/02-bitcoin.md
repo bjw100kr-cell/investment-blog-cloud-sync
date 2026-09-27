@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -115,7 +115,7 @@
   "reference_headlines": [
     "Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
     "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
-    "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
+    "Riot Platforms repays $200M credit facility, releases collateral",
     "Here’s what happened in crypto today",
     "SEC Commissioner Hester Peirce to leave post on Oct. 2"
   ],
@@ -181,7 +181,7 @@
   },
   "score_breakdown": {
     "total_score": 82.0,
-    "search_score": 29,
+    "search_score": 28,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,

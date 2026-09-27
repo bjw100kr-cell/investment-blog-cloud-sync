@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-27T04:48:53.272542+00:00`
+- 생성 시각: `2026-09-27T16:51:22.202338+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,45 +106,47 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 42, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 26, source_count 2, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News
-- `treasury_yields`: score 18, source_count 5, sources CNBC Top News, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `us_big_tech`: score 9, source_count 3, sources CNBC Top News, Financial Times World, Reuters Markets via Google News RSS
-- `oil`: score 9, source_count 2, sources Investing.com Crypto News, Reuters Markets via Google News RSS
-- `china`: score 6, source_count 2, sources Financial Times Home, Financial Times World
-- `cpi`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
-- `us_index_flow`: score 3, source_count 1, sources Cointelegraph
-- `ai_semiconductors`: score 2, source_count 1, sources Financial Times YouTube
+- `bitcoin`: score 41, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 28, source_count 3, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News
+- `treasury_yields`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News
+- `oil`: score 11, source_count 3, sources Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 9, source_count 4, sources Cointelegraph, Financial Times YouTube, MarketWatch Breaking News, NYT Business
+- `us_big_tech`: score 9, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `us_index_flow`: score 8, source_count 3, sources CNBC Top News, Cointelegraph, MarketWatch Breaking News
+- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
+- `china`: score 3, source_count 1, sources Financial Times Home
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 42, headlines 13
+- `bitcoin`: score 41, headlines 13
   - Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange
   - Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules
-  - U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week
-- `fomc`: score 26, headlines 6
+  - Riot Platforms repays $200M credit facility, releases collateral
+- `fomc`: score 28, headlines 7
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 18, headlines 7
-  - The 10-year Treasury yield is at its highest in nearly two decades. How we got here
-  - History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'
-  - Bitcoin holds near $84,000 as rising bond yields offset regulatory progress
-- `oil`: score 9, headlines 3
+- `oil`: score 11, headlines 4
   - Bitcoin cuts losses, remains muted amid rising oil and yields, hawkish Fed signals
   - Battered bonds draw support from falling oil prices - Reuters
   - Oil prices slide about 2% as US, Iran explore path out of war - Reuters
+- `treasury_yields`: score 11, headlines 4
+  - Debt-hungry AI companies face increased risk as bond yields spike
+  - Bitcoin holds near $84,000 as rising bond yields offset regulatory progress
+  - Investors pursue Dubai investment group over missing payments
+- `ai_semiconductors`: score 9, headlines 4
+  - Australia asks OpenAI, Anthropic chiefs to Senate inquiry on rogue hack: Report
+  - Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth
+  - Silicon shadows: inside the black market for AI chips | FT Film
 - `us_big_tech`: score 9, headlines 3
+  - Meta's Muse agent is attacking one of the economy's most profitable weak spots
   - Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics
   - Wall Street ends higher as investors buy AI stocks; Microsoft rallies - Reuters
-  - Amazon wades into India’s fast delivery battleground: ‘DoorDash on steroids’
-- `china`: score 6, headlines 2
-  - Trump and Xi to meet twice more after summit fails to resolve tensions
-  - Trump and Xi to meet twice more after summit fails to resolve tensions
-- `cpi`: score 5, headlines 2
-  - The 10-year Treasury yield is at its highest in nearly two decades. How we got here
-  - From $6 eggs to $50,000 cars, these charts show how inflation has defined the past 5 years
-- `us_index_flow`: score 3, headlines 1
+- `us_index_flow`: score 8, headlines 3
   - OG.com seeks CFTC approval for single-stock perpetual futures
-- `ai_semiconductors`: score 2, headlines 1
-  - Silicon shadows: inside the black market for AI chips | FT Film
+  - Wall Street money takes back over from small investors as driving force of the stock market
+  - Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth
+- `ethereum`: score 4, headlines 1
+  - Vitalik Buterin maps Ethereum’s shift beyond a blockchain in sweeping 2030 vision
+- `china`: score 3, headlines 1
+  - Trump and Xi to meet twice more after summit fails to resolve tensions
