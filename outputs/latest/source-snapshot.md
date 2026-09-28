@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-27T16:51:22.202338+00:00`
+- 생성 시각: `2026-09-28T04:51:04.018376+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,47 +106,51 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 41, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 28, source_count 3, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News
-- `treasury_yields`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News
-- `oil`: score 11, source_count 3, sources Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 9, source_count 4, sources Cointelegraph, Financial Times YouTube, MarketWatch Breaking News, NYT Business
-- `us_big_tech`: score 9, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
-- `us_index_flow`: score 8, source_count 3, sources CNBC Top News, Cointelegraph, MarketWatch Breaking News
-- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
-- `china`: score 3, source_count 1, sources Financial Times Home
+- `bitcoin`: score 39, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 32, source_count 4, sources Federal Reserve Monetary Policy Press, Financial Times Home, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `oil`: score 21, source_count 4, sources CNBC Top News, Financial Times World, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `china`: score 18, source_count 3, sources CNBC Top News, Financial Times Home, Financial Times World
+- `ai_semiconductors`: score 8, source_count 3, sources CNBC Top News, Cointelegraph, NYT Business
+- `treasury_yields`: score 8, source_count 3, sources Financial Times World, Investing.com Crypto News, MarketWatch Breaking News
+- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `tariffs_trade`: score 6, source_count 2, sources Financial Times Home, Financial Times World
+- `dollar`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_index_flow`: score 4, source_count 1, sources CoinDesk RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 41, headlines 13
+- `bitcoin`: score 39, headlines 12
+  - Bitcoin, Nasdaq futures decline as Trump won’t rule out more Iran strikes
   - Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange
   - Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules
-  - Riot Platforms repays $200M credit facility, releases collateral
-- `fomc`: score 28, headlines 7
+- `fomc`: score 32, headlines 8
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `oil`: score 11, headlines 4
+- `oil`: score 21, headlines 7
+  - Brent gains 2.7% as Trump rejects Iranian proposal to reopen Hormuz Strait
   - Bitcoin cuts losses, remains muted amid rising oil and yields, hawkish Fed signals
-  - Battered bonds draw support from falling oil prices - Reuters
-  - Oil prices slide about 2% as US, Iran explore path out of war - Reuters
-- `treasury_yields`: score 11, headlines 4
-  - Debt-hungry AI companies face increased risk as bond yields spike
-  - Bitcoin holds near $84,000 as rising bond yields offset regulatory progress
-  - Investors pursue Dubai investment group over missing payments
-- `ai_semiconductors`: score 9, headlines 4
+  - Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build - Reuters
+- `china`: score 18, headlines 6
+  - Trump-Xi summit analysis: 'Tangible outcomes' needed for U.S.-China truce to hold
+  - China posts weakest industrial profit growth this year, expanding 4.2% in August
+  - US and China agree $60bn low tariff regime for goods from foie gras to camels
+- `ai_semiconductors`: score 8, headlines 3
   - Australia asks OpenAI, Anthropic chiefs to Senate inquiry on rogue hack: Report
-  - Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth
-  - Silicon shadows: inside the black market for AI chips | FT Film
-- `us_big_tech`: score 9, headlines 3
-  - Meta's Muse agent is attacking one of the economy's most profitable weak spots
-  - Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics
-  - Wall Street ends higher as investors buy AI stocks; Microsoft rallies - Reuters
-- `us_index_flow`: score 8, headlines 3
-  - OG.com seeks CFTC approval for single-stock perpetual futures
-  - Wall Street money takes back over from small investors as driving force of the stock market
-  - Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth
-- `ethereum`: score 4, headlines 1
+  - Anthropic CEO Amodei set to meet with Trump after missing state dinner
+  - Job Titles Are Out. Now We’re All ‘Members of the Technical Staff.’
+- `treasury_yields`: score 8, headlines 3
+  - Bitcoin holds near $84,000 as rising bond yields offset regulatory progress
+  - A ‘death cross’ is coming for the dollar. Why Trump will be happy.
+  - Oil price rise puts more pressure on government bonds
+- `ethereum`: score 7, headlines 2
   - Vitalik Buterin maps Ethereum’s shift beyond a blockchain in sweeping 2030 vision
-- `china`: score 3, headlines 1
-  - Trump and Xi to meet twice more after summit fails to resolve tensions
+  - THORChain under fire over Bitget, ETH evolves beyond blockchain: Hodler’s Digest
+- `tariffs_trade`: score 6, headlines 2
+  - US and China agree $60bn low tariff regime for goods from foie gras to camels
+  - US and China agree $60bn low tariff regime for goods from foie gras to camels
+- `dollar`: score 5, headlines 2
+  - Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build - Reuters
+  - A ‘death cross’ is coming for the dollar. Why Trump will be happy.
+- `us_index_flow`: score 4, headlines 1
+  - Bitcoin, Nasdaq futures decline as Trump won’t rule out more Iran strikes

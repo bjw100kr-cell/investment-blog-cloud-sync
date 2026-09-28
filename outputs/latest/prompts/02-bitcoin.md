@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bitcoin, Nasdaq futures decline as Trump won’t rule out more Iran strikes",
     "Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
     "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
-    "Riot Platforms repays $200M credit facility, releases collateral",
-    "Here’s what happened in crypto today",
-    "SEC Commissioner Hester Peirce to leave post on Oct. 2"
+    "Newsom signs California ban on public officials issuing memecoins",
+    "Riot Platforms repays $200M credit facility, releases collateral"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

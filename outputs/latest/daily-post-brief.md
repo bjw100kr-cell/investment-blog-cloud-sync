@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-09-27T16:51:22.202338+00:00`
+- 생성 시각: `2026-09-28T04:51:04.018376+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -10,8 +10,8 @@
 - 브랜드 레인: `macro` (거시경제)
 - 총점: `94.0`
 - 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 소스: Federal Reserve Monetary Policy Press, Financial Times Home, Investing.com Crypto News, Reuters Markets via Google News RSS
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -48,20 +48,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Bitcoin, Nasdaq futures decline as Trump won’t rule out more Iran strikes
   - Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange
   - Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules
+  - Newsom signs California ban on public officials issuing memecoins
   - Riot Platforms repays $200M credit facility, releases collateral
-  - Here’s what happened in crypto today
-  - SEC Commissioner Hester Peirce to leave post on Oct. 2
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `69.0`
-- 점수 구성: 검색성 13 / 시의성 17 / 설명가치 19 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Cointelegraph, Financial Times YouTube, MarketWatch Breaking News, NYT Business
+- 총점: `65.0`
+- 점수 구성: 검색성 12 / 시의성 15 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Cointelegraph, NYT Business
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -74,18 +74,17 @@
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
   - Australia asks OpenAI, Anthropic chiefs to Senate inquiry on rogue hack: Report
-  - Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth
-  - Silicon shadows: inside the black market for AI chips | FT Film
+  - Anthropic CEO Amodei set to meet with Trump after missing state dinner
   - Job Titles Are Out. Now We’re All ‘Members of the Technical Staff.’
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `45.0`
-- 점수 구성: 검색성 4 / 시의성 5 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times Home
+- 총점: `77.0`
+- 점수 구성: 검색성 21 / 시의성 18 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Financial Times Home, Financial Times World
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -97,20 +96,24 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Trump and Xi to meet twice more after summit fails to resolve tensions
+  - Trump-Xi summit analysis: 'Tangible outcomes' needed for U.S.-China truce to hold
+  - China posts weakest industrial profit growth this year, expanding 4.2% in August
+  - US and China agree $60bn low tariff regime for goods from foie gras to camels
+  - Trump asked Xi if China wanted to buy American weapons, US envoy says
+  - FirstFT: EU weighs response to Russian hybrid attacks
 
-## 5. treasury_yields
+## 5. oil
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `73.0`
-- 점수 구성: 검색성 15 / 시의성 17 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `80.0`
+- 점수 구성: 검색성 23 / 시의성 20 / 설명가치 16 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News
+- 소스: CNBC Top News, Financial Times World, Investing.com Crypto News, Reuters Markets via Google News RSS
 - 제목 후보:
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -118,7 +121,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Debt-hungry AI companies face increased risk as bond yields spike
-  - Bitcoin holds near $84,000 as rising bond yields offset regulatory progress
-  - Investors pursue Dubai investment group over missing payments
-  - Look closer, and Wall Street’s rally is showing cracks
+  - Brent gains 2.7% as Trump rejects Iranian proposal to reopen Hormuz Strait
+  - Bitcoin cuts losses, remains muted amid rising oil and yields, hawkish Fed signals
+  - Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build - Reuters
+  - Stocks slip in Asia as oil climbs, bonds retreat - Reuters
+  - Indian shares open lower as US-Iran stalemate lifts oil prices - Reuters

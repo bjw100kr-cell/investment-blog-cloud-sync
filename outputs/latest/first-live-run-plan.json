@@ -26,9 +26,9 @@
   "dry_run_summary": {
     "reason": "",
     "manifest_candidate_count": 0,
-    "processed_count": 1,
+    "processed_count": 3,
     "max_posts_per_run": 3,
-    "first_item_reason": "source_freshness_stale"
+    "first_item_reason": ""
   },
   "wordpress_dry_run_summary": {
     "reason": "WORDPRESS_SITE_URL is not set",
@@ -54,67 +54,13 @@
     "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
     "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
     "upload_sequence_hint": 1,
-    "inventory_sequence": 1
+    "inventory_sequence": 1,
+    "approved_for_upload": true,
+    "quality_pass": true,
+    "freshness_status": "fresh",
+    "freshness_pass": true
   },
-  "next_post_candidates": [
-    {
-      "inventory_type": "seo_followup",
-      "keyword": "seo_treasury_yields_7",
-      "source_keyword": "treasury_yields",
-      "title": "미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지",
-      "role": "search_demand_capture",
-      "post_type": "follow_up_analysis",
-      "ready_to_upload": true,
-      "recommended_publish_date": "2026-09-27",
-      "publish_bucket": "seo_backlog",
-      "priority_score": 109.97,
-      "search_intent": "`미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
-      "revenue_objective": "새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
-      "cta_focus": "관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국채-금리-상승-이유-지금-투자자가-확인할-체크포인트-5가지.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국채-금리-상승-이유-지금-투자자가-확인할-체크포인트-5가지.json",
-      "upload_sequence_hint": 101,
-      "inventory_sequence": 5
-    },
-    {
-      "inventory_type": "main_post",
-      "keyword": "ai_semiconductors",
-      "source_keyword": "ai_semiconductors",
-      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "role": "lane_focus_us-stocks",
-      "post_type": "breaking_explainer",
-      "ready_to_upload": true,
-      "recommended_publish_date": "2026-09-29",
-      "publish_bucket": "this_week",
-      "priority_score": 96.0,
-      "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "revenue_objective": "페이지뷰와 체류시간 균형 확보",
-      "cta_focus": "실적·공급망·대표 종목 글로 연결",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.json",
-      "upload_sequence_hint": 2,
-      "inventory_sequence": 2
-    },
-    {
-      "inventory_type": "main_post",
-      "keyword": "china",
-      "source_keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "role": "lane_focus_world-flow",
-      "post_type": "breaking_explainer",
-      "ready_to_upload": true,
-      "recommended_publish_date": "2026-09-30",
-      "publish_bucket": "this_week",
-      "priority_score": 69.0,
-      "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "revenue_objective": "페이지뷰와 체류시간 균형 확보",
-      "cta_focus": "실적·공급망·대표 종목 글로 연결",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html",
-      "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.json",
-      "upload_sequence_hint": 3,
-      "inventory_sequence": 3
-    }
-  ],
+  "next_post_candidates": [],
   "steps": [
     {
       "phase": "credentials",

@@ -1,6 +1,6 @@
 # 7일 편집 캘린더
 
-- 생성 시각: `2026-09-27T16:51:22.202338+00:00`
+- 생성 시각: `2026-09-28T04:51:04.018376+00:00`
 - 목적: stale 뉴스는 직접 발행에서 빼고, 거시경제·코인·미국주식·세계 흐름 레인을 주간 단위로 균형 있게 유지
 
 ## 레인 커버리지
@@ -12,27 +12,27 @@
 
 ## 이번 주 배치 메모
 
-- lane `macro` / keyword `treasury_yields` / mode `direct` / freshness `unknown` / target_share `0.3`
+- lane `macro` / keyword `fomc` / mode `direct` / freshness `unknown` / target_share `0.3`
 - lane `crypto` / keyword `bitcoin` / mode `direct` / freshness `fresh` / target_share `0.3`
-- lane `us-stocks` / keyword `ai_semiconductors` / mode `direct` / freshness `unknown` / target_share `0.2`
+- lane `us-stocks` / keyword `ai_semiconductors` / mode `direct` / freshness `fresh` / target_share `0.2`
 - lane `world-flow` / keyword `china` / mode `direct` / freshness `unknown` / target_share `0.2`
 
-## Day 1 · 2026-09-27 · lane_focus_macro
+## Day 1 · 2026-09-28 · lane_focus_macro
 
 - 브랜드 레인: 거시경제
 - planning_mode: direct
 - freshness_status: unknown
 - 포스트 유형: breaking_explainer
-- 타깃 키워드: treasury_yields
-- 작업 제목: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-- 글 각도: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 타깃 키워드: fomc
+- 작업 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+- 글 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News
-- 근거 소스/연결 키워드: CNBC Top News, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News
+- 내부링크 대상: Federal Reserve Monetary Policy Press, Financial Times Home, Investing.com Crypto News, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: Federal Reserve Monetary Policy Press, Financial Times Home, Investing.com Crypto News, Reuters Markets via Google News RSS
 - 발행 메모: 당일 이슈 해설형 글
 
-## Day 2 · 2026-09-28 · lane_focus_crypto
+## Day 2 · 2026-09-29 · lane_focus_crypto
 
 - 브랜드 레인: 코인
 - planning_mode: direct
@@ -45,24 +45,24 @@
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크 대상: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 근거 소스/연결 키워드: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- 발행 메모: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
+- 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
-## Day 3 · 2026-09-29 · lane_focus_us-stocks
+## Day 3 · 2026-09-30 · lane_focus_us-stocks
 
 - 브랜드 레인: 미국주식
 - planning_mode: direct
-- freshness_status: unknown
+- freshness_status: fresh
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: ai_semiconductors
 - 작업 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 글 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 글 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: Cointelegraph, Financial Times YouTube, MarketWatch Breaking News, NYT Business
-- 근거 소스/연결 키워드: Cointelegraph, Financial Times YouTube, MarketWatch Breaking News, NYT Business
-- 발행 메모: 당일 이슈 해설형 글
+- 내부링크 대상: CNBC Top News, Cointelegraph, NYT Business
+- 근거 소스/연결 키워드: CNBC Top News, Cointelegraph, NYT Business
+- 발행 메모: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
 
-## Day 4 · 2026-09-30 · lane_focus_world-flow
+## Day 4 · 2026-10-01 · lane_focus_world-flow
 
 - 브랜드 레인: 세계 흐름
 - planning_mode: direct
@@ -70,14 +70,14 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: china
 - 작업 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 글 각도: 섹터/세계 흐름 연결 해설 가능
+- 글 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: Financial Times Home
-- 근거 소스/연결 키워드: Financial Times Home
-- 발행 메모: 당일 이슈 해설형 글
+- 내부링크 대상: CNBC Top News, Financial Times Home, Financial Times World
+- 근거 소스/연결 키워드: CNBC Top News, Financial Times Home, Financial Times World
+- 발행 메모: 최근 근거 시각을 다시 수집해 신선도를 먼저 확인하세요.
 
-## Day 5 · 2026-10-01 · evergreen_support
+## Day 5 · 2026-10-02 · evergreen_support
 
 - 브랜드 레인: 거시경제
 - planning_mode: evergreen
@@ -92,7 +92,7 @@
 - 근거 소스/연결 키워드: fomc, cpi, pce, jobs, treasury_yields, dollar
 - 발행 메모: 검색 저변을 넓히는 설명형 글
 
-## Day 6 · 2026-10-02 · secondary_lane_support
+## Day 6 · 2026-10-03 · secondary_lane_support
 
 - 브랜드 레인: 코인
 - planning_mode: evergreen
@@ -107,17 +107,17 @@
 - 근거 소스/연결 키워드: dollar, treasury_yields, fomc, oil, china
 - 발행 메모: 검색 저변을 넓히는 설명형 글
 
-## Day 7 · 2026-10-03 · weekly_recap
+## Day 7 · 2026-10-04 · weekly_recap
 
 - 브랜드 레인: 거시경제
 - planning_mode: recap
 - freshness_status: mixed
 - 포스트 유형: weekly_macro_recap
-- 타깃 키워드: treasury_yields, bitcoin, ai_semiconductors
+- 타깃 키워드: fomc, bitcoin, ai_semiconductors
 - 작업 제목: 이번 주 주식·코인·거시 흐름 한 번에 정리
 - 글 각도: 상위 이슈 3개를 한 글에서 연결해 재방문 독자와 체류 시간을 늘리는 회고형 글
 - 검색 의도: 이번 주 시장 흐름을 짧게 복기하고 다음 주 포인트를 잡고 싶은 독자
 - 수익화 경로: 주간 회고형 콘텐츠로 페이지뷰 누적과 내부 링크 허브 역할
-- 내부링크 대상: treasury_yields, bitcoin, ai_semiconductors
-- 근거 소스/연결 키워드: treasury_yields, bitcoin, ai_semiconductors
+- 내부링크 대상: fomc, bitcoin, ai_semiconductors
+- 근거 소스/연결 키워드: fomc, bitcoin, ai_semiconductors
 - 발행 메모: 주간 정리형 글로 카테고리 허브 역할 수행

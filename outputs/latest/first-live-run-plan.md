@@ -33,14 +33,12 @@
 
 ## Next Candidates
 
-- `미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지` / seo_followup / score 109.97
-- `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지` / main_post / score 96.0
-- `중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유` / main_post / score 69.0
+- 다음 후보가 아직 없습니다.
 
 ## Dry Run Snapshot
 
 - blogger_reason: ``
-- blogger_first_item_reason: `source_freshness_stale`
+- blogger_first_item_reason: ``
 - wordpress_reason: `WORDPRESS_SITE_URL is not set`
 - wordpress_first_item_reason: `credentials_missing_dry_run`
 
