@@ -28,17 +28,19 @@
 - title: `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트`
 - inventory_type: `main_post`
 - publish_date: ``
-- priority_score: `124.0`
+- priority_score: `121.0`
 - cta_focus: ETF·규제·초보 가이드 글로 연결
 
 ## Next Candidates
 
-- 다음 후보가 아직 없습니다.
+- `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지` / main_post / score 89.0
+- `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유` / main_post / score 130.0
+- `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향` / seo_followup / score 129.5
 
 ## Dry Run Snapshot
 
 - blogger_reason: ``
-- blogger_first_item_reason: ``
+- blogger_first_item_reason: `source_freshness_stale`
 - wordpress_reason: `WORDPRESS_SITE_URL is not set`
 - wordpress_first_item_reason: `credentials_missing_dry_run`
 

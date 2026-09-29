@@ -1,60 +1,16 @@
 {
-  "generated_at": "2026-09-29T05:16:23.873744+00:00",
-  "snapshot_generated_at": "2026-09-29T05:16:19.023914+00:00",
+  "generated_at": "2026-09-29T18:00:49.033953+00:00",
+  "snapshot_generated_at": "2026-09-29T18:00:42.395027+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 2,
+    "fresh": 3,
     "aging": 0,
-    "stale": 1,
+    "stale": 0,
     "unknown": 0
   },
   "items": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-09-29",
-      "freshness_status": "stale",
-      "newest_evidence_iso": "2026-09-16T18:00:00+00:00",
-      "oldest_evidence_iso": "2026-07-09T19:00:00+00:00",
-      "newest_evidence_age_days": 12.5,
-      "source_count": 3,
-      "demand_signal_score": 4200,
-      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
-      "recovery_mode": "full_refresh_needed",
-      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
-      "recovery_command": "bash scripts/run_pipeline.sh",
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
     {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
@@ -62,38 +18,38 @@
       "ready_now": true,
       "publish_date": "2026-10-01",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-29T04:30:54+00:00",
-      "oldest_evidence_iso": "2026-09-29T01:48:52+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 7,
-      "demand_signal_score": 4600,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: FirstFT: Anthropic IPO filing warns of ‘existential risks’",
+      "newest_evidence_iso": "2026-09-29T11:58:36+00:00",
+      "oldest_evidence_iso": "2026-09-29T02:28:18+00:00",
+      "newest_evidence_age_days": 0.3,
+      "source_count": 2,
+      "demand_signal_score": 0,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: What’s In Anthropic’s I.P.O. Filing",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "FirstFT: Anthropic IPO filing warns of ‘existential risks’",
-          "source_name": "Financial Times World",
-          "published": "Tue, 29 Sep 2026 04:30:54 GMT",
-          "published_iso": "2026-09-29T04:30:54+00:00",
-          "link": "https://www.ft.com/content/0e851fbb-f148-46e4-906f-390b38b62a15?syn-25a6b1a6=1",
+          "title": "What’s In Anthropic’s I.P.O. Filing",
+          "source_name": "NYT Business",
+          "published": "Tue, 29 Sep 2026 11:58:36 +0000",
+          "published_iso": "2026-09-29T11:58:36+00:00",
+          "link": "https://www.nytimes.com/2026/09/29/business/dealbook/anthropic-ipo-filing-s1.html",
           "source_type": "rss"
         },
         {
           "title": "Nvidia turns to insurers to spread the risk of AI build-out",
-          "source_name": "Financial Times World",
+          "source_name": "Financial Times Home",
           "published": "Tue, 29 Sep 2026 04:04:31 GMT",
           "published_iso": "2026-09-29T04:04:31+00:00",
           "link": "https://www.ft.com/content/d6a9f5df-08d0-4f80-ad2d-5d8a17e2cc82?syn-25a6b1a6=1",
           "source_type": "rss"
         },
         {
-          "title": "Nvidia unveils AI safety platform to rein in ‘rogue’ AI agents",
-          "source_name": "Cointelegraph",
-          "published": "Tue, 29 Sep 2026 02:32:36 +0000",
-          "published_iso": "2026-09-29T02:32:36+00:00",
-          "link": "https://cointelegraph.com/news/nvidia-unveils-ai-safety-platform-to-rein-in-rogue-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Anthropic warns of ‘existential risks to humanity’ in IPO prospectus",
+          "source_name": "Financial Times Home",
+          "published": "Tue, 29 Sep 2026 02:28:18 GMT",
+          "published_iso": "2026-09-29T02:28:18+00:00",
+          "link": "https://www.ft.com/content/c7685a7e-7745-4cbc-8053-4958d0ea449b?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ]
@@ -105,38 +61,81 @@
       "ready_now": false,
       "publish_date": "2026-09-30",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-09-29T04:17:20+00:00",
-      "oldest_evidence_iso": "2026-09-28T12:13:09+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 4,
-      "demand_signal_score": 6500,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin holds $83,000 as ZEC drops 12% and oil climbs again",
+      "newest_evidence_iso": "2026-09-29T16:26:11+00:00",
+      "oldest_evidence_iso": "2026-09-29T10:14:41+00:00",
+      "newest_evidence_age_days": 0.1,
+      "source_count": 3,
+      "demand_signal_score": 5600,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin gives back gains as long-term holder supply keeps $85K out of reach",
       "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin holds $83,000 as ZEC drops 12% and oil climbs again",
-          "source_name": "CoinDesk RSS",
-          "published": "Tue, 29 Sep 2026 04:17:20 +0000",
-          "published_iso": "2026-09-29T04:17:20+00:00",
-          "link": "https://www.coindesk.com/markets/2026/09/29/bitcoin-holds-usd83-000-as-zec-drops-12-and-oil-climbs-again",
+          "title": "Bitcoin gives back gains as long-term holder supply keeps $85K out of reach",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 29 Sep 2026 16:26:11 +0000",
+          "published_iso": "2026-09-29T16:26:11+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-gives-back-gains-long-term-holder-supply-keeps-85k-out-of-reach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
+          "title": "Peter Brandt says Bitcoin may hit $600K by 2029, calls XRP a ‘fool coin’",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 29 Sep 2026 13:30:00 +0000",
+          "published_iso": "2026-09-29T13:30:00+00:00",
+          "link": "https://cointelegraph.com/magazine/peter-brandt-says-bitcoin-may-hit-600k-by-2029-calls-xrp-a-fool-coin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin ETF inflows leave institutional demand unclear: CoinShares",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 29 Sep 2026 12:40:12 +0000",
+          "published_iso": "2026-09-29T12:40:12+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-etf-mixed-read-institutional-demand-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "treasury_yields",
+      "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "publish_date": "2026-09-29",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-09-29T17:55:39+00:00",
+      "oldest_evidence_iso": "2026-09-29T10:28:51+00:00",
+      "newest_evidence_age_days": 0.0,
+      "source_count": 6,
+      "demand_signal_score": 3600,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Trump Accounts will auto-enroll children, potentially adding 60 million accounts: Treasury",
+      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Trump Accounts will auto-enroll children, potentially adding 60 million accounts: Treasury",
+          "source_name": "CNBC Top News",
+          "published": "Tue, 29 Sep 2026 17:55:39 GMT",
+          "published_iso": "2026-09-29T17:55:39+00:00",
+          "link": "https://www.cnbc.com/2026/09/29/trump-accounts-auto-enroll.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "US 30-year Treasury yield hits highest since 2002",
+          "source_name": "Financial Times Home",
+          "published": "Tue, 29 Sep 2026 17:25:41 GMT",
+          "published_iso": "2026-09-29T17:25:41+00:00",
+          "link": "https://www.ft.com/content/c8693313-7750-40c7-892a-101ab16dec70?syn-25a6b1a6=1",
+          "source_type": "rss"
+        },
+        {
+          "title": "The hidden messages the bond market is sending about the AI boom and the stock market",
           "source_name": "MarketWatch Breaking News",
-          "published": "Mon, 28 Sep 2026 22:35:00 GMT",
-          "published_iso": "2026-09-28T22:35:00+00:00",
-          "link": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "THORChain rejects Bitget request to block hacker as $6 million moves to bitcoin",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 28 Sep 2026 12:13:09 +0000",
-          "published_iso": "2026-09-28T12:13:09+00:00",
-          "link": "https://www.coindesk.com/tech/2026/09/28/thorchain-rejects-bitget-request-to-block-hacker-as-usd6-million-moves-to-bitcoin",
+          "published": "Tue, 29 Sep 2026 16:44:00 GMT",
+          "published_iso": "2026-09-29T16:44:00+00:00",
+          "link": "https://www.marketwatch.com/story/the-hidden-messages-the-bond-market-is-sending-about-the-ai-boom-and-the-stock-market-5c9495ba?mod=mw_rss_topstories",
           "source_type": "rss"
         }
       ]
