@@ -108,11 +108,13 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
-    "MarketWatch Breaking News",
+    "CNBC Top News",
     "NYT Business"
   ],
   "reference_headlines": [
-    "The U.S. and China agree to $60 billion in tariff cuts on products like dolls and fireworks. Rare earths remain a sticking point.",
+    "India readies $25 billion for Deep Tech investment as U.S. and China race ahead",
+    "China has three new criteria for humanoid robot IPOs. Few, if any, meet them",
+    "CNBC's The China Connection newsletter: Spectacle-heavy Trump-Xi summit was more about domestic messaging",
     "Two of China’s EV Makers Announce a Deal as Auto Industry Moves Toward Consolidation",
     "China and the U.S. Pledge to Cut Tariffs on $60 Billion in Goods"
   ],
@@ -177,9 +179,9 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 58.0,
-    "search_score": 8,
-    "timeliness_score": 13,
+    "total_score": 67.0,
+    "search_score": 14,
+    "timeliness_score": 16,
     "explanatory_score": 17,
     "monetization_score": 13,
     "risk_score": 7

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T19:34:09.630262+00:00",
+  "generated_at": "2026-09-29T05:16:19.023914+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -58,18 +58,18 @@
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "For once, the Fed has put Main Street before Wall Street"
+        "Bitcoin holds $83,000 as ZEC drops 12% and oil climbs again"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Financial Times World"
+        "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3800,
+      "demand_signal_score": 4200,
       "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
@@ -92,7 +92,7 @@
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -101,11 +101,11 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
+        "Bitcoin holds $83,000 as ZEC drops 12% and oil climbs again",
         "Goldman Sachs brings $100 billion Treasury fund into crypto’s institutional plumbing",
         "The restaking gold rush is over, and top protocols are barely making a profit",
         "Chainlink launches new version of its crypto bridge tech 'CCIP' to give apps more control over their security",
-        "THORChain rejects Bitget request to block hacker as $6 million moves to bitcoin",
-        "Traders aren't panicking yet despite cooling crypto sentiment"
+        "THORChain rejects Bitget request to block hacker as $6 million moves to bitcoin"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -117,7 +117,7 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 6800,
+      "demand_signal_score": 6500,
       "search_score": 29,
       "timeliness_score": 20,
       "explanatory_score": 17,
@@ -125,10 +125,10 @@
       "risk_score": 3,
       "performance_bonus": 0.0,
       "search_demand_bonus": 3,
-      "crypto_market_signal_bonus": 1,
+      "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "mixed",
       "crypto_market_signal_notes": [],
-      "total_score": 85.0,
+      "total_score": 84.0,
       "format": "crypto_analysis"
     },
     {
@@ -140,7 +140,7 @@
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -149,33 +149,37 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "OpenAI sparked Hugging Face bids with early investment offer ahead of Nvidia's $13 billion deal",
-        "Nvidia share buyback plan gets $150 billion boost",
-        "Anthropic launches cheaper AI model, its second release since CEO's call for a slowdown",
-        "Nvidia launches record $150bn share buyback",
-        "Nvidia Adds $150 Billion to Massive Stock Buyback, the Largest Ever"
+        "Nvidia unveils AI safety platform to rein in ‘rogue’ AI agents",
+        "Samsung to inject $1 billion into Nvidia- and KKR-backed AI infrastructure firm",
+        "OpenAI abandons plan to release upcoming model as safety concerns escalate",
+        "Anthropic warns of ‘existential risks to humanity’ in IPO prospectus",
+        "AMD to buy Fei-Fei Li’s AI start-up for $8bn"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
+        "Cointelegraph",
         "Financial Times Home",
-        "NYT Business"
+        "Financial Times World",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 18,
-      "timeliness_score": 18,
-      "explanatory_score": 17,
+      "demand_signal_score": 4600,
+      "search_score": 26,
+      "timeliness_score": 21,
+      "explanatory_score": 18,
       "monetization_score": 15,
-      "risk_score": 7,
+      "risk_score": 5,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
+      "search_demand_bonus": 2,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 75.0,
+      "total_score": 85.0,
       "format": "sector_analysis"
     },
     {
@@ -196,21 +200,23 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "The U.S. and China agree to $60 billion in tariff cuts on products like dolls and fireworks. Rare earths remain a sticking point.",
+        "India readies $25 billion for Deep Tech investment as U.S. and China race ahead",
+        "China has three new criteria for humanoid robot IPOs. Few, if any, meet them",
+        "CNBC's The China Connection newsletter: Spectacle-heavy Trump-Xi summit was more about domestic messaging",
         "Two of China’s EV Makers Announce a Deal as Auto Industry Moves Toward Consolidation",
         "China and the U.S. Pledge to Cut Tariffs on $60 Billion in Goods"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "MarketWatch Breaking News",
+        "CNBC Top News",
         "NYT Business"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 8,
-      "timeliness_score": 13,
+      "search_score": 14,
+      "timeliness_score": 16,
       "explanatory_score": 17,
       "monetization_score": 13,
       "risk_score": 7,
@@ -219,19 +225,19 @@
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 58.0,
+      "total_score": 67.0,
       "format": "macro_explainer"
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "oil",
       "category": "macro",
       "brand_lane": "macro",
       "title_candidates": [
-        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
-        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유",
-        "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기"
+        "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
+        "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유",
+        "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -240,34 +246,35 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "Goldman Sachs brings $100 billion Treasury fund into crypto’s institutional plumbing",
-        "AI agents could drain cheap bank deposits, Apollo's Torsten Slok warns",
-        "Crypto-friendly institution Franklin Templeton brings its tokenized collateral service to Bybit",
-        "Bitcoin holds near $84,000 as rising bond yields offset regulatory progress",
-        "Bond sell-off deepens as oil prices rise"
+        "Bitcoin holds $83,000 as ZEC drops 12% and oil climbs again",
+        "U.S., Iran hold separate mediator talks as Mideast oil exports hit war-time high",
+        "Oil price and US Treasury yields in tightest relationship since 1990",
+        "Oil prices rise for second session on continued Middle East supply concern - Reuters",
+        "Indian shares open lower near six-month lows on oil surge - Reuters"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Financial Times Home",
-        "Investing.com Crypto News",
+        "Financial Times World",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3600,
-      "search_score": 26,
-      "timeliness_score": 20,
-      "explanatory_score": 19,
-      "monetization_score": 15,
-      "risk_score": 6,
+      "demand_signal_score": 3100,
+      "search_score": 22,
+      "timeliness_score": 21,
+      "explanatory_score": 17,
+      "monetization_score": 14,
+      "risk_score": 5,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 2,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 86.0,
+      "total_score": 79.0,
       "format": "macro_explainer"
     }
   ]

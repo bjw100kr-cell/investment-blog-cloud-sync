@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-09-28T19:34:09.630262+00:00`
+- 생성 시각: `2026-09-29T05:16:19.023914+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,6 +25,13 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / The U.S. is classifying AI as a military branch? (Binge Recap)
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ldE0m5dtcdE! This is most likely caused by:
+
+The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / 2. A point that reveals Iran’s desperation
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=nvN9hBvo2eg! This is most likely caused by:
@@ -90,67 +97,53 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 2. On the subject of getting hired at your father-in-law's company
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=XIOtfYuMtFg! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `bitcoin`: score 56, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
-- `fomc`: score 26, source_count 3, sources Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World
-- `treasury_yields`: score 24, source_count 4, sources CoinDesk RSS, Financial Times Home, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `oil`: score 17, source_count 3, sources Financial Times Home, NYT Business, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 16, source_count 3, sources CNBC Top News, Financial Times Home, NYT Business
+- `bitcoin`: score 53, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
+- `ai_semiconductors`: score 34, source_count 7, sources CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 30, source_count 3, sources CoinDesk RSS, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `oil`: score 19, source_count 5, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
+- `treasury_yields`: score 17, source_count 4, sources CoinDesk RSS, Financial Times Home, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `china`: score 13, source_count 2, sources CNBC Top News, NYT Business
 - `ethereum`: score 8, source_count 1, sources CoinDesk RSS
-- `china`: score 6, source_count 2, sources MarketWatch Breaking News, NYT Business
-- `us_big_tech`: score 5, source_count 2, sources Financial Times Home, MarketWatch Breaking News
 - `dollar`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `us_index_flow`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `cpi`: score 4, source_count 1, sources CoinDesk RSS
+- `pce`: score 4, source_count 1, sources CoinDesk RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 56, headlines 17
+- `bitcoin`: score 53, headlines 16
+  - Bitcoin holds $83,000 as ZEC drops 12% and oil climbs again
   - Goldman Sachs brings $100 billion Treasury fund into crypto’s institutional plumbing
   - The restaking gold rush is over, and top protocols are barely making a profit
-  - Chainlink launches new version of its crypto bridge tech 'CCIP' to give apps more control over their security
-- `fomc`: score 26, headlines 6
+- `ai_semiconductors`: score 34, headlines 13
+  - Nvidia unveils AI safety platform to rein in ‘rogue’ AI agents
+  - Samsung to inject $1 billion into Nvidia- and KKR-backed AI infrastructure firm
+  - OpenAI abandons plan to release upcoming model as safety concerns escalate
+- `fomc`: score 30, headlines 7
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 24, headlines 7
+- `oil`: score 19, headlines 6
+  - Bitcoin holds $83,000 as ZEC drops 12% and oil climbs again
+  - U.S., Iran hold separate mediator talks as Mideast oil exports hit war-time high
+  - Oil price and US Treasury yields in tightest relationship since 1990
+- `treasury_yields`: score 17, headlines 5
   - Goldman Sachs brings $100 billion Treasury fund into crypto’s institutional plumbing
   - AI agents could drain cheap bank deposits, Apollo's Torsten Slok warns
-  - Crypto-friendly institution Franklin Templeton brings its tokenized collateral service to Bybit
-- `oil`: score 17, headlines 6
-  - Bond sell-off deepens as oil prices rise
-  - Wall St declines as oil prices, Treasury yields remain elevated - Reuters
-  - Stocks fall, squeezed by rising oil prices and Treasury yields - Reuters
-- `ai_semiconductors`: score 16, headlines 6
-  - OpenAI sparked Hugging Face bids with early investment offer ahead of Nvidia's $13 billion deal
-  - Nvidia share buyback plan gets $150 billion boost
-  - Anthropic launches cheaper AI model, its second release since CEO's call for a slowdown
+  - Bitcoin falls over 1% as risk sentiment takes a hit from bond rout, Iran tensions
+- `china`: score 13, headlines 5
+  - India readies $25 billion for Deep Tech investment as U.S. and China race ahead
+  - China has three new criteria for humanoid robot IPOs. Few, if any, meet them
+  - CNBC's The China Connection newsletter: Spectacle-heavy Trump-Xi summit was more about domestic messaging
 - `ethereum`: score 8, headlines 2
   - The restaking gold rush is over, and top protocols are barely making a profit
   - THORChain rejects Bitget request to block hacker as $6 million moves to bitcoin
-- `china`: score 6, headlines 3
-  - The U.S. and China agree to $60 billion in tariff cuts on products like dolls and fireworks. Rare earths remain a sticking point.
-  - Two of China’s EV Makers Announce a Deal as Auto Industry Moves Toward Consolidation
-  - China and the U.S. Pledge to Cut Tariffs on $60 Billion in Goods
 - `dollar`: score 5, headlines 2
-  - Dollar flat as US-Iran stand-off lifts oil, yields - Reuters
+  - Dollar holds near two-month peak as yields rise, Fed data looms - Reuters
   - ‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?
-- `us_big_tech`: score 5, headlines 2
-  - Meta launches enterprise AI business seeking to cash in on vast spending
-  - MongoDB’s stock is down nearly 20% as CEO decamps to Meta
-- `us_index_flow`: score 3, headlines 1
-  - Prediction markets' push into US stocks raises regulatory alarm bells - Reuters
+- `cpi`: score 4, headlines 1
+  - Bitcoin holds $83,000 as ZEC drops 12% and oil climbs again
+- `pce`: score 4, headlines 1
+  - Bitcoin holds $83,000 as ZEC drops 12% and oil climbs again
