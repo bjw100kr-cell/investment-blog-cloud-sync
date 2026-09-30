@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T18:00:42.395027+00:00",
+  "generated_at": "2026-09-30T05:04:10.875577+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -14,47 +14,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5600,
+      "demand_signal_score": 5400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 44,
-      "source_count": 3,
+      "source_snapshot_score": 42,
+      "source_count": 4,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Bitcoin beats gold, surge to $100,000 in play",
-        "Aave leads DeFi higher as crypto shrugs off surging bond market",
-        "Live updates: Bitcoin turns lower as rates rise, consumer confidence plunges"
-      ]
-    },
-    {
-      "keyword": "treasury_yields",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3600,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 24,
-      "source_count": 6,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Financial Times Home",
+        "Investing.com Crypto News",
         "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Aave leads DeFi higher as crypto shrugs off surging bond market",
-        "Bitcoin gives back gains as long-term holder supply keeps $85K out of reach",
-        "Trump Accounts will auto-enroll children, potentially adding 60 million accounts: Treasury"
+        "Bitcoin rally shows signs of cooling even as a 'bull score' gauge nears its perfect score",
+        "Robinhood adds AI agents, perps and weekend trading in push to win active traders",
+        "Bitcoin surging to $100,000 may be in play, after outperforming gold"
       ]
     },
     {
@@ -64,13 +39,14 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 1,
+      "source_snapshot_score": 23,
+      "source_count": 2,
       "source_names": [
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
@@ -80,28 +56,53 @@
       ]
     },
     {
-      "keyword": "oil",
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 2800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
+      "source_snapshot_score": 16,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Investing.com Crypto News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Aave leads DeFi higher as crypto shrugs off surging bond market",
+        "Hedge funds hold a record share of the $30 trillion Treasury market. What could go wrong?",
+        "30-year Treasury bond yield scales to highest level since 2002"
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2400,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 12,
       "source_count": 4,
       "source_names": [
         "CoinDesk RSS",
         "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Bitcoin is on track to shatter a major decade-long streak as September gains surge",
-        "US 30-year Treasury yield hits highest since 2002",
-        "Bond investors become oil traders as Iran war drives yields"
+        "Cboe, S&P Dow Jones may explore tokenized options contracts under extended licensing deal",
+        "AI-supercharged stock market is world’s worst in third quarter",
+        "Robinhood to allow 24-hour weekend trading of US stocks as industry shifts to wider access - Reuters"
       ]
     }
   ],

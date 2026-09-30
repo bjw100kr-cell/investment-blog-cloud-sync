@@ -1,20 +1,25 @@
 # Crypto Market Signal
 
-- 생성 시각: `2026-09-29T18:00:44+00:00`
-- 상태: `degraded`
+- 생성 시각: `2026-09-30T05:04:12+00:00`
+- 상태: `ok`
 - 시장 분위기: `mixed`
-- 추적 코인 평균 24h 변동률: `0%`
-- Fear/Greed: `73` (Greed)
+- 추적 코인 평균 24h 변동률: `0.55%`
+- Fear/Greed: `71` (Greed)
 
 ## Tracked Tickers
 
-- Binance public API error: HTTP Error 451: 
+- `BTCUSDT`: 24h `0.10%`, quote volume `28092334321`
+- `ETHUSDT`: 24h `0.15%`, quote volume `15451932896`
+- `XRPUSDT`: 24h `0.69%`, quote volume `3901403843`
+- `SOLUSDT`: 24h `1.07%`, quote volume `3645590573`
+- `BNBUSDT`: 24h `0.86%`, quote volume `884298237`
+- `DOGEUSDT`: 24h `0.44%`, quote volume `752159326`
 
 ## Keyword Signals
 
-- `bitcoin`: bonus `0`, sentiment `mixed`, symbols ``
-- `ethereum`: bonus `0`, sentiment `mixed`, symbols ``
-- `crypto_etf`: bonus `0`, sentiment `mixed`, symbols ``
+- `bitcoin`: bonus `1`, sentiment `mixed`, symbols `BTCUSDT`
+- `ethereum`: bonus `1`, sentiment `mixed`, symbols `ETHUSDT`
+- `crypto_etf`: bonus `4`, sentiment `mixed`, symbols `XRPUSDT, SOLUSDT, BNBUSDT, DOGEUSDT`
 
 ## Editorial Rule
 
