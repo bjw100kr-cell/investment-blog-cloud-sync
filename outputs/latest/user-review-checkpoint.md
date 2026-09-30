@@ -17,8 +17,8 @@
 - quality_status: `pass`
 - draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
-- freshness: `fresh` / newest evidence age `0.0` days
-- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin rally shows signs of cooling even as a 'bull score' gauge nears its perfect score
+- freshness: `fresh` / newest evidence age `0.2` days
+- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: A stronger dollar is a weaker threat to bitcoin than traders think
 - freshness_recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - next_action: 사용자 최종 확인 후 Blogger draft 업로드
 - final retention CTA: 비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.
@@ -33,5 +33,5 @@
 
 ## 다음 후보
 
-- `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / keyword `fomc` / ready `True` / quality `pass` / freshness `stale`
+- `중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유` / keyword `china` / ready `True` / quality `pass` / freshness `unknown`
   next action: 사용자 최종 확인 후 Blogger draft 업로드

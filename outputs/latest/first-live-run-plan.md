@@ -33,14 +33,12 @@
 
 ## Next Candidates
 
-- `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / main_post / score 123.0
-- `미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유` / main_post / score 111.0
-- `미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지` / seo_followup / score 110.47
+- 다음 후보가 아직 없습니다.
 
 ## Dry Run Snapshot
 
 - blogger_reason: ``
-- blogger_first_item_reason: `pre_publish_quality_gate_review`
+- blogger_first_item_reason: ``
 - wordpress_reason: `WORDPRESS_SITE_URL is not set`
 - wordpress_first_item_reason: `credentials_missing_dry_run`
 
