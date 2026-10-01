@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T17:56:31.969582+00:00",
+  "generated_at": "2026-10-01T05:18:13.031395+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -14,21 +14,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5800,
+      "demand_signal_score": 5400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 46,
-      "source_count": 3,
+      "source_snapshot_score": 42,
+      "source_count": 5,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Financial Times World",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
+        "Bitcoin's soft-inflation pop to $85,500 fades as bond yields refuse to fall",
         "Crypto industry gave $8 million to Clarity Act lobbyists who didn't close the deal",
-        "Crypto Long & Short: What will the AI agents run on?",
-        "Clock's ticking: UK's crypto regulatory application window opens with February deadline"
+        "Crypto Long & Short: What will the AI agents run on?"
       ]
     },
     {
@@ -38,48 +40,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5400,
+      "demand_signal_score": 3700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 42,
-      "source_count": 6,
+      "source_snapshot_score": 25,
+      "source_count": 3,
       "source_names": [
-        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy"
-      ]
-    },
-    {
-      "keyword": "cpi",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3300,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 21,
-      "source_count": 4,
-      "source_names": [
-        "Financial Times World",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "US inflation rises below expectations in August; consumer spending robust - reuters.com",
-        "S&P 500, Nasdaq advance as soft inflation tempers Fed rate-hike bets - reuters.com",
-        "Stocks rise, 2-year US bond yield eases after soft US inflation data - reuters.com"
       ]
     },
     {
@@ -89,22 +64,49 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2600,
+      "demand_signal_score": 3700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
-      "source_count": 4,
+      "source_snapshot_score": 25,
+      "source_count": 7,
       "source_names": [
+        "CoinDesk RSS",
+        "Financial Times Home",
         "Financial Times World",
         "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
+        "Bitcoin's soft-inflation pop to $85,500 fades as bond yields refuse to fall",
         "Bitcoin rises to $83.5k amid a fall in oil prices and a let up in Treasury yields",
-        "PODCAST: The bond hangover - reuters.com",
-        "Stocks rise, 2-year US bond yield eases after soft US inflation data - reuters.com"
+        "Global bond sell-off deepens as Asian yields jump"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3600,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 24,
+      "source_count": 7,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times World",
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": [
+        "Cardano tapped by Brazil’s state oil giant to track cleaner jet fuel and diesel",
+        "Trump 'thinking about' diesel export ban, but says it could have 'negative impact' on gasoline",
+        "Bitcoin rises to $83.5k amid a fall in oil prices and a let up in Treasury yields"
       ]
     }
   ],
