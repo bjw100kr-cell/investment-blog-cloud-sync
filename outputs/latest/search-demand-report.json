@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-02T05:06:31.388349+00:00",
+  "generated_at": "2026-10-02T17:47:17.644520+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 0,
+    "unmatched_market_trend_count": 1,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
@@ -14,22 +14,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6300,
+      "demand_signal_score": 5600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 51,
-      "source_count": 4,
+      "source_snapshot_score": 44,
+      "source_count": 3,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "SEC proposes new crypto custody rules for investment advisers and funds",
-        "Crypto for Advisors: The CLARITY Act failed, but the rules came anyway",
-        "NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues"
+        "Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%",
+        "Possible next crypto czar, Jay Clayton, began crypto's regulation-by-enforcement at SEC",
+        "U.S. added just 29,000 jobs in September, with unemployment rate rising to 4.2%"
       ]
     },
     {
@@ -39,15 +38,17 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4100,
+      "demand_signal_score": 4600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 29,
-      "source_count": 3,
+      "source_snapshot_score": 34,
+      "source_count": 5,
       "source_names": [
-        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
+        "Financial Times World",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
@@ -63,51 +64,60 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4100,
+      "demand_signal_score": 3800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 29,
-      "source_count": 7,
+      "source_snapshot_score": 26,
+      "source_count": 6,
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times Home",
         "Financial Times World",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Live updates: Bitcoin posts tentative gains as rates drop ahead of Friday's jobs report",
-        "Evernorth clears shareholder vote ahead of Nasdaq debut with 473M XRP treasury",
-        "Bitcoin reverses course, inches up to kick off Q4 as U.S. Treasury bonds rally"
+        "Live updates: Bitcoin reverses big early gains following soft U.S. jobs data",
+        "Crypto’s billions are back, but the premiums aren’t",
+        "Bitcoin briefly hits $87K as weak US jobs data sends bond yields lower"
       ]
     },
     {
-      "keyword": "china",
+      "keyword": "oil",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 2600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 5,
+      "source_snapshot_score": 14,
+      "source_count": 4,
       "source_names": [
-        "CNBC Top News",
-        "Cointelegraph",
+        "Financial Times Home",
         "Financial Times World",
         "MarketWatch Breaking News",
-        "무역킹 Trade King YouTube"
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "China warns foreign spies about crypto, Singapore dominates Asia: Asia Express",
-        "Brazil votes in high-stakes election as U.S.-China rivalry and debt loom large",
-        "Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring"
+        "US backs down from fuel export ban threat as G7 agrees to release 100mn barrels",
+        "US refiners reap windfall profits as wars push up fuel prices for consumers",
+        "Global shares gain, bonds supported as oil drops, jobs data misses expectations - Reuters"
       ]
     }
   ],
-  "unmatched_market_trends": []
+  "unmatched_market_trends": [
+    {
+      "query": "jim farley ford skilled trades ai",
+      "region": "US",
+      "approx_traffic": "2000+",
+      "traffic_score": 2000,
+      "market_relevance_score": 1,
+      "brand_identity_match": true,
+      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
+    }
+  ]
 }

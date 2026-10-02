@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-10-02T05:06:31.388349+00:00`
+- 생성 시각: `2026-10-02T17:47:17.644520+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -10,8 +10,8 @@
 - 브랜드 레인: `macro` (거시경제)
 - 총점: `94.0`
 - 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
+- 소스: Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,17 +27,16 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Trump could target three Fed governors. Removing them may be harder than it looks
+  - My mortgage is a problem for the Fed, and for America
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `87.0`
-- 점수 구성: 검색성 29 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 3
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 코인 시장 신호: BTCUSDT 24h change 2.87%
-- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 총점: `83.0`
+- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
@@ -49,20 +48,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - SEC proposes new crypto custody rules for investment advisers and funds
-  - Crypto for Advisors: The CLARITY Act failed, but the rules came anyway
-  - NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues
-  - Live updates: Bitcoin posts tentative gains as rates drop ahead of Friday's jobs report
-  - Illinois agrees to six-month delay of crypto tax as industry continues court battle
+  - Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%
+  - Possible next crypto czar, Jay Clayton, began crypto's regulation-by-enforcement at SEC
+  - U.S. added just 29,000 jobs in September, with unemployment rate rising to 4.2%
+  - Live updates: Bitcoin reverses big early gains following soft U.S. jobs data
+  - Crypto traders are in risk-on mode as bitcoin dominance nears return to 60%
 
 ## 3. us_index_flow
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `73.0`
-- 점수 구성: 검색성 15 / 시의성 18 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: Cointelegraph, MarketWatch Breaking News, NYT Business
+- 총점: `59.0`
+- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: Financial Times Home, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -74,20 +73,17 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - China warns foreign spies about crypto, Singapore dominates Asia: Asia Express
-  - Evernorth clears shareholder vote ahead of Nasdaq debut with 473M XRP treasury
-  - Here’s who’s joining the S&P 500 in the index’s latest shakeup
-  - The stock market is anything but normal right now — and these charts show it
-  - U.S. Bond Yields Hit Highest Level Since 2002
+  - Why does Anthropic’s IPO feel so weird?
+  - Nasdaq hits record high after softer jobs data tempers rate-hike bets - Reuters
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `82.0`
-- 점수 구성: 검색성 23 / 시의성 21 / 설명가치 19 / 수익성 14 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Cointelegraph, Financial Times World, MarketWatch Breaking News, 무역킹 Trade King YouTube
+- 총점: `44.0`
+- 점수 구성: 검색성 6 / 시의성 2 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 섹터/세계 흐름 연결 해설 가능
+- 소스: 무역킹 Trade King YouTube
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -99,11 +95,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - China warns foreign spies about crypto, Singapore dominates Asia: Asia Express
-  - Brazil votes in high-stakes election as U.S.-China rivalry and debt loom large
-  - Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring
-  - 2. Trump actually lost? Who says so? (US-China Summit)
   - 1. The main topic of the US-China summit was SI (US-China summit)
+  - 2. Trump actually lost? Who says so? (US-China Summit)
 
 ## 5. treasury_yields
 
@@ -111,8 +104,8 @@
 - 브랜드 레인: `macro` (거시경제)
 - 총점: `87.0`
 - 점수 구성: 검색성 26 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
-- 소스: CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- 추천 이유: 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News
 - 제목 후보:
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
@@ -124,8 +117,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Live updates: Bitcoin posts tentative gains as rates drop ahead of Friday's jobs report
-  - Evernorth clears shareholder vote ahead of Nasdaq debut with 473M XRP treasury
+  - Live updates: Bitcoin reverses big early gains following soft U.S. jobs data
+  - Crypto’s billions are back, but the premiums aren’t
+  - Bitcoin briefly hits $87K as weak US jobs data sends bond yields lower
+  - Treasury Sec. Bessent, IRS crack down on ETF strategy the wealthy are using to avoid capital gains taxes
   - Bitcoin reverses course, inches up to kick off Q4 as U.S. Treasury bonds rally
-  - Emerging markets outperform developed markets as bond rout deepens
-  - Dollar at 17-month high as global bond rout hits euro - Reuters

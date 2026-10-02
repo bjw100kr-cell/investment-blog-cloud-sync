@@ -1,11 +1,11 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-10-02T05:06:31.388349+00:00`
+- 생성 시각: `2026-10-02T17:47:17.644520+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
 - 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
@@ -70,13 +70,13 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Trump could target three Fed governors. Removing them may be harder than it looks
+  - My mortgage is a problem for the Fed, and for America
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 점수: 87.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 점수: 83.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - SEC proposes new crypto custody rules for investment advisers and funds
-  - Crypto for Advisors: The CLARITY Act failed, but the rules came anyway
-  - NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues
-  - Live updates: Bitcoin posts tentative gains as rates drop ahead of Friday's jobs report
-  - Illinois agrees to six-month delay of crypto tax as industry continues court battle
+  - Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%
+  - Possible next crypto czar, Jay Clayton, began crypto's regulation-by-enforcement at SEC
+  - U.S. added just 29,000 jobs in September, with unemployment rate rising to 4.2%
+  - Live updates: Bitcoin reverses big early gains following soft U.S. jobs data
+  - Crypto traders are in risk-on mode as bitcoin dominance nears return to 60%
 
 ## 3. us_index_flow
 
 - 추천 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 73.0
+- 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 59.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,17 +206,14 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - China warns foreign spies about crypto, Singapore dominates Asia: Asia Express
-  - Evernorth clears shareholder vote ahead of Nasdaq debut with 473M XRP treasury
-  - Here’s who’s joining the S&P 500 in the index’s latest shakeup
-  - The stock market is anything but normal right now — and these charts show it
-  - U.S. Bond Yields Hit Highest Level Since 2002
+  - Why does Anthropic’s IPO feel so weird?
+  - Nasdaq hits record high after softer jobs data tempers rate-hike bets - Reuters
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 82.0
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 44.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,8 +273,5 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - China warns foreign spies about crypto, Singapore dominates Asia: Asia Express
-  - Brazil votes in high-stakes election as U.S.-China rivalry and debt loom large
-  - Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring
-  - 2. Trump actually lost? Who says so? (US-China Summit)
   - 1. The main topic of the US-China summit was SI (US-China summit)
+  - 2. Trump actually lost? Who says so? (US-China Summit)

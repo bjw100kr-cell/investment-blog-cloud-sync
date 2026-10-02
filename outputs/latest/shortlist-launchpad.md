@@ -4,59 +4,54 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - 원칙: 먼저 글을 읽고, 그 다음 confirm command 또는 helper apply command를 실행합니다.
 - item_count: `3`
 
-## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-
-- keyword `fomc` / publish `2026-10-02` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- sample_headlines:
-  - Federal Reserve issues FOMC statement
-  - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-- recent_evidence:
-  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve issues FOMC statement
-  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Federal Reserve Monetary Policy Press | 2026-07-29T18:00:00+00:00 | Federal Reserve issues FOMC statement
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
-
-## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword `bitcoin` / publish `2026-10-03` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - sample_headlines:
-  - SEC proposes new crypto custody rules for investment advisers and funds
-  - Crypto for Advisors: The CLARITY Act failed, but the rules came anyway
-  - NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues
+  - Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%
+  - Possible next crypto czar, Jay Clayton, began crypto's regulation-by-enforcement at SEC
+  - U.S. added just 29,000 jobs in September, with unemployment rate rising to 4.2%
 - recent_evidence:
-  - Cointelegraph | 2026-10-02T04:18:43+00:00 | Core Lightning warns attackers are targeting unpatched Bitcoin nodes
-  - CoinDesk RSS | 2026-10-01T11:59:17+00:00 | Live updates: Bitcoin posts tentative gains as rates drop ahead of Friday's jobs report
-  - CoinDesk RSS | 2026-10-01T11:30:38+00:00 | Crypto lost $1.26 billion in hacks while bitcoin bulls enjoyed a monster quarter
+  - Cointelegraph | 2026-10-02T15:27:31+00:00 | Bitcoin briefly hits $87K as weak US jobs data sends bond yields lower
+  - CoinDesk RSS | 2026-10-02T11:22:40+00:00 | Live updates: Bitcoin reverses big early gains following soft U.S. jobs data
+  - CoinDesk RSS | 2026-10-02T10:31:16+00:00 | Crypto traders are in risk-on mode as bitcoin dominance nears return to 60%
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+## 2. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
-- keyword `us_index_flow` / publish `2026-10-04` / verdict `approve` / quality `review_before_publish`
-- ready_now: `False` / hero_image_selected: `True`
+- keyword `us_index_flow` / publish `2026-10-04` / verdict `approve` / quality `pass`
+- ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- why_now: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - sample_headlines:
-  - China warns foreign spies about crypto, Singapore dominates Asia: Asia Express
-  - Evernorth clears shareholder vote ahead of Nasdaq debut with 473M XRP treasury
-  - Here’s who’s joining the S&P 500 in the index’s latest shakeup
+  - Why does Anthropic’s IPO feel so weird?
+  - Nasdaq hits record high after softer jobs data tempers rate-hike bets - Reuters
 - recent_evidence:
-  - MarketWatch Breaking News | 2026-10-02T00:14:00+00:00 | Here’s who’s joining the S&P 500 in the index’s latest shakeup
-  - Cointelegraph | 2026-10-01T21:07:45+00:00 | Evernorth clears shareholder vote ahead of Nasdaq debut with 473M XRP treasury
-  - MarketWatch Breaking News | 2026-10-01T21:01:00+00:00 | The stock market is anything but normal right now — and these charts show it
+  - Reuters Markets via Google News RSS | 2026-10-02T16:09:56+00:00 | Nasdaq hits record high after softer jobs data tempers rate-hike bets - Reuters
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply`
+
+## 3. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+
+- keyword `china` / publish `2026-10-05` / verdict `approve` / quality `review_before_publish`
+- ready_now: `False` / hero_image_selected: `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- why_now: 섹터/세계 흐름 연결 해설 가능
+- sample_headlines:
+  - 1. The main topic of the US-China summit was SI (US-China summit)
+  - 2. Trump actually lost? Who says so? (US-China Summit)
+- recent_evidence:
+  - 무역킹 Trade King YouTube | 16h ago | 2. Trump actually lost? Who says so? (US-China Summit)
+  - 무역킹 Trade King YouTube | 10K | 1. The main topic of the US-China summit was SI (US-China summit)
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply`
