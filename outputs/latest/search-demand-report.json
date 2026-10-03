@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-02T17:47:17.644520+00:00",
+  "generated_at": "2026-10-03T04:49:28.225916+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 1,
+    "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
@@ -14,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5600,
+      "demand_signal_score": 6200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 44,
+      "source_snapshot_score": 50,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
+        "Bank group sues U.S. regulator over granting crypto trust charters",
         "Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%",
-        "Possible next crypto czar, Jay Clayton, began crypto's regulation-by-enforcement at SEC",
-        "U.S. added just 29,000 jobs in September, with unemployment rate rising to 4.2%"
+        "Trump’s potential AI czar, Jay Clayton, helped pioneer the SEC’s crypto crackdown"
       ]
     },
     {
@@ -43,13 +43,13 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 34,
-      "source_count": 5,
+      "source_count": 6,
       "source_names": [
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
         "Financial Times Home",
-        "Financial Times World",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "Investing.com Crypto News",
+        "NYT Business"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -64,17 +64,15 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3800,
+      "demand_signal_score": 2500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 26,
-      "source_count": 6,
+      "source_snapshot_score": 13,
+      "source_count": 3,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times World",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
@@ -84,40 +82,29 @@
       ]
     },
     {
-      "keyword": "oil",
+      "keyword": "china",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2600,
+      "demand_signal_score": 2400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
-      "source_count": 4,
+      "source_snapshot_score": 12,
+      "source_count": 3,
       "source_names": [
         "Financial Times Home",
         "Financial Times World",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
-        "US backs down from fuel export ban threat as G7 agrees to release 100mn barrels",
-        "US refiners reap windfall profits as wars push up fuel prices for consumers",
-        "Global shares gain, bonds supported as oil drops, jobs data misses expectations - Reuters"
+        "China, America and the new Great Game",
+        "2. Trump actually lost? Who says so? (US-China Summit)",
+        "1. The main topic of the US-China summit was SI (US-China summit)"
       ]
     }
   ],
-  "unmatched_market_trends": [
-    {
-      "query": "jim farley ford skilled trades ai",
-      "region": "US",
-      "approx_traffic": "2000+",
-      "traffic_score": 2000,
-      "market_relevance_score": 1,
-      "brand_identity_match": true,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    }
-  ]
+  "unmatched_market_trends": []
 }

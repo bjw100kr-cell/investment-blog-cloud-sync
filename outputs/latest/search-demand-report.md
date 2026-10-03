@@ -1,25 +1,25 @@
 # 검색 수요 신호 리포트
 
-- 생성 시각: `2026-10-02T17:47:17.644520+00:00`
+- 생성 시각: `2026-10-03T04:49:28.225916+00:00`
 - 트렌드 아이템 수: `16`
 - 매칭된 키워드 수: `4`
 - 약한 트렌드 fallback 수: `4`
 
 ## 키워드별 트렌드 수요
 
-- `bitcoin`: demand 5600 / trend_count 0 / traffic_sum 0 / regions unknown
+- `bitcoin`: demand 6200 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 44 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+  - fallback: source snapshot score 50 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `fomc`: demand 4600 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 34 / sources Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
-- `treasury_yields`: demand 3800 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 34 / sources CNBC Top News, Federal Reserve Monetary Policy Press, Financial Times Home, Investing.com Crypto News, NYT Business
+- `treasury_yields`: demand 2500 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 26 / sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times World, Investing.com Crypto News
-- `oil`: demand 2600 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 13 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `china`: demand 2400 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 14 / sources Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+  - fallback: source snapshot score 12 / sources Financial Times Home, Financial Times World, 무역킹 Trade King YouTube
 
 ## 아직 못 주운 시장성 트렌드
 
-- `jim farley ford skilled trades ai` (US): traffic 2000+ / relevance 1
+- 현재 추가 분류가 필요한 시장성 트렌드가 없음
