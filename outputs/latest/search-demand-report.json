@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T04:49:28.225916+00:00",
+  "generated_at": "2026-10-03T16:07:12.920338+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -14,21 +14,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6200,
+      "demand_signal_score": 5700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 50,
-      "source_count": 3,
+      "source_snapshot_score": 45,
+      "source_count": 4,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Bank group sues U.S. regulator over granting crypto trust charters",
-        "Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%",
-        "Trump’s potential AI czar, Jay Clayton, helped pioneer the SEC’s crypto crackdown"
+        "Crypto job postings triple to over 1,200 in September, but applications fall",
+        "Crypto's Sisyphean struggle",
+        "Bank group sues U.S. regulator over granting crypto trust charters"
       ]
     },
     {
@@ -38,47 +39,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4600,
+      "demand_signal_score": 4000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 34,
-      "source_count": 6,
+      "source_snapshot_score": 28,
+      "source_count": 4,
       "source_names": [
-        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
         "Investing.com Crypto News",
-        "NYT Business"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy"
-      ]
-    },
-    {
-      "keyword": "treasury_yields",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
-      "source_count": 3,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Live updates: Bitcoin reverses big early gains following soft U.S. jobs data",
-        "Crypto’s billions are back, but the premiums aren’t",
-        "Bitcoin briefly hits $87K as weak US jobs data sends bond yields lower"
       ]
     },
     {
@@ -88,11 +64,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2400,
+      "demand_signal_score": 2700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
+      "source_snapshot_score": 15,
       "source_count": 3,
       "source_names": [
         "Financial Times Home",
@@ -101,8 +77,31 @@
       ],
       "sample_titles": [
         "China, America and the new Great Game",
-        "2. Trump actually lost? Who says so? (US-China Summit)",
-        "1. The main topic of the US-China summit was SI (US-China summit)"
+        "China launches anti-dumping probe into European chemical exports",
+        "2. Trump actually lost? Who says so? (US-China Summit)"
+      ]
+    },
+    {
+      "keyword": "ethereum",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2300,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 11,
+      "source_count": 2,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph"
+      ],
+      "sample_titles": [
+        "Crypto job postings triple to over 1,200 in September, but applications fall",
+        "Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%",
+        "Blast to wind down Ethereum L2 after costs outpace revenue"
       ]
     }
   ],

@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+  "summary_angle": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -110,14 +110,15 @@
   "source_names": [
     "CoinDesk RSS",
     "Cointelegraph",
-    "Investing.com Crypto News"
+    "Investing.com Crypto News",
+    "MarketWatch Breaking News"
   ],
   "reference_headlines": [
+    "Crypto job postings triple to over 1,200 in September, but applications fall",
+    "Crypto's Sisyphean struggle",
     "Bank group sues U.S. regulator over granting crypto trust charters",
     "Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%",
-    "Trump’s potential AI czar, Jay Clayton, helped pioneer the SEC’s crypto crackdown",
-    "U.S. added just 29,000 jobs in September, with unemployment rate rising to 4.2%",
-    "Live updates: Bitcoin reverses big early gains following soft U.S. jobs data"
+    "Here’s what happened in crypto today"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -182,7 +183,7 @@
   "score_breakdown": {
     "total_score": 85.0,
     "search_score": 29,
-    "timeliness_score": 18,
+    "timeliness_score": 20,
     "explanatory_score": 17,
     "monetization_score": 15,
     "risk_score": 3
