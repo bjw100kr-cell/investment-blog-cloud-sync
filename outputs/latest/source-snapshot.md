@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-04T05:21:58.366218+00:00`
+- 생성 시각: `2026-10-04T16:46:44.397867+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,45 +106,40 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 43, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 26, source_count 3, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `china`: score 24, source_count 3, sources Financial Times Home, Financial Times World, 무역킹 Trade King YouTube
-- `ethereum`: score 11, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `treasury_yields`: score 8, source_count 3, sources Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `us_index_flow`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
-- `cpi`: score 4, source_count 1, sources MarketWatch Breaking News
+- `bitcoin`: score 44, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 28, source_count 4, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `china`: score 9, source_count 1, sources 무역킹 Trade King YouTube
+- `cpi`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_index_flow`: score 4, source_count 1, sources CoinDesk RSS
+- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
 - `us_big_tech`: score 3, source_count 1, sources CNBC Top News
 - `ai_semiconductors`: score 3, source_count 1, sources Financial Times Home
+- `treasury_yields`: score 2, source_count 1, sources MarketWatch Breaking News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 43, headlines 13
+- `bitcoin`: score 44, headlines 13
+  - Crypto poured years into new products. The next challenge is keeping users
+  - The Clarity Act stalled. Bankers aren’t hitting the brakes yet on crypto dealmaking
   - Crypto job postings triple to over 1,200 in September, but applications fall
-  - Crypto's Sisyphean struggle
-  - Bank group sues U.S. regulator over granting crypto trust charters
-- `fomc`: score 26, headlines 6
+- `fomc`: score 28, headlines 7
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `china`: score 24, headlines 8
-  - China closes hundreds of banks to bolster financial system
-  - Japanese and Korean shipbuilders deploy robots to take on China
-  - China launches anti-dumping probe into European chemical exports
-- `ethereum`: score 11, headlines 3
-  - Crypto job postings triple to over 1,200 in September, but applications fall
-  - Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%
-  - Blast to wind down Ethereum L2 after costs outpace revenue
-- `treasury_yields`: score 8, headlines 3
-  - Bitcoin reverses course, inches up to kick off Q4 as U.S. Treasury bonds rally
-  - Wall St Week Ahead Spiking bond yields, midterms, earnings to test US stocks' typical fourth-quarter strength - Reuters
-  - These bond strategies can help you get a safe 5% return on your cash
-- `us_index_flow`: score 7, headlines 2
-  - Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions
-  - Wall St Week Ahead Spiking bond yields, midterms, earnings to test US stocks' typical fourth-quarter strength - Reuters
-- `cpi`: score 4, headlines 2
+- `china`: score 9, headlines 3
+  - 2. Nigeria, Linked to the US-China Hegemony (Sunday School: Nigeria)
+  - 2. Trump actually lost? Who says so? (US-China Summit)
+  - 1. The main topic of the US-China summit was SI (US-China summit)
+- `cpi`: score 5, headlines 2
+  - US inflation rises below expectations in August, gives the Fed breathing space - Reuters
   - Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s
-  - Switching jobs to get higher pay works best in these industries
+- `ethereum`: score 4, headlines 1
+  - Crypto job postings triple to over 1,200 in September, but applications fall
+- `us_index_flow`: score 4, headlines 1
+  - Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions
 - `ai_semiconductors`: score 3, headlines 1
   - Wall Street’s IPO fervour cools on tepid demand and valuation worries
 - `us_big_tech`: score 3, headlines 1
-  - Tesla’s Cybercab had a rocky first month in Austin. Now comes the hard part: expanding
+  - A 'weird' IPO pull, a tainted reputation and the stalled breakout moment for AI wearables
+- `treasury_yields`: score 2, headlines 1
+  - These bond strategies can help you get a safe 5% return on your cash

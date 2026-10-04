@@ -1,11 +1,11 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-10-04T05:21:58.366218+00:00`
+- 생성 시각: `2026-10-04T16:46:44.397867+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
 - 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Crypto poured years into new products. The next challenge is keeping users
+  - The Clarity Act stalled. Bankers aren’t hitting the brakes yet on crypto dealmaking
   - Crypto job postings triple to over 1,200 in September, but applications fall
   - Crypto's Sisyphean struggle
   - Bank group sues U.S. regulator over granting crypto trust charters
-  - Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%
-  - Here’s what happened in crypto today
 
 ## 3. us_index_flow
 
 - 추천 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 59.0
+- 각도: 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 48.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -207,13 +207,12 @@
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
   - Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions
-  - Wall St Week Ahead Spiking bond yields, midterms, earnings to test US stocks' typical fourth-quarter strength - Reuters
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 83.0
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 48.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -273,8 +272,6 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - China closes hundreds of banks to bolster financial system
-  - Japanese and Korean shipbuilders deploy robots to take on China
-  - China launches anti-dumping probe into European chemical exports
   - 2. Nigeria, Linked to the US-China Hegemony (Sunday School: Nigeria)
   - 2. Trump actually lost? Who says so? (US-China Summit)
+  - 1. The main topic of the US-China summit was SI (US-China summit)

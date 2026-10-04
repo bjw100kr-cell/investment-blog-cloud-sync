@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Crypto poured years into new products. The next challenge is keeping users",
+    "The Clarity Act stalled. Bankers aren’t hitting the brakes yet on crypto dealmaking",
     "Crypto job postings triple to over 1,200 in September, but applications fall",
     "Crypto's Sisyphean struggle",
-    "Bank group sues U.S. regulator over granting crypto trust charters",
-    "Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%",
-    "Here’s what happened in crypto today"
+    "Bank group sues U.S. regulator over granting crypto trust charters"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
