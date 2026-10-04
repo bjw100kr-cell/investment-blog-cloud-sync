@@ -113,11 +113,11 @@
     "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
-    "China, America and the new Great Game",
+    "China closes hundreds of banks to bolster financial system",
+    "Japanese and Korean shipbuilders deploy robots to take on China",
     "China launches anti-dumping probe into European chemical exports",
-    "2. Trump actually lost? Who says so? (US-China Summit)",
-    "1. The main topic of the US-China summit was SI (US-China summit)",
-    "China launches anti-dumping probe into European chemical exports"
+    "2. Nigeria, Linked to the US-China Hegemony (Sunday School: Nigeria)",
+    "2. Trump actually lost? Who says so? (US-China Summit)"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -180,9 +180,9 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 73.0,
-    "search_score": 19,
-    "timeliness_score": 15,
+    "total_score": 83.0,
+    "search_score": 26,
+    "timeliness_score": 18,
     "explanatory_score": 18,
     "monetization_score": 14,
     "risk_score": 7

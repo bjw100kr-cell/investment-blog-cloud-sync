@@ -67,7 +67,7 @@
 ## ethereum: 지금 투자자가 확인할 체크포인트 5가지
 
 - source_group: `seo`
-- keyword: `seo_ethereum_7`
+- keyword: `seo_ethereum_10`
 - category: `crypto`
 - 대표 이미지: Pexels / query `crypto market blockchain abstract finance` / search https://www.pexels.com/search/crypto+market+blockchain+abstract+finance/
 - license: Pexels License / https://www.pexels.com/license/
@@ -81,7 +81,7 @@
 ## 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
 - source_group: `seo`
-- keyword: `seo_china_8`
+- keyword: `seo_china_6`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `technology stocks office finance abstract` / search https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - license: Unsplash License / https://unsplash.com/license
@@ -95,7 +95,7 @@
 ## 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 
 - source_group: `seo`
-- keyword: `seo_china_9`
+- keyword: `seo_china_8`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `technology stocks office finance abstract` / search https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - license: Unsplash License / https://unsplash.com/license
@@ -109,7 +109,7 @@
 ## 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 
 - source_group: `seo`
-- keyword: `seo_china_10`
+- keyword: `seo_china_9`
 - category: `global-sector`
 - 대표 이미지: Unsplash / query `technology stocks office finance abstract` / search https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
 - license: Unsplash License / https://unsplash.com/license
