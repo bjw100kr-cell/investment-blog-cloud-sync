@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T16:46:44.397867+00:00",
+  "generated_at": "2026-10-05T05:05:03.932623+00:00",
   "lane_order": [
     "macro",
     "crypto",
@@ -44,7 +44,7 @@
     {
       "lane": "macro",
       "target_share": 0.3,
-      "selected_keyword": "cpi",
+      "selected_keyword": "fomc",
       "selected_mode": "direct",
       "freshness_status": "unknown"
     },
@@ -72,22 +72,24 @@
   ],
   "schedule": [
     {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "slot": 1,
       "role": "lane_focus_macro",
       "post_type": "breaking_explainer",
-      "target_keyword": "cpi",
-      "working_title": "CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유",
-      "angle": "복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "target_keyword": "fomc",
+      "working_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "Federal Reserve Monetary Policy Press",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ],
       "source_basis": [
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "Federal Reserve Monetary Policy Press",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
       ],
       "publish_note": "당일 이슈 해설형 글",
       "brand_lane": "macro",
@@ -95,7 +97,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "slot": 2,
       "role": "lane_focus_crypto",
       "post_type": "breaking_explainer",
@@ -120,7 +122,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "slot": 3,
       "role": "lane_focus_us-stocks",
       "post_type": "breaking_explainer",
@@ -141,28 +143,30 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "slot": 4,
       "role": "lane_focus_world-flow",
       "post_type": "breaking_explainer",
       "target_keyword": "china",
       "working_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "angle": "섹터/세계 흐름 연결 해설 가능",
+      "angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
+        "CNBC Top News",
         "무역킹 Trade King YouTube"
       ],
       "source_basis": [
+        "CNBC Top News",
         "무역킹 Trade King YouTube"
       ],
-      "publish_note": "당일 이슈 해설형 글",
+      "publish_note": "최근 근거 시각을 다시 수집해 신선도를 먼저 확인하세요.",
       "brand_lane": "world-flow",
       "freshness_status": "unknown",
       "planning_mode": "direct"
     },
     {
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "slot": 5,
       "role": "evergreen_support",
       "post_type": "evergreen_explainer",
@@ -190,7 +194,7 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "slot": 6,
       "role": "secondary_lane_support",
       "post_type": "evergreen_explainer",
@@ -217,22 +221,22 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "slot": 7,
       "role": "weekly_recap",
       "post_type": "weekly_macro_recap",
-      "target_keyword": "cpi, bitcoin, us_index_flow",
+      "target_keyword": "fomc, bitcoin, us_index_flow",
       "working_title": "이번 주 주식·코인·거시 흐름 한 번에 정리",
       "angle": "상위 이슈 3개를 한 글에서 연결해 재방문 독자와 체류 시간을 늘리는 회고형 글",
       "search_intent": "이번 주 시장 흐름을 짧게 복기하고 다음 주 포인트를 잡고 싶은 독자",
       "monetization_path": "주간 회고형 콘텐츠로 페이지뷰 누적과 내부 링크 허브 역할",
       "internal_link_targets": [
-        "cpi",
+        "fomc",
         "bitcoin",
         "us_index_flow"
       ],
       "source_basis": [
-        "cpi",
+        "fomc",
         "bitcoin",
         "us_index_flow"
       ],

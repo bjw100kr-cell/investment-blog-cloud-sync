@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bitcoin zooms toward $87,000, nearly setting an eight-month high, then reverses",
+    "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
+    "There's an election next month: State of Crypto",
     "Crypto poured years into new products. The next challenge is keeping users",
-    "The Clarity Act stalled. Bankers aren’t hitting the brakes yet on crypto dealmaking",
-    "Crypto job postings triple to over 1,200 in September, but applications fall",
-    "Crypto's Sisyphean struggle",
-    "Bank group sues U.S. regulator over granting crypto trust charters"
+    "The Clarity Act stalled. Bankers aren’t hitting the brakes yet on crypto dealmaking"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 83.0,
-    "search_score": 29,
+    "total_score": 82.0,
+    "search_score": 28,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,
