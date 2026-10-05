@@ -1,63 +1,8 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
   "cards": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-10-05",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy"
-      ],
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
-      "hard_blocking_checks": []
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -66,36 +11,36 @@
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Bitcoin zooms toward $87,000, nearly setting an eight-month high, then reverses",
-        "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
-        "There's an election next month: State of Crypto"
+        "Crypto's campaign arm, Fairshake, sets lists of U.S. House favorites it'll spend on",
+        "U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers",
+        "Stripe to expand stablecoin cards to over 100 countries by the end of the year"
       ],
       "recent_evidence": [
         {
-          "title": "Bitcoin zooms toward $87,000, nearly setting an eight-month high, then reverses",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 05 Oct 2026 04:23:25 +0000",
-          "published_iso": "2026-10-05T04:23:25+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/05/bitcoin-zooms-toward-usd87-000-nearly-setting-an-eight-month-high-then-reverses",
-          "source_type": "rss"
-        },
-        {
-          "title": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 05 Oct 2026 03:50:29 +0000",
-          "published_iso": "2026-10-05T03:50:29+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
-          "source_type": "rss"
-        },
-        {
-          "title": "Former SEC boss made AI Czar, Bitcoin may hit $600K this cycle: Hodler’s Digest",
+          "title": "Treasury yields at 5% threaten extending Bitcoin’s best quarter since 2017",
           "source_name": "Cointelegraph",
-          "published": "Sun, 04 Oct 2026 22:31:12 +0000",
-          "published_iso": "2026-10-04T22:31:12+00:00",
-          "link": "https://cointelegraph.com/magazine/former-sec-boss-made-ai-czar-bitcoin-may-hit-600k-this-cycle-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Mon, 05 Oct 2026 16:53:08 +0000",
+          "published_iso": "2026-10-05T16:53:08+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-q3-rally-treasury-yields-fed-rate-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin price fails to break higher after best weekly close in eight months",
+          "source_name": "Cointelegraph",
+          "published": "Mon, 05 Oct 2026 15:09:57 +0000",
+          "published_iso": "2026-10-05T15:09:57+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-fails-to-break-higher-after-best-weekly-close-in-eight-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Metaplanet reveals net income strategy to fuel Bitcoin accumulation",
+          "source_name": "Cointelegraph",
+          "published": "Mon, 05 Oct 2026 13:47:17 +0000",
+          "published_iso": "2026-10-05T13:47:17+00:00",
+          "link": "https://cointelegraph.com/news/metaplanet-net-income-strategy-bitcoin-accumulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ],
@@ -114,40 +59,113 @@
       "hard_blocking_checks": []
     },
     {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "publish_date": "2026-10-07",
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "publish_date": "2026-10-08",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (중국인)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions"
+        "중국인",
+        "2. Nigeria, Linked to the US-China Hegemony (Sunday School: Nigeria)",
+        "2. Trump actually lost? Who says so? (US-China Summit)"
       ],
       "recent_evidence": [
         {
-          "title": "Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions",
-          "source_name": "CoinDesk RSS",
-          "published": "Sat, 03 Oct 2026 16:00:00 +0000",
-          "published_iso": "2026-10-03T16:00:00+00:00",
-          "link": "https://www.coindesk.com/business/2026/10/03/openpayd-targets-year-end-nasdaq-listing-to-fund-u-s-expansion-and-acquisitions",
-          "source_type": "rss"
+          "title": "2. Trump actually lost? Who says so? (US-China Summit)",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "47K",
+          "published_iso": "47K",
+          "link": "https://www.youtube.com/watch?v=2TzvRL6bbAg",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "2. Nigeria, Linked to the US-China Hegemony (Sunday School: Nigeria)",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "22K",
+          "published_iso": "22K",
+          "link": "https://www.youtube.com/watch?v=QjSdk47w6xI",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "1. The main topic of the US-China summit was SI (US-China summit)",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "18K",
+          "published_iso": "18K",
+          "link": "https://www.youtube.com/watch?v=ulXxUSqKdKQ",
+          "source_type": "youtube_channel"
         }
       ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-index-flow.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-%EB%AF%B8%EA%B5%AD-%EC%A6%9D%EC%8B%9C-%EC%A7%80%EC%88%98-%ED%9D%90%EB%A6%84-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow",
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
       "followup_commands": [
         "python3 scripts/build_platform_publish_plan.py",
         "python3 scripts/upload_blogger_drafts.py",
         "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
       ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
+      "hard_blocking_checks": []
+    },
+    {
+      "keyword": "us_big_tech",
+      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "publish_date": "2026-10-07",
+      "review_verdict": "approve",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "hero_image_selected": true,
+      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "More than 60 U.S. stocks including Nvidia and Tesla are headed onchain. Here’s how it works",
+        "Satya Nadella reinvented Microsoft once. Can he do it again in the AI era?",
+        "Microsoft’s blazing stock comeback isn’t even close to being over, analyst says"
+      ],
+      "recent_evidence": [
+        {
+          "title": "Satya Nadella reinvented Microsoft once. Can he do it again in the AI era?",
+          "source_name": "CNBC Top News",
+          "published": "Mon, 05 Oct 2026 17:40:13 GMT",
+          "published_iso": "2026-10-05T17:40:13+00:00",
+          "link": "https://www.cnbc.com/2026/10/05/satya-nadella-reinvented-microsoft-once-can-he-do-it-in-the-ai-era.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "More than 60 U.S. stocks including Nvidia and Tesla are headed onchain. Here’s how it works",
+          "source_name": "CoinDesk RSS",
+          "published": "Mon, 05 Oct 2026 17:18:14 +0000",
+          "published_iso": "2026-10-05T17:18:14+00:00",
+          "link": "https://www.coindesk.com/markets/2026/10/05/more-than-60-u-s-stocks-including-nvidia-and-tesla-are-headed-onchain-here-s-how-it-works",
+          "source_type": "rss"
+        },
+        {
+          "title": "Microsoft’s blazing stock comeback isn’t even close to being over, analyst says",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Mon, 05 Oct 2026 17:02:00 GMT",
+          "published_iso": "2026-10-05T17:02:00+00:00",
+          "link": "https://www.marketwatch.com/story/microsofts-blazing-stock-comeback-isnt-even-close-to-being-over-analyst-says-265f7b6d?mod=mw_rss_topstories",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-big-tech.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-%EB%AF%B8%EA%B5%AD-%EB%B9%85%ED%85%8C%ED%81%AC-%EC%A3%BC%EA%B0%80%EA%B0%80-%ED%9D%94%EB%93%A4%EB%A6%B4-%EB%95%8C-%ED%99%95%EC%9D%B8%ED%95%A0-%EA%B2%83-%EC%8B%A4%EC%A0%81-%EA%B8%88%EB%A6%AC-ai-%ED%88%AC%EC%9E%90.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
+      "next_action": "사용자 최종 확인 후 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply",
       "hard_blocking_checks": []
     }
   ]

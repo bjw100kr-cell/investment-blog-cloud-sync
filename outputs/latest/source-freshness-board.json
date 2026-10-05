@@ -1,87 +1,16 @@
 {
-  "generated_at": "2026-10-05T05:05:10.203553+00:00",
-  "snapshot_generated_at": "2026-10-05T05:05:03.932623+00:00",
+  "generated_at": "2026-10-05T20:30:45.406327+00:00",
+  "snapshot_generated_at": "2026-10-05T20:30:40.159133+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 2,
+    "fresh": 3,
     "aging": 0,
-    "stale": 1,
+    "stale": 0,
     "unknown": 0
   },
   "items": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-10-05",
-      "freshness_status": "stale",
-      "newest_evidence_iso": "2026-09-16T18:00:00+00:00",
-      "oldest_evidence_iso": "2026-07-09T19:00:00+00:00",
-      "newest_evidence_age_days": 18.5,
-      "source_count": 3,
-      "demand_signal_score": 3700,
-      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
-      "recovery_mode": "full_refresh_needed",
-      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
-      "recovery_command": "bash scripts/run_pipeline.sh",
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-10-07",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-10-03T16:00:00+00:00",
-      "oldest_evidence_iso": "2026-10-03T16:00:00+00:00",
-      "newest_evidence_age_days": 1.5,
-      "source_count": 1,
-      "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions",
-          "source_name": "CoinDesk RSS",
-          "published": "Sat, 03 Oct 2026 16:00:00 +0000",
-          "published_iso": "2026-10-03T16:00:00+00:00",
-          "link": "https://www.coindesk.com/business/2026/10/03/openpayd-targets-year-end-nasdaq-listing-to-fund-u-s-expansion-and-acquisitions",
-          "source_type": "rss"
-        }
-      ]
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -89,39 +18,125 @@
       "ready_now": true,
       "publish_date": "2026-10-06",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-10-05T04:23:25+00:00",
-      "oldest_evidence_iso": "2026-10-04T09:40:00+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 3,
-      "demand_signal_score": 5300,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin zooms toward $87,000, nearly setting an eight-month high, then reverses",
+      "newest_evidence_iso": "2026-10-05T16:53:08+00:00",
+      "oldest_evidence_iso": "2026-10-05T10:58:03+00:00",
+      "newest_evidence_age_days": 0.2,
+      "source_count": 5,
+      "demand_signal_score": 7200,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Treasury yields at 5% threaten extending Bitcoin’s best quarter since 2017",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin zooms toward $87,000, nearly setting an eight-month high, then reverses",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 05 Oct 2026 04:23:25 +0000",
-          "published_iso": "2026-10-05T04:23:25+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/05/bitcoin-zooms-toward-usd87-000-nearly-setting-an-eight-month-high-then-reverses",
-          "source_type": "rss"
-        },
-        {
-          "title": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 05 Oct 2026 03:50:29 +0000",
-          "published_iso": "2026-10-05T03:50:29+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
-          "source_type": "rss"
-        },
-        {
-          "title": "Former SEC boss made AI Czar, Bitcoin may hit $600K this cycle: Hodler’s Digest",
+          "title": "Treasury yields at 5% threaten extending Bitcoin’s best quarter since 2017",
           "source_name": "Cointelegraph",
-          "published": "Sun, 04 Oct 2026 22:31:12 +0000",
-          "published_iso": "2026-10-04T22:31:12+00:00",
-          "link": "https://cointelegraph.com/magazine/former-sec-boss-made-ai-czar-bitcoin-may-hit-600k-this-cycle-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Mon, 05 Oct 2026 16:53:08 +0000",
+          "published_iso": "2026-10-05T16:53:08+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-q3-rally-treasury-yields-fed-rate-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin price fails to break higher after best weekly close in eight months",
+          "source_name": "Cointelegraph",
+          "published": "Mon, 05 Oct 2026 15:09:57 +0000",
+          "published_iso": "2026-10-05T15:09:57+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-fails-to-break-higher-after-best-weekly-close-in-eight-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Metaplanet reveals net income strategy to fuel Bitcoin accumulation",
+          "source_name": "Cointelegraph",
+          "published": "Mon, 05 Oct 2026 13:47:17 +0000",
+          "published_iso": "2026-10-05T13:47:17+00:00",
+          "link": "https://cointelegraph.com/news/metaplanet-net-income-strategy-bitcoin-accumulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "us_big_tech",
+      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "publish_date": "2026-10-07",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-10-05T17:40:13+00:00",
+      "oldest_evidence_iso": "2026-10-05T10:58:03+00:00",
+      "newest_evidence_age_days": 0.1,
+      "source_count": 3,
+      "demand_signal_score": 2100,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Satya Nadella reinvented Microsoft once. Can he do it again in the AI era?",
+      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Satya Nadella reinvented Microsoft once. Can he do it again in the AI era?",
+          "source_name": "CNBC Top News",
+          "published": "Mon, 05 Oct 2026 17:40:13 GMT",
+          "published_iso": "2026-10-05T17:40:13+00:00",
+          "link": "https://www.cnbc.com/2026/10/05/satya-nadella-reinvented-microsoft-once-can-he-do-it-in-the-ai-era.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "More than 60 U.S. stocks including Nvidia and Tesla are headed onchain. Here’s how it works",
+          "source_name": "CoinDesk RSS",
+          "published": "Mon, 05 Oct 2026 17:18:14 +0000",
+          "published_iso": "2026-10-05T17:18:14+00:00",
+          "link": "https://www.coindesk.com/markets/2026/10/05/more-than-60-u-s-stocks-including-nvidia-and-tesla-are-headed-onchain-here-s-how-it-works",
+          "source_type": "rss"
+        },
+        {
+          "title": "Microsoft’s blazing stock comeback isn’t even close to being over, analyst says",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Mon, 05 Oct 2026 17:02:00 GMT",
+          "published_iso": "2026-10-05T17:02:00+00:00",
+          "link": "https://www.marketwatch.com/story/microsofts-blazing-stock-comeback-isnt-even-close-to-being-over-analyst-says-265f7b6d?mod=mw_rss_topstories",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-10-08",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-10-05T19:20:00+00:00",
+      "oldest_evidence_iso": "2026-10-05T19:20:00+00:00",
+      "newest_evidence_age_days": 0.0,
+      "source_count": 2,
+      "demand_signal_score": 300,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: 2. Trump actually lost? Who says so? (US-China Summit)",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "2. Trump actually lost? Who says so? (US-China Summit)",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "47K",
+          "published_iso": "47K",
+          "link": "https://www.youtube.com/watch?v=2TzvRL6bbAg",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "2. Nigeria, Linked to the US-China Hegemony (Sunday School: Nigeria)",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "22K",
+          "published_iso": "22K",
+          "link": "https://www.youtube.com/watch?v=QjSdk47w6xI",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "1. The main topic of the US-China summit was SI (US-China summit)",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "18K",
+          "published_iso": "18K",
+          "link": "https://www.youtube.com/watch?v=ulXxUSqKdKQ",
+          "source_type": "youtube_channel"
         }
       ]
     }

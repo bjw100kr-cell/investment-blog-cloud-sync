@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-10-05T05:05:03.932623+00:00",
+  "generated_at": "2026-10-05T20:30:40.159133+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "china",
+      "trend_count": 1,
+      "traffic_score_sum": 100,
+      "max_approx_traffic": 100,
+      "trend_queries": [
+        "중국인"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 300,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,21 +30,49 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5300,
+      "demand_signal_score": 7200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 41,
-      "source_count": 3,
+      "source_snapshot_score": 60,
+      "source_count": 5,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Crypto's campaign arm, Fairshake, sets lists of U.S. House favorites it'll spend on",
+        "U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers",
+        "Stripe to expand stablecoin cards to over 100 countries by the end of the year"
+      ]
+    },
+    {
+      "keyword": "treasury_yields",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 4000,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 28,
+      "source_count": 5,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Financial Times Home",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Bitcoin zooms toward $87,000, nearly setting an eight-month high, then reverses",
-        "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
-        "There's an election next month: State of Crypto"
+        "An XRP treasury SPAC surges nearly 300% ahead of Evernorth merger",
+        "Treasury crackdown exposes crypto's role in $2 million Hamas fundraising network",
+        "Modern Treasury seeks US trust bank charter for digital asset custody"
       ]
     },
     {
@@ -45,9 +89,9 @@
       "source_snapshot_score": 25,
       "source_count": 3,
       "source_names": [
+        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "NYT Business"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -56,51 +100,27 @@
       ]
     },
     {
-      "keyword": "china",
+      "keyword": "us_big_tech",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2400,
+      "demand_signal_score": 2100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
-      "source_count": 2,
+      "source_snapshot_score": 9,
+      "source_count": 3,
       "source_names": [
         "CNBC Top News",
-        "무역킹 Trade King YouTube"
+        "CoinDesk RSS",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "‘Unwelcome and unsafe’: Why Japanese companies are retreating from China at a historic rate",
-        "2. Nigeria, Linked to the US-China Hegemony (Sunday School: Nigeria)",
-        "2. Trump actually lost? Who says so? (US-China Summit)"
-      ]
-    },
-    {
-      "keyword": "treasury_yields",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2300,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 11,
-      "source_count": 4,
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
-      ],
-      "sample_titles": [
-        "Surging Treasury yields don’t signal a U.S. 'fiscal apocalypse' — yet",
-        "Bull run for Japan stocks at risk, warns boss of biggest trading house",
-        "Banks will lobby Healey for capital rules cut, says senior MP"
+        "More than 60 U.S. stocks including Nvidia and Tesla are headed onchain. Here’s how it works",
+        "Satya Nadella reinvented Microsoft once. Can he do it again in the AI era?",
+        "Microsoft’s blazing stock comeback isn’t even close to being over, analyst says"
       ]
     }
   ],
