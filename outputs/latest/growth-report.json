@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T05:52:02.285794+00:00",
+  "generated_at": "2026-10-06T18:16:13.481474+00:00",
   "daily_execution_targets": {
     "minimum_posts_per_day": 1,
     "ideal_posts_per_day": 2,
@@ -15,11 +15,11 @@
       "keyword": "fomc",
       "recommended_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
-      "total_score": 90.0,
+      "total_score": 92.0,
       "monetization_score": 15,
       "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "NYT Business"
+        "CoinDesk RSS",
+        "Federal Reserve Monetary Policy Press"
       ]
     },
     {
@@ -37,12 +37,13 @@
     {
       "keyword": "us_index_flow",
       "recommended_title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "reason": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
-      "total_score": 79.0,
+      "reason": "복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "total_score": 81.0,
       "monetization_score": 15,
       "source_names": [
-        "CoinDesk RSS",
         "Cointelegraph",
+        "Financial Times Home",
+        "Financial Times World",
         "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ]
@@ -59,16 +60,6 @@
       "weighted_priority_score": 16.5
     },
     {
-      "category": "global-sector",
-      "post_count": 2,
-      "keywords": [
-        "us_index_flow",
-        "china"
-      ],
-      "avg_monetization_score": 14.5,
-      "weighted_priority_score": 15.23
-    },
-    {
       "category": "macro",
       "post_count": 1,
       "keywords": [
@@ -76,6 +67,16 @@
       ],
       "avg_monetization_score": 15.0,
       "weighted_priority_score": 15.0
+    },
+    {
+      "category": "global-sector",
+      "post_count": 2,
+      "keywords": [
+        "us_index_flow",
+        "china"
+      ],
+      "avg_monetization_score": 13.5,
+      "weighted_priority_score": 14.18
     }
   ],
   "brand_lane_summary": [
@@ -113,7 +114,7 @@
       "keywords": [
         "china"
       ],
-      "avg_monetization_score": 14.0
+      "avg_monetization_score": 12.0
     }
   ],
   "query_watchlist": [],
@@ -127,7 +128,7 @@
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "fomc",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,
@@ -135,7 +136,7 @@
       "angle": "무료 Google Trends 급상승 쿼리 기반으로 먼저 잡은 수요 신호"
     },
     {
-      "keyword": "fomc",
+      "keyword": "treasury_yields",
       "trend_queries": [],
       "trend_count": 0,
       "traffic_score_sum": 0,

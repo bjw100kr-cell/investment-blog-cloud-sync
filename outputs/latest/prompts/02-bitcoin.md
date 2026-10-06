@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "U.S. scraps proposed $10,000 reporting rule for for crypto sent to private wallets",
-    "Bitcoin keeps getting rejected at $87,000 as stocks hover near records",
-    "Crypto's campaign arm, Fairshake, sets lists of U.S. House favorites it'll spend on",
-    "U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers",
-    "Stripe to expand stablecoin cards to over 100 countries by the end of the year"
+    "Peter Thiel-backed Founders Fund leads a $5 million token buy in crypto collateral protocol Anvil",
+    "Crypto is expanding the boundaries of what can be priced",
+    "OKX draws investment from StanChart, Circle, Ripple as it pushes beyond crypto exchange roots",
+    "Self-styled 'Godfather' gets 6 years in prison for $37 million Meta fraud scheme",
+    "The VIX of bonds is rising but bitcoin and stocks aren't hearing it yet"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

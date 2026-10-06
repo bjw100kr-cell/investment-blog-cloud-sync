@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-10-06T05:52:02.285794+00:00`
+- 생성 시각: `2026-10-06T18:16:13.481474+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 90.0
+- 점수: 92.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,7 +70,7 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - High Interest Rates Aren’t Slowing the A.I. Boom. That’s a Problem for the Fed.
+  - Live updates: Bitcoin remains locked in range as stocks notch another new record high
 
 ## 2. bitcoin
 
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - U.S. scraps proposed $10,000 reporting rule for for crypto sent to private wallets
-  - Bitcoin keeps getting rejected at $87,000 as stocks hover near records
-  - Crypto's campaign arm, Fairshake, sets lists of U.S. House favorites it'll spend on
-  - U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers
-  - Stripe to expand stablecoin cards to over 100 countries by the end of the year
+  - Peter Thiel-backed Founders Fund leads a $5 million token buy in crypto collateral protocol Anvil
+  - Crypto is expanding the boundaries of what can be priced
+  - OKX draws investment from StanChart, Circle, Ripple as it pushes beyond crypto exchange roots
+  - Self-styled 'Godfather' gets 6 years in prison for $37 million Meta fraud scheme
+  - The VIX of bonds is rising but bitcoin and stocks aren't hearing it yet
 
 ## 3. us_index_flow
 
 - 추천 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 79.0
+- 각도: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 81.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,17 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bitcoin keeps getting rejected at $87,000 as stocks hover near records
-  - S&P Global brings risk assessments to growing crypto lending vault sector
-  - Trading Day: Nasdaq highs, Brazil surprise - Reuters
-  - Nasdaq notches record high close as investors focus on earnings - Reuters
-  - This rare stock-market divide means an elevated chance of a big surge — or a deep plunge
+  - Bitcoin grinds toward $87K as US equities hit new record highs
+  - Former German spy chief arrested for treason
+  - S&P 500 hits record high as AI stocks shrug off bond market slump
+  - S&P 500, Nasdaq hit record highs as Treasury yields stall, oil slips - Reuters
+  - These 5 chip stocks are cheaper than the S&P 500 — and offer faster growth
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 67.0
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 47.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,8 +276,6 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - 4. Why the Outcome of the Talks Differs (U.S.-China Summit)
+  - 3. They may have smiled to each other, but China’s true intentions... (US-China Summit)
   - 2. Nigeria, Linked to the US-China Hegemony (Sunday School: Nigeria)
-  - 2. Trump actually lost? Who says so? (US-China Summit)
-  - 1. The main topic of the US-China summit was SI (US-China summit)
-  - This new AI model could help America close a technological gap with China
-  - The Hidden Policies That Power China’s Export Boom

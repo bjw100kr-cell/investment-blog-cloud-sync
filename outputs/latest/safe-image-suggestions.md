@@ -67,7 +67,7 @@
 ## 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지
 
 - source_group: `seo`
-- keyword: `seo_treasury_yields_7`
+- keyword: `seo_treasury_yields_9`
 - category: `macro`
 - 대표 이미지: Unsplash / query `central bank finance city skyline market data` / search https://unsplash.com/s/photos/central+bank+finance+city+skyline+market+data
 - license: Unsplash License / https://unsplash.com/license
