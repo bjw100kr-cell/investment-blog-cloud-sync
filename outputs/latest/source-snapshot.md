@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-05T20:30:40.159133+00:00`
+- 생성 시각: `2026-10-06T05:52:02.285794+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,51 +106,51 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 60, source_count 5, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `treasury_yields`: score 28, source_count 5, sources CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `fomc`: score 25, source_count 3, sources Cointelegraph, Federal Reserve Monetary Policy Press, NYT Business
-- `china`: score 15, source_count 2, sources Google Trends KR, 무역킹 Trade King YouTube
-- `us_big_tech`: score 9, source_count 3, sources CNBC Top News, CoinDesk RSS, MarketWatch Breaking News
-- `cpi`: score 8, source_count 3, sources Financial Times Home, Financial Times World, NYT Business
-- `oil`: score 7, source_count 3, sources Financial Times World, MarketWatch Breaking News, NYT Business
-- `us_index_flow`: score 6, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 4, source_count 1, sources CoinDesk RSS
-- `dollar`: score 3, source_count 1, sources Financial Times Home
+- `bitcoin`: score 44, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `treasury_yields`: score 28, source_count 5, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `fomc`: score 22, source_count 2, sources Federal Reserve Monetary Policy Press, NYT Business
+- `us_index_flow`: score 15, source_count 4, sources CoinDesk RSS, Cointelegraph, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `china`: score 13, source_count 3, sources MarketWatch Breaking News, NYT Business, 무역킹 Trade King YouTube
+- `ai_semiconductors`: score 8, source_count 2, sources CoinDesk RSS, MarketWatch Breaking News
+- `us_big_tech`: score 6, source_count 2, sources CoinDesk RSS, MarketWatch Breaking News
+- `dollar`: score 6, source_count 2, sources Cointelegraph, Financial Times Home
+- `cpi`: score 5, source_count 2, sources Financial Times Home, NYT Business
+- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 60, headlines 18
+- `bitcoin`: score 44, headlines 13
+  - U.S. scraps proposed $10,000 reporting rule for for crypto sent to private wallets
+  - Bitcoin keeps getting rejected at $87,000 as stocks hover near records
   - Crypto's campaign arm, Fairshake, sets lists of U.S. House favorites it'll spend on
-  - U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers
-  - Stripe to expand stablecoin cards to over 100 countries by the end of the year
 - `treasury_yields`: score 28, headlines 9
-  - An XRP treasury SPAC surges nearly 300% ahead of Evernorth merger
-  - Treasury crackdown exposes crypto's role in $2 million Hamas fundraising network
-  - Modern Treasury seeks US trust bank charter for digital asset custody
-- `fomc`: score 25, headlines 6
+  - Bitcoin keeps getting rejected at $87,000 as stocks hover near records
+  - OKX eyes emerging markets with yield-offering stablecoin savings and payments app
+  - FinCEN withdraws proposed crypto mixing rule over ‘legitimate activity’ concerns
+- `fomc`: score 22, headlines 5
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `china`: score 15, headlines 4
-  - 중국인
+- `us_index_flow`: score 15, headlines 5
+  - Bitcoin keeps getting rejected at $87,000 as stocks hover near records
+  - S&P Global brings risk assessments to growing crypto lending vault sector
+  - Trading Day: Nasdaq highs, Brazil surprise - Reuters
+- `china`: score 13, headlines 5
   - 2. Nigeria, Linked to the US-China Hegemony (Sunday School: Nigeria)
   - 2. Trump actually lost? Who says so? (US-China Summit)
-- `us_big_tech`: score 9, headlines 3
+  - 1. The main topic of the US-China summit was SI (US-China summit)
+- `ai_semiconductors`: score 8, headlines 3
   - More than 60 U.S. stocks including Nvidia and Tesla are headed onchain. Here’s how it works
-  - Satya Nadella reinvented Microsoft once. Can he do it again in the AI era?
+  - The case for Nvidia’s stock to march even higher after clinching its first record high in months
+  - This new AI model could help America close a technological gap with China
+- `dollar`: score 6, headlines 2
+  - OKX eyes emerging markets with yield-offering stablecoin savings and payments app
+  - How AI could scupper the dollar
+- `us_big_tech`: score 6, headlines 2
+  - More than 60 U.S. stocks including Nvidia and Tesla are headed onchain. Here’s how it works
   - Microsoft’s blazing stock comeback isn’t even close to being over, analyst says
-- `cpi`: score 8, headlines 3
-  - Trump poised to ease red diesel limits in attempt to quell fuel inflation
-  - Trump poised to ease red diesel limits in attempt to quell fuel inflation
+- `cpi`: score 5, headlines 2
+  - Trump eases red diesel limits in attempt to quell fuel inflation
   - High Interest Rates Aren’t Slowing the A.I. Boom. That’s a Problem for the Fed.
-- `oil`: score 7, headlines 3
-  - Saudi Aramco’s CEO may be too downbeat about the road to restocking global oil supplies
-  - Big Oil goes to US Supreme Court over pivotal climate damages claim
-  - Burst of Attacks in Gulf Heightens Fears Over Fragile Energy Trade
-- `us_index_flow`: score 6, headlines 2
-  - S&P Global brings risk assessments to growing crypto lending vault sector
-  - Nasdaq hits record high as investors focus on earnings - Reuters
-- `ai_semiconductors`: score 4, headlines 1
-  - More than 60 U.S. stocks including Nvidia and Tesla are headed onchain. Here’s how it works
-- `dollar`: score 3, headlines 1
-  - Euro slides to 17-month low against dollar
+- `ethereum`: score 4, headlines 1
+  - Ethereum’s Glamsterdam test gets last-minute fix before major capacity jump

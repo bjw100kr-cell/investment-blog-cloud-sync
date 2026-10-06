@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-10-05T20:30:43.801821+00:00`
+- generated_at: `2026-10-06T05:52:05.556498+00:00`
 
 ## seo_treasury_yields_7
 
@@ -11,7 +11,7 @@
 - meta_description: 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
 - follow_up_post_count: 2
 
-## seo_china_10
+## seo_china_11
 
 - ready: True
 - reason: ok
