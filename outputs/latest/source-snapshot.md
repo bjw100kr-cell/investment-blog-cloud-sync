@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-06T18:16:13.481474+00:00`
+- 생성 시각: `2026-10-07T05:24:37.349027+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -100,52 +100,53 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 49, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 24, source_count 2, sources CoinDesk RSS, Federal Reserve Monetary Policy Press
-- `treasury_yields`: score 24, source_count 4, sources Financial Times Home, Financial Times World, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `us_index_flow`: score 17, source_count 5, sources Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `oil`: score 12, source_count 3, sources CNBC Top News, Financial Times Home, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 10, source_count 4, sources CNBC Top News, Financial Times World, MarketWatch Breaking News, NYT Business
-- `china`: score 9, source_count 1, sources 무역킹 Trade King YouTube
-- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `bitcoin`: score 38, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `oil`: score 23, source_count 7, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `us_index_flow`: score 16, source_count 6, sources Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `china`: score 15, source_count 3, sources CNBC Top News, Financial Times Home, 무역킹 Trade King YouTube
+- `dollar`: score 11, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
+- `ethereum`: score 8, source_count 1, sources CoinDesk RSS
+- `treasury_yields`: score 8, source_count 3, sources Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
 - `us_big_tech`: score 6, source_count 2, sources CoinDesk RSS, NYT Business
-- `dollar`: score 4, source_count 1, sources CoinDesk RSS
+- `ai_semiconductors`: score 5, source_count 2, sources Financial Times Home, NYT Business
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 49, headlines 14
+- `bitcoin`: score 38, headlines 11
+  - Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks
   - Peter Thiel-backed Founders Fund leads a $5 million token buy in crypto collateral protocol Anvil
   - Crypto is expanding the boundaries of what can be priced
-  - OKX draws investment from StanChart, Circle, Ripple as it pushes beyond crypto exchange roots
-- `treasury_yields`: score 24, headlines 8
-  - Bitcoin hovers under $86k as traders parse positive CFTC move against bond rout
-  - The bond market turns on France
-  - S&P 500 hits record high as AI stocks shrug off bond market slump
-- `fomc`: score 24, headlines 5
+- `oil`: score 23, headlines 8
+  - Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks
+  - Oil rises as concerns over Houthi attacks on Saudi Arabia eclipse supply recovery
+  - Bitcoin dips as oil turns higher, countering bond rout halt and regulatory hopes
+- `fomc`: score 23, headlines 5
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `us_index_flow`: score 17, headlines 6
-  - Bitcoin grinds toward $87K as US equities hit new record highs
-  - Former German spy chief arrested for treason
-  - S&P 500 hits record high as AI stocks shrug off bond market slump
-- `oil`: score 12, headlines 4
-  - Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks
-  - Vitol chief warns of tanker shortage and risk of $200-a-barrel oil
-  - S&P 500, Nasdaq hit record highs as Treasury yields stall, oil slips - Reuters
-- `ai_semiconductors`: score 10, headlines 4
-  - Anthropic expands Claude Startups program in bid to snag founders and fast-growing companies
-  - These 5 chip stocks are cheaper than the S&P 500 — and offer faster growth
-  - Silicon Valley’s acqui-hire ruse may have passed its prime
-- `china`: score 9, headlines 3
+- `us_index_flow`: score 16, headlines 6
+  - Winklevoss-backed Zcash ETF files with SEC for Nasdaq listing
+  - Robust AI spending sets investors up for another bumper US earnings season
+  - S&P 500, Nasdaq reach record closing highs as focus pivots to earnings - Reuters
+- `china`: score 15, headlines 5
+  - DeepSeek considers doubling latest funding round to up to $15 billion, sources say
+  - The taxman comes for China’s offshore riches
   - 4. Why the Outcome of the Talks Differs (U.S.-China Summit)
-  - 3. They may have smiled to each other, but China’s true intentions... (US-China Summit)
-  - 2. Nigeria, Linked to the US-China Hegemony (Sunday School: Nigeria)
-- `ethereum`: score 7, headlines 2
+- `dollar`: score 11, headlines 3
+  - Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks
   - Arbitrum joins Paxos-led stablecoin group Global Dollar to capture digital dollar growth
-  - Ethereum’s Glamsterdam upgrade launches on Sepolia testnet
+  - Dollar holds losses as markets await Fed minutes, speakers - Reuters
+- `treasury_yields`: score 8, headlines 3
+  - UK names 6 banks to lead first digitally native government bond
+  - Bitcoin dips as oil turns higher, countering bond rout halt and regulatory hopes
+  - The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue
+- `ethereum`: score 8, headlines 2
+  - Pudgy Penguins’ Abstract becomes second Ethereum layer 2 to shut in a week
+  - Arbitrum joins Paxos-led stablecoin group Global Dollar to capture digital dollar growth
 - `us_big_tech`: score 6, headlines 2
   - Self-styled 'Godfather' gets 6 years in prison for $37 million Meta fraud scheme
   - Emmy Awards Move to Prime Video in Six-Year Deal With Amazon
-- `dollar`: score 4, headlines 1
-  - Arbitrum joins Paxos-led stablecoin group Global Dollar to capture digital dollar growth
+- `ai_semiconductors`: score 5, headlines 2
+  - SpaceX looks to raise $40bn to buy Nvidia chips in financing led by Apollo
+  - A New Open-Weight Challenger to Anthropic, Reflection, Emerges
