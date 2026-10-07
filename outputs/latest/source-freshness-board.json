@@ -1,60 +1,16 @@
 {
-  "generated_at": "2026-10-07T05:24:42.706068+00:00",
-  "snapshot_generated_at": "2026-10-07T05:24:37.349027+00:00",
+  "generated_at": "2026-10-07T18:48:47.117466+00:00",
+  "snapshot_generated_at": "2026-10-07T18:48:41.786808+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 2,
+    "fresh": 3,
     "aging": 0,
-    "stale": 1,
+    "stale": 0,
     "unknown": 0
   },
   "items": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-10-07",
-      "freshness_status": "stale",
-      "newest_evidence_iso": "2026-09-16T18:00:00+00:00",
-      "oldest_evidence_iso": "2026-07-09T19:00:00+00:00",
-      "newest_evidence_age_days": 20.5,
-      "source_count": 2,
-      "demand_signal_score": 3500,
-      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
-      "recovery_mode": "full_refresh_needed",
-      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
-      "recovery_command": "bash scripts/run_pipeline.sh",
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -62,81 +18,116 @@
       "ready_now": true,
       "publish_date": "2026-10-08",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-10-07T04:00:51+00:00",
-      "oldest_evidence_iso": "2026-10-06T19:20:27+00:00",
-      "newest_evidence_age_days": 0.1,
-      "source_count": 4,
-      "demand_signal_score": 5000,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks",
+      "newest_evidence_iso": "2026-10-07T15:06:14+00:00",
+      "oldest_evidence_iso": "2026-10-06T21:46:48+00:00",
+      "newest_evidence_age_days": 0.2,
+      "source_count": 3,
+      "demand_signal_score": 4800,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin price drops to $82.7K October low as bond sell-off resumes on Iran nerves",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks",
-          "source_name": "CoinDesk RSS",
-          "published": "Wed, 07 Oct 2026 04:00:51 +0000",
-          "published_iso": "2026-10-07T04:00:51+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/07/bitcoin-dips-below-usd84-000-as-oil-jumps-on-iranian-tanker-attacks",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin.de trading remains halted as German regulator rejects MiCA application",
+          "title": "Bitcoin price drops to $82.7K October low as bond sell-off resumes on Iran nerves",
           "source_name": "Cointelegraph",
-          "published": "Wed, 07 Oct 2026 01:48:53 +0000",
-          "published_iso": "2026-10-07T01:48:53+00:00",
-          "link": "https://cointelegraph.com/news/bitcoinde-trading-remains-halted-as-german-regulator-rejects-mica-application?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Wed, 07 Oct 2026 15:06:14 +0000",
+          "published_iso": "2026-10-07T15:06:14+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-drops-to-827k-october-low-as-bond-sell-off-resumes-on-iran-nerves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin dips as oil turns higher, countering bond rout halt and regulatory hopes",
+          "title": "Bitcoin drops to $83k amid pressure from rising oil prices, yields",
           "source_name": "Investing.com Crypto News",
-          "published": "2026-10-06 21:46:48",
-          "published_iso": "2026-10-06 21:46:48",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-steadies-at-855k-as-soaring-yields-offset-regulatory-hopes-4933454",
+          "published": "2026-10-07 13:52:32",
+          "published_iso": "2026-10-07 13:52:32",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-drops-to-84k-amid-pressure-from-rising-oil-prices-yields-4935676",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin falls as Iran attacks, oil surge fuel rate fears; crypto stocks slip",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-10-07 10:52:38",
+          "published_iso": "2026-10-07 10:52:38",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-as-iran-attacks-oil-surge-fuel-rate-fears-crypto-stocks-slip-4936200",
           "source_type": "rss"
         }
       ]
     },
     {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-10-09",
+      "publish_date": "2026-10-10",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-10-07T03:22:43+00:00",
-      "oldest_evidence_iso": "2026-10-06T10:27:00+00:00",
-      "newest_evidence_age_days": 0.1,
-      "source_count": 6,
-      "demand_signal_score": 2800,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: How Trump’s Tariff War With Canada Ensnared the Can-Am Spyder",
+      "newest_evidence_iso": "2026-10-07T18:32:55+00:00",
+      "oldest_evidence_iso": "2026-10-07T09:06:15+00:00",
+      "newest_evidence_age_days": 0.0,
+      "source_count": 4,
+      "demand_signal_score": 3200,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: 3. They may have smiled to each other, but China’s true intentions... (US-China Summit)",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "How Trump’s Tariff War With Canada Ensnared the Can-Am Spyder",
-          "source_name": "NYT Business",
-          "published": "Wed, 07 Oct 2026 03:22:43 +0000",
-          "published_iso": "2026-10-07T03:22:43+00:00",
-          "link": "https://www.nytimes.com/2026/10/06/business/canada-tariffs-can-am-spyder.html",
+          "title": "3. They may have smiled to each other, but China’s true intentions... (US-China Summit)",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "46K",
+          "published_iso": "46K",
+          "link": "https://www.youtube.com/watch?v=7osSkPODi7E",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "4. Why the Outcome of the Talks Differs (U.S.-China Summit)",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "23K",
+          "published_iso": "23K",
+          "link": "https://www.youtube.com/watch?v=N9DORLp4ZpA",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level",
+          "source_name": "CNBC Top News",
+          "published": "Wed, 07 Oct 2026 18:32:55 GMT",
+          "published_iso": "2026-10-07T18:32:55+00:00",
+          "link": "https://www.cnbc.com/2026/10/07/supertanker-from-us-to-china-chartered-for-76-million-source.html",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "publish_date": "2026-10-09",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-10-07T18:34:31+00:00",
+      "oldest_evidence_iso": "2026-10-07T18:22:00+00:00",
+      "newest_evidence_age_days": 0.0,
+      "source_count": 4,
+      "demand_signal_score": 0,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
+      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
+          "source_name": "CNBC Top News",
+          "published": "Wed, 07 Oct 2026 18:34:31 GMT",
+          "published_iso": "2026-10-07T18:34:31+00:00",
+          "link": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html",
           "source_type": "rss"
         },
         {
-          "title": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue",
+          "title": "SpaceX may chase ‘stunning’ AI returns by taking on a lot of debt to buy Nvidia chips",
           "source_name": "MarketWatch Breaking News",
-          "published": "Tue, 06 Oct 2026 21:52:00 GMT",
-          "published_iso": "2026-10-06T21:52:00+00:00",
-          "link": "https://www.marketwatch.com/story/the-s-p-500-is-back-in-record-territory-as-the-magnificent-seven-ride-to-the-rescue-e062724d?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "S&P 500 Hits Record High Amid Rising Interest Rates and Elevated Oil Prices",
-          "source_name": "NYT Business",
-          "published": "Tue, 06 Oct 2026 21:12:30 +0000",
-          "published_iso": "2026-10-06T21:12:30+00:00",
-          "link": "https://www.nytimes.com/2026/10/06/business/stock-market-record.html",
+          "published": "Wed, 07 Oct 2026 18:22:00 GMT",
+          "published_iso": "2026-10-07T18:22:00+00:00",
+          "link": "https://www.marketwatch.com/story/spacex-reportedly-is-looking-to-raise-as-much-money-as-the-company-generates-in-revenue-to-buy-nvidia-chips-01ca6d82?mod=mw_rss_topstories",
           "source_type": "rss"
         }
       ]
