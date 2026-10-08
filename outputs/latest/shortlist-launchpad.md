@@ -9,7 +9,7 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `fomc` / publish `2026-10-08` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
+- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
 - sample_headlines:
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
@@ -28,15 +28,15 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `bitcoin` / publish `2026-10-09` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
 - sample_headlines:
-  - Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report
-  - Crypto news site Cointelegraph seeks buyer after web traffic plunges
-  - Wells Fargo in talks with Kraken parent Payward for crypto trading liquidity
+  - Crypto crumbles as anniversary of flash crash nears
+  - U.S. government moves $1 billion in bitcoin from Bitfinex hack wallet, no sale indicated
+  - EU securities regulator gives crypto platforms 3 months to remove unauthorized stablecoins
 - recent_evidence:
-  - CoinDesk RSS | 2026-10-08T04:00:07+00:00 | Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report
-  - Investing.com Crypto News | 2026-10-07 21:50:27 | Bitcoin falls to $83k amid pressure from Fed minutes, oil prices, and yields
-  - Investing.com Crypto News | 2026-10-07 19:19:11 | Bitcoin breaks below 20/50-SMA, eyes $81K support: Live levels
+  - Cointelegraph | 2026-10-08T15:55:55+00:00 | Bitcoin nears 3-week low as oil heads higher on Iran strike woes
+  - CoinDesk RSS | 2026-10-08T15:43:04+00:00 | U.S. government moves $1 billion in bitcoin from Bitfinex hack wallet, no sale indicated
+  - Cointelegraph | 2026-10-08T15:24:16+00:00 | US government moves $1B in seized Bitcoin after $770M transfers
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
@@ -47,15 +47,15 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `ai_semiconductors` / publish `2026-10-10` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- why_now: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
 - sample_headlines:
-  - Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand
-  - Anthropic will be 'most ridiculous IPO' of year, analyst says
-  - Microsoft and Nvidia are teaming up on a supercharged AI laptop
+  - Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report
+  - Nvidia-backed Iambic Therapeutics launches IPO as biotechs buck market gloom - Reuters
+  - TSMC's third-quarter revenue surges to record, beating market forecast - Reuters
 - recent_evidence:
-  - Financial Times World | 2026-10-08T04:44:09+00:00 | Samsung profit surges ninefold to $80bn on AI chip demand
-  - CNBC Top News | 2026-10-08T00:51:23+00:00 | Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand
-  - CNBC Top News | 2026-10-07T22:29:41+00:00 | Anthropic will be 'most ridiculous IPO' of year, analyst says
+  - CNBC Top News | 2026-10-08T18:18:31+00:00 | Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report
+  - Reuters Markets via Google News RSS | 2026-10-08T18:08:59+00:00 | Nvidia-backed Iambic Therapeutics launches IPO as biotechs buck market gloom - Reuters
+  - Financial Times Home | 2026-10-08T17:49:28+00:00 | Starbucks has explored takeover of Chipotle in restaurant megadeal
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`

@@ -1,11 +1,11 @@
 # Traffic Amplification Plan
 
 - 목표 방문자: `200`
-- 기본 예상 방문자: `339`
+- 기본 예상 방문자: `324`
 - 실행 전 배포 추가 예상 방문자: `0`
 - 수동 실행 시 추가 잠재 방문자: `1200`
-- 실행 전 배포 포함 예상 방문자: `339`
-- 수동 실행 시 잠재 방문자: `1539`
+- 실행 전 배포 포함 예상 방문자: `324`
+- 수동 실행 시 잠재 방문자: `1524`
 - 남은 부족분: `0`
 - 상태: `amplification_plan_ready_manual_execution_required`
 
@@ -372,7 +372,7 @@ bitcoin 후속 글 후보: bitcoin 후속 글 1개를 먼저 생성하거나, �
 
 - keyword: `china`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
-- base_search_estimate: `89`
+- base_search_estimate: `76`
 - amplification_expected_before_execution: `0`
 - amplification_potential_if_executed: `75`
 - manual_execution_required: `True`
@@ -548,7 +548,7 @@ china 후속 글 후보: 중국 변수와 시장 영향 관련 대표 종목 한
 
 - keyword: `ai_semiconductors`
 - public_url: `missing`
-- base_search_estimate: `60`
+- base_search_estimate: `58`
 - amplification_expected_before_execution: `0`
 - amplification_potential_if_executed: `0`
 - manual_execution_required: `True`
@@ -562,7 +562,7 @@ china 후속 글 후보: 중국 변수와 시장 영향 관련 대표 종목 한
 - task: 본문 상단과 하단에 같은 클러스터 후속 글 2개를 popular reads로 노출
 
 ```text
-AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 읽은 뒤 바로 이어볼 글: 관련 허브 글과 최신 검색수요 글 2개
+AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 읽은 뒤 바로 이어볼 글: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 ```
 
 ### publish_plus_10m / x_threads_or_short_social / potential `10` / blocked `public_url_missing`

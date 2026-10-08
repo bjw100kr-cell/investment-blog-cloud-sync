@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-10-08T05:33:21.334180+00:00`
+- 생성 시각: `2026-10-08T18:46:38.094336+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -10,8 +10,8 @@
 - 브랜드 레인: `macro` (거시경제)
 - 총점: `94.0`
 - 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,15 +27,16 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Fed officials see another hike coming, but no sign as to when, minutes show
+  - Inflation on many everyday items was entirely due to tariffs, NY Fed says
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `82.0`
-- 점수 구성: 검색성 28 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 1
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 총점: `85.0`
+- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 3
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
+- 코인 시장 신호: BTCUSDT 24h change -2.24%
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
@@ -48,20 +49,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report
-  - Crypto news site Cointelegraph seeks buyer after web traffic plunges
-  - Wells Fargo in talks with Kraken parent Payward for crypto trading liquidity
-  - Gate bets all-in-one money app is crypto’s biggest consumer trend this year and next
-  - Crypto Long & Short: Zcash and the case for privacy in the age of AI
+  - Crypto crumbles as anniversary of flash crash nears
+  - U.S. government moves $1 billion in bitcoin from Bitfinex hack wallet, no sale indicated
+  - EU securities regulator gives crypto platforms 3 months to remove unauthorized stablecoins
+  - Crypto for Advisors: Digital assets outran stocks and gold in Q3
+  - ‘Bunker mode’ is a far greater challenge for institutions than individual crypto holders
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `71.0`
-- 점수 구성: 검색성 14 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times World, MarketWatch Breaking News
+- 총점: `63.0`
+- 점수 구성: 검색성 11 / 시의성 13 / 설명가치 17 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -73,19 +74,18 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand
-  - Anthropic will be 'most ridiculous IPO' of year, analyst says
-  - Microsoft and Nvidia are teaming up on a supercharged AI laptop
-  - Samsung profit surges ninefold to $80bn on AI chip demand
+  - Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report
+  - Nvidia-backed Iambic Therapeutics launches IPO as biotechs buck market gloom - Reuters
+  - TSMC's third-quarter revenue surges to record, beating market forecast - Reuters
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `83.0`
-- 점수 구성: 검색성 26 / 시의성 18 / 설명가치 18 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times Home, Financial Times World, 무역킹 Trade King YouTube
+- 총점: `62.0`
+- 점수 구성: 검색성 17 / 시의성 7 / 설명가치 18 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 소스: Financial Times Home, 무역킹 Trade King YouTube
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -97,24 +97,24 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - China races to build AI data centres across energy-rich hinterland
-  - 4. Why the Outcome of the Talks Differs (U.S.-China Summit)
+  - China races to build data centres in bid for AI supremacy
+  - 130 Million People Disappeared? The Shocking Twist for India, Once Hailed as the Next China
+  - So, what was the outcome of the US-China summit? (Recap)
   - 6. Why does the U.S. intervene in other countries? (U.S.-China Summit)
   - 5. Is there something China isn't revealing? (US-China Summit)
-  - 3. They may have smiled to each other, but China’s true intentions... (US-China Summit)
 
-## 5. treasury_yields
+## 5. oil
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `85.0`
-- 점수 구성: 검색성 24 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `80.0`
+- 점수 구성: 검색성 23 / 시의성 21 / 설명가치 17 / 수익성 14 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- 소스: CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 소스: CNBC Top News, Cointelegraph, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -122,8 +122,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report
-  - Big investors ‘bottom fish’ in Eurozone bond markets after France sell-off
-  - Wall Street ends lower, off record highs, as Treasury yields climb - Reuters
-  - Investors pick new darlings and duds as selloff rocks Europe's bond market - Reuters
-  - Rising yields are quietly crashing the stock market’s earlier winners of 2026
+  - Bitcoin nears 3-week low as oil heads higher on Iran strike woes
+  - Trump says U.S. will not attack Iran before midterm election
+  - Oil prices jump as Iran steps up tanker attacks, hurricane threatens U.S. Gulf production
+  - Bitcoin falls to $83k amid pressure from Fed minutes, oil prices, and yields
+  - Wall St slips as climbing oil, yields amplify inflation fears - Reuters

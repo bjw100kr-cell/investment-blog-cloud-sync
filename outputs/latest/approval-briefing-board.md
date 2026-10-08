@@ -13,14 +13,14 @@
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
-- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
-- evidence score: demand `4800` / fallback `source_snapshot_rank` / format `macro_explainer`
-- source_names: CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- evidence score: demand `3800` / fallback `source_snapshot_rank` / format `macro_explainer`
+- source_names: CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News
 - sample_headlines:
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Fed officials see another hike coming, but no sign as to when, minutes show
+  - Inflation on many everyday items was entirely due to tariffs, NY Fed says
 - recent_evidence:
   - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve issues FOMC statement
   - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
@@ -103,7 +103,7 @@
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 주요 참고 소스: CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News
 - 발행 전 재확인: FOMC 성명서 원문 날짜와 발표 시각 확인
 - 발행 전 재확인: 점도표/경제전망 최신 버전 확인
 - 발행 전 재확인: 달러, 미국채 금리, 나스닥 관련 수치 재확인
@@ -127,23 +127,23 @@
 
 ## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-10-09` / priority `121.0`
+- keyword `bitcoin` / publish `2026-10-09` / priority `124.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
-- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- evidence score: demand `5300` / fallback `source_snapshot_rank` / format `crypto_analysis`
+- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
+- evidence score: demand `6000` / fallback `source_snapshot_rank` / format `crypto_analysis`
 - source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - sample_headlines:
-  - Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report
-  - Crypto news site Cointelegraph seeks buyer after web traffic plunges
-  - Wells Fargo in talks with Kraken parent Payward for crypto trading liquidity
-  - Gate bets all-in-one money app is crypto’s biggest consumer trend this year and next
+  - Crypto crumbles as anniversary of flash crash nears
+  - U.S. government moves $1 billion in bitcoin from Bitfinex hack wallet, no sale indicated
+  - EU securities regulator gives crypto platforms 3 months to remove unauthorized stablecoins
+  - Crypto for Advisors: Digital assets outran stocks and gold in Q3
 - recent_evidence:
-  - CoinDesk RSS | 2026-10-08T04:00:07+00:00 | Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report
-  - Investing.com Crypto News | 2026-10-07 21:50:27 | Bitcoin falls to $83k amid pressure from Fed minutes, oil prices, and yields
-  - Investing.com Crypto News | 2026-10-07 19:19:11 | Bitcoin breaks below 20/50-SMA, eyes $81K support: Live levels
-  - Investing.com Crypto News | 2026-10-07 10:52:38 | Bitcoin falls as Iran attacks, oil surge fuel rate fears; crypto stocks slip
+  - Cointelegraph | 2026-10-08T15:55:55+00:00 | Bitcoin nears 3-week low as oil heads higher on Iran strike woes
+  - CoinDesk RSS | 2026-10-08T15:43:04+00:00 | U.S. government moves $1 billion in bitcoin from Bitfinex hack wallet, no sale indicated
+  - Cointelegraph | 2026-10-08T15:24:16+00:00 | US government moves $1B in seized Bitcoin after $770M transfers
+  - CoinDesk RSS | 2026-10-08T14:03:20+00:00 | Over 6 million bitcoin sit behind exposed public keys as AI warnings mount
 - image_slots:
   - 대표 이미지 / Pexels / `bitcoin blockchain abstract blue finance` / Pexels License
   - 본문 보조 이미지 / Unsplash / `crypto market data abstract` / Unsplash License
@@ -167,13 +167,13 @@
 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+예를 들어 `Crypto crumbles as anniversary of flash crash nears` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Crypto crumbles as anniversary of flash crash nears`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `현물 ETF 순유입/순유출`, 다른 하나는 `달러 인덱스와 미국채 금리`입니다.
 한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -245,23 +245,22 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword `ai_semiconductors` / publish `2026-10-10` / priority `98.0`
+- keyword `ai_semiconductors` / publish `2026-10-10` / priority `90.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
-- reason: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- reason: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
 - evidence score: demand `0` / fallback `mapped_candidate` / format `sector_analysis`
-- source_names: CNBC Top News, Financial Times World, MarketWatch Breaking News
+- source_names: CNBC Top News, Reuters Markets via Google News RSS
 - sample_headlines:
-  - Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand
-  - Anthropic will be 'most ridiculous IPO' of year, analyst says
-  - Microsoft and Nvidia are teaming up on a supercharged AI laptop
-  - Samsung profit surges ninefold to $80bn on AI chip demand
+  - Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report
+  - Nvidia-backed Iambic Therapeutics launches IPO as biotechs buck market gloom - Reuters
+  - TSMC's third-quarter revenue surges to record, beating market forecast - Reuters
 - recent_evidence:
-  - Financial Times World | 2026-10-08T04:44:09+00:00 | Samsung profit surges ninefold to $80bn on AI chip demand
-  - CNBC Top News | 2026-10-08T00:51:23+00:00 | Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand
-  - CNBC Top News | 2026-10-07T22:29:41+00:00 | Anthropic will be 'most ridiculous IPO' of year, analyst says
-  - MarketWatch Breaking News | 2026-10-07T19:12:00+00:00 | Microsoft and Nvidia are teaming up on a supercharged AI laptop
+  - CNBC Top News | 2026-10-08T18:18:31+00:00 | Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report
+  - Reuters Markets via Google News RSS | 2026-10-08T18:08:59+00:00 | Nvidia-backed Iambic Therapeutics launches IPO as biotechs buck market gloom - Reuters
+  - Financial Times Home | 2026-10-08T17:49:28+00:00 | Starbucks has explored takeover of Chipotle in restaurant megadeal
+  - Reuters Markets via Google News RSS | 2026-10-08T05:39:00+00:00 | TSMC's third-quarter revenue surges to record, beating market forecast - Reuters
 - image_slots:
   - 대표 이미지 / Unsplash / `semiconductor chip blue abstract` / Unsplash License
   - 본문 보조 이미지 / Pexels / `ai server data center abstract` / Pexels License
@@ -285,13 +284,13 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 해외 주요 매체 보도를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+예를 들어 `Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `나스닥과 S&P500 상대 강도`, 다른 하나는 `미국채 10년물 금리`입니다.
 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -339,7 +338,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, Financial Times World, MarketWatch Breaking News
+- 주요 참고 소스: CNBC Top News, Reuters Markets via Google News RSS
 - 발행 전 재확인: 기업 실적/가이던스 수치 원문 확인
 - 발행 전 재확인: 반도체 섹터 전반 일반화 과장 여부 점검
 - 발행 전 재확인: 대표 종목 티커와 실적 날짜 재확인

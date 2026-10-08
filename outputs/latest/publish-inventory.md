@@ -1,10 +1,10 @@
 # 발행 재고판
 
-- 생성 시각: `2026-10-08T05:33:24.694992+00:00`
-- 전체 발행 후보: `8`
-- 업로드 가능 글 수: `8`
+- 생성 시각: `2026-10-08T18:46:41.060225+00:00`
+- 전체 발행 후보: `7`
+- 업로드 가능 글 수: `7`
 - 메인 글 수: `4`
-- SEO 후속 글 수: `4`
+- SEO 후속 글 수: `3`
 
 ## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
@@ -27,7 +27,7 @@
 - role/type: lane_focus_crypto / breaking_explainer
 - ready_to_upload: True
 - publish_date: 2026-10-09 / bucket: tomorrow
-- priority_score: 121.0
+- priority_score: 124.0
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - search_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - cta_focus: ETF·규제·초보 가이드 글로 연결
@@ -40,7 +40,7 @@
 - role/type: lane_focus_world-flow / breaking_explainer
 - ready_to_upload: True
 - publish_date: 2026-10-11 / bucket: this_week
-- priority_score: 117.0
+- priority_score: 95.0
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - search_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - cta_focus: 실적·공급망·대표 종목 글로 연결
@@ -53,7 +53,7 @@
 - role/type: lane_focus_us-stocks / breaking_explainer
 - ready_to_upload: True
 - publish_date: 2026-10-10 / bucket: this_week
-- priority_score: 98.0
+- priority_score: 90.0
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - search_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - cta_focus: 실적·공급망·대표 종목 글로 연결
@@ -61,12 +61,12 @@
 ## 5. 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
 - inventory_type: seo_followup
-- keyword: seo_china_6
+- keyword: seo_china_8
 - source_keyword: china
 - role/type: evergreen_seo / evergreen_sector_guide
 - ready_to_upload: True
 - publish_date: 2026-10-11 / bucket: seo_backlog
-- priority_score: 116.5
+- priority_score: 94.5
 - revenue_objective: 섹터형 검색 유입 누적
 - search_intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 - cta_focus: 대표 종목 글과 허브 글 연결
@@ -74,12 +74,12 @@
 ## 6. 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 
 - inventory_type: seo_followup
-- keyword: seo_china_8
+- keyword: seo_china_9
 - source_keyword: china
 - role/type: follow_up / follow_up_analysis
 - ready_to_upload: True
 - publish_date: 2026-10-11 / bucket: seo_backlog
-- priority_score: 113.5
+- priority_score: 91.5
 - revenue_objective: 체류시간과 페이지뷰 확대
 - search_intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 - cta_focus: 실적 해설과 글로벌 섹터 허브 연결
@@ -87,25 +87,12 @@
 ## 7. 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 
 - inventory_type: seo_followup
-- keyword: seo_china_9
+- keyword: seo_china_11
 - source_keyword: china
 - role/type: evergreen_seo / evergreen_sector_guide
 - ready_to_upload: True
 - publish_date: 2026-10-11 / bucket: seo_backlog
-- priority_score: 110.5
+- priority_score: 88.5
 - revenue_objective: 광고 노출과 장기 검색 유입 확보
 - search_intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 - cta_focus: 섹터 허브와 후속 비교 글 연결
-
-## 8. 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지
-
-- inventory_type: seo_followup
-- keyword: seo_treasury_yields_10
-- source_keyword: treasury_yields
-- role/type: search_demand_capture / follow_up_analysis
-- ready_to_upload: True
-- publish_date: 2026-10-12 / bucket: seo_backlog
-- priority_score: 109.07
-- revenue_objective: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결
-- search_intent: `미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
-- cta_focus: 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결

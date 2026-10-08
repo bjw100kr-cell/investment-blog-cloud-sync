@@ -1,6 +1,6 @@
 # 발행 우선순위 큐
 
-- 생성 시각: `2026-10-08T05:33:21.334180+00:00`
+- 생성 시각: `2026-10-08T18:46:38.094336+00:00`
 - 큐 개수: `4`
 - 업로드 가능 글 수: `4`
 
@@ -14,14 +14,14 @@
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
 - CTA 초점: 환율·금리·미국증시 evergreen 글로 연결
 - 광고 슬롯 추천: after_intro, mid_article, before_related_links
-- 발행 메모: 당일 이슈 해설형 글
+- 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크: site-foundation/hub-macro.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 
 ## 2. bitcoin
 
 - 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 우선순위 점수: 121.0
+- 우선순위 점수: 124.0
 - 발행일: 2026-10-09 / 버킷: tomorrow
 - 역할: lane_focus_crypto / 타입: breaking_explainer
 - 업로드 가능: True
@@ -35,27 +35,27 @@
 ## 3. china
 
 - 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 우선순위 점수: 117.0
+- 우선순위 점수: 95.0
 - 발행일: 2026-10-11 / 버킷: this_week
 - 역할: lane_focus_world-flow / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
 - CTA 초점: 실적·공급망·대표 종목 글로 연결
 - 광고 슬롯 추천: after_intro, mid_article, before_related_links
-- 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
+- 발행 메모: 당일 이슈 해설형 글
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 
 ## 4. ai_semiconductors
 
 - 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 우선순위 점수: 98.0
+- 우선순위 점수: 90.0
 - 발행일: 2026-10-10 / 버킷: this_week
 - 역할: lane_focus_us-stocks / 타입: breaking_explainer
 - 업로드 가능: True
 - 수익화 목표: 페이지뷰와 체류시간 균형 확보
 - CTA 초점: 실적·공급망·대표 종목 글로 연결
 - 광고 슬롯 추천: after_intro, mid_article, before_related_links
-- 발행 메모: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
+- 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
