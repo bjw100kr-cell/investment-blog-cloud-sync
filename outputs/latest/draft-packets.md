@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-10-07T18:48:41.786808+00:00`
+- 생성 시각: `2026-10-08T05:33:21.334180+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음, 실제 급상승 검색어 반영 (fed minutes)
-- 점수: 96.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
+- 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -66,16 +66,16 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - fed minutes
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
+  - Fed officials see another hike coming, but no sign as to when, minutes show
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - 점수: 82.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report
+  - Crypto news site Cointelegraph seeks buyer after web traffic plunges
+  - Wells Fargo in talks with Kraken parent Payward for crypto trading liquidity
   - Gate bets all-in-one money app is crypto’s biggest consumer trend this year and next
   - Crypto Long & Short: Zcash and the case for privacy in the age of AI
-  - Crypto trading giant GSR's new vault business is a $100M bet on onchain credit
-  - House Finance panel chair says regulator actions on crypto ‘fall short’ of CLARITY bill
-  - Coinbase brings global crypto derivatives liquidity to US with Deribit integration
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 73.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 71.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,16 +206,16 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip
-  - SpaceX credit risk jumps on worries over its borrowing spree
-  - SpaceX may chase ‘stunning’ AI returns by taking on a lot of debt to buy Nvidia chips
-  - SpaceX credit risk jumps on worries over its borrowing spree
+  - Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand
+  - Anthropic will be 'most ridiculous IPO' of year, analyst says
+  - Microsoft and Nvidia are teaming up on a supercharged AI laptop
+  - Samsung profit surges ninefold to $80bn on AI chip demand
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 79.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 83.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -275,8 +275,8 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level
-  - China slaps down EU request for voluntary curbs on hybrid car exports
+  - China races to build AI data centres across energy-rich hinterland
   - 4. Why the Outcome of the Talks Differs (U.S.-China Summit)
   - 6. Why does the U.S. intervene in other countries? (U.S.-China Summit)
   - 5. Is there something China isn't revealing? (US-China Summit)
+  - 3. They may have smiled to each other, but China’s true intentions... (US-China Summit)

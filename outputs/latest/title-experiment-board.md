@@ -4,7 +4,7 @@
 
 - status: `ready_for_manual_title_ab_testing`
 - measurement_note: Search Console 연결 전에는 실제 CTR 검증이 불가하므로, 검색 의도 기반 후보를 준비합니다.
-- crypto_market_sentiment: `risk_off`
+- crypto_market_sentiment: `mixed`
 
 ## Next Actions
 
@@ -18,20 +18,20 @@
 - current_title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - recommended_title: FOMC 이후 시장 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `1200`
+- demand_signal_score: `4800`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 
 ### Variants
 
-- `fomc-v4` score `85` angle `macro-link`: FOMC 이후 시장 체크포인트 3가지: 금리, 달러, 위험자산
+- `fomc-v4` score `90` angle `macro-link`: FOMC 이후 시장 체크포인트 3가지: 금리, 달러, 위험자산
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `fomc-v1` score `73` angle `checklist`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+- `fomc-v1` score `78` angle `checklist`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `fomc-v3` score `73` angle `checklist`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기
+- `fomc-v3` score `78` angle `checklist`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `fomc-v2` score `73` angle `checklist`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
+- `fomc-v2` score `78` angle `checklist`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `fomc-v6` score `65` angle `explainer`: FOMC 이후 투자자가 오늘 확인할 숫자들
+- `fomc-v6` score `70` angle `explainer`: FOMC 이후 투자자가 오늘 확인할 숫자들
   - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
 
 ## 2. bitcoin
@@ -40,20 +40,20 @@
 - current_title: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - recommended_title: 비트코인 가격보다 먼저 볼 것: ETF 자금과 달러 흐름
 - recommended_angle: `fund-flow`
-- demand_signal_score: `4800`
+- demand_signal_score: `5300`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
 
 ### Variants
 
-- `bitcoin-v3` score `82` angle `fund-flow`: 비트코인 가격보다 먼저 볼 것: ETF 자금과 달러 흐름
+- `bitcoin-v3` score `85` angle `fund-flow`: 비트코인 가격보다 먼저 볼 것: ETF 자금과 달러 흐름
   - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
-- `bitcoin-v1` score `82` angle `fund-flow`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+- `bitcoin-v1` score `85` angle `fund-flow`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `bitcoin-v2` score `82` angle `fund-flow`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
+- `bitcoin-v2` score `85` angle `fund-flow`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `bitcoin-v4` score `78` angle `risk-check`: 비트코인, 공포 구간에서 확인할 리스크 체크포인트 5가지
+- `bitcoin-v4` score `81` angle `risk-check`: 비트코인, 공포 구간에서 확인할 리스크 체크포인트 5가지
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `bitcoin-v5` score `67` angle `fund-flow`: 비트코인 투자자가 오늘 놓치면 안 되는 규제와 자금 흐름
+- `bitcoin-v5` score `70` angle `fund-flow`: 비트코인 투자자가 오늘 놓치면 안 되는 규제와 자금 흐름
   - why: 현재 주제를 설명형 검색어로 받아내기 위한 후보입니다.
 
 ## 3. ai_semiconductors
@@ -84,7 +84,7 @@
 - current_title: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - recommended_title: 중국 변수와 시장 영향, 환율과 원자재까지 같이 봐야 하는 이유
 - recommended_angle: `macro-link`
-- demand_signal_score: `3200`
+- demand_signal_score: `3600`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
 
 ### Variants
@@ -106,7 +106,7 @@
 - current_title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 - recommended_title: 미국채 금리 상승이 나스닥과 코인에 부담이 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `4200`
+- demand_signal_score: `3400`
 - public_url: `missing`
 
 ### Variants

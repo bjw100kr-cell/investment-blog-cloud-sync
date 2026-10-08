@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-10-07T18:48:41.786808+00:00`
+- 생성 시각: `2026-10-08T05:33:21.334180+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,11 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `96.0`
-- 점수 구성: 검색성 28 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음, 실제 급상승 검색어 반영 (fed minutes)
-- 소스: CNBC Top News, Federal Reserve Monetary Policy Press, Google Trends US, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- 트렌드 쿼리: fed minutes
+- 총점: `94.0`
+- 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -24,20 +23,19 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - fed minutes
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
+  - Fed officials see another hike coming, but no sign as to when, minutes show
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
 - 총점: `82.0`
-- 점수 구성: 검색성 26 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 3
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
-- 코인 시장 신호: BTCUSDT 24h change -2.58%
+- 점수 구성: 검색성 28 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 1
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
@@ -50,20 +48,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report
+  - Crypto news site Cointelegraph seeks buyer after web traffic plunges
+  - Wells Fargo in talks with Kraken parent Payward for crypto trading liquidity
   - Gate bets all-in-one money app is crypto’s biggest consumer trend this year and next
   - Crypto Long & Short: Zcash and the case for privacy in the age of AI
-  - Crypto trading giant GSR's new vault business is a $100M bet on onchain credit
-  - House Finance panel chair says regulator actions on crypto ‘fall short’ of CLARITY bill
-  - Coinbase brings global crypto derivatives liquidity to US with Deribit integration
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `73.0`
-- 점수 구성: 검색성 14 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
+- 총점: `71.0`
+- 점수 구성: 검색성 14 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Financial Times World, MarketWatch Breaking News
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -75,19 +73,19 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip
-  - SpaceX credit risk jumps on worries over its borrowing spree
-  - SpaceX may chase ‘stunning’ AI returns by taking on a lot of debt to buy Nvidia chips
-  - SpaceX credit risk jumps on worries over its borrowing spree
+  - Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand
+  - Anthropic will be 'most ridiculous IPO' of year, analyst says
+  - Microsoft and Nvidia are teaming up on a supercharged AI laptop
+  - Samsung profit surges ninefold to $80bn on AI chip demand
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `79.0`
-- 점수 구성: 검색성 23 / 시의성 17 / 설명가치 18 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, NYT Business, 무역킹 Trade King YouTube
+- 총점: `83.0`
+- 점수 구성: 검색성 26 / 시의성 18 / 설명가치 18 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: Financial Times Home, Financial Times World, 무역킹 Trade King YouTube
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -99,20 +97,20 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level
-  - China slaps down EU request for voluntary curbs on hybrid car exports
+  - China races to build AI data centres across energy-rich hinterland
   - 4. Why the Outcome of the Talks Differs (U.S.-China Summit)
   - 6. Why does the U.S. intervene in other countries? (U.S.-China Summit)
   - 5. Is there something China isn't revealing? (US-China Summit)
+  - 3. They may have smiled to each other, but China’s true intentions... (US-China Summit)
 
 ## 5. treasury_yields
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `87.0`
-- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `85.0`
+- 점수 구성: 검색성 24 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
+- 소스: CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
@@ -124,8 +122,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Ether is about to lose a steady buyer as Tom Lee says Bitmine will stop token purchases
-  - Bitcoin price drops to $82.7K October low as bond sell-off resumes on Iran nerves
-  - 10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears
-  - Bitcoin dips as oil turns higher, countering bond rout halt and regulatory hopes
-  - US government bonds steady after strong 10-year Treasury auction
+  - Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report
+  - Big investors ‘bottom fish’ in Eurozone bond markets after France sell-off
+  - Wall Street ends lower, off record highs, as Treasury yields climb - Reuters
+  - Investors pick new darlings and duds as selloff rocks Europe's bond market - Reuters
+  - Rising yields are quietly crashing the stock market’s earlier winners of 2026

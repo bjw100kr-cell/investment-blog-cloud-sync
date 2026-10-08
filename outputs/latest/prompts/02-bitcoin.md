@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report",
+    "Crypto news site Cointelegraph seeks buyer after web traffic plunges",
+    "Wells Fargo in talks with Kraken parent Payward for crypto trading liquidity",
     "Gate bets all-in-one money app is crypto’s biggest consumer trend this year and next",
-    "Crypto Long & Short: Zcash and the case for privacy in the age of AI",
-    "Crypto trading giant GSR's new vault business is a $100M bet on onchain credit",
-    "House Finance panel chair says regulator actions on crypto ‘fall short’ of CLARITY bill",
-    "Coinbase brings global crypto derivatives liquidity to US with Deribit integration"
+    "Crypto Long & Short: Zcash and the case for privacy in the age of AI"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -181,7 +181,7 @@
   },
   "score_breakdown": {
     "total_score": 82.0,
-    "search_score": 26,
+    "search_score": 28,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,

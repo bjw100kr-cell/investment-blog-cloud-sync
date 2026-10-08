@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-07T18:48:41.786808+00:00`
+- 생성 시각: `2026-10-08T05:33:21.334180+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -94,53 +94,54 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `fomc`: score 45, source_count 6, sources CNBC Top News, Federal Reserve Monetary Policy Press, Google Trends US, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: score 36, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `treasury_yields`: score 30, source_count 8, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `china`: score 20, source_count 4, sources CNBC Top News, Financial Times Home, NYT Business, 무역킹 Trade King YouTube
-- `oil`: score 18, source_count 3, sources Financial Times Home, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `us_big_tech`: score 13, source_count 2, sources CNBC Top News, Google Trends US
-- `ai_semiconductors`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
-- `us_index_flow`: score 9, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
-- `cpi`: score 7, source_count 3, sources Financial Times Home, MarketWatch Breaking News, NYT Business
-- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
+- `bitcoin`: score 41, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 36, source_count 6, sources CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `china`: score 24, source_count 3, sources Financial Times Home, Financial Times World, 무역킹 Trade King YouTube
+- `treasury_yields`: score 22, source_count 5, sources CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `oil`: score 19, source_count 5, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 11, source_count 3, sources CNBC Top News, Financial Times World, MarketWatch Breaking News
+- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `cpi`: score 7, source_count 3, sources CNBC Top News, MarketWatch Breaking News, NYT Business
+- `us_index_flow`: score 7, source_count 2, sources CNBC Top News, MarketWatch Breaking News
+- `dollar`: score 6, source_count 2, sources Financial Times Home, Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `fomc`: score 45, headlines 9
-  - fed minutes
+- `bitcoin`: score 41, headlines 12
+  - Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report
+  - Crypto news site Cointelegraph seeks buyer after web traffic plunges
+  - Wells Fargo in talks with Kraken parent Payward for crypto trading liquidity
+- `fomc`: score 36, headlines 10
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-- `bitcoin`: score 36, headlines 11
-  - Gate bets all-in-one money app is crypto’s biggest consumer trend this year and next
-  - Crypto Long & Short: Zcash and the case for privacy in the age of AI
-  - Crypto trading giant GSR's new vault business is a $100M bet on onchain credit
-- `treasury_yields`: score 30, headlines 10
-  - Ether is about to lose a steady buyer as Tom Lee says Bitmine will stop token purchases
-  - Bitcoin price drops to $82.7K October low as bond sell-off resumes on Iran nerves
-  - 10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears
-- `china`: score 20, headlines 7
-  - Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level
-  - China slaps down EU request for voluntary curbs on hybrid car exports
+  - Federal Reserve issues FOMC statement
+- `china`: score 24, headlines 8
+  - China races to build AI data centres across energy-rich hinterland
   - 4. Why the Outcome of the Talks Differs (U.S.-China Summit)
-- `oil`: score 18, headlines 6
-  - Bitcoin drops to $83k amid pressure from rising oil prices, yields
-  - Bitcoin falls as Iran attacks, oil surge fuel rate fears; crypto stocks slip
-  - Bitcoin dips as oil turns higher, countering bond rout halt and regulatory hopes
-- `us_big_tech`: score 13, headlines 2
-  - tank dell
-  - Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip
+  - 6. Why does the U.S. intervene in other countries? (U.S.-China Summit)
+- `treasury_yields`: score 22, headlines 8
+  - Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report
+  - Big investors ‘bottom fish’ in Eurozone bond markets after France sell-off
+  - Wall Street ends lower, off record highs, as Treasury yields climb - Reuters
+- `oil`: score 19, headlines 6
+  - Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report
+  - Oil gains as Middle East hostilities, potential escalation stoke supply worries
+  - Bitcoin falls to $83k amid pressure from Fed minutes, oil prices, and yields
 - `ai_semiconductors`: score 11, headlines 4
-  - Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip
-  - SpaceX credit risk jumps on worries over its borrowing spree
-  - SpaceX may chase ‘stunning’ AI returns by taking on a lot of debt to buy Nvidia chips
-- `us_index_flow`: score 9, headlines 3
-  - Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights
-  - S&P 500, Nasdaq retreat from record highs as yields and oil climb - Reuters
-  - PODCAST: S&P 500's record run - Reuters
+  - Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand
+  - Anthropic will be 'most ridiculous IPO' of year, analyst says
+  - Microsoft and Nvidia are teaming up on a supercharged AI laptop
 - `cpi`: score 7, headlines 3
-  - US oil trader takes $2bn gamble on tankers as carriers steer clear of Hormuz
+  - Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023
   - Fed’s minutes show no appetite for a series of interest-rate hikes
   - Fed Minutes Show Officials Saw More Work to Do to Quell Inflation
-- `ethereum`: score 4, headlines 1
-  - Ether is about to lose a steady buyer as Tom Lee says Bitmine will stop token purchases
+- `us_index_flow`: score 7, headlines 3
+  - Anthropic will be 'most ridiculous IPO' of year, analyst says
+  - Rising yields are quietly crashing the stock market’s earlier winners of 2026
+  - Higher yields are taking their toll on all areas of the stock market, except the one that matters
+- `ethereum`: score 7, headlines 2
+  - Ethereum’s Glamsterdam test runs near 200 million gas per block after upgrade
+  - Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances
+- `dollar`: score 6, headlines 2
+  - How a trillion-dollar hedge fund borrowing spree became Wall Street’s cash cow
+  - Gold prices recover from two-month low as dollar rally stalls - Reuters
