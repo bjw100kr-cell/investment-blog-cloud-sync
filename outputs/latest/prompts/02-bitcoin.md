@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Ether bets were wiped out at six times bitcoin’s rate in crypto’s $1 billion flush",
-    "Bitcoin rebounds to $82,000 as Trump rules out Iran strikes, oil drops",
-    "Wall Street's tokenization boom could have bigger winners than bitcoin and ether, Citrini says",
-    "Crypto crumbles as anniversary of flash crash nears",
-    "U.S. government moves $1 billion in bitcoin tied to Bitfinex hack, with no sign of sale"
+    "New York AG secures up to $35 million and lifetime crypto ban from Celsius’ Alex Mashinsky",
+    "Ledger investigates potential wallet tampering after reports of $86 million in crypto stolen",
+    "Trump's Iran pledge underpins crypto gains as bitcoin bears face liquidation pressure",
+    "Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms",
+    "Thailand opens door to locally listed bitcoin and ether ETFs"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 82.0,
-    "search_score": 28,
+    "total_score": 85.0,
+    "search_score": 29,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,

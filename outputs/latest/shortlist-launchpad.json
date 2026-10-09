@@ -11,7 +11,7 @@
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
         "Federal Reserve issues FOMC statement",
@@ -69,33 +69,33 @@
       "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Ether bets were wiped out at six times bitcoin’s rate in crypto’s $1 billion flush",
-        "Bitcoin rebounds to $82,000 as Trump rules out Iran strikes, oil drops",
-        "Wall Street's tokenization boom could have bigger winners than bitcoin and ether, Citrini says"
+        "New York AG secures up to $35 million and lifetime crypto ban from Celsius’ Alex Mashinsky",
+        "Ledger investigates potential wallet tampering after reports of $86 million in crypto stolen",
+        "Trump's Iran pledge underpins crypto gains as bitcoin bears face liquidation pressure"
       ],
       "recent_evidence": [
         {
-          "title": "Ether bets were wiped out at six times bitcoin’s rate in crypto’s $1 billion flush",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 09 Oct 2026 04:04:36 +0000",
-          "published_iso": "2026-10-09T04:04:36+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin rebounds to $82,000 as Trump rules out Iran strikes, oil drops",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 09 Oct 2026 03:27:38 +0000",
-          "published_iso": "2026-10-09T03:27:38+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/09/bitcoin-rebounds-to-usd82-000-as-trump-rules-out-iran-strikes",
-          "source_type": "rss"
-        },
-        {
-          "title": "Thailand finalizes rules paving way for Bitcoin, Ether ETFs",
+          "title": "Bitcoin consolidates near $82.5K as crypto weathers Ledger theft reports",
           "source_name": "Cointelegraph",
-          "published": "Fri, 09 Oct 2026 03:08:51 +0000",
-          "published_iso": "2026-10-09T03:08:51+00:00",
-          "link": "https://cointelegraph.com/news/thailand-finalizes-rules-paving-way-for-bitcoin-ether-etfs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Fri, 09 Oct 2026 15:20:36 +0000",
+          "published_iso": "2026-10-09T15:20:36+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-consolidates-crypto-weathers-ledger-theft-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "France is world’s most dangerous place for Bitcoiners: 90 attacks in 7 months",
+          "source_name": "Cointelegraph",
+          "published": "Fri, 09 Oct 2026 13:30:00 +0000",
+          "published_iso": "2026-10-09T13:30:00+00:00",
+          "link": "https://cointelegraph.com/magazine/france-is-worlds-most-dangerous-place-for-bitcoiners-90-attacks-in-7-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Trump's Iran pledge underpins crypto gains as bitcoin bears face liquidation pressure",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 09 Oct 2026 11:09:04 +0000",
+          "published_iso": "2026-10-09T11:09:04+00:00",
+          "link": "https://www.coindesk.com/daybook-us/2026/10/09/trump-s-iran-pledge-underpins-crypto-gains-as-bitcoin-bears-face-liquidation-pressure",
           "source_type": "rss"
         }
       ],
@@ -114,58 +114,49 @@
       "hard_blocking_checks": []
     },
     {
-      "keyword": "ai_semiconductors",
-      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "keyword": "us_big_tech",
+      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
       "publish_date": "2026-10-11",
       "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
+      "quality_status": "review_before_publish",
+      "ready_now": false,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
-        "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
-        "Trump discloses Nvidia stock trades as he prepares to honor CEO Huang - Reuters"
+        "Tesla drops 'Full Self-Driving' brand name in Europe after regulator pushback",
+        "Microsoft is nearing a big milestone that solidifies its revival"
       ],
       "recent_evidence": [
         {
-          "title": "A Starbucks-Chipotle merger offers the wrong kind of synergy",
-          "source_name": "Financial Times World",
-          "published": "Fri, 09 Oct 2026 04:00:40 GMT",
-          "published_iso": "2026-10-09T04:00:40+00:00",
-          "link": "https://www.ft.com/content/4dabb3fd-70fd-46f1-9773-f38411ecb162?syn-25a6b1a6=1",
-          "source_type": "rss"
-        },
-        {
-          "title": "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
-          "source_name": "CNBC Top News",
-          "published": "Fri, 09 Oct 2026 03:51:15 GMT",
-          "published_iso": "2026-10-09T03:51:15+00:00",
-          "link": "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Feel like a pumpkin-spice burrito? Analysts try to wrap their heads around a possible Starbucks-Chipotle tie-up.",
+          "title": "Microsoft is nearing a big milestone that solidifies its revival",
           "source_name": "MarketWatch Breaking News",
-          "published": "Thu, 08 Oct 2026 23:14:00 GMT",
-          "published_iso": "2026-10-08T23:14:00+00:00",
-          "link": "https://www.marketwatch.com/story/feel-like-a-pumpkin-spice-burrito-analysts-try-to-wrap-their-heads-around-a-possible-starbucks-chipotle-tie-up-5b8519fd?mod=mw_rss_topstories",
+          "published": "Fri, 09 Oct 2026 18:06:00 GMT",
+          "published_iso": "2026-10-09T18:06:00+00:00",
+          "link": "https://www.marketwatch.com/story/microsoft-is-nearing-a-big-milestone-that-solidifies-its-revival-580d1ba8?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
+          "title": "Tesla drops 'Full Self-Driving' brand name in Europe after regulator pushback",
+          "source_name": "CNBC Top News",
+          "published": "Fri, 09 Oct 2026 17:12:32 GMT",
+          "published_iso": "2026-10-09T17:12:32+00:00",
+          "link": "https://www.cnbc.com/2026/10/09/tesla-full-self-driving-europe-regulator.html",
           "source_type": "rss"
         }
       ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-semiconductors.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EA%B0%80%EB%A5%BC-%EB%B3%BC-%EB%95%8C-%EC%8B%A4%EC%A0%81%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%ED%99%95%EC%9D%B8%ED%95%A0-3%EA%B0%80%EC%A7%80.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors",
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-big-tech.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-%EB%AF%B8%EA%B5%AD-%EB%B9%85%ED%85%8C%ED%81%AC-%EC%A3%BC%EA%B0%80%EA%B0%80-%ED%9D%94%EB%93%A4%EB%A6%B4-%EB%95%8C-%ED%99%95%EC%9D%B8%ED%95%A0-%EA%B2%83-%EC%8B%A4%EC%A0%81-%EA%B8%88%EB%A6%AC-ai-%ED%88%AC%EC%9E%90.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
+      "next_action": "사용자 최종 확인 후 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
       "followup_commands": [
         "python3 scripts/build_platform_publish_plan.py",
         "python3 scripts/upload_blogger_drafts.py",
         "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
       ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply",
       "hard_blocking_checks": []
     }
   ]

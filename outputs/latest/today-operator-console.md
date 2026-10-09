@@ -76,18 +76,16 @@
 
 - `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / keyword `fomc` / verdict `approve` / publish `2026-10-09`
 - `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / verdict `approve` / publish `2026-10-10`
-- `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지` / keyword `ai_semiconductors` / verdict `approve` / publish `2026-10-11`
+- `미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자` / keyword `us_big_tech` / verdict `approve` / publish `2026-10-11`
 
 ## 1.5. 하루 200명 목표
 
 - target: `200`
-- projected: `303`
-- gap: `0`
-- status: `estimated_on_track_measurement_missing`
+- projected: `190`
+- gap: `10`
+- status: `needs_more_distribution`
 - `fomc` 예상 `95`명: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - `bitcoin` 예상 `95`명: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- `ai_semiconductors` 예상 `60`명: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- `china` 예상 `53`명: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - actual_verified: `0`
 - proof_status: `measurement_missing`
 - proof_gap: `200`
