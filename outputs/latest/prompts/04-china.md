@@ -108,11 +108,11 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
-    "Financial Times Home",
+    "Cointelegraph",
     "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
-    "China races to build data centres in bid for AI supremacy",
+    "China’s P2P stablecoin wallets surge 43x, Korea’s $450B crypto economy: Asia Express",
     "130 Million People Disappeared? The Shocking Twist for India, Once Hailed as the Next China",
     "So, what was the outcome of the US-China summit? (Recap)",
     "6. Why does the U.S. intervene in other countries? (U.S.-China Summit)",
@@ -179,12 +179,12 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 62.0,
-    "search_score": 17,
+    "total_score": 59.0,
+    "search_score": 16,
     "timeliness_score": 7,
     "explanatory_score": 18,
     "monetization_score": 13,
-    "risk_score": 7
+    "risk_score": 5
   },
   "reference_editorial_pattern_name": "news_what_it_means",
   "reference_editorial_pattern": {

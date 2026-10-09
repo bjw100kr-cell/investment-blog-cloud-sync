@@ -13,7 +13,7 @@
 
 - keyword: `fomc`
 - brand_lane: `macro` (거시경제)
-- publish_date: `2026-10-08`
+- publish_date: `2026-10-09`
 - priority_score: `137.0`
 - review_verdict: `approve`
 - freshness_status: `fresh`
@@ -31,8 +31,8 @@
 
 - keyword: `bitcoin`
 - brand_lane: `crypto` (코인)
-- publish_date: `2026-10-09`
-- priority_score: `124.0`
+- publish_date: `2026-10-10`
+- priority_score: `121.0`
 - review_verdict: `approve`
 - freshness_status: `fresh`
 - quality_status: `pass`
@@ -49,8 +49,8 @@
 
 - keyword: `ai_semiconductors`
 - brand_lane: `us-stocks` (미국주식)
-- publish_date: `2026-10-10`
-- priority_score: `90.0`
+- publish_date: `2026-10-11`
+- priority_score: `98.0`
 - review_verdict: `approve`
 - freshness_status: `fresh`
 - quality_status: `pass`

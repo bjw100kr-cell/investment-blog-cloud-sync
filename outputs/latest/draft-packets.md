@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-10-08T18:46:38.094336+00:00`
+- 생성 시각: `2026-10-09T05:37:43.963180+00:00`
 
 ## 1. fomc
 
@@ -70,13 +70,13 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Inflation on many everyday items was entirely due to tariffs, NY Fed says
+  - Bitcoin falls to $83k amid pressure from Fed minutes, oil prices, and yields
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
-- 점수: 85.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 점수: 82.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Ether bets were wiped out at six times bitcoin’s rate in crypto’s $1 billion flush
+  - Bitcoin rebounds to $82,000 as Trump rules out Iran strikes, oil drops
+  - Wall Street's tokenization boom could have bigger winners than bitcoin and ether, Citrini says
   - Crypto crumbles as anniversary of flash crash nears
-  - U.S. government moves $1 billion in bitcoin from Bitfinex hack wallet, no sale indicated
-  - EU securities regulator gives crypto platforms 3 months to remove unauthorized stablecoins
-  - Crypto for Advisors: Digital assets outran stocks and gold in Q3
-  - ‘Bunker mode’ is a far greater challenge for institutions than individual crypto holders
+  - U.S. government moves $1 billion in bitcoin tied to Bitfinex hack, with no sign of sale
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 63.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 71.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -207,14 +207,15 @@
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
   - Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report
-  - Nvidia-backed Iambic Therapeutics launches IPO as biotechs buck market gloom - Reuters
-  - TSMC's third-quarter revenue surges to record, beating market forecast - Reuters
+  - Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility
+  - Trump discloses Nvidia stock trades as he prepares to honor CEO Huang - Reuters
+  - Micron, Nvidia and AI chip stocks fall as report on OpenAI’s revenue causes ‘undue concern’
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 62.0
+- 점수: 59.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -274,7 +275,7 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - China races to build data centres in bid for AI supremacy
+  - China’s P2P stablecoin wallets surge 43x, Korea’s $450B crypto economy: Asia Express
   - 130 Million People Disappeared? The Shocking Twist for India, Once Hailed as the Next China
   - So, what was the outcome of the US-China summit? (Recap)
   - 6. Why does the U.S. intervene in other countries? (U.S.-China Summit)

@@ -1,6 +1,6 @@
 # 7일 편집 캘린더
 
-- 생성 시각: `2026-10-08T18:46:38.094336+00:00`
+- 생성 시각: `2026-10-09T05:37:43.963180+00:00`
 - 목적: stale 뉴스는 직접 발행에서 빼고, 거시경제·코인·미국주식·세계 흐름 레인을 주간 단위로 균형 있게 유지
 
 ## 레인 커버리지
@@ -17,7 +17,7 @@
 - lane `us-stocks` / keyword `ai_semiconductors` / mode `direct` / freshness `fresh` / target_share `0.2`
 - lane `world-flow` / keyword `china` / mode `direct` / freshness `unknown` / target_share `0.2`
 
-## Day 1 · 2026-10-08 · lane_focus_macro
+## Day 1 · 2026-10-09 · lane_focus_macro
 
 - 브랜드 레인: 거시경제
 - planning_mode: direct
@@ -28,11 +28,11 @@
 - 글 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News
-- 근거 소스/연결 키워드: CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News
+- 내부링크 대상: Federal Reserve Monetary Policy Press, Investing.com Crypto News, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: Federal Reserve Monetary Policy Press, Investing.com Crypto News, Reuters Markets via Google News RSS
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
-## Day 2 · 2026-10-09 · lane_focus_crypto
+## Day 2 · 2026-10-10 · lane_focus_crypto
 
 - 브랜드 레인: 코인
 - planning_mode: direct
@@ -40,14 +40,14 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: bitcoin
 - 작업 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 글 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
+- 글 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크 대상: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 근거 소스/연결 키워드: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
-## Day 3 · 2026-10-10 · lane_focus_us-stocks
+## Day 3 · 2026-10-11 · lane_focus_us-stocks
 
 - 브랜드 레인: 미국주식
 - planning_mode: direct
@@ -55,14 +55,14 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: ai_semiconductors
 - 작업 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 글 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 글 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Reuters Markets via Google News RSS
-- 근거 소스/연결 키워드: CNBC Top News, Reuters Markets via Google News RSS
+- 내부링크 대상: CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
-## Day 4 · 2026-10-11 · lane_focus_world-flow
+## Day 4 · 2026-10-12 · lane_focus_world-flow
 
 - 브랜드 레인: 세계 흐름
 - planning_mode: direct
@@ -73,11 +73,11 @@
 - 글 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: Financial Times Home, 무역킹 Trade King YouTube
-- 근거 소스/연결 키워드: Financial Times Home, 무역킹 Trade King YouTube
+- 내부링크 대상: Cointelegraph, 무역킹 Trade King YouTube
+- 근거 소스/연결 키워드: Cointelegraph, 무역킹 Trade King YouTube
 - 발행 메모: 당일 이슈 해설형 글
 
-## Day 5 · 2026-10-12 · evergreen_support
+## Day 5 · 2026-10-13 · evergreen_support
 
 - 브랜드 레인: 거시경제
 - planning_mode: evergreen
@@ -92,7 +92,7 @@
 - 근거 소스/연결 키워드: fomc, cpi, pce, jobs, treasury_yields, dollar
 - 발행 메모: 검색 저변을 넓히는 설명형 글
 
-## Day 6 · 2026-10-13 · secondary_lane_support
+## Day 6 · 2026-10-14 · secondary_lane_support
 
 - 브랜드 레인: 코인
 - planning_mode: evergreen
@@ -107,7 +107,7 @@
 - 근거 소스/연결 키워드: dollar, treasury_yields, fomc, oil, china
 - 발행 메모: 검색 저변을 넓히는 설명형 글
 
-## Day 7 · 2026-10-14 · weekly_recap
+## Day 7 · 2026-10-15 · weekly_recap
 
 - 브랜드 레인: 거시경제
 - planning_mode: recap
