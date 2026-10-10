@@ -1,28 +1,12 @@
 {
-  "generated_at": "2026-10-10T05:21:48.776743+00:00",
+  "generated_at": "2026-10-10T17:16:06.103599+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "treasury_yields",
-      "trend_count": 1,
-      "traffic_score_sum": 2000,
-      "max_approx_traffic": 2000,
-      "trend_queries": [
-        "국채"
-      ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 2200,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -30,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5000,
+      "demand_signal_score": 4800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 38,
+      "source_snapshot_score": 36,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -42,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "New York AG secures up to $35 million and lifetime crypto ban from Celsius’ Alex Mashinsky",
-        "Ledger investigates potential wallet tampering after reports of $86 million in crypto stolen",
-        "US plans to seize $1B in crypto linked to Iran this week: Scott Bessent"
+        "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
+        "Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?",
+        "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018"
       ]
     },
     {
@@ -54,16 +38,14 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4000,
+      "demand_signal_score": 3400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 28,
-      "source_count": 4,
+      "source_snapshot_score": 22,
+      "source_count": 2,
       "source_names": [
-        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
-        "Investing.com Crypto News",
         "NYT Business"
       ],
       "sample_titles": [
@@ -79,46 +61,48 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3300,
+      "demand_signal_score": 2800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 21,
-      "source_count": 6,
+      "source_snapshot_score": 16,
+      "source_count": 5,
       "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
+        "CoinDesk RSS",
         "Financial Times World",
         "Investing.com Crypto News",
-        "Reuters Markets via Google News RSS"
+        "Reuters Markets via Google News RSS",
+        "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
-        "Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries",
-        "Bitcoin trades above $82,000 as rising oil prices, Fed outlook weigh",
-        "Bitcoin slips under $82k amid surging oil prices, hit to Wall Street tech stocks"
+        "Tokenized commodities look beyond gold as lending and oil open new markets",
+        "Bitcoin slips under $82k amid surging oil prices, hit to Wall Street tech stocks",
+        "India's Sensex slumps to 32-month low on oil surge, foreign exodus - Reuters"
       ]
     },
     {
-      "keyword": "china",
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2600,
+      "demand_signal_score": 2700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
-      "source_count": 2,
+      "source_snapshot_score": 15,
+      "source_count": 4,
       "source_names": [
-        "NYT Business",
-        "무역킹 Trade King YouTube"
+        "Cointelegraph",
+        "Financial Times Home",
+        "Investing.com Crypto News",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "So, what was the outcome of the US-China summit? (Recap)",
-        "130 Million People Disappeared? The Shocking Twist for India, Once Hailed as the Next China",
-        "6. Why does the U.S. intervene in other countries? (U.S.-China Summit)"
+        "US plans to seize $1B in crypto linked to Iran this week: Scott Bessent",
+        "Bitcoin holds ground above $82k, heads for weekly losses amid yield pressure",
+        "AI borrowing slows as investors grow wary of debt binge"
       ]
     }
   ],

@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "New York AG secures up to $35 million and lifetime crypto ban from Celsius’ Alex Mashinsky",
-    "Ledger investigates potential wallet tampering after reports of $86 million in crypto stolen",
-    "US plans to seize $1B in crypto linked to Iran this week: Scott Bessent",
-    "New York permanently bars Celsius founder Mashinsky in $35M fraud settlement",
-    "Here’s what happened in crypto today"
+    "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
+    "Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?",
+    "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
+    "Here’s what happened in crypto today",
+    "Sam Altman-backed Bitcoin life insurer, Meanwhile, raises more funds"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 82.0,
-    "search_score": 28,
+    "total_score": 80.0,
+    "search_score": 26,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,

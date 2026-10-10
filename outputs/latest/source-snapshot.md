@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-10T05:21:48.776743+00:00`
+- 생성 시각: `2026-10-10T17:16:06.103599+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -100,50 +100,48 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `treasury_yields`: score 43, source_count 5, sources CNBC Top News, Cointelegraph, Google Trends KR, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `bitcoin`: score 38, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 28, source_count 4, sources CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News, NYT Business
-- `oil`: score 21, source_count 6, sources CNBC Top News, Financial Times Home, Financial Times World, Investing.com Crypto News, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
+- `bitcoin`: score 36, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 22, source_count 2, sources Federal Reserve Monetary Policy Press, NYT Business
+- `oil`: score 16, source_count 5, sources CoinDesk RSS, Financial Times World, Investing.com Crypto News, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
+- `treasury_yields`: score 15, source_count 4, sources Cointelegraph, Financial Times Home, Investing.com Crypto News, Reuters Markets via Google News RSS
 - `china`: score 14, source_count 2, sources NYT Business, 무역킹 Trade King YouTube
-- `us_index_flow`: score 8, source_count 3, sources Financial Times Home, Financial Times World, MarketWatch Breaking News
-- `ai_semiconductors`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
-- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
-- `us_big_tech`: score 4, source_count 1, sources MarketWatch Breaking News
+- `ai_semiconductors`: score 8, source_count 3, sources CNBC Top News, Cointelegraph, MarketWatch Breaking News
+- `us_big_tech`: score 3, source_count 1, sources CNBC Top News
+- `crypto_etf`: score 3, source_count 1, sources Investing.com Crypto News
 - `cpi`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `tariffs_trade`: score 2, source_count 1, sources NYT Business
 
 ## 오늘의 글감 후보
 
-- `treasury_yields`: score 43, headlines 7
-  - 국채
-  - US plans to seize $1B in crypto linked to Iran this week: Scott Bessent
-  - Junk bonds are 'flashing yellow.' Watch these warning signs
-- `bitcoin`: score 38, headlines 12
-  - New York AG secures up to $35 million and lifetime crypto ban from Celsius’ Alex Mashinsky
-  - Ledger investigates potential wallet tampering after reports of $86 million in crypto stolen
-  - US plans to seize $1B in crypto linked to Iran this week: Scott Bessent
-- `fomc`: score 28, headlines 7
+- `bitcoin`: score 36, headlines 11
+  - One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks
+  - Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?
+  - Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018
+- `fomc`: score 22, headlines 5
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `oil`: score 21, headlines 7
-  - Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries
-  - Bitcoin trades above $82,000 as rising oil prices, Fed outlook weigh
+- `oil`: score 16, headlines 5
+  - Tokenized commodities look beyond gold as lending and oil open new markets
   - Bitcoin slips under $82k amid surging oil prices, hit to Wall Street tech stocks
+  - India's Sensex slumps to 32-month low on oil surge, foreign exodus - Reuters
+- `treasury_yields`: score 15, headlines 5
+  - US plans to seize $1B in crypto linked to Iran this week: Scott Bessent
+  - Bitcoin holds ground above $82k, heads for weekly losses amid yield pressure
+  - AI borrowing slows as investors grow wary of debt binge
 - `china`: score 14, headlines 5
   - So, what was the outcome of the US-China summit? (Recap)
   - 130 Million People Disappeared? The Shocking Twist for India, Once Hailed as the Next China
   - 6. Why does the U.S. intervene in other countries? (U.S.-China Summit)
-- `us_index_flow`: score 8, headlines 3
-  - The hazy OpenAI growth metric driving Wall Street
-  - How to provide guaranteed retirement income while paying no commissions
-  - The hazy OpenAI growth metric driving Wall Street
-- `ai_semiconductors`: score 5, headlines 2
-  - Two massive trades just happened in Micron and Nvidia. What they could mean for chips
-  - AI chip stocks wobble even as investors get clarity on a key OpenAI issue
-- `us_big_tech`: score 4, headlines 2
-  - Is iPhone 18 demand cooling off? Here’s how deep Apple reportedly is cutting component orders.
-  - Microsoft is nearing a big milestone that solidifies its revival
-- `ethereum`: score 4, headlines 1
-  - Ledger investigates potential wallet tampering after reports of $86 million in crypto stolen
+- `ai_semiconductors`: score 8, headlines 3
+  - Tech chief says EU can fend off rogue AI risk: Report
+  - Nvidia GPUs are everywhere. Here are the ways companies are accessing them
+  - Why Nvidia’s stock is dodging the AI credit scare that is crushing Broadcom and Oracle
 - `cpi`: score 3, headlines 1
   - Wall Street posts weekly gains with earnings, inflation data on tap - Reuters
+- `crypto_etf`: score 3, headlines 1
+  - Bitcoin steadies near $83,000 as spot ETF outflows top $680 million
+- `us_big_tech`: score 3, headlines 1
+  - Vance says Microsoft replaced laid-off workers with foreign hires. Here’s what the visa data shows
+- `tariffs_trade`: score 2, headlines 1
+  - China and Europe Step Back From Trade War With Limits on Chinese Car Exports
