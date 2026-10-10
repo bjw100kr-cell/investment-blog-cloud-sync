@@ -112,8 +112,8 @@
     "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
-    "130 Million People Disappeared? The Shocking Twist for India, Once Hailed as the Next China",
     "So, what was the outcome of the US-China summit? (Recap)",
+    "130 Million People Disappeared? The Shocking Twist for India, Once Hailed as the Next China",
     "6. Why does the U.S. intervene in other countries? (U.S.-China Summit)",
     "5. Is there something China isn't revealing? (US-China Summit)",
     "China and Europe Step Back From Trade War With Limits on Chinese Car Exports"

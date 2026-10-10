@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:17:11.753360+00:00",
+  "generated_at": "2026-10-10T05:21:48.776743+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (6개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -58,21 +58,19 @@
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "Trump appoints committee to investigate statements by the Fed's Lisa Cook"
+        "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News",
+        "Investing.com Crypto News",
         "NYT Business"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 4500,
+      "demand_signal_score": 4000,
       "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
@@ -106,9 +104,9 @@
       "sample_headlines": [
         "New York AG secures up to $35 million and lifetime crypto ban from Celsius’ Alex Mashinsky",
         "Ledger investigates potential wallet tampering after reports of $86 million in crypto stolen",
-        "Trump's Iran pledge underpins crypto gains as bitcoin bears face liquidation pressure",
-        "Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms",
-        "Thailand opens door to locally listed bitcoin and ether ETFs"
+        "US plans to seize $1B in crypto linked to Iran this week: Scott Bessent",
+        "New York permanently bars Celsius founder Mashinsky in $35M fraud settlement",
+        "Here’s what happened in crypto today"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -119,32 +117,30 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 5900,
-      "search_score": 29,
+      "demand_signal_score": 5000,
+      "search_score": 28,
       "timeliness_score": 18,
       "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 3,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 3,
-      "crypto_market_signal_bonus": 3,
+      "search_demand_bonus": 2,
+      "crypto_market_signal_bonus": 1,
       "crypto_market_sentiment": "mixed",
-      "crypto_market_signal_notes": [
-        "BTCUSDT 24h change 2.17%"
-      ],
-      "total_score": 85.0,
+      "crypto_market_signal_notes": [],
+      "total_score": 82.0,
       "format": "crypto_analysis"
     },
     {
-      "keyword": "us_big_tech",
+      "keyword": "us_index_flow",
       "category": "global-sector",
       "brand_lane": "us-stocks",
       "title_candidates": [
-        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유",
-        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자"
+        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
+        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -153,29 +149,31 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Tesla drops 'Full Self-Driving' brand name in Europe after regulator pushback",
-        "Microsoft is nearing a big milestone that solidifies its revival"
+        "The hazy OpenAI growth metric driving Wall Street",
+        "How to provide guaranteed retirement income while paying no commissions",
+        "The hazy OpenAI growth metric driving Wall Street"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
         "MarketWatch Breaking News"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 8,
-      "timeliness_score": 10,
-      "explanatory_score": 16,
+      "search_score": 12,
+      "timeliness_score": 15,
+      "explanatory_score": 18,
       "monetization_score": 15,
-      "risk_score": 7,
+      "risk_score": 8,
       "performance_bonus": 0.0,
       "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 56.0,
+      "total_score": 68.0,
       "format": "sector_analysis"
     },
     {
@@ -196,8 +194,8 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "130 Million People Disappeared? The Shocking Twist for India, Once Hailed as the Next China",
         "So, what was the outcome of the US-China summit? (Recap)",
+        "130 Million People Disappeared? The Shocking Twist for India, Once Hailed as the Next China",
         "6. Why does the U.S. intervene in other countries? (U.S.-China Summit)",
         "5. Is there something China isn't revealing? (US-China Summit)",
         "China and Europe Step Back From Trade War With Limits on Chinese Car Exports"
@@ -233,7 +231,7 @@
         "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유",
         "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음, 실제 급상승 검색어 반영 (국채)",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -242,35 +240,39 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "Bitcoin steadies above $82k, heads for weekly losses amid yield pressure",
-        "US 10-year Treasury yields risk hitting 6% for first time since 2000, Pimco says",
-        "Four signs it is about to get uglier in the bond market as yields rise - Reuters",
-        "Money market funds attract massive inflows as bond selloff bit - Reuters",
-        "Stocks move higher even as Treasury yields, oil prices tick up - Reuters"
+        "국채",
+        "US plans to seize $1B in crypto linked to Iran this week: Scott Bessent",
+        "Junk bonds are 'flashing yellow.' Watch these warning signs",
+        "Bitcoin holds ground above $82k, heads for weekly losses amid yield pressure",
+        "Four signs it is about to get uglier in the bond market as yields rise - Reuters"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Financial Times Home",
+        "CNBC Top News",
+        "Cointelegraph",
+        "Google Trends KR",
         "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
-      "trend_queries": [],
-      "trend_regions": [],
+      "trend_queries": [
+        "국채"
+      ],
+      "trend_regions": [
+        "KR"
+      ],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3100,
-      "search_score": 22,
+      "demand_signal_score": 2200,
+      "search_score": 29,
       "timeliness_score": 21,
-      "explanatory_score": 18,
+      "explanatory_score": 20,
       "monetization_score": 15,
-      "risk_score": 8,
+      "risk_score": 6,
       "performance_bonus": 0.0,
       "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 84.0,
+      "total_score": 91.0,
       "format": "macro_explainer"
     }
   ]
