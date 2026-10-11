@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Clarity's failure could speed crypto innovation while shielding incumbents",
     "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
     "Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?",
     "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
-    "Here’s what happened in crypto today",
-    "Sam Altman-backed Bitcoin life insurer, Meanwhile, raises more funds"
+    "Saylor teases Strategy Bitcoin buying after ending September with STRC buybacks"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

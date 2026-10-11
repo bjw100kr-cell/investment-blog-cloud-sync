@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-11T05:13:16.985202+00:00`
+- 생성 시각: `2026-10-11T17:38:29.507688+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,49 +106,49 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 36, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 25, source_count 3, sources CNBC Top News, Federal Reserve Monetary Policy Press, NYT Business
-- `oil`: score 22, source_count 5, sources CoinDesk RSS, Financial Times Home, Financial Times World, Investing.com Crypto News, 무역킹 Trade King YouTube
-- `treasury_yields`: score 17, source_count 4, sources Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `china`: score 14, source_count 2, sources NYT Business, 무역킹 Trade King YouTube
-- `ai_semiconductors`: score 9, source_count 3, sources CNBC Top News, Cointelegraph, Financial Times World
-- `us_big_tech`: score 6, source_count 1, sources CNBC Top News
-- `us_index_flow`: score 3, source_count 1, sources Financial Times Home
-- `dollar`: score 3, source_count 1, sources Reuters Markets via Google News RSS
-- `tariffs_trade`: score 2, source_count 1, sources NYT Business
+- `bitcoin`: score 37, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `oil`: score 21, source_count 6, sources CoinDesk RSS, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, 무역킹 Trade King YouTube
+- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
+- `treasury_yields`: score 19, source_count 4, sources Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `china`: score 12, source_count 1, sources 무역킹 Trade King YouTube
+- `dollar`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, NYT Business
+- `us_index_flow`: score 5, source_count 2, sources Financial Times Home, MarketWatch Breaking News
+- `ai_semiconductors`: score 3, source_count 1, sources Cointelegraph
+- `ethereum`: score 3, source_count 1, sources Investing.com Crypto News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 36, headlines 11
+- `bitcoin`: score 37, headlines 11
+  - Clarity's failure could speed crypto innovation while shielding incumbents
   - One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks
   - Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?
-  - Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018
-- `fomc`: score 25, headlines 6
+- `oil`: score 21, headlines 7
+  - Tokenized commodities look beyond gold as lending and oil open new markets
+  - Bitcoin rebounds above $83,000 after weekly slide as oil, yields and security fear
+  - Oil chiefs pull out of Riyadh energy congress after airport missile strike
+- `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `oil`: score 22, headlines 7
-  - Tokenized commodities look beyond gold as lending and oil open new markets
-  - Bitcoin rebounds above $83,000 after weekly slide as oil, yields and security fear
-  - Bitcoin slips under $82k amid surging oil prices, hit to Wall Street tech stocks
-- `treasury_yields`: score 17, headlines 6
-  - US plans to seize $1B in crypto linked to Iran this week: Scott Bessent
+- `treasury_yields`: score 19, headlines 7
+  - Saylor teases Strategy Bitcoin buying after ending September with STRC buybacks
   - Bitcoin holds ground above $82k, heads for weekly losses amid yield pressure
   - Four signs it is about to get uglier in the bond market as yields rise - Reuters
-- `china`: score 14, headlines 5
+- `china`: score 12, headlines 4
   - So, what was the outcome of the US-China summit? (Recap)
   - 130 Million People Disappeared? The Shocking Twist for India, Once Hailed as the Next China
   - 6. Why does the U.S. intervene in other countries? (U.S.-China Summit)
-- `ai_semiconductors`: score 9, headlines 3
-  - Tech chief says EU can fend off rogue AI risk: Report
-  - Nvidia GPUs are everywhere. Here are the ways companies are accessing them
-  - Nvidia in talks to acquire US ‘open’ model start-up Reflection AI
-- `us_big_tech`: score 6, headlines 2
-  - Vance says Microsoft replaced laid-off workers with foreign hires. Here’s what the visa data shows
-  - Microsoft's Nadella says AI needs an ‘emergency brake’ that humans control
-- `dollar`: score 3, headlines 1
+- `dollar`: score 6, headlines 2
+  - AI’s quiet safety gatekeepers are stepping into the spotlight
   - India unveils tough curbs on dollar demand to defend rupee - Reuters
-- `us_index_flow`: score 3, headlines 1
+- `us_big_tech`: score 5, headlines 2
+  - Vance says Microsoft replaced laid-off workers with foreign hires. Here’s what the visa data shows
+  - Three Mark Zuckerbergs, Three Surprisingly Different Men
+- `us_index_flow`: score 5, headlines 2
   - Russia steps up bid to kill European defence chiefs, spy agencies warn
-- `tariffs_trade`: score 2, headlines 1
-  - China and Europe Step Back From Trade War With Limits on Chinese Car Exports
+  - We’re about to get a huge read on whether earnings can keep propping up the stock market
+- `ai_semiconductors`: score 3, headlines 1
+  - Tech chief says EU can fend off rogue AI risk: Report
+- `ethereum`: score 3, headlines 1
+  - EXIT HOUSE Launches on Ethereum, Letting Holders Exit Unwanted NFTs and Tokens for EXIT
