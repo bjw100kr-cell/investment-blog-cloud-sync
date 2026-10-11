@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-10-10T17:16:09.400869+00:00`
+- generated_at: `2026-10-11T05:13:20.381933+00:00`
 
 ## seo_treasury_yields_8
 

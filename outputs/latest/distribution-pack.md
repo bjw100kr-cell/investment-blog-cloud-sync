@@ -6,7 +6,7 @@
 
 - inventory_type: `main_post`
 - publish_bucket: `today_or_overdue`
-- priority_score: `133.0`
+- priority_score: `137.0`
 - hook_line: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -74,7 +74,7 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
-- priority_score: `92.0`
+- priority_score: `93.0`
 - hook_line: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -142,7 +142,7 @@ AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `108.37`
+- priority_score: `108.57`
 - hook_line: 미국채 금리 상승 이유: 지금 투자자가 확인할 체크포인트 5가지 | `미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
 
 ### X / Threads

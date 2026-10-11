@@ -13,8 +13,8 @@
 
 - keyword: `fomc`
 - type: `main_post` / role `lane_focus_macro`
-- publish date: `2026-10-10`
-- priority: `133.0`
+- publish date: `2026-10-11`
+- priority: `137.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
@@ -35,7 +35,7 @@
 
 - keyword: `bitcoin`
 - type: `main_post` / role `lane_focus_crypto`
-- publish date: `2026-10-11`
+- publish date: `2026-10-12`
 - priority: `119.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
@@ -57,8 +57,8 @@
 
 - keyword: `ai_semiconductors`
 - type: `main_post` / role `lane_focus_us-stocks`
-- publish date: `2026-10-12`
-- priority: `92.0`
+- publish date: `2026-10-13`
+- priority: `93.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
@@ -77,7 +77,7 @@
 
 - keyword: `china`
 - type: `main_post` / role `lane_focus_world-flow`
-- publish date: `2026-10-13`
+- publish date: `2026-10-14`
 - priority: `85.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
@@ -99,8 +99,8 @@
 
 - keyword: `seo_treasury_yields_8`
 - type: `seo_followup` / role `search_demand_capture`
-- publish date: `2026-10-14`
-- priority: `108.37`
+- publish date: `2026-10-15`
+- priority: `108.57`
 - internal review: `approve` / score `100`
 - intent: `미국채 금리 상승 이유`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도
 - CTA focus: 관련 허브, 기존 메인 해설, 다음 체크포인트 글로 연결
@@ -121,7 +121,7 @@
 
 - keyword: `seo_china_12`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-10-13`
+- publish date: `2026-10-14`
 - priority: `84.5`
 - internal review: `approve` / score `100`
 - intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
@@ -143,7 +143,7 @@
 
 - keyword: `seo_china_13`
 - type: `seo_followup` / role `follow_up`
-- publish date: `2026-10-13`
+- publish date: `2026-10-14`
 - priority: `81.5`
 - internal review: `approve` / score `100`
 - intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
@@ -165,7 +165,7 @@
 
 - keyword: `seo_china_14`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-10-13`
+- publish date: `2026-10-14`
 - priority: `78.5`
 - internal review: `approve` / score `100`
 - intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자

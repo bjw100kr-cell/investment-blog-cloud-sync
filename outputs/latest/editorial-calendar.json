@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T17:16:06.103599+00:00",
+  "generated_at": "2026-10-11T05:13:16.985202+00:00",
   "lane_order": [
     "macro",
     "crypto",
@@ -60,7 +60,7 @@
       "target_share": 0.2,
       "selected_keyword": "ai_semiconductors",
       "selected_mode": "direct",
-      "freshness_status": "unknown"
+      "freshness_status": "fresh"
     },
     {
       "lane": "world-flow",
@@ -72,20 +72,22 @@
   ],
   "schedule": [
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "slot": 1,
       "role": "lane_focus_macro",
       "post_type": "breaking_explainer",
       "target_keyword": "fomc",
       "working_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
         "NYT Business"
       ],
       "source_basis": [
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
         "NYT Business"
       ],
@@ -95,7 +97,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "slot": 2,
       "role": "lane_focus_crypto",
       "post_type": "breaking_explainer",
@@ -120,7 +122,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "slot": 3,
       "role": "lane_focus_us-stocks",
       "post_type": "breaking_explainer",
@@ -132,20 +134,20 @@
       "internal_link_targets": [
         "CNBC Top News",
         "Cointelegraph",
-        "MarketWatch Breaking News"
+        "Financial Times World"
       ],
       "source_basis": [
         "CNBC Top News",
         "Cointelegraph",
-        "MarketWatch Breaking News"
+        "Financial Times World"
       ],
-      "publish_note": "당일 이슈 해설형 글",
+      "publish_note": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
       "brand_lane": "us-stocks",
-      "freshness_status": "unknown",
+      "freshness_status": "fresh",
       "planning_mode": "direct"
     },
     {
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "slot": 4,
       "role": "lane_focus_world-flow",
       "post_type": "breaking_explainer",
@@ -168,7 +170,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "slot": 5,
       "role": "evergreen_support",
       "post_type": "evergreen_explainer",
@@ -196,7 +198,7 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-10-15",
+      "date": "2026-10-16",
       "slot": 6,
       "role": "secondary_lane_support",
       "post_type": "evergreen_explainer",
@@ -223,7 +225,7 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "slot": 7,
       "role": "weekly_recap",
       "post_type": "weekly_macro_recap",

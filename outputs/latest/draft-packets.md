@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-10-10T17:16:06.103599+00:00`
+- 생성 시각: `2026-10-11T05:13:16.985202+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 90.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,7 +70,7 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Trump Announces White House Inquiry Into Fed Governor Lisa Cook
+  - Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?
 
 ## 2. bitcoin
 
@@ -146,7 +146,7 @@
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 65.0
+- 점수: 66.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -208,7 +208,7 @@
 - 참고 헤드라인:
   - Tech chief says EU can fend off rogue AI risk: Report
   - Nvidia GPUs are everywhere. Here are the ways companies are accessing them
-  - Why Nvidia’s stock is dodging the AI credit scare that is crushing Broadcom and Oracle
+  - Nvidia in talks to acquire US ‘open’ model start-up Reflection AI
 
 ## 4. china
 
