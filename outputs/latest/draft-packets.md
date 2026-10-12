@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-10-12T05:26:28.528462+00:00`
+- 생성 시각: `2026-10-12T21:12:16.278831+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
-- 점수: 86.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 점수: 91.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,6 +70,7 @@
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
   - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
+  - Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack
 
 ## 2. bitcoin
 
@@ -135,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls
-  - Everyone wants SCOTUS to take up prediction markets: State of Crypto
-  - Clarity's failure could speed crypto innovation while shielding incumbents
-  - One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks
-  - Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?
+  - Tom Lee sees $2 trillion wealth transfer fueling crypto demand as Bitmine buys more ether
+  - Bitcoin falls below $83,000 as dollar strength keeps markets on edge
+  - South Korea just got its first traditional bank loans backed by bitcoin
+  - Here’s what happened in crypto today
+  - Crypto PACs report $2.7M spending blitz on House races as midterms loom
 
 ## 3. us_big_tech
 
 - 추천 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 56.0
+- 각도: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 82.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -205,14 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Vance says Microsoft replaced laid-off workers with foreign hires. Here’s what the visa data shows
-  - Three Mark Zuckerbergs, Three Surprisingly Different Men
+  - Meta debuts Muse Wonder AI model in latest test of users' willingness to pay
+  - Zuckerberg says Meta has reached AI ‘frontier’
+  - Musk injects $275mn into Republicans’ fight to retain Congress
+  - Microsoft hits a big milestone that solidifies its revival
+  - Meta is back on the AI leaderboard with its new family of Wonder models
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 72.0
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 42.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -272,8 +276,4 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Why China is importing a record amount of gold — and what it means for prices
   - So, what was the outcome of the US-China summit? (Recap)
-  - 130 Million People Disappeared? The Shocking Twist for India, Once Hailed as the Next China
-  - 6. Why does the U.S. intervene in other countries? (U.S.-China Summit)
-  - 5. Is there something China isn't revealing? (US-China Summit)

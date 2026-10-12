@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-12T05:26:33.413377+00:00",
-  "snapshot_generated_at": "2026-10-12T05:26:28.528462+00:00",
+  "generated_at": "2026-10-12T21:12:25.965479+00:00",
+  "snapshot_generated_at": "2026-10-12T21:12:16.278831+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
     "fresh": 2,
-    "aging": 1,
-    "stale": 0,
+    "aging": 0,
+    "stale": 1,
     "unknown": 0
   },
   "items": [
@@ -17,16 +17,16 @@
       "quality_status": "pass",
       "ready_now": true,
       "publish_date": "2026-10-12",
-      "freshness_status": "aging",
+      "freshness_status": "stale",
       "newest_evidence_iso": "2026-10-07T18:00:00+00:00",
       "oldest_evidence_iso": "2026-07-29T18:00:00+00:00",
-      "newest_evidence_age_days": 4.5,
-      "source_count": 1,
-      "demand_signal_score": 3200,
-      "summary_line": "아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.",
-      "recovery_mode": "refresh_before_publish",
-      "recovery_summary": "발행 직전 전체 파이프라인을 다시 돌려 headline과 숫자를 최신 상태로 갱신하는 편이 안전합니다.",
+      "newest_evidence_age_days": 5.1,
+      "source_count": 2,
+      "demand_signal_score": 3500,
+      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "recovery_mode": "full_refresh_needed",
+      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
       "recovery_command": "bash scripts/run_pipeline.sh",
       "recent_evidence": [
         {
@@ -56,71 +56,87 @@
       ]
     },
     {
-      "keyword": "us_big_tech",
-      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-      "quality_status": "review_before_publish",
-      "ready_now": false,
-      "publish_date": "2026-10-14",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-10-10T14:22:23+00:00",
-      "oldest_evidence_iso": "2026-10-10T14:22:23+00:00",
-      "newest_evidence_age_days": 1.6,
-      "source_count": 2,
-      "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Vance says Microsoft replaced laid-off workers with foreign hires. Here’s what the visa data shows",
-      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "Vance says Microsoft replaced laid-off workers with foreign hires. Here’s what the visa data shows",
-          "source_name": "CNBC Top News",
-          "published": "Sat, 10 Oct 2026 14:22:23 GMT",
-          "published_iso": "2026-10-10T14:22:23+00:00",
-          "link": "https://www.cnbc.com/2026/10/10/vance-microsoft-h1b-layoffs-visa-data.html",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "quality_status": "pass",
       "ready_now": true,
       "publish_date": "2026-10-13",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-10-12T04:49:30+00:00",
-      "oldest_evidence_iso": "2026-10-10T12:00:00+00:00",
-      "newest_evidence_age_days": 0.0,
+      "newest_evidence_iso": "2026-10-12T16:51:05+00:00",
+      "oldest_evidence_iso": "2026-10-12T11:21:11+00:00",
+      "newest_evidence_age_days": 0.2,
       "source_count": 3,
-      "demand_signal_score": 5300,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
+      "demand_signal_score": 5100,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin miners face widening AI financing costs as lenders scrutinize deals",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 12 Oct 2026 04:49:30 +0000",
-          "published_iso": "2026-10-12T04:49:30+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls",
-          "source_type": "rss"
-        },
-        {
-          "title": "Saylor teases Strategy Bitcoin buying after ending September with STRC buybacks",
+          "title": "Bitcoin miners face widening AI financing costs as lenders scrutinize deals",
           "source_name": "Cointelegraph",
-          "published": "Sun, 11 Oct 2026 17:11:00 +0000",
-          "published_iso": "2026-10-11T17:11:00+00:00",
-          "link": "https://cointelegraph.com/news/saylors-teases-strategy-bitcoin-buying-after-ending-september-with-strc-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Mon, 12 Oct 2026 16:51:05 +0000",
+          "published_iso": "2026-10-12T16:51:05+00:00",
+          "link": "https://cointelegraph.com/news/bitcoin-miners-ai-financing-costs-debt-funding-gap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin trapped in $81K-$84K range: Breakout watch live",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-10-11 19:02:17",
-          "published_iso": "2026-10-11 19:02:17",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-tests-87363-resistance-with-fading-momentum-live-levels-93CH-4931135",
+          "title": "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
+          "source_name": "Cointelegraph",
+          "published": "Mon, 12 Oct 2026 16:30:21 +0000",
+          "published_iso": "2026-10-12T16:30:21+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets",
+          "source_name": "Cointelegraph",
+          "published": "Mon, 12 Oct 2026 14:07:00 +0000",
+          "published_iso": "2026-10-12T14:07:00+00:00",
+          "link": "https://cointelegraph.com/news/ledger-implant-bitcoin-etfs-hardware-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "us_big_tech",
+      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-10-14",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-10-12T20:40:00+00:00",
+      "oldest_evidence_iso": "2026-10-12T17:00:02+00:00",
+      "newest_evidence_age_days": 0.0,
+      "source_count": 5,
+      "demand_signal_score": 3300,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Microsoft hits a big milestone that solidifies its revival",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Microsoft hits a big milestone that solidifies its revival",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Mon, 12 Oct 2026 20:40:00 GMT",
+          "published_iso": "2026-10-12T20:40:00+00:00",
+          "link": "https://www.marketwatch.com/story/microsoft-is-nearing-a-big-milestone-that-solidifies-its-revival-580d1ba8?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
+          "title": "Meta is back on the AI leaderboard with its new family of Wonder models",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Mon, 12 Oct 2026 19:43:00 GMT",
+          "published_iso": "2026-10-12T19:43:00+00:00",
+          "link": "https://www.marketwatch.com/story/meta-is-back-on-the-ai-leaderboard-with-its-new-family-of-wonder-models-a704b6cc?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
+          "title": "Meta debuts Muse Wonder AI model in latest test of users' willingness to pay",
+          "source_name": "CNBC Top News",
+          "published": "Mon, 12 Oct 2026 17:34:35 GMT",
+          "published_iso": "2026-10-12T17:34:35+00:00",
+          "link": "https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html",
           "source_type": "rss"
         }
       ]

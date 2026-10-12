@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
-    "Everyone wants SCOTUS to take up prediction markets: State of Crypto",
-    "Clarity's failure could speed crypto innovation while shielding incumbents",
-    "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
-    "Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?"
+    "Tom Lee sees $2 trillion wealth transfer fueling crypto demand as Bitmine buys more ether",
+    "Bitcoin falls below $83,000 as dollar strength keeps markets on edge",
+    "South Korea just got its first traditional bank loans backed by bitcoin",
+    "Here’s what happened in crypto today",
+    "Crypto PACs report $2.7M spending blitz on House races as midterms loom"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

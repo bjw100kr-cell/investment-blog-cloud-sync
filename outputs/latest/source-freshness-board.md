@@ -1,52 +1,54 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-10-12T05:26:33.413377+00:00`
-- snapshot_generated_at: `2026-10-12T05:26:28.528462+00:00`
+- generated_at: `2026-10-12T21:12:25.965479+00:00`
+- snapshot_generated_at: `2026-10-12T21:12:16.278831+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
-- counts: fresh `2` / aging `1` / stale `0` / unknown `0`
+- counts: fresh `2` / aging `0` / stale `1` / unknown `0`
 
 ## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 - keyword: `fomc`
-- freshness_status: `aging`
-- newest_evidence_age_days: `4.5`
+- freshness_status: `stale`
+- newest_evidence_age_days: `5.1`
 - newest_evidence_iso: `2026-10-07T18:00:00+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Federal Reserve issues FOMC statement
-- recommendation: 초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.
-- recovery_mode: `refresh_before_publish`
-- recovery_summary: 발행 직전 전체 파이프라인을 다시 돌려 headline과 숫자를 최신 상태로 갱신하는 편이 안전합니다.
+- summary: 핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement
+- recommendation: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
+- recovery_mode: `full_refresh_needed`
+- recovery_summary: 현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.
 - recovery_command: `bash scripts/run_pipeline.sh`
 - evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve issues FOMC statement
 - evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
 - evidence: Federal Reserve Monetary Policy Press / 2026-07-29T18:00:00+00:00 / Federal Reserve issues FOMC statement
 
-## 2. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-
-- keyword: `us_big_tech`
-- freshness_status: `fresh`
-- newest_evidence_age_days: `1.6`
-- newest_evidence_iso: `2026-10-10T14:22:23+00:00`
-- quality_status: `review_before_publish` / ready_now `False`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Vance says Microsoft replaced laid-off workers with foreign hires. Here’s what the visa data shows
-- recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
-- recovery_mode: `publish_direct`
-- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: CNBC Top News / 2026-10-10T14:22:23+00:00 / Vance says Microsoft replaced laid-off workers with foreign hires. Here’s what the visa data shows
-
-## 3. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.0`
-- newest_evidence_iso: `2026-10-12T04:49:30+00:00`
+- newest_evidence_age_days: `0.2`
+- newest_evidence_iso: `2026-10-12T16:51:05+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin miners face widening AI financing costs as lenders scrutinize deals
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: CoinDesk RSS / 2026-10-12T04:49:30+00:00 / Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls
-- evidence: Cointelegraph / 2026-10-11T17:11:00+00:00 / Saylor teases Strategy Bitcoin buying after ending September with STRC buybacks
-- evidence: Investing.com Crypto News / 2026-10-11 19:02:17 / Bitcoin trapped in $81K-$84K range: Breakout watch live
+- evidence: Cointelegraph / 2026-10-12T16:51:05+00:00 / Bitcoin miners face widening AI financing costs as lenders scrutinize deals
+- evidence: Cointelegraph / 2026-10-12T16:30:21+00:00 / Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high
+- evidence: Cointelegraph / 2026-10-12T14:07:00+00:00 / Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets
+
+## 3. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+
+- keyword: `us_big_tech`
+- freshness_status: `fresh`
+- newest_evidence_age_days: `0.0`
+- newest_evidence_iso: `2026-10-12T20:40:00+00:00`
+- quality_status: `pass` / ready_now `True`
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Microsoft hits a big milestone that solidifies its revival
+- recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
+- recovery_mode: `publish_direct`
+- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
+- evidence: MarketWatch Breaking News / 2026-10-12T20:40:00+00:00 / Microsoft hits a big milestone that solidifies its revival
+- evidence: MarketWatch Breaking News / 2026-10-12T19:43:00+00:00 / Meta is back on the AI leaderboard with its new family of Wonder models
+- evidence: CNBC Top News / 2026-10-12T17:34:35+00:00 / Meta debuts Muse Wonder AI model in latest test of users' willingness to pay

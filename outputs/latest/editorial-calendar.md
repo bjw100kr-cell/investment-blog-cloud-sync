@@ -1,6 +1,6 @@
 # 7일 편집 캘린더
 
-- 생성 시각: `2026-10-12T05:26:28.528462+00:00`
+- 생성 시각: `2026-10-12T21:12:16.278831+00:00`
 - 목적: stale 뉴스는 직접 발행에서 빼고, 거시경제·코인·미국주식·세계 흐름 레인을 주간 단위로 균형 있게 유지
 
 ## 레인 커버리지
@@ -14,7 +14,7 @@
 
 - lane `macro` / keyword `fomc` / mode `direct` / freshness `aging` / target_share `0.3`
 - lane `crypto` / keyword `bitcoin` / mode `direct` / freshness `fresh` / target_share `0.3`
-- lane `us-stocks` / keyword `us_big_tech` / mode `direct` / freshness `unknown` / target_share `0.2`
+- lane `us-stocks` / keyword `us_big_tech` / mode `direct` / freshness `fresh` / target_share `0.2`
 - lane `world-flow` / keyword `china` / mode `direct` / freshness `unknown` / target_share `0.2`
 
 ## Day 1 · 2026-10-12 · lane_focus_macro
@@ -25,11 +25,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: fomc
 - 작업 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 글 각도: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- 글 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: Federal Reserve Monetary Policy Press
-- 근거 소스/연결 키워드: Federal Reserve Monetary Policy Press
+- 내부링크 대상: CNBC Top News, Federal Reserve Monetary Policy Press
+- 근거 소스/연결 키워드: CNBC Top News, Federal Reserve Monetary Policy Press
 - 발행 메모: 초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.
 
 ## Day 2 · 2026-10-13 · lane_focus_crypto
@@ -51,16 +51,16 @@
 
 - 브랜드 레인: 미국주식
 - planning_mode: direct
-- freshness_status: unknown
+- freshness_status: fresh
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: us_big_tech
 - 작업 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- 글 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 글 각도: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, NYT Business
-- 근거 소스/연결 키워드: CNBC Top News, NYT Business
-- 발행 메모: 당일 이슈 해설형 글
+- 내부링크 대상: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
+- 근거 소스/연결 키워드: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
+- 발행 메모: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
 
 ## Day 4 · 2026-10-15 · lane_focus_world-flow
 
@@ -70,11 +70,11 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: china
 - 작업 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 글 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 글 각도: 섹터/세계 흐름 연결 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Financial Times World, 무역킹 Trade King YouTube
-- 근거 소스/연결 키워드: CNBC Top News, Financial Times World, 무역킹 Trade King YouTube
+- 내부링크 대상: 무역킹 Trade King YouTube
+- 근거 소스/연결 키워드: 무역킹 Trade King YouTube
 - 발행 메모: 당일 이슈 해설형 글
 
 ## Day 5 · 2026-10-16 · evergreen_support
