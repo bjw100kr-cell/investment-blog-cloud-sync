@@ -6,18 +6,18 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-10-12` / verdict `approve` / quality `pass`
+- keyword `bitcoin` / publish `2026-10-13` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - sample_headlines:
+  - Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls
+  - Everyone wants SCOTUS to take up prediction markets: State of Crypto
   - Clarity's failure could speed crypto innovation while shielding incumbents
-  - One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks
-  - Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?
 - recent_evidence:
-  - Cointelegraph | 2026-10-11T17:03:00+00:00 | Saylor teases Strategy Bitcoin buying after ending September with STRC buybacks
-  - Investing.com Crypto News | 2026-10-11 07:02:24 | Bitcoin stuck in $81,300-$85,200 range: Live breakout levels
-  - Investing.com Crypto News | 2026-10-11 05:35:34 | Bitcoin struggles above $83,000 a year after $19 billion crypto crash
+  - CoinDesk RSS | 2026-10-12T04:49:30+00:00 | Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls
+  - Cointelegraph | 2026-10-11T17:11:00+00:00 | Saylor teases Strategy Bitcoin buying after ending September with STRC buybacks
+  - Investing.com Crypto News | 2026-10-11 19:02:17 | Bitcoin trapped in $81K-$84K range: Breakout watch live
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
@@ -25,7 +25,7 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 
 ## 2. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword `fomc` / publish `2026-10-11` / verdict `approve` / quality `pass`
+- keyword `fomc` / publish `2026-10-12` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
@@ -42,19 +42,18 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
 
-## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+## 3. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
-- keyword `us_index_flow` / publish `2026-10-13` / verdict `approve` / quality `review_before_publish`
+- keyword `us_big_tech` / publish `2026-10-14` / verdict `approve` / quality `review_before_publish`
 - ready_now: `False` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - sample_headlines:
-  - Russia steps up bid to kill European defence chiefs, spy agencies warn
-  - We’re about to get a huge read on whether earnings can keep propping up the stock market
+  - Vance says Microsoft replaced laid-off workers with foreign hires. Here’s what the visa data shows
+  - Three Mark Zuckerbergs, Three Surprisingly Different Men
 - recent_evidence:
-  - MarketWatch Breaking News | 2026-10-11T14:00:00+00:00 | We’re about to get a huge read on whether earnings can keep propping up the stock market
-  - Financial Times Home | 2026-10-11T04:00:06+00:00 | Russia steps up bid to kill European defence chiefs, spy agencies warn
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply`
+  - CNBC Top News | 2026-10-10T14:22:23+00:00 | Vance says Microsoft replaced laid-off workers with foreign hires. Here’s what the visa data shows
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply`

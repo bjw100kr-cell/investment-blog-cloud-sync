@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-11T17:38:29.507688+00:00`
+- 생성 시각: `2026-10-12T05:26:28.528462+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,49 +106,49 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 37, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `oil`: score 21, source_count 6, sources CoinDesk RSS, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, 무역킹 Trade King YouTube
+- `bitcoin`: score 41, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `oil`: score 31, source_count 8, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
 - `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `treasury_yields`: score 19, source_count 4, sources Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `china`: score 12, source_count 1, sources 무역킹 Trade King YouTube
-- `dollar`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `china`: score 18, source_count 3, sources CNBC Top News, Financial Times World, 무역킹 Trade King YouTube
+- `treasury_yields`: score 11, source_count 4, sources Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `dollar`: score 9, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
 - `us_big_tech`: score 5, source_count 2, sources CNBC Top News, NYT Business
-- `us_index_flow`: score 5, source_count 2, sources Financial Times Home, MarketWatch Breaking News
-- `ai_semiconductors`: score 3, source_count 1, sources Cointelegraph
+- `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
 - `ethereum`: score 3, source_count 1, sources Investing.com Crypto News
+- `cpi`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 37, headlines 11
+- `bitcoin`: score 41, headlines 12
+  - Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls
+  - Everyone wants SCOTUS to take up prediction markets: State of Crypto
   - Clarity's failure could speed crypto innovation while shielding incumbents
-  - One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks
-  - Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?
-- `oil`: score 21, headlines 7
+- `oil`: score 31, headlines 10
+  - Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls
   - Tokenized commodities look beyond gold as lending and oil open new markets
-  - Bitcoin rebounds above $83,000 after weekly slide as oil, yields and security fear
-  - Oil chiefs pull out of Riyadh energy congress after airport missile strike
+  - Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine
 - `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 19, headlines 7
+- `china`: score 18, headlines 6
+  - Why China is importing a record amount of gold — and what it means for prices
+  - So, what was the outcome of the US-China summit? (Recap)
+  - 130 Million People Disappeared? The Shocking Twist for India, Once Hailed as the Next China
+- `treasury_yields`: score 11, headlines 4
   - Saylor teases Strategy Bitcoin buying after ending September with STRC buybacks
   - Bitcoin holds ground above $82k, heads for weekly losses amid yield pressure
   - Four signs it is about to get uglier in the bond market as yields rise - Reuters
-- `china`: score 12, headlines 4
-  - So, what was the outcome of the US-China summit? (Recap)
-  - 130 Million People Disappeared? The Shocking Twist for India, Once Hailed as the Next China
-  - 6. Why does the U.S. intervene in other countries? (U.S.-China Summit)
-- `dollar`: score 6, headlines 2
-  - AI’s quiet safety gatekeepers are stepping into the spotlight
+- `dollar`: score 9, headlines 3
+  - Why China is importing a record amount of gold — and what it means for prices
+  - Dollar steady near 18-month high as Mideast conflict, US inflation in focus - Reuters
   - India unveils tough curbs on dollar demand to defend rupee - Reuters
 - `us_big_tech`: score 5, headlines 2
   - Vance says Microsoft replaced laid-off workers with foreign hires. Here’s what the visa data shows
   - Three Mark Zuckerbergs, Three Surprisingly Different Men
-- `us_index_flow`: score 5, headlines 2
-  - Russia steps up bid to kill European defence chiefs, spy agencies warn
-  - We’re about to get a huge read on whether earnings can keep propping up the stock market
-- `ai_semiconductors`: score 3, headlines 1
-  - Tech chief says EU can fend off rogue AI risk: Report
+- `crypto_etf`: score 4, headlines 1
+  - Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls
+- `cpi`: score 3, headlines 1
+  - Dollar steady near 18-month high as Mideast conflict, US inflation in focus - Reuters
 - `ethereum`: score 3, headlines 1
   - EXIT HOUSE Launches on Ethereum, Letting Holders Exit Unwanted NFTs and Tokens for EXIT

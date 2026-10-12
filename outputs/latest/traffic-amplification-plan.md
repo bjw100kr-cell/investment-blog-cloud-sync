@@ -1,12 +1,12 @@
 # Traffic Amplification Plan
 
 - 목표 방문자: `200`
-- 기본 예상 방문자: `185`
+- 기본 예상 방문자: `267`
 - 실행 전 배포 추가 예상 방문자: `0`
 - 수동 실행 시 추가 잠재 방문자: `1200`
-- 실행 전 배포 포함 예상 방문자: `185`
-- 수동 실행 시 잠재 방문자: `1385`
-- 남은 부족분: `15`
+- 실행 전 배포 포함 예상 방문자: `267`
+- 수동 실행 시 잠재 방문자: `1467`
+- 남은 부족분: `0`
 - 상태: `amplification_plan_ready_manual_execution_required`
 
 ## 운영 규칙
@@ -372,7 +372,7 @@ fomc 후속 글 후보: fomc 후속 글 1개를 먼저 생성하거나, 관련 �
 
 - keyword: `china`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
-- base_search_estimate: `20`
+- base_search_estimate: `82`
 - amplification_expected_before_execution: `0`
 - amplification_potential_if_executed: `75`
 - manual_execution_required: `True`
@@ -574,11 +574,7 @@ china 후속 글 후보: 중국 변수와 시장 영향 관련 대표 종목 한
 ```text
 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
-오늘 시장을 볼 때 핵심은 이것입니다.
-- 독자 관점: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- 한 줄 포인트: 실적·공급망·대표 종목 글로 연결
-
-짧고 이해하기 쉽게 정리했습니다.
+오늘 시장 핵심만 정리했습니다.
 
 https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
 ```
@@ -623,9 +619,8 @@ https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
 - task: 짧은 브리핑형 공유
 
 ```text
-[lane_focus_us-stocks] 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-오늘 체크해야 할 흐름을 초보자도 이해하기 쉽게 정리했습니다.
-핵심 포인트: 실적·공급망·대표 종목 글로 연결
+미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+핵심 체크포인트를 짧게 정리했습니다.
 
 https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
 ```
@@ -674,7 +669,7 @@ https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
 ```text
 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
-이번 글은 '당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자'에 맞춰 정리한 해설입니다. 읽고 나면 실적·공급망·대표 종목 글로 연결 흐름까지 같이 이어서 보기 좋게 설계했습니다.
+오늘 시장 흐름을 투자자 관점에서 정리했습니다.
 
 질문: 지금은 가격보다 어떤 지표를 먼저 보는 게 맞을까요?
 https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
