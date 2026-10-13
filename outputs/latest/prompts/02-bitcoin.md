@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bitcoin whale that sat through the March 2020 crash moves $378 million",
+    "Tokenized SanDisk bets saw more liquidations than XRP as Asia’s chip rout wipes out $800 million",
+    "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
     "Tom Lee sees $2 trillion wealth transfer fueling crypto demand as Bitmine buys more ether",
-    "Bitcoin falls below $83,000 as dollar strength keeps markets on edge",
-    "South Korea just got its first traditional bank loans backed by bitcoin",
-    "Here’s what happened in crypto today",
-    "Crypto PACs report $2.7M spending blitz on House races as midterms loom"
+    "Here’s what happened in crypto today"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

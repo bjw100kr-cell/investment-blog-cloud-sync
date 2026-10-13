@@ -1,12 +1,44 @@
 {
-  "generated_at": "2026-10-12T21:12:16.278831+00:00",
+  "generated_at": "2026-10-13T06:24:18.718113+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 6,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 1,
+      "traffic_score_sum": 5000,
+      "max_approx_traffic": 5000,
+      "trend_queries": [
+        "반도체"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 5200,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
+    {
+      "keyword": "us_big_tech",
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
+      "trend_queries": [
+        "apple iphone duo"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,11 +46,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5100,
+      "demand_signal_score": 5200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 39,
+      "source_snapshot_score": 40,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +58,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Tom Lee sees $2 trillion wealth transfer fueling crypto demand as Bitmine buys more ether",
-        "Bitcoin falls below $83,000 as dollar strength keeps markets on edge",
-        "South Korea just got its first traditional bank loans backed by bitcoin"
+        "Bitcoin whale that sat through the March 2020 crash moves $378 million",
+        "Tokenized SanDisk bets saw more liquidations than XRP as Asia’s chip rout wipes out $800 million",
+        "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures"
       ]
     },
     {
@@ -38,15 +70,16 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3500,
+      "demand_signal_score": 3800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
-      "source_count": 2,
+      "source_snapshot_score": 26,
+      "source_count": 3,
       "source_names": [
-        "CNBC Top News",
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times World",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -61,49 +94,49 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3500,
+      "demand_signal_score": 3200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
-      "source_count": 6,
+      "source_snapshot_score": 20,
+      "source_count": 5,
       "source_names": [
-        "Cointelegraph",
-        "Financial Times World",
+        "CNBC Top News",
         "Investing.com Crypto News",
         "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "Reuters Markets via Google News RSS",
+        "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
-        "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
-        "Bitcoin slips below $83k as rebound in oil prices dents sentiment",
-        "Nasdaq falls ahead of earnings, economic data while oil rallies - Reuters"
+        "Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict",
+        "Bitcoin slips to $82.6k as rise in oil prices weigh on risk sentiment",
+        "Oil falls as Russia diesel supply prospects counter Gulf supply risks - Reuters"
       ]
     },
     {
-      "keyword": "us_big_tech",
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3300,
+      "demand_signal_score": 3100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 21,
+      "source_snapshot_score": 19,
       "source_count": 5,
       "source_names": [
         "CNBC Top News",
+        "CoinDesk RSS",
         "Financial Times Home",
         "Financial Times World",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Meta debuts Muse Wonder AI model in latest test of users' willingness to pay",
-        "Zuckerberg says Meta has reached AI ‘frontier’",
-        "Musk injects $275mn into Republicans’ fight to retain Congress"
+        "Tom Lee sees $2 trillion wealth transfer fueling crypto demand as Bitmine buys more ether",
+        "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
+        "Investors brave US Treasury rout to lock in highest yields in decades"
       ]
     }
   ],

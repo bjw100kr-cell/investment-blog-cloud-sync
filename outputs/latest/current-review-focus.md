@@ -19,9 +19,9 @@
 - CTA focus: ETF·규제·초보 가이드 글로 연결
 - final retention CTA: 비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.
 - later revisit CTA: 코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- demand_signal_score: `5100`
-- freshness: `fresh` / newest evidence age `0.2` days
-- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin miners face widening AI financing costs as lenders scrutinize deals
+- demand_signal_score: `5200`
+- freshness: `fresh` / newest evidence age `0.0` days
+- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin whale that sat through the March 2020 crash moves $378 million
 - freshness_recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - sources: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - advisory_checks: canonical_url_present, newsletter_ready, ga4_ready
@@ -35,44 +35,44 @@
 - excerpt: - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
 - preview: 한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
-- evidence: Cointelegraph / 2026-10-12T16:51:05+00:00 / Bitcoin miners face widening AI financing costs as lenders scrutinize deals
-- evidence: Cointelegraph / 2026-10-12T16:30:21+00:00 / Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high
-- evidence: Cointelegraph / 2026-10-12T14:07:00+00:00 / Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets
+- evidence: CoinDesk RSS / 2026-10-13T05:45:10+00:00 / Bitcoin whale that sat through the March 2020 crash moves $378 million
+- evidence: CoinDesk RSS / 2026-10-13T04:18:20+00:00 / Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures
+- evidence: Investing.com Crypto News / 2026-10-12 22:04:19 / Bitcoin slips to $82.6k as rise in oil prices weigh on risk sentiment
 - hero_image_search: `bitcoin blockchain abstract blue finance` / https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/
 - hero_image_apply_helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword bitcoin --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html`
 
-## 2. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+## 2. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 
-- keyword: `us_big_tech`
+- keyword: `china`
 - ready_now: `True`
 - quality_status: `pass`
 - hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
-- final retention CTA: 빅테크 흐름은 대표 종목과 공급망 글을 같이 봐야 실제 투자 연결이 됩니다. 아래 읽을거리까지 함께 보세요.
-- later revisit CTA: 섹터 흐름 요약을 짧게 계속 받고 싶다면 텔레그램/채널형 재방문 동선과 연결합니다.
-- demand_signal_score: `3300`
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
+- demand_signal_score: `0`
 - freshness: `fresh` / newest evidence age `0.0` days
-- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Microsoft hits a big milestone that solidifies its revival
+- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Visa gets Beijing's green light for bank card business after 40 years of working with China
 - freshness_recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
-- sources: CNBC Top News, Financial Times Home, Financial Times World
+- sources: CNBC Top News, Financial Times World, 무역킹 Trade King YouTube
 - advisory_checks: canonical_url_present, newsletter_ready, ga4_ready
 - next_action: 사용자 최종 확인 후 Blogger draft 업로드
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply`
-- excerpt: 한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-- excerpt: - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다.
-- excerpt: - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다.
-- excerpt: - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
-- preview: 한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
-- preview: - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
-- evidence: MarketWatch Breaking News / 2026-10-12T20:40:00+00:00 / Microsoft hits a big milestone that solidifies its revival
-- evidence: MarketWatch Breaking News / 2026-10-12T19:43:00+00:00 / Meta is back on the AI leaderboard with its new family of Wonder models
-- evidence: CNBC Top News / 2026-10-12T17:34:35+00:00 / Meta debuts Muse Wonder AI model in latest test of users' willingness to pay
-- hero_image_search: `technology stocks office city abstract` / https://unsplash.com/s/photos/technology+stocks+office+city+abstract
-- hero_image_apply_helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_big_tech --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-big-tech.md`
-- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html`
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply`
+- excerpt: 한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+- excerpt: - 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다.
+- excerpt: - 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다.
+- excerpt: - 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다.
+- preview: 한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
+- preview: - 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다. - 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다. - 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다.
+- evidence: CNBC Top News / 2026-10-13T06:20:55+00:00 / Visa gets Beijing's green light for bank card business after 40 years of working with China
+- evidence: Financial Times World / 2026-10-13T05:30:09+00:00 / China gets spiky on currencies
+- evidence: 무역킹 Trade King YouTube / 10K / So, what was the outcome of the US-China summit? (Recap)
+- hero_image_search: `technology stocks office finance abstract` / https://unsplash.com/s/photos/technology+stocks+office+finance+abstract
+- hero_image_apply_helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword china --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md`
+- html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html`

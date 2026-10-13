@@ -8,7 +8,7 @@
       "display_order": 1,
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-10-13",
+      "publish_date": "2026-10-14",
       "priority_score": 121.0,
       "review_verdict": "approve",
       "quality_status": "pass",
@@ -45,32 +45,32 @@
         "blockers": []
       },
       "freshness_status": "fresh",
-      "newest_evidence_age_days": 0.2,
-      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin miners face widening AI financing costs as lenders scrutinize deals",
+      "newest_evidence_age_days": 0.0,
+      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin whale that sat through the March 2020 crash moves $378 million",
       "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin miners face widening AI financing costs as lenders scrutinize deals",
-          "source_name": "Cointelegraph",
-          "published": "Mon, 12 Oct 2026 16:51:05 +0000",
-          "published_iso": "2026-10-12T16:51:05+00:00",
-          "link": "https://cointelegraph.com/news/bitcoin-miners-ai-financing-costs-debt-funding-gap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Bitcoin whale that sat through the March 2020 crash moves $378 million",
+          "source_name": "CoinDesk RSS",
+          "published": "Tue, 13 Oct 2026 05:45:10 +0000",
+          "published_iso": "2026-10-13T05:45:10+00:00",
+          "link": "https://www.coindesk.com/markets/2026/10/13/bitcoin-whale-that-sat-through-the-march-2020-crash-moves-usd378-million",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
-          "source_name": "Cointelegraph",
-          "published": "Mon, 12 Oct 2026 16:30:21 +0000",
-          "published_iso": "2026-10-12T16:30:21+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
+          "source_name": "CoinDesk RSS",
+          "published": "Tue, 13 Oct 2026 04:18:20 +0000",
+          "published_iso": "2026-10-13T04:18:20+00:00",
+          "link": "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures",
           "source_type": "rss"
         },
         {
-          "title": "Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets",
-          "source_name": "Cointelegraph",
-          "published": "Mon, 12 Oct 2026 14:07:00 +0000",
-          "published_iso": "2026-10-12T14:07:00+00:00",
-          "link": "https://cointelegraph.com/news/ledger-implant-bitcoin-etfs-hardware-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Bitcoin slips to $82.6k as rise in oil prices weigh on risk sentiment",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-10-12 22:04:19",
+          "published_iso": "2026-10-12 22:04:19",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-recovers-to-near-84k-as-falling-oil-prices-offer-some-support-4943235",
           "source_type": "rss"
         }
       ],
@@ -79,7 +79,7 @@
         "Cointelegraph",
         "Investing.com Crypto News"
       ],
-      "demand_signal_score": 5100,
+      "demand_signal_score": 5200,
       "fallback_source": "source_snapshot_rank",
       "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
@@ -104,10 +104,10 @@
     },
     {
       "display_order": 2,
-      "keyword": "us_big_tech",
-      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-      "publish_date": "2026-10-14",
-      "priority_score": 117.0,
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "publish_date": "2026-10-16",
+      "priority_score": 90.0,
       "review_verdict": "approve",
       "quality_status": "pass",
       "hero_image_selected": true,
@@ -115,81 +115,84 @@
       "cta_focus": "실적·공급망·대표 종목 글로 연결",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "preview": [
-        "한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다."
+        "한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다. - 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다. - 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다."
       ],
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-big-tech.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html",
       "excerpt": [
-        "한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다.",
-        "- 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다.",
-        "- 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다."
+        "한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다.",
+        "- 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다.",
+        "- 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다."
       ],
       "retention_cta_enabled": true,
       "retention_cta": {
-        "cluster_name": "미국 빅테크 허브 클러스터",
-        "source_keyword": "us_big_tech",
-        "main_title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+        "cluster_name": "china 클러스터",
+        "source_keyword": "china",
+        "main_title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
         "main_ready_to_upload": false,
         "cta_focus": "실적·공급망·대표 종목 글로 연결",
-        "inline_cta_now": "빅테크 흐름은 대표 종목과 공급망 글을 같이 봐야 실제 투자 연결이 됩니다. 아래 읽을거리까지 함께 보세요.",
-        "telegram_cta_later": "섹터 흐름 요약을 짧게 계속 받고 싶다면 텔레그램/채널형 재방문 동선과 연결합니다.",
-        "newsletter_cta_later": "실적 시즌과 섹터 흐름을 주간 정리로 다시 받아보게 만드는 뉴스레터 CTA 후보입니다.",
-        "newsletter_subject_seed": "[오늘의 투자 브리핑] 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+        "inline_cta_now": "이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.",
+        "telegram_cta_later": "핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.",
+        "newsletter_cta_later": "다음 중요한 이벤트를 놓치지 않도록 뉴스레터 구독 동선과 연결합니다.",
+        "newsletter_subject_seed": "[오늘의 투자 브리핑] 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
         "newsletter_preview_seed": "페이지뷰와 체류시간 균형 확보 관점에서 꼭 봐야 할 포인트를 짧게 정리했습니다.",
-        "followup_titles": [],
+        "followup_titles": [
+          "중국 변수와 시장 영향 관련 대표 종목 한눈에 보기",
+          "중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나"
+        ],
         "next_action": "사용자 검토 후 승인 대기",
         "blockers": [
           "main_quality=review_before_publish",
-          "follow_up_posts_present",
+          "source_strength",
           "canonical_url_present",
           "newsletter_ready"
         ]
       },
       "freshness_status": "fresh",
       "newest_evidence_age_days": 0.0,
-      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Microsoft hits a big milestone that solidifies its revival",
+      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Visa gets Beijing's green light for bank card business after 40 years of working with China",
       "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Microsoft hits a big milestone that solidifies its revival",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Mon, 12 Oct 2026 20:40:00 GMT",
-          "published_iso": "2026-10-12T20:40:00+00:00",
-          "link": "https://www.marketwatch.com/story/microsoft-is-nearing-a-big-milestone-that-solidifies-its-revival-580d1ba8?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "Meta is back on the AI leaderboard with its new family of Wonder models",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Mon, 12 Oct 2026 19:43:00 GMT",
-          "published_iso": "2026-10-12T19:43:00+00:00",
-          "link": "https://www.marketwatch.com/story/meta-is-back-on-the-ai-leaderboard-with-its-new-family-of-wonder-models-a704b6cc?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "Meta debuts Muse Wonder AI model in latest test of users' willingness to pay",
+          "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
           "source_name": "CNBC Top News",
-          "published": "Mon, 12 Oct 2026 17:34:35 GMT",
-          "published_iso": "2026-10-12T17:34:35+00:00",
-          "link": "https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html",
+          "published": "Tue, 13 Oct 2026 06:20:55 GMT",
+          "published_iso": "2026-10-13T06:20:55+00:00",
+          "link": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
           "source_type": "rss"
+        },
+        {
+          "title": "China gets spiky on currencies",
+          "source_name": "Financial Times World",
+          "published": "Tue, 13 Oct 2026 05:30:09 GMT",
+          "published_iso": "2026-10-13T05:30:09+00:00",
+          "link": "https://www.ft.com/content/27be530d-2faf-43ce-874f-0e6e0802bee2?syn-25a6b1a6=1",
+          "source_type": "rss"
+        },
+        {
+          "title": "So, what was the outcome of the US-China summit? (Recap)",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "10K",
+          "published_iso": "10K",
+          "link": "https://www.youtube.com/watch?v=vmt7f1eesDE",
+          "source_type": "youtube_channel"
         }
       ],
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World"
+        "Financial Times World",
+        "무역킹 Trade King YouTube"
       ],
-      "demand_signal_score": 3300,
-      "fallback_source": "source_snapshot_rank",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
+      "demand_signal_score": 0,
+      "fallback_source": "mapped_candidate",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply",
-      "recovery_mode": "publish_direct",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
+      "recovery_mode": "",
       "recovery_title": "",
       "recovery_confirm_command": "",
       "recovery_image_search_url": "",
@@ -201,9 +204,9 @@
         "newsletter_ready",
         "ga4_ready"
       ],
-      "hero_image_search_url": "https://unsplash.com/s/photos/technology+stocks+office+city+abstract",
-      "hero_image_search_query": "technology stocks office city abstract",
-      "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_big_tech --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve"
+      "hero_image_search_url": "https://unsplash.com/s/photos/technology+stocks+office+finance+abstract",
+      "hero_image_search_query": "technology stocks office finance abstract",
+      "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword china --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve"
     }
   ],
   "related_paths": {

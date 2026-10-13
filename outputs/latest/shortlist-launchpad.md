@@ -6,57 +6,57 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-10-13` / verdict `approve` / quality `pass`
+- keyword `bitcoin` / publish `2026-10-14` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - sample_headlines:
-  - Tom Lee sees $2 trillion wealth transfer fueling crypto demand as Bitmine buys more ether
-  - Bitcoin falls below $83,000 as dollar strength keeps markets on edge
-  - South Korea just got its first traditional bank loans backed by bitcoin
+  - Bitcoin whale that sat through the March 2020 crash moves $378 million
+  - Tokenized SanDisk bets saw more liquidations than XRP as Asia’s chip rout wipes out $800 million
+  - Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures
 - recent_evidence:
-  - Cointelegraph | 2026-10-12T16:51:05+00:00 | Bitcoin miners face widening AI financing costs as lenders scrutinize deals
-  - Cointelegraph | 2026-10-12T16:30:21+00:00 | Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high
-  - Cointelegraph | 2026-10-12T14:07:00+00:00 | Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets
+  - CoinDesk RSS | 2026-10-13T05:45:10+00:00 | Bitcoin whale that sat through the March 2020 crash moves $378 million
+  - CoinDesk RSS | 2026-10-13T04:18:20+00:00 | Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures
+  - Investing.com Crypto News | 2026-10-12 22:04:19 | Bitcoin slips to $82.6k as rise in oil prices weigh on risk sentiment
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 2. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+## 2. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 
-- keyword `us_big_tech` / publish `2026-10-14` / verdict `approve` / quality `pass`
+- keyword `china` / publish `2026-10-16` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- why_now: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - sample_headlines:
-  - Meta debuts Muse Wonder AI model in latest test of users' willingness to pay
-  - Zuckerberg says Meta has reached AI ‘frontier’
-  - Musk injects $275mn into Republicans’ fight to retain Congress
+  - Visa gets Beijing's green light for bank card business after 40 years of working with China
+  - So, what was the outcome of the US-China summit? (Recap)
+  - China gets spiky on currencies
 - recent_evidence:
-  - MarketWatch Breaking News | 2026-10-12T20:40:00+00:00 | Microsoft hits a big milestone that solidifies its revival
-  - MarketWatch Breaking News | 2026-10-12T19:43:00+00:00 | Meta is back on the AI leaderboard with its new family of Wonder models
-  - CNBC Top News | 2026-10-12T17:34:35+00:00 | Meta debuts Muse Wonder AI model in latest test of users' willingness to pay
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply`
+  - CNBC Top News | 2026-10-13T06:20:55+00:00 | Visa gets Beijing's green light for bank card business after 40 years of working with China
+  - Financial Times World | 2026-10-13T05:30:09+00:00 | China gets spiky on currencies
+  - 무역킹 Trade King YouTube | 10K | So, what was the outcome of the US-China summit? (Recap)
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply`
 
-## 3. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword `fomc` / publish `2026-10-12` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
+- keyword `ai_semiconductors` / publish `2026-10-15` / verdict `approve` / quality `review_before_publish`
+- ready_now: `False` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- why_now: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (반도체)
 - sample_headlines:
-  - Federal Reserve issues FOMC statement
-  - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
+  - 반도체
+  - Tokenized SanDisk bets saw more liquidations than XRP as Asia’s chip rout wipes out $800 million
+  - Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures
 - recent_evidence:
-  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve issues FOMC statement
-  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Federal Reserve Monetary Policy Press | 2026-07-29T18:00:00+00:00 | Federal Reserve issues FOMC statement
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
+  - Google Trends KR | 2026-10-12T22:10:00-07:00 | 반도체
+  - Financial Times Home | 2026-10-13T05:44:06+00:00 | Chip stocks slide in wake of ‘casino’ comment by Broadcom boss
+  - CoinDesk RSS | 2026-10-13T05:27:17+00:00 | Tokenized SanDisk bets saw more liquidations than XRP as Asia’s chip rout wipes out $800 million
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`
