@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-10-13T06:24:18.718113+00:00`
+- 생성 시각: `2026-10-13T19:11:09.851304+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `94.0`
-- 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press, Financial Times World, Reuters Markets via Google News RSS
+- 총점: `80.0`
+- 점수 구성: 검색성 15 / 시의성 23 / 설명가치 20 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- 소스: Federal Reserve Monetary Policy Press
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -26,15 +26,13 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy
-  - Fed's Hammack: Hope to cool demand, and inflation, without job market pain - Reuters
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `82.0`
-- 점수 구성: 검색성 28 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 1
+- 총점: `83.0`
+- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
@@ -48,21 +46,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - Bitcoin whale that sat through the March 2020 crash moves $378 million
-  - Tokenized SanDisk bets saw more liquidations than XRP as Asia’s chip rout wipes out $800 million
-  - Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures
-  - Tom Lee sees $2 trillion wealth transfer fueling crypto demand as Bitmine buys more ether
-  - Here’s what happened in crypto today
+  - Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants
+  - UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate
+  - South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin
+  - Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks
+  - Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `90.0`
-- 점수 구성: 검색성 30 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (반도체)
-- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Google Trends KR, MarketWatch Breaking News
-- 트렌드 쿼리: 반도체
+- 총점: `85.0`
+- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -74,20 +71,20 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - 반도체
-  - Tokenized SanDisk bets saw more liquidations than XRP as Asia’s chip rout wipes out $800 million
-  - Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures
-  - Meta claims new Muse Wonder AI models rival OpenAI, Anthropic
-  - SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off
+  - Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants
+  - Anthropic warns ‘AI worms’ may autonomously spread across devices like a virus
+  - Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade
+  - Chip stocks slide after Broadcom boss warns of ‘casino’ mentality in AI investing
+  - Anthropic warns rogue AI agents may ‘self-replicate’ to hijack everyday devices
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `64.0`
-- 점수 구성: 검색성 13 / 시의성 12 / 설명가치 18 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times World, 무역킹 Trade King YouTube
+- 총점: `42.0`
+- 점수 구성: 검색성 4 / 시의성 2 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 섹터/세계 흐름 연결 해설 가능
+- 소스: 무역킹 Trade King YouTube
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -99,22 +96,20 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Visa gets Beijing's green light for bank card business after 40 years of working with China
   - So, what was the outcome of the US-China summit? (Recap)
-  - China gets spiky on currencies
 
-## 5. treasury_yields
+## 5. cpi
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `83.0`
-- 점수 구성: 검색성 22 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
+- 총점: `75.0`
+- 점수 구성: 검색성 17 / 시의성 18 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, CoinDesk RSS, MarketWatch Breaking News
 - 제목 후보:
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
+  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
+  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 지금 시장이 반응하는 이유
+  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -122,8 +117,7 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Tom Lee sees $2 trillion wealth transfer fueling crypto demand as Bitmine buys more ether
-  - IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen
-  - Investors brave US Treasury rout to lock in highest yields in decades
-  - Dollar slips as oil prices sink, bond yields stabilise - Reuters
-  - Rising Treasury bill issuance puts pressure on short-term rates
+  - Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns
+  - Live updates: Bitcoin trading in tight range near $83,000 ahead of key U.S. inflation data
+  - The latest inflation data is expected to show price increases are accelerating
+  - My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?
