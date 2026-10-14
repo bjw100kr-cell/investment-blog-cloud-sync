@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-13T19:11:09.851304+00:00`
+- 생성 시각: `2026-10-14T04:25:14.899399+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,49 +106,45 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 55, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `ai_semiconductors`: score 30, source_count 7, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
-- `us_big_tech`: score 18, source_count 2, sources CNBC Top News, Google Trends KR
-- `fomc`: score 15, source_count 1, sources Federal Reserve Monetary Policy Press
-- `cpi`: score 13, source_count 3, sources CNBC Top News, CoinDesk RSS, MarketWatch Breaking News
-- `treasury_yields`: score 11, source_count 4, sources Cointelegraph, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
-- `us_index_flow`: score 6, source_count 2, sources CNBC Top News, Cointelegraph
-- `oil`: score 5, source_count 2, sources Investing.com Crypto News, NYT Business
-- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
-- `china`: score 3, source_count 1, sources 무역킹 Trade King YouTube
+- `bitcoin`: score 51, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 21, source_count 3, sources CoinDesk RSS, Federal Reserve Monetary Policy Press, NYT Business
+- `china`: score 14, source_count 4, sources CNBC Top News, Financial Times Home, NYT Business, 무역킹 Trade King YouTube
+- `ai_semiconductors`: score 12, source_count 3, sources CoinDesk RSS, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `cpi`: score 9, source_count 3, sources CoinDesk RSS, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_index_flow`: score 9, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
+- `oil`: score 9, source_count 3, sources CNBC Top News, Financial Times Home, Investing.com Crypto News
+- `treasury_yields`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 55, headlines 16
-  - Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants
-  - UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate
-  - South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin
-- `ai_semiconductors`: score 30, headlines 10
-  - Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants
-  - Anthropic warns ‘AI worms’ may autonomously spread across devices like a virus
-  - Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade
-- `us_big_tech`: score 18, headlines 2
-  - 애플 홈뷰
-  - Apple releases HomeView smart home hub with screen as showcase for Siri AI
-- `fomc`: score 15, headlines 3
+- `bitcoin`: score 51, headlines 15
+  - Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027
+  - Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action
+  - Strive raising $500 million to buy additional bitcoin with new preferred share class
+- `fomc`: score 21, headlines 5
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `cpi`: score 13, headlines 4
-  - Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns
-  - Live updates: Bitcoin trading in tight range near $83,000 ahead of key U.S. inflation data
-  - The latest inflation data is expected to show price increases are accelerating
-- `treasury_yields`: score 11, headlines 4
-  - Strive reports $208M in warrant exercises as Bitcoin holdings jump 11%
-  - Investors brave US Treasury rout to lock in highest yields in decades
-  - US existing home sales rise in September; higher mortgage rates dim outlook - Reuters
-- `us_index_flow`: score 6, headlines 2
-  - Bitcoin keeps up pressure on $84K as US stocks skirt Korea tech sell-off
-  - Paul Tudor Jones says 2027 could be a really challenging year for the stock market
-- `oil`: score 5, headlines 2
+- `china`: score 14, headlines 5
+  - China's producer prices rise at fastest pace since June 2022, beating expectations
+  - Bank of America fined $1.2bn over money laundering failures
+  - China’s exports surge 36% as AI-related shipments boom
+- `ai_semiconductors`: score 12, headlines 4
+  - Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants
+  - Asia shares edge up as chip selloff eases; US CPI awaited - Reuters
+  - PODCAST: Cashing in chips - Reuters
+- `cpi`: score 9, headlines 3
+  - Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027
+  - Asia shares edge up as chip selloff eases; US CPI awaited - Reuters
+  - My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?
+- `oil`: score 9, headlines 3
+  - Oil rises amid growing Mideast tensions between Iran-backed Houthis and Saudi Arabia
   - Bitcoin slips to $82.6k as rise in oil prices weigh on risk sentiment
-  - War Collides With Saudi Ambition at a Gathering of Oil Powers
-- `ethereum`: score 4, headlines 1
-  - Russia’s largest bank Sberbank secures approval to trade crypto
-- `china`: score 3, headlines 1
-  - So, what was the outcome of the US-China summit? (Recap)
+  - China’s exports surge 36% as AI-related shipments boom
+- `us_index_flow`: score 9, headlines 3
+  - Bitcoin keeps up pressure on $84K as US stocks skirt Korea tech sell-off
+  - Citigroup turns cautious on US stocks as market exuberance flashes warning signs - Reuters
+  - Nasdaq ends down as chipmakers fall and bank earnings roll in - Reuters
+- `treasury_yields`: score 7, headlines 2
+  - Strive raising $500 million to buy additional bitcoin with new preferred share class
+  - Strive reports $208M in warrant exercises as Bitcoin holdings jump 11%

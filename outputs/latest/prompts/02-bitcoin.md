@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027",
+    "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action",
+    "Strive raising $500 million to buy additional bitcoin with new preferred share class",
     "Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants",
-    "UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate",
-    "South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin",
-    "Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks",
-    "Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns"
+    "UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

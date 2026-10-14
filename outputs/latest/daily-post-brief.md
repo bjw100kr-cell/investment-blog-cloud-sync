@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-10-13T19:11:09.851304+00:00`
+- 생성 시각: `2026-10-14T04:25:14.899399+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `80.0`
-- 점수 구성: 검색성 15 / 시의성 23 / 설명가치 20 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press
+- 총점: `91.0`
+- 점수 구성: 검색성 23 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 소스: CoinDesk RSS, Federal Reserve Monetary Policy Press, NYT Business
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -26,6 +26,8 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
+  - Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027
+  - Lawyer for Fed Governor Cook Denounces Trump’s New Investigation
 
 ## 2. bitcoin
 
@@ -46,20 +48,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027
+  - Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action
+  - Strive raising $500 million to buy additional bitcoin with new preferred share class
   - Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants
   - UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate
-  - South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin
-  - Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks
-  - Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `85.0`
-- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- 총점: `72.0`
+- 점수 구성: 검색성 16 / 시의성 18 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CoinDesk RSS, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -72,19 +74,18 @@
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
   - Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants
-  - Anthropic warns ‘AI worms’ may autonomously spread across devices like a virus
-  - Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade
-  - Chip stocks slide after Broadcom boss warns of ‘casino’ mentality in AI investing
-  - Anthropic warns rogue AI agents may ‘self-replicate’ to hijack everyday devices
+  - Asia shares edge up as chip selloff eases; US CPI awaited - Reuters
+  - PODCAST: Cashing in chips - Reuters
+  - Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `42.0`
-- 점수 구성: 검색성 4 / 시의성 2 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 섹터/세계 흐름 연결 해설 가능
-- 소스: 무역킹 Trade King YouTube
+- 총점: `77.0`
+- 점수 구성: 검색성 18 / 시의성 20 / 설명가치 18 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Financial Times Home, NYT Business, 무역킹 Trade King YouTube
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -96,16 +97,20 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
+  - China's producer prices rise at fastest pace since June 2022, beating expectations
+  - Bank of America fined $1.2bn over money laundering failures
+  - China’s exports surge 36% as AI-related shipments boom
   - So, what was the outcome of the US-China summit? (Recap)
+  - China’s Exports Soar, Putting Its Trade Surplus on Track for a Record
 
 ## 5. cpi
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `75.0`
-- 점수 구성: 검색성 17 / 시의성 18 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `68.0`
+- 점수 구성: 검색성 13 / 시의성 15 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, CoinDesk RSS, MarketWatch Breaking News
+- 소스: CoinDesk RSS, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 제목 후보:
   - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
   - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 지금 시장이 반응하는 이유
@@ -117,7 +122,6 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns
-  - Live updates: Bitcoin trading in tight range near $83,000 ahead of key U.S. inflation data
-  - The latest inflation data is expected to show price increases are accelerating
+  - Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027
+  - Asia shares edge up as chip selloff eases; US CPI awaited - Reuters
   - My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?
