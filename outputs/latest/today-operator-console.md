@@ -75,19 +75,17 @@
     - 발행 URL과 대표 키워드를 수기 스프레드시트나 텍스트로 저장
 
 - `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / verdict `approve` / publish `2026-10-15`
-- `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지` / keyword `ai_semiconductors` / verdict `approve` / publish `2026-10-16`
 - `중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유` / keyword `china` / verdict `approve` / publish `2026-10-17`
+- `CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유` / keyword `cpi` / verdict `approve` / publish `2026-10-14`
 
 ## 1.5. 하루 200명 목표
 
 - target: `200`
-- projected: `347`
-- gap: `0`
-- status: `estimated_on_track_measurement_missing`
+- projected: `145`
+- gap: `55`
+- status: `needs_more_distribution`
 - `bitcoin` 예상 `95`명: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- `fomc` 예상 `92`명: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- `ai_semiconductors` 예상 `81`명: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- `china` 예상 `79`명: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- `china` 예상 `50`명: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - actual_verified: `0`
 - proof_status: `measurement_missing`
 - proof_gap: `200`
@@ -95,7 +93,7 @@
 ## 2. 사용자 확인 명령
 
 - single: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
+- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin cpi`
 - review board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/review-preview-board.html`
 - reply preview: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행"`
 - reply apply: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행" --apply`
@@ -119,7 +117,7 @@
 
 - `main_post` / `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / 페이지뷰와 체류시간 균형 확보
 - `seo_followup` / `비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조` / 초보 검색 유입과 긴 체류시간 확보
-- `next_slot` / `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지` / 페이지뷰와 체류시간 균형 확보
+- `next_slot` / `중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유` / 페이지뷰와 체류시간 균형 확보
 
 ## 7. 다음 큰 단계
 

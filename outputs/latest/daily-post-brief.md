@@ -1,21 +1,21 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-10-14T04:25:14.899399+00:00`
+- 생성 시각: `2026-10-14T17:00:39.090201+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
-## 1. fomc
+## 1. cpi
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `91.0`
-- 점수 구성: 검색성 23 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 소스: CoinDesk RSS, Federal Reserve Monetary Policy Press, NYT Business
+- 총점: `87.0`
+- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
-  - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-  - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
-  - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기
+  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
+  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 지금 시장이 반응하는 이유
+  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -23,11 +23,11 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Federal Reserve issues FOMC statement
-  - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Federal Reserve issues FOMC statement
-  - Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027
-  - Lawyer for Fed Governor Cook Denounces Trump’s New Investigation
+  - Bitcoin price dips below $82K as high oil prices spike US CPI inflation
+  - Here's the inflation breakdown for September 2026 — in one chart
+  - Bitcoin dips below $83k after hot U.S. inflation data
+  - US inflation jumps to 3.7% as Iran war drives up prices
+  - US grocery prices poised to climb as soaring fuel costs drive inflation
 
 ## 2. bitcoin
 
@@ -48,24 +48,24 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027
-  - Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action
-  - Strive raising $500 million to buy additional bitcoin with new preferred share class
-  - Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants
-  - UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate
+  - AI agents make 138 million crypto payments as U.S. dominates spending on AI models
+  - Crypto Long & Short: Why gold and bitcoin belong in the same portfolio
+  - BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak
+  - Kraken parent Payward to become first crypto firm to buy a EU bank as it expands into deposits, lending
+  - Bitcoin price dips below $82K as high oil prices spike US CPI inflation
 
-## 3. ai_semiconductors
+## 3. us_index_flow
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `72.0`
-- 점수 구성: 검색성 16 / 시의성 18 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CoinDesk RSS, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `48.0`
+- 점수 구성: 검색성 5 / 시의성 5 / 설명가치 18 / 수익성 14 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: CoinDesk RSS
 - 제목 후보:
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -73,19 +73,16 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants
-  - Asia shares edge up as chip selloff eases; US CPI awaited - Reuters
-  - PODCAST: Cashing in chips - Reuters
-  - Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market
+  - Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `77.0`
-- 점수 구성: 검색성 18 / 시의성 20 / 설명가치 18 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, NYT Business, 무역킹 Trade King YouTube
+- 총점: `44.0`
+- 점수 구성: 검색성 5 / 시의성 5 / 설명가치 17 / 수익성 12 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 섹터/세계 흐름 연결 해설 가능
+- 소스: CoinDesk RSS
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -97,24 +94,20 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - China's producer prices rise at fastest pace since June 2022, beating expectations
-  - Bank of America fined $1.2bn over money laundering failures
-  - China’s exports surge 36% as AI-related shipments boom
-  - So, what was the outcome of the US-China summit? (Recap)
-  - China’s Exports Soar, Putting Its Trade Surplus on Track for a Record
+  - AI agents make 138 million crypto payments as U.S. dominates spending on AI models
 
-## 5. cpi
+## 5. fomc
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `68.0`
-- 점수 구성: 검색성 13 / 시의성 15 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 소스: CoinDesk RSS, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `87.0`
+- 점수 구성: 검색성 19 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 소스: Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
 - 제목 후보:
-  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
-  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 지금 시장이 반응하는 이유
-  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 주식·코인 흐름 함께 보기
+  - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+  - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
+  - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -122,6 +115,7 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027
-  - Asia shares edge up as chip selloff eases; US CPI awaited - Reuters
-  - My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?
+  - Federal Reserve issues FOMC statement
+  - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
+  - Federal Reserve issues FOMC statement
+  - Fed rate hike call seen tight as inflation heats up - Reuters

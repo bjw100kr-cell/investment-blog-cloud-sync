@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027",
-    "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action",
-    "Strive raising $500 million to buy additional bitcoin with new preferred share class",
-    "Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants",
-    "UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate"
+    "AI agents make 138 million crypto payments as U.S. dominates spending on AI models",
+    "Crypto Long & Short: Why gold and bitcoin belong in the same portfolio",
+    "BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak",
+    "Kraken parent Payward to become first crypto firm to buy a EU bank as it expands into deposits, lending",
+    "Bitcoin price dips below $82K as high oil prices spike US CPI inflation"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

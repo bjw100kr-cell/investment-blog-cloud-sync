@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T04:25:14.899399+00:00",
+  "generated_at": "2026-10-14T17:00:39.090201+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -14,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6300,
+      "demand_signal_score": 5500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 51,
+      "source_snapshot_score": 43,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +26,35 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027",
-        "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action",
-        "Strive raising $500 million to buy additional bitcoin with new preferred share class"
+        "AI agents make 138 million crypto payments as U.S. dominates spending on AI models",
+        "Crypto Long & Short: Why gold and bitcoin belong in the same portfolio",
+        "BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak"
+      ]
+    },
+    {
+      "keyword": "cpi",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 4700,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 35,
+      "source_count": 7,
+      "source_names": [
+        "CNBC Top News",
+        "Cointelegraph",
+        "Financial Times Home",
+        "Financial Times World",
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": [
+        "Bitcoin price dips below $82K as high oil prices spike US CPI inflation",
+        "Here's the inflation breakdown for September 2026 — in one chart",
+        "Bitcoin dips below $83k after hot U.S. inflation data"
       ]
     },
     {
@@ -38,50 +64,24 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3300,
+      "demand_signal_score": 3000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 21,
-      "source_count": 3,
+      "source_snapshot_score": 18,
+      "source_count": 2,
       "source_names": [
-        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "NYT Business"
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027"
+        "Fed rate hike call seen tight as inflation heats up - Reuters"
       ]
     },
     {
-      "keyword": "china",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2600,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
-      "source_count": 4,
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "NYT Business",
-        "무역킹 Trade King YouTube"
-      ],
-      "sample_titles": [
-        "China's producer prices rise at fastest pace since June 2022, beating expectations",
-        "Bank of America fined $1.2bn over money laundering failures",
-        "China’s exports surge 36% as AI-related shipments boom"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -92,16 +92,15 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 12,
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "CoinDesk RSS",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "CNBC Top News",
+        "Cointelegraph"
       ],
       "sample_titles": [
-        "Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants",
-        "Asia shares edge up as chip selloff eases; US CPI awaited - Reuters",
-        "PODCAST: Cashing in chips - Reuters"
+        "Bitcoin price dips below $82K as high oil prices spike US CPI inflation",
+        "Treasury says largest U.S. banks let politics influence who received banking services",
+        "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge"
       ]
     }
   ],

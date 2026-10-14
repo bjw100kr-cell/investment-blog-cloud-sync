@@ -1,7 +1,7 @@
 {
   "item_count": 3,
   "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin cpi",
   "cards": [
     {
       "keyword": "bitcoin",
@@ -14,33 +14,33 @@
       "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027",
-        "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action",
-        "Strive raising $500 million to buy additional bitcoin with new preferred share class"
+        "AI agents make 138 million crypto payments as U.S. dominates spending on AI models",
+        "Crypto Long & Short: Why gold and bitcoin belong in the same portfolio",
+        "BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak"
       ],
       "recent_evidence": [
         {
-          "title": "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027",
+          "title": "Crypto Long & Short: Why gold and bitcoin belong in the same portfolio",
           "source_name": "CoinDesk RSS",
-          "published": "Wed, 14 Oct 2026 03:50:54 +0000",
-          "published_iso": "2026-10-14T03:50:54+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
+          "published": "Wed, 14 Oct 2026 15:05:15 +0000",
+          "published_iso": "2026-10-14T15:05:15+00:00",
+          "link": "https://www.coindesk.com/coindesk-indices/2026/10/14/crypto-long-and-short-why-gold-and-bitcoin-belong-in-the-same-portfolio",
           "source_type": "rss"
         },
         {
-          "title": "Strive raising $500 million to buy additional bitcoin with new preferred share class",
-          "source_name": "CoinDesk RSS",
-          "published": "Tue, 13 Oct 2026 23:23:05 +0000",
-          "published_iso": "2026-10-13T23:23:05+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury",
-          "source_type": "rss"
-        },
-        {
-          "title": "Strive reports $208M in warrant exercises as Bitcoin holdings jump 11%",
+          "title": "Bitcoin price dips below $82K as high oil prices spike US CPI inflation",
           "source_name": "Cointelegraph",
-          "published": "Tue, 13 Oct 2026 15:57:55 +0000",
-          "published_iso": "2026-10-13T15:57:55+00:00",
-          "link": "https://cointelegraph.com/news/strive-bitcoin-holdings-32773-btc-warrant-exercises?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Wed, 14 Oct 2026 14:21:15 +0000",
+          "published_iso": "2026-10-14T14:21:15+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-dips-yields-surge-as-high-oil-prices-spike-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin dips below $83k after hot U.S. inflation data",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-10-14 14:01:39",
+          "published_iso": "2026-10-14 14:01:39",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-flat-at-83k-as-markets-await-us-inflation-data-4948178",
           "source_type": "rss"
         }
       ],
@@ -59,61 +59,6 @@
       "hard_blocking_checks": []
     },
     {
-      "keyword": "ai_semiconductors",
-      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "publish_date": "2026-10-16",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants",
-        "Asia shares edge up as chip selloff eases; US CPI awaited - Reuters",
-        "PODCAST: Cashing in chips - Reuters"
-      ],
-      "recent_evidence": [
-        {
-          "title": "Asia shares edge up as chip selloff eases; US CPI awaited - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Wed, 14 Oct 2026 01:53:00 GMT",
-          "published_iso": "2026-10-14T01:53:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcE96RkhyZDBlQ2VWRERNYlZtdm5FaVdQSXF2M3ZtR3JIOU05UExLWnZ3dmFBY1NZcndTRlozR29sdmxWaExXUmIycmZPZGk3UXI1amRxTDR6WHpSQl82ckhxZ016SnZYdGtPdC14TnZVWlpjeHl4SW5pUnJKbjl2M0pzcw?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "Nasdaq ends down as chipmakers fall and bank earnings roll in - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Tue, 13 Oct 2026 23:25:08 GMT",
-          "published_iso": "2026-10-13T23:25:08+00:00",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdkNncVkwQU9JeFhSRFFWQ1FhcW5SUk5hY1hQMkpocmdCRlZ5b04zOGJnZ184T1lONDh1cUQwZFY3RVJxUmJzZDhpUWZ0RlhsUGluV3hoVG1TV2JWNEZtUS12R1Z0VURRQmt3SjkyUU44UkZTcmF1RnFaTm9POE9LYW5TWjY3el9jNzQwV1lOVkhaOGFDTE9Wc1NrM0RYTzJ5UFM4eF92UWV3LW03SHJ1U1I5cHF4eDNFS1liNw?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Tue, 13 Oct 2026 21:02:00 GMT",
-          "published_iso": "2026-10-13T21:02:00+00:00",
-          "link": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-semiconductors.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A3%BC%EA%B0%80%EB%A5%BC-%EB%B3%BC-%EB%95%8C-%EC%8B%A4%EC%A0%81%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%ED%99%95%EC%9D%B8%ED%95%A0-3%EA%B0%80%EC%A7%80.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply",
-      "hard_blocking_checks": []
-    },
-    {
       "keyword": "china",
       "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
       "publish_date": "2026-10-17",
@@ -121,39 +66,12 @@
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "섹터/세계 흐름 연결 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "China's producer prices rise at fastest pace since June 2022, beating expectations",
-        "Bank of America fined $1.2bn over money laundering failures",
-        "China’s exports surge 36% as AI-related shipments boom"
+        "AI agents make 138 million crypto payments as U.S. dominates spending on AI models"
       ],
-      "recent_evidence": [
-        {
-          "title": "China’s Exports Soar, Putting Its Trade Surplus on Track for a Record",
-          "source_name": "NYT Business",
-          "published": "Wed, 14 Oct 2026 04:00:29 +0000",
-          "published_iso": "2026-10-14T04:00:29+00:00",
-          "link": "https://www.nytimes.com/2026/10/14/business/china-exports-trade-surplus.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "China’s exports surge 36% as AI-related shipments boom",
-          "source_name": "Financial Times Home",
-          "published": "Wed, 14 Oct 2026 03:56:03 GMT",
-          "published_iso": "2026-10-14T03:56:03+00:00",
-          "link": "https://www.ft.com/content/4eab6c20-60d6-46b6-accd-2e04edfa541d?syn-25a6b1a6=1",
-          "source_type": "rss"
-        },
-        {
-          "title": "China's producer prices rise at fastest pace since June 2022, beating expectations",
-          "source_name": "CNBC Top News",
-          "published": "Wed, 14 Oct 2026 03:14:48 GMT",
-          "published_iso": "2026-10-14T03:14:48+00:00",
-          "link": "https://www.cnbc.com/2026/10/14/producer-prices-in-china-rise-fastest-since-june-2022-on-fuel-costs.html",
-          "source_type": "rss"
-        }
-      ],
+      "recent_evidence": [],
       "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
       "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
       "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
@@ -166,6 +84,61 @@
       ],
       "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
       "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
+      "hard_blocking_checks": []
+    },
+    {
+      "keyword": "cpi",
+      "title": "CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유",
+      "publish_date": "2026-10-14",
+      "review_verdict": "approve",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "hero_image_selected": true,
+      "reason": "복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "Bitcoin price dips below $82K as high oil prices spike US CPI inflation",
+        "Here's the inflation breakdown for September 2026 — in one chart",
+        "Bitcoin dips below $83k after hot U.S. inflation data"
+      ],
+      "recent_evidence": [
+        {
+          "title": "Wall St slides as hot CPI data fuels rate-hike bets; chips, banks weigh - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Wed, 14 Oct 2026 15:58:13 GMT",
+          "published_iso": "2026-10-14T15:58:13+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDkzb0Zhb0ExSzhlSnR6c25HbzdpY2g1djVFZ1R4eVktaWtCZ2gya1lEdHpzcHlEM1VITE1Pdlc1MmlDclhQQmxOWC13NXdXZjhPOEYtUnc3bm80eThIZ0lEam8tN0hXV3kxNnhob3g5OHFxNHd5VzJsTks4SzlJR0JRVE5LZ2JMbXhYNFhvOC1yTUJ5bWFEN0JWTFdpaFkxN2c?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "Democrats Blame Trump After CPI Report Shows Energy Prices Drove Up Inflation",
+          "source_name": "NYT Business",
+          "published": "Wed, 14 Oct 2026 15:25:31 +0000",
+          "published_iso": "2026-10-14T15:25:31+00:00",
+          "link": "https://www.nytimes.com/2026/10/14/business/economy/inflation-trump-democrats-midterms-energy.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin price dips below $82K as high oil prices spike US CPI inflation",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 14 Oct 2026 14:21:15 +0000",
+          "published_iso": "2026-10-14T14:21:15+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-dips-yields-surge-as-high-oil-prices-spike-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-cpi.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-cpi-%EB%B0%9C%ED%91%9C-%ED%9B%84-%EA%B8%88%EB%A6%AC%EC%99%80-%EB%82%98%EC%8A%A4%EB%8B%A5-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EC%9D%B4-%EA%B0%99%EC%9D%B4-%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94-%EC%9D%B4%EC%9C%A0.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords cpi",
+      "next_action": "사용자 최종 확인 후 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords cpi",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword cpi",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword cpi --apply",
       "hard_blocking_checks": []
     }
   ]
