@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-15T04:07:42.512610+00:00`
+- 생성 시각: `2026-10-15T16:48:26.666820+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,6 +25,19 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / Are Sanctions on Russia Finally Being Lifted? Trump’s Plan to Lower U.S. Gas Prices
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Xjp1qSBhCHs! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / 1. The Real Reason I Got Bored of My Job After Two Months
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Ojo9_AIJB3I! This is most likely caused by:
@@ -90,64 +103,44 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 3. The U.S.'s Bizarre Moves to Help Russia? (South Korea, Ukraine)
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=cp8n60oOdT8! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `bitcoin`: score 43, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `cpi`: score 38, source_count 8, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `fomc`: score 31, source_count 5, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `us_index_flow`: score 9, source_count 3, sources CoinDesk RSS, NYT Business, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 8, source_count 3, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News
-- `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `us_big_tech`: score 6, source_count 1, sources CNBC Top News
-- `china`: score 4, source_count 1, sources CoinDesk RSS
-- `oil`: score 3, source_count 1, sources Cointelegraph
-- `dollar`: score 3, source_count 1, sources CNBC Top News
+- `bitcoin`: score 55, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `us_big_tech`: score 18, source_count 3, sources CNBC Top News, Google Trends US, MarketWatch Breaking News
+- `fomc`: score 18, source_count 2, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News
+- `ai_semiconductors`: score 17, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `cpi`: score 15, source_count 4, sources Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, NYT Business
+- `treasury_yields`: score 13, source_count 4, sources CoinDesk RSS, Cointelegraph, MarketWatch Breaking News, NYT Business
+- `us_index_flow`: score 9, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 43, headlines 13
-  - Bitcoin is back below $81,000 as Fed rate uncertainty weighs
-  - AI agents make 138 million crypto payments as U.S. dominates spending on AI models
-  - Crypto Long & Short: Why gold and bitcoin belong in the same portfolio
-- `cpi`: score 38, headlines 14
-  - Bitcoin is back below $81,000 as Fed rate uncertainty weighs
-  - Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July
-  - How high inflation became a 'fact of life' in the U.S.
-- `fomc`: score 31, headlines 8
+- `bitcoin`: score 55, headlines 16
+  - Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules
+  - How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers
+  - Under pressure, Ledger unveils plan to turn its crypto hardware wallet into a smartphone
+- `fomc`: score 18, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
+- `us_big_tech`: score 18, headlines 4
+  - tesla autopilot
+  - Nvidia, AMD, Dell sell-off in global tech rout on AI funding worries
+  - TSMC chip capacity is ‘fierce’ battleground for AI customers, amid record quarter
+- `ai_semiconductors`: score 17, headlines 6
+  - Nvidia, AMD, Dell sell-off in global tech rout on AI funding worries
+  - TSMC chip capacity is ‘fierce’ battleground for AI customers, amid record quarter
+  - Treasuries rally as investors seek shelter from AI turbulence
+- `cpi`: score 15, headlines 6
+  - Bitcoin slips under $80K after US PPI gains most in four years
+  - Bitcoin drops to one-month low of $80k as hot U.S. CPI spurs rate hike bets
+  - Bitcoin slips under $82k as hot CPI data fuels an uptick in Fed rate hike bets
+- `treasury_yields`: score 13, headlines 5
+  - Live updates: Bitcoin bounces after first fall below $80,000 in one month
+  - Nasdaq-listed Tron sets up $200M ATM share offering to fuel TRX acquisitions
+  - Will mortgage rates stay above 7% in 2027? Signs point to yes.
 - `us_index_flow`: score 9, headlines 3
-  - Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption
-  - Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries - Reuters
-  - Stocks Tumble as Concerns Over Inflation and A.I. Investments Grow
-- `ai_semiconductors`: score 8, headlines 3
-  - Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO
-  - Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO
-  - Anthropic’s slowing growth could be the AI trade’s latest red flag
-- `crypto_etf`: score 7, headlines 2
-  - BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak
-  - VanEck seeks to withdraw application for Lido staked Ether ETF
-- `us_big_tech`: score 6, headlines 2
-  - Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'
-  - Meta- and Google-backed Jio Platforms to raise up to $3.2 billion in historic IPO in India
-- `china`: score 4, headlines 1
-  - AI agents make 138 million crypto payments as U.S. dominates spending on AI models
-- `dollar`: score 3, headlines 1
-  - Meta- and Google-backed Jio Platforms to raise up to $3.2 billion in historic IPO in India
-- `oil`: score 3, headlines 1
-  - OCC report finds debanking efforts tied to crypto activities
+  - Nasdaq-listed Tron sets up $200M ATM share offering to fuel TRX acquisitions
+  - Nasdaq slides to near one-month low as AI rout deepens - Reuters
+  - S&P 500's march to 8,000 hinges on 'very, very strong' third quarter - Reuters
