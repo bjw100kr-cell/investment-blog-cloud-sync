@@ -2,55 +2,42 @@
 
 shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어가기 위한 시작 화면입니다.
 - 원칙: 먼저 글을 읽고, 그 다음 confirm command 또는 helper apply command를 실행합니다.
-- item_count: `3`
+- item_count: `2`
 
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-10-15` / verdict `approve` / quality `pass`
+- keyword `bitcoin` / publish `2026-10-16` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
 - sample_headlines:
+  - Bitcoin is back below $81,000 as Fed rate uncertainty weighs
   - AI agents make 138 million crypto payments as U.S. dominates spending on AI models
   - Crypto Long & Short: Why gold and bitcoin belong in the same portfolio
-  - BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak
 - recent_evidence:
+  - CoinDesk RSS | 2026-10-15T03:57:45+00:00 | Bitcoin is back below $81,000 as Fed rate uncertainty weighs
+  - Cointelegraph | 2026-10-15T03:29:22+00:00 | Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July
   - CoinDesk RSS | 2026-10-14T15:05:15+00:00 | Crypto Long & Short: Why gold and bitcoin belong in the same portfolio
-  - Cointelegraph | 2026-10-14T14:21:15+00:00 | Bitcoin price dips below $82K as high oil prices spike US CPI inflation
-  - Investing.com Crypto News | 2026-10-14 14:01:39 | Bitcoin dips below $83k after hot U.S. inflation data
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 2. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+## 2. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword `china` / publish `2026-10-17` / verdict `approve` / quality `pass`
+- keyword `fomc` / publish `2026-10-19` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 섹터/세계 흐름 연결 해설 가능
+- intent: FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
+- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
 - sample_headlines:
-  - AI agents make 138 million crypto payments as U.S. dominates spending on AI models
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply`
-
-## 3. CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
-
-- keyword `cpi` / publish `2026-10-14` / verdict `approve` / quality `review_before_publish`
-- ready_now: `False` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
-- sample_headlines:
-  - Bitcoin price dips below $82K as high oil prices spike US CPI inflation
-  - Here's the inflation breakdown for September 2026 — in one chart
-  - Bitcoin dips below $83k after hot U.S. inflation data
+  - Federal Reserve issues FOMC statement
+  - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
+  - Bitcoin is back below $81,000 as Fed rate uncertainty weighs
 - recent_evidence:
-  - Reuters Markets via Google News RSS | 2026-10-14T15:58:13+00:00 | Wall St slides as hot CPI data fuels rate-hike bets; chips, banks weigh - Reuters
-  - NYT Business | 2026-10-14T15:25:31+00:00 | Democrats Blame Trump After CPI Report Shows Energy Prices Drove Up Inflation
-  - Cointelegraph | 2026-10-14T14:21:15+00:00 | Bitcoin price dips below $82K as high oil prices spike US CPI inflation
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords cpi`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords cpi`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword cpi`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword cpi --apply`
+  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
+  - Federal Reserve Monetary Policy Press | 2026-07-29T18:00:00+00:00 | Federal Reserve issues FOMC statement
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`

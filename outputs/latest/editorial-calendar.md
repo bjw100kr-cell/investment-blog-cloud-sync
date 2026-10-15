@@ -1,6 +1,6 @@
 # 7일 편집 캘린더
 
-- 생성 시각: `2026-10-14T17:00:39.090201+00:00`
+- 생성 시각: `2026-10-15T04:07:42.512610+00:00`
 - 목적: stale 뉴스는 직접 발행에서 빼고, 거시경제·코인·미국주식·세계 흐름 레인을 주간 단위로 균형 있게 유지
 
 ## 레인 커버리지
@@ -12,27 +12,27 @@
 
 ## 이번 주 배치 메모
 
-- lane `macro` / keyword `cpi` / mode `direct` / freshness `unknown` / target_share `0.3`
+- lane `macro` / keyword `cpi` / mode `direct` / freshness `fresh` / target_share `0.3`
 - lane `crypto` / keyword `bitcoin` / mode `direct` / freshness `fresh` / target_share `0.3`
 - lane `us-stocks` / keyword `us_index_flow` / mode `direct` / freshness `unknown` / target_share `0.2`
-- lane `world-flow` / keyword `china` / mode `direct` / freshness `fresh` / target_share `0.2`
+- lane `world-flow` / keyword `china` / mode `direct` / freshness `unknown` / target_share `0.2`
 
-## Day 1 · 2026-10-14 · lane_focus_macro
+## Day 1 · 2026-10-15 · lane_focus_macro
 
 - 브랜드 레인: 거시경제
 - planning_mode: direct
-- freshness_status: unknown
+- freshness_status: fresh
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: cpi
 - 작업 제목: CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
-- 글 각도: 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
+- 글 각도: 복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- 근거 소스/연결 키워드: CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- 발행 메모: 당일 이슈 해설형 글
+- 내부링크 대상: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 발행 메모: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
 
-## Day 2 · 2026-10-15 · lane_focus_crypto
+## Day 2 · 2026-10-16 · lane_focus_crypto
 
 - 브랜드 레인: 코인
 - planning_mode: direct
@@ -40,14 +40,14 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: bitcoin
 - 작업 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 글 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 글 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크 대상: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 근거 소스/연결 키워드: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 
-## Day 3 · 2026-10-16 · lane_focus_us-stocks
+## Day 3 · 2026-10-17 · lane_focus_us-stocks
 
 - 브랜드 레인: 미국주식
 - planning_mode: direct
@@ -55,18 +55,18 @@
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: us_index_flow
 - 작업 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 글 각도: 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 글 각도: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - 검색 의도: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
-- 내부링크 대상: CoinDesk RSS
-- 근거 소스/연결 키워드: CoinDesk RSS
+- 내부링크 대상: CoinDesk RSS, NYT Business, Reuters Markets via Google News RSS
+- 근거 소스/연결 키워드: CoinDesk RSS, NYT Business, Reuters Markets via Google News RSS
 - 발행 메모: 당일 이슈 해설형 글
 
-## Day 4 · 2026-10-17 · lane_focus_world-flow
+## Day 4 · 2026-10-18 · lane_focus_world-flow
 
 - 브랜드 레인: 세계 흐름
 - planning_mode: direct
-- freshness_status: fresh
+- freshness_status: unknown
 - 포스트 유형: breaking_explainer
 - 타깃 키워드: china
 - 작업 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
@@ -75,9 +75,9 @@
 - 수익화 경로: 시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대
 - 내부링크 대상: CoinDesk RSS
 - 근거 소스/연결 키워드: CoinDesk RSS
-- 발행 메모: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
+- 발행 메모: 최근 근거 시각을 다시 수집해 신선도를 먼저 확인하세요.
 
-## Day 5 · 2026-10-18 · evergreen_support
+## Day 5 · 2026-10-19 · evergreen_support
 
 - 브랜드 레인: 거시경제
 - planning_mode: evergreen
@@ -92,7 +92,7 @@
 - 근거 소스/연결 키워드: fomc, cpi, pce, jobs, treasury_yields, dollar
 - 발행 메모: 검색 저변을 넓히는 설명형 글
 
-## Day 6 · 2026-10-19 · secondary_lane_support
+## Day 6 · 2026-10-20 · secondary_lane_support
 
 - 브랜드 레인: 코인
 - planning_mode: evergreen
@@ -107,7 +107,7 @@
 - 근거 소스/연결 키워드: dollar, treasury_yields, fomc, oil, china
 - 발행 메모: 검색 저변을 넓히는 설명형 글
 
-## Day 7 · 2026-10-20 · weekly_recap
+## Day 7 · 2026-10-21 · weekly_recap
 
 - 브랜드 레인: 거시경제
 - planning_mode: recap

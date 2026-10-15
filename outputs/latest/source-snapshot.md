@@ -1,8 +1,8 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-14T17:00:39.090201+00:00`
-- 수집 성공 소스: `13`
-- 수집 아이템 수: `104`
+- 생성 시각: `2026-10-15T04:07:42.512610+00:00`
+- 수집 성공 소스: `14`
+- 수집 아이템 수: `112`
 
 ## 소스 상태
 
@@ -17,7 +17,7 @@
 - `OK` Financial Times Home (rss): 8 items
 - `OK` Reuters Markets via Google News RSS (rss): 8 items
 - `OK` 무역킹 Trade King YouTube (youtube_channel): 8 items
-- `SKIP` MarketWatch Breaking News (rss): 400 Client Error: Bad Request for url: https://feeds.marketwatch.com/marketwatch/topstories
+- `OK` MarketWatch Breaking News (rss): 8 items
 - `OK` Financial Times YouTube (youtube_channel): 8 items
 - `SKIP` CoinNess (manual): Server-side feed not confirmed. Keep as a manual or future reverse-engineering target.
 - `OK` Financial Times World (rss): 8 items
@@ -107,44 +107,47 @@ If you are sure that the described cause is not responsible for this error and t
 ## 상위 키워드
 
 - `bitcoin`: score 43, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `cpi`: score 35, source_count 7, sources CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- `fomc`: score 18, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `treasury_yields`: score 12, source_count 2, sources CNBC Top News, Cointelegraph
-- `oil`: score 6, source_count 2, sources CNBC Top News, Cointelegraph
+- `cpi`: score 38, source_count 8, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 31, source_count 5, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `us_index_flow`: score 9, source_count 3, sources CoinDesk RSS, NYT Business, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 8, source_count 3, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News
+- `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `us_big_tech`: score 6, source_count 1, sources CNBC Top News
 - `china`: score 4, source_count 1, sources CoinDesk RSS
-- `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
-- `us_index_flow`: score 4, source_count 1, sources CoinDesk RSS
-- `ai_semiconductors`: score 3, source_count 1, sources Reuters Markets via Google News RSS
-- `dollar`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `oil`: score 3, source_count 1, sources Cointelegraph
+- `dollar`: score 3, source_count 1, sources CNBC Top News
 
 ## 오늘의 글감 후보
 
 - `bitcoin`: score 43, headlines 13
+  - Bitcoin is back below $81,000 as Fed rate uncertainty weighs
   - AI agents make 138 million crypto payments as U.S. dominates spending on AI models
   - Crypto Long & Short: Why gold and bitcoin belong in the same portfolio
-  - BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak
-- `cpi`: score 35, headlines 13
-  - Bitcoin price dips below $82K as high oil prices spike US CPI inflation
-  - Here's the inflation breakdown for September 2026 — in one chart
-  - Bitcoin dips below $83k after hot U.S. inflation data
-- `fomc`: score 18, headlines 4
+- `cpi`: score 38, headlines 14
+  - Bitcoin is back below $81,000 as Fed rate uncertainty weighs
+  - Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July
+  - How high inflation became a 'fact of life' in the U.S.
+- `fomc`: score 31, headlines 8
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 12, headlines 4
-  - Bitcoin price dips below $82K as high oil prices spike US CPI inflation
-  - Treasury says largest U.S. banks let politics influence who received banking services
-  - CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge
-- `oil`: score 6, headlines 2
-  - Bitcoin price dips below $82K as high oil prices spike US CPI inflation
-  - Container ship sinks in Strait of Hormuz as Iran steps up attacks
+- `us_index_flow`: score 9, headlines 3
+  - Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption
+  - Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries - Reuters
+  - Stocks Tumble as Concerns Over Inflation and A.I. Investments Grow
+- `ai_semiconductors`: score 8, headlines 3
+  - Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO
+  - Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO
+  - Anthropic’s slowing growth could be the AI trade’s latest red flag
+- `crypto_etf`: score 7, headlines 2
+  - BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak
+  - VanEck seeks to withdraw application for Lido staked Ether ETF
+- `us_big_tech`: score 6, headlines 2
+  - Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'
+  - Meta- and Google-backed Jio Platforms to raise up to $3.2 billion in historic IPO in India
 - `china`: score 4, headlines 1
   - AI agents make 138 million crypto payments as U.S. dominates spending on AI models
-- `crypto_etf`: score 4, headlines 1
-  - BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak
-- `us_index_flow`: score 4, headlines 1
-  - Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption
-- `ai_semiconductors`: score 3, headlines 1
-  - Wall St slides as hot CPI data fuels rate-hike bets; chips, banks weigh - Reuters
 - `dollar`: score 3, headlines 1
-  - COMMENTARY: Morning Bid: Trillion dollar trade - Reuters
+  - Meta- and Google-backed Jio Platforms to raise up to $3.2 billion in historic IPO in India
+- `oil`: score 3, headlines 1
+  - OCC report finds debanking efforts tied to crypto activities

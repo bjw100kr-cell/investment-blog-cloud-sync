@@ -1,50 +1,39 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-10-14T17:00:44.819119+00:00`
-- snapshot_generated_at: `2026-10-14T17:00:39.090201+00:00`
+- generated_at: `2026-10-15T04:07:50.439451+00:00`
+- snapshot_generated_at: `2026-10-15T04:07:42.512610+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
-- counts: fresh `2` / aging `0` / stale `0` / unknown `1`
+- counts: fresh `1` / aging `0` / stale `1` / unknown `0`
 
-## 1. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword: `china`
-- freshness_status: `unknown`
-- newest_evidence_age_days: `None`
-- newest_evidence_iso: ``
+- keyword: `fomc`
+- freshness_status: `stale`
+- newest_evidence_age_days: `7.4`
+- newest_evidence_iso: `2026-10-07T18:00:00+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 대표 근거 시각을 읽지 못해 판단이 보류되었습니다.
-- recommendation: 최근 근거 시각을 다시 수집해 신선도를 먼저 확인하세요.
-- recovery_mode: `manual_check`
-- recovery_summary: 최근 근거 시각을 먼저 다시 확인한 뒤 다음 액션을 결정하세요.
+- summary: 핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement
+- recommendation: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
+- recovery_mode: `full_refresh_needed`
+- recovery_summary: 현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.
+- recovery_command: `bash scripts/run_pipeline.sh`
+- evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve issues FOMC statement
+- evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
+- evidence: Federal Reserve Monetary Policy Press / 2026-07-29T18:00:00+00:00 / Federal Reserve issues FOMC statement
 
 ## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.1`
-- newest_evidence_iso: `2026-10-14T15:05:15+00:00`
+- newest_evidence_age_days: `0.0`
+- newest_evidence_iso: `2026-10-15T03:57:45+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Crypto Long & Short: Why gold and bitcoin belong in the same portfolio
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin is back below $81,000 as Fed rate uncertainty weighs
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
+- evidence: CoinDesk RSS / 2026-10-15T03:57:45+00:00 / Bitcoin is back below $81,000 as Fed rate uncertainty weighs
+- evidence: Cointelegraph / 2026-10-15T03:29:22+00:00 / Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July
 - evidence: CoinDesk RSS / 2026-10-14T15:05:15+00:00 / Crypto Long & Short: Why gold and bitcoin belong in the same portfolio
-- evidence: Cointelegraph / 2026-10-14T14:21:15+00:00 / Bitcoin price dips below $82K as high oil prices spike US CPI inflation
-- evidence: Investing.com Crypto News / 2026-10-14 14:01:39 / Bitcoin dips below $83k after hot U.S. inflation data
-
-## 3. CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
-
-- keyword: `cpi`
-- freshness_status: `fresh`
-- newest_evidence_age_days: `0.0`
-- newest_evidence_iso: `2026-10-14T16:18:45+00:00`
-- quality_status: `review_before_publish` / ready_now `False`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Wall St slides as hot CPI data fuels rate-hike bets; chips, banks weigh - Reuters
-- recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
-- recovery_mode: `publish_direct`
-- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Reuters Markets via Google News RSS / 2026-10-14T15:58:13+00:00 / Wall St slides as hot CPI data fuels rate-hike bets; chips, banks weigh - Reuters
-- evidence: NYT Business / 2026-10-14T15:25:31+00:00 / Democrats Blame Trump After CPI Report Shows Energy Prices Drove Up Inflation
-- evidence: Cointelegraph / 2026-10-14T14:21:15+00:00 / Bitcoin price dips below $82K as high oil prices spike US CPI inflation
