@@ -1,28 +1,12 @@
 {
-  "generated_at": "2026-10-15T16:48:26.666820+00:00",
+  "generated_at": "2026-10-16T04:03:49.113978+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 3,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 4
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "us_big_tech",
-      "trend_count": 1,
-      "traffic_score_sum": 500,
-      "max_approx_traffic": 500,
-      "trend_queries": [
-        "tesla autopilot"
-      ],
-      "regions": [
-        "US"
-      ],
-      "demand_signal_score": 700,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -42,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
+        "At the White House, crypto policy vacancy looms large",
         "Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules",
-        "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers",
-        "Under pressure, Ledger unveils plan to turn its crypto hardware wallet into a smartphone"
+        "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers"
       ]
     },
     {
@@ -71,54 +55,28 @@
       ]
     },
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2900,
+      "demand_signal_score": 2600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 17,
-      "source_count": 5,
+      "source_snapshot_score": 14,
+      "source_count": 4,
       "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News",
+        "CoinDesk RSS",
+        "Investing.com Crypto News",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Nvidia, AMD, Dell sell-off in global tech rout on AI funding worries",
-        "TSMC chip capacity is ‘fierce’ battleground for AI customers, amid record quarter",
-        "Treasuries rally as investors seek shelter from AI turbulence"
-      ]
-    },
-    {
-      "keyword": "cpi",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2700,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 15,
-      "source_count": 4,
-      "source_names": [
-        "Cointelegraph",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "NYT Business"
-      ],
-      "sample_titles": [
-        "Bitcoin slips under $80K after US PPI gains most in four years",
-        "Bitcoin drops to one-month low of $80k as hot U.S. CPI spurs rate hike bets",
-        "Bitcoin slips under $82k as hot CPI data fuels an uptick in Fed rate hike bets"
+        "Live updates: Bitcoin bounces back to $82,000 after first fall below $80,000 in one month",
+        "Bitcoin ticks up slightly above $82k as U.S. bond rally lifts risk sentiment",
+        "Indian shares on track for higher open on lower Treasury yields, SEBI relief - Reuters"
       ]
     }
   ],

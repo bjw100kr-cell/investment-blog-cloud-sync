@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "At the White House, crypto policy vacancy looms large",
     "Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules",
     "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers",
     "Under pressure, Ledger unveils plan to turn its crypto hardware wallet into a smartphone",
-    "Bitcoin, copper, stocks, yields all fall; gold rises",
-    "Altcoins lead crypto declines as Asian stocks drop; bitcoin little changed since midnight"
+    "Bitcoin, copper, stocks, yields all fall; gold rises"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

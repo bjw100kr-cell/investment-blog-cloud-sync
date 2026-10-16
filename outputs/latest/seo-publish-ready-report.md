@@ -1,12 +1,30 @@
 # Publish Ready Report
 
-- generated_at: `2026-10-15T16:48:30.251714+00:00`
+- generated_at: `2026-10-16T04:03:52.360435+00:00`
 
-## seo_cpi_11
+## seo_treasury_yields_7
 
 - ready: True
 - reason: ok
-- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-cpi-지금-투자자가-확인할-체크포인트-5가지.html
-- meta_title: cpi: 지금 투자자가 확인할 체크포인트 5가지
-- meta_description: cpi: 지금 투자자가 확인할 체크포인트 5가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
-- follow_up_post_count: 0
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유가-주식과-코인에-미치는-영향.html
+- meta_title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향
+- meta_description: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
+- follow_up_post_count: 2
+
+## seo_treasury_yields_8
+
+- ready: True
+- reason: ok
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유에서-다음으로-봐야-할-체크포인트-5가지.html
+- meta_title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지
+- meta_description: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
+- follow_up_post_count: 2
+
+## seo_treasury_yields_9
+
+- ready: True
+- reason: ok
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유-초보자-가이드-용어부터-시장-반응까지.html
+- meta_title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지
+- meta_description: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
+- follow_up_post_count: 2

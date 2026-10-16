@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-10-15T16:48:26.666820+00:00`
+- 생성 시각: `2026-10-16T04:03:49.113978+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -47,45 +47,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - At the White House, crypto policy vacancy looms large
   - Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules
   - How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers
   - Under pressure, Ledger unveils plan to turn its crypto hardware wallet into a smartphone
   - Bitcoin, copper, stocks, yields all fall; gold rises
-  - Altcoins lead crypto declines as Asian stocks drop; bitcoin little changed since midnight
 
-## 3. us_big_tech
-
-- 카테고리: `global-sector`
-- 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `81.0`
-- 점수 구성: 검색성 24 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (tesla autopilot)
-- 소스: CNBC Top News, Google Trends US, MarketWatch Breaking News
-- 트렌드 쿼리: tesla autopilot
-- 제목 후보:
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- 글 구조:
-  - 지금 이 섹터가 왜 움직이는가
-  - 핵심 뉴스와 시장 반응
-  - 대표 종목과 자금 흐름
-  - 거시 변수와 연결
-  - 다음 실적/정책 이벤트
-- 참고 헤드라인:
-  - tesla autopilot
-  - Nvidia, AMD, Dell sell-off in global tech rout on AI funding worries
-  - TSMC chip capacity is ‘fierce’ battleground for AI customers, amid record quarter
-  - Tesla may finally debut a flying car today, after testing fans’ patience for nearly a decade
-
-## 4. ai_semiconductors
+## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `80.0`
-- 점수 구성: 검색성 20 / 시의성 21 / 설명가치 17 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `57.0`
+- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 17 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 소스: MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -97,24 +72,21 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Nvidia, AMD, Dell sell-off in global tech rout on AI funding worries
-  - TSMC chip capacity is ‘fierce’ battleground for AI customers, amid record quarter
-  - Treasuries rally as investors seek shelter from AI turbulence
   - US chip stocks set to wipe out $2 trillion after latest selloff - Reuters
-  - Micron, Nvidia and other chip stocks face renewed pressure as AI fears swell
+  - Nvidia and other chip stocks face renewed pressure as AI fears swell
 
-## 5. cpi
+## 4. treasury_yields
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `79.0`
-- 점수 구성: 검색성 19 / 시의성 20 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `78.0`
+- 점수 구성: 검색성 18 / 시의성 20 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
-- 소스: Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, NYT Business
+- 소스: CoinDesk RSS, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
-  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
-  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 지금 시장이 반응하는 이유
-  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 주식·코인 흐름 함께 보기
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -122,8 +94,30 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Bitcoin slips under $80K after US PPI gains most in four years
-  - Bitcoin drops to one-month low of $80k as hot U.S. CPI spurs rate hike bets
-  - Bitcoin slips under $82k as hot CPI data fuels an uptick in Fed rate hike bets
-  - Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now.
-  - My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?
+  - Live updates: Bitcoin bounces back to $82,000 after first fall below $80,000 in one month
+  - Bitcoin ticks up slightly above $82k as U.S. bond rally lifts risk sentiment
+  - Indian shares on track for higher open on lower Treasury yields, SEBI relief - Reuters
+  - Mortgage Rates Hover at 7.4%, Highest Since 2023
+  - Homeownership Drifts Further Out of Reach as Mortgage Rates Rise
+
+## 5. us_big_tech
+
+- 카테고리: `global-sector`
+- 브랜드 레인: `us-stocks` (미국주식)
+- 총점: `56.0`
+- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 16 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: Financial Times World, MarketWatch Breaking News
+- 제목 후보:
+  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
+  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+- 글 구조:
+  - 지금 이 섹터가 왜 움직이는가
+  - 핵심 뉴스와 시장 반응
+  - 대표 종목과 자금 흐름
+  - 거시 변수와 연결
+  - 다음 실적/정책 이벤트
+- 참고 헤드라인:
+  - Tesla finally delivers on its promise to create a flying car
+  - Tesla unveils ‘flying’ sports car with SpaceX rocket thrusters
