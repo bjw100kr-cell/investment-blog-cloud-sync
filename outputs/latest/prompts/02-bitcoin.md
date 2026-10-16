@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "At the White House, crypto policy vacancy looms large",
-    "Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules",
-    "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers",
-    "Under pressure, Ledger unveils plan to turn its crypto hardware wallet into a smartphone",
-    "Bitcoin, copper, stocks, yields all fall; gold rises"
+    "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
+    "Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans",
+    "Scammer gets scammed in Ledger spy-chip exploit, loses almost $5 million in bitcoin",
+    "Live updates: Crypto gives up some ground as AI selloff picks up steam",
+    "Crypto Biz: Wall Street closes at 4. Tokenized stocks keep trading"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 83.0,
-    "search_score": 29,
+    "total_score": 82.0,
+    "search_score": 28,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,

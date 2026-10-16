@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-16T04:03:49.113978+00:00",
+  "generated_at": "2026-10-16T16:30:19.156035+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 3,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
@@ -14,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6700,
+      "demand_signal_score": 5200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 55,
+      "source_snapshot_score": 40,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "At the White House, crypto policy vacancy looms large",
-        "Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules",
-        "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers"
+        "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
+        "Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans",
+        "Scammer gets scammed in Ledger spy-chip exploit, loses almost $5 million in bitcoin"
       ]
     },
     {
@@ -38,24 +38,53 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3000,
+      "demand_signal_score": 5000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 18,
-      "source_count": 2,
+      "source_snapshot_score": 38,
+      "source_count": 9,
       "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Investing.com Crypto News"
+        "Financial Times Home"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Bitcoin slips under $82k as hot CPI data fuels an uptick in Fed rate hike bets"
+        "Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans"
       ]
     },
     {
       "keyword": "treasury_yields",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2900,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 17,
+      "source_count": 6,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "U.S. raises Mastercard, Citigroup China market access in bilateral Bangkok talks, official says",
+        "Bitcoin ticks up slightly above $82k as U.S. bond rally lifts risk sentiment",
+        "Treasuries head for best week since February as AI jitters halt bond rout"
+      ]
+    },
+    {
+      "keyword": "cpi",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -68,15 +97,15 @@
       "source_snapshot_score": 14,
       "source_count": 4,
       "source_names": [
-        "CoinDesk RSS",
-        "Investing.com Crypto News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Live updates: Bitcoin bounces back to $82,000 after first fall below $80,000 in one month",
-        "Bitcoin ticks up slightly above $82k as U.S. bond rally lifts risk sentiment",
-        "Indian shares on track for higher open on lower Treasury yields, SEBI relief - Reuters"
+        "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
+        "Older Americans feel less of the affordability crunch. How that could affect the midterm elections",
+        "Trump has failed to listen to voters on inflation"
       ]
     }
   ],
