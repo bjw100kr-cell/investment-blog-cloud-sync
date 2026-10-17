@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
     "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
     "Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans",
     "Scammer gets scammed in Ledger spy-chip exploit, loses almost $5 million in bitcoin",
-    "Live updates: Crypto gives up some ground as AI selloff picks up steam",
-    "Crypto Biz: Wall Street closes at 4. Tokenized stocks keep trading"
+    "Here’s what happened in crypto today"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
