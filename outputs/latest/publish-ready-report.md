@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-10-17T03:54:43.698616+00:00`
+- generated_at: `2026-10-17T15:24:50.472728+00:00`
 
 ## fomc
 
@@ -27,13 +27,13 @@
 - html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html
 - meta_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - meta_description: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
-- follow_up_post_count: 0
+- follow_up_post_count: 3
 
-## tariffs_trade
+## treasury_yields
 
 - ready: True
 - reason: ok
-- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-관세와-무역-갈등이-증시에-미치는-영향-환율과-공급망까지-보기.html
-- meta_title: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
-- meta_description: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
-- follow_up_post_count: 0
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유.html
+- meta_title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+- meta_description: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
+- follow_up_post_count: 1

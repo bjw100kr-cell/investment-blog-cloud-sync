@@ -110,14 +110,12 @@
   "source_names": [
     "CoinDesk RSS",
     "Financial Times Home",
-    "MarketWatch Breaking News"
+    "Financial Times World"
   ],
   "reference_headlines": [
     "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
-    "Scammer gets scammed in Ledger spy-chip exploit, loses almost $5 million in bitcoin",
     "Anthropic offers Blackstone double-digit yield in latest chip financing",
-    "Anthropic assigned highest junk credit rating in June",
-    "Nowhere to hide: Tech selloff hits software and chip stocks alike"
+    "Chart of the Week: The chip stock split"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -180,9 +178,9 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 77.0,
-    "search_score": 21,
-    "timeliness_score": 18,
+    "total_score": 68.0,
+    "search_score": 15,
+    "timeliness_score": 15,
     "explanatory_score": 18,
     "monetization_score": 15,
     "risk_score": 5

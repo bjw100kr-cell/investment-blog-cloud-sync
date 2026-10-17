@@ -5,11 +5,11 @@
 - headline: 지금 자동화를 더 앞으로 밀기 위해 사용자 쪽에서 필요한 건 사실 2개입니다.
 - repo_input: `none`
 - apply_mode: `False`
-- main_candidate: `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+- main_candidate: `treasury_yields` / 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 
 ## Command Chain
 
-- `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields`
 
 ## How To Use
 
