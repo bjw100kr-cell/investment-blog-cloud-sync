@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T04:00:54.969181+00:00",
+  "generated_at": "2026-10-18T15:45:24.934946+00:00",
   "summary": {
     "ok_sources": 14,
     "item_count": 112
@@ -153,7 +153,7 @@
   "ranked_keywords": [
     {
       "keyword": "bitcoin",
-      "score": 29,
+      "score": 40,
       "source_count": 3,
       "sources": [
         "CoinDesk RSS",
@@ -161,11 +161,11 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery",
-        "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
-        "Here’s what happened in crypto today",
-        "Crypto PACs escalate spending against Sherrod Brown in Ohio Senate race",
-        "Crypto Biz: Wall Street closes at 4. Tokenized stocks keep trading"
+        "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
+        "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook",
+        "Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says",
+        "Crypto exchanges Binance, Coinbase join West Africa scam sweep that flagged $11 million",
+        "Here’s what happened in crypto today"
       ]
     },
     {
@@ -182,19 +182,45 @@
     },
     {
       "keyword": "treasury_yields",
-      "score": 11,
-      "source_count": 4,
+      "score": 8,
+      "source_count": 3,
       "sources": [
         "CNBC Top News",
-        "Investing.com Crypto News",
+        "Financial Times World",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "Why hedge funds could be making a bond market shock more likely",
+        "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
+        "Treasury introduces new security measures in bid to stop UK Budget leaks"
+      ]
+    },
+    {
+      "keyword": "us_big_tech",
+      "score": 8,
+      "source_count": 3,
+      "sources": [
+        "CNBC Top News",
         "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds",
-        "Bitcoin ticks up slightly above $82k as U.S. bond rally lifts risk sentiment",
-        "CoreWeave bond rout tests market's math on AI buildout - Reuters",
-        "Meet the home buyers totally unfazed by 7% mortgage rates"
+        "Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy",
+        "Microsoft pulls out of UK data center deal with Nscale, Telegraph reports - Reuters",
+        "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "score": 7,
+      "source_count": 2,
+      "sources": [
+        "CoinDesk RSS",
+        "Financial Times Home"
+      ],
+      "sample_titles": [
+        "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
+        "Anthropic turns to lawyers to help AI agents strike deals"
       ]
     },
     {
@@ -211,28 +237,42 @@
       ]
     },
     {
-      "keyword": "ai_semiconductors",
-      "score": 7,
+      "keyword": "cpi",
+      "score": 6,
       "source_count": 2,
       "sources": [
-        "CNBC Top News",
-        "CoinDesk RSS"
+        "CoinDesk RSS",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
-        "Semiconductor market to remain solid ‘at least through next year,’ South Korea finance minister says"
+        "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook",
+        "3 Charts That Explain the Economy as Voters Head to the Polls"
       ]
     },
     {
       "keyword": "oil",
       "score": 6,
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
+        "CNBC Top News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - Reuters",
-        "Wall Street tumbles as worries about AI trade and high oil prices weigh - Reuters"
+        "Top Wall Street analysts are bullish on the growth potential of these 3 stocks",
+        "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - Reuters"
+      ]
+    },
+    {
+      "keyword": "china",
+      "score": 6,
+      "source_count": 2,
+      "sources": [
+        "Financial Times Home",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Global economy set for AI-driven surge, FT survey suggests",
+        "China proposes export controls on solar-manufacturing technologies - Reuters"
       ]
     },
     {
@@ -240,10 +280,11 @@
       "score": 4,
       "source_count": 1,
       "sources": [
-        "CoinDesk RSS"
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery"
+        "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
+        "There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead"
       ]
     },
     {
@@ -256,28 +297,17 @@
       "sample_titles": [
         "Bitcoin price holds above $81,000 as ETF outflows weigh on sentiment"
       ]
-    },
-    {
-      "keyword": "us_big_tech",
-      "score": 2,
-      "source_count": 1,
-      "sources": [
-        "MarketWatch Breaking News"
-      ],
-      "sample_titles": [
-        "Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones."
-      ]
     }
   ],
   "topic_candidates": [
     {
       "keyword": "bitcoin",
-      "score": 29,
-      "headline_count": 9,
+      "score": 40,
+      "headline_count": 12,
       "sample_titles": [
-        "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery",
-        "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
-        "Here’s what happened in crypto today"
+        "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
+        "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook",
+        "Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says"
       ]
     },
     {
@@ -292,12 +322,22 @@
     },
     {
       "keyword": "treasury_yields",
-      "score": 11,
-      "headline_count": 4,
+      "score": 8,
+      "headline_count": 3,
       "sample_titles": [
-        "'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds",
-        "Bitcoin ticks up slightly above $82k as U.S. bond rally lifts risk sentiment",
-        "CoreWeave bond rout tests market's math on AI buildout - Reuters"
+        "Why hedge funds could be making a bond market shock more likely",
+        "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
+        "Treasury introduces new security measures in bid to stop UK Budget leaks"
+      ]
+    },
+    {
+      "keyword": "us_big_tech",
+      "score": 8,
+      "headline_count": 3,
+      "sample_titles": [
+        "Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy",
+        "Microsoft pulls out of UK data center deal with Nscale, Telegraph reports - Reuters",
+        "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth"
       ]
     },
     {
@@ -305,8 +345,8 @@
       "score": 7,
       "headline_count": 2,
       "sample_titles": [
-        "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
-        "Semiconductor market to remain solid ‘at least through next year,’ South Korea finance minister says"
+        "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
+        "Anthropic turns to lawyers to help AI agents strike deals"
       ]
     },
     {
@@ -319,20 +359,39 @@
       ]
     },
     {
+      "keyword": "china",
+      "score": 6,
+      "headline_count": 2,
+      "sample_titles": [
+        "Global economy set for AI-driven surge, FT survey suggests",
+        "China proposes export controls on solar-manufacturing technologies - Reuters"
+      ]
+    },
+    {
+      "keyword": "cpi",
+      "score": 6,
+      "headline_count": 2,
+      "sample_titles": [
+        "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook",
+        "3 Charts That Explain the Economy as Voters Head to the Polls"
+      ]
+    },
+    {
       "keyword": "oil",
       "score": 6,
       "headline_count": 2,
       "sample_titles": [
-        "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - Reuters",
-        "Wall Street tumbles as worries about AI trade and high oil prices weigh - Reuters"
+        "Top Wall Street analysts are bullish on the growth potential of these 3 stocks",
+        "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - Reuters"
       ]
     },
     {
       "keyword": "us_index_flow",
       "score": 4,
-      "headline_count": 1,
+      "headline_count": 2,
       "sample_titles": [
-        "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery"
+        "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
+        "There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead"
       ]
     },
     {
@@ -342,106 +401,14 @@
       "sample_titles": [
         "Bitcoin price holds above $81,000 as ETF outflows weigh on sentiment"
       ]
-    },
-    {
-      "keyword": "us_big_tech",
-      "score": 2,
-      "headline_count": 1,
-      "sample_titles": [
-        "Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones."
-      ]
     }
   ],
   "naver_datalab": null,
   "items": [
     {
-      "title": "골프",
+      "title": "신세계백화점 강남점",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 17 Oct 2026 19:50:00 -0700",
-      "description": "",
-      "approx_traffic": "1000+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "매출액",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 17 Oct 2026 19:10:00 -0700",
-      "description": "",
-      "approx_traffic": "1000+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "la 갤럭시 대 샌디에이고 fc",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 17 Oct 2026 19:00:00 -0700",
-      "description": "",
-      "approx_traffic": "1000+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "강풍 경보",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 17 Oct 2026 19:00:00 -0700",
-      "description": "",
-      "approx_traffic": "100+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "사위",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 17 Oct 2026 18:40:00 -0700",
-      "description": "",
-      "approx_traffic": "2000+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "wind warning",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 17 Oct 2026 18:40:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "대구날씨",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 17 Oct 2026 18:40:00 -0700",
-      "description": "",
-      "approx_traffic": "100+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "라면",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 17 Oct 2026 18:30:00 -0700",
+      "published": "Sun, 18 Oct 2026 07:40:00 -0700",
       "description": "",
       "approx_traffic": "500+",
       "source_id": "google_trends_kr",
@@ -451,9 +418,129 @@
       "source_weight": 5
     },
     {
-      "title": "dante moore injury",
+      "title": "노팅엄 포레스트 대 아스널",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 18 Oct 2026 07:30:00 -0700",
+      "description": "",
+      "approx_traffic": "2000+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "사업",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 18 Oct 2026 07:30:00 -0700",
+      "description": "",
+      "approx_traffic": "100+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "박위",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 18 Oct 2026 07:00:00 -0700",
+      "description": "",
+      "approx_traffic": "2000+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "붕 은 우",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 18 Oct 2026 07:00:00 -0700",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "최준용",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 18 Oct 2026 07:00:00 -0700",
+      "description": "",
+      "approx_traffic": "2000+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "fotmob",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 18 Oct 2026 07:00:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "브라이튼",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sun, 18 Oct 2026 06:10:00 -0700",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "arsenal",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 17 Oct 2026 20:40:00 -0700",
+      "published": "Sun, 18 Oct 2026 08:30:00 -0700",
+      "description": "",
+      "approx_traffic": "5000+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "english premier league",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sun, 18 Oct 2026 08:30:00 -0700",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "arsenal vs",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sun, 18 Oct 2026 08:20:00 -0700",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "robotaxi",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sun, 18 Oct 2026 08:20:00 -0700",
       "description": "",
       "approx_traffic": "200+",
       "source_id": "google_trends_us",
@@ -463,9 +550,9 @@
       "source_weight": 5
     },
     {
-      "title": "gio lopez",
+      "title": "nbc 10 philadelphia",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 17 Oct 2026 20:30:00 -0700",
+      "published": "Sun, 18 Oct 2026 08:20:00 -0700",
       "description": "",
       "approx_traffic": "200+",
       "source_id": "google_trends_us",
@@ -475,45 +562,9 @@
       "source_weight": 5
     },
     {
-      "title": "wordle hint oct 17",
+      "title": "shane",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 17 Oct 2026 20:30:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "devon dampier",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 17 Oct 2026 20:30:00 -0700",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "ducks game",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 17 Oct 2026 20:30:00 -0700",
-      "description": "",
-      "approx_traffic": "1000+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "club león vs club américa standings",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 17 Oct 2026 20:20:00 -0700",
+      "published": "Sun, 18 Oct 2026 08:20:00 -0700",
       "description": "",
       "approx_traffic": "2000+",
       "source_id": "google_trends_us",
@@ -523,11 +574,11 @@
       "source_weight": 5
     },
     {
-      "title": "jalen brunson",
+      "title": "milan - atalanta",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 17 Oct 2026 20:20:00 -0700",
+      "published": "Sun, 18 Oct 2026 08:10:00 -0700",
       "description": "",
-      "approx_traffic": "2000+",
+      "approx_traffic": "500+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -535,11 +586,11 @@
       "source_weight": 5
     },
     {
-      "title": "margaret qualley",
+      "title": "shawn oliver",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 17 Oct 2026 20:20:00 -0700",
+      "published": "Sun, 18 Oct 2026 08:10:00 -0700",
       "description": "",
-      "approx_traffic": "1000+",
+      "approx_traffic": "200+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -643,6 +694,66 @@
       "source_weight": 5
     },
     {
+      "title": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
+      "link": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
+      "published": "Sun, 18 Oct 2026 14:00:00 +0000",
+      "description": "Analytics firm Allium said stablecoin payments hit $482 billion this year so far, up 45%, as card spending surges and global payment firms add crypto rails.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook",
+      "link": "https://www.coindesk.com/markets/2026/10/18/bitcoin-s-usd100-000-year-end-hope-divides-analysts-as-inflation-clouds-outlook",
+      "published": "Sun, 18 Oct 2026 13:00:00 +0000",
+      "description": "Bitwise sees a potential return above $100,000, while LO:TECH expects a narrower trading range as interest-rate uncertainty weighs on the market.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says",
+      "link": "https://www.coindesk.com/tech/2026/10/18/crypto-audits-give-investors-false-sense-of-security-as-q3-hacks-cost-usd1-18-billion-hacken-says",
+      "published": "Sun, 18 Oct 2026 13:00:00 +0000",
+      "description": "The security firm found that 77% of third-quarter losses involved compromised suppliers, delayed fixes or systems outside the latest security reviews.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "Crypto exchanges Binance, Coinbase join West Africa scam sweep that flagged $11 million",
+      "link": "https://www.coindesk.com/business/2026/10/14/crypto-exchanges-binance-coinbase-join-west-africa-scam-sweep-that-flagged-usd11-million",
+      "published": "Sun, 18 Oct 2026 12:00:00 +0000",
+      "description": "Private-sector partners flagged $11 million in funds that could be frozen, while officials reported cryptocurrency seizures without disclosing their value.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
+      "title": "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
+      "link": "https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut",
+      "published": "Sun, 18 Oct 2026 07:13:32 +0000",
+      "description": "A 10-minute flush hit round-the-clock chip-stock contracts while U.S. markets were shut, leaving traders with no real share price to lean on.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
       "title": "Circle defends USDC economics as stablecoin rivals court its partners with bigger cut",
       "link": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut",
       "published": "Sun, 18 Oct 2026 01:06:35 +0000",
@@ -679,70 +790,58 @@
       "source_weight": 4
     },
     {
-      "title": "Polygon sees Coinme acquisition as entry to payments sector dominated by Visa, Stripe",
-      "link": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe",
-      "published": "Sat, 17 Oct 2026 14:00:00 +0000",
-      "description": "CEO Marc Boiron said the Coinme acquisition will help Polygon control customer relationships and capture revenue that previously went to payment intermediaries.",
-      "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 4
-    },
-    {
-      "title": "Banks could slow stablecoin growth by paying savers more, BIS paper finds",
-      "link": "https://www.coindesk.com/business/2026/10/14/banks-could-slow-stablecoin-growth-by-paying-savers-more-bis-paper-finds",
-      "published": "Sat, 17 Oct 2026 12:00:00 +0000",
-      "description": "A BIS working paper found a 1 basis point rise in U.S. bank deposit rates predicted slower stablecoin growth, cutting ten-week growth from 15% to 12%.",
-      "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 4
-    },
-    {
-      "title": "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery",
-      "link": "https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery",
-      "published": "Sat, 17 Oct 2026 06:39:48 +0000",
-      "description": "Numbers the spy agency handed over in the 1990s, long suspected of hiding a backdoor, turn out to have come from a basic computer program. Bitcoin was never on that list, and its quantum problem hasn’t gone anywhere.",
-      "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 4
-    },
-    {
-      "title": "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
-      "link": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
-      "published": "Sat, 17 Oct 2026 02:30:00 +0000",
-      "description": "Google says its Willow chip can prepare the special quantum states needed for advanced calculations with about 40 times fewer errors, reducing one of the hardware bottlenecks behind any future attempt to crack bitcoin wallets.",
-      "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 4
-    },
-    {
-      "title": "Big Tech's AI auditors will only see what they're shown",
-      "link": "https://www.coindesk.com/opinion/2026/10/16/big-tech-s-ai-auditors-will-only-see-what-they-re-shown",
-      "published": "Fri, 16 Oct 2026 14:58:22 +0000",
-      "description": "If the White House accord's audits are going to be worth anything, auditors should be able to choose what they test, writes Samuel Vance-Law, head of research at the Decentralization Research Center.",
-      "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 4
-    },
-    {
       "title": "Here’s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 17 Oct 2026 13:29:00 +0000",
+      "published": "Sun, 18 Oct 2026 13:54:00 +0000",
       "description": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "approx_traffic": "",
+      "source_id": "cointelegraph_rss",
+      "source_name": "Cointelegraph",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Most Americans polled oppose betting on elections: Reuters",
+      "link": "https://cointelegraph.com/news/most-americans-polled-oppose-betting-on-elections-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 18 Oct 2026 13:48:00 +0000",
+      "description": "The prediction market industry enables people to bet on US ‌elections and sporting events.",
+      "approx_traffic": "",
+      "source_id": "cointelegraph_rss",
+      "source_name": "Cointelegraph",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Cysic crypto bridge halted after unauthorized mint of 10M CYS",
+      "link": "https://cointelegraph.com/news/cysic-crypto-bridge-halted-after-unauthorized-mint-of-10m-cys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 18 Oct 2026 10:46:00 +0000",
+      "description": "Cysic said the incident was limited to bridge message processing and minting and did not affect the mainnet or other operational systems.",
+      "approx_traffic": "",
+      "source_id": "cointelegraph_rss",
+      "source_name": "Cointelegraph",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Chinese suspect in $75M international crime network arrested in Bangkok",
+      "link": "https://cointelegraph.com/news/chinese-suspect-in-75m-international-crime-network-arrested-in-bangkok?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 18 Oct 2026 09:14:26 +0000",
+      "description": "Police alleged the suspect was involved in cryptocurrency and foreign-currency exchanges for criminal groups across more than 133 accounts.",
+      "approx_traffic": "",
+      "source_id": "cointelegraph_rss",
+      "source_name": "Cointelegraph",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Tether backs AIsa as strategic investor, completing seed extension round",
+      "link": "https://cointelegraph.com/news/tether-backs-aisa-as-strategic-investor-completing-seed-extension-round?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 18 Oct 2026 06:29:00 +0000",
+      "description": "The round brings AIsa’s total funding to more than $9 million.",
       "approx_traffic": "",
       "source_id": "cointelegraph_rss",
       "source_name": "Cointelegraph",
@@ -753,7 +852,7 @@
     {
       "title": "Solana shows resilience, but some areas need continued observation, Fidelity says",
       "link": "https://cointelegraph.com/news/solana-shows-resilience-but-some-areas-need-continued-observation-fidelity-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 17 Oct 2026 12:58:03 +0000",
+      "published": "Sat, 17 Oct 2026 13:01:00 +0000",
       "description": "Solana has had no reported mainnet outages in two years, but concentrations in stake, hosting and client software should be monitored, according to a report.",
       "approx_traffic": "",
       "source_id": "cointelegraph_rss",
@@ -765,7 +864,7 @@
     {
       "title": "Circle’s Allaire says stablecoin issuer looking to enter 40 developing markets: Report",
       "link": "https://cointelegraph.com/news/circles-allaire-says-stablecoin-issuer-looking-to-enter-40-developing-markets-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 17 Oct 2026 10:00:07 +0000",
+      "published": "Sat, 17 Oct 2026 10:03:00 +0000",
       "description": "Markets in Southeast Asia, Latin America, Africa and the Middle East see increasing demand for stablecoins.",
       "approx_traffic": "",
       "source_id": "cointelegraph_rss",
@@ -775,9 +874,9 @@
       "source_weight": 3
     },
     {
-      "title": "Lagarde says euro-area economy is resilient, digital euro imminent",
+      "title": "Lagarde says euro-area economy is resilient, digital euro under development",
       "link": "https://cointelegraph.com/news/lagarde-says-euro-area-economy-is-resilient-digital-euro-imminent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 17 Oct 2026 08:32:11 +0000",
+      "published": "Sat, 17 Oct 2026 08:45:00 +0000",
       "description": "“The digital euro will further stimulate innovation and competition in retail payments,” according to the ECB president.",
       "approx_traffic": "",
       "source_id": "cointelegraph_rss",
@@ -787,58 +886,10 @@
       "source_weight": 3
     },
     {
-      "title": "Bitget to discontinue services for some users in one-off exercise",
-      "link": "https://cointelegraph.com/news/bitget-to-discontinue-services-for-some-users-in-one-off-exercise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 17 Oct 2026 07:26:57 +0000",
-      "description": "Bitget says user funds are safe and exchange will continue to operate during the change.",
-      "approx_traffic": "",
-      "source_id": "cointelegraph_rss",
-      "source_name": "Cointelegraph",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Crypto PACs escalate spending against Sherrod Brown in Ohio Senate race",
-      "link": "https://cointelegraph.com/news/crypto-pac-fairshake-spending-ohio-senate-race-sherrod-brown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 16 Oct 2026 17:30:09 +0000",
-      "description": "At least two industry-aligned PACs have poured more than $52 million into opposing Sherrod Brown’s return to the Senate.",
-      "approx_traffic": "",
-      "source_id": "cointelegraph_rss",
-      "source_name": "Cointelegraph",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Stablecoin remittances cost 84% less than traditional transfers, report finds",
-      "link": "https://cointelegraph.com/news/stablecoin-remittances-cost-savings-traditional-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 16 Oct 2026 17:21:45 +0000",
-      "description": "Borderless.xyz data shows major savings on cross-border business payments, with stablecoin transfers also settling faster than traditional international bank wires.",
-      "approx_traffic": "",
-      "source_id": "cointelegraph_rss",
-      "source_name": "Cointelegraph",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Crypto Biz: Wall Street closes at 4. Tokenized stocks keep trading",
-      "link": "https://cointelegraph.com/news/tokenized-stocks-after-hours-trading-crypto-biz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 16 Oct 2026 15:52:28 +0000",
-      "description": "Tokenized stocks are drawing trading activity beyond Wall Street hours, while Bitcoin miners confront costly AI expansion and new accounting rules could benefit stablecoins.",
-      "approx_traffic": "",
-      "source_id": "cointelegraph_rss",
-      "source_name": "Cointelegraph",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong'",
-      "link": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
-      "published": "Sat, 17 Oct 2026 19:35:18 GMT",
-      "description": "Trump signed the Graham Bill, which targeted Russia over its invasion of Ukraine, into law in September.",
+      "title": "Bessent warns Zelenskyy to 'be very careful' about claims U.S. is throttling Starlink",
+      "link": "https://www.cnbc.com/2026/10/18/bessent-zelenskyy-starlink-ukarine-war.html",
+      "published": "Sun, 18 Oct 2026 15:44:41 GMT",
+      "description": "Starlink, high-speed satellite internet provided by Elon Musk's SpaceX, is critical to Ukraine's defense.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -847,10 +898,10 @@
       "source_weight": 3
     },
     {
-      "title": "Software’s new consolidator gets big vote of confidence from Berkshire",
-      "link": "https://www.cnbc.com/2026/10/17/bending-spoons-wants-to-revive-software-castoffs-berkshire-investing.html",
-      "published": "Sat, 17 Oct 2026 15:11:30 GMT",
-      "description": "Less than four months into life as a public company, Bending Spoons got a big vote of confidence this week from Berkshire Hathaway.",
+      "title": "Iran says it has a 'new operational plan' if the U.S. resumes attacks, as shipping vessels report strikes",
+      "link": "https://www.cnbc.com/2026/10/18/iran-us-war-rezaei-operational-plan-shipping-attacks.html",
+      "published": "Sun, 18 Oct 2026 13:52:24 GMT",
+      "description": "Mohsen Rezaei, secretary of Iran's Supreme National Security Council, said the country's military has prepared a response to any new attacks.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -859,10 +910,10 @@
       "source_weight": 3
     },
     {
-      "title": "Berkshire shares buck market sell-off, rally to highest since Buffett said he would step down as CEO",
-      "link": "https://www.cnbc.com/2026/10/17/berkshire-rally-to-highest-since-buffett-announcement.html",
-      "published": "Sat, 17 Oct 2026 12:46:21 GMT",
-      "description": "Berkshire Hathaway shares are at their highest level since Warren Buffett told shareholders at the May 2025 annual meeting he planned to step down as CEO at the end of that year.",
+      "title": "Why hedge funds could be making a bond market shock more likely",
+      "link": "https://www.cnbc.com/2026/10/18/hedge-funds-bond-market-turmoil.html",
+      "published": "Sun, 18 Oct 2026 06:13:05 GMT",
+      "description": "The Bank of England's deputy governor has warned that hedge funds' activities could raise the risk of a global bond market shock.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -871,10 +922,10 @@
       "source_weight": 3
     },
     {
-      "title": "5 midterm money takeaways: Democrats have candidate cash. Republicans have Elon Musk",
-      "link": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
-      "published": "Fri, 16 Oct 2026 21:49:13 GMT",
-      "description": "Democrats outraise Republicans in key Congress races as Elon Musk funds Ken Paxton in Texas and GOP groups aligned with Trump.",
+      "title": "Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy",
+      "link": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html",
+      "published": "Sun, 18 Oct 2026 12:00:01 GMT",
+      "description": "AI always-listening wearables from Apple, Amazon, Meta and other startups are getting creative with privacy rules and fueling concerns about covert recordings.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -883,10 +934,10 @@
       "source_weight": 3
     },
     {
-      "title": "'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds",
-      "link": "https://www.cnbc.com/2026/10/17/dead-money-for-a-decade-hedge-fund-approach-that-may-trump-bonds.html",
-      "published": "Sat, 17 Oct 2026 15:00:01 GMT",
-      "description": "Investors may want to rethink their bond allocation and opt for managed futures exposure.",
+      "title": "Roth conversions: When the ‘juice isn't really worth the squeeze,’ according to a top-ranked advisor",
+      "link": "https://www.cnbc.com/2026/10/18/roth-conversion-2026.html",
+      "published": "Sun, 18 Oct 2026 13:30:01 GMT",
+      "description": "If you're considering a year-end Roth conversion for 2026, there are some key things to know, experts say.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -895,10 +946,10 @@
       "source_weight": 3
     },
     {
-      "title": "Semiconductor market to remain solid ‘at least through next year,’ South Korea finance minister says",
-      "link": "https://www.cnbc.com/2026/10/17/south-korea-semiconductor-outlook-lee-hyoung-il.html",
-      "published": "Sat, 17 Oct 2026 16:45:15 GMT",
-      "description": "South Korea's finance minister said semiconductor growth can last at least through 2027 as supply remains tight despite a global chip sell-off.",
+      "title": "Boomers are buying into the promise of monthly income from options ETFs, but there's a tax catch",
+      "link": "https://www.cnbc.com/2026/10/18/retirement-income-funds-taxes.html",
+      "published": "Sun, 18 Oct 2026 13:10:33 GMT",
+      "description": "Covered call ETFs have been widely adopted by baby boomers to meet monthly income needs, but unlike most ETFs, the tax implications can be significant.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -907,10 +958,10 @@
       "source_weight": 3
     },
     {
-      "title": "Trump's student loan overhaul could lead to more bankruptcy filings, former judge says",
-      "link": "https://www.cnbc.com/2026/10/17/trump-student-loans-bankruptcy.html",
-      "published": "Sat, 17 Oct 2026 13:30:01 GMT",
-      "description": "After nearly three decades as a bankruptcy judge, Sarah Sharer Curley writes about the legal process in her new book, \"The Price of Forgiveness.\"",
+      "title": "Top Wall Street analysts are bullish on the growth potential of these 3 stocks",
+      "link": "https://www.cnbc.com/2026/10/18/top-analysts-are-bullish-on-the-growth-potential-of-these-3-stocks.html",
+      "published": "Sun, 18 Oct 2026 12:34:51 GMT",
+      "description": "Amid fear of rate hikes and oil prices, investors can look past volatility and track Street analysts' stock picks with strong long-term growth potential.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -931,9 +982,45 @@
       "source_weight": 3
     },
     {
-      "title": "Bitcoin coils at 23.6% Fib level near $81,495: Live levels",
+      "title": "EOS Falls 11% In Rout",
+      "link": "https://www.investing.com/news/cryptocurrency-news/eos-falls-11-in-rout-4955850",
+      "published": "2026-10-18 09:02:59",
+      "description": "",
+      "approx_traffic": "",
+      "source_id": "investing_news",
+      "source_name": "Investing.com Crypto News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Ledger crypto wallets compromised in hardware attack linked to $90M theft",
+      "link": "https://www.investing.com/news/cryptocurrency-news/ledger-crypto-wallets-compromised-in-hardware-attack-linked-to-90m-theft-4955797",
+      "published": "2026-10-18 07:18:32",
+      "description": "",
+      "approx_traffic": "",
+      "source_id": "investing_news",
+      "source_name": "Investing.com Crypto News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Bitcoin pivots at $81,443 Fib support with resistance near: Live",
       "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-wedged-at-84175-between-key-support-and-resistance-live-93CH-4943299",
-      "published": "2026-10-17 19:02:16",
+      "published": "2026-10-18 07:02:27",
+      "description": "",
+      "approx_traffic": "",
+      "source_id": "investing_news",
+      "source_name": "Investing.com Crypto News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Bitcoin struggles above $80K as whale transfers signal mixed outlook",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-struggles-above-80k-as-whale-transfers-signal-mixed-outlook-4955806",
+      "published": "2026-10-18 06:30:40",
       "description": "",
       "approx_traffic": "",
       "source_id": "investing_news",
@@ -991,46 +1078,10 @@
       "source_weight": 3
     },
     {
-      "title": "EOS Climbs 12% As Investors Gain Confidence",
-      "link": "https://www.investing.com/news/cryptocurrency-news/eos-climbs-12-as-investors-gain-confidence-4954029",
-      "published": "2026-10-16 12:25:59",
-      "description": "",
-      "approx_traffic": "",
-      "source_id": "investing_news",
-      "source_name": "Investing.com Crypto News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Arbitrum pitches European banks as WisdomTree touts network’s revenue model",
-      "link": "https://www.investing.com/news/cryptocurrency-news/arbitrum-pitches-european-banks-as-wisdomtree-touts-networks-revenue-model-4953687",
-      "published": "2026-10-16 10:50:03",
-      "description": "",
-      "approx_traffic": "",
-      "source_id": "investing_news",
-      "source_name": "Investing.com Crypto News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Bitcoin ticks up slightly above $82k as U.S. bond rally lifts risk sentiment",
-      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-below-81k-as-hot-us-cpi-spurs-rate-hike-bets-4950559",
-      "published": "2026-10-15 21:43:22",
-      "description": "",
-      "approx_traffic": "",
-      "source_id": "investing_news",
-      "source_name": "Investing.com Crypto News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Zelenskyy says Starlink speed limits in Ukraine are a ‘planned operation’",
-      "link": "https://www.ft.com/content/e26723df-9076-416c-957a-7fa3bd00b4d7?syn-25a6b1a6=1",
-      "published": "Sun, 18 Oct 2026 02:35:14 GMT",
-      "description": "Ukraine’s president says restrictions are hampering efforts to intercept Russian attacks",
+      "title": "America’s $10tn AI infrastructure boom is starting to fray",
+      "link": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 04:00:18 GMT",
+      "description": "A vast bet on the future of the technology is running into the unforgiving economics of the physical world",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1039,10 +1090,10 @@
       "source_weight": 3
     },
     {
-      "title": "Are we sleepwalking into World War III?",
-      "link": "https://www.ft.com/content/3a56575e-ecfb-4fa9-af70-01aebd869729?syn-25a6b1a6=1",
-      "published": "Sat, 17 Oct 2026 04:00:11 GMT",
-      "description": "As regional conflicts rage and revisionist powers challenge the established order, warnings of a new global conflagration are growing louder",
+      "title": "Global economy set for AI-driven surge, FT survey suggests",
+      "link": "https://www.ft.com/content/c6aeb3a1-1874-4947-8ffc-4d993301244a?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 04:00:09 GMT",
+      "description": "Poll of 94 economists points to benefits reaching far beyond the US and China",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1051,10 +1102,10 @@
       "source_weight": 3
     },
     {
-      "title": "The Man City theory of politics",
-      "link": "https://www.ft.com/content/ce75ac4a-3352-4986-939f-cfb17e482709?syn-25a6b1a6=1",
-      "published": "Sat, 17 Oct 2026 04:00:21 GMT",
-      "description": "The tribalism of football fans parallels modern politics like nothing else",
+      "title": "Anthropic turns to lawyers to help AI agents strike deals",
+      "link": "https://www.ft.com/content/f7c26ac0-f5f2-443a-86b2-39d62f7920a9?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 04:00:09 GMT",
+      "description": "Tech companies are being forced to confront the rules of negotiation when machines act on humans’ behalf",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1063,10 +1114,10 @@
       "source_weight": 3
     },
     {
-      "title": "Why have screens replaced socialising?",
-      "link": "https://www.ft.com/content/989c757d-29ba-46fd-82de-427b810a8649?syn-25a6b1a6=1",
-      "published": "Sat, 17 Oct 2026 04:00:21 GMT",
-      "description": "The economics of why we increasingly avoid the company of both other humans and books",
+      "title": "The world’s fastest-growing cities are not where you think",
+      "link": "https://www.ft.com/content/5203e527-ebdd-45d2-9019-6c440b4c4e93?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 04:00:09 GMT",
+      "description": "The continent’s urban centres are set to expand by 19mn people annually, or by nearly two Londons a year. But urbanisation is not following a familiar path",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1075,10 +1126,10 @@
       "source_weight": 3
     },
     {
-      "title": "Protests across France spiral into riots and looting",
-      "link": "https://www.ft.com/content/bcb6c27a-f082-4867-ade4-ae6eb757b780?syn-25a6b1a6=1",
-      "published": "Sat, 17 Oct 2026 22:49:57 GMT",
-      "description": "Violence erupts in several cities after mass demonstrations over high living costs and dissatisfaction with the education system",
+      "title": "Trump’s bid to make America cheap again has failed",
+      "link": "https://www.ft.com/content/52a5e9df-cd9a-4951-99b5-2364e575bb44?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 15:00:00 GMT",
+      "description": "Voters are increasingly linking rising energy prices to the administration’s policies",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1087,10 +1138,10 @@
       "source_weight": 3
     },
     {
-      "title": "Israeli settlers attack European diplomats in the West Bank",
-      "link": "https://www.ft.com/content/35a08f82-6830-41fa-83ae-d3765f3970e0",
-      "published": "Sat, 17 Oct 2026 17:58:01 GMT",
-      "description": "Belgian foreign minister says his government will ‘press for EU sanctions against those responsible for this violence’",
+      "title": "Not every billionaire is a policy failure",
+      "link": "https://www.ft.com/content/2c8c610b-83f3-4cab-b409-bab69f4c2207?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 11:00:09 GMT",
+      "description": "Indiscriminately targeting those with 10-digit fortunes is arbitrary, misguided and costly",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1099,10 +1150,10 @@
       "source_weight": 3
     },
     {
-      "title": "Houthis encircle new target in conflict with Saudi-backed forces",
-      "link": "https://www.ft.com/content/73329157-1277-42f5-802e-fc339415b5ce?syn-25a6b1a6=1",
-      "published": "Sat, 17 Oct 2026 04:00:30 GMT",
-      "description": "Iran-backed rebels surround Taiz, one of Yemen’s largest cities, as conflict with Riyadh and its local allies escalates",
+      "title": "France reels after ‘unprecedented’ violent riots",
+      "link": "https://www.ft.com/content/369eba8b-246d-405f-b0d8-6c676b0b6dab?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 14:15:40 GMT",
+      "description": "Government under pressure after struggle to contain attacks on stores and official buildings",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1111,13 +1162,37 @@
       "source_weight": 3
     },
     {
-      "title": "Listings in south-east Asia gain momentum with $1bn IPO",
-      "link": "https://www.ft.com/content/a2b83aa7-49e0-4735-b115-d406fcb24de8?syn-25a6b1a6=1",
-      "published": "Sun, 18 Oct 2026 01:00:06 GMT",
-      "description": "Owner of digital wallet GCash set to start trading in region’s biggest debut this year",
+      "title": "Could Republicans prove the pollsters wrong in the midterms?",
+      "link": "https://www.ft.com/content/b2299174-fb78-4edf-a358-8cae837f8d7b?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 10:00:09 GMT",
+      "description": "Party insiders say past elections show predictions of a Democratic wave in Congress are overstated",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Microsoft pulls out of UK data center deal with Nscale, Telegraph reports - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMmVDUVQyZjhnbFN2MHQ1MHVPMHVpLVVsUFE1aU44Y2QzMUx2a25MRXR5OWtkTGd5RkViaG9fM3lZcnFHblYyT2xMeGZ3MHI3NkFjQ0FhdWFVRWlmdHlPRDRFRVRsclFpbUExakpiN3Z4aGMtODdDb09Mb0xXbnIxdU04ZmQ3UTEyTkhQd2EyMFhDNzQzYVgzZG9FeDlNYTJTanNOOThVSGRTb2RnRWdCajBVXzFMcDB4MWZpbXR1STMzZ1JaOXRr?oc=5",
+      "published": "Sun, 18 Oct 2026 10:47:40 GMT",
+      "description": "Microsoft pulls out of UK data center deal with Nscale, Telegraph reports &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "China proposes export controls on solar-manufacturing technologies - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaGtBN1ctcU1NbGFxLXVKb01UVVdDUklxa3Z6Tk1ac05vT2lkd0d2THJqR1Q4VDBDTjJFSUlJYXNCdF83Tko2S0hrbDZSX3NrWWRrWFljNFNHOWhVUnpib3JpdjY3TWZJUEpEQzJKdnFpckZhZTM4X3RXTnhuMzVJWXRxemxoUTdlcDcwckxSUlROQ1pqbHZWdFplOEZUTHh1dDVxb3pfTlN3X2dURk1ETnJzTXJmUFluU0dfck1OSFl4YVlqZHE1NA?oc=5",
+      "published": "Sun, 18 Oct 2026 06:22:00 GMT",
+      "description": "China proposes export controls on solar-manufacturing technologies &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
       "source_category": "global_media",
       "source_type": "rss",
       "source_weight": 3
@@ -1147,10 +1222,10 @@
       "source_weight": 3
     },
     {
-      "title": "CoreWeave bond rout tests market's math on AI buildout - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdm5VTll1VmRrVEdWNm9HMmh4dUtxaDN2alV3YnJxUmtZdVJjZV9obW5Kc2tOYTNEQVdQNE1XMnFNbk1PaFBTTHZqcWxFZklDOVRtYm9IOWhnMjRuZTYyM2U0NVA1WmY0a3ZGQTFJbFp5cU1ha3h2WXBwLVFBSmtjRnVmZm8xdUtCMWlaX1YyUkpCSDhZamRzRG9UV3paVU9MalVpa0FFbzRBZw?oc=5",
-      "published": "Fri, 16 Oct 2026 16:48:32 GMT",
-      "description": "CoreWeave bond rout tests market's math on AI buildout &nbsp;&nbsp; Reuters",
+      "title": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY0FIVXBWc1k5eW1ObWUyOGNQS1NGZDA5anNoLVJmVDRoMGR0ZUM5aWdDYTFDX3lKN2dYbVlhZzhuTFUwcVo3N0xmTkpBNXJKV2JLVW9qUmdmNWdxaWFJVlFZLWVPVHJjZ0RTNUdYdGxoMk9RZms0aHpzQWlTVDd4LUNnQ1RKUlZmVkhFSS1FQlk5bWl1dkU2QTQ0bDA2dVdHVzMzcTlRZi00ZkM1THVWRFgzTnYtUm9id3pBM1BWeEI4ZVFqU1ltSDB2SQ?oc=5",
+      "published": "Fri, 16 Oct 2026 18:35:09 GMT",
+      "description": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1171,10 +1246,10 @@
       "source_weight": 3
     },
     {
-      "title": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY0FIVXBWc1k5eW1ObWUyOGNQS1NGZDA5anNoLVJmVDRoMGR0ZUM5aWdDYTFDX3lKN2dYbVlhZzhuTFUwcVo3N0xmTkpBNXJKV2JLVW9qUmdmNWdxaWFJVlFZLWVPVHJjZ0RTNUdYdGxoMk9RZms0aHpzQWlTVDd4LUNnQ1RKUlZmVkhFSS1FQlk5bWl1dkU2QTQ0bDA2dVdHVzMzcTlRZi00ZkM1THVWRFgzTnYtUm9id3pBM1BWeEI4ZVFqU1ltSDB2SQ?oc=5",
-      "published": "Fri, 16 Oct 2026 18:35:09 GMT",
-      "description": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears &nbsp;&nbsp; Reuters",
+      "title": "Breakingviews - COMMENTARY: MSCI unnecessarily throws Indonesia into a panic - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONURVTXh5dHZxb1NWeXNzYUhNdTU2VFc2SldKVnF3U1A1VlRPMTdHQ19fc2NXZmZjdF93bGhNN3E2TDRQbTF2eXhyU1hNR094X1JZRGU0VXNmaG5rN2R1Wjd5SHh3NGl0X0ZRSy1ha2ZUN0JHQTdtRFVOdHB5Y0VqaFRXajNfYWFWNV9FQTV2bE11VmpGQVZUcTVFY2g5Z0FhczNRRGJDSVlSekE?oc=5",
+      "published": "Fri, 16 Oct 2026 08:44:45 GMT",
+      "description": "Breakingviews - COMMENTARY: MSCI unnecessarily throws Indonesia into a panic &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1195,33 +1270,9 @@
       "source_weight": 3
     },
     {
-      "title": "Indonesia faces rare MSCI exclusion that could cut it off from global capital - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTGk2ZGtxRDZlTHR0c1J0V1lpbDA5Y28xT1A3S0xmcFY5SFBueGlIaU9nOVhPOHM2b0pBNktvOVNZUnk5ck9jbElSbmZRS1R5dkxiSTBVenVvRFR3Y29TdzhIZllmdFdDZm4zZmpvd0RaOE1HLWJsOFEzOXRSelZPeG5DV3RoZ3hvNmhCc25UZ1NCQzBiRVBUeG94YzlsTVU3MmJoM0syRWVvbE8yM1dVamVlMXZVWW1mX25UYl92VmZNeS1Tc2c?oc=5",
-      "published": "Fri, 16 Oct 2026 16:12:04 GMT",
-      "description": "Indonesia faces rare MSCI exclusion that could cut it off from global capital &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV0xEdzRIMVNLYnAyTkhHSmVNTnRyMDJ3WGdOeFY0Vy1kRUtmWC1FZW42aDNfWTctUHM5X2hlWkhuOHFwblR1Q054a19YV3ZLNTlVVVlmMlRTZ0wxLWE2cmN3SWpjVHU4VDJZWU12Q0hPajE5cDdvQm9ic05PNHNRVG45bEI1ZFVHaEN5QnZjbHMxUDFVbHZ2cFNlMUZydw?oc=5",
-      "published": "Fri, 16 Oct 2026 11:01:00 GMT",
-      "description": "Wall Street tumbles as worries about AI trade and high oil prices weigh &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
       "title": "The reason Nigeria blocks education (Sunday School: Nigeria binge-watching)",
       "link": "https://www.youtube.com/watch?v=Bg-YbLmC5t0",
-      "published": "5.1K",
+      "published": "13K",
       "description": "",
       "approx_traffic": "",
       "video_id": "Bg-YbLmC5t0",
@@ -1263,7 +1314,7 @@
     {
       "title": "Something about the Holy Spirit's blast... (Sunday School: Binge-watching the blasts)",
       "link": "https://www.youtube.com/watch?v=r3lWlc133X0",
-      "published": "11K",
+      "published": "15K",
       "description": "",
       "approx_traffic": "",
       "video_id": "r3lWlc133X0",
@@ -1284,7 +1335,7 @@
     {
       "title": "2. The Root Cause of France's Collapse (French Student Protests)",
       "link": "https://www.youtube.com/watch?v=xlpm8jJCJIA",
-      "published": "80K",
+      "published": "121K",
       "description": "",
       "approx_traffic": "",
       "video_id": "xlpm8jJCJIA",
@@ -1326,7 +1377,7 @@
     {
       "title": "1. Why French students have reached their breaking point (French student protests)",
       "link": "https://www.youtube.com/watch?v=Z_vTLozYue4",
-      "published": "48K",
+      "published": "67K",
       "description": "",
       "approx_traffic": "",
       "video_id": "Z_vTLozYue4",
@@ -1387,6 +1438,66 @@
       "source_weight": 3
     },
     {
+      "title": "I’m 64 with two sons, but only one works in the family business. Is it ethical to leave him 70% of the company?",
+      "link": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
+      "published": "Sun, 18 Oct 2026 15:15:00 GMT",
+      "description": "“I have some reservations about the long-term stability of my younger son’s marriage.”",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "I’m 63 and diagnosed with lymphoma. Should I take my Social Security next year?",
+      "link": "https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419?mod=mw_rss_topstories",
+      "published": "Sun, 18 Oct 2026 15:00:00 GMT",
+      "description": "“My plan is to continue working as long as I’m able to do so and invest my Social Security benefits while I’m still earning a paycheck.”",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
+      "link": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories",
+      "published": "Sun, 18 Oct 2026 14:00:00 GMT",
+      "description": "Boeing, Meta and EchoStar recorded steep charges and expenses a year ago, which are expected to make this latest quarter’s results look especially strong by comparison.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
+      "link": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
+      "published": "Sun, 18 Oct 2026 13:00:00 GMT",
+      "description": "The idea that the AI trade has been mostly immune to rising bond yields isn’t quite right, one strategist notes.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead",
+      "link": "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650?mod=mw_rss_topstories",
+      "published": "Sun, 18 Oct 2026 12:00:00 GMT",
+      "description": "A “triple-top” reversal chart pattern is pointing to a period of underperformance for the S&P 500 — perhaps a long one.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
       "title": "Can a $55,000 robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.",
       "link": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab?mod=mw_rss_topstories",
       "published": "Sat, 17 Oct 2026 20:53:00 GMT",
@@ -1423,69 +1534,9 @@
       "source_weight": 2
     },
     {
-      "title": "Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.",
-      "link": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13?mod=mw_rss_topstories",
-      "published": "Sat, 17 Oct 2026 18:40:00 GMT",
-      "description": "Preorders for the iPhone Duo began Friday, marking Apple’s debut in a foldable phone market largely dominated by Samsung and Google.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
-      "link": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
-      "published": "Sat, 17 Oct 2026 16:47:00 GMT",
-      "description": "”I earn $110,000 a year.”",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Meet the home buyers totally unfazed by 7% mortgage rates",
-      "link": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7?mod=mw_rss_topstories",
-      "published": "Sat, 17 Oct 2026 13:00:00 GMT",
-      "description": "Individual investors and second-home buyers accounted for 1 in 5 home purchases in September — the highest share in a little over a year.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Influencers and biohackers swear by fasting. Here’s what the science says.",
-      "link": "https://www.marketwatch.com/story/influencers-and-biohackers-swear-by-fasting-heres-what-the-science-says-3318191f?mod=mw_rss_topstories",
-      "published": "Sat, 17 Oct 2026 12:31:00 GMT",
-      "description": "Fasting can help some people reduce how many calories they eat — but it’s not “effortless” as some would have you believe.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
-      "link": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
-      "published": "Sat, 17 Oct 2026 12:30:00 GMT",
-      "description": "There’s a relatively off-the-radar commodity that can provide hints on where the economy is headed — and it’s seen its value drop more than 50% from a record high earlier this year.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
       "title": "Is American democracy safe? | Martin Wolf on the US midterms",
       "link": "https://www.youtube.com/watch?v=cxU52hf4gq8",
-      "published": "81K",
+      "published": "136K",
       "description": "",
       "approx_traffic": "",
       "video_id": "cxU52hf4gq8",
@@ -1506,7 +1557,7 @@
     {
       "title": "Zelenskyy on Trump's relationship with Putin | FT Interview",
       "link": "https://www.youtube.com/watch?v=XoAq7xIhCZs",
-      "published": "436K",
+      "published": "453K",
       "description": "",
       "approx_traffic": "",
       "video_id": "XoAq7xIhCZs",
@@ -1548,7 +1599,7 @@
     {
       "title": "The global energy order after Hormuz | FT Film",
       "link": "https://www.youtube.com/watch?v=UkXml6HHbHE",
-      "published": "525K",
+      "published": "528K",
       "description": "",
       "approx_traffic": "",
       "video_id": "UkXml6HHbHE",
@@ -1651,10 +1702,10 @@
       "source_weight": 2
     },
     {
-      "title": "Zelenskyy says Starlink speed limits in Ukraine are a ‘planned operation’",
-      "link": "https://www.ft.com/content/e26723df-9076-416c-957a-7fa3bd00b4d7?syn-25a6b1a6=1",
-      "published": "Sun, 18 Oct 2026 02:35:14 GMT",
-      "description": "Ukraine’s president says restrictions are hampering efforts to intercept Russian attacks",
+      "title": "St Petersburg endures biggest Ukrainian drone attack",
+      "link": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 15:14:55 GMT",
+      "description": "Strikes hit tech infrastructure after Russia targets electricity substations in Ukraine",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1663,10 +1714,10 @@
       "source_weight": 3
     },
     {
-      "title": "Listings in south-east Asia gain momentum with $1bn IPO",
-      "link": "https://www.ft.com/content/a2b83aa7-49e0-4735-b115-d406fcb24de8?syn-25a6b1a6=1",
-      "published": "Sun, 18 Oct 2026 01:00:06 GMT",
-      "description": "Owner of digital wallet GCash set to start trading in region’s biggest debut this year",
+      "title": "Trump’s bid to make America cheap again has failed",
+      "link": "https://www.ft.com/content/52a5e9df-cd9a-4951-99b5-2364e575bb44?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 15:00:00 GMT",
+      "description": "Voters are increasingly linking rising energy prices to the administration’s policies",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1675,10 +1726,10 @@
       "source_weight": 3
     },
     {
-      "title": "Protests across France spiral into riots and looting",
-      "link": "https://www.ft.com/content/bcb6c27a-f082-4867-ade4-ae6eb757b780?syn-25a6b1a6=1",
-      "published": "Sat, 17 Oct 2026 22:49:57 GMT",
-      "description": "Violence erupts in several cities after mass demonstrations over high living costs and dissatisfaction with the education system",
+      "title": "France reels after ‘unprecedented’ violent riots",
+      "link": "https://www.ft.com/content/369eba8b-246d-405f-b0d8-6c676b0b6dab?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 14:15:40 GMT",
+      "description": "Government under pressure after struggle to contain attacks on stores and official buildings",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1687,10 +1738,10 @@
       "source_weight": 3
     },
     {
-      "title": "White House chaos overshadows Trump’s midterms push",
-      "link": "https://www.ft.com/content/5712154e-13a1-4adc-8ff8-be744a9ffc1c?syn-25a6b1a6=1",
-      "published": "Sat, 17 Oct 2026 19:50:24 GMT",
-      "description": "Sacking of Katie Zacharia is latest in a week of embarrassing administration mis-steps",
+      "title": "Treasury introduces new security measures in bid to stop UK Budget leaks",
+      "link": "https://www.ft.com/content/6748e45a-0b1a-43be-b65f-645849af4a57?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 13:48:46 GMT",
+      "description": "Chancellor John Healey deploys ‘military-style’ security protocols to restrict flow of sensitive information",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1699,10 +1750,10 @@
       "source_weight": 3
     },
     {
-      "title": "Israeli settlers attack European diplomats in the West Bank",
-      "link": "https://www.ft.com/content/35a08f82-6830-41fa-83ae-d3765f3970e0",
-      "published": "Sat, 17 Oct 2026 17:58:01 GMT",
-      "description": "Belgian foreign minister says his government will ‘press for EU sanctions against those responsible for this violence’",
+      "title": "Egypt’s Sisi sets out plan for military to train his successors",
+      "link": "https://www.ft.com/content/f591211b-497f-4b20-a0ab-7c37d5422761?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 12:52:16 GMT",
+      "description": "President says he will step down in 2030 but floats new process that would consolidate role of army in state",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1711,10 +1762,10 @@
       "source_weight": 3
     },
     {
-      "title": "Lula turns to selfie videos in election fightback",
-      "link": "https://www.ft.com/content/425cc873-23d8-4028-9ad0-13276bdbccf7?syn-25a6b1a6=1",
-      "published": "Sat, 17 Oct 2026 11:00:02 GMT",
-      "description": "Leftwing leader was beaten by hard-right Flávio Bolsonaro in first round of voting",
+      "title": "Several dead and injured in fire at Alberta military base",
+      "link": "https://www.ft.com/content/7e2836c7-9802-4f9f-864c-12bbfba25210?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 12:28:46 GMT",
+      "description": "Authorities respond to ‘tragic incident’ at Canadian Forces Base Wainwright, the country’s defence minister says",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1723,10 +1774,10 @@
       "source_weight": 3
     },
     {
-      "title": "Europe Express Weekend: Where are Zelenskyy’s friends (when he needs them)?",
-      "link": "https://www.ft.com/content/3d964bed-ed6e-4b15-ade0-f190d2723cac?syn-25a6b1a6=1",
-      "published": "Sat, 17 Oct 2026 10:00:02 GMT",
-      "description": "Kyiv’s one-time allies are increasingly reluctant to provide the country with the support it needs",
+      "title": "‘The Switzerland of North America’: Albertans vote on leaving Canada",
+      "link": "https://www.ft.com/content/d48c545b-6b41-41e9-a71c-cb2126c76082?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 12:00:09 GMT",
+      "description": "Monday’s referendum on independence for the western province threatens Mark Carney’s effort to unite the country against a hostile US",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1735,16 +1786,52 @@
       "source_weight": 3
     },
     {
-      "title": "Corporate donations flood US attorneys-general election races",
-      "link": "https://www.ft.com/content/f1ea9968-4f26-4f1c-a3c2-66ec090e3dcd?syn-25a6b1a6=1",
-      "published": "Sat, 17 Oct 2026 10:00:02 GMT",
-      "description": "Officials tasked with enforcing state laws have emerged as a formidable check on the Trump administration’s policies",
+      "title": "Saudi helicopter crash kills two troops near Yemen border",
+      "link": "https://www.ft.com/content/da1dbd0b-4101-4ba8-aa2d-da6fedcb9f23?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 11:38:15 GMT",
+      "description": "First reported military fatalities for the kingdom come as war with Houthi rebels continues to escalate",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
       "source_category": "global_media",
       "source_type": "rss",
       "source_weight": 3
+    },
+    {
+      "title": "3 Charts That Explain the Economy as Voters Head to the Polls",
+      "link": "https://www.nytimes.com/2026/10/18/business/economy/economy-midterm-elections.html",
+      "published": "Sun, 18 Oct 2026 09:00:50 +0000",
+      "description": "Inflation is high, consumer spending is strong and seemingly everything depends on what happens with artificial intelligence.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Oklahoma Families Faced the Hottest Summer Ever and an Electricity Crisis",
+      "link": "https://www.nytimes.com/2026/10/18/us/oklahoma-extreme-heat-electricity-crisis.html",
+      "published": "Sun, 18 Oct 2026 12:20:45 +0000",
+      "description": "Record heat and a rising demand for electricity are closing in on Oklahoma families trying to keep the lights on and the AC running.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "United’s C.E.O. Says It Should Cost More Not to Sit in the Middle Seat",
+      "link": "https://www.nytimes.com/2026/10/18/business/scott-kirby-united-airlines.html",
+      "published": "Sun, 18 Oct 2026 09:00:17 +0000",
+      "description": "Scott Kirby of United Airlines said that “it’s expensive to fly airplanes” and that airfares may have further to rise.",
+      "approx_traffic": "",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
     },
     {
       "title": "Trump Offers Putin Economic Relief in Hopes That Russia Will Return the Favor",
@@ -1799,42 +1886,6 @@
       "link": "https://www.nytimes.com/2026/10/17/dining/breakfast-cereal-healthy.html",
       "published": "Sat, 17 Oct 2026 15:03:41 +0000",
       "description": "As more Americans turn away from the snap, crackle and sugar, the industry is trying to capitalize on our current obsession with wellness.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "It’s Time to Shop Medicare, and This Year, It’s Extra Important",
-      "link": "https://www.nytimes.com/2026/10/17/business/medicare-coverage-retirement.html",
-      "published": "Sat, 17 Oct 2026 09:01:28 +0000",
-      "description": "Be sure to read your mail this fall — big changes to prescription drug plans and Medicare Advantage provider networks are coming, and could cost you more.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Weak Links Start to Show in A.I. Borrowing",
-      "link": "https://www.nytimes.com/2026/10/17/business/ai-debt-coreweave-oracle-softbank.html",
-      "published": "Sat, 17 Oct 2026 18:00:06 +0000",
-      "description": "Debt trouble at CoreWeave, Oracle and SoftBank raises questions about whether there are broader problems with the data center build-out.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "M.L.B. Playoff Ads With Sydney Sweeney and Megan Fox Draw Backlash",
-      "link": "https://www.nytimes.com/2026/10/16/business/media/mlb-playoffs-commercials-sydney-sweeney-novig.html",
-      "published": "Sat, 17 Oct 2026 20:03:39 +0000",
-      "description": "Commercials promoting a gambling platform and endorsing male enhancement have rankled fans, and even athletes. Who is in charge?",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",

@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-18T04:00:54.969181+00:00`
+- 생성 시각: `2026-10-18T15:45:24.934946+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,42 +106,50 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 29, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `bitcoin`: score 40, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `fomc`: score 15, source_count 1, sources Federal Reserve Monetary Policy Press
-- `treasury_yields`: score 11, source_count 4, sources CNBC Top News, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `treasury_yields`: score 8, source_count 3, sources CNBC Top News, Financial Times World, MarketWatch Breaking News
+- `us_big_tech`: score 8, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 7, source_count 2, sources CoinDesk RSS, Financial Times Home
 - `dollar`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 7, source_count 2, sources CNBC Top News, CoinDesk RSS
-- `oil`: score 6, source_count 1, sources Reuters Markets via Google News RSS
-- `us_index_flow`: score 4, source_count 1, sources CoinDesk RSS
-- `crypto_etf`: score 3, source_count 1, sources Investing.com Crypto News
-- `us_big_tech`: score 2, source_count 1, sources MarketWatch Breaking News
+- `cpi`: score 6, source_count 2, sources CoinDesk RSS, NYT Business
+- `oil`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `china`: score 6, source_count 2, sources Financial Times Home, Reuters Markets via Google News RSS
+- `us_index_flow`: score 4, source_count 1, sources MarketWatch Breaking News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 29, headlines 9
-  - ‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery
-  - Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough
-  - Here’s what happened in crypto today
+- `bitcoin`: score 40, headlines 12
+  - Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash
+  - Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook
+  - Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says
 - `fomc`: score 15, headlines 3
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 11, headlines 4
-  - 'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds
-  - Bitcoin ticks up slightly above $82k as U.S. bond rally lifts risk sentiment
-  - CoreWeave bond rout tests market's math on AI buildout - Reuters
+- `treasury_yields`: score 8, headlines 3
+  - Why hedge funds could be making a bond market shock more likely
+  - Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs
+  - Treasury introduces new security measures in bid to stop UK Budget leaks
+- `us_big_tech`: score 8, headlines 3
+  - Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy
+  - Microsoft pulls out of UK data center deal with Nscale, Telegraph reports - Reuters
+  - These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth
 - `ai_semiconductors`: score 7, headlines 2
-  - Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough
-  - Semiconductor market to remain solid ‘at least through next year,’ South Korea finance minister says
+  - Chip-stock bets lost $52 million in 10 minutes with Wall Street shut
+  - Anthropic turns to lawyers to help AI agents strike deals
 - `dollar`: score 7, headlines 2
   - Circle defends USDC economics as stablecoin rivals court its partners with bigger cut
   - COMMENTARY: Strong dollar, weak hand for Trump before midterms - Reuters
+- `china`: score 6, headlines 2
+  - Global economy set for AI-driven surge, FT survey suggests
+  - China proposes export controls on solar-manufacturing technologies - Reuters
+- `cpi`: score 6, headlines 2
+  - Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook
+  - 3 Charts That Explain the Economy as Voters Head to the Polls
 - `oil`: score 6, headlines 2
+  - Top Wall Street analysts are bullish on the growth potential of these 3 stocks
   - Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - Reuters
-  - Wall Street tumbles as worries about AI trade and high oil prices weigh - Reuters
-- `us_index_flow`: score 4, headlines 1
-  - ‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery
-- `crypto_etf`: score 3, headlines 1
-  - Bitcoin price holds above $81,000 as ETF outflows weigh on sentiment
-- `us_big_tech`: score 2, headlines 1
-  - Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.
+- `us_index_flow`: score 4, headlines 2
+  - These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth
+  - There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead
