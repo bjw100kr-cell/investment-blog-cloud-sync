@@ -14,8 +14,8 @@
 - reason: 발행일이 오늘 또는 내일인 메인 글이며, 품질/이미지 준비가 된 글을 위로 올렸습니다.
 - ready_now_count: `2`
 - user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields bitcoin`
-- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / lane_focus_crypto / publish 2026-10-18 / priority 119.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`
-- `treasury_yields` / 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 / main_post / lane_focus_macro / publish 2026-10-17 / priority 123.0 / freshness `unknown` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `treasury_yields` / 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 / main_post / lane_focus_macro / publish 2026-10-18 / priority 116.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / lane_focus_crypto / publish 2026-10-19 / priority 119.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`
 
 ## 미국 빅테크 수익 라인
 
@@ -28,11 +28,11 @@
 - reason: FOMC 메인 글과 후속 설명형 글 묶음입니다.
 - ready_now_count: `1`
 - user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / main_post / support / publish 2026-10-20 / priority 114.0 / freshness `stale` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / main_post / support / publish 2026-10-21 / priority 114.0 / freshness `unknown` / quality `pass` / hero_image_selected `True` / ready_now `True`
 
 ## 코인 해설 라인
 
 - reason: 비트코인 메인 글과 후속 검색형 글 묶음입니다.
 - ready_now_count: `1`
 - user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / lane_focus_crypto / publish 2026-10-18 / priority 119.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `bitcoin` / 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / main_post / lane_focus_crypto / publish 2026-10-19 / priority 119.0 / freshness `fresh` / quality `pass` / hero_image_selected `True` / ready_now `True`

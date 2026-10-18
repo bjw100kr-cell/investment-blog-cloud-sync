@@ -85,7 +85,7 @@
 
 ```json
 {
-  "keyword": "seo_treasury_yields_4",
+  "keyword": "seo_treasury_yields_8",
   "source_keyword": "treasury_yields",
   "recommended_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지",
   "alternate_titles": [
@@ -116,7 +116,6 @@
   "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
   "source_names": [
     "CNBC Top News",
-    "Financial Times Home",
     "Investing.com Crypto News",
     "MarketWatch Breaking News",
     "Reuters Markets via Google News RSS"
@@ -185,8 +184,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 116.5,
-    "search_score": 116.5,
+    "total_score": 109.5,
+    "search_score": 109.5,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,

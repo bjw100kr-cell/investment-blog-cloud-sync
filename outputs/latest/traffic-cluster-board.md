@@ -8,7 +8,7 @@
 
 - source_keyword: `treasury_yields`
 - revenue_priority_rank: `2`
-- cluster_priority_score: `481.5`
+- cluster_priority_score: `453.5`
 - main_title: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유`
 - main_quality_status: `pass`
 - main_ready_to_upload: `True`
@@ -20,9 +20,9 @@
 - route_description: 검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.
 - next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
 - main_html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유.html`
-- followup: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향` / `seo_treasury_yields_1` / priority `122.5` / 검색 유입 누적과 첫 방문 독자 확보
-- followup: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지` / `seo_treasury_yields_2` / priority `119.5` / 재방문과 내부링크 순환 강화
-- followup: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지` / `seo_treasury_yields_4` / priority `116.5` / 광범위한 초보 검색 수요 흡수
+- followup: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향` / `seo_treasury_yields_3` / priority `115.5` / 검색 유입 누적과 첫 방문 독자 확보
+- followup: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지` / `seo_treasury_yields_6` / priority `112.5` / 재방문과 내부링크 순환 강화
+- followup: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지` / `seo_treasury_yields_8` / priority `109.5` / 광범위한 초보 검색 수요 흡수
 
 ## 2. 코인 해설 클러스터
 
@@ -62,7 +62,7 @@
 
 - source_keyword: `ai_semiconductors`
 - revenue_priority_rank: `99`
-- cluster_priority_score: `103.0`
+- cluster_priority_score: `84.0`
 - main_title: `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지`
 - main_quality_status: `pass`
 - main_ready_to_upload: `True`

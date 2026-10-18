@@ -91,7 +91,7 @@
     "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유",
     "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+  "summary_angle": "복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
   "outline": [
     "왜 지금 이 이슈가 중요한가",
     "실제로 발표되거나 벌어진 일",
@@ -109,7 +109,6 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "Financial Times Home",
     "Investing.com Crypto News",
     "MarketWatch Breaking News",
     "Reuters Markets via Google News RSS"
@@ -117,7 +116,6 @@
   "reference_headlines": [
     "'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds",
     "Bitcoin ticks up slightly above $82k as U.S. bond rally lifts risk sentiment",
-    "Anthropic offers Blackstone double-digit yield in latest chip financing",
     "CoreWeave bond rout tests market's math on AI buildout - Reuters",
     "Meet the home buyers totally unfazed by 7% mortgage rates"
   ],
@@ -182,9 +180,9 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 80.0,
-    "search_score": 18,
-    "timeliness_score": 21,
+    "total_score": 73.0,
+    "search_score": 15,
+    "timeliness_score": 17,
     "explanatory_score": 18,
     "monetization_score": 15,
     "risk_score": 8

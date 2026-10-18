@@ -1,7 +1,7 @@
 # Daily Traffic Goal
 
 - 목표: 하루 최소 `200`명 방문
-- 현재 예상 합계: `342`명
+- 현재 예상 합계: `317`명
 - 목표까지 부족분: `0`명
 - 상태: `estimated_on_track_measurement_missing`
 
@@ -11,9 +11,9 @@
    - action: 코인 시장 신호와 ETF/규제 후속 글을 내부링크로 묶어 발행
 2. `fomc` FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 예상 `85`명 / 수요 `2700` / 품질 `pass`
    - action: 금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결
-3. `treasury_yields` 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 / 예상 `84`명 / 수요 `2600` / 품질 `pass`
+3. `treasury_yields` 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 / 예상 `80`명 / 수요 `2300` / 품질 `pass`
    - action: 금리·달러·주식·코인 영향까지 한 번에 설명하는 evergreen 허브로 연결
-4. `ai_semiconductors` AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 예상 `78`명 / 수요 `2200` / 품질 `pass`
+4. `ai_semiconductors` AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 예상 `57`명 / 수요 `0` / 품질 `pass`
    - action: 대표 종목/실적/지수 흐름 후속 글로 페이지뷰 확장
 
 ## 병목
@@ -31,6 +31,6 @@
 
 - `bitcoin` lane `crypto` / 예상 `95`명 / ready `True` / quality `pass`
 - `fomc` lane `macro` / 예상 `85`명 / ready `True` / quality `pass`
-- `treasury_yields` lane `macro` / 예상 `84`명 / ready `True` / quality `pass`
-- `ai_semiconductors` lane `us-stocks` / 예상 `78`명 / ready `True` / quality `pass`
+- `treasury_yields` lane `macro` / 예상 `80`명 / ready `True` / quality `pass`
+- `ai_semiconductors` lane `us-stocks` / 예상 `57`명 / ready `True` / quality `pass`
 - `us_index_flow` lane `us-stocks` / 예상 `0`명 / ready `False` / quality `unknown`

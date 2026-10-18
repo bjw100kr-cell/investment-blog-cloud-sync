@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-17T15:24:47.562527+00:00`
+- 생성 시각: `2026-10-18T04:00:54.969181+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,6 +25,19 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / The reason Nigeria blocks education (Sunday School: Nigeria binge-watching)
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Bg-YbLmC5t0! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / Telecom stocks plummet after Musk spends big
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ZaReXyegYCc! This is most likely caused by:
@@ -49,13 +62,6 @@ YouTube is blocking requests from your IP. This usually is due to one of the fol
 There are two things you can do to work around this:
 1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / The reason Nigeria blocks education (Sunday School: Nigeria binge-watching)
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Bg-YbLmC5t0! This is most likely caused by:
-
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / 2. The Root Cause of France's Collapse (French Student Protests)
@@ -102,13 +108,13 @@ If you are sure that the described cause is not responsible for this error and t
 
 - `bitcoin`: score 29, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `fomc`: score 15, source_count 1, sources Federal Reserve Monetary Policy Press
-- `treasury_yields`: score 14, source_count 5, sources CNBC Top News, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 10, source_count 3, sources CoinDesk RSS, Financial Times Home, Financial Times World
-- `us_index_flow`: score 6, source_count 2, sources CoinDesk RSS, MarketWatch Breaking News
+- `treasury_yields`: score 11, source_count 4, sources CNBC Top News, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `dollar`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 7, source_count 2, sources CNBC Top News, CoinDesk RSS
 - `oil`: score 6, source_count 1, sources Reuters Markets via Google News RSS
-- `us_big_tech`: score 5, source_count 2, sources Financial Times Home, MarketWatch Breaking News
+- `us_index_flow`: score 4, source_count 1, sources CoinDesk RSS
 - `crypto_etf`: score 3, source_count 1, sources Investing.com Crypto News
-- `dollar`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `us_big_tech`: score 2, source_count 1, sources MarketWatch Breaking News
 
 ## 오늘의 글감 후보
 
@@ -120,24 +126,22 @@ If you are sure that the described cause is not responsible for this error and t
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 14, headlines 5
+- `treasury_yields`: score 11, headlines 4
   - 'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds
   - Bitcoin ticks up slightly above $82k as U.S. bond rally lifts risk sentiment
-  - Anthropic offers Blackstone double-digit yield in latest chip financing
-- `ai_semiconductors`: score 10, headlines 3
+  - CoreWeave bond rout tests market's math on AI buildout - Reuters
+- `ai_semiconductors`: score 7, headlines 2
   - Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough
-  - Anthropic offers Blackstone double-digit yield in latest chip financing
-  - Chart of the Week: The chip stock split
+  - Semiconductor market to remain solid ‘at least through next year,’ South Korea finance minister says
+- `dollar`: score 7, headlines 2
+  - Circle defends USDC economics as stablecoin rivals court its partners with bigger cut
+  - COMMENTARY: Strong dollar, weak hand for Trump before midterms - Reuters
 - `oil`: score 6, headlines 2
-  - Wall Street tumbles as worries about AI trade and high oil prices weigh - Reuters
   - Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - Reuters
-- `us_index_flow`: score 6, headlines 2
+  - Wall Street tumbles as worries about AI trade and high oil prices weigh - Reuters
+- `us_index_flow`: score 4, headlines 1
   - ‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery
-  - It was another great week for the average stock as market leadership shifts away from tech
-- `us_big_tech`: score 5, headlines 2
-  - Apple blames ‘extraordinary’ demand as foldable iPhones sell out
-  - Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays
 - `crypto_etf`: score 3, headlines 1
-  - Bitcoin price holds near $81,000 as ETF outflows weigh on sentiment
-- `dollar`: score 3, headlines 1
-  - Stocks slip as dollar heads for weekly loss - Reuters
+  - Bitcoin price holds above $81,000 as ETF outflows weigh on sentiment
+- `us_big_tech`: score 2, headlines 1
+  - Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.

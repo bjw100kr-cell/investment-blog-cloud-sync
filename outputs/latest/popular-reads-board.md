@@ -13,9 +13,9 @@
 - next_action: 메인 글 승인 후 후속 SEO 글 내부링크 흐름 준비
 - pick: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유` / `treasury_yields` / `main_pick` / ready `True` / 지금 이 클러스터를 대표하는 메인 글
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유.html`
-- pick: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향` / `seo_treasury_yields_1` / `followup_pick_1` / ready `True` / 검색형 유입을 받기 좋은 주제
+- pick: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향` / `seo_treasury_yields_3` / `followup_pick_1` / ready `True` / 검색형 유입을 받기 좋은 주제
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유가-주식과-코인에-미치는-영향.html`
-- pick: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지` / `seo_treasury_yields_2` / `followup_pick_2` / ready `True` / 재방문과 내부링크 순환에 유리한 주제
+- pick: `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지` / `seo_treasury_yields_6` / `followup_pick_2` / ready `True` / 재방문과 내부링크 순환에 유리한 주제
   - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유에서-다음으로-봐야-할-체크포인트-5가지.html`
 
 ## 2. 코인 해설 클러스터

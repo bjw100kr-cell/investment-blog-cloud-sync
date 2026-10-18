@@ -62,7 +62,7 @@
 - current_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - recommended_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - recommended_angle: `stock-market`
-- demand_signal_score: `2200`
+- demand_signal_score: `0`
 - public_url: `missing`
 
 ### Variants
@@ -84,7 +84,7 @@
 - current_title: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 - recommended_title: 미국채 금리 상승이 나스닥과 코인에 부담이 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `2600`
+- demand_signal_score: `2300`
 - public_url: `missing`
 
 ### Variants

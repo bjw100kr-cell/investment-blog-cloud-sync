@@ -3,7 +3,7 @@
 업로드 전에 운영자와 사용자가 함께 확인할 글 검토 패킷입니다.
 
 - 사용자 최종 확인 파일: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/review-approvals.json`
-- 사용자 확인 헬퍼: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin` 또는 `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --all`
+- 사용자 확인 헬퍼: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields bitcoin` 또는 `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --all`
 - 총 검토 대상: `7`
 - 바로 최종 확인 가능: `7`
 - 주의 검토: `0`
@@ -13,11 +13,13 @@
 
 - keyword: `treasury_yields`
 - type: `main_post` / role `lane_focus_macro`
-- publish date: `2026-10-17`
-- priority: `123.0`
+- publish date: `2026-10-18`
+- priority: `116.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `환율·금리·미국증시 evergreen 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
 - draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-treasury-yields.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유.html`
 - image review required: `True`
@@ -33,7 +35,7 @@
 
 - keyword: `bitcoin`
 - type: `main_post` / role `lane_focus_crypto`
-- publish date: `2026-10-18`
+- publish date: `2026-10-19`
 - priority: `119.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
@@ -55,7 +57,7 @@
 
 - keyword: `fomc`
 - type: `main_post` / role `support`
-- publish date: `2026-10-20`
+- publish date: `2026-10-21`
 - priority: `114.0`
 - internal review: `approve` / score `100`
 - intent: FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
@@ -77,8 +79,8 @@
 
 - keyword: `ai_semiconductors`
 - type: `main_post` / role `lane_focus_us-stocks`
-- publish date: `2026-10-19`
-- priority: `103.0`
+- publish date: `2026-10-20`
+- priority: `84.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
@@ -97,60 +99,66 @@
 
 ## 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향
 
-- keyword: `seo_treasury_yields_1`
+- keyword: `seo_treasury_yields_3`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-10-17`
-- priority: `122.5`
+- publish date: `2026-10-18`
+- priority: `115.5`
 - internal review: `approve` / score `100`
 - intent: 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자
 - CTA focus: 거시 허브와 당일 해설 글로 연결
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/01-seo-treasury-yields-1.md`
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `환율·금리·미국증시 evergreen 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/01-seo-treasury-yields-3.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유가-주식과-코인에-미치는-영향.html`
 - image review required: `True`
 - image 대표 이미지: Unsplash / query `central bank finance city skyline market data` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_1 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_3 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - image 본문 보조 이미지: Pexels / query `interest rate macro economy data screen` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_1 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_3 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - preview:
   한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
 
 ## 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지
 
-- keyword: `seo_treasury_yields_2`
+- keyword: `seo_treasury_yields_6`
 - type: `seo_followup` / role `follow_up`
-- publish date: `2026-10-17`
-- priority: `119.5`
+- publish date: `2026-10-18`
+- priority: `112.5`
 - internal review: `approve` / score `100`
 - intent: 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자
 - CTA focus: 다음 이벤트 캘린더와 관련 거시 글로 연결
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/02-seo-treasury-yields-2.md`
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `환율·금리·미국증시 evergreen 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/02-seo-treasury-yields-6.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/02-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유에서-다음으로-봐야-할-체크포인트-5가지.html`
 - image review required: `True`
 - image 대표 이미지: Unsplash / query `central bank finance city skyline market data` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_2 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_6 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - image 본문 보조 이미지: Pexels / query `interest rate macro economy data screen` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_2 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_6 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - preview:
   한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
 
 ## 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지
 
-- keyword: `seo_treasury_yields_4`
+- keyword: `seo_treasury_yields_8`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-10-17`
-- priority: `116.5`
+- publish date: `2026-10-18`
+- priority: `109.5`
 - internal review: `approve` / score `100`
 - intent: 기초 개념을 처음부터 이해하고 싶은 초보 독자
 - CTA focus: About, 허브 글, 후속 해설 글로 연결
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/03-seo-treasury-yields-4.md`
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `환율·금리·미국증시 evergreen 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/03-seo-treasury-yields-8.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/03-미국채-금리-상승이-나스닥과-코인에-부담이-되는-이유-초보자-가이드-용어부터-시장-반응까지.html`
 - image review required: `True`
 - image 대표 이미지: Unsplash / query `central bank finance city skyline market data` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_4 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_8 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - image 본문 보조 이미지: Pexels / query `interest rate macro economy data screen` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_4 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_treasury_yields_8 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - preview:
   한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다. - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다. - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.

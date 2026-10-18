@@ -67,7 +67,7 @@
 ## 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향
 
 - source_group: `seo`
-- keyword: `seo_treasury_yields_1`
+- keyword: `seo_treasury_yields_3`
 - category: `macro`
 - 대표 이미지: Unsplash / query `central bank finance city skyline market data` / search https://unsplash.com/s/photos/central+bank+finance+city+skyline+market+data
 - license: Unsplash License / https://unsplash.com/license
@@ -81,7 +81,7 @@
 ## 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지
 
 - source_group: `seo`
-- keyword: `seo_treasury_yields_2`
+- keyword: `seo_treasury_yields_6`
 - category: `macro`
 - 대표 이미지: Unsplash / query `central bank finance city skyline market data` / search https://unsplash.com/s/photos/central+bank+finance+city+skyline+market+data
 - license: Unsplash License / https://unsplash.com/license
@@ -95,7 +95,7 @@
 ## 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지
 
 - source_group: `seo`
-- keyword: `seo_treasury_yields_4`
+- keyword: `seo_treasury_yields_8`
 - category: `macro`
 - 대표 이미지: Unsplash / query `central bank finance city skyline market data` / search https://unsplash.com/s/photos/central+bank+finance+city+skyline+market+data
 - license: Unsplash License / https://unsplash.com/license

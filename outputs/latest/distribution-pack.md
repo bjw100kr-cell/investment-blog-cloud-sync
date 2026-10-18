@@ -6,7 +6,7 @@
 
 - inventory_type: `main_post`
 - publish_bucket: `today_or_overdue`
-- priority_score: `123.0`
+- priority_score: `116.0`
 - hook_line: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -108,7 +108,7 @@ FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 
 
 - inventory_type: `main_post`
 - publish_bucket: `this_week`
-- priority_score: `103.0`
+- priority_score: `84.0`
 - hook_line: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 | 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 
 ### X / Threads
@@ -142,7 +142,7 @@ AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `122.5`
+- priority_score: `115.5`
 - hook_line: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유가 주식과 코인에 미치는 영향 | 뉴스를 봤지만 내 투자에 어떻게 연결되는지 쉽게 이해하고 싶은 독자
 
 ### X / Threads
@@ -176,7 +176,7 @@ AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `119.5`
+- priority_score: `112.5`
 - hook_line: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유에서 다음으로 봐야 할 체크포인트 5가지 | 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자
 
 ### X / Threads
@@ -210,7 +210,7 @@ AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - inventory_type: `seo_followup`
 - publish_bucket: `seo_backlog`
-- priority_score: `116.5`
+- priority_score: `109.5`
 - hook_line: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유 초보자 가이드: 용어부터 시장 반응까지 | 기초 개념을 처음부터 이해하고 싶은 초보 독자
 
 ### X / Threads

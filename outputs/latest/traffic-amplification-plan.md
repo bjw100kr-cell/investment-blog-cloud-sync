@@ -1,11 +1,11 @@
 # Traffic Amplification Plan
 
 - 목표 방문자: `200`
-- 기본 예상 방문자: `342`
+- 기본 예상 방문자: `317`
 - 실행 전 배포 추가 예상 방문자: `0`
 - 수동 실행 시 추가 잠재 방문자: `1200`
-- 실행 전 배포 포함 예상 방문자: `342`
-- 수동 실행 시 잠재 방문자: `1542`
+- 실행 전 배포 포함 예상 방문자: `317`
+- 수동 실행 시 잠재 방문자: `1517`
 - 남은 부족분: `0`
 - 상태: `amplification_plan_ready_manual_execution_required`
 
@@ -372,7 +372,7 @@ fomc 후속 글 후보: fomc 후속 글 1개를 먼저 생성하거나, 관련 �
 
 - keyword: `treasury_yields`
 - public_url: `missing`
-- base_search_estimate: `84`
+- base_search_estimate: `80`
 - amplification_expected_before_execution: `0`
 - amplification_potential_if_executed: `0`
 - manual_execution_required: `True`
@@ -546,7 +546,7 @@ treasury_yields 후속 글 후보: 미국채 금리 상승이 나스닥과 코�
 
 - keyword: `ai_semiconductors`
 - public_url: `missing`
-- base_search_estimate: `78`
+- base_search_estimate: `57`
 - amplification_expected_before_execution: `0`
 - amplification_potential_if_executed: `0`
 - manual_execution_required: `True`

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-17T15:24:47.562527+00:00",
+  "generated_at": "2026-10-18T04:00:54.969181+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 3,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 4
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
     {
@@ -59,15 +59,14 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2600,
+      "demand_signal_score": 2300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
-      "source_count": 5,
+      "source_snapshot_score": 11,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
         "Investing.com Crypto News",
         "MarketWatch Breaking News",
         "Reuters Markets via Google News RSS"
@@ -75,31 +74,7 @@
       "sample_titles": [
         "'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds",
         "Bitcoin ticks up slightly above $82k as U.S. bond rally lifts risk sentiment",
-        "Anthropic offers Blackstone double-digit yield in latest chip financing"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2200,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 10,
-      "source_count": 3,
-      "source_names": [
-        "CoinDesk RSS",
-        "Financial Times Home",
-        "Financial Times World"
-      ],
-      "sample_titles": [
-        "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
-        "Anthropic offers Blackstone double-digit yield in latest chip financing",
-        "Chart of the Week: The chip stock split"
+        "CoreWeave bond rout tests market's math on AI buildout - Reuters"
       ]
     }
   ],

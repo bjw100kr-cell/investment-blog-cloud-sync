@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-10-17T15:24:47.562527+00:00`
+- 생성 시각: `2026-10-18T04:00:54.969181+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -56,10 +56,10 @@
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `68.0`
-- 점수 구성: 검색성 15 / 시의성 15 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CoinDesk RSS, Financial Times Home, Financial Times World
+- 총점: `57.0`
+- 점수 구성: 검색성 9 / 시의성 10 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, CoinDesk RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -72,17 +72,16 @@
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
   - Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough
-  - Anthropic offers Blackstone double-digit yield in latest chip financing
-  - Chart of the Week: The chip stock split
+  - Semiconductor market to remain solid ‘at least through next year,’ South Korea finance minister says
 
 ## 4. treasury_yields
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `80.0`
-- 점수 구성: 검색성 18 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, Financial Times Home, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `73.0`
+- 점수 구성: 검색성 15 / 시의성 17 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
@@ -96,7 +95,6 @@
 - 참고 헤드라인:
   - 'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds
   - Bitcoin ticks up slightly above $82k as U.S. bond rally lifts risk sentiment
-  - Anthropic offers Blackstone double-digit yield in latest chip financing
   - CoreWeave bond rout tests market's math on AI buildout - Reuters
   - Meet the home buyers totally unfazed by 7% mortgage rates
 
@@ -104,10 +102,10 @@
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `58.0`
-- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: CoinDesk RSS, MarketWatch Breaking News
+- 총점: `48.0`
+- 점수 구성: 검색성 5 / 시의성 5 / 설명가치 18 / 수익성 14 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: CoinDesk RSS
 - 제목 후보:
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -120,4 +118,3 @@
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
   - ‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery
-  - It was another great week for the average stock as market leadership shifts away from tech
