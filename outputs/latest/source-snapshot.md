@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-18T15:45:24.934946+00:00`
+- 생성 시각: `2026-10-19T04:10:22.068029+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,50 +106,53 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 40, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `bitcoin`: score 58, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `china`: score 18, source_count 4, sources CNBC Top News, CoinDesk RSS, NYT Business, Reuters Markets via Google News RSS
 - `fomc`: score 15, source_count 1, sources Federal Reserve Monetary Policy Press
-- `treasury_yields`: score 8, source_count 3, sources CNBC Top News, Financial Times World, MarketWatch Breaking News
+- `oil`: score 13, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
+- `us_index_flow`: score 12, source_count 2, sources CoinDesk RSS, MarketWatch Breaking News
+- `treasury_yields`: score 11, source_count 4, sources CNBC Top News, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `cpi`: score 8, source_count 3, sources CoinDesk RSS, MarketWatch Breaking News, NYT Business
 - `us_big_tech`: score 8, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 7, source_count 2, sources CoinDesk RSS, Financial Times Home
-- `dollar`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
-- `cpi`: score 6, source_count 2, sources CoinDesk RSS, NYT Business
-- `oil`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
-- `china`: score 6, source_count 2, sources Financial Times Home, Reuters Markets via Google News RSS
-- `us_index_flow`: score 4, source_count 1, sources MarketWatch Breaking News
+- `ai_semiconductors`: score 6, source_count 2, sources Financial Times Home, Reuters Markets via Google News RSS
+- `crypto_etf`: score 3, source_count 1, sources Investing.com Crypto News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 40, headlines 12
-  - Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash
-  - Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook
-  - Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says
+- `bitcoin`: score 58, headlines 17
+  - Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates
+  - Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears
+  - The White House's crypto chief departs: State of Crypto
+- `china`: score 18, headlines 6
+  - Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates
+  - China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates
+  - China's CXMT sees shares drop over 6% as investors look past chipmaker's profit turnaround
 - `fomc`: score 15, headlines 3
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 8, headlines 3
-  - Why hedge funds could be making a bond market shock more likely
+- `oil`: score 13, headlines 4
+  - Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates
+  - Asian stocks slip, Wall St and bonds benefit from oil skid - Reuters
+  - Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies - Reuters
+- `us_index_flow`: score 12, headlines 4
+  - Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates
+  - SEC tokenized stock framework faces issuer pushback as Broadcom, Verizon object to OKX-ICE listing
+  - These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth
+- `treasury_yields`: score 11, headlines 4
+  - U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says
+  - UK housing market showing signs of mortgage rates impact, Rightmove says - Reuters
   - Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs
-  - Treasury introduces new security measures in bid to stop UK Budget leaks
+- `cpi`: score 8, headlines 3
+  - Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook
+  - My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?
+  - 3 Charts That Explain the Economy as Voters Head to the Polls
 - `us_big_tech`: score 8, headlines 3
   - Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy
   - Microsoft pulls out of UK data center deal with Nscale, Telegraph reports - Reuters
   - These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth
-- `ai_semiconductors`: score 7, headlines 2
-  - Chip-stock bets lost $52 million in 10 minutes with Wall Street shut
-  - Anthropic turns to lawyers to help AI agents strike deals
-- `dollar`: score 7, headlines 2
-  - Circle defends USDC economics as stablecoin rivals court its partners with bigger cut
-  - COMMENTARY: Strong dollar, weak hand for Trump before midterms - Reuters
-- `china`: score 6, headlines 2
-  - Global economy set for AI-driven surge, FT survey suggests
-  - China proposes export controls on solar-manufacturing technologies - Reuters
-- `cpi`: score 6, headlines 2
-  - Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook
-  - 3 Charts That Explain the Economy as Voters Head to the Polls
-- `oil`: score 6, headlines 2
-  - Top Wall Street analysts are bullish on the growth potential of these 3 stocks
-  - Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears - Reuters
-- `us_index_flow`: score 4, headlines 2
-  - These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth
-  - There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead
+- `ai_semiconductors`: score 6, headlines 2
+  - Anthropic commits 5% of shares to ‘public benefit’ fund
+  - Anthropic to commit 5% stake to new 'public benefit fund' - Reuters
+- `crypto_etf`: score 3, headlines 1
+  - Bitcoin price holds above $81,000 as ETF outflows weigh on sentiment

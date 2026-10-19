@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
-    "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook",
-    "Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says",
-    "Crypto exchanges Binance, Coinbase join West Africa scam sweep that flagged $11 million",
-    "Here’s what happened in crypto today"
+    "Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates",
+    "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
+    "The White House's crypto chief departs: State of Crypto",
+    "Wall Street freaked out Friday, but VIX and bitcoin trades say the fear may fade Monday.",
+    "Latvia eyes crypto tax payments in 2027 as parliament overhauls crypto taxation"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 82.0,
-    "search_score": 28,
+    "total_score": 83.0,
+    "search_score": 29,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,
