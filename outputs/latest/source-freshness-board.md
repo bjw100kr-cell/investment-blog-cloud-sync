@@ -1,39 +1,37 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-10-20T04:22:20.772047+00:00`
-- snapshot_generated_at: `2026-10-20T04:22:15.685173+00:00`
+- generated_at: `2026-10-20T16:46:38.566548+00:00`
+- snapshot_generated_at: `2026-10-20T16:46:34.307426+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
-- counts: fresh `1` / aging `0` / stale `1` / unknown `0`
+- counts: fresh `2` / aging `0` / stale `0` / unknown `0`
 
-## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-
-- keyword: `fomc`
-- freshness_status: `stale`
-- newest_evidence_age_days: `12.4`
-- newest_evidence_iso: `2026-10-07T18:00:00+00:00`
-- quality_status: `pass` / ready_now `True`
-- summary: 핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement
-- recommendation: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
-- recovery_mode: `full_refresh_needed`
-- recovery_summary: 현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.
-- recovery_command: `bash scripts/run_pipeline.sh`
-- evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve issues FOMC statement
-- evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-- evidence: Federal Reserve Monetary Policy Press / 2026-07-29T18:00:00+00:00 / Federal Reserve issues FOMC statement
-
-## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.1`
-- newest_evidence_iso: `2026-10-20T01:35:00+00:00`
+- newest_evidence_age_days: `0.0`
+- newest_evidence_iso: `2026-10-20T16:14:09+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin rally could revive treasury buying, but easy-money days over
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Cointelegraph / 2026-10-20T01:35:00+00:00 / Bitcoin rally could revive treasury buying, but easy-money days over
-- evidence: CoinDesk RSS / 2026-10-19T11:15:00+00:00 / Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did
-- evidence: CoinDesk RSS / 2026-10-19T11:05:54+00:00 / Live updates: Bitcoin holds near $82,000 as Nasdaq rebounds more than 1%
+- evidence: Cointelegraph / 2026-10-20T16:14:09+00:00 / Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls
+- evidence: CoinDesk RSS / 2026-10-20T14:28:39+00:00 / BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash
+- evidence: Cointelegraph / 2026-10-20T13:04:28+00:00 / FINMA approves Switzerland’s first Bitcoin ETF for retail investors
+
+## 2. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+
+- keyword: `us_big_tech`
+- freshness_status: `fresh`
+- newest_evidence_age_days: `0.0`
+- newest_evidence_iso: `2026-10-20T16:23:17+00:00`
+- quality_status: `review_before_publish` / ready_now `False`
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Alphabet, Microsoft add objections to OKX-ICE proposed tokenized stock platform
+- recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
+- recovery_mode: `publish_direct`
+- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
+- evidence: Cointelegraph / 2026-10-20T16:23:17+00:00 / Alphabet, Microsoft add objections to OKX-ICE proposed tokenized stock platform
+- evidence: CoinDesk RSS / 2026-10-20T12:40:17+00:00 / Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading

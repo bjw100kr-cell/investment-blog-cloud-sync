@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "U.S. CFTC rebuffs CME legal stance in consequential fight over perpetual futures",
-    "Zerohash rolls out a new tool to move crypto without copying wallet addresses",
-    "Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did",
-    "Live updates: Bitcoin holds near $82,000 as Nasdaq rebounds more than 1%",
-    "Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains"
+    "BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash",
+    "Kazakhstan court bars Coinbase, five others from unlicensed crypto services in Astana International Financial Centre",
+    "Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month",
+    "JPMorgan sees 10% annual bitcoin returns, topping stocks, bonds and gold over next decade",
+    "Bitcoin drops to $81,400 as Asian chip stocks tumble, options traders seek downside protection"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

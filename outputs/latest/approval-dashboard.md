@@ -5,8 +5,8 @@
 - 전체 검토 대상: `8`
 - 메인 글 수: `4`
 - 곧 발행할 메인 글 수: `1`
-- 미국 빅테크 라인 글 수: `0`
-- 지금 바로 발행 가까운 글 수: `7`
+- 미국 빅테크 라인 글 수: `1`
+- 지금 바로 발행 가까운 글 수: `6`
 - 원칙: 사용자 최종 확인 전에는 실제 업로드를 실행하지 않습니다.
 
 ## 가장 먼저 볼 메인 글
@@ -20,14 +20,15 @@
 
 - reason: 메인 글 1개와 후속 SEO 글 3개를 묶어 미국 주식 검색 유입을 노립니다.
 - ready_now_count: `0`
-- user confirmation command: ``
+- user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
+- `us_big_tech` / 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 / main_post / lane_focus_us-stocks / publish 2026-10-22 / priority 92.0 / freshness `unknown` / quality `review_before_publish` / hero_image_selected `True` / ready_now `False`
 
 ## 거시 해설 라인
 
 - reason: FOMC 메인 글과 후속 설명형 글 묶음입니다.
 - ready_now_count: `1`
 - user confirmation command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / main_post / evergreen_support / publish 2026-10-24 / priority 119.0 / freshness `unknown` / quality `pass` / hero_image_selected `True` / ready_now `True`
+- `fomc` / FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / main_post / evergreen_support / publish 2026-10-24 / priority 123.0 / freshness `stale` / quality `pass` / hero_image_selected `True` / ready_now `True`
 
 ## 코인 해설 라인
 

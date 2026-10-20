@@ -11,33 +11,32 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - sample_headlines:
-  - U.S. CFTC rebuffs CME legal stance in consequential fight over perpetual futures
-  - Zerohash rolls out a new tool to move crypto without copying wallet addresses
-  - Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did
+  - BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash
+  - Kazakhstan court bars Coinbase, five others from unlicensed crypto services in Astana International Financial Centre
+  - Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month
 - recent_evidence:
-  - Cointelegraph | 2026-10-20T01:35:00+00:00 | Bitcoin rally could revive treasury buying, but easy-money days over
-  - CoinDesk RSS | 2026-10-19T11:15:00+00:00 | Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did
-  - CoinDesk RSS | 2026-10-19T11:05:54+00:00 | Live updates: Bitcoin holds near $82,000 as Nasdaq rebounds more than 1%
+  - Cointelegraph | 2026-10-20T16:14:09+00:00 | Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls
+  - CoinDesk RSS | 2026-10-20T14:28:39+00:00 | BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash
+  - Cointelegraph | 2026-10-20T13:04:28+00:00 | FINMA approves Switzerland’s first Bitcoin ETF for retail investors
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 2. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+## 2. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
-- keyword `fomc` / publish `2026-10-24` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
-- intent: FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
-- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- keyword `us_big_tech` / publish `2026-10-22` / verdict `approve` / quality `review_before_publish`
+- ready_now: `False` / hero_image_selected: `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- why_now: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - sample_headlines:
-  - Federal Reserve issues FOMC statement
-  - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Gold slips as investors weigh Fed rate outlook - Reuters
+  - Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading
+  - Alphabet, Microsoft add objections to OKX-ICE proposed tokenized stock platform
+  - Investors in Anticipation Over Musk’s Next Big SpaceX Deal
 - recent_evidence:
-  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve issues FOMC statement
-  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Federal Reserve Monetary Policy Press | 2026-07-29T18:00:00+00:00 | Federal Reserve issues FOMC statement
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
+  - Cointelegraph | 2026-10-20T16:23:17+00:00 | Alphabet, Microsoft add objections to OKX-ICE proposed tokenized stock platform
+  - CoinDesk RSS | 2026-10-20T12:40:17+00:00 | Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply`

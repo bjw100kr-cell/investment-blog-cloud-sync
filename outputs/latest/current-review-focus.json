@@ -45,32 +45,32 @@
         "blockers": []
       },
       "freshness_status": "fresh",
-      "newest_evidence_age_days": 0.1,
-      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin rally could revive treasury buying, but easy-money days over",
+      "newest_evidence_age_days": 0.0,
+      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls",
       "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin rally could revive treasury buying, but easy-money days over",
+          "title": "Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls",
           "source_name": "Cointelegraph",
-          "published": "Tue, 20 Oct 2026 01:35:00 +0000",
-          "published_iso": "2026-10-20T01:35:00+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-rally-could-revive-treasury-buying-but-easy-money-days-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Tue, 20 Oct 2026 16:14:09 +0000",
+          "published_iso": "2026-10-20T16:14:09+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-spikes-to-833k-as-us-stocks-rise-on-q3-earnings-oil-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did",
+          "title": "BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash",
           "source_name": "CoinDesk RSS",
-          "published": "Mon, 19 Oct 2026 11:15:00 +0000",
-          "published_iso": "2026-10-19T11:15:00+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/10/19/strategy-on-verge-of-golden-cross-just-weeks-after-bitcoin-flashed-same-bullish-signal",
+          "published": "Tue, 20 Oct 2026 14:28:39 +0000",
+          "published_iso": "2026-10-20T14:28:39+00:00",
+          "link": "https://www.coindesk.com/markets/2026/10/20/blackrock-seeks-to-shield-bitcoin-investors-from-losses-after-rival-fund-weathers-50-crash",
           "source_type": "rss"
         },
         {
-          "title": "Live updates: Bitcoin holds near $82,000 as Nasdaq rebounds more than 1%",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 19 Oct 2026 11:05:54 +0000",
-          "published_iso": "2026-10-19T11:05:54+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/19/live-updates-bitcoin-tags-usd83-000-and-slips-back-as-chip-stocks-lead-a-rebound",
+          "title": "FINMA approves Switzerland’s first Bitcoin ETF for retail investors",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 20 Oct 2026 13:04:28 +0000",
+          "published_iso": "2026-10-20T13:04:28+00:00",
+          "link": "https://cointelegraph.com/news/finma-approves-switzerlands-first-bitcoin-etf-retail?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ],
@@ -79,7 +79,7 @@
         "Cointelegraph",
         "Investing.com Crypto News"
       ],
-      "demand_signal_score": 5900,
+      "demand_signal_score": 6300,
       "fallback_source": "source_snapshot_rank",
       "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
@@ -104,71 +104,64 @@
     },
     {
       "display_order": 2,
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-10-24",
-      "priority_score": 119.0,
+      "keyword": "us_big_tech",
+      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "publish_date": "2026-10-22",
+      "priority_score": 92.0,
       "review_verdict": "approve",
-      "quality_status": "pass",
+      "quality_status": "review_before_publish",
       "hero_image_selected": true,
-      "ready_now": true,
-      "cta_focus": "환율·금리·미국증시 evergreen 글로 연결",
-      "intent": "FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자",
+      "ready_now": false,
+      "cta_focus": "실적·공급망·대표 종목 글로 연결",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "preview": [
-        "한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다. - 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다. - 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다."
+        "한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다."
       ],
-      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
-      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
+      "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-big-tech.md",
+      "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html",
       "excerpt": [
-        "한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
-        "- FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다.",
-        "- 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다.",
-        "- 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다."
+        "한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.",
+        "- 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다.",
+        "- 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다.",
+        "- 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다."
       ],
       "retention_cta_enabled": false,
       "retention_cta": {},
-      "freshness_status": "stale",
-      "newest_evidence_age_days": 12.4,
-      "freshness_summary": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "freshness_recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "freshness_status": "fresh",
+      "newest_evidence_age_days": 0.0,
+      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Alphabet, Microsoft add objections to OKX-ICE proposed tokenized stock platform",
+      "freshness_recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
       "recent_evidence": [
         {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "title": "Alphabet, Microsoft add objections to OKX-ICE proposed tokenized stock platform",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 20 Oct 2026 16:23:17 +0000",
+          "published_iso": "2026-10-20T16:23:17+00:00",
+          "link": "https://cointelegraph.com/news/alphabet-microsoft-goldman-object-okx-ice-tokenized-stock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "title": "Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading",
+          "source_name": "CoinDesk RSS",
+          "published": "Tue, 20 Oct 2026 12:40:17 +0000",
+          "published_iso": "2026-10-20T12:40:17+00:00",
+          "link": "https://www.coindesk.com/business/2026/10/19/microsoft-alphabet-and-goldman-sachs-join-objections-to-okx-ice-tokenized-stock-trading",
           "source_type": "rss"
         }
       ],
       "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "NYT Business"
       ],
-      "demand_signal_score": 3000,
-      "fallback_source": "source_snapshot_rank",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
+      "demand_signal_score": 0,
+      "fallback_source": "mapped_candidate",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
+      "next_action": "사용자 최종 확인 후 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply",
       "recovery_mode": "",
       "recovery_title": "",
       "recovery_confirm_command": "",
@@ -177,13 +170,14 @@
       "recovery_image_apply_helper": "",
       "hard_blocking_checks": [],
       "advisory_checks": [
+        "follow_up_posts_present",
         "canonical_url_present",
         "newsletter_ready",
         "ga4_ready"
       ],
-      "hero_image_search_url": "https://unsplash.com/s/photos/central+bank+meeting+finance+city+skyline",
-      "hero_image_search_query": "central bank meeting finance city skyline",
-      "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword fomc --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve"
+      "hero_image_search_url": "https://unsplash.com/s/photos/technology+stocks+office+city+abstract",
+      "hero_image_search_query": "technology stocks office city abstract",
+      "hero_image_apply_helper": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_big_tech --slot hero --selected-url <IMAGE_URL> --selected-credit \"Photo by ...\" --approve"
     }
   ],
   "related_paths": {
