@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-19T18:39:28.520003+00:00`
+- 생성 시각: `2026-10-20T04:22:15.685173+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,48 +106,53 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 60, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `treasury_yields`: score 19, source_count 5, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World
-- `fomc`: score 15, source_count 1, sources Federal Reserve Monetary Policy Press
-- `us_index_flow`: score 14, source_count 3, sources CoinDesk RSS, Financial Times World, Reuters Markets via Google News RSS
+- `bitcoin`: score 47, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `china`: score 19, source_count 5, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World
+- `fomc`: score 18, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `treasury_yields`: score 13, source_count 3, sources CoinDesk RSS, Cointelegraph, Financial Times Home
 - `ai_semiconductors`: score 11, source_count 3, sources CNBC Top News, MarketWatch Breaking News, NYT Business
-- `china`: score 7, source_count 2, sources CoinDesk RSS, Financial Times Home
-- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
-- `dollar`: score 4, source_count 1, sources CoinDesk RSS
+- `dollar`: score 10, source_count 3, sources CNBC Top News, CoinDesk RSS, Reuters Markets via Google News RSS
+- `oil`: score 9, source_count 2, sources Investing.com Crypto News, Reuters Markets via Google News RSS
+- `us_index_flow`: score 8, source_count 1, sources CoinDesk RSS
+- `us_big_tech`: score 8, source_count 2, sources Financial Times World, MarketWatch Breaking News
 - `ethereum`: score 4, source_count 1, sources CoinDesk RSS
-- `oil`: score 3, source_count 1, sources Investing.com Crypto News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 60, headlines 18
+- `bitcoin`: score 47, headlines 14
   - U.S. CFTC rebuffs CME legal stance in consequential fight over perpetual futures
   - Zerohash rolls out a new tool to move crypto without copying wallet addresses
   - Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did
-- `treasury_yields`: score 19, headlines 6
-  - Live updates: Bitcoin holds near $82,000 as Nasdaq rebounds more than 1%
-  - Strive buys $335M in Bitcoin, boosting holdings to 36,818 BTC
-  - Bitcoin is rejected at $83K as US bond yields reverse higher with equities
-- `fomc`: score 15, headlines 3
+- `china`: score 19, headlines 6
+  - Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains
+  - US bans DeepSeek from civilian agency IT systems
+  - Three big takeaways from the IMF-World Bank meetings
+- `fomc`: score 18, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `us_index_flow`: score 14, headlines 4
+- `treasury_yields`: score 13, headlines 4
   - Live updates: Bitcoin holds near $82,000 as Nasdaq rebounds more than 1%
-  - Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains
-  - Nasdaq climbs over 1% as AI-linked stocks recover ahead of key earnings - Reuters
+  - Bitcoin rally could revive treasury buying, but easy-money days over
+  - Solana treasury firm SkyAI sells all SOL holdings, launches $201M buyback
 - `ai_semiconductors`: score 11, headlines 5
-  - Anthropic is AI trade's last big hope for a major IPO this year
+  - ‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments
   - Micron and other chip stocks spring back to life after bruising selloff
   - Why a former Intel skeptic is giving up his negative call on the stock after four years
-- `china`: score 7, headlines 2
-  - Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains
-  - CME plans tungsten futures as demand for weapons rises
-- `us_big_tech`: score 5, headlines 2
-  - Apple announces product launch event for Oct. 28. Analysts expect touchscreen laptop
-  - Micron and other chip stocks spring back to life after bruising selloff
-- `dollar`: score 4, headlines 1
+- `dollar`: score 10, headlines 3
   - JPMorgan brings JPM Coin, representing dollar deposits, to Ethereum
+  - BlackRock, GIC among investors chasing Indian telecom major Jio's IPO as anchor bids top $26 billion
+  - Dollar and euro drift, yen slips as markets seek direction - Reuters
+- `oil`: score 9, headlines 3
+  - Bitcoin rises 1% as risk sentiment bounces back, though elevated oil caps gains
+  - Asian shares tumble, oil rises as markets await AI sector results - Reuters
+  - Brent crude holds near five-month high on Middle East tension - Reuters
+- `us_big_tech`: score 8, headlines 3
+  - Micron and other chip stocks spring back to life after bruising selloff
+  - Louis Vuitton and Hermès among luxury retailers looted in French riots
+  - Microsoft gives data centre hopefuls a pre-IPO reality check
+- `us_index_flow`: score 8, headlines 2
+  - Live updates: Bitcoin holds near $82,000 as Nasdaq rebounds more than 1%
+  - Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains
 - `ethereum`: score 4, headlines 1
   - JPMorgan brings JPM Coin, representing dollar deposits, to Ethereum
-- `oil`: score 3, headlines 1
-  - Bitcoin steadies above $82k amid some relief from falling oil prices
