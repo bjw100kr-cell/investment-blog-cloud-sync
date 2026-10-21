@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-10-21T04:12:22.118631+00:00",
+  "generated_at": "2026-10-21T17:02:53.842387+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "us_big_tech",
+      "trend_count": 1,
+      "traffic_score_sum": 5000,
+      "max_approx_traffic": 5000,
+      "trend_queries": [
+        "amazon ftc settlement refund eligibility"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 5200,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,11 +30,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5900,
+      "demand_signal_score": 5800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 47,
+      "source_snapshot_score": 46,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +42,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11%",
-        "OKX-ICE co-chair Andrew Cuomo calls corporate objections a ‘natural response’ to tokenized stock plans",
-        "The Coinbase allegations expose Bitcoin's corporate governance gap"
+        "Trump to throw spotlight on overseas crypto abuses at White House event",
+        "Crypto Long & Short: Why real-world assets need fixed-rate loans onchain",
+        "Why centralized exchanges refuse to list legacy crypto tokens without explicit SEC immunity"
       ]
     },
     {
@@ -45,39 +61,38 @@
       "source_snapshot_score": 18,
       "source_count": 2,
       "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
+        "CNBC Top News",
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Fed to skip October but raise rates again in December, nearly all economists say - Reuters"
+        "Housing is flashing warning signs just as the Fed weighs more interest rate hikes"
       ]
     },
     {
-      "keyword": "us_big_tech",
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2800,
+      "demand_signal_score": 2700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 16,
-      "source_count": 5,
+      "source_snapshot_score": 15,
+      "source_count": 4,
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
+        "CNBC Top News",
         "Financial Times Home",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "Financial Times World",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading",
-        "Musk says SpaceX-Tesla merger a ‘good idea’ as AI revenue jumps ninefold",
-        "SpaceX and Tesla boards explore potential merger"
+        "Mortgage rates drop for the first time in 2 months, but demand still falls further",
+        "France’s borrowing costs hit 5% for first time since 2002",
+        "Earnings cheer supports stocks, France's 10-year bond yield hits 5% mark - Reuters"
       ]
     },
     {
@@ -87,20 +102,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2400,
+      "demand_signal_score": 2700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
-      "source_count": 2,
+      "source_snapshot_score": 15,
+      "source_count": 3,
       "source_names": [
+        "Financial Times World",
         "Investing.com Crypto News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
+        "Bitcoin ticks up to $83.4k but oil, AI jitters limit upside",
         "Bitcoin climbs above $83k as risk sentiment improves, oil prices dip slightly",
-        "Bitcoin rises 1% as risk sentiment bounces back, though elevated oil caps gains",
-        "Stocks mostly rise as oil, US yields ease; French stocks fall - Reuters"
+        "Gold steadies near one-week low as oil-driven inflation fears grow - Reuters"
       ]
     }
   ],

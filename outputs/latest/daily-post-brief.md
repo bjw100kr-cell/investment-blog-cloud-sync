@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-10-21T04:12:22.118631+00:00`
+- 생성 시각: `2026-10-21T17:02:53.842387+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -11,7 +11,7 @@
 - 총점: `87.0`
 - 점수 구성: 검색성 19 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- 소스: CNBC Top News, Federal Reserve Monetary Policy Press
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -26,15 +26,16 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Fed to skip October but raise rates again in December, nearly all economists say - Reuters
+  - Housing is flashing warning signs just as the Fed weighs more interest rate hikes
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `83.0`
-- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
+- 총점: `85.0`
+- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 3
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 코인 시장 신호: BTCUSDT 24h change 2.25%
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
@@ -47,20 +48,21 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11%
-  - OKX-ICE co-chair Andrew Cuomo calls corporate objections a ‘natural response’ to tokenized stock plans
-  - The Coinbase allegations expose Bitcoin's corporate governance gap
-  - BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash
-  - Kazakhstan court bars Coinbase, five others from unlicensed crypto services in Astana International Financial Centre
+  - Trump to throw spotlight on overseas crypto abuses at White House event
+  - Crypto Long & Short: Why real-world assets need fixed-rate loans onchain
+  - Why centralized exchanges refuse to list legacy crypto tokens without explicit SEC immunity
+  - Bitcoin risk management grows more popular as the 'just bet on price' era fades
+  - Chainlink, Cardano, other blockchain groups push SEC for clearer crypto rules
 
 ## 3. us_big_tech
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `77.0`
-- 점수 구성: 검색성 19 / 시의성 21 / 설명가치 17 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business
+- 총점: `89.0`
+- 점수 구성: 검색성 30 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (amazon ftc settlement refund eligibility)
+- 소스: CNBC Top News, Financial Times Home, Google Trends US, NYT Business
+- 트렌드 쿼리: amazon ftc settlement refund eligibility
 - 제목 후보:
   - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
   - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
@@ -72,24 +74,24 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading
-  - Musk says SpaceX-Tesla merger a ‘good idea’ as AI revenue jumps ninefold
-  - SpaceX and Tesla boards explore potential merger
-  - Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally
-  - Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger
+  - amazon ftc settlement refund eligibility
+  - SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up
+  - Tesla earnings loom after Musk calls SpaceX merger a 'good idea'
+  - Meta and Tesla bulls get confidence boost after SpaceX earnings
+  - Rockets, robots and risk: Musk’s $3.6tn gamble to merge Tesla and SpaceX
 
-## 4. tariffs_trade
+## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `46.0`
-- 점수 구성: 검색성 3 / 시의성 5 / 설명가치 18 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 총점: `45.0`
+- 점수 구성: 검색성 4 / 시의성 5 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
 - 추천 이유: 섹터/세계 흐름 연결 해설 가능
-- 소스: NYT Business
+- 소스: Financial Times World
 - 제목 후보:
-  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
-  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유
-  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -97,16 +99,16 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Trump Tariffs on Canada Spark Latest Lawsuit Over Trade Powers
+  - Trump envoy floats Ukraine talks and summit with Putin and Xi
 
 ## 5. treasury_yields
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `67.0`
-- 점수 구성: 검색성 12 / 시의성 15 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 소스: Cointelegraph, NYT Business, Reuters Markets via Google News RSS
+- 총점: `80.0`
+- 점수 구성: 검색성 19 / 시의성 20 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
   - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
@@ -118,6 +120,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Strive closes $630M SATS IPO, leaves Bitcoin allocation unspecified
-  - French bond yields dip but remain near 24-year high in volatile trading - Reuters
-  - A ‘Doom Loop’ Threatens France as Populism Confronts Markets
+  - Mortgage rates drop for the first time in 2 months, but demand still falls further
+  - France’s borrowing costs hit 5% for first time since 2002
+  - Earnings cheer supports stocks, France's 10-year bond yield hits 5% mark - Reuters
+  - Euro zone bond yields rise as French borrowing costs hit 24-year high - Reuters
+  - France’s borrowing costs hit 5% for first time since 2002
