@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11%",
+    "OKX-ICE co-chair Andrew Cuomo calls corporate objections a ‘natural response’ to tokenized stock plans",
+    "The Coinbase allegations expose Bitcoin's corporate governance gap",
     "BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash",
-    "Kazakhstan court bars Coinbase, five others from unlicensed crypto services in Astana International Financial Centre",
-    "Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month",
-    "JPMorgan sees 10% annual bitcoin returns, topping stocks, bonds and gold over next decade",
-    "Bitcoin drops to $81,400 as Asian chip stocks tumble, options traders seek downside protection"
+    "Kazakhstan court bars Coinbase, five others from unlicensed crypto services in Astana International Financial Centre"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

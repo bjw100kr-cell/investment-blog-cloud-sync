@@ -1,8 +1,8 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-20T16:46:34.307426+00:00`
+- 생성 시각: `2026-10-21T04:12:22.118631+00:00`
 - 수집 성공 소스: `14`
-- 수집 아이템 수: `112`
+- 수집 아이템 수: `111`
 
 ## 소스 상태
 
@@ -14,7 +14,7 @@
 - `OK` Cointelegraph (rss): 8 items
 - `OK` CNBC Top News (rss): 8 items
 - `OK` Investing.com Crypto News (rss): 8 items
-- `OK` Financial Times Home (rss): 8 items
+- `OK` Financial Times Home (rss): 7 items
 - `OK` Reuters Markets via Google News RSS (rss): 8 items
 - `OK` 무역킹 Trade King YouTube (youtube_channel): 8 items
 - `OK` MarketWatch Breaking News (rss): 8 items
@@ -106,51 +106,47 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 51, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `oil`: score 25, source_count 6, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `fomc`: score 21, source_count 3, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `treasury_yields`: score 13, source_count 5, sources Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `crypto_etf`: score 11, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `us_big_tech`: score 9, source_count 3, sources CoinDesk RSS, Cointelegraph, NYT Business
-- `ai_semiconductors`: score 7, source_count 2, sources CNBC Top News, CoinDesk RSS
-- `us_index_flow`: score 6, source_count 2, sources CNBC Top News, Cointelegraph
-- `tariffs_trade`: score 5, source_count 2, sources CNBC Top News, NYT Business
-- `ethereum`: score 3, source_count 1, sources Cointelegraph
+- `bitcoin`: score 47, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 18, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `us_big_tech`: score 16, source_count 5, sources CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business
+- `oil`: score 12, source_count 2, sources Investing.com Crypto News, Reuters Markets via Google News RSS
+- `treasury_yields`: score 8, source_count 3, sources Cointelegraph, NYT Business, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 7, source_count 2, sources CoinDesk RSS, Financial Times Home
+- `china`: score 3, source_count 1, sources Financial Times Home
+- `us_index_flow`: score 2, source_count 1, sources MarketWatch Breaking News
+- `cpi`: score 2, source_count 1, sources MarketWatch Breaking News
+- `tariffs_trade`: score 2, source_count 1, sources NYT Business
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 51, headlines 15
-  - BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash
-  - Kazakhstan court bars Coinbase, five others from unlicensed crypto services in Astana International Financial Centre
-  - Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month
-- `oil`: score 25, headlines 8
-  - Live updates: Bitcoin cuts losses as stocks edge higher
-  - Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls
-  - Bitcoin slides below $82,000 as elevated oil prices, Fed outlook weigh
-- `fomc`: score 21, headlines 5
+- `bitcoin`: score 47, headlines 14
+  - Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11%
+  - OKX-ICE co-chair Andrew Cuomo calls corporate objections a ‘natural response’ to tokenized stock plans
+  - The Coinbase allegations expose Bitcoin's corporate governance gap
+- `fomc`: score 18, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 13, headlines 5
-  - US pending home sales fall to record low as mortgage rates surge
-  - French bond yields near 24-year high as new protests loom - Reuters
-  - Pending home sales sink to 25-year low as buyers flee high mortgage rates
-- `crypto_etf`: score 11, headlines 3
-  - Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month
-  - Bitcoin drops to $81,400 as Asian chip stocks tumble, options traders seek downside protection
-  - FINMA approves Switzerland’s first Bitcoin ETF for retail investors
-- `us_big_tech`: score 9, headlines 3
+- `us_big_tech`: score 16, headlines 6
   - Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading
-  - Alphabet, Microsoft add objections to OKX-ICE proposed tokenized stock platform
-  - Investors in Anticipation Over Musk’s Next Big SpaceX Deal
+  - Musk says SpaceX-Tesla merger a ‘good idea’ as AI revenue jumps ninefold
+  - SpaceX and Tesla boards explore potential merger
+- `oil`: score 12, headlines 4
+  - Bitcoin climbs above $83k as risk sentiment improves, oil prices dip slightly
+  - Bitcoin rises 1% as risk sentiment bounces back, though elevated oil caps gains
+  - Stocks mostly rise as oil, US yields ease; French stocks fall - Reuters
+- `treasury_yields`: score 8, headlines 3
+  - Strive closes $630M SATS IPO, leaves Bitcoin allocation unspecified
+  - French bond yields dip but remain near 24-year high in volatile trading - Reuters
+  - A ‘Doom Loop’ Threatens France as Populism Confronts Markets
 - `ai_semiconductors`: score 7, headlines 2
-  - Bitcoin drops to $81,400 as Asian chip stocks tumble, options traders seek downside protection
-  - Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC
-- `us_index_flow`: score 6, headlines 2
-  - Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls
-  - Investors look to earnings to reset the bull market. The key level to watch on the S&P 500
-- `tariffs_trade`: score 5, headlines 2
-  - Trump sued over 50% tariffs on Canada in latest trade challenge
+  - Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11%
+  - Australian data centre group falls 44% on profit warning
+- `china`: score 3, headlines 1
+  - China’s nightmare: becoming the next Japan
+- `cpi`: score 2, headlines 1
+  - My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?
+- `tariffs_trade`: score 2, headlines 1
   - Trump Tariffs on Canada Spark Latest Lawsuit Over Trade Powers
-- `cpi`: score 3, headlines 1
-  - Older Americans brace for higher healthcare costs
+- `us_index_flow`: score 2, headlines 1
+  - Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next
