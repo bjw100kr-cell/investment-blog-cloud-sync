@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-10-21T17:02:53.842387+00:00`
+- 생성 시각: `2026-10-22T04:12:32.118311+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 87.0
+- 점수: 89.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -69,13 +69,14 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Housing is flashing warning signs just as the Fed weighs more interest rate hikes
+  - Dip in the dollar takes a breather with Fed in focus - Reuters
+  - Gold edges higher as yields retreat, Fed decision in focus - Reuters
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 점수: 85.0
+- 점수: 83.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -135,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves
   - Trump to throw spotlight on overseas crypto abuses at White House event
   - Crypto Long & Short: Why real-world assets need fixed-rate loans onchain
   - Why centralized exchanges refuse to list legacy crypto tokens without explicit SEC immunity
-  - Bitcoin risk management grows more popular as the 'just bet on price' era fades
-  - Chainlink, Cardano, other blockchain groups push SEC for clearer crypto rules
+  - Trump didn‘t mention ‘crypto’ once in White House cybercrime roundtable
 
 ## 3. us_big_tech
 
 - 추천 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (amazon ftc settlement refund eligibility)
-- 점수: 89.0
+- 각도: 복수 소스 교차 확인 가능 (6개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 84.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -205,17 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - amazon ftc settlement refund eligibility
-  - SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up
-  - Tesla earnings loom after Musk calls SpaceX merger a 'good idea'
-  - Meta and Tesla bulls get confidence boost after SpaceX earnings
-  - Rockets, robots and risk: Musk’s $3.6tn gamble to merge Tesla and SpaceX
+  - Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves
+  - Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond
+  - Amazon warns new cyber flaws detected using AI are being ‘broadly exploited’
+  - Meta agrees deal to keep Zuckerberg in California despite wealth tax proposal
+  - Musk sets lower sales target for Tesla as it explores SpaceX merger
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 섹터/세계 흐름 연결 해설 가능
-- 점수: 45.0
+- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 66.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -275,4 +276,7 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Trump envoy floats Ukraine talks and summit with Putin and Xi
+  - China's stock market sinks into bear territory as CSI 300 extends 10-week rout
+  - Sovereign wealth funds' China and Hong Kong investments surge 190% after a bruising slump
+  - Australian iron ore miner warns of production slowdown without China deal
+  - China’s drugmakers move into the big league

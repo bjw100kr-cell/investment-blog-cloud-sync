@@ -1,50 +1,54 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-10-21T17:02:59.495812+00:00`
-- snapshot_generated_at: `2026-10-21T17:02:53.842387+00:00`
+- generated_at: `2026-10-22T04:12:35.963950+00:00`
+- snapshot_generated_at: `2026-10-22T04:12:32.118311+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
-- counts: fresh `2` / aging `0` / stale `0` / unknown `1`
+- counts: fresh `2` / aging `0` / stale `1` / unknown `0`
 
-## 1. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword: `china`
-- freshness_status: `unknown`
-- newest_evidence_age_days: `None`
-- newest_evidence_iso: ``
-- quality_status: `review_before_publish` / ready_now `False`
-- summary: 대표 근거 시각을 읽지 못해 판단이 보류되었습니다.
-- recommendation: 최근 근거 시각을 다시 수집해 신선도를 먼저 확인하세요.
-- recovery_mode: `manual_check`
-- recovery_summary: 최근 근거 시각을 먼저 다시 확인한 뒤 다음 액션을 결정하세요.
+- keyword: `fomc`
+- freshness_status: `stale`
+- newest_evidence_age_days: `14.4`
+- newest_evidence_iso: `2026-10-07T18:00:00+00:00`
+- quality_status: `pass` / ready_now `True`
+- summary: 핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement
+- recommendation: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
+- recovery_mode: `full_refresh_needed`
+- recovery_summary: 현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.
+- recovery_command: `bash scripts/run_pipeline.sh`
+- evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve issues FOMC statement
+- evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
+- evidence: Federal Reserve Monetary Policy Press / 2026-07-29T18:00:00+00:00 / Federal Reserve issues FOMC statement
 
 ## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.1`
-- newest_evidence_iso: `2026-10-21T15:13:17+00:00`
+- newest_evidence_age_days: `0.0`
+- newest_evidence_iso: `2026-10-22T03:51:34+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin price tags $84.6K as US stocks head higher on SpaceX Q3 earnings beat
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Cointelegraph / 2026-10-21T15:13:17+00:00 / Bitcoin price tags $84.6K as US stocks head higher on SpaceX Q3 earnings beat
-- evidence: Cointelegraph / 2026-10-21T13:30:00+00:00 / 5 alternatives to Ledger to store your Bitcoin
-- evidence: CoinDesk RSS / 2026-10-21T11:15:00+00:00 / Bitcoin risk management grows more popular as the 'just bet on price' era fades
+- evidence: CoinDesk RSS / 2026-10-22T03:51:34+00:00 / Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves
+- evidence: Investing.com Crypto News / 2026-10-21 21:46:19 / Bitcoin gains more than 2% to $84.8k as risk sentiment prevails
+- evidence: Investing.com Crypto News / 2026-10-21 19:18:24 / Bitcoin tests $84,500 Fibonacci resistance: Live levels
 
 ## 3. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
 - keyword: `us_big_tech`
 - freshness_status: `fresh`
 - newest_evidence_age_days: `0.0`
-- newest_evidence_iso: `2026-10-21T16:35:48+00:00`
+- newest_evidence_iso: `2026-10-22T03:51:34+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Meta and Tesla bulls get confidence boost after SpaceX earnings
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: CNBC Top News / 2026-10-21T16:35:48+00:00 / Meta and Tesla bulls get confidence boost after SpaceX earnings
-- evidence: CNBC Top News / 2026-10-21T16:08:50+00:00 / SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up
-- evidence: CNBC Top News / 2026-10-21T16:01:25+00:00 / Tesla earnings loom after Musk calls SpaceX merger a 'good idea'
+- evidence: CoinDesk RSS / 2026-10-22T03:51:34+00:00 / Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves
+- evidence: CNBC Top News / 2026-10-22T01:05:15+00:00 / Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond
+- evidence: Financial Times Home / 2026-10-21T23:30:29+00:00 / Musk sets lower sales target for Tesla as it explores SpaceX merger

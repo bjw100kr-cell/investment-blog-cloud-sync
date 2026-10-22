@@ -116,8 +116,8 @@
   "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
   "source_names": [
     "CNBC Top News",
+    "Cointelegraph",
     "Financial Times Home",
-    "Financial Times World",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
