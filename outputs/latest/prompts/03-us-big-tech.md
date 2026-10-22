@@ -109,18 +109,18 @@
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "CoinDesk RSS",
     "Financial Times Home",
     "Financial Times World",
     "MarketWatch Breaking News",
-    "NYT Business"
+    "NYT Business",
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
-    "Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond",
-    "Amazon warns new cyber flaws detected using AI are being ‘broadly exploited’",
-    "Meta agrees deal to keep Zuckerberg in California despite wealth tax proposal",
-    "Musk sets lower sales target for Tesla as it explores SpaceX merger"
+    "Meta stock sinks 6% as AI spend pushes free cash flow negative",
+    "Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist",
+    "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
+    "Stocks fall as Meta dents AI optimism; French bonds under fire - Reuters",
+    "Zuckerberg’s California tax move is a win for Meta — and for him"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -183,12 +183,12 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 84.0,
+    "total_score": 85.0,
     "search_score": 26,
     "timeliness_score": 21,
-    "explanatory_score": 17,
+    "explanatory_score": 16,
     "monetization_score": 15,
-    "risk_score": 5
+    "risk_score": 7
   },
   "reference_editorial_pattern_name": "search_explainer",
   "reference_editorial_pattern": {

@@ -1,63 +1,8 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin oil",
   "cards": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-10-22",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Dip in the dollar takes a breather with Fed in focus - Reuters"
-      ],
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
-      "hard_blocking_checks": []
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -66,36 +11,36 @@
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
-        "Trump to throw spotlight on overseas crypto abuses at White House event",
-        "Crypto Long & Short: Why real-world assets need fixed-rate loans onchain"
+        "Crypto for Advisors: Stablecoins are ready for prime time",
+        "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa",
+        "Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence"
       ],
       "recent_evidence": [
         {
-          "title": "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
-          "source_name": "CoinDesk RSS",
-          "published": "Thu, 22 Oct 2026 03:51:34 +0000",
-          "published_iso": "2026-10-22T03:51:34+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/22/bitcoin-gives-back-its-run-at-usd85-000-as-tesla-and-meta-fail-to-calm-ai-nerves",
+          "title": "Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition",
+          "source_name": "Cointelegraph",
+          "published": "Thu, 22 Oct 2026 16:50:51 +0000",
+          "published_iso": "2026-10-22T16:50:51+00:00",
+          "link": "https://cointelegraph.com/news/bitcoin-mining-difficulty-hashrate-recovery-ai-shift?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin gains more than 2% to $84.8k as risk sentiment prevails",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-10-21 21:46:19",
-          "published_iso": "2026-10-21 21:46:19",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-firms-to-82k-but-oil-ai-jitters-limit-upside-4961711",
+          "title": "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower",
+          "source_name": "Cointelegraph",
+          "published": "Thu, 22 Oct 2026 16:20:35 +0000",
+          "published_iso": "2026-10-22T16:20:35+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin tests $84,500 Fibonacci resistance: Live levels",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-10-21 19:18:24",
-          "published_iso": "2026-10-21 19:18:24",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-bull-flag-coils-at-81908-live-levels-93CH-4958174",
+          "title": "CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions",
+          "source_name": "Cointelegraph",
+          "published": "Thu, 22 Oct 2026 13:42:34 +0000",
+          "published_iso": "2026-10-22T13:42:34+00:00",
+          "link": "https://cointelegraph.com/markets/cryptoquant-rising-bitcoin-hashrate-indirect-bullish-signal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ],
@@ -124,33 +69,33 @@
       "reason": "복수 소스 교차 확인 가능 (6개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
-        "Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond",
-        "Amazon warns new cyber flaws detected using AI are being ‘broadly exploited’"
+        "Meta stock sinks 6% as AI spend pushes free cash flow negative",
+        "Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist",
+        "Meta sell-off drags US tech stocks lower as AI spending fears flare up"
       ],
       "recent_evidence": [
         {
-          "title": "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
-          "source_name": "CoinDesk RSS",
-          "published": "Thu, 22 Oct 2026 03:51:34 +0000",
-          "published_iso": "2026-10-22T03:51:34+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/22/bitcoin-gives-back-its-run-at-usd85-000-as-tesla-and-meta-fail-to-calm-ai-nerves",
+          "title": "Zuckerberg’s California tax move is a win for Meta — and for him",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Thu, 22 Oct 2026 16:48:00 GMT",
+          "published_iso": "2026-10-22T16:48:00+00:00",
+          "link": "https://www.marketwatch.com/story/zuckerbergs-california-tax-move-is-a-win-for-meta-and-for-him-aa049c94?mod=mw_rss_topstories",
           "source_type": "rss"
         },
         {
-          "title": "Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond",
+          "title": "Meta stock sinks 6% as AI spend pushes free cash flow negative",
           "source_name": "CNBC Top News",
-          "published": "Thu, 22 Oct 2026 01:05:15 GMT",
-          "published_iso": "2026-10-22T01:05:15+00:00",
-          "link": "https://www.cnbc.com/2026/10/22/php-google-openai-and-amazon-cyber.html",
+          "published": "Thu, 22 Oct 2026 15:45:57 GMT",
+          "published_iso": "2026-10-22T15:45:57+00:00",
+          "link": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html",
           "source_type": "rss"
         },
         {
-          "title": "Musk sets lower sales target for Tesla as it explores SpaceX merger",
+          "title": "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
           "source_name": "Financial Times Home",
-          "published": "Wed, 21 Oct 2026 23:30:29 GMT",
-          "published_iso": "2026-10-21T23:30:29+00:00",
-          "link": "https://www.ft.com/content/16bdf332-2a75-4e57-81ea-a37caf50ec0f?syn-25a6b1a6=1",
+          "published": "Thu, 22 Oct 2026 14:58:27 GMT",
+          "published_iso": "2026-10-22T14:58:27+00:00",
+          "link": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ],
@@ -166,6 +111,61 @@
       ],
       "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech",
       "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply",
+      "hard_blocking_checks": []
+    },
+    {
+      "keyword": "oil",
+      "title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
+      "publish_date": "2026-10-22",
+      "review_verdict": "approve",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "hero_image_selected": true,
+      "reason": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again",
+        "Bitcoin drops back below $82k as AI selldown, rising oil batter risk",
+        "Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters"
+      ],
+      "recent_evidence": [
+        {
+          "title": "Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again",
+          "source_name": "CNBC Top News",
+          "published": "Thu, 22 Oct 2026 15:16:05 GMT",
+          "published_iso": "2026-10-22T15:16:05+00:00",
+          "link": "https://www.cnbc.com/2026/10/22/under-the-radar-stocks-to-play-the-next-leg-of-the-energy-trade-with-oil-prices-jumping-again.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Thu, 22 Oct 2026 14:20:56 GMT",
+          "published_iso": "2026-10-22T14:20:56+00:00",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "Stocks Fall and Oil Rises as Investors Retreat from Mounting Risks",
+          "source_name": "NYT Business",
+          "published": "Thu, 22 Oct 2026 13:43:13 +0000",
+          "published_iso": "2026-10-22T13:43:13+00:00",
+          "link": "https://www.nytimes.com/2026/10/22/business/stocks-oil-prices.html",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-oil.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-%EC%9C%A0%EA%B0%80-%EC%83%81%EC%8A%B9%EC%9D%B4-%EB%AC%BC%EA%B0%80%EC%99%80-%EC%A6%9D%EC%8B%9C%EC%97%90-%EB%B2%88%EC%A7%80%EB%8A%94-%EA%B2%BD%EB%A1%9C-%ED%88%AC%EC%9E%90%EC%9E%90%EA%B0%80-%EB%B3%BC-3%EA%B0%80%EC%A7%80.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords oil",
+      "next_action": "사용자 최종 확인 후 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords oil",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword oil",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword oil --apply",
       "hard_blocking_checks": []
     }
   ]

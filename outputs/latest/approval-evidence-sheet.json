@@ -1,145 +1,76 @@
 {
-  "generated_at": "2026-10-22T04:12:32.118311+00:00",
+  "generated_at": "2026-10-22T17:01:57.343909+00:00",
   "item_count": 3,
   "items": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-10-22",
-      "priority_score": 132.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
-      "format": "macro_explainer",
-      "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_headlines": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Dip in the dollar takes a breather with Fed in focus - Reuters",
-        "Gold edges higher as yields retreat, Fed decision in focus - Reuters"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 3300,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 2,
-      "search_score": 21,
-      "timeliness_score": 25,
-      "monetization_score": 15,
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
-          "published_iso": "2026-07-29T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 7 Oct 2026 18:00:00 GMT",
-          "published_iso": "2026-10-07T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 19 Aug 2026 18:00:00 GMT",
-          "published_iso": "2026-08-19T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "publish_date": "2026-10-23",
-      "priority_score": 122.0,
+      "priority_score": 126.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
       "format": "crypto_analysis",
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News"
       ],
       "sample_headlines": [
-        "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
-        "Trump to throw spotlight on overseas crypto abuses at White House event",
-        "Crypto Long & Short: Why real-world assets need fixed-rate loans onchain",
-        "Why centralized exchanges refuse to list legacy crypto tokens without explicit SEC immunity",
-        "Trump didn‘t mention ‘crypto’ once in White House cybercrime roundtable"
+        "Crypto for Advisors: Stablecoins are ready for prime time",
+        "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa",
+        "Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence",
+        "Ethereum’s four-minute settlement plan could lower the cost of moving crypto",
+        "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 5500,
+      "demand_signal_score": 7000,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 3,
+      "source_count": 4,
       "search_score": 29,
-      "timeliness_score": 18,
+      "timeliness_score": 20,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
-          "source_name": "CoinDesk RSS",
-          "published": "Thu, 22 Oct 2026 03:51:34 +0000",
-          "published_iso": "2026-10-22T03:51:34+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/22/bitcoin-gives-back-its-run-at-usd85-000-as-tesla-and-meta-fail-to-calm-ai-nerves",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin gains more than 2% to $84.8k as risk sentiment prevails",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-10-21 21:46:19",
-          "published_iso": "2026-10-21 21:46:19",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-firms-to-82k-but-oil-ai-jitters-limit-upside-4961711",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin tests $84,500 Fibonacci resistance: Live levels",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-10-21 19:18:24",
-          "published_iso": "2026-10-21 19:18:24",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-bull-flag-coils-at-81908-live-levels-93CH-4958174",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin climbs above $83k as risk sentiment improves, oil prices dip slightly",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-10-20 22:27:32",
-          "published_iso": "2026-10-20 22:27:32",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-82000-as-elevated-oil-prices-fed-outlook-weigh-4958968",
-          "source_type": "rss"
-        },
-        {
-          "title": "Trump didn‘t mention ‘crypto’ once in White House cybercrime roundtable",
+          "title": "Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition",
           "source_name": "Cointelegraph",
-          "published": "Wed, 21 Oct 2026 20:19:39 +0000",
-          "published_iso": "2026-10-21T20:19:39+00:00",
-          "link": "https://cointelegraph.com/news/white-house-cybercrime-roundtable-donald-trump-crypto-ventures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Thu, 22 Oct 2026 16:50:51 +0000",
+          "published_iso": "2026-10-22T16:50:51+00:00",
+          "link": "https://cointelegraph.com/news/bitcoin-mining-difficulty-hashrate-recovery-ai-shift?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower",
+          "source_name": "Cointelegraph",
+          "published": "Thu, 22 Oct 2026 16:20:35 +0000",
+          "published_iso": "2026-10-22T16:20:35+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions",
+          "source_name": "Cointelegraph",
+          "published": "Thu, 22 Oct 2026 13:42:34 +0000",
+          "published_iso": "2026-10-22T13:42:34+00:00",
+          "link": "https://cointelegraph.com/markets/cryptoquant-rising-bitcoin-hashrate-indirect-bullish-signal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble",
+          "source_name": "CoinDesk RSS",
+          "published": "Thu, 22 Oct 2026 11:20:04 +0000",
+          "published_iso": "2026-10-22T11:20:04+00:00",
+          "link": "https://www.coindesk.com/daybook-us/2026/10/22/crypto-traders-seek-shelter-in-bitcoin-as-altcoins-slide-and-etf-flows-wobble",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines",
+          "source_name": "CoinDesk RSS",
+          "published": "Thu, 22 Oct 2026 10:50:04 +0000",
+          "published_iso": "2026-10-22T10:50:04+00:00",
+          "link": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines",
           "source_type": "rss"
         }
       ]
@@ -148,29 +79,29 @@
       "keyword": "us_big_tech",
       "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
       "publish_date": "2026-10-24",
-      "priority_score": 119.0,
+      "priority_score": 120.0,
       "ready_now": true,
       "quality_status": "pass",
       "reason": "복수 소스 교차 확인 가능 (6개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "format": "sector_analysis",
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
         "Financial Times Home",
         "Financial Times World",
         "MarketWatch Breaking News",
-        "NYT Business"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
-        "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
-        "Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond",
-        "Amazon warns new cyber flaws detected using AI are being ‘broadly exploited’",
-        "Meta agrees deal to keep Zuckerberg in California despite wealth tax proposal",
-        "Musk sets lower sales target for Tesla as it explores SpaceX merger"
+        "Meta stock sinks 6% as AI spend pushes free cash flow negative",
+        "Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist",
+        "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
+        "Stocks fall as Meta dents AI optimism; French bonds under fire - Reuters",
+        "Zuckerberg’s California tax move is a win for Meta — and for him"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 4900,
+      "demand_signal_score": 3600,
       "fallback_source": "source_snapshot_rank",
       "source_count": 6,
       "search_score": 26,
@@ -178,43 +109,117 @@
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
-          "source_name": "CoinDesk RSS",
-          "published": "Thu, 22 Oct 2026 03:51:34 +0000",
-          "published_iso": "2026-10-22T03:51:34+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/22/bitcoin-gives-back-its-run-at-usd85-000-as-tesla-and-meta-fail-to-calm-ai-nerves",
-          "source_type": "rss"
-        },
-        {
-          "title": "Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond",
-          "source_name": "CNBC Top News",
-          "published": "Thu, 22 Oct 2026 01:05:15 GMT",
-          "published_iso": "2026-10-22T01:05:15+00:00",
-          "link": "https://www.cnbc.com/2026/10/22/php-google-openai-and-amazon-cyber.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Musk sets lower sales target for Tesla as it explores SpaceX merger",
-          "source_name": "Financial Times Home",
-          "published": "Wed, 21 Oct 2026 23:30:29 GMT",
-          "published_iso": "2026-10-21T23:30:29+00:00",
-          "link": "https://www.ft.com/content/16bdf332-2a75-4e57-81ea-a37caf50ec0f?syn-25a6b1a6=1",
-          "source_type": "rss"
-        },
-        {
-          "title": "Tesla’s stock falls as Elon Musk leaves investors wanting more",
+          "title": "Zuckerberg’s California tax move is a win for Meta — and for him",
           "source_name": "MarketWatch Breaking News",
-          "published": "Wed, 21 Oct 2026 23:29:00 GMT",
-          "published_iso": "2026-10-21T23:29:00+00:00",
-          "link": "https://www.marketwatch.com/story/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more-eb347f38?mod=mw_rss_topstories",
+          "published": "Thu, 22 Oct 2026 16:48:00 GMT",
+          "published_iso": "2026-10-22T16:48:00+00:00",
+          "link": "https://www.marketwatch.com/story/zuckerbergs-california-tax-move-is-a-win-for-meta-and-for-him-aa049c94?mod=mw_rss_topstories",
           "source_type": "rss"
         },
         {
-          "title": "Amazon warns new cyber flaws detected using AI are being ‘broadly exploited’",
+          "title": "Meta stock sinks 6% as AI spend pushes free cash flow negative",
+          "source_name": "CNBC Top News",
+          "published": "Thu, 22 Oct 2026 15:45:57 GMT",
+          "published_iso": "2026-10-22T15:45:57+00:00",
+          "link": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
           "source_name": "Financial Times Home",
-          "published": "Wed, 21 Oct 2026 23:20:30 GMT",
-          "published_iso": "2026-10-21T23:20:30+00:00",
-          "link": "https://www.ft.com/content/245778d9-597b-492d-b5b6-a2967c77e853?syn-25a6b1a6=1",
+          "published": "Thu, 22 Oct 2026 14:58:27 GMT",
+          "published_iso": "2026-10-22T14:58:27+00:00",
+          "link": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
+          "source_type": "rss"
+        },
+        {
+          "title": "Meta agrees deal to keep Zuckerberg in California despite wealth tax proposal",
+          "source_name": "Financial Times World",
+          "published": "Thu, 22 Oct 2026 13:40:22 GMT",
+          "published_iso": "2026-10-22T13:40:22+00:00",
+          "link": "https://www.ft.com/content/b34502b6-38dc-4a46-a8e7-d9131726cd31?syn-25a6b1a6=1",
+          "source_type": "rss"
+        },
+        {
+          "title": "Stocks fall as Meta dents AI optimism; French bonds under fire - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Thu, 22 Oct 2026 02:15:00 GMT",
+          "published_iso": "2026-10-22T02:15:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNmlzbXFUNWNXc3U3RHRac2lYVEhXNjZmZGw0Q19yNVRORUEtak91QlJnTEVqcGhWT2xuT2RmOHdTVHlyN1JmSHRVZEpfMzgtNEVMT1RCWk1VNGswaVFYTXI4WlFpUE95aEJid1NxNVNBdzBGX0pzOUQwMnZnQ25kOVNXQQ?oc=5",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "oil",
+      "title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
+      "publish_date": "2026-10-22",
+      "priority_score": 123.0,
+      "ready_now": false,
+      "quality_status": "review_before_publish",
+      "reason": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "format": "macro_explainer",
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times World",
+        "Investing.com Crypto News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_headlines": [
+        "Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again",
+        "Bitcoin drops back below $82k as AI selldown, rising oil batter risk",
+        "Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters",
+        "COMMENTARY: Morning Bid: Rattled by oil, tech and France - Reuters",
+        "Yen jumps as oil, AI and France worries rattle markets - Reuters"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 3200,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 5,
+      "search_score": 23,
+      "timeliness_score": 21,
+      "monetization_score": 14,
+      "recent_evidence": [
+        {
+          "title": "Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again",
+          "source_name": "CNBC Top News",
+          "published": "Thu, 22 Oct 2026 15:16:05 GMT",
+          "published_iso": "2026-10-22T15:16:05+00:00",
+          "link": "https://www.cnbc.com/2026/10/22/under-the-radar-stocks-to-play-the-next-leg-of-the-energy-trade-with-oil-prices-jumping-again.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Thu, 22 Oct 2026 14:20:56 GMT",
+          "published_iso": "2026-10-22T14:20:56+00:00",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "Stocks Fall and Oil Rises as Investors Retreat from Mounting Risks",
+          "source_name": "NYT Business",
+          "published": "Thu, 22 Oct 2026 13:43:13 +0000",
+          "published_iso": "2026-10-22T13:43:13+00:00",
+          "link": "https://www.nytimes.com/2026/10/22/business/stocks-oil-prices.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "COMMENTARY: Morning Bid: Rattled by oil, tech and France - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Thu, 22 Oct 2026 10:53:43 GMT",
+          "published_iso": "2026-10-22T10:53:43+00:00",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYTJtSEpzaWd5YmFEdkpRY3YwYkpiZ05tZlRsNlpodFpNSVN4VlRfaTQzN21EY0o2cnl4VUpUdURnWXFnbEhjX19Nb2VQaC1EYnhJWC1CeDFoU0dZb3RhUFFHdFpEVHRxWWh1bGNiZXY3ajZqWEtUR3pyTEZQdXI3R05aWGJOOHRYSjY0Q18zSkw5T3JXc0Fj?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "Yen jumps as oil, AI and France worries rattle markets - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Thu, 22 Oct 2026 02:10:00 GMT",
+          "published_iso": "2026-10-22T02:10:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeE9SaFExZHZyS2plVTA2NHNkbDFpcGpBSVVhc3J2NmZrRmtMRW1uY0FUU0JDMGtFQncxcnB3bUlFY21oa3V2VTZtOWsxcEVrWFhfOWZOd2oxY09XaWtpQ2ltWnE2NFFTYmg0OVNhaHJLVFdocG9NdGh1N3hjVzRPZUJlVW8wRFU3N24zR0tZbjk2bkNGVFhXaE1qbw?oc=5",
           "source_type": "rss"
         }
       ]

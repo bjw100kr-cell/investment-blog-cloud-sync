@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-22T04:12:32.118311+00:00`
+- 생성 시각: `2026-10-22T17:01:57.343909+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,11 +25,30 @@
 
 ## 유튜브 transcript 포인트
 
-- `무역킹 Trade King YouTube` / 1. 사우디가 어떻게 못하니까 이스라엘한테 연락 옴ㅋㅋ
+- `무역킹 Trade King YouTube` / 남들은 세금 99% 깎아주며 부자 모셔가는데 한국만 거꾸로 가는 중입니다
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=fGTaBpLISXw! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+- `무역킹 Trade King YouTube` / 1. Saudi Arabia can't handle it, so they contacted Israel LOL
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=LoidzL7JINw! This is most likely caused by:
 
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / 2. The Way New Grads Prove Their Worth Has Changed
@@ -84,59 +103,55 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 1. Why entry-level hiring has been declining for 4 years...
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=rpN3tb7Ivrs! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `bitcoin`: score 43, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `us_big_tech`: score 37, source_count 6, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
-- `fomc`: score 21, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `treasury_yields`: score 15, source_count 4, sources CNBC Top News, Cointelegraph, Financial Times Home, Reuters Markets via Google News RSS
-- `china`: score 12, source_count 2, sources CNBC Top News, Financial Times World
-- `oil`: score 10, source_count 4, sources Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `us_index_flow`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
-- `dollar`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `bitcoin`: score 58, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `us_big_tech`: score 24, source_count 6, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `oil`: score 20, source_count 5, sources CNBC Top News, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 15, source_count 1, sources Federal Reserve Monetary Policy Press
+- `treasury_yields`: score 13, source_count 4, sources Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business
+- `us_index_flow`: score 12, source_count 4, sources CoinDesk RSS, Cointelegraph, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `crypto_etf`: score 9, source_count 3, sources CoinDesk RSS, Cointelegraph, MarketWatch Breaking News
+- `jobs`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 43, headlines 13
-  - Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves
-  - Trump to throw spotlight on overseas crypto abuses at White House event
-  - Crypto Long & Short: Why real-world assets need fixed-rate loans onchain
-- `us_big_tech`: score 37, headlines 14
-  - Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves
-  - Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond
-  - Amazon warns new cyber flaws detected using AI are being ‘broadly exploited’
-- `fomc`: score 21, headlines 5
+- `bitcoin`: score 58, headlines 17
+  - Crypto for Advisors: Stablecoins are ready for prime time
+  - Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa
+  - Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence
+- `us_big_tech`: score 24, headlines 9
+  - Meta stock sinks 6% as AI spend pushes free cash flow negative
+  - Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist
+  - Meta sell-off drags US tech stocks lower as AI spending fears flare up
+- `oil`: score 20, headlines 7
+  - Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again
+  - Bitcoin drops back below $82k as AI selldown, rising oil batter risk
+  - Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters
+- `fomc`: score 15, headlines 3
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 15, headlines 5
-  - American Bankers Association: OCC’s GENIUS rules ‘undermine’ US Congress
-  - Treasury Secretary Bessent likens GENIUS Act to Lincoln-era banking reform
-  - Mortgage rates drop for the first time in 2 months, but demand still falls further
-- `china`: score 12, headlines 4
-  - China's stock market sinks into bear territory as CSI 300 extends 10-week rout
-  - Sovereign wealth funds' China and Hong Kong investments surge 190% after a bruising slump
-  - Australian iron ore miner warns of production slowdown without China deal
-- `oil`: score 10, headlines 4
-  - Bitcoin climbs above $83k as risk sentiment improves, oil prices dip slightly
-  - Oil rises as US orders diplomats to leave Saudi Arabia amid escalating tensions - Reuters
-  - Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.
-- `us_index_flow`: score 6, headlines 2
-  - China's stock market sinks into bear territory as CSI 300 extends 10-week rout
-  - Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment - Reuters
-- `dollar`: score 3, headlines 1
-  - Dip in the dollar takes a breather with Fed in focus - Reuters
+- `treasury_yields`: score 13, headlines 5
+  - SoFi unveils bank-issued tokenized deposit for yield-bearing crypto funds
+  - Bessent shrugs off ‘systemic’ AI risks at closed-door investor conference
+  - Europe’s bracing reality on US bond yields
+- `us_index_flow`: score 12, headlines 4
+  - Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines
+  - Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower
+  - Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters
+- `crypto_etf`: score 9, headlines 3
+  - Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble
+  - Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower
+  - Investors’ recent money moves show a preference for lowering risks over boosting rewards
+- `jobs`: score 6, headlines 2
+  - Jobless claims near the lowest since the 1960s as low-fire trend continues
+  - US weekly jobless claims near 57-year lows, underscore labor market stability - Reuters
+- `ai_semiconductors`: score 5, headlines 2
+  - Anthropic IPO stands alone as AI market jitters sideline others - Reuters
+  - Two big reasons Micron and other chip stocks are falling on Thursday
+- `ethereum`: score 4, headlines 1
+  - Ethereum’s four-minute settlement plan could lower the cost of moving crypto
