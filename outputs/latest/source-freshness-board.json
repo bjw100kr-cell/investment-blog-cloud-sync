@@ -1,90 +1,56 @@
 {
-  "generated_at": "2026-10-23T04:16:24.761157+00:00",
-  "snapshot_generated_at": "2026-10-23T04:16:19.640745+00:00",
+  "generated_at": "2026-10-23T16:54:41.585165+00:00",
+  "snapshot_generated_at": "2026-10-23T16:54:37.249537+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 3,
+    "fresh": 2,
     "aging": 0,
-    "stale": 0,
+    "stale": 1,
     "unknown": 0
   },
   "items": [
     {
-      "keyword": "us_big_tech",
-      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-10-25",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-10-22T20:03:03+00:00",
-      "oldest_evidence_iso": "2026-10-22T18:33:00+00:00",
-      "newest_evidence_age_days": 0.3,
-      "source_count": 4,
-      "demand_signal_score": 0,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Meta stock sinks nearly 7% as AI spend pushes free cash flow negative",
-      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
-      "recent_evidence": [
-        {
-          "title": "Meta stock sinks nearly 7% as AI spend pushes free cash flow negative",
-          "source_name": "CNBC Top News",
-          "published": "Thu, 22 Oct 2026 20:03:03 GMT",
-          "published_iso": "2026-10-22T20:03:03+00:00",
-          "link": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Steep bill for AI buildout punishes Meta, other tech favorites - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Thu, 22 Oct 2026 18:33:00 GMT",
-          "published_iso": "2026-10-22T18:33:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaG4yYUM1ZzJnZmtpWnhIUVEzU01PRmxZM1BDRDJLazA1dkdaX3k0Z2pPMHJJUi1HUEM2OF9oV1JzSFh3d1dEU0dzc3JMQWRCeDhRa2JvNGVBbVluUlY4UGY3REoyWVZkTFBZT3BGa0swX2s1RzY3MDM5ZWlBTm1wYVBYNEt5M2VlTFoyRVNTTXJUaUVVYzVNcUtQQ2hfUW9nalZGbQ?oc=5",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "treasury_yields",
-      "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
-      "quality_status": "review_before_publish",
-      "ready_now": false,
       "publish_date": "2026-10-23",
-      "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-10-23T01:50:00+00:00",
-      "oldest_evidence_iso": "2026-10-22T19:18:58+00:00",
-      "newest_evidence_age_days": 0.1,
-      "source_count": 4,
-      "demand_signal_score": 3000,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Asian shares wobble as tech rout boosts bonds, dents rate hike bets - Reuters",
-      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
-      "recovery_mode": "publish_direct",
-      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "freshness_status": "stale",
+      "newest_evidence_iso": "2026-10-07T18:00:00+00:00",
+      "oldest_evidence_iso": "2026-07-29T18:00:00+00:00",
+      "newest_evidence_age_days": 16.0,
+      "source_count": 2,
+      "demand_signal_score": 3300,
+      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
+      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
+      "recovery_mode": "full_refresh_needed",
+      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
+      "recovery_command": "bash scripts/run_pipeline.sh",
       "recent_evidence": [
         {
-          "title": "Asian shares wobble as tech rout boosts bonds, dents rate hike bets - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Fri, 23 Oct 2026 01:50:00 GMT",
-          "published_iso": "2026-10-23T01:50:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5uTk9BQ2lzbUtHT1k4Nlp4RlRCcXFvVXR5YUhCamhubGQ1SlB0c2FYczVLdl9ESzJBRzdkNmVuYU1ISVc2MndXWnBZTzBDNFdzeHBEQTNPTGU2SGhBTmtKM3Z1SWUxR2szN20yYWIySGIzUXlZcXVhdGNtTlJNMGN1WQ?oc=5",
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
           "source_type": "rss"
         },
         {
-          "title": "US Treasury proposes tighter rules on investing in sensitive Chinese tech",
-          "source_name": "Financial Times Home",
-          "published": "Thu, 22 Oct 2026 23:13:15 GMT",
-          "published_iso": "2026-10-22T23:13:15+00:00",
-          "link": "https://www.ft.com/content/f57a1f1c-60ce-432d-a901-673ae7d1241e?syn-25a6b1a6=1",
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
           "source_type": "rss"
         },
         {
-          "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Thu, 22 Oct 2026 22:07:00 GMT",
-          "published_iso": "2026-10-22T22:07:00+00:00",
-          "link": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
           "source_type": "rss"
         }
       ]
@@ -96,38 +62,81 @@
       "ready_now": true,
       "publish_date": "2026-10-24",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-10-23T03:13:01+00:00",
-      "oldest_evidence_iso": "2026-10-21T21:46:19+00:00",
-      "newest_evidence_age_days": 0.0,
+      "newest_evidence_iso": "2026-10-23T15:39:17+00:00",
+      "oldest_evidence_iso": "2026-10-23T11:22:33+00:00",
+      "newest_evidence_age_days": 0.1,
       "source_count": 3,
-      "demand_signal_score": 6700,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100",
+      "demand_signal_score": 6000,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin seeks support above $81K as Brent crude oil hits highest level since March",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 23 Oct 2026 03:13:01 +0000",
-          "published_iso": "2026-10-23T03:13:01+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/23/bitcoin-gold-trim-early-losses-as-yen-gives-up-gains-oil-stays-near-usd100",
-          "source_type": "rss"
-        },
-        {
-          "title": "Switzerland approves first spot Bitcoin ETF for retail investors",
+          "title": "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March",
           "source_name": "Cointelegraph",
-          "published": "Fri, 23 Oct 2026 00:59:35 +0000",
-          "published_iso": "2026-10-23T00:59:35+00:00",
-          "link": "https://cointelegraph.com/news/switzerland-approves-first-spot-bitcoin-etf-for-retail-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Fri, 23 Oct 2026 15:39:17 +0000",
+          "published_iso": "2026-10-23T15:39:17+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-seeks-support-above-81k-as-brent-crude-oil-hits-highest-level-since-march?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-10-22 21:41:46",
-          "published_iso": "2026-10-22 21:41:46",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-back-to-82k-as-ai-selldown-rising-oil-batter-risk-4964695",
+          "title": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 23 Oct 2026 13:58:56 +0000",
+          "published_iso": "2026-10-23T13:58:56+00:00",
+          "link": "https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness",
+          "source_name": "Cointelegraph",
+          "published": "Fri, 23 Oct 2026 12:23:58 +0000",
+          "published_iso": "2026-10-23T12:23:58+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-consolidates-after-3-loss-as-ai-fears-stoke-fresh-stock-market-weakness?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "quality_status": "review_before_publish",
+      "ready_now": false,
+      "publish_date": "2026-10-25",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-10-23T15:59:45+00:00",
+      "oldest_evidence_iso": "2026-10-23T09:04:09+00:00",
+      "newest_evidence_age_days": 0.0,
+      "source_count": 3,
+      "demand_signal_score": 2100,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: U.S. Government Takes a Cut of Chip Business in Japan-Funded Deal",
+      "recommendation": "신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "U.S. Government Takes a Cut of Chip Business in Japan-Funded Deal",
+          "source_name": "NYT Business",
+          "published": "Fri, 23 Oct 2026 15:59:45 +0000",
+          "published_iso": "2026-10-23T15:59:45+00:00",
+          "link": "https://www.nytimes.com/2026/10/23/business/economy/us-japan-chip-deal.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 23 Oct 2026 11:22:33 +0000",
+          "published_iso": "2026-10-23T11:22:33+00:00",
+          "link": "https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s",
+          "source_type": "rss"
+        },
+        {
+          "title": "Anthropic strikes deal to launch European consultancy",
+          "source_name": "Financial Times Home",
+          "published": "Fri, 23 Oct 2026 09:04:09 GMT",
+          "published_iso": "2026-10-23T09:04:09+00:00",
+          "link": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ]

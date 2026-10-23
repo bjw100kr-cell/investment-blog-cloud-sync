@@ -1,17 +1,17 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-10-23T04:16:19.640745+00:00`
+- 생성 시각: `2026-10-23T16:54:37.249537+00:00`
 
-## 1. treasury_yields
+## 1. fomc
 
-- 추천 제목: 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-- 각도: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
-- 점수: 82.0
+- 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 점수: 89.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
+  - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
+  - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -60,17 +60,17 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 미국채 2년/10년 금리 수치 재확인
-  - 기준 시각과 비교 기준 명시
-  - 주식/코인 반응 인과관계 과장 여부 점검
+  - FOMC 성명서 원문 날짜와 발표 시각 확인
+  - 점도표/경제전망 최신 버전 확인
+  - 달러, 미국채 금리, 나스닥 관련 수치 재확인
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - 10-year Treasury yield tumbles below 5% to lowest level in nearly a month
-  - Europe’s bracing reality on US bond yields
-  - Beware Bessent’s tilt towards short-term debt
-  - US Treasury proposes tighter rules on investing in sensitive Chinese tech
-  - The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash
+  - Federal Reserve issues FOMC statement
+  - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
+  - Federal Reserve issues FOMC statement
+  - Wall St Week Ahead Earnings flood, Fed meeting pose pivotal tests for rickety AI market rally - Reuters
+  - AI trade meets the Fed - Reuters
 
 ## 2. bitcoin
 
@@ -136,22 +136,22 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100
-  - Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm
-  - A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech
-  - Crypto for Advisors: Stablecoins are ready for prime time
-  - Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa
+  - Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports
+  - Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy
+  - Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro
+  - Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high
+  - Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%
 
-## 3. us_big_tech
+## 3. ai_semiconductors
 
-- 추천 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- 각도: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 72.0
+- 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 67.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
+  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -200,22 +200,21 @@
   - 해설: 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.
   - 마무리: 반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다.
 - 팩트체크:
-  - 대표 종목 가격 변동률과 기준 시각 재확인
-  - 실적/가격 인상/공급망 뉴스 원문 링크 확인
-  - 개별 종목 이슈를 시장 전체 흐름처럼 과장하지 않기
+  - 기업 실적/가이던스 수치 원문 확인
+  - 반도체 섹터 전반 일반화 과장 여부 점검
+  - 대표 종목 티커와 실적 날짜 재확인
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Meta stock sinks nearly 7% as AI spend pushes free cash flow negative
-  - Steep bill for AI buildout punishes Meta, other tech favorites - Reuters
-  - 3 big reasons Micron and other chip stocks fell hard on Thursday
-  - Zuckerberg’s Big Deal to Stay in California
+  - Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro
+  - Anthropic strikes deal to launch European consultancy
+  - U.S. Government Takes a Cut of Chip Business in Japan-Funded Deal
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 섹터/세계 흐름 연결 해설 가능
-- 점수: 45.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 64.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -275,4 +274,6 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Caught between the US and China
+  - China targets 2030 for its national blockchain network buildout
+  - GLP-1 boom in China, India, Brazil could create $22 bln market by 2035, J.P. Morgan says - Reuters
+  - Volvo Shares Plunge as China Ambitions Fade for Western Carmakers

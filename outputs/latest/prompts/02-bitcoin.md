@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100",
-    "Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm",
-    "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech",
-    "Crypto for Advisors: Stablecoins are ready for prime time",
-    "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa"
+    "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
+    "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
+    "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
+    "Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high",
+    "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
