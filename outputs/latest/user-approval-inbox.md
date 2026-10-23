@@ -47,8 +47,8 @@
 - excerpt: - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다.
 - preview: 한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
-- evidence: Cointelegraph / 2026-10-22T16:50:51+00:00 / Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition
-- evidence: Cointelegraph / 2026-10-22T16:20:35+00:00 / Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower
+- evidence: CoinDesk RSS / 2026-10-23T03:13:01+00:00 / Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100
+- evidence: Cointelegraph / 2026-10-23T00:59:35+00:00 / Switzerland approves first spot Bitcoin ETF for retail investors
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - recovery_mode: `publish_direct`
@@ -75,8 +75,8 @@
 - excerpt: - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다.
 - preview: 한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
-- evidence: MarketWatch Breaking News / 2026-10-22T16:48:00+00:00 / Zuckerberg’s California tax move is a win for Meta — and for him
-- evidence: CNBC Top News / 2026-10-22T15:45:57+00:00 / Meta stock sinks 6% as AI spend pushes free cash flow negative
+- evidence: CNBC Top News / 2026-10-22T20:03:03+00:00 / Meta stock sinks nearly 7% as AI spend pushes free cash flow negative
+- evidence: Reuters Markets via Google News RSS / 2026-10-22T18:33:00+00:00 / Steep bill for AI buildout punishes Meta, other tech favorites - Reuters
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech`
 - recovery_mode: `publish_direct`

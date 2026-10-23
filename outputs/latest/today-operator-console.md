@@ -74,19 +74,18 @@
     - 문단 구분이 깨지면 HTML 보기에서 한 번 더 줄 바꿈 정리
     - 발행 URL과 대표 키워드를 수기 스프레드시트나 텍스트로 저장
 
-- `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / verdict `approve` / publish `2026-10-23`
-- `미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자` / keyword `us_big_tech` / verdict `approve` / publish `2026-10-24`
-- `유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지` / keyword `oil` / verdict `approve` / publish `2026-10-22`
+- `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / verdict `approve` / publish `2026-10-24`
+- `미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자` / keyword `us_big_tech` / verdict `approve` / publish `2026-10-25`
+- `미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유` / keyword `treasury_yields` / verdict `approve` / publish `2026-10-23`
 
 ## 1.5. 하루 200명 목표
 
 - target: `200`
-- projected: `274`
-- gap: `0`
-- status: `estimated_on_track_measurement_missing`
+- projected: `156`
+- gap: `44`
+- status: `needs_more_distribution`
 - `bitcoin` 예상 `95`명: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- `us_big_tech` 예상 `94`명: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- `fomc` 예상 `85`명: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+- `us_big_tech` 예상 `61`명: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 - actual_verified: `0`
 - proof_status: `measurement_missing`
 - proof_gap: `200`
@@ -94,7 +93,7 @@
 ## 2. 사용자 확인 명령
 
 - single: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin oil`
+- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin treasury_yields`
 - review board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/review-preview-board.html`
 - reply preview: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행"`
 - reply apply: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "bitcoin 글 먼저 진행" --apply`

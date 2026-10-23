@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T17:01:57.343909+00:00",
+  "generated_at": "2026-10-23T04:16:19.640745+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -14,74 +14,46 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 7000,
+      "demand_signal_score": 6700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 58,
-      "source_count": 4,
+      "source_snapshot_score": 55,
+      "source_count": 3,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Crypto for Advisors: Stablecoins are ready for prime time",
-        "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa",
-        "Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence"
+        "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100",
+        "Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm",
+        "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech"
       ]
     },
     {
-      "keyword": "us_big_tech",
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3600,
+      "demand_signal_score": 3000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 24,
-      "source_count": 6,
+      "source_snapshot_score": 18,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
-        "Financial Times World",
         "MarketWatch Breaking News",
         "NYT Business"
       ],
       "sample_titles": [
-        "Meta stock sinks 6% as AI spend pushes free cash flow negative",
-        "Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist",
-        "Meta sell-off drags US tech stocks lower as AI spending fears flare up"
-      ]
-    },
-    {
-      "keyword": "oil",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3200,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 5,
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times World",
-        "Investing.com Crypto News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again",
-        "Bitcoin drops back below $82k as AI selldown, rising oil batter risk",
-        "Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters"
+        "10-year Treasury yield tumbles below 5% to lowest level in nearly a month",
+        "Europe’s bracing reality on US bond yields",
+        "Beware Bessent’s tilt towards short-term debt"
       ]
     },
     {
@@ -103,6 +75,32 @@
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2700,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 15,
+      "source_count": 5,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100",
+        "10-year Treasury yield tumbles below 5% to lowest level in nearly a month",
+        "Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment"
       ]
     }
   ],

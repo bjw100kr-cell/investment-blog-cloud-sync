@@ -1,46 +1,46 @@
 {
   "item_count": 3,
   "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin oil",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin treasury_yields",
   "cards": [
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-10-23",
+      "publish_date": "2026-10-24",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Crypto for Advisors: Stablecoins are ready for prime time",
-        "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa",
-        "Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence"
+        "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100",
+        "Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm",
+        "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech"
       ],
       "recent_evidence": [
         {
-          "title": "Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition",
-          "source_name": "Cointelegraph",
-          "published": "Thu, 22 Oct 2026 16:50:51 +0000",
-          "published_iso": "2026-10-22T16:50:51+00:00",
-          "link": "https://cointelegraph.com/news/bitcoin-mining-difficulty-hashrate-recovery-ai-shift?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 23 Oct 2026 03:13:01 +0000",
+          "published_iso": "2026-10-23T03:13:01+00:00",
+          "link": "https://www.coindesk.com/markets/2026/10/23/bitcoin-gold-trim-early-losses-as-yen-gives-up-gains-oil-stays-near-usd100",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower",
+          "title": "Switzerland approves first spot Bitcoin ETF for retail investors",
           "source_name": "Cointelegraph",
-          "published": "Thu, 22 Oct 2026 16:20:35 +0000",
-          "published_iso": "2026-10-22T16:20:35+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Fri, 23 Oct 2026 00:59:35 +0000",
+          "published_iso": "2026-10-23T00:59:35+00:00",
+          "link": "https://cointelegraph.com/news/switzerland-approves-first-spot-bitcoin-etf-for-retail-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions",
-          "source_name": "Cointelegraph",
-          "published": "Thu, 22 Oct 2026 13:42:34 +0000",
-          "published_iso": "2026-10-22T13:42:34+00:00",
-          "link": "https://cointelegraph.com/markets/cryptoquant-rising-bitcoin-hashrate-indirect-bullish-signal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-10-22 21:41:46",
+          "published_iso": "2026-10-22 21:41:46",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-back-to-82k-as-ai-selldown-rising-oil-batter-risk-4964695",
           "source_type": "rss"
         }
       ],
@@ -61,41 +61,33 @@
     {
       "keyword": "us_big_tech",
       "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-      "publish_date": "2026-10-24",
+      "publish_date": "2026-10-25",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (6개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Meta stock sinks 6% as AI spend pushes free cash flow negative",
-        "Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist",
-        "Meta sell-off drags US tech stocks lower as AI spending fears flare up"
+        "Meta stock sinks nearly 7% as AI spend pushes free cash flow negative",
+        "Steep bill for AI buildout punishes Meta, other tech favorites - Reuters",
+        "3 big reasons Micron and other chip stocks fell hard on Thursday"
       ],
       "recent_evidence": [
         {
-          "title": "Zuckerberg’s California tax move is a win for Meta — and for him",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Thu, 22 Oct 2026 16:48:00 GMT",
-          "published_iso": "2026-10-22T16:48:00+00:00",
-          "link": "https://www.marketwatch.com/story/zuckerbergs-california-tax-move-is-a-win-for-meta-and-for-him-aa049c94?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "Meta stock sinks 6% as AI spend pushes free cash flow negative",
+          "title": "Meta stock sinks nearly 7% as AI spend pushes free cash flow negative",
           "source_name": "CNBC Top News",
-          "published": "Thu, 22 Oct 2026 15:45:57 GMT",
-          "published_iso": "2026-10-22T15:45:57+00:00",
+          "published": "Thu, 22 Oct 2026 20:03:03 GMT",
+          "published_iso": "2026-10-22T20:03:03+00:00",
           "link": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html",
           "source_type": "rss"
         },
         {
-          "title": "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
-          "source_name": "Financial Times Home",
-          "published": "Thu, 22 Oct 2026 14:58:27 GMT",
-          "published_iso": "2026-10-22T14:58:27+00:00",
-          "link": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Thu, 22 Oct 2026 18:33:00 GMT",
+          "published_iso": "2026-10-22T18:33:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaG4yYUM1ZzJnZmtpWnhIUVEzU01PRmxZM1BDRDJLazA1dkdaX3k0Z2pPMHJJUi1HUEM2OF9oV1JzSFh3d1dEU0dzc3JMQWRCeDhRa2JvNGVBbVluUlY4UGY3REoyWVZkTFBZT3BGa0swX2s1RzY3MDM5ZWlBTm1wYVBYNEt5M2VlTFoyRVNTTXJUaUVVYzVNcUtQQ2hfUW9nalZGbQ?oc=5",
           "source_type": "rss"
         }
       ],
@@ -114,58 +106,58 @@
       "hard_blocking_checks": []
     },
     {
-      "keyword": "oil",
-      "title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
-      "publish_date": "2026-10-22",
+      "keyword": "treasury_yields",
+      "title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+      "publish_date": "2026-10-23",
       "review_verdict": "approve",
       "quality_status": "review_before_publish",
       "ready_now": false,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again",
-        "Bitcoin drops back below $82k as AI selldown, rising oil batter risk",
-        "Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters"
+        "10-year Treasury yield tumbles below 5% to lowest level in nearly a month",
+        "Europe’s bracing reality on US bond yields",
+        "Beware Bessent’s tilt towards short-term debt"
       ],
       "recent_evidence": [
         {
-          "title": "Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again",
-          "source_name": "CNBC Top News",
-          "published": "Thu, 22 Oct 2026 15:16:05 GMT",
-          "published_iso": "2026-10-22T15:16:05+00:00",
-          "link": "https://www.cnbc.com/2026/10/22/under-the-radar-stocks-to-play-the-next-leg-of-the-energy-trade-with-oil-prices-jumping-again.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters",
+          "title": "Asian shares wobble as tech rout boosts bonds, dents rate hike bets - Reuters",
           "source_name": "Reuters Markets via Google News RSS",
-          "published": "Thu, 22 Oct 2026 14:20:56 GMT",
-          "published_iso": "2026-10-22T14:20:56+00:00",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5",
+          "published": "Fri, 23 Oct 2026 01:50:00 GMT",
+          "published_iso": "2026-10-23T01:50:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5uTk9BQ2lzbUtHT1k4Nlp4RlRCcXFvVXR5YUhCamhubGQ1SlB0c2FYczVLdl9ESzJBRzdkNmVuYU1ISVc2MndXWnBZTzBDNFdzeHBEQTNPTGU2SGhBTmtKM3Z1SWUxR2szN20yYWIySGIzUXlZcXVhdGNtTlJNMGN1WQ?oc=5",
           "source_type": "rss"
         },
         {
-          "title": "Stocks Fall and Oil Rises as Investors Retreat from Mounting Risks",
-          "source_name": "NYT Business",
-          "published": "Thu, 22 Oct 2026 13:43:13 +0000",
-          "published_iso": "2026-10-22T13:43:13+00:00",
-          "link": "https://www.nytimes.com/2026/10/22/business/stocks-oil-prices.html",
+          "title": "US Treasury proposes tighter rules on investing in sensitive Chinese tech",
+          "source_name": "Financial Times Home",
+          "published": "Thu, 22 Oct 2026 23:13:15 GMT",
+          "published_iso": "2026-10-22T23:13:15+00:00",
+          "link": "https://www.ft.com/content/f57a1f1c-60ce-432d-a901-673ae7d1241e?syn-25a6b1a6=1",
+          "source_type": "rss"
+        },
+        {
+          "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Thu, 22 Oct 2026 22:07:00 GMT",
+          "published_iso": "2026-10-22T22:07:00+00:00",
+          "link": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
           "source_type": "rss"
         }
       ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-oil.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-%EC%9C%A0%EA%B0%80-%EC%83%81%EC%8A%B9%EC%9D%B4-%EB%AC%BC%EA%B0%80%EC%99%80-%EC%A6%9D%EC%8B%9C%EC%97%90-%EB%B2%88%EC%A7%80%EB%8A%94-%EA%B2%BD%EB%A1%9C-%ED%88%AC%EC%9E%90%EC%9E%90%EA%B0%80-%EB%B3%BC-3%EA%B0%80%EC%A7%80.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords oil",
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-treasury-yields.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-%EB%AF%B8%EA%B5%AD%EC%B1%84-%EA%B8%88%EB%A6%AC-%EC%83%81%EC%8A%B9%EC%9D%B4-%EB%82%98%EC%8A%A4%EB%8B%A5%EA%B3%BC-%EC%BD%94%EC%9D%B8%EC%97%90-%EB%B6%80%EB%8B%B4%EC%9D%B4-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields",
       "next_action": "사용자 최종 확인 후 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords oil",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields",
       "followup_commands": [
         "python3 scripts/build_platform_publish_plan.py",
         "python3 scripts/upload_blogger_drafts.py",
         "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
       ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword oil",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword oil --apply",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword treasury_yields",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword treasury_yields --apply",
       "hard_blocking_checks": []
     }
   ]

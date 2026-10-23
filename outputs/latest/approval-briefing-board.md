@@ -5,27 +5,27 @@
 - 상태: 사용자 최종 확인 전에는 실제 업로드가 차단됩니다.
 - item_count: `3`
 - single confirmation: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- batch confirmation: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin oil`
+- batch confirmation: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin treasury_yields`
 
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-10-23` / priority `126.0`
+- keyword `bitcoin` / publish `2026-10-24` / priority `122.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
-- reason: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
-- evidence score: demand `7000` / fallback `source_snapshot_rank` / format `crypto_analysis`
-- source_names: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- evidence score: demand `6700` / fallback `source_snapshot_rank` / format `crypto_analysis`
+- source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - sample_headlines:
+  - Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100
+  - Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm
+  - A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech
   - Crypto for Advisors: Stablecoins are ready for prime time
-  - Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa
-  - Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence
-  - Ethereum’s four-minute settlement plan could lower the cost of moving crypto
 - recent_evidence:
-  - Cointelegraph | 2026-10-22T16:50:51+00:00 | Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition
-  - Cointelegraph | 2026-10-22T16:20:35+00:00 | Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower
-  - Cointelegraph | 2026-10-22T13:42:34+00:00 | CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions
-  - CoinDesk RSS | 2026-10-22T11:20:04+00:00 | Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble
+  - CoinDesk RSS | 2026-10-23T03:13:01+00:00 | Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100
+  - Cointelegraph | 2026-10-23T00:59:35+00:00 | Switzerland approves first spot Bitcoin ETF for retail investors
+  - Investing.com Crypto News | 2026-10-22 21:41:46 | Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment
+  - Investing.com Crypto News | 2026-10-22 19:17:58 | Bitcoin breaks below 200 SMA and cloud: Live levels
 - image_slots:
   - 대표 이미지 / Pexels / `bitcoin blockchain abstract blue finance` / Pexels License
   - 본문 보조 이미지 / Unsplash / `crypto market data abstract` / Unsplash License
@@ -45,17 +45,17 @@
 
 ## 도입부
 
-2026년 10월 22일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 10월 23일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Crypto for Advisors: Stablecoins are ready for prime time` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+쉽게 말해 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Crypto for Advisors: Stablecoins are ready for prime time`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `현물 ETF 순유입/순유출`, 다른 하나는 `달러 인덱스와 미국채 금리`입니다.
 한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -103,7 +103,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 주요 참고 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 발행 전 재확인: BTC 가격 기준 시각 재확인
 - 발행 전 재확인: ETF 자금 유입 여부 공식/신뢰 소스 재확인
 - 발행 전 재확인: 단정적 가격 전망 문장 제거
@@ -127,23 +127,21 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 2. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
-- keyword `us_big_tech` / publish `2026-10-24` / priority `120.0`
+- keyword `us_big_tech` / publish `2026-10-25` / priority `99.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
-- reason: 복수 소스 교차 확인 가능 (6개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- evidence score: demand `3600` / fallback `source_snapshot_rank` / format `sector_analysis`
-- source_names: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- reason: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- evidence score: demand `0` / fallback `mapped_candidate` / format `sector_analysis`
+- source_names: CNBC Top News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - sample_headlines:
-  - Meta stock sinks 6% as AI spend pushes free cash flow negative
-  - Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist
-  - Meta sell-off drags US tech stocks lower as AI spending fears flare up
-  - Stocks fall as Meta dents AI optimism; French bonds under fire - Reuters
+  - Meta stock sinks nearly 7% as AI spend pushes free cash flow negative
+  - Steep bill for AI buildout punishes Meta, other tech favorites - Reuters
+  - 3 big reasons Micron and other chip stocks fell hard on Thursday
+  - Zuckerberg’s Big Deal to Stay in California
 - recent_evidence:
-  - MarketWatch Breaking News | 2026-10-22T16:48:00+00:00 | Zuckerberg’s California tax move is a win for Meta — and for him
-  - CNBC Top News | 2026-10-22T15:45:57+00:00 | Meta stock sinks 6% as AI spend pushes free cash flow negative
-  - Financial Times Home | 2026-10-22T14:58:27+00:00 | Meta sell-off drags US tech stocks lower as AI spending fears flare up
-  - Financial Times World | 2026-10-22T13:40:22+00:00 | Meta agrees deal to keep Zuckerberg in California despite wealth tax proposal
+  - CNBC Top News | 2026-10-22T20:03:03+00:00 | Meta stock sinks nearly 7% as AI spend pushes free cash flow negative
+  - Reuters Markets via Google News RSS | 2026-10-22T18:33:00+00:00 | Steep bill for AI buildout punishes Meta, other tech favorites - Reuters
 - image_slots:
   - 대표 이미지 / Unsplash / `technology stocks office city abstract` / Unsplash License
   - 본문 보조 이미지 / Pexels / `semiconductor server data center abstract` / Pexels License
@@ -163,17 +161,17 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 도입부
 
-2026년 10월 22일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 10월 23일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 해외 주요 매체 보도를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Meta stock sinks 6% as AI spend pushes free cash flow negative` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+예를 들어 `Meta stock sinks nearly 7% as AI spend pushes free cash flow negative` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Meta stock sinks 6% as AI spend pushes free cash flow negative`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Meta stock sinks nearly 7% as AI spend pushes free cash flow negative`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `나스닥과 S&P500 상대 강도`, 다른 하나는 `미국채 10년물 금리`입니다.
 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -221,7 +219,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 주요 참고 소스: CNBC Top News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 발행 전 재확인: 대표 종목 가격 변동률과 기준 시각 재확인
 - 발행 전 재확인: 실적/가격 인상/공급망 뉴스 원문 링크 확인
 - 발행 전 재확인: 개별 종목 이슈를 시장 전체 흐름처럼 과장하지 않기
@@ -243,25 +241,25 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 ```
 
-## 3. 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+## 3. 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 
-- keyword `oil` / publish `2026-10-22` / priority `123.0`
+- keyword `treasury_yields` / publish `2026-10-23` / priority `125.0`
 - review `approve` score `100` / quality `review_before_publish` / ready_now `False`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
-- reason: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- evidence score: demand `3200` / fallback `source_snapshot_rank` / format `macro_explainer`
-- source_names: CNBC Top News, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- reason: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- evidence score: demand `3000` / fallback `source_snapshot_rank` / format `macro_explainer`
+- source_names: CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business
 - sample_headlines:
-  - Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again
-  - Bitcoin drops back below $82k as AI selldown, rising oil batter risk
-  - Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters
-  - COMMENTARY: Morning Bid: Rattled by oil, tech and France - Reuters
+  - 10-year Treasury yield tumbles below 5% to lowest level in nearly a month
+  - Europe’s bracing reality on US bond yields
+  - Beware Bessent’s tilt towards short-term debt
+  - US Treasury proposes tighter rules on investing in sensitive Chinese tech
 - recent_evidence:
-  - CNBC Top News | 2026-10-22T15:16:05+00:00 | Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again
-  - Reuters Markets via Google News RSS | 2026-10-22T14:20:56+00:00 | Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters
-  - NYT Business | 2026-10-22T13:43:13+00:00 | Stocks Fall and Oil Rises as Investors Retreat from Mounting Risks
-  - Reuters Markets via Google News RSS | 2026-10-22T10:53:43+00:00 | COMMENTARY: Morning Bid: Rattled by oil, tech and France - Reuters
+  - Reuters Markets via Google News RSS | 2026-10-23T01:50:00+00:00 | Asian shares wobble as tech rout boosts bonds, dents rate hike bets - Reuters
+  - Financial Times Home | 2026-10-22T23:13:15+00:00 | US Treasury proposes tighter rules on investing in sensitive Chinese tech
+  - MarketWatch Breaking News | 2026-10-22T22:07:00+00:00 | Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.
+  - CNBC Top News | 2026-10-22T20:05:13+00:00 | 10-year Treasury yield tumbles below 5% to lowest level in nearly a month
 - image_slots:
   - 대표 이미지 / Unsplash / `central bank finance city skyline market data` / Unsplash License
   - 본문 보조 이미지 / Pexels / `interest rate macro economy data screen` / Pexels License
@@ -269,29 +267,29 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 ### Draft Body
 
 ```md
-# 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 오늘 시장이 반응한 이유와 확인할 3가지
+# 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 오늘 시장이 반응한 이유와 확인할 3가지
 
 한 줄 요약: `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 
 ## 오늘 핵심 3줄
 
-- 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다.
+- 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유은 제목만 보면 단순 뉴스처럼 보이지만, 실제로는 자금 흐름과 투자심리를 같이 건드릴 수 있는 이슈입니다.
 - 핵심은 발표 자체보다 시장이 그 발표를 어떤 방향으로 해석했는지입니다.
 - 개인 투자자는 가격 반응, 관련 자산 확산, 다음 공식 일정을 함께 확인하는 편이 좋습니다.
 
 ## 도입부
 
-2026년 10월 22일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 10월 23일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `공식 발표 날짜와 핵심 문구`, `달러·금리·주식·코인 중 먼저 반응한 자산`, `거래량과 자금 흐름` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+쉽게 말해 해외 주요 매체 보도를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `10-year Treasury yield tumbles below 5% to lowest level in nearly a month` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `10-year Treasury yield tumbles below 5% to lowest level in nearly a month`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `공식 발표 날짜와 핵심 문구`, 다른 하나는 `달러·금리·주식·코인 중 먼저 반응한 자산`입니다.
 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -331,18 +329,18 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## FAQ 2개
 
-### 유가가 내려가면 무조건 증시에 좋은가요?
-항상 그렇지는 않습니다. 공급 정상화 기대로 내리는 하락과 경기 둔화 우려로 내리는 하락은 시장 해석이 다를 수 있습니다.
+### 이 이슈를 볼 때 가장 먼저 확인할 것은 무엇인가요?
+핵심 숫자와 발표 시점, 그리고 시장이 그 숫자를 어떻게 해석하는지까지 함께 보는 편이 좋습니다.
 
-### 개인 투자자는 유가를 어디까지 연결해서 봐야 하나요?
-원자재 가격 자체보다 인플레이션, 금리 기대, 운송비, 관련 업종 반응까지 연결해서 보는 편이 더 실전적입니다.
+### 개인 투자자는 어떤 식으로 접근해야 하나요?
+단정적으로 결론 내리기보다 시나리오를 나눠 보고, 다음 확인 포인트를 정해 두는 방식이 더 현실적입니다.
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- 발행 전 재확인: WTI/Brent 수치 재확인
-- 발행 전 재확인: 공급 뉴스 원문 출처 확인
-- 발행 전 재확인: 인플레이션/금리 연결 문장 점검
+- 주요 참고 소스: CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business
+- 발행 전 재확인: 미국채 2년/10년 금리 수치 재확인
+- 발행 전 재확인: 기준 시각과 비교 기준 명시
+- 발행 전 재확인: 주식/코인 반응 인과관계 과장 여부 점검
 
 ## 이 글에서 같이 봐야 할 관점
 
@@ -354,7 +352,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 ## CTA
 
 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
-다음 글에서는 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 오늘 시장이 반응한 이유와 확인할 3가지 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
+다음 글에서는 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 오늘 시장이 반응한 이유와 확인할 3가지 흐름이 실제 종목이나 자산군 선택으로 어떻게 이어지는지 더 실전적으로 풀어보겠습니다.
 
 ## 면책문구
 

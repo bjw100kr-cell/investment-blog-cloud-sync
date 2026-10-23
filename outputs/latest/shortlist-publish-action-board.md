@@ -8,7 +8,7 @@ shortlist 글 기준으로 지금 남은 blocker와 다음 한 줄 실행만 따
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
-- publish_date: `2026-10-23`
+- publish_date: `2026-10-24`
 - quality_status: `pass`
 - ready_now: `True`
 - hero_image_selected: `True`
@@ -30,7 +30,7 @@ shortlist 글 기준으로 지금 남은 blocker와 다음 한 줄 실행만 따
 ## 2. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
 - keyword: `us_big_tech`
-- publish_date: `2026-10-24`
+- publish_date: `2026-10-25`
 - quality_status: `pass`
 - ready_now: `True`
 - hero_image_selected: `True`
@@ -49,21 +49,21 @@ shortlist 글 기준으로 지금 남은 blocker와 다음 한 줄 실행만 따
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply`
 
-## 3. 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+## 3. 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
 
-- keyword: `oil`
-- publish_date: `2026-10-22`
+- keyword: `treasury_yields`
+- publish_date: `2026-10-23`
 - quality_status: `review_before_publish`
 - ready_now: `False`
 - hero_image_selected: `True`
 - hard_blocking_checks: none
 - advisory_checks: follow_up_posts_present, canonical_url_present, newsletter_ready, ga4_ready
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords oil`
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields`
 - next_action: 사용자 최종 확인 후 업로드
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords oil`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords treasury_yields`
 - followup_commands:
   - `python3 scripts/build_platform_publish_plan.py`
   - `python3 scripts/upload_blogger_drafts.py`
   - `python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword oil`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword oil --apply`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword treasury_yields`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword treasury_yields --apply`

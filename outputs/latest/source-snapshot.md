@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-22T17:01:57.343909+00:00`
+- 생성 시각: `2026-10-23T04:16:19.640745+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,52 +106,52 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 58, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `us_big_tech`: score 24, source_count 6, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `oil`: score 20, source_count 5, sources CNBC Top News, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- `bitcoin`: score 55, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `treasury_yields`: score 18, source_count 4, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business
 - `fomc`: score 15, source_count 1, sources Federal Reserve Monetary Policy Press
-- `treasury_yields`: score 13, source_count 4, sources Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business
-- `us_index_flow`: score 12, source_count 4, sources CoinDesk RSS, Cointelegraph, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `crypto_etf`: score 9, source_count 3, sources CoinDesk RSS, Cointelegraph, MarketWatch Breaking News
-- `jobs`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `oil`: score 15, source_count 5, sources CNBC Top News, CoinDesk RSS, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `cpi`: score 10, source_count 3, sources CoinDesk RSS, Financial Times Home, Reuters Markets via Google News RSS
+- `us_big_tech`: score 10, source_count 4, sources CNBC Top News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `us_index_flow`: score 7, source_count 3, sources MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `crypto_etf`: score 6, source_count 1, sources Cointelegraph
 - `ai_semiconductors`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
 - `ethereum`: score 4, source_count 1, sources CoinDesk RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 58, headlines 17
-  - Crypto for Advisors: Stablecoins are ready for prime time
-  - Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa
-  - Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence
-- `us_big_tech`: score 24, headlines 9
-  - Meta stock sinks 6% as AI spend pushes free cash flow negative
-  - Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist
-  - Meta sell-off drags US tech stocks lower as AI spending fears flare up
-- `oil`: score 20, headlines 7
-  - Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again
-  - Bitcoin drops back below $82k as AI selldown, rising oil batter risk
-  - Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters
+- `bitcoin`: score 55, headlines 16
+  - Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100
+  - Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm
+  - A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech
+- `treasury_yields`: score 18, headlines 7
+  - 10-year Treasury yield tumbles below 5% to lowest level in nearly a month
+  - Europe’s bracing reality on US bond yields
+  - Beware Bessent’s tilt towards short-term debt
+- `oil`: score 15, headlines 5
+  - Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100
+  - 10-year Treasury yield tumbles below 5% to lowest level in nearly a month
+  - Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment
 - `fomc`: score 15, headlines 3
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 13, headlines 5
-  - SoFi unveils bank-issued tokenized deposit for yield-bearing crypto funds
-  - Bessent shrugs off ‘systemic’ AI risks at closed-door investor conference
-  - Europe’s bracing reality on US bond yields
-- `us_index_flow`: score 12, headlines 4
-  - Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines
-  - Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower
-  - Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters
-- `crypto_etf`: score 9, headlines 3
-  - Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble
-  - Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower
-  - Investors’ recent money moves show a preference for lowering risks over boosting rewards
-- `jobs`: score 6, headlines 2
-  - Jobless claims near the lowest since the 1960s as low-fire trend continues
-  - US weekly jobless claims near 57-year lows, underscore labor market stability - Reuters
+- `us_big_tech`: score 10, headlines 4
+  - Meta stock sinks nearly 7% as AI spend pushes free cash flow negative
+  - Steep bill for AI buildout punishes Meta, other tech favorites - Reuters
+  - 3 big reasons Micron and other chip stocks fell hard on Thursday
+- `cpi`: score 10, headlines 3
+  - Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100
+  - Beware Bessent’s tilt towards short-term debt
+  - Japan's core inflation exceeds BOJ target, cements near-term rate hike chance - Reuters
+- `us_index_flow`: score 7, headlines 3
+  - Nasdaq CEO flags 'modest softening' in IPO market as macro uncertainty hits debuts - Reuters
+  - The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash
+  - Stocks See Steepest Decline in Months Amid A.I. Worries
+- `crypto_etf`: score 6, headlines 2
+  - Switzerland approves first spot Bitcoin ETF for retail investors
+  - New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express
 - `ai_semiconductors`: score 5, headlines 2
   - Anthropic IPO stands alone as AI market jitters sideline others - Reuters
-  - Two big reasons Micron and other chip stocks are falling on Thursday
+  - 3 big reasons Micron and other chip stocks fell hard on Thursday
 - `ethereum`: score 4, headlines 1
   - Ethereum’s four-minute settlement plan could lower the cost of moving crypto

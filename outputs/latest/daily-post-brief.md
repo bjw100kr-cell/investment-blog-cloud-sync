@@ -1,21 +1,21 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-10-22T17:01:57.343909+00:00`
+- 생성 시각: `2026-10-23T04:16:19.640745+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
-## 1. oil
+## 1. treasury_yields
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `81.0`
-- 점수 구성: 검색성 23 / 시의성 21 / 설명가치 16 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, Financial Times World, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- 총점: `82.0`
+- 점수 구성: 검색성 21 / 시의성 20 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business
 - 제목 후보:
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -23,21 +23,20 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again
-  - Bitcoin drops back below $82k as AI selldown, rising oil batter risk
-  - Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters
-  - COMMENTARY: Morning Bid: Rattled by oil, tech and France - Reuters
-  - Yen jumps as oil, AI and France worries rattle markets - Reuters
+  - 10-year Treasury yield tumbles below 5% to lowest level in nearly a month
+  - Europe’s bracing reality on US bond yields
+  - Beware Bessent’s tilt towards short-term debt
+  - US Treasury proposes tighter rules on investing in sensitive Chinese tech
+  - The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `87.0`
-- 점수 구성: 검색성 29 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 3
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
-- 코인 시장 신호: BTCUSDT 24h change -4.04%
-- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 총점: `83.0`
+- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
@@ -49,20 +48,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100
+  - Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm
+  - A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech
   - Crypto for Advisors: Stablecoins are ready for prime time
   - Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa
-  - Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence
-  - Ethereum’s four-minute settlement plan could lower the cost of moving crypto
-  - Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble
 
 ## 3. us_big_tech
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `85.0`
-- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 16 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (6개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 총점: `72.0`
+- 점수 구성: 검색성 14 / 시의성 20 / 설명가치 16 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: CNBC Top News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
   - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
@@ -74,13 +73,33 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Meta stock sinks 6% as AI spend pushes free cash flow negative
-  - Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist
-  - Meta sell-off drags US tech stocks lower as AI spending fears flare up
-  - Stocks fall as Meta dents AI optimism; French bonds under fire - Reuters
-  - Zuckerberg’s California tax move is a win for Meta — and for him
+  - Meta stock sinks nearly 7% as AI spend pushes free cash flow negative
+  - Steep bill for AI buildout punishes Meta, other tech favorites - Reuters
+  - 3 big reasons Micron and other chip stocks fell hard on Thursday
+  - Zuckerberg’s Big Deal to Stay in California
 
-## 4. fomc
+## 4. china
+
+- 카테고리: `global-sector`
+- 브랜드 레인: `world-flow` (세계 흐름)
+- 총점: `45.0`
+- 점수 구성: 검색성 4 / 시의성 5 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 섹터/세계 흐름 연결 해설 가능
+- 소스: Financial Times Home
+- 제목 후보:
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- 글 구조:
+  - 왜 지금 이 이슈가 중요한가
+  - 실제로 발표되거나 벌어진 일
+  - 주식·코인·달러·금리에 주는 영향
+  - 앞으로 체크할 변수
+  - 개인 투자자가 볼 포인트
+- 참고 헤드라인:
+  - Caught between the US and China
+
+## 5. fomc
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
@@ -102,27 +121,3 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-
-## 5. us_index_flow
-
-- 카테고리: `global-sector`
-- 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `75.0`
-- 점수 구성: 검색성 15 / 시의성 20 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: CoinDesk RSS, Cointelegraph, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- 제목 후보:
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 글 구조:
-  - 지금 이 섹터가 왜 움직이는가
-  - 핵심 뉴스와 시장 반응
-  - 대표 종목과 자금 흐름
-  - 거시 변수와 연결
-  - 다음 실적/정책 이벤트
-- 참고 헤드라인:
-  - Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines
-  - Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower
-  - Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound - Reuters
-  - Investors’ recent money moves show a preference for lowering risks over boosting rewards
