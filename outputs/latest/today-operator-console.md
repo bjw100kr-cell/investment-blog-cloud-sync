@@ -74,18 +74,19 @@
     - 문단 구분이 깨지면 HTML 보기에서 한 번 더 줄 바꿈 정리
     - 발행 URL과 대표 키워드를 수기 스프레드시트나 텍스트로 저장
 
-- `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / keyword `fomc` / verdict `approve` / publish `2026-10-23`
-- `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / verdict `approve` / publish `2026-10-24`
-- `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지` / keyword `ai_semiconductors` / verdict `approve` / publish `2026-10-25`
+- `유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지` / keyword `oil` / verdict `approve` / publish `2026-10-24`
+- `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / verdict `approve` / publish `2026-10-25`
+- `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지` / keyword `ai_semiconductors` / verdict `approve` / publish `2026-10-26`
 
 ## 1.5. 하루 200명 목표
 
 - target: `200`
-- projected: `242`
+- projected: `319`
 - gap: `0`
 - status: `estimated_on_track_measurement_missing`
 - `bitcoin` 예상 `95`명: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- `fomc` 예상 `92`명: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+- `oil` 예상 `91`명: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+- `ai_semiconductors` 예상 `78`명: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - `china` 예상 `55`명: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - actual_verified: `0`
 - proof_status: `measurement_missing`
@@ -93,15 +94,15 @@
 
 ## 2. 사용자 확인 명령
 
-- single: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin`
+- single: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords oil`
+- batch: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords oil bitcoin`
 - review board: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/review-preview-board.html`
-- reply preview: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "fomc 글 먼저 진행"`
-- reply apply: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "fomc 글 먼저 진행" --apply`
+- reply preview: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "oil 글 먼저 진행"`
+- reply apply: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "oil 글 먼저 진행" --apply`
 
 ## 3. 사용자 확인 후 실행
 
-- `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "fomc 글 먼저 진행" --apply`
+- `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/run_user_approval_reply_flow.py --reply "oil 글 먼저 진행" --apply`
 - `python3 scripts/build_platform_publish_plan.py`
 - `python3 scripts/upload_blogger_drafts.py`
 - `python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state`
@@ -116,8 +117,8 @@
 
 ## 6. 오늘 수익화 경로
 
-- `main_post` / `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / 페이지뷰와 체류시간 균형 확보
-- `seo_followup` / `FOMC 이후 시장이 주식과 코인에 미치는 영향` / 검색 유입 누적과 첫 방문 독자 확보
+- `main_post` / `유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지` / 페이지뷰와 체류시간 균형 확보
+- `seo_followup` / `국제유가 전망이 주식과 코인에 미치는 영향` / 검색 유입 누적과 첫 방문 독자 확보
 - `next_slot` / `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / 페이지뷰와 체류시간 균형 확보
 
 ## 7. 다음 큰 단계

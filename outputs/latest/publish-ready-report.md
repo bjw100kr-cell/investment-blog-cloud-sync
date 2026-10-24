@@ -1,14 +1,14 @@
 # Publish Ready Report
 
-- generated_at: `2026-10-23T16:54:39.656639+00:00`
+- generated_at: `2026-10-24T04:07:32.793988+00:00`
 
-## fomc
+## oil
 
 - ready: True
 - reason: ok
-- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html
-- meta_title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- meta_description: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-유가-상승이-물가와-증시에-번지는-경로-투자자가-볼-3가지.html
+- meta_title: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+- meta_description: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
 - follow_up_post_count: 1
 
 ## bitcoin
@@ -27,7 +27,7 @@
 - html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html
 - meta_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - meta_description: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
-- follow_up_post_count: 0
+- follow_up_post_count: 3
 
 ## china
 

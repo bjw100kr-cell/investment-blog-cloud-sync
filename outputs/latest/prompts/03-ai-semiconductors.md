@@ -109,12 +109,13 @@
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CoinDesk RSS",
-    "Financial Times Home",
+    "MarketWatch Breaking News",
     "NYT Business"
   ],
   "reference_headlines": [
     "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
-    "Anthropic strikes deal to launch European consultancy",
+    "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
+    "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
     "U.S. Government Takes a Cut of Chip Business in Japan-Funded Deal"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
@@ -178,9 +179,9 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 67.0,
-    "search_score": 14,
-    "timeliness_score": 15,
+    "total_score": 71.0,
+    "search_score": 15,
+    "timeliness_score": 18,
     "explanatory_score": 18,
     "monetization_score": 15,
     "risk_score": 5

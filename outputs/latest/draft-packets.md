@@ -1,17 +1,17 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-10-23T16:54:37.249537+00:00`
+- 생성 시각: `2026-10-24T04:07:30.296716+00:00`
 
-## 1. fomc
+## 1. oil
 
-- 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 89.0
+- 추천 제목: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+- 각도: 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
+- 점수: 81.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
-  - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -60,17 +60,17 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - FOMC 성명서 원문 날짜와 발표 시각 확인
-  - 점도표/경제전망 최신 버전 확인
-  - 달러, 미국채 금리, 나스닥 관련 수치 재확인
+  - WTI/Brent 수치 재확인
+  - 공급 뉴스 원문 출처 확인
+  - 인플레이션/금리 연결 문장 점검
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Federal Reserve issues FOMC statement
-  - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Federal Reserve issues FOMC statement
-  - Wall St Week Ahead Earnings flood, Fed meeting pose pivotal tests for rickety AI market rally - Reuters
-  - AI trade meets the Fed - Reuters
+  - Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports
+  - Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high
+  - Bitcoin seeks support above $81K as Brent crude oil hits highest level since March
+  - Bitcoin flat around $82k as tech rout, rising oil dent risk
+  - Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment
 
 ## 2. bitcoin
 
@@ -146,7 +146,7 @@
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 67.0
+- 점수: 71.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -207,14 +207,15 @@
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
   - Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro
-  - Anthropic strikes deal to launch European consultancy
+  - Will Anthropic pull off a November IPO? Time is running out to file key paperwork.
+  - Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.
   - U.S. Government Takes a Cut of Chip Business in Japan-Funded Deal
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 64.0
+- 점수: 65.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -275,5 +276,5 @@
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
   - China targets 2030 for its national blockchain network buildout
+  - Xi gathers China’s top cadres with focus on discipline
   - GLP-1 boom in China, India, Brazil could create $22 bln market by 2035, J.P. Morgan says - Reuters
-  - Volvo Shares Plunge as China Ambitions Fade for Western Carmakers
