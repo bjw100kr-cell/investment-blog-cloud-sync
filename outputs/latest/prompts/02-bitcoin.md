@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
-    "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
-    "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
-    "Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high",
-    "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%"
+    "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
+    "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO",
+    "IRS plans lower tax disclosure penalties, including for crypto: Forbes",
+    "US senator probes Tether after reported deal with ex-Trump crypto adviser",
+    "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 83.0,
-    "search_score": 29,
+    "total_score": 82.0,
+    "search_score": 26,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,

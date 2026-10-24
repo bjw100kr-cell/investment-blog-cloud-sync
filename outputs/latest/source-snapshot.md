@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-24T04:07:30.296716+00:00`
+- 생성 시각: `2026-10-24T15:47:34.967872+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -100,45 +100,45 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 48, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `oil`: score 22, source_count 5, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- `fomc`: score 15, source_count 1, sources Federal Reserve Monetary Policy Press
-- `ai_semiconductors`: score 10, source_count 3, sources CoinDesk RSS, MarketWatch Breaking News, NYT Business
-- `china`: score 9, source_count 3, sources Cointelegraph, Financial Times Home, Reuters Markets via Google News RSS
-- `us_big_tech`: score 6, source_count 1, sources CNBC Top News
-- `treasury_yields`: score 6, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
+- `bitcoin`: score 35, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 18, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `oil`: score 17, source_count 4, sources Cointelegraph, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- `treasury_yields`: score 7, source_count 2, sources CNBC Top News, CoinDesk RSS
+- `china`: score 6, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
+- `us_index_flow`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_big_tech`: score 4, source_count 1, sources CoinDesk RSS
 - `ethereum`: score 3, source_count 1, sources Cointelegraph
+- `ai_semiconductors`: score 3, source_count 1, sources CNBC Top News
 - `crypto_etf`: score 2, source_count 1, sources MarketWatch Breaking News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 48, headlines 14
-  - Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports
-  - Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy
-  - Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro
-- `oil`: score 22, headlines 7
-  - Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports
-  - Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high
-  - Bitcoin seeks support above $81K as Brent crude oil hits highest level since March
-- `fomc`: score 15, headlines 3
+- `bitcoin`: score 35, headlines 11
+  - Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations
+  - Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO
+  - IRS plans lower tax disclosure penalties, including for crypto: Forbes
+- `fomc`: score 18, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `ai_semiconductors`: score 10, headlines 4
-  - Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro
-  - Will Anthropic pull off a November IPO? Time is running out to file key paperwork.
-  - Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.
-- `china`: score 9, headlines 3
+- `oil`: score 17, headlines 6
+  - Bitcoin seeks support above $81K as Brent crude oil hits highest level since March
+  - Bitcoin flat around $82k as tech rout, rising oil dent risk
+  - Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment
+- `treasury_yields`: score 7, headlines 2
+  - Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO
+  - What next for France as riots rattle markets? Three questions facing investors ahead of more protests
+- `china`: score 6, headlines 2
   - China targets 2030 for its national blockchain network buildout
-  - Xi gathers China’s top cadres with focus on discipline
   - GLP-1 boom in China, India, Brazil could create $22 bln market by 2035, J.P. Morgan says - Reuters
-- `treasury_yields`: score 6, headlines 2
-  - Morning Bid: Wake up! The long bond's up two points! - Reuters
-  - John Healey to give £20bn boost to UK’s business lender and infrastructure bank
-- `us_big_tech`: score 6, headlines 2
-  - Scalpers offer Apple iPhone Duo buyers hundreds extra outside Beijing launch
-  - Meta shares are down 9% this week. Here's why Mike Khouw is buying now
+- `us_index_flow`: score 5, headlines 2
+  - Nasdaq CEO flags 'modest softening' in IPO market as macro uncertainty hits debuts - Reuters
+  - Investors’ recent money moves show a preference for lowering risks over boosting rewards
+- `us_big_tech`: score 4, headlines 1
+  - Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker
+- `ai_semiconductors`: score 3, headlines 1
+  - Nvidia's role as AI financier faces first big test as neoclouds take market hit
 - `ethereum`: score 3, headlines 1
   - Initia halts blockchain after exploit reportedly drains over $2.6M
 - `crypto_etf`: score 2, headlines 1
-  - Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.
+  - Investors’ recent money moves show a preference for lowering risks over boosting rewards
