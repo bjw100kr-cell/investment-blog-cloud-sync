@@ -1,6 +1,6 @@
 # Daily 200 Visitor Action Board
 
-- 생성 시각: `2026-10-24T15:47:40.027982+00:00`
+- 생성 시각: `2026-10-25T04:09:54.376470+00:00`
 - 목표: 하루 `200`명
 - 상태: `measurement_missing_keep_building`
 - 실측 방문자: `0`
@@ -37,11 +37,18 @@
 - supporting_queries: 유가 상승 주식 영향, WTI 유가 보는법, 원유 가격 인플레이션 영향
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
+### 중국 경기부양 수혜주
+
+- mapped_keyword: `china`
+- suggested_title: 중국 경기부양 수혜주 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 중국 증시 영향, 위안화 환율 시장 영향, 중국 부동산 리스크
+- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
+
 ## 공개 URL 배포 액션
 
 - 공개 URL 수: `16`
 - 수동 체크리스트 수: `48`
-- 공개 SEO 확장 글 수: `13`
+- 공개 SEO 확장 글 수: `12`
 - 전체 수동 배포 잠재 방문자: `560`
 
 - `bitcoin`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html

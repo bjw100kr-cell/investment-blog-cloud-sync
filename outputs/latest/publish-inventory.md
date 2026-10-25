@@ -1,6 +1,6 @@
 # 발행 재고판
 
-- 생성 시각: `2026-10-24T15:47:39.155017+00:00`
+- 생성 시각: `2026-10-25T04:09:53.728057+00:00`
 - 전체 발행 후보: `7`
 - 업로드 가능 글 수: `7`
 - 메인 글 수: `4`
@@ -13,34 +13,34 @@
 - source_keyword: bitcoin
 - role/type: lane_focus_crypto / breaking_explainer
 - ready_to_upload: True
-- publish_date: 2026-10-25 / bucket: tomorrow
-- priority_score: 121.0
+- publish_date: 2026-10-26 / bucket: tomorrow
+- priority_score: 124.0
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - search_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - cta_focus: ETF·규제·초보 가이드 글로 연결
 
-## 2. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-
-- inventory_type: main_post
-- keyword: us_index_flow
-- source_keyword: us_index_flow
-- role/type: lane_focus_us-stocks / breaking_explainer
-- ready_to_upload: True
-- publish_date: 2026-10-26 / bucket: this_week
-- priority_score: 86.0
-- revenue_objective: 페이지뷰와 체류시간 균형 확보
-- search_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- cta_focus: 실적·공급망·대표 종목 글로 연결
-
-## 3. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+## 2. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 
 - inventory_type: main_post
 - keyword: china
 - source_keyword: china
 - role/type: lane_focus_world-flow / breaking_explainer
 - ready_to_upload: True
+- publish_date: 2026-10-28 / bucket: this_week
+- priority_score: 100.0
+- revenue_objective: 페이지뷰와 체류시간 균형 확보
+- search_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- cta_focus: 실적·공급망·대표 종목 글로 연결
+
+## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+
+- inventory_type: main_post
+- keyword: us_index_flow
+- source_keyword: us_index_flow
+- role/type: lane_focus_us-stocks / breaking_explainer
+- ready_to_upload: True
 - publish_date: 2026-10-27 / bucket: this_week
-- priority_score: 79.0
+- priority_score: 75.0
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - search_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - cta_focus: 실적·공급망·대표 종목 글로 연결
@@ -52,7 +52,7 @@
 - source_keyword: fomc
 - role/type: evergreen_support / evergreen_explainer
 - ready_to_upload: True
-- publish_date: 2026-10-28 / bucket: later
+- publish_date: 2026-10-29 / bucket: later
 - priority_score: 119.0
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - search_intent: FOMC가 무엇인지와 금리·주식·코인에 왜 중요한지 알고 싶어 하는 초중급 투자자
@@ -61,12 +61,12 @@
 ## 5. 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
 - inventory_type: seo_followup
-- keyword: seo_china_11
+- keyword: seo_china_8
 - source_keyword: china
 - role/type: evergreen_seo / evergreen_sector_guide
 - ready_to_upload: True
-- publish_date: 2026-10-27 / bucket: seo_backlog
-- priority_score: 78.5
+- publish_date: 2026-10-28 / bucket: seo_backlog
+- priority_score: 99.5
 - revenue_objective: 섹터형 검색 유입 누적
 - search_intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 - cta_focus: 대표 종목 글과 허브 글 연결
@@ -74,12 +74,12 @@
 ## 6. 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 
 - inventory_type: seo_followup
-- keyword: seo_china_12
+- keyword: seo_china_9
 - source_keyword: china
 - role/type: follow_up / follow_up_analysis
 - ready_to_upload: True
-- publish_date: 2026-10-27 / bucket: seo_backlog
-- priority_score: 75.5
+- publish_date: 2026-10-28 / bucket: seo_backlog
+- priority_score: 96.5
 - revenue_objective: 체류시간과 페이지뷰 확대
 - search_intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 - cta_focus: 실적 해설과 글로벌 섹터 허브 연결
@@ -87,12 +87,12 @@
 ## 7. 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 
 - inventory_type: seo_followup
-- keyword: seo_china_13
+- keyword: seo_china_10
 - source_keyword: china
 - role/type: evergreen_seo / evergreen_sector_guide
 - ready_to_upload: True
-- publish_date: 2026-10-27 / bucket: seo_backlog
-- priority_score: 72.5
+- publish_date: 2026-10-28 / bucket: seo_backlog
+- priority_score: 93.5
 - revenue_objective: 광고 노출과 장기 검색 유입 확보
 - search_intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 - cta_focus: 섹터 허브와 후속 비교 글 연결

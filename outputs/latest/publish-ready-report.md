@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-10-24T15:47:38.462112+00:00`
+- generated_at: `2026-10-25T04:09:53.229720+00:00`
 
 ## fomc
 
@@ -9,7 +9,7 @@
 - html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html
 - meta_title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - meta_description: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 이슈를 중심으로 금리, 달러, 미국증시, 코인 흐름까지 초보 투자자도 이해하기 쉽게 정리합니다.
-- follow_up_post_count: 1
+- follow_up_post_count: 3
 
 ## bitcoin
 
@@ -27,7 +27,7 @@
 - html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html
 - meta_title: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - meta_description: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
-- follow_up_post_count: 0
+- follow_up_post_count: 3
 
 ## china
 

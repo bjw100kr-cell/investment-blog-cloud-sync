@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T15:47:34.967872+00:00",
+  "generated_at": "2026-10-25T04:09:50.443475+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 3,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
@@ -14,21 +14,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4700,
+      "demand_signal_score": 5400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 35,
-      "source_count": 3,
+      "source_snapshot_score": 42,
+      "source_count": 4,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
+        "Financial Times World",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
+        "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
         "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
-        "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO",
-        "IRS plans lower tax disclosure penalties, including for crypto: Forbes"
+        "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO"
       ]
     },
     {
@@ -61,22 +62,45 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2900,
+      "demand_signal_score": 2400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 17,
-      "source_count": 4,
+      "source_snapshot_score": 12,
+      "source_count": 3,
       "source_names": [
         "Cointelegraph",
         "Investing.com Crypto News",
-        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March",
         "Bitcoin flat around $82k as tech rout, rising oil dent risk",
         "Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment"
+      ]
+    },
+    {
+      "keyword": "china",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2100,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 9,
+      "source_count": 3,
+      "source_names": [
+        "Cointelegraph",
+        "Financial Times World",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "China targets 2030 for its national blockchain network buildout",
+        "GLP-1 boom in China, India, Brazil could create $22 bln market by 2035, J.P. Morgan says - Reuters",
+        "North Korea’s Kim crosses new China border bridge to reaffirm ties"
       ]
     }
   ],
