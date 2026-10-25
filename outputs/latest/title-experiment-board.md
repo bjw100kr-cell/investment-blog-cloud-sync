@@ -18,7 +18,7 @@
 - current_title: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - recommended_title: FOMC 이후 시장 체크포인트 3가지: 금리, 달러, 위험자산
 - recommended_angle: `macro-link`
-- demand_signal_score: `3000`
+- demand_signal_score: `4000`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
 
 ### Variants
@@ -84,7 +84,7 @@
 - current_title: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - recommended_title: 중국 변수와 시장 영향, 환율과 원자재까지 같이 봐야 하는 이유
 - recommended_angle: `macro-link`
-- demand_signal_score: `2100`
+- demand_signal_score: `0`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
 
 ### Variants

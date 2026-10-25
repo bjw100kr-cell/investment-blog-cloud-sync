@@ -1,8 +1,8 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-25T04:09:50.443475+00:00`
+- 생성 시각: `2026-10-25T15:58:26.125118+00:00`
 - 수집 성공 소스: `14`
-- 수집 아이템 수: `111`
+- 수집 아이템 수: `112`
 
 ## 소스 상태
 
@@ -14,7 +14,7 @@
 - `OK` Cointelegraph (rss): 8 items
 - `OK` CNBC Top News (rss): 8 items
 - `OK` Investing.com Crypto News (rss): 8 items
-- `OK` Financial Times Home (rss): 7 items
+- `OK` Financial Times Home (rss): 8 items
 - `OK` Reuters Markets via Google News RSS (rss): 8 items
 - `OK` 무역킹 Trade King YouTube (youtube_channel): 8 items
 - `OK` MarketWatch Breaking News (rss): 8 items
@@ -106,24 +106,23 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 42, source_count 4, sources CoinDesk RSS, Cointelegraph, Financial Times World, Investing.com Crypto News
-- `fomc`: score 18, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `bitcoin`: score 42, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 28, source_count 5, sources Federal Reserve Monetary Policy Press, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - `oil`: score 12, source_count 3, sources Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `china`: score 9, source_count 3, sources Cointelegraph, Financial Times World, Reuters Markets via Google News RSS
 - `treasury_yields`: score 7, source_count 2, sources CNBC Top News, CoinDesk RSS
+- `us_index_flow`: score 7, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `china`: score 6, source_count 2, sources Financial Times Home, Reuters Markets via Google News RSS
 - `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
 - `us_big_tech`: score 4, source_count 1, sources CoinDesk RSS
 - `ethereum`: score 3, source_count 1, sources Cointelegraph
-- `ai_semiconductors`: score 3, source_count 1, sources CNBC Top News
-- `us_index_flow`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
 - `bitcoin`: score 42, headlines 13
+  - UK banks face 10,000 complaints in 3 months over crypto restrictions
   - Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends
   - Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations
-  - Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO
-- `fomc`: score 18, headlines 4
+- `fomc`: score 28, headlines 8
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
@@ -131,20 +130,19 @@ If you are sure that the described cause is not responsible for this error and t
   - Bitcoin seeks support above $81K as Brent crude oil hits highest level since March
   - Bitcoin flat around $82k as tech rout, rising oil dent risk
   - Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment
-- `china`: score 9, headlines 3
-  - China targets 2030 for its national blockchain network buildout
-  - GLP-1 boom in China, India, Brazil could create $22 bln market by 2035, J.P. Morgan says - Reuters
-  - North Korea’s Kim crosses new China border bridge to reaffirm ties
+- `us_index_flow`: score 7, headlines 3
+  - Nasdaq CEO flags 'modest softening' in IPO market as macro uncertainty hits debuts - Reuters
+  - More than a third of S&P 500 companies are about to report earnings as market confidence cracks
+  - Worried about this stock-market selloff? Relief may be coming after the midterms — no matter who wins.
 - `treasury_yields`: score 7, headlines 2
-  - Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO
+  - Latvia targets tokenization rules in 2027 with commercial property in focus
   - What next for France as riots rattle markets? Three questions facing investors ahead of more protests
+- `china`: score 6, headlines 2
+  - Luxury groups’ value drops by €250bn as Chinese consumer demand fades
+  - China urges US to halt proposed expansion of outbound investment curbs - Reuters
 - `crypto_etf`: score 4, headlines 1
   - Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends
 - `us_big_tech`: score 4, headlines 1
   - Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker
-- `ai_semiconductors`: score 3, headlines 1
-  - Nvidia's role as AI financier faces first big test as neoclouds take market hit
 - `ethereum`: score 3, headlines 1
   - Initia halts blockchain after exploit reportedly drains over $2.6M
-- `us_index_flow`: score 3, headlines 1
-  - Nasdaq CEO flags 'modest softening' in IPO market as macro uncertainty hits debuts - Reuters
