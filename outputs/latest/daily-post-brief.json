@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T04:13:50.411557+00:00",
+  "generated_at": "2026-10-26T18:37:04.972848+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -57,28 +57,31 @@
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
         "Federal Reserve issues FOMC statement",
-        "Bitcoin steadies near $80,400 after weekend selloff, Fed decision looms"
+        "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms",
+        "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
         "Investing.com Crypto News"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3000,
-      "search_score": 19,
+      "demand_signal_score": 3700,
+      "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
       "monetization_score": 15,
       "risk_score": 8,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 2,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 87.0,
+      "total_score": 94.0,
       "format": "macro_explainer"
     },
     {
@@ -99,11 +102,11 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "UK banks face 10,000 complaints in 3 months over crypto restrictions",
-        "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
-        "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
-        "Keystone says website breach exposed hardware wallet buyers’ addresses",
-        "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest"
+        "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines",
+        "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029",
+        "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000",
+        "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms",
+        "South Korea lawmakers mull pushing crypto tax implementation to 2029"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -114,7 +117,7 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 5400,
+      "demand_signal_score": 5800,
       "search_score": 29,
       "timeliness_score": 18,
       "explanatory_score": 17,
@@ -137,7 +140,7 @@
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -146,22 +149,26 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Elon Musk issues a warning for 'AI neoclouds' as SpaceX borrows $40 billion for chips",
-        "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
-        "Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals"
+        "AI giant Anthropic files for blockbuster IPO",
+        "‘Bold but sane’: what we learnt from Anthropic’s 240,000-word IPO filing",
+        "Why you shouldn’t bother reading the Anthropic IPO filing",
+        "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
+        "Why you shouldn’t bother reading the Anthropic IPO filing"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
-        "MarketWatch Breaking News"
+        "Financial Times Home",
+        "Financial Times World",
+        "MarketWatch Breaking News",
+        "NYT Business"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2100,
-      "search_score": 14,
-      "timeliness_score": 15,
+      "demand_signal_score": 2900,
+      "search_score": 20,
+      "timeliness_score": 21,
       "explanatory_score": 18,
       "monetization_score": 15,
       "risk_score": 5,
@@ -170,7 +177,7 @@
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 67.0,
+      "total_score": 79.0,
       "format": "sector_analysis"
     },
     {
@@ -182,7 +189,7 @@
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -191,76 +198,75 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "China urges US to halt proposed expansion of outbound investment curbs - Reuters",
-        "Toyota takes on Tesla and China in humanoid robot race"
+        "In China, the AI bubble has already burst - Reuters"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Financial Times World",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
       "demand_signal_score": 0,
-      "search_score": 8,
-      "timeliness_score": 10,
+      "search_score": 4,
+      "timeliness_score": 5,
       "explanatory_score": 17,
-      "monetization_score": 13,
+      "monetization_score": 12,
       "risk_score": 7,
       "performance_bonus": 0.0,
       "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 55.0,
+      "total_score": 45.0,
       "format": "macro_explainer"
     },
     {
-      "keyword": "oil",
-      "category": "macro",
-      "brand_lane": "macro",
+      "keyword": "us_big_tech",
+      "category": "global-sector",
+      "brand_lane": "us-stocks",
       "title_candidates": [
-        "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
-        "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유",
-        "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지"
+        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유",
+        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자"
       ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "outline": [
-        "왜 지금 이 이슈가 중요한가",
-        "실제로 발표되거나 벌어진 일",
-        "주식·코인·달러·금리에 주는 영향",
-        "앞으로 체크할 변수",
-        "개인 투자자가 볼 포인트"
+        "지금 이 섹터가 왜 움직이는가",
+        "핵심 뉴스와 시장 반응",
+        "대표 종목과 자금 흐름",
+        "거시 변수와 연결",
+        "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Bitcoin flat around $82k as tech rout, rising oil dent risk",
-        "Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment",
-        "Stocks trade cautiously in Asia, Brent off six-month top - Reuters",
-        "Oil slips from near six-months highs despite supply concerns - Reuters",
-        "Indian shares open lower as oil concerns persist, IT leads losses - Reuters"
+        "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+        "Meta eyes record $95 billion equity raise to fund AI expansion - Reuters",
+        "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
+        "Meta and SpaceX to Raise Billions More to Fund A.I. Ambitions"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "Investing.com Crypto News",
+        "CNBC Top News",
+        "MarketWatch Breaking News",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3000,
-      "search_score": 19,
-      "timeliness_score": 16,
+      "demand_signal_score": 2200,
+      "search_score": 15,
+      "timeliness_score": 20,
       "explanatory_score": 16,
-      "monetization_score": 13,
+      "monetization_score": 15,
       "risk_score": 7,
       "performance_bonus": 0.0,
       "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 71.0,
-      "format": "macro_explainer"
+      "total_score": 73.0,
+      "format": "sector_analysis"
     }
   ]
 }

@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-10-26T04:13:50.411557+00:00`
+- 생성 시각: `2026-10-26T18:37:04.972848+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 87.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -69,7 +69,8 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Bitcoin steadies near $80,400 after weekend selloff, Fed decision looms
+  - Bitcoin holds near $80,000 as oil retreats and the Fed decision looms
+  - Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers
 
 ## 2. bitcoin
 
@@ -135,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - UK banks face 10,000 complaints in 3 months over crypto restrictions
-  - Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends
-  - Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations
-  - Keystone says website breach exposed hardware wallet buyers’ addresses
-  - AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest
+  - Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines
+  - South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029
+  - A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000
+  - Bitcoin holds near $80,000 as oil retreats and the Fed decision looms
+  - South Korea lawmakers mull pushing crypto tax implementation to 2029
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 67.0
+- 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 79.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -205,15 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Elon Musk issues a warning for 'AI neoclouds' as SpaceX borrows $40 billion for chips
-  - SpaceX closes $40 billion debt deal for AI chips, Elon Musk says
-  - Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals
+  - AI giant Anthropic files for blockbuster IPO
+  - ‘Bold but sane’: what we learnt from Anthropic’s 240,000-word IPO filing
+  - Why you shouldn’t bother reading the Anthropic IPO filing
+  - Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering
+  - Why you shouldn’t bother reading the Anthropic IPO filing
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 55.0
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 45.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -273,5 +276,4 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - China urges US to halt proposed expansion of outbound investment curbs - Reuters
-  - Toyota takes on Tesla and China in humanoid robot race
+  - In China, the AI bubble has already burst - Reuters

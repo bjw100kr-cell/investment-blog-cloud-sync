@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-10-26T04:13:50.411557+00:00`
+- 생성 시각: `2026-10-26T18:37:04.972848+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `87.0`
-- 점수 구성: 검색성 19 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press, Investing.com Crypto News
+- 총점: `94.0`
+- 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Investing.com Crypto News
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -26,7 +26,8 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Bitcoin steadies near $80,400 after weekend selloff, Fed decision looms
+  - Bitcoin holds near $80,000 as oil retreats and the Fed decision looms
+  - Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers
 
 ## 2. bitcoin
 
@@ -47,20 +48,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - UK banks face 10,000 complaints in 3 months over crypto restrictions
-  - Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends
-  - Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations
-  - Keystone says website breach exposed hardware wallet buyers’ addresses
-  - AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest
+  - Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines
+  - South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029
+  - A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000
+  - Bitcoin holds near $80,000 as oil retreats and the Fed decision looms
+  - South Korea lawmakers mull pushing crypto tax implementation to 2029
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `67.0`
-- 점수 구성: 검색성 14 / 시의성 15 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, CoinDesk RSS, MarketWatch Breaking News
+- 총점: `79.0`
+- 점수 구성: 검색성 20 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -72,18 +73,20 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Elon Musk issues a warning for 'AI neoclouds' as SpaceX borrows $40 billion for chips
-  - SpaceX closes $40 billion debt deal for AI chips, Elon Musk says
-  - Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals
+  - AI giant Anthropic files for blockbuster IPO
+  - ‘Bold but sane’: what we learnt from Anthropic’s 240,000-word IPO filing
+  - Why you shouldn’t bother reading the Anthropic IPO filing
+  - Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering
+  - Why you shouldn’t bother reading the Anthropic IPO filing
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `55.0`
-- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 17 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times World, Reuters Markets via Google News RSS
+- 총점: `45.0`
+- 점수 구성: 검색성 4 / 시의성 5 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 섹터/세계 흐름 연결 해설 가능
+- 소스: Reuters Markets via Google News RSS
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -95,30 +98,28 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - China urges US to halt proposed expansion of outbound investment curbs - Reuters
-  - Toyota takes on Tesla and China in humanoid robot race
+  - In China, the AI bubble has already burst - Reuters
 
-## 5. oil
+## 5. us_big_tech
 
-- 카테고리: `macro`
-- 브랜드 레인: `macro` (거시경제)
-- 총점: `71.0`
-- 점수 구성: 검색성 19 / 시의성 16 / 설명가치 16 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 소스: Investing.com Crypto News, Reuters Markets via Google News RSS
+- 카테고리: `global-sector`
+- 브랜드 레인: `us-stocks` (미국주식)
+- 총점: `73.0`
+- 점수 구성: 검색성 15 / 시의성 20 / 설명가치 16 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: CNBC Top News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
+  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 - 글 구조:
-  - 왜 지금 이 이슈가 중요한가
-  - 실제로 발표되거나 벌어진 일
-  - 주식·코인·달러·금리에 주는 영향
-  - 앞으로 체크할 변수
-  - 개인 투자자가 볼 포인트
+  - 지금 이 섹터가 왜 움직이는가
+  - 핵심 뉴스와 시장 반응
+  - 대표 종목과 자금 흐름
+  - 거시 변수와 연결
+  - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Bitcoin flat around $82k as tech rout, rising oil dent risk
-  - Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment
-  - Stocks trade cautiously in Asia, Brent off six-month top - Reuters
-  - Oil slips from near six-months highs despite supply concerns - Reuters
-  - Indian shares open lower as oil concerns persist, IT leads losses - Reuters
+  - Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push
+  - Meta eyes record $95 billion equity raise to fund AI expansion - Reuters
+  - Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering
+  - Meta and SpaceX to Raise Billions More to Fund A.I. Ambitions
