@@ -116,8 +116,8 @@
     "UK banks face 10,000 complaints in 3 months over crypto restrictions",
     "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
     "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
-    "Netanyahu floats use of blockchain as solution to potential financial sanctions",
-    "IRS plans lower tax disclosure penalties, including for crypto: Forbes"
+    "Keystone says website breach exposed hardware wallet buyers’ addresses",
+    "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

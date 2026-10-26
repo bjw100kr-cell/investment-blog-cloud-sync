@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-10-25T15:58:26.125118+00:00",
+  "generated_at": "2026-10-26T04:13:50.411557+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 3,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "jobs",
+      "trend_count": 1,
+      "traffic_score_sum": 100,
+      "max_approx_traffic": 100,
+      "trend_queries": [
+        "실업급여"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 300,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -38,18 +54,15 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4000,
+      "demand_signal_score": 3000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 28,
-      "source_count": 5,
+      "source_snapshot_score": 18,
+      "source_count": 2,
       "source_names": [
         "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
@@ -64,21 +77,44 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2400,
+      "demand_signal_score": 3000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
-      "source_count": 3,
+      "source_snapshot_score": 18,
+      "source_count": 2,
       "source_names": [
-        "Cointelegraph",
         "Investing.com Crypto News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March",
         "Bitcoin flat around $82k as tech rout, rising oil dent risk",
-        "Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment"
+        "Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment",
+        "Stocks trade cautiously in Asia, Brent off six-month top - Reuters"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2100,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 9,
+      "source_count": 3,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "Elon Musk issues a warning for 'AI neoclouds' as SpaceX borrows $40 billion for chips",
+        "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
+        "Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals"
       ]
     }
   ],

@@ -1,21 +1,27 @@
 # 검색 수요 신호 리포트
 
-- 생성 시각: `2026-10-25T15:58:26.125118+00:00`
+- 생성 시각: `2026-10-26T04:13:50.411557+00:00`
 - 트렌드 아이템 수: `16`
-- 매칭된 키워드 수: `3`
-- 약한 트렌드 fallback 수: `3`
+- 매칭된 키워드 수: `5`
+- 약한 트렌드 fallback 수: `4`
 
 ## 키워드별 트렌드 수요
 
+- `jobs`: demand 300 / trend_count 1 / traffic_sum 100 / regions KR
+  - confidence: `high` / Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다.
+  - trend query: 실업급여
 - `bitcoin`: demand 5400 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
   - fallback: source snapshot score 42 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: demand 4000 / trend_count 0 / traffic_sum 0 / regions unknown
+- `fomc`: demand 3000 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 28 / sources Federal Reserve Monetary Policy Press, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `oil`: demand 2400 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 18 / sources Federal Reserve Monetary Policy Press, Investing.com Crypto News
+- `oil`: demand 3000 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 12 / sources Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
+  - fallback: source snapshot score 18 / sources Investing.com Crypto News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: demand 2100 / trend_count 0 / traffic_sum 0 / regions unknown
+  - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
+  - fallback: source snapshot score 9 / sources CNBC Top News, CoinDesk RSS, MarketWatch Breaking News
 
 ## 아직 못 주운 시장성 트렌드
 

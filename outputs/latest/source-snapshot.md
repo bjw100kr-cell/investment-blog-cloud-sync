@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-25T15:58:26.125118+00:00`
+- 생성 시각: `2026-10-26T04:13:50.411557+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -107,14 +107,15 @@ If you are sure that the described cause is not responsible for this error and t
 ## 상위 키워드
 
 - `bitcoin`: score 42, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 28, source_count 5, sources Federal Reserve Monetary Policy Press, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `oil`: score 12, source_count 3, sources Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `treasury_yields`: score 7, source_count 2, sources CNBC Top News, CoinDesk RSS
-- `us_index_flow`: score 7, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `china`: score 6, source_count 2, sources Financial Times Home, Reuters Markets via Google News RSS
+- `fomc`: score 18, source_count 2, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News
+- `oil`: score 18, source_count 2, sources Investing.com Crypto News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 9, source_count 3, sources CNBC Top News, CoinDesk RSS, MarketWatch Breaking News
+- `us_big_tech`: score 7, source_count 2, sources CoinDesk RSS, Financial Times World
+- `jobs`: score 6, source_count 1, sources Google Trends KR
+- `china`: score 6, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
+- `treasury_yields`: score 4, source_count 1, sources CoinDesk RSS
 - `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
-- `us_big_tech`: score 4, source_count 1, sources CoinDesk RSS
-- `ethereum`: score 3, source_count 1, sources Cointelegraph
+- `us_index_flow`: score 3, source_count 1, sources Cointelegraph
 
 ## 오늘의 글감 후보
 
@@ -122,27 +123,29 @@ If you are sure that the described cause is not responsible for this error and t
   - UK banks face 10,000 complaints in 3 months over crypto restrictions
   - Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends
   - Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations
-- `fomc`: score 28, headlines 8
+- `oil`: score 18, headlines 6
+  - Bitcoin flat around $82k as tech rout, rising oil dent risk
+  - Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment
+  - Stocks trade cautiously in Asia, Brent off six-month top - Reuters
+- `fomc`: score 18, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `oil`: score 12, headlines 4
-  - Bitcoin seeks support above $81K as Brent crude oil hits highest level since March
-  - Bitcoin flat around $82k as tech rout, rising oil dent risk
-  - Bitcoin dives 4%, slides below $82k as AI rout, oil surge slams risk sentiment
-- `us_index_flow`: score 7, headlines 3
-  - Nasdaq CEO flags 'modest softening' in IPO market as macro uncertainty hits debuts - Reuters
-  - More than a third of S&P 500 companies are about to report earnings as market confidence cracks
-  - Worried about this stock-market selloff? Relief may be coming after the midterms — no matter who wins.
-- `treasury_yields`: score 7, headlines 2
-  - Latvia targets tokenization rules in 2027 with commercial property in focus
-  - What next for France as riots rattle markets? Three questions facing investors ahead of more protests
+- `ai_semiconductors`: score 9, headlines 3
+  - Elon Musk issues a warning for 'AI neoclouds' as SpaceX borrows $40 billion for chips
+  - SpaceX closes $40 billion debt deal for AI chips, Elon Musk says
+  - Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals
+- `us_big_tech`: score 7, headlines 2
+  - Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker
+  - Toyota takes on Tesla and China in humanoid robot race
 - `china`: score 6, headlines 2
-  - Luxury groups’ value drops by €250bn as Chinese consumer demand fades
   - China urges US to halt proposed expansion of outbound investment curbs - Reuters
+  - Toyota takes on Tesla and China in humanoid robot race
+- `jobs`: score 6, headlines 1
+  - 실업급여
 - `crypto_etf`: score 4, headlines 1
   - Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends
-- `us_big_tech`: score 4, headlines 1
-  - Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker
-- `ethereum`: score 3, headlines 1
-  - Initia halts blockchain after exploit reportedly drains over $2.6M
+- `treasury_yields`: score 4, headlines 1
+  - Latvia targets tokenization rules in 2027 with commercial property in focus
+- `cpi`: score 3, headlines 1
+  - America by the numbers: How voters feel about the economy, inflation, AI and Trump
