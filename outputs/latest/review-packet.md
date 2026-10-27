@@ -3,7 +3,7 @@
 업로드 전에 운영자와 사용자가 함께 확인할 글 검토 패킷입니다.
 
 - 사용자 최종 확인 파일: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/review-approvals.json`
-- 사용자 확인 헬퍼: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin` 또는 `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --all`
+- 사용자 확인 헬퍼: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin` 또는 `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --all`
 - 총 검토 대상: `7`
 - 바로 최종 확인 가능: `7`
 - 주의 검토: `0`
@@ -13,8 +13,8 @@
 
 - keyword: `fomc`
 - type: `main_post` / role `lane_focus_macro`
-- publish date: `2026-10-26`
-- priority: `137.0`
+- publish date: `2026-10-27`
+- priority: `130.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
@@ -35,8 +35,8 @@
 
 - keyword: `bitcoin`
 - type: `main_post` / role `lane_focus_crypto`
-- publish date: `2026-10-27`
-- priority: `122.0`
+- publish date: `2026-10-28`
+- priority: `119.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
@@ -57,8 +57,8 @@
 
 - keyword: `ai_semiconductors`
 - type: `main_post` / role `lane_focus_us-stocks`
-- publish date: `2026-10-28`
-- priority: `114.0`
+- publish date: `2026-10-29`
+- priority: `120.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
@@ -79,8 +79,8 @@
 
 - keyword: `china`
 - type: `main_post` / role `lane_focus_world-flow`
-- publish date: `2026-10-29`
-- priority: `69.0`
+- publish date: `2026-10-30`
+- priority: `91.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
@@ -101,8 +101,8 @@
 
 - keyword: `seo_china_11`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-10-29`
-- priority: `68.5`
+- publish date: `2026-10-30`
+- priority: `90.5`
 - internal review: `approve` / score `100`
 - intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 - CTA focus: 대표 종목 글과 허브 글 연결
@@ -123,8 +123,8 @@
 
 - keyword: `seo_china_12`
 - type: `seo_followup` / role `follow_up`
-- publish date: `2026-10-29`
-- priority: `65.5`
+- publish date: `2026-10-30`
+- priority: `87.5`
 - internal review: `approve` / score `100`
 - intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 - CTA focus: 실적 해설과 글로벌 섹터 허브 연결
@@ -145,8 +145,8 @@
 
 - keyword: `seo_china_13`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-10-29`
-- priority: `62.5`
+- publish date: `2026-10-30`
+- priority: `84.5`
 - internal review: `approve` / score `100`
 - intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 - CTA focus: 섹터 허브와 후속 비교 글 연결

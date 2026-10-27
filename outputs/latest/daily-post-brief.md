@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-10-26T18:37:04.972848+00:00`
+- 생성 시각: `2026-10-27T04:32:47.935356+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `94.0`
-- 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Investing.com Crypto News
+- 총점: `87.0`
+- 점수 구성: 검색성 19 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 소스: Federal Reserve Monetary Policy Press, Investing.com Crypto News
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -26,15 +26,14 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Bitcoin holds near $80,000 as oil retreats and the Fed decision looms
-  - Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers
+  - Bitcoin steadies near $80,400 after weekend selloff, Fed decision looms
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `83.0`
-- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
+- 총점: `80.0`
+- 점수 구성: 검색성 26 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 1
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
@@ -51,17 +50,17 @@
   - Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines
   - South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029
   - A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000
-  - Bitcoin holds near $80,000 as oil retreats and the Fed decision looms
   - South Korea lawmakers mull pushing crypto tax implementation to 2029
+  - Bitcoin little-changed at $80.4k as oil, rate jitters dent crypto appetite
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `79.0`
-- 점수 구성: 검색성 20 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
+- 총점: `85.0`
+- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -74,19 +73,19 @@
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
   - AI giant Anthropic files for blockbuster IPO
+  - Injective launches onchain futures market tracking Nvidia GPU rental costs
+  - AI company Anthropic announces IPO, expected as early as November
+  - From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'
   - ‘Bold but sane’: what we learnt from Anthropic’s 240,000-word IPO filing
-  - Why you shouldn’t bother reading the Anthropic IPO filing
-  - Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering
-  - Why you shouldn’t bother reading the Anthropic IPO filing
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `45.0`
-- 점수 구성: 검색성 4 / 시의성 5 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 섹터/세계 흐름 연결 해설 가능
-- 소스: Reuters Markets via Google News RSS
+- 총점: `65.0`
+- 점수 구성: 검색성 12 / 시의성 15 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -98,16 +97,18 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
+  - China industrial profits post strongest growth in three months as tech boom widens economic divide
   - In China, the AI bubble has already burst - Reuters
+  - TikTok parent ByteDance’s chatbot is now giving travel-booking sites a run for their money. And yours.
 
 ## 5. us_big_tech
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `73.0`
-- 점수 구성: 검색성 15 / 시의성 20 / 설명가치 16 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: CNBC Top News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 총점: `78.0`
+- 점수 구성: 검색성 19 / 시의성 21 / 설명가치 16 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
   - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
@@ -120,6 +121,7 @@
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
   - Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push
+  - Microsoft offers buyouts to 60,000 staff
   - Meta eyes record $95 billion equity raise to fund AI expansion - Reuters
+  - A possible DoorDash-Instacart deal is all about keeping up with Walmart and Amazon, analysts say
   - Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering
-  - Meta and SpaceX to Raise Billions More to Fund A.I. Ambitions

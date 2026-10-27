@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-26T18:37:04.972848+00:00`
+- 생성 시각: `2026-10-27T04:32:47.935356+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,48 +106,46 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 46, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 25, source_count 4, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Investing.com Crypto News
-- `ai_semiconductors`: score 17, source_count 5, sources CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
-- `us_big_tech`: score 10, source_count 4, sources CNBC Top News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `treasury_yields`: score 7, source_count 2, sources CoinDesk RSS, Financial Times World
-- `oil`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
-- `us_index_flow`: score 6, source_count 2, sources CNBC Top News, Cointelegraph
-- `dollar`: score 6, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
+- `bitcoin`: score 30, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `ai_semiconductors`: score 29, source_count 7, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 18, source_count 2, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News
+- `us_big_tech`: score 15, source_count 5, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `china`: score 8, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `treasury_yields`: score 4, source_count 1, sources CoinDesk RSS
 - `ethereum`: score 4, source_count 1, sources CoinDesk RSS
-- `china`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `cpi`: score 3, source_count 1, sources CNBC Top News
+- `oil`: score 3, source_count 1, sources Investing.com Crypto News
+- `us_index_flow`: score 2, source_count 1, sources MarketWatch Breaking News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 46, headlines 14
+- `bitcoin`: score 30, headlines 9
   - Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines
   - South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029
   - A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000
-- `fomc`: score 25, headlines 6
+- `ai_semiconductors`: score 29, headlines 10
+  - AI giant Anthropic files for blockbuster IPO
+  - Injective launches onchain futures market tracking Nvidia GPU rental costs
+  - AI company Anthropic announces IPO, expected as early as November
+- `fomc`: score 18, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-- `ai_semiconductors`: score 17, headlines 6
-  - AI giant Anthropic files for blockbuster IPO
-  - ‘Bold but sane’: what we learnt from Anthropic’s 240,000-word IPO filing
-  - Why you shouldn’t bother reading the Anthropic IPO filing
-- `us_big_tech`: score 10, headlines 4
+- `us_big_tech`: score 15, headlines 6
   - Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push
+  - Microsoft offers buyouts to 60,000 staff
   - Meta eyes record $95 billion equity raise to fund AI expansion - Reuters
-  - Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering
-- `oil`: score 7, headlines 2
-  - Bitcoin holds near $80,000 as oil retreats and the Fed decision looms
-  - Bitcoin little-changed at $80.4k as oil, rate jitters dent crypto appetite
-- `treasury_yields`: score 7, headlines 2
-  - Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines
-  - French bonds rally after Moody’s rating reprieve
-- `dollar`: score 6, headlines 2
-  - Strategy skips Bitcoin purchases, spends $205M on STRC buybacks
-  - Euro falls against dollar; Brazilian real tumbles after Lula election win - Reuters
-- `us_index_flow`: score 6, headlines 2
-  - Kalshi strikes deal with S&P Dow Jones Indices to expand financial event contracts
-  - Investors are doing just as well this year by shunning AI. How to invest if the tech trade keeps fizzling
+- `china`: score 8, headlines 3
+  - China industrial profits post strongest growth in three months as tech boom widens economic divide
+  - In China, the AI bubble has already burst - Reuters
+  - TikTok parent ByteDance’s chatbot is now giving travel-booking sites a run for their money. And yours.
 - `ethereum`: score 4, headlines 1
   - Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines
-- `china`: score 3, headlines 1
-  - In China, the AI bubble has already burst - Reuters
+- `treasury_yields`: score 4, headlines 1
+  - Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines
+- `cpi`: score 3, headlines 1
+  - Bank of Japan is expected to hold rates this week — but stay hawkish: CNBC survey
+- `oil`: score 3, headlines 1
+  - Bitcoin little-changed at $80.4k as oil, rate jitters dent crypto appetite
+- `us_index_flow`: score 2, headlines 1
+  - Options traders are seizing control of the S&P 500
