@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-10-27T04:32:47.935356+00:00`
+- 생성 시각: `2026-10-27T17:52:19.924260+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `87.0`
-- 점수 구성: 검색성 19 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press, Investing.com Crypto News
+- 총점: `94.0`
+- 점수 구성: 검색성 26 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -26,14 +26,15 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Bitcoin steadies near $80,400 after weekend selloff, Fed decision looms
+  - Fed expected to hold rates steady, but Warsh may point way to more hikes
+  - Bitcoin subdued at $80k as Strategy pauses buying, Fed caution weighs
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `80.0`
-- 점수 구성: 검색성 26 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 1
+- 총점: `82.0`
+- 점수 구성: 검색성 28 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 1
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
@@ -47,11 +48,11 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines
-  - South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029
-  - A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000
-  - South Korea lawmakers mull pushing crypto tax implementation to 2029
-  - Bitcoin little-changed at $80.4k as oil, rate jitters dent crypto appetite
+  - Brazilian companies turned to stablecoins on election day to dodge a currency crash
+  - Bitcoin miners' move into AI is creating a new market for trading computing power
+  - Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP
+  - Live updates: Bitcoin holds near $80,000 as AI buildout draws investor attention and capital
+  - Crypto could outperform AI stocks: Wall Street veteran Jordi Visser
 
 ## 3. ai_semiconductors
 
@@ -60,7 +61,7 @@
 - 총점: `85.0`
 - 점수 구성: 검색성 26 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 소스: CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, NYT Business
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -72,20 +73,20 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - AI giant Anthropic files for blockbuster IPO
-  - Injective launches onchain futures market tracking Nvidia GPU rental costs
-  - AI company Anthropic announces IPO, expected as early as November
-  - From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'
-  - ‘Bold but sane’: what we learnt from Anthropic’s 240,000-word IPO filing
+  - Luxor raises $16M from CMT Digital amid AI-Bitcoin miner convergence
+  - Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split
+  - Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup
+  - Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership
+  - PrimeXBT Brings Tesla, SpaceX, NVIDIA and More to Crypto Futures with New Tokenised Stocks
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `65.0`
-- 점수 구성: 검색성 12 / 시의성 15 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `49.0`
+- 점수 구성: 검색성 5 / 시의성 8 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 섹터/세계 흐름 연결 해설 가능
+- 소스: NYT Business
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -97,22 +98,21 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - China industrial profits post strongest growth in three months as tech boom widens economic divide
-  - In China, the AI bubble has already burst - Reuters
-  - TikTok parent ByteDance’s chatbot is now giving travel-booking sites a run for their money. And yours.
+  - China Steps In to Rescue Stocks, But the Market Continues to Fall
+  - In the A.I. ‘Robogym,’ Machines Train to Be More Like Humans
 
-## 5. us_big_tech
+## 5. us_index_flow
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `78.0`
-- 점수 구성: 검색성 19 / 시의성 21 / 설명가치 16 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 총점: `74.0`
+- 점수 구성: 검색성 14 / 시의성 20 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: CoinDesk RSS, Cointelegraph, MarketWatch Breaking News, NYT Business
 - 제목 후보:
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -120,8 +120,7 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push
-  - Microsoft offers buyouts to 60,000 staff
-  - Meta eyes record $95 billion equity raise to fund AI expansion - Reuters
-  - A possible DoorDash-Instacart deal is all about keeping up with Walmart and Amazon, analysts say
-  - Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering
+  - Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund
+  - Janus Henderson, Centrifuge launch tokenized Nasdaq-100 fund on Stellar
+  - A leading Silicon Valley cheerleader just showed all the reasons to be worried about the AI bubble
+  - GM Is Leaving NYSE for the Nasdaq After More Than 100 Years

@@ -1,8 +1,63 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
   "cards": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "publish_date": "2026-10-27",
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "ready_now": true,
+      "hero_image_selected": true,
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+        "Fed expected to hold rates steady, but Warsh may point way to more hikes"
+      ],
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "published_iso": "2026-07-29T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
+      "hard_blocking_checks": []
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -14,33 +69,33 @@
       "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines",
-        "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029",
-        "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000"
+        "Brazilian companies turned to stablecoins on election day to dodge a currency crash",
+        "Bitcoin miners' move into AI is creating a new market for trading computing power",
+        "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP"
       ],
       "recent_evidence": [
         {
-          "title": "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000",
+          "title": "Bitcoin miners' move into AI is creating a new market for trading computing power",
           "source_name": "CoinDesk RSS",
-          "published": "Mon, 26 Oct 2026 11:53:07 +0000",
-          "published_iso": "2026-10-26T11:53:07+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/10/26/a-usd68-million-bitcoin-bet-is-targeting-a-post-midterm-election-breakout-to-usd90-000",
+          "published": "Tue, 27 Oct 2026 13:13:50 +0000",
+          "published_iso": "2026-10-27T13:13:50+00:00",
+          "link": "https://www.coindesk.com/business/2026/10/27/bitcoin-miners-move-into-ai-is-creating-a-new-market-for-trading-computing-power",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin little-changed at $80.4k as oil, rate jitters dent crypto appetite",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-10-26 21:38:41",
-          "published_iso": "2026-10-26 21:38:41",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-at-802k-as-oil-rate-jitters-dent-crypto-appetite-4971458",
+          "title": "Luxor raises $16M from CMT Digital amid AI-Bitcoin miner convergence",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 27 Oct 2026 13:01:00 +0000",
+          "published_iso": "2026-10-27T13:01:00+00:00",
+          "link": "https://cointelegraph.com/news/luxor-raises-16m-ai-bitcoin-miner-convergence?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin nears oversold as descending triangle forms: Live levels",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-10-26 19:18:44",
-          "published_iso": "2026-10-26 19:18:44",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-breaks-below-key-mas-amid-distribution-live-levels-93CH-4971508",
+          "title": "Bitcoin price analysis sees ‘strong rally’ as old coins become dormant",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 27 Oct 2026 12:18:24 +0000",
+          "published_iso": "2026-10-27T12:18:24+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-analysis-sees-strong-rally-as-old-coins-become-dormant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ],
@@ -69,33 +124,33 @@
       "reason": "복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "AI giant Anthropic files for blockbuster IPO",
-        "Injective launches onchain futures market tracking Nvidia GPU rental costs",
-        "AI company Anthropic announces IPO, expected as early as November"
+        "Luxor raises $16M from CMT Digital amid AI-Bitcoin miner convergence",
+        "Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split",
+        "Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup"
       ],
       "recent_evidence": [
         {
-          "title": "Asian stocks surge as Anthropic IPO lifts sentiment ahead of earnings, central banks - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Tue, 27 Oct 2026 01:46:00 GMT",
-          "published_iso": "2026-10-27T01:46:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdEdzTDdxbEtNX1l6VDJMdF9NTGpUNEJPYy1jaUo2SkllaGhJZnZvNzZOOTd5MkZHV3p5T2ZhcjlkcWduOXp5elFKREQ0bFBib0pXUzNKdGI2QmE3eWZxRlktZXhSZG0tQzQ4U1dXNWxOZktiZVZvc1pNUERsYUFLVUJYSQ?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "Equities end higher as Anthropic's IPO filing buoys AI stocks - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Mon, 26 Oct 2026 23:28:41 GMT",
-          "published_iso": "2026-10-26T23:28:41+00:00",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVlfUU5UYnVIOHVRRHJCaWJNQ0NtM0V5aXdZUE5QSEhGVTAxWmdXcU1KeGVEaEtYTXlEal9YNjMwblR6bGZQcm5HODd6N2xnNUppZzdXMDVTSWwtZEc3a3p3Q0M4VzRtaHo3QTd1VDJpaGNPQmw0WjFNaEMyQ2JyOVpGcmZEbktIdk45OHp4blZxdzc5UllRT2V1cnllVTVVTjVYZm1IZ0VjWDlwTnc?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+          "title": "Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup",
           "source_name": "CNBC Top News",
-          "published": "Mon, 26 Oct 2026 22:50:07 GMT",
-          "published_iso": "2026-10-26T22:50:07+00:00",
-          "link": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
+          "published": "Tue, 27 Oct 2026 17:36:46 GMT",
+          "published_iso": "2026-10-27T17:36:46+00:00",
+          "link": "https://www.cnbc.com/2026/10/27/oracle-openai-chatgpt-codex-google-tpus.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split",
+          "source_name": "CNBC Top News",
+          "published": "Tue, 27 Oct 2026 17:26:34 GMT",
+          "published_iso": "2026-10-27T17:26:34+00:00",
+          "link": "https://www.cnbc.com/2026/10/27/-anthropic-ipo-investors-growth-losses-s-1.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Anthropic, Meta and the K-shaped company",
+          "source_name": "Financial Times World",
+          "published": "Tue, 27 Oct 2026 17:02:25 GMT",
+          "published_iso": "2026-10-27T17:02:25+00:00",
+          "link": "https://www.ft.com/content/0b7db9a1-8279-4025-8c2a-44a1010828f4?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ],
@@ -111,53 +166,6 @@
       ],
       "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors",
       "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply",
-      "hard_blocking_checks": []
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "publish_date": "2026-10-30",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "China industrial profits post strongest growth in three months as tech boom widens economic divide",
-        "In China, the AI bubble has already burst - Reuters",
-        "TikTok parent ByteDance’s chatbot is now giving travel-booking sites a run for their money. And yours."
-      ],
-      "recent_evidence": [
-        {
-          "title": "China industrial profits post strongest growth in three months as tech boom widens economic divide",
-          "source_name": "CNBC Top News",
-          "published": "Tue, 27 Oct 2026 03:34:08 GMT",
-          "published_iso": "2026-10-27T03:34:08+00:00",
-          "link": "https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "In China, the AI bubble has already burst - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Mon, 26 Oct 2026 12:02:00 GMT",
-          "published_iso": "2026-10-26T12:02:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnhLb1ZGYUdnbENkWmMyZDZqTHlsckJwbEsxWVZGTnI5U2lPcFNXLXFoYmRRZm1rU2NWREZrWGVRblRES2FmdkwtUVIzMDlTS2N4ZW5vNno1Y2JCR1FzclhmdUVBOU5jMElCd2FwTlN1VzdfOU94YXlFc2VSWmRObXZyMVhyNnlf?oc=5",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
       "hard_blocking_checks": []
     }
   ]

@@ -109,19 +109,19 @@
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "CoinDesk RSS",
     "Cointelegraph",
     "Financial Times Home",
+    "Financial Times World",
+    "Investing.com Crypto News",
     "MarketWatch Breaking News",
-    "NYT Business",
-    "Reuters Markets via Google News RSS"
+    "NYT Business"
   ],
   "reference_headlines": [
-    "AI giant Anthropic files for blockbuster IPO",
-    "Injective launches onchain futures market tracking Nvidia GPU rental costs",
-    "AI company Anthropic announces IPO, expected as early as November",
-    "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
-    "‘Bold but sane’: what we learnt from Anthropic’s 240,000-word IPO filing"
+    "Luxor raises $16M from CMT Digital amid AI-Bitcoin miner convergence",
+    "Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split",
+    "Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup",
+    "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership",
+    "PrimeXBT Brings Tesla, SpaceX, NVIDIA and More to Crypto Futures with New Tokenised Stocks"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
