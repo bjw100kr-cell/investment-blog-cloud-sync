@@ -1,37 +1,27 @@
 {
-  "generated_at": "2026-10-28T05:04:58.551472+00:00",
+  "generated_at": "2026-10-28T18:17:13.884751+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 5800,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 46,
-      "source_count": 5,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+      "keyword": "ai_semiconductors",
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
+      "trend_queries": [
+        "서울반도체"
       ],
-      "sample_titles": [
-        "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%",
-        "Coinbase says user funds are safe after third-party vendor exposes customer contact info",
-        "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top"
-      ]
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
     },
     {
       "keyword": "fomc",
@@ -40,72 +30,95 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4200,
+      "demand_signal_score": 6500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 30,
-      "source_count": 5,
+      "source_snapshot_score": 53,
+      "source_count": 8,
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
+        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Investing.com Crypto News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "Financial Times Home"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%"
+        "Fed leaves interest rates unchanged, as expected"
       ]
     },
     {
-      "keyword": "dollar",
+      "keyword": "bitcoin",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2900,
+      "demand_signal_score": 5400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 17,
+      "source_snapshot_score": 42,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
-        "Investing.com Crypto News",
-        "Reuters Markets via Google News RSS"
+        "Cointelegraph",
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top",
-        "Robinhood taps Ripple’s $2.5 billion RLUSD stablecoin despite backing rival USDG",
-        "Bitget Wallet adds USD, EUR accounts that convert deposits into stablecoins"
+        "Crypto isn’t a partisan fight, proven by data",
+        "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%",
+        "Crypto Long & Short: What happens when an AI agent pays for the wrong thing"
       ]
     },
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "us_big_tech",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2900,
+      "demand_signal_score": 2500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 17,
-      "source_count": 4,
+      "source_snapshot_score": 13,
+      "source_count": 3,
       "source_names": [
         "CNBC Top News",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "CoinDesk RSS",
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Indian investors rush to Nvidia, SpaceX, Apple as local trading apps roll out access to U.S. stocks",
-        "Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split",
-        "PrimeXBT Brings Tesla, SpaceX, NVIDIA and More to Crypto Futures with New Tokenised Stocks"
+        "JPMorgan, Coca-Cola, Dell also say 'no' to OKX-ICE tokenized stock trading plan",
+        "Apple brings touch to the Mac, reversing years-old stance on touchscreen laptop",
+        "Microsoft earnings will land after the close"
+      ]
+    },
+    {
+      "keyword": "cpi",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2200,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 10,
+      "source_count": 3,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home"
+      ],
+      "sample_titles": [
+        "Fed leaves interest rates unchanged, as expected",
+        "Fed holds rates steady despite concerns over inflation",
+        "Federal Reserve holds rates steady despite worsening US inflation"
       ]
     }
   ],
