@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-10-27T17:52:19.924260+00:00`
+- 생성 시각: `2026-10-28T05:04:58.551472+00:00`
 
 ## 1. fomc
 
@@ -69,14 +69,14 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Fed expected to hold rates steady, but Warsh may point way to more hikes
-  - Bitcoin subdued at $80k as Strategy pauses buying, Fed caution weighs
+  - Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%
+  - Bitcoin up as risk sentiment, oil slip offset Strategy buying pause, Fed caution
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 점수: 82.0
+- 각도: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 점수: 86.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%
+  - Coinbase says user funds are safe after third-party vendor exposes customer contact info
+  - Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top
+  - Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts
   - Brazilian companies turned to stablecoins on election day to dodge a currency crash
-  - Bitcoin miners' move into AI is creating a new market for trading computing power
-  - Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP
-  - Live updates: Bitcoin holds near $80,000 as AI buildout draws investor attention and capital
-  - Crypto could outperform AI stocks: Wall Street veteran Jordi Visser
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 85.0
+- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 79.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,17 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Luxor raises $16M from CMT Digital amid AI-Bitcoin miner convergence
+  - Indian investors rush to Nvidia, SpaceX, Apple as local trading apps roll out access to U.S. stocks
   - Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split
-  - Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup
-  - Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership
   - PrimeXBT Brings Tesla, SpaceX, NVIDIA and More to Crypto Futures with New Tokenised Stocks
+  - Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market
+  - CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 섹터/세계 흐름 연결 해설 가능
-- 점수: 49.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 65.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,5 +276,6 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - China rushes to shore up struggling markets
+  - China rushes to shore up struggling markets
   - China Steps In to Rescue Stocks, But the Market Continues to Fall
-  - In the A.I. ‘Robogym,’ Machines Train to Be More Like Humans
