@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto",
+    "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost",
     "Crypto isn’t a partisan fight, proven by data",
     "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%",
-    "Crypto Long & Short: What happens when an AI agent pays for the wrong thing",
-    "Crypto PAC spending before midterms possibly obscured after reported FEC hack",
-    "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings"
+    "Fed’s hawkish rate hold keeps pressure on Bitcoin: Analysts"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

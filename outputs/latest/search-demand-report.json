@@ -1,28 +1,12 @@
 {
-  "generated_at": "2026-10-28T18:17:13.884751+00:00",
+  "generated_at": "2026-10-29T05:17:26.193535+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "ai_semiconductors",
-      "trend_count": 1,
-      "traffic_score_sum": 200,
-      "max_approx_traffic": 200,
-      "trend_queries": [
-        "서울반도체"
-      ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 400,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
     {
       "keyword": "fomc",
       "trend_count": 0,
@@ -30,23 +14,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6500,
+      "demand_signal_score": 6800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 53,
-      "source_count": 8,
+      "source_snapshot_score": 56,
+      "source_count": 7,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home"
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Fed leaves interest rates unchanged, as expected"
+        "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto"
       ]
     },
     {
@@ -56,11 +40,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5400,
+      "demand_signal_score": 6100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 42,
+      "source_snapshot_score": 49,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -68,9 +52,33 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Crypto isn’t a partisan fight, proven by data",
-        "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%",
-        "Crypto Long & Short: What happens when an AI agent pays for the wrong thing"
+        "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto",
+        "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost",
+        "Crypto isn’t a partisan fight, proven by data"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3000,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 18,
+      "source_count": 3,
+      "source_names": [
+        "CNBC Top News",
+        "Investing.com Crypto News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Trump methane policy rollback may have minimal impact on crude prices, EPA says",
+        "Bitcoin rises slightly after Fed holds interest rates steady; oil caps gains",
+        "Bitcoin up as risk sentiment, oil slip offset Strategy buying pause, Fed caution"
       ]
     },
     {
@@ -80,45 +88,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2500,
+      "demand_signal_score": 2600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
-      "source_count": 3,
+      "source_snapshot_score": 14,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
-        "Investing.com Crypto News"
+        "Financial Times Home",
+        "Financial Times World",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "JPMorgan, Coca-Cola, Dell also say 'no' to OKX-ICE tokenized stock trading plan",
-        "Apple brings touch to the Mac, reversing years-old stance on touchscreen laptop",
-        "Microsoft earnings will land after the close"
-      ]
-    },
-    {
-      "keyword": "cpi",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2200,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 10,
-      "source_count": 3,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Financial Times Home"
-      ],
-      "sample_titles": [
-        "Fed leaves interest rates unchanged, as expected",
-        "Fed holds rates steady despite concerns over inflation",
-        "Federal Reserve holds rates steady despite worsening US inflation"
+        "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+        "Microsoft blames data centre delays for lower capital expenditure",
+        "The major reason Microsoft’s stock is heading higher after earnings"
       ]
     }
   ],

@@ -1,11 +1,11 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-10-28T18:17:13.884751+00:00`
+- 생성 시각: `2026-10-29T05:17:26.193535+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
 - 점수: 97.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
@@ -70,7 +70,7 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Fed leaves interest rates unchanged, as expected
+  - Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto
 
 ## 2. bitcoin
 
@@ -136,22 +136,22 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto
+  - Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost
   - Crypto isn’t a partisan fight, proven by data
   - Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%
-  - Crypto Long & Short: What happens when an AI agent pays for the wrong thing
-  - Crypto PAC spending before midterms possibly obscured after reported FEC hack
-  - Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings
+  - Fed’s hawkish rate hold keeps pressure on Bitcoin: Analysts
 
-## 3. ai_semiconductors
+## 3. us_big_tech
 
-- 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (서울반도체)
-- 점수: 87.0
+- 추천 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+- 각도: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 76.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기
+  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
+  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -200,28 +200,28 @@
   - 해설: 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.
   - 마무리: 반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다.
 - 팩트체크:
-  - 기업 실적/가이던스 수치 원문 확인
-  - 반도체 섹터 전반 일반화 과장 여부 점검
-  - 대표 종목 티커와 실적 날짜 재확인
+  - 대표 종목 가격 변동률과 기준 시각 재확인
+  - 실적/가격 인상/공급망 뉴스 원문 링크 확인
+  - 개별 종목 이슈를 시장 전체 흐름처럼 과장하지 않기
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - 서울반도체
-  - PrimeXBT Brings Tesla, SpaceX, NVIDIA and More to Crypto Futures with New Tokenised Stocks
-  - Anthropic’s seven founders tighten grip ahead of blockbuster IPO
-  - Prediction market bets set the tone for Anthropic's much-awaited IPO - Reuters
-  - Bullish on Anthropic but don’t want to wait until the IPO? Here’s how you can invest today.
+  - Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat
+  - Microsoft blames data centre delays for lower capital expenditure
+  - The major reason Microsoft’s stock is heading higher after earnings
+  - US tech stocks set to fall after earnings fuel AI spending concerns
+  - Microsoft blames data centre delays for lower capital expenditure
 
-## 4. cpi
+## 4. china
 
-- 추천 제목: CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
-- 각도: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 점수: 70.0
+- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 42.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 지금 시장이 반응하는 이유
-  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 주식·코인 흐름 함께 보기
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -270,12 +270,10 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - CPI headline/core 수치 재확인
-  - 발표 월 기준과 전년동월/전월 비교 구분 확인
-  - 나스닥, 달러, 미국채 반응 수치 재확인
+  - 정책 발표 또는 인터뷰 원문 여부 확인
+  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
+  - 한국/미국 시장 영향은 시나리오형으로 서술
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Fed leaves interest rates unchanged, as expected
-  - Fed holds rates steady despite concerns over inflation
-  - Federal Reserve holds rates steady despite worsening US inflation
+  - After Hungary, now Serbia too..? Why Russia and China are on high alert ㄷㄷ
