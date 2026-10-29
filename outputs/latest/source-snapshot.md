@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-29T05:17:26.193535+00:00`
+- 생성 시각: `2026-10-29T18:22:10.902146+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,11 +25,30 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=z9pCpNM2oww! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / After Hungary, now Serbia too..? Why Russia and China are on high alert ㄷㄷ
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=VzEOKnkCD2U! This is most likely caused by:
 
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / 2. The fact that it wasn't a compliment, but a trap. Yikes.
@@ -84,65 +103,57 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 1. Variables That Emerged Before the Midterm Elections
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=SMLDUBYl0Uk! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `fomc`: score 56, source_count 7, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: score 49, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `oil`: score 18, source_count 3, sources CNBC Top News, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `us_big_tech`: score 14, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News
-- `cpi`: score 9, source_count 3, sources CoinDesk RSS, Cointelegraph, MarketWatch Breaking News
-- `treasury_yields`: score 6, source_count 1, sources Cointelegraph
-- `ai_semiconductors`: score 6, source_count 2, sources Financial Times World, Reuters Markets via Google News RSS
-- `dollar`: score 5, source_count 2, sources Cointelegraph, MarketWatch Breaking News
-- `china`: score 3, source_count 1, sources 무역킹 Trade King YouTube
-- `us_index_flow`: score 3, source_count 1, sources Financial Times World
+- `bitcoin`: score 41, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 33, source_count 5, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `us_index_flow`: score 17, source_count 5, sources CNBC Top News, Cointelegraph, Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `cpi`: score 13, source_count 5, sources CNBC Top News, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `treasury_yields`: score 9, source_count 3, sources CoinDesk RSS, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `oil`: score 9, source_count 3, sources CNBC Top News, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 9, source_count 3, sources CNBC Top News, Financial Times Home, 무역킹 Trade King YouTube
+- `us_big_tech`: score 8, source_count 3, sources Financial Times Home, Financial Times World, NYT Business
+- `pce`: score 5, source_count 2, sources CNBC Top News, NYT Business
+- `china`: score 5, source_count 2, sources MarketWatch Breaking News, 무역킹 Trade King YouTube
 
 ## 오늘의 글감 후보
 
-- `fomc`: score 56, headlines 16
+- `bitcoin`: score 41, headlines 12
+  - KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets
+  - Crypto exchange HTX exits the UK after settling with the FCA
+  - Polymarket brings ultra-short crypto prediction markets to U.S. platform
+- `fomc`: score 33, headlines 9
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-- `bitcoin`: score 49, headlines 15
-  - Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto
-  - Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost
-  - Crypto isn’t a partisan fight, proven by data
-- `oil`: score 18, headlines 6
-  - Trump methane policy rollback may have minimal impact on crude prices, EPA says
+- `us_index_flow`: score 17, headlines 6
+  - Nasdaq-listed Canton Strategic Holdings plans tokenized stock trading from Nov. 2
+  - Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B
+  - Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'
+- `cpi`: score 13, headlines 5
+  - Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates
+  - Bitcoin flat at $80k as hawkish Fed, hotter inflation data weigh
+  - Gold slides as higher US inflation reinforces Fed tightening bets - Reuters
+- `ai_semiconductors`: score 9, headlines 3
+  - Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'
+  - Two fears will decide the fate of Anthropic’s giant IPO
+  - The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...
+- `oil`: score 9, headlines 3
+  - Big Oil earnings are set to surge. Why investors may want to be cautious
   - Bitcoin rises slightly after Fed holds interest rates steady; oil caps gains
-  - Bitcoin up as risk sentiment, oil slip offset Strategy buying pause, Fed caution
-- `us_big_tech`: score 14, headlines 5
-  - Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat
-  - Microsoft blames data centre delays for lower capital expenditure
-  - The major reason Microsoft’s stock is heading higher after earnings
-- `cpi`: score 9, headlines 3
-  - Fed leaves interest rates unchanged, as expected
-  - Fed’s hawkish rate hold keeps pressure on Bitcoin: Analysts
-  - Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.
-- `ai_semiconductors`: score 6, headlines 2
-  - Prediction market bets set the tone for Anthropic's much-awaited IPO - Reuters
-  - Samsung shares slide on lack of detail about investor returns
-- `treasury_yields`: score 6, headlines 2
-  - Fed’s hawkish rate hold keeps pressure on Bitcoin: Analysts
-  - Strategy shareholders approve daily dividends for four preferred stocks
-- `dollar`: score 5, headlines 2
-  - Fed’s hawkish rate hold keeps pressure on Bitcoin: Analysts
-  - ServiceNow’s stock slides as earnings miss overshadows a raised AI outlook
-- `china`: score 3, headlines 1
+  - Oil falls as diplomacy hopes outweigh Middle East escalation fears - Reuters
+- `treasury_yields`: score 9, headlines 3
+  - Stanley Druckenmiller's first X post backs Hyperliquid venture after $23 million indirect investment
+  - Equities and bond yields dip with AI jitters and economic data in focus - Reuters
+  - Did the Fed make a mistake with its October rate pause? The Treasury could help save the day.
+- `us_big_tech`: score 8, headlines 3
+  - US tech stocks fall after earnings fuel AI spending concerns
+  - NYSE owner’s tokenised stock plan hits hurdle as big companies object
+  - Microsoft Up, Google Down. A Tale of Two Hyperscalers.
+- `china`: score 5, headlines 2
   - After Hungary, now Serbia too..? Why Russia and China are on high alert ㄷㄷ
-- `us_index_flow`: score 3, headlines 1
-  - US tech stocks set to fall after earnings fuel AI spending concerns
+  - All the reasons Marvell investors are ‘freaking out’ as Lumentum deal rumors swirl
+- `pce`: score 5, headlines 2
+  - Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates
+  - Inflation Accelerated in October, PCE Index Shows
