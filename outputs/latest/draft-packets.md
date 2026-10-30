@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-10-30T05:16:39.852412+00:00`
+- 생성 시각: `2026-10-30T17:56:48.674294+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 90.0
+- 점수: 91.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,13 +70,13 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Inflation Accelerated in October, PCE Index Shows
+  - Fed officials are already saying they’ll need to get back to hiking rates
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (7개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
-- 점수: 88.0
+- 각도: 복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
+- 점수: 89.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,22 +136,22 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze
-  - $6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain
-  - Institutional crypto investors rush to pull funds from exchanges after Binance hack
-  - Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths
-  - Binance loses over $6 billion in 'biggest crypto hack in history'
+  - Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack
+  - Binance arranges $6.34 billion to cover losses from record crypto hack
+  - Here's how big bitcoin traders responded after the Binance hack hit
+  - Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower
+  - Strategy CFO Andrew Kang resigns as company posts record operating profit
 
-## 3. us_big_tech
+## 3. ai_semiconductors
 
-- 추천 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- 각도: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 80.0
+- 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+- 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 81.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
+  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -200,23 +200,23 @@
   - 해설: 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.
   - 마무리: 반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다.
 - 팩트체크:
-  - 대표 종목 가격 변동률과 기준 시각 재확인
-  - 실적/가격 인상/공급망 뉴스 원문 링크 확인
-  - 개별 종목 이슈를 시장 전체 흐름처럼 과장하지 않기
+  - 기업 실적/가이던스 수치 원문 확인
+  - 반도체 섹터 전반 일반화 과장 여부 점검
+  - 대표 종목 티커와 실적 날짜 재확인
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged
-  - Microsoft plans to raise $25 billion in debt as it pursues AI buildout
-  - Amazon shares slide on lower Christmas sales forecast
-  - Amazon burns cash, Intel flags weak PC demand as AI boom's costs ripple across markets - Reuters
-  - Amazon’s stock drops — even in the face of a bold new cloud forecast
+  - Anthropic may not secure investment-grade rating after IPO, Blackstone says
+  - Did Anthropic value itself at $1.2tn in August?
+  - Intel on course for worst day ever, triggers global chip rout - Reuters
+  - The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...
+  - You can expect the stock market to rally no matter who wins on Election Day
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 53.0
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 42.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -277,4 +277,3 @@
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
   - After Hungary, now Serbia too..? Why Russia and China are on high alert ㄷㄷ
-  - In China, the War on Mosquitoes Has Entered the A.I. Era

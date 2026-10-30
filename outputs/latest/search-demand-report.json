@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-30T05:16:39.852412+00:00",
+  "generated_at": "2026-10-30T17:56:48.674294+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 1,
+    "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
@@ -14,12 +14,12 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6100,
+      "demand_signal_score": 7200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 49,
-      "source_count": 7,
+      "source_snapshot_score": 60,
+      "source_count": 6,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
@@ -28,9 +28,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
-        "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain",
-        "Institutional crypto investors rush to pull funds from exchanges after Binance hack"
+        "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
+        "Binance arranges $6.34 billion to cover losses from record crypto hack",
+        "Here's how big bitcoin traders responded after the Binance hack hit"
       ]
     },
     {
@@ -40,46 +40,20 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3400,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 22,
+      "source_snapshot_score": 23,
       "source_count": 2,
       "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "NYT Business"
+        "CNBC Top News",
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Inflation Accelerated in October, PCE Index Shows"
-      ]
-    },
-    {
-      "keyword": "us_big_tech",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3000,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 18,
-      "source_count": 5,
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged",
-        "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
-        "Amazon shares slide on lower Christmas sales forecast"
+        "Fed officials are already saying they’ll need to get back to hiking rates"
       ]
     },
     {
@@ -89,35 +63,50 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2800,
+      "demand_signal_score": 2900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 16,
+      "source_snapshot_score": 17,
       "source_count": 5,
       "source_names": [
         "Financial Times Home",
+        "Financial Times World",
         "MarketWatch Breaking News",
-        "NYT Business",
         "Reuters Markets via Google News RSS",
         "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
-        "Two fears will decide the fate of Anthropic’s giant IPO",
-        "Intel shares fall 22% as weak sales outlook dents turnaround",
-        "Intel shares tumble after hours, hit by chip supply constraints, big cash burn - Reuters"
+        "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+        "Did Anthropic value itself at $1.2tn in August?",
+        "Intel on course for worst day ever, triggers global chip rout - Reuters"
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2600,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 14,
+      "source_count": 4,
+      "source_names": [
+        "CoinDesk RSS",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Live updates: Bitcoin falls to $77,000 as Binance exploit combines with tech woes",
+        "Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters",
+        "Nasdaq hits near three-month low as Amazon, Intel deepen AI capex concerns - Reuters"
       ]
     }
   ],
-  "unmatched_market_trends": [
-    {
-      "query": "alphabet stock drop 500 billion",
-      "region": "US",
-      "approx_traffic": "5000+",
-      "traffic_score": 5000,
-      "market_relevance_score": 1,
-      "brand_identity_match": true,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    }
-  ]
+  "unmatched_market_trends": []
 }

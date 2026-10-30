@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-30T05:16:39.852412+00:00",
+  "generated_at": "2026-10-30T17:56:48.674294+00:00",
   "item_count": 3,
   "items": [
     {
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "publish_date": "2026-10-30",
-      "priority_score": 133.0,
+      "priority_score": 134.0,
       "ready_now": true,
       "quality_status": "pass",
       "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
       "format": "macro_explainer",
       "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "NYT Business"
+        "CNBC Top News",
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_headlines": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Inflation Accelerated in October, PCE Index Shows"
+        "Fed officials are already saying they’ll need to get back to hiking rates"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 3400,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
       "source_count": 2,
-      "search_score": 22,
+      "search_score": 23,
       "timeliness_score": 25,
       "monetization_score": 15,
       "recent_evidence": [
@@ -75,10 +75,10 @@
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "publish_date": "2026-10-31",
-      "priority_score": 127.0,
+      "priority_score": 128.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (7개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
+      "reason": "복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
       "format": "crypto_analysis",
       "source_names": [
         "CNBC Top News",
@@ -86,137 +86,128 @@
         "Cointelegraph",
         "Financial Times Home",
         "Investing.com Crypto News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "NYT Business"
       ],
       "sample_headlines": [
-        "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
-        "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain",
-        "Institutional crypto investors rush to pull funds from exchanges after Binance hack",
-        "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths",
-        "Binance loses over $6 billion in 'biggest crypto hack in history'"
+        "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
+        "Binance arranges $6.34 billion to cover losses from record crypto hack",
+        "Here's how big bitcoin traders responded after the Binance hack hit",
+        "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
+        "Strategy CFO Andrew Kang resigns as company posts record operating profit"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 6100,
+      "demand_signal_score": 7200,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 7,
-      "search_score": 29,
+      "source_count": 6,
+      "search_score": 30,
       "timeliness_score": 21,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 30 Oct 2026 04:50:42 +0000",
-          "published_iso": "2026-10-30T04:50:42+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/30/binance-hacker-splits-usd1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze",
+          "title": "'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack",
+          "source_name": "CNBC Top News",
+          "published": "Fri, 30 Oct 2026 17:12:59 GMT",
+          "published_iso": "2026-10-30T17:12:59+00:00",
+          "link": "https://www.cnbc.com/2026/10/30/binance-hack-elon-musk-tesla-spacex.html",
           "source_type": "rss"
         },
         {
-          "title": "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 30 Oct 2026 04:00:43 +0000",
-          "published_iso": "2026-10-30T04:00:43+00:00",
-          "link": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin, cryptocurrency prices fall after Binance reports security issue - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Fri, 30 Oct 2026 00:35:00 GMT",
-          "published_iso": "2026-10-30T00:35:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbl9LV3Z6eEFpLVBKcmR2ZG9YM1lNRmZBTGRQUF9qeVRLVmlaYnc2ZDdkNERRd3VPTTNtQ0dkRGluRG56czhmbUJKaFNYU1NSX1k0VllaY2l3bGxpNTBOOG1acWdmcW90ZW5UMVF1OU11OG1HOXhZaEF3b0lucWZpLUpQaldUMEV0V1BXU3lKUXBndXBBMGtyMzJDLVFzSzZ0MGViYlNhMGJETXFUd1l0Q0s2TmNGeDFHS2c?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K",
+          "title": "Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem",
           "source_name": "Cointelegraph",
-          "published": "Thu, 29 Oct 2026 23:24:21 +0000",
-          "published_iso": "2026-10-29T23:24:21+00:00",
-          "link": "https://cointelegraph.com/markets/binance-hack-rattles-crypto-markets-bnb-bitcoin-slide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Fri, 30 Oct 2026 17:09:31 +0000",
+          "published_iso": "2026-10-30T17:09:31+00:00",
+          "link": "https://cointelegraph.com/news/bitcoin-quantum-threat-ripple-bank-usdc-vaneck-crypto-biz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin sinks to $78k after Binance hit with reported $5.3 bln hack",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-10-29 23:55:09",
-          "published_iso": "2026-10-29 23:55:09",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-sinks-to-78k-after-binance-hit-with-reported-53-bln-hack-4985613",
+          "title": "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold",
+          "source_name": "Cointelegraph",
+          "published": "Fri, 30 Oct 2026 16:06:28 +0000",
+          "published_iso": "2026-10-30T16:06:28+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-risks-worst-october-in-12-years-as-tech-sell-off-spreads-to-gold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Will gold’s ‘infinite mint bug’ make Bitcoin more valuable?",
+          "source_name": "Cointelegraph",
+          "published": "Fri, 30 Oct 2026 13:30:00 +0000",
+          "published_iso": "2026-10-30T13:30:00+00:00",
+          "link": "https://cointelegraph.com/magazine/will-golds-infinite-mint-bug-make-bitcoin-more-valuable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Here's how big bitcoin traders responded after the Binance hack hit",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 30 Oct 2026 11:51:26 +0000",
+          "published_iso": "2026-10-30T11:51:26+00:00",
+          "link": "https://www.coindesk.com/daybook-us/2026/10/30/here-s-how-big-bitcoin-traders-responded-after-the-binance-hack-hit",
           "source_type": "rss"
         }
       ]
     },
     {
-      "keyword": "us_big_tech",
-      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "publish_date": "2026-11-01",
-      "priority_score": 115.0,
-      "ready_now": false,
-      "quality_status": "review_before_publish",
-      "reason": "복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "priority_score": 116.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
       "format": "sector_analysis",
       "source_names": [
-        "CNBC Top News",
         "Financial Times Home",
+        "Financial Times World",
         "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "Reuters Markets via Google News RSS",
+        "무역킹 Trade King YouTube"
       ],
       "sample_headlines": [
-        "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged",
-        "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
-        "Amazon shares slide on lower Christmas sales forecast",
-        "Amazon burns cash, Intel flags weak PC demand as AI boom's costs ripple across markets - Reuters",
-        "Amazon’s stock drops — even in the face of a bold new cloud forecast"
+        "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+        "Did Anthropic value itself at $1.2tn in August?",
+        "Intel on course for worst day ever, triggers global chip rout - Reuters",
+        "The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...",
+        "You can expect the stock market to rally no matter who wins on Election Day"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 3000,
+      "demand_signal_score": 2900,
       "fallback_source": "source_snapshot_rank",
       "source_count": 5,
-      "search_score": 21,
+      "search_score": 20,
       "timeliness_score": 21,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Binance Grapples With ‘Security Incident’ That May Cause $6.3 Billion in Losses",
-          "source_name": "NYT Business",
-          "published": "Fri, 30 Oct 2026 03:07:37 +0000",
-          "published_iso": "2026-10-30T03:07:37+00:00",
-          "link": "https://www.nytimes.com/2026/10/29/technology/binance-grapples-with-security-incident-that-may-cause-6-3-billion-in-losses.html",
-          "source_type": "rss"
+          "title": "The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "무역킹 Trade King",
+          "published_iso": "무역킹 Trade King",
+          "link": "https://www.youtube.com/watch?v=z9pCpNM2oww",
+          "source_type": "youtube_channel"
         },
         {
-          "title": "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
-          "source_name": "CNBC Top News",
-          "published": "Fri, 30 Oct 2026 00:38:13 GMT",
-          "published_iso": "2026-10-30T00:38:13+00:00",
-          "link": "https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Amazon’s stock drops — even in the face of a bold new cloud forecast",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Fri, 30 Oct 2026 00:15:00 GMT",
-          "published_iso": "2026-10-30T00:15:00+00:00",
-          "link": "https://www.marketwatch.com/story/amazons-bold-cloud-forecast-isnt-enough-to-stave-off-a-stock-drop-ee23c1bb?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "Amazon shares slide on lower Christmas sales forecast",
+          "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
           "source_name": "Financial Times Home",
-          "published": "Thu, 29 Oct 2026 22:44:22 GMT",
-          "published_iso": "2026-10-29T22:44:22+00:00",
-          "link": "https://www.ft.com/content/8affd8dd-b783-48c8-86e2-ac4a647fa0f3?syn-25a6b1a6=1",
+          "published": "Fri, 30 Oct 2026 17:25:34 GMT",
+          "published_iso": "2026-10-30T17:25:34+00:00",
+          "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f?syn-25a6b1a6=1",
           "source_type": "rss"
         },
         {
-          "title": "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged",
-          "source_name": "CNBC Top News",
-          "published": "Thu, 29 Oct 2026 22:24:49 GMT",
-          "published_iso": "2026-10-29T22:24:49+00:00",
-          "link": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+          "title": "Intel on course for worst day ever, triggers global chip rout - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Fri, 30 Oct 2026 14:03:20 GMT",
+          "published_iso": "2026-10-30T14:03:20+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV2NqOERFZ1pGS25NV2RwTVlCSUVMbXdBQ0QxRzlmWTdWd3EzT2N6YUo4QVNHanQwUC1aRHdqcmtOeWdDUGpQcTg1X1pFWDdydHhyQWUzNnVUQk9Tc3h1Z29WbWxHa1VFZmdod3Z6bG1LNzkwQ3h2a3ZHdlA5cEF4X3d6LVdCUEVEc0RkVTNYcG5IQmlZcy10cmhDSmxDcndVeGFtUURSOXc?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "Did Anthropic value itself at $1.2tn in August?",
+          "source_name": "Financial Times Home",
+          "published": "Fri, 30 Oct 2026 12:36:54 GMT",
+          "published_iso": "2026-10-30T12:36:54+00:00",
+          "link": "https://www.ft.com/content/60fb40ed-f1bf-416e-982b-1b9b80582ab4",
           "source_type": "rss"
         }
       ]

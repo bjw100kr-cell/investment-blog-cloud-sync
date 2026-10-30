@@ -14,7 +14,7 @@
 - keyword: `fomc`
 - type: `main_post` / role `lane_focus_macro`
 - publish date: `2026-10-30`
-- priority: `133.0`
+- priority: `134.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
@@ -36,7 +36,7 @@
 - keyword: `bitcoin`
 - type: `main_post` / role `lane_focus_crypto`
 - publish date: `2026-10-31`
-- priority: `127.0`
+- priority: `128.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
@@ -53,22 +53,22 @@
   한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
   - 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
 
-## 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+## AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword: `us_big_tech`
+- keyword: `ai_semiconductors`
 - type: `main_post` / role `lane_focus_us-stocks`
 - publish date: `2026-11-01`
-- priority: `115.0`
+- priority: `116.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-big-tech.md`
-- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자.html`
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-semiconductors.md`
+- rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html`
 - image review required: `True`
-- image 대표 이미지: Unsplash / query `technology stocks office city abstract` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_big_tech --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
-- image 본문 보조 이미지: Pexels / query `semiconductor server data center abstract` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword us_big_tech --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 대표 이미지: Unsplash / query `semiconductor chip blue abstract` / license Unsplash License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword ai_semiconductors --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image 본문 보조 이미지: Pexels / query `ai server data center abstract` / license Pexels License
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword ai_semiconductors --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - preview:
   한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
   - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
@@ -78,7 +78,7 @@
 - keyword: `china`
 - type: `main_post` / role `lane_focus_world-flow`
 - publish date: `2026-11-02`
-- priority: `78.0`
+- priority: `66.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
@@ -100,7 +100,7 @@
 - keyword: `seo_china_11`
 - type: `seo_followup` / role `evergreen_seo`
 - publish date: `2026-11-02`
-- priority: `77.5`
+- priority: `65.5`
 - internal review: `approve` / score `100`
 - intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 - CTA focus: 대표 종목 글과 허브 글 연결
@@ -122,7 +122,7 @@
 - keyword: `seo_china_12`
 - type: `seo_followup` / role `follow_up`
 - publish date: `2026-11-02`
-- priority: `74.5`
+- priority: `62.5`
 - internal review: `approve` / score `100`
 - intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 - CTA focus: 실적 해설과 글로벌 섹터 허브 연결
@@ -144,7 +144,7 @@
 - keyword: `seo_china_13`
 - type: `seo_followup` / role `evergreen_seo`
 - publish date: `2026-11-02`
-- priority: `71.5`
+- priority: `59.5`
 - internal review: `approve` / score `100`
 - intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 - CTA focus: 섹터 허브와 후속 비교 글 연결
