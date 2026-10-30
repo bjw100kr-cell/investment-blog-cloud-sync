@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-29T18:22:10.902146+00:00",
+  "generated_at": "2026-10-30T05:16:39.852412+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 0,
+    "unmatched_market_trend_count": 1,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
@@ -14,21 +14,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5300,
+      "demand_signal_score": 6100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 41,
-      "source_count": 3,
+      "source_snapshot_score": 49,
+      "source_count": 7,
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
+        "Financial Times Home",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets",
-        "Crypto exchange HTX exits the UK after settling with the FCA",
-        "Polymarket brings ultra-short crypto prediction markets to U.S. platform"
+        "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
+        "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain",
+        "Institutional crypto investors rush to pull funds from exchanges after Binance hack"
       ]
     },
     {
@@ -38,77 +40,84 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4500,
+      "demand_signal_score": 3400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 33,
-      "source_count": 5,
+      "source_snapshot_score": 22,
+      "source_count": 2,
       "source_names": [
         "Federal Reserve Monetary Policy Press",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "NYT Business"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Bitcoin flat at $80k as hawkish Fed, hotter inflation data weigh"
+        "Inflation Accelerated in October, PCE Index Shows"
       ]
     },
     {
-      "keyword": "us_index_flow",
+      "keyword": "us_big_tech",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2900,
+      "demand_signal_score": 3000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 17,
+      "source_snapshot_score": 18,
       "source_count": 5,
       "source_names": [
         "CNBC Top News",
-        "Cointelegraph",
         "Financial Times Home",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Nasdaq-listed Canton Strategic Holdings plans tokenized stock trading from Nov. 2",
-        "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B",
-        "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'"
-      ]
-    },
-    {
-      "keyword": "cpi",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
-      "source_count": 5,
-      "source_names": [
-        "CNBC Top News",
-        "Investing.com Crypto News",
         "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
-        "Bitcoin flat at $80k as hawkish Fed, hotter inflation data weigh",
-        "Gold slides as higher US inflation reinforces Fed tightening bets - Reuters"
+        "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged",
+        "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
+        "Amazon shares slide on lower Christmas sales forecast"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2800,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 16,
+      "source_count": 5,
+      "source_names": [
+        "Financial Times Home",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS",
+        "무역킹 Trade King YouTube"
+      ],
+      "sample_titles": [
+        "Two fears will decide the fate of Anthropic’s giant IPO",
+        "Intel shares fall 22% as weak sales outlook dents turnaround",
+        "Intel shares tumble after hours, hit by chip supply constraints, big cash burn - Reuters"
       ]
     }
   ],
-  "unmatched_market_trends": []
+  "unmatched_market_trends": [
+    {
+      "query": "alphabet stock drop 500 billion",
+      "region": "US",
+      "approx_traffic": "5000+",
+      "traffic_score": 5000,
+      "market_relevance_score": 1,
+      "brand_identity_match": true,
+      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
+    }
+  ]
 }

@@ -1,8 +1,8 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-10-29T18:22:15.998274+00:00`
-- snapshot_generated_at: `2026-10-29T18:22:10.902146+00:00`
+- generated_at: `2026-10-30T05:16:43.686158+00:00`
+- snapshot_generated_at: `2026-10-30T05:16:39.852412+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
 - counts: fresh `3` / aging `0` / stale `0` / unknown `0`
@@ -11,7 +11,7 @@
 
 - keyword: `fomc`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `1.0`
+- newest_evidence_age_days: `1.5`
 - newest_evidence_iso: `2026-10-28T18:00:00+00:00`
 - quality_status: `pass` / ready_now `True`
 - summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Federal Reserve issues FOMC statement
@@ -22,32 +22,32 @@
 - evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve issues FOMC statement
 - evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
 
-## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 2. 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
 
-- keyword: `bitcoin`
+- keyword: `us_big_tech`
 - freshness_status: `fresh`
 - newest_evidence_age_days: `0.1`
-- newest_evidence_iso: `2026-10-29T15:39:54+00:00`
-- quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin price jumps to $81.5K as US GDP data beats expectations
-- recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
-- recovery_mode: `publish_direct`
-- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Cointelegraph / 2026-10-29T15:39:54+00:00 / Bitcoin price jumps to $81.5K as US GDP data beats expectations
-- evidence: CoinDesk RSS / 2026-10-29T14:15:46+00:00 / Why Switzerland’s first genuine spot bitcoin ETF could soon attract overseas banks and brokers
-- evidence: Investing.com Crypto News / 2026-10-29 14:45:46 / Bitcoin flat at $80k as hawkish Fed, hotter inflation data weigh
-
-## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-
-- keyword: `us_index_flow`
-- freshness_status: `fresh`
-- newest_evidence_age_days: `0.1`
-- newest_evidence_iso: `2026-10-29T16:43:57+00:00`
+- newest_evidence_iso: `2026-10-30T03:07:37+00:00`
 - quality_status: `review_before_publish` / ready_now `False`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Nasdaq falls as Alphabet set for record loss amid AI spending woes - Reuters
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Binance Grapples With ‘Security Incident’ That May Cause $6.3 Billion in Losses
 - recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Reuters Markets via Google News RSS / 2026-10-29T16:43:57+00:00 / Nasdaq falls as Alphabet set for record loss amid AI spending woes - Reuters
-- evidence: Cointelegraph / 2026-10-29T16:27:39+00:00 / Nasdaq-listed Canton Strategic Holdings plans tokenized stock trading from Nov. 2
-- evidence: MarketWatch Breaking News / 2026-10-29T16:26:00+00:00 / You can’t rely on the S&P 500 as much as you may think
+- evidence: NYT Business / 2026-10-30T03:07:37+00:00 / Binance Grapples With ‘Security Incident’ That May Cause $6.3 Billion in Losses
+- evidence: CNBC Top News / 2026-10-30T00:38:13+00:00 / Microsoft plans to raise $25 billion in debt as it pursues AI buildout
+- evidence: MarketWatch Breaking News / 2026-10-30T00:15:00+00:00 / Amazon’s stock drops — even in the face of a bold new cloud forecast
+
+## 3. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+
+- keyword: `bitcoin`
+- freshness_status: `fresh`
+- newest_evidence_age_days: `0.0`
+- newest_evidence_iso: `2026-10-30T04:50:42+00:00`
+- quality_status: `pass` / ready_now `True`
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze
+- recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
+- recovery_mode: `publish_direct`
+- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
+- evidence: CoinDesk RSS / 2026-10-30T04:50:42+00:00 / Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze
+- evidence: CoinDesk RSS / 2026-10-30T04:00:43+00:00 / $6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain
+- evidence: Reuters Markets via Google News RSS / 2026-10-30T00:35:00+00:00 / Bitcoin, cryptocurrency prices fall after Binance reports security issue - Reuters
