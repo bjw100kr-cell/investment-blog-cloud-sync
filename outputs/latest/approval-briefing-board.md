@@ -9,17 +9,17 @@
 
 ## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword `fomc` / publish `2026-10-30` / priority `134.0`
+- keyword `fomc` / publish `2026-10-31` / priority `133.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
 - reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- evidence score: demand `3500` / fallback `source_snapshot_rank` / format `macro_explainer`
-- source_names: CNBC Top News, Federal Reserve Monetary Policy Press
+- evidence score: demand `3400` / fallback `source_snapshot_rank` / format `macro_explainer`
+- source_names: Federal Reserve Monetary Policy Press, MarketWatch Breaking News
 - sample_headlines:
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Fed officials are already saying they’ll need to get back to hiking rates
+  - Warsh wants the Fed to say less. Two officials are pushing for more transparency.
 - recent_evidence:
   - Federal Reserve Monetary Policy Press | 2026-10-28T18:00:00+00:00 | Federal Reserve issues FOMC statement
   - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve issues FOMC statement
@@ -44,7 +44,7 @@
 
 ## 도입부
 
-2026년 10월 30일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 10월 31일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 공식 발표 자료, 해외 주요 매체 보도를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
@@ -102,7 +102,7 @@
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, Federal Reserve Monetary Policy Press
+- 주요 참고 소스: Federal Reserve Monetary Policy Press, MarketWatch Breaking News
 - 발행 전 재확인: FOMC 성명서 원문 날짜와 발표 시각 확인
 - 발행 전 재확인: 점도표/경제전망 최신 버전 확인
 - 발행 전 재확인: 달러, 미국채 금리, 나스닥 관련 수치 재확인
@@ -126,23 +126,23 @@
 
 ## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-10-31` / priority `128.0`
+- keyword `bitcoin` / publish `2026-11-01` / priority `126.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
-- reason: 복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
-- evidence score: demand `7200` / fallback `source_snapshot_rank` / format `crypto_analysis`
+- reason: 복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- evidence score: demand `7400` / fallback `source_snapshot_rank` / format `crypto_analysis`
 - source_names: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, NYT Business
 - sample_headlines:
+  - Experts divided over Binance hack asset freezes, warn recovery is another matter
   - Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack
   - Binance arranges $6.34 billion to cover losses from record crypto hack
   - Here's how big bitcoin traders responded after the Binance hack hit
-  - Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower
 - recent_evidence:
-  - CNBC Top News | 2026-10-30T17:12:59+00:00 | 'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack
   - Cointelegraph | 2026-10-30T17:09:31+00:00 | Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem
   - Cointelegraph | 2026-10-30T16:06:28+00:00 | Bitcoin risks worst October in 12 years as tech sell-off spreads to gold
-  - Cointelegraph | 2026-10-30T13:30:00+00:00 | Will gold’s ‘infinite mint bug’ make Bitcoin more valuable?
+  - CoinDesk RSS | 2026-10-30T11:51:26+00:00 | Here's how big bitcoin traders responded after the Binance hack hit
+  - CoinDesk RSS | 2026-10-30T11:09:24+00:00 | Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower
 - image_slots:
   - 대표 이미지 / Pexels / `bitcoin blockchain abstract blue finance` / Pexels License
   - 본문 보조 이미지 / Unsplash / `crypto market data abstract` / Unsplash License
@@ -162,17 +162,17 @@
 
 ## 도입부
 
-2026년 10월 30일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 10월 31일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+예를 들어 `Experts divided over Binance hack asset freezes, warn recovery is another matter` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Experts divided over Binance hack asset freezes, warn recovery is another matter`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `현물 ETF 순유입/순유출`, 다른 하나는 `달러 인덱스와 미국채 금리`입니다.
 한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -244,7 +244,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword `ai_semiconductors` / publish `2026-11-01` / priority `116.0`
+- keyword `ai_semiconductors` / publish `2026-11-02` / priority `116.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
@@ -253,14 +253,13 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 - source_names: Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
 - sample_headlines:
   - Anthropic may not secure investment-grade rating after IPO, Blackstone says
-  - Did Anthropic value itself at $1.2tn in August?
   - Intel on course for worst day ever, triggers global chip rout - Reuters
   - The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...
+  - Why Intel’s stock saw its worst day in decades — and a $140 billion wipeout
 - recent_evidence:
   - 무역킹 Trade King YouTube | 무역킹 Trade King | The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...
-  - Financial Times Home | 2026-10-30T17:25:34+00:00 | Anthropic may not secure investment-grade rating after IPO, Blackstone says
-  - Reuters Markets via Google News RSS | 2026-10-30T14:03:20+00:00 | Intel on course for worst day ever, triggers global chip rout - Reuters
-  - Financial Times Home | 2026-10-30T12:36:54+00:00 | Did Anthropic value itself at $1.2tn in August?
+  - Reuters Markets via Google News RSS | 2026-10-30T20:50:09+00:00 | Intel on course for worst day ever, triggers global chip rout - Reuters
+  - Financial Times Home | 2026-10-30T18:19:08+00:00 | Anthropic may not secure investment-grade rating after IPO, Blackstone says
 - image_slots:
   - 대표 이미지 / Unsplash / `semiconductor chip blue abstract` / Unsplash License
   - 본문 보조 이미지 / Pexels / `ai server data center abstract` / Pexels License
@@ -280,7 +279,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 도입부
 
-2026년 10월 30일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 10월 31일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 해외 주요 매체 보도, 유튜브 해설를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.

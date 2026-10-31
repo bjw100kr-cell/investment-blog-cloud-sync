@@ -1,23 +1,24 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-10-30T17:56:53.413132+00:00`
-- snapshot_generated_at: `2026-10-30T17:56:48.674294+00:00`
+- generated_at: `2026-10-31T04:59:49.812265+00:00`
+- snapshot_generated_at: `2026-10-31T04:59:45.416125+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
-- counts: fresh `3` / aging `0` / stale `0` / unknown `0`
+- counts: fresh `2` / aging `1` / stale `0` / unknown `0`
 
 ## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 - keyword: `fomc`
-- freshness_status: `fresh`
-- newest_evidence_age_days: `2.0`
+- freshness_status: `aging`
+- newest_evidence_age_days: `2.5`
 - newest_evidence_iso: `2026-10-28T18:00:00+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Federal Reserve issues FOMC statement
-- recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
-- recovery_mode: `publish_direct`
-- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
+- summary: 아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Federal Reserve issues FOMC statement
+- recommendation: 초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.
+- recovery_mode: `refresh_before_publish`
+- recovery_summary: 발행 직전 전체 파이프라인을 다시 돌려 headline과 숫자를 최신 상태로 갱신하는 편이 안전합니다.
+- recovery_command: `bash scripts/run_pipeline.sh`
 - evidence: Federal Reserve Monetary Policy Press / 2026-10-28T18:00:00+00:00 / Federal Reserve issues FOMC statement
 - evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve issues FOMC statement
 - evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
@@ -26,28 +27,28 @@
 
 - keyword: `bitcoin`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.0`
-- newest_evidence_iso: `2026-10-30T17:12:59+00:00`
+- newest_evidence_age_days: `0.3`
+- newest_evidence_iso: `2026-10-30T21:33:06+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: 'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: CNBC Top News / 2026-10-30T17:12:59+00:00 / 'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack
 - evidence: Cointelegraph / 2026-10-30T17:09:31+00:00 / Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem
 - evidence: Cointelegraph / 2026-10-30T16:06:28+00:00 / Bitcoin risks worst October in 12 years as tech sell-off spreads to gold
+- evidence: CoinDesk RSS / 2026-10-30T11:51:26+00:00 / Here's how big bitcoin traders responded after the Binance hack hit
 
 ## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - keyword: `ai_semiconductors`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.0`
-- newest_evidence_iso: `2026-10-30T17:25:34+00:00`
+- newest_evidence_age_days: `0.3`
+- newest_evidence_iso: `2026-10-30T20:50:09+00:00`
 - quality_status: `pass` / ready_now `True`
 - summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
 - evidence: 무역킹 Trade King YouTube / 무역킹 Trade King / The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...
-- evidence: Financial Times Home / 2026-10-30T17:25:34+00:00 / Anthropic may not secure investment-grade rating after IPO, Blackstone says
-- evidence: Reuters Markets via Google News RSS / 2026-10-30T14:03:20+00:00 / Intel on course for worst day ever, triggers global chip rout - Reuters
+- evidence: Reuters Markets via Google News RSS / 2026-10-30T20:50:09+00:00 / Intel on course for worst day ever, triggers global chip rout - Reuters
+- evidence: Financial Times Home / 2026-10-30T18:19:08+00:00 / Anthropic may not secure investment-grade rating after IPO, Blackstone says

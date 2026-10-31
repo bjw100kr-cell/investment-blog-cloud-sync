@@ -13,8 +13,8 @@
 
 - keyword: `fomc`
 - type: `main_post` / role `lane_focus_macro`
-- publish date: `2026-10-30`
-- priority: `134.0`
+- publish date: `2026-10-31`
+- priority: `133.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
@@ -35,8 +35,8 @@
 
 - keyword: `bitcoin`
 - type: `main_post` / role `lane_focus_crypto`
-- publish date: `2026-10-31`
-- priority: `128.0`
+- publish date: `2026-11-01`
+- priority: `126.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
@@ -57,11 +57,13 @@
 
 - keyword: `ai_semiconductors`
 - type: `main_post` / role `lane_focus_us-stocks`
-- publish date: `2026-11-01`
+- publish date: `2026-11-02`
 - priority: `116.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
+- final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
+- later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
 - draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-semiconductors.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html`
 - image review required: `True`
@@ -77,8 +79,8 @@
 
 - keyword: `china`
 - type: `main_post` / role `lane_focus_world-flow`
-- publish date: `2026-11-02`
-- priority: `66.0`
+- publish date: `2026-11-03`
+- priority: `78.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
@@ -99,8 +101,8 @@
 
 - keyword: `seo_china_11`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-11-02`
-- priority: `65.5`
+- publish date: `2026-11-03`
+- priority: `77.5`
 - internal review: `approve` / score `100`
 - intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 - CTA focus: 대표 종목 글과 허브 글 연결
@@ -121,8 +123,8 @@
 
 - keyword: `seo_china_12`
 - type: `seo_followup` / role `follow_up`
-- publish date: `2026-11-02`
-- priority: `62.5`
+- publish date: `2026-11-03`
+- priority: `74.5`
 - internal review: `approve` / score `100`
 - intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 - CTA focus: 실적 해설과 글로벌 섹터 허브 연결
@@ -143,8 +145,8 @@
 
 - keyword: `seo_china_13`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-11-02`
-- priority: `59.5`
+- publish date: `2026-11-03`
+- priority: `71.5`
 - internal review: `approve` / score `100`
 - intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 - CTA focus: 섹터 허브와 후속 비교 글 연결

@@ -116,10 +116,10 @@
   ],
   "reference_headlines": [
     "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
-    "Did Anthropic value itself at $1.2tn in August?",
     "Intel on course for worst day ever, triggers global chip rout - Reuters",
     "The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...",
-    "You can expect the stock market to rally no matter who wins on Election Day"
+    "Why Intel’s stock saw its worst day in decades — and a $140 billion wipeout",
+    "US tech stocks tumble as concerns over AI spending intensify"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [

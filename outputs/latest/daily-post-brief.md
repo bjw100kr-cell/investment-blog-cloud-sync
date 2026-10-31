@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-10-30T17:56:48.674294+00:00`
+- 생성 시각: `2026-10-31T04:59:45.416125+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `91.0`
-- 점수 구성: 검색성 23 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `90.0`
+- 점수 구성: 검색성 22 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, Federal Reserve Monetary Policy Press
+- 소스: Federal Reserve Monetary Policy Press, MarketWatch Breaking News
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,16 +27,15 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Fed officials are already saying they’ll need to get back to hiking rates
+  - Warsh wants the Fed to say less. Two officials are pushing for more transparency.
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `89.0`
-- 점수 구성: 검색성 30 / 시의성 21 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 4 / 코인시장신호 3
-- 추천 이유: 복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
-- 코인 시장 신호: BTCUSDT 24h change -4.50%
+- 총점: `87.0`
+- 점수 구성: 검색성 30 / 시의성 21 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 4 / 코인시장신호 1
+- 추천 이유: 복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, NYT Business
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
@@ -49,11 +48,11 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Experts divided over Binance hack asset freezes, warn recovery is another matter
   - Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack
   - Binance arranges $6.34 billion to cover losses from record crypto hack
   - Here's how big bitcoin traders responded after the Binance hack hit
   - Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower
-  - Strategy CFO Andrew Kang resigns as company posts record operating profit
 
 ## 3. ai_semiconductors
 
@@ -75,19 +74,19 @@
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
   - Anthropic may not secure investment-grade rating after IPO, Blackstone says
-  - Did Anthropic value itself at $1.2tn in August?
   - Intel on course for worst day ever, triggers global chip rout - Reuters
   - The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...
-  - You can expect the stock market to rally no matter who wins on Election Day
+  - Why Intel’s stock saw its worst day in decades — and a $140 billion wipeout
+  - US tech stocks tumble as concerns over AI spending intensify
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `42.0`
-- 점수 구성: 검색성 4 / 시의성 2 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 섹터/세계 흐름 연결 해설 가능
-- 소스: 무역킹 Trade King YouTube
+- 총점: `53.0`
+- 점수 구성: 검색성 8 / 시의성 7 / 설명가치 18 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 소스: Financial Times World, 무역킹 Trade King YouTube
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -100,15 +99,16 @@
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
   - After Hungary, now Serbia too..? Why Russia and China are on high alert ㄷㄷ
+  - Muji takes its China playbook global
 
 ## 5. us_index_flow
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `78.0`
-- 점수 구성: 검색성 18 / 시의성 20 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `79.0`
+- 점수 구성: 검색성 19 / 시의성 20 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: CoinDesk RSS, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 소스: CNBC Top News, CoinDesk RSS, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -120,8 +120,8 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Live updates: Bitcoin falls to $77,000 as Binance exploit combines with tech woes
+  - OpenAI reportedly cuts fundraising and valuation targets amid AI jitters
+  - Meta outlook revised downward by S&P on cash flow and capex concerns
   - Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
-  - Nasdaq hits near three-month low as Amazon, Intel deepen AI capex concerns - Reuters
-  - You can expect the stock market to rally no matter who wins on Election Day
-  - Tech Stocks Tumble, Putting Pressure on Broader Market
+  - Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.
+  - This cybersecurity stock will be the next to join the S&P 500
