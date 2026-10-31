@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-10-31T04:59:45.416125+00:00`
+- 생성 시각: `2026-10-31T17:09:57.358747+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -100,49 +100,43 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 62, source_count 6, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, NYT Business
-- `fomc`: score 22, source_count 2, sources Federal Reserve Monetary Policy Press, MarketWatch Breaking News
-- `ai_semiconductors`: score 17, source_count 5, sources Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
-- `us_index_flow`: score 16, source_count 4, sources CNBC Top News, CoinDesk RSS, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `treasury_yields`: score 6, source_count 2, sources CNBC Top News, Cointelegraph
-- `oil`: score 6, source_count 2, sources Financial Times Home, Reuters Markets via Google News RSS
-- `china`: score 6, source_count 2, sources Financial Times World, 무역킹 Trade King YouTube
-- `cpi`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
-- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, NYT Business
-- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
+- `bitcoin`: score 72, source_count 6, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
+- `us_index_flow`: score 15, source_count 4, sources CNBC Top News, CoinDesk RSS, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 12, source_count 4, sources CNBC Top News, CoinDesk RSS, NYT Business, 무역킹 Trade King YouTube
+- `treasury_yields`: score 7, source_count 2, sources Financial Times World, MarketWatch Breaking News
+- `cpi`: score 3, source_count 1, sources CNBC Top News
+- `oil`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `china`: score 3, source_count 1, sources 무역킹 Trade King YouTube
+- `us_big_tech`: score 2, source_count 1, sources NYT Business
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 62, headlines 20
-  - Experts divided over Binance hack asset freezes, warn recovery is another matter
-  - Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack
-  - Binance arranges $6.34 billion to cover losses from record crypto hack
-- `fomc`: score 22, headlines 5
+- `bitcoin`: score 72, headlines 22
+  - A stolen iPhone, $14,000 in losses and London's crypto theft problem
+  - Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts
+  - Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach
+- `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-- `ai_semiconductors`: score 17, headlines 6
-  - Anthropic may not secure investment-grade rating after IPO, Blackstone says
-  - Intel on course for worst day ever, triggers global chip rout - Reuters
-  - The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...
-- `us_index_flow`: score 16, headlines 6
-  - OpenAI reportedly cuts fundraising and valuation targets amid AI jitters
-  - Meta outlook revised downward by S&P on cash flow and capex concerns
+- `us_index_flow`: score 15, headlines 5
+  - A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears
+  - Anthropic's path to the Nasdaq just got a lot bumpier
   - Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
-- `china`: score 6, headlines 2
+- `ai_semiconductors`: score 12, headlines 4
+  - Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts
+  - Anthropic's path to the Nasdaq just got a lot bumpier
+  - The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...
+- `treasury_yields`: score 7, headlines 3
+  - Want guaranteed income in retirement without an annuity? Try laddering I bonds.
+  - We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?
+  - Chart of the Week: Bond investors may cheer gridlock
+- `china`: score 3, headlines 1
   - After Hungary, now Serbia too..? Why Russia and China are on high alert ㄷㄷ
-  - Muji takes its China playbook global
-- `oil`: score 6, headlines 2
-  - Pensioners bet on a lifetime cruise. They ended up in a Cambodian scam town
+- `cpi`: score 3, headlines 1
+  - Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead
+- `oil`: score 3, headlines 1
   - Stocks fall on AI cash burn worries while bonds rally with oil - Reuters
-- `treasury_yields`: score 6, headlines 2
-  - Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B
-  - Treasury Department announces new Series I bond rate of 5.51% for the next six months
-- `cpi`: score 5, headlines 2
-  - Halloween gets pricier as chocolate costs climb — Hershey may feel the pinch
-  - Warsh wants the Fed to say less. Two officials are pushing for more transparency.
-- `us_big_tech`: score 5, headlines 2
-  - Meta outlook revised downward by S&P on cash flow and capex concerns
-  - Meta Settles Social Media Addiction Case, Avoiding Trial
-- `ethereum`: score 4, headlines 1
-  - Here’s how an Ethereum upgrade helped drain part of Binance’s $6 billion loss
+- `us_big_tech`: score 2, headlines 1
+  - The New Hot Job in Law Doesn’t Require a J.D.

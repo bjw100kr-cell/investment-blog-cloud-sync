@@ -111,16 +111,16 @@
     "CNBC Top News",
     "CoinDesk RSS",
     "Cointelegraph",
-    "Financial Times Home",
     "Investing.com Crypto News",
-    "NYT Business"
+    "NYT Business",
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Experts divided over Binance hack asset freezes, warn recovery is another matter",
-    "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
-    "Binance arranges $6.34 billion to cover losses from record crypto hack",
-    "Here's how big bitcoin traders responded after the Binance hack hit",
-    "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower"
+    "A stolen iPhone, $14,000 in losses and London's crypto theft problem",
+    "Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts",
+    "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach",
+    "Institutions embrace crypto staking despite shrinking yields",
+    "As big bitcoin miners chase AI profits, individuals get another shot at the rewards"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
