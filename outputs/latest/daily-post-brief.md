@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-11-01T05:30:22.963797+00:00`
+- 생성 시각: `2026-11-01T17:52:03.727194+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -47,24 +47,24 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses
-  - Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered
-  - A stolen iPhone, $14,000 in losses and London's crypto theft problem
-  - Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts
-  - Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach
+  - AI agents bypassed crypto spending limits without human approval, researchers find in a new test
+  - The key races to watch for the 2026 election
+  - Crypto card startups are racking up losses just to buy your loyalty with big rewards
+  - Crypto PACs made big Republican push in final weeks before November 3 election
+  - Sherrod Brown's Ohio edge threatens a rough go for crypto next year
 
-## 3. ai_semiconductors
+## 3. us_index_flow
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `72.0`
-- 점수 구성: 검색성 16 / 시의성 17 / 설명가치 19 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, CoinDesk RSS, NYT Business, 무역킹 Trade King YouTube
+- 총점: `64.0`
+- 점수 구성: 검색성 10 / 시의성 13 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 제목 후보:
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -72,17 +72,16 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts
-  - Anthropic's path to the Nasdaq just got a lot bumpier
-  - The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...
-  - The New Hot Job in Law Doesn’t Require a J.D.
+  - Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
+  - Wall St Week Ahead Midterm US elections, earnings, jobs data loom for AI-wary stock market - Reuters
+  - This is the biggest threat to the AI-powered bull market
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `59.0`
-- 점수 구성: 검색성 11 / 시의성 10 / 설명가치 18 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 총점: `60.0`
+- 점수 구성: 검색성 12 / 시의성 10 / 설명가치 18 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
 - 소스: Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
 - 제목 후보:
@@ -96,29 +95,29 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - China's factory activity shrinks in October, third contraction in four months - Reuters
   - In China, the AI bubble has already burst - Reuters
+  - China's factory activity shrinks in October, third contraction in four months - Reuters
   - After Hungary, now Serbia too..? Why Russia and China are on high alert ㄷㄷ
 
-## 5. us_index_flow
+## 5. treasury_yields
 
-- 카테고리: `global-sector`
-- 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `66.0`
-- 점수 구성: 검색성 12 / 시의성 13 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: CNBC Top News, Reuters Markets via Google News RSS
+- 카테고리: `macro`
+- 브랜드 레인: `macro` (거시경제)
+- 총점: `65.0`
+- 점수 구성: 검색성 12 / 시의성 13 / 설명가치 18 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, Financial Times Home
 - 제목 후보:
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
 - 글 구조:
-  - 지금 이 섹터가 왜 움직이는가
-  - 핵심 뉴스와 시장 반응
-  - 대표 종목과 자금 흐름
-  - 거시 변수와 연결
-  - 다음 실적/정책 이벤트
+  - 왜 지금 이 이슈가 중요한가
+  - 실제로 발표되거나 벌어진 일
+  - 주식·코인·달러·금리에 주는 영향
+  - 앞으로 체크할 변수
+  - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Anthropic's path to the Nasdaq just got a lot bumpier
-  - Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
-  - Wall St Week Ahead: Midterm US elections, earnings, jobs data loom for AI-wary stock market - Reuters
+  - Everything changed for the oil, AI and bond trades over the past month
+  - The midterm election could reshape the muni bond market. Here’s what investors need to know
+  - Bond investors sit out ‘most consequential’ US midterm elections in years

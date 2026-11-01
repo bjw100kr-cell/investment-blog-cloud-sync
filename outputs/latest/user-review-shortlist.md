@@ -45,12 +45,12 @@
 - preview: 한 줄 요약: `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - FOMC는 금리 결정 한 줄보다 달러, 미국채 금리, 위험자산 심리를 동시에 바꾸는 이벤트입니다. - 시장은 발표 결과보다 성명서 문구, 점도표, 기자회견 톤이 다음 금리 경로를 어떻게 바꾸는지에 더 민감하게 반응합니다. - 개인 투자자는 발표 직후 방향을 단정하기보다 달러 인덱스, 미국채 2년물/10년물, 나스닥과 비트코인 반응을 같이 확인하는 편이 안전합니다.
 
-## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
-- keyword: `ai_semiconductors`
+- keyword: `us_index_flow`
 - brand_lane: `us-stocks` (미국주식)
 - publish_date: `2026-11-03`
-- priority_score: `107.0`
+- priority_score: `91.0`
 - review_verdict: `approve`
 - freshness_status: ``
 - quality_status: `pass`

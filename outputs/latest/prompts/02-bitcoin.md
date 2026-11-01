@@ -115,11 +115,11 @@
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
-    "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
-    "A stolen iPhone, $14,000 in losses and London's crypto theft problem",
-    "Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts",
-    "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach"
+    "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
+    "The key races to watch for the 2026 election",
+    "Crypto card startups are racking up losses just to buy your loyalty with big rewards",
+    "Crypto PACs made big Republican push in final weeks before November 3 election",
+    "Sherrod Brown's Ohio edge threatens a rough go for crypto next year"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

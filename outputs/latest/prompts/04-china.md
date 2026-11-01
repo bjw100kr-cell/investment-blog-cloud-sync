@@ -112,8 +112,8 @@
     "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
-    "China's factory activity shrinks in October, third contraction in four months - Reuters",
     "In China, the AI bubble has already burst - Reuters",
+    "China's factory activity shrinks in October, third contraction in four months - Reuters",
     "After Hungary, now Serbia too..? Why Russia and China are on high alert ㄷㄷ"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
@@ -177,8 +177,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 59.0,
-    "search_score": 11,
+    "total_score": 60.0,
+    "search_score": 12,
     "timeliness_score": 10,
     "explanatory_score": 18,
     "monetization_score": 13,

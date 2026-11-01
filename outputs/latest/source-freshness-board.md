@@ -1,8 +1,8 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-11-01T05:30:27.453508+00:00`
-- snapshot_generated_at: `2026-11-01T05:30:22.963797+00:00`
+- generated_at: `2026-11-01T17:52:08.441595+00:00`
+- snapshot_generated_at: `2026-11-01T17:52:03.727194+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
 - counts: fresh `2` / aging `1` / stale `0` / unknown `0`
@@ -11,7 +11,7 @@
 
 - keyword: `fomc`
 - freshness_status: `aging`
-- newest_evidence_age_days: `3.5`
+- newest_evidence_age_days: `4.0`
 - newest_evidence_iso: `2026-10-28T18:00:00+00:00`
 - quality_status: `pass` / ready_now `True`
 - summary: 아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Federal Reserve issues FOMC statement
@@ -23,32 +23,31 @@
 - evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve issues FOMC statement
 - evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
 
-## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+## 2. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
-- keyword: `ai_semiconductors`
+- keyword: `us_index_flow`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.6`
-- newest_evidence_iso: `2026-10-31T16:00:00+00:00`
+- newest_evidence_age_days: `1.9`
+- newest_evidence_iso: `2026-10-30T20:42:09+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: 무역킹 Trade King YouTube / 무역킹 Trade King / The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...
-- evidence: CoinDesk RSS / 2026-10-31T16:00:00+00:00 / Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts
-- evidence: CNBC Top News / 2026-10-31T11:00:01+00:00 / Anthropic's path to the Nasdaq just got a lot bumpier
+- evidence: Reuters Markets via Google News RSS / 2026-10-30T20:42:09+00:00 / Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
+- evidence: Reuters Markets via Google News RSS / 2026-10-30T10:16:00+00:00 / Wall St Week Ahead Midterm US elections, earnings, jobs data loom for AI-wary stock market - Reuters
 
 ## 3. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.4`
-- newest_evidence_iso: `2026-10-31T20:56:59+00:00`
+- newest_evidence_age_days: `0.3`
+- newest_evidence_iso: `2026-11-01T10:35:42+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: CoinDesk RSS / 2026-10-31T18:00:00+00:00 / Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered
-- evidence: Cointelegraph / 2026-10-31T15:26:46+00:00 / Bitcoin held up better than expected after Binance hack, Strive CEO says
-- evidence: Cointelegraph / 2026-10-31T14:27:52+00:00 / Bitcoin turns 18: Has the original rebel grown up?
+- evidence: CoinDesk RSS / 2026-11-01T10:35:42+00:00 / Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack
+- evidence: Investing.com Crypto News / 2026-11-01 07:01:45 / Bitcoin tests 38.2% Fib after triangle breakdown: Live levels
+- evidence: Investing.com Crypto News / 2026-11-01 05:19:12 / Bitcoin faces further downside risks as fear surges, Binance hack rattles markets
