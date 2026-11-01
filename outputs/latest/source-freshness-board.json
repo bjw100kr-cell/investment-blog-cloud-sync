@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-31T17:10:01.843377+00:00",
-  "snapshot_generated_at": "2026-10-31T17:09:57.358747+00:00",
+  "generated_at": "2026-11-01T05:30:27.453508+00:00",
+  "snapshot_generated_at": "2026-11-01T05:30:22.963797+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
-  "item_count": 2,
+  "item_count": 3,
   "counts": {
-    "fresh": 1,
+    "fresh": 2,
     "aging": 1,
     "stale": 0,
     "unknown": 0
@@ -16,11 +16,11 @@
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-10-31",
+      "publish_date": "2026-11-01",
       "freshness_status": "aging",
       "newest_evidence_iso": "2026-10-28T18:00:00+00:00",
       "oldest_evidence_iso": "2026-07-29T18:00:00+00:00",
-      "newest_evidence_age_days": 3.0,
+      "newest_evidence_age_days": 3.5,
       "source_count": 1,
       "demand_signal_score": 3200,
       "summary_line": "아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Federal Reserve issues FOMC statement",
@@ -56,22 +56,73 @@
       ]
     },
     {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-11-01",
+      "publish_date": "2026-11-03",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-10-31T15:26:46+00:00",
-      "oldest_evidence_iso": "2026-10-31T12:49:47+00:00",
-      "newest_evidence_age_days": 0.1,
-      "source_count": 6,
-      "demand_signal_score": 8400,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin held up better than expected after Binance hack, Strive CEO says",
+      "newest_evidence_iso": "2026-10-31T16:00:00+00:00",
+      "oldest_evidence_iso": "2026-10-31T11:00:01+00:00",
+      "newest_evidence_age_days": 0.6,
+      "source_count": 4,
+      "demand_signal_score": 2400,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
+        {
+          "title": "The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...",
+          "source_name": "무역킹 Trade King YouTube",
+          "published": "무역킹 Trade King",
+          "published_iso": "무역킹 Trade King",
+          "link": "https://www.youtube.com/watch?v=z9pCpNM2oww",
+          "source_type": "youtube_channel"
+        },
+        {
+          "title": "Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts",
+          "source_name": "CoinDesk RSS",
+          "published": "Sat, 31 Oct 2026 16:00:00 +0000",
+          "published_iso": "2026-10-31T16:00:00+00:00",
+          "link": "https://www.coindesk.com/business/2026/10/31/traders-are-already-placing-leveraged-bets-on-anthropic-s-ipo-using-crypto-contracts",
+          "source_type": "rss"
+        },
+        {
+          "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
+          "source_name": "CNBC Top News",
+          "published": "Sat, 31 Oct 2026 11:00:01 GMT",
+          "published_iso": "2026-10-31T11:00:01+00:00",
+          "link": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-11-02",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-10-31T20:56:59+00:00",
+      "oldest_evidence_iso": "2026-10-31T14:00:00+00:00",
+      "newest_evidence_age_days": 0.4,
+      "source_count": 5,
+      "demand_signal_score": 7800,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
+          "source_name": "CoinDesk RSS",
+          "published": "Sat, 31 Oct 2026 18:00:00 +0000",
+          "published_iso": "2026-10-31T18:00:00+00:00",
+          "link": "https://www.coindesk.com/opinion/2026/10/31/bitcoin-s-white-paper-turns-18-and-small-businesses-are-still-paying-for-the-bailouts-it-answered",
+          "source_type": "rss"
+        },
         {
           "title": "Bitcoin held up better than expected after Binance hack, Strive CEO says",
           "source_name": "Cointelegraph",
@@ -86,14 +137,6 @@
           "published": "Sat, 31 Oct 2026 14:27:52 +0000",
           "published_iso": "2026-10-31T14:27:52+00:00",
           "link": "https://cointelegraph.com/magazine/bitcoin-turns-18-has-the-original-rebel-grown-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
-          "source_name": "CoinDesk RSS",
-          "published": "Sat, 31 Oct 2026 14:00:00 +0000",
-          "published_iso": "2026-10-31T14:00:00+00:00",
-          "link": "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
           "source_type": "rss"
         }
       ]
