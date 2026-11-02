@@ -74,20 +74,20 @@
     - 문단 구분이 깨지면 HTML 보기에서 한 번 더 줄 바꿈 정리
     - 발행 URL과 대표 키워드를 수기 스프레드시트나 텍스트로 저장
 
-- `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / verdict `approve` / publish `2026-11-02`
-- `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / keyword `fomc` / verdict `approve` / publish `2026-11-01`
-- `미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유` / keyword `us_index_flow` / verdict `approve` / publish `2026-11-03`
+- `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / verdict `approve` / publish `2026-11-03`
+- `미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유` / keyword `us_index_flow` / verdict `approve` / publish `2026-11-04`
+- `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / keyword `fomc` / verdict `approve` / publish `2026-11-02`
 
 ## 1.5. 하루 200명 목표
 
 - target: `200`
-- projected: `315`
+- projected: `317`
 - gap: `0`
 - status: `estimated_on_track_measurement_missing`
 - `bitcoin` 예상 `95`명: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - `fomc` 예상 `90`명: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- `china` 예상 `71`명: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- `us_index_flow` 예상 `59`명: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+- `us_index_flow` 예상 `80`명: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+- `china` 예상 `52`명: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - actual_verified: `0`
 - proof_status: `measurement_missing`
 - proof_gap: `200`
@@ -119,7 +119,7 @@
 
 - `main_post` / `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / 페이지뷰와 체류시간 균형 확보
 - `seo_followup` / `비트코인 핵심 흐름 초보자 가이드: 지금 꼭 알아야 할 핵심 구조` / 초보 검색 유입과 긴 체류시간 확보
-- `next_slot` / `FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지` / 페이지뷰와 체류시간 균형 확보
+- `next_slot` / `미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유` / 페이지뷰와 체류시간 균형 확보
 
 ## 7. 다음 큰 단계
 

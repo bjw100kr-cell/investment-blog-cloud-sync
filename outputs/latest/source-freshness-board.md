@@ -1,8 +1,8 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-11-01T17:52:08.441595+00:00`
-- snapshot_generated_at: `2026-11-01T17:52:03.727194+00:00`
+- generated_at: `2026-11-02T05:28:50.575958+00:00`
+- snapshot_generated_at: `2026-11-02T05:28:46.607987+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
 - counts: fresh `2` / aging `1` / stale `0` / unknown `0`
@@ -11,7 +11,7 @@
 
 - keyword: `fomc`
 - freshness_status: `aging`
-- newest_evidence_age_days: `4.0`
+- newest_evidence_age_days: `4.5`
 - newest_evidence_iso: `2026-10-28T18:00:00+00:00`
 - quality_status: `pass` / ready_now `True`
 - summary: 아직 쓸 수는 있지만 뉴스 속도는 조금 늦었습니다. 대표 근거: Federal Reserve issues FOMC statement
@@ -23,31 +23,31 @@
 - evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve issues FOMC statement
 - evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
 
-## 2. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-
-- keyword: `us_index_flow`
-- freshness_status: `fresh`
-- newest_evidence_age_days: `1.9`
-- newest_evidence_iso: `2026-10-30T20:42:09+00:00`
-- quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
-- recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
-- recovery_mode: `publish_direct`
-- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Reuters Markets via Google News RSS / 2026-10-30T20:42:09+00:00 / Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
-- evidence: Reuters Markets via Google News RSS / 2026-10-30T10:16:00+00:00 / Wall St Week Ahead Midterm US elections, earnings, jobs data loom for AI-wary stock market - Reuters
-
-## 3. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.3`
-- newest_evidence_iso: `2026-11-01T10:35:42+00:00`
+- newest_evidence_age_days: `0.0`
+- newest_evidence_iso: `2026-11-02T05:18:12+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: CoinDesk RSS / 2026-11-01T10:35:42+00:00 / Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack
-- evidence: Investing.com Crypto News / 2026-11-01 07:01:45 / Bitcoin tests 38.2% Fib after triangle breakdown: Live levels
-- evidence: Investing.com Crypto News / 2026-11-01 05:19:12 / Bitcoin faces further downside risks as fear surges, Binance hack rattles markets
+- evidence: CoinDesk RSS / 2026-11-02T05:18:12+00:00 / Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time
+- evidence: CoinDesk RSS / 2026-11-02T04:42:22+00:00 / Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack
+- evidence: CoinDesk RSS / 2026-11-02T04:41:16+00:00 / BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets
+
+## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+
+- keyword: `us_index_flow`
+- freshness_status: `fresh`
+- newest_evidence_age_days: `0.0`
+- newest_evidence_iso: `2026-11-02T04:55:03+00:00`
+- quality_status: `pass` / ready_now `True`
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Global AI sell-off eases after Nasdaq’s worst month in over a year
+- recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
+- recovery_mode: `publish_direct`
+- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
+- evidence: Financial Times Home / 2026-11-02T04:55:03+00:00 / Global AI sell-off eases after Nasdaq’s worst month in over a year
+- evidence: Reuters Markets via Google News RSS / 2026-10-30T20:42:09+00:00 / Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters

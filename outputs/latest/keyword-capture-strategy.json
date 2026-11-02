@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T17:52:03.727194+00:00",
+  "generated_at": "2026-11-02T05:28:46.607987+00:00",
   "items": [
     {
       "keyword": "fomc",
@@ -55,7 +55,7 @@
       },
       "capture_route": "breaking_to_evergreen",
       "capture_route_description": "당일 해설 글로 유입을 먼저 받고, 바로 evergreen 설명글과 FAQ형 후속 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 8200,
+      "demand_signal_score": 7900,
       "trend_queries": [],
       "source_names": [
         "CoinDesk RSS",
@@ -94,13 +94,15 @@
       },
       "capture_route": "search_entry_to_internal_links",
       "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 0,
+      "demand_signal_score": 2200,
       "trend_queries": [],
       "source_names": [
+        "Financial Times Home",
         "MarketWatch Breaking News",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -130,7 +132,7 @@
       },
       "capture_route": "search_entry_to_internal_links",
       "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 2100,
+      "demand_signal_score": 0,
       "trend_queries": [],
       "source_names": [
         "Reuters Markets via Google News RSS",
@@ -146,8 +148,8 @@
       ]
     },
     {
-      "keyword": "treasury_yields",
-      "recommended_title": "미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유",
+      "keyword": "oil",
+      "recommended_title": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
       "pattern_name": "search_explainer",
       "pattern_rules": {
         "when_to_use": [
@@ -166,13 +168,14 @@
       },
       "capture_route": "search_entry_to_internal_links",
       "capture_route_description": "검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.",
-      "demand_signal_score": 2100,
+      "demand_signal_score": 2400,
       "trend_queries": [],
       "source_names": [
-        "CNBC Top News",
-        "Financial Times Home"
+        "CoinDesk RSS",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
-      "search_intent_angle": "복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "search_intent_angle": "복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",

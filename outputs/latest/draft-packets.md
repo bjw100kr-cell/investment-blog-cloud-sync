@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-01T17:52:03.727194+00:00`
+- 생성 시각: `2026-11-02T05:28:46.607987+00:00`
 
 ## 1. fomc
 
@@ -135,17 +135,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time
+  - Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack
+  - BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets
+  - The crypto reader's guide to the 2026 midterm election: State of Crypto
   - AI agents bypassed crypto spending limits without human approval, researchers find in a new test
-  - The key races to watch for the 2026 election
-  - Crypto card startups are racking up losses just to buy your loyalty with big rewards
-  - Crypto PACs made big Republican push in final weeks before November 3 election
-  - Sherrod Brown's Ohio edge threatens a rough go for crypto next year
 
 ## 3. us_index_flow
 
 - 추천 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 64.0
+- 각도: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 76.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -205,15 +205,16 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Global AI sell-off eases after Nasdaq’s worst month in over a year
   - Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
-  - Wall St Week Ahead Midterm US elections, earnings, jobs data loom for AI-wary stock market - Reuters
   - This is the biggest threat to the AI-powered bull market
+  - After Tech Sell-Off, Investors Brace for More Market Volatility
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 60.0
+- 점수: 53.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -274,5 +275,4 @@
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
   - In China, the AI bubble has already burst - Reuters
-  - China's factory activity shrinks in October, third contraction in four months - Reuters
   - After Hungary, now Serbia too..? Why Russia and China are on high alert ㄷㄷ

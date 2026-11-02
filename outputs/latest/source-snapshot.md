@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-01T17:52:03.727194+00:00`
+- 생성 시각: `2026-11-02T05:28:46.607987+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,49 +106,49 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 70, source_count 5, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- `bitcoin`: score 67, source_count 5, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
 - `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `treasury_yields`: score 9, source_count 2, sources CNBC Top News, Financial Times Home
-- `china`: score 9, source_count 2, sources Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
-- `us_index_flow`: score 8, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 6, source_count 2, sources Cointelegraph, 무역킹 Trade King YouTube
-- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
-- `oil`: score 5, source_count 2, sources CNBC Top News, NYT Business
-- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
-- `cpi`: score 3, source_count 1, sources CNBC Top News
+- `oil`: score 12, source_count 3, sources CoinDesk RSS, NYT Business, Reuters Markets via Google News RSS
+- `us_index_flow`: score 10, source_count 4, sources Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 9, source_count 3, sources CNBC Top News, Cointelegraph, 무역킹 Trade King YouTube
+- `dollar`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
+- `china`: score 6, source_count 2, sources Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
+- `us_big_tech`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `ethereum`: score 3, source_count 1, sources Cointelegraph
+- `cpi`: score 3, source_count 1, sources Financial Times World
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 70, headlines 21
-  - AI agents bypassed crypto spending limits without human approval, researchers find in a new test
-  - The key races to watch for the 2026 election
-  - Crypto card startups are racking up losses just to buy your loyalty with big rewards
+- `bitcoin`: score 67, headlines 20
+  - Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time
+  - Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack
+  - BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets
 - `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-- `china`: score 9, headlines 3
-  - In China, the AI bubble has already burst - Reuters
-  - China's factory activity shrinks in October, third contraction in four months - Reuters
-  - After Hungary, now Serbia too..? Why Russia and China are on high alert ㄷㄷ
-- `treasury_yields`: score 9, headlines 3
-  - Everything changed for the oil, AI and bond trades over the past month
-  - The midterm election could reshape the muni bond market. Here’s what investors need to know
-  - Bond investors sit out ‘most consequential’ US midterm elections in years
-- `us_index_flow`: score 8, headlines 3
+- `oil`: score 12, headlines 4
+  - Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack
+  - Stocks bounce as Apple earnings near, oil falls - Reuters
+  - OPEC+ keeps December oil output targets steady ahead of tougher call for 2027 - Reuters
+- `us_index_flow`: score 10, headlines 4
+  - Global AI sell-off eases after Nasdaq’s worst month in over a year
   - Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
-  - Wall St Week Ahead Midterm US elections, earnings, jobs data loom for AI-wary stock market - Reuters
   - This is the biggest threat to the AI-powered bull market
-- `ai_semiconductors`: score 6, headlines 2
+- `ai_semiconductors`: score 9, headlines 3
   - DeepSeek developing AI agent requiring less human input: Report
+  - Sam Altman makes surprise South Korea visit as OpenAI builds on chip partnerships
   - The Government Chips In for Construction, the Region Pays for Operation: Why Over 10 Cities Are V...
-- `oil`: score 5, headlines 2
-  - Everything changed for the oil, AI and bond trades over the past month
-  - How a Little-Known Company Dominated the Persian Gulf Oil Trade
+- `dollar`: score 7, headlines 2
+  - Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time
+  - Dollar rangebound ahead of US midterms; bitcoin reels from crypto heist - Reuters
+- `china`: score 6, headlines 2
+  - In China, the AI bubble has already burst - Reuters
+  - After Hungary, now Serbia too..? Why Russia and China are on high alert ㄷㄷ
 - `us_big_tech`: score 5, headlines 2
-  - Why AI is boosting Meta's ad business while hurting Google search
+  - Stocks bounce as Apple earnings near, oil falls - Reuters
   - Apple’s new earnings era begins at a critical time for Big Tech
-- `ethereum`: score 4, headlines 1
-  - FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses
 - `cpi`: score 3, headlines 1
-  - Everything changed for the oil, AI and bond trades over the past month
+  - BoE set to raise rates to 4% in fight against inflation
+- `ethereum`: score 3, headlines 1
+  - THORChain halts swaps after block reorg bug, slowing Binance hackers

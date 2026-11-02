@@ -1,24 +1,24 @@
 # 검색 수요 신호 리포트
 
-- 생성 시각: `2026-11-01T17:52:03.727194+00:00`
+- 생성 시각: `2026-11-02T05:28:46.607987+00:00`
 - 트렌드 아이템 수: `16`
 - 매칭된 키워드 수: `4`
 - 약한 트렌드 fallback 수: `4`
 
 ## 키워드별 트렌드 수요
 
-- `bitcoin`: demand 8200 / trend_count 0 / traffic_sum 0 / regions unknown
+- `bitcoin`: demand 7900 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 70 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+  - fallback: source snapshot score 67 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
 - `fomc`: demand 3200 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
   - fallback: source snapshot score 20 / sources Federal Reserve Monetary Policy Press
-- `treasury_yields`: demand 2100 / trend_count 0 / traffic_sum 0 / regions unknown
+- `oil`: demand 2400 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 9 / sources CNBC Top News, Financial Times Home
-- `china`: demand 2100 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 12 / sources CoinDesk RSS, NYT Business, Reuters Markets via Google News RSS
+- `us_index_flow`: demand 2200 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 9 / sources Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
+  - fallback: source snapshot score 10 / sources Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 
 ## 아직 못 주운 시장성 트렌드
 

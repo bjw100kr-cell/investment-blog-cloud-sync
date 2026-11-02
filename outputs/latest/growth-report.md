@@ -1,6 +1,6 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-11-01T17:52:03.727194+00:00`
+- 생성 시각: `2026-11-02T05:28:46.607987+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
@@ -10,9 +10,9 @@
 - `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 87.0 / 수익화 15
   - 이유: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
   - 근거 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- `us_index_flow`: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 / 점수 64.0 / 수익화 15
-  - 이유: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-  - 근거 소스: MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_index_flow`: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 / 점수 76.0 / 수익화 15
+  - 이유: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+  - 근거 소스: Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 
 ## 브랜드 레인 우선순위
 
@@ -29,8 +29,8 @@
 
 - `bitcoin`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 - `fomc`: trend_count 0, traffic_sum 0, regions  / 쿼리 
-- `treasury_yields`: trend_count 0, traffic_sum 0, regions  / 쿼리 
-- `china`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `oil`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `us_index_flow`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 
 ## 다음 7일 실행 포인트
 

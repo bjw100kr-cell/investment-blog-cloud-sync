@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-11-01T17:52:03.727194+00:00`
+- 생성 시각: `2026-11-02T05:28:46.607987+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -47,20 +47,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time
+  - Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack
+  - BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets
+  - The crypto reader's guide to the 2026 midterm election: State of Crypto
   - AI agents bypassed crypto spending limits without human approval, researchers find in a new test
-  - The key races to watch for the 2026 election
-  - Crypto card startups are racking up losses just to buy your loyalty with big rewards
-  - Crypto PACs made big Republican push in final weeks before November 3 election
-  - Sherrod Brown's Ohio edge threatens a rough go for crypto next year
 
 ## 3. us_index_flow
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `64.0`
-- 점수 구성: 검색성 10 / 시의성 13 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 총점: `76.0`
+- 점수 구성: 검색성 15 / 시의성 20 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -72,16 +72,17 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
+  - Global AI sell-off eases after Nasdaq’s worst month in over a year
   - Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
-  - Wall St Week Ahead Midterm US elections, earnings, jobs data loom for AI-wary stock market - Reuters
   - This is the biggest threat to the AI-powered bull market
+  - After Tech Sell-Off, Investors Brace for More Market Volatility
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `60.0`
-- 점수 구성: 검색성 12 / 시의성 10 / 설명가치 18 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `53.0`
+- 점수 구성: 검색성 8 / 시의성 7 / 설명가치 18 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
 - 소스: Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
 - 제목 후보:
@@ -96,21 +97,20 @@
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
   - In China, the AI bubble has already burst - Reuters
-  - China's factory activity shrinks in October, third contraction in four months - Reuters
   - After Hungary, now Serbia too..? Why Russia and China are on high alert ㄷㄷ
 
-## 5. treasury_yields
+## 5. oil
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `65.0`
-- 점수 구성: 검색성 12 / 시의성 13 / 설명가치 18 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, Financial Times Home
+- 총점: `70.0`
+- 점수 구성: 검색성 16 / 시의성 18 / 설명가치 17 / 수익성 14 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 소스: CoinDesk RSS, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
-  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
+  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -118,6 +118,7 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Everything changed for the oil, AI and bond trades over the past month
-  - The midterm election could reshape the muni bond market. Here’s what investors need to know
-  - Bond investors sit out ‘most consequential’ US midterm elections in years
+  - Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack
+  - Stocks bounce as Apple earnings near, oil falls - Reuters
+  - OPEC+ keeps December oil output targets steady ahead of tougher call for 2027 - Reuters
+  - How a Little-Known Company Dominated the Persian Gulf Oil Trade

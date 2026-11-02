@@ -115,11 +115,11 @@
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
-    "The key races to watch for the 2026 election",
-    "Crypto card startups are racking up losses just to buy your loyalty with big rewards",
-    "Crypto PACs made big Republican push in final weeks before November 3 election",
-    "Sherrod Brown's Ohio edge threatens a rough go for crypto next year"
+    "Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time",
+    "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
+    "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets",
+    "The crypto reader's guide to the 2026 midterm election: State of Crypto",
+    "AI agents bypassed crypto spending limits without human approval, researchers find in a new test"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
