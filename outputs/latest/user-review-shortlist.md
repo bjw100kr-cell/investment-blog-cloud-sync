@@ -14,7 +14,7 @@
 - keyword: `bitcoin`
 - brand_lane: `crypto` (코인)
 - publish_date: `2026-11-03`
-- priority_score: `126.0`
+- priority_score: `122.0`
 - review_verdict: `approve`
 - freshness_status: `fresh`
 - quality_status: `pass`
@@ -32,7 +32,7 @@
 - keyword: `us_index_flow`
 - brand_lane: `us-stocks` (미국주식)
 - publish_date: `2026-11-04`
-- priority_score: `111.0`
+- priority_score: `100.0`
 - review_verdict: `approve`
 - freshness_status: `fresh`
 - quality_status: `pass`

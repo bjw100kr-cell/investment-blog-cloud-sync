@@ -9,23 +9,23 @@
 
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-11-03` / priority `126.0`
+- keyword `bitcoin` / publish `2026-11-03` / priority `122.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
-- reason: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- evidence score: demand `7900` / fallback `source_snapshot_rank` / format `crypto_analysis`
-- source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- evidence score: demand `6100` / fallback `source_snapshot_rank` / format `crypto_analysis`
+- source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - sample_headlines:
-  - Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time
-  - Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack
-  - BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets
-  - The crypto reader's guide to the 2026 midterm election: State of Crypto
+  - Big crypto wants the one thing it can’t buy: your vote
+  - Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze
+  - EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says
+  - Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains
 - recent_evidence:
-  - CoinDesk RSS | 2026-11-02T05:18:12+00:00 | Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time
-  - CoinDesk RSS | 2026-11-02T04:42:22+00:00 | Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack
-  - CoinDesk RSS | 2026-11-02T04:41:16+00:00 | BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets
-  - Reuters Markets via Google News RSS | 2026-11-02T00:57:00+00:00 | Dollar rangebound ahead of US midterms; bitcoin reels from crypto heist - Reuters
+  - Cointelegraph | 2026-11-02T19:27:58+00:00 | Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally
+  - Cointelegraph | 2026-11-02T19:05:35+00:00 | Mercado Bitcoin wallets show post-hack transfers after $46M theft
+  - CoinDesk RSS | 2026-11-02T18:13:57+00:00 | Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze
+  - CoinDesk RSS | 2026-11-02T15:53:29+00:00 | Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains
 - image_slots:
   - 대표 이미지 / Pexels / `bitcoin blockchain abstract blue finance` / Pexels License
   - 본문 보조 이미지 / Unsplash / `crypto market data abstract` / Unsplash License
@@ -48,14 +48,14 @@
 2026년 11월 2일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
-쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+쉽게 말해 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
+예를 들어 `Big crypto wants the one thing it can’t buy: your vote` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Big crypto wants the one thing it can’t buy: your vote`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `현물 ETF 순유입/순유출`, 다른 하나는 `달러 인덱스와 미국채 금리`입니다.
 한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -103,7 +103,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- 주요 참고 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 발행 전 재확인: BTC 가격 기준 시각 재확인
 - 발행 전 재확인: ETF 자금 유입 여부 공식/신뢰 소스 재확인
 - 발행 전 재확인: 단정적 가격 전망 문장 제거
@@ -127,21 +127,22 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 2. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
-- keyword `us_index_flow` / publish `2026-11-04` / priority `111.0`
+- keyword `us_index_flow` / publish `2026-11-04` / priority `100.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
-- reason: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- evidence score: demand `2200` / fallback `source_snapshot_rank` / format `sector_analysis`
-- source_names: Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- reason: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- evidence score: demand `0` / fallback `mapped_candidate` / format `sector_analysis`
+- source_names: CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - sample_headlines:
-  - Global AI sell-off eases after Nasdaq’s worst month in over a year
-  - Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
-  - This is the biggest threat to the AI-powered bull market
-  - After Tech Sell-Off, Investors Brace for More Market Volatility
+  - Stock market after midterm elections: What S&P 500 history shows
+  - S&P 500 ends down; Apple dips ahead of quarterly report - Reuters
+  - The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.
+  - It may take weeks to tally the midterm election results. Here’s why Wall Street isn’t worried.
 - recent_evidence:
-  - Financial Times Home | 2026-11-02T04:55:03+00:00 | Global AI sell-off eases after Nasdaq’s worst month in over a year
-  - Reuters Markets via Google News RSS | 2026-10-30T20:42:09+00:00 | Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
+  - MarketWatch Breaking News | 2026-11-02T21:29:00+00:00 | The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.
+  - Reuters Markets via Google News RSS | 2026-11-02T21:28:35+00:00 | S&P 500 ends down; Apple dips ahead of quarterly report - Reuters
+  - CNBC Top News | 2026-11-02T17:57:35+00:00 | Stock market after midterm elections: What S&P 500 history shows
 - image_slots:
   - 대표 이미지 / Unsplash / `technology stocks office finance abstract` / Unsplash License
   - 본문 보조 이미지 / Pexels / `semiconductor data center abstract` / Pexels License
@@ -165,13 +166,13 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 해외 주요 매체 보도를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Global AI sell-off eases after Nasdaq’s worst month in over a year` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+예를 들어 `Stock market after midterm elections: What S&P 500 history shows` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Global AI sell-off eases after Nasdaq’s worst month in over a year`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Stock market after midterm elections: What S&P 500 history shows`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `나스닥과 S&P500 상대 강도`, 다른 하나는 `미국채 10년물 금리`입니다.
 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -219,7 +220,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 주요 참고 소스: CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 발행 전 재확인: 나스닥/S&P/미국 증시 수치와 기준 시각 재확인
 - 발행 전 재확인: 지수 하락/상승 원인을 한 문장으로 단정하지 않기
 - 발행 전 재확인: 채권·달러·빅테크와의 연결 문장 교차 점검

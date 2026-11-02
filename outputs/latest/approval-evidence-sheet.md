@@ -2,56 +2,57 @@
 
 사용자가 초안을 최종 확인하기 전에, 왜 이 글이 오늘 올라올 가치가 있는지 근거를 빠르게 보는 시트입니다.
 - 원칙: 초안 내용과 함께 근거 소스, 검색 수요, 시의성을 같이 보고 최종 확인합니다.
-- generated_at: `2026-11-02T05:28:46.607987+00:00`
+- generated_at: `2026-11-02T21:39:46.246057+00:00`
 - item_count: `3`
 
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - publish_date: `2026-11-03`
-- priority_score: `126.0`
+- priority_score: `122.0`
 - ready_now: `True` / quality_status `pass`
-- reason: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - format: `crypto_analysis`
-- demand_signal_score: `7900`
+- demand_signal_score: `6100`
 - fallback_source: `source_snapshot_rank`
-- source_count: `5`
-- score_breakdown: search `30` / timeliness `21` / monetization `15`
-- source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- source_count: `3`
+- score_breakdown: search `29` / timeliness `18` / monetization `15`
+- source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - sample_headlines:
-  - Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time
-  - Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack
-  - BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets
-  - The crypto reader's guide to the 2026 midterm election: State of Crypto
-  - AI agents bypassed crypto spending limits without human approval, researchers find in a new test
+  - Big crypto wants the one thing it can’t buy: your vote
+  - Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze
+  - EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says
+  - Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains
+  - Crypto investigators flag suspected $106M theft, $786K Solana bot drain
 - recent_evidence:
-  - CoinDesk RSS | 2026-11-02T05:18:12+00:00 | Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time | https://www.coindesk.com/tech/2026/11/02/strangers-are-begging-the-binance-hacker-for-bitcoin-one-help-me-bro-at-a-time
-  - CoinDesk RSS | 2026-11-02T04:42:22+00:00 | Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack | https://www.coindesk.com/markets/2026/11/02/bitcoin-claws-back-toward-usd79-000-as-markets-shake-off-crypto-s-biggest-hack
-  - CoinDesk RSS | 2026-11-02T04:41:16+00:00 | BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets | https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets
-  - Reuters Markets via Google News RSS | 2026-11-02T00:57:00+00:00 | Dollar rangebound ahead of US midterms; bitcoin reels from crypto heist - Reuters | https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb2NfWVhRd1dsZXVELVl6emxWenVBSzdWTFVpcjlPaUtVNmgwbklnaHctbWF2VjdTTTJxQ3c4NzZZSGpSTG1QaThQQUZHY1RmeENqcTZNend0eDBla0dFNThjejRfM2dTdm1JYW9vd0duUnZFVUNWQUhETi1RVmZxNWxBZ2gzZEdBWTdGNnVqMmxVeUlKVUZPX0ttc3pnLUUxOGpoa1hpdVZNWWZrVkx6c3FoTkluMDRB?oc=5
-  - Investing.com Crypto News | 2026-11-01 19:04:09 | Bitcoin faces further downside risks as fear surges, Binance hack rattles markets | https://www.investing.com/news/cryptocurrency-news/bitcoin-faces-further-downside-risks-as-fear-surges-binance-hack-rattles-markets-4989389
+  - Cointelegraph | 2026-11-02T19:27:58+00:00 | Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally | https://cointelegraph.com/markets/bitcoin-risks-sub-76k-drop-as-7-fall-in-oil-fails-to-spark-btc-price-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  - Cointelegraph | 2026-11-02T19:05:35+00:00 | Mercado Bitcoin wallets show post-hack transfers after $46M theft | https://cointelegraph.com/news/mercado-bitcoin-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  - CoinDesk RSS | 2026-11-02T18:13:57+00:00 | Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze | https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze
+  - CoinDesk RSS | 2026-11-02T15:53:29+00:00 | Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains | https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains
+  - Cointelegraph | 2026-11-02T13:48:28+00:00 | Strategy spends triple its weekly Bitcoin outlay on STRC buybacks | https://cointelegraph.com/news/strategy-repurchases-208m-strc-65m-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
 
 ## 2. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
 - keyword: `us_index_flow`
 - publish_date: `2026-11-04`
-- priority_score: `111.0`
+- priority_score: `100.0`
 - ready_now: `True` / quality_status `pass`
-- reason: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- reason: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - format: `sector_analysis`
-- demand_signal_score: `2200`
-- fallback_source: `source_snapshot_rank`
-- source_count: `4`
-- score_breakdown: search `15` / timeliness `20` / monetization `15`
-- source_names: Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- demand_signal_score: `0`
+- fallback_source: `mapped_candidate`
+- source_count: `3`
+- score_breakdown: search `14` / timeliness `18` / monetization `15`
+- source_names: CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - sample_headlines:
-  - Global AI sell-off eases after Nasdaq’s worst month in over a year
-  - Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
-  - This is the biggest threat to the AI-powered bull market
-  - After Tech Sell-Off, Investors Brace for More Market Volatility
+  - Stock market after midterm elections: What S&P 500 history shows
+  - S&P 500 ends down; Apple dips ahead of quarterly report - Reuters
+  - The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.
+  - It may take weeks to tally the midterm election results. Here’s why Wall Street isn’t worried.
 - recent_evidence:
-  - Financial Times Home | 2026-11-02T04:55:03+00:00 | Global AI sell-off eases after Nasdaq’s worst month in over a year | https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1
-  - Reuters Markets via Google News RSS | 2026-10-30T20:42:09+00:00 | Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters | https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNkNDLXpLZ1A0VklROTJVenpDRlZBWE10ZE1qWWk4ZFVqalgzWWJFdThSd2ZKeUhDanVRQjRhVVVZZGlGZzY1UWYzLXRSZTNHNDNPTkZZRUFJazAzYmV6NzF3QUJtNjhkWHY5OHZNZWVsSFdyY0NScGJadnE3T0dPTWtBUXZOaDJPYWJuX1NOVXkwbGlQSW9MdjlXTlNQTzdLZEdzTHFsQ2gzaEcwTkNHZTNCNF9hMG9lazFHRXItSzg?oc=5
+  - MarketWatch Breaking News | 2026-11-02T21:29:00+00:00 | The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain. | https://www.marketwatch.com/story/the-stock-market-has-gone-nowhere-for-the-past-5-months-its-now-looking-like-a-bargain-150914c2?mod=mw_rss_topstories
+  - Reuters Markets via Google News RSS | 2026-11-02T21:28:35+00:00 | S&P 500 ends down; Apple dips ahead of quarterly report - Reuters | https://news.google.com/rss/articles/CBMixgFBVV95cUxPbnVDQzd0LTF3Vi1BMnJDLWpGaHNIMlJVTDNnVmplMzZnVjRxRTZUUTRsQkVvZ21EN3lXMzA4ZDJnOTQwc01ld2tqT1pGZVN6VmpuVWpzLVVMUU1qcDdnRFdEQUZoM0l6Ym9NYnhfWDctWkZnSC1fLUk0RGxtUmd3WU9zLXdhcTdGTkJvcUxaazZKZEliVjl3bVBfZldDajJMOXZtVkx0NVI4YWlwMkVFbXpMR0ZGQW9wOWxEcTM3QThSdk1fb2c?oc=5
+  - CNBC Top News | 2026-11-02T17:57:35+00:00 | Stock market after midterm elections: What S&P 500 history shows | https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html
 
 ## 3. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 

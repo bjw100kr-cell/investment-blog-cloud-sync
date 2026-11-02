@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T05:28:46.607987+00:00",
+  "generated_at": "2026-11-02T21:39:46.246057+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -14,23 +14,47 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 7900,
+      "demand_signal_score": 6100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 67,
-      "source_count": 5,
+      "source_snapshot_score": 49,
+      "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time",
-        "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
-        "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets"
+        "Big crypto wants the one thing it can’t buy: your vote",
+        "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
+        "EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3300,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 21,
+      "source_count": 5,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "무역킹 Trade King YouTube"
+      ],
+      "sample_titles": [
+        "Nvidia, Costco and Nike join pushback against OKX–ICE tokenized stock plans",
+        "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO",
+        "Intel foundry push faces critical test after stock's 45% plunge in October"
       ]
     },
     {
@@ -55,52 +79,27 @@
       ]
     },
     {
-      "keyword": "oil",
+      "keyword": "us_big_tech",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2400,
+      "demand_signal_score": 2500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
+      "source_snapshot_score": 13,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
-        "Stocks bounce as Apple earnings near, oil falls - Reuters",
-        "OPEC+ keeps December oil output targets steady ahead of tougher call for 2027 - Reuters"
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2200,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 10,
-      "source_count": 4,
-      "source_names": [
         "Financial Times Home",
-        "MarketWatch Breaking News",
-        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Global AI sell-off eases after Nasdaq’s worst month in over a year",
-        "Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters",
-        "This is the biggest threat to the AI-powered bull market"
+        "Nvidia, Costco and Nike join pushback against OKX–ICE tokenized stock plans",
+        "Why rich Ireland still feels poor",
+        "S&P 500 ends down; Apple dips ahead of quarterly report - Reuters"
       ]
     }
   ],

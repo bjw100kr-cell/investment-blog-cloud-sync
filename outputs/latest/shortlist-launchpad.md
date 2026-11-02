@@ -9,15 +9,15 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `bitcoin` / publish `2026-11-03` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
 - sample_headlines:
-  - Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time
-  - Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack
-  - BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets
+  - Big crypto wants the one thing it can’t buy: your vote
+  - Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze
+  - EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says
 - recent_evidence:
-  - CoinDesk RSS | 2026-11-02T05:18:12+00:00 | Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time
-  - CoinDesk RSS | 2026-11-02T04:42:22+00:00 | Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack
-  - CoinDesk RSS | 2026-11-02T04:41:16+00:00 | BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets
+  - Cointelegraph | 2026-11-02T19:27:58+00:00 | Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally
+  - Cointelegraph | 2026-11-02T19:05:35+00:00 | Mercado Bitcoin wallets show post-hack transfers after $46M theft
+  - CoinDesk RSS | 2026-11-02T18:13:57+00:00 | Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
@@ -28,14 +28,15 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `us_index_flow` / publish `2026-11-04` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- why_now: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - sample_headlines:
-  - Global AI sell-off eases after Nasdaq’s worst month in over a year
-  - Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
-  - This is the biggest threat to the AI-powered bull market
+  - Stock market after midterm elections: What S&P 500 history shows
+  - S&P 500 ends down; Apple dips ahead of quarterly report - Reuters
+  - The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.
 - recent_evidence:
-  - Financial Times Home | 2026-11-02T04:55:03+00:00 | Global AI sell-off eases after Nasdaq’s worst month in over a year
-  - Reuters Markets via Google News RSS | 2026-10-30T20:42:09+00:00 | Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters
+  - MarketWatch Breaking News | 2026-11-02T21:29:00+00:00 | The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.
+  - Reuters Markets via Google News RSS | 2026-11-02T21:28:35+00:00 | S&P 500 ends down; Apple dips ahead of quarterly report - Reuters
+  - CNBC Top News | 2026-11-02T17:57:35+00:00 | Stock market after midterm elections: What S&P 500 history shows
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow`
