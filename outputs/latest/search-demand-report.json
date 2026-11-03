@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-03T06:08:11.053177+00:00",
+  "generated_at": "2026-11-03T19:24:35.800905+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 3,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 4
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
     {
@@ -14,22 +14,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6900,
+      "demand_signal_score": 6100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 57,
-      "source_count": 4,
+      "source_snapshot_score": 49,
+      "source_count": 6,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
+        "Financial Times Home",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Binance has spent half its SAFU bitcoin, about $580 million worth, data shows",
-        "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote",
-        "Big crypto wants the one thing it can’t buy: your vote"
+        "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
+        "South Korea asks its biggest banks how a major crypto hack would hit them",
+        "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen"
       ]
     },
     {
@@ -54,53 +55,27 @@
       ]
     },
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "treasury_yields",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3000,
+      "demand_signal_score": 2100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 18,
-      "source_count": 5,
-      "source_names": [
-        "CoinDesk RSS",
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business",
-        "무역킹 Trade King YouTube"
-      ],
-      "sample_titles": [
-        "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote",
-        "Nvidia orders data centre clients to reduce China exposure",
-        "Apple warns ‘unprecedented’ memory chip costs will hit margins"
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
+      "source_snapshot_score": 9,
       "source_count": 3,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
-        "MarketWatch Breaking News"
+        "Financial Times Home",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote",
-        "Stock market after midterm elections: What S&P 500 history shows",
-        "Nasdaq-100 tumbles into its third correction this year as AI worries mount"
+        "Meta seeks to raise up to $25 billion in debt sale as AI spending jumps",
+        "What 21 months of Trump have done to America",
+        "AI-related debt binge may pressure European bond markets - Reuters"
       ]
     }
   ],
