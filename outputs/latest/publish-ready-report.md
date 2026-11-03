@@ -1,6 +1,6 @@
 # Publish Ready Report
 
-- generated_at: `2026-11-02T21:39:48.665823+00:00`
+- generated_at: `2026-11-03T06:08:13.622125+00:00`
 
 ## fomc
 
@@ -27,13 +27,13 @@
 - html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-ai-반도체-주가를-볼-때-실적보다-먼저-확인할-3가지.html
 - meta_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - meta_description: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
-- follow_up_post_count: 0
+- follow_up_post_count: 3
 
-## us_index_flow
+## china
 
 - ready: True
 - reason: ok
-- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-미국-증시-지수-흐름-해설.html
-- meta_title: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- meta_description: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
-- follow_up_post_count: 3
+- html_path: /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html
+- meta_title: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- meta_description: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
+- follow_up_post_count: 0

@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-11-02T21:39:46.246057+00:00`
+- 생성 시각: `2026-11-03T06:08:11.053177+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -32,10 +32,11 @@
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `83.0`
-- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 1
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 총점: `87.0`
+- 점수 구성: 검색성 29 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 3
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 코인 시장 신호: BTCUSDT 24h change -2.30%
+- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
@@ -47,20 +48,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Binance has spent half its SAFU bitcoin, about $580 million worth, data shows
+  - Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote
   - Big crypto wants the one thing it can’t buy: your vote
   - Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze
   - EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says
-  - Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains
-  - Crypto investigators flag suspected $106M theft, $786K Solana bot drain
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `83.0`
-- 점수 구성: 검색성 23 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `81.0`
+- 점수 구성: 검색성 21 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, CoinDesk RSS, MarketWatch Breaking News, NYT Business, 무역킹 Trade King YouTube
+- 소스: CoinDesk RSS, Financial Times Home, Financial Times World, NYT Business, 무역킹 Trade King YouTube
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -72,20 +73,43 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Nvidia, Costco and Nike join pushback against OKX–ICE tokenized stock plans
-  - Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO
-  - Intel foundry push faces critical test after stock's 45% plunge in October
-  - Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1
+  - Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote
+  - Nvidia orders data centre clients to reduce China exposure
+  - Apple warns ‘unprecedented’ memory chip costs will hit margins
   - AI Revenue Up 78% But Stock Crashes: Understanding the Semiconductor Cycle Through the Intel Cris...
+  - FirstFT: America votes
 
-## 4. us_index_flow
+## 4. china
+
+- 카테고리: `global-sector`
+- 브랜드 레인: `world-flow` (세계 흐름)
+- 총점: `66.0`
+- 점수 구성: 검색성 13 / 시의성 15 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
+- 제목 후보:
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- 글 구조:
+  - 왜 지금 이 이슈가 중요한가
+  - 실제로 발표되거나 벌어진 일
+  - 주식·코인·달러·금리에 주는 영향
+  - 앞으로 체크할 변수
+  - 개인 투자자가 볼 포인트
+- 참고 헤드라인:
+  - Nvidia orders data centre clients to reduce China exposure
+  - China to raise FX reserve requirement to slow yuan's rally - Reuters
+  - FirstFT: America votes
+
+## 5. us_index_flow
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `73.0`
-- 점수 구성: 검색성 14 / 시의성 18 / 설명가치 18 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 총점: `75.0`
+- 점수 구성: 검색성 17 / 시의성 18 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- 소스: CNBC Top News, CoinDesk RSS, MarketWatch Breaking News
 - 제목 후보:
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -97,31 +121,8 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
+  - Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote
   - Stock market after midterm elections: What S&P 500 history shows
-  - S&P 500 ends down; Apple dips ahead of quarterly report - Reuters
-  - The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.
-  - It may take weeks to tally the midterm election results. Here’s why Wall Street isn’t worried.
-
-## 5. oil
-
-- 카테고리: `macro`
-- 브랜드 레인: `macro` (거시경제)
-- 총점: `70.0`
-- 점수 구성: 검색성 14 / 시의성 20 / 설명가치 17 / 수익성 14 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, Cointelegraph, Financial Times World, MarketWatch Breaking News
-- 제목 후보:
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
-- 글 구조:
-  - 왜 지금 이 이슈가 중요한가
-  - 실제로 발표되거나 벌어진 일
-  - 주식·코인·달러·금리에 주는 영향
-  - 앞으로 체크할 변수
-  - 개인 투자자가 볼 포인트
-- 참고 헤드라인:
-  - Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally
-  - Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms
-  - How soon gas prices could go down now that oil is tumbling
-  - Oil tumbles on hopes for US-Iran talks
+  - Nasdaq-100 tumbles into its third correction this year as AI worries mount
+  - Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned
+  - Wall Street’s most hated stocks are faring far better than its favorites
