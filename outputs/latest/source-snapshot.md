@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-03T19:24:35.800905+00:00`
+- 생성 시각: `2026-11-04T05:46:26.500131+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -100,46 +100,43 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 49, source_count 6, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, NYT Business
+- `bitcoin`: score 79, source_count 5, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, NYT Business
 - `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `treasury_yields`: score 9, source_count 3, sources CNBC Top News, Financial Times Home, Reuters Markets via Google News RSS
-- `us_big_tech`: score 7, source_count 2, sources CNBC Top News, CoinDesk RSS
-- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `us_index_flow`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 5, source_count 2, sources NYT Business, 무역킹 Trade King YouTube
-- `crypto_etf`: score 3, source_count 1, sources Cointelegraph
-- `china`: score 3, source_count 1, sources Financial Times World
-- `dollar`: score 2, source_count 1, sources NYT Business
+- `ai_semiconductors`: score 12, source_count 4, sources CNBC Top News, MarketWatch Breaking News, NYT Business, 무역킹 Trade King YouTube
+- `us_index_flow`: score 10, source_count 4, sources CNBC Top News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `treasury_yields`: score 8, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_big_tech`: score 8, source_count 3, sources CNBC Top News, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `dollar`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
+- `ethereum`: score 3, source_count 1, sources Cointelegraph
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 49, headlines 16
-  - CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street
-  - South Korea asks its biggest banks how a major crypto hack would hit them
-  - Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen
+- `bitcoin`: score 79, headlines 24
+  - U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December
+  - South Korea's ruling party wants to delay its crypto tax again
+  - Democrats surge toward Senate, House majorities, with crypto braced for new direction
 - `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-- `treasury_yields`: score 9, headlines 3
-  - Meta seeks to raise up to $25 billion in debt sale as AI spending jumps
-  - What 21 months of Trump have done to America
-  - AI-related debt binge may pressure European bond markets - Reuters
-- `ethereum`: score 7, headlines 2
-  - Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'
-  - Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen
-- `us_big_tech`: score 7, headlines 2
-  - Amazon, Tesla and SpaceX join OKX–ICE tokenized stock objections as deadline looms
-  - Meta seeks to raise up to $25 billion in debt sale as AI spending jumps
-- `us_index_flow`: score 6, headlines 2
-  - Bill Ackman warns of 'casino' stock market as speculative trading grows
-  - S&P 500, Nasdaq rise as tech stocks gain ahead of midterm results - Reuters
-- `ai_semiconductors`: score 5, headlines 2
+- `ai_semiconductors`: score 12, headlines 5
+  - AMD stock jumps 8% on earnings as data center revenue nearly doubles
   - AI Revenue Up 78% But Stock Crashes: Understanding the Semiconductor Cycle Through the Intel Cris...
-  - OpenAI and Anthropic Set Up ‘War Rooms’ to Fight Disinfo About Midterm Elections
-- `china`: score 3, headlines 1
-  - US, Russia and China discuss meeting between Trump, Putin and Xi
-- `crypto_etf`: score 3, headlines 1
-  - Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen
-- `dollar`: score 2, headlines 1
-  - Flouting Consumer Law, Insurers Refuse to Pay Medical Bills for Emergency Care
+  - Here’s why AMD’s stock is rising — and sending a confident message about the AI trade
+- `us_index_flow`: score 10, headlines 4
+  - Stock market after midterm elections: What S&P 500 history shows
+  - Nasdaq ends higher as AI heavyweights rebound ahead of midterm results - Reuters
+  - S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?
+- `treasury_yields`: score 8, headlines 3
+  - Midterm elections could jolt stocks as Democrats look poised to sweep Congress
+  - Meta raises $15 billion in five-part US bond sale to fund AI expansion - Reuters
+  - AI’s control over the bond market is growing — even rivaling war and elections
+- `us_big_tech`: score 8, headlines 3
+  - Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways
+  - Meta raises $15 billion in five-part US bond sale to fund AI expansion - Reuters
+  - What analysts are telling us while Apple’s stock falls after earnings report
+- `dollar`: score 7, headlines 2
+  - Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets
+  - Stocks wilt, dollar slides as early midterm results point to blue sweep - Reuters
+- `ethereum`: score 3, headlines 1
+  - RUNE rallies 15% as THORChain restarts most swaps after halt
