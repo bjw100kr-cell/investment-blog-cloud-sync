@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-04T19:39:40.779758+00:00",
+  "generated_at": "2026-11-05T06:04:22.477505+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 3,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
@@ -14,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6600,
+      "demand_signal_score": 5900,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 54,
+      "source_snapshot_score": 47,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’",
-        "Wall Street rethinks AI data center boom as Texas election raises new risks",
-        "Crypto Long & Short: ICE is betting on retail’s appetite for quick outcomes"
+        "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
+        "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
+        "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty"
       ]
     },
     {
@@ -38,18 +38,20 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 3400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 1,
+      "source_snapshot_score": 22,
+      "source_count": 2,
       "source_names": [
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "NYT Business"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting"
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+        "White House Delays Hearing on Fed Governor"
       ]
     },
     {
@@ -59,21 +61,45 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2400,
+      "demand_signal_score": 3100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
+      "source_snapshot_score": 19,
       "source_count": 3,
       "source_names": [
-        "Cointelegraph",
+        "CoinDesk RSS",
         "Financial Times Home",
-        "Financial Times World"
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Bitcoin hits $80.5K as US stocks rally on midterm election results",
+        "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
         "Vance blames Iran war for crushing Republican midterms defeat",
         "Oil tumbles below $100 on post-election peace hopes"
+      ]
+    },
+    {
+      "keyword": "dollar",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2200,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 10,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Financial Times World",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
+        "Dollar edges lower as US election outcome spurs risk sentiment; sterling gains - Reuters",
+        "Microsoft rejects multibillion-dollar AI deal with UK’s Nscale"
       ]
     }
   ],

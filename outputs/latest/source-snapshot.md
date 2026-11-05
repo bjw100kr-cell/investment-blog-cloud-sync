@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-04T19:39:40.779758+00:00`
+- 생성 시각: `2026-11-05T06:04:22.477505+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,37 +106,44 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 54, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `oil`: score 12, source_count 3, sources Cointelegraph, Financial Times Home, Financial Times World
-- `us_index_flow`: score 7, source_count 2, sources Cointelegraph, MarketWatch Breaking News
-- `treasury_yields`: score 6, source_count 2, sources CoinDesk RSS, MarketWatch Breaking News
-- `us_big_tech`: score 4, source_count 2, sources MarketWatch Breaking News, NYT Business
-- `ai_semiconductors`: score 3, source_count 1, sources 무역킹 Trade King YouTube
+- `bitcoin`: score 47, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 22, source_count 2, sources Federal Reserve Monetary Policy Press, NYT Business
+- `oil`: score 19, source_count 3, sources CoinDesk RSS, Financial Times Home, Reuters Markets via Google News RSS
+- `dollar`: score 10, source_count 3, sources CoinDesk RSS, Financial Times World, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 6, source_count 2, sources CNBC Top News, 무역킹 Trade King YouTube
+- `us_index_flow`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
+- `us_big_tech`: score 5, source_count 2, sources Financial Times World, MarketWatch Breaking News
+- `china`: score 3, source_count 1, sources CNBC Top News
+- `cpi`: score 3, source_count 1, sources Financial Times World
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 54, headlines 16
-  - U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’
-  - Wall Street rethinks AI data center boom as Texas election raises new risks
-  - Crypto Long & Short: ICE is betting on retail’s appetite for quick outcomes
-- `fomc`: score 20, headlines 4
+- `bitcoin`: score 47, headlines 14
+  - Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound
+  - Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show
+  - Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty
+- `fomc`: score 22, headlines 5
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-- `oil`: score 12, headlines 4
-  - Bitcoin hits $80.5K as US stocks rally on midterm election results
+- `oil`: score 19, headlines 6
+  - Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound
   - Vance blames Iran war for crushing Republican midterms defeat
   - Oil tumbles below $100 on post-election peace hopes
-- `us_index_flow`: score 7, headlines 3
-  - Bitcoin hits $80.5K as US stocks rally on midterm election results
-  - These stocks have soared the most today after the Democrats trounced Trump
-  - Watch out for Big Tech companies like Meta and Alphabet issuing more shares and diluting your stock ownership
-- `treasury_yields`: score 6, headlines 2
-  - Global asset manager Schroders brings emerging market bond fund to Solana
-  - These 12 stocks are good bets to beat the 10-year Treasury over the next decade
-- `us_big_tech`: score 4, headlines 2
-  - Watch out for Big Tech companies like Meta and Alphabet issuing more shares and diluting your stock ownership
-  - SpaceX and Tesla Stocks Tumble After Elon Musk-Backed Candidates Lose in Texas
-- `ai_semiconductors`: score 3, headlines 1
+- `dollar`: score 10, headlines 3
+  - Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound
+  - Dollar edges lower as US election outcome spurs risk sentiment; sterling gains - Reuters
+  - Microsoft rejects multibillion-dollar AI deal with UK’s Nscale
+- `ai_semiconductors`: score 6, headlines 2
+  - Inside the chip talent war: Trade secrets and rising Chinese rivals
   - AI Revenue Up 78% But Stock Crashes: Understanding the Semiconductor Cycle Through the Intel Cris...
+- `us_big_tech`: score 5, headlines 2
+  - Qualcomm’s stock falls as twin forces pressure sales
+  - Microsoft rejects multibillion-dollar AI deal with UK’s Nscale
+- `us_index_flow`: score 5, headlines 2
+  - What was really behind Wednesday's monster rally? Trump quickly making peace
+  - This year’s worst-performing S&P 500 stock is finally seeing some major relief
+- `china`: score 3, headlines 1
+  - Russia, China may be more aggressive if they feel Trump is on 'his way out': Brookings
+- `cpi`: score 3, headlines 1
+  - FirstFT: Democrats look to reshape America

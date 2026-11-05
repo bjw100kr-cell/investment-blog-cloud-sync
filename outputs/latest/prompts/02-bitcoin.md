@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’",
-    "Wall Street rethinks AI data center boom as Texas election raises new risks",
-    "Crypto Long & Short: ICE is betting on retail’s appetite for quick outcomes",
-    "The election changes Washington. The work on crypto continues",
-    "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide"
+    "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
+    "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
+    "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
+    "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead",
+    "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

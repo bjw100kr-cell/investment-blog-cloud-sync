@@ -85,14 +85,14 @@
 
 ```json
 {
-  "keyword": "seo_oil_8",
-  "source_keyword": "oil",
-  "recommended_title": "국제유가 전망에서 다음으로 봐야 할 체크포인트 5가지",
+  "keyword": "seo_dollar_8",
+  "source_keyword": "dollar",
+  "recommended_title": "달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지",
   "alternate_titles": [
-    "국제유가 전망에서 다음으로 봐야 할 체크포인트 5가지: 초보 투자자 기준으로 다시 보기",
-    "국제유가 전망에서 다음으로 봐야 할 체크포인트 5가지: 지금 읽어야 하는 이유"
+    "달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지: 초보 투자자 기준으로 다시 보기",
+    "달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지: 지금 읽어야 하는 이유"
   ],
-  "summary_angle": "유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지에서 이어지는 후속 글로, 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자",
+  "summary_angle": "달러 인덱스 보는법에서 이어지는 후속 글로, `달러 인덱스 보는법`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
   "outline": [
     "이전 메인 글에서 이어지는 핵심 질문",
     "이번에 추가로 확인된 내용",
@@ -101,11 +101,11 @@
     "다음 후속 글 연결"
   ],
   "reference_takeaways": [
-    "메인 연결 글: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지",
-    "검색 의도: 발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자",
-    "수익화 목표: 재방문과 내부링크 순환 강화",
-    "검색어 후보: 국제유가 전망에서 다음으로 봐야 할 체크포인트 5가지",
-    "수요 신뢰도: existing_publish_queue - 기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
+    "메인 연결 글: 달러 인덱스 보는법",
+    "검색 의도: `달러 인덱스 보는법`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
+    "수익화 목표: 새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
+    "검색어 후보: 달러 인덱스 보는법, 달러 강세 주식 영향, 환율 상승 코인 영향, 원달러 환율 전망",
+    "수요 신뢰도: medium_low - Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다."
   ],
   "fact_checks": [
     "관련 공식 발표문과 날짜 재확인",
@@ -115,12 +115,12 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "당일 해설 글과 거시 허브 글을 함께 보면 시장 흐름을 더 입체적으로 볼 수 있습니다.",
   "source_names": [
-    "Cointelegraph",
-    "Financial Times Home",
-    "Financial Times World"
+    "CoinDesk RSS",
+    "Financial Times World",
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "국제유가 전망에서 다음으로 봐야 할 체크포인트 5가지"
+    "달러 인덱스 보는법: 지금 투자자가 확인할 체크포인트 5가지"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -183,18 +183,18 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 97.5,
-    "search_score": 97.5,
+    "total_score": 107.87,
+    "search_score": 107.87,
     "timeliness_score": 0,
     "explanatory_score": 0,
     "monetization_score": 0,
     "risk_score": 0
   },
   "internal_link_plan": {
-    "primary": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-유가-상승이-물가와-증시에-번지는-경로-투자자가-볼-3가지.html",
+    "primary": "site-foundation/hub-macro.md",
     "secondary": [
-      "site-foundation/hub-macro.md",
       "site-foundation/about.md",
+      "site-foundation/editorial-policy.md",
       "site-foundation/disclosure.md"
     ]
   },
@@ -202,14 +202,17 @@
     "투자",
     "경제",
     "시장해설",
-    "유가",
-    "원자재",
-    "거시경제"
+    "달러 인덱스 보는법"
   ],
-  "search_intent": "발표 이후 다음 일정과 후속 확인 포인트를 빠르게 정리하고 싶은 독자",
-  "monetization_goal": "재방문과 내부링크 순환 강화",
-  "reader_search_queries": [],
-  "demand_confidence": "existing_publish_queue",
-  "demand_confidence_note": "기존 메인 발행 큐에서 파생된 SEO 후속 글입니다."
+  "search_intent": "`달러 인덱스 보는법`를 검색한 독자가 시장 영향과 확인 지표를 빠르게 이해하려는 의도",
+  "monetization_goal": "새 검색 수요를 빠르게 받아내고 내부링크로 기존 핵심 글과 연결",
+  "reader_search_queries": [
+    "달러 인덱스 보는법",
+    "달러 강세 주식 영향",
+    "환율 상승 코인 영향",
+    "원달러 환율 전망"
+  ],
+  "demand_confidence": "medium_low",
+  "demand_confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다."
 }
 ```
