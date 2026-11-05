@@ -1,8 +1,63 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
   "cards": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "publish_date": "2026-11-05",
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "ready_now": true,
+      "hero_image_selected": true,
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+        "Fed, OCC check US banks after Binance hack as experts flag security risks"
+      ],
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 28 Oct 2026 18:00:00 GMT",
+          "published_iso": "2026-10-28T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
+      "hard_blocking_checks": []
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -11,36 +66,36 @@
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off), 실제 급상승 검색어 반영 (비트코인)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
-        "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
-        "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty"
+        "비트코인",
+        "Bitcoin, crypto stocks caught in AI trade meltdown, but Wintermute trader sees 'glass half full'",
+        "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist"
       ],
       "recent_evidence": [
         {
-          "title": "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
+          "title": "Bitcoin, crypto stocks caught in AI trade meltdown, but Wintermute trader sees 'glass half full'",
           "source_name": "CoinDesk RSS",
-          "published": "Thu, 05 Nov 2026 05:13:45 +0000",
-          "published_iso": "2026-11-05T05:13:45+00:00",
-          "link": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound",
+          "published": "Thu, 05 Nov 2026 18:48:40 +0000",
+          "published_iso": "2026-11-05T18:48:40+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
           "source_type": "rss"
         },
         {
-          "title": "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
-          "source_name": "CoinDesk RSS",
-          "published": "Thu, 05 Nov 2026 04:11:33 +0000",
-          "published_iso": "2026-11-05T04:11:33+00:00",
-          "link": "https://www.coindesk.com/markets/2026/11/05/trump-media-moves-usd434-million-in-bitcoin-to-crypto-com-blockchain-data-show",
-          "source_type": "rss"
-        },
-        {
-          "title": "Mercado Bitcoin says phased reopening to begin Monday, will cover losses",
+          "title": "Bitcoin crashes 6% to 7-week low as US stocks erase election gains",
           "source_name": "Cointelegraph",
-          "published": "Wed, 04 Nov 2026 23:20:17 +0000",
-          "published_iso": "2026-11-04T23:20:17+00:00",
-          "link": "https://cointelegraph.com/news/mercado-bitcoin-phased-reopening-to-begin-monday-pledges-to-cover-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Thu, 05 Nov 2026 16:48:41 +0000",
+          "published_iso": "2026-11-05T16:48:41+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-crashes-7-week-low-stocks-election-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+          "source_name": "CoinDesk RSS",
+          "published": "Thu, 05 Nov 2026 13:29:40 +0000",
+          "published_iso": "2026-11-05T13:29:40+00:00",
+          "link": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
           "source_type": "rss"
         }
       ],
@@ -66,19 +121,36 @@
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "What was really behind Wednesday's monster rally? Trump quickly making peace",
-        "This year’s worst-performing S&P 500 stock is finally seeing some major relief"
+        "Bitcoin crashes 6% to 7-week low as US stocks erase election gains",
+        "Nasdaq plunges in chaotic trading as Democratic ‘blue wave’ upends AI bets",
+        "Nasdaq set to confirm correction as AI spending worries mount - Reuters"
       ],
       "recent_evidence": [
         {
-          "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Thu, 05 Nov 2026 01:05:00 GMT",
-          "published_iso": "2026-11-05T01:05:00+00:00",
-          "link": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
+          "title": "tqqq",
+          "source_name": "Google Trends KR",
+          "published": "Thu, 5 Nov 2026 07:40:00 -0800",
+          "published_iso": "2026-11-05T07:40:00-08:00",
+          "link": "https://trends.google.com/trending/rss?geo=KR",
+          "source_type": "rss"
+        },
+        {
+          "title": "Nasdaq set to confirm correction as AI stocks tumble - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Thu, 05 Nov 2026 18:29:47 GMT",
+          "published_iso": "2026-11-05T18:29:47+00:00",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
+          "source_type": "rss"
+        },
+        {
+          "title": "Nasdaq set to confirm correction as AI spending worries mount - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Thu, 05 Nov 2026 18:09:47 GMT",
+          "published_iso": "2026-11-05T18:09:47+00:00",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQXp2Q3NVSS1qMGl2VFZhWTJxREN5ZHg3T2lNeE5MYjBGT3JGZUVwV2drT0V5S0h0a2Y3UUxfSl9nRWZrWlozR2RYNkRPRC05N0g0T2J4bEljZW1RdllqODEtb2dBYmk3NHFzNS0zMWRHenpON2lZbER1SDhZaWhDbnZWSmZ5cmRxbVduR0FWakFzQzFwZElyYVIwamdSdXhJYmhnbTREVQ?oc=5",
           "source_type": "rss"
         }
       ],
@@ -94,43 +166,6 @@
       ],
       "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow",
       "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply",
-      "hard_blocking_checks": []
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "publish_date": "2026-11-08",
-      "review_verdict": "approve",
-      "quality_status": "review_before_publish",
-      "ready_now": false,
-      "hero_image_selected": true,
-      "reason": "섹터/세계 흐름 연결 해설 가능",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "Russia, China may be more aggressive if they feel Trump is on 'his way out': Brookings"
-      ],
-      "recent_evidence": [
-        {
-          "title": "Russia, China may be more aggressive if they feel Trump is on 'his way out': Brookings",
-          "source_name": "CNBC Top News",
-          "published": "Thu, 05 Nov 2026 05:58:33 GMT",
-          "published_iso": "2026-11-05T05:58:33+00:00",
-          "link": "https://www.cnbc.com/2026/11/05/trump-russia-china-summit-apec-midterms.html",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
-      "next_action": "사용자 최종 확인 후 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
       "hard_blocking_checks": []
     }
   ]

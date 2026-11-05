@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-05T06:04:22.477505+00:00`
+- 생성 시각: `2026-11-05T19:49:21.092875+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 90.0
+- 점수: 91.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,13 +70,13 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - White House Delays Hearing on Fed Governor
+  - Fed, OCC check US banks after Binance hack as experts flag security risks
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_on)
-- 점수: 85.0
+- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off), 실제 급상승 검색어 반영 (비트코인)
+- 점수: 87.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound
-  - Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show
-  - Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty
-  - Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead
-  - Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress
+  - 비트코인
+  - Bitcoin, crypto stocks caught in AI trade meltdown, but Wintermute trader sees 'glass half full'
+  - What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist
+  - Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million
+  - Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep
 
 ## 3. us_index_flow
 
 - 추천 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (2개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 59.0
+- 각도: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 점수: 82.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,14 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - What was really behind Wednesday's monster rally? Trump quickly making peace
-  - This year’s worst-performing S&P 500 stock is finally seeing some major relief
+  - Bitcoin crashes 6% to 7-week low as US stocks erase election gains
+  - Nasdaq plunges in chaotic trading as Democratic ‘blue wave’ upends AI bets
+  - Nasdaq set to confirm correction as AI spending worries mount - Reuters
+  - Nasdaq set to confirm correction as AI stocks tumble - Reuters
+  - After tech-stock rout, October jobs report could bring relief — or more pain
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 각도: 섹터/세계 흐름 연결 해설 가능
-- 점수: 45.0
+- 점수: 44.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -273,4 +276,4 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Russia, China may be more aggressive if they feel Trump is on 'his way out': Brookings
+  - China Blocks SoftBank’s $5.4 Billion Robotics Takeover, Impeding Foreign Deals

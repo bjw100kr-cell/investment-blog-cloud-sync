@@ -1,35 +1,27 @@
 {
-  "generated_at": "2026-11-05T06:04:22.477505+00:00",
+  "generated_at": "2026-11-05T19:49:21.092875+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 4
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
     {
       "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 5900,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 47,
-      "source_count": 3,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
+      "trend_count": 1,
+      "traffic_score_sum": 500,
+      "max_approx_traffic": 500,
+      "trend_queries": [
+        "비트코인"
       ],
-      "sample_titles": [
-        "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
-        "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
-        "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty"
-      ]
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 700,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
     },
     {
       "keyword": "fomc",
@@ -38,68 +30,71 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3400,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 22,
+      "source_snapshot_score": 23,
       "source_count": 2,
       "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "NYT Business"
+        "Cointelegraph",
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "White House Delays Hearing on Fed Governor"
+        "Fed, OCC check US banks after Binance hack as experts flag security risks"
       ]
     },
     {
-      "keyword": "oil",
+      "keyword": "us_index_flow",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3100,
+      "demand_signal_score": 3000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 19,
-      "source_count": 3,
+      "source_snapshot_score": 18,
+      "source_count": 5,
       "source_names": [
+        "Cointelegraph",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Bitcoin crashes 6% to 7-week low as US stocks erase election gains",
+        "Nasdaq plunges in chaotic trading as Democratic ‘blue wave’ upends AI bets",
+        "Nasdaq set to confirm correction as AI spending worries mount - Reuters"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2700,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 15,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Financial Times Home",
-        "Reuters Markets via Google News RSS"
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
-        "Vance blames Iran war for crushing Republican midterms defeat",
-        "Oil tumbles below $100 on post-election peace hopes"
-      ]
-    },
-    {
-      "keyword": "dollar",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2200,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 10,
-      "source_count": 3,
-      "source_names": [
-        "CoinDesk RSS",
-        "Financial Times World",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
-        "Dollar edges lower as US election outcome spurs risk sentiment; sterling gains - Reuters",
-        "Microsoft rejects multibillion-dollar AI deal with UK’s Nscale"
+        "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+        "Qualcomm slides 9% after earnings, leading postelection chip stock sell-off",
+        "So, about that Anthropic IPO . . ."
       ]
     }
   ],
