@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-06T05:59:43.719186+00:00",
+  "generated_at": "2026-11-06T19:14:43.332160+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 3,
-    "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 3
+    "matched_keyword_count": 4,
+    "unmatched_market_trend_count": 1,
+    "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
@@ -14,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6500,
+      "demand_signal_score": 6200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 53,
+      "source_snapshot_score": 50,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
-        "Bitcoin tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
-        "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?"
+        "The crypto industry has found new ways to grow. Making money from them is another story",
+        "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
+        "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report"
       ]
     },
     {
@@ -38,45 +38,84 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3500,
+      "demand_signal_score": 4400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
-      "source_count": 2,
+      "source_snapshot_score": 32,
+      "source_count": 5,
       "source_names": [
-        "Cointelegraph",
-        "Federal Reserve Monetary Policy Press"
+        "CNBC Top News",
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times Home",
+        "Financial Times World",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Fed, OCC check US banks after Binance hack as experts flag security risks"
+        "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says"
       ]
     },
     {
-      "keyword": "oil",
+      "keyword": "cpi",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2400,
+      "demand_signal_score": 2700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 12,
-      "source_count": 2,
+      "source_snapshot_score": 15,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
+        "CoinDesk RSS",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Oil prices rise as investors weigh renewed U.S.-Iran conflict risks after midterm elections",
-        "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy",
-        "India bucks Asia tech rout as oil slide reverses market fortunes - Reuters"
+        "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
+        "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
+        "Trader angst pivots from inflation to growth as tech rout deepens - Reuters"
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2200,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 10,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
+        "US stocks rebound after tech rout",
+        "Nasdaq rebounds as chip stocks recover from steep losses - Reuters"
       ]
     }
   ],
-  "unmatched_market_trends": []
+  "unmatched_market_trends": [
+    {
+      "query": "oracle stock",
+      "region": "US",
+      "approx_traffic": "1000+",
+      "traffic_score": 1000,
+      "market_relevance_score": 1,
+      "brand_identity_match": true,
+      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
+    }
+  ]
 }
