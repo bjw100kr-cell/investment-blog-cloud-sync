@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T19:49:23.613985+00:00",
+  "generated_at": "2026-11-06T05:59:46.407541+00:00",
   "base_url": "",
   "packets_json": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/draft-packets.json",
   "publishing_json": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publishing-assets.json",
@@ -20,7 +20,7 @@
         "미국증시"
       ],
       "category": "macro",
-      "recommended_publish_date": "2026-11-05",
+      "recommended_publish_date": "2026-11-10",
       "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html",
       "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.json",
       "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
@@ -92,7 +92,8 @@
       "ga4_enabled": false,
       "ad_slot_recommendations": [
         "after_intro",
-        "mid_article",
+        "after_first_h2",
+        "before_faq",
         "before_related_links"
       ],
       "retention_cta": {
@@ -182,7 +183,7 @@
         "암호화폐"
       ],
       "category": "crypto",
-      "recommended_publish_date": "2026-11-06",
+      "recommended_publish_date": "2026-11-07",
       "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.html",
       "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-비트코인-핵심-흐름-해설.json",
       "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md",
@@ -241,7 +242,7 @@
         }
       ],
       "cta": "비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.",
-      "summary_angle": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off), 실제 급상승 검색어 반영 (비트코인)",
+      "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
       "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
       "trust_footer_note": "이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.",
       "canonical_url": "",
@@ -345,7 +346,7 @@
         "지수해설"
       ],
       "category": "global-sector",
-      "recommended_publish_date": "2026-11-07",
+      "recommended_publish_date": "2026-11-08",
       "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.html",
       "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-미국-증시-지수-흐름-해설.json",
       "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-index-flow.md",
@@ -404,7 +405,7 @@
         }
       ],
       "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
-      "summary_angle": "복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "summary_angle": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
       "trust_footer_note": "이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.",
       "canonical_url": "",
@@ -506,7 +507,7 @@
         "거시경제"
       ],
       "category": "global-sector",
-      "recommended_publish_date": "2026-11-08",
+      "recommended_publish_date": "2026-11-09",
       "html_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.html",
       "manifest_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-중국-변수와-시장-영향-해설.json",
       "draft_path": "/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
@@ -599,7 +600,7 @@
         "next_action": "사용자 검토 후 승인 대기",
         "blockers": [
           "main_quality=review_before_publish",
-          "follow_up_posts_present",
+          "source_strength",
           "canonical_url_present",
           "newsletter_ready"
         ]

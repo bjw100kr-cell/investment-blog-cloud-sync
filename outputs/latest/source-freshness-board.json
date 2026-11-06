@@ -1,99 +1,39 @@
 {
-  "generated_at": "2026-11-05T19:49:25.325245+00:00",
-  "snapshot_generated_at": "2026-11-05T19:49:21.092875+00:00",
+  "generated_at": "2026-11-06T05:59:48.471013+00:00",
+  "snapshot_generated_at": "2026-11-06T05:59:43.719186+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 2,
+    "fresh": 3,
     "aging": 0,
-    "stale": 1,
+    "stale": 0,
     "unknown": 0
   },
   "items": [
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-11-05",
-      "freshness_status": "stale",
-      "newest_evidence_iso": "2026-10-28T18:00:00+00:00",
-      "oldest_evidence_iso": "2026-07-29T18:00:00+00:00",
-      "newest_evidence_age_days": 8.1,
-      "source_count": 2,
-      "demand_signal_score": 3500,
-      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
-      "recovery_mode": "full_refresh_needed",
-      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
-      "recovery_command": "bash scripts/run_pipeline.sh",
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 28 Oct 2026 18:00:00 GMT",
-          "published_iso": "2026-10-28T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-11-07",
+      "publish_date": "2026-11-09",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-11-05T18:29:47+00:00",
-      "oldest_evidence_iso": "2026-11-05T15:40:00+00:00",
-      "newest_evidence_age_days": 0.1,
-      "source_count": 5,
-      "demand_signal_score": 3000,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: tqqq",
+      "newest_evidence_iso": "2026-11-05T23:55:53+00:00",
+      "oldest_evidence_iso": "2026-11-05T23:55:53+00:00",
+      "newest_evidence_age_days": 0.3,
+      "source_count": 1,
+      "demand_signal_score": 0,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: China's yuan dilemma: too weak abroad and too strong at home - Reuters",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "tqqq",
-          "source_name": "Google Trends KR",
-          "published": "Thu, 5 Nov 2026 07:40:00 -0800",
-          "published_iso": "2026-11-05T07:40:00-08:00",
-          "link": "https://trends.google.com/trending/rss?geo=KR",
-          "source_type": "rss"
-        },
-        {
-          "title": "Nasdaq set to confirm correction as AI stocks tumble - Reuters",
+          "title": "China's yuan dilemma: too weak abroad and too strong at home - Reuters",
           "source_name": "Reuters Markets via Google News RSS",
-          "published": "Thu, 05 Nov 2026 18:29:47 GMT",
-          "published_iso": "2026-11-05T18:29:47+00:00",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "Nasdaq set to confirm correction as AI spending worries mount - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Thu, 05 Nov 2026 18:09:47 GMT",
-          "published_iso": "2026-11-05T18:09:47+00:00",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQXp2Q3NVSS1qMGl2VFZhWTJxREN5ZHg3T2lNeE5MYjBGT3JGZUVwV2drT0V5S0h0a2Y3UUxfSl9nRWZrWlozR2RYNkRPRC05N0g0T2J4bEljZW1RdllqODEtb2dBYmk3NHFzNS0zMWRHenpON2lZbER1SDhZaWhDbnZWSmZ5cmRxbVduR0FWakFzQzFwZElyYVIwamdSdXhJYmhnbTREVQ?oc=5",
+          "published": "Thu, 05 Nov 2026 23:55:53 GMT",
+          "published_iso": "2026-11-05T23:55:53+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdndG40UGVsSEh6cVBmcFZBSmFHNi10VU9ET3JPbU1XRlg3bHI4SnptNGcxV3BGNHdXT2Qycm9Oa1VfRmJNNFFyNGxJN0ZfbHdyNi1zbHRISnBlZWNKUGdqT0V0UVJHRHhFLWRYVTB1alpvSGRCZWZaTzJyaHdicWpyVDdGQmVWVlFqREs2TTNMcVZYVlllb1FCUlVZMDMxQQ?oc=5",
           "source_type": "rss"
         }
       ]
@@ -103,40 +43,67 @@
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-11-06",
+      "publish_date": "2026-11-07",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-11-05T18:48:40+00:00",
-      "oldest_evidence_iso": "2026-11-05T07:10:57+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 4,
-      "demand_signal_score": 700,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin, crypto stocks caught in AI trade meltdown, but Wintermute trader sees 'glass half full'",
+      "newest_evidence_iso": "2026-11-06T01:30:00+00:00",
+      "oldest_evidence_iso": "2026-11-05T18:48:40+00:00",
+      "newest_evidence_age_days": 0.2,
+      "source_count": 3,
+      "demand_signal_score": 6500,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin, crypto stocks caught in AI trade meltdown, but Wintermute trader sees 'glass half full'",
+          "title": "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
           "source_name": "CoinDesk RSS",
-          "published": "Thu, 05 Nov 2026 18:48:40 +0000",
-          "published_iso": "2026-11-05T18:48:40+00:00",
-          "link": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
+          "published": "Fri, 06 Nov 2026 01:30:00 +0000",
+          "published_iso": "2026-11-06T01:30:00+00:00",
+          "link": "https://www.coindesk.com/tech/2026/11/05/bitcoin-developer-proposes-landmines-to-make-quantum-thieves-lose-their-own-btc",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin crashes 6% to 7-week low as US stocks erase election gains",
+          "title": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
           "source_name": "Cointelegraph",
-          "published": "Thu, 05 Nov 2026 16:48:41 +0000",
-          "published_iso": "2026-11-05T16:48:41+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-price-crashes-7-week-low-stocks-election-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Fri, 06 Nov 2026 00:19:49 +0000",
+          "published_iso": "2026-11-06T00:19:49+00:00",
+          "link": "https://cointelegraph.com/news/core-scientific-to-quit-bitcoin-mining-by-year-end-as-ai-business-surges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
-          "source_name": "CoinDesk RSS",
-          "published": "Thu, 05 Nov 2026 13:29:40 +0000",
-          "published_iso": "2026-11-05T13:29:40+00:00",
-          "link": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
+          "title": "American Bitcoin’s $126M profit masks mining pressure as rivals turn to AI",
+          "source_name": "Cointelegraph",
+          "published": "Thu, 05 Nov 2026 22:43:18 +0000",
+          "published_iso": "2026-11-05T22:43:18+00:00",
+          "link": "https://cointelegraph.com/news/american-bitcoins-126m-profit-masks-mining-pressure-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-11-08",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-11-06T02:40:15+00:00",
+      "oldest_evidence_iso": "2026-11-06T02:40:15+00:00",
+      "newest_evidence_age_days": 0.1,
+      "source_count": 3,
+      "demand_signal_score": 0,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+          "source_name": "CNBC Top News",
+          "published": "Fri, 06 Nov 2026 02:40:15 GMT",
+          "published_iso": "2026-11-06T02:40:15+00:00",
+          "link": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
           "source_type": "rss"
         }
       ]

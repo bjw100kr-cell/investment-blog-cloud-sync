@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-05T19:49:21.092875+00:00`
+- 생성 시각: `2026-11-06T05:59:43.719186+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,7 +25,7 @@
 
 ## 유튜브 transcript 포인트
 
-- `무역킹 Trade King YouTube` / Coupang is Doing So Well, So Why Can't It Make a Profit?
+- `무역킹 Trade King YouTube` / 쿠팡은 이렇게 잘나가는데, 왜 돈을 못 벌까?
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=wyfiTmkDQqA! This is most likely caused by:
 
@@ -38,7 +38,7 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / A Coup in Poland? The President Turned the Plane Around
+- `무역킹 Trade King YouTube` / 폴란드 쿠데타? 대통령이 비행기를 돌렸다
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=gz841tCItvw! This is most likely caused by:
 
@@ -51,7 +51,7 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 3. What Employees Need When They’re Still Burnt Out After a Break (Leaderphobia)
+- `무역킹 Trade King YouTube` / 3. 쉬고 와도 무기력한 직원에게 필요한 것 (리더포비아)
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=jy0hgpZRay8! This is most likely caused by:
 
@@ -64,7 +64,7 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / Murder over a local council seat? The insane situation in South Africa
+- `무역킹 Trade King YouTube` / 구의원 자리 때문에 살인까지ㄷㄷ 남아공의 레전드 상황
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ttFtJfBFQ-k! This is most likely caused by:
 
@@ -77,7 +77,7 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 2. The Real Reason High-Performers Burn Out First (Leaderphobia)
+- `무역킹 Trade King YouTube` / 2. 일 잘하는 직원이 먼저 지치는 진짜 이유 (리더포비아)
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=iEncU5S8t0I! This is most likely caused by:
 
@@ -90,7 +90,7 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / The reason Machado has only now entered Venezuela
+- `무역킹 Trade King YouTube` / 마차도가 이제서야 베네수엘라에 들어온 이유는
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ruuKvga5SaA! This is most likely caused by:
 
@@ -106,46 +106,45 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 55, source_count 4, sources CoinDesk RSS, Cointelegraph, Google Trends KR, Investing.com Crypto News
+- `bitcoin`: score 53, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - `fomc`: score 23, source_count 2, sources Cointelegraph, Federal Reserve Monetary Policy Press
-- `us_index_flow`: score 18, source_count 5, sources Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 15, source_count 4, sources CNBC Top News, CoinDesk RSS, Financial Times Home, MarketWatch Breaking News
-- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `oil`: score 6, source_count 1, sources Reuters Markets via Google News RSS
-- `dollar`: score 3, source_count 1, sources Financial Times Home
-- `ai_growth_stocks`: score 3, source_count 1, sources Financial Times World
-- `us_big_tech`: score 2, source_count 1, sources MarketWatch Breaking News
-- `cpi`: score 2, source_count 1, sources NYT Business
+- `oil`: score 12, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `us_index_flow`: score 7, source_count 3, sources CNBC Top News, MarketWatch Breaking News, NYT Business
+- `ai_semiconductors`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `treasury_yields`: score 4, source_count 1, sources CoinDesk RSS
+- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
+- `jobs`: score 3, source_count 1, sources CNBC Top News
+- `us_big_tech`: score 3, source_count 1, sources CNBC Top News
+- `china`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 55, headlines 14
-  - 비트코인
-  - Bitcoin, crypto stocks caught in AI trade meltdown, but Wintermute trader sees 'glass half full'
-  - What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist
+- `bitcoin`: score 53, headlines 16
+  - Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC
+  - Bitcoin tumbles to $76,000 as collapsing AI trade drags stocks sharply lower
+  - What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?
 - `fomc`: score 23, headlines 5
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-- `us_index_flow`: score 18, headlines 7
-  - Bitcoin crashes 6% to 7-week low as US stocks erase election gains
-  - Nasdaq plunges in chaotic trading as Democratic ‘blue wave’ upends AI bets
-  - Nasdaq set to confirm correction as AI spending worries mount - Reuters
-- `ai_semiconductors`: score 15, headlines 5
-  - Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults
-  - Qualcomm slides 9% after earnings, leading postelection chip stock sell-off
-  - So, about that Anthropic IPO . . .
-- `ethereum`: score 7, headlines 2
+- `oil`: score 12, headlines 4
+  - Oil prices rise as investors weigh renewed U.S.-Iran conflict risks after midterm elections
+  - Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy
+  - India bucks Asia tech rout as oil slide reverses market fortunes - Reuters
+- `us_index_flow`: score 7, headlines 3
+  - Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble
+  - Tech stocks log worst day since 2020 as carnage comes to the AI trade
+  - Stocks Erase Post-Midterm Elections Rally, Dragged Down by Tech
+- `ai_semiconductors`: score 6, headlines 2
+  - Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble
+  - EXCLUSIVE: AI backlash could threaten Anthropic IPO timing, potential investors say - Reuters
+- `ethereum`: score 4, headlines 1
   - Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million
-  - Europe’s largest asset manager Amundi tokenizes equity index fund on Ethereum
-- `oil`: score 6, headlines 2
-  - PODCAST: Oil heads for pandemic-era fall - Reuters
-  - COMMENTARY: Morning Bid: Oil and the blame game - Reuters
-- `ai_growth_stocks`: score 3, headlines 1
-  - UK plans to extend Palantir’s NHS contract as it draws up plans for potential replacement
-- `dollar`: score 3, headlines 1
-  - AI backlash threatens trillion-dollar data centre boom, say tech leaders
-- `china`: score 2, headlines 1
-  - China Blocks SoftBank’s $5.4 Billion Robotics Takeover, Impeding Foreign Deals
-- `cpi`: score 2, headlines 1
-  - Bank of England Raises Rates for First Time in Three Years
+- `treasury_yields`: score 4, headlines 1
+  - Hyperliquid treasury firm seeking U.S. regulatory nod as a domestic futures platform
+- `china`: score 3, headlines 1
+  - China's yuan dilemma: too weak abroad and too strong at home - Reuters
+- `jobs`: score 3, headlines 1
+  - The October jobs report is out Friday. Here's everything to expect
+- `us_big_tech`: score 3, headlines 1
+  - Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms
