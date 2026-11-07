@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-06T19:14:43.332160+00:00",
+  "generated_at": "2026-11-07T05:31:29.624675+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 1,
+    "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
@@ -14,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6200,
+      "demand_signal_score": 5600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 50,
+      "source_snapshot_score": 44,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -26,9 +26,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
+        "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
         "The crypto industry has found new ways to grow. Making money from them is another story",
-        "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
-        "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report"
+        "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty"
       ]
     },
     {
@@ -38,48 +38,44 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4400,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 32,
-      "source_count": 5,
+      "source_snapshot_score": 23,
+      "source_count": 2,
       "source_names": [
-        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Financial Times World",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says"
+        "Fed policymakers consider rate hike after strong jobs report - Reuters"
       ]
     },
     {
-      "keyword": "cpi",
+      "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2700,
+      "demand_signal_score": 2800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 15,
-      "source_count": 4,
+      "source_snapshot_score": 16,
+      "source_count": 3,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "Financial Times Home",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-        "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
-        "Trader angst pivots from inflation to growth as tech rout deepens - Reuters"
+        "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
+        "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+        "Anthropic to press ahead with IPO targeting $1.5tn valuation"
       ]
     },
     {
@@ -89,11 +85,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2200,
+      "demand_signal_score": 2600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 10,
+      "source_snapshot_score": 14,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -102,20 +98,10 @@
       ],
       "sample_titles": [
         "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-        "US stocks rebound after tech rout",
-        "Nasdaq rebounds as chip stocks recover from steep losses - Reuters"
+        "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
+        "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy"
       ]
     }
   ],
-  "unmatched_market_trends": [
-    {
-      "query": "oracle stock",
-      "region": "US",
-      "approx_traffic": "1000+",
-      "traffic_score": 1000,
-      "market_relevance_score": 1,
-      "brand_identity_match": true,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    }
-  ]
+  "unmatched_market_trends": []
 }
