@@ -2,42 +2,60 @@
 
 shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어가기 위한 시작 화면입니다.
 - 원칙: 먼저 글을 읽고, 그 다음 confirm command 또는 helper apply command를 실행합니다.
-- item_count: `2`
+- item_count: `3`
 
-## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+- keyword `fomc` / publish `2026-11-07` / verdict `approve` / quality `pass`
+- ready_now: `True` / hero_image_selected: `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- why_now: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- sample_headlines:
+  - Federal Reserve issues FOMC statement
+  - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
+- recent_evidence:
+  - Federal Reserve Monetary Policy Press | 2026-10-28T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
+
+## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword `bitcoin` / publish `2026-11-08` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - sample_headlines:
+  - U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows
+  - Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets
   - Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch
-  - The crypto industry has found new ways to grow. Making money from them is another story
-  - Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty
 - recent_evidence:
-  - Cointelegraph | 2026-11-06T18:22:42+00:00 | Strive buys 15,124 Bitcoin in October, closes in on top treasury holders
-  - Cointelegraph | 2026-11-06T17:49:33+00:00 | Bitcoin price dips under $75K as crypto markets miss tech-stock rebound
-  - CoinDesk RSS | 2026-11-06T11:58:40+00:00 | Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close
+  - Cointelegraph | 2026-11-07T13:30:00+00:00 | Bitcoin holders have received eCash — What can you do with it?
+  - Investing.com Crypto News | 2026-11-07 08:12:35 | Bitcoin rebounds to $76,000, but $1.3 billion ETF exodus tests recovery
+  - Investing.com Crypto News | 2026-11-06 22:39:48 | Bitcoin set for weekly loss on post-midterms regulatory uncertainty, jobs report
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
-- keyword `ai_semiconductors` / publish `` / verdict `approve` / quality `needs_fix`
+- keyword `us_index_flow` / publish `` / verdict `approve` / quality `needs_fix`
 - ready_now: `False` / hero_image_selected: `True`
 - intent: 
-- why_now: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- why_now: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - sample_headlines:
-  - Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'
+  - U.S. added 165,000 jobs in October, blowing past 65,000 estimate
   - US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy
-  - Anthropic to press ahead with IPO targeting $1.5tn valuation
+  - Nasdaq rebounds but posts fourth straight weekly decline - Reuters
 - recent_evidence:
+  - MarketWatch Breaking News | 2026-11-07T16:40:00+00:00 | The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.
   - Financial Times Home | 2026-11-07T02:33:26+00:00 | US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy
-  - MarketWatch Breaking News | 2026-11-06T21:24:00+00:00 | Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?
-  - CNBC Top News | 2026-11-06T21:07:07+00:00 | Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`
+  - Reuters Markets via Google News RSS | 2026-11-06T09:41:00+00:00 | Nasdaq rebounds but posts fourth straight weekly decline - Reuters
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply`

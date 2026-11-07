@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-11-07T05:31:29.624675+00:00`
+- 생성 시각: `2026-11-07T17:42:09.122916+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `91.0`
-- 점수 구성: 검색성 23 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- 총점: `86.0`
+- 점수 구성: 검색성 19 / 시의성 25 / 설명가치 20 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- 소스: Federal Reserve Monetary Policy Press
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,7 +27,6 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Fed policymakers consider rate hike after strong jobs report - Reuters
 
 ## 2. bitcoin
 
@@ -49,69 +48,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows
+  - Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets
   - Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch
   - The crypto industry has found new ways to grow. Making money from them is another story
   - Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty
-  - Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close
-  - Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures
 
-## 3. ai_semiconductors
+## 3. us_index_flow
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
 - 총점: `76.0`
-- 점수 구성: 검색성 19 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, MarketWatch Breaking News
-- 제목 후보:
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
-  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기
-- 글 구조:
-  - 지금 이 섹터가 왜 움직이는가
-  - 핵심 뉴스와 시장 반응
-  - 대표 종목과 자금 흐름
-  - 거시 변수와 연결
-  - 다음 실적/정책 이벤트
-- 참고 헤드라인:
-  - Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'
-  - US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy
-  - Anthropic to press ahead with IPO targeting $1.5tn valuation
-  - Low-profile Wall Street firm to double down on Anthropic despite tech rout
-  - Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?
-
-## 4. china
-
-- 카테고리: `global-sector`
-- 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `66.0`
-- 점수 구성: 검색성 13 / 시의성 16 / 설명가치 17 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times Home, Financial Times World
-- 제목 후보:
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
-  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 글 구조:
-  - 왜 지금 이 이슈가 중요한가
-  - 실제로 발표되거나 벌어진 일
-  - 주식·코인·달러·금리에 주는 영향
-  - 앞으로 체크할 변수
-  - 개인 투자자가 볼 포인트
-- 참고 헤드라인:
-  - US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy
-  - US warns China it must ‘immediately’ meet terms of Busan trade deal
-  - Trump’s defeat heralds a US retreat
-  - Trump’s defeat heralds a US retreat
-
-## 5. us_index_flow
-
-- 카테고리: `global-sector`
-- 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `76.0`
-- 점수 구성: 검색성 18 / 시의성 18 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: CoinDesk RSS, Financial Times Home, Reuters Markets via Google News RSS
+- 점수 구성: 검색성 16 / 시의성 20 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: CoinDesk RSS, Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - 제목 후보:
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -124,6 +74,52 @@
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
   - U.S. added 165,000 jobs in October, blowing past 65,000 estimate
-  - Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close
   - US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy
   - Nasdaq rebounds but posts fourth straight weekly decline - Reuters
+  - The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.
+
+## 4. china
+
+- 카테고리: `global-sector`
+- 브랜드 레인: `world-flow` (세계 흐름)
+- 총점: `50.0`
+- 점수 구성: 검색성 6 / 시의성 8 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 섹터/세계 흐름 연결 해설 가능
+- 소스: Financial Times Home
+- 제목 후보:
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- 글 구조:
+  - 왜 지금 이 이슈가 중요한가
+  - 실제로 발표되거나 벌어진 일
+  - 주식·코인·달러·금리에 주는 영향
+  - 앞으로 체크할 변수
+  - 개인 투자자가 볼 포인트
+- 참고 헤드라인:
+  - US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy
+  - Trump’s defeat heralds a US retreat
+
+## 5. ai_semiconductors
+
+- 카테고리: `global-sector`
+- 브랜드 레인: `us-stocks` (미국주식)
+- 총점: `73.0`
+- 점수 구성: 검색성 15 / 시의성 20 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Cointelegraph, Financial Times Home, NYT Business
+- 제목 후보:
+  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
+  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기
+- 글 구조:
+  - 지금 이 섹터가 왜 움직이는가
+  - 핵심 뉴스와 시장 반응
+  - 대표 종목과 자금 흐름
+  - 거시 변수와 연결
+  - 다음 실적/정책 이벤트
+- 참고 헤드라인:
+  - Nvidia may face a more hostile post-election Washington: Report
+  - Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers
+  - US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy
+  - U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties

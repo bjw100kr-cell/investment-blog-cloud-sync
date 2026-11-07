@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-07T05:31:29.624675+00:00`
+- 생성 시각: `2026-11-07T17:42:09.122916+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -101,50 +101,45 @@ If you are sure that the described cause is not responsible for this error and t
 ## 상위 키워드
 
 - `bitcoin`: score 44, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 16, source_count 3, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News
-- `us_index_flow`: score 14, source_count 3, sources CoinDesk RSS, Financial Times Home, Reuters Markets via Google News RSS
-- `china`: score 12, source_count 2, sources Financial Times Home, Financial Times World
-- `cpi`: score 10, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
-- `us_big_tech`: score 6, source_count 2, sources CoinDesk RSS, NYT Business
-- `treasury_yields`: score 6, source_count 1, sources Cointelegraph
-- `jobs`: score 6, source_count 2, sources CNBC Top News, Cointelegraph
-- `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
+- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
+- `us_index_flow`: score 12, source_count 4, sources CoinDesk RSS, Financial Times Home, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 11, source_count 4, sources CNBC Top News, Cointelegraph, Financial Times Home, NYT Business
+- `cpi`: score 9, source_count 3, sources CoinDesk RSS, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `treasury_yields`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
+- `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
+- `china`: score 6, source_count 1, sources Financial Times Home
+- `us_big_tech`: score 4, source_count 1, sources CoinDesk RSS
 
 ## 오늘의 글감 후보
 
 - `bitcoin`: score 44, headlines 13
+  - U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows
+  - Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets
   - Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch
-  - The crypto industry has found new ways to grow. Making money from them is another story
-  - Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty
-- `fomc`: score 23, headlines 5
+- `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-- `ai_semiconductors`: score 16, headlines 6
-  - Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'
-  - US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy
-  - Anthropic to press ahead with IPO targeting $1.5tn valuation
-- `us_index_flow`: score 14, headlines 4
+- `us_index_flow`: score 12, headlines 4
   - U.S. added 165,000 jobs in October, blowing past 65,000 estimate
-  - Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close
   - US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy
-- `china`: score 12, headlines 4
+  - Nasdaq rebounds but posts fourth straight weekly decline - Reuters
+- `ai_semiconductors`: score 11, headlines 4
+  - Nvidia may face a more hostile post-election Washington: Report
+  - Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers
   - US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy
-  - US warns China it must ‘immediately’ meet terms of Busan trade deal
-  - Trump’s defeat heralds a US retreat
-- `cpi`: score 10, headlines 3
+- `cpi`: score 9, headlines 3
   - U.S. added 165,000 jobs in October, blowing past 65,000 estimate
   - Trader angst pivots from inflation to growth as tech rout deepens - Reuters
-  - Markets fret over growth and inflation, just as tech rout gains speed - Reuters
-- `jobs`: score 6, headlines 2
-  - Bitcoin price dips under $75K as crypto markets miss tech-stock rebound
-  - A disturbing employment trend is hiding beneath the latest strong job numbers
-- `treasury_yields`: score 6, headlines 2
-  - US Treasury cuts off MEXC over alleged $16B in illicit transactions
-  - Strive buys 15,124 Bitcoin in October, closes in on top treasury holders
-- `us_big_tech`: score 6, headlines 2
-  - Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch
-  - Tesla Is Ending Production of Its Cybertruck and Refocusing on the Cybercab
-- `crypto_etf`: score 4, headlines 1
+  - The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.
+- `crypto_etf`: score 7, headlines 2
   - Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market
+  - Bitcoin rebounds to $76,000, but $1.3 billion ETF exodus tests recovery
+- `treasury_yields`: score 7, headlines 2
+  - U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows
+  - US Treasury cuts off MEXC over alleged $16B in illicit transactions
+- `china`: score 6, headlines 2
+  - US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy
+  - Trump’s defeat heralds a US retreat
+- `us_big_tech`: score 4, headlines 1
+  - Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch

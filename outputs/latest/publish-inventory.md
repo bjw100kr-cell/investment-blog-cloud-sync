@@ -1,6 +1,6 @@
 # 발행 재고판
 
-- 생성 시각: `2026-11-07T05:31:32.746176+00:00`
+- 생성 시각: `2026-11-07T17:42:12.033097+00:00`
 - 전체 발행 후보: `7`
 - 업로드 가능 글 수: `7`
 - 메인 글 수: `4`
@@ -14,7 +14,7 @@
 - role/type: lane_focus_macro / breaking_explainer
 - ready_to_upload: True
 - publish_date: 2026-11-07 / bucket: today_or_overdue
-- priority_score: 134.0
+- priority_score: 128.0
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - search_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - cta_focus: 환율·금리·미국증시 evergreen 글로 연결
@@ -40,16 +40,16 @@
 - role/type: lane_focus_world-flow / breaking_explainer
 - ready_to_upload: True
 - publish_date: 2026-11-10 / bucket: this_week
-- priority_score: 91.0
+- priority_score: 74.0
 - revenue_objective: 페이지뷰와 체류시간 균형 확보
 - search_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - cta_focus: 실적·공급망·대표 종목 글로 연결
 
-## 4. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+## 4. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
 - inventory_type: main_post
-- keyword: ai_semiconductors
-- source_keyword: ai_semiconductors
+- keyword: us_index_flow
+- source_keyword: us_index_flow
 - role/type: unplanned / breaking_explainer
 - ready_to_upload: True
 - publish_date: 미정 / bucket: later
@@ -65,7 +65,7 @@
 - role/type: evergreen_seo / evergreen_sector_guide
 - ready_to_upload: True
 - publish_date: 2026-11-10 / bucket: seo_backlog
-- priority_score: 90.5
+- priority_score: 73.5
 - revenue_objective: 섹터형 검색 유입 누적
 - search_intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 - cta_focus: 대표 종목 글과 허브 글 연결
@@ -78,7 +78,7 @@
 - role/type: follow_up / follow_up_analysis
 - ready_to_upload: True
 - publish_date: 2026-11-10 / bucket: seo_backlog
-- priority_score: 87.5
+- priority_score: 70.5
 - revenue_objective: 체류시간과 페이지뷰 확대
 - search_intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 - cta_focus: 실적 해설과 글로벌 섹터 허브 연결
@@ -91,7 +91,7 @@
 - role/type: evergreen_seo / evergreen_sector_guide
 - ready_to_upload: True
 - publish_date: 2026-11-10 / bucket: seo_backlog
-- priority_score: 84.5
+- priority_score: 67.5
 - revenue_objective: 광고 노출과 장기 검색 유입 확보
 - search_intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 - cta_focus: 섹터 허브와 후속 비교 글 연결
