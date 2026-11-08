@@ -1,6 +1,6 @@
 # Daily 200 Visitor Action Board
 
-- 생성 시각: `2026-11-07T17:42:12.743691+00:00`
+- 생성 시각: `2026-11-08T05:32:44.072395+00:00`
 - 목표: 하루 `200`명
 - 상태: `measurement_missing_keep_building`
 - 실측 방문자: `0`
@@ -44,17 +44,24 @@
 - supporting_queries: 엔비디아 주가 영향, 반도체 사이클 전망, AI 데이터센터 수혜주
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
+### 미국 빅테크 주식
+
+- mapped_keyword: `us_big_tech`
+- suggested_title: 미국 빅테크 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 애플 주가 영향, 테슬라 주가 전망, 마이크로소프트 AI 투자, tesla
+- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
+
 ## 공개 URL 배포 액션
 
 - 공개 URL 수: `16`
 - 수동 체크리스트 수: `48`
-- 공개 SEO 확장 글 수: `13`
+- 공개 SEO 확장 글 수: `12`
 - 전체 수동 배포 잠재 방문자: `560`
 
 - `bitcoin`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
 - `fomc`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
-- `china`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
 - `us_index_flow`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
+- `china`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
 - `seo_us_big_tech_10`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/07/5.html
 - `seo_ai_semiconductors_11`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/07/ai-5.html
 - `seo_oil_12`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/07/5_097860030.html

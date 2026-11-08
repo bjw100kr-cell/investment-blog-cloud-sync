@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-07T17:42:09.122916+00:00",
+  "generated_at": "2026-11-08T05:32:40.845638+00:00",
   "summary": {
     "ok_sources": 14,
-    "item_count": 112
+    "item_count": 111
   },
   "source_status": [
     {
@@ -83,7 +83,7 @@
       "type": "rss",
       "enabled": true,
       "ok": true,
-      "count": 8,
+      "count": 7,
       "error": ""
     },
     {
@@ -153,48 +153,66 @@
   "ranked_keywords": [
     {
       "keyword": "bitcoin",
-      "score": 44,
-      "source_count": 3,
+      "score": 51,
+      "source_count": 4,
       "sources": [
         "CoinDesk RSS",
         "Cointelegraph",
+        "Financial Times Home",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
+        "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
         "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
         "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
         "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
-        "The crypto industry has found new ways to grow. Making money from them is another story",
-        "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty"
+        "The crypto industry has found new ways to grow. Making money from them is another story"
       ]
     },
     {
       "keyword": "fomc",
-      "score": 20,
-      "source_count": 1,
+      "score": 23,
+      "source_count": 2,
       "sources": [
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting"
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+        "Fed policymakers consider rate hike after strong jobs report - Reuters"
+      ]
+    },
+    {
+      "keyword": "us_big_tech",
+      "score": 14,
+      "source_count": 3,
+      "sources": [
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Google Trends KR"
+      ],
+      "sample_titles": [
+        "tesla",
+        "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
+        "Apple saves $2.7bn in taxes by booking profits in Singapore"
       ]
     },
     {
       "keyword": "us_index_flow",
-      "score": 12,
+      "score": 13,
       "source_count": 4,
       "sources": [
+        "CNBC Top News",
         "CoinDesk RSS",
-        "Financial Times Home",
-        "MarketWatch Breaking News",
+        "Financial Times World",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-        "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
-        "Nasdaq rebounds but posts fourth straight weekly decline - Reuters",
-        "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives."
+        "Berkshire shares surge as Wall Street swoons amid AI fears",
+        "COMMENTARY: US stocks always rise after midterms. Is this time different? - Reuters",
+        "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy"
       ]
     },
     {
@@ -204,7 +222,7 @@
       "sources": [
         "CNBC Top News",
         "Cointelegraph",
-        "Financial Times Home",
+        "Financial Times World",
         "NYT Business"
       ],
       "sample_titles": [
@@ -212,21 +230,6 @@
         "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
         "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
         "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties"
-      ]
-    },
-    {
-      "keyword": "cpi",
-      "score": 9,
-      "source_count": 3,
-      "sources": [
-        "CoinDesk RSS",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-        "Trader angst pivots from inflation to growth as tech rout deepens - Reuters",
-        "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be."
       ]
     },
     {
@@ -243,57 +246,54 @@
       ]
     },
     {
-      "keyword": "crypto_etf",
-      "score": 7,
-      "source_count": 2,
-      "sources": [
-        "CoinDesk RSS",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
-        "Bitcoin rebounds to $76,000, but $1.3 billion ETF exodus tests recovery"
-      ]
-    },
-    {
-      "keyword": "china",
-      "score": 6,
-      "source_count": 1,
-      "sources": [
-        "Financial Times Home"
-      ],
-      "sample_titles": [
-        "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
-        "Trump’s defeat heralds a US retreat"
-      ]
-    },
-    {
-      "keyword": "us_big_tech",
+      "keyword": "cpi",
       "score": 4,
       "source_count": 1,
       "sources": [
         "CoinDesk RSS"
       ],
       "sample_titles": [
-        "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch"
+        "U.S. added 165,000 jobs in October, blowing past 65,000 estimate"
+      ]
+    },
+    {
+      "keyword": "crypto_etf",
+      "score": 3,
+      "source_count": 1,
+      "sources": [
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": [
+        "Bitcoin rebounds to $76,000, but $1.3 billion ETF exodus tests recovery"
+      ]
+    },
+    {
+      "keyword": "china",
+      "score": 3,
+      "source_count": 1,
+      "sources": [
+        "Financial Times World"
+      ],
+      "sample_titles": [
+        "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy"
       ]
     }
   ],
   "topic_candidates": [
     {
       "keyword": "bitcoin",
-      "score": 44,
-      "headline_count": 13,
+      "score": 51,
+      "headline_count": 15,
       "sample_titles": [
+        "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
         "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
-        "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
-        "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch"
+        "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets"
       ]
     },
     {
       "keyword": "fomc",
-      "score": 20,
-      "headline_count": 4,
+      "score": 23,
+      "headline_count": 5,
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve issues FOMC statement",
@@ -301,13 +301,23 @@
       ]
     },
     {
+      "keyword": "us_big_tech",
+      "score": 14,
+      "headline_count": 3,
+      "sample_titles": [
+        "tesla",
+        "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
+        "Apple saves $2.7bn in taxes by booking profits in Singapore"
+      ]
+    },
+    {
       "keyword": "us_index_flow",
-      "score": 12,
+      "score": 13,
       "headline_count": 4,
       "sample_titles": [
         "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-        "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
-        "Nasdaq rebounds but posts fourth straight weekly decline - Reuters"
+        "Berkshire shares surge as Wall Street swoons amid AI fears",
+        "COMMENTARY: US stocks always rise after midterms. Is this time different? - Reuters"
       ]
     },
     {
@@ -321,25 +331,6 @@
       ]
     },
     {
-      "keyword": "cpi",
-      "score": 9,
-      "headline_count": 3,
-      "sample_titles": [
-        "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-        "Trader angst pivots from inflation to growth as tech rout deepens - Reuters",
-        "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be."
-      ]
-    },
-    {
-      "keyword": "crypto_etf",
-      "score": 7,
-      "headline_count": 2,
-      "sample_titles": [
-        "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
-        "Bitcoin rebounds to $76,000, but $1.3 billion ETF exodus tests recovery"
-      ]
-    },
-    {
       "keyword": "treasury_yields",
       "score": 7,
       "headline_count": 2,
@@ -349,101 +340,36 @@
       ]
     },
     {
-      "keyword": "china",
-      "score": 6,
-      "headline_count": 2,
-      "sample_titles": [
-        "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
-        "Trump’s defeat heralds a US retreat"
-      ]
-    },
-    {
-      "keyword": "us_big_tech",
+      "keyword": "cpi",
       "score": 4,
       "headline_count": 1,
       "sample_titles": [
-        "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch"
+        "U.S. added 165,000 jobs in October, blowing past 65,000 estimate"
+      ]
+    },
+    {
+      "keyword": "china",
+      "score": 3,
+      "headline_count": 1,
+      "sample_titles": [
+        "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy"
+      ]
+    },
+    {
+      "keyword": "crypto_etf",
+      "score": 3,
+      "headline_count": 1,
+      "sample_titles": [
+        "Bitcoin rebounds to $76,000, but $1.3 billion ETF exodus tests recovery"
       ]
     }
   ],
   "naver_datalab": null,
   "items": [
     {
-      "title": "일본 지진",
+      "title": "과태료",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 7 Nov 2026 08:00:00 -0800",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "이천수",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 7 Nov 2026 07:30:00 -0800",
-      "description": "",
-      "approx_traffic": "100+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "복권",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 7 Nov 2026 07:20:00 -0800",
-      "description": "",
-      "approx_traffic": "5000+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "mainz vs bayern",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 7 Nov 2026 07:10:00 -0800",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "김성우",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 7 Nov 2026 06:50:00 -0800",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "nepal premier league",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 7 Nov 2026 06:50:00 -0800",
-      "description": "",
-      "approx_traffic": "100+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "버밍엄 대 스완지 시티",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 7 Nov 2026 06:30:00 -0800",
+      "published": "Sat, 7 Nov 2026 20:20:00 -0800",
       "description": "",
       "approx_traffic": "500+",
       "source_id": "google_trends_kr",
@@ -453,11 +379,11 @@
       "source_weight": 5
     },
     {
-      "title": "arsenal vs hull",
+      "title": "인천광역시",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sat, 7 Nov 2026 06:20:00 -0800",
+      "published": "Sat, 7 Nov 2026 20:20:00 -0800",
       "description": "",
-      "approx_traffic": "500+",
+      "approx_traffic": "200+",
       "source_id": "google_trends_kr",
       "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
@@ -465,21 +391,81 @@
       "source_weight": 5
     },
     {
-      "title": "richard lloyd",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 7 Nov 2026 09:20:00 -0800",
+      "title": "의정부시",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sat, 7 Nov 2026 20:20:00 -0800",
+      "description": "",
+      "approx_traffic": "100+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "fc 서울 대 울산",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sat, 7 Nov 2026 20:10:00 -0800",
       "description": "",
       "approx_traffic": "2000+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
       "source_type": "rss",
       "source_weight": 5
     },
     {
-      "title": "morgan scalley",
+      "title": "시즈오카현",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sat, 7 Nov 2026 20:10:00 -0800",
+      "description": "",
+      "approx_traffic": "2000+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "초등학교",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sat, 7 Nov 2026 20:10:00 -0800",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "김재원",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sat, 7 Nov 2026 20:10:00 -0800",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "tesla",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Sat, 7 Nov 2026 20:00:00 -0800",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "tabla general liga mx",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 7 Nov 2026 09:20:00 -0800",
+      "published": "Sat, 7 Nov 2026 21:10:00 -0800",
       "description": "",
       "approx_traffic": "200+",
       "source_id": "google_trends_us",
@@ -489,9 +475,9 @@
       "source_weight": 5
     },
     {
-      "title": "morgan state vs del state",
+      "title": "west seattle blog",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 7 Nov 2026 09:20:00 -0800",
+      "published": "Sat, 7 Nov 2026 21:10:00 -0800",
       "description": "",
       "approx_traffic": "200+",
       "source_id": "google_trends_us",
@@ -501,9 +487,9 @@
       "source_weight": 5
     },
     {
-      "title": "erika kirk",
+      "title": "sienna miller",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 7 Nov 2026 09:20:00 -0800",
+      "published": "Sat, 7 Nov 2026 21:10:00 -0800",
       "description": "",
       "approx_traffic": "200+",
       "source_id": "google_trends_us",
@@ -513,47 +499,59 @@
       "source_weight": 5
     },
     {
-      "title": "blues vs predators",
+      "title": "snl cast",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 7 Nov 2026 09:10:00 -0800",
-      "description": "",
-      "approx_traffic": "1000+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "old dominion vs coastal carolina",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 7 Nov 2026 09:10:00 -0800",
-      "description": "",
-      "approx_traffic": "1000+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "austin simmons",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 7 Nov 2026 09:10:00 -0800",
-      "description": "",
-      "approx_traffic": "1000+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "randy orton",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sat, 7 Nov 2026 09:10:00 -0800",
+      "published": "Sat, 7 Nov 2026 21:00:00 -0800",
       "description": "",
       "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "power outage",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sat, 7 Nov 2026 21:00:00 -0800",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "audric estime",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sat, 7 Nov 2026 21:00:00 -0800",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "ac boise",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sat, 7 Nov 2026 21:00:00 -0800",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "john mulaney",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Sat, 7 Nov 2026 20:50:00 -0800",
+      "description": "",
+      "approx_traffic": "1000+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -657,6 +655,18 @@
       "source_weight": 5
     },
     {
+      "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
+      "link": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
+      "published": "Sat, 07 Nov 2026 19:13:16 +0000",
+      "description": "Affected accounts are reportedly set to close on Dec. 31. Users in Spain, France, and Poland say they've received similar notices.",
+      "approx_traffic": "",
+      "source_id": "coindesk_rss",
+      "source_name": "CoinDesk RSS",
+      "source_category": "crypto_media",
+      "source_type": "rss",
+      "source_weight": 4
+    },
+    {
       "title": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
       "link": "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
       "published": "Sat, 07 Nov 2026 17:36:46 +0000",
@@ -733,18 +743,6 @@
       "link": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate",
       "published": "Fri, 06 Nov 2026 13:31:54 +0000",
       "description": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
-      "approx_traffic": "",
-      "source_id": "coindesk_rss",
-      "source_name": "CoinDesk RSS",
-      "source_category": "crypto_media",
-      "source_type": "rss",
-      "source_weight": 4
-    },
-    {
-      "title": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
-      "published": "Fri, 06 Nov 2026 12:30:00 +0000",
-      "description": "Your day-ahead look for Nov. 6, 2026",
       "approx_traffic": "",
       "source_id": "coindesk_rss",
       "source_name": "CoinDesk RSS",
@@ -849,30 +847,6 @@
       "source_weight": 3
     },
     {
-      "title": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
-      "link": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
-      "published": "Sat, 07 Nov 2026 15:23:46 GMT",
-      "description": "Berkshire Hathaway said Saturday it accelerated its share repurchases during the third quarter, as operating and overall profits took a hit.",
-      "approx_traffic": "",
-      "source_id": "cnbc_top_news",
-      "source_name": "CNBC Top News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Risk of Iran war escalation remains high despite Democratic sweep in U.S. midterm elections",
-      "link": "https://www.cnbc.com/2026/11/07/iran-war-midterm-election-oil-price-trump.html",
-      "published": "Sat, 07 Nov 2026 13:03:12 GMT",
-      "description": "The U.S. and Iran are on a collision course as tensions in the Middle East simmer.",
-      "approx_traffic": "",
-      "source_id": "cnbc_top_news",
-      "source_name": "CNBC Top News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
       "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
       "link": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
       "published": "Sat, 07 Nov 2026 13:00:01 GMT",
@@ -885,10 +859,46 @@
       "source_weight": 3
     },
     {
-      "title": "Trump says U.S. carried out ‘minor strikes’ on Iran as missiles hit Qeshm Island",
-      "link": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
-      "published": "Sat, 07 Nov 2026 07:37:36 GMT",
-      "description": "Trump said the U.S. carried out ‘minor strikes’ on Iran after Iranian media reported two missiles hit Qeshm Island near the Strait of Hormuz.",
+      "title": "Trump offers UFC chief Dana White press secretary job",
+      "link": "https://www.cnbc.com/2026/11/07/trump-ufc-dana-white-press-secretary-offer.html",
+      "published": "Sat, 07 Nov 2026 23:13:38 GMT",
+      "description": "President Donald Trump offered the job of press secretary to UFC president and CEO Dana White on Saturday.",
+      "approx_traffic": "",
+      "source_id": "cnbc_top_news",
+      "source_name": "CNBC Top News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Risk of Iran war escalation remains high despite Democratic sweep in U.S. midterm elections",
+      "link": "https://www.cnbc.com/2026/11/07/iran-war-midterm-election-oil-price-trump.html",
+      "published": "Sat, 07 Nov 2026 22:17:52 GMT",
+      "description": "The U.S. and Iran are on a collision course as tensions in the Middle East simmer.",
+      "approx_traffic": "",
+      "source_id": "cnbc_top_news",
+      "source_name": "CNBC Top News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
+      "link": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
+      "published": "Sat, 07 Nov 2026 15:23:46 GMT",
+      "description": "Berkshire Hathaway said Saturday it accelerated its share repurchases during the third quarter, as operating and overall profits took a hit.",
+      "approx_traffic": "",
+      "source_id": "cnbc_top_news",
+      "source_name": "CNBC Top News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
+      "link": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html",
+      "published": "Sat, 07 Nov 2026 21:59:10 GMT",
+      "description": "Trump ordered DOJ to examine alleged threats against Republicans while singling out Slotkin.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -909,10 +919,10 @@
       "source_weight": 3
     },
     {
-      "title": "Will this week's blue wave election usher in a Democratic president in 2028?",
-      "link": "https://www.cnbc.com/2026/11/07/2026-midterm-election-blue-wave-2028-president.html",
-      "published": "Sat, 07 Nov 2026 14:00:01 GMT",
-      "description": "A CNBC analysis of historical election data finds wave elections don't necessarily spell trouble for the party in power during the next presidential year.",
+      "title": "Berkshire shares surge as Wall Street swoons amid AI fears",
+      "link": "https://www.cnbc.com/2026/11/07/berkshire-shares-surge-as-wall-street-swoons-amid-ai-fears.html",
+      "published": "Sat, 07 Nov 2026 14:06:20 GMT",
+      "description": "Berkshire Hathaway shares roared past the S&P 500 index this week and are outperforming the benchmark for the year-to-date.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -921,22 +931,10 @@
       "source_weight": 3
     },
     {
-      "title": "Why the prognosis for healthcare stocks is uncertain ahead of Congress’ new makeup",
-      "link": "https://www.cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html",
-      "published": "Sat, 07 Nov 2026 16:02:33 GMT",
-      "description": "Healthcare stocks may struggle to find momentum as the Democrats get ready to take over Congress.",
-      "approx_traffic": "",
-      "source_id": "cnbc_top_news",
-      "source_name": "CNBC Top News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "What midterm election blue wave rebuke of Trump means for renewable energy",
-      "link": "https://www.cnbc.com/2026/11/07/midterm-election-blue-wave-trump-renewable-energy.html",
-      "published": "Sat, 07 Nov 2026 14:33:32 GMT",
-      "description": "The conservative war on renewable energy suffered a big loss in the rout of President Trump and the GOP in midterm elections. Investors should pay attention.",
+      "title": "Trump says U.S. carried out ‘minor strikes’ on Iran as missiles hit Qeshm Island",
+      "link": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
+      "published": "Sat, 07 Nov 2026 07:37:36 GMT",
+      "description": "Trump said the U.S. carried out ‘minor strikes’ on Iran after Iranian media reported two missiles hit Qeshm Island near the Strait of Hormuz.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -1041,10 +1039,10 @@
       "source_weight": 3
     },
     {
-      "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
-      "link": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
-      "published": "Sat, 07 Nov 2026 02:33:26 GMT",
-      "description": "American intelligence warned the tech boss was involved with executive recruited by China to gather information on US group",
+      "title": "Crypto industry braces for reckoning over Trump ties",
+      "link": "https://www.ft.com/content/f1b98a61-4103-447c-bb9a-3dccc0819f61?syn-25a6b1a6=1",
+      "published": "Sun, 08 Nov 2026 05:00:19 GMT",
+      "description": "Democrats have vowed to start investigation into president’s family after sweeping victory in midterms",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1053,10 +1051,10 @@
       "source_weight": 3
     },
     {
-      "title": "Trump’s defeat heralds a US retreat",
-      "link": "https://www.ft.com/content/f80ff605-6f6e-4b5d-9fab-20276b78e9b7?syn-25a6b1a6=1",
-      "published": "Sat, 07 Nov 2026 05:00:34 GMT",
-      "description": "American retrenchment could change Middle East balance of power and signify opportunities for China",
+      "title": "‘Radical left’ get the headlines but centrists dominate new US Congress",
+      "link": "https://www.ft.com/content/c8692ed7-f32b-487f-9efa-3ccd3d144f42?syn-25a6b1a6=1",
+      "published": "Sun, 08 Nov 2026 05:00:19 GMT",
+      "description": "Most of the Democrats who swept to power in the midterms blue wave are moderates",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1065,10 +1063,10 @@
       "source_weight": 3
     },
     {
-      "title": "The mother of all American course corrections",
-      "link": "https://www.ft.com/content/452cf328-c819-482e-8f2c-61b65c96f8ce?syn-25a6b1a6=1",
-      "published": "Sat, 07 Nov 2026 05:00:33 GMT",
-      "description": "US midterms are the latest confirmation that reports of the death of liberal democracy have been much exaggerated",
+      "title": "Is Europe getting serious about ending tech dependence?",
+      "link": "https://www.ft.com/content/bd763f67-4c23-4e55-8fbf-3ca0ed520175?syn-25a6b1a6=1",
+      "published": "Sun, 08 Nov 2026 05:00:19 GMT",
+      "description": "Brussels is moving in the right direction but could push national governments further",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1077,10 +1075,10 @@
       "source_weight": 3
     },
     {
-      "title": "Gillian Tett: Why does America hate AI?",
-      "link": "https://www.ft.com/content/af97585a-3381-42a9-838b-9a205ab81232?syn-25a6b1a6=1",
-      "published": "Sat, 07 Nov 2026 05:00:13 GMT",
-      "description": "Voter hostility to Big Tech helped shape the US midterms, and similar fears are spreading through the west. But look east and attitudes are dramatically more optimistic",
+      "title": "America is craving a return to community",
+      "link": "https://www.ft.com/content/2a0bc83c-1c48-451a-a2b6-3371a36fc287?syn-25a6b1a6=1",
+      "published": "Sun, 08 Nov 2026 05:00:19 GMT",
+      "description": "The midterms are only the latest sign of hope",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1089,10 +1087,10 @@
       "source_weight": 3
     },
     {
-      "title": "Berkshire Hathaway steps up share buybacks with $9.6bn of purchases",
-      "link": "https://www.ft.com/content/1f153350-2377-4e48-a073-0539376eab4c?syn-25a6b1a6=1",
-      "published": "Sat, 07 Nov 2026 16:43:06 GMT",
-      "description": "Insurance slowdown drags on performance, with quarterly operating income falling by 5.8 per cent year-on-year",
+      "title": "Israel’s president gives Gadi Eisenkot first chance at forming a government",
+      "link": "https://www.ft.com/content/bf737648-b974-4f87-ba0b-958f2aff1163?syn-25a6b1a6=1",
+      "published": "Sat, 07 Nov 2026 21:03:47 GMT",
+      "description": "Isaac Herzog’s decision means opposition politician has 28 days to attempt to put together a ruling coalition",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1101,10 +1099,10 @@
       "source_weight": 3
     },
     {
-      "title": "How Wall Street’s all-in bet on AI blew up",
-      "link": "https://www.ft.com/content/5a6806f0-e82e-4b34-b761-f9877e2b511c?syn-25a6b1a6=1",
-      "published": "Sat, 07 Nov 2026 05:00:31 GMT",
-      "description": "US midterm elections sparked a hedge fund and retail investor exodus from a trade that had taken over equity markets",
+      "title": "Apple saves $2.7bn in taxes by booking profits in Singapore",
+      "link": "https://www.ft.com/content/49453406-99f2-4f5b-8f5d-01dc8cac5ede?syn-25a6b1a6=1",
+      "published": "Sun, 08 Nov 2026 05:00:11 GMT",
+      "description": "City-state overtakes Ireland as iPhone maker’s biggest tax shelter according to new disclosures",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1113,22 +1111,10 @@
       "source_weight": 3
     },
     {
-      "title": "What will a Democratic Congress mean for Ukraine?",
-      "link": "https://www.ft.com/content/fac3a560-7845-4acf-9487-54ec8a445d74?syn-25a6b1a6=1",
-      "published": "Sat, 07 Nov 2026 12:00:04 GMT",
-      "description": "With Donald Trump retaining control of foreign policy, lawmakers will use legislative tools to try to support Kyiv",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "A bittersweet year for liberals",
-      "link": "https://www.ft.com/content/3370e949-4a32-4a2d-8738-2f1cde6a35ea?syn-25a6b1a6=1",
-      "published": "Sat, 07 Nov 2026 05:00:22 GMT",
-      "description": "The lesson of 2026 is that people can forgive election subversion, Kremlin support — but not high prices",
+      "title": "Gunman kills six in Kraków shooting",
+      "link": "https://www.ft.com/content/0fab9ede-4fa1-4f94-b23e-e32f07a6b7df?syn-25a6b1a6=1",
+      "published": "Sat, 07 Nov 2026 22:00:14 GMT",
+      "description": "Poland’s Prime Minister Donald Tusk called on politicians not to exploit the incident",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1149,54 +1135,6 @@
       "source_weight": 3
     },
     {
-      "title": "Four things to note from Friday's US jobs report - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcl9IZFVuS00zSjQyMTVpYjM4TldkamZJUDF5LWlKWkQ3NFE4VWtXbmFrVVhORkdKckRRcXU4cU5HQW5HQkF6NDNEYXJoXzR5eEFGV25aS1o4ZUlQQkwwRHV5M2ZSTVVTZG0zZnN2VUdyN1UwcnhtUC1HeERRQTBZVGlXNVhUUWUtWmFxWg?oc=5",
-      "published": "Fri, 06 Nov 2026 19:21:00 GMT",
-      "description": "Four things to note from Friday's US jobs report &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1% - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPakNLaDVCMElHQkc5cjV5SmVJcFNPdVpMbnZHRmVFMkoxR3hhbERYTnBZcUlmQVZBanhMeVhEZHpsN3JxM0xrUHNsYVZPWW1EdXBWam1pNk5lSEZVNHkwcUV1VG9xbmVYek80a3JXelRIcW9fQjQ3TUljTUdpZkhYWUJaZHhxNTUybWQwME81bUtPTmJ4UUg4ZjVrZjVlLUx2azFkWjhmeThDWkp2MHJwdTVR?oc=5",
-      "published": "Fri, 06 Nov 2026 22:04:06 GMT",
-      "description": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1% &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Trader angst pivots from inflation to growth as tech rout deepens - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYm13UzNKRG9XaWdpdHV5SGo2UHJKSFlrRW5NUXVNR21LcnpYM01JaHZvY2dTVnN4aTZIbnYxMjI1RUdDWmN6UjBaZTNOdFVNWnpPOTNtWlQ0c2RCMlFDY0VKX0lUZ0JUZHRtSVlHb2k1VENabjhMWkdncTBBUTQyaHMtWGVpaUlZcEFqVzZaVnJId2pJXzdpcm9QaU93QkRhYlZ5eFZQUFZlYmpnREhMUXU1cnE0Zw?oc=5",
-      "published": "Fri, 06 Nov 2026 15:33:52 GMT",
-      "description": "Trader angst pivots from inflation to growth as tech rout deepens &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Nasdaq rebounds but posts fourth straight weekly decline - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQang5czlMS1c0LVRiTWdNdXItcDlKcTgyOXplSVVGRHljMGVrVG1KVGJTclR0TmtjWjFob0t1QWh6OTdkNzltaDJhTi1fdUdkM2tOb01JaVVlaVRWcWVTdkZFbmdBYlgxY2ktWVh6eFdZRVczekVTdFRCSWtOSzBGVnNCWHpFNFFXWFE2WDVQUjFCa19tbUhzNzdlNksyNFBqek4tcXdrcjVIVTQxMkE?oc=5",
-      "published": "Fri, 06 Nov 2026 09:41:00 GMT",
-      "description": "Nasdaq rebounds but posts fourth straight weekly decline &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
       "title": "Tech selloff wipes out hedge fund gains, prompting risk cuts and layoffs - Reuters",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMlRzQUpxeXE0WUdkVERWLW1QM1AxWDhXM1l3Vld6RG1ZQnZGLW56REV5U1JLREVGSExIQW4yTnE4OWI1QU5pVjgtVzZfUXZSaEEwekQxUWpPQ2hzX1ZKYjNlNnItSFBBNlBSTWpKSDBMTzZObTUyTlo3bmZFcW1HTmU3MkNlcEwxdEw5OENXaVNEN25KVloxYl9JTmptVjI3Ry1ZTGtWdU5xTjBvQnprbEFjYmZjdw?oc=5",
       "published": "Fri, 06 Nov 2026 12:51:35 GMT",
@@ -1209,10 +1147,10 @@
       "source_weight": 3
     },
     {
-      "title": "Why Gen Z is turning to prediction markets for a financial edge - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTlAyNm1YQWdJa3dkeTlZS01IZmJFVUZmYWZnYVN2TFFpTF9mQmh1OGlwMGI1ZWV2Q05tSE5fbjRTWnAzMVVZSkRoZ0VXekF2U2M1TXpnVHByenMtQS1VRF8ycUE2a2FxRFh3WC00VEhmNnUwcTBDWGktaGZVc2M2ZERLdmVUSEQ4RUdIb0RGTThkM28xMUF0UF8wTEhMQ0lxd1BFM1ExcWIxclVuNG1HVw?oc=5",
-      "published": "Thu, 05 Nov 2026 11:46:05 GMT",
-      "description": "Why Gen Z is turning to prediction markets for a financial edge &nbsp;&nbsp; Reuters",
+      "title": "Four things to note from Friday's US jobs report - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcl9IZFVuS00zSjQyMTVpYjM4TldkamZJUDF5LWlKWkQ3NFE4VWtXbmFrVVhORkdKckRRcXU4cU5HQW5HQkF6NDNEYXJoXzR5eEFGV25aS1o4ZUlQQkwwRHV5M2ZSTVVTZG0zZnN2VUdyN1UwcnhtUC1HeERRQTBZVGlXNVhUUWUtWmFxWg?oc=5",
+      "published": "Fri, 06 Nov 2026 19:21:00 GMT",
+      "description": "Four things to note from Friday's US jobs report &nbsp;&nbsp; Reuters",
       "approx_traffic": "",
       "source_id": "reuters_markets_google_news",
       "source_name": "Reuters Markets via Google News RSS",
@@ -1233,9 +1171,78 @@
       "source_weight": 3
     },
     {
+      "title": "COMMENTARY: US stocks always rise after midterms. Is this time different? - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOUUxZDUzd0xuR1o2YW11a0Nqcy0yZUtiMzlNU1VsRWIxMDVubDNLZHh6MWUwT1NDYnVwajFLdVMxdEs4RGlRdmlGR29DbjQ1MGJ3LURkN3BIUFZvNV9UVVI0OThfYWUyMFVqdkRNUTBXQkVpeWNqNGdza0hIWFZrTWVYZTNUS2o4VmJhMkVwXzlkWEUxNE03OWZIdEdpTzl2d0hReXpXbGM4Mk9qSHZJNnBXejU4Y0Q2d3IwbUVmMTJ5bGs2YURn?oc=5",
+      "published": "Sat, 07 Nov 2026 06:01:00 GMT",
+      "description": "COMMENTARY: US stocks always rise after midterms. Is this time different? &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "IMF's Georgieva says any slowdown in AI-driven growth would be factor for central banks - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLVpUdVhKa3ZpUXBuSDdMV0tXM3JyVDFhWmpjOU95Mld1cWlMeGhPSmJ3Ym5WeHVQSkpLLW5iQngzVUVyeHg5Y19ucWF0SUpVNkxUOU5DNTFYN0dBN2hGWi1DVDNUQU9xMEtIVFlQSG1FSlU1NEUxeV9FeUNyV05CMXRVU3V3MmdSVFBEc2pjbE9WMFN3ZU1PS252VXVHemM5YkpmeFd4OVpFZ3pIZnN4TlpILWZfckU3R3VqTGs4RE84dw?oc=5",
+      "published": "Fri, 06 Nov 2026 23:53:47 GMT",
+      "description": "IMF's Georgieva says any slowdown in AI-driven growth would be factor for central banks &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1% - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPakNLaDVCMElHQkc5cjV5SmVJcFNPdVpMbnZHRmVFMkoxR3hhbERYTnBZcUlmQVZBanhMeVhEZHpsN3JxM0xrUHNsYVZPWW1EdXBWam1pNk5lSEZVNHkwcUV1VG9xbmVYek80a3JXelRIcW9fQjQ3TUljTUdpZkhYWUJaZHhxNTUybWQwME81bUtPTmJ4UUg4ZjVrZjVlLUx2azFkWjhmeThDWkp2MHJwdTVR?oc=5",
+      "published": "Fri, 06 Nov 2026 22:04:06 GMT",
+      "description": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1% &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Fed policymakers consider rate hike after strong jobs report - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMF93ekZ4N2wtdW4zX1llS2FoZWpNVlhMLTRNOGVJTUktZmpLQUNBSzY2bW16Mm9mb3lrZERqNFZ6WkRmYkhBTG00Z2k2NFYyNTVLcmVBSkV5eVJRU1RwZFc5blM4MkRmcUxYU2hadXRWbVh0VXpjektqM1BGS3ZlZlNMeW43VWxmeE5TQm13d0E3bTVwUnp5dzFFNA?oc=5",
+      "published": "Fri, 06 Nov 2026 20:58:34 GMT",
+      "description": "Fed policymakers consider rate hike after strong jobs report &nbsp;&nbsp; Reuters",
+      "approx_traffic": "",
+      "source_id": "reuters_markets_google_news",
+      "source_name": "Reuters Markets via Google News RSS",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "1. So, Who is the Real Antichrist? (Sunday School: Antichrist)",
+      "link": "https://www.youtube.com/watch?v=XxMusb9k4yI",
+      "published": "28K",
+      "description": "",
+      "approx_traffic": "",
+      "video_id": "XxMusb9k4yI",
+      "transcript_available": false,
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=XxMusb9k4yI! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_language": "",
+      "transcript_language_code": "",
+      "transcript_is_generated": false,
+      "transcript_mode": "",
+      "transcript_excerpt": "",
+      "transcript_digest_points": [],
+      "source_id": "trade_king_youtube",
+      "source_name": "무역킹 Trade King YouTube",
+      "source_category": "youtube_macro",
+      "source_type": "youtube_channel",
+      "source_weight": 3
+    },
+    {
       "title": "3. Could a Democratic win actually be poison? Peter Thiel's warning (U.S. midterm elections)",
       "link": "https://www.youtube.com/watch?v=vbZ27vtQDVs",
-      "published": "60K",
+      "published": "67K",
       "description": "",
       "approx_traffic": "",
       "video_id": "vbZ27vtQDVs",
@@ -1256,7 +1263,7 @@
     {
       "title": "If Your Choices Determine the Outcome",
       "link": "https://www.youtube.com/watch?v=NdOavA9o4UQ",
-      "published": "4.8K",
+      "published": "5K",
       "description": "",
       "approx_traffic": "",
       "video_id": "NdOavA9o4UQ",
@@ -1275,30 +1282,9 @@
       "source_weight": 3
     },
     {
-      "title": "1. So, Who is the Real Antichrist? (Sunday School: Antichrist)",
-      "link": "https://www.youtube.com/watch?v=XxMusb9k4yI",
-      "published": "1d ago",
-      "description": "",
-      "approx_traffic": "",
-      "video_id": "XxMusb9k4yI",
-      "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=XxMusb9k4yI! This is most likely caused by:\n\nThe video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
-      "transcript_language": "",
-      "transcript_language_code": "",
-      "transcript_is_generated": false,
-      "transcript_mode": "",
-      "transcript_excerpt": "",
-      "transcript_digest_points": [],
-      "source_id": "trade_king_youtube",
-      "source_name": "무역킹 Trade King YouTube",
-      "source_category": "youtube_macro",
-      "source_type": "youtube_channel",
-      "source_weight": 3
-    },
-    {
       "title": "2. A Crack in MAGA? Vance Drawing a Line? (US Midterm Elections)",
       "link": "https://www.youtube.com/watch?v=VLGTjOFeQpg",
-      "published": "53K",
+      "published": "55K",
       "description": "",
       "approx_traffic": "",
       "video_id": "VLGTjOFeQpg",
@@ -1319,7 +1305,7 @@
     {
       "title": "The Real Reason Democrats Won (US Midterm Elections)",
       "link": "https://www.youtube.com/watch?v=kAB1AtZI0bI",
-      "published": "120K",
+      "published": "125K",
       "description": "",
       "approx_traffic": "",
       "video_id": "kAB1AtZI0bI",
@@ -1361,7 +1347,7 @@
     {
       "title": "A Coup in Poland? The President Turned the Plane Around",
       "link": "https://www.youtube.com/watch?v=gz841tCItvw",
-      "published": "53K",
+      "published": "54K",
       "description": "",
       "approx_traffic": "",
       "video_id": "gz841tCItvw",
@@ -1401,6 +1387,66 @@
       "source_weight": 3
     },
     {
+      "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
+      "link": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
+      "published": "Sat, 07 Nov 2026 20:48:00 GMT",
+      "description": "His niece convinced him to spend his retirement analyzing Taylor Swift lyrics. Now he’s a successful podcaster at 72.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Second-guessing my adviser: Is an annuity the right move in this market?",
+      "link": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
+      "published": "Sat, 07 Nov 2026 20:36:00 GMT",
+      "description": "“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Here are the 2027 capital-gains tax rates for each income level",
+      "link": "https://www.marketwatch.com/story/here-are-the-2027-capital-gains-tax-rates-for-each-income-level-166fc306?mod=mw_rss_topstories",
+      "published": "Sat, 07 Nov 2026 19:48:00 GMT",
+      "description": "How much will you pay in capital-gains taxes next year? The IRS just released this crucial information.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you.",
+      "link": "https://www.marketwatch.com/story/medicare-prescription-drug-costs-will-jump-50-in-2027-doing-nothing-could-cost-you-b701dfb7?mod=mw_rss_topstories",
+      "published": "Sat, 07 Nov 2026 19:20:00 GMT",
+      "description": "Don’t sit on the sidelines during open enrollment.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
+      "title": "Democrats’ big election win revives a difficult Social Security question: Who pays?",
+      "link": "https://www.marketwatch.com/story/democrats-big-election-win-revives-a-difficult-social-security-question-who-pays-17ba9448?mod=mw_rss_topstories",
+      "published": "Sat, 07 Nov 2026 17:43:00 GMT",
+      "description": "There are many ideas for saving Social Security. All of them will hurt.",
+      "approx_traffic": "",
+      "source_id": "marketwatch_breaking_news",
+      "source_name": "MarketWatch Breaking News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 2
+    },
+    {
       "title": "I’m 65 and worth more than $5.6 million. Can I afford a $200,000 camper?",
       "link": "https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories",
       "published": "Sat, 07 Nov 2026 17:33:00 GMT",
@@ -1437,69 +1483,9 @@
       "source_weight": 2
     },
     {
-      "title": "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
-      "link": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
-      "published": "Sat, 07 Nov 2026 16:40:00 GMT",
-      "description": "The large-cap index is nowhere near as diversified as you think.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
-      "link": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
-      "published": "Sat, 07 Nov 2026 16:30:00 GMT",
-      "description": "The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "I attend free meals hosted by people promoting annuities. I’ve no intention of buying any. Should I stop going?",
-      "link": "https://www.marketwatch.com/story/its-good-to-be-old-ive-been-invited-to-a-dozen-free-meals-that-turn-into-annuity-sales-pitches-should-i-stop-going-63df67ca?mod=mw_rss_topstories",
-      "published": "Sat, 07 Nov 2026 16:30:00 GMT",
-      "description": "“Salespeople typically push annuities, Medicare plans and estate-planning services.”",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "My 93-year-old father changed his will at the 11th hour, leaving my brother his entire $500,000 estate. Can I challenge it?",
-      "link": "https://www.marketwatch.com/story/my-93-year-old-father-changed-his-will-at-the-11th-hour-leaving-my-brother-his-entire-500-000-estate-can-i-challenge-it-ecfc63d2?mod=mw_rss_topstories",
-      "published": "Sat, 07 Nov 2026 16:00:00 GMT",
-      "description": "“My brother had no job and needed a place to live.”",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "You follow the rules for smart stock trading. But are they the right rules?",
-      "link": "https://www.marketwatch.com/story/you-follow-the-rules-for-smart-stock-trading-but-are-they-the-right-rules-9bfe5846?mod=mw_rss_topstories",
-      "published": "Sat, 07 Nov 2026 16:00:00 GMT",
-      "description": "Apply the wisdom of investment pros to develop your own consistent methodology.",
-      "approx_traffic": "",
-      "source_id": "marketwatch_breaking_news",
-      "source_name": "MarketWatch Breaking News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
       "title": "What next for the Democrats? | Martin Wolf on the US midterms | FT",
       "link": "https://www.youtube.com/watch?v=bMvLILBpuH8",
-      "published": "83K",
+      "published": "144K",
       "description": "",
       "approx_traffic": "",
       "video_id": "bMvLILBpuH8",
@@ -1520,7 +1506,7 @@
     {
       "title": "Why nuclear power could be key to colonising the moon | FT Rethink",
       "link": "https://www.youtube.com/watch?v=_d3nhkmuXz4",
-      "published": "6.5K",
+      "published": "6.9K",
       "description": "",
       "approx_traffic": "",
       "video_id": "_d3nhkmuXz4",
@@ -1562,7 +1548,7 @@
     {
       "title": "What’s the risk of political violence? | Martin Wolf on the US midterms | FT",
       "link": "https://www.youtube.com/watch?v=cG6iAcUZunA",
-      "published": "181K",
+      "published": "183K",
       "description": "",
       "approx_traffic": "",
       "video_id": "cG6iAcUZunA",
@@ -1583,7 +1569,7 @@
     {
       "title": "The infinite career - why we can't retire | FT Working It",
       "link": "https://www.youtube.com/watch?v=jNvyxJEtKx8",
-      "published": "184K",
+      "published": "186K",
       "description": "",
       "approx_traffic": "",
       "video_id": "jNvyxJEtKx8",
@@ -1604,7 +1590,7 @@
     {
       "title": "Can the world still trust America? | Martin Wolf on the US midterms | FT",
       "link": "https://www.youtube.com/watch?v=_t-8qel69PY",
-      "published": "312K",
+      "published": "313K",
       "description": "",
       "approx_traffic": "",
       "video_id": "_t-8qel69PY",
@@ -1625,7 +1611,7 @@
     {
       "title": "Is American democracy safe? | Martin Wolf on the US midterms",
       "link": "https://www.youtube.com/watch?v=cxU52hf4gq8",
-      "published": "325K",
+      "published": "326K",
       "description": "",
       "approx_traffic": "",
       "video_id": "cxU52hf4gq8",
@@ -1665,6 +1651,78 @@
       "source_weight": 2
     },
     {
+      "title": "Indonesian president’s adviser says MSCI downgrade threat ‘went too far’",
+      "link": "https://www.ft.com/content/32c04cee-3f49-4971-a72d-391ad52e8f58?syn-25a6b1a6=1",
+      "published": "Sun, 08 Nov 2026 01:32:03 GMT",
+      "description": "Tycoon and brother of President Prabowo Subianto says expulsion from global indices would have ‘serious consequences’",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Trump asks UFC boss Dana White to be new press secretary",
+      "link": "https://www.ft.com/content/52c3c7ac-f0ee-4b90-a2c8-68e76d120a79?syn-25a6b1a6=1",
+      "published": "Sun, 08 Nov 2026 01:23:57 GMT",
+      "description": "US president signals combative approach in wake of midterms drubbing of his party",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Gunman kills six in Kraków shooting",
+      "link": "https://www.ft.com/content/0fab9ede-4fa1-4f94-b23e-e32f07a6b7df?syn-25a6b1a6=1",
+      "published": "Sat, 07 Nov 2026 22:00:14 GMT",
+      "description": "Poland’s Prime Minister Donald Tusk called on politicians not to exploit the incident",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+      "link": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
+      "published": "Sat, 07 Nov 2026 21:41:05 GMT",
+      "description": "American intelligence warned the tech boss was involved with executive recruited by China to gather information on US group",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Israel’s president gives Gadi Eisenkot first chance at forming a government",
+      "link": "https://www.ft.com/content/bf737648-b974-4f87-ba0b-958f2aff1163?syn-25a6b1a6=1",
+      "published": "Sat, 07 Nov 2026 21:03:47 GMT",
+      "description": "Isaac Herzog’s decision means opposition politician has 28 days to attempt to put together a ruling coalition",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "French far-left presidential hopeful pledges ‘revolutionary’ remaking of society",
+      "link": "https://www.ft.com/content/5cb562ec-5493-4ff3-bd2d-99cc9cacfa73?syn-25a6b1a6=1",
+      "published": "Sat, 07 Nov 2026 17:42:41 GMT",
+      "description": "Jean-Luc Mélenchon stages show of force with 20,000-strong rally as widespread protests boost his momentum",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
       "title": "Berkshire Hathaway steps up share buybacks with $9.6bn of purchases",
       "link": "https://www.ft.com/content/1f153350-2377-4e48-a073-0539376eab4c?syn-25a6b1a6=1",
       "published": "Sat, 07 Nov 2026 16:43:06 GMT",
@@ -1677,7 +1735,7 @@
       "source_weight": 3
     },
     {
-      "title": "New Zealand’s National Party set to cling on to power",
+      "title": "New Zealand’s National Party takes narrow lead in tight poll",
       "link": "https://www.ft.com/content/76a2208d-62c8-46f7-bada-554201d78cf4?syn-25a6b1a6=1",
       "published": "Sat, 07 Nov 2026 12:06:11 GMT",
       "description": "Rightwing bloc projected to win enough seats to form a government",
@@ -1689,76 +1747,16 @@
       "source_weight": 3
     },
     {
-      "title": "US plan to overhaul air traffic control system like ‘changing a tyre at 70mph’",
-      "link": "https://www.ft.com/content/1cbee3e3-b4cf-4831-bd4e-ac1653c7c7c7?syn-25a6b1a6=1",
-      "published": "Sat, 07 Nov 2026 12:00:04 GMT",
-      "description": "Transport secretary’s $42.5bn project to squeeze decades of much-needed upgrades into three years could be risky, experts argue",
+      "title": "A ‘Legend of Zelda’ Game Is Reborn and ’90s Nostalgia Fans Are All In",
+      "link": "https://www.nytimes.com/2026/11/07/business/media/zelda-ocarina-of-time-remake-nintendo.html",
+      "published": "Sat, 07 Nov 2026 18:52:25 +0000",
+      "description": "Nintendo’s “Legend of Zelda: Ocarina of Time” was released in 1998. Now, its remake has some fans giddily reliving their childhoods.",
       "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
+      "source_id": "nyt_business_rss",
+      "source_name": "NYT Business",
       "source_category": "global_media",
       "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "What will a Democratic Congress mean for Ukraine?",
-      "link": "https://www.ft.com/content/fac3a560-7845-4acf-9487-54ec8a445d74?syn-25a6b1a6=1",
-      "published": "Sat, 07 Nov 2026 12:00:04 GMT",
-      "description": "With Donald Trump retaining control of foreign policy, lawmakers will use legislative tools to try to support Kyiv",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Data centres rebuked",
-      "link": "https://www.ft.com/content/9d40f40a-cbf2-46f5-b3d0-cee554e35298?syn-25a6b1a6=1",
-      "published": "Sat, 07 Nov 2026 10:30:03 GMT",
-      "description": "Capex, meet the electorate",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "UK will not slow down on AI despite backlash in US, says growth minister",
-      "link": "https://www.ft.com/content/47dba9d2-4c82-4e17-969d-f1728ef13a5a?syn-25a6b1a6=1",
-      "published": "Sat, 07 Nov 2026 05:00:41 GMT",
-      "description": "Dan Tomlinson asserts that pace of investment is ‘too low for what we need to stay at the forefront as AI technology develops’",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Burnham’s 10-year plan morphs into ‘high-level’ blueprint",
-      "link": "https://www.ft.com/content/8e34dba9-8ebc-4499-9274-f88d02ad691c?syn-25a6b1a6=1",
-      "published": "Sat, 07 Nov 2026 05:00:34 GMT",
-      "description": "Delay deepens doubts within Labour whether PM’s vision for UK will be as transformational as billed",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "The UK has few easy options for rejoining a ‘traumatised’ EU",
-      "link": "https://www.ft.com/content/b9b88216-4285-467b-8aad-33e26ee2468a",
-      "published": "Sat, 07 Nov 2026 05:00:34 GMT",
-      "description": "Accession is really not a negotiation. It is a process and candidates must tick all the relevant boxes",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
+      "source_weight": 2
     },
     {
       "title": "How Cardiologists’ High Hopes for Two Drugs Were Dashed",
@@ -1809,10 +1807,10 @@
       "source_weight": 2
     },
     {
-      "title": "Paraguay’s President Removed and Arrested Over Financial Crisis",
+      "title": "Prosecutors Charge Paraguay’s Former President With Corruption",
       "link": "https://www.nytimes.com/2026/11/06/world/americas/paraguay-president-removed-ueno.html",
-      "published": "Sat, 07 Nov 2026 01:29:31 +0000",
-      "description": "Santiago Peña was impeached, removed from office and placed under house arrest after a bank with close ties to his administration went under.",
+      "published": "Sat, 07 Nov 2026 20:17:15 +0000",
+      "description": "Santiago Peña was impeached, removed from office, placed under house arrest and charged with using his office to enrich himself after a bank with close ties to his administration went under.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",
@@ -1837,18 +1835,6 @@
       "link": "https://www.nytimes.com/2026/11/06/travel/villa-vie-residences-odyssey-cruise.html",
       "published": "Fri, 06 Nov 2026 18:58:23 +0000",
       "description": "Secrecy, debt and soaring fuel costs all contributed to the Odyssey’s downfall. Here’s an inside look at how the “endless cruise” unraveled.",
-      "approx_traffic": "",
-      "source_id": "nyt_business_rss",
-      "source_name": "NYT Business",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 2
-    },
-    {
-      "title": "Susie Wiles, Trump’s Chief of Staff, Is Accused of Blocking Health Policies to Attract Donations",
-      "link": "https://www.nytimes.com/2026/11/06/us/politics/susie-wiles-calley-means-joe-rogan.html",
-      "published": "Fri, 06 Nov 2026 22:03:52 +0000",
-      "description": "In a no-holds-barred interview with Joe Rogan, Calley Means, a former top health adviser, accused Susie Wiles of repeatedly bowing to lobbying pressures and fixating on campaign contributions.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",

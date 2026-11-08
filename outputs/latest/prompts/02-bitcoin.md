@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+  "summary_angle": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -110,14 +110,15 @@
   "source_names": [
     "CoinDesk RSS",
     "Cointelegraph",
+    "Financial Times Home",
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
     "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
     "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
     "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
-    "The crypto industry has found new ways to grow. Making money from them is another story",
-    "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty"
+    "The crypto industry has found new ways to grow. Making money from them is another story"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -182,7 +183,7 @@
   "score_breakdown": {
     "total_score": 85.0,
     "search_score": 29,
-    "timeliness_score": 18,
+    "timeliness_score": 20,
     "explanatory_score": 17,
     "monetization_score": 15,
     "risk_score": 3
