@@ -1,8 +1,8 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-08T05:32:40.845638+00:00`
+- 생성 시각: `2026-11-08T17:52:09.090294+00:00`
 - 수집 성공 소스: `14`
-- 수집 아이템 수: `111`
+- 수집 아이템 수: `112`
 
 ## 소스 상태
 
@@ -14,7 +14,7 @@
 - `OK` Cointelegraph (rss): 8 items
 - `OK` CNBC Top News (rss): 8 items
 - `OK` Investing.com Crypto News (rss): 8 items
-- `OK` Financial Times Home (rss): 7 items
+- `OK` Financial Times Home (rss): 8 items
 - `OK` Reuters Markets via Google News RSS (rss): 8 items
 - `OK` 무역킹 Trade King YouTube (youtube_channel): 8 items
 - `OK` MarketWatch Breaking News (rss): 8 items
@@ -106,44 +106,42 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 51, source_count 4, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News
-- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `us_big_tech`: score 14, source_count 3, sources CoinDesk RSS, Financial Times Home, Google Trends KR
-- `us_index_flow`: score 13, source_count 4, sources CNBC Top News, CoinDesk RSS, Financial Times World, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 11, source_count 4, sources CNBC Top News, Cointelegraph, Financial Times World, NYT Business
-- `treasury_yields`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `cpi`: score 4, source_count 1, sources CoinDesk RSS
+- `bitcoin`: score 55, source_count 4, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News
+- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
+- `us_big_tech`: score 16, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home
+- `oil`: score 11, source_count 4, sources Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- `us_index_flow`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `treasury_yields`: score 4, source_count 1, sources CoinDesk RSS
 - `crypto_etf`: score 3, source_count 1, sources Investing.com Crypto News
-- `china`: score 3, source_count 1, sources Financial Times World
+- `ai_semiconductors`: score 3, source_count 1, sources Financial Times Home
+- `cpi`: score 3, source_count 1, sources Financial Times World
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 51, headlines 15
+- `bitcoin`: score 55, headlines 16
+  - These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)
   - Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end
   - U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows
-  - Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets
-- `fomc`: score 23, headlines 5
+- `fomc`: score 20, headlines 4
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-- `us_big_tech`: score 14, headlines 3
-  - tesla
+- `us_big_tech`: score 16, headlines 5
   - Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch
-  - Apple saves $2.7bn in taxes by booking profits in Singapore
-- `us_index_flow`: score 13, headlines 4
-  - U.S. added 165,000 jobs in October, blowing past 65,000 estimate
-  - Berkshire shares surge as Wall Street swoons amid AI fears
+  - Amsterdam protesters break into Microsoft data center construction site: Report
+  - Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again
+- `oil`: score 11, headlines 4
+  - Democrats vow to impeach Trump officials and investigate Republican donors
+  - As high oil prices curb demand, fresh signs of glut appear - Reuters
+  - Democrats vow to impeach Trump officials and investigate Republican donors
+- `us_index_flow`: score 5, headlines 2
   - COMMENTARY: US stocks always rise after midterms. Is this time different? - Reuters
-- `ai_semiconductors`: score 11, headlines 4
-  - Nvidia may face a more hostile post-election Washington: Report
-  - Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers
-  - US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy
-- `treasury_yields`: score 7, headlines 2
+  - Corporate America’s profit numbers are just barely beating Wall Street’s expectations
+- `treasury_yields`: score 4, headlines 1
   - U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows
-  - US Treasury cuts off MEXC over alleged $16B in illicit transactions
-- `cpi`: score 4, headlines 1
-  - U.S. added 165,000 jobs in October, blowing past 65,000 estimate
-- `china`: score 3, headlines 1
-  - US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy
+- `ai_semiconductors`: score 3, headlines 1
+  - Anthropic strikes $3.4bn deal to generate gas-fired power for data centres
+- `cpi`: score 3, headlines 1
+  - Will US inflation data ease affordability concerns?
 - `crypto_etf`: score 3, headlines 1
   - Bitcoin rebounds to $76,000, but $1.3 billion ETF exodus tests recovery

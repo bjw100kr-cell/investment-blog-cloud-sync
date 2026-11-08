@@ -114,11 +114,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
     "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
     "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
     "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
-    "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
-    "The crypto industry has found new ways to grow. Making money from them is another story"
+    "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

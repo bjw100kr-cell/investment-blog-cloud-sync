@@ -1,8 +1,62 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
   "cards": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "publish_date": "2026-11-08",
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "ready_now": true,
+      "hero_image_selected": true,
+      "reason": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting"
+      ],
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 28 Oct 2026 18:00:00 GMT",
+          "published_iso": "2026-10-28T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
+      "hard_blocking_checks": []
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -14,33 +68,33 @@
       "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
+        "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
         "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
-        "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
-        "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets"
+        "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows"
       ],
       "recent_evidence": [
+        {
+          "title": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+          "source_name": "CoinDesk RSS",
+          "published": "Sun, 08 Nov 2026 12:55:59 +0000",
+          "published_iso": "2026-11-08T12:55:59+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin holds below $76K as Binance EU closures add to crypto market pressure",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-11-08 06:00:07",
+          "published_iso": "2026-11-08 06:00:07",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-below-76k-as-binance-eu-closures-add-to-crypto-market-pressure-5010133",
+          "source_type": "rss"
+        },
         {
           "title": "Bitcoin holders have received eCash — What can you do with it?",
           "source_name": "Cointelegraph",
           "published": "Sat, 07 Nov 2026 13:30:00 +0000",
           "published_iso": "2026-11-07T13:30:00+00:00",
           "link": "https://cointelegraph.com/magazine/bitcoin-holders-have-received-ecash-what-can-you-with-it?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin rebounds to $76,000, but $1.3 billion ETF exodus tests recovery",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-11-07 08:12:35",
-          "published_iso": "2026-11-07 08:12:35",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-to-76000-but-13-billion-etf-exodus-tests-recovery-5009767",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin set for weekly loss on post-midterms regulatory uncertainty, jobs report",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-11-06 22:39:48",
-          "published_iso": "2026-11-06 22:39:48",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-to-75k-as-us-regulatory-uncertainty-grows-5006596",
           "source_type": "rss"
         }
       ],
@@ -59,78 +113,58 @@
       "hard_blocking_checks": []
     },
     {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-      "publish_date": "2026-11-10",
+      "keyword": "us_big_tech",
+      "title": "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
+      "publish_date": "",
       "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
+      "quality_status": "needs_fix",
+      "ready_now": false,
       "hero_image_selected": true,
       "reason": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "intent": "",
       "sample_headlines": [
-        "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-        "Berkshire shares surge as Wall Street swoons amid AI fears",
-        "COMMENTARY: US stocks always rise after midterms. Is this time different? - Reuters"
+        "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
+        "Amsterdam protesters break into Microsoft data center construction site: Report",
+        "Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again"
       ],
       "recent_evidence": [
         {
-          "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
-          "source_name": "Financial Times World",
-          "published": "Sat, 07 Nov 2026 21:41:05 GMT",
-          "published_iso": "2026-11-07T21:41:05+00:00",
-          "link": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
+          "title": "Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again",
+          "source_name": "CNBC Top News",
+          "published": "Sun, 08 Nov 2026 13:00:01 GMT",
+          "published_iso": "2026-11-08T13:00:01+00:00",
+          "link": "https://www.cnbc.com/2026/11/08/amazon-home-robot-fauna-sprout.html",
           "source_type": "rss"
         },
         {
-          "title": "COMMENTARY: US stocks always rise after midterms. Is this time different? - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Sat, 07 Nov 2026 06:01:00 GMT",
-          "published_iso": "2026-11-07T06:01:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOUUxZDUzd0xuR1o2YW11a0Nqcy0yZUtiMzlNU1VsRWIxMDVubDNLZHh6MWUwT1NDYnVwajFLdVMxdEs4RGlRdmlGR29DbjQ1MGJ3LURkN3BIUFZvNV9UVVI0OThfYWUyMFVqdkRNUTBXQkVpeWNqNGdza0hIWFZrTWVYZTNUS2o4VmJhMkVwXzlkWEUxNE03OWZIdEdpTzl2d0hReXpXbGM4Mk9qSHZJNnBXejU4Y0Q2d3IwbUVmMTJ5bGs2YURn?oc=5",
+          "title": "Amsterdam protesters break into Microsoft data center construction site: Report",
+          "source_name": "Cointelegraph",
+          "published": "Sun, 08 Nov 2026 09:48:48 +0000",
+          "published_iso": "2026-11-08T09:48:48+00:00",
+          "link": "https://cointelegraph.com/news/amsterdam-data-center-protesters-break-into-construction-site-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Apple saves $2.7bn in taxes by booking profits in Singapore",
+          "source_name": "Financial Times Home",
+          "published": "Sun, 08 Nov 2026 05:00:11 GMT",
+          "published_iso": "2026-11-08T05:00:11+00:00",
+          "link": "https://www.ft.com/content/49453406-99f2-4f5b-8f5d-01dc8cac5ede?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-index-flow.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-%EB%AF%B8%EA%B5%AD-%EC%A6%9D%EC%8B%9C-%EC%A7%80%EC%88%98-%ED%9D%90%EB%A6%84-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow",
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-us-big-tech.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/03-%EB%AF%B8%EA%B5%AD-%EB%B9%85%ED%85%8C%ED%81%AC-%EC%A3%BC%EA%B0%80%EA%B0%80-%ED%9D%94%EB%93%A4%EB%A6%B4-%EB%95%8C-%ED%99%95%EC%9D%B8%ED%95%A0-%EA%B2%83-%EC%8B%A4%EC%A0%81-%EA%B8%88%EB%A6%AC-ai-%ED%88%AC%EC%9E%90.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
+      "next_action": "사용자 최종 확인 후 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_big_tech",
       "followup_commands": [
         "python3 scripts/build_platform_publish_plan.py",
         "python3 scripts/upload_blogger_drafts.py",
         "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
       ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply",
-      "hard_blocking_checks": []
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "publish_date": "2026-11-11",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "섹터/세계 흐름 연결 해설 가능",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy"
-      ],
-      "recent_evidence": [],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword us_big_tech --apply",
       "hard_blocking_checks": []
     }
   ]
