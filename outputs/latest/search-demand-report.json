@@ -1,27 +1,37 @@
 {
-  "generated_at": "2026-11-09T05:42:56.606320+00:00",
+  "generated_at": "2026-11-09T22:13:58.310246+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "china",
-      "trend_count": 1,
-      "traffic_score_sum": 200,
-      "max_approx_traffic": 200,
-      "trend_queries": [
-        "중국"
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 5400,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 42,
+      "source_count": 8,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Financial Times Home",
+        "Financial Times World"
       ],
-      "regions": [
-        "KR"
-      ],
-      "demand_signal_score": 400,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+      "sample_titles": [
+        "Google’s AI chip push adds more pressure on Nvidia",
+        "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
+        "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO"
+      ]
     },
     {
       "keyword": "bitcoin",
@@ -30,11 +40,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6000,
+      "demand_signal_score": 5000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 48,
+      "source_snapshot_score": 38,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -42,58 +52,9 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Binance's bitcoin mining pool finds just one block in a week as shutdown nears",
-        "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
-        "What the election results mean for crypto: State of Crypto"
-      ]
-    },
-    {
-      "keyword": "fomc",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3500,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
-      "source_count": 2,
-      "source_names": [
-        "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Asian stocks bounce as AI, Mideast jitters recede; dollar firm on Fed bets - Reuters"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3000,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 18,
-      "source_count": 6,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
-      ],
-      "sample_titles": [
-        "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
-        "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
-        "Nvidia’s Huang admits to affair after allegations of relationship with Chinese spy"
+        "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
+        "Bitcoin bulls can't rely on ETF flows",
+        "Here’s what happened in crypto today"
       ]
     },
     {
@@ -103,23 +64,46 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2500,
+      "demand_signal_score": 4100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
-      "source_count": 5,
+      "source_snapshot_score": 29,
+      "source_count": 7,
       "source_names": [
-        "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph",
         "Financial Times Home",
         "Financial Times World",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
-        "Nvidia’s Huang admits to affair after allegations of relationship with Chinese spy",
-        "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives."
+        "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
+        "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
+        "Alleged Chinese spy linked to Nvidia chief pitched AI chip deals to investors"
+      ]
+    },
+    {
+      "keyword": "fomc",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3400,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 22,
+      "source_count": 2,
+      "source_names": [
+        "Federal Reserve Monetary Policy Press",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+        "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test."
       ]
     }
   ],

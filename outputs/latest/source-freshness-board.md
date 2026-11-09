@@ -1,53 +1,54 @@
 # Source Freshness Board
 
 사용자에게 초안을 보여주기 전에, 근거 소스가 지금 시점에도 충분히 신선한지 확인하는 보드입니다.
-- generated_at: `2026-11-09T05:43:00.902916+00:00`
-- snapshot_generated_at: `2026-11-09T05:42:56.606320+00:00`
+- generated_at: `2026-11-09T22:14:02.719060+00:00`
+- snapshot_generated_at: `2026-11-09T22:13:58.310246+00:00`
 - snapshot_age_days: `0.0`
 - snapshot_status: `fresh`
-- counts: fresh `3` / aging `0` / stale `0` / unknown `0`
+- counts: fresh `2` / aging `0` / stale `1` / unknown `0`
 
-## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+- keyword: `fomc`
+- freshness_status: `stale`
+- newest_evidence_age_days: `12.2`
+- newest_evidence_iso: `2026-10-28T18:00:00+00:00`
+- quality_status: `pass` / ready_now `True`
+- summary: 핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement
+- recommendation: 지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.
+- recovery_mode: `full_refresh_needed`
+- recovery_summary: 현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.
+- recovery_command: `bash scripts/run_pipeline.sh`
+- evidence: Federal Reserve Monetary Policy Press / 2026-10-28T18:00:00+00:00 / Federal Reserve issues FOMC statement
+- evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve issues FOMC statement
+- evidence: Federal Reserve Monetary Policy Press / 2026-09-16T18:00:00+00:00 / Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
+
+## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - freshness_status: `fresh`
-- newest_evidence_age_days: `0.0`
-- newest_evidence_iso: `2026-11-09T04:54:39+00:00`
+- newest_evidence_age_days: `0.2`
+- newest_evidence_iso: `2026-11-09T18:25:29+00:00`
 - quality_status: `pass` / ready_now `True`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Binance's bitcoin mining pool finds just one block in a week as shutdown nears
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals
 - recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: CoinDesk RSS / 2026-11-09T04:54:39+00:00 / Binance's bitcoin mining pool finds just one block in a week as shutdown nears
-- evidence: CoinDesk RSS / 2026-11-09T03:21:49+00:00 / Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility
-- evidence: CoinDesk RSS / 2026-11-08T12:55:59+00:00 / These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)
-
-## 2. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-
-- keyword: `china`
-- freshness_status: `fresh`
-- newest_evidence_age_days: `0.0`
-- newest_evidence_iso: `2026-11-09T05:09:46+00:00`
-- quality_status: `review_before_publish` / ready_now `False`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: China’s producer prices hit four-year high
-- recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
-- recovery_mode: `publish_direct`
-- recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Financial Times Home / 2026-11-09T05:09:46+00:00 / China’s producer prices hit four-year high
-- evidence: Financial Times Home / 2026-11-09T05:00:48+00:00 / Democrat triumph offers China ‘window to catch up’ on AI
-- evidence: Financial Times World / 2026-11-09T05:00:34+00:00 / UK faces China expertise crunch after exodus of senior diplomats
+- evidence: Cointelegraph / 2026-11-09T18:25:29+00:00 / Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals
+- evidence: Cointelegraph / 2026-11-09T17:13:25+00:00 / Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target
+- evidence: CoinDesk RSS / 2026-11-09T16:19:45+00:00 / A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees
 
 ## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - keyword: `ai_semiconductors`
 - freshness_status: `fresh`
 - newest_evidence_age_days: `0.0`
-- newest_evidence_iso: `2026-11-09T05:31:35+00:00`
-- quality_status: `review_before_publish` / ready_now `False`
-- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: FirstFT: Nvidia CEO admits to affair after allegations of relationship with Chinese spy
-- recommendation: 신선도는 괜찮습니다. 이미지나 품질 게이트만 보완하면 됩니다.
+- newest_evidence_iso: `2026-11-09T21:55:00+00:00`
+- quality_status: `pass` / ready_now `True`
+- summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal
+- recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - recovery_mode: `publish_direct`
 - recovery_summary: 현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.
-- evidence: Financial Times World / 2026-11-09T05:31:35+00:00 / FirstFT: Nvidia CEO admits to affair after allegations of relationship with Chinese spy
-- evidence: CoinDesk RSS / 2026-11-09T03:21:49+00:00 / Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility
-- evidence: Reuters Markets via Google News RSS / 2026-11-09T03:00:00+00:00 / Nvidia falls about 3% in after-hours and perpetual futures trade - Reuters
+- evidence: MarketWatch Breaking News / 2026-11-09T21:55:00+00:00 / As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal
+- evidence: MarketWatch Breaking News / 2026-11-09T21:43:00+00:00 / Are AMD and Broadcom the real winners of the Nvidia spy scandal?
+- evidence: Financial Times Home / 2026-11-09T21:24:32+00:00 / Nvidia shares fall as it probes alleged Chinese spy scandal

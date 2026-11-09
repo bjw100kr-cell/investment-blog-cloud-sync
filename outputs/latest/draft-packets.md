@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-09T05:42:56.606320+00:00`
+- 생성 시각: `2026-11-09T22:13:58.310246+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 91.0
+- 점수: 90.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,13 +70,13 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
-  - Asian stocks bounce as AI, Mideast jitters recede; dollar firm on Fed bets - Reuters
+  - The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
-- 점수: 83.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 점수: 82.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Binance's bitcoin mining pool finds just one block in a week as shutdown nears
-  - Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility
-  - What the election results mean for crypto: State of Crypto
-  - These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)
-  - Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end
+  - A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees
+  - Bitcoin bulls can't rely on ETF flows
+  - Here’s what happened in crypto today
+  - Should you leave Australia to avoid paying 47% tax on crypto gains?
+  - Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 80.0
+- 각도: 복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 88.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,17 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility
-  - Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy
-  - Nvidia’s Huang admits to affair after allegations of relationship with Chinese spy
-  - Nvidia falls about 3% in after-hours and perpetual futures trade - Reuters
-  - FirstFT: Nvidia CEO admits to affair after allegations of relationship with Chinese spy
+  - Google’s AI chip push adds more pressure on Nvidia
+  - Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target
+  - Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO
+  - Alleged Chinese spy linked to Nvidia chief pitched AI chip deals to investors
+  - Nvidia shares fall as it probes alleged Chinese spy scandal
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (중국)
-- 점수: 88.0
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 49.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,8 +276,5 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - 중국
-  - China wholesale inflation hits highest in more than four years as consumer measure slows
-  - Democrat triumph offers China ‘window to catch up’ on AI
-  - China’s producer prices hit four-year high
-  - FirstFT: Nvidia CEO admits to affair after allegations of relationship with Chinese spy
+  - China Rejects Espionage Claims Involving Nvidia C.E.O. Jensen Huang
+  - Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang

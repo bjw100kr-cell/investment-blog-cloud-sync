@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Binance's bitcoin mining pool finds just one block in a week as shutdown nears",
-    "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
-    "What the election results mean for crypto: State of Crypto",
-    "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
-    "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end"
+    "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
+    "Bitcoin bulls can't rely on ETF flows",
+    "Here’s what happened in crypto today",
+    "Should you leave Australia to avoid paying 47% tax on crypto gains?",
+    "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 83.0,
-    "search_score": 29,
+    "total_score": 82.0,
+    "search_score": 28,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,
