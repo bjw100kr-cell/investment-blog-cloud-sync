@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-08T17:52:09.090294+00:00`
+- 생성 시각: `2026-11-09T05:42:56.606320+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,42 +106,49 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 55, source_count 4, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News
-- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `us_big_tech`: score 16, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home
-- `oil`: score 11, source_count 4, sources Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
-- `us_index_flow`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `bitcoin`: score 48, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `china`: score 31, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, Google Trends KR
+- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 18, source_count 6, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- `us_index_flow`: score 13, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
+- `oil`: score 8, source_count 2, sources NYT Business, Reuters Markets via Google News RSS
+- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
 - `treasury_yields`: score 4, source_count 1, sources CoinDesk RSS
-- `crypto_etf`: score 3, source_count 1, sources Investing.com Crypto News
-- `ai_semiconductors`: score 3, source_count 1, sources Financial Times Home
-- `cpi`: score 3, source_count 1, sources Financial Times World
+- `us_big_tech`: score 3, source_count 1, sources Cointelegraph
+- `cpi`: score 3, source_count 1, sources CNBC Top News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 55, headlines 16
-  - These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)
-  - Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end
-  - U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows
-- `fomc`: score 20, headlines 4
+- `bitcoin`: score 48, headlines 14
+  - Binance's bitcoin mining pool finds just one block in a week as shutdown nears
+  - Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility
+  - What the election results mean for crypto: State of Crypto
+- `china`: score 31, headlines 9
+  - 중국
+  - China wholesale inflation hits highest in more than four years as consumer measure slows
+  - Democrat triumph offers China ‘window to catch up’ on AI
+- `fomc`: score 23, headlines 5
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-- `us_big_tech`: score 16, headlines 5
-  - Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch
-  - Amsterdam protesters break into Microsoft data center construction site: Report
-  - Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again
-- `oil`: score 11, headlines 4
-  - Democrats vow to impeach Trump officials and investigate Republican donors
-  - As high oil prices curb demand, fresh signs of glut appear - Reuters
-  - Democrats vow to impeach Trump officials and investigate Republican donors
-- `us_index_flow`: score 5, headlines 2
-  - COMMENTARY: US stocks always rise after midterms. Is this time different? - Reuters
-  - Corporate America’s profit numbers are just barely beating Wall Street’s expectations
+- `ai_semiconductors`: score 18, headlines 6
+  - Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility
+  - Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy
+  - Nvidia’s Huang admits to affair after allegations of relationship with Chinese spy
+- `us_index_flow`: score 13, headlines 5
+  - Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy
+  - Nvidia’s Huang admits to affair after allegations of relationship with Chinese spy
+  - The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.
+- `oil`: score 8, headlines 3
+  - Oil falls as Trump says new Iran attacks 'unlikely' - Reuters
+  - Indian shares open higher on lower crude prices, foreign inflow optimism - Reuters
+  - Why the Iran War Has Spurred Both Clean Energy and Fossil Fuels
+- `ethereum`: score 7, headlines 2
+  - Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts
+  - Vitalik ‘pivots’ ETH to store of value, crypto suffers after US midterms: Hodler’s Digest
 - `treasury_yields`: score 4, headlines 1
   - U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows
-- `ai_semiconductors`: score 3, headlines 1
-  - Anthropic strikes $3.4bn deal to generate gas-fired power for data centres
 - `cpi`: score 3, headlines 1
-  - Will US inflation data ease affordability concerns?
+  - China wholesale inflation hits highest in more than four years as consumer measure slows
 - `crypto_etf`: score 3, headlines 1
   - Bitcoin rebounds to $76,000, but $1.3 billion ETF exodus tests recovery

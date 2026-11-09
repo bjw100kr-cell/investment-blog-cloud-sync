@@ -1,6 +1,6 @@
 # Daily 200 Visitor Action Board
 
-- 생성 시각: `2026-11-08T17:52:12.978934+00:00`
+- 생성 시각: `2026-11-09T05:43:00.422011+00:00`
 - 목표: 하루 `200`명
 - 상태: `measurement_missing_keep_building`
 - 실측 방문자: `0`
@@ -30,18 +30,25 @@
 - supporting_queries: FOMC 발표 시간, FOMC 이후 주식 영향, 연준 금리 발표 비트코인 영향
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
-### 미국 빅테크 주식
+### AI 반도체 주식
 
-- mapped_keyword: `us_big_tech`
-- suggested_title: 미국 빅테크 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: 애플 주가 영향, 테슬라 주가 전망, 마이크로소프트 AI 투자
+- mapped_keyword: `ai_semiconductors`
+- suggested_title: AI 반도체 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 엔비디아 주가 영향, 반도체 사이클 전망, AI 데이터센터 수혜주
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
-### 국제유가 전망
+### 미국 증시 오늘
 
-- mapped_keyword: `oil`
-- suggested_title: 국제유가 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: 유가 상승 주식 영향, WTI 유가 보는법, 원유 가격 인플레이션 영향
+- mapped_keyword: `us_index_flow`
+- suggested_title: 미국 증시 오늘 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 나스닥 하락 이유, S&P500 전망, 미국 주식 금리 영향
+- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
+
+### 중국 경기부양 수혜주
+
+- mapped_keyword: `china`
+- suggested_title: 중국 경기부양 수혜주 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 중국 증시 영향, 위안화 환율 시장 영향, 중국 부동산 리스크, 중국
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
 ## 공개 URL 배포 액션

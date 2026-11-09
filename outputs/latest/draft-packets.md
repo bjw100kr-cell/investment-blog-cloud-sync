@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-08T17:52:09.090294+00:00`
+- 생성 시각: `2026-11-09T05:42:56.606320+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
-- 점수: 86.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 점수: 91.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,12 +70,13 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
+  - Asian stocks bounce as AI, Mideast jitters recede; dollar firm on Fed bets - Reuters
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 점수: 85.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
+- 점수: 83.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -135,22 +136,22 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Binance's bitcoin mining pool finds just one block in a week as shutdown nears
+  - Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility
+  - What the election results mean for crypto: State of Crypto
   - These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)
   - Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end
-  - U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows
-  - Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets
-  - Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch
 
-## 3. us_big_tech
+## 3. ai_semiconductors
 
-- 추천 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- 각도: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 점수: 76.0
+- 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+- 각도: 복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 80.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
+  - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 지금 이 섹터가 왜 움직이는가
   - 핵심 뉴스와 시장 반응
@@ -199,28 +200,28 @@
   - 해설: 이 부분이 중요한 이유는 섹터 강세가 길게 이어지려면 결국 숫자가 따라와야 하기 때문입니다. 예를 들어 주문 증가, 마진 개선, CAPEX 확대 같은 신호가 같이 나와야 단순 기대감이 아니라 구조적인 흐름으로 볼 여지가 생깁니다.
   - 마무리: 반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다.
 - 팩트체크:
-  - 대표 종목 가격 변동률과 기준 시각 재확인
-  - 실적/가격 인상/공급망 뉴스 원문 링크 확인
-  - 개별 종목 이슈를 시장 전체 흐름처럼 과장하지 않기
+  - 기업 실적/가이던스 수치 원문 확인
+  - 반도체 섹터 전반 일반화 과장 여부 점검
+  - 대표 종목 티커와 실적 날짜 재확인
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch
-  - Amsterdam protesters break into Microsoft data center construction site: Report
-  - Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again
-  - Poppi founders are going after PepsiCo's Gatorade with new beverage startup Jetty
-  - Apple saves $2.7bn in taxes by booking profits in Singapore
+  - Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility
+  - Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy
+  - Nvidia’s Huang admits to affair after allegations of relationship with Chinese spy
+  - Nvidia falls about 3% in after-hours and perpetual futures trade - Reuters
+  - FirstFT: Nvidia CEO admits to affair after allegations of relationship with Chinese spy
 
-## 4. oil
+## 4. china
 
-- 추천 제목: 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
-- 각도: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
-- 점수: 72.0
+- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (중국)
+- 점수: 88.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -269,13 +270,14 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - WTI/Brent 수치 재확인
-  - 공급 뉴스 원문 출처 확인
-  - 인플레이션/금리 연결 문장 점검
+  - 정책 발표 또는 인터뷰 원문 여부 확인
+  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
+  - 한국/미국 시장 영향은 시나리오형으로 서술
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Democrats vow to impeach Trump officials and investigate Republican donors
-  - As high oil prices curb demand, fresh signs of glut appear - Reuters
-  - Democrats vow to impeach Trump officials and investigate Republican donors
-  - Why the Iran War Has Spurred Both Clean Energy and Fossil Fuels
+  - 중국
+  - China wholesale inflation hits highest in more than four years as consumer measure slows
+  - Democrat triumph offers China ‘window to catch up’ on AI
+  - China’s producer prices hit four-year high
+  - FirstFT: Nvidia CEO admits to affair after allegations of relationship with Chinese spy
