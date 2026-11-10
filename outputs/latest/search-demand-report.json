@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-11-10T06:51:29.360078+00:00",
+  "generated_at": "2026-11-10T19:36:54.412458+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 0,
+    "unmatched_market_trend_count": 1,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "fomc",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5900,
+      "demand_signal_score": 6200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 47,
-      "source_count": 7,
+      "source_snapshot_score": 50,
+      "source_count": 8,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News"
+        "Cointelegraph",
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times Home"
       ],
       "sample_titles": [
-        "Google’s AI chip push adds more pressure on Nvidia",
-        "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
-        "TSMC's October sales jump as global chip boom rolls on"
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+        "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%"
       ]
     },
     {
@@ -40,11 +40,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5400,
+      "demand_signal_score": 5800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 42,
+      "source_snapshot_score": 46,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -52,57 +52,73 @@
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
-        "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
-        "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees"
+        "Crypto is now teamed up with U.S. government in two legal battles over perps",
+        "Will stablecoins survive once the banks catch up?",
+        "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings"
       ]
     },
     {
-      "keyword": "fomc",
+      "keyword": "cpi",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3200,
+      "demand_signal_score": 5300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 20,
-      "source_count": 1,
-      "source_names": [
-        "Federal Reserve Monetary Policy Press"
-      ],
-      "sample_titles": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting"
-      ]
-    },
-    {
-      "keyword": "oil",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2600,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
-      "source_count": 4,
+      "source_snapshot_score": 41,
+      "source_count": 7,
       "source_names": [
         "CNBC Top News",
-        "Investing.com Crypto News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Financial Times Home",
+        "Financial Times World"
       ],
       "sample_titles": [
-        "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound",
-        "Bitcoin turns slightly higher amid Wall Street rally, slide in oil prices",
-        "Asian stocks climb as oil prices slide ahead US CPI - Reuters"
+        "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
+        "Bitcoin lags stock rebound in advance of U.S. inflation report",
+        "Hot US inflation raises odds of half-point Fed hike in December"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 4800,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 36,
+      "source_count": 6,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "MarketWatch Breaking News",
+        "NYT Business"
+      ],
+      "sample_titles": [
+        "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
+        "Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe",
+        "Alice Huang’s tangled web of connections"
       ]
     }
   ],
-  "unmatched_market_trends": []
+  "unmatched_market_trends": [
+    {
+      "query": "bills trade",
+      "region": "US",
+      "approx_traffic": "2000+",
+      "traffic_score": 2000,
+      "market_relevance_score": 1,
+      "brand_identity_match": true,
+      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
+    }
+  ]
 }

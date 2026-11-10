@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
-    "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
-    "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
-    "Here’s what happened in crypto today",
-    "Crypto exchanges need hard dollar caps on hot wallets, CertiK says"
+    "Crypto is now teamed up with U.S. government in two legal battles over perps",
+    "Will stablecoins survive once the banks catch up?",
+    "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
+    "Bitcoin lags stock rebound in advance of U.S. inflation report",
+    "Mercado Bitcoin to resume cash withdrawals after $49M hack"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

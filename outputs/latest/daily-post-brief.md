@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-11-10T06:51:29.360078+00:00`
+- 생성 시각: `2026-11-10T19:36:54.412458+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `86.0`
-- 점수 구성: 검색성 19 / 시의성 25 / 설명가치 20 / 수익성 14 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press
+- 총점: `97.0`
+- 점수 구성: 검색성 29 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 0
+- 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,6 +27,7 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
   - Federal Reserve issues FOMC statement
+  - U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%
 
 ## 2. bitcoin
 
@@ -47,20 +48,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more
-  - Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough
-  - A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees
-  - Here’s what happened in crypto today
-  - Crypto exchanges need hard dollar caps on hot wallets, CertiK says
+  - Crypto is now teamed up with U.S. government in two legal battles over perps
+  - Will stablecoins survive once the banks catch up?
+  - Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings
+  - Bitcoin lags stock rebound in advance of U.S. inflation report
+  - Mercado Bitcoin to resume cash withdrawals after $49M hack
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `88.0`
-- 점수 구성: 검색성 29 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 총점: `86.0`
+- 점수 구성: 검색성 26 / 시의성 21 / 설명가치 17 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -72,20 +73,20 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Google’s AI chip push adds more pressure on Nvidia
-  - Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO
-  - TSMC's October sales jump as global chip boom rolls on
-  - SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound
-  - Trump says FBI is ‘looking into’ Nvidia’s Jensen Huang
+  - Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem
+  - Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe
+  - Alice Huang’s tangled web of connections
+  - Anthropic targets valuation of up to $1.4tn in IPO
+  - Microsoft tops Nvidia's market cap for first time since June 2025 - Reuters
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `72.0`
-- 점수 구성: 검색성 14 / 시의성 20 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times World, MarketWatch Breaking News, NYT Business
+- 총점: `55.0`
+- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 17 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Financial Times Home
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -97,23 +98,21 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - China’s monthly imports grow at fastest pace in five years as surplus crosses $1 trillion in 2026
-  - The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips
-  - China’s trade surplus exceeds $1tn for first 10 months of year
-  - China’s Trade Surplus Passes $1 Trillion at Record Pace
+  - Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem
+  - VW pivots again as ‘In China, For China’ runs out of road
 
-## 5. oil
+## 5. cpi
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `75.0`
-- 점수 구성: 검색성 18 / 시의성 20 / 설명가치 16 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
-- 소스: CNBC Top News, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- 총점: `89.0`
+- 점수 구성: 검색성 28 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
+- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, Reuters Markets via Google News RSS
 - 제목 후보:
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지: 지금 시장이 반응하는 이유
-  - 유가 상승이 물가와 증시에 번지는 경로: 투자자가 볼 3가지
+  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유
+  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 지금 시장이 반응하는 이유
+  - CPI 발표 후 금리와 나스닥, 비트코인이 같이 움직이는 이유: 주식·코인 흐름 함께 보기
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -121,8 +120,8 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound
-  - Bitcoin turns slightly higher amid Wall Street rally, slide in oil prices
-  - Asian stocks climb as oil prices slide ahead US CPI - Reuters
-  - Wall St jumps as oil slide cools inflation worries; Nvidia slumps - Reuters
-  - Exxon Strikes Preliminary Deal to Return to Venezuela
+  - U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%
+  - Bitcoin lags stock rebound in advance of U.S. inflation report
+  - Hot US inflation raises odds of half-point Fed hike in December
+  - Bitcoin nears 11-week low after ‘discouraging’ US CPI inflation beat
+  - Here's the inflation breakdown for October 2026 — in one chart

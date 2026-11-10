@@ -91,7 +91,7 @@
     "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
     "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "왜 지금 이 이슈가 중요한가",
     "실제로 발표되거나 벌어진 일",
@@ -109,15 +109,11 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "Financial Times World",
-    "MarketWatch Breaking News",
-    "NYT Business"
+    "Financial Times Home"
   ],
   "reference_headlines": [
-    "China’s monthly imports grow at fastest pace in five years as surplus crosses $1 trillion in 2026",
-    "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
-    "China’s trade surplus exceeds $1tn for first 10 months of year",
-    "China’s Trade Surplus Passes $1 Trillion at Record Pace"
+    "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
+    "VW pivots again as ‘In China, For China’ runs out of road"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -180,11 +176,11 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 72.0,
-    "search_score": 14,
-    "timeliness_score": 20,
+    "total_score": 55.0,
+    "search_score": 8,
+    "timeliness_score": 10,
     "explanatory_score": 17,
-    "monetization_score": 14,
+    "monetization_score": 13,
     "risk_score": 7
   },
   "reference_editorial_pattern_name": "news_what_it_means",
