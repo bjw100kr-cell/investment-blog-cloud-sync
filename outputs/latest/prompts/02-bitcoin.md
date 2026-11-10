@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
+    "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
+    "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
     "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
-    "Bitcoin bulls can't rely on ETF flows",
     "Here’s what happened in crypto today",
-    "Should you leave Australia to avoid paying 47% tax on crypto gains?",
-    "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals"
+    "Crypto exchanges need hard dollar caps on hot wallets, CertiK says"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 82.0,
-    "search_score": 28,
+    "total_score": 83.0,
+    "search_score": 29,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,

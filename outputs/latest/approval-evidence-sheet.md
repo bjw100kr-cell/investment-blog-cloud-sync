@@ -2,81 +2,81 @@
 
 사용자가 초안을 최종 확인하기 전에, 왜 이 글이 오늘 올라올 가치가 있는지 근거를 빠르게 보는 시트입니다.
 - 원칙: 초안 내용과 함께 근거 소스, 검색 수요, 시의성을 같이 보고 최종 확인합니다.
-- generated_at: `2026-11-09T22:13:58.310246+00:00`
+- generated_at: `2026-11-10T06:51:29.360078+00:00`
 - item_count: `3`
 
-## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword: `fomc`
-- publish_date: `2026-11-09`
-- priority_score: `133.0`
+- keyword: `bitcoin`
+- publish_date: `2026-11-11`
+- priority_score: `122.0`
 - ready_now: `True` / quality_status `pass`
-- reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- format: `macro_explainer`
-- demand_signal_score: `3400`
+- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- format: `crypto_analysis`
+- demand_signal_score: `5400`
 - fallback_source: `source_snapshot_rank`
-- source_count: `2`
-- score_breakdown: search `22` / timeliness `25` / monetization `15`
-- source_names: Federal Reserve Monetary Policy Press, MarketWatch Breaking News
+- source_count: `3`
+- score_breakdown: search `29` / timeliness `18` / monetization `15`
+- source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - sample_headlines:
-  - Federal Reserve issues FOMC statement
-  - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.
+  - Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more
+  - Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough
+  - A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees
+  - Here’s what happened in crypto today
+  - Crypto exchanges need hard dollar caps on hot wallets, CertiK says
 - recent_evidence:
-  - Federal Reserve Monetary Policy Press | 2026-10-28T18:00:00+00:00 | Federal Reserve issues FOMC statement | https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm
-  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve issues FOMC statement | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm
-  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm
-  - Federal Reserve Monetary Policy Press | 2026-07-29T18:00:00+00:00 | Federal Reserve issues FOMC statement | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm
-  - Federal Reserve Monetary Policy Press | 2026-10-07T18:00:00+00:00 | Minutes of the Federal Open Market Committee, September 15-16, 2026 | https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm
+  - CoinDesk RSS | 2026-11-10T05:18:31+00:00 | Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more | https://www.coindesk.com/markets/2026/11/10/bitcoin-miner-mara-sold-13-597-btc-for-usd1-1-billion-in-six-weeks-plans-to-sell-more
+  - CoinDesk RSS | 2026-11-10T03:22:26+00:00 | Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough | https://www.coindesk.com/markets/2026/11/10/bitcoin-faces-u-s-cpi-test-as-analysts-warn-inflation-relief-may-not-be-enough
+  - Cointelegraph | 2026-11-10T00:42:39+00:00 | HIVE, MARA mine more Bitcoin but earn less as crypto prices fall | https://cointelegraph.com/markets/hives-bitcoin-output-jumps-49-but-mining-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  - Investing.com Crypto News | 2026-11-10 06:04:03 | Bitcoin pinned below $75k as regulatory uncertainty, ETF outflows persist | https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-75k-as-regulatory-uncertainty-etf-outflows-persist-5014179
+  - Cointelegraph | 2026-11-09T18:25:29+00:00 | Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals | https://cointelegraph.com/news/mercado-bitcoin-reopening-withdrawals-hack-suspended?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
 
 ## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - keyword: `ai_semiconductors`
-- publish_date: `2026-11-11`
+- publish_date: `2026-11-12`
 - priority_score: `123.0`
 - ready_now: `True` / quality_status `pass`
-- reason: 복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능
+- reason: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
 - format: `sector_analysis`
-- demand_signal_score: `5400`
+- demand_signal_score: `5900`
 - fallback_source: `source_snapshot_rank`
-- source_count: `8`
+- source_count: `7`
 - score_breakdown: search `29` / timeliness `21` / monetization `15`
-- source_names: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- source_names: CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - sample_headlines:
   - Google’s AI chip push adds more pressure on Nvidia
-  - Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target
   - Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO
-  - Alleged Chinese spy linked to Nvidia chief pitched AI chip deals to investors
-  - Nvidia shares fall as it probes alleged Chinese spy scandal
+  - TSMC's October sales jump as global chip boom rolls on
+  - SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound
+  - Trump says FBI is ‘looking into’ Nvidia’s Jensen Huang
 - recent_evidence:
-  - MarketWatch Breaking News | 2026-11-09T21:55:00+00:00 | As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal | https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories
-  - MarketWatch Breaking News | 2026-11-09T21:43:00+00:00 | Are AMD and Broadcom the real winners of the Nvidia spy scandal? | https://www.marketwatch.com/story/are-amd-and-broadcom-the-real-winners-of-the-nvidia-spy-scandal-d2343072?mod=mw_rss_topstories
-  - Financial Times Home | 2026-11-09T21:24:32+00:00 | Nvidia shares fall as it probes alleged Chinese spy scandal | https://www.ft.com/content/fa3b0a35-1aa9-4f31-97b4-e4c599e3e654?syn-25a6b1a6=1
-  - NYT Business | 2026-11-09T21:23:34+00:00 | Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang | https://www.nytimes.com/2026/11/09/business/nvidia-stock-price-jensen-huang-ceo.html
-  - CNBC Top News | 2026-11-09T21:04:50+00:00 | Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO | https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html
+  - CNBC Top News | 2026-11-10T05:42:42+00:00 | TSMC's October sales jump as global chip boom rolls on | https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html
+  - Financial Times World | 2026-11-10T05:31:40+00:00 | FirstFT: FBI is ‘looking into’ Nvidia’s Huang, Trump says | https://www.ft.com/content/6e4100c2-a69e-4f42-a99d-64c056d8592d?syn-25a6b1a6=1
+  - Reuters Markets via Google News RSS | 2026-11-10T05:31:00+00:00 | Morning Bid: Anthropic IPO: Please try again - Reuters | https://news.google.com/rss/articles/CBMif0FVX3lxTE1CeC1RN1hvWlBLQ0hHeVpIRS1lOU14N1J6a1pDc1FPRG84VnZ0Zi1fZEo0VUZoVWJyemFNaFQzcmd4djB5TlJNS3JITXBlMWxfYnZ4dDJUS1FhZS1jVjhQMEpReXFuMlZOU3lURE5pcWtoTHlLbk8xWEEtMWNMZ0U?oc=5
+  - Reuters Markets via Google News RSS | 2026-11-10T01:22:00+00:00 | EXCLUSIVE: Anthropic’s nearly $70 billion IPO plan briefly circulated to banks, then retracted - Reuters | https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2hKNTcydHJDZGEzRlA2V3BsU0k0ZDdibmxRSGgzS3RvUlh3b0hyTVZ1Tnpqa1Z2R2ZvcjdfeTV6ZEV0bTU3UG5ROXYxYUgtOWZHWUVWazkzUm5vOHo2OFhqT3V2RlBjWVkyMF9VUU8tSFlJdkVzVEYyb1VVRnRjaTlUTm82dGc2MUxBQWNBdlp0M1pqUGVBNy1hLXk?oc=5
+  - MarketWatch Breaking News | 2026-11-10T00:48:00+00:00 | The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips | https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories
 
-## 3. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 3. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 
-- keyword: `bitcoin`
-- publish_date: `2026-11-10`
-- priority_score: `121.0`
+- keyword: `china`
+- publish_date: `2026-11-13`
+- priority_score: `98.0`
 - ready_now: `True` / quality_status `pass`
-- reason: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- format: `crypto_analysis`
-- demand_signal_score: `5000`
-- fallback_source: `source_snapshot_rank`
-- source_count: `3`
-- score_breakdown: search `28` / timeliness `18` / monetization `15`
-- source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- reason: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- format: `macro_explainer`
+- demand_signal_score: `0`
+- fallback_source: `mapped_candidate`
+- source_count: `4`
+- score_breakdown: search `14` / timeliness `20` / monetization `14`
+- source_names: CNBC Top News, Financial Times World, MarketWatch Breaking News, NYT Business
 - sample_headlines:
-  - A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees
-  - Bitcoin bulls can't rely on ETF flows
-  - Here’s what happened in crypto today
-  - Should you leave Australia to avoid paying 47% tax on crypto gains?
-  - Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals
+  - China’s monthly imports grow at fastest pace in five years as surplus crosses $1 trillion in 2026
+  - The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips
+  - China’s trade surplus exceeds $1tn for first 10 months of year
+  - China’s Trade Surplus Passes $1 Trillion at Record Pace
 - recent_evidence:
-  - Cointelegraph | 2026-11-09T18:25:29+00:00 | Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals | https://cointelegraph.com/news/mercado-bitcoin-reopening-withdrawals-hack-suspended?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  - Cointelegraph | 2026-11-09T17:13:25+00:00 | Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target | https://cointelegraph.com/markets/bitcoin-stocks-nvidia-analyst-68k-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  - CoinDesk RSS | 2026-11-09T16:19:45+00:00 | A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees | https://www.coindesk.com/tech/2026/11/09/a-bitcoin-block-just-neared-a-2015-transaction-record-but-paid-only-usd180-in-fees
-  - CoinDesk RSS | 2026-11-09T12:30:00+00:00 | Bitcoin bulls can't rely on ETF flows | https://www.coindesk.com/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows
-  - Investing.com Crypto News | 2026-11-09 13:05:02 | Strategy sells MSTR shares, buys bitcoin, and repurchases STRC stock | https://www.investing.com/news/cryptocurrency-news/strategy-sells-mstr-shares-buys-bitcoin-and-repurchases-strc-stock-432SI-5011934
+  - CNBC Top News | 2026-11-10T05:03:55+00:00 | China’s monthly imports grow at fastest pace in five years as surplus crosses $1 trillion in 2026 | https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html
+  - Financial Times World | 2026-11-10T05:03:06+00:00 | China’s trade surplus exceeds $1tn for first 10 months of year | https://www.ft.com/content/a267d321-a489-4426-940e-1e4be712dc09?syn-25a6b1a6=1
+  - NYT Business | 2026-11-10T04:00:06+00:00 | China’s Trade Surplus Passes $1 Trillion at Record Pace | https://www.nytimes.com/2026/11/09/business/china-trade-surplus-trillion.html
+  - MarketWatch Breaking News | 2026-11-10T00:48:00+00:00 | The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips | https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories

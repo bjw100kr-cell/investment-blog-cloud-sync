@@ -1,101 +1,101 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
   "cards": [
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-11-09",
-      "review_verdict": "approve",
-      "quality_status": "pass",
-      "ready_now": true,
-      "hero_image_selected": true,
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
-      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
-      "sample_headlines": [
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test."
-      ],
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 28 Oct 2026 18:00:00 GMT",
-          "published_iso": "2026-10-28T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-          "source_type": "rss"
-        }
-      ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
-      "followup_commands": [
-        "python3 scripts/build_platform_publish_plan.py",
-        "python3 scripts/upload_blogger_drafts.py",
-        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
-      ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
-      "hard_blocking_checks": []
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "publish_date": "2026-11-11",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Google’s AI chip push adds more pressure on Nvidia",
-        "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
-        "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO"
+        "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
+        "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
+        "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees"
       ],
       "recent_evidence": [
         {
-          "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Mon, 09 Nov 2026 21:55:00 GMT",
-          "published_iso": "2026-11-09T21:55:00+00:00",
-          "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
+          "title": "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
+          "source_name": "CoinDesk RSS",
+          "published": "Tue, 10 Nov 2026 05:18:31 +0000",
+          "published_iso": "2026-11-10T05:18:31+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-miner-mara-sold-13-597-btc-for-usd1-1-billion-in-six-weeks-plans-to-sell-more",
           "source_type": "rss"
         },
         {
-          "title": "Are AMD and Broadcom the real winners of the Nvidia spy scandal?",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Mon, 09 Nov 2026 21:43:00 GMT",
-          "published_iso": "2026-11-09T21:43:00+00:00",
-          "link": "https://www.marketwatch.com/story/are-amd-and-broadcom-the-real-winners-of-the-nvidia-spy-scandal-d2343072?mod=mw_rss_topstories",
+          "title": "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
+          "source_name": "CoinDesk RSS",
+          "published": "Tue, 10 Nov 2026 03:22:26 +0000",
+          "published_iso": "2026-11-10T03:22:26+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-faces-u-s-cpi-test-as-analysts-warn-inflation-relief-may-not-be-enough",
           "source_type": "rss"
         },
         {
-          "title": "Nvidia shares fall as it probes alleged Chinese spy scandal",
-          "source_name": "Financial Times Home",
-          "published": "Mon, 09 Nov 2026 21:24:32 GMT",
-          "published_iso": "2026-11-09T21:24:32+00:00",
-          "link": "https://www.ft.com/content/fa3b0a35-1aa9-4f31-97b4-e4c599e3e654?syn-25a6b1a6=1",
+          "title": "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall",
+          "source_name": "Cointelegraph",
+          "published": "Tue, 10 Nov 2026 00:42:39 +0000",
+          "published_iso": "2026-11-10T00:42:39+00:00",
+          "link": "https://cointelegraph.com/markets/hives-bitcoin-output-jumps-49-but-mining-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        }
+      ],
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%95%B5%EC%8B%AC-%ED%9D%90%EB%A6%84-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+      "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+      "followup_commands": [
+        "python3 scripts/build_platform_publish_plan.py",
+        "python3 scripts/upload_blogger_drafts.py",
+        "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
+      ],
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply",
+      "hard_blocking_checks": []
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "publish_date": "2026-11-12",
+      "review_verdict": "approve",
+      "quality_status": "pass",
+      "ready_now": true,
+      "hero_image_selected": true,
+      "reason": "복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능",
+      "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
+      "sample_headlines": [
+        "Google’s AI chip push adds more pressure on Nvidia",
+        "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
+        "TSMC's October sales jump as global chip boom rolls on"
+      ],
+      "recent_evidence": [
+        {
+          "title": "TSMC's October sales jump as global chip boom rolls on",
+          "source_name": "CNBC Top News",
+          "published": "Tue, 10 Nov 2026 05:42:42 GMT",
+          "published_iso": "2026-11-10T05:42:42+00:00",
+          "link": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "FirstFT: FBI is ‘looking into’ Nvidia’s Huang, Trump says",
+          "source_name": "Financial Times World",
+          "published": "Tue, 10 Nov 2026 05:31:40 GMT",
+          "published_iso": "2026-11-10T05:31:40+00:00",
+          "link": "https://www.ft.com/content/6e4100c2-a69e-4f42-a99d-64c056d8592d?syn-25a6b1a6=1",
+          "source_type": "rss"
+        },
+        {
+          "title": "Morning Bid: Anthropic IPO: Please try again - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Tue, 10 Nov 2026 05:31:00 GMT",
+          "published_iso": "2026-11-10T05:31:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CeC1RN1hvWlBLQ0hHeVpIRS1lOU14N1J6a1pDc1FPRG84VnZ0Zi1fZEo0VUZoVWJyemFNaFQzcmd4djB5TlJNS3JITXBlMWxfYnZ4dDJUS1FhZS1jVjhQMEpReXFuMlZOU3lURE5pcWtoTHlLbk8xWEEtMWNMZ0U?oc=5",
           "source_type": "rss"
         }
       ],
@@ -114,58 +114,58 @@
       "hard_blocking_checks": []
     },
     {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-11-10",
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "publish_date": "2026-11-13",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
-        "Bitcoin bulls can't rely on ETF flows",
-        "Here’s what happened in crypto today"
+        "China’s monthly imports grow at fastest pace in five years as surplus crosses $1 trillion in 2026",
+        "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
+        "China’s trade surplus exceeds $1tn for first 10 months of year"
       ],
       "recent_evidence": [
         {
-          "title": "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals",
-          "source_name": "Cointelegraph",
-          "published": "Mon, 09 Nov 2026 18:25:29 +0000",
-          "published_iso": "2026-11-09T18:25:29+00:00",
-          "link": "https://cointelegraph.com/news/mercado-bitcoin-reopening-withdrawals-hack-suspended?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "China’s monthly imports grow at fastest pace in five years as surplus crosses $1 trillion in 2026",
+          "source_name": "CNBC Top News",
+          "published": "Tue, 10 Nov 2026 05:03:55 GMT",
+          "published_iso": "2026-11-10T05:03:55+00:00",
+          "link": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
-          "source_name": "Cointelegraph",
-          "published": "Mon, 09 Nov 2026 17:13:25 +0000",
-          "published_iso": "2026-11-09T17:13:25+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-stocks-nvidia-analyst-68k-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "China’s trade surplus exceeds $1tn for first 10 months of year",
+          "source_name": "Financial Times World",
+          "published": "Tue, 10 Nov 2026 05:03:06 GMT",
+          "published_iso": "2026-11-10T05:03:06+00:00",
+          "link": "https://www.ft.com/content/a267d321-a489-4426-940e-1e4be712dc09?syn-25a6b1a6=1",
           "source_type": "rss"
         },
         {
-          "title": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
-          "source_name": "CoinDesk RSS",
-          "published": "Mon, 09 Nov 2026 16:19:45 +0000",
-          "published_iso": "2026-11-09T16:19:45+00:00",
-          "link": "https://www.coindesk.com/tech/2026/11/09/a-bitcoin-block-just-neared-a-2015-transaction-record-but-paid-only-usd180-in-fees",
+          "title": "China’s Trade Surplus Passes $1 Trillion at Record Pace",
+          "source_name": "NYT Business",
+          "published": "Tue, 10 Nov 2026 04:00:06 +0000",
+          "published_iso": "2026-11-10T04:00:06+00:00",
+          "link": "https://www.nytimes.com/2026/11/09/business/china-trade-surplus-trillion.html",
           "source_type": "rss"
         }
       ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%95%B5%EC%8B%AC-%ED%9D%90%EB%A6%84-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
       "followup_commands": [
         "python3 scripts/build_platform_publish_plan.py",
         "python3 scripts/upload_blogger_drafts.py",
         "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
       ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
       "hard_blocking_checks": []
     }
   ]

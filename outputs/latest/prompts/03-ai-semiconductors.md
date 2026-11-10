@@ -91,7 +91,7 @@
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -110,7 +110,6 @@
   "source_names": [
     "CNBC Top News",
     "CoinDesk RSS",
-    "Cointelegraph",
     "Financial Times Home",
     "Financial Times World",
     "MarketWatch Breaking News",
@@ -119,10 +118,10 @@
   ],
   "reference_headlines": [
     "Google’s AI chip push adds more pressure on Nvidia",
-    "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
     "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
-    "Alleged Chinese spy linked to Nvidia chief pitched AI chip deals to investors",
-    "Nvidia shares fall as it probes alleged Chinese spy scandal"
+    "TSMC's October sales jump as global chip boom rolls on",
+    "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound",
+    "Trump says FBI is ‘looking into’ Nvidia’s Jensen Huang"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
