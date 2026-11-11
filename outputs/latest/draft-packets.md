@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-10T19:36:54.412458+00:00`
+- 생성 시각: `2026-11-11T05:40:15.135460+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음
-- 점수: 97.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -76,7 +76,7 @@
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
-- 점수: 83.0
+- 점수: 80.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -138,15 +138,15 @@
 - 참고 헤드라인:
   - Crypto is now teamed up with U.S. government in two legal battles over perps
   - Will stablecoins survive once the banks catch up?
-  - Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings
-  - Bitcoin lags stock rebound in advance of U.S. inflation report
-  - Mercado Bitcoin to resume cash withdrawals after $49M hack
+  - Crypto ally Tom Emmer elected House GOP minority whip
+  - LNbits rushes emergency patch after reported Bitcoin wallet thefts
+  - Can crypto trust firms compete with banks in US derivatives settlements?
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - 각도: 복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 86.0
+- 점수: 88.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,11 +206,11 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem
-  - Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe
-  - Alice Huang’s tangled web of connections
-  - Anthropic targets valuation of up to $1.4tn in IPO
-  - Microsoft tops Nvidia's market cap for first time since June 2025 - Reuters
+  - Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation
+  - Alibaba announces plans to list T-Head, its Nvidia chip rival
+  - Anthropic opens Australian retail IPO offering as AI scrutiny intensifies
+  - Anthropic bankers prepare to increase IPO valuation to $1.5tn or more
+  - US commerce department delays Megaspeed’s inclusion on trade blacklist
 
 ## 4. china
 
@@ -276,5 +276,5 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem
-  - VW pivots again as ‘In China, For China’ runs out of road
+  - U.S., China should ‘harbor no illusions’ as they cooperate, compete on AI, Bessent says
+  - Europe’s struggle to compete with China ramps up

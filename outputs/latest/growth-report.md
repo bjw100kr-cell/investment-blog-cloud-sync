@@ -1,16 +1,16 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-11-10T19:36:54.412458+00:00`
+- 생성 시각: `2026-11-11T05:40:15.135460+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
-- `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 점수 97.0 / 수익화 15
-  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음
-  - 근거 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 83.0 / 수익화 15
+- `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 점수 94.0 / 수익화 15
+  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+  - 근거 소스: CoinDesk RSS, Federal Reserve Monetary Policy Press, NYT Business, Reuters Markets via Google News RSS
+- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 80.0 / 수익화 15
   - 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
   - 근거 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `ai_semiconductors`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 점수 86.0 / 수익화 15
+- `ai_semiconductors`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 점수 88.0 / 수익화 15
   - 이유: 복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능
   - 근거 소스: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 
@@ -27,10 +27,10 @@
 
 ## 무료 트렌드 수요 신호
 
+- `ai_semiconductors`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 - `fomc`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 - `bitcoin`: trend_count 0, traffic_sum 0, regions  / 쿼리 
-- `cpi`: trend_count 0, traffic_sum 0, regions  / 쿼리 
-- `ai_semiconductors`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `us_index_flow`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 
 ## 다음 7일 실행 포인트
 

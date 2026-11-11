@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:36:54.412458+00:00",
+  "generated_at": "2026-11-11T05:40:15.135460+00:00",
   "lane_order": [
     "macro",
     "crypto",
@@ -46,7 +46,7 @@
       "target_share": 0.3,
       "selected_keyword": "fomc",
       "selected_mode": "direct",
-      "freshness_status": "unknown"
+      "freshness_status": "stale"
     },
     {
       "lane": "crypto",
@@ -67,47 +67,39 @@
       "target_share": 0.2,
       "selected_keyword": "china",
       "selected_mode": "direct",
-      "freshness_status": "fresh"
+      "freshness_status": "unknown"
     }
   ],
   "schedule": [
     {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "slot": 1,
       "role": "lane_focus_macro",
       "post_type": "breaking_explainer",
       "target_keyword": "fomc",
       "working_title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (8개), 거시 해설형 글로 전환 가치 높음",
+      "angle": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "search_intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
-        "CNBC Top News",
         "CoinDesk RSS",
-        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Financial Times World",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "source_basis": [
-        "CNBC Top News",
         "CoinDesk RSS",
-        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Financial Times World",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
-      "publish_note": "당일 이슈 해설형 글",
+      "publish_note": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
       "brand_lane": "macro",
-      "freshness_status": "unknown",
+      "freshness_status": "stale",
       "planning_mode": "direct"
     },
     {
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "slot": 2,
       "role": "lane_focus_crypto",
       "post_type": "breaking_explainer",
@@ -132,7 +124,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "slot": 3,
       "role": "lane_focus_us-stocks",
       "post_type": "breaking_explainer",
@@ -163,7 +155,7 @@
       "planning_mode": "direct"
     },
     {
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "slot": 4,
       "role": "lane_focus_world-flow",
       "post_type": "breaking_explainer",
@@ -174,19 +166,19 @@
       "monetization_path": "시의성 유입 확보 후 설명형 글과 내부링크로 체류 확대",
       "internal_link_targets": [
         "CNBC Top News",
-        "Financial Times Home"
+        "Financial Times World"
       ],
       "source_basis": [
         "CNBC Top News",
-        "Financial Times Home"
+        "Financial Times World"
       ],
-      "publish_note": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "publish_note": "당일 이슈 해설형 글",
       "brand_lane": "world-flow",
-      "freshness_status": "fresh",
+      "freshness_status": "unknown",
       "planning_mode": "direct"
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "slot": 5,
       "role": "evergreen_support",
       "post_type": "evergreen_explainer",
@@ -214,7 +206,7 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-11-15",
+      "date": "2026-11-16",
       "slot": 6,
       "role": "secondary_lane_support",
       "post_type": "evergreen_explainer",
@@ -241,7 +233,7 @@
       "planning_mode": "evergreen"
     },
     {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "slot": 7,
       "role": "weekly_recap",
       "post_type": "weekly_macro_recap",

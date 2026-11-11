@@ -109,11 +109,11 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "Financial Times Home"
+    "Financial Times World"
   ],
   "reference_headlines": [
-    "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
-    "VW pivots again as ‘In China, For China’ runs out of road"
+    "U.S., China should ‘harbor no illusions’ as they cooperate, compete on AI, Bessent says",
+    "Europe’s struggle to compete with China ramps up"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [

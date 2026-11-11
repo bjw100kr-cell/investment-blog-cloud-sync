@@ -116,11 +116,11 @@
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
-    "Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe",
-    "Alice Huang’s tangled web of connections",
-    "Anthropic targets valuation of up to $1.4tn in IPO",
-    "Microsoft tops Nvidia's market cap for first time since June 2025 - Reuters"
+    "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation",
+    "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+    "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies",
+    "Anthropic bankers prepare to increase IPO valuation to $1.5tn or more",
+    "US commerce department delays Megaspeed’s inclusion on trade blacklist"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -183,8 +183,8 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 86.0,
-    "search_score": 26,
+    "total_score": 88.0,
+    "search_score": 28,
     "timeliness_score": 21,
     "explanatory_score": 17,
     "monetization_score": 15,
