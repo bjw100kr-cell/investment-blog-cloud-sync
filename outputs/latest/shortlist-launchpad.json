@@ -1,61 +1,61 @@
 {
   "item_count": 3,
-  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+  "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc bitcoin",
   "cards": [
     {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-11-12",
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "publish_date": "2026-11-11",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Crypto is now teamed up with U.S. government in two legal battles over perps",
-        "Will stablecoins survive once the banks catch up?",
-        "Crypto ally Tom Emmer elected House GOP minority whip"
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+        "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes"
       ],
       "recent_evidence": [
         {
-          "title": "LNbits rushes emergency patch after reported Bitcoin wallet thefts",
-          "source_name": "Cointelegraph",
-          "published": "Wed, 11 Nov 2026 01:16:58 +0000",
-          "published_iso": "2026-11-11T01:16:58+00:00",
-          "link": "https://cointelegraph.com/news/lnbits-rushes-emergency-patch-after-reported-bitcoin-wallet-thefts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 28 Oct 2026 18:00:00 GMT",
+          "published_iso": "2026-10-28T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin falls over 2%, drops under $74k after hot CPI data, hawkish Waller",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-11-10 22:34:37",
-          "published_iso": "2026-11-10 22:34:37",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-75k-as-regulatory-uncertainty-etf-outflows-persist-5014179",
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin turns slightly higher amid Wall Street rally, slide in oil prices",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-11-09 23:11:41",
-          "published_iso": "2026-11-09 23:11:41",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-to-74k-as-regulatory-uncertainty-etf-outflows-weigh-5010570",
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
           "source_type": "rss"
         }
       ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%95%B5%EC%8B%AC-%ED%9D%90%EB%A6%84-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
       "followup_commands": [
         "python3 scripts/build_platform_publish_plan.py",
         "python3 scripts/upload_blogger_drafts.py",
         "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
       ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
       "hard_blocking_checks": []
     },
     {
@@ -66,36 +66,36 @@
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation",
-        "Alibaba announces plans to list T-Head, its Nvidia chip rival",
-        "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies"
+        "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
+        "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
+        "OKXICE moves ahead with tokenized stocks as blue chips push back"
       ],
       "recent_evidence": [
         {
-          "title": "FirstFT: Anthropic bankers prepare to increase IPO valuation to $1.5tn",
-          "source_name": "Financial Times World",
-          "published": "Wed, 11 Nov 2026 05:31:36 GMT",
-          "published_iso": "2026-11-11T05:31:36+00:00",
-          "link": "https://www.ft.com/content/cb451a27-481d-4106-b40f-4a83e3e361fd?syn-25a6b1a6=1",
-          "source_type": "rss"
-        },
-        {
-          "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+          "title": "Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes",
           "source_name": "CNBC Top News",
-          "published": "Wed, 11 Nov 2026 03:08:17 GMT",
-          "published_iso": "2026-11-11T03:08:17+00:00",
-          "link": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
+          "published": "Wed, 11 Nov 2026 19:17:19 GMT",
+          "published_iso": "2026-11-11T19:17:19+00:00",
+          "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
           "source_type": "rss"
         },
         {
-          "title": "How a Suspected Chinese Spy Gained Access to Nvidia Chips",
-          "source_name": "NYT Business",
-          "published": "Wed, 11 Nov 2026 02:10:37 +0000",
-          "published_iso": "2026-11-11T02:10:37+00:00",
-          "link": "https://www.nytimes.com/video/business/100000011273241/alice-huang-nvidia-china-spy.html",
+          "title": "Nvidia is spending more than ever on Washington lobbying. It may not stop Congress from limiting China chip sales now.",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Wed, 11 Nov 2026 18:48:00 GMT",
+          "published_iso": "2026-11-11T18:48:00+00:00",
+          "link": "https://www.marketwatch.com/story/nvidia-is-spending-more-than-ever-on-washington-lobbying-it-still-may-not-be-able-to-stop-congress-from-limiting-its-china-chip-sales-now-d4c34c66?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
+          "title": "OKXICE moves ahead with tokenized stocks as blue chips push back",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 11 Nov 2026 18:30:43 +0000",
+          "published_iso": "2026-11-11T18:30:43+00:00",
+          "link": "https://cointelegraph.com/news/okxice-tokenized-stocks-blue-chips-push-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ],
@@ -114,49 +114,58 @@
       "hard_blocking_checks": []
     },
     {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "publish_date": "2026-11-14",
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
+      "publish_date": "2026-11-12",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "U.S., China should ‘harbor no illusions’ as they cooperate, compete on AI, Bessent says",
-        "Europe’s struggle to compete with China ramps up"
+        "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
+        "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
+        "Bitcoin barely flinches at hot CPI as ETF selling slows"
       ],
       "recent_evidence": [
         {
-          "title": "U.S., China should ‘harbor no illusions’ as they cooperate, compete on AI, Bessent says",
-          "source_name": "CNBC Top News",
-          "published": "Wed, 11 Nov 2026 05:15:50 GMT",
-          "published_iso": "2026-11-11T05:15:50+00:00",
-          "link": "https://www.cnbc.com/2026/11/11/trump-xi-summit-ai-nvidia-.html",
+          "title": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 11 Nov 2026 16:26:00 +0000",
+          "published_iso": "2026-11-11T16:26:00+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-74k-stocks-us-bond-yield-inflation-cpi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Europe’s struggle to compete with China ramps up",
-          "source_name": "Financial Times World",
-          "published": "Wed, 11 Nov 2026 05:13:03 GMT",
-          "published_iso": "2026-11-11T05:13:03+00:00",
-          "link": "https://www.ft.com/content/efe5f679-ff24-48da-b47e-dcb57494750f?syn-25a6b1a6=1",
+          "title": "Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY — How Bitcoin could carry state across transactions",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 11 Nov 2026 13:26:18 +0000",
+          "published_iso": "2026-11-11T13:26:18+00:00",
+          "link": "https://cointelegraph.com/research/bitcoin-covenants-part-5-matt-op-ccv?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 11 Nov 2026 12:21:24 +0000",
+          "published_iso": "2026-11-11T12:21:24+00:00",
+          "link": "https://www.coindesk.com/tech/2026/11/11/live-news-coreweave-jumps-14-as-earnings-fuel-rebound-across-battered-ai-stocks",
           "source_type": "rss"
         }
       ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/02-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%ED%95%B5%EC%8B%AC-%ED%9D%90%EB%A6%84-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
       "followup_commands": [
         "python3 scripts/build_platform_publish_plan.py",
         "python3 scripts/upload_blogger_drafts.py",
         "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
       ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply",
       "hard_blocking_checks": []
     }
   ]

@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-11-11T05:40:15.135460+00:00",
+  "generated_at": "2026-11-11T19:29:40.594391+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 0,
+    "unmatched_market_trend_count": 1,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "bitcoin",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 5900,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 47,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": [
+        "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
+        "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
+        "Bitcoin barely flinches at hot CPI as ETF selling slows"
+      ]
+    },
     {
       "keyword": "ai_semiconductors",
       "trend_count": 0,
@@ -14,23 +38,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5100,
+      "demand_signal_score": 5400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 39,
-      "source_count": 6,
+      "source_snapshot_score": 42,
+      "source_count": 7,
       "source_names": [
         "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph",
         "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "Financial Times World"
       ],
       "sample_titles": [
-        "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation",
-        "Alibaba announces plans to list T-Head, its Nvidia chip rival",
-        "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies"
+        "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
+        "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
+        "OKXICE moves ahead with tokenized stocks as blue chips push back"
       ]
     },
     {
@@ -40,14 +64,14 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4700,
+      "demand_signal_score": 4000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 35,
+      "source_snapshot_score": 28,
       "source_count": 4,
       "source_names": [
-        "CoinDesk RSS",
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
         "NYT Business",
         "Reuters Markets via Google News RSS"
@@ -55,31 +79,7 @@
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%"
-      ]
-    },
-    {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 3800,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 26,
-      "source_count": 3,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Crypto is now teamed up with U.S. government in two legal battles over perps",
-        "Will stablecoins survive once the banks catch up?",
-        "Crypto ally Tom Emmer elected House GOP minority whip"
+        "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes"
       ]
     },
     {
@@ -89,24 +89,35 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3100,
+      "demand_signal_score": 3600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 19,
-      "source_count": 4,
+      "source_snapshot_score": 24,
+      "source_count": 7,
       "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
         "Financial Times Home",
         "Financial Times World",
-        "Investing.com Crypto News",
-        "NYT Business"
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "JUSD Finance Becomes Drakewell and Introduces SPYdw, a Hedged SPY Portfolio",
-        "US commerce department delays Megaspeed’s inclusion on trade blacklist",
-        "Nvidia hires former US prosecutor at Wachtell to lead Jensen Huang probe"
+        "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
+        "OKXICE moves ahead with tokenized stocks as blue chips push back",
+        "JUSD Finance Becomes Drakewell and Introduces SPYdw, a Hedged SPY Portfolio"
       ]
     }
   ],
-  "unmatched_market_trends": []
+  "unmatched_market_trends": [
+    {
+      "query": "nfl football trade deadline",
+      "region": "US",
+      "approx_traffic": "10000+",
+      "traffic_score": 10000,
+      "market_relevance_score": 1,
+      "brand_identity_match": true,
+      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
+    }
+  ]
 }

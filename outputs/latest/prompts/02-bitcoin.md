@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Crypto is now teamed up with U.S. government in two legal battles over perps",
-    "Will stablecoins survive once the banks catch up?",
-    "Crypto ally Tom Emmer elected House GOP minority whip",
-    "LNbits rushes emergency patch after reported Bitcoin wallet thefts",
-    "Can crypto trust firms compete with banks in US derivatives settlements?"
+    "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
+    "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
+    "Bitcoin barely flinches at hot CPI as ETF selling slows",
+    "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
+    "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,8 +180,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 80.0,
-    "search_score": 26,
+    "total_score": 83.0,
+    "search_score": 29,
     "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,

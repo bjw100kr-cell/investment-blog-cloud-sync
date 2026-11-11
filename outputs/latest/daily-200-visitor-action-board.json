@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T05:40:19.176494+00:00",
+  "generated_at": "2026-11-11T19:29:43.935057+00:00",
   "target_daily_visitors": 200,
   "status": "measurement_missing_keep_building",
   "proof": {
@@ -9,12 +9,30 @@
     "measurement_missing": true
   },
   "publishing_capacity": {
-    "quality_ready_count": 6,
+    "quality_ready_count": 7,
     "blogger_ready_count": 1,
     "recommended_posts_next_run": 1,
     "rule": "품질 게이트 통과 글만 실행당 최대 3건"
   },
   "keyword_capture_actions": [
+    {
+      "mapped_keyword": "bitcoin",
+      "primary_query": "비트코인 전망",
+      "supporting_queries": [
+        "비트코인 ETF 자금 흐름",
+        "비트코인 하락 이유",
+        "비트코인 오늘 시세 보는법"
+      ],
+      "suggested_title": "비트코인 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "demand_signal_score": 5900,
+      "use_in": [
+        "title",
+        "first_h2",
+        "meta_description",
+        "internal_link_anchor",
+        "social_share_copy"
+      ]
+    },
     {
       "mapped_keyword": "ai_semiconductors",
       "primary_query": "AI 반도체 주식",
@@ -24,7 +42,7 @@
         "AI 데이터센터 수혜주"
       ],
       "suggested_title": "AI 반도체 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 5100,
+      "demand_signal_score": 5400,
       "use_in": [
         "title",
         "first_h2",
@@ -42,25 +60,7 @@
         "연준 금리 발표 비트코인 영향"
       ],
       "suggested_title": "FOMC 일정 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 4700,
-      "use_in": [
-        "title",
-        "first_h2",
-        "meta_description",
-        "internal_link_anchor",
-        "social_share_copy"
-      ]
-    },
-    {
-      "mapped_keyword": "bitcoin",
-      "primary_query": "비트코인 전망",
-      "supporting_queries": [
-        "비트코인 ETF 자금 흐름",
-        "비트코인 하락 이유",
-        "비트코인 오늘 시세 보는법"
-      ],
-      "suggested_title": "비트코인 전망 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 3800,
+      "demand_signal_score": 4000,
       "use_in": [
         "title",
         "first_h2",
@@ -78,7 +78,21 @@
         "미국 주식 금리 영향"
       ],
       "suggested_title": "미국 증시 오늘 왜 검색이 급증했나: 투자자 관점 핵심 정리",
-      "demand_signal_score": 3100,
+      "demand_signal_score": 3600,
+      "use_in": [
+        "title",
+        "first_h2",
+        "meta_description",
+        "internal_link_anchor",
+        "social_share_copy"
+      ]
+    },
+    {
+      "mapped_keyword": "",
+      "primary_query": "nfl football trade deadline",
+      "supporting_queries": [],
+      "suggested_title": "nfl football trade deadline 왜 검색이 급증했나: 투자자 관점 핵심 정리",
+      "demand_signal_score": 10000,
       "use_in": [
         "title",
         "first_h2",
