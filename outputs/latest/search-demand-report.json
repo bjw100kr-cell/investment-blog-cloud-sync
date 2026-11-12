@@ -1,36 +1,12 @@
 {
-  "generated_at": "2026-11-11T19:29:40.594391+00:00",
+  "generated_at": "2026-11-12T06:46:53.601781+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 1,
+    "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 5900,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 47,
-      "source_count": 3,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
-        "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-        "Bitcoin barely flinches at hot CPI as ETF selling slows"
-      ]
-    },
     {
       "keyword": "ai_semiconductors",
       "trend_count": 0,
@@ -38,12 +14,12 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5400,
+      "demand_signal_score": 7800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 42,
-      "source_count": 7,
+      "source_snapshot_score": 66,
+      "source_count": 8,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
@@ -52,9 +28,33 @@
         "Financial Times World"
       ],
       "sample_titles": [
+        "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
         "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-        "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
-        "OKXICE moves ahead with tokenized stocks as blue chips push back"
+        "Nvidia preparing to oust CEO Jensen Huang after affairs: WSJ"
+      ]
+    },
+    {
+      "keyword": "bitcoin",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 5200,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 40,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": [
+        "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
+        "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+        "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending"
       ]
     },
     {
@@ -64,22 +64,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4000,
+      "demand_signal_score": 4100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 28,
-      "source_count": 4,
+      "source_snapshot_score": 29,
+      "source_count": 3,
       "source_names": [
-        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
-        "NYT Business",
+        "Investing.com Crypto News",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes"
+        "Bitcoin subdued, hovers under $74k as rise in Fed rate hike expectations weigh"
       ]
     },
     {
@@ -89,35 +88,25 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3600,
+      "demand_signal_score": 3000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 24,
-      "source_count": 7,
+      "source_snapshot_score": 18,
+      "source_count": 5,
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
+        "CNBC Top News",
         "Financial Times Home",
-        "Financial Times World",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
-        "OKXICE moves ahead with tokenized stocks as blue chips push back",
-        "JUSD Finance Becomes Drakewell and Introduces SPYdw, a Hedged SPY Portfolio"
+        "Nvidia board meeting to decide CEO Jensen Huang’s fate stretches into evening",
+        "JUSD Finance Becomes Drakewell and Introduces SPYdw, a Hedged SPY Portfolio",
+        "Nvidia board to decide Jensen Huang’s fate after revelation of affair with subordinate"
       ]
     }
   ],
-  "unmatched_market_trends": [
-    {
-      "query": "nfl football trade deadline",
-      "region": "US",
-      "approx_traffic": "10000+",
-      "traffic_score": 10000,
-      "market_relevance_score": 1,
-      "brand_identity_match": true,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    }
-  ]
+  "unmatched_market_trends": []
 }
