@@ -118,11 +118,11 @@
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
-    "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-    "Nvidia preparing to oust CEO Jensen Huang after affairs: WSJ",
-    "Nvidia board meeting to decide CEO Jensen Huang’s fate stretches into evening",
-    "What we know so far about Nvidia partner Megaspeed’s Asia footprint"
+    "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
+    "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
+    "Jensen Huang resigns as Nvidia CEO, exits board; shares plunge",
+    "Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees",
+    "Jensen Huang's exit from Nvidia raises critical questions about the future of AI"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [

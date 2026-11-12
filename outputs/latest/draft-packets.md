@@ -1,11 +1,11 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-12T06:46:53.601781+00:00`
+- 생성 시각: `2026-11-12T19:48:21.698162+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
 - 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
@@ -66,16 +66,16 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Federal Reserve issues FOMC statement
-  - Bitcoin subdued, hovers under $74k as rise in Fed rate hike expectations weigh
+  - In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (mixed)
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)
 - 점수: 82.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
@@ -136,11 +136,11 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor
-  - Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe
-  - Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending
-  - Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound
-  - Here’s what happened in crypto today
+  - Illinois crypto tax is impossible to enforce as written, crypto industry tells court
+  - Crypto for Advisors: The blockchain built to run financial markets
+  - Bitcoin weakness erases September's bullish signal
+  - Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down
+  - Crypto hack losses equal 57 cents per $1 earned onchain: Ark’s Valente
 
 ## 3. ai_semiconductors
 
@@ -206,22 +206,22 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe
-  - Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound
-  - Nvidia preparing to oust CEO Jensen Huang after affairs: WSJ
-  - Nvidia board meeting to decide CEO Jensen Huang’s fate stretches into evening
-  - What we know so far about Nvidia partner Megaspeed’s Asia footprint
+  - Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump
+  - Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down
+  - Jensen Huang resigns as Nvidia CEO, exits board; shares plunge
+  - Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees
+  - Jensen Huang's exit from Nvidia raises critical questions about the future of AI
 
-## 4. tariffs_trade
+## 4. china
 
-- 추천 제목: 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 57.0
+- 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 50.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
-  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유
-  - 관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
+  - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 글 구조:
   - 왜 지금 이 이슈가 중요한가
   - 실제로 발표되거나 벌어진 일
@@ -270,11 +270,11 @@
   - 해설: 쉽게 말해 시장은 숫자 하나만 보는 게 아닙니다. 같은 금리 동결이어도 연준이 앞으로 어떤 표정을 짓는지에 따라 달러가 움직이고, 그다음에 성장주와 코인이 반응할 수 있습니다. 그래서 headline만 보고 끝내면 흐름을 놓치기 쉽습니다.
   - 마무리: 여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다.
 - 팩트체크:
-  - 관세/무역 조치 공식 문서나 발표문 확인
-  - 시장 영향은 조건형 문장으로 서술
-  - 정치적 해석 과잉 여부 점검
+  - 정책 발표 또는 인터뷰 원문 여부 확인
+  - 중국 관련 2차 해설을 사실처럼 단정하지 않기
+  - 한국/미국 시장 영향은 시나리오형으로 서술
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - EU and UK set to delay 10% tariff on electric cars
-  - EU and UK set to delay 10% tariff on electric cars
+  - Singapore barred Alice Huang for giving police ‘inaccurate information’
+  - China warns US not to use Nvidia scandal as pretext for tech curbs
