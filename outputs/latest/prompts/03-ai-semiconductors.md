@@ -109,7 +109,7 @@
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "Cointelegraph",
+    "CoinDesk RSS",
     "Financial Times Home",
     "Financial Times World",
     "MarketWatch Breaking News",
@@ -117,11 +117,11 @@
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Former Nvidia CEO Huang had third alleged affair: Reuters",
-    "Alice Huang tied to Nvidia’s biggest Chinese competitor",
-    "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
-    "As Nvidia reels from Huang's affairs, who stands to gain?",
-    "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation"
+    "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+    "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
+    "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
+    "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC",
+    "Arm boss Rene Haas approached in Nvidia CEO search"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [

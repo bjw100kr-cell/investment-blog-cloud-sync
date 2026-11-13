@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T06:01:59.725908+00:00",
+  "generated_at": "2026-11-13T19:30:48.190064+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -58,20 +58,20 @@
         "Federal Reserve issues FOMC statement",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Bitcoin subdued, hovers under $74k as rise in Fed rate hike expectations weigh"
+        "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "Financial Times World",
+        "NYT Business"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 4200,
+      "demand_signal_score": 4800,
       "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
@@ -94,7 +94,7 @@
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "reason": "복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -103,37 +103,38 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
-        "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
-        "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
-        "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
-        "Illinois crypto tax is impossible to enforce as written, crypto industry tells court"
+        "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+        "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
+        "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline",
+        "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
+        "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
         "Financial Times World",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "무역킹 Trade King YouTube"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 5000,
-      "search_score": 28,
-      "timeliness_score": 20,
-      "explanatory_score": 17,
+      "demand_signal_score": 6600,
+      "search_score": 29,
+      "timeliness_score": 21,
+      "explanatory_score": 18,
       "monetization_score": 15,
       "risk_score": 3,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 2,
+      "search_demand_bonus": 3,
       "crypto_market_signal_bonus": 5,
       "crypto_market_sentiment": "extreme_fear",
       "crypto_market_signal_notes": [
-        "BTCUSDT 24h change -7.58%",
+        "BTCUSDT 24h change -3.55%",
         "Fear/Greed 20: Extreme Fear zone"
       ],
-      "total_score": 88.0,
+      "total_score": 91.0,
       "format": "crypto_analysis"
     },
     {
@@ -154,16 +155,16 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Former Nvidia CEO Huang had third alleged affair: Reuters",
-        "Alice Huang tied to Nvidia’s biggest Chinese competitor",
-        "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
-        "As Nvidia reels from Huang's affairs, who stands to gain?",
-        "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation"
+        "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+        "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
+        "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
+        "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC",
+        "Arm boss Rene Haas approached in Nvidia CEO search"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
-        "Cointelegraph",
+        "CoinDesk RSS",
         "Financial Times Home",
         "Financial Times World",
         "MarketWatch Breaking News",
@@ -173,7 +174,7 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 6500,
+      "demand_signal_score": 7100,
       "search_score": 29,
       "timeliness_score": 21,
       "explanatory_score": 18,
@@ -188,60 +189,15 @@
       "format": "sector_analysis"
     },
     {
-      "keyword": "us_big_tech",
+      "keyword": "china",
       "category": "global-sector",
-      "brand_lane": "us-stocks",
+      "brand_lane": "world-flow",
       "title_candidates": [
-        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자",
-        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유",
-        "미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자"
+        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
+        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
-      "outline": [
-        "지금 이 섹터가 왜 움직이는가",
-        "핵심 뉴스와 시장 반응",
-        "대표 종목과 자금 흐름",
-        "거시 변수와 연결",
-        "다음 실적/정책 이벤트"
-      ],
-      "sample_headlines": [
-        "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
-        "Widespread Microsoft outage takes down Outlook and other 365 services",
-        "Outlook, Teams and More Microsoft Programs Disrupted by Outage"
-      ],
-      "reference_takeaways": [],
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "NYT Business"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 13,
-      "timeliness_score": 15,
-      "explanatory_score": 17,
-      "monetization_score": 15,
-      "risk_score": 5,
-      "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
-      "crypto_market_signal_bonus": 0,
-      "crypto_market_sentiment": "",
-      "crypto_market_signal_notes": [],
-      "total_score": 65.0,
-      "format": "sector_analysis"
-    },
-    {
-      "keyword": "dollar",
-      "category": "macro",
-      "brand_lane": "macro",
-      "title_candidates": [
-        "달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법",
-        "달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법: 지금 시장이 반응하는 이유",
-        "달러 강세가 주식과 비트코인에 주는 영향: 환율부터 보는 법"
-      ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -250,31 +206,80 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
-        "Stocks recover from Nvidia whiplash, dollar climbs with US yields - Reuters",
-        "Dollar near 19-month high on Fed hike bets, yen tests 160 - Reuters"
+        "Jensen Huang’s years-long effort to get close to China",
+        "Washington’s efforts to block Beijing’s access to Nvidia chips could spark a ‘short-lived U.S.-China trade war’ that rattles markets"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "Financial Times Home",
+        "MarketWatch Breaking News"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "fallback_source": "mapped_candidate",
+      "demand_signal_score": 0,
+      "search_score": 8,
+      "timeliness_score": 10,
+      "explanatory_score": 17,
+      "monetization_score": 13,
+      "risk_score": 7,
+      "performance_bonus": 0.0,
+      "search_demand_bonus": 0,
+      "crypto_market_signal_bonus": 0,
+      "crypto_market_sentiment": "",
+      "crypto_market_signal_notes": [],
+      "total_score": 55.0,
+      "format": "macro_explainer"
+    },
+    {
+      "keyword": "us_index_flow",
+      "category": "global-sector",
+      "brand_lane": "us-stocks",
+      "title_candidates": [
+        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
+        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
+      ],
+      "reason": "복수 소스 교차 확인 가능 (6개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "outline": [
+        "지금 이 섹터가 왜 움직이는가",
+        "핵심 뉴스와 시장 반응",
+        "대표 종목과 자금 흐름",
+        "거시 변수와 연결",
+        "다음 실적/정책 이벤트"
+      ],
+      "sample_headlines": [
+        "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy",
+        "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
+        "Is a bottom in for the Nasdaq-100? Charts to watch",
+        "AI believers hold the line after Nvidia ructions",
+        "Goldman Sachs sees S&P 500 rising to 8,700 next year despite slower earnings growth - Reuters"
+      ],
+      "reference_takeaways": [],
+      "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
+        "Financial Times Home",
+        "MarketWatch Breaking News",
+        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2200,
-      "search_score": 13,
-      "timeliness_score": 13,
-      "explanatory_score": 17,
-      "monetization_score": 12,
+      "demand_signal_score": 3200,
+      "search_score": 23,
+      "timeliness_score": 21,
+      "explanatory_score": 19,
+      "monetization_score": 15,
       "risk_score": 6,
       "performance_bonus": 0.0,
       "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 61.0,
-      "format": "macro_explainer"
+      "total_score": 84.0,
+      "format": "sector_analysis"
     }
   ]
 }

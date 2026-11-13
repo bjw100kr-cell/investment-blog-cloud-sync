@@ -28,15 +28,15 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `bitcoin` / publish `2026-11-14` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- why_now: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - sample_headlines:
-  - Bitcoin ETFs are now down over $1.5 billion in net outflows for the year
-  - SpaceX-Tesla merger talks put 30,000 bitcoin back in focus
-  - Bitcoin dips below $70,000 as Dollar Index hits 19-month high
+  - Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters
+  - Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms
+  - Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline
 - recent_evidence:
-  - CoinDesk RSS | 2026-11-13T05:45:26+00:00 | Bitcoin ETFs are now down over $1.5 billion in net outflows for the year
-  - CoinDesk RSS | 2026-11-13T05:08:59+00:00 | SpaceX-Tesla merger talks put 30,000 bitcoin back in focus
-  - CoinDesk RSS | 2026-11-13T03:37:00+00:00 | Bitcoin dips below $70,000 as Dollar Index hits 19-month high
+  - CoinDesk RSS | 2026-11-13T18:39:58+00:00 | Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters
+  - Cointelegraph | 2026-11-13T18:28:29+00:00 | Metaplanet swings to $170M loss as Bitcoin sale hits earnings
+  - Cointelegraph | 2026-11-13T16:39:11+00:00 | Bitcoin holds below $70K as stocks slip despite a cooler US PPI print
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
@@ -49,13 +49,13 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
 - sample_headlines:
-  - Former Nvidia CEO Huang had third alleged affair: Reuters
-  - Alice Huang tied to Nvidia’s biggest Chinese competitor
-  - Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion
+  - Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters
+  - Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms
+  - Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker
 - recent_evidence:
-  - CNBC Top News | 2026-11-13T05:51:34+00:00 | Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion
-  - Financial Times World | 2026-11-13T05:30:07+00:00 | FirstFT: How Nvidia’s Jensen Huang fell from grace
-  - CNBC Top News | 2026-11-13T04:07:44+00:00 | Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation
+  - 무역킹 Trade King YouTube | 21K | 2. After Mamdani, is AOC next..? The DSA taking over the US Democratic Party (US DSA)
+  - CNBC Top News | 2026-11-13T19:26:09+00:00 | Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC
+  - MarketWatch Breaking News | 2026-11-13T19:19:00+00:00 | Washington’s efforts to block Beijing’s access to Nvidia chips could spark a ‘short-lived U.S.-China trade war’ that rattles markets
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`

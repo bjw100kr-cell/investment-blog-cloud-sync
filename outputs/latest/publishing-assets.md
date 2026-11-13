@@ -1,6 +1,6 @@
 # 퍼블리싱 자산
 
-- 생성 시각: `2026-11-13T06:01:59.725908+00:00`
+- 생성 시각: `2026-11-13T19:30:48.190064+00:00`
 
 ## 1. fomc
 
@@ -50,18 +50,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.
 
-## 4. us_big_tech
+## 4. china
 
-- 제목: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- slug: `미국-빅테크-주가가-흔들릴-때-확인할-것-실적-금리-ai-투자`
-- meta title: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-- meta description: 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
+- 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- slug: `중국-변수와-시장-영향-해설`
+- meta title: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+- meta description: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - 카테고리: global-sector
-- 추천 발행일: 미정
-- labels: 투자, 경제, 시장해설, 미국증시, 빅테크, 애플, 실적, 섹터분석
+- 추천 발행일: 2026-11-16
+- labels: 투자, 경제, 시장해설, 중국, 세계흐름, 거시경제
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
-- 이미지 추천: 대표 이미지(Unsplash / technology stocks office city abstract), 본문 보조 이미지(Pexels / semiconductor server data center abstract)
-- 후속 글 후보: 미국 빅테크 주식: 지금 투자자가 확인할 체크포인트 5가지
+- 이미지 추천: 대표 이미지(Unsplash / technology stocks office finance abstract), 본문 보조 이미지(Pexels / semiconductor data center abstract)
 - 광고 슬롯: after_intro, mid_article, before_related_links
-- CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
+- CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 신뢰 메모: 이 글은 투자 추천이 아니라 해설형 콘텐츠이며, 발행 전 최신 숫자와 공식 자료를 다시 확인해야 합니다.

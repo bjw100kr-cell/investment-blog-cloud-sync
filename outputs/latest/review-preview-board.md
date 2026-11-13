@@ -29,7 +29,7 @@
 
 - keyword: `bitcoin`
 - publish_date: `2026-11-14`
-- priority_score: `127.0`
+- priority_score: `130.0`
 - review_verdict: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결

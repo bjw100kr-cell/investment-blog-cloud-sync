@@ -108,18 +108,18 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
+    "CNBC Top News",
+    "CoinDesk RSS",
     "Federal Reserve Monetary Policy Press",
-    "Investing.com Crypto News",
-    "MarketWatch Breaking News",
-    "NYT Business",
-    "Reuters Markets via Google News RSS"
+    "Financial Times World",
+    "NYT Business"
   ],
   "reference_headlines": [
     "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
     "Federal Reserve issues FOMC statement",
     "Federal Reserve issues FOMC statement",
     "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-    "Bitcoin subdued, hovers under $74k as rise in Fed rate hike expectations weigh"
+    "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
