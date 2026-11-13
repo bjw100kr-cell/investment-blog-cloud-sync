@@ -17,7 +17,7 @@
 - quality_status: `pass`
 - draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-이후-시장-해설.html`
-- freshness: `fresh` / newest evidence age `0.1` days
+- freshness: `fresh` / newest evidence age `0.5` days
 - freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Federal Reserve issues FOMC statement
 - freshness_recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - next_action: 사용자 최종 확인 후 Blogger draft 업로드
@@ -33,5 +33,5 @@
 
 ## 다음 후보
 
-- `AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지` / keyword `ai_semiconductors` / ready `True` / quality `pass` / freshness `fresh`
+- `비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트` / keyword `bitcoin` / ready `True` / quality `pass` / freshness `fresh`
   next action: 사용자 최종 확인 후 Blogger draft 업로드

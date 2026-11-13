@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-12T19:48:21.698162+00:00`
+- 생성 시각: `2026-11-13T06:01:59.725908+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,6 +25,30 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / 3. 적그리스도의 역사와 예수회에 관하여 (썬데이스쿨 : 적그리스도)
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=C4eUSwy6NTE! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+- `무역킹 Trade King YouTube` / 2. 맘다니 다음은 AOC..? 미국 민주당을 삼키는 DSA
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=xEe9bh1NCTc! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / Types of people who get held back the moment they try to resign
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=A9fg9gdBb24! This is most likely caused by:
@@ -33,12 +57,11 @@ YouTube is blocking requests from your IP. This usually is due to one of the fol
 - You have done too many requests and your IP has been blocked by YouTube
 - You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
 
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 1. 미국이 사회주의로 간다면..
+- `무역킹 Trade King YouTube` / 1. What if the U.S. turned socialist?
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=T9vK-fElETQ! This is most likely caused by:
 
@@ -46,9 +69,8 @@ YouTube is blocking requests from your IP. This usually is due to one of the fol
 - You have done too many requests and your IP has been blocked by YouTube
 - You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
 
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / Operation Iron Gate: Doubling the pressure on Iran’s throat
@@ -59,87 +81,57 @@ YouTube is blocking requests from your IP. This usually is due to one of the fol
 - You have done too many requests and your IP has been blocked by YouTube
 - You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
 
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / 2. How in the World Does It Add Up to 666? (Sunday School: Antichrist)
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=UOM4lt0-SZ4! This is most likely caused by:
 
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / Big Companies Aren't Hiring Entry-Level: Is This an Opportunity for Small and Medium Enterprises?
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=rQARYzmIrt8! This is most likely caused by:
-
 YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
 - You have done too many requests and your IP has been blocked by YouTube
 - You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
 
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
 
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / How an Idol Group from a Small Agency Topped the Music Charts
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=57wiJ4RP5EA! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `ai_semiconductors`: score 68, source_count 8, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: score 33, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 32, source_count 5, sources CNBC Top News, Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News, NYT Business
-- `us_big_tech`: score 10, source_count 1, sources Google Trends US
-- `treasury_yields`: score 10, source_count 3, sources CoinDesk RSS, MarketWatch Breaking News, NYT Business
-- `china`: score 6, source_count 1, sources Financial Times World
-- `cpi`: score 5, source_count 2, sources Investing.com Crypto News, MarketWatch Breaking News
-- `ethereum`: score 3, source_count 1, sources Cointelegraph
-- `dollar`: score 2, source_count 1, sources NYT Business
-- `us_index_flow`: score 2, source_count 1, sources NYT Business
+- `ai_semiconductors`: score 53, source_count 7, sources CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `bitcoin`: score 38, source_count 4, sources CoinDesk RSS, Cointelegraph, Financial Times World, Investing.com Crypto News
+- `fomc`: score 30, source_count 5, sources Federal Reserve Monetary Policy Press, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `dollar`: score 10, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
+- `us_big_tech`: score 9, source_count 3, sources CNBC Top News, CoinDesk RSS, NYT Business
+- `treasury_yields`: score 4, source_count 2, sources MarketWatch Breaking News, NYT Business
+- `us_index_flow`: score 3, source_count 1, sources Financial Times Home
 
 ## 오늘의 글감 후보
 
-- `ai_semiconductors`: score 68, headlines 24
-  - Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump
-  - Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down
-  - Jensen Huang resigns as Nvidia CEO, exits board; shares plunge
-- `bitcoin`: score 33, headlines 10
-  - Illinois crypto tax is impossible to enforce as written, crypto industry tells court
-  - Crypto for Advisors: The blockchain built to run financial markets
-  - Bitcoin weakness erases September's bullish signal
-- `fomc`: score 32, headlines 9
+- `ai_semiconductors`: score 53, headlines 19
+  - Former Nvidia CEO Huang had third alleged affair: Reuters
+  - Alice Huang tied to Nvidia’s biggest Chinese competitor
+  - Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion
+- `bitcoin`: score 38, headlines 11
+  - Bitcoin ETFs are now down over $1.5 billion in net outflows for the year
+  - SpaceX-Tesla merger talks put 30,000 bitcoin back in focus
+  - Bitcoin dips below $70,000 as Dollar Index hits 19-month high
+- `fomc`: score 30, headlines 8
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 10, headlines 4
-  - Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform
-  - Trump administration is hiring debt collectors for first time in 6 years to go after defaulted student-loan borrowers
-  - The bond market now has an even bigger fear than AI fallout
-- `us_big_tech`: score 10, headlines 1
-  - microsoft cyber attack
-- `china`: score 6, headlines 2
-  - Singapore barred Alice Huang for giving police ‘inaccurate information’
-  - China warns US not to use Nvidia scandal as pretext for tech curbs
-- `cpi`: score 5, headlines 2
-  - Bitcoin falls over 2%, drops under $74k after hot CPI data, hawkish Waller
-  - U.S. inflation is already bad enough. It might get worse.
-- `ethereum`: score 3, headlines 1
-  - Are Alt-L1s over? Security, costs drive smaller chains to Ethereum
-- `dollar`: score 2, headlines 1
-  - Jensen Huang’s Affairs That Upended Nvidia: Timeline of Events
-- `us_index_flow`: score 2, headlines 1
-  - Jensen Huang’s Affairs That Upended Nvidia: Timeline of Events
+- `dollar`: score 10, headlines 3
+  - Bitcoin dips below $70,000 as Dollar Index hits 19-month high
+  - Stocks recover from Nvidia whiplash, dollar climbs with US yields - Reuters
+  - Dollar near 19-month high on Fed hike bets, yen tests 160 - Reuters
+- `us_big_tech`: score 9, headlines 3
+  - SpaceX-Tesla merger talks put 30,000 bitcoin back in focus
+  - Widespread Microsoft outage takes down Outlook and other 365 services
+  - Outlook, Teams and More Microsoft Programs Disrupted by Outage
+- `treasury_yields`: score 4, headlines 2
+  - Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes
+  - Mortgage Rates Remain High as Affordability Challenges Persist
+- `us_index_flow`: score 3, headlines 1
+  - US lawmakers pile pressure on Lutnick as Nvidia scandal widens

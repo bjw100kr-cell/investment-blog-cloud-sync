@@ -1,28 +1,12 @@
 {
-  "generated_at": "2026-11-12T19:48:21.698162+00:00",
+  "generated_at": "2026-11-13T06:01:59.725908+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 5,
+    "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "us_big_tech",
-      "trend_count": 1,
-      "traffic_score_sum": 500,
-      "max_approx_traffic": 500,
-      "trend_queries": [
-        "microsoft cyber attack"
-      ],
-      "regions": [
-        "US"
-      ],
-      "demand_signal_score": 700,
-      "fallback_source": "trend_match",
-      "confidence": "high",
-      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
-    },
     {
       "keyword": "ai_semiconductors",
       "trend_count": 0,
@@ -30,23 +14,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 8000,
+      "demand_signal_score": 6500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 68,
-      "source_count": 8,
+      "source_snapshot_score": 53,
+      "source_count": 7,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
         "Cointelegraph",
         "Financial Times Home",
-        "Financial Times World"
+        "Financial Times World",
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
-        "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
-        "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
-        "Jensen Huang resigns as Nvidia CEO, exits board; shares plunge"
+        "Former Nvidia CEO Huang had third alleged affair: Reuters",
+        "Alice Huang tied to Nvidia’s biggest Chinese competitor",
+        "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion"
       ]
     },
     {
@@ -56,21 +40,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4500,
+      "demand_signal_score": 5000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 33,
-      "source_count": 3,
+      "source_snapshot_score": 38,
+      "source_count": 4,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
+        "Financial Times World",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
-        "Crypto for Advisors: The blockchain built to run financial markets",
-        "Bitcoin weakness erases September's bullish signal"
+        "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+        "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+        "Bitcoin dips below $70,000 as Dollar Index hits 19-month high"
       ]
     },
     {
@@ -80,18 +65,18 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4400,
+      "demand_signal_score": 4200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 32,
+      "source_snapshot_score": 30,
       "source_count": 5,
       "source_names": [
-        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
         "Investing.com Crypto News",
         "MarketWatch Breaking News",
-        "NYT Business"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
@@ -100,7 +85,7 @@
       ]
     },
     {
-      "keyword": "treasury_yields",
+      "keyword": "dollar",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -111,16 +96,15 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 10,
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
         "CoinDesk RSS",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
-        "Trump administration is hiring debt collectors for first time in 6 years to go after defaulted student-loan borrowers",
-        "The bond market now has an even bigger fear than AI fallout"
+        "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
+        "Stocks recover from Nvidia whiplash, dollar climbs with US yields - Reuters",
+        "Dollar near 19-month high on Fed hike bets, yen tests 160 - Reuters"
       ]
     }
   ],

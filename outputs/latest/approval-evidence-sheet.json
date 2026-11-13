@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-11-12T19:48:21.698162+00:00",
+  "generated_at": "2026-11-13T06:01:59.725908+00:00",
   "item_count": 3,
   "items": [
     {
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-11-12",
+      "publish_date": "2026-11-13",
       "priority_score": 137.0,
       "ready_now": true,
       "quality_status": "pass",
       "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
       "format": "macro_explainer",
       "source_names": [
-        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
         "Investing.com Crypto News",
         "MarketWatch Breaking News",
-        "NYT Business"
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
         "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates"
+        "Bitcoin subdued, hovers under $74k as rise in Fed rate hike expectations weigh"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 4400,
+      "demand_signal_score": 4200,
       "fallback_source": "source_snapshot_rank",
       "source_count": 5,
       "search_score": 26,
@@ -76,17 +76,89 @@
       ]
     },
     {
-      "keyword": "ai_semiconductors",
-      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "keyword": "bitcoin",
+      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "publish_date": "2026-11-14",
-      "priority_score": 124.0,
+      "priority_score": 127.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "format": "crypto_analysis",
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Financial Times World",
+        "Investing.com Crypto News"
+      ],
+      "sample_headlines": [
+        "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+        "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+        "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
+        "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
+        "Illinois crypto tax is impossible to enforce as written, crypto industry tells court"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 5000,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 4,
+      "search_score": 28,
+      "timeliness_score": 20,
+      "monetization_score": 15,
+      "recent_evidence": [
+        {
+          "title": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 13 Nov 2026 05:45:26 +0000",
+          "published_iso": "2026-11-13T05:45:26+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
+          "source_type": "rss"
+        },
+        {
+          "title": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 13 Nov 2026 05:08:59 +0000",
+          "published_iso": "2026-11-13T05:08:59+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/13/spacex-tesla-merger-talks-put-30-000-bitcoin-back-in-focus",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 13 Nov 2026 03:37:00 +0000",
+          "published_iso": "2026-11-13T03:37:00+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-dips-below-usd70-000-as-selloff-gathers-pace",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin drops below $70k as crypto appetite sours",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-11-13 04:04:21",
+          "published_iso": "2026-11-13 04:04:21",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-drops-below-70k-as-crypto-appetite-sours-5024070",
+          "source_type": "rss"
+        },
+        {
+          "title": "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off",
+          "source_name": "Cointelegraph",
+          "published": "Thu, 12 Nov 2026 21:52:04 +0000",
+          "published_iso": "2026-11-12T21:52:04+00:00",
+          "link": "https://cointelegraph.com/markets/strategy-shares-fall-5-msci-index-removal-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
+      "publish_date": "2026-11-15",
+      "priority_score": 123.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능",
       "format": "sector_analysis",
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
         "Cointelegraph",
         "Financial Times Home",
         "Financial Times World",
@@ -95,131 +167,59 @@
         "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
-        "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
-        "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
-        "Jensen Huang resigns as Nvidia CEO, exits board; shares plunge",
-        "Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees",
-        "Jensen Huang's exit from Nvidia raises critical questions about the future of AI"
+        "Former Nvidia CEO Huang had third alleged affair: Reuters",
+        "Alice Huang tied to Nvidia’s biggest Chinese competitor",
+        "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
+        "As Nvidia reels from Huang's affairs, who stands to gain?",
+        "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 8000,
+      "demand_signal_score": 6500,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 8,
-      "search_score": 30,
+      "source_count": 7,
+      "search_score": 29,
       "timeliness_score": 21,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Nvidia stock pares morning losses after CEO Jensen Huang announces resignation",
+          "title": "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
           "source_name": "CNBC Top News",
-          "published": "Thu, 12 Nov 2026 19:42:56 GMT",
-          "published_iso": "2026-11-12T19:42:56+00:00",
-          "link": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+          "published": "Fri, 13 Nov 2026 05:51:34 GMT",
+          "published_iso": "2026-11-13T05:51:34+00:00",
+          "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
           "source_type": "rss"
         },
         {
-          "title": "Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees",
+          "title": "FirstFT: How Nvidia’s Jensen Huang fell from grace",
+          "source_name": "Financial Times World",
+          "published": "Fri, 13 Nov 2026 05:30:07 GMT",
+          "published_iso": "2026-11-13T05:30:07+00:00",
+          "link": "https://www.ft.com/content/fcbd27c8-aa10-455f-8917-afcb897e6eaf?syn-25a6b1a6=1",
+          "source_type": "rss"
+        },
+        {
+          "title": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
           "source_name": "CNBC Top News",
-          "published": "Thu, 12 Nov 2026 19:42:41 GMT",
-          "published_iso": "2026-11-12T19:42:41+00:00",
-          "link": "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html",
+          "published": "Fri, 13 Nov 2026 04:07:44 GMT",
+          "published_iso": "2026-11-13T04:07:44+00:00",
+          "link": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
           "source_type": "rss"
         },
         {
-          "title": "Jensen Huang's Nvidia exit casts shadow over Wall Street’s $500 billion AI financing bet",
+          "title": "As Nvidia reels from Huang's affairs, who stands to gain?",
           "source_name": "CNBC Top News",
-          "published": "Thu, 12 Nov 2026 19:33:50 GMT",
-          "published_iso": "2026-11-12T19:33:50+00:00",
-          "link": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+          "published": "Fri, 13 Nov 2026 03:59:40 GMT",
+          "published_iso": "2026-11-13T03:59:40+00:00",
+          "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html",
           "source_type": "rss"
         },
         {
-          "title": "Nvidia’s stock selloff may be just beginning, even after shedding 30% from its peak",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Thu, 12 Nov 2026 19:15:00 GMT",
-          "published_iso": "2026-11-12T19:15:00+00:00",
-          "link": "https://www.marketwatch.com/story/nvidias-stock-is-on-sale-after-jensen-huangs-exit-but-is-the-selloff-just-beginning-84121513?mod=mw_rss_topstories",
-          "source_type": "rss"
-        },
-        {
-          "title": "Nvidia sends a painful message on how to value a CEO",
-          "source_name": "Financial Times Home",
-          "published": "Thu, 12 Nov 2026 18:40:46 GMT",
-          "published_iso": "2026-11-12T18:40:46+00:00",
-          "link": "https://www.ft.com/content/610fc69e-51ae-4f7a-8e48-c2ce42860ff4?syn-25a6b1a6=1",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "bitcoin",
-      "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-11-13",
-      "priority_score": 121.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (risk_off)",
-      "format": "crypto_analysis",
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
-      ],
-      "sample_headlines": [
-        "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
-        "Crypto for Advisors: The blockchain built to run financial markets",
-        "Bitcoin weakness erases September's bullish signal",
-        "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
-        "Crypto hack losses equal 57 cents per $1 earned onchain: Ark’s Valente"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 4500,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 3,
-      "search_score": 26,
-      "timeliness_score": 18,
-      "monetization_score": 15,
-      "recent_evidence": [
-        {
-          "title": "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
-          "source_name": "Cointelegraph",
-          "published": "Thu, 12 Nov 2026 15:46:06 +0000",
-          "published_iso": "2026-11-12T15:46:06+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-price-drops-71k-stocks-nvidia-huang-resignation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin weakness erases September's bullish signal",
-          "source_name": "CoinDesk RSS",
-          "published": "Thu, 12 Nov 2026 12:15:00 +0000",
-          "published_iso": "2026-11-12T12:15:00+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/11/12/bitcoin-weakness-erases-september-s-bullish-signal",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin drops to $71.6k; Strategy tumbles on MSCI index removal",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-11-12 15:01:34",
-          "published_iso": "2026-11-12 15:01:34",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-to-736k-strategy-drops-on-msci-index-removal-5020451",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin subdued, hovers under $74k as rise in Fed rate hike expectations weigh",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-11-11 23:24:28",
-          "published_iso": "2026-11-11 23:24:28",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-below-74k-as-hot-cpi-data-spurs-rate-hike-bets-5017791",
-          "source_type": "rss"
-        },
-        {
-          "title": "ChangeNOW Becomes the Exclusive Bitcoin Swap Provider in CoolWallet",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-11-11 14:00:11",
-          "published_iso": "2026-11-11 14:00:11",
-          "link": "https://www.investing.com/news/cryptocurrency-news/changenow-becomes-the-exclusive-bitcoin-swap-provider-in-coolwallet-5019082",
+          "title": "Stocks recover from Nvidia whiplash, dollar climbs with US yields - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Fri, 13 Nov 2026 01:55:00 GMT",
+          "published_iso": "2026-11-13T01:55:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ0cyVmdPTTRkWGt3UlMtUFRyOGhvdDNlM1FYVy1MSVN0elpQZHgtWXctVEE1M2RjQm9IcmwzUGU4cEhEQnhsQWlOX2RhUFk1NzBXeFkwM3lMek16ajB1ZmozdGpLR0cwQ2JTcGVlTTJwMEc2ZFZ3bklxeTk4eElFaHZLaw?oc=5",
           "source_type": "rss"
         }
       ]
