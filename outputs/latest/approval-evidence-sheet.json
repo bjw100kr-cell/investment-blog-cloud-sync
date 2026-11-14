@@ -1,33 +1,32 @@
 {
-  "generated_at": "2026-11-14T05:51:13.208201+00:00",
+  "generated_at": "2026-11-14T17:53:56.893041+00:00",
   "item_count": 3,
   "items": [
     {
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "publish_date": "2026-11-14",
-      "priority_score": 137.0,
+      "priority_score": 134.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
       "format": "macro_explainer",
       "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times World"
       ],
       "sample_headlines": [
         "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms"
+        "Hawkward timing"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 3900,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 3,
-      "search_score": 26,
+      "source_count": 2,
+      "search_score": 23,
       "timeliness_score": 25,
       "monetization_score": 15,
       "recent_evidence": [
@@ -77,31 +76,36 @@
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "publish_date": "2026-11-15",
-      "priority_score": 130.0,
+      "priority_score": 122.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (비트코인)",
       "format": "crypto_analysis",
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
         "Financial Times Home",
+        "Google Trends KR",
         "Investing.com Crypto News",
         "무역킹 Trade King YouTube"
       ],
       "sample_headlines": [
-        "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
-        "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
-        "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
-        "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
-        "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline"
+        "비트코인",
+        "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
+        "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
+        "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
+        "A behind the scenes force may amplify bitcoin and ether price volatility"
       ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 6700,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 5,
-      "search_score": 29,
+      "trend_queries": [
+        "비트코인"
+      ],
+      "trend_regions": [
+        "KR"
+      ],
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "source_count": 6,
+      "search_score": 28,
       "timeliness_score": 21,
       "monetization_score": 15,
       "recent_evidence": [
@@ -114,35 +118,35 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
+          "title": "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
           "source_name": "CoinDesk RSS",
-          "published": "Fri, 13 Nov 2026 23:30:00 +0000",
-          "published_iso": "2026-11-13T23:30:00+00:00",
-          "link": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
+          "published": "Sat, 14 Nov 2026 16:33:29 +0000",
+          "published_iso": "2026-11-14T16:33:29+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
           "source_type": "rss"
         },
         {
-          "title": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
-          "source_name": "Cointelegraph",
-          "published": "Fri, 13 Nov 2026 21:49:27 +0000",
-          "published_iso": "2026-11-13T21:49:27+00:00",
-          "link": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-bitcoin-custody-system?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Trump Media group stares down $1bn debt crunch as bitcoin bet fades",
+          "source_name": "Financial Times Home",
+          "published": "Sat, 14 Nov 2026 13:00:09 GMT",
+          "published_iso": "2026-11-14T13:00:09+00:00",
+          "link": "https://www.ft.com/content/ada459c4-5f43-4a4a-bc6c-90de8897a4f0?syn-25a6b1a6=1",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+          "title": "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
           "source_name": "CoinDesk RSS",
-          "published": "Fri, 13 Nov 2026 18:39:58 +0000",
-          "published_iso": "2026-11-13T18:39:58+00:00",
-          "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
+          "published": "Sat, 14 Nov 2026 13:00:00 +0000",
+          "published_iso": "2026-11-14T13:00:00+00:00",
+          "link": "https://www.coindesk.com/policy/2026/11/13/britain-could-turn-wasted-scottish-wind-power-into-bitcoin-to-cut-its-usd1-3-billion-grid-bill",
           "source_type": "rss"
         },
         {
-          "title": "Metaplanet swings to $170M loss as Bitcoin sale hits earnings",
-          "source_name": "Cointelegraph",
-          "published": "Fri, 13 Nov 2026 18:28:29 +0000",
-          "published_iso": "2026-11-13T18:28:29+00:00",
-          "link": "https://cointelegraph.com/news/metaplanet-swings-170m-loss-bitcoin-sale-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "A behind the scenes force may amplify bitcoin and ether price volatility",
+          "source_name": "CoinDesk RSS",
+          "published": "Sat, 14 Nov 2026 12:57:00 +0000",
+          "published_iso": "2026-11-14T12:57:00+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/14/a-behind-the-scenes-force-may-amplify-bitcoin-and-ether-price-volatility",
           "source_type": "rss"
         }
       ]
@@ -151,74 +155,72 @@
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "publish_date": "2026-11-16",
-      "priority_score": 123.0,
+      "priority_score": 121.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
       "format": "sector_analysis",
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
         "Financial Times Home",
         "Financial Times World",
-        "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
-        "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
-        "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
-        "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-        "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
-        "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion"
+        "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+        "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+        "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+        "The Nvidia board’s artificial independence",
+        "Nvidia exposed to possible lawsuits after Jensen Huang’s downfall"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 7000,
+      "demand_signal_score": 4400,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 7,
-      "search_score": 29,
+      "source_count": 5,
+      "search_score": 26,
       "timeliness_score": 21,
       "monetization_score": 15,
       "recent_evidence": [
         {
           "title": "2. After Mamdani, is AOC next..? The DSA taking over the US Democratic Party (US DSA)",
           "source_name": "무역킹 Trade King YouTube",
-          "published": "27K",
-          "published_iso": "27K",
+          "published": "30K",
+          "published_iso": "30K",
           "link": "https://www.youtube.com/watch?v=xEe9bh1NCTc",
           "source_type": "youtube_channel"
         },
         {
-          "title": "The Nvidia board’s artificial independence",
-          "source_name": "Financial Times Home",
-          "published": "Sat, 14 Nov 2026 05:00:37 GMT",
-          "published_iso": "2026-11-14T05:00:37+00:00",
-          "link": "https://www.ft.com/content/e141a5ea-5aa4-491b-88a4-369cfc67693a",
-          "source_type": "rss"
-        },
-        {
-          "title": "Nvidia’s cult of personality was bound to end badly",
-          "source_name": "Financial Times Home",
-          "published": "Sat, 14 Nov 2026 05:00:37 GMT",
-          "published_iso": "2026-11-14T05:00:37+00:00",
-          "link": "https://www.ft.com/content/546ec5eb-fbc2-4600-9794-12b1749c1a04",
-          "source_type": "rss"
-        },
-        {
-          "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+          "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
           "source_name": "CNBC Top News",
-          "published": "Sat, 14 Nov 2026 01:34:11 GMT",
-          "published_iso": "2026-11-14T01:34:11+00:00",
-          "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+          "published": "Sat, 14 Nov 2026 17:46:06 GMT",
+          "published_iso": "2026-11-14T17:46:06+00:00",
+          "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
           "source_type": "rss"
         },
         {
-          "title": "Trump will not raise Nvidia spy issue with Xi at summit, officials say",
+          "title": "Wall Street Makes Its Pitch for Anthropic’s I.P.O.",
+          "source_name": "NYT Business",
+          "published": "Sat, 14 Nov 2026 17:25:50 +0000",
+          "published_iso": "2026-11-14T17:25:50+00:00",
+          "link": "https://www.nytimes.com/2026/11/13/business/anthropic-ipo-roadshow.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+          "source_name": "CNBC Top News",
+          "published": "Sat, 14 Nov 2026 15:50:43 GMT",
+          "published_iso": "2026-11-14T15:50:43+00:00",
+          "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "Nvidia exposed to possible lawsuits after Jensen Huang’s downfall",
           "source_name": "Financial Times Home",
-          "published": "Sat, 14 Nov 2026 01:28:36 GMT",
-          "published_iso": "2026-11-14T01:28:36+00:00",
-          "link": "https://www.ft.com/content/6034dd16-8c7d-4b3e-bc4e-942a6c8529dd?syn-25a6b1a6=1",
+          "published": "Sat, 14 Nov 2026 11:00:09 GMT",
+          "published_iso": "2026-11-14T11:00:09+00:00",
+          "link": "https://www.ft.com/content/4aba8386-35cc-463b-a79c-a0c85c362c89?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ]

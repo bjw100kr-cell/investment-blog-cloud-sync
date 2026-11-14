@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-11-14T05:51:13.208201+00:00",
+  "generated_at": "2026-11-14T17:53:56.893041+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 4
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "bitcoin",
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
+      "trend_queries": [
+        "비트코인"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "ai_semiconductors",
       "trend_count": 0,
@@ -14,49 +30,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 7000,
+      "demand_signal_score": 4400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 58,
-      "source_count": 7,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News"
-      ],
-      "sample_titles": [
-        "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
-        "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
-        "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials"
-      ]
-    },
-    {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 6700,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 55,
+      "source_snapshot_score": 32,
       "source_count": 5,
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
+        "CNBC Top News",
         "Financial Times Home",
-        "Investing.com Crypto News",
-        "무역킹 Trade King YouTube"
+        "Financial Times World",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
-        "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
-        "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters"
+        "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+        "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+        "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts"
       ]
     },
     {
@@ -66,16 +56,15 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3900,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 27,
-      "source_count": 3,
+      "source_snapshot_score": 23,
+      "source_count": 2,
       "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "Financial Times World"
       ],
       "sample_titles": [
         "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
@@ -90,22 +79,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2600,
+      "demand_signal_score": 2000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
-      "source_count": 4,
+      "source_snapshot_score": 8,
+      "source_count": 3,
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
         "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
-        "Trump will not raise Nvidia spy issue with Xi at summit, officials say"
+        "Goldman Sachs sees S&P 500 rising to 8,700 next year despite slower earnings growth - Reuters",
+        "5 Big Questions as C.E.O.s Meet in China"
       ]
     }
   ],

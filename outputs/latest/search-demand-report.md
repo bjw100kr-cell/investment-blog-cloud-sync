@@ -1,24 +1,24 @@
 # 검색 수요 신호 리포트
 
-- 생성 시각: `2026-11-14T05:51:13.208201+00:00`
+- 생성 시각: `2026-11-14T17:53:56.893041+00:00`
 - 트렌드 아이템 수: `16`
 - 매칭된 키워드 수: `4`
-- 약한 트렌드 fallback 수: `4`
+- 약한 트렌드 fallback 수: `3`
 
 ## 키워드별 트렌드 수요
 
-- `ai_semiconductors`: demand 7000 / trend_count 0 / traffic_sum 0 / regions unknown
+- `bitcoin`: demand 400 / trend_count 1 / traffic_sum 200 / regions KR
+  - confidence: `high` / Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다.
+  - trend query: 비트코인
+- `ai_semiconductors`: demand 4400 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 58 / sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News
-- `bitcoin`: demand 6700 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 32 / sources CNBC Top News, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: demand 3500 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 55 / sources CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, 무역킹 Trade King YouTube
-- `fomc`: demand 3900 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 23 / sources Federal Reserve Monetary Policy Press, Financial Times World
+- `us_index_flow`: demand 2000 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 27 / sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press
-- `us_index_flow`: demand 2600 / trend_count 0 / traffic_sum 0 / regions unknown
-  - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 14 / sources CNBC Top News, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
+  - fallback: source snapshot score 8 / sources CNBC Top News, NYT Business, Reuters Markets via Google News RSS
 
 ## 아직 못 주운 시장성 트렌드
 

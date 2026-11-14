@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-14T05:51:13.208201+00:00`
+- 생성 시각: `2026-11-14T17:53:56.893041+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 점수: 94.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 점수: 91.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,13 +70,13 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms
+  - Hawkward timing
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 점수: 91.0
+- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (비트코인)
+- 점수: 90.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011
-  - Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out
-  - Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters
-  - Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms
-  - Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline
+  - 비트코인
+  - Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave
+  - Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale
+  - Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill
+  - A behind the scenes force may amplify bitcoin and ether price volatility
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 88.0
+- 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 86.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,17 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters
-  - Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms
-  - Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials
-  - Nvidia is done with Jensen Huang. The fallout in Washington is just beginning
-  - Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion
+  - Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors
+  - Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker
+  - How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts
+  - The Nvidia board’s artificial independence
+  - Nvidia exposed to possible lawsuits after Jensen Huang’s downfall
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 55.0
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 49.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,5 +276,5 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials
-  - China’s beaten-down tech stocks could offer AI with a little less drama
+  - 5 Big Questions as C.E.O.s Meet in China
+  - He Was China’s Man in Panama. Then He Became a Wanted Man.
