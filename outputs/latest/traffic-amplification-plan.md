@@ -1,11 +1,11 @@
 # Traffic Amplification Plan
 
 - 목표 방문자: `200`
-- 기본 예상 방문자: `285`
+- 기본 예상 방문자: `337`
 - 실행 전 배포 추가 예상 방문자: `0`
 - 수동 실행 시 추가 잠재 방문자: `1200`
-- 실행 전 배포 포함 예상 방문자: `285`
-- 수동 실행 시 잠재 방문자: `1485`
+- 실행 전 배포 포함 예상 방문자: `337`
+- 수동 실행 시 잠재 방문자: `1537`
 - 남은 부족분: `0`
 - 상태: `amplification_plan_ready_manual_execution_required`
 
@@ -546,7 +546,7 @@ ai_semiconductors 후속 글 후보: ai_semiconductors 후속 글 1개를 먼저
 
 - keyword: `china`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
-- base_search_estimate: `20`
+- base_search_estimate: `52`
 - amplification_expected_before_execution: `0`
 - amplification_potential_if_executed: `75`
 - manual_execution_required: `True`

@@ -1,11 +1,11 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-13T19:30:48.190064+00:00`
+- 생성 시각: `2026-11-14T05:51:13.208201+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
 - 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
@@ -136,11 +136,11 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011
+  - Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out
   - Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters
   - Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms
   - Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline
-  - Bitcoin's momentum gauge is turning red, could send prices back below $60,000
-  - Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion
 
 ## 3. ai_semiconductors
 
@@ -208,9 +208,9 @@
 - 참고 헤드라인:
   - Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters
   - Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms
-  - Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker
-  - Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC
-  - Arm boss Rene Haas approached in Nvidia CEO search
+  - Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials
+  - Nvidia is done with Jensen Huang. The fallout in Washington is just beginning
+  - Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion
 
 ## 4. china
 
@@ -276,5 +276,5 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Jensen Huang’s years-long effort to get close to China
-  - Washington’s efforts to block Beijing’s access to Nvidia chips could spark a ‘short-lived U.S.-China trade war’ that rattles markets
+  - Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials
+  - China’s beaten-down tech stocks could offer AI with a little less drama

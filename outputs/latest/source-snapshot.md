@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-13T19:30:48.190064+00:00`
+- 생성 시각: `2026-11-14T05:51:13.208201+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -25,6 +25,32 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / 미국이 사회주의로? DSA 돌풍 (몰아보기 : 미국 DSA)
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=TN-Q_CwOX0s! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+- `무역킹 Trade King YouTube` / 2. How in the World Does It Add Up to 666? (Sunday School: Antichrist)
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=UOM4lt0-SZ4! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / 퇴사한다니까 바로 고생했다고 말해버리시네ㅋㅋ..
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2zq8fEvm_fk! This is most likely caused by:
@@ -38,7 +64,7 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 비트코인 팔고 AI로 간다? 채굴 회사들이 11조 원어치 판이유, 내 코인은 괜찮을까
+- `무역킹 Trade King YouTube` / Dumping Bitcoin for AI? Why Mining Companies Sold Off $8 Billion Worth and What It Means for Your...
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=wokKgFS_rU4! This is most likely caused by:
 
@@ -71,69 +97,53 @@ Could not retrieve a transcript for the video https://www.youtube.com/watch?v=et
 The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 미국이 사회주의로? DSA 돌풍 (몰아보기 : 미국 DSA)
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=TN-Q_CwOX0s! This is most likely caused by:
-
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 3. The History of the Antichrist and the Jesuits (Sunday School: Antichrist)
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=C4eUSwy6NTE! This is most likely caused by:
-
-The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `ai_semiconductors`: score 59, source_count 7, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: score 54, source_count 5, sources CoinDesk RSS, Cointelegraph, Financial Times World, Investing.com Crypto News, 무역킹 Trade King YouTube
-- `fomc`: score 36, source_count 5, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Financial Times World, NYT Business
-- `us_index_flow`: score 20, source_count 6, sources CNBC Top News, CoinDesk RSS, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `dollar`: score 16, source_count 3, sources CoinDesk RSS, NYT Business, Reuters Markets via Google News RSS
-- `us_big_tech`: score 15, source_count 4, sources CNBC Top News, Financial Times World, MarketWatch Breaking News, NYT Business
-- `treasury_yields`: score 12, source_count 4, sources CoinDesk RSS, Financial Times Home, Financial Times World, NYT Business
-- `cpi`: score 6, source_count 2, sources CNBC Top News, Financial Times World
-- `china`: score 5, source_count 2, sources Financial Times Home, MarketWatch Breaking News
-- `ethereum`: score 4, source_count 1, sources CoinDesk RSS
+- `ai_semiconductors`: score 58, source_count 7, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `bitcoin`: score 55, source_count 5, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, 무역킹 Trade King YouTube
+- `fomc`: score 27, source_count 3, sources CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press
+- `us_index_flow`: score 14, source_count 4, sources CNBC Top News, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
+- `us_big_tech`: score 10, source_count 3, sources CNBC Top News, NYT Business, Reuters Markets via Google News RSS
+- `dollar`: score 9, source_count 3, sources CoinDesk RSS, NYT Business, Reuters Markets via Google News RSS
+- `china`: score 6, source_count 2, sources CNBC Top News, Financial Times World
+- `oil`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `treasury_yields`: score 3, source_count 1, sources Financial Times Home
+- `cpi`: score 3, source_count 1, sources Financial Times World
 
 ## 오늘의 글감 후보
 
-- `ai_semiconductors`: score 59, headlines 21
+- `ai_semiconductors`: score 58, headlines 20
   - Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters
   - Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms
-  - Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker
-- `bitcoin`: score 54, headlines 16
+  - Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials
+- `bitcoin`: score 55, headlines 16
+  - Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011
+  - Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out
   - Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters
-  - Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms
-  - Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline
-- `fomc`: score 36, headlines 9
+- `fomc`: score 27, headlines 6
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-- `us_index_flow`: score 20, headlines 7
-  - Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy
-  - Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker
-  - Is a bottom in for the Nasdaq-100? Charts to watch
-- `dollar`: score 16, headlines 5
-  - Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion
-  - Live updates: Bitcoin eyes bear market lows as late summer rally mostly wiped out
-  - European stocks set for weekly gain, dollar near 19-month high on rate hike bets - Reuters
-- `us_big_tech`: score 15, headlines 6
+- `us_index_flow`: score 14, headlines 5
+  - Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials
+  - Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker
+  - Trump will not raise Nvidia spy issue with Xi at summit, officials say
+- `us_big_tech`: score 10, headlines 4
   - Microsoft apologizes for massive outage that took down Outlook and other 365 services
-  - ‘Strangely calming and unnerving’: How Microsoft’s massive outage upended the corporate workday
-  - Microsoft points to ‘broad recovery and stability’ after widespread Outlook outage
-- `treasury_yields`: score 12, headlines 4
-  - Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy
+  - Meta employees test prediction-market app, WSJ reports - Reuters
+  - Inside Microsoft’s Rush to Get Back Online After a Global Outage
+- `dollar`: score 9, headlines 3
+  - Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion
+  - Stocks fall with tech, Nvidia concerns; US dollar climbs - Reuters
+  - Wall Street Loses a Powerful Dealmaker After Nvidia’s CEO Is Ousted
+- `china`: score 6, headlines 2
+  - Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials
+  - China’s beaten-down tech stocks could offer AI with a little less drama
+- `oil`: score 5, headlines 2
+  - World oil market is returning to surplus as Gulf exports recover, IEA says - Reuters
+  - Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.
+- `cpi`: score 3, headlines 1
+  - BoE chief economist says further rate rises needed to combat inflation
+- `treasury_yields`: score 3, headlines 1
   - Bessent blames Lutnick’s commerce department for failure to blacklist Megaspeed
-  - US Treasuries set for worst week since Trump’s ‘liberation day’
-- `cpi`: score 6, headlines 2
-  - Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation
-  - US Treasuries set for worst week since Trump’s ‘liberation day’
-- `china`: score 5, headlines 2
-  - Jensen Huang’s years-long effort to get close to China
-  - Washington’s efforts to block Beijing’s access to Nvidia chips could spark a ‘short-lived U.S.-China trade war’ that rattles markets
-- `ethereum`: score 4, headlines 1
-  - Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy

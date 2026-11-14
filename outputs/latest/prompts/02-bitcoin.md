@@ -110,16 +110,16 @@
   "source_names": [
     "CoinDesk RSS",
     "Cointelegraph",
-    "Financial Times World",
+    "Financial Times Home",
     "Investing.com Crypto News",
     "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
+    "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+    "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
     "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
     "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
-    "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline",
-    "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
-    "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion"
+    "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

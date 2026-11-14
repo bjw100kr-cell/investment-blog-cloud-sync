@@ -1,15 +1,15 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-11-13T19:30:48.190064+00:00`
+- 생성 시각: `2026-11-14T05:51:13.208201+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
 - `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 점수 94.0 / 수익화 15
-  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음
-  - 근거 소스: CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press, Financial Times World, NYT Business
+  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+  - 근거 소스: CNBC Top News, CoinDesk RSS, Federal Reserve Monetary Policy Press
 - `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 91.0 / 수익화 15
   - 이유: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-  - 근거 소스: CoinDesk RSS, Cointelegraph, Financial Times World, Investing.com Crypto News, 무역킹 Trade King YouTube
+  - 근거 소스: CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News, 무역킹 Trade King YouTube
 - `ai_semiconductors`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 점수 88.0 / 수익화 15
   - 이유: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
   - 근거 소스: CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS

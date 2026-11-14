@@ -119,9 +119,9 @@
   "reference_headlines": [
     "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
     "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
-    "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
-    "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC",
-    "Arm boss Rene Haas approached in Nvidia CEO search"
+    "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+    "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+    "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
