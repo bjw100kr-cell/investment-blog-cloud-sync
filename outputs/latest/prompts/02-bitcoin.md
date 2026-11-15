@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (비트코인)",
+  "summary_angle": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -110,14 +110,12 @@
   "source_names": [
     "CoinDesk RSS",
     "Cointelegraph",
-    "Financial Times Home",
-    "Google Trends KR",
     "Investing.com Crypto News",
     "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
-    "비트코인",
-    "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
+    "XRP crashes to its lowest since November 2024 as money leaves crypto",
+    "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave",
     "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
     "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
     "A behind the scenes force may amplify bitcoin and ether price volatility"
@@ -184,8 +182,8 @@
   },
   "score_breakdown": {
     "total_score": 90.0,
-    "search_score": 28,
-    "timeliness_score": 21,
+    "search_score": 29,
+    "timeliness_score": 20,
     "explanatory_score": 18,
     "monetization_score": 15,
     "risk_score": 3

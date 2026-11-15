@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-11-14T17:53:56.893041+00:00",
+  "generated_at": "2026-11-15T05:52:08.144948+00:00",
   "item_count": 3,
   "items": [
     {
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-11-14",
-      "priority_score": 134.0,
+      "publish_date": "2026-11-15",
+      "priority_score": 135.0,
       "ready_now": true,
       "quality_status": "pass",
       "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
       "format": "macro_explainer",
       "source_names": [
         "Federal Reserve Monetary Policy Press",
-        "Financial Times World"
+        "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
         "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Hawkward timing"
+        "Fed's Collins says gradual rate hikes best to manage economic risks - Reuters"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 3500,
+      "demand_signal_score": 3800,
       "fallback_source": "source_snapshot_rank",
       "source_count": 2,
-      "search_score": 23,
+      "search_score": 24,
       "timeliness_score": 25,
       "monetization_score": 15,
       "recent_evidence": [
@@ -75,38 +75,32 @@
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-11-15",
-      "priority_score": 122.0,
+      "publish_date": "2026-11-16",
+      "priority_score": 129.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (6개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (비트코인)",
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "format": "crypto_analysis",
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times Home",
-        "Google Trends KR",
         "Investing.com Crypto News",
         "무역킹 Trade King YouTube"
       ],
       "sample_headlines": [
-        "비트코인",
-        "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
+        "XRP crashes to its lowest since November 2024 as money leaves crypto",
+        "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave",
         "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
         "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
         "A behind the scenes force may amplify bitcoin and ether price volatility"
       ],
-      "trend_queries": [
-        "비트코인"
-      ],
-      "trend_regions": [
-        "KR"
-      ],
-      "demand_signal_score": 400,
-      "fallback_source": "trend_match",
-      "source_count": 6,
-      "search_score": 28,
-      "timeliness_score": 21,
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 5700,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 4,
+      "search_score": 29,
+      "timeliness_score": 20,
       "monetization_score": 15,
       "recent_evidence": [
         {
@@ -118,19 +112,11 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
+          "title": "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave",
           "source_name": "CoinDesk RSS",
           "published": "Sat, 14 Nov 2026 16:33:29 +0000",
           "published_iso": "2026-11-14T16:33:29+00:00",
           "link": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
-          "source_type": "rss"
-        },
-        {
-          "title": "Trump Media group stares down $1bn debt crunch as bitcoin bet fades",
-          "source_name": "Financial Times Home",
-          "published": "Sat, 14 Nov 2026 13:00:09 GMT",
-          "published_iso": "2026-11-14T13:00:09+00:00",
-          "link": "https://www.ft.com/content/ada459c4-5f43-4a4a-bc6c-90de8897a4f0?syn-25a6b1a6=1",
           "source_type": "rss"
         },
         {
@@ -148,48 +134,62 @@
           "published_iso": "2026-11-14T12:57:00+00:00",
           "link": "https://www.coindesk.com/markets/2026/11/14/a-behind-the-scenes-force-may-amplify-bitcoin-and-ether-price-volatility",
           "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
+          "source_name": "Cointelegraph",
+          "published": "Sat, 14 Nov 2026 06:33:13 +0000",
+          "published_iso": "2026-11-14T06:33:13+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
         }
       ]
     },
     {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "publish_date": "2026-11-16",
-      "priority_score": 121.0,
+      "publish_date": "2026-11-17",
+      "priority_score": 118.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "format": "sector_analysis",
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
-        "Financial Times World",
-        "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
         "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
         "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
         "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-        "The Nvidia board’s artificial independence",
-        "Nvidia exposed to possible lawsuits after Jensen Huang’s downfall"
+        "What will Nvidia’s post-Huang era look like?",
+        "Huang’s downfall shows human judgment is not all it’s cracked up to be"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 4400,
+      "demand_signal_score": 3600,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 5,
+      "source_count": 3,
       "search_score": 26,
-      "timeliness_score": 21,
+      "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
         {
           "title": "2. After Mamdani, is AOC next..? The DSA taking over the US Democratic Party (US DSA)",
           "source_name": "무역킹 Trade King YouTube",
-          "published": "30K",
-          "published_iso": "30K",
+          "published": "31K",
+          "published_iso": "31K",
           "link": "https://www.youtube.com/watch?v=xEe9bh1NCTc",
           "source_type": "youtube_channel"
+        },
+        {
+          "title": "What will Nvidia’s post-Huang era look like?",
+          "source_name": "Financial Times Home",
+          "published": "Sun, 15 Nov 2026 05:00:14 GMT",
+          "published_iso": "2026-11-15T05:00:14+00:00",
+          "link": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3",
+          "source_type": "rss"
         },
         {
           "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
@@ -197,14 +197,6 @@
           "published": "Sat, 14 Nov 2026 17:46:06 GMT",
           "published_iso": "2026-11-14T17:46:06+00:00",
           "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "Wall Street Makes Its Pitch for Anthropic’s I.P.O.",
-          "source_name": "NYT Business",
-          "published": "Sat, 14 Nov 2026 17:25:50 +0000",
-          "published_iso": "2026-11-14T17:25:50+00:00",
-          "link": "https://www.nytimes.com/2026/11/13/business/anthropic-ipo-roadshow.html",
           "source_type": "rss"
         },
         {
@@ -216,11 +208,11 @@
           "source_type": "rss"
         },
         {
-          "title": "Nvidia exposed to possible lawsuits after Jensen Huang’s downfall",
-          "source_name": "Financial Times Home",
-          "published": "Sat, 14 Nov 2026 11:00:09 GMT",
-          "published_iso": "2026-11-14T11:00:09+00:00",
-          "link": "https://www.ft.com/content/4aba8386-35cc-463b-a79c-a0c85c362c89?syn-25a6b1a6=1",
+          "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+          "source_name": "CNBC Top News",
+          "published": "Fri, 13 Nov 2026 23:42:18 GMT",
+          "published_iso": "2026-11-13T23:42:18+00:00",
+          "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
           "source_type": "rss"
         }
       ]

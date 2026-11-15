@@ -109,14 +109,14 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "Federal Reserve Monetary Policy Press",
-    "Financial Times World"
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
     "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
     "Federal Reserve issues FOMC statement",
     "Federal Reserve issues FOMC statement",
     "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-    "Hawkward timing"
+    "Fed's Collins says gradual rate hikes best to manage economic risks - Reuters"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [
@@ -179,8 +179,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 91.0,
-    "search_score": 23,
+    "total_score": 92.0,
+    "search_score": 24,
     "timeliness_score": 25,
     "explanatory_score": 20,
     "monetization_score": 15,
