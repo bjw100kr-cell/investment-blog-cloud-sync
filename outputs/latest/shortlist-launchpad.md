@@ -4,7 +4,45 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - 원칙: 먼저 글을 읽고, 그 다음 confirm command 또는 helper apply command를 실행합니다.
 - item_count: `3`
 
-## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+
+- keyword `bitcoin` / publish `2026-11-16` / verdict `approve` / quality `pass`
+- ready_now: `True` / hero_image_selected: `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- why_now: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- sample_headlines:
+  - Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session
+  - XRP crashes to its lowest since November 2024 as money leaves crypto
+  - Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave
+- recent_evidence:
+  - 무역킹 Trade King YouTube | 무역킹 Trade King | Dumping Bitcoin for AI? Why Mining Companies Sold Off $8 Billion Worth and What It Means for Your...
+  - Cointelegraph | 2026-11-15T10:23:17+00:00 | Bitcoin falls to four-month low near $62K as crypto selloff deepens
+  - Investing.com Crypto News | 2026-11-15 15:17:25 | Bitcoin hovers near $65,000 after weekend selloff to lowest since July
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
+
+## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+
+- keyword `ai_semiconductors` / publish `2026-11-17` / verdict `approve` / quality `pass`
+- ready_now: `True` / hero_image_selected: `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- why_now: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- sample_headlines:
+  - Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO
+  - Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot
+  - Bessent says Nvidia needs ‘shake-up’ with external CEO
+- recent_evidence:
+  - 무역킹 Trade King YouTube | 32K | 2. After Mamdani, is AOC next..? The DSA taking over the US Democratic Party (US DSA)
+  - CNBC Top News | 2026-11-15T18:10:18+00:00 | Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO
+  - Financial Times Home | 2026-11-15T17:15:23+00:00 | Bessent says Nvidia needs ‘shake-up’ with external CEO
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`
+
+## 3. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 - keyword `fomc` / publish `2026-11-15` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
@@ -22,41 +60,3 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
-
-## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-
-- keyword `bitcoin` / publish `2026-11-16` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- sample_headlines:
-  - XRP crashes to its lowest since November 2024 as money leaves crypto
-  - Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave
-  - Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale
-- recent_evidence:
-  - 무역킹 Trade King YouTube | 무역킹 Trade King | Dumping Bitcoin for AI? Why Mining Companies Sold Off $8 Billion Worth and What It Means for Your...
-  - CoinDesk RSS | 2026-11-14T16:33:29+00:00 | Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave
-  - CoinDesk RSS | 2026-11-14T13:00:00+00:00 | Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
-
-## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-
-- keyword `ai_semiconductors` / publish `2026-11-17` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- sample_headlines:
-  - Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors
-  - Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker
-  - How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts
-- recent_evidence:
-  - 무역킹 Trade King YouTube | 31K | 2. After Mamdani, is AOC next..? The DSA taking over the US Democratic Party (US DSA)
-  - Financial Times Home | 2026-11-15T05:00:14+00:00 | What will Nvidia’s post-Huang era look like?
-  - CNBC Top News | 2026-11-14T17:46:06+00:00 | Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`

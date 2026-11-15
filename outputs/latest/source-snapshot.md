@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-15T05:52:08.144948+00:00`
+- 생성 시각: `2026-11-15T18:44:12.471572+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -77,19 +77,6 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 퇴사한다니까 바로 고생했다고 말해버리시네ㅋㅋ..
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2zq8fEvm_fk! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / Dumping Bitcoin for AI? Why Mining Companies Sold Off $8 Billion Worth and What It Means for Your...
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=wokKgFS_rU4! This is most likely caused by:
@@ -103,51 +90,60 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+- `무역킹 Trade King YouTube` / 2. After Mamdani, is AOC next..? The DSA taking over the US Democratic Party (US DSA)
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=xEe9bh1NCTc! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `bitcoin`: score 45, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, 무역킹 Trade King YouTube
-- `fomc`: score 26, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 24, source_count 3, sources CNBC Top News, Financial Times Home, Reuters Markets via Google News RSS
-- `crypto_etf`: score 10, source_count 3, sources CNBC Top News, CoinDesk RSS, Investing.com Crypto News
-- `china`: score 8, source_count 3, sources Financial Times Home, Financial Times World, NYT Business
+- `bitcoin`: score 48, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, 무역킹 Trade King YouTube
+- `ai_semiconductors`: score 40, source_count 5, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `china`: score 22, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
+- `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
 - `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
-- `us_index_flow`: score 5, source_count 2, sources CNBC Top News, NYT Business
-- `us_big_tech`: score 3, source_count 1, sources Cointelegraph
-- `dollar`: score 2, source_count 1, sources NYT Business
-- `tariffs_trade`: score 2, source_count 1, sources NYT Business
+- `us_big_tech`: score 5, source_count 2, sources Cointelegraph, NYT Business
+- `treasury_yields`: score 3, source_count 1, sources Financial Times Home
+- `us_index_flow`: score 3, source_count 1, sources Financial Times Home
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 45, headlines 13
+- `bitcoin`: score 48, headlines 14
+  - Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session
   - XRP crashes to its lowest since November 2024 as money leaves crypto
   - Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave
-  - Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale
-- `fomc`: score 26, headlines 6
+- `ai_semiconductors`: score 40, headlines 15
+  - Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO
+  - Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot
+  - Bessent says Nvidia needs ‘shake-up’ with external CEO
+- `fomc`: score 23, headlines 5
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-- `ai_semiconductors`: score 24, headlines 8
-  - Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors
-  - Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker
-  - How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts
-- `crypto_etf`: score 10, headlines 3
+- `china`: score 22, headlines 8
+  - Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO
+  - Bessent says Nvidia needs ‘shake-up’ with external CEO
+  - US and allies sign accord to protect AI supply chains from China
+- `crypto_etf`: score 7, headlines 2
   - XRP crashes to its lowest since November 2024 as money leaves crypto
-  - How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts
   - Bitcoin falls below $64,000 as ETF outflows extend to seventh straight day
-- `china`: score 8, headlines 3
-  - The world according to China
-  - The world according to China
-  - 5 Big Questions as C.E.O.s Meet in China
 - `ethereum`: score 7, headlines 2
   - Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business
   - Ethereum Falls 10% In Rout
-- `us_index_flow`: score 5, headlines 2
-  - Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker
-  - 5 Big Questions as C.E.O.s Meet in China
-- `us_big_tech`: score 3, headlines 1
+- `us_big_tech`: score 5, headlines 2
   - Microsoft confirms global outage resolved, rules out cyberattack
-- `dollar`: score 2, headlines 1
-  - Family Dollar to Pay $63 Million Settlement for Overcharging Customers
-- `tariffs_trade`: score 2, headlines 1
-  - 5 Big Questions as C.E.O.s Meet in China
+  - Microsoft Outlook Outage and FAA Groundstop Show Dependence on Fragile Technology
+- `treasury_yields`: score 3, headlines 1
+  - Bessent says Nvidia needs ‘shake-up’ with external CEO
+- `us_index_flow`: score 3, headlines 1
+  - Congress moves to pass tighter AI chip export rules following Nvidia scandal

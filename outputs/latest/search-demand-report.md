@@ -1,24 +1,24 @@
 # 검색 수요 신호 리포트
 
-- 생성 시각: `2026-11-15T05:52:08.144948+00:00`
+- 생성 시각: `2026-11-15T18:44:12.471572+00:00`
 - 트렌드 아이템 수: `16`
 - 매칭된 키워드 수: `4`
 - 약한 트렌드 fallback 수: `4`
 
 ## 키워드별 트렌드 수요
 
-- `bitcoin`: demand 5700 / trend_count 0 / traffic_sum 0 / regions unknown
+- `bitcoin`: demand 6000 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 45 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, 무역킹 Trade King YouTube
-- `fomc`: demand 3800 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 48 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, 무역킹 Trade King YouTube
+- `ai_semiconductors`: demand 5200 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 26 / sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `ai_semiconductors`: demand 3600 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 40 / sources CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: demand 3500 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 24 / sources CNBC Top News, Financial Times Home, Reuters Markets via Google News RSS
-- `crypto_etf`: demand 2200 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 23 / sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `china`: demand 3400 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 10 / sources CNBC Top News, CoinDesk RSS, Investing.com Crypto News
+  - fallback: source snapshot score 22 / sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
 
 ## 아직 못 주운 시장성 트렌드
 

@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-11-15T05:52:08.144948+00:00`
+- 생성 시각: `2026-11-15T18:44:12.471572+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,8 +8,8 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `92.0`
-- 점수 구성: 검색성 24 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 총점: `91.0`
+- 점수 구성: 검색성 23 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
 - 소스: Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
 - 제목 후보:
@@ -33,10 +33,10 @@
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `90.0`
-- 점수 구성: 검색성 29 / 시의성 20 / 설명가치 18 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 5
+- 총점: `88.0`
+- 점수 구성: 검색성 29 / 시의성 20 / 설명가치 18 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 3
 - 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 코인 시장 신호: BTCUSDT 24h change -3.25%; Fear/Greed 10: Extreme Fear zone
+- 코인 시장 신호: Fear/Greed 10: Extreme Fear zone
 - 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, 무역킹 Trade King YouTube
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
@@ -49,20 +49,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session
   - XRP crashes to its lowest since November 2024 as money leaves crypto
   - Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave
   - Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale
   - Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill
-  - A behind the scenes force may amplify bitcoin and ether price volatility
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `83.0`
-- 점수 구성: 검색성 26 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, Reuters Markets via Google News RSS
+- 총점: `88.0`
+- 점수 구성: 검색성 28 / 시의성 21 / 설명가치 17 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -74,20 +74,20 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors
-  - Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker
-  - How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts
-  - What will Nvidia’s post-Huang era look like?
-  - Huang’s downfall shows human judgment is not all it’s cracked up to be
+  - Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO
+  - Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot
+  - Bessent says Nvidia needs ‘shake-up’ with external CEO
+  - Anthropic’s IPO is the next big test for AI
+  - Congress moves to pass tighter AI chip export rules following Nvidia scandal
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `65.0`
-- 점수 구성: 검색성 12 / 시의성 15 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 소스: Financial Times Home, Financial Times World, NYT Business
+- 총점: `83.0`
+- 점수 구성: 검색성 24 / 시의성 21 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -99,19 +99,21 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
+  - Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO
+  - Bessent says Nvidia needs ‘shake-up’ with external CEO
+  - US and allies sign accord to protect AI supply chains from China
   - The world according to China
-  - The world according to China
-  - 5 Big Questions as C.E.O.s Meet in China
+  - Congress moves to pass tighter AI chip export rules following Nvidia scandal
 
 ## 5. crypto_etf
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `72.0`
-- 점수 구성: 검색성 15 / 시의성 12 / 설명가치 18 / 수익성 15 / 리스크역점수 4 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 8
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 코인 시장 신호: SOLUSDT 24h change -6.23%; XRPUSDT 24h change -3.29%; BNBUSDT 24h change -3.64%
-- 소스: CNBC Top News, CoinDesk RSS, Investing.com Crypto News
+- 총점: `61.0`
+- 점수 구성: 검색성 9 / 시의성 7 / 설명가치 18 / 수익성 15 / 리스크역점수 4 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 8
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- 코인 시장 신호: SOLUSDT 24h change -2.08%; DOGEUSDT 24h change -2.48%; Fear/Greed 10: Extreme Fear zone
+- 소스: CoinDesk RSS, Investing.com Crypto News
 - 제목 후보:
   - 코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리
   - 코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리: 지금 시장이 반응하는 이유
@@ -124,5 +126,4 @@
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
   - XRP crashes to its lowest since November 2024 as money leaves crypto
-  - How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts
   - Bitcoin falls below $64,000 as ETF outflows extend to seventh straight day
