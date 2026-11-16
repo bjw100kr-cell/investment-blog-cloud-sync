@@ -29,7 +29,7 @@
 
 - keyword: `ai_semiconductors`
 - publish_date: `2026-11-18`
-- priority_score: `116.0`
+- priority_score: `122.0`
 - review_verdict: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
@@ -49,7 +49,7 @@
 
 - keyword: `fomc`
 - publish_date: `2026-11-16`
-- priority_score: `134.0`
+- priority_score: `137.0`
 - review_verdict: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결

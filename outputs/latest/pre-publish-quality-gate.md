@@ -122,7 +122,7 @@
 
 ## 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_china_9`
+- keyword: `seo_china_10`
 - source_group: `seo`
 - status: `pass`
 - html_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html`

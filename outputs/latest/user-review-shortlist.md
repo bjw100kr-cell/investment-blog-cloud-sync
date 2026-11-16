@@ -32,7 +32,7 @@
 - keyword: `ai_semiconductors`
 - brand_lane: `us-stocks` (미국주식)
 - publish_date: `2026-11-18`
-- priority_score: `116.0`
+- priority_score: `122.0`
 - review_verdict: `approve`
 - freshness_status: `fresh`
 - quality_status: `pass`
@@ -50,7 +50,7 @@
 - keyword: `fomc`
 - brand_lane: `macro` (거시경제)
 - publish_date: `2026-11-16`
-- priority_score: `134.0`
+- priority_score: `137.0`
 - review_verdict: `approve`
 - freshness_status: `aging`
 - quality_status: `pass`

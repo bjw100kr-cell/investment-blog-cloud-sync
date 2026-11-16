@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16T05:52:07.591110+00:00",
+  "generated_at": "2026-11-16T21:54:35.931137+00:00",
   "summary": {
-    "ok_sources": 14,
-    "item_count": 112
+    "ok_sources": 13,
+    "item_count": 104
   },
   "source_status": [
     {
@@ -91,9 +91,9 @@
       "name": "Reuters Markets via Google News RSS",
       "type": "rss",
       "enabled": true,
-      "ok": true,
-      "count": 8,
-      "error": ""
+      "ok": false,
+      "count": 0,
+      "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Areuters.com+markets&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "id": "trade_king_youtube",
@@ -152,30 +152,8 @@
   ],
   "ranked_keywords": [
     {
-      "keyword": "ai_semiconductors",
-      "score": 53,
-      "source_count": 8,
-      "sources": [
-        "CNBC Top News",
-        "Cointelegraph",
-        "Financial Times Home",
-        "Financial Times World",
-        "Google Trends KR",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "용인반도체클러스터",
-        "Asian chip stocks tumble ahead of Nvidia Q3 earnings",
-        "Jensen Huang weighs Nvidia comeback days after shock exit: FT",
-        "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest",
-        "Tech world's calls for Jensen Huang to return to Nvidia are growing"
-      ]
-    },
-    {
       "keyword": "bitcoin",
-      "score": 48,
+      "score": 50,
       "source_count": 4,
       "sources": [
         "CoinDesk RSS",
@@ -184,104 +162,150 @@
         "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
-        "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
-        "Did prediction markets call the U.S. midterm election?: State of Crypto",
-        "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
-        "XRP crashes to its lowest since November 2024 as money leaves crypto",
-        "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave"
+        "Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid",
+        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+        "Lighter suspends all withdrawals after $10.4 million crypto exploit",
+        "German parliament proposes crypto seizures without criminal charges",
+        "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes"
+      ]
+    },
+    {
+      "keyword": "ai_semiconductors",
+      "score": 38,
+      "source_count": 6,
+      "sources": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Financial Times Home",
+        "Financial Times World",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+        "Nvidia turmoil tests Bitcoin miners’ AI funding plans",
+        "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
+        "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+        "Anthropic’s Wall Street whisperer: Meet CFO Krishna Rao"
       ]
     },
     {
       "keyword": "fomc",
-      "score": 23,
-      "source_count": 2,
+      "score": 25,
+      "source_count": 3,
       "sources": [
+        "CNBC Top News",
         "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
+        "NYT Business"
       ],
       "sample_titles": [
         "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Fed's Collins says gradual rate hikes best to manage economic risks - Reuters"
+        "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
+        "Fed Chairman Highlights Economic Uncertainty of A.I. Boom"
       ]
     },
     {
       "keyword": "china",
-      "score": 19,
+      "score": 14,
       "source_count": 3,
       "sources": [
-        "CNBC Top News",
         "Financial Times Home",
+        "Financial Times World",
         "NYT Business"
       ],
       "sample_titles": [
-        "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
-        "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
-        "Bessent says Nvidia needs ‘shake-up’ with external CEO",
-        "US and allies sign accord to protect AI supply chains from China",
-        "Yalta 2.0? Trump, Xi and Putin lead Asia’s week of high-stakes diplomacy"
+        "Why Putin, Trump and Xi cannot be the new ‘big three’",
+        "Russia aims for ‘joint statement’ from trilateral summit with US and China",
+        "The delicate balance in America’s AI chip war with China",
+        "Bessent Takes Hawkish Turn in White House Debate on China"
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "score": 12,
+      "source_count": 3,
+      "sources": [
+        "Cointelegraph",
+        "Financial Times Home",
+        "Financial Times World"
+      ],
+      "sample_titles": [
+        "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
+        "Nasdaq 100 sinks 2.7% in gloomy start to pivotal week for AI trade",
+        "Pattinson. Robert Pattinson: Amazon unveils the next James Bond"
+      ]
+    },
+    {
+      "keyword": "treasury_yields",
+      "score": 11,
+      "source_count": 3,
+      "sources": [
+        "CoinDesk RSS",
+        "Financial Times World",
+        "NYT Business"
+      ],
+      "sample_titles": [
+        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+        "Pattinson. Robert Pattinson: Amazon unveils the next James Bond",
+        "Bessent Takes Hawkish Turn in White House Debate on China",
+        "Robert Pattinson Named as the Next James Bond"
       ]
     },
     {
       "keyword": "crypto_etf",
-      "score": 7,
+      "score": 10,
       "source_count": 2,
       "sources": [
         "CoinDesk RSS",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "XRP crashes to its lowest since November 2024 as money leaves crypto",
+        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+        "Bitcoin muted at $64.4k as crypto sentiment dithers, ETF outflows persist",
         "Bitcoin falls below $64,000 as ETF outflows extend to seventh straight day"
       ]
     },
     {
       "keyword": "ethereum",
-      "score": 7,
+      "score": 9,
       "source_count": 2,
       "sources": [
-        "CoinDesk RSS",
+        "Cointelegraph",
         "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
+        "Bitmine edges toward 5% of ETH supply as treasuries report buys amid market slump",
+        "001k.bot Launches Earn for USDT, BTC, and ETH",
         "Ethereum Falls 10% In Rout"
       ]
     },
     {
-      "keyword": "us_index_flow",
-      "score": 5,
+      "keyword": "us_big_tech",
+      "score": 7,
       "source_count": 2,
       "sources": [
-        "Financial Times Home",
-        "MarketWatch Breaking News"
+        "Financial Times World",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Jensen Huang discusses comeback as Nvidia CEO with allies",
-        "A big chunk of your 401(k) is likely invested in Nvidia"
+        "Pattinson. Robert Pattinson: Amazon unveils the next James Bond",
+        "Elon Musk Wants to Merge Tesla and SpaceX. Their Businesses Already Overlap.",
+        "Elon Musk Dreams of Merging Tesla and SpaceX in Move Toward Tech Supremacy"
       ]
     },
     {
-      "keyword": "treasury_yields",
-      "score": 3,
-      "source_count": 1,
+      "keyword": "oil",
+      "score": 6,
+      "source_count": 2,
       "sources": [
-        "Financial Times Home"
+        "CNBC Top News",
+        "Financial Times World"
       ],
       "sample_titles": [
-        "Bessent says Nvidia needs ‘shake-up’ with external CEO"
-      ]
-    },
-    {
-      "keyword": "cpi",
-      "score": 3,
-      "source_count": 1,
-      "sources": [
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Japan's economy unexpectedly shrinks as inflation squeezes households - Reuters"
+        "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
+        "Chevron nears $5bn deal for Blackstone-backed oil group in US Gulf"
       ]
     },
     {
@@ -292,46 +316,46 @@
         "Financial Times World"
       ],
       "sample_titles": [
-        "UK companies line up to replace Palantir in NHS contract"
+        "UK companies line up to replace Palantir in NHS"
       ]
     },
     {
-      "keyword": "us_big_tech",
+      "keyword": "tariffs_trade",
       "score": 2,
       "source_count": 1,
       "sources": [
         "NYT Business"
       ],
       "sample_titles": [
-        "Microsoft Outlook Outage and FAA Groundstop Show Dependence on Fragile Technology"
+        "Bessent Takes Hawkish Turn in White House Debate on China"
       ]
     }
   ],
   "topic_candidates": [
     {
-      "keyword": "ai_semiconductors",
-      "score": 53,
-      "headline_count": 18,
+      "keyword": "bitcoin",
+      "score": 50,
+      "headline_count": 15,
       "sample_titles": [
-        "용인반도체클러스터",
-        "Asian chip stocks tumble ahead of Nvidia Q3 earnings",
-        "Jensen Huang weighs Nvidia comeback days after shock exit: FT"
+        "Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid",
+        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+        "Lighter suspends all withdrawals after $10.4 million crypto exploit"
       ]
     },
     {
-      "keyword": "bitcoin",
-      "score": 48,
-      "headline_count": 14,
+      "keyword": "ai_semiconductors",
+      "score": 38,
+      "headline_count": 13,
       "sample_titles": [
-        "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
-        "Did prediction markets call the U.S. midterm election?: State of Crypto",
-        "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session"
+        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+        "Nvidia turmoil tests Bitcoin miners’ AI funding plans",
+        "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves"
       ]
     },
     {
       "keyword": "fomc",
-      "score": 23,
-      "headline_count": 5,
+      "score": 25,
+      "headline_count": 6,
       "sample_titles": [
         "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
         "Federal Reserve issues FOMC statement",
@@ -340,39 +364,71 @@
     },
     {
       "keyword": "china",
-      "score": 19,
-      "headline_count": 7,
+      "score": 14,
+      "headline_count": 5,
       "sample_titles": [
-        "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
-        "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
-        "Bessent says Nvidia needs ‘shake-up’ with external CEO"
+        "Why Putin, Trump and Xi cannot be the new ‘big three’",
+        "Russia aims for ‘joint statement’ from trilateral summit with US and China",
+        "The delicate balance in America’s AI chip war with China"
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "score": 12,
+      "headline_count": 4,
+      "sample_titles": [
+        "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
+        "Nasdaq 100 sinks 2.7% in gloomy start to pivotal week for AI trade",
+        "Nasdaq 100 sinks 2.7% in gloomy start to pivotal week for AI trade"
+      ]
+    },
+    {
+      "keyword": "treasury_yields",
+      "score": 11,
+      "headline_count": 4,
+      "sample_titles": [
+        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+        "Pattinson. Robert Pattinson: Amazon unveils the next James Bond",
+        "Bessent Takes Hawkish Turn in White House Debate on China"
       ]
     },
     {
       "keyword": "crypto_etf",
-      "score": 7,
-      "headline_count": 2,
+      "score": 10,
+      "headline_count": 3,
       "sample_titles": [
-        "XRP crashes to its lowest since November 2024 as money leaves crypto",
+        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+        "Bitcoin muted at $64.4k as crypto sentiment dithers, ETF outflows persist",
         "Bitcoin falls below $64,000 as ETF outflows extend to seventh straight day"
       ]
     },
     {
       "keyword": "ethereum",
-      "score": 7,
-      "headline_count": 2,
+      "score": 9,
+      "headline_count": 3,
       "sample_titles": [
-        "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
+        "Bitmine edges toward 5% of ETH supply as treasuries report buys amid market slump",
+        "001k.bot Launches Earn for USDT, BTC, and ETH",
         "Ethereum Falls 10% In Rout"
       ]
     },
     {
-      "keyword": "us_index_flow",
-      "score": 5,
+      "keyword": "us_big_tech",
+      "score": 7,
+      "headline_count": 3,
+      "sample_titles": [
+        "Pattinson. Robert Pattinson: Amazon unveils the next James Bond",
+        "Elon Musk Wants to Merge Tesla and SpaceX. Their Businesses Already Overlap.",
+        "Elon Musk Dreams of Merging Tesla and SpaceX in Move Toward Tech Supremacy"
+      ]
+    },
+    {
+      "keyword": "oil",
+      "score": 6,
       "headline_count": 2,
       "sample_titles": [
-        "Jensen Huang discusses comeback as Nvidia CEO with allies",
-        "A big chunk of your 401(k) is likely invested in Nvidia"
+        "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
+        "Chevron nears $5bn deal for Blackstone-backed oil group in US Gulf"
       ]
     },
     {
@@ -380,42 +436,26 @@
       "score": 3,
       "headline_count": 1,
       "sample_titles": [
-        "UK companies line up to replace Palantir in NHS contract"
+        "UK companies line up to replace Palantir in NHS"
       ]
     },
     {
-      "keyword": "cpi",
-      "score": 3,
-      "headline_count": 1,
-      "sample_titles": [
-        "Japan's economy unexpectedly shrinks as inflation squeezes households - Reuters"
-      ]
-    },
-    {
-      "keyword": "treasury_yields",
-      "score": 3,
-      "headline_count": 1,
-      "sample_titles": [
-        "Bessent says Nvidia needs ‘shake-up’ with external CEO"
-      ]
-    },
-    {
-      "keyword": "us_big_tech",
+      "keyword": "tariffs_trade",
       "score": 2,
       "headline_count": 1,
       "sample_titles": [
-        "Microsoft Outlook Outage and FAA Groundstop Show Dependence on Fragile Technology"
+        "Bessent Takes Hawkish Turn in White House Debate on China"
       ]
     }
   ],
   "naver_datalab": null,
   "items": [
     {
-      "title": "대한민국",
+      "title": "코트",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sun, 15 Nov 2026 20:30:00 -0800",
+      "published": "Mon, 16 Nov 2026 12:50:00 -0800",
       "description": "",
-      "approx_traffic": "500+",
+      "approx_traffic": "200+",
       "source_id": "google_trends_kr",
       "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
@@ -423,11 +463,11 @@
       "source_weight": 5
     },
     {
-      "title": "배구",
+      "title": "항공모함",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sun, 15 Nov 2026 20:20:00 -0800",
+      "published": "Mon, 16 Nov 2026 12:50:00 -0800",
       "description": "",
-      "approx_traffic": "1000+",
+      "approx_traffic": "200+",
       "source_id": "google_trends_kr",
       "source_name": "Google Trends KR",
       "source_category": "keyword_trends",
@@ -437,165 +477,165 @@
     {
       "title": "개인정보",
       "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sun, 15 Nov 2026 20:20:00 -0800",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "용인반도체클러스터",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sun, 15 Nov 2026 20:10:00 -0800",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "건강 수명",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sun, 15 Nov 2026 20:10:00 -0800",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "은행",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sun, 15 Nov 2026 20:00:00 -0800",
-      "description": "",
-      "approx_traffic": "1000+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "서수남",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sun, 15 Nov 2026 19:50:00 -0800",
-      "description": "",
-      "approx_traffic": "2000+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "hlb테라퓨틱스",
-      "link": "https://trends.google.com/trending/rss?geo=KR",
-      "published": "Sun, 15 Nov 2026 19:50:00 -0800",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_kr",
-      "source_name": "Google Trends KR",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "lane kiffin lsu roster comments",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sun, 15 Nov 2026 21:20:00 -0800",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "germany vs netherlands",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sun, 15 Nov 2026 21:20:00 -0800",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "xbox project helix console",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sun, 15 Nov 2026 20:40:00 -0800",
-      "description": "",
-      "approx_traffic": "2000+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "60 minutes tonight kratom episode",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sun, 15 Nov 2026 20:30:00 -0800",
-      "description": "",
-      "approx_traffic": "1000+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "shai gilgeous-alexander",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sun, 15 Nov 2026 20:30:00 -0800",
-      "description": "",
-      "approx_traffic": "2000+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "terry killens",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sun, 15 Nov 2026 20:20:00 -0800",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "the mighty nein season 2 release",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sun, 15 Nov 2026 20:20:00 -0800",
-      "description": "",
-      "approx_traffic": "200+",
-      "source_id": "google_trends_us",
-      "source_name": "Google Trends US",
-      "source_category": "keyword_trends",
-      "source_type": "rss",
-      "source_weight": 5
-    },
-    {
-      "title": "the body season 2",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "published": "Sun, 15 Nov 2026 20:10:00 -0800",
+      "published": "Mon, 16 Nov 2026 12:50:00 -0800",
       "description": "",
       "approx_traffic": "500+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "일기예보",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Mon, 16 Nov 2026 12:40:00 -0800",
+      "description": "",
+      "approx_traffic": "100+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "박세리",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Mon, 16 Nov 2026 12:30:00 -0800",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "리친청",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Mon, 16 Nov 2026 12:20:00 -0800",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "연금",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Mon, 16 Nov 2026 12:10:00 -0800",
+      "description": "",
+      "approx_traffic": "10000+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "윤이나",
+      "link": "https://trends.google.com/trending/rss?geo=KR",
+      "published": "Mon, 16 Nov 2026 12:00:00 -0800",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_kr",
+      "source_name": "Google Trends KR",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "car chase",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Mon, 16 Nov 2026 13:40:00 -0800",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "the motley fool",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Mon, 16 Nov 2026 13:40:00 -0800",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "ed bastian",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Mon, 16 Nov 2026 13:40:00 -0800",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "malta vs gibraltar",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Mon, 16 Nov 2026 13:30:00 -0800",
+      "description": "",
+      "approx_traffic": "1000+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "ncaa women's soccer tournament 2026",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Mon, 16 Nov 2026 13:20:00 -0800",
+      "description": "",
+      "approx_traffic": "500+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "spacex stocks",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Mon, 16 Nov 2026 13:10:00 -0800",
+      "description": "",
+      "approx_traffic": "2000+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "katie holmes",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Mon, 16 Nov 2026 13:10:00 -0800",
+      "description": "",
+      "approx_traffic": "200+",
+      "source_id": "google_trends_us",
+      "source_name": "Google Trends US",
+      "source_category": "keyword_trends",
+      "source_type": "rss",
+      "source_weight": 5
+    },
+    {
+      "title": "clarence thomas first amendment warning",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "published": "Mon, 16 Nov 2026 13:00:00 -0800",
+      "description": "",
+      "approx_traffic": "2000+",
       "source_id": "google_trends_us",
       "source_name": "Google Trends US",
       "source_category": "keyword_trends",
@@ -699,10 +739,10 @@
       "source_weight": 5
     },
     {
-      "title": "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
-      "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-biggest-bet-is-now-a-drop-below-usd60-000-not-a-rally-above-usd100-000",
-      "published": "Mon, 16 Nov 2026 05:01:17 +0000",
-      "description": "The $60,000 put has replaced the $100,000 call as bitcoin’s biggest options bet on Deribit, with $900 million in open interest after the recent slide.",
+      "title": "Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid",
+      "link": "https://www.coindesk.com/markets/2026/11/16/former-robinhood-engineer-pleads-guilty-to-insider-trading-scheme-on-hyperliquid",
+      "published": "Mon, 16 Nov 2026 21:51:04 +0000",
+      "description": "Huaisong Xiang admitted using confidential crypto listing information to make $125,523 trading perpetual futures on Hyperliquid.",
       "approx_traffic": "",
       "source_id": "coindesk_rss",
       "source_name": "CoinDesk RSS",
@@ -711,10 +751,10 @@
       "source_weight": 4
     },
     {
-      "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
-      "link": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
-      "published": "Sun, 15 Nov 2026 19:30:00 +0000",
-      "description": "Prediction markets and polls largely aligned by the end of the 2026 election cycle, and both had notable misses.",
+      "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+      "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
+      "published": "Mon, 16 Nov 2026 20:35:21 +0000",
+      "description": "Rising bond yields, ETF outflows and forced selling are weighing on bitcoin as traders brace for more losses.",
       "approx_traffic": "",
       "source_id": "coindesk_rss",
       "source_name": "CoinDesk RSS",
@@ -723,10 +763,10 @@
       "source_weight": 4
     },
     {
-      "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
-      "link": "https://www.coindesk.com/news-analysis/2026/11/13/crypto-insiders-aren-t-counting-on-silver-linings-in-congress-lame-duck-session",
-      "published": "Sun, 15 Nov 2026 14:00:00 +0000",
-      "description": "With ascendent Democrats ready to pursue their own crypto and tech agendas next year, the final weeks of this session probably won't produce crypto surprises.",
+      "title": "U.S. Senate Democrats tell CFTC to back off its demand prediction markets defy bans",
+      "link": "https://www.coindesk.com/policy/2026/11/16/u-s-senate-democrats-tell-cftc-to-back-off-its-demand-prediction-markets-defy-bans",
+      "published": "Mon, 16 Nov 2026 18:54:19 +0000",
+      "description": "The Commodity Futures Trading Commission directed platforms such as Kalshi to defy state bans, but the Democrats want it to reverse course, citing court orders.",
       "approx_traffic": "",
       "source_id": "coindesk_rss",
       "source_name": "CoinDesk RSS",
@@ -735,10 +775,10 @@
       "source_weight": 4
     },
     {
-      "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
-      "link": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto",
-      "published": "Sun, 15 Nov 2026 02:50:57 +0000",
-      "description": "XRP tanked to its lowest level since November 2024 as ETF outflows and shrinking stablecoin supply add to pressure on crypto markets.",
+      "title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
+      "link": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit",
+      "published": "Mon, 16 Nov 2026 16:41:42 +0000",
+      "description": "The decentralized exchange blamed a leaked trading API key and said its smart contracts were unaffected, while investigators traced funds to Hyperliquid.",
       "approx_traffic": "",
       "source_id": "coindesk_rss",
       "source_name": "CoinDesk RSS",
@@ -747,10 +787,10 @@
       "source_weight": 4
     },
     {
-      "title": "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave",
-      "link": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
-      "published": "Sat, 14 Nov 2026 16:33:29 +0000",
-      "description": "\"They are now selling at the very price they wish they had taken advantage of three months ago,\" wrote James Check.",
+      "title": "Brazil's central bank faces backlash over stablecoin money laundering remarks",
+      "link": "https://www.coindesk.com/business/2026/11/16/brazil-s-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
+      "published": "Mon, 16 Nov 2026 15:54:11 +0000",
+      "description": "A central bank official reportedly said legitimate funds become tainted when moved into stablecoins, comparing the market to the informal \"dólar-cabo\" system.",
       "approx_traffic": "",
       "source_id": "coindesk_rss",
       "source_name": "CoinDesk RSS",
@@ -759,10 +799,10 @@
       "source_weight": 4
     },
     {
-      "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
-      "link": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
-      "published": "Sat, 14 Nov 2026 16:33:23 +0000",
-      "description": "Decentralized Finance total value locked on MegaETH dropped significantly from over $245 million to $8.8 million.",
+      "title": "German parliament proposes crypto seizures without criminal charges",
+      "link": "https://www.coindesk.com/policy/2026/11/16/german-parliament-proposes-crypto-seizures-without-criminal-charges",
+      "published": "Mon, 16 Nov 2026 15:44:59 +0000",
+      "description": "German lawyers said a proposed law allowing the seizure of assets worth more than 100,000 euros could impose a burden of proof on crypto holders rather than the authorities.",
       "approx_traffic": "",
       "source_id": "coindesk_rss",
       "source_name": "CoinDesk RSS",
@@ -771,10 +811,10 @@
       "source_weight": 4
     },
     {
-      "title": "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
-      "link": "https://www.coindesk.com/business/2026/11/14/kazakhstan-plans-tokenized-government-bonds-in-first-quarter-after-usd22-million-note-sale",
-      "published": "Sat, 14 Nov 2026 15:38:27 +0000",
-      "description": "The plan follows Kazakhstan's first sale of tokenized central bank notes as the country expands its crypto market.",
+      "title": "Solana drops ‘beta’ label after more than six years",
+      "link": "https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years",
+      "published": "Mon, 16 Nov 2026 13:03:16 +0000",
+      "description": "The blockchain is getting a shared version number. Wallets, transactions and apps remain unchanged.",
       "approx_traffic": "",
       "source_id": "coindesk_rss",
       "source_name": "CoinDesk RSS",
@@ -783,10 +823,10 @@
       "source_weight": 4
     },
     {
-      "title": "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground",
-      "link": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground",
-      "published": "Sat, 14 Nov 2026 15:00:00 +0000",
-      "description": "Project Meridian FX APAC said it demonstrated how transactions can be coordinated across conventional settlement systems and those built using blockchain technology.",
+      "title": "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes",
+      "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-slide-reopens-an-old-feud-between-crypto-s-most-powerful-founders",
+      "published": "Mon, 16 Nov 2026 12:55:46 +0000",
+      "description": "CZ says Binance isn’t selling crypto and he has been buying. OKX founder Star Xu accuses him of misleading customers about the exchange’s role in successive October crashes.",
       "approx_traffic": "",
       "source_id": "coindesk_rss",
       "source_name": "CoinDesk RSS",
@@ -795,10 +835,10 @@
       "source_weight": 4
     },
     {
-      "title": "Aster CEO suspects foul play after token plunges 32% in minutes",
-      "link": "https://cointelegraph.com/markets/aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 16 Nov 2026 05:28:40 +0000",
-      "description": "Aster’s CEO attributed the extreme volatility to highly leveraged liquidations but said the exchange remained operational.",
+      "title": "Bitmine edges toward 5% of ETH supply as treasuries report buys amid market slump",
+      "link": "https://cointelegraph.com/markets/bitmine-nears-5-eth-supply-treasuries-report-buys-amid-market-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 16 Nov 2026 20:45:47 +0000",
+      "description": "Strategy, Strive, Bitmine and Cypherpunk disclosed fresh additions to their crypto treasuries, spanning Bitcoin, Ether and Zcash.",
       "approx_traffic": "",
       "source_id": "cointelegraph_rss",
       "source_name": "Cointelegraph",
@@ -807,10 +847,10 @@
       "source_weight": 3
     },
     {
-      "title": "Asian chip stocks tumble ahead of Nvidia Q3 earnings",
-      "link": "https://cointelegraph.com/markets/asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 16 Nov 2026 04:42:07 +0000",
-      "description": "The weakness came amid a wider sell-off in regional equity markets, with Japan’s Nikkei 225 down 2% and South Korea’s Kospi losing 2.6%.",
+      "title": "Boris Johnson says UK must lead blockchain development despite crypto doubts",
+      "link": "https://cointelegraph.com/news/boris-johnson-uk-must-lead-blockchain-development-despite-crypto-doubts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 16 Nov 2026 20:18:02 +0000",
+      "description": "Johnson was joined by Lord Ross Kempsell who called for regulators to work with industry participants to bring the UK to the forefront.",
       "approx_traffic": "",
       "source_id": "cointelegraph_rss",
       "source_name": "Cointelegraph",
@@ -819,10 +859,10 @@
       "source_weight": 3
     },
     {
-      "title": "Luxor CEO warns of AI ‘dark forest’ following Bitcoin miner hijack",
-      "link": "https://cointelegraph.com/news/luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 16 Nov 2026 02:33:07 +0000",
-      "description": "Attackers redirected customers’ Bitcoin mining power through Luxor’s Commander platform over the weekend, prompting its CEO to issue a warning to crypto businesses.",
+      "title": "Coinbase and Broadridge propose standard for tokenized stock disclosures",
+      "link": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 16 Nov 2026 19:56:18 +0000",
+      "description": "The proposed standard aims to connect tokenized stockholders with corporate disclosures and voting materials across digital wallets, but would not create shareholder rights.",
       "approx_traffic": "",
       "source_id": "cointelegraph_rss",
       "source_name": "Cointelegraph",
@@ -831,10 +871,10 @@
       "source_weight": 3
     },
     {
-      "title": "Jensen Huang weighs Nvidia comeback days after shock exit: FT",
-      "link": "https://cointelegraph.com/news/jensen-huang-weighs-nvidia-comeback-days-after-shock-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 15 Nov 2026 23:47:45 +0000",
-      "description": "Silicon Valley executives are reportedly organizing a campaign to bring Huang back and are looking to gain White House support.",
+      "title": "Nvidia turmoil tests Bitcoin miners’ AI funding plans",
+      "link": "https://cointelegraph.com/news/nvidia-turmoil-tests-bitcoin-miners-ai-funding-plans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 16 Nov 2026 18:07:49 +0000",
+      "description": "Nvidia’s leadership upheaval and Texas permit restrictions sharpen the divide between miners with funded projects and those still seeking capital and approvals.",
       "approx_traffic": "",
       "source_id": "cointelegraph_rss",
       "source_name": "Cointelegraph",
@@ -843,10 +883,10 @@
       "source_weight": 3
     },
     {
-      "title": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest",
-      "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 15 Nov 2026 22:50:59 +0000",
-      "description": "Anchorage Digital data suggests the Bitcoin selloff is being driven by US investors. A “war room” has been set up by supporters to reinstate Nvidia boss Jensen Huang.",
+      "title": "Safe wallet reportedly loses $6.5M as Zodiac suspects key compromise",
+      "link": "https://cointelegraph.com/news/safe-wallet-reportedly-loses-millions-after-key-compromise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 16 Nov 2026 17:49:13 +0000",
+      "description": "Zodiac’s co-founder said a likely compromised key and overly permissive wallet settings enabled the theft, rather than a flaw in its smart contracts.",
       "approx_traffic": "",
       "source_id": "cointelegraph_rss",
       "source_name": "Cointelegraph",
@@ -855,10 +895,10 @@
       "source_weight": 3
     },
     {
-      "title": "Enterprise blockchain is going to come back from the dead",
-      "link": "https://cointelegraph.com/opinion/enterprise-blockchain-come-back-from-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 15 Nov 2026 14:30:00 +0000",
-      "description": "With scalability, privacy tools and onchain liquidity improving, businesses may finally have the infrastructure to make enterprise blockchain work.",
+      "title": "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-fails-to-hold-65k-us-stocks-drop-on-ai-nerves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 16 Nov 2026 16:26:52 +0000",
+      "description": "Bitcoin and US equities saw pressure to start the week as traders weighed the impact of forthcoming Nvidia Q3 earnings and Anthropic’s IPO announcement.",
       "approx_traffic": "",
       "source_id": "cointelegraph_rss",
       "source_name": "Cointelegraph",
@@ -867,10 +907,10 @@
       "source_weight": 3
     },
     {
-      "title": "Bitcoin falls to 4-month low near $62K as crypto selloff deepens",
-      "link": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 15 Nov 2026 10:23:17 +0000",
-      "description": "The global cryptocurrency market capitalization fell 4% to $2.26 trillion over 24 hours, while Ether and Solana posted double-digit weekly losses.",
+      "title": "Zelle picks Solana for ZelleUSD stablecoin and international payments",
+      "link": "https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 16 Nov 2026 14:55:46 +0000",
+      "description": "Zelle plans to use Solana for its ZelleUSD stablecoin and international payments, with confidential transfers designed to hide payment amounts.",
       "approx_traffic": "",
       "source_id": "cointelegraph_rss",
       "source_name": "Cointelegraph",
@@ -879,10 +919,10 @@
       "source_weight": 3
     },
     {
-      "title": "Coinone warns of phishing, identity theft after customer data breach",
-      "link": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 15 Nov 2026 08:07:58 +0000",
-      "description": "The South Korean crypto exchange said potentially exposed information includes passwords, bank account numbers, national identification numbers and crypto wallet addresses.",
+      "title": "Lighter recovers $5M after $10M exploit linked to compromised API keys",
+      "link": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 16 Nov 2026 14:19:50 +0000",
+      "description": "Lighter restored withdrawals after recovering approximately $5 million in USDC, while blockchain analysts traced $10.4 million in funds moved during the exploit.",
       "approx_traffic": "",
       "source_id": "cointelegraph_rss",
       "source_name": "Cointelegraph",
@@ -891,10 +931,10 @@
       "source_weight": 3
     },
     {
-      "title": "Tech world's calls for Jensen Huang to return to Nvidia are growing",
-      "link": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html",
-      "published": "Mon, 16 Nov 2026 03:35:09 GMT",
-      "description": "Calls for Jensen Huang's return as Nvidia CEO are growing, with tech executives and major shareholders backing a potential comeback following his resignation.",
+      "title": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+      "link": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+      "published": "Mon, 16 Nov 2026 19:46:26 GMT",
+      "description": "Jensen Huang resigned from Nvidia last week after 33 years as CEO.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -903,10 +943,10 @@
       "source_weight": 3
     },
     {
-      "title": "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
-      "link": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
-      "published": "Mon, 16 Nov 2026 04:34:00 GMT",
-      "description": "The talks are expected to focus on issues including nuclear non-proliferation, the Middle East war, trade policies and, possibly, the Ukraine war.",
+      "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
+      "link": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
+      "published": "Mon, 16 Nov 2026 20:51:28 GMT",
+      "description": "Oil prices are falling as forecasts project a surplus in oil in the fourth quarter",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -915,10 +955,10 @@
       "source_weight": 3
     },
     {
-      "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
-      "link": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
-      "published": "Sun, 15 Nov 2026 12:00:01 GMT",
-      "description": "Anthropic's IPO has outsized importance in the tech industry, which is heavily invested in the AI lab and is desperate for some positive momentum.",
+      "title": "Kalshi plans to launch stock trading soon",
+      "link": "https://www.cnbc.com/2026/11/16/kalshi-plans-to-launch-stock-trading-soon.html",
+      "published": "Mon, 16 Nov 2026 21:23:34 GMT",
+      "description": "Kalshi's interest in offering stock trading shows the platform's push into traditional financial markets.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -927,10 +967,10 @@
       "source_weight": 3
     },
     {
-      "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
-      "link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
-      "published": "Mon, 16 Nov 2026 03:53:59 GMT",
-      "description": "A deepening reliance on external demand leaves China more exposed to shocks abroad as domestic momentum fades, analysts say.",
+      "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
+      "link": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
+      "published": "Mon, 16 Nov 2026 18:46:07 GMT",
+      "description": "",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -939,10 +979,10 @@
       "source_weight": 3
     },
     {
-      "title": "Trump breaks silence about FAA nationwide ground stop, blames Biden administration",
-      "link": "https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html",
-      "published": "Sun, 15 Nov 2026 16:56:40 GMT",
-      "description": "Trump blamed the Biden administration for the FAA’s aging system after a nationwide ground stop disrupted air travel and urged Congress to approve more funding.",
+      "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
+      "link": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
+      "published": "Mon, 16 Nov 2026 21:42:50 GMT",
+      "description": "CNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -951,10 +991,10 @@
       "source_weight": 3
     },
     {
-      "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
-      "link": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
-      "published": "Mon, 16 Nov 2026 02:56:24 GMT",
-      "description": "Energy subsidies for households had reportedly expired in September, exposing the economy to the higher energy prices brought about by the Iran war.",
+      "title": "Anthropic’s Wall Street whisperer: Meet CFO Krishna Rao",
+      "link": "https://www.cnbc.com/2026/11/16/anthropic-cfo-krishna-rao-ipo.html",
+      "published": "Mon, 16 Nov 2026 20:44:24 GMT",
+      "description": "Anthropic's upcoming IPO is putting finance chief Krishna Rao into the limelight.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -963,10 +1003,10 @@
       "source_weight": 3
     },
     {
-      "title": "'We slept here': Flight delays linger but schedule is back on track for Monday",
-      "link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
-      "published": "Sun, 15 Nov 2026 22:33:26 GMT",
-      "description": "Flight disruptions lingered two days after the Federal Aviation Administration grounded departures nationwide for more than four hours.",
+      "title": "California sues OpenAI over Hugging Face, other AI model loss of control",
+      "link": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
+      "published": "Mon, 16 Nov 2026 21:11:06 GMT",
+      "description": "Two OpenAI models in July gained unauthorized access to Hugging Face's internal systems to find information for use in cheating on an evaluation.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
@@ -975,13 +1015,49 @@
       "source_weight": 3
     },
     {
-      "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-      "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-      "published": "Sat, 14 Nov 2026 12:00:01 GMT",
-      "description": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
+      "title": "Market's Nvidia obsession obscuring an opportunity in this name",
+      "link": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html",
+      "published": "Mon, 16 Nov 2026 18:56:49 GMT",
+      "description": "Investors might be overlooking Disney earnings.",
       "approx_traffic": "",
       "source_id": "cnbc_top_news",
       "source_name": "CNBC Top News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "001k.bot Launches Earn for USDT, BTC, and ETH",
+      "link": "https://www.investing.com/news/cryptocurrency-news/001kbot-launches-earn-for-usdt-btc-and-eth-5030510",
+      "published": "2026-11-16 16:09:10",
+      "description": "",
+      "approx_traffic": "",
+      "source_id": "investing_news",
+      "source_name": "Investing.com Crypto News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Bitcoin muted at $64.4k as crypto sentiment dithers, ETF outflows persist",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-65k-as-crypto-sentiment-dithers-etf-outflows-persist-5028381",
+      "published": "2026-11-16 14:30:11",
+      "description": "",
+      "approx_traffic": "",
+      "source_id": "investing_news",
+      "source_name": "Investing.com Crypto News",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Strategy buys 485 bitcoin, sells MSTR shares for $244.7M in ATM offering",
+      "link": "https://www.investing.com/news/cryptocurrency-news/strategy-buys-485-bitcoin-sells-mstr-shares-for-2447m-in-atm-offering-432SI-5029704",
+      "published": "2026-11-16 13:07:02",
+      "description": "",
+      "approx_traffic": "",
+      "source_id": "investing_news",
+      "source_name": "Investing.com Crypto News",
       "source_category": "global_media",
       "source_type": "rss",
       "source_weight": 3
@@ -1047,46 +1123,10 @@
       "source_weight": 3
     },
     {
-      "title": "EOS Falls 13% In Rout",
-      "link": "https://www.investing.com/news/cryptocurrency-news/eos-falls-13-in-rout-5027512",
-      "published": "2026-11-14 20:52:59",
-      "description": "",
-      "approx_traffic": "",
-      "source_id": "investing_news",
-      "source_name": "Investing.com Crypto News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Cardano Falls 10% In Selloff",
-      "link": "https://www.investing.com/news/cryptocurrency-news/cardano-falls-10-in-selloff-5027456",
-      "published": "2026-11-14 18:19:55",
-      "description": "",
-      "approx_traffic": "",
-      "source_id": "investing_news",
-      "source_name": "Investing.com Crypto News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Bitcoin set for worst week since early June after more than 10% slide",
-      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-drops-below-70k-as-crypto-appetite-sours-5024070",
-      "published": "2026-11-13 23:10:07",
-      "description": "",
-      "approx_traffic": "",
-      "source_id": "investing_news",
-      "source_name": "Investing.com Crypto News",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
-      "link": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1",
-      "published": "Sun, 15 Nov 2026 19:03:41 GMT",
-      "description": "Tech supporters lobby chipmaker’s board to reinstate former head after he resigned following affair with alleged Chinese spy",
+      "title": "Nasdaq 100 sinks 2.7% in gloomy start to pivotal week for AI trade",
+      "link": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 21:02:17 GMT",
+      "description": "US chip stocks fall as Nvidia sustains fresh bout of selling pressure",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1095,46 +1135,10 @@
       "source_weight": 3
     },
     {
-      "title": "Bessent says Nvidia needs ‘shake-up’ with external CEO",
-      "link": "https://www.ft.com/content/24edbb84-7520-4ef0-a57c-30359e12ccc5?syn-25a6b1a6=1",
-      "published": "Sun, 15 Nov 2026 18:28:25 GMT",
-      "description": "US Treasury secretary demands to know if chipmaker is complying with restrictions on exports to China",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "US and allies sign accord to protect AI supply chains from China",
-      "link": "https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22?syn-25a6b1a6=1",
-      "published": "Sun, 15 Nov 2026 17:47:43 GMT",
-      "description": "Pact comes ahead of Donald Trump’s meeting with Xi Jinping at the Asia-Pacific Economic Cooperation forum in Shenzhen",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Yalta 2.0? Trump, Xi and Putin lead Asia’s week of high-stakes diplomacy",
-      "link": "https://www.ft.com/content/5621d364-c767-4b40-a090-054042d1c49b?syn-25a6b1a6=1",
-      "published": "Mon, 16 Nov 2026 01:41:33 GMT",
-      "description": "Summits in China and the Philippines provide a backdrop for a string of meetings involving powerful global rivals",
-      "approx_traffic": "",
-      "source_id": "ft_home",
-      "source_name": "Financial Times Home",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "The great migration slowdown",
-      "link": "https://www.ft.com/content/12f76b96-6ef9-40fb-924f-60c348935a21?syn-25a6b1a6=1",
-      "published": "Mon, 16 Nov 2026 05:00:03 GMT",
-      "description": "A sharp fall in the number of migrants arriving in rich countries adds to the fiscal challenges of rapidly ageing populations",
+      "title": "Nvidia board not considering reinstating Jensen Huang as chief executive",
+      "link": "https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 18:14:16 GMT",
+      "description": "Co-founder of chipmaker resigned following extramarital affair with executive at Singapore-based customer",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1155,10 +1159,10 @@
       "source_weight": 3
     },
     {
-      "title": "Biggest IPOs this year lose investors money as AI frenzy fades",
-      "link": "https://www.ft.com/content/7974acec-e378-4298-a1a7-2b16b00d8b32?syn-25a6b1a6=1",
-      "published": "Mon, 16 Nov 2026 05:00:11 GMT",
-      "description": "Ten biggest flotations have fallen more than 20% on average in 2026 after four years of gains",
+      "title": "Why Putin, Trump and Xi cannot be the new ‘big three’",
+      "link": "https://www.ft.com/content/f87fc05f-6689-4051-9d6b-40754315355f?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 12:22:48 GMT",
+      "description": "The leaders of the US, China and Russia cannot carve up the world between them, even if they wanted to",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1167,10 +1171,10 @@
       "source_weight": 3
     },
     {
-      "title": "Brussels to propose €45bn Ukraine loan borrowed against EU budget",
-      "link": "https://www.ft.com/content/2c9de06b-aa86-4275-b9f3-1276f8c20994?syn-25a6b1a6=1",
-      "published": "Mon, 16 Nov 2026 05:00:22 GMT",
-      "description": "Plan to help bridge Kyiv’s funding gap next year is due to be presented to member states on Wednesday",
+      "title": "OpenAI sued by California over 80 ‘loss of control’ incidents",
+      "link": "https://www.ft.com/content/1e18af77-d434-4871-81cc-b0e74a0e97bd?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 20:48:37 GMT",
+      "description": "State’s attorney-general claims hacking by rogue AI models is the ‘predictable result of an internal culture that prioritises growth over safety’",
       "approx_traffic": "",
       "source_id": "ft_home",
       "source_name": "Financial Times Home",
@@ -1179,110 +1183,92 @@
       "source_weight": 3
     },
     {
-      "title": "Asian shares fall before Nvidia earnings, Anthropic IPO test tech rally - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa3g3MVMxZ2lSN1ZpTmpaWkdYR25ZdDZ4M3BELXQ3ZC1PZDhtNTVjYmpQdHlJZUFtLWxiUkFLbXhUVHM0OHNScEUyTWFHUU5MMmZYb0EyVW51dXd1OWJFak1NbVFwazhlVzBIcHB3TENzRG1IZ2FvVFlpS0xubFBadXlPYw?oc=5",
-      "published": "Mon, 16 Nov 2026 01:35:00 GMT",
-      "description": "Asian shares fall before Nvidia earnings, Anthropic IPO test tech rally &nbsp;&nbsp; Reuters",
+      "title": "Ukraine strikes Crimean Bridge in record drone attack",
+      "link": "https://www.ft.com/content/cf57a196-bcbc-4605-a977-73fa0498aeed?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 10:29:11 GMT",
+      "description": "Russia’s defence ministry said it intercepted or destroyed largest number of drones since beginning of war in past 24 hours",
       "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
       "source_category": "global_media",
       "source_type": "rss",
       "source_weight": 3
     },
     {
-      "title": "Gold holds steady as investors await Warsh remarks for rate signals - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR0w3QnNOYVBGYjdBMGJDeml5RExhSzMzaGVTUEQ2eEdLNHhHQzRoV2thNUo4TkVGYmNfc3NsSGpVVVF2OWxCZ21CNzBMSGs0S3NuZ2Rla1d4WTR0RGJwcllfYnZ6dlR5ZGZXa3dMakUxZmNDWFExYk9HNTkyLTN6aWF0MlRRbzN4aUJUVnVCMk1fdlpVN1B0bE1QM3dkaENDNEwzaHRORFFjVDYw?oc=5",
-      "published": "Mon, 16 Nov 2026 01:25:00 GMT",
-      "description": "Gold holds steady as investors await Warsh remarks for rate signals &nbsp;&nbsp; Reuters",
+      "title": "Russia’s richest woman hit by EU sanctions",
+      "link": "https://www.ft.com/content/4d014005-1a99-4e3e-88d5-b116fe2497bc?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 17:11:52 GMT",
+      "description": "Founder of country’s largest online retailer Wildberries targeted in latest round of EU sanctions over war in Ukraine",
       "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
       "source_category": "global_media",
       "source_type": "rss",
       "source_weight": 3
     },
     {
-      "title": "Japan's economy unexpectedly shrinks as inflation squeezes households - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeXFYOEg3cHpDTUFrTU9IRlQyWDlvRGVMVVN3VmxOelY3WnhCREJNdElKcEY5ZWpBSmhoalMzWDdaM0Y5Z0VXbkxVemg3YmdhSUg5UmYybnhFOHhWbVhXdjdoT1BUUGNQUFVtX2o1SkJRSnBJNEdLX081amJyUll6WHFpUk5SaWlkd2JGN0VnRFZKYi1WT1B0NzFUOUVKdkFfcTQ5RmdFeHdvcWI5c2pRaXF6MFBydw?oc=5",
-      "published": "Mon, 16 Nov 2026 00:13:00 GMT",
-      "description": "Japan's economy unexpectedly shrinks as inflation squeezes households &nbsp;&nbsp; Reuters",
+      "title": "Russia aims for ‘joint statement’ from trilateral summit with US and China",
+      "link": "https://www.ft.com/content/e567ba7d-c53a-47a2-a361-3b8a107fcdef?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 18:19:17 GMT",
+      "description": "Thursday’s unprecedented meeting of Donald Trump, Xi Jinping and Vladimir Putin has drawn intense international attention",
       "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
+      "source_id": "ft_home",
+      "source_name": "Financial Times Home",
       "source_category": "global_media",
       "source_type": "rss",
       "source_weight": 3
     },
     {
-      "title": "Fed's Collins says gradual rate hikes best to manage economic risks - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbHZfX3JqempNenlnSUpVcTd4dXY4djdJU1c2VkZ2Um5fYXkyVTMtYUxBZlBrcXVqQXJkQ0RjejZRQTdBLWxPYzcyRDBfTGxmdUVTekN0TFFWdHNfZFh6ckt0c1RCTVBwZzZjZ3NacWJWSDhvMVRGVDNpR0o2YTBwdmJILTE4eWs2SlQ5YnVHN0ctMFM3bWJsQkhtblRUMjI0amRHcFZLaXNaWWJz?oc=5",
-      "published": "Sat, 14 Nov 2026 15:47:44 GMT",
-      "description": "Fed's Collins says gradual rate hikes best to manage economic risks &nbsp;&nbsp; Reuters",
+      "title": "How Much Profit Does Korean Air Make on a Round Trip from Incheon to New York? 3 Hidden Revenue S...",
+      "link": "https://www.youtube.com/watch?v=TG_6DODWmzM",
+      "published": "무역킹 Trade King",
+      "description": "",
       "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
+      "video_id": "TG_6DODWmzM",
+      "transcript_available": false,
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=TG_6DODWmzM! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_language": "",
+      "transcript_language_code": "",
+      "transcript_is_generated": false,
+      "transcript_mode": "",
+      "transcript_excerpt": "",
+      "transcript_digest_points": [],
+      "source_id": "trade_king_youtube",
+      "source_name": "무역킹 Trade King YouTube",
+      "source_category": "youtube_macro",
+      "source_type": "youtube_channel",
       "source_weight": 3
     },
     {
-      "title": "Japan's economy contracts annualised 0.1% in July-September - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNajN1eGtlbVV6b1ZxTkZMOEY1MGRsM3J1bWpscEhQQ3ZOWnRXZk1aYVQ0Y3dCcmg1RWRkS2l5eFN0YUpCalk2YjI3QjBKb2gyOEx6VlV5cTZVb2MyT29Mc2tmSjB6T29zdV9weEd4U1hHT3lKaE9kZmt6dmpuTHdITFlxbWxhcFBnNlFOdGEzdGRGcDVOMlpfNlFTVzVLSjg?oc=5",
-      "published": "Sun, 15 Nov 2026 23:59:43 GMT",
-      "description": "Japan's economy contracts annualised 0.1% in July-September &nbsp;&nbsp; Reuters",
+      "title": "이란은 치고 북한은 놔두는 진짜 이유는",
+      "link": "https://www.youtube.com/watch?v=4F4R6Pu4ldY",
+      "published": "34K",
+      "description": "",
       "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Huang's exit, Anthropic's entrance - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbi0xME1PaWtsZm1QMk1qak5iWnlBOHU0eWRSSVBMN2xmZU1jMnhlZVZVRVhVeHQzVURjWVAwMUJGMVluUFJKSVlYbWFDTnpGUUhnYzBuQTZLeDc4VGpqQUdhS1RtZ3Vab21EaWRFdHRoUlJJVThSd2tqTmppQ0dSWF85X2o1bWVxTUhpUQ?oc=5",
-      "published": "Fri, 13 Nov 2026 08:51:13 GMT",
-      "description": "Huang's exit, Anthropic's entrance &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "New World Development proposes $3.2 billion rights issue - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcTFtZ1YwdmlvYnB4b3dzb0VuZEpLM2FIa09kQWJ3YUljZEZkd3VLOHZvWUhxUEMydkVlUzgtbFZMX3cyRHp4UHQ2TnhqemFsYkhzdjhNVmpBLVg0ZjMtQUY3X3NwTk1fRzdqUWdCS09mQ3Q3djZhdkhHLWktQ3FoVE1PdTdUdXhUbkd4Vi00U2FOZzRtYmpiZ2lma20tN1JWRGdFaThoQUg?oc=5",
-      "published": "Sun, 15 Nov 2026 13:33:43 GMT",
-      "description": "New World Development proposes $3.2 billion rights issue &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "From SpaceX to Anthropic, markets have a new playbook for mega-share debuts - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSVBKOUFhVENlOHhiWWtwTlhGOEdkTXJLaWRrV0I0a19lOGhsVWp6RFNkVHJVdWVYMUk5N3RkX1BueVUtcGV3dkRFeFdrZmdqR0tNWFViY01SZlhkcExlN3BTV1JWcDFTR3NXZDdURDBMY2tsN1U5bXRwOXRWY1BfZTFyTGlGMnhXT1N2SVRXX05UVV9oSmFSdlVBRnBaV1QzcFkwdnhzaS0?oc=5",
-      "published": "Fri, 13 Nov 2026 04:39:09 GMT",
-      "description": "From SpaceX to Anthropic, markets have a new playbook for mega-share debuts &nbsp;&nbsp; Reuters",
-      "approx_traffic": "",
-      "source_id": "reuters_markets_google_news",
-      "source_name": "Reuters Markets via Google News RSS",
-      "source_category": "global_media",
-      "source_type": "rss",
+      "video_id": "4F4R6Pu4ldY",
+      "transcript_available": false,
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=4F4R6Pu4ldY! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_language": "",
+      "transcript_language_code": "",
+      "transcript_is_generated": false,
+      "transcript_mode": "",
+      "transcript_excerpt": "",
+      "transcript_digest_points": [],
+      "source_id": "trade_king_youtube",
+      "source_name": "무역킹 Trade King YouTube",
+      "source_category": "youtube_macro",
+      "source_type": "youtube_channel",
       "source_weight": 3
     },
     {
       "title": "3. The History of the Antichrist and the Jesuits (Sunday School: Antichrist)",
       "link": "https://www.youtube.com/watch?v=C4eUSwy6NTE",
-      "published": "39K",
+      "published": "47K",
       "description": "",
       "approx_traffic": "",
       "video_id": "C4eUSwy6NTE",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=C4eUSwy6NTE! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=C4eUSwy6NTE! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1298,12 +1284,12 @@
     {
       "title": "글자 없는 부족에게 복음을 (썬데이스쿨 몰아보기 : 태국 쁘라이족)",
       "link": "https://www.youtube.com/watch?v=etgdX65NaHg",
-      "published": "6.2K",
+      "published": "6.5K",
       "description": "",
       "approx_traffic": "",
       "video_id": "etgdX65NaHg",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=etgdX65NaHg! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=etgdX65NaHg! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1319,12 +1305,12 @@
     {
       "title": "What If the US Became Socialist? The DSA Wave (Binge: US DSA)",
       "link": "https://www.youtube.com/watch?v=TN-Q_CwOX0s",
-      "published": "39K",
+      "published": "43K",
       "description": "",
       "approx_traffic": "",
       "video_id": "TN-Q_CwOX0s",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=TN-Q_CwOX0s! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=TN-Q_CwOX0s! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1340,12 +1326,12 @@
     {
       "title": "2. How in the World Does It Add Up to 666? (Sunday School: Antichrist)",
       "link": "https://www.youtube.com/watch?v=UOM4lt0-SZ4",
-      "published": "63K",
+      "published": "66K",
       "description": "",
       "approx_traffic": "",
       "video_id": "UOM4lt0-SZ4",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=UOM4lt0-SZ4! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=UOM4lt0-SZ4! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1366,7 +1352,7 @@
       "approx_traffic": "",
       "video_id": "wokKgFS_rU4",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=wokKgFS_rU4! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=wokKgFS_rU4! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1382,12 +1368,12 @@
     {
       "title": "2. After Mamdani, is AOC next..? The DSA taking over the US Democratic Party (US DSA)",
       "link": "https://www.youtube.com/watch?v=xEe9bh1NCTc",
-      "published": "32K",
+      "published": "33K",
       "description": "",
       "approx_traffic": "",
       "video_id": "xEe9bh1NCTc",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=xEe9bh1NCTc! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=xEe9bh1NCTc! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1401,52 +1387,10 @@
       "source_weight": 3
     },
     {
-      "title": "Types of people who get held back the moment they try to resign",
-      "link": "https://www.youtube.com/watch?v=A9fg9gdBb24",
-      "published": "무역킹 Trade King",
-      "description": "",
-      "approx_traffic": "",
-      "video_id": "A9fg9gdBb24",
-      "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=A9fg9gdBb24! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
-      "transcript_language": "",
-      "transcript_language_code": "",
-      "transcript_is_generated": false,
-      "transcript_mode": "",
-      "transcript_excerpt": "",
-      "transcript_digest_points": [],
-      "source_id": "trade_king_youtube",
-      "source_name": "무역킹 Trade King YouTube",
-      "source_category": "youtube_macro",
-      "source_type": "youtube_channel",
-      "source_weight": 3
-    },
-    {
-      "title": "1. What if the U.S. turned socialist? (U.S. DSA)",
-      "link": "https://www.youtube.com/watch?v=T9vK-fElETQ",
-      "published": "62K",
-      "description": "",
-      "approx_traffic": "",
-      "video_id": "T9vK-fElETQ",
-      "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=T9vK-fElETQ! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
-      "transcript_language": "",
-      "transcript_language_code": "",
-      "transcript_is_generated": false,
-      "transcript_mode": "",
-      "transcript_excerpt": "",
-      "transcript_digest_points": [],
-      "source_id": "trade_king_youtube",
-      "source_name": "무역킹 Trade King YouTube",
-      "source_category": "youtube_macro",
-      "source_type": "youtube_channel",
-      "source_weight": 3
-    },
-    {
-      "title": "My older brother, who has no children, cut our only sister out of his will. I’ll get everything. Do I tell her?",
-      "link": "https://www.marketwatch.com/story/she-has-a-history-of-financial-mismanagement-my-brother-cut-my-sister-out-of-his-will-im-getting-everything-do-i-tell-her-3e537851?mod=mw_rss_topstories",
-      "published": "Mon, 16 Nov 2026 04:15:00 GMT",
-      "description": "“I’m torn between respecting my brother’s wishes and being fair to my sister.”",
+      "title": "Chase says ‘software bug’ could be causing disruptions at major U.S. banks",
+      "link": "https://www.marketwatch.com/story/customers-of-chase-bank-of-america-and-other-u-s-banks-report-service-outages-18fe23b8?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 21:49:00 GMT",
+      "description": "Some customers are saying they can’t access their accounts or their unable to withdraw funds.",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
       "source_name": "MarketWatch Breaking News",
@@ -1455,10 +1399,10 @@
       "source_weight": 2
     },
     {
-      "title": "A big chunk of your 401(k) is likely invested in Nvidia",
-      "link": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories",
-      "published": "Mon, 16 Nov 2026 03:11:00 GMT",
-      "description": "The scandal at the computer-chip giant is exactly what’s wrong with the S&P 500.",
+      "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
+      "link": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 21:45:00 GMT",
+      "description": "“I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
       "source_name": "MarketWatch Breaking News",
@@ -1467,10 +1411,10 @@
       "source_weight": 2
     },
     {
-      "title": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
-      "link": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
-      "published": "Sun, 15 Nov 2026 23:30:00 GMT",
-      "description": "“I know older people can easily feel patronized, and I don’t want that to happen.”",
+      "title": "Now’s the perfect time for networking. Here’s how to send a cringe-free email.",
+      "link": "https://www.marketwatch.com/story/nows-the-perfect-time-for-networking-heres-how-to-send-a-cringe-free-email-73ad34ea?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 21:40:00 GMT",
+      "description": "Hiring for white-collar jobs usually dips in November and December, so try sending “cold emails” to your network instead.",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
       "source_name": "MarketWatch Breaking News",
@@ -1479,10 +1423,10 @@
       "source_weight": 2
     },
     {
-      "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
-      "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
-      "published": "Sun, 15 Nov 2026 23:00:00 GMT",
-      "description": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
+      "title": "Rare-earth stocks sink deeper into the red. Here’s the latest catalyst.",
+      "link": "https://www.marketwatch.com/story/rare-earth-stocks-sinks-deeper-into-the-red-heres-the-latest-catalyst-3033c8d0?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 21:18:00 GMT",
+      "description": "Shares of Trump-backed USA Rare Earth slides 10% as analysts push out their sales estimates.",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
       "source_name": "MarketWatch Breaking News",
@@ -1491,10 +1435,10 @@
       "source_weight": 2
     },
     {
-      "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
-      "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
-      "published": "Sun, 15 Nov 2026 21:32:00 GMT",
-      "description": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
+      "title": "Micron, AMD and other AI stocks fall as the chip sector’s selloff intensifies",
+      "link": "https://www.marketwatch.com/story/micron-amd-and-other-ai-stocks-fall-as-the-chip-sectors-selloff-intensifies-48e38bdf?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 21:17:00 GMT",
+      "description": "Investors are jittery about Nvidia’s upcoming earnings and whether the company will scale back its financing of the AI ecosystem.",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
       "source_name": "MarketWatch Breaking News",
@@ -1503,10 +1447,10 @@
       "source_weight": 2
     },
     {
-      "title": "Budget airlines are going upscale with first-class seats and faster wifi",
-      "link": "https://www.marketwatch.com/story/budget-airlines-are-going-upscale-with-first-class-seats-and-faster-wifi-999868ab?mod=mw_rss_topstories",
-      "published": "Sun, 15 Nov 2026 21:31:00 GMT",
-      "description": "Forget no-frills: Frontier and JetBlue are chasing luxury flyers, and Wall Street is buying in.",
+      "title": "Nvidia investors will be clamoring for these answers during a historic earnings call",
+      "link": "https://www.marketwatch.com/story/nvidia-investors-will-be-clamoring-for-answers-to-these-questions-during-the-companys-hotly-anticipated-earnings-call-a49ec19d?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 21:05:00 GMT",
+      "description": "There’s a lot that Nvidia investors want to know about the post-Jensen Huang era — although management is likely to be tight-lipped on the topic of succession.",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
       "source_name": "MarketWatch Breaking News",
@@ -1515,10 +1459,10 @@
       "source_weight": 2
     },
     {
-      "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
-      "link": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
-      "published": "Sun, 15 Nov 2026 20:30:00 GMT",
-      "description": "“He has always said he wants his daughter to inherit a chunk of his estate, and I’ve never objected to that.”",
+      "title": "‘I felt so seen’: Why families across America are laughing — and crying — over SNL’s ‘Sister’ sketch",
+      "link": "https://www.marketwatch.com/story/so-sad-and-so-true-has-your-family-talked-about-snls-sister-sketch-yet-19bf9d67?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 20:46:00 GMT",
+      "description": "The late-night comedy sketch does the impossible by making female caregivers feel seen.",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
       "source_name": "MarketWatch Breaking News",
@@ -1527,10 +1471,10 @@
       "source_weight": 2
     },
     {
-      "title": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
-      "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
-      "published": "Sun, 15 Nov 2026 20:00:00 GMT",
-      "description": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
+      "title": "The FDA declined to approve one of biotech’s most closely watched cancer drugs. The company’s stock tumbled.",
+      "link": "https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories",
+      "published": "Mon, 16 Nov 2026 20:41:00 GMT",
+      "description": "The regulator told Summit Therapeutics that the lung-cancer drug needs to prove it can help people live longer.",
       "approx_traffic": "",
       "source_id": "marketwatch_breaking_news",
       "source_name": "MarketWatch Breaking News",
@@ -1541,12 +1485,12 @@
     {
       "title": "Trump loses. European populism lives on | Martin Wolf on the US midterms | FT",
       "link": "https://www.youtube.com/watch?v=ssbDT3eb-Pc",
-      "published": "113K",
+      "published": "131K",
       "description": "",
       "approx_traffic": "",
       "video_id": "ssbDT3eb-Pc",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=ssbDT3eb-Pc! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=ssbDT3eb-Pc! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1562,12 +1506,12 @@
     {
       "title": "Can Britain afford to lead European defence? | FT",
       "link": "https://www.youtube.com/watch?v=gOccCAk2BN8",
-      "published": "65K",
+      "published": "76K",
       "description": "",
       "approx_traffic": "",
       "video_id": "gOccCAk2BN8",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=gOccCAk2BN8! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=gOccCAk2BN8! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1583,12 +1527,12 @@
     {
       "title": "Inside Ken Griffin's Miami",
       "link": "https://www.youtube.com/watch?v=VP7i4BLrrrg",
-      "published": "429K",
+      "published": "467K",
       "description": "",
       "approx_traffic": "",
       "video_id": "VP7i4BLrrrg",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=VP7i4BLrrrg! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=VP7i4BLrrrg! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1604,12 +1548,12 @@
     {
       "title": "UK Defence Secretary Wes Streeting on the challenges and threats Britain faces | FT Interview",
       "link": "https://www.youtube.com/watch?v=uVcqgwWvWUw",
-      "published": "46K",
+      "published": "49K",
       "description": "",
       "approx_traffic": "",
       "video_id": "uVcqgwWvWUw",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=uVcqgwWvWUw! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=uVcqgwWvWUw! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1625,12 +1569,12 @@
     {
       "title": "What next for the Democrats? | Martin Wolf on the US midterms | FT",
       "link": "https://www.youtube.com/watch?v=bMvLILBpuH8",
-      "published": "342K",
+      "published": "344K",
       "description": "",
       "approx_traffic": "",
       "video_id": "bMvLILBpuH8",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=bMvLILBpuH8! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=bMvLILBpuH8! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1651,7 +1595,7 @@
       "approx_traffic": "",
       "video_id": "_d3nhkmuXz4",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=_d3nhkmuXz4! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=_d3nhkmuXz4! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1672,7 +1616,7 @@
       "approx_traffic": "",
       "video_id": "-Y3BOk0r9aI",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=-Y3BOk0r9aI! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=-Y3BOk0r9aI! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1693,7 +1637,7 @@
       "approx_traffic": "",
       "video_id": "cG6iAcUZunA",
       "transcript_available": false,
-      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=cG6iAcUZunA! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_reason": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=cG6iAcUZunA! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_language": "",
       "transcript_language_code": "",
       "transcript_is_generated": false,
@@ -1707,10 +1651,10 @@
       "source_weight": 2
     },
     {
-      "title": "FirstFT: Jensen Huang in talks with allies for Nvidia comeback",
-      "link": "https://www.ft.com/content/0f30a230-4d66-481b-a4fd-3a4ed0c45855?syn-25a6b1a6=1",
-      "published": "Mon, 16 Nov 2026 05:33:10 GMT",
-      "description": "Also in today’s newsletter: Ukraine loan and IPO returns",
+      "title": "Chevron nears $5bn deal for Blackstone-backed oil group in US Gulf",
+      "link": "https://www.ft.com/content/92e1c14a-f836-40b0-8d9e-0ed1c1d2fea9?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 21:20:03 GMT",
+      "description": "Oil major pulls ahead of rival bidders for Beacon Offshore Energy as it expands deepwater production",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1719,10 +1663,10 @@
       "source_weight": 3
     },
     {
-      "title": "Hong Kong developer New World’s shares tumble 47% on $3.2bn rights issue plan",
-      "link": "https://www.ft.com/content/9daa3a26-c49c-4c94-91af-0d4c2116d2e4?syn-25a6b1a6=1",
-      "published": "Mon, 16 Nov 2026 05:01:57 GMT",
-      "description": "Ailing property group to offer new stock at 80% discount as it moves to slash debts",
+      "title": "Nasdaq 100 sinks 2.7% in gloomy start to pivotal week for AI trade",
+      "link": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 21:02:17 GMT",
+      "description": "US chip stocks fall as Nvidia sustains fresh bout of selling pressure",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1731,58 +1675,10 @@
       "source_weight": 3
     },
     {
-      "title": "Brussels to propose €45bn Ukraine loan borrowed against EU budget",
-      "link": "https://www.ft.com/content/2c9de06b-aa86-4275-b9f3-1276f8c20994?syn-25a6b1a6=1",
-      "published": "Mon, 16 Nov 2026 05:00:22 GMT",
-      "description": "Plan to help bridge Kyiv’s funding gap next year is due to be presented to member states on Wednesday",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Climate ministers start final week of talks deeply divided over age-old issues",
-      "link": "https://www.ft.com/content/69862257-85c7-4dce-b246-a726df5ff0cb?syn-25a6b1a6=1",
-      "published": "Mon, 16 Nov 2026 05:00:22 GMT",
-      "description": "Even the need for a final agreement is being opposed by fossil fuel-reliant nations",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Milburn to call for £1bn tax break for businesses to boost youth employment",
-      "link": "https://www.ft.com/content/224b468c-59b2-42b4-8f34-7de9610b7a91?syn-25a6b1a6=1",
-      "published": "Mon, 16 Nov 2026 05:00:21 GMT",
-      "description": "Centrepiece of offer will be partial reversal of employers’ NI rise for workers aged 21-24 imposed by previous chancellor",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "Huang’s fall hits ‘open’ models in boost to Anthropic and OpenAI",
-      "link": "https://www.ft.com/content/418ca885-fbcf-4b9f-a8b9-2bd60b543fc5?syn-25a6b1a6=1",
-      "published": "Mon, 16 Nov 2026 05:00:21 GMT",
-      "description": "Ex-Nvidia chief’s ignominious exit removes a vocal and influential supporter of open AI systems",
-      "approx_traffic": "",
-      "source_id": "ft_world_rss",
-      "source_name": "Financial Times World",
-      "source_category": "global_media",
-      "source_type": "rss",
-      "source_weight": 3
-    },
-    {
-      "title": "UK companies line up to replace Palantir in NHS contract",
+      "title": "UK companies line up to replace Palantir in NHS",
       "link": "https://www.ft.com/content/f69f1f6b-cdbe-40d6-b76d-fb712ca58b51?syn-25a6b1a6=1",
-      "published": "Mon, 16 Nov 2026 05:00:11 GMT",
-      "description": "The government is expected to rule out triggering a break clause but will instead announce a new procurement process",
+      "published": "Mon, 16 Nov 2026 20:30:15 GMT",
+      "description": "The government has announced a new procurement process after extending the US tech company’s contract to 2029",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1791,10 +1687,10 @@
       "source_weight": 3
     },
     {
-      "title": "Biggest IPOs this year lose investors money as AI frenzy fades",
-      "link": "https://www.ft.com/content/7974acec-e378-4298-a1a7-2b16b00d8b32?syn-25a6b1a6=1",
-      "published": "Mon, 16 Nov 2026 05:00:11 GMT",
-      "description": "Ten biggest flotations have fallen more than 20% on average in 2026 after four years of gains",
+      "title": "The delicate balance in America’s AI chip war with China",
+      "link": "https://www.ft.com/content/6b475027-f28a-4d1f-9331-c19a0e4d5a68?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 18:35:45 GMT",
+      "description": "US export controls need to be better enforced, not turned into a wider blockade",
       "approx_traffic": "",
       "source_id": "ft_world_rss",
       "source_name": "Financial Times World",
@@ -1803,10 +1699,58 @@
       "source_weight": 3
     },
     {
-      "title": "F.D.A. Rejects Closely Watched Lung Cancer Drug From China",
-      "link": "https://www.nytimes.com/2026/11/15/business/fda-lung-cancer-drug-china.html",
-      "published": "Sun, 15 Nov 2026 20:33:07 +0000",
-      "description": "The treatment, called ivonescimab, has become a symbol of China’s rise in drug development.",
+      "title": "Russia aims for ‘joint statement’ from trilateral summit with US and China",
+      "link": "https://www.ft.com/content/e567ba7d-c53a-47a2-a361-3b8a107fcdef?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 18:19:17 GMT",
+      "description": "Thursday’s unprecedented meeting of Donald Trump, Xi Jinping and Vladimir Putin has drawn intense international attention",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Nvidia board not considering reinstating Jensen Huang as chief executive",
+      "link": "https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 18:14:16 GMT",
+      "description": "Co-founder of chipmaker resigned following extramarital affair with executive at Singapore-based customer",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Pattinson. Robert Pattinson: Amazon unveils the next James Bond",
+      "link": "https://www.ft.com/content/29fb712d-776e-42f9-a639-4ffdce7d652e?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 17:54:24 GMT",
+      "description": "Hollywood heavyweight earns licence to thrill as new stewards of spy franchise bet on a proven box office star",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Polish central bank freezes top court payments in escalating row with Tusk",
+      "link": "https://www.ft.com/content/112b35e9-9864-4d7b-8ece-c71f07c876ca?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 17:43:40 GMT",
+      "description": "Government accuses opposition-led NBP of playing politics in stand-off over constitutional judges",
+      "approx_traffic": "",
+      "source_id": "ft_world_rss",
+      "source_name": "Financial Times World",
+      "source_category": "global_media",
+      "source_type": "rss",
+      "source_weight": 3
+    },
+    {
+      "title": "Bessent Takes Hawkish Turn in White House Debate on China",
+      "link": "https://www.nytimes.com/2026/11/16/us/politics/bessent-lutnick-china.html",
+      "published": "Mon, 16 Nov 2026 21:25:31 +0000",
+      "description": "The Treasury secretary who sought to de-escalate tariff wars is taking a tougher approach to exports of sensitive U.S. technology.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",
@@ -1815,10 +1759,10 @@
       "source_weight": 2
     },
     {
-      "title": "Megaspeed Says Alice Huang Left Company in August 2025",
-      "link": "https://www.nytimes.com/2026/11/15/business/megaspeed-alice-huang-nvidia-china.html",
-      "published": "Mon, 16 Nov 2026 00:01:35 +0000",
-      "description": "The Singaporean company’s statement added to the timeline involving Ms. Huang, a former executive who had a relationship with Jensen Huang of Nvidia. U.S. officials say she was spying for China.",
+      "title": "Trump Nominates Budget Deputy for Nonpartisan Federal Watchdog Role",
+      "link": "https://www.nytimes.com/2026/11/16/business/trump-gao-watchdog-nominee-eric-ueland.html",
+      "published": "Mon, 16 Nov 2026 21:23:35 +0000",
+      "description": "The move could put a top administration official in charge of an oversight agency that has faulted the White House for past violations of the law.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",
@@ -1827,10 +1771,10 @@
       "source_weight": 2
     },
     {
-      "title": "Microsoft Outlook Outage and FAA Groundstop Show Dependence on Fragile Technology",
-      "link": "https://www.nytimes.com/2026/11/15/business/technology-dependence-microsoft-airlines.html",
-      "published": "Sun, 15 Nov 2026 10:02:06 +0000",
-      "description": "Incidents involving Microsoft’s Outlook and the Federal Aviation Administration this past week demonstrated our dependence on fragile technology.",
+      "title": "Fed Chairman Highlights Economic Uncertainty of A.I. Boom",
+      "link": "https://www.nytimes.com/2026/11/16/business/economy/warsh-ai-economy.html",
+      "published": "Mon, 16 Nov 2026 21:08:30 +0000",
+      "description": "Kevin M. Warsh, chairman of the Federal Reserve, has assigned a task force to explore how productivity gains tied to new technologies could impact the labor market.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",
@@ -1839,10 +1783,10 @@
       "source_weight": 2
     },
     {
-      "title": "Jensen Huang’s Downfall Brings Disbelief in Taiwan",
-      "link": "https://www.nytimes.com/2026/11/15/business/jensen-huang-taiwan.html",
-      "published": "Sun, 15 Nov 2026 10:01:57 +0000",
-      "description": "The Nvidia chief executive’s resignation shocked people in his birthplace, where he is called “the people’s dad.”",
+      "title": "Willie Geist Is Leaving ‘Morning Joe’ After Nearly 20 Years",
+      "link": "https://www.nytimes.com/2026/11/16/business/media/willie-geist-morning-joe-today.html",
+      "published": "Mon, 16 Nov 2026 18:41:33 +0000",
+      "description": "He will take on an expanded role at NBC News, where he has been the host of the Sunday edition of the “Today” show since 2016.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",
@@ -1851,10 +1795,10 @@
       "source_weight": 2
     },
     {
-      "title": "A Human Reads the Anthropic I.P.O. Filing",
-      "link": "https://www.nytimes.com/2026/11/15/business/anthropic-ipo-filing-prospectus.html",
-      "published": "Sun, 15 Nov 2026 10:01:56 +0000",
-      "description": "The prospectus is unparalleled in its willingness to discuss existential risk. But does honesty bring comfort?",
+      "title": "Elon Musk Wants to Merge Tesla and SpaceX. Their Businesses Already Overlap.",
+      "link": "https://www.nytimes.com/2026/11/16/business/elon-musk-tesla-spacex.html",
+      "published": "Mon, 16 Nov 2026 17:45:29 +0000",
+      "description": "For years, engineers have shuffled between Tesla and SpaceX, and the companies have worked on major projects together.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",
@@ -1863,10 +1807,10 @@
       "source_weight": 2
     },
     {
-      "title": "They Want to Be Doctors. Student Loan Caps Are Complicating Their Dreams.",
-      "link": "https://www.nytimes.com/2026/11/15/business/medical-school-student-loan-caps.html",
-      "published": "Sun, 15 Nov 2026 10:01:42 +0000",
-      "description": "This year, the first class of medical students will begin their journey to becoming physicians under new rules limiting how much they can borrow for school.",
+      "title": "Elon Musk Dreams of Merging Tesla and SpaceX in Move Toward Tech Supremacy",
+      "link": "https://www.nytimes.com/2026/11/16/business/elon-musk-tesla-spacex-conglomerate.html",
+      "published": "Mon, 16 Nov 2026 18:57:59 +0000",
+      "description": "The history of the sprawling corporate combinations is rich, colorful and mostly disappointing. Could a SpaceX-Tesla merger be a success story?",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",
@@ -1875,10 +1819,10 @@
       "source_weight": 2
     },
     {
-      "title": "Behind the All-American Ralph Lauren Brand Is a French C.E.O.",
-      "link": "https://www.nytimes.com/2026/11/15/business/ralph-lauren-patrice-louvet.html",
-      "published": "Sun, 15 Nov 2026 20:31:10 +0000",
-      "description": "Patrice Louvet on working with Ralph Lauren, the man, winning over Generation Z and striking a balance between magic and logic.",
+      "title": "Robert Pattinson Named as the Next James Bond",
+      "link": "https://www.nytimes.com/2026/11/16/movies/james-bond-robert-pattinson.html",
+      "published": "Mon, 16 Nov 2026 21:52:56 +0000",
+      "description": "The announcement ends years of speculation over who would take over the role after Daniel Craig’s five-film run.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",
@@ -1887,10 +1831,10 @@
       "source_weight": 2
     },
     {
-      "title": "In a Sloppified A.I. World, Only Humans Can Build ‘Ecosystems’",
-      "link": "https://www.nytimes.com/2026/11/15/business/tech-jobs-ai-ecosystem.html",
-      "published": "Sun, 15 Nov 2026 10:00:14 +0000",
-      "description": "The people ushering in the artificial intelligence revolution are also doubling down on in-person relationships in their own industry.",
+      "title": "American Roosters Fight in the Philippines Despite U.S. Crackdown",
+      "link": "https://www.nytimes.com/2026/11/16/world/asia/roosters-cockfighting-philippines.html",
+      "published": "Mon, 16 Nov 2026 14:56:41 +0000",
+      "description": "It’s illegal in the United States to transport game fowl for fighting. But investigators say breeders are sending birds to the Philippines, where cockfighting is legal and lucrative.",
       "approx_traffic": "",
       "source_id": "nyt_business_rss",
       "source_name": "NYT Business",

@@ -14,7 +14,7 @@
 - keyword: `fomc`
 - type: `main_post` / role `lane_focus_macro`
 - publish date: `2026-11-16`
-- priority: `134.0`
+- priority: `137.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
@@ -58,7 +58,7 @@
 - keyword: `ai_semiconductors`
 - type: `main_post` / role `lane_focus_us-stocks`
 - publish date: `2026-11-18`
-- priority: `116.0`
+- priority: `122.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
@@ -80,7 +80,7 @@
 - keyword: `china`
 - type: `main_post` / role `lane_focus_world-flow`
 - publish date: `2026-11-19`
-- priority: `112.0`
+- priority: `108.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
@@ -99,22 +99,22 @@
 
 ## 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 
-- keyword: `seo_china_9`
+- keyword: `seo_china_10`
 - type: `seo_followup` / role `evergreen_seo`
 - publish date: `2026-11-19`
-- priority: `111.5`
+- priority: `107.5`
 - internal review: `approve` / score `100`
 - intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 - CTA focus: 대표 종목 글과 허브 글 연결
 - final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
 - later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/01-seo-china-9.md`
+- draft: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-drafts/01-seo-china-10.md`
 - rendered html: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/seo-publish-ready/01-중국-변수와-시장-영향-관련-대표-종목-한눈에-보기.html`
 - image review required: `True`
 - image 대표 이미지: Unsplash / query `technology stocks office finance abstract` / license Unsplash License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_china_9 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_china_10 --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - image 본문 보조 이미지: Pexels / query `semiconductor data center abstract` / license Pexels License
-- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_china_9 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
+- image apply helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword seo_china_10 --slot inline --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - preview:
   한 줄 요약: `달러/위안 환율`, `중국 부동산·소비 지표`, `구리와 유가` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
   - 중국 변수는 중국 증시만의 문제가 아니라 원자재, 환율, 한국 수출주, 글로벌 위험심리로 번질 수 있습니다. - 정책 부양 뉴스가 나와도 실제 소비와 부동산, 위안화 흐름이 따라오는지 확인해야 합니다. - 개인 투자자는 중국 관련 ETF나 소재·산업재만 보지 말고 달러/위안, 구리·유가, 한국 수출주 반응을 같이 보는 편이 좋습니다.
@@ -124,7 +124,7 @@
 - keyword: `seo_china_11`
 - type: `seo_followup` / role `follow_up`
 - publish date: `2026-11-19`
-- priority: `108.5`
+- priority: `104.5`
 - internal review: `approve` / score `100`
 - intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 - CTA focus: 실적 해설과 글로벌 섹터 허브 연결
@@ -146,7 +146,7 @@
 - keyword: `seo_china_12`
 - type: `seo_followup` / role `evergreen_seo`
 - publish date: `2026-11-19`
-- priority: `105.5`
+- priority: `101.5`
 - internal review: `approve` / score `100`
 - intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 - CTA focus: 섹터 허브와 후속 비교 글 연결

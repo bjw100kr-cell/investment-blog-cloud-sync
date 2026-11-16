@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-16T05:52:07.591110+00:00`
+- 생성 시각: `2026-11-16T21:54:35.931137+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 91.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
+- 점수: 94.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,7 +70,7 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Fed's Collins says gradual rate hikes best to manage economic risks - Reuters
+  - Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’
 
 ## 2. bitcoin
 
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000
-  - Did prediction markets call the U.S. midterm election?: State of Crypto
-  - Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session
-  - XRP crashes to its lowest since November 2024 as money leaves crypto
-  - Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave
+  - Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid
+  - Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
+  - Lighter suspends all withdrawals after $10.4 million crypto exploit
+  - German parliament proposes crypto seizures without criminal charges
+  - Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (용인반도체클러스터)
-- 점수: 88.0
+- 각도: 복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 87.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,17 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - 용인반도체클러스터
-  - Asian chip stocks tumble ahead of Nvidia Q3 earnings
-  - Jensen Huang weighs Nvidia comeback days after shock exit: FT
-  - US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest
-  - Tech world's calls for Jensen Huang to return to Nvidia are growing
+  - Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
+  - Nvidia turmoil tests Bitcoin miners’ AI funding plans
+  - Bitcoin price fails to hold $65K as US stocks drop further on AI nerves
+  - Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC
+  - Anthropic’s Wall Street whisperer: Meet CFO Krishna Rao
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 78.0
+- 점수: 74.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,8 +276,8 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - China confirms Xi-Trump-Putin historic summit. What will be on the agenda?
-  - China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates
-  - Bessent says Nvidia needs ‘shake-up’ with external CEO
-  - US and allies sign accord to protect AI supply chains from China
-  - Yalta 2.0? Trump, Xi and Putin lead Asia’s week of high-stakes diplomacy
+  - Why Putin, Trump and Xi cannot be the new ‘big three’
+  - Russia aims for ‘joint statement’ from trilateral summit with US and China
+  - The delicate balance in America’s AI chip war with China
+  - Russia aims for ‘joint statement’ from trilateral summit with US and China
+  - Bessent Takes Hawkish Turn in White House Debate on China
