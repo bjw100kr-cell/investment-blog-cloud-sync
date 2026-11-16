@@ -2,7 +2,7 @@
 
 현재 잡힌 키워드를 어떤 글 타입과 내부링크 경로로 받아먹을지 정리한 운영 카드입니다.
 
-- generated_at: `2026-11-15T18:44:12.471572+00:00`
+- generated_at: `2026-11-16T05:52:07.591110+00:00`
 
 ## 1. fomc
 
@@ -58,8 +58,9 @@
 - pattern_name: `search_explainer`
 - capture_route: `sector_hub_to_followups`
 - route_description: 섹터 메인 해설 글을 허브로 두고 대표 종목, 공급망, ETF/지수 후속 글로 퍼뜨립니다.
-- demand_signal_score: `5200`
-- search_intent_angle: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- demand_signal_score: `400`
+- trend_queries: 용인반도체클러스터
+- search_intent_angle: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (용인반도체클러스터)
 - pattern_must_have:
   - 제목에서 핵심 키워드와 독자 질문을 함께 드러낼 것
   - 도입 3문장 안에 왜 지금 읽어야 하는지 답할 것
@@ -73,10 +74,10 @@
   - 다음 실적/정책 이벤트
 - sources:
   - CNBC Top News
+  - Cointelegraph
   - Financial Times Home
-  - MarketWatch Breaking News
-  - NYT Business
-  - Reuters Markets via Google News RSS
+  - Financial Times World
+  - Google Trends KR
 
 ## 4. china
 
@@ -84,8 +85,8 @@
 - pattern_name: `search_explainer`
 - capture_route: `search_entry_to_internal_links`
 - route_description: 검색형 진입 글에서 정의와 기준점을 설명한 뒤 관련 허브 글로 내부링크를 넘깁니다.
-- demand_signal_score: `3400`
-- search_intent_angle: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- demand_signal_score: `3100`
+- search_intent_angle: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
 - pattern_must_have:
   - 제목에서 핵심 키워드와 독자 질문을 함께 드러낼 것
   - 도입 3문장 안에 왜 지금 읽어야 하는지 답할 것
@@ -100,8 +101,6 @@
 - sources:
   - CNBC Top News
   - Financial Times Home
-  - Financial Times World
-  - MarketWatch Breaking News
   - NYT Business
 
 ## 5. crypto_etf

@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-11-15T18:44:12.471572+00:00`
+- 생성 시각: `2026-11-16T05:52:07.591110+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -49,20 +49,21 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000
+  - Did prediction markets call the U.S. midterm election?: State of Crypto
   - Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session
   - XRP crashes to its lowest since November 2024 as money leaves crypto
   - Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave
-  - Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale
-  - Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
 - 총점: `88.0`
-- 점수 구성: 검색성 28 / 시의성 21 / 설명가치 17 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 점수 구성: 검색성 28 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (용인반도체클러스터)
+- 소스: CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, Google Trends KR, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 트렌드 쿼리: 용인반도체클러스터
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -74,20 +75,20 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO
-  - Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot
-  - Bessent says Nvidia needs ‘shake-up’ with external CEO
-  - Anthropic’s IPO is the next big test for AI
-  - Congress moves to pass tighter AI chip export rules following Nvidia scandal
+  - 용인반도체클러스터
+  - Asian chip stocks tumble ahead of Nvidia Q3 earnings
+  - Jensen Huang weighs Nvidia comeback days after shock exit: FT
+  - US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest
+  - Tech world's calls for Jensen Huang to return to Nvidia are growing
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `83.0`
-- 점수 구성: 검색성 24 / 시의성 21 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
+- 총점: `78.0`
+- 점수 구성: 검색성 22 / 시의성 18 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Financial Times Home, NYT Business
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -99,20 +100,20 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO
+  - China confirms Xi-Trump-Putin historic summit. What will be on the agenda?
+  - China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates
   - Bessent says Nvidia needs ‘shake-up’ with external CEO
   - US and allies sign accord to protect AI supply chains from China
-  - The world according to China
-  - Congress moves to pass tighter AI chip export rules following Nvidia scandal
+  - Yalta 2.0? Trump, Xi and Putin lead Asia’s week of high-stakes diplomacy
 
 ## 5. crypto_etf
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `61.0`
-- 점수 구성: 검색성 9 / 시의성 7 / 설명가치 18 / 수익성 15 / 리스크역점수 4 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 8
+- 총점: `59.0`
+- 점수 구성: 검색성 9 / 시의성 7 / 설명가치 18 / 수익성 15 / 리스크역점수 4 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 6
 - 추천 이유: 복수 소스 교차 확인 가능 (2개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 코인 시장 신호: SOLUSDT 24h change -2.08%; DOGEUSDT 24h change -2.48%; Fear/Greed 10: Extreme Fear zone
+- 코인 시장 신호: Fear/Greed 10: Extreme Fear zone
 - 소스: CoinDesk RSS, Investing.com Crypto News
 - 제목 후보:
   - 코인 ETF 자금 흐름이 중요한 이유: 비트코인과 알트코인 영향 정리

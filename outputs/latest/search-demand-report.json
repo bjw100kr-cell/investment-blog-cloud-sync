@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-11-15T18:44:12.471572+00:00",
+  "generated_at": "2026-11-16T05:52:07.591110+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 4
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "ai_semiconductors",
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
+      "trend_queries": [
+        "용인반도체클러스터"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -27,35 +43,9 @@
         "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
-        "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
-        "XRP crashes to its lowest since November 2024 as money leaves crypto",
-        "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 5200,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 40,
-      "source_count": 5,
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
-        "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
-        "Bessent says Nvidia needs ‘shake-up’ with external CEO"
+        "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
+        "Did prediction markets call the U.S. midterm election?: State of Crypto",
+        "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session"
       ]
     },
     {
@@ -88,23 +78,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3400,
+      "demand_signal_score": 3100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 22,
-      "source_count": 5,
+      "source_snapshot_score": 19,
+      "source_count": 3,
       "source_names": [
         "CNBC Top News",
         "Financial Times Home",
-        "Financial Times World",
-        "MarketWatch Breaking News",
         "NYT Business"
       ],
       "sample_titles": [
-        "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
-        "Bessent says Nvidia needs ‘shake-up’ with external CEO",
-        "US and allies sign accord to protect AI supply chains from China"
+        "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
+        "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+        "Bessent says Nvidia needs ‘shake-up’ with external CEO"
       ]
     }
   ],

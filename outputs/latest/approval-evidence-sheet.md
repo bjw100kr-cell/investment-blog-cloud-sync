@@ -2,13 +2,13 @@
 
 사용자가 초안을 최종 확인하기 전에, 왜 이 글이 오늘 올라올 가치가 있는지 근거를 빠르게 보는 시트입니다.
 - 원칙: 초안 내용과 함께 근거 소스, 검색 수요, 시의성을 같이 보고 최종 확인합니다.
-- generated_at: `2026-11-15T18:44:12.471572+00:00`
+- generated_at: `2026-11-16T05:52:07.591110+00:00`
 - item_count: `3`
 
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
-- publish_date: `2026-11-16`
+- publish_date: `2026-11-17`
 - priority_score: `127.0`
 - ready_now: `True` / quality_status `pass`
 - reason: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
@@ -19,48 +19,50 @@
 - score_breakdown: search `29` / timeliness `20` / monetization `15`
 - source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, 무역킹 Trade King YouTube
 - sample_headlines:
+  - Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000
+  - Did prediction markets call the U.S. midterm election?: State of Crypto
   - Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session
   - XRP crashes to its lowest since November 2024 as money leaves crypto
   - Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave
-  - Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale
-  - Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill
 - recent_evidence:
   - 무역킹 Trade King YouTube | 무역킹 Trade King | Dumping Bitcoin for AI? Why Mining Companies Sold Off $8 Billion Worth and What It Means for Your... | https://www.youtube.com/watch?v=wokKgFS_rU4
-  - Cointelegraph | 2026-11-15T10:23:17+00:00 | Bitcoin falls to four-month low near $62K as crypto selloff deepens | https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  - Investing.com Crypto News | 2026-11-15 15:17:25 | Bitcoin hovers near $65,000 after weekend selloff to lowest since July | https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-toward-60000-as-etf-outflows-and-liquidations-intensify-5027667
-  - CoinDesk RSS | 2026-11-14T16:33:29+00:00 | Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave | https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst
-  - CoinDesk RSS | 2026-11-14T13:00:00+00:00 | Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill | https://www.coindesk.com/policy/2026/11/13/britain-could-turn-wasted-scottish-wind-power-into-bitcoin-to-cut-its-usd1-3-billion-grid-bill
+  - CoinDesk RSS | 2026-11-16T05:01:17+00:00 | Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000 | https://www.coindesk.com/markets/2026/11/16/bitcoin-s-biggest-bet-is-now-a-drop-below-usd60-000-not-a-rally-above-usd100-000
+  - Cointelegraph | 2026-11-16T02:33:07+00:00 | Luxor CEO warns of AI ‘dark forest’ following Bitcoin miner hijack | https://cointelegraph.com/news/luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  - Cointelegraph | 2026-11-15T22:50:59+00:00 | US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest | https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  - Cointelegraph | 2026-11-15T10:23:17+00:00 | Bitcoin falls to 4-month low near $62K as crypto selloff deepens | https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
 
 ## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - keyword: `ai_semiconductors`
-- publish_date: `2026-11-17`
-- priority_score: `123.0`
+- publish_date: `2026-11-18`
+- priority_score: `116.0`
 - ready_now: `True` / quality_status `pass`
-- reason: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- reason: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (용인반도체클러스터)
 - format: `sector_analysis`
-- demand_signal_score: `5200`
-- fallback_source: `source_snapshot_rank`
-- source_count: `5`
+- demand_signal_score: `400`
+- fallback_source: `trend_match`
+- source_count: `8`
 - score_breakdown: search `28` / timeliness `21` / monetization `15`
-- source_names: CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- trend_queries: 용인반도체클러스터
+- trend_regions: KR
+- source_names: CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, Google Trends KR, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - sample_headlines:
-  - Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO
-  - Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot
-  - Bessent says Nvidia needs ‘shake-up’ with external CEO
-  - Anthropic’s IPO is the next big test for AI
-  - Congress moves to pass tighter AI chip export rules following Nvidia scandal
+  - 용인반도체클러스터
+  - Asian chip stocks tumble ahead of Nvidia Q3 earnings
+  - Jensen Huang weighs Nvidia comeback days after shock exit: FT
+  - US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest
+  - Tech world's calls for Jensen Huang to return to Nvidia are growing
 - recent_evidence:
+  - Google Trends KR | 2026-11-15T20:10:00-08:00 | 용인반도체클러스터 | https://trends.google.com/trending/rss?geo=KR
   - 무역킹 Trade King YouTube | 32K | 2. After Mamdani, is AOC next..? The DSA taking over the US Democratic Party (US DSA) | https://www.youtube.com/watch?v=xEe9bh1NCTc
-  - CNBC Top News | 2026-11-15T18:10:18+00:00 | Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO | https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html
-  - Financial Times Home | 2026-11-15T17:15:23+00:00 | Bessent says Nvidia needs ‘shake-up’ with external CEO | https://www.ft.com/content/24edbb84-7520-4ef0-a57c-30359e12ccc5?syn-25a6b1a6=1
-  - MarketWatch Breaking News | 2026-11-15T15:00:00+00:00 | Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years | https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories
-  - MarketWatch Breaking News | 2026-11-15T14:00:00+00:00 | Will the Anthropic IPO create a disturbance in the broader U.S. equity market, like SpaceX did? | https://www.marketwatch.com/story/will-the-anthropic-ipo-create-a-disturbance-in-the-broader-u-s-equity-market-like-spacex-did-05ba4351?mod=mw_rss_topstories
+  - Financial Times World | 2026-11-16T05:33:10+00:00 | FirstFT: Jensen Huang in talks with allies for Nvidia comeback | https://www.ft.com/content/0f30a230-4d66-481b-a4fd-3a4ed0c45855?syn-25a6b1a6=1
+  - Financial Times World | 2026-11-16T05:00:21+00:00 | Huang’s fall hits ‘open’ models in boost to Anthropic and OpenAI | https://www.ft.com/content/418ca885-fbcf-4b9f-a8b9-2bd60b543fc5?syn-25a6b1a6=1
+  - Cointelegraph | 2026-11-16T04:42:07+00:00 | Asian chip stocks tumble ahead of Nvidia Q3 earnings | https://cointelegraph.com/markets/asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
 
 ## 3. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
 - keyword: `fomc`
-- publish_date: `2026-11-15`
+- publish_date: `2026-11-16`
 - priority_score: `134.0`
 - ready_now: `True` / quality_status `pass`
 - reason: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음

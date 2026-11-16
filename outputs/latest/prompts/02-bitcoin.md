@@ -114,11 +114,11 @@
     "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
+    "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
+    "Did prediction markets call the U.S. midterm election?: State of Crypto",
     "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
     "XRP crashes to its lowest since November 2024 as money leaves crypto",
-    "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave",
-    "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
-    "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill"
+    "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

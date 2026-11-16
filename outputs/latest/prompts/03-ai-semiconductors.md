@@ -91,7 +91,7 @@
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (용인반도체클러스터)",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -109,17 +109,20 @@
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CNBC Top News",
+    "Cointelegraph",
     "Financial Times Home",
+    "Financial Times World",
+    "Google Trends KR",
     "MarketWatch Breaking News",
     "NYT Business",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
-    "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
-    "Bessent says Nvidia needs ‘shake-up’ with external CEO",
-    "Anthropic’s IPO is the next big test for AI",
-    "Congress moves to pass tighter AI chip export rules following Nvidia scandal"
+    "용인반도체클러스터",
+    "Asian chip stocks tumble ahead of Nvidia Q3 earnings",
+    "Jensen Huang weighs Nvidia comeback days after shock exit: FT",
+    "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest",
+    "Tech world's calls for Jensen Huang to return to Nvidia are growing"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -185,9 +188,9 @@
     "total_score": 88.0,
     "search_score": 28,
     "timeliness_score": 21,
-    "explanatory_score": 17,
+    "explanatory_score": 19,
     "monetization_score": 15,
-    "risk_score": 7
+    "risk_score": 5
   },
   "reference_editorial_pattern_name": "search_explainer",
   "reference_editorial_pattern": {

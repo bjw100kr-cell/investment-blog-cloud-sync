@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-15T18:44:12.471572+00:00`
+- 생성 시각: `2026-11-16T05:52:07.591110+00:00`
 
 ## 1. fomc
 
@@ -136,16 +136,16 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000
+  - Did prediction markets call the U.S. midterm election?: State of Crypto
   - Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session
   - XRP crashes to its lowest since November 2024 as money leaves crypto
   - Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave
-  - Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale
-  - Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (용인반도체클러스터)
 - 점수: 88.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
@@ -206,17 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO
-  - Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot
-  - Bessent says Nvidia needs ‘shake-up’ with external CEO
-  - Anthropic’s IPO is the next big test for AI
-  - Congress moves to pass tighter AI chip export rules following Nvidia scandal
+  - 용인반도체클러스터
+  - Asian chip stocks tumble ahead of Nvidia Q3 earnings
+  - Jensen Huang weighs Nvidia comeback days after shock exit: FT
+  - US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest
+  - Tech world's calls for Jensen Huang to return to Nvidia are growing
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 83.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 78.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,8 +276,8 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO
+  - China confirms Xi-Trump-Putin historic summit. What will be on the agenda?
+  - China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates
   - Bessent says Nvidia needs ‘shake-up’ with external CEO
   - US and allies sign accord to protect AI supply chains from China
-  - The world according to China
-  - Congress moves to pass tighter AI chip export rules following Nvidia scandal
+  - Yalta 2.0? Trump, Xi and Putin lead Asia’s week of high-stakes diplomacy

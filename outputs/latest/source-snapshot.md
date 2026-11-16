@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-15T18:44:12.471572+00:00`
+- 생성 시각: `2026-11-16T05:52:07.591110+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -33,9 +33,8 @@ YouTube is blocking requests from your IP. This usually is due to one of the fol
 - You have done too many requests and your IP has been blocked by YouTube
 - You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
 
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / 글자 없는 부족에게 복음을 (썬데이스쿨 몰아보기 : 태국 쁘라이족)
@@ -46,9 +45,8 @@ YouTube is blocking requests from your IP. This usually is due to one of the fol
 - You have done too many requests and your IP has been blocked by YouTube
 - You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
 
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / What If the US Became Socialist? The DSA Wave (Binge: US DSA)
@@ -59,9 +57,8 @@ YouTube is blocking requests from your IP. This usually is due to one of the fol
 - You have done too many requests and your IP has been blocked by YouTube
 - You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
 
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / 2. How in the World Does It Add Up to 666? (Sunday School: Antichrist)
@@ -72,9 +69,8 @@ YouTube is blocking requests from your IP. This usually is due to one of the fol
 - You have done too many requests and your IP has been blocked by YouTube
 - You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
 
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / Dumping Bitcoin for AI? Why Mining Companies Sold Off $8 Billion Worth and What It Means for Your...
@@ -85,9 +81,8 @@ YouTube is blocking requests from your IP. This usually is due to one of the fol
 - You have done too many requests and your IP has been blocked by YouTube
 - You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
 
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / 2. After Mamdani, is AOC next..? The DSA taking over the US Democratic Party (US DSA)
@@ -98,52 +93,54 @@ YouTube is blocking requests from your IP. This usually is due to one of the fol
 - You have done too many requests and your IP has been blocked by YouTube
 - You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
 
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
+- `ai_semiconductors`: score 53, source_count 8, sources CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, Google Trends KR, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - `bitcoin`: score 48, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, 무역킹 Trade King YouTube
-- `ai_semiconductors`: score 40, source_count 5, sources CNBC Top News, Financial Times Home, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `china`: score 22, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business
+- `china`: score 19, source_count 3, sources CNBC Top News, Financial Times Home, NYT Business
 - `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
 - `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
-- `us_big_tech`: score 5, source_count 2, sources Cointelegraph, NYT Business
+- `us_index_flow`: score 5, source_count 2, sources Financial Times Home, MarketWatch Breaking News
 - `treasury_yields`: score 3, source_count 1, sources Financial Times Home
-- `us_index_flow`: score 3, source_count 1, sources Financial Times Home
+- `cpi`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `ai_growth_stocks`: score 3, source_count 1, sources Financial Times World
 
 ## 오늘의 글감 후보
 
+- `ai_semiconductors`: score 53, headlines 18
+  - 용인반도체클러스터
+  - Asian chip stocks tumble ahead of Nvidia Q3 earnings
+  - Jensen Huang weighs Nvidia comeback days after shock exit: FT
 - `bitcoin`: score 48, headlines 14
+  - Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000
+  - Did prediction markets call the U.S. midterm election?: State of Crypto
   - Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session
-  - XRP crashes to its lowest since November 2024 as money leaves crypto
-  - Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave
-- `ai_semiconductors`: score 40, headlines 15
-  - Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO
-  - Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot
-  - Bessent says Nvidia needs ‘shake-up’ with external CEO
 - `fomc`: score 23, headlines 5
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-- `china`: score 22, headlines 8
-  - Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO
+- `china`: score 19, headlines 7
+  - China confirms Xi-Trump-Putin historic summit. What will be on the agenda?
+  - China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates
   - Bessent says Nvidia needs ‘shake-up’ with external CEO
-  - US and allies sign accord to protect AI supply chains from China
 - `crypto_etf`: score 7, headlines 2
   - XRP crashes to its lowest since November 2024 as money leaves crypto
   - Bitcoin falls below $64,000 as ETF outflows extend to seventh straight day
 - `ethereum`: score 7, headlines 2
   - Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business
   - Ethereum Falls 10% In Rout
-- `us_big_tech`: score 5, headlines 2
-  - Microsoft confirms global outage resolved, rules out cyberattack
-  - Microsoft Outlook Outage and FAA Groundstop Show Dependence on Fragile Technology
+- `us_index_flow`: score 5, headlines 2
+  - Jensen Huang discusses comeback as Nvidia CEO with allies
+  - A big chunk of your 401(k) is likely invested in Nvidia
+- `ai_growth_stocks`: score 3, headlines 1
+  - UK companies line up to replace Palantir in NHS contract
+- `cpi`: score 3, headlines 1
+  - Japan's economy unexpectedly shrinks as inflation squeezes households - Reuters
 - `treasury_yields`: score 3, headlines 1
   - Bessent says Nvidia needs ‘shake-up’ with external CEO
-- `us_index_flow`: score 3, headlines 1
-  - Congress moves to pass tighter AI chip export rules following Nvidia scandal

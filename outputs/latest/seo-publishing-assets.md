@@ -1,15 +1,15 @@
 # 퍼블리싱 자산
 
-- 생성 시각: `2026-11-15T18:44:15.802390+00:00`
+- 생성 시각: `2026-11-16T05:52:09.598262+00:00`
 
-## 1. seo_china_10
+## 1. seo_china_9
 
 - 제목: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 - slug: `중국-변수와-시장-영향-관련-대표-종목-한눈에-보기`
 - meta title: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기
 - meta description: 중국 변수와 시장 영향 관련 대표 종목 한눈에 보기 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - 카테고리: global-sector
-- 추천 발행일: 2026-11-18
+- 추천 발행일: 2026-11-19
 - labels: 투자, 경제, 시장해설, 중국, 세계흐름, 거시경제
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 - 이미지 추천: 대표 이미지(Unsplash / technology stocks office finance abstract), 본문 보조 이미지(Pexels / semiconductor data center abstract)
@@ -25,7 +25,7 @@
 - meta title: 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나
 - meta description: 중국 변수와 시장 영향 공급망 정리: 누가 수혜를 보나 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - 카테고리: global-sector
-- 추천 발행일: 2026-11-18
+- 추천 발행일: 2026-11-19
 - labels: 투자, 경제, 시장해설, 중국, 세계흐름, 거시경제
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 - 이미지 추천: 대표 이미지(Unsplash / technology stocks office finance abstract), 본문 보조 이미지(Pexels / semiconductor data center abstract)
@@ -41,7 +41,7 @@
 - meta title: 중국 변수와 시장 영향 ETF·지수·대표 기업 정리
 - meta description: 중국 변수와 시장 영향 ETF·지수·대표 기업 이슈를 바탕으로 세계 흐름과 섹터 반응을 연결해 투자자 관점에서 쉽게 정리합니다.
 - 카테고리: global-sector
-- 추천 발행일: 2026-11-18
+- 추천 발행일: 2026-11-19
 - labels: 투자, 경제, 시장해설, 중국, 세계흐름, 거시경제
 - 내부링크: site-foundation/hub-global-sector.md, site-foundation/about.md, site-foundation/disclosure.md, site-foundation/privacy-policy.md, site-foundation/editorial-policy.md
 - 이미지 추천: 대표 이미지(Unsplash / technology stocks office finance abstract), 본문 보조 이미지(Pexels / semiconductor data center abstract)

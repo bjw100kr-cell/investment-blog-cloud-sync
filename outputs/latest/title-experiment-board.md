@@ -62,20 +62,20 @@
 - current_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - recommended_title: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - recommended_angle: `stock-market`
-- demand_signal_score: `5200`
+- demand_signal_score: `400`
 - public_url: `missing`
 
 ### Variants
 
-- `ai_semiconductors-v1` score `93` angle `stock-market`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+- `ai_semiconductors-v1` score `85` angle `stock-market`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `ai_semiconductors-v3` score `93` angle `stock-market`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기
+- `ai_semiconductors-v3` score `85` angle `stock-market`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `ai_semiconductors-v2` score `93` angle `stock-market`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
+- `ai_semiconductors-v2` score `85` angle `stock-market`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
-- `ai_semiconductors-v4` score `85` angle `stock-market`: AI 반도체 주가를 볼 때 실적보다 먼저 확, 나스닥과 빅테크가 같이 움직이는 이유
+- `ai_semiconductors-v4` score `77` angle `stock-market`: AI 반도체 주가를 볼 때 실적보다 먼저 확, 나스닥과 빅테크가 같이 움직이는 이유
   - why: 뉴스를 이미 본 독자가 시장 반응의 이유를 확인하려는 검색 의도에 맞습니다.
-- `ai_semiconductors-v5` score `85` angle `macro-link`: AI 반도체 주가를 볼 때 실적보다 먼저 확 체크포인트: 금리, 실적, 섹터 폭을 같이 봐야 하는 이유
+- `ai_semiconductors-v5` score `77` angle `macro-link`: AI 반도체 주가를 볼 때 실적보다 먼저 확 체크포인트: 금리, 실적, 섹터 폭을 같이 봐야 하는 이유
   - why: 독자가 글에서 얻을 정보를 제목에서 바로 알 수 있습니다.
 
 ## 4. china
@@ -84,7 +84,7 @@
 - current_title: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - recommended_title: 중국 변수와 시장 영향, 환율과 원자재까지 같이 봐야 하는 이유
 - recommended_angle: `macro-link`
-- demand_signal_score: `3400`
+- demand_signal_score: `3100`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
 
 ### Variants
