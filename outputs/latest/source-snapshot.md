@@ -1,8 +1,8 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-17T07:29:12.520747+00:00`
-- 수집 성공 소스: `13`
-- 수집 아이템 수: `104`
+- 생성 시각: `2026-11-17T20:45:11.844776+00:00`
+- 수집 성공 소스: `14`
+- 수집 아이템 수: `112`
 
 ## 소스 상태
 
@@ -15,7 +15,7 @@
 - `OK` CNBC Top News (rss): 8 items
 - `OK` Investing.com Crypto News (rss): 8 items
 - `OK` Financial Times Home (rss): 8 items
-- `SKIP` Reuters Markets via Google News RSS (rss): 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Areuters.com+markets&hl=en-US&gl=US&ceid=US%3Aen
+- `OK` Reuters Markets via Google News RSS (rss): 8 items
 - `OK` 무역킹 Trade King YouTube (youtube_channel): 8 items
 - `OK` MarketWatch Breaking News (rss): 8 items
 - `OK` Financial Times YouTube (youtube_channel): 8 items
@@ -25,6 +25,19 @@
 
 ## 유튜브 transcript 포인트
 
+- `무역킹 Trade King YouTube` / 2. Anyone wanting to take down Cuba with the CIA (Rubio on Cuba)
+  - transcript unavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=C0iJcgX3Tnc! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 - `무역킹 Trade King YouTube` / How Much Profit Does Korean Air Make on a Round Trip from Incheon to New York? 3 Hidden Revenue S...
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=TG_6DODWmzM! This is most likely caused by:
@@ -90,67 +103,48 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 2. How in the World Does It Add Up to 666? (Sunday School: Antichrist)
-  - transcript unavailable: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=UOM4lt0-SZ4! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-There are two things you can do to work around this:
-1. Use proxies to hide your IP address, as explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
 
 ## 상위 키워드
 
-- `bitcoin`: score 49, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, 무역킹 Trade King YouTube
-- `fomc`: score 26, source_count 3, sources CNBC Top News, Cointelegraph, Federal Reserve Monetary Policy Press
-- `ai_semiconductors`: score 23, source_count 6, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business
-- `treasury_yields`: score 16, source_count 3, sources CoinDesk RSS, Google Trends KR, NYT Business
-- `crypto_etf`: score 14, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
-- `china`: score 11, source_count 3, sources CNBC Top News, Financial Times World, NYT Business
-- `oil`: score 6, source_count 2, sources CNBC Top News, Financial Times World
-- `ethereum`: score 6, source_count 1, sources Investing.com Crypto News
-- `dollar`: score 5, source_count 2, sources Financial Times World, MarketWatch Breaking News
-- `us_index_flow`: score 3, source_count 1, sources CNBC Top News
+- `ai_semiconductors`: score 74, source_count 10, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Google Trends KR, Google Trends US, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
+- `bitcoin`: score 58, source_count 5, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, 무역킹 Trade King YouTube
+- `fomc`: score 29, source_count 4, sources CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, NYT Business
+- `us_index_flow`: score 19, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `us_big_tech`: score 16, source_count 4, sources CNBC Top News, Google Trends KR, MarketWatch Breaking News, NYT Business
+- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
+- `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
+- `treasury_yields`: score 3, source_count 1, sources CNBC Top News
+- `china`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 49, headlines 15
-  - Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion
-  - Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid
-  - Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
-- `fomc`: score 26, headlines 6
+- `ai_semiconductors`: score 74, headlines 22
+  - 엔비디아 실적
+  - chip gaines
+  - Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows
+- `bitcoin`: score 58, headlines 19
+  - Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade
+  - Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps
+  - Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows
+- `fomc`: score 29, headlines 7
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-- `ai_semiconductors`: score 23, headlines 8
-  - Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
-  - Nvidia shares fall 4% as board reportedly rules out Huang return
+- `us_index_flow`: score 19, headlines 7
+  - Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC
   - Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access
-- `treasury_yields`: score 16, headlines 4
-  - 한국은행 기준금리
-  - Cardano Foundation seeks $5 million from treasury using ADA price 33% above market
-  - Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
-- `crypto_etf`: score 14, headlines 4
-  - Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion
-  - Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
+  - US tech stocks slide ahead of Nvidia results
+- `us_big_tech`: score 16, headlines 5
+  - 애플
+  - Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything
+  - Only two ‘Magnificent Seven’ stocks have managed to beat the S&P 500 since the start of 2025
+- `crypto_etf`: score 7, headlines 2
+  - Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows
   - Bitcoin muted at $65.2k as crypto sentiment dithers, ETF outflows persist
-- `china`: score 11, headlines 4
-  - Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC
-  - CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off
-  - Xi and Canada’s Carney slash tariffs as China courts middle powers
-- `ethereum`: score 6, headlines 2
+- `ethereum`: score 7, headlines 2
+  - Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps
   - 001k.bot Launches Earn for USDT, BTC, and ETH
-  - Ethereum Falls 10% In Rout
-- `oil`: score 6, headlines 2
-  - Iran escalates threats as third U.S. carrier arrives in Middle East, tanker struck in Hormuz
-  - Japan proposes ‘Asian IEA’ to manage oil stockpiles
-- `dollar`: score 5, headlines 2
-  - U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball
-  - Making the US dollar great again
-- `us_index_flow`: score 3, headlines 1
-  - Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access
+- `china`: score 3, headlines 1
+  - Morning Bid: Markets shaken, not stirred, as US-China tech war heats up - Reuters
+- `treasury_yields`: score 3, headlines 1
+  - Homebuilder sentiment plunges to 14-year low, leading more builders to drop prices

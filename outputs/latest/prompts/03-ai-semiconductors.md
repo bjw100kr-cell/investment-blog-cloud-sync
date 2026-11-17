@@ -91,7 +91,7 @@
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (10개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (엔비디아 실적, chip gaines)",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -112,15 +112,19 @@
     "CoinDesk RSS",
     "Cointelegraph",
     "Financial Times Home",
-    "MarketWatch Breaking News",
-    "NYT Business"
+    "Financial Times World",
+    "Google Trends KR",
+    "Google Trends US",
+    "Investing.com Crypto News",
+    "NYT Business",
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
-    "Nvidia shares fall 4% as board reportedly rules out Huang return",
-    "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
-    "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
-    "U.S. agencies say they initiated investigation into Nvidia partner Megaspeed in 2024"
+    "엔비디아 실적",
+    "chip gaines",
+    "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows",
+    "Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings",
+    "ARK sells $85M in Nvidia shares ahead of chipmaker’s Q3 earnings results"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -183,10 +187,10 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 84.0,
-    "search_score": 25,
+    "total_score": 90.0,
+    "search_score": 30,
     "timeliness_score": 21,
-    "explanatory_score": 18,
+    "explanatory_score": 19,
     "monetization_score": 15,
     "risk_score": 5
   },

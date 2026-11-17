@@ -1,24 +1,42 @@
 {
-  "generated_at": "2026-11-17T07:29:12.520747+00:00",
+  "generated_at": "2026-11-17T20:45:11.844776+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
-    "weak_trend_fallback_count": 4
+    "weak_trend_fallback_count": 3
   },
   "ranked_keyword_demand": [
     {
-      "keyword": "treasury_yields",
-      "trend_count": 1,
-      "traffic_score_sum": 100,
-      "max_approx_traffic": 100,
+      "keyword": "ai_semiconductors",
+      "trend_count": 2,
+      "traffic_score_sum": 600,
+      "max_approx_traffic": 500,
       "trend_queries": [
-        "한국은행 기준금리"
+        "엔비디아 실적",
+        "chip gaines"
+      ],
+      "regions": [
+        "KR",
+        "US"
+      ],
+      "demand_signal_score": 1000,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
+    {
+      "keyword": "us_big_tech",
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
+      "trend_queries": [
+        "애플"
       ],
       "regions": [
         "KR"
       ],
-      "demand_signal_score": 300,
+      "demand_signal_score": 400,
       "fallback_source": "trend_match",
       "confidence": "high",
       "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
@@ -30,22 +48,23 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6100,
+      "demand_signal_score": 7000,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 49,
-      "source_count": 4,
+      "source_snapshot_score": 58,
+      "source_count": 5,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News",
+        "MarketWatch Breaking News",
         "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
-        "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
-        "Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid",
-        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off"
+        "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade",
+        "Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps",
+        "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows"
       ]
     },
     {
@@ -55,16 +74,17 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3800,
+      "demand_signal_score": 4100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 26,
-      "source_count": 3,
+      "source_snapshot_score": 29,
+      "source_count": 4,
       "source_names": [
-        "CNBC Top News",
+        "CoinDesk RSS",
         "Cointelegraph",
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "NYT Business"
       ],
       "sample_titles": [
         "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
@@ -73,52 +93,29 @@
       ]
     },
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "us_index_flow",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3500,
+      "demand_signal_score": 3100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
-      "source_count": 6,
+      "source_snapshot_score": 19,
+      "source_count": 5,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
         "Financial Times Home",
-        "MarketWatch Breaking News"
+        "Financial Times World",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
-        "Nvidia shares fall 4% as board reportedly rules out Huang return",
-        "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access"
-      ]
-    },
-    {
-      "keyword": "crypto_etf",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2600,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
-      "source_count": 2,
-      "source_names": [
-        "CoinDesk RSS",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
-        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
-        "Bitcoin muted at $65.2k as crypto sentiment dithers, ETF outflows persist"
+        "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+        "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
+        "US tech stocks slide ahead of Nvidia results"
       ]
     }
   ],

@@ -1,25 +1,25 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-11-17T07:29:12.520747+00:00`
+- 생성 시각: `2026-11-17T20:45:11.844776+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
 - `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 점수 94.0 / 수익화 15
-  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-  - 근거 소스: CNBC Top News, Cointelegraph, Federal Reserve Monetary Policy Press
-- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 88.0 / 수익화 15
-  - 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-  - 근거 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, 무역킹 Trade King YouTube
-- `ai_semiconductors`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 점수 84.0 / 수익화 15
-  - 이유: 복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능
-  - 근거 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business
+  - 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+  - 근거 소스: CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, NYT Business
+- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 89.0 / 수익화 15
+  - 이유: 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+  - 근거 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, 무역킹 Trade King YouTube
+- `ai_semiconductors`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 점수 90.0 / 수익화 15
+  - 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (10개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (엔비디아 실적, chip gaines)
+  - 근거 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Google Trends KR, Google Trends US, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
 
 ## 브랜드 레인 우선순위
 
 - `거시경제`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 fomc
 - `코인`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 bitcoin
 - `미국주식`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 ai_semiconductors
-- `세계 흐름`: 평균 수익화 14.0 / 게시 예정 1개 / 키워드 china
+- `세계 흐름`: 평균 수익화 12.0 / 게시 예정 1개 / 키워드 china
 
 ## 검색 수요 감지 키워드
 
@@ -27,11 +27,11 @@
 
 ## 무료 트렌드 수요 신호
 
-- `treasury_yields`: trend_count 1, traffic_sum 100, regions KR / 쿼리 한국은행 기준금리
+- `ai_semiconductors`: trend_count 2, traffic_sum 600, regions KR, US / 쿼리 엔비디아 실적, chip gaines
+- `us_big_tech`: trend_count 1, traffic_sum 200, regions KR / 쿼리 애플
 - `bitcoin`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 - `fomc`: trend_count 0, traffic_sum 0, regions  / 쿼리 
-- `ai_semiconductors`: trend_count 0, traffic_sum 0, regions  / 쿼리 
-- `crypto_etf`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `us_index_flow`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 
 ## 다음 7일 실행 포인트
 
