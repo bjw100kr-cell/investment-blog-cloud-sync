@@ -112,15 +112,15 @@
     "CoinDesk RSS",
     "Cointelegraph",
     "Financial Times Home",
-    "Financial Times World",
-    "MarketWatch Breaking News"
+    "MarketWatch Breaking News",
+    "NYT Business"
   ],
   "reference_headlines": [
     "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
-    "Nvidia turmoil tests Bitcoin miners’ AI funding plans",
-    "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
-    "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
-    "Anthropic’s Wall Street whisperer: Meet CFO Krishna Rao"
+    "Nvidia shares fall 4% as board reportedly rules out Huang return",
+    "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
+    "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+    "U.S. agencies say they initiated investigation into Nvidia partner Megaspeed in 2024"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -183,8 +183,8 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 87.0,
-    "search_score": 28,
+    "total_score": 84.0,
+    "search_score": 25,
     "timeliness_score": 21,
     "explanatory_score": 18,
     "monetization_score": 15,

@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-16T21:54:35.931137+00:00`
+- 생성 시각: `2026-11-17T07:29:12.520747+00:00`
 - 수집 성공 소스: `13`
 - 수집 아이템 수: `104`
 
@@ -38,7 +38,7 @@ There are two things you can do to work around this:
 2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
-- `무역킹 Trade King YouTube` / 이란은 치고 북한은 놔두는 진짜 이유는
+- `무역킹 Trade King YouTube` / 1. The Real Reason Why They Hit Iran but Leave North Korea Alone (Rubio, Cuba)
   - transcript unavailable: 
 Could not retrieve a transcript for the video https://www.youtube.com/watch?v=4F4R6Pu4ldY! This is most likely caused by:
 
@@ -106,55 +106,51 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 50, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, 무역킹 Trade King YouTube
-- `ai_semiconductors`: score 38, source_count 6, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News
-- `fomc`: score 25, source_count 3, sources CNBC Top News, Federal Reserve Monetary Policy Press, NYT Business
-- `china`: score 14, source_count 3, sources Financial Times Home, Financial Times World, NYT Business
-- `us_index_flow`: score 12, source_count 3, sources Cointelegraph, Financial Times Home, Financial Times World
-- `treasury_yields`: score 11, source_count 3, sources CoinDesk RSS, Financial Times World, NYT Business
-- `crypto_etf`: score 10, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
-- `ethereum`: score 9, source_count 2, sources Cointelegraph, Investing.com Crypto News
-- `us_big_tech`: score 7, source_count 2, sources Financial Times World, NYT Business
+- `bitcoin`: score 49, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, 무역킹 Trade King YouTube
+- `fomc`: score 26, source_count 3, sources CNBC Top News, Cointelegraph, Federal Reserve Monetary Policy Press
+- `ai_semiconductors`: score 23, source_count 6, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, MarketWatch Breaking News, NYT Business
+- `treasury_yields`: score 16, source_count 3, sources CoinDesk RSS, Google Trends KR, NYT Business
+- `crypto_etf`: score 14, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
+- `china`: score 11, source_count 3, sources CNBC Top News, Financial Times World, NYT Business
 - `oil`: score 6, source_count 2, sources CNBC Top News, Financial Times World
+- `ethereum`: score 6, source_count 1, sources Investing.com Crypto News
+- `dollar`: score 5, source_count 2, sources Financial Times World, MarketWatch Breaking News
+- `us_index_flow`: score 3, source_count 1, sources CNBC Top News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 50, headlines 15
+- `bitcoin`: score 49, headlines 15
+  - Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion
   - Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid
   - Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
-  - Lighter suspends all withdrawals after $10.4 million crypto exploit
-- `ai_semiconductors`: score 38, headlines 13
-  - Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
-  - Nvidia turmoil tests Bitcoin miners’ AI funding plans
-  - Bitcoin price fails to hold $65K as US stocks drop further on AI nerves
-- `fomc`: score 25, headlines 6
+- `fomc`: score 26, headlines 6
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-- `china`: score 14, headlines 5
-  - Why Putin, Trump and Xi cannot be the new ‘big three’
-  - Russia aims for ‘joint statement’ from trilateral summit with US and China
-  - The delicate balance in America’s AI chip war with China
-- `us_index_flow`: score 12, headlines 4
-  - Bitcoin price fails to hold $65K as US stocks drop further on AI nerves
-  - Nasdaq 100 sinks 2.7% in gloomy start to pivotal week for AI trade
-  - Nasdaq 100 sinks 2.7% in gloomy start to pivotal week for AI trade
-- `treasury_yields`: score 11, headlines 4
+- `ai_semiconductors`: score 23, headlines 8
   - Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
-  - Pattinson. Robert Pattinson: Amazon unveils the next James Bond
-  - Bessent Takes Hawkish Turn in White House Debate on China
-- `crypto_etf`: score 10, headlines 3
+  - Nvidia shares fall 4% as board reportedly rules out Huang return
+  - Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access
+- `treasury_yields`: score 16, headlines 4
+  - 한국은행 기준금리
+  - Cardano Foundation seeks $5 million from treasury using ADA price 33% above market
   - Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
-  - Bitcoin muted at $64.4k as crypto sentiment dithers, ETF outflows persist
-  - Bitcoin falls below $64,000 as ETF outflows extend to seventh straight day
-- `ethereum`: score 9, headlines 3
-  - Bitmine edges toward 5% of ETH supply as treasuries report buys amid market slump
+- `crypto_etf`: score 14, headlines 4
+  - Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion
+  - Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
+  - Bitcoin muted at $65.2k as crypto sentiment dithers, ETF outflows persist
+- `china`: score 11, headlines 4
+  - Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC
+  - CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off
+  - Xi and Canada’s Carney slash tariffs as China courts middle powers
+- `ethereum`: score 6, headlines 2
   - 001k.bot Launches Earn for USDT, BTC, and ETH
   - Ethereum Falls 10% In Rout
-- `us_big_tech`: score 7, headlines 3
-  - Pattinson. Robert Pattinson: Amazon unveils the next James Bond
-  - Elon Musk Wants to Merge Tesla and SpaceX. Their Businesses Already Overlap.
-  - Elon Musk Dreams of Merging Tesla and SpaceX in Move Toward Tech Supremacy
 - `oil`: score 6, headlines 2
-  - U.S. crude oil declines to $85 a barrel on recovering Middle East exports
-  - Chevron nears $5bn deal for Blackstone-backed oil group in US Gulf
+  - Iran escalates threats as third U.S. carrier arrives in Middle East, tanker struck in Hormuz
+  - Japan proposes ‘Asian IEA’ to manage oil stockpiles
+- `dollar`: score 5, headlines 2
+  - U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball
+  - Making the US dollar great again
+- `us_index_flow`: score 3, headlines 1
+  - Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access

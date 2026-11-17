@@ -114,11 +114,11 @@
     "무역킹 Trade King YouTube"
   ],
   "reference_headlines": [
+    "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
     "Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid",
     "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
     "Lighter suspends all withdrawals after $10.4 million crypto exploit",
-    "German parliament proposes crypto seizures without criminal charges",
-    "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes"
+    "Here’s what happened in crypto today"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

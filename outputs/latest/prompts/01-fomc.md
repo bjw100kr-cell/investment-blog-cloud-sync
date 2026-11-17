@@ -109,15 +109,15 @@
   "cta": "이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "Federal Reserve Monetary Policy Press",
-    "NYT Business"
+    "Cointelegraph",
+    "Federal Reserve Monetary Policy Press"
   ],
   "reference_headlines": [
     "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
     "Federal Reserve issues FOMC statement",
     "Federal Reserve issues FOMC statement",
     "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-    "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’"
+    "Custodia Bank loses Supreme Court bid for direct Fed payment access"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
   "human_touch_requirements": [

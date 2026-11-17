@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-11-16T21:54:35.931137+00:00",
+  "generated_at": "2026-11-17T07:29:12.520747+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 1,
+    "matched_keyword_count": 5,
+    "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "treasury_yields",
+      "trend_count": 1,
+      "traffic_score_sum": 100,
+      "max_approx_traffic": 100,
+      "trend_queries": [
+        "한국은행 기준금리"
+      ],
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 300,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "bitcoin",
       "trend_count": 0,
@@ -14,11 +30,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6200,
+      "demand_signal_score": 6100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 50,
+      "source_snapshot_score": 49,
       "source_count": 4,
       "source_names": [
         "CoinDesk RSS",
@@ -27,35 +43,9 @@
         "무역킹 Trade King YouTube"
       ],
       "sample_titles": [
+        "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
         "Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid",
-        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
-        "Lighter suspends all withdrawals after $10.4 million crypto exploit"
-      ]
-    },
-    {
-      "keyword": "ai_semiconductors",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 5000,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 38,
-      "source_count": 6,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Financial Times Home",
-        "Financial Times World"
-      ],
-      "sample_titles": [
-        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
-        "Nvidia turmoil tests Bitcoin miners’ AI funding plans",
-        "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves"
+        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off"
       ]
     },
     {
@@ -65,16 +55,16 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3700,
+      "demand_signal_score": 3800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 25,
+      "source_snapshot_score": 26,
       "source_count": 3,
       "source_names": [
         "CNBC Top News",
-        "Federal Reserve Monetary Policy Press",
-        "NYT Business"
+        "Cointelegraph",
+        "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
         "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
@@ -83,7 +73,33 @@
       ]
     },
     {
-      "keyword": "china",
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3500,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 23,
+      "source_count": 6,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Financial Times Home",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+        "Nvidia shares fall 4% as board reportedly rules out Huang return",
+        "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access"
+      ]
+    },
+    {
+      "keyword": "crypto_etf",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
@@ -94,28 +110,17 @@
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
       "source_snapshot_score": 14,
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business"
+        "CoinDesk RSS",
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Why Putin, Trump and Xi cannot be the new ‘big three’",
-        "Russia aims for ‘joint statement’ from trilateral summit with US and China",
-        "The delicate balance in America’s AI chip war with China"
+        "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
+        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+        "Bitcoin muted at $65.2k as crypto sentiment dithers, ETF outflows persist"
       ]
     }
   ],
-  "unmatched_market_trends": [
-    {
-      "query": "spacex stocks",
-      "region": "US",
-      "approx_traffic": "2000+",
-      "traffic_score": 2000,
-      "market_relevance_score": 1,
-      "brand_identity_match": true,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    }
-  ]
+  "unmatched_market_trends": []
 }

@@ -1,6 +1,6 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-16T21:54:35.931137+00:00`
+- 생성 시각: `2026-11-17T07:29:12.520747+00:00`
 
 ## 1. fomc
 
@@ -70,7 +70,7 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’
+  - Custodia Bank loses Supreme Court bid for direct Fed payment access
 
 ## 2. bitcoin
 
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion
   - Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid
   - Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
   - Lighter suspends all withdrawals after $10.4 million crypto exploit
-  - German parliament proposes crypto seizures without criminal charges
-  - Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes
+  - Here’s what happened in crypto today
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - 각도: 복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 87.0
+- 점수: 84.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -207,16 +207,16 @@
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
   - Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
-  - Nvidia turmoil tests Bitcoin miners’ AI funding plans
-  - Bitcoin price fails to hold $65K as US stocks drop further on AI nerves
-  - Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC
-  - Anthropic’s Wall Street whisperer: Meet CFO Krishna Rao
+  - Nvidia shares fall 4% as board reportedly rules out Huang return
+  - Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access
+  - Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC
+  - U.S. agencies say they initiated investigation into Nvidia partner Megaspeed in 2024
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
 - 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 74.0
+- 점수: 70.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,8 +276,7 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Why Putin, Trump and Xi cannot be the new ‘big three’
-  - Russia aims for ‘joint statement’ from trilateral summit with US and China
-  - The delicate balance in America’s AI chip war with China
-  - Russia aims for ‘joint statement’ from trilateral summit with US and China
+  - Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC
+  - CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off
+  - Xi and Canada’s Carney slash tariffs as China courts middle powers
   - Bessent Takes Hawkish Turn in White House Debate on China
