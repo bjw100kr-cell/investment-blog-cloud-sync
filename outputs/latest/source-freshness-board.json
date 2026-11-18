@@ -1,72 +1,28 @@
 {
-  "generated_at": "2026-11-17T20:45:15.842740+00:00",
-  "snapshot_generated_at": "2026-11-17T20:45:11.844776+00:00",
+  "generated_at": "2026-11-18T06:53:18.258670+00:00",
+  "snapshot_generated_at": "2026-11-18T06:53:13.346172+00:00",
   "snapshot_age_days": 0.0,
   "snapshot_status": "fresh",
   "item_count": 3,
   "counts": {
-    "fresh": 2,
+    "fresh": 3,
     "aging": 0,
-    "stale": 1,
+    "stale": 0,
     "unknown": 0
   },
   "items": [
-    {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "quality_status": "pass",
-      "ready_now": true,
-      "publish_date": "2026-11-17",
-      "freshness_status": "stale",
-      "newest_evidence_iso": "2026-11-12T17:45:00+00:00",
-      "oldest_evidence_iso": "2026-09-16T18:00:00+00:00",
-      "newest_evidence_age_days": 5.1,
-      "source_count": 4,
-      "demand_signal_score": 4100,
-      "summary_line": "핵심 근거가 이미 오래돼 그대로 올리기에는 위험합니다. 마지막 대표 근거: Federal Reserve issues FOMC statement",
-      "recommendation": "지금 상태로는 데일리 뉴스형 게시보다 refresh 후 재작성 또는 evergreen 해설형 전환이 더 안전합니다.",
-      "recovery_mode": "full_refresh_needed",
-      "recovery_summary": "현재 fresh 근거가 없어서 먼저 전체 파이프라인을 다시 돌려 새 소스가 들어오는지 확인해야 합니다.",
-      "recovery_command": "bash scripts/run_pipeline.sh",
-      "recent_evidence": [
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 28 Oct 2026 18:00:00 GMT",
-          "published_iso": "2026-10-28T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-          "source_type": "rss"
-        }
-      ]
-    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-11-18",
+      "publish_date": "2026-11-19",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-11-17T19:34:00+00:00",
-      "oldest_evidence_iso": "2026-11-17T13:30:00+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 5,
-      "demand_signal_score": 7000,
+      "newest_evidence_iso": "2026-11-18T04:34:21+00:00",
+      "oldest_evidence_iso": "2026-11-16T13:07:02+00:00",
+      "newest_evidence_age_days": 0.1,
+      "source_count": 4,
+      "demand_signal_score": 5600,
       "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Dumping Bitcoin for AI? Why Mining Companies Sold Off $8 Billion Worth and What It Means for Your...",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
@@ -81,19 +37,19 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "Want to know what bitcoin is really worth? Check this chart.",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Tue, 17 Nov 2026 19:34:00 GMT",
-          "published_iso": "2026-11-17T19:34:00+00:00",
-          "link": "https://www.marketwatch.com/story/want-to-know-what-bitcoin-is-really-worth-check-this-chart-daa3fce7?mod=mw_rss_topstories",
+          "title": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 18 Nov 2026 04:34:21 +0000",
+          "published_iso": "2026-11-18T04:34:21+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-s-rare-12-crash-through-its-200-week-average-has-a-bullish-track-record",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings",
-          "source_name": "Cointelegraph",
-          "published": "Tue, 17 Nov 2026 16:39:43 +0000",
-          "published_iso": "2026-11-17T16:39:43+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-drops-25-nvidia-stock-risks-new-5-month-low-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Bitcoin slips to $64.7k amid ht to risk sentiment; Strategy buys more coins",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-11-17 22:39:07",
+          "published_iso": "2026-11-17 22:39:07",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-65k-amid-rate-hike-fears-strategy-buys-more-coins-5031772",
           "source_type": "rss"
         }
       ]
@@ -103,40 +59,75 @@
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "quality_status": "pass",
       "ready_now": true,
-      "publish_date": "2026-11-19",
+      "publish_date": "2026-11-20",
       "freshness_status": "fresh",
-      "newest_evidence_iso": "2026-11-17T20:38:02+00:00",
-      "oldest_evidence_iso": "2026-11-17T16:40:00+00:00",
-      "newest_evidence_age_days": 0.0,
-      "source_count": 10,
-      "demand_signal_score": 1000,
-      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: 엔비디아 실적",
+      "newest_evidence_iso": "2026-11-18T05:31:23+00:00",
+      "oldest_evidence_iso": "2026-11-18T02:56:15+00:00",
+      "newest_evidence_age_days": 0.1,
+      "source_count": 9,
+      "demand_signal_score": 7200,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: FirstFT: Nvidia insists Jensen Huang will not return as CEO",
       "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recovery_mode": "publish_direct",
       "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
       "recent_evidence": [
         {
-          "title": "엔비디아 실적",
-          "source_name": "Google Trends KR",
-          "published": "Tue, 17 Nov 2026 08:40:00 -0800",
-          "published_iso": "2026-11-17T08:40:00-08:00",
-          "link": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "FirstFT: Nvidia insists Jensen Huang will not return as CEO",
+          "source_name": "Financial Times World",
+          "published": "Wed, 18 Nov 2026 05:31:23 GMT",
+          "published_iso": "2026-11-18T05:31:23+00:00",
+          "link": "https://www.ft.com/content/c9edda0a-b10b-4dd6-b598-1cdf98e4337b?syn-25a6b1a6=1",
           "source_type": "rss"
         },
         {
-          "title": "Stocks Down Just Ahead of Nvidia’s Earnings Report",
-          "source_name": "NYT Business",
-          "published": "Tue, 17 Nov 2026 20:38:02 +0000",
-          "published_iso": "2026-11-17T20:38:02+00:00",
-          "link": "https://www.nytimes.com/2026/11/17/business/economy/stock-market-nvidia-earnings.html",
+          "title": "Nvidia’s big business in Singapore",
+          "source_name": "Financial Times World",
+          "published": "Wed, 18 Nov 2026 05:00:26 GMT",
+          "published_iso": "2026-11-18T05:00:26+00:00",
+          "link": "https://www.ft.com/content/fd1e1939-8a5c-47ac-bb38-47d147f8bc7a?syn-25a6b1a6=1",
           "source_type": "rss"
         },
         {
-          "title": "US tech stocks slide ahead of Nvidia results",
+          "title": "Anthropic IPO set to deliver windfall to handful of smaller VC firms",
           "source_name": "Financial Times Home",
-          "published": "Tue, 17 Nov 2026 20:00:38 GMT",
-          "published_iso": "2026-11-17T20:00:38+00:00",
-          "link": "https://www.ft.com/content/4a3b9892-67c6-4177-8503-80c0a5eb3b60?syn-25a6b1a6=1",
+          "published": "Wed, 18 Nov 2026 05:00:26 GMT",
+          "published_iso": "2026-11-18T05:00:26+00:00",
+          "link": "https://www.ft.com/content/a3430f0d-0080-4970-8eec-2c14c8438b3d?syn-25a6b1a6=1",
+          "source_type": "rss"
+        }
+      ]
+    },
+    {
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "quality_status": "pass",
+      "ready_now": true,
+      "publish_date": "2026-11-21",
+      "freshness_status": "fresh",
+      "newest_evidence_iso": "2026-11-18T06:04:39+00:00",
+      "oldest_evidence_iso": "2026-11-18T03:30:51+00:00",
+      "newest_evidence_age_days": 0.0,
+      "source_count": 3,
+      "demand_signal_score": 2400,
+      "summary_line": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Three things to watch as Trump, Xi and Putin meet in China",
+      "recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
+      "recovery_mode": "publish_direct",
+      "recovery_summary": "현재 신선도가 살아 있어 데일리 해설형으로 바로 검토를 이어가도 됩니다.",
+      "recent_evidence": [
+        {
+          "title": "Three things to watch as Trump, Xi and Putin meet in China",
+          "source_name": "CNBC Top News",
+          "published": "Wed, 18 Nov 2026 06:04:39 GMT",
+          "published_iso": "2026-11-18T06:04:39+00:00",
+          "link": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+          "source_name": "CNBC Top News",
+          "published": "Wed, 18 Nov 2026 03:30:51 GMT",
+          "published_iso": "2026-11-18T03:30:51+00:00",
+          "link": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
           "source_type": "rss"
         }
       ]

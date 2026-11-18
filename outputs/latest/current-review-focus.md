@@ -19,8 +19,8 @@
 - CTA focus: ETF·규제·초보 가이드 글로 연결
 - final retention CTA: 비트코인은 가격만 보면 놓치는 게 많습니다. 아래 ETF·규제 정리와 초보자 가이드까지 같이 보면 구조가 훨씬 빨리 잡힙니다.
 - later revisit CTA: 코인 해설을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- demand_signal_score: `7000`
-- freshness: `fresh` / newest evidence age `0.0` days
+- demand_signal_score: `5600`
+- freshness: `fresh` / newest evidence age `0.1` days
 - freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Dumping Bitcoin for AI? Why Mining Companies Sold Off $8 Billion Worth and What It Means for Your...
 - freshness_recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - sources: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
@@ -36,8 +36,8 @@
 - preview: 한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
 - evidence: 무역킹 Trade King YouTube / 무역킹 Trade King / Dumping Bitcoin for AI? Why Mining Companies Sold Off $8 Billion Worth and What It Means for Your...
-- evidence: MarketWatch Breaking News / 2026-11-17T19:34:00+00:00 / Want to know what bitcoin is really worth? Check this chart.
-- evidence: Cointelegraph / 2026-11-17T16:39:43+00:00 / Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings
+- evidence: CoinDesk RSS / 2026-11-18T04:34:21+00:00 / Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.
+- evidence: Investing.com Crypto News / 2026-11-17 22:39:07 / Bitcoin slips to $64.7k amid ht to risk sentiment; Strategy buys more coins
 - hero_image_search: `bitcoin blockchain abstract blue finance` / https://www.pexels.com/search/bitcoin+blockchain+abstract+blue+finance/
 - hero_image_apply_helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword bitcoin --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/02-bitcoin.md`
@@ -53,9 +53,9 @@
 - CTA focus: 실적·공급망·대표 종목 글로 연결
 - final retention CTA: 이 글과 함께 아래 읽을거리까지 보면 `실적·공급망·대표 종목 글로 연결` 흐름이 훨씬 더 잘 이어집니다.
 - later revisit CTA: 핵심 흐름을 짧게 계속 받고 싶다면 텔레그램형 재방문 동선과 연결합니다.
-- demand_signal_score: `1000`
-- freshness: `fresh` / newest evidence age `0.0` days
-- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: 엔비디아 실적
+- demand_signal_score: `7200`
+- freshness: `fresh` / newest evidence age `0.1` days
+- freshness_summary: 최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: FirstFT: Nvidia insists Jensen Huang will not return as CEO
 - freshness_recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
 - sources: CNBC Top News, CoinDesk RSS, Cointelegraph
 - advisory_checks: canonical_url_present, newsletter_ready, ga4_ready
@@ -69,9 +69,9 @@
 - excerpt: - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
 - preview: 한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
-- evidence: Google Trends KR / 2026-11-17T08:40:00-08:00 / 엔비디아 실적
-- evidence: NYT Business / 2026-11-17T20:38:02+00:00 / Stocks Down Just Ahead of Nvidia’s Earnings Report
-- evidence: Financial Times Home / 2026-11-17T20:00:38+00:00 / US tech stocks slide ahead of Nvidia results
+- evidence: Financial Times World / 2026-11-18T05:31:23+00:00 / FirstFT: Nvidia insists Jensen Huang will not return as CEO
+- evidence: Financial Times World / 2026-11-18T05:00:26+00:00 / Nvidia’s big business in Singapore
+- evidence: Financial Times Home / 2026-11-18T05:00:26+00:00 / Anthropic IPO set to deliver windfall to handful of smaller VC firms
 - hero_image_search: `semiconductor chip blue abstract` / https://unsplash.com/s/photos/semiconductor+chip+blue+abstract
 - hero_image_apply_helper: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_image_selection.py --keyword ai_semiconductors --slot hero --selected-url <IMAGE_URL> --selected-credit "Photo by ..." --approve`
 - draft_path: `/home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/03-ai-semiconductors.md`

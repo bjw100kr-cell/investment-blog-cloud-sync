@@ -1,22 +1,22 @@
 {
   "item_count": 3,
   "single_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
-  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin fomc",
+  "batch_approval_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
   "cards": [
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-11-18",
+      "publish_date": "2026-11-19",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
+        "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
         "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade",
-        "Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps",
-        "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows"
+        "Here’s what happened in crypto today"
       ],
       "recent_evidence": [
         {
@@ -28,19 +28,19 @@
           "source_type": "youtube_channel"
         },
         {
-          "title": "Want to know what bitcoin is really worth? Check this chart.",
-          "source_name": "MarketWatch Breaking News",
-          "published": "Tue, 17 Nov 2026 19:34:00 GMT",
-          "published_iso": "2026-11-17T19:34:00+00:00",
-          "link": "https://www.marketwatch.com/story/want-to-know-what-bitcoin-is-really-worth-check-this-chart-daa3fce7?mod=mw_rss_topstories",
+          "title": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 18 Nov 2026 04:34:21 +0000",
+          "published_iso": "2026-11-18T04:34:21+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-s-rare-12-crash-through-its-200-week-average-has-a-bullish-track-record",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings",
-          "source_name": "Cointelegraph",
-          "published": "Tue, 17 Nov 2026 16:39:43 +0000",
-          "published_iso": "2026-11-17T16:39:43+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-drops-25-nvidia-stock-risks-new-5-month-low-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Bitcoin slips to $64.7k amid ht to risk sentiment; Strategy buys more coins",
+          "source_name": "Investing.com Crypto News",
+          "published": "2026-11-17 22:39:07",
+          "published_iso": "2026-11-17 22:39:07",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-65k-amid-rate-hike-fears-strategy-buys-more-coins-5031772",
           "source_type": "rss"
         }
       ],
@@ -61,41 +61,41 @@
     {
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
-      "publish_date": "2026-11-19",
+      "publish_date": "2026-11-20",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (10개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (엔비디아 실적, chip gaines)",
+      "reason": "복수 소스 교차 확인 가능 (9개), 섹터/세계 흐름 연결 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "엔비디아 실적",
-        "chip gaines",
-        "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows"
+        "Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty",
+        "Nvidia board rejects Huang comeback despite record $116B quarter",
+        "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access"
       ],
       "recent_evidence": [
         {
-          "title": "엔비디아 실적",
-          "source_name": "Google Trends KR",
-          "published": "Tue, 17 Nov 2026 08:40:00 -0800",
-          "published_iso": "2026-11-17T08:40:00-08:00",
-          "link": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "FirstFT: Nvidia insists Jensen Huang will not return as CEO",
+          "source_name": "Financial Times World",
+          "published": "Wed, 18 Nov 2026 05:31:23 GMT",
+          "published_iso": "2026-11-18T05:31:23+00:00",
+          "link": "https://www.ft.com/content/c9edda0a-b10b-4dd6-b598-1cdf98e4337b?syn-25a6b1a6=1",
           "source_type": "rss"
         },
         {
-          "title": "Stocks Down Just Ahead of Nvidia’s Earnings Report",
-          "source_name": "NYT Business",
-          "published": "Tue, 17 Nov 2026 20:38:02 +0000",
-          "published_iso": "2026-11-17T20:38:02+00:00",
-          "link": "https://www.nytimes.com/2026/11/17/business/economy/stock-market-nvidia-earnings.html",
+          "title": "Nvidia’s big business in Singapore",
+          "source_name": "Financial Times World",
+          "published": "Wed, 18 Nov 2026 05:00:26 GMT",
+          "published_iso": "2026-11-18T05:00:26+00:00",
+          "link": "https://www.ft.com/content/fd1e1939-8a5c-47ac-bb38-47d147f8bc7a?syn-25a6b1a6=1",
           "source_type": "rss"
         },
         {
-          "title": "US tech stocks slide ahead of Nvidia results",
+          "title": "Anthropic IPO set to deliver windfall to handful of smaller VC firms",
           "source_name": "Financial Times Home",
-          "published": "Tue, 17 Nov 2026 20:00:38 GMT",
-          "published_iso": "2026-11-17T20:00:38+00:00",
-          "link": "https://www.ft.com/content/4a3b9892-67c6-4177-8503-80c0a5eb3b60?syn-25a6b1a6=1",
+          "published": "Wed, 18 Nov 2026 05:00:26 GMT",
+          "published_iso": "2026-11-18T05:00:26+00:00",
+          "link": "https://www.ft.com/content/a3430f0d-0080-4970-8eec-2c14c8438b3d?syn-25a6b1a6=1",
           "source_type": "rss"
         }
       ],
@@ -114,58 +114,50 @@
       "hard_blocking_checks": []
     },
     {
-      "keyword": "fomc",
-      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-11-17",
+      "keyword": "china",
+      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+      "publish_date": "2026-11-21",
       "review_verdict": "approve",
       "quality_status": "pass",
       "ready_now": true,
       "hero_image_selected": true,
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "intent": "당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자",
       "sample_headlines": [
-        "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting"
+        "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+        "Three things to watch as Trump, Xi and Putin meet in China",
+        "Putin pushes ‘Eurasian’ order ahead of meeting with Xi and Trump"
       ],
       "recent_evidence": [
         {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 28 Oct 2026 18:00:00 GMT",
-          "published_iso": "2026-10-28T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "title": "Three things to watch as Trump, Xi and Putin meet in China",
+          "source_name": "CNBC Top News",
+          "published": "Wed, 18 Nov 2026 06:04:39 GMT",
+          "published_iso": "2026-11-18T06:04:39+00:00",
+          "link": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
           "source_type": "rss"
         },
         {
-          "title": "Federal Reserve issues FOMC statement",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-          "source_type": "rss"
-        },
-        {
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "source_name": "Federal Reserve Monetary Policy Press",
-          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
-          "published_iso": "2026-09-16T18:00:00+00:00",
-          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "title": "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+          "source_name": "CNBC Top News",
+          "published": "Wed, 18 Nov 2026 03:30:51 GMT",
+          "published_iso": "2026-11-18T03:30:51+00:00",
+          "link": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
           "source_type": "rss"
         }
       ],
-      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/01-fomc.md",
-      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/01-fomc-%EC%9D%B4%ED%9B%84-%EC%8B%9C%EC%9E%A5-%ED%95%B4%EC%84%A4.html",
-      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "draft_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/drafts/04-china.md",
+      "html_uri": "file:///home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/outputs/latest/publish-ready/04-%EC%A4%91%EA%B5%AD-%EB%B3%80%EC%88%98%EC%99%80-%EC%8B%9C%EC%9E%A5-%EC%98%81%ED%96%A5-%ED%95%B4%EC%84%A4.html",
+      "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
-      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
+      "next_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china",
       "followup_commands": [
         "python3 scripts/build_platform_publish_plan.py",
         "python3 scripts/upload_blogger_drafts.py",
         "python3 scripts/prepare_first_cloud_run_verification.py --allow-approved-state"
       ],
-      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc",
-      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply",
+      "helper_preview_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china",
+      "helper_apply_command": "python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply",
       "hard_blocking_checks": []
     }
   ]

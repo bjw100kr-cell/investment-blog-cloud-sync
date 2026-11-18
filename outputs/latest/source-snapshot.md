@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-17T20:45:11.844776+00:00`
+- 생성 시각: `2026-11-18T06:53:13.346172+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,45 +106,46 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `ai_semiconductors`: score 74, source_count 10, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Google Trends KR, Google Trends US, Investing.com Crypto News, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: score 58, source_count 5, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News, 무역킹 Trade King YouTube
-- `fomc`: score 29, source_count 4, sources CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, NYT Business
-- `us_index_flow`: score 19, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `us_big_tech`: score 16, source_count 4, sources CNBC Top News, Google Trends KR, MarketWatch Breaking News, NYT Business
+- `ai_semiconductors`: score 60, source_count 9, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `bitcoin`: score 44, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, 무역킹 Trade King YouTube
+- `fomc`: score 23, source_count 2, sources Cointelegraph, Federal Reserve Monetary Policy Press
+- `china`: score 12, source_count 3, sources CNBC Top News, Financial Times Home, Financial Times World
 - `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
-- `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
-- `treasury_yields`: score 3, source_count 1, sources CNBC Top News
-- `china`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `us_big_tech`: score 5, source_count 2, sources CNBC Top News, MarketWatch Breaking News
+- `us_index_flow`: score 3, source_count 1, sources CNBC Top News
+- `crypto_etf`: score 3, source_count 1, sources Investing.com Crypto News
+- `oil`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `dollar`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `ai_semiconductors`: score 74, headlines 22
-  - 엔비디아 실적
-  - chip gaines
-  - Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows
-- `bitcoin`: score 58, headlines 19
+- `ai_semiconductors`: score 60, headlines 22
+  - Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty
+  - Nvidia board rejects Huang comeback despite record $116B quarter
+  - Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access
+- `bitcoin`: score 44, headlines 14
+  - Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.
   - Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade
-  - Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps
-  - Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows
-- `fomc`: score 29, headlines 7
+  - Here’s what happened in crypto today
+- `fomc`: score 23, headlines 5
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-- `us_index_flow`: score 19, headlines 7
-  - Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC
-  - Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access
-  - US tech stocks slide ahead of Nvidia results
-- `us_big_tech`: score 16, headlines 5
-  - 애플
-  - Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything
-  - Only two ‘Magnificent Seven’ stocks have managed to beat the S&P 500 since the start of 2025
-- `crypto_etf`: score 7, headlines 2
-  - Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows
-  - Bitcoin muted at $65.2k as crypto sentiment dithers, ETF outflows persist
+- `china`: score 12, headlines 4
+  - China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin
+  - Three things to watch as Trump, Xi and Putin meet in China
+  - Putin pushes ‘Eurasian’ order ahead of meeting with Xi and Trump
 - `ethereum`: score 7, headlines 2
-  - Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps
+  - U.S. judge says Ethereum has ‘no terms of use,’ clears MIT brothers of $25 million fraud
   - 001k.bot Launches Earn for USDT, BTC, and ETH
-- `china`: score 3, headlines 1
-  - Morning Bid: Markets shaken, not stirred, as US-China tech war heats up - Reuters
-- `treasury_yields`: score 3, headlines 1
-  - Homebuilder sentiment plunges to 14-year low, leading more builders to drop prices
+- `us_big_tech`: score 5, headlines 2
+  - Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything
+  - Costco is benefiting from ‘apocalyptic concerns’ as customers stock up on goods, analysts say
+- `crypto_etf`: score 3, headlines 1
+  - Bitcoin muted at $65.2k as crypto sentiment dithers, ETF outflows persist
+- `dollar`: score 3, headlines 1
+  - Dollar holds near 19-month high as data supports case for US rate hikes - Reuters
+- `oil`: score 3, headlines 1
+  - Oil prices fall as higher US crude stocks temper supply risks - Reuters
+- `us_index_flow`: score 3, headlines 1
+  - Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access
