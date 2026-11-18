@@ -111,14 +111,14 @@
     "CoinDesk RSS",
     "Cointelegraph",
     "Investing.com Crypto News",
-    "무역킹 Trade King YouTube"
+    "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
-    "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade",
-    "Here’s what happened in crypto today",
-    "Ledger hardware implant saga reaches Dubai’s Virgin Megastore",
-    "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins"
+    "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook",
+    "Crypto Long & Short: Crypto exchanges shouldn’t double as the vault",
+    "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
+    "Hong Kong wants banks to use AI to catch crypto crime before money disappears",
+    "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -182,9 +182,9 @@
   },
   "score_breakdown": {
     "total_score": 88.0,
-    "search_score": 29,
+    "search_score": 30,
     "timeliness_score": 20,
-    "explanatory_score": 18,
+    "explanatory_score": 17,
     "monetization_score": 15,
     "risk_score": 3
   },

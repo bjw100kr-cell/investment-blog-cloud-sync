@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-18T06:53:13.346172+00:00`
+- 생성 시각: `2026-11-18T20:21:06.840570+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 91.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음
+- 점수: 96.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,7 +70,7 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Fed’s Waller cites Binance hack in warning over tokenized finance
+  - Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike
 
 ## 2. bitcoin
 
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.
-  - Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade
-  - Here’s what happened in crypto today
-  - Ledger hardware implant saga reaches Dubai’s Virgin Megastore
-  - Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins
+  - A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook
+  - Crypto Long & Short: Crypto exchanges shouldn’t double as the vault
+  - German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin
+  - Hong Kong wants banks to use AI to catch crypto crime before money disappears
+  - Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (9개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 89.0
+- 각도: 복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 87.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,17 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty
-  - Nvidia board rejects Huang comeback despite record $116B quarter
-  - Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access
-  - PrimeXBT Launches Anthropic Pre-IPO Crypto Futures, Bringing New Trading Opportunities in AI
-  - Nvidia insists Huang will not return as CEO as it reports strong sales
+  - Blaming Anthropic’s IPO for bitcoin’s slide is 'easy to believe,' but flawed, analysts say
+  - Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike
+  - Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say
+  - Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit
+  - One of AI's most notorious 'doomers' stands to make billions in Anthropic's IPO
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 72.0
+- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 55.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,7 +276,5 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin
-  - Three things to watch as Trump, Xi and Putin meet in China
-  - Putin pushes ‘Eurasian’ order ahead of meeting with Xi and Trump
-  - Putin pushes ‘Eurasian’ order ahead of meeting with Xi and Trump
+  - I watched Trump, Xi and Putin gather in China. Here are my top takeaways
+  - Mark Carney Says Canada Will Not Back Down in Trade Talks With U.S.

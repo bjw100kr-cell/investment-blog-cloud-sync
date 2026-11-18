@@ -1,7 +1,82 @@
 {
-  "generated_at": "2026-11-18T06:53:13.346172+00:00",
+  "generated_at": "2026-11-18T20:21:06.840570+00:00",
   "item_count": 3,
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "publish_date": "2026-11-18",
+      "priority_score": 139.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (7개), 거시 해설형 글로 전환 가치 높음",
+      "format": "macro_explainer",
+      "source_names": [
+        "CNBC Top News",
+        "Cointelegraph",
+        "Federal Reserve Monetary Policy Press",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News",
+        "NYT Business",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_headlines": [
+        "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+        "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 5100,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 7,
+      "search_score": 28,
+      "timeliness_score": 25,
+      "monetization_score": 15,
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 28 Oct 2026 18:00:00 GMT",
+          "published_iso": "2026-10-28T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 18 Nov 2026 19:00:00 GMT",
+          "published_iso": "2026-11-18T19:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Thu, 12 Nov 2026 17:45:00 GMT",
+          "published_iso": "2026-11-12T17:45:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -15,62 +90,62 @@
         "CoinDesk RSS",
         "Cointelegraph",
         "Investing.com Crypto News",
-        "무역킹 Trade King YouTube"
+        "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
-        "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
-        "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade",
-        "Here’s what happened in crypto today",
-        "Ledger hardware implant saga reaches Dubai’s Virgin Megastore",
-        "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins"
+        "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook",
+        "Crypto Long & Short: Crypto exchanges shouldn’t double as the vault",
+        "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
+        "Hong Kong wants banks to use AI to catch crypto crime before money disappears",
+        "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 5600,
+      "demand_signal_score": 7900,
       "fallback_source": "source_snapshot_rank",
       "source_count": 4,
-      "search_score": 29,
+      "search_score": 30,
       "timeliness_score": 20,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Dumping Bitcoin for AI? Why Mining Companies Sold Off $8 Billion Worth and What It Means for Your...",
-          "source_name": "무역킹 Trade King YouTube",
-          "published": "무역킹 Trade King",
-          "published_iso": "무역킹 Trade King",
-          "link": "https://www.youtube.com/watch?v=wokKgFS_rU4",
-          "source_type": "youtube_channel"
+          "title": "MARA prices $185M debt offering after $1.1B Bitcoin sale",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 18 Nov 2026 18:27:52 +0000",
+          "published_iso": "2026-11-18T18:27:52+00:00",
+          "link": "https://cointelegraph.com/markets/mara-long-ridge-debt-offering-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
         },
         {
-          "title": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
+          "title": "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 18 Nov 2026 16:34:20 +0000",
+          "published_iso": "2026-11-18T16:34:20+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
           "source_name": "CoinDesk RSS",
-          "published": "Wed, 18 Nov 2026 04:34:21 +0000",
-          "published_iso": "2026-11-18T04:34:21+00:00",
-          "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-s-rare-12-crash-through-its-200-week-average-has-a-bullish-track-record",
+          "published": "Wed, 18 Nov 2026 15:38:38 +0000",
+          "published_iso": "2026-11-18T15:38:38+00:00",
+          "link": "https://www.coindesk.com/business/2026/11/18/german-judge-proposes-dropping-movie2k-case-if-operator-hands-over-usd2-56-billion-in-bitcoin",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin slips to $64.7k amid ht to risk sentiment; Strategy buys more coins",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-11-17 22:39:07",
-          "published_iso": "2026-11-17 22:39:07",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-65k-amid-rate-hike-fears-strategy-buys-more-coins-5031772",
+          "title": "Bitcoin Covenants Part 6: FE Covenants — Enforcing covenants through cryptographically restricted signing keys",
+          "source_name": "Cointelegraph",
+          "published": "Wed, 18 Nov 2026 14:04:50 +0000",
+          "published_iso": "2026-11-18T14:04:50+00:00",
+          "link": "https://cointelegraph.com/research/bitcoin-covenants-part-6-fe-covenants-enforcing-covenants-through-cryptographically-restricted-signing-keys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin muted at $65.2k as crypto sentiment dithers, ETF outflows persist",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-11-16 23:07:16",
-          "published_iso": "2026-11-16 23:07:16",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-65k-as-crypto-sentiment-dithers-etf-outflows-persist-5028381",
-          "source_type": "rss"
-        },
-        {
-          "title": "Strategy buys 485 bitcoin, sells MSTR shares for $244.7M in ATM offering",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-11-16 13:07:02",
-          "published_iso": "2026-11-16 13:07:02",
-          "link": "https://www.investing.com/news/cryptocurrency-news/strategy-buys-485-bitcoin-sells-mstr-shares-for-2447m-in-atm-offering-432SI-5029704",
+          "title": "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans",
+          "source_name": "CoinDesk RSS",
+          "published": "Wed, 18 Nov 2026 12:53:34 +0000",
+          "published_iso": "2026-11-18T12:53:34+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-miner-mara-raises-usd185-million-in-debt-after-selling-usd1-billion-btc-to-repay-loans",
           "source_type": "rss"
         }
       ]
@@ -79,10 +154,10 @@
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "publish_date": "2026-11-20",
-      "priority_score": 124.0,
+      "priority_score": 122.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (9개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능",
       "format": "sector_analysis",
       "source_names": [
         "CNBC Top News",
@@ -91,110 +166,63 @@
         "Financial Times Home",
         "Financial Times World",
         "Investing.com Crypto News",
-        "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
-        "Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty",
-        "Nvidia board rejects Huang comeback despite record $116B quarter",
-        "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
-        "PrimeXBT Launches Anthropic Pre-IPO Crypto Futures, Bringing New Trading Opportunities in AI",
-        "Nvidia insists Huang will not return as CEO as it reports strong sales"
+        "Blaming Anthropic’s IPO for bitcoin’s slide is 'easy to believe,' but flawed, analysts say",
+        "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
+        "Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say",
+        "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+        "One of AI's most notorious 'doomers' stands to make billions in Anthropic's IPO"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 7200,
+      "demand_signal_score": 5100,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 9,
-      "search_score": 30,
+      "source_count": 8,
+      "search_score": 28,
       "timeliness_score": 21,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "FirstFT: Nvidia insists Jensen Huang will not return as CEO",
-          "source_name": "Financial Times World",
-          "published": "Wed, 18 Nov 2026 05:31:23 GMT",
-          "published_iso": "2026-11-18T05:31:23+00:00",
-          "link": "https://www.ft.com/content/c9edda0a-b10b-4dd6-b598-1cdf98e4337b?syn-25a6b1a6=1",
+          "title": "Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say",
+          "source_name": "CNBC Top News",
+          "published": "Wed, 18 Nov 2026 20:20:35 GMT",
+          "published_iso": "2026-11-18T20:20:35+00:00",
+          "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
           "source_type": "rss"
         },
         {
-          "title": "Nvidia’s big business in Singapore",
-          "source_name": "Financial Times World",
-          "published": "Wed, 18 Nov 2026 05:00:26 GMT",
-          "published_iso": "2026-11-18T05:00:26+00:00",
-          "link": "https://www.ft.com/content/fd1e1939-8a5c-47ac-bb38-47d147f8bc7a?syn-25a6b1a6=1",
-          "source_type": "rss"
-        },
-        {
-          "title": "Anthropic IPO set to deliver windfall to handful of smaller VC firms",
-          "source_name": "Financial Times Home",
-          "published": "Wed, 18 Nov 2026 05:00:26 GMT",
-          "published_iso": "2026-11-18T05:00:26+00:00",
-          "link": "https://www.ft.com/content/a3430f0d-0080-4970-8eec-2c14c8438b3d?syn-25a6b1a6=1",
-          "source_type": "rss"
-        },
-        {
-          "title": "Nvidia Has No Plans to Bring Back Jensen Huang",
+          "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
           "source_name": "NYT Business",
-          "published": "Wed, 18 Nov 2026 03:57:08 +0000",
-          "published_iso": "2026-11-18T03:57:08+00:00",
-          "link": "https://www.nytimes.com/2026/11/17/business/nvidia-earnings-jensen-huang.html",
+          "published": "Wed, 18 Nov 2026 19:51:39 +0000",
+          "published_iso": "2026-11-18T19:51:39+00:00",
+          "link": "https://www.nytimes.com/2026/11/18/technology/nvidia-jensen-huang-affair-colette-kress.html",
           "source_type": "rss"
         },
         {
-          "title": "Nvidia has a chance to trade drama for durability",
-          "source_name": "Financial Times Home",
-          "published": "Wed, 18 Nov 2026 02:56:15 GMT",
-          "published_iso": "2026-11-18T02:56:15+00:00",
-          "link": "https://www.ft.com/content/2d3e1b32-4b45-418b-8b06-90874057eac0?syn-25a6b1a6=1",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "publish_date": "2026-11-21",
-      "priority_score": 106.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
-      "format": "macro_explainer",
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World"
-      ],
-      "sample_headlines": [
-        "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
-        "Three things to watch as Trump, Xi and Putin meet in China",
-        "Putin pushes ‘Eurasian’ order ahead of meeting with Xi and Trump"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 2400,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 3,
-      "search_score": 16,
-      "timeliness_score": 18,
-      "monetization_score": 14,
-      "recent_evidence": [
-        {
-          "title": "Three things to watch as Trump, Xi and Putin meet in China",
-          "source_name": "CNBC Top News",
-          "published": "Wed, 18 Nov 2026 06:04:39 GMT",
-          "published_iso": "2026-11-18T06:04:39+00:00",
-          "link": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+          "title": "US tech stocks oscillate after Nvidia results",
+          "source_name": "Financial Times World",
+          "published": "Wed, 18 Nov 2026 19:44:27 GMT",
+          "published_iso": "2026-11-18T19:44:27+00:00",
+          "link": "https://www.ft.com/content/f085b811-fc20-425f-88d8-9f98e178636a?syn-25a6b1a6=1",
           "source_type": "rss"
         },
         {
-          "title": "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+          "title": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
           "source_name": "CNBC Top News",
-          "published": "Wed, 18 Nov 2026 03:30:51 GMT",
-          "published_iso": "2026-11-18T03:30:51+00:00",
-          "link": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
+          "published": "Wed, 18 Nov 2026 19:21:59 GMT",
+          "published_iso": "2026-11-18T19:21:59+00:00",
+          "link": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
+          "source_type": "rss"
+        },
+        {
+          "title": "One of AI's most notorious 'doomers' stands to make billions in Anthropic's IPO",
+          "source_name": "CNBC Top News",
+          "published": "Wed, 18 Nov 2026 18:43:26 GMT",
+          "published_iso": "2026-11-18T18:43:26+00:00",
+          "link": "https://www.cnbc.com/2026/11/18/jaan-tallinn-anthropic-ipo-series-a-investment.html",
           "source_type": "rss"
         }
       ]
