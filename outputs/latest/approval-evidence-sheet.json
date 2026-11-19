@@ -1,34 +1,32 @@
 {
-  "generated_at": "2026-11-19T06:54:20.694435+00:00",
+  "generated_at": "2026-11-19T20:25:34.362083+00:00",
   "item_count": 3,
   "items": [
     {
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "publish_date": "2026-11-19",
-      "priority_score": 137.0,
+      "priority_score": 133.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
       "format": "macro_explainer",
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
+        "NYT Business"
       ],
       "sample_headlines": [
         "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Fed's rate hike push may be a mistake. Here's why"
+        "Food Delivery Is Making a Killing on Grand Theft Auto"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 4200,
+      "demand_signal_score": 3400,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 4,
-      "search_score": 26,
+      "source_count": 2,
+      "search_score": 22,
       "timeliness_score": 25,
       "monetization_score": 15,
       "recent_evidence": [
@@ -84,21 +82,21 @@
       "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "format": "crypto_analysis",
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "Reuters Markets via Google News RSS"
+        "Investing.com Crypto News"
       ],
       "sample_headlines": [
-        "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
-        "Payward, the owner of crypto exchange Kraken, is buying its CEO’s venture capital business, Tribe",
-        "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook",
-        "Crypto Long & Short: Crypto exchanges shouldn’t double as the vault",
-        "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts"
+        "Crypto for Advisors: Falling prices drove October’s 10% drop in institutional crypto exposure",
+        "Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft",
+        "Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test",
+        "Trump Media wants to clear $884 million of debt without selling its bitcoin",
+        "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 5500,
+      "demand_signal_score": 5600,
       "fallback_source": "source_snapshot_rank",
       "source_count": 4,
       "search_score": 29,
@@ -106,43 +104,43 @@
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts",
+          "title": "Why higher rates could slow Bitcoin buying at treasury firms",
           "source_name": "Cointelegraph",
-          "published": "Thu, 19 Nov 2026 06:00:00 +0000",
-          "published_iso": "2026-11-19T06:00:00+00:00",
-          "link": "https://cointelegraph.com/markets/sygnum-bitcoin-carry-trades-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Thu, 19 Nov 2026 18:09:32 +0000",
+          "published_iso": "2026-11-19T18:09:32+00:00",
+          "link": "https://cointelegraph.com/news/why-higher-rates-could-slow-bitcoin-buying-at-treasury-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
+          "title": "Bitcoin price ignores Anthropic debut as ANT share price dips below $100",
+          "source_name": "Cointelegraph",
+          "published": "Thu, 19 Nov 2026 18:06:50 +0000",
+          "published_iso": "2026-11-19T18:06:50+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-ignores-anthropic-debut-ant-share-price-dips-below-100?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Trump Media wants to clear $884 million of debt without selling its bitcoin",
           "source_name": "CoinDesk RSS",
-          "published": "Thu, 19 Nov 2026 04:46:10 +0000",
-          "published_iso": "2026-11-19T04:46:10+00:00",
-          "link": "https://www.coindesk.com/markets/2026/11/19/bitcoin-miner-that-sold-its-last-btc-warns-it-may-run-short-of-cash-for-usd1-2-billion-ai-deal",
+          "published": "Thu, 19 Nov 2026 12:40:12 +0000",
+          "published_iso": "2026-11-19T12:40:12+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/19/trump-media-wants-to-clear-usd884-million-of-debt-without-selling-its-bitcoin",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin drops to around $62.5k, hits over four-month low amid rate jitters",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-11-18 22:46:53",
-          "published_iso": "2026-11-18 22:46:53",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-muted-below-65k-as-rate-tech-jitters-persist-fed-minutes-awaited-5034879",
+          "title": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
+          "source_name": "CoinDesk RSS",
+          "published": "Thu, 19 Nov 2026 12:20:39 +0000",
+          "published_iso": "2026-11-19T12:20:39+00:00",
+          "link": "https://www.coindesk.com/daybook-us/2026/11/19/bitcoin-etf-outflows-show-waning-crypto-appetite-ahead-of-anthropic-s-nasdaq-debut",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin slips to $64.7k amid ht to risk sentiment; Strategy buys more coins",
+          "title": "Bitcoin pinned at $63.6k amid little relief from rate hike jitters",
           "source_name": "Investing.com Crypto News",
-          "published": "2026-11-17 22:39:07",
-          "published_iso": "2026-11-17 22:39:07",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-65k-amid-rate-hike-fears-strategy-buys-more-coins-5031772",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin muted at $65.2k as crypto sentiment dithers, ETF outflows persist",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-11-16 23:07:16",
-          "published_iso": "2026-11-16 23:07:16",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-65k-as-crypto-sentiment-dithers-etf-outflows-persist-5028381",
+          "published": "2026-11-19 14:58:43",
+          "published_iso": "2026-11-19 14:58:43",
+          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-down-to-635k-amid-little-relief-from-rate-hike-jitters-5037873",
           "source_type": "rss"
         }
       ]
@@ -151,75 +149,81 @@
       "keyword": "ai_semiconductors",
       "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "publish_date": "2026-11-21",
-      "priority_score": 123.0,
+      "priority_score": 116.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (10개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (amd)",
       "format": "sector_analysis",
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
+        "Cointelegraph",
         "Financial Times Home",
         "Financial Times World",
+        "Google Trends KR",
         "Investing.com Crypto News",
         "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_headlines": [
-        "CZ says tokenized Anthropic is coming to BNB Chain on IPO day",
-        "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
-        "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
-        "PrimeXBT Launches Anthropic Pre-IPO Crypto Futures, Bringing New Trading Opportunities in AI",
-        "Anthropic raises $81bn in record IPO"
+        "amd",
+        "Anthropic gains after IPO, but pulls off highest levels",
+        "Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test",
+        "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
+        "Bitcoin price ignores Anthropic debut as ANT share price dips below $100"
       ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 5900,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 8,
-      "search_score": 29,
+      "trend_queries": [
+        "amd"
+      ],
+      "trend_regions": [
+        "KR"
+      ],
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "source_count": 10,
+      "search_score": 28,
       "timeliness_score": 21,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "FirstFT: Anthropic raises $81bn in record IPO",
-          "source_name": "Financial Times World",
-          "published": "Thu, 19 Nov 2026 05:31:56 GMT",
-          "published_iso": "2026-11-19T05:31:56+00:00",
-          "link": "https://www.ft.com/content/5f8b63e0-aaf7-48d4-8695-c8195043c537?syn-25a6b1a6=1",
+          "title": "amd",
+          "source_name": "Google Trends KR",
+          "published": "Thu, 19 Nov 2026 07:50:00 -0800",
+          "published_iso": "2026-11-19T07:50:00-08:00",
+          "link": "https://trends.google.com/trending/rss?geo=KR",
           "source_type": "rss"
         },
         {
-          "title": "Anthropic’s magnificent IPO",
-          "source_name": "Financial Times World",
-          "published": "Thu, 19 Nov 2026 05:00:28 GMT",
-          "published_iso": "2026-11-19T05:00:28+00:00",
-          "link": "https://www.ft.com/content/74801528-833d-412f-b939-24f68c2c3fc1?syn-25a6b1a6=1",
+          "title": "The close ties between Nvidia and Anthropic.",
+          "source_name": "NYT Business",
+          "published": "Thu, 19 Nov 2026 20:02:33 +0000",
+          "published_iso": "2026-11-19T20:02:33+00:00",
+          "link": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/the-close-ties-between-nvidia-and-anthropic",
           "source_type": "rss"
         },
         {
-          "title": "Anthropic’s AI advances trigger new safety fears on eve of IPO",
-          "source_name": "Financial Times Home",
-          "published": "Thu, 19 Nov 2026 05:00:17 GMT",
-          "published_iso": "2026-11-19T05:00:17+00:00",
-          "link": "https://www.ft.com/content/d8be4655-211c-49a8-bfe4-18a00b8e8619?syn-25a6b1a6=1",
+          "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+          "source_name": "CNBC Top News",
+          "published": "Thu, 19 Nov 2026 19:43:08 GMT",
+          "published_iso": "2026-11-19T19:43:08+00:00",
+          "link": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
           "source_type": "rss"
         },
         {
-          "title": "Anthropic retail investors face squeeze in blockbuster IPO",
-          "source_name": "Financial Times Home",
-          "published": "Thu, 19 Nov 2026 05:00:17 GMT",
-          "published_iso": "2026-11-19T05:00:17+00:00",
-          "link": "https://www.ft.com/content/38c122d6-b533-4595-9554-3852c52e580f?syn-25a6b1a6=1",
+          "title": "Who founded Anthropic? Meet the people its I.P.O. made multibillionaires.",
+          "source_name": "NYT Business",
+          "published": "Thu, 19 Nov 2026 19:39:01 +0000",
+          "published_iso": "2026-11-19T19:39:01+00:00",
+          "link": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/meet-anthropics-seven-founders-each-is-now-worth-about-20-billion",
           "source_type": "rss"
         },
         {
-          "title": "CZ says tokenized Anthropic is coming to BNB Chain on IPO day",
-          "source_name": "CoinDesk RSS",
-          "published": "Thu, 19 Nov 2026 03:40:48 +0000",
-          "published_iso": "2026-11-19T03:40:48+00:00",
-          "link": "https://www.coindesk.com/markets/2026/11/19/cz-says-tokenized-anthropic-is-coming-to-bnb-chain-on-ipo-day",
+          "title": "Wall St slides as Anthropic's debut fails to revive AI trade optimism - Reuters",
+          "source_name": "Reuters Markets via Google News RSS",
+          "published": "Thu, 19 Nov 2026 19:31:20 GMT",
+          "published_iso": "2026-11-19T19:31:20+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
           "source_type": "rss"
         }
       ]

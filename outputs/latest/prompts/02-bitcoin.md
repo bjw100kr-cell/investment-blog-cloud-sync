@@ -108,17 +108,17 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.",
   "source_names": [
+    "CNBC Top News",
     "CoinDesk RSS",
     "Cointelegraph",
-    "Investing.com Crypto News",
-    "Reuters Markets via Google News RSS"
+    "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
-    "Payward, the owner of crypto exchange Kraken, is buying its CEO’s venture capital business, Tribe",
-    "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook",
-    "Crypto Long & Short: Crypto exchanges shouldn’t double as the vault",
-    "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts"
+    "Crypto for Advisors: Falling prices drove October’s 10% drop in institutional crypto exposure",
+    "Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft",
+    "Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test",
+    "Trump Media wants to clear $884 million of debt without selling its bitcoin",
+    "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

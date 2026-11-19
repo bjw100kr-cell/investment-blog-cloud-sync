@@ -1,25 +1,28 @@
 # 검색 수요 신호 리포트
 
-- 생성 시각: `2026-11-19T06:54:20.694435+00:00`
+- 생성 시각: `2026-11-19T20:25:34.362083+00:00`
 - 트렌드 아이템 수: `16`
-- 매칭된 키워드 수: `4`
+- 매칭된 키워드 수: `5`
 - 약한 트렌드 fallback 수: `4`
 
 ## 키워드별 트렌드 수요
 
-- `ai_semiconductors`: demand 5900 / trend_count 0 / traffic_sum 0 / regions unknown
+- `ai_semiconductors`: demand 400 / trend_count 1 / traffic_sum 200 / regions KR
+  - confidence: `high` / Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다.
+  - trend query: amd
+- `bitcoin`: demand 5600 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 47 / sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, Investing.com Crypto News
-- `bitcoin`: demand 5500 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 44 / sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: demand 3400 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 43 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `fomc`: demand 4200 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 22 / sources Federal Reserve Monetary Policy Press, NYT Business
+- `us_index_flow`: demand 2800 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 30 / sources CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
-- `us_index_flow`: demand 2600 / trend_count 0 / traffic_sum 0 / regions unknown
+  - fallback: source snapshot score 16 / sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `us_big_tech`: demand 2300 / trend_count 0 / traffic_sum 0 / regions unknown
   - confidence: `medium_low` / Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.
-  - fallback: source snapshot score 14 / sources CNBC Top News, CoinDesk RSS, Cointelegraph, MarketWatch Breaking News, NYT Business
+  - fallback: source snapshot score 11 / sources CNBC Top News, Financial Times World, MarketWatch Breaking News
 
 ## 아직 못 주운 시장성 트렌드
 
-- 현재 추가 분류가 필요한 시장성 트렌드가 없음
+- `ant stock` (KR): traffic 2000+ / relevance 1

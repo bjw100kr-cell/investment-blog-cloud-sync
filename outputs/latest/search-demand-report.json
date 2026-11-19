@@ -1,37 +1,27 @@
 {
-  "generated_at": "2026-11-19T06:54:20.694435+00:00",
+  "generated_at": "2026-11-19T20:25:34.362083+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 0,
+    "matched_keyword_count": 5,
+    "unmatched_market_trend_count": 1,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
     {
       "keyword": "ai_semiconductors",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 5900,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 47,
-      "source_count": 8,
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Financial Times Home",
-        "Financial Times World",
-        "Investing.com Crypto News"
+      "trend_count": 1,
+      "traffic_score_sum": 200,
+      "max_approx_traffic": 200,
+      "trend_queries": [
+        "amd"
       ],
-      "sample_titles": [
-        "CZ says tokenized Anthropic is coming to BNB Chain on IPO day",
-        "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
-        "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit"
-      ]
+      "regions": [
+        "KR"
+      ],
+      "demand_signal_score": 400,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
     },
     {
       "keyword": "bitcoin",
@@ -40,22 +30,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5500,
+      "demand_signal_score": 5600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 43,
+      "source_snapshot_score": 44,
       "source_count": 4,
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News",
-        "Reuters Markets via Google News RSS"
+        "Investing.com Crypto News"
       ],
       "sample_titles": [
-        "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
-        "Payward, the owner of crypto exchange Kraken, is buying its CEO’s venture capital business, Tribe",
-        "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook"
+        "Crypto for Advisors: Falling prices drove October’s 10% drop in institutional crypto exposure",
+        "Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft",
+        "Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test"
       ]
     },
     {
@@ -65,17 +55,15 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4200,
+      "demand_signal_score": 3400,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 30,
-      "source_count": 4,
+      "source_snapshot_score": 22,
+      "source_count": 2,
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
+        "NYT Business"
       ],
       "sample_titles": [
         "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
@@ -90,25 +78,58 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2600,
+      "demand_signal_score": 2800,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 14,
-      "source_count": 5,
+      "source_snapshot_score": 16,
+      "source_count": 4,
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "Investing.com Crypto News",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "CZ says tokenized Anthropic is coming to BNB Chain on IPO day",
-        "Tether invokes The Big Short in swipe at S&P over USDT reserve risks",
-        "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX"
+        "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
+        "Bitcoin price ignores Anthropic debut as ANT share price dips below $100",
+        "Dinari Launches Tokenized Anthropic Shares on First Day of Nasdaq Trading"
+      ]
+    },
+    {
+      "keyword": "us_big_tech",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2300,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 11,
+      "source_count": 3,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times World",
+        "MarketWatch Breaking News"
+      ],
+      "sample_titles": [
+        "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+        "Amazon launches in-app push against Mamdani-backed delivery bill in New York City",
+        "Elon Musk becomes the latest tech billionaire to make a peace offering to Democrats after the midterms"
       ]
     }
   ],
-  "unmatched_market_trends": []
+  "unmatched_market_trends": [
+    {
+      "query": "ant stock",
+      "region": "KR",
+      "approx_traffic": "2000+",
+      "traffic_score": 2000,
+      "market_relevance_score": 1,
+      "brand_identity_match": true,
+      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
+    }
+  ]
 }

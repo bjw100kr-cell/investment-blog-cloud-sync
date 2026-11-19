@@ -9,7 +9,7 @@
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
       "publish_date": "2026-11-19",
-      "priority_score": 137.0,
+      "priority_score": 133.0,
       "review_verdict": "approve",
       "quality_status": "pass",
       "hero_image_selected": true,
@@ -45,7 +45,7 @@
         "blockers": []
       },
       "freshness_status": "fresh",
-      "newest_evidence_age_days": 0.5,
+      "newest_evidence_age_days": 1.1,
       "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Federal Reserve issues FOMC statement",
       "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recent_evidence": [
@@ -75,11 +75,10 @@
         }
       ],
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Federal Reserve Monetary Policy Press"
+        "Federal Reserve Monetary Policy Press",
+        "NYT Business"
       ],
-      "demand_signal_score": 4200,
+      "demand_signal_score": 3400,
       "fallback_source": "source_snapshot_rank",
       "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
@@ -143,41 +142,41 @@
         "blockers": []
       },
       "freshness_status": "fresh",
-      "newest_evidence_age_days": 0.0,
-      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts",
+      "newest_evidence_age_days": 0.1,
+      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Why higher rates could slow Bitcoin buying at treasury firms",
       "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts",
+          "title": "Why higher rates could slow Bitcoin buying at treasury firms",
           "source_name": "Cointelegraph",
-          "published": "Thu, 19 Nov 2026 06:00:00 +0000",
-          "published_iso": "2026-11-19T06:00:00+00:00",
-          "link": "https://cointelegraph.com/markets/sygnum-bitcoin-carry-trades-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "published": "Thu, 19 Nov 2026 18:09:32 +0000",
+          "published_iso": "2026-11-19T18:09:32+00:00",
+          "link": "https://cointelegraph.com/news/why-higher-rates-could-slow-bitcoin-buying-at-treasury-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         },
         {
-          "title": "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
+          "title": "Bitcoin price ignores Anthropic debut as ANT share price dips below $100",
+          "source_name": "Cointelegraph",
+          "published": "Thu, 19 Nov 2026 18:06:50 +0000",
+          "published_iso": "2026-11-19T18:06:50+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-ignores-anthropic-debut-ant-share-price-dips-below-100?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source_type": "rss"
+        },
+        {
+          "title": "Trump Media wants to clear $884 million of debt without selling its bitcoin",
           "source_name": "CoinDesk RSS",
-          "published": "Thu, 19 Nov 2026 04:46:10 +0000",
-          "published_iso": "2026-11-19T04:46:10+00:00",
-          "link": "https://www.coindesk.com/markets/2026/11/19/bitcoin-miner-that-sold-its-last-btc-warns-it-may-run-short-of-cash-for-usd1-2-billion-ai-deal",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin drops to around $62.5k, hits over four-month low amid rate jitters",
-          "source_name": "Investing.com Crypto News",
-          "published": "2026-11-18 22:46:53",
-          "published_iso": "2026-11-18 22:46:53",
-          "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-muted-below-65k-as-rate-tech-jitters-persist-fed-minutes-awaited-5034879",
+          "published": "Thu, 19 Nov 2026 12:40:12 +0000",
+          "published_iso": "2026-11-19T12:40:12+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/19/trump-media-wants-to-clear-usd884-million-of-debt-without-selling-its-bitcoin",
           "source_type": "rss"
         }
       ],
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
+        "Cointelegraph"
       ],
-      "demand_signal_score": 5500,
+      "demand_signal_score": 5600,
       "fallback_source": "source_snapshot_rank",
       "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
