@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:21:06.840570+00:00",
+  "generated_at": "2026-11-19T06:54:20.694435+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -8,17 +8,43 @@
   },
   "ranked_keyword_demand": [
     {
+      "keyword": "ai_semiconductors",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 5900,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 47,
+      "source_count": 8,
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times Home",
+        "Financial Times World",
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": [
+        "CZ says tokenized Anthropic is coming to BNB Chain on IPO day",
+        "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
+        "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit"
+      ]
+    },
+    {
       "keyword": "bitcoin",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 7900,
+      "demand_signal_score": 5500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 67,
+      "source_snapshot_score": 43,
       "source_count": 4,
       "source_names": [
         "CoinDesk RSS",
@@ -27,9 +53,9 @@
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook",
-        "Crypto Long & Short: Crypto exchanges shouldn’t double as the vault",
-        "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin"
+        "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
+        "Payward, the owner of crypto exchange Kraken, is buying its CEO’s venture capital business, Tribe",
+        "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook"
       ]
     },
     {
@@ -39,18 +65,17 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5100,
+      "demand_signal_score": 4200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 39,
-      "source_count": 7,
+      "source_snapshot_score": 30,
+      "source_count": 4,
       "source_names": [
-        "CNBC Top News",
+        "CoinDesk RSS",
         "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
         "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
@@ -59,53 +84,29 @@
       ]
     },
     {
-      "keyword": "ai_semiconductors",
+      "keyword": "us_index_flow",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5100,
+      "demand_signal_score": 2600,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 39,
-      "source_count": 8,
+      "source_snapshot_score": 14,
+      "source_count": 5,
       "source_names": [
         "CNBC Top News",
         "CoinDesk RSS",
         "Cointelegraph",
-        "Financial Times Home",
-        "Financial Times World"
-      ],
-      "sample_titles": [
-        "Blaming Anthropic’s IPO for bitcoin’s slide is 'easy to believe,' but flawed, analysts say",
-        "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
-        "Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say"
-      ]
-    },
-    {
-      "keyword": "cpi",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2200,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 10,
-      "source_count": 3,
-      "source_names": [
-        "CNBC Top News",
         "MarketWatch Breaking News",
         "NYT Business"
       ],
       "sample_titles": [
-        "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-        "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
-        "Fed minutes show growing unease about the outlook for inflation"
+        "CZ says tokenized Anthropic is coming to BNB Chain on IPO day",
+        "Tether invokes The Big Short in swipe at S&P over USDT reserve risks",
+        "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX"
       ]
     }
   ],

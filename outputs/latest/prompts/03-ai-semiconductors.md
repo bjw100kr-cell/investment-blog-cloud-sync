@@ -110,19 +110,19 @@
   "source_names": [
     "CNBC Top News",
     "CoinDesk RSS",
-    "Cointelegraph",
     "Financial Times Home",
     "Financial Times World",
     "Investing.com Crypto News",
+    "MarketWatch Breaking News",
     "NYT Business",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Blaming Anthropic’s IPO for bitcoin’s slide is 'easy to believe,' but flawed, analysts say",
-    "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
-    "Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say",
+    "CZ says tokenized Anthropic is coming to BNB Chain on IPO day",
+    "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
     "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
-    "One of AI's most notorious 'doomers' stands to make billions in Anthropic's IPO"
+    "PrimeXBT Launches Anthropic Pre-IPO Crypto Futures, Bringing New Trading Opportunities in AI",
+    "Anthropic raises $81bn in record IPO"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -185,8 +185,8 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 87.0,
-    "search_score": 28,
+    "total_score": 88.0,
+    "search_score": 29,
     "timeliness_score": 21,
     "explanatory_score": 18,
     "monetization_score": 15,
