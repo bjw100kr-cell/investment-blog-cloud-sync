@@ -8,8 +8,8 @@
       "display_order": 1,
       "keyword": "fomc",
       "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
-      "publish_date": "2026-11-19",
-      "priority_score": 133.0,
+      "publish_date": "2026-11-20",
+      "priority_score": 134.0,
       "review_verdict": "approve",
       "quality_status": "pass",
       "hero_image_selected": true,
@@ -45,7 +45,7 @@
         "blockers": []
       },
       "freshness_status": "fresh",
-      "newest_evidence_age_days": 1.1,
+      "newest_evidence_age_days": 1.5,
       "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Federal Reserve issues FOMC statement",
       "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recent_evidence": [
@@ -76,9 +76,9 @@
       ],
       "source_names": [
         "Federal Reserve Monetary Policy Press",
-        "NYT Business"
+        "Reuters Markets via Google News RSS"
       ],
-      "demand_signal_score": 3400,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
       "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",
@@ -105,7 +105,7 @@
       "display_order": 2,
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
-      "publish_date": "2026-11-20",
+      "publish_date": "2026-11-21",
       "priority_score": 126.0,
       "review_verdict": "approve",
       "quality_status": "pass",
@@ -142,41 +142,41 @@
         "blockers": []
       },
       "freshness_status": "fresh",
-      "newest_evidence_age_days": 0.1,
-      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Why higher rates could slow Bitcoin buying at treasury firms",
+      "newest_evidence_age_days": 0.0,
+      "freshness_summary": "최신 근거가 살아 있어 데일리 해설로 다루기 좋은 상태입니다. 대표 근거: Here's what's crashing gold and likely weighing on bitcoin too",
       "freshness_recommendation": "사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.",
       "recent_evidence": [
         {
-          "title": "Why higher rates could slow Bitcoin buying at treasury firms",
-          "source_name": "Cointelegraph",
-          "published": "Thu, 19 Nov 2026 18:09:32 +0000",
-          "published_iso": "2026-11-19T18:09:32+00:00",
-          "link": "https://cointelegraph.com/news/why-higher-rates-could-slow-bitcoin-buying-at-treasury-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin price ignores Anthropic debut as ANT share price dips below $100",
-          "source_name": "Cointelegraph",
-          "published": "Thu, 19 Nov 2026 18:06:50 +0000",
-          "published_iso": "2026-11-19T18:06:50+00:00",
-          "link": "https://cointelegraph.com/markets/bitcoin-price-ignores-anthropic-debut-ant-share-price-dips-below-100?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "Trump Media wants to clear $884 million of debt without selling its bitcoin",
+          "title": "Here's what's crashing gold and likely weighing on bitcoin too",
           "source_name": "CoinDesk RSS",
-          "published": "Thu, 19 Nov 2026 12:40:12 +0000",
-          "published_iso": "2026-11-19T12:40:12+00:00",
-          "link": "https://www.coindesk.com/markets/2026/11/19/trump-media-wants-to-clear-usd884-million-of-debt-without-selling-its-bitcoin",
+          "published": "Fri, 20 Nov 2026 06:12:15 +0000",
+          "published_iso": "2026-11-20T06:12:15+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/20/here-s-what-s-crashing-gold-and-likely-weighing-on-bitcoin-too",
+          "source_type": "rss"
+        },
+        {
+          "title": "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 20 Nov 2026 05:32:25 +0000",
+          "published_iso": "2026-11-20T05:32:25+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/20/this-bitcoin-miner-sold-267-btc-to-clear-usd22-million-debt-it-still-may-not-survive",
+          "source_type": "rss"
+        },
+        {
+          "title": "Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling",
+          "source_name": "CoinDesk RSS",
+          "published": "Fri, 20 Nov 2026 05:20:51 +0000",
+          "published_iso": "2026-11-20T05:20:51+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/20/big-money-bought-a-net-usd4-billion-of-bitcoin-funds-in-q3-ending-9-months-of-selling",
           "source_type": "rss"
         }
       ],
       "source_names": [
-        "CNBC Top News",
         "CoinDesk RSS",
-        "Cointelegraph"
+        "Cointelegraph",
+        "Investing.com Crypto News"
       ],
-      "demand_signal_score": 5600,
+      "demand_signal_score": 5400,
       "fallback_source": "source_snapshot_rank",
       "confirm_command": "python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin",
       "next_action": "사용자 최종 확인 후 Blogger draft 업로드",

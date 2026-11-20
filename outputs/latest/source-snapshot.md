@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-19T20:25:34.362083+00:00`
+- 생성 시각: `2026-11-20T06:44:10.260631+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -100,50 +100,55 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `ai_semiconductors`: score 81, source_count 10, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Google Trends KR, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: score 44, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `fomc`: score 22, source_count 2, sources Federal Reserve Monetary Policy Press, NYT Business
-- `us_index_flow`: score 16, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `us_big_tech`: score 11, source_count 3, sources CNBC Top News, Financial Times World, MarketWatch Breaking News
-- `china`: score 10, source_count 4, sources CNBC Top News, Financial Times World, MarketWatch Breaking News, NYT Business
-- `ethereum`: score 9, source_count 2, sources Cointelegraph, Investing.com Crypto News
-- `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
-- `treasury_yields`: score 3, source_count 1, sources Cointelegraph
-- `ai_growth_stocks`: score 3, source_count 1, sources CNBC Top News
+- `ai_semiconductors`: score 73, source_count 9, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `bitcoin`: score 42, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 23, source_count 2, sources Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
+- `us_index_flow`: score 22, source_count 5, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
+- `china`: score 12, source_count 2, sources CNBC Top News, Financial Times Home
+- `oil`: score 12, source_count 2, sources Financial Times Home, Financial Times World
+- `cpi`: score 9, source_count 3, sources Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
+- `dollar`: score 9, source_count 1, sources Reuters Markets via Google News RSS
+- `treasury_yields`: score 8, source_count 3, sources Financial Times Home, Financial Times World, MarketWatch Breaking News
+- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
 
 ## 오늘의 글감 후보
 
-- `ai_semiconductors`: score 81, headlines 27
-  - amd
-  - Anthropic gains after IPO, but pulls off highest levels
-  - Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test
-- `bitcoin`: score 44, headlines 13
-  - Crypto for Advisors: Falling prices drove October’s 10% drop in institutional crypto exposure
-  - Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft
-  - Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test
-- `fomc`: score 22, headlines 5
+- `ai_semiconductors`: score 73, headlines 26
+  - Anthropic shares may fall 5% at Friday’s open, crypto futures suggest
+  - Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt
+  - Anthropic’s $81B IPO draws half the net retail buying of SpaceX’s
+- `bitcoin`: score 42, headlines 12
+  - Here's what's crashing gold and likely weighing on bitcoin too
+  - Anthropic shares may fall 5% at Friday’s open, crypto futures suggest
+  - This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive
+- `fomc`: score 23, headlines 5
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-- `us_index_flow`: score 16, headlines 5
-  - Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut
-  - Bitcoin price ignores Anthropic debut as ANT share price dips below $100
-  - Dinari Launches Tokenized Anthropic Shares on First Day of Nasdaq Trading
-- `us_big_tech`: score 11, headlines 4
-  - Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew
-  - Amazon launches in-app push against Mamdani-backed delivery bill in New York City
-  - Elon Musk becomes the latest tech billionaire to make a peace offering to Democrats after the midterms
-- `china`: score 10, headlines 4
-  - AMD dives on short-seller report of alleged China exposure
-  - Why Micron, Broadcom and other AI stocks have given up their gains
-  - AMD shares fall after short seller report on China links
-- `ethereum`: score 9, headlines 3
-  - Ethereum’s Glamsterdam upgrade could slip to May 2027 over compatibility concerns
-  - Ethereum’s new DeFi security tool raises questions over censorship
-  - Black Betty Universe Announces the Launch of Betty Token (BETTY) on Ethereum
-- `crypto_etf`: score 4, headlines 1
-  - Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut
-- `ai_growth_stocks`: score 3, headlines 1
-  - Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew
-- `dollar`: score 3, headlines 1
+- `us_index_flow`: score 22, headlines 7
+  - Anthropic shares may fall 5% at Friday’s open, crypto futures suggest
+  - Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt
+  - Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price
+- `china`: score 12, headlines 4
+  - AMD dives on short seller report of alleged China exposure
+  - U.K.-India trade deal faces a stiff test over Scotch whisky import taxes
+  - China revels in Xi’s ‘Yalta 2.0’ moment
+- `oil`: score 12, headlines 4
+  - Oil loses grip on bond markets as inflation ‘virus’ spreads
+  - FirstFT: UK and EU poised to finalise deal to ‘reset’ ties
+  - Former Corbyn ally emerging as favourite to succeed Khan as London mayor
+- `cpi`: score 9, headlines 3
+  - Oil loses grip on bond markets as inflation ‘virus’ spreads
+  - Japan's core inflation accelerates in October, cementing rate hike expectations - Reuters
+  - Oil loses grip on bond markets as inflation ‘virus’ spreads
+- `dollar`: score 9, headlines 3
+  - Gold set for worst week in eight months as firm dollar, Fed hike bets weigh - Reuters
+  - Dollar near 19-month high, set for 4th weekly gain as AI jitters spur haven bid - Reuters
   - Gold hits 14-month low as strong dollar, rate bets weigh - Reuters
+- `treasury_yields`: score 8, headlines 3
+  - Oil loses grip on bond markets as inflation ‘virus’ spreads
+  - A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds
+  - Oil loses grip on bond markets as inflation ‘virus’ spreads
+- `ethereum`: score 7, headlines 2
+  - Ethereum’s next big upgrade is pushed into 2027 by apps it would break
+  - Black Betty Universe Announces the Launch of Betty Token (BETTY) on Ethereum

@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-19T20:25:34.362083+00:00`
+- 생성 시각: `2026-11-20T06:44:10.260631+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 - 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 90.0
+- 점수: 91.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,12 +70,12 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Food Delivery Is Making a Killing on Grand Theft Auto
+  - Gold set for worst week in eight months as firm dollar, Fed hike bets weigh - Reuters
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - 점수: 87.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
@@ -136,17 +136,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Crypto for Advisors: Falling prices drove October’s 10% drop in institutional crypto exposure
-  - Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft
-  - Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test
-  - Trump Media wants to clear $884 million of debt without selling its bitcoin
-  - Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut
+  - Here's what's crashing gold and likely weighing on bitcoin too
+  - Anthropic shares may fall 5% at Friday’s open, crypto futures suggest
+  - This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive
+  - Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling
+  - VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (10개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (amd)
-- 점수: 88.0
+- 각도: 복수 소스 교차 확인 가능 (9개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 89.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,17 +206,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - amd
-  - Anthropic gains after IPO, but pulls off highest levels
-  - Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test
-  - Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut
-  - Bitcoin price ignores Anthropic debut as ANT share price dips below $100
+  - Anthropic shares may fall 5% at Friday’s open, crypto futures suggest
+  - Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt
+  - Anthropic’s $81B IPO draws half the net retail buying of SpaceX’s
+  - Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price
+  - Forget Anthropic: In Europe, the IPO hype is about a blue lagoon
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 72.0
+- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 66.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,7 +276,7 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - AMD dives on short-seller report of alleged China exposure
-  - Why Micron, Broadcom and other AI stocks have given up their gains
-  - AMD shares fall after short seller report on China links
-  - China Is Shut Out of Anthropic’s Blockbuster I.P.O.
+  - AMD dives on short seller report of alleged China exposure
+  - U.K.-India trade deal faces a stiff test over Scotch whisky import taxes
+  - China revels in Xi’s ‘Yalta 2.0’ moment
+  - China prepares to restart US private equity investments after pullback

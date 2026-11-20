@@ -1,6 +1,6 @@
 # Daily 200 Visitor Action Board
 
-- 생성 시각: `2026-11-19T20:25:37.229762+00:00`
+- 생성 시각: `2026-11-20T06:44:14.374419+00:00`
 - 목표: 하루 `200`명
 - 상태: `measurement_missing_keep_building`
 - 실측 방문자: `0`
@@ -15,6 +15,13 @@
 - 규칙: 품질 게이트 통과 글만 실행당 최대 3건
 
 ## 검색 유입용 키워드 표현
+
+### AI 반도체 주식
+
+- mapped_keyword: `ai_semiconductors`
+- suggested_title: AI 반도체 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리
+- supporting_queries: 엔비디아 주가 영향, 반도체 사이클 전망, AI 데이터센터 수혜주
+- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
 ### 비트코인 전망
 
@@ -37,26 +44,6 @@
 - supporting_queries: 나스닥 하락 이유, S&P500 전망, 미국 주식 금리 영향
 - use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
 
-### 미국 빅테크 주식
-
-- mapped_keyword: `us_big_tech`
-- suggested_title: 미국 빅테크 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: 애플 주가 영향, 테슬라 주가 전망, 마이크로소프트 AI 투자
-- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
-
-### AI 반도체 주식
-
-- mapped_keyword: `ai_semiconductors`
-- suggested_title: AI 반도체 주식 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- supporting_queries: 엔비디아 주가 영향, 반도체 사이클 전망, AI 데이터센터 수혜주, amd
-- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
-
-### ant stock
-
-- mapped_keyword: ``
-- suggested_title: ant stock 왜 검색이 급증했나: 투자자 관점 핵심 정리
-- use_in: title, first_h2, meta_description, internal_link_anchor, social_share_copy
-
 ## 공개 URL 배포 액션
 
 - 공개 URL 수: `16`
@@ -64,9 +51,9 @@
 - 공개 SEO 확장 글 수: `13`
 - 전체 수동 배포 잠재 방문자: `560`
 
+- `ai_semiconductors`: 0개 체크 / 예상 0명 / 첫 채널  / 
 - `bitcoin`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post.html
 - `fomc`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/fomc.html
-- `ai_semiconductors`: 0개 체크 / 예상 0명 / 첫 채널  / 
 - `china`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
 - `us_index_flow`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/06/blog-post_30.html
 - `seo_us_big_tech_10`: 3개 체크 / 예상 35명 / 첫 채널 x_threads_or_short_social / https://gimu-economy-insight.blogspot.com/2026/07/5.html

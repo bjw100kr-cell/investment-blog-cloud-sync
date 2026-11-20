@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-11-19T20:25:34.362083+00:00`
+- 생성 시각: `2026-11-20T06:44:10.260631+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -8,10 +8,10 @@
 
 - 카테고리: `macro`
 - 브랜드 레인: `macro` (거시경제)
-- 총점: `90.0`
-- 점수 구성: 검색성 22 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 총점: `91.0`
+- 점수 구성: 검색성 23 / 시의성 25 / 설명가치 20 / 수익성 15 / 리스크역점수 8 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
 - 추천 이유: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 소스: Federal Reserve Monetary Policy Press, NYT Business
+- 소스: Federal Reserve Monetary Policy Press, Reuters Markets via Google News RSS
 - 제목 후보:
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
   - FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유
@@ -27,17 +27,17 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Food Delivery Is Making a Killing on Grand Theft Auto
+  - Gold set for worst week in eight months as firm dollar, Fed hike bets weigh - Reuters
 
 ## 2. bitcoin
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
 - 총점: `87.0`
-- 점수 구성: 검색성 29 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 3
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 코인 시장 신호: Fear/Greed 10: Extreme Fear zone
-- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- 점수 구성: 검색성 29 / 시의성 18 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 5
+- 추천 이유: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- 코인 시장 신호: BTCUSDT 24h change -2.82%; Fear/Greed 12: Extreme Fear zone
+- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
@@ -49,21 +49,20 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
-  - Crypto for Advisors: Falling prices drove October’s 10% drop in institutional crypto exposure
-  - Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft
-  - Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test
-  - Trump Media wants to clear $884 million of debt without selling its bitcoin
-  - Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut
+  - Here's what's crashing gold and likely weighing on bitcoin too
+  - Anthropic shares may fall 5% at Friday’s open, crypto futures suggest
+  - This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive
+  - Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling
+  - VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs
 
 ## 3. ai_semiconductors
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `88.0`
-- 점수 구성: 검색성 28 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (10개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (amd)
-- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Google Trends KR, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- 트렌드 쿼리: amd
+- 총점: `89.0`
+- 점수 구성: 검색성 30 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 4 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (9개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -75,20 +74,20 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - amd
-  - Anthropic gains after IPO, but pulls off highest levels
-  - Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test
-  - Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut
-  - Bitcoin price ignores Anthropic debut as ANT share price dips below $100
+  - Anthropic shares may fall 5% at Friday’s open, crypto futures suggest
+  - Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt
+  - Anthropic’s $81B IPO draws half the net retail buying of SpaceX’s
+  - Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price
+  - Forget Anthropic: In Europe, the IPO hype is about a blue lagoon
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `72.0`
-- 점수 구성: 검색성 14 / 시의성 20 / 설명가치 17 / 수익성 14 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times World, MarketWatch Breaking News, NYT Business
+- 총점: `66.0`
+- 점수 구성: 검색성 13 / 시의성 16 / 설명가치 17 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, Financial Times Home
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -100,19 +99,19 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - AMD dives on short-seller report of alleged China exposure
-  - Why Micron, Broadcom and other AI stocks have given up their gains
-  - AMD shares fall after short seller report on China links
-  - China Is Shut Out of Anthropic’s Blockbuster I.P.O.
+  - AMD dives on short seller report of alleged China exposure
+  - U.K.-India trade deal faces a stiff test over Scotch whisky import taxes
+  - China revels in Xi’s ‘Yalta 2.0’ moment
+  - China prepares to restart US private equity investments after pullback
 
 ## 5. us_index_flow
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `76.0`
-- 점수 구성: 검색성 19 / 시의성 17 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
+- 총점: `85.0`
+- 점수 구성: 검색성 24 / 시의성 21 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 소스: CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
 - 제목 후보:
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
   - 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -124,8 +123,8 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut
-  - Bitcoin price ignores Anthropic debut as ANT share price dips below $100
+  - Anthropic shares may fall 5% at Friday’s open, crypto futures suggest
+  - Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt
+  - Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price
+  - SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut
   - Dinari Launches Tokenized Anthropic Shares on First Day of Nasdaq Trading
-  - Bitrue Among the First CEXs to Support ANTx as Anthropic Debuts on Nasdaq
-  - Anthropic tops SpaceX with record $2 trillion Nasdaq debut - Reuters
