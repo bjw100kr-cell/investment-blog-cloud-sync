@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-11-20T06:44:10.260631+00:00",
+  "generated_at": "2026-11-20T19:56:18.356936+00:00",
   "summary": {
     "trend_item_count": 16,
-    "matched_keyword_count": 4,
+    "matched_keyword_count": 5,
     "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
+    {
+      "keyword": "us_index_flow",
+      "trend_count": 1,
+      "traffic_score_sum": 20000,
+      "max_approx_traffic": 20000,
+      "trend_queries": [
+        "nasdaq"
+      ],
+      "regions": [
+        "US"
+      ],
+      "demand_signal_score": 20200,
+      "fallback_source": "trend_match",
+      "confidence": "high",
+      "confidence_note": "Google Trends RSS query가 설정 키워드 alias와 직접 매칭되었습니다."
+    },
     {
       "keyword": "ai_semiconductors",
       "trend_count": 0,
@@ -14,11 +30,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 8500,
+      "demand_signal_score": 6700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 73,
+      "source_snapshot_score": 55,
       "source_count": 9,
       "source_names": [
         "CNBC Top News",
@@ -28,9 +44,9 @@
         "Financial Times World"
       ],
       "sample_titles": [
-        "Anthropic shares may fall 5% at Friday’s open, crypto futures suggest",
-        "Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt",
-        "Anthropic’s $81B IPO draws half the net retail buying of SpaceX’s"
+        "Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut",
+        "Bitcoin falls below $60K for first time since July amid broader market selloff",
+        "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off"
       ]
     },
     {
@@ -40,21 +56,22 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 5400,
+      "demand_signal_score": 5300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 42,
-      "source_count": 3,
+      "source_snapshot_score": 41,
+      "source_count": 4,
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "Here's what's crashing gold and likely weighing on bitcoin too",
-        "Anthropic shares may fall 5% at Friday’s open, crypto futures suggest",
-        "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive"
+        "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
+        "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians",
+        "Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut"
       ]
     },
     {
@@ -64,15 +81,17 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3500,
+      "demand_signal_score": 4100,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 23,
-      "source_count": 2,
+      "source_snapshot_score": 29,
+      "source_count": 4,
       "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
+        "MarketWatch Breaking News"
       ],
       "sample_titles": [
         "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
@@ -81,29 +100,28 @@
       ]
     },
     {
-      "keyword": "us_index_flow",
+      "keyword": "china",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3400,
+      "demand_signal_score": 2300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 22,
-      "source_count": 5,
+      "source_snapshot_score": 11,
+      "source_count": 4,
       "source_names": [
         "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
+        "Financial Times Home",
+        "Financial Times World",
+        "NYT Business"
       ],
       "sample_titles": [
-        "Anthropic shares may fall 5% at Friday’s open, crypto futures suggest",
-        "Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt",
-        "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price"
+        "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+        "’Tis the season to be grateful to China",
+        "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military"
       ]
     }
   ],

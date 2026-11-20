@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T06:44:10.260631+00:00",
+  "generated_at": "2026-11-20T19:56:18.356936+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -58,28 +58,30 @@
         "Federal Reserve issues FOMC statement",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Gold set for worst week in eight months as firm dollar, Fed hike bets weigh - Reuters"
+        "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press",
-        "Reuters Markets via Google News RSS"
+        "MarketWatch Breaking News"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3500,
-      "search_score": 23,
+      "demand_signal_score": 4100,
+      "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
       "monetization_score": 15,
       "risk_score": 8,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 2,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 91.0,
+      "total_score": 94.0,
       "format": "macro_explainer"
     },
     {
@@ -91,7 +93,7 @@
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
         "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "outline": [
         "오늘 코인 시장 핵심 변화",
         "가격이 아니라 구조상 중요한 포인트",
@@ -100,37 +102,141 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "Here's what's crashing gold and likely weighing on bitcoin too",
-        "Anthropic shares may fall 5% at Friday’s open, crypto futures suggest",
-        "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive",
-        "Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling",
-        "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs"
+        "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
+        "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians",
+        "Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut",
+        "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
+        "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
-        "Investing.com Crypto News"
+        "Investing.com Crypto News",
+        "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 5400,
-      "search_score": 29,
-      "timeliness_score": 18,
+      "demand_signal_score": 5300,
+      "search_score": 28,
+      "timeliness_score": 20,
       "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 3,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 3,
+      "search_demand_bonus": 2,
       "crypto_market_signal_bonus": 5,
       "crypto_market_sentiment": "extreme_fear",
       "crypto_market_signal_notes": [
-        "BTCUSDT 24h change -2.82%",
+        "BTCUSDT 24h change -6.19%",
         "Fear/Greed 12: Extreme Fear zone"
       ],
-      "total_score": 87.0,
+      "total_score": 88.0,
       "format": "crypto_analysis"
+    },
+    {
+      "keyword": "us_index_flow",
+      "category": "global-sector",
+      "brand_lane": "us-stocks",
+      "title_candidates": [
+        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
+        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
+      ],
+      "reason": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (8개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (nasdaq)",
+      "outline": [
+        "지금 이 섹터가 왜 움직이는가",
+        "핵심 뉴스와 시장 반응",
+        "대표 종목과 자금 흐름",
+        "거시 변수와 연결",
+        "다음 실적/정책 이벤트"
+      ],
+      "sample_headlines": [
+        "nasdaq",
+        "Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut",
+        "Bitcoin falls below $60K for first time since July amid broader market selloff",
+        "Jensen Huang to testify publicly before Senate banking panel, Chairman Scott says",
+        "Dinari Launches Tokenized Anthropic Shares on First Day of Nasdaq Trading"
+      ],
+      "reference_takeaways": [],
+      "source_names": [
+        "CNBC Top News",
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Financial Times Home",
+        "Google Trends US",
+        "Investing.com Crypto News",
+        "MarketWatch Breaking News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "trend_queries": [
+        "nasdaq"
+      ],
+      "trend_regions": [
+        "US"
+      ],
+      "fallback_source": "mapped_candidate",
+      "demand_signal_score": 20200,
+      "search_score": 30,
+      "timeliness_score": 21,
+      "explanatory_score": 20,
+      "monetization_score": 15,
+      "risk_score": 6,
+      "performance_bonus": 0.0,
+      "search_demand_bonus": 10,
+      "crypto_market_signal_bonus": 0,
+      "crypto_market_sentiment": "",
+      "crypto_market_signal_notes": [],
+      "total_score": 92.0,
+      "format": "sector_analysis"
+    },
+    {
+      "keyword": "china",
+      "category": "global-sector",
+      "brand_lane": "world-flow",
+      "title_candidates": [
+        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
+        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
+        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
+      ],
+      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+      "outline": [
+        "왜 지금 이 이슈가 중요한가",
+        "실제로 발표되거나 벌어진 일",
+        "주식·코인·달러·금리에 주는 영향",
+        "앞으로 체크할 변수",
+        "개인 투자자가 볼 포인트"
+      ],
+      "sample_headlines": [
+        "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+        "’Tis the season to be grateful to China",
+        "’Tis the season to be grateful to China",
+        "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military"
+      ],
+      "reference_takeaways": [],
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "Financial Times World",
+        "NYT Business"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "fallback_source": "mapped_candidate",
+      "demand_signal_score": 2300,
+      "search_score": 15,
+      "timeliness_score": 20,
+      "explanatory_score": 17,
+      "monetization_score": 14,
+      "risk_score": 7,
+      "performance_bonus": 0.0,
+      "search_demand_bonus": 1,
+      "crypto_market_signal_bonus": 0,
+      "crypto_market_sentiment": "",
+      "crypto_market_signal_notes": [],
+      "total_score": 73.0,
+      "format": "macro_explainer"
     },
     {
       "keyword": "ai_semiconductors",
@@ -150,11 +256,11 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Anthropic shares may fall 5% at Friday’s open, crypto futures suggest",
-        "Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt",
-        "Anthropic’s $81B IPO draws half the net retail buying of SpaceX’s",
-        "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price",
-        "Forget Anthropic: In Europe, the IPO hype is about a blue lagoon"
+        "Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut",
+        "Bitcoin falls below $60K for first time since July amid broader market selloff",
+        "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
+        "Nvidia stock plunges 12%, rides longest weekly losing streak since 2008 financial crisis",
+        "The bull market has a new problem. The 'smart money' is selling"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -171,112 +277,18 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 8500,
-      "search_score": 30,
+      "demand_signal_score": 6700,
+      "search_score": 29,
       "timeliness_score": 21,
       "explanatory_score": 18,
       "monetization_score": 15,
       "risk_score": 5,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 4,
+      "search_demand_bonus": 3,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 89.0,
-      "format": "sector_analysis"
-    },
-    {
-      "keyword": "china",
-      "category": "global-sector",
-      "brand_lane": "world-flow",
-      "title_candidates": [
-        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
-        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
-      ],
-      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
-      "outline": [
-        "왜 지금 이 이슈가 중요한가",
-        "실제로 발표되거나 벌어진 일",
-        "주식·코인·달러·금리에 주는 영향",
-        "앞으로 체크할 변수",
-        "개인 투자자가 볼 포인트"
-      ],
-      "sample_headlines": [
-        "AMD dives on short seller report of alleged China exposure",
-        "U.K.-India trade deal faces a stiff test over Scotch whisky import taxes",
-        "China revels in Xi’s ‘Yalta 2.0’ moment",
-        "China prepares to restart US private equity investments after pullback"
-      ],
-      "reference_takeaways": [],
-      "source_names": [
-        "CNBC Top News",
-        "Financial Times Home"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 13,
-      "timeliness_score": 16,
-      "explanatory_score": 17,
-      "monetization_score": 13,
-      "risk_score": 7,
-      "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
-      "crypto_market_signal_bonus": 0,
-      "crypto_market_sentiment": "",
-      "crypto_market_signal_notes": [],
-      "total_score": 66.0,
-      "format": "macro_explainer"
-    },
-    {
-      "keyword": "us_index_flow",
-      "category": "global-sector",
-      "brand_lane": "us-stocks",
-      "title_candidates": [
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
-        "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
-      ],
-      "reason": "복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
-      "outline": [
-        "지금 이 섹터가 왜 움직이는가",
-        "핵심 뉴스와 시장 반응",
-        "대표 종목과 자금 흐름",
-        "거시 변수와 연결",
-        "다음 실적/정책 이벤트"
-      ],
-      "sample_headlines": [
-        "Anthropic shares may fall 5% at Friday’s open, crypto futures suggest",
-        "Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt",
-        "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price",
-        "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
-        "Dinari Launches Tokenized Anthropic Shares on First Day of Nasdaq Trading"
-      ],
-      "reference_takeaways": [],
-      "source_names": [
-        "CNBC Top News",
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News",
-        "MarketWatch Breaking News"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3400,
-      "search_score": 24,
-      "timeliness_score": 21,
-      "explanatory_score": 19,
-      "monetization_score": 15,
-      "risk_score": 6,
-      "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
-      "crypto_market_signal_bonus": 0,
-      "crypto_market_sentiment": "",
-      "crypto_market_signal_notes": [],
-      "total_score": 85.0,
+      "total_score": 88.0,
       "format": "sector_analysis"
     }
   ]

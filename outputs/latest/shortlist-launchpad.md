@@ -9,7 +9,7 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `fomc` / publish `2026-11-20` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
 - sample_headlines:
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
@@ -28,35 +28,35 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `bitcoin` / publish `2026-11-21` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- why_now: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - sample_headlines:
-  - Here's what's crashing gold and likely weighing on bitcoin too
-  - Anthropic shares may fall 5% at Friday’s open, crypto futures suggest
-  - This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive
+  - Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play
+  - Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians
+  - Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut
 - recent_evidence:
-  - CoinDesk RSS | 2026-11-20T06:12:15+00:00 | Here's what's crashing gold and likely weighing on bitcoin too
-  - CoinDesk RSS | 2026-11-20T05:32:25+00:00 | This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive
-  - CoinDesk RSS | 2026-11-20T05:20:51+00:00 | Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling
+  - CoinDesk RSS | 2026-11-20T18:13:52+00:00 | Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play
+  - Cointelegraph | 2026-11-20T16:55:51+00:00 | Bitcoin falls below $60K for first time since July amid broader market selloff
+  - Reuters Markets via Google News RSS | 2026-11-20T16:26:27+00:00 | Bitcoin falls below $60,000 level - Reuters
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
-- keyword `ai_semiconductors` / publish `2026-11-22` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (9개), 섹터/세계 흐름 연결 해설 가능
+- keyword `us_index_flow` / publish `` / verdict `approve` / quality `needs_fix`
+- ready_now: `False` / hero_image_selected: `True`
+- intent: 
+- why_now: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (8개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (nasdaq)
 - sample_headlines:
-  - Anthropic shares may fall 5% at Friday’s open, crypto futures suggest
-  - Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt
-  - Anthropic’s $81B IPO draws half the net retail buying of SpaceX’s
+  - nasdaq
+  - Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut
+  - Bitcoin falls below $60K for first time since July amid broader market selloff
 - recent_evidence:
-  - Cointelegraph | 2026-11-20T06:24:41+00:00 | Anthropic’s $81B IPO draws half the net retail buying of SpaceX’s
-  - CoinDesk RSS | 2026-11-20T06:08:28+00:00 | Anthropic shares may fall 5% at Friday’s open, crypto futures suggest
-  - CNBC Top News | 2026-11-20T06:00:01+00:00 | Forget Anthropic: In Europe, the IPO hype is about a blue lagoon
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`
+  - MarketWatch Breaking News | 2026-11-20T19:53:00+00:00 | The Fed is too busy fighting inflation to rescue the stock market
+  - Reuters Markets via Google News RSS | 2026-11-20T19:28:29+00:00 | Wall St slides on mounting AI selloff, S&P 500, Dow set to confirm corrections - Reuters
+  - NYT Business | 2026-11-20T18:05:36+00:00 | Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply`
