@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-21T06:37:51.990819+00:00`
+- 생성 시각: `2026-11-21T19:01:50.165246+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -100,46 +100,49 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `ai_semiconductors`: score 49, source_count 7, sources CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: score 47, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `fomc`: score 24, source_count 2, sources CoinDesk RSS, Federal Reserve Monetary Policy Press
-- `us_index_flow`: score 13, source_count 4, sources CNBC Top News, Cointelegraph, MarketWatch Breaking News, Reuters Markets via Google News RSS
-- `china`: score 11, source_count 4, sources CNBC Top News, Financial Times Home, Financial Times World, NYT Business
+- `bitcoin`: score 40, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 40, source_count 7, sources CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
+- `china`: score 15, source_count 3, sources CNBC Top News, Financial Times Home, Financial Times World
+- `us_index_flow`: score 12, source_count 3, sources CNBC Top News, Cointelegraph, Reuters Markets via Google News RSS
 - `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
 - `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
-- `oil`: score 6, source_count 2, sources Financial Times Home, Financial Times World
-- `us_big_tech`: score 3, source_count 1, sources CNBC Top News
+- `us_big_tech`: score 5, source_count 2, sources Financial Times World, NYT Business
+- `treasury_yields`: score 4, source_count 1, sources CoinDesk RSS
+- `tariffs_trade`: score 3, source_count 1, sources Financial Times World
 
 ## 오늘의 글감 후보
 
-- `ai_semiconductors`: score 49, headlines 18
+- `ai_semiconductors`: score 40, headlines 14
   - Bitcoin falls below $60K for first time since July amid broader market selloff
-  - Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off
-  - Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis
-- `bitcoin`: score 47, headlines 14
+  - Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020
+  - Alice Huang’s links to the chip underworld
+- `bitcoin`: score 40, headlines 12
+  - Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open
   - Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug
   - XRP falls 10% as long bets unwind and ETF assets slip below $1 billion
-  - Bitcoin tanks below $57,000 for the first time in two years, and its not alone
-- `fomc`: score 24, headlines 5
+- `fomc`: score 20, headlines 4
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-- `us_index_flow`: score 13, headlines 5
+- `china`: score 15, headlines 5
+  - How China is using summits to expand its global influence
+  - Alice Huang’s links to the chip underworld
+  - Nvidia affair puts Chinese spies in spotlight
+- `us_index_flow`: score 12, headlines 4
   - Bitcoin falls below $60K for first time since July amid broader market selloff
-  - Prediction markets outlook for stocks in 2026 dims amid AI sell-off
+  - Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020
   - Instant view: Nasdaq plunges 5% a day after Anthropic debut, but investors still believe in AI - Reuters
-- `china`: score 11, headlines 4
-  - Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'
-  - ’Tis the season to be grateful to China
-  - The chip war’s next battleground
 - `crypto_etf`: score 7, headlines 2
   - XRP falls 10% as long bets unwind and ETF assets slip below $1 billion
   - Bitcoin on track for seventh straight weekly loss as ETF outflows hit record
 - `ethereum`: score 7, headlines 2
   - Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment
   - Ethereum Falls 10% In Rout
-- `oil`: score 6, headlines 2
-  - Oil shipped through Hormuz falls as Iranian strikes increase
-  - Oil shipped through Hormuz falls as Iranian strikes increase
-- `us_big_tech`: score 3, headlines 1
-  - Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis
+- `us_big_tech`: score 5, headlines 2
+  - Amazon closes in on $7.5bn deal to buy AI start-up Decart
+  - Elon Musk on His Politics, a Potential Merger and Ukraine
+- `treasury_yields`: score 4, headlines 1
+  - Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated
+- `tariffs_trade`: score 3, headlines 1
+  - Traders start to move US copper to China as Trump tariff fears ease

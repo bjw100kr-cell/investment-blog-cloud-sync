@@ -118,10 +118,10 @@
   ],
   "reference_headlines": [
     "Bitcoin falls below $60K for first time since July amid broader market selloff",
-    "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
-    "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
-    "A massive bearish trade just happened in the chip stocks",
-    "The bull market has a new problem. The 'smart money' is selling"
+    "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
+    "Alice Huang’s links to the chip underworld",
+    "Nvidia affair puts Chinese spies in spotlight",
+    "Nvidia faces US regulator’s probe into its accounting"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -184,8 +184,8 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 88.0,
-    "search_score": 29,
+    "total_score": 87.0,
+    "search_score": 28,
     "timeliness_score": 21,
     "explanatory_score": 18,
     "monetization_score": 15,

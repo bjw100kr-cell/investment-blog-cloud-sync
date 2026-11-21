@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T06:37:51.990819+00:00",
+  "generated_at": "2026-11-21T19:01:50.165246+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -8,17 +8,42 @@
   },
   "ranked_keyword_demand": [
     {
+      "keyword": "bitcoin",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 5200,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 40,
+      "source_count": 4,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News",
+        "Reuters Markets via Google News RSS"
+      ],
+      "sample_titles": [
+        "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open",
+        "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
+        "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion"
+      ]
+    },
+    {
       "keyword": "ai_semiconductors",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 6100,
+      "demand_signal_score": 5200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 49,
+      "source_snapshot_score": 40,
       "source_count": 7,
       "source_names": [
         "CNBC Top News",
@@ -29,33 +54,8 @@
       ],
       "sample_titles": [
         "Bitcoin falls below $60K for first time since July amid broader market selloff",
-        "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
-        "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis"
-      ]
-    },
-    {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 5900,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 47,
-      "source_count": 4,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News",
-        "Reuters Markets via Google News RSS"
-      ],
-      "sample_titles": [
-        "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
-        "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
-        "Bitcoin tanks below $57,000 for the first time in two years, and its not alone"
+        "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
+        "Alice Huang’s links to the chip underworld"
       ]
     },
     {
@@ -65,14 +65,13 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3600,
+      "demand_signal_score": 3200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 24,
-      "source_count": 2,
+      "source_snapshot_score": 20,
+      "source_count": 1,
       "source_names": [
-        "CoinDesk RSS",
         "Federal Reserve Monetary Policy Press"
       ],
       "sample_titles": [
@@ -82,28 +81,27 @@
       ]
     },
     {
-      "keyword": "us_index_flow",
+      "keyword": "china",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2500,
+      "demand_signal_score": 2700,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 13,
-      "source_count": 4,
+      "source_snapshot_score": 15,
+      "source_count": 3,
       "source_names": [
         "CNBC Top News",
-        "Cointelegraph",
-        "MarketWatch Breaking News",
-        "Reuters Markets via Google News RSS"
+        "Financial Times Home",
+        "Financial Times World"
       ],
       "sample_titles": [
-        "Bitcoin falls below $60K for first time since July amid broader market selloff",
-        "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
-        "Instant view: Nasdaq plunges 5% a day after Anthropic debut, but investors still believe in AI - Reuters"
+        "How China is using summits to expand its global influence",
+        "Alice Huang’s links to the chip underworld",
+        "Nvidia affair puts Chinese spies in spotlight"
       ]
     }
   ],

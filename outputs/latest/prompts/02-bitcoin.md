@@ -114,11 +114,11 @@
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
+    "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open",
     "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
     "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
     "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
-    "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
-    "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians"
+    "Here’s what happened in crypto today"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -181,8 +181,8 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 89.0,
-    "search_score": 29,
+    "total_score": 88.0,
+    "search_score": 28,
     "timeliness_score": 20,
     "explanatory_score": 17,
     "monetization_score": 15,
