@@ -35,8 +35,8 @@
 - ready_now: `True`
 - quality_status: `pass`
 - decision_note: 이 글은 내용만 괜찮으면 바로 승인 후보입니다.
-- freshness_status: `fresh`
-- freshness_recommendation: 사용자 검토만 통과하면 바로 게시 후보로 유지해도 됩니다.
+- freshness_status: `aging`
+- freshness_recommendation: 초안은 유지하되 발행 직전에 가격, 수치, headline을 한 번 더 갱신하는 편이 안전합니다.
 - next_action: 사용자 최종 확인 후 Blogger draft 업로드
 - reader_intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
@@ -75,8 +75,8 @@
 - excerpt: - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다.
 - preview: 한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
-- evidence: CoinDesk RSS / 2026-11-20T18:13:52+00:00 / Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play
-- evidence: Cointelegraph / 2026-11-20T16:55:51+00:00 / Bitcoin falls below $60K for first time since July amid broader market selloff
+- evidence: CoinDesk RSS / 2026-11-21T06:16:42+00:00 / Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug
+- evidence: CoinDesk RSS / 2026-11-21T04:10:07+00:00 / Bitcoin tanks below $57,000 for the first time in two years, and its not alone
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - recovery_mode: `publish_direct`

@@ -6,10 +6,10 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 
 ## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword `fomc` / publish `2026-11-20` / verdict `approve` / quality `pass`
+- keyword `fomc` / publish `2026-11-21` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
 - sample_headlines:
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
@@ -25,38 +25,38 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 
 ## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-11-21` / verdict `approve` / quality `pass`
+- keyword `bitcoin` / publish `2026-11-22` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - sample_headlines:
-  - Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play
-  - Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians
-  - Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut
+  - Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug
+  - XRP falls 10% as long bets unwind and ETF assets slip below $1 billion
+  - Bitcoin tanks below $57,000 for the first time in two years, and its not alone
 - recent_evidence:
-  - CoinDesk RSS | 2026-11-20T18:13:52+00:00 | Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play
-  - Cointelegraph | 2026-11-20T16:55:51+00:00 | Bitcoin falls below $60K for first time since July amid broader market selloff
-  - Reuters Markets via Google News RSS | 2026-11-20T16:26:27+00:00 | Bitcoin falls below $60,000 level - Reuters
+  - CoinDesk RSS | 2026-11-21T06:16:42+00:00 | Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug
+  - CoinDesk RSS | 2026-11-21T04:10:07+00:00 | Bitcoin tanks below $57,000 for the first time in two years, and its not alone
+  - Reuters Markets via Google News RSS | 2026-11-21T04:10:00+00:00 | Bitcoin falls to its lowest in two years - Reuters
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
+## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword `us_index_flow` / publish `` / verdict `approve` / quality `needs_fix`
+- keyword `ai_semiconductors` / publish `` / verdict `approve` / quality `needs_fix`
 - ready_now: `False` / hero_image_selected: `True`
 - intent: 
-- why_now: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (8개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능, 실제 급상승 검색어 반영 (nasdaq)
+- why_now: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
 - sample_headlines:
-  - nasdaq
-  - Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut
   - Bitcoin falls below $60K for first time since July amid broader market selloff
+  - Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off
+  - Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis
 - recent_evidence:
-  - MarketWatch Breaking News | 2026-11-20T19:53:00+00:00 | The Fed is too busy fighting inflation to rescue the stock market
-  - Reuters Markets via Google News RSS | 2026-11-20T19:28:29+00:00 | Wall St slides on mounting AI selloff, S&P 500, Dow set to confirm corrections - Reuters
-  - NYT Business | 2026-11-20T18:05:36+00:00 | Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply`
+  - NYT Business | 2026-11-21T05:13:03+00:00 | Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military
+  - Financial Times World | 2026-11-21T05:00:36+00:00 | The chip war’s next battleground
+  - NYT Business | 2026-11-21T01:06:52+00:00 | Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`

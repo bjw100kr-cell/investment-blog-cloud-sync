@@ -10,5 +10,5 @@
   - reason: no_live_followup_urls
 - `china` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls
-- `us_index_flow` / applied `False` / changed `False` / live picks `0`
+- `ai_semiconductors` / applied `False` / changed `False` / live picks `0`
   - reason: no_live_followup_urls

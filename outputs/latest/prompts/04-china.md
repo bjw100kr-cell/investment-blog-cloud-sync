@@ -116,7 +116,7 @@
   "reference_headlines": [
     "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
     "’Tis the season to be grateful to China",
-    "’Tis the season to be grateful to China",
+    "The chip war’s next battleground",
     "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military"
   ],
   "voice_profile": "뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.",
@@ -180,8 +180,8 @@
     "closing_example": "여기서 진짜 봐야 할 건 다음 이벤트입니다. 이번 발표가 끝이 아니라, 다음 CPI나 고용지표에서 같은 방향이 확인되는지가 더 중요할 수 있습니다."
   },
   "score_breakdown": {
-    "total_score": 73.0,
-    "search_score": 15,
+    "total_score": 72.0,
+    "search_score": 14,
     "timeliness_score": 20,
     "explanatory_score": 17,
     "monetization_score": 14,
