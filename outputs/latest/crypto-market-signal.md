@@ -1,32 +1,28 @@
 # Crypto Market Signal
 
-- 생성 시각: `2026-11-22T06:05:55+00:00`
+- 생성 시각: `2026-11-22T19:26:02+00:00`
 - 상태: `ok`
 - 시장 분위기: `extreme_fear`
-- 추적 코인 평균 24h 변동률: `5.68%`
+- 추적 코인 평균 24h 변동률: `0.52%`
 - Fear/Greed: `11` (Extreme Fear)
 
 ## Tracked Tickers
 
-- `BTCUSDT`: 24h `5.82%`, quote volume `42351089467`
-- `ETHUSDT`: 24h `6.36%`, quote volume `13043274895`
-- `SOLUSDT`: 24h `5.45%`, quote volume `2727978579`
-- `XRPUSDT`: 24h `5.26%`, quote volume `1531641742`
-- `BNBUSDT`: 24h `5.96%`, quote volume `677707180`
-- `DOGEUSDT`: 24h `5.23%`, quote volume `472559167`
+- `BTCUSDT`: 24h `0.73%`, quote volume `29454915849`
+- `ETHUSDT`: 24h `1.82%`, quote volume `7886772492`
+- `SOLUSDT`: 24h `-0.43%`, quote volume `1811564607`
+- `XRPUSDT`: 24h `-0.56%`, quote volume `1061381107`
+- `BNBUSDT`: 24h `1.46%`, quote volume `477652929`
+- `DOGEUSDT`: 24h `0.12%`, quote volume `333495661`
 
 ## Keyword Signals
 
-- `bitcoin`: bonus `5`, sentiment `extreme_fear`, symbols `BTCUSDT`
-  - BTCUSDT 24h change 5.82%
+- `bitcoin`: bonus `3`, sentiment `extreme_fear`, symbols `BTCUSDT`
   - Fear/Greed 11: Extreme Fear zone
-- `ethereum`: bonus `5`, sentiment `extreme_fear`, symbols `ETHUSDT`
-  - ETHUSDT 24h change 6.36%
+- `ethereum`: bonus `3`, sentiment `extreme_fear`, symbols `ETHUSDT`
   - Fear/Greed 11: Extreme Fear zone
-- `crypto_etf`: bonus `8`, sentiment `extreme_fear`, symbols `SOLUSDT, XRPUSDT, BNBUSDT, DOGEUSDT`
-  - SOLUSDT 24h change 5.45%
-  - XRPUSDT 24h change 5.26%
-  - BNBUSDT 24h change 5.96%
+- `crypto_etf`: bonus `6`, sentiment `extreme_fear`, symbols `SOLUSDT, XRPUSDT, BNBUSDT, DOGEUSDT`
+  - Fear/Greed 11: Extreme Fear zone
 
 ## Editorial Rule
 

@@ -91,7 +91,7 @@
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -109,17 +109,19 @@
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "Cointelegraph",
+    "CoinDesk RSS",
     "Financial Times Home",
+    "Financial Times World",
+    "MarketWatch Breaking News",
     "NYT Business",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Bitcoin falls below $60K for first time since July amid broader market selloff",
+    "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
     "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
-    "Alice Huang’s links to the chip underworld",
-    "Napoleon’s warning to Nvidia’s Jensen Huang",
-    "Amazon closes in on $7.5bn deal to buy AI start-up Decart"
+    "Bessent refuses to rule out Huang’s return to Nvidia",
+    "Did Anthropic and its bankers get a key call wrong after IPO?",
+    "EXCLUSIVE: Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers - Reuters"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [

@@ -14,7 +14,7 @@
 - keyword: `bitcoin`
 - brand_lane: `crypto` (코인)
 - publish_date: `2026-11-23`
-- priority_score: `128.0`
+- priority_score: `120.0`
 - review_verdict: `approve`
 - freshness_status: `fresh`
 - quality_status: `pass`

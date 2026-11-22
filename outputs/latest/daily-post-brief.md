@@ -1,6 +1,6 @@
 # 오늘의 포스팅 브리프
 
-- 생성 시각: `2026-11-22T06:05:54.109071+00:00`
+- 생성 시각: `2026-11-22T19:26:01.397776+00:00`
 
 - 정체성 규칙: 블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.
 
@@ -32,11 +32,12 @@
 
 - 카테고리: `crypto`
 - 브랜드 레인: `crypto` (코인)
-- 총점: `89.0`
-- 점수 구성: 검색성 29 / 시의성 20 / 설명가치 17 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 3 / 코인시장신호 5
-- 추천 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 코인 시장 신호: BTCUSDT 24h change 5.82%; Fear/Greed 11: Extreme Fear zone
-- 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
+- 총점: `88.0`
+- 점수 구성: 검색성 28 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 3 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 3
+- 추천 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (빗썸)
+- 코인 시장 신호: Fear/Greed 11: Extreme Fear zone
+- 소스: CoinDesk RSS, Cointelegraph, Google Trends KR, Investing.com Crypto News, Reuters Markets via Google News RSS
+- 트렌드 쿼리: 빗썸
 - 제목 후보:
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
   - 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유
@@ -48,11 +49,11 @@
   - 강세 시나리오와 리스크
   - 내일 확인할 체크포인트
 - 참고 헤드라인:
+  - 빗썸
+  - Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins
   - Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave
   - Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug
   - XRP falls 10% as long bets unwind and ETF assets slip below $1 billion
-  - Bitcoin tanks below $57,000 for the first time in two years, and its not alone
-  - Here’s what happened in crypto today
 
 ## 3. ai_semiconductors
 
@@ -60,8 +61,8 @@
 - 브랜드 레인: `us-stocks` (미국주식)
 - 총점: `85.0`
 - 점수 구성: 검색성 26 / 시의성 21 / 설명가치 18 / 수익성 15 / 리스크역점수 5 / 성과보너스 0.0 / 트렌드보너스 2 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Cointelegraph, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
+- 추천 이유: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
+- 소스: CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - 제목 후보:
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
   - AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유
@@ -73,20 +74,20 @@
   - 거시 변수와 연결
   - 다음 실적/정책 이벤트
 - 참고 헤드라인:
-  - Bitcoin falls below $60K for first time since July amid broader market selloff
+  - OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos
   - Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020
-  - Alice Huang’s links to the chip underworld
-  - Napoleon’s warning to Nvidia’s Jensen Huang
-  - Amazon closes in on $7.5bn deal to buy AI start-up Decart
+  - Bessent refuses to rule out Huang’s return to Nvidia
+  - Did Anthropic and its bankers get a key call wrong after IPO?
+  - EXCLUSIVE: Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers - Reuters
 
 ## 4. china
 
 - 카테고리: `global-sector`
 - 브랜드 레인: `world-flow` (세계 흐름)
-- 총점: `55.0`
-- 점수 구성: 검색성 8 / 시의성 10 / 설명가치 17 / 수익성 13 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 소스: CNBC Top News, Financial Times Home
+- 총점: `44.0`
+- 점수 구성: 검색성 3 / 시의성 5 / 설명가치 17 / 수익성 12 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 0 / 코인시장신호 0
+- 추천 이유: 섹터/세계 흐름 연결 해설 가능
+- 소스: NYT Business
 - 제목 후보:
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
   - 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유
@@ -98,30 +99,29 @@
   - 앞으로 체크할 변수
   - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - How China is using summits to expand its global influence
-  - Alice Huang’s links to the chip underworld
+  - Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China
 
-## 5. us_big_tech
+## 5. treasury_yields
 
-- 카테고리: `global-sector`
-- 브랜드 레인: `us-stocks` (미국주식)
-- 총점: `74.0`
-- 점수 구성: 검색성 18 / 시의성 18 / 설명가치 16 / 수익성 15 / 리스크역점수 7 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
-- 추천 이유: 복수 소스 교차 확인 가능 (3개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
-- 소스: Financial Times Home, Financial Times World, NYT Business
+- 카테고리: `macro`
+- 브랜드 레인: `macro` (거시경제)
+- 총점: `79.0`
+- 점수 구성: 검색성 19 / 시의성 20 / 설명가치 19 / 수익성 15 / 리스크역점수 6 / 성과보너스 0.0 / 트렌드보너스 1 / 코인시장신호 0
+- 추천 이유: 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- 소스: CoinDesk RSS, Financial Times Home, Financial Times World, NYT Business
 - 제목 후보:
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자: 지금 시장이 반응하는 이유
-  - 미국 빅테크 주가가 흔들릴 때 확인할 것: 실적, 금리, AI 투자
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 지금 시장이 반응하는 이유
+  - 미국채 금리 상승이 나스닥과 코인에 부담이 되는 이유: 주식·코인 흐름 함께 보기
 - 글 구조:
-  - 지금 이 섹터가 왜 움직이는가
-  - 핵심 뉴스와 시장 반응
-  - 대표 종목과 자금 흐름
-  - 거시 변수와 연결
-  - 다음 실적/정책 이벤트
+  - 왜 지금 이 이슈가 중요한가
+  - 실제로 발표되거나 벌어진 일
+  - 주식·코인·달러·금리에 주는 영향
+  - 앞으로 체크할 변수
+  - 개인 투자자가 볼 포인트
 - 참고 헤드라인:
-  - Tech suppliers hike AI server prices up to 45% months after deals are signed
-  - Amazon’s AI resistance: workers ready for battle over data centres
-  - Amazon closes in on $7.5bn deal to buy AI start-up Decart
-  - Tech suppliers hike AI server prices up to 45% months after deals are signed
-  - Elon Musk on His Politics, a Potential Merger and Ukraine
+  - Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated
+  - Bessent refuses to rule out Huang’s return to Nvidia
+  - The American dream of home ownership recedes as mortgage rates surge
+  - Bessent refuses to rule out Huang’s return to Nvidia
+  - Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China

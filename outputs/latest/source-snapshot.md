@@ -1,8 +1,8 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-22T06:05:54.109071+00:00`
+- 생성 시각: `2026-11-22T19:26:01.397776+00:00`
 - 수집 성공 소스: `14`
-- 수집 아이템 수: `112`
+- 수집 아이템 수: `111`
 
 ## 소스 상태
 
@@ -14,7 +14,7 @@
 - `OK` Cointelegraph (rss): 8 items
 - `OK` CNBC Top News (rss): 8 items
 - `OK` Investing.com Crypto News (rss): 8 items
-- `OK` Financial Times Home (rss): 8 items
+- `OK` Financial Times Home (rss): 7 items
 - `OK` Reuters Markets via Google News RSS (rss): 8 items
 - `OK` 무역킹 Trade King YouTube (youtube_channel): 8 items
 - `OK` MarketWatch Breaking News (rss): 8 items
@@ -106,47 +106,48 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 43, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 29, source_count 5, sources CNBC Top News, Cointelegraph, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
+- `bitcoin`: score 57, source_count 5, sources CoinDesk RSS, Cointelegraph, Google Trends KR, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `ai_semiconductors`: score 29, source_count 7, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `us_big_tech`: score 14, source_count 3, sources Financial Times Home, Financial Times World, NYT Business
-- `us_index_flow`: score 12, source_count 3, sources CNBC Top News, Cointelegraph, Reuters Markets via Google News RSS
+- `treasury_yields`: score 15, source_count 4, sources CoinDesk RSS, Financial Times Home, Financial Times World, NYT Business
+- `us_index_flow`: score 8, source_count 2, sources CNBC Top News, MarketWatch Breaking News
 - `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
-- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
-- `treasury_yields`: score 6, source_count 2, sources CoinDesk RSS, MarketWatch Breaking News
-- `china`: score 6, source_count 2, sources CNBC Top News, Financial Times Home
+- `ethereum`: score 6, source_count 2, sources Cointelegraph, Investing.com Crypto News
+- `dollar`: score 3, source_count 1, sources Cointelegraph
+- `us_big_tech`: score 3, source_count 1, sources CNBC Top News
+- `oil`: score 3, source_count 1, sources Financial Times Home
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 43, headlines 13
+- `bitcoin`: score 57, headlines 16
+  - 빗썸
+  - Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins
   - Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave
-  - Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug
-  - XRP falls 10% as long bets unwind and ETF assets slip below $1 billion
 - `ai_semiconductors`: score 29, headlines 10
-  - Bitcoin falls below $60K for first time since July amid broader market selloff
+  - OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos
   - Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020
-  - Alice Huang’s links to the chip underworld
+  - Bessent refuses to rule out Huang’s return to Nvidia
 - `fomc`: score 20, headlines 4
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-- `us_big_tech`: score 14, headlines 5
-  - Tech suppliers hike AI server prices up to 45% months after deals are signed
-  - Amazon’s AI resistance: workers ready for battle over data centres
-  - Amazon closes in on $7.5bn deal to buy AI start-up Decart
-- `us_index_flow`: score 12, headlines 4
-  - Bitcoin falls below $60K for first time since July amid broader market selloff
+- `treasury_yields`: score 15, headlines 5
+  - Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated
+  - Bessent refuses to rule out Huang’s return to Nvidia
+  - The American dream of home ownership recedes as mortgage rates surge
+- `us_index_flow`: score 8, headlines 3
   - Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020
-  - Instant view: Nasdaq plunges 5% a day after Anthropic debut, but investors still believe in AI - Reuters
+  - S&P 500 correction: Five forces behind the market sell-off
+  - These little-known investments could be among the best bargains in a crash
 - `crypto_etf`: score 7, headlines 2
   - XRP falls 10% as long bets unwind and ETF assets slip below $1 billion
   - Bitcoin on track for seventh straight weekly loss as ETF outflows hit record
-- `ethereum`: score 7, headlines 2
-  - Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment
+- `ethereum`: score 6, headlines 2
+  - South Korean exchanges halt CYBER transfers amid suspected bridge exploit
   - Ethereum Falls 10% In Rout
-- `china`: score 6, headlines 2
-  - How China is using summits to expand its global influence
-  - Alice Huang’s links to the chip underworld
-- `treasury_yields`: score 6, headlines 2
-  - Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated
-  - ‘Buyers are out for blood’: With home sales at a record low, buyers are calling the shots
+- `dollar`: score 3, headlines 1
+  - The future of onchain FX could start with users, not institutional liquidity
+- `oil`: score 3, headlines 1
+  - US ports face cyber attack onslaught as hackers target vital trade routes
+- `us_big_tech`: score 3, headlines 1
+  - Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages

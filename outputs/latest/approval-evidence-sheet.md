@@ -2,34 +2,36 @@
 
 사용자가 초안을 최종 확인하기 전에, 왜 이 글이 오늘 올라올 가치가 있는지 근거를 빠르게 보는 시트입니다.
 - 원칙: 초안 내용과 함께 근거 소스, 검색 수요, 시의성을 같이 보고 최종 확인합니다.
-- generated_at: `2026-11-22T06:05:54.109071+00:00`
+- generated_at: `2026-11-22T19:26:01.397776+00:00`
 - item_count: `3`
 
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword: `bitcoin`
 - publish_date: `2026-11-23`
-- priority_score: `128.0`
+- priority_score: `120.0`
 - ready_now: `True` / quality_status `pass`
-- reason: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- reason: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (빗썸)
 - format: `crypto_analysis`
-- demand_signal_score: `5500`
-- fallback_source: `source_snapshot_rank`
-- source_count: `4`
-- score_breakdown: search `29` / timeliness `20` / monetization `15`
-- source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
+- demand_signal_score: `400`
+- fallback_source: `trend_match`
+- source_count: `5`
+- score_breakdown: search `28` / timeliness `21` / monetization `15`
+- trend_queries: 빗썸
+- trend_regions: KR
+- source_names: CoinDesk RSS, Cointelegraph, Google Trends KR, Investing.com Crypto News, Reuters Markets via Google News RSS
 - sample_headlines:
+  - 빗썸
+  - Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins
   - Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave
   - Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug
   - XRP falls 10% as long bets unwind and ETF assets slip below $1 billion
-  - Bitcoin tanks below $57,000 for the first time in two years, and its not alone
-  - Here’s what happened in crypto today
 - recent_evidence:
+  - CoinDesk RSS | 2026-11-22T14:00:00+00:00 | Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins | https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins
+  - Cointelegraph | 2026-11-22T09:33:06+00:00 | Bitcoin briefly drops to $17K on Kraken, exchange upholds trades | https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  - Investing.com Crypto News | 2026-11-22 07:29:58 | Bitcoin struggles below $60,000 as mining profits plunge, security risks grow | https://www.investing.com/news/cryptocurrency-news/bitcoin-struggles-below-60000-as-mining-profits-plunge-security-risks-grow-5043790
   - CoinDesk RSS | 2026-11-21T17:50:00+00:00 | Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave | https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open
   - Reuters Markets via Google News RSS | 2026-11-21T15:25:43+00:00 | Bitcoin rises over 2% to more than $60,000 - Reuters | https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWWZDYjFjYnlkNnBXa2lSQ2loSllxdV9rb2JNdjlZRXRBdmZvUFpaUzJrenVyMWRMWVdKMDR3cTJUVUVjX3hfUmJYaklMUXA2aXlRUTlHTzhpTVR4QVZiQlhlZTMyZ0RGNzhZWFlPT0VFNXdVUTJIRENXd0ZmYXIwR3ZMT3ZKWVJk?oc=5
-  - CoinDesk RSS | 2026-11-21T06:16:42+00:00 | Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug | https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug
-  - CoinDesk RSS | 2026-11-21T04:10:07+00:00 | Bitcoin tanks below $57,000 for the first time in two years, and its not alone | https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone
-  - Reuters Markets via Google News RSS | 2026-11-21T04:10:00+00:00 | Bitcoin rises after falling to two-year low - Reuters | https://news.google.com/rss/articles/CBMid0FVX3lxTE1NUk9lTzRodUF5M1QyMkpkS3ViSDhVQ2hHZlV1ZUowRnBQeF9Za3l0WkRFb1BUNzVoS1NxcFFERDAydTVnLVpIMG9hcmRUV3hyb1F1RURKeGF3WV9iNlJScVlrYk95VmRJWWxjcE5GLUR4NUgtYWVj?oc=5
 
 ## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
@@ -37,25 +39,25 @@
 - publish_date: `2026-11-24`
 - priority_score: `120.0`
 - ready_now: `True` / quality_status `pass`
-- reason: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- reason: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
 - format: `sector_analysis`
 - demand_signal_score: `4100`
 - fallback_source: `source_snapshot_rank`
-- source_count: `5`
+- source_count: `7`
 - score_breakdown: search `26` / timeliness `21` / monetization `15`
-- source_names: CNBC Top News, Cointelegraph, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
+- source_names: CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 - sample_headlines:
-  - Bitcoin falls below $60K for first time since July amid broader market selloff
+  - OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos
   - Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020
-  - Alice Huang’s links to the chip underworld
-  - Napoleon’s warning to Nvidia’s Jensen Huang
-  - Amazon closes in on $7.5bn deal to buy AI start-up Decart
+  - Bessent refuses to rule out Huang’s return to Nvidia
+  - Did Anthropic and its bankers get a key call wrong after IPO?
+  - EXCLUSIVE: Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers - Reuters
 - recent_evidence:
-  - Financial Times Home | 2026-11-22T05:00:06+00:00 | Napoleon’s warning to Nvidia’s Jensen Huang | https://www.ft.com/content/f4a9e8ac-9ba2-40ac-8d27-8ce2b9639e2a?syn-25a6b1a6=1
-  - Financial Times Home | 2026-11-21T17:00:10+00:00 | Alice Huang’s links to the chip underworld | https://www.ft.com/content/f3ad8a81-3890-4a8a-8853-ff0a94b08ba9?syn-25a6b1a6=1
-  - CNBC Top News | 2026-11-21T16:40:05+00:00 | Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020 | https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html
-  - NYT Business | 2026-11-21T10:03:45+00:00 | Anthropic’s Debut Shows the Disconnect Between Wall Street and Silicon Valley | https://www.nytimes.com/2026/11/21/business/anthropic-stock-wall-street-silicon-valley.html
-  - Reuters Markets via Google News RSS | 2026-11-20T21:30:13+00:00 | Instant view: Nasdaq plunges 5% a day after Anthropic debut, but investors still believe in AI - Reuters | https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSi1oZG9URHdnSVhJWWs1THZ6b1JBVWJHODR5ZE5fajVzaS1zZGhfdGlfajJkTUpmeUduODNlNTN0bTFSUEZCZHROd1IzSF9DeWxKUmYyT0IyVTh6Zy1ab1ZXd1BfSjFQcC1paFhiS3NTM1NSQUlMNmhDa1pUNl9WMW9xM3NTTzI5aF95NXNaVnI2WXV6TlhxZ3h3WHh2NldhZzhvekxPb1dQczVXcXZYT2tkWjAxNS1uYmhF?oc=5
+  - Financial Times Home | 2026-11-22T19:08:31+00:00 | Bessent refuses to rule out Huang’s return to Nvidia | https://www.ft.com/content/91b7a3a6-8ac5-4327-ad03-6d951f287346?syn-25a6b1a6=1
+  - NYT Business | 2026-11-22T17:55:31+00:00 | Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China | https://www.nytimes.com/2026/11/22/business/scott-bessent-jensen-huang-nvidia.html
+  - MarketWatch Breaking News | 2026-11-22T17:00:00+00:00 | ‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate? | https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories
+  - Reuters Markets via Google News RSS | 2026-11-22T13:29:02+00:00 | EXCLUSIVE: Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers - Reuters | https://news.google.com/rss/articles/CBMisAFBVV95cUxNT1RsTFBlMWZGejNqWjVvdVlYX2lRTGpZZXhoYXFXN2RuV3lHZ09ra0ctdnZqc3hiVENXSlc2ZTBIbDRyTmpTS1Nhdk1kdU5HLW5FNGdNRTNoeXVBeEc5cDl5VGx3c3dUSzNDYkVVTHVfenVQbHFUQ0hQS2NfalhuNDczWFdUS0FWQS1iZ1ZhVnNYMy1FOHVSUmlBMmI3NTdVTGY1X0JxTFRmYnptV3huQQ?oc=5
+  - NYT Business | 2026-11-22T13:00:02+00:00 | Zohran Mamdani on Trump, Wall Street and Wealth Taxes | https://www.nytimes.com/2026/11/22/business/dealbook/zohran-mamdani-dealbook-summit.html
 
 ## 3. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 

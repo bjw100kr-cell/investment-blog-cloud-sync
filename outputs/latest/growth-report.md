@@ -1,25 +1,25 @@
 # 성장 전략 리포트
 
-- 생성 시각: `2026-11-22T06:05:54.109071+00:00`
+- 생성 시각: `2026-11-22T19:26:01.397776+00:00`
 
 ## 지금 가장 먼저 밀 주제
 
 - `fomc`: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지 / 점수 86.0 / 수익화 14
   - 이유: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
   - 근거 소스: Federal Reserve Monetary Policy Press
-- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 89.0 / 수익화 15
-  - 이유: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-  - 근거 소스: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
+- `bitcoin`: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트 / 점수 88.0 / 수익화 15
+  - 이유: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (빗썸)
+  - 근거 소스: CoinDesk RSS, Cointelegraph, Google Trends KR, Investing.com Crypto News, Reuters Markets via Google News RSS
 - `ai_semiconductors`: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지 / 점수 85.0 / 수익화 15
-  - 이유: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
-  - 근거 소스: CNBC Top News, Cointelegraph, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
+  - 이유: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
+  - 근거 소스: CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
 
 ## 브랜드 레인 우선순위
 
 - `코인`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 bitcoin
 - `미국주식`: 평균 수익화 15.0 / 게시 예정 1개 / 키워드 ai_semiconductors
 - `거시경제`: 평균 수익화 14.0 / 게시 예정 1개 / 키워드 fomc
-- `세계 흐름`: 평균 수익화 13.0 / 게시 예정 1개 / 키워드 china
+- `세계 흐름`: 평균 수익화 12.0 / 게시 예정 1개 / 키워드 china
 
 ## 검색 수요 감지 키워드
 
@@ -27,10 +27,11 @@
 
 ## 무료 트렌드 수요 신호
 
-- `bitcoin`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `bitcoin`: trend_count 1, traffic_sum 200, regions KR / 쿼리 빗썸
 - `ai_semiconductors`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 - `fomc`: trend_count 0, traffic_sum 0, regions  / 쿼리 
-- `us_big_tech`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `treasury_yields`: trend_count 0, traffic_sum 0, regions  / 쿼리 
+- `us_index_flow`: trend_count 0, traffic_sum 0, regions  / 쿼리 
 
 ## 다음 7일 실행 포인트
 
