@@ -1,11 +1,11 @@
 # Traffic Amplification Plan
 
 - 목표 방문자: `200`
-- 기본 예상 방문자: `359`
+- 기본 예상 방문자: `332`
 - 실행 전 배포 추가 예상 방문자: `0`
 - 수동 실행 시 추가 잠재 방문자: `1200`
-- 실행 전 배포 포함 예상 방문자: `359`
-- 수동 실행 시 잠재 방문자: `1559`
+- 실행 전 배포 포함 예상 방문자: `332`
+- 수동 실행 시 잠재 방문자: `1532`
 - 남은 부족분: `0`
 - 상태: `amplification_plan_ready_manual_execution_required`
 
@@ -546,7 +546,7 @@ fomc 후속 글 후보: fomc 후속 글 1개를 먼저 생성하거나, 관련 �
 
 - keyword: `china`
 - public_url: https://gimu-economy-insight.blogspot.com/2026/06/blog-post_510.html
-- base_search_estimate: `79`
+- base_search_estimate: `52`
 - amplification_expected_before_execution: `0`
 - amplification_potential_if_executed: `75`
 - manual_execution_required: `True`

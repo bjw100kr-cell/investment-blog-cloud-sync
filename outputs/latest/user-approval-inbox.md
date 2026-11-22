@@ -47,8 +47,8 @@
 - excerpt: - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다.
 - preview: 한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
-- evidence: CoinDesk RSS / 2026-11-21T17:50:00+00:00 / Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open
-- evidence: CoinDesk RSS / 2026-11-21T06:16:42+00:00 / Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug
+- evidence: CoinDesk RSS / 2026-11-21T17:50:00+00:00 / Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave
+- evidence: Reuters Markets via Google News RSS / 2026-11-21T15:25:43+00:00 / Bitcoin rises over 2% to more than $60,000 - Reuters
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - recovery_mode: `publish_direct`
@@ -75,8 +75,8 @@
 - excerpt: - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다.
 - preview: 한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
+- evidence: Financial Times Home / 2026-11-22T05:00:06+00:00 / Napoleon’s warning to Nvidia’s Jensen Huang
 - evidence: Financial Times Home / 2026-11-21T17:00:10+00:00 / Alice Huang’s links to the chip underworld
-- evidence: CNBC Top News / 2026-11-21T16:40:05+00:00 / Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - recovery_mode: `publish_direct`

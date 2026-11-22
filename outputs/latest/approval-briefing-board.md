@@ -9,23 +9,23 @@
 
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-11-22` / priority `127.0`
+- keyword `bitcoin` / publish `2026-11-23` / priority `128.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
 - reason: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- evidence score: demand `5200` / fallback `source_snapshot_rank` / format `crypto_analysis`
+- evidence score: demand `5500` / fallback `source_snapshot_rank` / format `crypto_analysis`
 - source_names: CoinDesk RSS, Cointelegraph, Investing.com Crypto News, Reuters Markets via Google News RSS
 - sample_headlines:
-  - Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open
+  - Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave
   - Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug
   - XRP falls 10% as long bets unwind and ETF assets slip below $1 billion
   - Bitcoin tanks below $57,000 for the first time in two years, and its not alone
 - recent_evidence:
-  - CoinDesk RSS | 2026-11-21T17:50:00+00:00 | Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open
+  - CoinDesk RSS | 2026-11-21T17:50:00+00:00 | Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave
+  - Reuters Markets via Google News RSS | 2026-11-21T15:25:43+00:00 | Bitcoin rises over 2% to more than $60,000 - Reuters
   - CoinDesk RSS | 2026-11-21T06:16:42+00:00 | Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug
   - CoinDesk RSS | 2026-11-21T04:10:07+00:00 | Bitcoin tanks below $57,000 for the first time in two years, and its not alone
-  - Reuters Markets via Google News RSS | 2026-11-21T04:10:00+00:00 | Bitcoin rises after falling to two-year low - Reuters
 - image_slots:
   - 대표 이미지 / Pexels / `bitcoin blockchain abstract blue finance` / Pexels License
   - 본문 보조 이미지 / Unsplash / `crypto market data abstract` / Unsplash License
@@ -45,17 +45,17 @@
 
 ## 도입부
 
-2026년 11월 21일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 11월 22일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 비트코인이 오르거나 내릴 때 가장 먼저 보이는 건 가격입니다. 그런데 투자자 입장에서 더 중요한 건 왜 그런 움직임이 나왔는지, 그 배경이 하루짜리 잡음인지 구조적인 변화인지를 구분하는 일입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
-예를 들어 `Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
+예를 들어 `Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave` 같은 제목은 출발점일 뿐입니다. 중요한 건 이 뉴스가 실제로 어떤 자산을 먼저 움직였는지입니다.
 
 ## 본문
 
 ## 1. 지금 무슨 일이 있었나
 
-이번 글의 출발점은 `Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
+이번 글의 출발점은 `Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave`입니다. 다만 제목만 읽고 끝내면 가장 중요한 부분을 놓치기 쉽습니다.
 여기서 봐야 할 건 사건 자체보다 시장 해석이 달라지는 두 축입니다. 하나는 `현물 ETF 순유입/순유출`, 다른 하나는 `달러 인덱스와 미국채 금리`입니다.
 한마디로 보면 코인 시장은 기대감만으로 오래 버티지 못합니다. ETF 자금이 실제로 들어오고 있는지, 달러와 금리가 어떤 환경을 만들고 있는지, 규제 이슈가 심리를 꺾고 있는지까지 같이 봐야 흐름이 보입니다. 그래서 같은 뉴스라도 발표 직후 반응과 다음 거래일 반응이 다르게 나올 수 있습니다.
 
@@ -127,22 +127,22 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword `ai_semiconductors` / publish `2026-11-23` / priority `122.0`
+- keyword `ai_semiconductors` / publish `2026-11-24` / priority `120.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
-- reason: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
-- evidence score: demand `5200` / fallback `source_snapshot_rank` / format `sector_analysis`
-- source_names: CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- reason: 복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능
+- evidence score: demand `4100` / fallback `source_snapshot_rank` / format `sector_analysis`
+- source_names: CNBC Top News, Cointelegraph, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
 - sample_headlines:
   - Bitcoin falls below $60K for first time since July amid broader market selloff
   - Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020
   - Alice Huang’s links to the chip underworld
-  - Nvidia affair puts Chinese spies in spotlight
+  - Napoleon’s warning to Nvidia’s Jensen Huang
 - recent_evidence:
+  - Financial Times Home | 2026-11-22T05:00:06+00:00 | Napoleon’s warning to Nvidia’s Jensen Huang
   - Financial Times Home | 2026-11-21T17:00:10+00:00 | Alice Huang’s links to the chip underworld
   - CNBC Top News | 2026-11-21T16:40:05+00:00 | Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020
-  - MarketWatch Breaking News | 2026-11-21T15:15:00+00:00 | ‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks?
   - NYT Business | 2026-11-21T10:03:45+00:00 | Anthropic’s Debut Shows the Disconnect Between Wall Street and Silicon Valley
 - image_slots:
   - 대표 이미지 / Unsplash / `semiconductor chip blue abstract` / Unsplash License
@@ -163,7 +163,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 도입부
 
-2026년 11월 21일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 11월 22일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 반도체나 AI 이야기는 늘 뜨겁지만, 모든 종목이 같은 이유로 움직이는 건 아닙니다. 생각보다 중요한 포인트는 뉴스 제목보다 돈이 어디로 몰리고 있는지, 그리고 그 흐름이 실적으로 이어질 수 있는지입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 해외 주요 매체 보도, 코인 전문 매체 기사를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
@@ -221,7 +221,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 출처 체크
 
-- 주요 참고 소스: CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- 주요 참고 소스: CNBC Top News, Cointelegraph, Financial Times Home, NYT Business, Reuters Markets via Google News RSS
 - 발행 전 재확인: 기업 실적/가이던스 수치 원문 확인
 - 발행 전 재확인: 반도체 섹터 전반 일반화 과장 여부 점검
 - 발행 전 재확인: 대표 종목 티커와 실적 날짜 재확인
@@ -245,7 +245,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 3. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword `fomc` / publish `2026-11-21` / priority `128.0`
+- keyword `fomc` / publish `2026-11-22` / priority `128.0`
 - review `approve` score `100` / quality `pass` / ready_now `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
@@ -280,7 +280,7 @@ ETF나 규제 헤드라인 하나를 곧바로 매수 신호로 받아들이는 
 
 ## 도입부
 
-2026년 11월 21일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
+2026년 11월 22일 기준, 이 이슈를 그냥 뉴스 하나로 넘기기엔 아깝습니다.
 미국 기준금리 이야기는 멀게 느껴질 수 있습니다. 그런데 막상 시장이 흔들릴 때는 이 이슈가 달러, 나스닥, 비트코인까지 한 번에 건드리는 경우가 많습니다. 투자자 입장에서 보면 결국 중요한 건 발표 그 자체보다, 그 발표가 자금 흐름을 어떻게 바꾸느냐입니다.
 개인 투자자 입장에서는 지금 당장 방향을 맞히는 것보다 `달러 인덱스`, `미국채 2년물/10년물 금리`, `나스닥과 비트코인 동시 반응` 세 가지가 같은 쪽을 가리키는지 확인하는 일입니다.
 쉽게 말해 공식 발표 자료를 같이 보면 headline 뒤에 있는 자금 흐름과 심리 변화를 더 빨리 잡을 수 있습니다.
