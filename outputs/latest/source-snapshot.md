@@ -1,8 +1,8 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-22T19:26:01.397776+00:00`
+- 생성 시각: `2026-11-23T06:57:53.402075+00:00`
 - 수집 성공 소스: `14`
-- 수집 아이템 수: `111`
+- 수집 아이템 수: `112`
 
 ## 소스 상태
 
@@ -14,7 +14,7 @@
 - `OK` Cointelegraph (rss): 8 items
 - `OK` CNBC Top News (rss): 8 items
 - `OK` Investing.com Crypto News (rss): 8 items
-- `OK` Financial Times Home (rss): 7 items
+- `OK` Financial Times Home (rss): 8 items
 - `OK` Reuters Markets via Google News RSS (rss): 8 items
 - `OK` 무역킹 Trade King YouTube (youtube_channel): 8 items
 - `OK` MarketWatch Breaking News (rss): 8 items
@@ -106,48 +106,52 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 57, source_count 5, sources CoinDesk RSS, Cointelegraph, Google Trends KR, Investing.com Crypto News, Reuters Markets via Google News RSS
-- `ai_semiconductors`: score 29, source_count 7, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `treasury_yields`: score 15, source_count 4, sources CoinDesk RSS, Financial Times Home, Financial Times World, NYT Business
-- `us_index_flow`: score 8, source_count 2, sources CNBC Top News, MarketWatch Breaking News
-- `crypto_etf`: score 7, source_count 2, sources CoinDesk RSS, Investing.com Crypto News
+- `bitcoin`: score 40, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `fomc`: score 30, source_count 4, sources CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, Financial Times World
+- `ai_semiconductors`: score 29, source_count 8, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `china`: score 17, source_count 5, sources CNBC Top News, Financial Times Home, Financial Times World, NYT Business, Reuters Markets via Google News RSS
+- `dollar`: score 10, source_count 3, sources CoinDesk RSS, Cointelegraph, Reuters Markets via Google News RSS
+- `us_index_flow`: score 10, source_count 4, sources CNBC Top News, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `oil`: score 8, source_count 3, sources CNBC Top News, NYT Business, Reuters Markets via Google News RSS
 - `ethereum`: score 6, source_count 2, sources Cointelegraph, Investing.com Crypto News
-- `dollar`: score 3, source_count 1, sources Cointelegraph
+- `ai_growth_stocks`: score 6, source_count 2, sources Financial Times Home, Financial Times World
 - `us_big_tech`: score 3, source_count 1, sources CNBC Top News
-- `oil`: score 3, source_count 1, sources Financial Times Home
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 57, headlines 16
-  - 빗썸
+- `bitcoin`: score 40, headlines 12
+  - Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand
+  - More on the pending oversight hearings: State of Crypto
   - Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins
-  - Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave
-- `ai_semiconductors`: score 29, headlines 10
-  - OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos
-  - Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020
-  - Bessent refuses to rule out Huang’s return to Nvidia
-- `fomc`: score 20, headlines 4
+- `fomc`: score 30, headlines 7
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-- `treasury_yields`: score 15, headlines 5
-  - Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated
-  - Bessent refuses to rule out Huang’s return to Nvidia
-  - The American dream of home ownership recedes as mortgage rates surge
-- `us_index_flow`: score 8, headlines 3
+- `ai_semiconductors`: score 29, headlines 10
+  - OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos
+  - Trump renews call for Nvidia to rehire Jensen Huang as CEO
+  - U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case
+- `china`: score 17, headlines 6
+  - How Asian countries are looking to prop up markets as AI downturn sinks stocks
+  - China is winning the car war
+  - US seeks answers on Nvidia's sale of chips to China, Bessent says - Reuters
+- `us_index_flow`: score 10, headlines 4
   - Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020
-  - S&P 500 correction: Five forces behind the market sell-off
+  - South Korea vows to stabilise stock market after KOSPI drops 5% - Reuters
   - These little-known investments could be among the best bargains in a crash
-- `crypto_etf`: score 7, headlines 2
-  - XRP falls 10% as long bets unwind and ETF assets slip below $1 billion
-  - Bitcoin on track for seventh straight weekly loss as ETF outflows hit record
+- `dollar`: score 10, headlines 3
+  - Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand
+  - The future of onchain FX could start with users, not institutional liquidity
+  - Dollar edges off 19-month high after market rout; yen softens - Reuters
+- `oil`: score 8, headlines 3
+  - Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year
+  - Oil holds in tight range as Gulf attacks sustain risk premium - Reuters
+  - In Vietnam, an Electric Vehicle Revolution Without Cars
+- `ai_growth_stocks`: score 6, headlines 2
+  - Wall Street set to rebound after AI stock sell-off
+  - FirstFT: Wall Street set to rebound after AI stock sell-off
 - `ethereum`: score 6, headlines 2
   - South Korean exchanges halt CYBER transfers amid suspected bridge exploit
   - Ethereum Falls 10% In Rout
-- `dollar`: score 3, headlines 1
-  - The future of onchain FX could start with users, not institutional liquidity
-- `oil`: score 3, headlines 1
-  - US ports face cyber attack onslaught as hackers target vital trade routes
-- `us_big_tech`: score 3, headlines 1
-  - Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages
+- `crypto_etf`: score 3, headlines 1
+  - Bitcoin on track for seventh straight weekly loss as ETF outflows hit record

@@ -91,7 +91,7 @@
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -110,6 +110,7 @@
   "source_names": [
     "CNBC Top News",
     "CoinDesk RSS",
+    "Cointelegraph",
     "Financial Times Home",
     "Financial Times World",
     "MarketWatch Breaking News",
@@ -118,10 +119,10 @@
   ],
   "reference_headlines": [
     "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
+    "Trump renews call for Nvidia to rehire Jensen Huang as CEO",
+    "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
     "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
-    "Bessent refuses to rule out Huang’s return to Nvidia",
-    "Did Anthropic and its bankers get a key call wrong after IPO?",
-    "EXCLUSIVE: Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers - Reuters"
+    "The problem with the circular AI economy"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [

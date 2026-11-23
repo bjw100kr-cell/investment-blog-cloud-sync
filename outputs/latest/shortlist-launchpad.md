@@ -6,18 +6,18 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 
 ## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `bitcoin` / publish `2026-11-23` / verdict `approve` / quality `pass`
+- keyword `bitcoin` / publish `2026-11-24` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (5개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear), 실제 급상승 검색어 반영 (빗썸)
+- why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - sample_headlines:
-  - 빗썸
+  - Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand
+  - More on the pending oversight hearings: State of Crypto
   - Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins
-  - Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave
 - recent_evidence:
+  - CoinDesk RSS | 2026-11-23T05:42:22+00:00 | Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand
+  - Cointelegraph | 2026-11-22T22:47:09+00:00 | Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest
   - CoinDesk RSS | 2026-11-22T14:00:00+00:00 | Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins
-  - Cointelegraph | 2026-11-22T09:33:06+00:00 | Bitcoin briefly drops to $17K on Kraken, exchange upholds trades
-  - Investing.com Crypto News | 2026-11-22 07:29:58 | Bitcoin struggles below $60,000 as mining profits plunge, security risks grow
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
@@ -25,18 +25,18 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 
 ## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword `ai_semiconductors` / publish `2026-11-24` / verdict `approve` / quality `pass`
+- keyword `ai_semiconductors` / publish `2026-11-25` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
+- why_now: 복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능
 - sample_headlines:
   - OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos
-  - Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020
-  - Bessent refuses to rule out Huang’s return to Nvidia
+  - Trump renews call for Nvidia to rehire Jensen Huang as CEO
+  - U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case
 - recent_evidence:
-  - Financial Times Home | 2026-11-22T19:08:31+00:00 | Bessent refuses to rule out Huang’s return to Nvidia
+  - CNBC Top News | 2026-11-23T05:08:03+00:00 | U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case
+  - Cointelegraph | 2026-11-23T03:37:20+00:00 | Trump renews call for Nvidia to rehire Jensen Huang as CEO
   - NYT Business | 2026-11-22T17:55:31+00:00 | Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China
-  - MarketWatch Breaking News | 2026-11-22T17:00:00+00:00 | ‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
@@ -44,10 +44,10 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 
 ## 3. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
 
-- keyword `fomc` / publish `2026-11-22` / verdict `approve` / quality `pass`
+- keyword `fomc` / publish `2026-11-23` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
 - sample_headlines:
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
