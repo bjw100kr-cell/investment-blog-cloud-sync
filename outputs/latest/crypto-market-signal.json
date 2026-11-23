@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-23T06:57:54+00:00",
+  "generated_at": "2026-11-23T23:44:58+00:00",
   "status": "ok",
   "providers": {
     "binance_plugin": false,
-    "binance_public_api": true,
-    "coingecko_public_api": false,
+    "binance_public_api": false,
+    "coingecko_public_api": true,
     "alternative_fear_greed": true
   },
   "market": {
     "sentiment": "extreme_fear",
-    "average_change_percent_24h": 3.48,
-    "tracked_quote_volume_24h": 1982327457.87,
-    "signal_strength": 6
+    "average_change_percent_24h": 0.51,
+    "tracked_quote_volume_24h": 60624350314.0,
+    "signal_strength": 4
   },
   "fear_greed": {
     "value": 11,
@@ -23,50 +23,56 @@
     {
       "symbol": "BTCUSDT",
       "keyword": "bitcoin",
-      "last_price": 61552.0,
-      "price_change_percent_24h": 4.003,
-      "quote_volume_24h": 1257932995.7869596,
-      "trade_count_24h": 5367009
+      "last_price": 61172.0,
+      "price_change_percent_24h": -0.00072,
+      "quote_volume_24h": 38821930077.0,
+      "trade_count_24h": 0,
+      "provider": "coingecko_public_api"
     },
     {
       "symbol": "ETHUSDT",
       "keyword": "ethereum",
-      "last_price": 1726.28,
-      "price_change_percent_24h": 3.762,
-      "quote_volume_24h": 422710700.018519,
-      "trade_count_24h": 2092636
+      "last_price": 1705.71,
+      "price_change_percent_24h": -0.81356,
+      "quote_volume_24h": 14444138075.0,
+      "trade_count_24h": 0,
+      "provider": "coingecko_public_api"
     },
     {
       "symbol": "SOLUSDT",
       "keyword": "crypto_etf",
-      "last_price": 72.11,
-      "price_change_percent_24h": 4.145,
-      "quote_volume_24h": 142980192.41484,
-      "trade_count_24h": 510747
+      "last_price": 71.75,
+      "price_change_percent_24h": 1.72769,
+      "quote_volume_24h": 3674202207.0,
+      "trade_count_24h": 0,
+      "provider": "coingecko_public_api"
     },
     {
       "symbol": "XRPUSDT",
       "keyword": "crypto_etf",
-      "last_price": 0.9417,
-      "price_change_percent_24h": 2.75,
-      "quote_volume_24h": 79026979.9505,
-      "trade_count_24h": 345762
+      "last_price": 0.937538,
+      "price_change_percent_24h": 1.14597,
+      "quote_volume_24h": 2294573205.0,
+      "trade_count_24h": 0,
+      "provider": "coingecko_public_api"
     },
     {
       "symbol": "BNBUSDT",
       "keyword": "crypto_etf",
-      "last_price": 558.05,
-      "price_change_percent_24h": 3.438,
-      "quote_volume_24h": 58925873.87286,
-      "trade_count_24h": 563831
+      "last_price": 555.23,
+      "price_change_percent_24h": -0.56093,
+      "quote_volume_24h": 795546713.0,
+      "trade_count_24h": 0,
+      "provider": "coingecko_public_api"
     },
     {
       "symbol": "DOGEUSDT",
       "keyword": "crypto_etf",
-      "last_price": 0.05576,
-      "price_change_percent_24h": 2.802,
-      "quote_volume_24h": 20750715.82286,
-      "trade_count_24h": 203105
+      "last_price": 0.056144,
+      "price_change_percent_24h": 1.58549,
+      "quote_volume_24h": 593960037.0,
+      "trade_count_24h": 0,
+      "provider": "coingecko_public_api"
     }
   ],
   "plugin_overview": {
@@ -83,9 +89,8 @@
   },
   "keyword_signals": {
     "bitcoin": {
-      "signal_score_bonus": 5,
+      "signal_score_bonus": 3,
       "market_signal_notes": [
-        "BTCUSDT 24h change 4.00%",
         "Fear/Greed 11: Extreme Fear zone"
       ],
       "tracked_symbols": [
@@ -94,9 +99,8 @@
       "market_sentiment": "extreme_fear"
     },
     "ethereum": {
-      "signal_score_bonus": 5,
+      "signal_score_bonus": 3,
       "market_signal_notes": [
-        "ETHUSDT 24h change 3.76%",
         "Fear/Greed 11: Extreme Fear zone"
       ],
       "tracked_symbols": [
@@ -105,12 +109,8 @@
       "market_sentiment": "extreme_fear"
     },
     "crypto_etf": {
-      "signal_score_bonus": 8,
+      "signal_score_bonus": 6,
       "market_signal_notes": [
-        "SOLUSDT 24h change 4.14%",
-        "XRPUSDT 24h change 2.75%",
-        "BNBUSDT 24h change 3.44%",
-        "DOGEUSDT 24h change 2.80%",
         "Fear/Greed 11: Extreme Fear zone"
       ],
       "tracked_symbols": [

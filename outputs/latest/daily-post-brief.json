@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T06:57:53.402075+00:00",
+  "generated_at": "2026-11-23T23:44:57.589409+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -58,19 +58,18 @@
         "Federal Reserve issues FOMC statement",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Market rout kills 50 basis points December Fed rate hike bets"
+        "Bitcoin's 5-year return is nearly zero, great narratives are fading and what's left is the Fed"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CNBC Top News",
         "CoinDesk RSS",
-        "Cointelegraph",
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times World"
+        "Federal Reserve Monetary Policy Press"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 4200,
+      "demand_signal_score": 3900,
       "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
@@ -102,11 +101,11 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand",
-        "More on the pending oversight hearings: State of Crypto",
-        "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
-        "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
-        "Here’s what happened in crypto today"
+        "Bitcoin rebound already losing steam as AI trade returns with a bang",
+        "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs",
+        "Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin",
+        "Bitcoin's 5-year return is nearly zero, great narratives are fading and what's left is the Fed",
+        "Nvidia soars as Jensen Huang returns to lead company"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -117,7 +116,7 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 5200,
+      "demand_signal_score": 5300,
       "search_score": 28,
       "timeliness_score": 18,
       "explanatory_score": 17,
@@ -125,13 +124,12 @@
       "risk_score": 3,
       "performance_bonus": 0.0,
       "search_demand_bonus": 2,
-      "crypto_market_signal_bonus": 5,
+      "crypto_market_signal_bonus": 3,
       "crypto_market_sentiment": "extreme_fear",
       "crypto_market_signal_notes": [
-        "BTCUSDT 24h change 4.00%",
         "Fear/Greed 11: Extreme Fear zone"
       ],
-      "total_score": 86.0,
+      "total_score": 84.0,
       "format": "crypto_analysis"
     },
     {
@@ -152,11 +150,11 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
-        "Trump renews call for Nvidia to rehire Jensen Huang as CEO",
-        "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
-        "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
-        "The problem with the circular AI economy"
+        "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO",
+        "Bitcoin rebound already losing steam as AI trade returns with a bang",
+        "Nvidia soars as Jensen Huang returns to lead company",
+        "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
+        "Nvidia surge: What investors should do with the stock and the AI trade now"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -172,18 +170,18 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 4100,
-      "search_score": 26,
+      "demand_signal_score": 11200,
+      "search_score": 30,
       "timeliness_score": 21,
       "explanatory_score": 18,
       "monetization_score": 15,
       "risk_score": 5,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 2,
+      "search_demand_bonus": 6,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 85.0,
+      "total_score": 89.0,
       "format": "sector_analysis"
     },
     {
@@ -195,7 +193,7 @@
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (5개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -204,35 +202,30 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "How Asian countries are looking to prop up markets as AI downturn sinks stocks",
-        "China is winning the car war",
-        "US seeks answers on Nvidia's sale of chips to China, Bessent says - Reuters",
-        "Costa’s compromise EU budget proposal fails to achieve consensus",
-        "China is winning the car war"
+        "Binance hackers push $247 million through transactions designed to cloud the source",
+        "Peterson: Here’s what Bessent’s about-face on Jensen Huang reveals about Trump and China",
+        "CNBC's The China Connection newsletter: AI race spreads from robots to smartphones"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "CoinDesk RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2900,
-      "search_score": 20,
-      "timeliness_score": 21,
-      "explanatory_score": 17,
-      "monetization_score": 14,
-      "risk_score": 7,
+      "demand_signal_score": 0,
+      "search_score": 12,
+      "timeliness_score": 13,
+      "explanatory_score": 18,
+      "monetization_score": 13,
+      "risk_score": 5,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 79.0,
+      "total_score": 61.0,
       "format": "macro_explainer"
     },
     {
@@ -244,7 +237,7 @@
         "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
         "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
       ],
-      "reason": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -253,14 +246,16 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
-        "South Korea vows to stabilise stock market after KOSPI drops 5% - Reuters",
-        "These little-known investments could be among the best bargains in a crash",
-        "S&P 500 Futures Rise After Tough Week"
+        "Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin",
+        "Nvidia soars as Jensen Huang returns to lead company",
+        "Mapping the Market: More losses could be ahead for beaten-down S&P 500 - Reuters",
+        "The newest addition to the S&P 500 is a maker of viral ice-cream machines",
+        "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
+        "CoinDesk RSS",
+        "Financial Times World",
         "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
@@ -268,18 +263,18 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 14,
-      "timeliness_score": 20,
-      "explanatory_score": 18,
+      "demand_signal_score": 3400,
+      "search_score": 24,
+      "timeliness_score": 21,
+      "explanatory_score": 19,
       "monetization_score": 15,
-      "risk_score": 8,
+      "risk_score": 6,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 75.0,
+      "total_score": 85.0,
       "format": "sector_analysis"
     }
   ]

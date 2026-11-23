@@ -11,13 +11,13 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - sample_headlines:
-  - Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand
-  - More on the pending oversight hearings: State of Crypto
-  - Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins
+  - Bitcoin rebound already losing steam as AI trade returns with a bang
+  - Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs
+  - Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin
 - recent_evidence:
-  - CoinDesk RSS | 2026-11-23T05:42:22+00:00 | Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand
-  - Cointelegraph | 2026-11-22T22:47:09+00:00 | Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest
-  - CoinDesk RSS | 2026-11-22T14:00:00+00:00 | Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins
+  - CoinDesk RSS | 2026-11-23T17:31:27+00:00 | Bitcoin rebound already losing steam as AI trade returns with a bang
+  - Cointelegraph | 2026-11-23T16:51:17+00:00 | Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations
+  - Cointelegraph | 2026-11-23T16:23:37+00:00 | Cross River Bank enters Bitcoin-backed lending with $250K loans
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
@@ -30,13 +30,13 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능
 - sample_headlines:
-  - OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos
-  - Trump renews call for Nvidia to rehire Jensen Huang as CEO
-  - U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case
+  - Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO
+  - Bitcoin rebound already losing steam as AI trade returns with a bang
+  - Nvidia soars as Jensen Huang returns to lead company
 - recent_evidence:
-  - CNBC Top News | 2026-11-23T05:08:03+00:00 | U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case
-  - Cointelegraph | 2026-11-23T03:37:20+00:00 | Trump renews call for Nvidia to rehire Jensen Huang as CEO
-  - NYT Business | 2026-11-22T17:55:31+00:00 | Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China
+  - CNBC Top News | 2026-11-23T23:42:17+00:00 | Trump sealed deal for Nvidia to rehire Jensen Huang as CEO
+  - NYT Business | 2026-11-23T23:18:58+00:00 | Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal
+  - CNBC Top News | 2026-11-23T23:14:34+00:00 | Jim Cramer sees more upside for Nvidia stock with Jensen Huang back as CEO
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
@@ -47,7 +47,7 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - keyword `fomc` / publish `2026-11-23` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (4개), 거시 해설형 글로 전환 가치 높음
+- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
 - sample_headlines:
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement

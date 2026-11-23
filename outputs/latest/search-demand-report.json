@@ -1,61 +1,12 @@
 {
-  "generated_at": "2026-11-23T06:57:53.402075+00:00",
+  "generated_at": "2026-11-23T23:44:57.589409+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
-    "unmatched_market_trend_count": 1,
+    "unmatched_market_trend_count": 0,
     "weak_trend_fallback_count": 4
   },
   "ranked_keyword_demand": [
-    {
-      "keyword": "bitcoin",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 5200,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 40,
-      "source_count": 3,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Investing.com Crypto News"
-      ],
-      "sample_titles": [
-        "Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand",
-        "More on the pending oversight hearings: State of Crypto",
-        "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins"
-      ]
-    },
-    {
-      "keyword": "fomc",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 4200,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 30,
-      "source_count": 4,
-      "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
-        "Federal Reserve Monetary Policy Press",
-        "Financial Times World"
-      ],
-      "sample_titles": [
-        "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-        "Federal Reserve issues FOMC statement",
-        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting"
-      ]
-    },
     {
       "keyword": "ai_semiconductors",
       "trend_count": 0,
@@ -63,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4100,
+      "demand_signal_score": 11200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 29,
+      "source_snapshot_score": 100,
       "source_count": 8,
       "source_names": [
         "CNBC Top News",
@@ -77,47 +28,85 @@
         "Financial Times World"
       ],
       "sample_titles": [
-        "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
-        "Trump renews call for Nvidia to rehire Jensen Huang as CEO",
-        "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case"
+        "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO",
+        "Bitcoin rebound already losing steam as AI trade returns with a bang",
+        "Nvidia soars as Jensen Huang returns to lead company"
       ]
     },
     {
-      "keyword": "china",
+      "keyword": "bitcoin",
       "trend_count": 0,
       "traffic_score_sum": 0,
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 2900,
+      "demand_signal_score": 5300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 17,
-      "source_count": 5,
+      "source_snapshot_score": 41,
+      "source_count": 3,
+      "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
+        "Investing.com Crypto News"
+      ],
+      "sample_titles": [
+        "Bitcoin rebound already losing steam as AI trade returns with a bang",
+        "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs",
+        "Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin"
+      ]
+    },
+    {
+      "keyword": "fomc",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3900,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 27,
+      "source_count": 3,
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
+        "CoinDesk RSS",
+        "Federal Reserve Monetary Policy Press"
+      ],
+      "sample_titles": [
+        "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting"
+      ]
+    },
+    {
+      "keyword": "us_index_flow",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 3400,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 22,
+      "source_count": 5,
+      "source_names": [
+        "CoinDesk RSS",
         "Financial Times World",
+        "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
       ],
       "sample_titles": [
-        "How Asian countries are looking to prop up markets as AI downturn sinks stocks",
-        "China is winning the car war",
-        "US seeks answers on Nvidia's sale of chips to China, Bessent says - Reuters"
+        "Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin",
+        "Nvidia soars as Jensen Huang returns to lead company",
+        "Mapping the Market: More losses could be ahead for beaten-down S&P 500 - Reuters"
       ]
     }
   ],
-  "unmatched_market_trends": [
-    {
-      "query": "dow jones stock markets",
-      "region": "US",
-      "approx_traffic": "5000+",
-      "traffic_score": 5000,
-      "market_relevance_score": 1,
-      "brand_identity_match": true,
-      "note": "시장/투자 관련 가능성이 있지만 현재 키워드 묶음에 직접 매핑되지 않음"
-    }
-  ]
+  "unmatched_market_trends": []
 }

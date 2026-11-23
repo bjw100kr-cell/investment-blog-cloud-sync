@@ -14,7 +14,7 @@
 - keyword: `bitcoin`
 - brand_lane: `crypto` (코인)
 - publish_date: `2026-11-24`
-- priority_score: `125.0`
+- priority_score: `123.0`
 - review_verdict: `approve`
 - freshness_status: `fresh`
 - quality_status: `pass`
@@ -32,7 +32,7 @@
 - keyword: `ai_semiconductors`
 - brand_lane: `us-stocks` (미국주식)
 - publish_date: `2026-11-25`
-- priority_score: `120.0`
+- priority_score: `124.0`
 - review_verdict: `approve`
 - freshness_status: `fresh`
 - quality_status: `pass`

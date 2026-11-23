@@ -118,11 +118,11 @@
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
-    "Trump renews call for Nvidia to rehire Jensen Huang as CEO",
-    "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
-    "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
-    "The problem with the circular AI economy"
+    "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO",
+    "Bitcoin rebound already losing steam as AI trade returns with a bang",
+    "Nvidia soars as Jensen Huang returns to lead company",
+    "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
+    "Nvidia surge: What investors should do with the stock and the AI trade now"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -185,8 +185,8 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 85.0,
-    "search_score": 26,
+    "total_score": 89.0,
+    "search_score": 30,
     "timeliness_score": 21,
     "explanatory_score": 18,
     "monetization_score": 15,
