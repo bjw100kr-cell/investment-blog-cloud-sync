@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-24T09:24:14.382378+00:00`
+- 생성 시각: `2026-11-24T22:16:25.392028+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 92.0
+- 각도: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- 점수: 86.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,7 +70,6 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Bitcoin's 5-year return is nearly zero, great narratives are fading and what's left is the Fed
 
 ## 2. bitcoin
 
@@ -136,17 +135,17 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - U.S. CFTC sets policies on event contract data, using crypto to check financial boxes
-  - Bitcoin rebound already losing steam as AI trade returns with a bang
-  - Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs
-  - Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin
-  - Bitcoin's 5-year return is nearly zero, great narratives are fading and what's left is the Fed
+  - 'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story
+  - Anchorage Digital to unveil new asset-management subsidiary
+  - South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment
+  - Crypto trader Ansem says his wallet was hacked as $2 million in memecoins were sold
+  - Live updates: Bitcoin pulls back below $60,000, stock rally fades, as tariffs re-enter the picture
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 - 각도: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 89.0
+- 점수: 88.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
 - 대체 제목:
@@ -206,17 +205,17 @@
 - CTA: 반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO
-  - Bitcoin rebound already losing steam as AI trade returns with a bang
-  - Six key questions raised by Jensen Huang's return to Nvidia
-  - Nvidia surge: What investors should do with the stock and the AI trade now
-  - Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts
+  - Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price
+  - Jensen Huang tells staff that Nvidia doesn't need a succession plan
+  - Trump wanted Jensen Huang back. Now, the president is all alone in Washington
+  - Anthropic closes below $83 IPO price, but analysts are still largely positive
+  - Huang says he still does not believe in CEO succession planning at Nvidia
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 섹터/세계 흐름 연결 해설 가능
-- 점수: 44.0
+- 각도: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
+- 점수: 65.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -276,4 +275,6 @@
 - CTA: 이런 거시 이벤트 해설을 꾸준히 받고 싶다면 다음 글도 이어서 확인해 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
-  - Binance hackers push $247 million through transactions designed to cloud the source
+  - Live updates: Bitcoin pulls back below $60,000, stock rally fades, as tariffs re-enter the picture
+  - Trump readies raft of new tariffs on major economies
+  - Blanche Downplays Questions Over Nvidia as Company’s Customers Come Under Scrutiny

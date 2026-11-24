@@ -109,7 +109,7 @@
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CNBC Top News",
-    "CoinDesk RSS",
+    "Cointelegraph",
     "Financial Times Home",
     "Financial Times World",
     "MarketWatch Breaking News",
@@ -117,11 +117,11 @@
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO",
-    "Bitcoin rebound already losing steam as AI trade returns with a bang",
-    "Six key questions raised by Jensen Huang's return to Nvidia",
-    "Nvidia surge: What investors should do with the stock and the AI trade now",
-    "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts"
+    "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price",
+    "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
+    "Trump wanted Jensen Huang back. Now, the president is all alone in Washington",
+    "Anthropic closes below $83 IPO price, but analysts are still largely positive",
+    "Huang says he still does not believe in CEO succession planning at Nvidia"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -184,8 +184,8 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 89.0,
-    "search_score": 30,
+    "total_score": 88.0,
+    "search_score": 29,
     "timeliness_score": 21,
     "explanatory_score": 18,
     "monetization_score": 15,

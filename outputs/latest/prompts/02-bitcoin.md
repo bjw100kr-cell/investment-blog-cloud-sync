@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
-    "Bitcoin rebound already losing steam as AI trade returns with a bang",
-    "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs",
-    "Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin",
-    "Bitcoin's 5-year return is nearly zero, great narratives are fading and what's left is the Fed"
+    "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
+    "Anchorage Digital to unveil new asset-management subsidiary",
+    "South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment",
+    "Crypto trader Ansem says his wallet was hacked as $2 million in memecoins were sold",
+    "Live updates: Bitcoin pulls back below $60,000, stock rally fades, as tariffs re-enter the picture"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [

@@ -4,53 +4,59 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - 원칙: 먼저 글을 읽고, 그 다음 confirm command 또는 helper apply command를 실행합니다.
 - item_count: `3`
 
-## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+- keyword `fomc` / publish `2026-11-24` / verdict `approve` / quality `pass`
+- ready_now: `True` / hero_image_selected: `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- why_now: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- sample_headlines:
+  - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
+  - Federal Reserve issues FOMC statement
+  - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
+- recent_evidence:
+  - Federal Reserve Monetary Policy Press | 2026-10-28T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
+
+## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword `bitcoin` / publish `2026-11-25` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - sample_headlines:
-  - U.S. CFTC sets policies on event contract data, using crypto to check financial boxes
-  - Bitcoin rebound already losing steam as AI trade returns with a bang
-  - Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs
+  - 'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story
+  - Anchorage Digital to unveil new asset-management subsidiary
+  - South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment
 - recent_evidence:
-  - Cointelegraph | 2026-11-24T07:41:50+00:00 | Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%
-  - Cointelegraph | 2026-11-24T05:07:30+00:00 | Why 42 Macro says it’s waiting to buy the Bitcoin dip
-  - Investing.com Crypto News | 2026-11-24 06:14:23 | Bitcoin hovers around $60k amid little relief from rate, regulatory jitters
+  - Cointelegraph | 2026-11-24T19:44:23+00:00 | Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares
+  - Cointelegraph | 2026-11-24T19:04:26+00:00 | Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years
+  - Cointelegraph | 2026-11-24T17:09:11+00:00 | Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
 - keyword `ai_semiconductors` / publish `2026-11-26` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - why_now: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
 - sample_headlines:
-  - Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO
-  - Bitcoin rebound already losing steam as AI trade returns with a bang
-  - Six key questions raised by Jensen Huang's return to Nvidia
+  - Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price
+  - Jensen Huang tells staff that Nvidia doesn't need a succession plan
+  - Trump wanted Jensen Huang back. Now, the president is all alone in Washington
 - recent_evidence:
-  - CNBC Top News | 2026-11-24T08:35:16+00:00 | Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts
-  - CNBC Top News | 2026-11-24T07:12:33+00:00 | Six key questions raised by Jensen Huang's return to Nvidia
-  - Financial Times Home | 2026-11-24T06:12:20+00:00 | Singapore is no backdoor for US chips, PM says
+  - NYT Business | 2026-11-24T22:02:13+00:00 | Blanche Downplays Questions Over Nvidia as Company’s Customers Come Under Scrutiny
+  - MarketWatch Breaking News | 2026-11-24T21:46:00+00:00 | Anthropic’s stock just broke below its IPO price for the first time
+  - Financial Times Home | 2026-11-24T21:11:37+00:00 | Anthropic closes below IPO price as tech rally fades
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`
-
-## 3. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-
-- keyword `china` / publish `2026-11-27` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 섹터/세계 흐름 연결 해설 가능
-- sample_headlines:
-  - Binance hackers push $247 million through transactions designed to cloud the source
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply`
