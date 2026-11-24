@@ -47,8 +47,8 @@
 - excerpt: - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다.
 - preview: 한 줄 요약: `현물 ETF 순유입/순유출`, `달러 인덱스와 미국채 금리`, `이더리움과 알트코인 확산 여부` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 비트코인 흐름은 가격 캔들만 보면 늦습니다. ETF 자금과 달러 흐름, 규제 뉴스가 먼저 분위기를 바꾸는 경우가 많습니다. - 강한 상승처럼 보여도 실제 자금 유입이 약하거나 달러가 강하면 흐름이 쉽게 끊길 수 있습니다. - 개인 투자자는 비트코인 단독 상승인지, 이더리움·알트코인·나스닥까지 같이 움직이는지를 함께 확인해야 합니다.
-- evidence: CoinDesk RSS / 2026-11-23T17:31:27+00:00 / Bitcoin rebound already losing steam as AI trade returns with a bang
-- evidence: Cointelegraph / 2026-11-23T16:51:17+00:00 / Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations
+- evidence: Cointelegraph / 2026-11-24T07:41:50+00:00 / Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%
+- evidence: Cointelegraph / 2026-11-24T05:07:30+00:00 / Why 42 Macro says it’s waiting to buy the Bitcoin dip
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - recovery_mode: `publish_direct`
@@ -75,8 +75,8 @@
 - excerpt: - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다.
 - preview: 한 줄 요약: `나스닥과 S&P500 상대 강도`, `미국채 10년물 금리`, `엔비디아·마이크로소프트 등 빅테크 실적 가이던스` 세 지표를 같이 봐야 이 이슈가 단기 뉴스인지 실제 흐름인지 구분할 수 있습니다.
 - preview: - 미국 증시 흐름은 지수 등락률만 보면 부족합니다. 금리와 달러, 빅테크 실적 기대가 같이 움직입니다. - 나스닥이 강해도 시장 폭이 좁으면 일부 대형주 쏠림일 수 있고, 반대로 섹터 확산이 나오면 추세가 더 단단해질 수 있습니다. - 개인 투자자는 지수보다 금리, 반도체·AI 대표주, 실적 가이던스, 거래대금 확산을 함께 보는 편이 좋습니다.
-- evidence: CNBC Top News / 2026-11-23T23:42:17+00:00 / Trump sealed deal for Nvidia to rehire Jensen Huang as CEO
-- evidence: NYT Business / 2026-11-23T23:18:58+00:00 / Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal
+- evidence: CNBC Top News / 2026-11-24T08:35:16+00:00 / Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts
+- evidence: CNBC Top News / 2026-11-24T07:12:33+00:00 / Six key questions raised by Jensen Huang's return to Nvidia
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - recovery_mode: `publish_direct`

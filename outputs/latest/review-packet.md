@@ -13,8 +13,8 @@
 
 - keyword: `fomc`
 - type: `main_post` / role `lane_focus_macro`
-- publish date: `2026-11-23`
-- priority: `137.0`
+- publish date: `2026-11-24`
+- priority: `135.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 환율·금리·미국증시 evergreen 글로 연결
@@ -35,8 +35,8 @@
 
 - keyword: `bitcoin`
 - type: `main_post` / role `lane_focus_crypto`
-- publish date: `2026-11-24`
-- priority: `123.0`
+- publish date: `2026-11-25`
+- priority: `126.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: ETF·규제·초보 가이드 글로 연결
@@ -57,7 +57,7 @@
 
 - keyword: `ai_semiconductors`
 - type: `main_post` / role `lane_focus_us-stocks`
-- publish date: `2026-11-25`
+- publish date: `2026-11-26`
 - priority: `124.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
@@ -79,8 +79,8 @@
 
 - keyword: `china`
 - type: `main_post` / role `lane_focus_world-flow`
-- publish date: `2026-11-26`
-- priority: `86.0`
+- publish date: `2026-11-27`
+- priority: `68.0`
 - internal review: `approve` / score `100`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
 - CTA focus: 실적·공급망·대표 종목 글로 연결
@@ -101,8 +101,8 @@
 
 - keyword: `seo_china_11`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-11-26`
-- priority: `85.5`
+- publish date: `2026-11-27`
+- priority: `67.5`
 - internal review: `approve` / score `100`
 - intent: 섹터 뉴스는 봤지만 실제 어떤 기업을 같이 봐야 하는지 알고 싶은 독자
 - CTA focus: 대표 종목 글과 허브 글 연결
@@ -123,8 +123,8 @@
 
 - keyword: `seo_china_12`
 - type: `seo_followup` / role `follow_up`
-- publish date: `2026-11-26`
-- priority: `82.5`
+- publish date: `2026-11-27`
+- priority: `64.5`
 - internal review: `approve` / score `100`
 - intent: 테마가 실제 공급망과 실적에 어떻게 연결되는지 알고 싶은 독자
 - CTA focus: 실적 해설과 글로벌 섹터 허브 연결
@@ -145,8 +145,8 @@
 
 - keyword: `seo_china_13`
 - type: `seo_followup` / role `evergreen_seo`
-- publish date: `2026-11-26`
-- priority: `79.5`
+- publish date: `2026-11-27`
+- priority: `61.5`
 - internal review: `approve` / score `100`
 - intent: 개별 종목보다 묶음으로 섹터를 이해하고 싶은 독자
 - CTA focus: 섹터 허브와 후속 비교 글 연결

@@ -91,7 +91,7 @@
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -110,7 +110,6 @@
   "source_names": [
     "CNBC Top News",
     "CoinDesk RSS",
-    "Cointelegraph",
     "Financial Times Home",
     "Financial Times World",
     "MarketWatch Breaking News",
@@ -120,9 +119,9 @@
   "reference_headlines": [
     "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO",
     "Bitcoin rebound already losing steam as AI trade returns with a bang",
-    "Nvidia soars as Jensen Huang returns to lead company",
-    "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
-    "Nvidia surge: What investors should do with the stock and the AI trade now"
+    "Six key questions raised by Jensen Huang's return to Nvidia",
+    "Nvidia surge: What investors should do with the stock and the AI trade now",
+    "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [

@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-23T23:44:57.589409+00:00`
+- 생성 시각: `2026-11-24T09:24:14.382378+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음
-- 점수: 94.0
+- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- 점수: 92.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -76,7 +76,7 @@
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 - 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- 점수: 84.0
+- 점수: 87.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -136,16 +136,16 @@
 - CTA: 비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
+  - U.S. CFTC sets policies on event contract data, using crypto to check financial boxes
   - Bitcoin rebound already losing steam as AI trade returns with a bang
   - Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs
   - Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin
   - Bitcoin's 5-year return is nearly zero, great narratives are fading and what's left is the Fed
-  - Nvidia soars as Jensen Huang returns to lead company
 
 ## 3. ai_semiconductors
 
 - 추천 제목: AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
-- 각도: 복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능
+- 각도: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
 - 점수: 89.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
@@ -208,15 +208,15 @@
 - 참고 헤드라인:
   - Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO
   - Bitcoin rebound already losing steam as AI trade returns with a bang
-  - Nvidia soars as Jensen Huang returns to lead company
-  - Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations
+  - Six key questions raised by Jensen Huang's return to Nvidia
   - Nvidia surge: What investors should do with the stock and the AI trade now
+  - Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts
 
 ## 4. china
 
 - 추천 제목: 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
-- 점수: 61.0
+- 각도: 섹터/세계 흐름 연결 해설 가능
+- 점수: 44.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -277,5 +277,3 @@
 - 면책문구: 이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.
 - 참고 헤드라인:
   - Binance hackers push $247 million through transactions designed to cloud the source
-  - Peterson: Here’s what Bessent’s about-face on Jensen Huang reveals about Trump and China
-  - CNBC's The China Connection newsletter: AI race spreads from robots to smartphones
