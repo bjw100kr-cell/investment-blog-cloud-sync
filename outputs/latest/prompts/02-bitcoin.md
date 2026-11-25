@@ -108,17 +108,17 @@
   "disclaimer": "이 글은 정보 제공 및 학습용 정리이며, 특정 자산에 대한 투자 권유나 자문이 아닙니다. 시장 데이터와 제도는 작성 시점 이후 달라질 수 있으므로 실제 투자 전에는 최신 공식 자료를 다시 확인해야 합니다.",
   "cta": "비트코인과 이더리움 흐름을 계속 추적하고 싶다면 다음 코인 해설 글도 함께 보세요.",
   "source_names": [
-    "CNBC Top News",
     "CoinDesk RSS",
     "Cointelegraph",
-    "Investing.com Crypto News"
+    "Investing.com Crypto News",
+    "MarketWatch Breaking News"
   ],
   "reference_headlines": [
-    "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive",
-    "A year after buying bitcoin, Czech central bank won't say what it's worth",
-    "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
-    "Anchorage Digital to unveil new asset-management subsidiary",
-    "South Korea’s crypto bill could move stablecoin race beyond token issuance"
+    "French Senate blocks new crypto tax and wallet list critics called a kidnapping risk",
+    "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles",
+    "EU bank watchdog seeks European Commission rules for crypto firms offering DeFi lending",
+    "Ukrainian lawmakers pass crypto tax and regulation bill expected to bring in $330 million",
+    "Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -181,7 +181,7 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 89.0,
+    "total_score": 87.0,
     "search_score": 29,
     "timeliness_score": 20,
     "explanatory_score": 17,
