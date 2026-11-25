@@ -91,7 +91,7 @@
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (엔비디아 ceo 미국 의회 조사 최신 뉴스 알려줘)",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -109,19 +109,20 @@
   "cta": "반도체와 AI 섹터 흐름이 이어질지 궁금하다면 다음 실적/섹터 글도 참고해 보세요.",
   "source_names": [
     "CNBC Top News",
+    "CoinDesk RSS",
     "Cointelegraph",
     "Financial Times Home",
     "Financial Times World",
+    "Google Trends KR",
     "MarketWatch Breaking News",
-    "NYT Business",
     "Reuters Markets via Google News RSS"
   ],
   "reference_headlines": [
-    "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price",
-    "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
-    "Trump wanted Jensen Huang back. Now, the president is all alone in Washington",
-    "Anthropic closes below $83 IPO price, but analysts are still largely positive",
-    "Huang says he still does not believe in CEO succession planning at Nvidia"
+    "엔비디아 ceo 미국 의회 조사 최신 뉴스 알려줘",
+    "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive",
+    "Trump says he's willing to give Nvidia's Huang a pardon, doesn't think he needs one",
+    "Trump willing to pardon Jensen Huang, says it won’t be necessary",
+    "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -185,9 +186,9 @@
   },
   "score_breakdown": {
     "total_score": 88.0,
-    "search_score": 29,
+    "search_score": 28,
     "timeliness_score": 21,
-    "explanatory_score": 18,
+    "explanatory_score": 19,
     "monetization_score": 15,
     "risk_score": 5
   },

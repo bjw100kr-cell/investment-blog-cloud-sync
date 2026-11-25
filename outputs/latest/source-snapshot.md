@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-24T22:16:25.392028+00:00`
+- 생성 시각: `2026-11-25T07:56:34.569502+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,50 +106,48 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `ai_semiconductors`: score 46, source_count 7, sources CNBC Top News, Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `bitcoin`: score 45, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
-- `us_index_flow`: score 25, source_count 4, sources CNBC Top News, Cointelegraph, MarketWatch Breaking News, Reuters Markets via Google News RSS
+- `bitcoin`: score 43, source_count 4, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `ai_semiconductors`: score 41, source_count 8, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times Home, Financial Times World, Google Trends KR, MarketWatch Breaking News, Reuters Markets via Google News RSS
 - `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `china`: score 9, source_count 3, sources CoinDesk RSS, Financial Times Home, NYT Business
-- `us_big_tech`: score 9, source_count 3, sources CNBC Top News, Financial Times Home, Reuters Markets via Google News RSS
-- `tariffs_trade`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `cpi`: score 6, source_count 2, sources CNBC Top News, Financial Times World
-- `crypto_etf`: score 4, source_count 1, sources CoinDesk RSS
+- `cpi`: score 12, source_count 3, sources CNBC Top News, Financial Times World, Reuters Markets via Google News RSS
+- `oil`: score 7, source_count 2, sources CoinDesk RSS, Reuters Markets via Google News RSS
+- `china`: score 6, source_count 2, sources Financial Times Home, Financial Times World
+- `dollar`: score 6, source_count 1, sources Reuters Markets via Google News RSS
+- `us_index_flow`: score 5, source_count 2, sources MarketWatch Breaking News, Reuters Markets via Google News RSS
 - `treasury_yields`: score 3, source_count 1, sources CNBC Top News
+- `crypto_etf`: score 3, source_count 1, sources Investing.com Crypto News
 
 ## 오늘의 글감 후보
 
-- `ai_semiconductors`: score 46, headlines 17
-  - Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price
-  - Jensen Huang tells staff that Nvidia doesn't need a succession plan
-  - Trump wanted Jensen Huang back. Now, the president is all alone in Washington
-- `bitcoin`: score 45, headlines 13
+- `bitcoin`: score 43, headlines 13
+  - Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive
+  - A year after buying bitcoin, Czech central bank won't say what it's worth
   - 'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story
-  - Anchorage Digital to unveil new asset-management subsidiary
-  - South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment
-- `us_index_flow`: score 25, headlines 9
-  - Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price
-  - Jensen Huang tells staff that Nvidia doesn't need a succession plan
-  - Trump wanted Jensen Huang back. Now, the president is all alone in Washington
+- `ai_semiconductors`: score 41, headlines 12
+  - 엔비디아 ceo 미국 의회 조사 최신 뉴스 알려줘
+  - Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive
+  - Trump says he's willing to give Nvidia's Huang a pardon, doesn't think he needs one
 - `fomc`: score 20, headlines 4
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-- `china`: score 9, headlines 3
-  - Live updates: Bitcoin pulls back below $60,000, stock rally fades, as tariffs re-enter the picture
+- `cpi`: score 12, headlines 4
+  - Treasury yields fall as investors await key inflation signal
+  - Gold slips on stronger dollar, US inflation data in focus - Reuters
+  - Dollar rallies before key inflation reading; Aussie and sterling slump - Reuters
+- `oil`: score 7, headlines 2
+  - Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive
+  - Indian benchmark shares rise as foreign inflows, lower oil prices aid sentiment - Reuters
+- `china`: score 6, headlines 2
   - Trump readies raft of new tariffs on major economies
-  - Blanche Downplays Questions Over Nvidia as Company’s Customers Come Under Scrutiny
-- `us_big_tech`: score 9, headlines 3
-  - Dell earnings beat on AI strength, company authorizes $25 billion buyback
-  - SpaceX-Tesla: the directors negotiating the biggest merger ever
-  - Possible Tesla merger could aid SpaceX's S&P 500 entry, ⁠J.P. Morgan says - Reuters
-- `tariffs_trade`: score 7, headlines 2
-  - Live updates: Bitcoin pulls back below $60,000, stock rally fades, as tariffs re-enter the picture
-  - Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price
-- `cpi`: score 6, headlines 2
-  - Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist
-  - Argentina expected to suffer technical recession in blow to Milei
-- `crypto_etf`: score 4, headlines 1
-  - Bitcoin drops as November spot ETF outflows increase to record $4.71 billion
-- `dollar`: score 3, headlines 1
-  - US stocks slide as Nvidia rally fizzles out, dollar falls - Reuters
+  - China issues list of demands to Brussels over EU trade talks
+- `dollar`: score 6, headlines 2
+  - Gold slips on stronger dollar, US inflation data in focus - Reuters
+  - Dollar rallies before key inflation reading; Aussie and sterling slump - Reuters
+- `us_index_flow`: score 5, headlines 2
+  - POLL Bruised S&P 500 seen gaining more than 12% by end-2027: Reuters poll - Reuters
+  - Anthropic’s stock just broke below its IPO price for the first time
+- `crypto_etf`: score 3, headlines 1
+  - Bitcoin extends losses below $59,000 as ETF outflows weigh
+- `tariffs_trade`: score 3, headlines 1
+  - Stocks retreat as AI rebound stumbles, tariff threats loom - Reuters

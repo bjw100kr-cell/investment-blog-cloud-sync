@@ -4,59 +4,56 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - 원칙: 먼저 글을 읽고, 그 다음 confirm command 또는 helper apply command를 실행합니다.
 - item_count: `3`
 
-## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
-- keyword `fomc` / publish `2026-11-24` / verdict `approve` / quality `pass`
+- keyword `bitcoin` / publish `2026-11-26` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- why_now: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - sample_headlines:
-  - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
-  - Federal Reserve issues FOMC statement
-  - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-- recent_evidence:
-  - Federal Reserve Monetary Policy Press | 2026-10-28T18:00:00+00:00 | Federal Reserve issues FOMC statement
-  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve issues FOMC statement
-  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
-
-## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-
-- keyword `bitcoin` / publish `2026-11-25` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
-- sample_headlines:
+  - Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive
+  - A year after buying bitcoin, Czech central bank won't say what it's worth
   - 'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story
-  - Anchorage Digital to unveil new asset-management subsidiary
-  - South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment
 - recent_evidence:
-  - Cointelegraph | 2026-11-24T19:44:23+00:00 | Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares
-  - Cointelegraph | 2026-11-24T19:04:26+00:00 | Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years
-  - Cointelegraph | 2026-11-24T17:09:11+00:00 | Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price
+  - CoinDesk RSS | 2026-11-25T04:50:08+00:00 | A year after buying bitcoin, Czech central bank won't say what it's worth
+  - Cointelegraph | 2026-11-25T01:40:59+00:00 | CleanSpark weighs selling more Bitcoin than it mines to de-risk books
+  - Investing.com Crypto News | 2026-11-25 06:19:34 | Bitcoin extends losses below $59,000 as ETF outflows weigh
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 3. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
 
-- keyword `ai_semiconductors` / publish `2026-11-26` / verdict `approve` / quality `pass`
+- keyword `ai_semiconductors` / publish `2026-11-27` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (7개), 섹터/세계 흐름 연결 해설 가능
+- why_now: 검색 트렌드 반응 존재, 복수 소스 교차 확인 가능 (8개), 섹터/세계 흐름 연결 해설 가능, 실제 급상승 검색어 반영 (엔비디아 ceo 미국 의회 조사 최신 뉴스 알려줘)
 - sample_headlines:
-  - Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price
-  - Jensen Huang tells staff that Nvidia doesn't need a succession plan
-  - Trump wanted Jensen Huang back. Now, the president is all alone in Washington
+  - 엔비디아 ceo 미국 의회 조사 최신 뉴스 알려줘
+  - Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive
+  - Trump says he's willing to give Nvidia's Huang a pardon, doesn't think he needs one
 - recent_evidence:
-  - NYT Business | 2026-11-24T22:02:13+00:00 | Blanche Downplays Questions Over Nvidia as Company’s Customers Come Under Scrutiny
-  - MarketWatch Breaking News | 2026-11-24T21:46:00+00:00 | Anthropic’s stock just broke below its IPO price for the first time
-  - Financial Times Home | 2026-11-24T21:11:37+00:00 | Anthropic closes below IPO price as tech rally fades
+  - Google Trends KR | 2026-11-24T21:50:00-08:00 | 엔비디아 ceo 미국 의회 조사 최신 뉴스 알려줘
+  - CNBC Top News | 2026-11-25T06:29:46+00:00 | AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze
+  - Financial Times Home | 2026-11-25T06:00:02+00:00 | Anthropic has pulled up the ladder
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`
+
+## 3. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
+
+- keyword `china` / publish `2026-11-28` / verdict `approve` / quality `pass`
+- ready_now: `True` / hero_image_selected: `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- why_now: 복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능
+- sample_headlines:
+  - Trump readies raft of new tariffs on major economies
+  - China issues list of demands to Brussels over EU trade talks
+- recent_evidence:
+  - Financial Times World | 2026-11-25T06:00:02+00:00 | China issues list of demands to Brussels over EU trade talks
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply`
