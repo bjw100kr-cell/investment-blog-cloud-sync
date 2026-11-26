@@ -113,11 +113,11 @@
     "Investing.com Crypto News"
   ],
   "reference_headlines": [
-    "Over 1,000 Bitcoin miners were tricked into working for a thief by a fake internet route",
-    "Bill to lock up U.S. government bitcoin for 20 years advances to full House",
-    "French Senate blocks new crypto tax and wallet list critics called a kidnapping risk",
-    "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles",
-    "EU bank watchdog seeks European Commission rules for crypto firms offering DeFi lending"
+    "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds",
+    "Bitcoin’s dormant supply rises, a behavior seen during previous bear-market bottoming phases",
+    "Crypto for Advisors: Four questions to ask before trusting a crypto exchange",
+    "Spain gives anti-laundering unit power to freeze crypto accounts without a judge",
+    "Standard Chartered's Zodia Custody suffers data breach, exposing client information"
   ],
   "voice_profile": "흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.",
   "human_touch_requirements": [
@@ -180,7 +180,7 @@
     "closing_example": "다만 코인 시장은 같은 재료라도 해석이 빠르게 뒤집히는 편입니다. 그래서 강세 논리만 보지 말고, 유동성이 약해질 때 어떤 신호가 먼저 나오는지도 함께 체크하는 편이 안전합니다."
   },
   "score_breakdown": {
-    "total_score": 87.0,
+    "total_score": 85.0,
     "search_score": 29,
     "timeliness_score": 18,
     "explanatory_score": 17,

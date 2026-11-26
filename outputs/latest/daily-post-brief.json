@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T07:47:45.818744+00:00",
+  "generated_at": "2026-11-26T21:20:49.802796+00:00",
   "topic_mix_policy": {
     "identity_statement": "블로그 정체성은 코인 단일 블로그가 아니라 거시경제, 코인, 미국증시/섹터, 세계 흐름을 함께 해설하는 투자·경제 블로그다.",
     "top_brief_diversity_key": "brand_lane",
@@ -45,7 +45,7 @@
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 지금 시장이 반응하는 이유",
         "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (3개), 거시 해설형 글로 전환 가치 높음",
+      "reason": "공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (5개), 거시 해설형 글로 전환 가치 높음",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -58,18 +58,20 @@
         "Federal Reserve issues FOMC statement",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-        "Gold ticks up after hitting 15-month low; Fed outlook in focus - Reuters"
+        "Bitcoin ETFs are bleeding cash and the Fed is unlikely to help"
       ],
       "reference_takeaways": [],
       "source_names": [
+        "CoinDesk RSS",
+        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times World",
+        "Financial Times Home",
         "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 3800,
+      "demand_signal_score": 4500,
       "search_score": 26,
       "timeliness_score": 25,
       "explanatory_score": 20,
@@ -101,11 +103,11 @@
         "내일 확인할 체크포인트"
       ],
       "sample_headlines": [
-        "Over 1,000 Bitcoin miners were tricked into working for a thief by a fake internet route",
-        "Bill to lock up U.S. government bitcoin for 20 years advances to full House",
-        "French Senate blocks new crypto tax and wallet list critics called a kidnapping risk",
-        "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles",
-        "EU bank watchdog seeks European Commission rules for crypto firms offering DeFi lending"
+        "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds",
+        "Bitcoin’s dormant supply rises, a behavior seen during previous bear-market bottoming phases",
+        "Crypto for Advisors: Four questions to ask before trusting a crypto exchange",
+        "Spain gives anti-laundering unit power to freeze crypto accounts without a judge",
+        "Standard Chartered's Zodia Custody suffers data breach, exposing client information"
       ],
       "reference_takeaways": [],
       "source_names": [
@@ -116,7 +118,7 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 6300,
+      "demand_signal_score": 7100,
       "search_score": 29,
       "timeliness_score": 18,
       "explanatory_score": 17,
@@ -124,13 +126,12 @@
       "risk_score": 3,
       "performance_bonus": 0.0,
       "search_demand_bonus": 3,
-      "crypto_market_signal_bonus": 5,
+      "crypto_market_signal_bonus": 3,
       "crypto_market_sentiment": "extreme_fear",
       "crypto_market_signal_notes": [
-        "BTCUSDT 24h change 2.88%",
         "Fear/Greed 11: Extreme Fear zone"
       ],
-      "total_score": 87.0,
+      "total_score": 85.0,
       "format": "crypto_analysis"
     },
     {
@@ -142,7 +143,7 @@
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
         "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (6개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "지금 이 섹터가 왜 움직이는가",
         "핵심 뉴스와 시장 반응",
@@ -151,17 +152,15 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
-        "Nvidia halts chip shipments to south-east Asia",
-        "‘Jensanity’ erupts in Taiwan and China on Nvidia founder’s comeback",
-        "Huang’s return is a terrible signal for US capitalism",
-        "Software stocks spared in tech rout as AI narrative shifts"
+        "Semiconductor chips are the new oil. Here's why",
+        "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
+        "Anthropic's slide tests Wall Street's lofty bets on future AI profits - Reuters",
+        "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+        "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance"
       ],
       "reference_takeaways": [],
       "source_names": [
         "CNBC Top News",
-        "Financial Times Home",
-        "Financial Times World",
         "MarketWatch Breaking News",
         "NYT Business",
         "Reuters Markets via Google News RSS"
@@ -169,30 +168,30 @@
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 4400,
-      "search_score": 26,
-      "timeliness_score": 21,
+      "demand_signal_score": 3100,
+      "search_score": 22,
+      "timeliness_score": 20,
       "explanatory_score": 17,
       "monetization_score": 15,
       "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 2,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 86.0,
+      "total_score": 81.0,
       "format": "sector_analysis"
     },
     {
-      "keyword": "china",
+      "keyword": "tariffs_trade",
       "category": "global-sector",
       "brand_lane": "world-flow",
       "title_candidates": [
-        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
-        "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유"
+        "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기",
+        "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기: 지금 시장이 반응하는 이유",
+        "관세와 무역 갈등이 증시에 미치는 영향: 환율과 공급망까지 보기"
       ],
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
+      "reason": "복수 소스 교차 확인 가능 (2개), 섹터/세계 흐름 연결 해설 가능",
       "outline": [
         "왜 지금 이 이슈가 중요한가",
         "실제로 발표되거나 벌어진 일",
@@ -201,32 +200,30 @@
         "개인 투자자가 볼 포인트"
       ],
       "sample_headlines": [
-        "How Trump’s latest tariff moves hand India an edge over rival Asian exporters",
-        "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
-        "‘Jensanity’ erupts in Taiwan and China on Nvidia founder’s comeback",
-        "In China, the ‘Female Gaze’ Is Driving a New Entertainment Boom"
+        "European stocks end higher on easing tariff fears, ECB leadership continuity - Reuters",
+        "Volatility-weary investors side swiped as tariff mayhem adds to tech pain - Reuters",
+        "Trump doubles down on his tariff agenda"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
-        "Financial Times Home",
-        "NYT Business"
+        "Financial Times World",
+        "Reuters Markets via Google News RSS"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 2300,
-      "search_score": 15,
-      "timeliness_score": 18,
-      "explanatory_score": 17,
+      "demand_signal_score": 0,
+      "search_score": 11,
+      "timeliness_score": 13,
+      "explanatory_score": 18,
       "monetization_score": 14,
       "risk_score": 7,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 1,
+      "search_demand_bonus": 0,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 71.0,
+      "total_score": 63.0,
       "format": "macro_explainer"
     },
     {
@@ -247,31 +244,31 @@
         "다음 실적/정책 이벤트"
       ],
       "sample_headlines": [
-        "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
-        "Is the stock market open for Thanksgiving? The answer might surprise you.",
-        "Trump Rejoiced in the Market’s Nvidia Surge. It Didn’t Last Long."
+        "Nasdaq exec pushes for common EU rules on tokenized securities",
+        "Hawkish Fed poised to raise rates despite stock market turmoil",
+        "Altria explores takeover bid for Imperial Brands"
       ],
       "reference_takeaways": [],
       "source_names": [
-        "CNBC Top News",
-        "MarketWatch Breaking News",
-        "NYT Business"
+        "Cointelegraph",
+        "Financial Times Home",
+        "Financial Times World"
       ],
       "trend_queries": [],
       "trend_regions": [],
       "fallback_source": "mapped_candidate",
-      "demand_signal_score": 0,
-      "search_score": 11,
+      "demand_signal_score": 2100,
+      "search_score": 14,
       "timeliness_score": 15,
-      "explanatory_score": 18,
+      "explanatory_score": 19,
       "monetization_score": 15,
-      "risk_score": 8,
+      "risk_score": 6,
       "performance_bonus": 0.0,
-      "search_demand_bonus": 0,
+      "search_demand_bonus": 1,
       "crypto_market_signal_bonus": 0,
       "crypto_market_sentiment": "",
       "crypto_market_signal_notes": [],
-      "total_score": 67.0,
+      "total_score": 69.0,
       "format": "sector_analysis"
     }
   ]
