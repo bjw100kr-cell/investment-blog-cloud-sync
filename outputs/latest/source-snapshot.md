@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-25T21:33:03.973244+00:00`
+- 생성 시각: `2026-11-26T07:47:45.818744+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -106,53 +106,44 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 57, source_count 4, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News, MarketWatch Breaking News
-- `fomc`: score 43, source_count 9, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Federal Reserve Monetary Policy Press, Financial Times Home, Financial Times World, Investing.com Crypto News, MarketWatch Breaking News, NYT Business
-- `ai_semiconductors`: score 31, source_count 6, sources Cointelegraph, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
-- `cpi`: score 23, source_count 6, sources CNBC Top News, CoinDesk RSS, Cointelegraph, Financial Times World, MarketWatch Breaking News, NYT Business
-- `treasury_yields`: score 13, source_count 4, sources CNBC Top News, CoinDesk RSS, Financial Times Home, Financial Times World
-- `us_index_flow`: score 12, source_count 4, sources Cointelegraph, Financial Times Home, Financial Times World, Reuters Markets via Google News RSS
-- `china`: score 8, source_count 3, sources CNBC Top News, Financial Times World, NYT Business
-- `ethereum`: score 7, source_count 2, sources CoinDesk RSS, Cointelegraph
-- `pce`: score 6, source_count 2, sources CNBC Top News, Cointelegraph
-- `tariffs_trade`: score 6, source_count 2, sources Cointelegraph, Reuters Markets via Google News RSS
+- `bitcoin`: score 51, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `ai_semiconductors`: score 32, source_count 6, sources CNBC Top News, Financial Times Home, Financial Times World, MarketWatch Breaking News, NYT Business, Reuters Markets via Google News RSS
+- `fomc`: score 26, source_count 3, sources Federal Reserve Monetary Policy Press, Financial Times World, Reuters Markets via Google News RSS
+- `china`: score 11, source_count 3, sources CNBC Top News, Financial Times Home, NYT Business
+- `us_index_flow`: score 7, source_count 3, sources CNBC Top News, MarketWatch Breaking News, NYT Business
+- `tariffs_trade`: score 6, source_count 2, sources CNBC Top News, Reuters Markets via Google News RSS
+- `crypto_etf`: score 3, source_count 1, sources Investing.com Crypto News
+- `oil`: score 3, source_count 1, sources Reuters Markets via Google News RSS
+- `dollar`: score 3, source_count 1, sources Reuters Markets via Google News RSS
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 57, headlines 17
+- `bitcoin`: score 51, headlines 15
+  - Over 1,000 Bitcoin miners were tricked into working for a thief by a fake internet route
+  - Bill to lock up U.S. government bitcoin for 20 years advances to full House
   - French Senate blocks new crypto tax and wallet list critics called a kidnapping risk
-  - 'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles
-  - EU bank watchdog seeks European Commission rules for crypto firms offering DeFi lending
-- `fomc`: score 43, headlines 12
+- `ai_semiconductors`: score 32, headlines 12
+  - S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk
+  - Nvidia halts chip shipments to south-east Asia
+  - ‘Jensanity’ erupts in Taiwan and China on Nvidia founder’s comeback
+- `fomc`: score 26, headlines 6
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
-- `ai_semiconductors`: score 31, headlines 12
-  - Nvidia agrees to $290M settlement over crypto mining revenue disclosures
-  - US stocks endure volatile session as AI trade remains under pressure
-  - ‘Tech bros strike back’ as Trump rescues Nvidia’s Huang
-- `cpi`: score 23, headlines 8
-  - Fed’s preferred inflation gauge lands with a December rate increase already priced in
-  - US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook
-  - Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%
-- `treasury_yields`: score 13, headlines 4
-  - Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan
-  - Saudi national in OpenAI bugging case is out on bond after DOJ tries to block release
-  - US Treasury financial crime watchdog hit by suspected cyber attack
-- `us_index_flow`: score 12, headlines 4
-  - Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%
-  - US stocks endure volatile session as AI trade remains under pressure
-  - Nasdaq, S&P 500 ease, but off lows of the day as investors seek bargains - Reuters
-- `china`: score 8, headlines 3
+- `china`: score 11, headlines 4
+  - How Trump’s latest tariff moves hand India an edge over rival Asian exporters
   - U.S. proposes new tariffs on 14 trading partners, including China and the EU
-  - Nvidia fallout exposes China’s fragility on frontier AI
-  - Trump Administration Unveils New Tariffs for China, EU and More, Citing Unfair Practices
-- `ethereum`: score 7, headlines 2
-  - Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes
-  - Ethereum Foundation backs Keccak-256 to counter quantum, AI threats
-- `pce`: score 6, headlines 2
-  - Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%
-  - Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank
+  - ‘Jensanity’ erupts in Taiwan and China on Nvidia founder’s comeback
+- `us_index_flow`: score 7, headlines 3
+  - S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk
+  - Is the stock market open for Thanksgiving? The answer might surprise you.
+  - Trump Rejoiced in the Market’s Nvidia Surge. It Didn’t Last Long.
 - `tariffs_trade`: score 6, headlines 2
-  - Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%
-  - Volatility-weary investors hammered as tariff mayhem adds to tech pain - Reuters
+  - How Trump’s latest tariff moves hand India an edge over rival Asian exporters
+  - Volatility-weary investors side swiped as tariff mayhem adds to tech pain - Reuters
+- `crypto_etf`: score 3, headlines 1
+  - Bitcoin recovers after hit from ETF outflows, AI rout, and hot U.S. economic data
+- `dollar`: score 3, headlines 1
+  - Dollar rally takes a pause for Thanksgiving - Reuters
+- `oil`: score 3, headlines 1
+  - Oil rises on supply concerns as Iran claims mine strikes on ships - Reuters
