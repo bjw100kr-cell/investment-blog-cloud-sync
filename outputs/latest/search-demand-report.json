@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T21:20:49.802796+00:00",
+  "generated_at": "2026-11-27T07:47:32.272047+00:00",
   "summary": {
     "trend_item_count": 16,
     "matched_keyword_count": 4,
@@ -14,11 +14,11 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 7100,
+      "demand_signal_score": 5200,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 59,
+      "source_snapshot_score": 40,
       "source_count": 3,
       "source_names": [
         "CoinDesk RSS",
@@ -38,23 +38,45 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 4500,
+      "demand_signal_score": 3500,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 33,
-      "source_count": 5,
+      "source_snapshot_score": 23,
+      "source_count": 2,
       "source_names": [
-        "CoinDesk RSS",
-        "Cointelegraph",
         "Federal Reserve Monetary Policy Press",
-        "Financial Times Home",
-        "Reuters Markets via Google News RSS"
+        "Financial Times Home"
       ],
       "sample_titles": [
         "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
         "Federal Reserve issues FOMC statement",
         "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting"
+      ]
+    },
+    {
+      "keyword": "china",
+      "trend_count": 0,
+      "traffic_score_sum": 0,
+      "max_approx_traffic": 0,
+      "trend_queries": [],
+      "regions": [],
+      "demand_signal_score": 2500,
+      "fallback_source": "source_snapshot_rank",
+      "confidence": "medium_low",
+      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
+      "source_snapshot_score": 13,
+      "source_count": 4,
+      "source_names": [
+        "CNBC Top News",
+        "Financial Times Home",
+        "NYT Business",
+        "무역킹 Trade King YouTube"
+      ],
+      "sample_titles": [
+        "China’s factories are growing profits again, but the AI boom is picking the winners",
+        "Chinese households shed billions in consumer debt",
+        "Taiwan Election Interference: Is China Aiming for Division?"
       ]
     },
     {
@@ -64,46 +86,21 @@
       "max_approx_traffic": 0,
       "trend_queries": [],
       "regions": [],
-      "demand_signal_score": 3100,
+      "demand_signal_score": 2300,
       "fallback_source": "source_snapshot_rank",
       "confidence": "medium_low",
       "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 19,
-      "source_count": 4,
+      "source_snapshot_score": 11,
+      "source_count": 3,
       "source_names": [
         "CNBC Top News",
         "MarketWatch Breaking News",
-        "NYT Business",
-        "Reuters Markets via Google News RSS"
+        "NYT Business"
       ],
       "sample_titles": [
-        "Semiconductor chips are the new oil. Here's why",
-        "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
-        "Anthropic's slide tests Wall Street's lofty bets on future AI profits - Reuters"
-      ]
-    },
-    {
-      "keyword": "us_index_flow",
-      "trend_count": 0,
-      "traffic_score_sum": 0,
-      "max_approx_traffic": 0,
-      "trend_queries": [],
-      "regions": [],
-      "demand_signal_score": 2100,
-      "fallback_source": "source_snapshot_rank",
-      "confidence": "medium_low",
-      "confidence_note": "Google Trends 직접 매칭이 아니라 뉴스/소스 빈도 기반 추정입니다.",
-      "source_snapshot_score": 9,
-      "source_count": 3,
-      "source_names": [
-        "Cointelegraph",
-        "Financial Times Home",
-        "Financial Times World"
-      ],
-      "sample_titles": [
-        "Nasdaq exec pushes for common EU rules on tokenized securities",
-        "Hawkish Fed poised to raise rates despite stock market turmoil",
-        "Altria explores takeover bid for Imperial Brands"
+        "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
+        "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+        "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance"
       ]
     }
   ],

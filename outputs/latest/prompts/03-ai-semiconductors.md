@@ -91,7 +91,7 @@
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 지금 시장이 반응하는 이유",
     "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지: 주식·코인 흐름 함께 보기"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -110,15 +110,14 @@
   "source_names": [
     "CNBC Top News",
     "MarketWatch Breaking News",
-    "NYT Business",
-    "Reuters Markets via Google News RSS"
+    "NYT Business"
   ],
   "reference_headlines": [
-    "Semiconductor chips are the new oil. Here's why",
-    "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
-    "Anthropic's slide tests Wall Street's lofty bets on future AI profits - Reuters",
+    "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
     "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
-    "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance"
+    "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
+    "Jensen Huang Is Back, and So Is His Plaque at Denny’s",
+    "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
   "human_touch_requirements": [
@@ -181,9 +180,9 @@
     "closing_example": "반면 테마가 너무 빠르게 달아오른 구간에서는 좋은 뉴스가 나와도 차익실현이 먼저 나올 수 있습니다. 그래서 다음 실적 일정이나 가이던스 변화까지 같이 보는 게 더 현실적인 접근입니다."
   },
   "score_breakdown": {
-    "total_score": 81.0,
-    "search_score": 22,
-    "timeliness_score": 20,
+    "total_score": 72.0,
+    "search_score": 15,
+    "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,
     "risk_score": 7
