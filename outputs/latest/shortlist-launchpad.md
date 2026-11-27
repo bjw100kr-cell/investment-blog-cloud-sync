@@ -4,59 +4,59 @@ shortlist 2개 글만 빠르게 검토하고 바로 다음 실행까지 이어�
 - 원칙: 먼저 글을 읽고, 그 다음 confirm command 또는 helper apply command를 실행합니다.
 - item_count: `3`
 
-## 1. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
+## 1. FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
+
+- keyword `fomc` / publish `2026-11-27` / verdict `approve` / quality `pass`
+- ready_now: `True` / hero_image_selected: `True`
+- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
+- why_now: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
+- sample_headlines:
+  - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
+  - Federal Reserve issues FOMC statement
+  - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
+- recent_evidence:
+  - Federal Reserve Monetary Policy Press | 2026-10-28T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve issues FOMC statement
+  - Federal Reserve Monetary Policy Press | 2026-09-16T18:00:00+00:00 | Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords fomc`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword fomc --apply`
+
+## 2. 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
 
 - keyword `bitcoin` / publish `2026-11-28` / verdict `approve` / quality `pass`
 - ready_now: `True` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- why_now: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - sample_headlines:
-  - A tiny payment can expose the IP address behind a bitcoin wallet, developer finds
-  - Bitcoin’s dormant supply rises, a behavior seen during previous bear-market bottoming phases
-  - Crypto for Advisors: Four questions to ask before trusting a crypto exchange
+  - Bitcoin 'death cross' is coming. Here's what happened after previous 13.
+  - Bitcoin on course to end seven-week losing streak while trailing stock rebound
+  - Live updates: Bitcoin's Thanksgiving gains prove fleeting
 - recent_evidence:
-  - Investing.com Crypto News | 2026-11-27 05:52:57 | Bitcoin recovers to $61.5k; set for first positive week in 8
-  - CoinDesk RSS | 2026-11-26T17:30:00+00:00 | A tiny payment can expose the IP address behind a bitcoin wallet, developer finds
-  - CoinDesk RSS | 2026-11-26T16:50:23+00:00 | Bitcoin’s dormant supply rises, a behavior seen during previous bear-market bottoming phases
+  - Cointelegraph | 2026-11-27T19:23:00+00:00 | Bitcoin whales pile into BTC despite shrinking profit cushion
+  - Cointelegraph | 2026-11-27T16:48:51+00:00 | Bitcoin price drops below $59K as Anthropic joins tech stock rebound
+  - CoinDesk RSS | 2026-11-27T12:16:07+00:00 | Bitcoin 'death cross' is coming. Here's what happened after previous 13.
 - confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords bitcoin`
 - helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin`
 - helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword bitcoin --apply`
 
-## 2. AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지
+## 3. 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
 
-- keyword `ai_semiconductors` / publish `2026-11-29` / verdict `approve` / quality `pass`
-- ready_now: `True` / hero_image_selected: `True`
-- intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능
-- sample_headlines:
-  - Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say
-  - I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?
-  - We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance
-- recent_evidence:
-  - NYT Business | 2026-11-27T02:45:41+00:00 | Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions
-  - MarketWatch Breaking News | 2026-11-27T01:15:00+00:00 | I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?
-  - MarketWatch Breaking News | 2026-11-27T00:31:00+00:00 | We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords ai_semiconductors`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword ai_semiconductors --apply`
-
-## 3. 중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유
-
-- keyword `china` / publish `2026-11-30` / verdict `approve` / quality `review_before_publish`
+- keyword `us_index_flow` / publish `2026-11-29` / verdict `approve` / quality `review_before_publish`
 - ready_now: `False` / hero_image_selected: `True`
 - intent: 당일 이슈가 내 투자에 어떤 영향을 주는지 빠르게 이해하고 싶은 독자
-- why_now: 복수 소스 교차 확인 가능 (4개), 섹터/세계 흐름 연결 해설 가능
+- why_now: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - sample_headlines:
-  - China’s factories are growing profits again, but the AI boom is picking the winners
-  - Chinese households shed billions in consumer debt
-  - Taiwan Election Interference: Is China Aiming for Division?
+  - What was Coinbase worth while Nasdaq was closed?
+  - The S&P 500 is in a correction. Bear markets and recessions don't always follow
+  - Trump’s Nvidia intervention has a cost for US stocks
 - recent_evidence:
-  - 무역킹 Trade King YouTube | 33K | Taiwan Election Interference: Is China Aiming for Division?
-  - CNBC Top News | 2026-11-27T06:09:51+00:00 | China’s factories are growing profits again, but the AI boom is picking the winners
-  - NYT Business | 2026-11-27T02:45:41+00:00 | Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions
-- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
-- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords china`
-- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china`
-- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword china --apply`
+  - NYT Business | 2026-11-27T18:58:04+00:00 | How to Live Calmly, Despite Stock Market Whiplash
+  - Financial Times Home | 2026-11-27T18:26:25+00:00 | Trump’s Nvidia intervention has a cost for US stocks
+  - Cointelegraph | 2026-11-27T14:40:54+00:00 | What was Coinbase worth while Nasdaq was closed?
+- confirm_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
+- next_command: `python3 /home/runner/work/investment-blog-cloud-sync/investment-blog-cloud-sync/scripts/set_review_approvals.py --keywords us_index_flow`
+- helper_preview_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow`
+- helper_apply_command: `python3 scripts/run_shortlist_keyword_flow.py --keyword us_index_flow --apply`
