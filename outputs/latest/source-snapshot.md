@@ -1,6 +1,6 @@
 # 투자 블로그 소스 스냅샷
 
-- 생성 시각: `2026-11-28T07:16:36.456472+00:00`
+- 생성 시각: `2026-11-28T19:53:22.700750+00:00`
 - 수집 성공 소스: `14`
 - 수집 아이템 수: `112`
 
@@ -100,22 +100,23 @@ If you are sure that the described cause is not responsible for this error and t
 
 ## 상위 키워드
 
-- `bitcoin`: score 47, source_count 3, sources CoinDesk RSS, Cointelegraph, Investing.com Crypto News
+- `bitcoin`: score 56, source_count 4, sources CoinDesk RSS, Cointelegraph, Financial Times Home, Investing.com Crypto News
 - `fomc`: score 20, source_count 1, sources Federal Reserve Monetary Policy Press
-- `china`: score 15, source_count 3, sources Cointelegraph, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
-- `us_index_flow`: score 14, source_count 4, sources CNBC Top News, Cointelegraph, Financial Times World, NYT Business
-- `crypto_etf`: score 9, source_count 2, sources Cointelegraph, Investing.com Crypto News
+- `china`: score 15, source_count 4, sources Cointelegraph, Financial Times World, Reuters Markets via Google News RSS, 무역킹 Trade King YouTube
 - `ai_semiconductors`: score 9, source_count 3, sources Cointelegraph, MarketWatch Breaking News, NYT Business
 - `dollar`: score 8, source_count 3, sources Cointelegraph, NYT Business, Reuters Markets via Google News RSS
+- `crypto_etf`: score 6, source_count 2, sources Cointelegraph, Investing.com Crypto News
+- `us_index_flow`: score 5, source_count 2, sources CNBC Top News, NYT Business
+- `oil`: score 3, source_count 1, sources CNBC Top News
 - `cpi`: score 3, source_count 1, sources CNBC Top News
-- `treasury_yields`: score 3, source_count 1, sources Financial Times Home
+- `us_big_tech`: score 3, source_count 1, sources CNBC Top News
 
 ## 오늘의 글감 후보
 
-- `bitcoin`: score 47, headlines 14
-  - Bitcoin 'death cross' is coming. Here's what happened after previous 13.
-  - Bitcoin on course to end seven-week losing streak while trailing stock rebound
-  - Live updates: Bitcoin's Thanksgiving gains prove fleeting
+- `bitcoin`: score 56, headlines 17
+  - Latvia's central bank pushes back on bitcoin reserve plans, takes cautious line on tokenization
+  - Bitcoin not delivering: The bear market has digital asset veteran questioning BTC's value
+  - Trump-linked crypto token WLFI plunges 50% to record lows
 - `fomc`: score 20, headlines 4
   - Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027
   - Federal Reserve issues FOMC statement
@@ -123,24 +124,24 @@ If you are sure that the described cause is not responsible for this error and t
 - `china`: score 15, headlines 5
   - China sets March 2027 rollout for blockchain identity regulations
   - PODCAST: China boost lifts tech - Reuters
-  - China stocks surge most in two years as Beijing vows stronger market support - Reuters
-- `us_index_flow`: score 14, headlines 5
-  - What was Coinbase worth while Nasdaq was closed?
-  - The S&P 500 is in a correction. Bear markets and recessions don't always follow
-  - Africa’s richest man is taking his mega-refinery public in a blockbuster IPO
+  - Island Nation Ditches China Security Pact for Australia
 - `ai_semiconductors`: score 9, headlines 4
   - Bitcoin price drops below $59K as Anthropic joins tech stock rebound
+  - We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance
   - I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?
-  - These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia
-- `crypto_etf`: score 9, headlines 3
-  - Franklin Templeton makes room for HYPE in crypto index ETF
-  - Bitcoin price falls below $60,000 as whales buy dip, ETF outflows mount
-  - Bitcoin recovers after hit from ETF outflows, AI rout, and hot U.S. economic data
 - `dollar`: score 8, headlines 3
   - Bitcoin price drops below $59K as Anthropic joins tech stock rebound
   - US stock selloffs trigger a new kind of dollar bounce - Reuters
   - Black Friday Deals and Holiday Sales Are Big Money for Influencers
+- `crypto_etf`: score 6, headlines 2
+  - Franklin Templeton makes room for HYPE in crypto index ETF
+  - Bitcoin pares losses near $59,500 after volatile week as ETF outflows persist
+- `us_index_flow`: score 5, headlines 2
+  - The S&P 500 is in a correction. Bear markets and recessions don't always follow
+  - How to Live Calmly, Despite Stock Market Whiplash
 - `cpi`: score 3, headlines 1
   - Inflation has shoppers hunting for value. That bodes well for Black Friday
-- `treasury_yields`: score 3, headlines 1
-  - Wave of cyber incidents rattles western economies
+- `oil`: score 3, headlines 1
+  - The Iran war could shatter rising expectations of surplus oil supply in coming months
+- `us_big_tech`: score 3, headlines 1
+  - AI shopping agents are having a moment, but Amazon and a growing number of sites threaten to stunt their growth

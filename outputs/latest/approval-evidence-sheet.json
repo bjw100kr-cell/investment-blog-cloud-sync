@@ -1,7 +1,75 @@
 {
-  "generated_at": "2026-11-28T07:16:36.456472+00:00",
+  "generated_at": "2026-11-28T19:53:22.700750+00:00",
   "item_count": 3,
   "items": [
+    {
+      "keyword": "fomc",
+      "title": "FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지",
+      "publish_date": "2026-11-28",
+      "priority_score": 128.0,
+      "ready_now": true,
+      "quality_status": "pass",
+      "reason": "공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음",
+      "format": "macro_explainer",
+      "source_names": [
+        "Federal Reserve Monetary Policy Press"
+      ],
+      "sample_headlines": [
+        "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+        "Federal Reserve issues FOMC statement",
+        "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting"
+      ],
+      "trend_queries": [],
+      "trend_regions": [],
+      "demand_signal_score": 3200,
+      "fallback_source": "source_snapshot_rank",
+      "source_count": 1,
+      "search_score": 19,
+      "timeliness_score": 25,
+      "monetization_score": 14,
+      "recent_evidence": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 28 Oct 2026 18:00:00 GMT",
+          "published_iso": "2026-10-28T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 16 Sep 2026 18:00:00 GMT",
+          "published_iso": "2026-09-16T18:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Wed, 18 Nov 2026 19:00:00 GMT",
+          "published_iso": "2026-11-18T19:00:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+          "source_type": "rss"
+        },
+        {
+          "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+          "source_name": "Federal Reserve Monetary Policy Press",
+          "published": "Thu, 12 Nov 2026 17:45:00 GMT",
+          "published_iso": "2026-11-12T17:45:00+00:00",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+          "source_type": "rss"
+        }
+      ]
+    },
     {
       "keyword": "bitcoin",
       "title": "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트",
@@ -9,34 +77,51 @@
       "priority_score": 126.0,
       "ready_now": true,
       "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+      "reason": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
       "format": "crypto_analysis",
       "source_names": [
         "CoinDesk RSS",
         "Cointelegraph",
+        "Financial Times Home",
         "Investing.com Crypto News"
       ],
       "sample_headlines": [
+        "Latvia's central bank pushes back on bitcoin reserve plans, takes cautious line on tokenization",
+        "Bitcoin not delivering: The bear market has digital asset veteran questioning BTC's value",
+        "Trump-linked crypto token WLFI plunges 50% to record lows",
         "Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
-        "Bitcoin on course to end seven-week losing streak while trailing stock rebound",
-        "Live updates: Bitcoin's Thanksgiving gains prove fleeting",
-        "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin",
-        "Tether can freeze stolen crypto in minutes. Getting it back can take years."
+        "Bitcoin on course to end seven-week losing streak while trailing stock rebound"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 5900,
+      "demand_signal_score": 6800,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 3,
+      "source_count": 4,
       "search_score": 29,
-      "timeliness_score": 18,
+      "timeliness_score": 20,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "Bitcoin price falls below $60,000 as whales buy dip, ETF outflows mount",
+          "title": "Latvia's central bank pushes back on bitcoin reserve plans, takes cautious line on tokenization",
+          "source_name": "CoinDesk RSS",
+          "published": "Sat, 28 Nov 2026 19:06:11 +0000",
+          "published_iso": "2026-11-28T19:06:11+00:00",
+          "link": "https://www.coindesk.com/business/2026/11/28/latvia-s-central-bank-pushes-back-on-bitcoin-reserve-plans-takes-cautious-line-on-tokenization",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin not delivering: The bear market has digital asset veteran questioning BTC's value",
+          "source_name": "CoinDesk RSS",
+          "published": "Sat, 28 Nov 2026 13:02:18 +0000",
+          "published_iso": "2026-11-28T13:02:18+00:00",
+          "link": "https://www.coindesk.com/markets/2026/11/28/bitcoin-not-delivering-the-bear-market-has-digital-asset-veteran-questioning-btc-s-value",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin pares losses near $59,500 after volatile week as ETF outflows persist",
           "source_name": "Investing.com Crypto News",
-          "published": "2026-11-28 05:56:50",
-          "published_iso": "2026-11-28 05:56:50",
+          "published": "2026-11-28 17:52:22",
+          "published_iso": "2026-11-28 17:52:22",
           "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-falls-below-60k-as-whales-buy-dip-etf-outflows-mount-5054180",
           "source_type": "rss"
         },
@@ -55,150 +140,68 @@
           "published_iso": "2026-11-27T16:48:51+00:00",
           "link": "https://cointelegraph.com/markets/bitcoin-price-below-59k-anthropic-tech-stock-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 27 Nov 2026 12:16:07 +0000",
-          "published_iso": "2026-11-27T12:16:07+00:00",
-          "link": "https://www.coindesk.com/daybook-us/2026/11/27/bitcoin-death-cross-is-coming-here-s-what-happened-after-previous-13",
-          "source_type": "rss"
-        },
-        {
-          "title": "Bitcoin on course to end seven-week losing streak while trailing stock rebound",
-          "source_name": "CoinDesk RSS",
-          "published": "Fri, 27 Nov 2026 11:45:47 +0000",
-          "published_iso": "2026-11-27T11:45:47+00:00",
-          "link": "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound",
-          "source_type": "rss"
         }
       ]
     },
     {
-      "keyword": "us_index_flow",
-      "title": "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유",
+      "keyword": "ai_semiconductors",
+      "title": "AI 반도체 주가를 볼 때 실적보다 먼저 확인할 3가지",
       "publish_date": "2026-11-30",
-      "priority_score": 113.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+      "priority_score": 105.0,
+      "ready_now": false,
+      "quality_status": "review_before_publish",
+      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
       "format": "sector_analysis",
       "source_names": [
-        "CNBC Top News",
         "Cointelegraph",
-        "Financial Times World",
+        "MarketWatch Breaking News",
         "NYT Business"
       ],
       "sample_headlines": [
-        "What was Coinbase worth while Nasdaq was closed?",
-        "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
-        "Africa’s richest man is taking his mega-refinery public in a blockbuster IPO",
-        "How to get more UK money into UK equity markets",
+        "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
+        "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
+        "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
         "How to Live Calmly, Despite Stock Market Whiplash"
       ],
       "trend_queries": [],
       "trend_regions": [],
-      "demand_signal_score": 2600,
+      "demand_signal_score": 2100,
       "fallback_source": "source_snapshot_rank",
-      "source_count": 4,
-      "search_score": 18,
-      "timeliness_score": 20,
+      "source_count": 3,
+      "search_score": 14,
+      "timeliness_score": 18,
       "monetization_score": 15,
       "recent_evidence": [
         {
-          "title": "How to Live Calmly, Despite Stock Market Whiplash",
-          "source_name": "NYT Business",
-          "published": "Fri, 27 Nov 2026 22:16:28 +0000",
-          "published_iso": "2026-11-27T22:16:28+00:00",
-          "link": "https://www.nytimes.com/2026/11/27/business/nvidia-jensen-huang-trump-markets.html",
-          "source_type": "rss"
-        },
-        {
-          "title": "What was Coinbase worth while Nasdaq was closed?",
-          "source_name": "Cointelegraph",
-          "published": "Fri, 27 Nov 2026 14:40:54 +0000",
-          "published_iso": "2026-11-27T14:40:54+00:00",
-          "link": "https://cointelegraph.com/news/what-was-coinbase-worth-while-nasdaq-was-closed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
-          "source_name": "CNBC Top News",
-          "published": "Fri, 27 Nov 2026 13:21:56 GMT",
-          "published_iso": "2026-11-27T13:21:56+00:00",
-          "link": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
-          "source_type": "rss"
-        }
-      ]
-    },
-    {
-      "keyword": "china",
-      "title": "중국 변수와 시장 영향: 환율, 경기부양, 원자재를 같이 봐야 하는 이유",
-      "publish_date": "2026-12-01",
-      "priority_score": 106.0,
-      "ready_now": true,
-      "quality_status": "pass",
-      "reason": "복수 소스 교차 확인 가능 (3개), 섹터/세계 흐름 연결 해설 가능",
-      "format": "macro_explainer",
-      "source_names": [
-        "Cointelegraph",
-        "Reuters Markets via Google News RSS",
-        "무역킹 Trade King YouTube"
-      ],
-      "sample_headlines": [
-        "China sets March 2027 rollout for blockchain identity regulations",
-        "PODCAST: China boost lifts tech - Reuters",
-        "China stocks surge most in two years as Beijing vows stronger market support - Reuters",
-        "Island Nation Ditches China Security Pact for Australia",
-        "Taiwan Election Interference: Is China Aiming for Division?"
-      ],
-      "trend_queries": [],
-      "trend_regions": [],
-      "demand_signal_score": 2700,
-      "fallback_source": "source_snapshot_rank",
-      "source_count": 3,
-      "search_score": 19,
-      "timeliness_score": 15,
-      "monetization_score": 14,
-      "recent_evidence": [
-        {
-          "title": "Taiwan Election Interference: Is China Aiming for Division?",
+          "title": "Semiconductors and Software Are Down—Who Is Actually Making Money from AI? Wall Street Legend Dru...",
           "source_name": "무역킹 Trade King YouTube",
-          "published": "41K",
-          "published_iso": "41K",
-          "link": "https://www.youtube.com/watch?v=-2IAOkxSfb0",
+          "published": "무역킹 Trade King",
+          "published_iso": "무역킹 Trade King",
+          "link": "https://www.youtube.com/watch?v=NGRjh6we67Q",
           "source_type": "youtube_channel"
         },
         {
-          "title": "Island Nation Ditches China Security Pact for Australia",
-          "source_name": "무역킹 Trade King YouTube",
-          "published": "21h ago",
-          "published_iso": "21h ago",
-          "link": "https://www.youtube.com/watch?v=hSHpw1jruO0",
-          "source_type": "youtube_channel"
+          "title": "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Sat, 28 Nov 2026 16:00:00 GMT",
+          "published_iso": "2026-11-28T16:00:00+00:00",
+          "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+          "source_type": "rss"
         },
         {
-          "title": "China sets March 2027 rollout for blockchain identity regulations",
+          "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+          "source_name": "MarketWatch Breaking News",
+          "published": "Sat, 28 Nov 2026 13:30:00 GMT",
+          "published_iso": "2026-11-28T13:30:00+00:00",
+          "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+          "source_type": "rss"
+        },
+        {
+          "title": "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
           "source_name": "Cointelegraph",
-          "published": "Fri, 27 Nov 2026 17:37:23 +0000",
-          "published_iso": "2026-11-27T17:37:23+00:00",
-          "link": "https://cointelegraph.com/news/china-march-2027-rollout-blockchain-identity-regulations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source_type": "rss"
-        },
-        {
-          "title": "PODCAST: China boost lifts tech - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Fri, 27 Nov 2026 12:41:50 GMT",
-          "published_iso": "2026-11-27T12:41:50+00:00",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOUxDcmFlaWNUU0dyU1hBUHdKX1BNV1QwUGxaSVlOTmNaNTQ3Rmd4WHpCMHRCbFBteFVTS1pyN2VMWjZsOXE1REg5cGcza213R21MbDJtWGxjTzE5VHBEYUU5eHpyVkZkZThSS203R3lteFVZOUJEc01XdUhocUxBOEN0aFVRdlZtQ0JjYXpZdlM?oc=5",
-          "source_type": "rss"
-        },
-        {
-          "title": "China stocks surge most in two years as Beijing vows stronger market support - Reuters",
-          "source_name": "Reuters Markets via Google News RSS",
-          "published": "Fri, 27 Nov 2026 06:24:00 GMT",
-          "published_iso": "2026-11-27T06:24:00+00:00",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLWxqTUV2X2RZam8zVGVSY2ZFTzRLQkxKYjdBUVJvR1dIOVlaczllTWRmay1FM3pMOHk5SlBjYkhxaDZ4YmJXbWM3NFpSRDBuWWs3T05QS2hZU2FoVzluTzJTMVFjQmhVS3B3a3ZQSXlOc0JKLV92RHZiNFZoNUlXUW5MMk1ncnpDXzVsMnhpTGx4OWpOVnpCNjlWRlJCa1Bp?oc=5",
+          "published": "Fri, 27 Nov 2026 16:48:51 +0000",
+          "published_iso": "2026-11-27T16:48:51+00:00",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-below-59k-anthropic-tech-stock-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source_type": "rss"
         }
       ]
