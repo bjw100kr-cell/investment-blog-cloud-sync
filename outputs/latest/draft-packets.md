@@ -1,12 +1,12 @@
 # 초안 생성 패킷
 
-- 생성 시각: `2026-11-27T21:01:22.726255+00:00`
+- 생성 시각: `2026-11-28T07:16:36.456472+00:00`
 
 ## 1. fomc
 
 - 추천 제목: FOMC 이후 시장, 주식과 코인이 같이 흔들리는 이유와 확인할 3가지
-- 각도: 공식 소스 기반 확인 가능, 복수 소스 교차 확인 가능 (2개), 거시 해설형 글로 전환 가치 높음
-- 점수: 91.0
+- 각도: 공식 소스 기반 확인 가능, 거시 해설형 글로 전환 가치 높음
+- 점수: 86.0
 - 톤 목표: 뉴스 브리핑보다 가까운 설명형 톤. 거시 이슈를 친구에게 풀어주듯 쓰되 숫자와 출처는 정확하게.
 - 편집 패턴: news_what_it_means
 - 대체 제목:
@@ -70,12 +70,11 @@
   - Federal Reserve issues FOMC statement
   - Federal Reserve issues FOMC statement
   - Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-  - Gold pares gains as Fed-hike risks linger, eyes first weekly rise in three weeks - Reuters
 
 ## 2. bitcoin
 
 - 추천 제목: 비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트
-- 각도: 복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
+- 각도: 복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)
 - 점수: 87.0
 - 톤 목표: 흥분한 코인방 톤이 아니라 차분한 시장 해설 톤. 가격보다 구조를 설명하는 느낌.
 - 편집 패턴: news_what_it_means
@@ -145,7 +144,7 @@
 ## 3. us_index_flow
 
 - 추천 제목: 미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유
-- 각도: 복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
+- 각도: 복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능
 - 점수: 78.0
 - 톤 목표: 종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.
 - 편집 패턴: search_explainer
@@ -208,8 +207,8 @@
 - 참고 헤드라인:
   - What was Coinbase worth while Nasdaq was closed?
   - The S&P 500 is in a correction. Bear markets and recessions don't always follow
-  - Trump’s Nvidia intervention has a cost for US stocks
-  - Trump’s Nvidia intervention has a cost for US stocks
+  - Africa’s richest man is taking his mega-refinery public in a blockbuster IPO
+  - How to get more UK money into UK equity markets
   - How to Live Calmly, Despite Stock Market Whiplash
 
 ## 4. china

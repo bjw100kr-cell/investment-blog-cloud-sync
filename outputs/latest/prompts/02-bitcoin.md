@@ -91,7 +91,7 @@
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트: 지금 시장이 반응하는 이유",
     "비트코인 가격보다 먼저 봐야 할 것: ETF 자금, 달러, 규제 체크포인트"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (4개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
+  "summary_angle": "복수 소스 교차 확인 가능 (3개), 코인 독자 유입과 재방문 가능성, 코인 시장 신호 반영 (extreme_fear)",
   "outline": [
     "오늘 코인 시장 핵심 변화",
     "가격이 아니라 구조상 중요한 포인트",
@@ -110,8 +110,7 @@
   "source_names": [
     "CoinDesk RSS",
     "Cointelegraph",
-    "Investing.com Crypto News",
-    "NYT Business"
+    "Investing.com Crypto News"
   ],
   "reference_headlines": [
     "Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
@@ -183,7 +182,7 @@
   "score_breakdown": {
     "total_score": 87.0,
     "search_score": 29,
-    "timeliness_score": 20,
+    "timeliness_score": 18,
     "explanatory_score": 17,
     "monetization_score": 15,
     "risk_score": 3

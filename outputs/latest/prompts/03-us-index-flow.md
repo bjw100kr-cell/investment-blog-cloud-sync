@@ -91,7 +91,7 @@
     "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유: 지금 시장이 반응하는 이유",
     "미국 증시 지수 흐름: 나스닥, 금리, 빅테크 실적을 같이 봐야 하는 이유"
   ],
-  "summary_angle": "복수 소스 교차 확인 가능 (5개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
+  "summary_angle": "복수 소스 교차 확인 가능 (4개), 검색량 높은 미국 증시 키워드를 시장 맥락으로 해설 가능",
   "outline": [
     "지금 이 섹터가 왜 움직이는가",
     "핵심 뉴스와 시장 반응",
@@ -110,15 +110,14 @@
   "source_names": [
     "CNBC Top News",
     "Cointelegraph",
-    "Financial Times Home",
     "Financial Times World",
     "NYT Business"
   ],
   "reference_headlines": [
     "What was Coinbase worth while Nasdaq was closed?",
     "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
-    "Trump’s Nvidia intervention has a cost for US stocks",
-    "Trump’s Nvidia intervention has a cost for US stocks",
+    "Africa’s richest man is taking his mega-refinery public in a blockbuster IPO",
+    "How to get more UK money into UK equity markets",
     "How to Live Calmly, Despite Stock Market Whiplash"
   ],
   "voice_profile": "종목 추천글처럼 보이지 않게, 산업 흐름을 이해시키는 애널리스트형 친근 톤.",
@@ -183,8 +182,8 @@
   },
   "score_breakdown": {
     "total_score": 78.0,
-    "search_score": 17,
-    "timeliness_score": 21,
+    "search_score": 18,
+    "timeliness_score": 20,
     "explanatory_score": 19,
     "monetization_score": 15,
     "risk_score": 6
